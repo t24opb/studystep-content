@@ -1,0 +1,906 @@
+{
+ "topicId": "sci-electricity-y10",
+ "questions": [
+  {
+   "id": "sci-electricity-y10-0001",
+   "topicId": "sci-electricity-y10",
+   "stem": "In a coal-fired power station, what is the immediate job of the burning coal?",
+   "imageRef": null,
+   "options": [
+    "To magnetise the coils of wire inside the generator",
+    "To convert alternating current into direct current for the grid",
+    "To heat water into high-pressure steam that spins a turbine",
+    "To push electrons directly along the transmission wires"
+   ],
+   "correctIndex": 2,
+   "explanation": "Combustion of coal releases chemical energy as heat, which boils water to make high-pressure steam; the steam turns a turbine, and the turbine spins a magnet relative to coils in the generator to induce AC. Saying the coal pushes electrons along the wires confuses the energy source with the charge carriers \u2014 the electrons are already in the wires and are merely made to oscillate. The cue is that fuels in a power station are always there to make steam, never to supply the charge itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0002",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which pair of sources both generate electricity as direct current (DC)?",
+   "imageRef": null,
+   "options": [
+    "Tidal turbines and nuclear power stations",
+    "Photovoltaic cells and batteries",
+    "Wind turbines and photovoltaic cells",
+    "Batteries and hydroelectric turbines"
+   ],
+   "correctIndex": 1,
+   "explanation": "DC is produced by sources where the current always flows one way, such as a chemical cell or a photovoltaic cell in which light frees charges across a fixed junction. Wind and hydro turbines spin magnets relative to coils, so the induced current reverses direction repeatedly and is AC. The cue is simple: if something spins, the output is AC; if nothing moves, as in a battery or solar cell, the output is DC.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0003",
+   "topicId": "sci-electricity-y10",
+   "stem": "A remote homestead uses solar panels during the day and stores energy in a battery bank, but its appliances need 240 V AC. Which statement about this system is correct?",
+   "imageRef": null,
+   "options": [
+    "The battery supplies AC directly, so only the panels need an inverter",
+    "The panels supply DC and the battery automatically outputs AC when discharging",
+    "The panels and battery both supply DC, so an inverter is needed to produce AC",
+    "The panels supply AC and the battery converts it to DC for storage"
+   ],
+   "correctIndex": 2,
+   "explanation": "Photovoltaic cells and batteries are both DC sources, so an inverter is required to change the DC into the alternating current household appliances are designed for. The suggestion that the panels supply AC reverses the situation \u2014 no spinning magnet is involved, so nothing makes the current reverse. The rule to carry into the test is that AC only arises from a generator or from electronics such as an inverter that deliberately switches the current.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0004",
+   "topicId": "sci-electricity-y10",
+   "stem": "Electricity is sent from power stations along transmission lines at very high voltage. Why is high voltage used?",
+   "imageRef": null,
+   "options": [
+    "A smaller current flows for the same power, so less energy is lost as heat in the lines",
+    "High voltage pushes the electrons along the wires much faster, so less time is lost",
+    "High voltage stops the alternating current from reversing direction along the line",
+    "Higher voltage means the wires can be made from cheaper insulating material"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a given amount of power, raising the voltage lowers the current, and heating losses in the wires depend strongly on current, so high-voltage transmission wastes less energy. The idea that high voltage speeds up the electrons is a common misconception \u2014 the drift of charges stays very slow, and losses are about current, not speed. Transformers step the voltage up for transmission and back down before homes.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0005",
+   "topicId": "sci-electricity-y10",
+   "stem": "What is the essential requirement for a generator to produce an electric current in its coils?",
+   "imageRef": null,
+   "options": [
+    "Relative movement between a magnet and a coil of wire",
+    "A steady, unchanging magnetic field held close to a coil",
+    "A chemical reaction occurring inside the metal of the coil",
+    "Heating the coil so that electrons are released from the metal"
+   ],
+   "correctIndex": 0,
+   "explanation": "A generator works because a changing magnetic field through a coil induces a voltage, and that change is produced by spinning a magnet near a coil (or a coil in a field). A steady, unchanging magnetic field held close to a coil induces nothing at all \u2014 it is the change, not the mere presence, of the field that matters. Chemical reactions belong to batteries, not generators.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0006",
+   "topicId": "sci-electricity-y10",
+   "stem": "In a wind farm, a gas-fired station and a hydro-electric station, which component is common to all three?",
+   "imageRef": null,
+   "options": [
+    "A chemical cell that stores charge",
+    "A turbine that is made to spin",
+    "A boiler that produces high-pressure steam",
+    "A photovoltaic cell that absorbs light"
+   ],
+   "correctIndex": 1,
+   "explanation": "All three drive a turbine, which turns the magnet in the generator; only the thing pushing the turbine differs (wind, burning gas heating water to steam, or falling water). A boiler producing steam is common to gas, coal and nuclear stations but wind and hydro turn the turbine directly with no steam at all. Photovoltaic cells and chemical cells produce DC and involve no turbine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0007",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which statement correctly describes the difference between alternating current and direct current?",
+   "imageRef": null,
+   "options": [
+    "AC carries energy while DC carries only voltage with no energy transfer",
+    "AC can only exist in wires while DC can only exist inside magnets",
+    "In AC the current periodically reverses direction; in DC it flows one way only",
+    "In AC the current flows one way only; in DC it reverses direction periodically"
+   ],
+   "correctIndex": 2,
+   "explanation": "Alternating current changes direction repeatedly (in Australia, 50 cycles each second), while direct current from cells or photovoltaic panels flows steadily in one direction. The reversed version of this statement is the most common slip \u2014 students remember the word 'direct' but attach it to the changing current. Link 'direct' to 'one direction' as a memory cue.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0008",
+   "topicId": "sci-electricity-y10",
+   "stem": "In a nuclear power station, what role does the nuclear reaction play in producing electricity?",
+   "imageRef": null,
+   "options": [
+    "It releases heat that boils water to make steam for turning a turbine",
+    "It pushes electrons directly along the transmission wires as a current",
+    "It creates a magnetic field that induces current in a coil without a turbine",
+    "It splits water molecules to release charged particles that carry current"
+   ],
+   "correctIndex": 0,
+   "explanation": "Nuclear stations are heat engines: the reaction in the fuel heats water into high-pressure steam, the steam spins a turbine, and the turbine turns the generator's magnet. Saying it pushes electrons directly along the wires skips the entire mechanical stage and confuses a heat source with an electrical source. The cue is that oil, gas, coal and nuclear all differ only in how the water is heated.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0009",
+   "topicId": "sci-electricity-y10",
+   "stem": "A tidal power scheme and a coal-fired station both feed the same electricity grid. Which comparison is correct?",
+   "imageRef": null,
+   "options": [
+    "Only the tidal scheme uses a turbine; coal stations use chemical cells",
+    "Both produce AC, but only the coal station burns fuel to heat water",
+    "Both produce DC, and both rely on steam pushing a turbine",
+    "The tidal scheme produces DC while the coal station produces AC"
+   ],
+   "correctIndex": 1,
+   "explanation": "Any generator using a spinning magnet and coil produces AC, so both feed AC to the grid; the difference is only in what turns the turbine \u2014 moving tidal water versus steam from burning coal. Saying the tidal scheme produces DC confuses 'natural, renewable source' with 'DC', but DC comes from photovoltaic cells and batteries, not from moving magnets. The cue is: spinning magnet means AC, whatever the energy source.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0010",
+   "topicId": "sci-electricity-y10",
+   "stem": "Two identical generators are tested. Generator B's magnet is spun twice as fast as Generator A's. What happens to Generator B's output?",
+   "imageRef": null,
+   "options": [
+    "The voltage is halved because the magnetic field has less time to act on the coil",
+    "A larger voltage is produced and the current alternates more times each second",
+    "A larger voltage is produced but the current stops alternating and becomes DC",
+    "The voltage is unchanged, but the current alternates more times each second"
+   ],
+   "correctIndex": 1,
+   "explanation": "Faster spinning means the magnetic field through the coil changes more rapidly, which induces a bigger voltage, and each full turn produces one cycle so the frequency also rises. The idea that voltage stays the same while only frequency rises misses that induced voltage depends on the rate of change of the field, not just on the number of cycles. Remember: faster change means both a bigger peak voltage and more cycles per second.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0011",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which describes the mains electricity supplied to Australian homes?",
+   "imageRef": null,
+   "options": [
+    "Direct current held at a steady 230\u2013240 volts by the station's generators",
+    "Alternating current completing about 50 cycles a second at roughly 12 volts",
+    "Direct current reversing direction about 50 times every second in the wires",
+    "Alternating current at about 50 cycles a second and roughly 230\u2013240 volts"
+   ],
+   "correctIndex": 3,
+   "explanation": "Large generators in Australia spin at a rate that produces alternating current at 50 hertz, delivered to homes at about 230\u2013240 volts. The 'direct current that reverses direction' option is self-contradictory: current that reverses is by definition alternating, not direct. The 12 volt option confuses mains supply with the low-voltage DC used in cars and many electronic devices. Cue: mains = AC, 50 Hz, around 230 V.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0012",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which of these energy sources turns a turbine directly, without first having to heat water to make steam?",
+   "imageRef": null,
+   "options": [
+    "Water falling through the pipes of a hydro-electric dam",
+    "Uranium undergoing fission in a nuclear reactor core",
+    "Black coal being burnt in the furnace of a power station",
+    "Fuel oil being burnt in a boiler at a thermal power station"
+   ],
+   "correctIndex": 0,
+   "explanation": "In a hydro-electric scheme the moving water itself pushes the turbine blades, so no steam stage is needed. Nuclear fission is the most tempting alternative because it involves no combustion, but the heat it releases is still used to boil water and the steam is what drives the turbine. Burning coal or oil likewise only heats water. Cue: ask whether the fuel makes heat \u2014 if so, steam is the go-between.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0013",
+   "topicId": "sci-electricity-y10",
+   "stem": "A student steadily spins a bar magnet inside a coil of wire connected to a sensitive centre-zero meter. What will the meter show?",
+   "imageRef": null,
+   "options": [
+    "The needle swings repeatedly to one side then the other, showing a current that keeps reversing",
+    "The needle holds a steady deflection to one side for as long as the magnet keeps spinning",
+    "The needle stays on zero while the magnet spins and deflects only at the moment it stops",
+    "The needle deflects once as the spinning starts and then returns to zero and stays there"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the magnet rotates, each end sweeps past the coil in turn, so the magnetic field through the coil keeps changing direction and the induced current alternates \u2014 that is exactly how AC is generated. The steady one-way deflection option describes DC and would only occur if the field through the coil changed in one direction continuously, which a rotating magnet does not do. Movement is what induces current, so a stationary or stopped magnet gives nothing. Cue: spinning magnet in Australia's power stations and in this coil both give AC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0014",
+   "topicId": "sci-electricity-y10",
+   "stem": "A step-down transformer at a suburban substation takes in electricity at 22 000 V and supplies it to homes at 230 V. Which statement about this is correct?",
+   "imageRef": null,
+   "options": [
+    "Both the voltage and the current are reduced, so much less energy has to be generated at the power station",
+    "The voltage is reduced and the current is also reduced by the same factor, halving the energy losses in the wires",
+    "The voltage is reduced and the alternating current is converted to direct current suitable for household wiring",
+    "The voltage is reduced and the current supplied is correspondingly larger, with the power delivered almost unchanged"
+   ],
+   "correctIndex": 3,
+   "explanation": "A transformer transfers energy at close to constant power, so if voltage is stepped down by a factor of about 96, the current available in the low-voltage lines is about 96 times larger. The option saying both voltage and current fall is tempting but would mean power simply disappears, which breaks conservation of energy. Transformers also cannot change AC into DC \u2014 they only work on AC in the first place. Cue: power in \u2248 power out, so voltage down means current up.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0015",
+   "topicId": "sci-electricity-y10",
+   "stem": "Why is electricity distributed around the country as AC rather than DC?",
+   "imageRef": null,
+   "options": [
+    "AC voltages can be stepped up and down easily by transformers, which do not work with steady DC",
+    "DC cannot travel along metal transmission wires for more than a few kilometres before it stops",
+    "AC electrons travel along the wires much faster than DC electrons, so the energy arrives sooner",
+    "AC loses no energy as heat in the transmission wires, whereas DC always heats the wires strongly"
+   ],
+   "correctIndex": 0,
+   "explanation": "Transformers rely on a continually changing magnetic field, so only alternating current can have its voltage raised for efficient long-distance transmission and lowered again for safe household use. The claim that DC cannot travel far is false \u2014 DC does flow along wires and is used in some special high-voltage links; it is simply hard to change its voltage. All currents, AC included, heat resistive wires, which is precisely why high voltage (low current) is used. Cue: the advantage of AC is voltage-changing, not speed or zero loss.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0016",
+   "topicId": "sci-electricity-y10",
+   "stem": "In a power station, which component actually converts the kinetic energy of a spinning shaft into electrical energy?",
+   "imageRef": null,
+   "options": [
+    "The turbine, in which blades are pushed around by steam or water",
+    "The transformer, in which voltage is changed for the lines",
+    "The condenser, in which used steam is cooled back to water",
+    "The generator, in which magnets and coils move relative to each other"
+   ],
+   "correctIndex": 3,
+   "explanation": "Electricity is produced by electromagnetic induction: relative movement between a magnet and a coil of wire induces a voltage, and this happens inside the generator. The turbine is the most tempting choice, but a turbine only converts the energy of moving steam, water, wind or tides into rotation \u2014 it does not make current. A transformer changes the voltage of electricity that already exists, and a condenser is part of the water cycle in a thermal station.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0017",
+   "topicId": "sci-electricity-y10",
+   "stem": "Photovoltaic (solar) cells on a house roof produce electricity that is:",
+   "imageRef": null,
+   "options": [
+    "alternating current, which the roof wiring later straightens out",
+    "direct current only in summer, and alternating current in winter",
+    "direct current, because the cells push charge one way only",
+    "alternating current at 50 Hz, matching the household mains"
+   ],
+   "correctIndex": 2,
+   "explanation": "A photovoltaic cell uses light to drive charge in one fixed direction through the circuit, so its output is direct current, just like a battery. Saying the cells give alternating current at 50 Hz confuses the panel's output with the mains supply the house needs \u2014 the 50 Hz AC is created afterwards by an inverter. Remember the rule: spinning magnets give AC, while cells and batteries give DC.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0018",
+   "topicId": "sci-electricity-y10",
+   "stem": "Australian mains electricity is described as 50 Hz AC. What does the '50 Hz' tell you?",
+   "imageRef": null,
+   "options": [
+    "The supply voltage rises to 50 volts before falling back to zero",
+    "Electrons travel about 50 metres along the wire each second",
+    "The current completes 50 full back-and-forth cycles each second",
+    "The generator magnets complete 50 full turns each minute"
+   ],
+   "correctIndex": 2,
+   "explanation": "Hertz measures cycles per second, so 50 Hz means the alternating current reverses and returns 50 complete times every second. The option about 50 turns per minute confuses frequency with rotation rate in revolutions per minute, which is a different unit of time. Frequency describes how often the current changes direction, not how big the voltage is or how fast electrons drift.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0019",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which sequence correctly describes how a hydro-electric scheme delivers electricity to the grid?",
+   "imageRef": null,
+   "options": [
+    "Falling water spins a turbine, the turbine spins the generator, and a transformer raises the voltage",
+    "Falling water is boiled to steam, the steam spins a turbine, and a generator makes the current",
+    "Falling water spins the generator magnets, which then drive the turbine that makes the current",
+    "Falling water spins a turbine that makes DC, and a transformer then converts that DC into AC"
+   ],
+   "correctIndex": 0,
+   "explanation": "In hydro, the moving water does the same job that steam does in a coal or nuclear station: it turns a turbine, whose shaft spins the magnets or coils of a generator to induce AC, and a step-up transformer then prepares it for transmission. The option in which the generator drives the turbine reverses the order \u2014 the turbine is always the driver. Also note transformers change the voltage of AC; they cannot turn DC into AC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0020",
+   "topicId": "sci-electricity-y10",
+   "stem": "A torch runs on batteries while a desk lamp is plugged into a power point. Which comparison of the current in the two lamps is correct?",
+   "imageRef": null,
+   "options": [
+    "The torch lamp carries AC because chemical reactions in cells reverse; the desk lamp carries DC",
+    "Both lamps carry AC, because any current that makes light must change direction to work",
+    "The torch lamp carries DC in one direction; the desk lamp carries AC that repeatedly reverses",
+    "Both lamps carry DC, because the substation converts the mains supply before it reaches homes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Batteries drive charge one way only, so torch current is direct current, while mains power comes from spinning generators and so alternates, reversing direction many times each second. The claim that substations convert mains to DC is wrong \u2014 substation transformers only step the AC voltage down. A lamp filament or LED driver works either way, so the type of current depends on the source, not the lamp.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0021",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which energy transformation sequence best describes a wind turbine on a wind farm?",
+   "imageRef": null,
+   "options": [
+    "Kinetic energy of air \u2192 kinetic energy of steam \u2192 kinetic energy of the shaft \u2192 electrical energy",
+    "Kinetic energy of air \u2192 kinetic energy of the rotating blades and shaft \u2192 electrical energy",
+    "Kinetic energy of air \u2192 heat energy in the tower \u2192 kinetic energy of the shaft \u2192 electrical energy",
+    "Chemical energy of air \u2192 kinetic energy of the blades \u2192 electrical energy stored in the blades"
+   ],
+   "correctIndex": 1,
+   "explanation": "Wind turbines use the kinetic energy of moving air to spin blades, and that rotation turns the generator's magnets to induce electricity, with no fuel burnt and no steam involved. The sequence involving steam wrongly imports the coal, gas and nuclear pathway, where heat is needed to make steam before a turbine can be turned. Wind, water and tides push the turbine directly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0022",
+   "topicId": "sci-electricity-y10",
+   "stem": "A large solar farm must feed the state grid. Why is an inverter an essential part of the installation?",
+   "imageRef": null,
+   "options": [
+    "The panels output weak AC, and the inverter boosts its frequency so transformers will work",
+    "The panels output DC, and the inverter produces AC synchronised with the grid's 50 Hz supply",
+    "The panels output AC, and the inverter smooths it into the steady DC the grid carries",
+    "The panels output DC, and the inverter raises it to transmission voltage without changing its type"
+   ],
+   "correctIndex": 1,
+   "explanation": "Photovoltaic cells give direct current, but the grid runs on alternating current, so an inverter is needed to produce AC that matches the grid's frequency and phase before the power can be exported. The option saying panels give AC that is smoothed to DC reverses both the panel output and the nature of the grid. Raising voltage for transmission is the transformer's job, and transformers only work on AC.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0023",
+   "topicId": "sci-electricity-y10",
+   "stem": "Oil, gas, coal and nuclear stations all use steam. What do all four have in common?",
+   "imageRef": null,
+   "options": [
+    "Each burns a fuel with oxygen, releasing heat that boils water to steam",
+    "Each releases carbon dioxide as it heats the water that becomes steam",
+    "Each produces direct current, converted to AC before transmission",
+    "Each releases heat, boiling water to make steam that spins a turbine"
+   ],
+   "correctIndex": 3,
+   "explanation": "In every steam station the fuel or reaction is only a heat source: the heat boils water, and the high-pressure steam spins a turbine connected to a generator. The option saying each burns a fuel with oxygen is tempting because three of the four do, but nuclear energy comes from fission in the reactor, not combustion, so nothing is burnt. The cue is that 'combustion' applies only to oil, gas and coal, while 'heat to make steam' applies to all four.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0024",
+   "topicId": "sci-electricity-y10",
+   "stem": "What is the job of the turbine in a power station?",
+   "imageRef": null,
+   "options": [
+    "To be pushed around by moving steam, water or air so that it spins a shaft",
+    "To burn the fuel supplied to the station so that heat is released",
+    "To supply the magnetic field that the coils of the generator move through",
+    "To raise the voltage of the electricity before it enters the transmission lines"
+   ],
+   "correctIndex": 0,
+   "explanation": "A turbine is a set of blades that a moving fluid pushes on, turning the fluid's energy of movement into rotation of a shaft that drives the generator. Saying it supplies the magnetic field confuses the turbine with the magnets inside the generator, which are a separate part driven by that shaft. Remember the order: fuel or flow \u2192 turbine spins \u2192 generator induces current \u2192 transformer changes voltage.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0025",
+   "topicId": "sci-electricity-y10",
+   "stem": "Some energy is always lost from long transmission lines. What is the main reason?",
+   "imageRef": null,
+   "options": [
+    "Air resistance on the moving charges in the wires slows the current down",
+    "The wires have resistance, so some energy is transferred as heat",
+    "The current is gradually used up, so less arrives than left the station",
+    "Voltage naturally fades with distance, whatever the current flowing"
+   ],
+   "correctIndex": 1,
+   "explanation": "Conductors have some resistance, so as current passes through them the wires warm up and that energy is lost to the air. The idea that current is 'used up' along the wire is a very common misconception: the same current flows all the way around a series path, and it is energy, not current, that is transferred away. Watch for the words 'used up' \u2014 current is conserved in a single path, energy is not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0026",
+   "topicId": "sci-electricity-y10",
+   "stem": "An electric car is plugged into a 230 V household power point to charge overnight. Which statement about this is correct?",
+   "imageRef": null,
+   "options": [
+    "The battery stores the mains AC directly, then releases it as AC to run the car's motor system",
+    "The power point supplies DC to the car, because household wiring carries DC at low currents",
+    "The battery converts its stored DC into AC as it charges, then back into DC while driving",
+    "The charger converts the mains AC into DC, because the car's battery can only store and supply DC"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mains electricity is alternating current, but a chemical cell can only be charged by, and can only deliver, current in one direction, so a charger must rectify the AC into DC. The suggestion that the battery stores AC directly is tempting if you think of a battery as just a container of electricity, but charging is a chemical reaction that needs a steady one-way current. The cue: batteries and photovoltaic cells are always DC; the grid and power points are always AC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0027",
+   "topicId": "sci-electricity-y10",
+   "stem": "A student builds a simple AC generator by spinning a bar magnet inside a coil connected to a light globe. Keeping the spin rate the same, which change would increase the voltage produced?",
+   "imageRef": null,
+   "options": [
+    "Swapping over the two connections between the coil and the globe",
+    "Replacing the bar magnet with a stronger magnet of the same size",
+    "Replacing the connecting leads with much longer leads of the same wire",
+    "Holding the magnet stationary but much closer to the middle of the coil"
+   ],
+   "correctIndex": 1,
+   "explanation": "The size of the induced voltage depends on how quickly the magnetic field through the coil changes, so a stronger magnet (or faster spinning, or more turns) gives a bigger output. Holding the magnet closer sounds helpful, but a stationary magnet produces no change in the field through the coil and therefore no induced voltage at all. The test is always movement: no relative motion between magnet and coil means no current, no matter how strong or close the magnet is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0028",
+   "topicId": "sci-electricity-y10",
+   "stem": "A rooftop solar panel produces electricity with no turbine, no magnets and no moving parts at all. Why is this possible?",
+   "imageRef": null,
+   "options": [
+    "Sunlight heats water inside the panel, and the resulting steam drives a tiny sealed turbine",
+    "Tiny magnets in the cells are made to vibrate by sunlight, inducing current in the wiring",
+    "Photovoltaic cells produce AC, and AC generation does not require any rotating machinery",
+    "Photovoltaic cells convert light energy straight into electrical energy inside the cell material"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a photovoltaic cell, light striking the semiconductor material frees charges that are pushed one way through the cell, so light energy becomes electrical energy directly, as DC. The steam-turbine option confuses photovoltaic panels with solar hot-water panels or solar thermal power stations, which do heat water. Cue: 'photovoltaic' means light to voltage directly, so the output is DC and no magnet is involved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0029",
+   "topicId": "sci-electricity-y10",
+   "stem": "A remote weather station uses a small wind turbine to charge a battery bank that powers its instruments. Why must extra electronics be fitted between the turbine and the battery?",
+   "imageRef": null,
+   "options": [
+    "The turbine generates AC, so it must be converted to DC before it can charge the battery",
+    "The turbine generates DC, so it must be converted to AC before it can charge the battery",
+    "The battery supplies AC to the instruments, so the turbine's DC must first be inverted",
+    "The turbine's output is DC but at 50 Hz, so its frequency must be reduced to zero first"
+   ],
+   "correctIndex": 0,
+   "explanation": "A wind turbine spins magnets past coils, so like any rotating generator its output is alternating current; a battery can only be charged by current flowing one way, so the AC must be rectified to DC. The option claiming the turbine makes DC and needs inverting reverses the roles: inverters change DC into AC, which is what a solar system feeding the mains needs. Cue: spinning magnet means AC out; battery means DC in.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0030",
+   "topicId": "sci-electricity-y10",
+   "stem": "Why is the current induced in the coils of a power station generator alternating rather than steady in one direction?",
+   "imageRef": null,
+   "options": [
+    "Because the transformers connected to the generator reverse the direction of the steady current fifty times each second",
+    "As the magnets spin, each coil is passed first by a north pole then a south pole, so the induced current reverses every half turn",
+    "Because the turbine shaft reverses its direction of rotation fifty times each second as the steam pulses through the blades",
+    "Because the fuel is burnt in bursts rather than continuously, so the current rises and falls and then reverses"
+   ],
+   "correctIndex": 1,
+   "explanation": "Induction depends on how the magnetic field through a coil changes, and a rotating magnet presents alternating north and south poles to each coil, so the induced current reverses direction with every half rotation. The idea that transformers create the alternation reverses cause and effect: transformers only work because the current is already alternating, and they change voltage, not direction. Remember the shaft turns steadily in one direction \u2014 it is the field through the coil that reverses.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0031",
+   "topicId": "sci-electricity-y10",
+   "stem": "What is the name of the process by which moving a magnet near a coil of wire produces a voltage in that coil?",
+   "imageRef": null,
+   "options": [
+    "Electrostatic charging",
+    "Thermal conduction",
+    "Chemical electrolysis",
+    "Electromagnetic induction"
+   ],
+   "correctIndex": 3,
+   "explanation": "A generator works because a changing magnetic field through a coil induces a voltage in that coil \u2014 this is electromagnetic induction, and it is the basis of all AC generation in power stations. Electrostatic charging is the tempting choice because it also involves electricity and moving objects, but it refers to rubbing materials to transfer charge, not to magnets producing current. The cue is the word 'magnet': magnets plus movement plus a coil always means induction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0032",
+   "topicId": "sci-electricity-y10",
+   "stem": "How does a battery produce electricity?",
+   "imageRef": null,
+   "options": [
+    "Heat released inside it boils a liquid that drives a miniature turbine",
+    "Chemical reactions inside it push charge steadily in one direction, giving DC",
+    "Sunlight falling on its cells frees charges, giving a small steady DC",
+    "A tiny magnet spins inside it as it discharges, giving low-voltage AC"
+   ],
+   "correctIndex": 1,
+   "explanation": "A battery converts chemical potential energy into electrical energy, and the reaction drives charge in one direction only, so batteries supply direct current. Saying sunlight frees charges describes a photovoltaic cell, not a battery \u2014 both give DC, which makes it tempting, but a battery works in complete darkness. The cue is the energy source: chemicals in a battery, light in a solar cell, spinning magnets in a generator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0033",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which statement correctly describes how a tidal power scheme generates electricity?",
+   "imageRef": null,
+   "options": [
+    "Water moving with the tide spins turbines linked to generators, producing AC",
+    "Tidal water is heated to steam, and the steam spins turbines producing AC",
+    "Salt in the tidal water reacts chemically in cells, producing low-voltage DC",
+    "Sunlight reflecting off the tidal water strikes photovoltaic panels, producing DC"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tides move large volumes of water, and that moving water turns turbine blades; the turbine spins magnets inside a generator, inducing alternating current. The steam option is tempting because most large power stations do use steam, but tidal schemes use the kinetic energy of the water directly and never heat it. The cue is that only fuels and nuclear reactions supply the heat needed to make steam.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0034",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which sequence of energy transformations best describes a coal-fired power station?",
+   "imageRef": null,
+   "options": [
+    "Chemical \u2192 kinetic \u2192 thermal \u2192 electrical",
+    "Nuclear \u2192 thermal \u2192 kinetic \u2192 electrical",
+    "Chemical \u2192 thermal \u2192 kinetic \u2192 electrical",
+    "Thermal \u2192 chemical \u2192 kinetic \u2192 electrical"
+   ],
+   "correctIndex": 2,
+   "explanation": "Coal stores chemical energy, combustion releases it as thermal energy, the thermal energy boils water so the steam gives the turbine kinetic energy, and the generator converts that to electrical energy. The sequence beginning with thermal energy is tempting because heat is so obvious in a coal station, but the heat is produced by the chemical reaction of burning, so chemical energy must come first. Ask yourself what is stored in the fuel before anything is lit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0035",
+   "topicId": "sci-electricity-y10",
+   "stem": "A camping fridge is labelled '12 V DC'. Which supply can run it directly, with no converter fitted?",
+   "imageRef": null,
+   "options": [
+    "A 12 V car battery connected straight to the fridge",
+    "A 230 V household power point in a caravan park",
+    "The output leads of a small wind turbine on the van roof",
+    "A 240 V extension lead run from a nearby house"
+   ],
+   "correctIndex": 0,
+   "explanation": "A car battery supplies direct current at about 12 V, which matches both the type of current and the voltage the fridge is designed for. The household power point is the tempting choice because it powers most appliances, but mains supply is 230 V AC and would need a transformer and rectifier before this fridge could use it. Check both features of a supply \u2014 the voltage and whether it is AC or DC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0036",
+   "topicId": "sci-electricity-y10",
+   "stem": "At 2 am on a still, completely overcast night, which of these installations can still be delivering electricity to the grid?",
+   "imageRef": null,
+   "options": [
+    "A wind farm, because turbine blades keep spinning from stored momentum",
+    "A solar farm with no batteries, because cells respond to cloud light",
+    "A run-of-river hydro scheme, because rivers stop flowing overnight",
+    "A gas-fired station, because fuel can be burnt whenever it is needed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Combustion of gas is under human control, so a gas-fired station can raise steam and generate at any hour regardless of weather. The wind farm option is tempting because turbines look heavy enough to coast, but their blades stop within moments without wind and produce essentially nothing. The distinguishing idea is whether the energy source can be supplied on demand or depends on conditions outside our control.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0037",
+   "topicId": "sci-electricity-y10",
+   "stem": "A student says: 'Wind farms and hydro schemes don't need generators, because they have no fuel to burn.' What is the correct response?",
+   "imageRef": null,
+   "options": [
+    "Both produce DC because there is no combustion to reverse the current each cycle",
+    "Both still spin generators with magnets and coils; only the fuel-burning stage is absent",
+    "Both are correct as stated, since moving air and water carry electric charge directly",
+    "Both use photovoltaic cells rather than generators, so no magnets are involved"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every large-scale AC source \u2014 wind, hydro, tidal, coal, gas or nuclear \u2014 ends with a turbine spinning magnets inside coils to induce current; the sources differ only in how the turbine is made to turn. Saying moving air and water carry charge directly is tempting because it feels like the energy 'comes straight from' the wind, but air and water are not delivering charge, only kinetic energy to the blades. Trace the chain back: no matter the source, look for the turbine and generator at the end.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0038",
+   "topicId": "sci-electricity-y10",
+   "stem": "Generators feeding the Australian grid must be kept turning at a carefully controlled speed. Why does this matter?",
+   "imageRef": null,
+   "options": [
+    "The rotation rate sets the resistance of the transmission lines carrying the power",
+    "The rotation rate sets the AC frequency, which must stay at about 50 Hz",
+    "Faster rotation would change AC into DC, which appliances cannot use",
+    "Slower rotation would reverse the direction the current flows in the grid"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each full turn of the generator produces one complete cycle of alternating current, so the rotation rate directly fixes the supply frequency, which Australian equipment is built to run at 50 Hz. The idea that faster spinning turns AC into DC is tempting if you think speed 'smooths out' the current, but the current still reverses every half turn no matter how fast the magnet spins \u2014 only the frequency and voltage change. Remember that spin rate controls frequency, while the geometry of magnet and coil controls whether the output is AC.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0039",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which list contains only sources that generate electricity by turning a turbine connected to a generator?",
+   "imageRef": null,
+   "options": [
+    "Falling water in a dam, burning gas, and sunlight striking solar cells",
+    "Wind, falling water in a dam, and steam raised by burning coal",
+    "Wind, sunlight striking photovoltaic cells, and incoming tides",
+    "Tides, steam raised by nuclear fission, and a bank of car batteries"
+   ],
+   "correctIndex": 1,
+   "explanation": "Turbine-driven generation needs something physically pushing turbine blades: moving air, moving water, or high-pressure steam produced by burning coal, oil or gas or by nuclear heating. The tempting choice is the list with wind, photovoltaic cells and tides, because wind and tides really are turbine sources \u2014 but photovoltaic cells have no moving parts at all; they convert light straight to DC. The same problem spoils the lists containing batteries or solar cells: a chemical cell and a PV cell both give DC with no turbine and no magnet involved.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0040",
+   "topicId": "sci-electricity-y10",
+   "stem": "What does a generator convert?",
+   "imageRef": null,
+   "options": [
+    "Chemical energy into light energy",
+    "Thermal energy into chemical energy",
+    "Kinetic energy into electrical energy",
+    "Electrical energy into kinetic energy"
+   ],
+   "correctIndex": 2,
+   "explanation": "A generator turns motion into electricity by spinning a coil in a magnetic field. A motor runs the same process backwards, which is the mirror-image option here.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Energy conversions are easiest to get right by asking what goes in and what comes out, in that order.\n\nA generator has something spinning it \u2014 steam, falling water, wind, an engine \u2014 so movement is the input. Inside, a coil of wire turns within a magnetic field, and a changing magnetic field through a coil pushes a current along it. So the output is electrical. A motor is the same machine run backwards: put current in and get movement out. That symmetry is why the two are so easily confused, and why reading the direction of the conversion carefully is what these questions test.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0041",
+   "topicId": "sci-electricity-y10",
+   "stem": "Which of these is a renewable source of electricity?",
+   "imageRef": null,
+   "options": [
+    "Natural gas",
+    "Diesel",
+    "Wind",
+    "Coal"
+   ],
+   "correctIndex": 2,
+   "explanation": "Wind is replenished continuously, so using it today does not reduce what is available tomorrow. The other three are fossil fuels, formed over millions of years and effectively finite.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "The test is not whether a resource is plentiful, and not whether it is clean. It is whether using it today reduces what is available tomorrow.\n\nSources replenished on a human timescale pass \u2014 sunlight arrives daily, rivers refill, air keeps moving, and heat keeps rising from underground. Sources laid down over hundreds of millions of years do not, however much of them remains: burning them removes them permanently at any pace we could replace them. Coal, oil and natural gas all fall on that side. Note that renewable and low-emission are different questions, even though they usually go together.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0042",
+   "topicId": "sci-electricity-y10",
+   "stem": "What does a transformer do?",
+   "imageRef": null,
+   "options": [
+    "Stores electrical charge for later use",
+    "Measures the current flowing in a circuit",
+    "Changes the voltage of an alternating supply",
+    "Converts alternating current to direct current"
+   ],
+   "correctIndex": 2,
+   "explanation": "Transformers step voltage up or down, which is why power is transmitted at high voltage and delivered to homes at low voltage. Converting AC to DC is a rectifier's job, and that is the usual confusion.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "These sit at every stage of the grid \u2014 at power stations, on suburban poles, and inside phone chargers \u2014 and they do one specific job.\n\nTwo coils sit on a shared iron core. An alternating current in one produces a constantly changing magnetic field, which induces a current in the other; the ratio of turns between the coils sets how the voltage compares. So they step voltage up or down. This only works with alternating current, since a steady current makes no changing field \u2014 which is a large part of why the grid uses AC at all. Converting AC to DC is a different device's job, and that is the usual mix-up.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0043",
+   "topicId": "sci-electricity-y10",
+   "stem": "Why is electricity sent long distances at high voltage?",
+   "imageRef": null,
+   "options": [
+    "It makes the current much larger in the wires",
+    "It allows thinner insulation to be used",
+    "It stops the supply changing direction",
+    "It reduces energy lost as heat in the wires"
+   ],
+   "correctIndex": 3,
+   "explanation": "Higher voltage means lower current for the same power, and heating loss depends on current. The tempting answer has it backwards \u2014 larger current would waste more energy, not less.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Some energy is always lost heating the transmission wires. The size of that loss depends on the current \u2014 specifically on the current squared, so doubling the current quadruples the waste.\n\nPower delivered is voltage multiplied by current, so the same amount of power can be sent either as a big current at low voltage or a small current at high voltage. Choosing the second keeps the current down and the heating loss small, which is why Australian transmission lines run at hundreds of thousands of volts. Transformers then step it back down before it reaches houses, because those voltages are far too dangerous for domestic use.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0044",
+   "topicId": "sci-electricity-y10",
+   "stem": "What does a solar cell convert light into?",
+   "imageRef": null,
+   "options": [
+    "Chemical energy",
+    "Kinetic energy",
+    "Electrical energy",
+    "Thermal energy"
+   ],
+   "correctIndex": 2,
+   "explanation": "A solar cell produces electricity directly from light. Solar hot-water panels produce thermal energy instead, and mixing the two up is common because both sit on roofs.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Two quite different technologies both sit on roofs and both start with sunlight, so it is worth separating them.\n\nOne is a panel of dark pipes carrying water. Sunlight warms the water directly, and the output is hot water \u2014 a thermal output. The other is made of semiconductor material, usually silicon, where arriving light knocks electrons loose and drives them round a circuit. That output is a current, which can run appliances or be fed to the grid. This question is about the second kind, and the giveaway is the word \"cell\", which implies a circuit rather than a plumbing loop.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0045",
+   "topicId": "sci-electricity-y10",
+   "stem": "What is the unit of electrical power?",
+   "imageRef": null,
+   "options": [
+    "The coulomb",
+    "The watt",
+    "The volt",
+    "The ohm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Power is measured in watts, one joule per second. Volts measure potential difference and ohms measure resistance, so each wrong option is a real electrical unit for a different quantity.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Electricity has several quantities and each has its own unit, so the fastest route is to match unit to quantity.\n\nOne measures the push driving charge round a circuit. Another measures opposition to that flow. Another measures the amount of charge itself. And one measures the rate at which energy is delivered \u2014 how fast a device uses energy, which is what a rating on an appliance tells you. A 2400 W kettle uses energy six times faster than a 400 W laptop charger. Multiply that rate by time and you get total energy, which is what the electricity bill is actually charging for.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0046",
+   "topicId": "sci-electricity-y10",
+   "stem": "In a coal power station, what spins the turbine?",
+   "imageRef": null,
+   "options": [
+    "Wind",
+    "Steam",
+    "Burning coal",
+    "Falling water"
+   ],
+   "correctIndex": 1,
+   "explanation": "The coal heats water into high-pressure steam, and it is the steam that drives the turbine. Naming the coal is tempting because it is the fuel, but it is two steps back in the chain.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "It is worth following the chain of conversions, because the question is asking about one specific link in it.\n\nCoal is burned, releasing the chemical energy stored in it as heat. That heat boils water into high-pressure steam. The steam is forced through the blades of a turbine, spinning it. The turbine drives a generator, which produces electricity. So the coal is the fuel at the start, but it is two steps back from what physically pushes the blades round. Gas and nuclear stations differ only in what supplies the heat \u2014 the steam-turbine-generator part of the chain is identical.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-electricity-y10-0047",
+   "topicId": "sci-electricity-y10",
+   "stem": "What is the main environmental drawback of coal-fired power?",
+   "imageRef": null,
+   "options": [
+    "It needs a very large area of land",
+    "It cannot run during the night",
+    "It produces no waste heat at all",
+    "It releases carbon dioxide when burnt"
+   ],
+   "correctIndex": 3,
+   "explanation": "Burning coal releases carbon dioxide, the main driver of warming. Being unable to run at night describes solar power, so that option belongs to a different technology altogether.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Coal has real practical advantages, which is why it dominated for so long: it is abundant, cheap, and can run continuously regardless of weather or time of day.\n\nThe problem is what burning it puts into the atmosphere. Coal is almost entirely carbon laid down hundreds of millions of years ago, and burning it converts that carbon to a gas which traps heat, adding to warming. It also releases particulates and sulfur compounds affecting local air quality. Watch for options describing other technologies: not running at night is a solar limitation, and needing large areas is more a wind and solar consideration.",
+   "generationBatch": "sci-electricity-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

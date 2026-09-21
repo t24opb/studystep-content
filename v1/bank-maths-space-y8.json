@@ -1,0 +1,1179 @@
+{
+ "topicId": "maths-space-y8",
+ "questions": [
+  {
+   "id": "maths-space-y8-0001",
+   "topicId": "maths-space-y8",
+   "stem": "Which of the following is NOT a valid test for proving that two triangles are congruent?",
+   "imageRef": null,
+   "options": [
+    "AAA \u2014 all three pairs of angles equal",
+    "RHS \u2014 right angle, hypotenuse and one side equal",
+    "SSS \u2014 three pairs of sides equal in length",
+    "SAS \u2014 two sides and the included angle equal"
+   ],
+   "correctIndex": 0,
+   "explanation": "Matching all three angles fixes the shape of a triangle but not its size, so AAA guarantees similarity only, not congruence. SSS, SAS, ASA (or AAS) and RHS each pin down the actual lengths as well, so they do prove congruence. The tempting choice is RHS, which students sometimes think is 'not a real test' because it only applies to right-angled triangles \u2014 but it is a standard congruence test. Cue: every genuine congruence test contains at least one side.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Congruence tests each require enough information to fix a triangle's size as well as its shape.\n\nThe valid tests all include at least one side: three sides; two sides and the angle between them; two angles and a corresponding side; and for right-angled triangles, the hypotenuse and one other side. Angles alone are not enough, because angles fix the shape but say nothing about scale \u2014 a small triangle and a huge one can have identical angles. That combination proves similarity instead, which is a weaker conclusion.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0002",
+   "topicId": "maths-space-y8",
+   "stem": "Two triangles have all three pairs of corresponding angles equal. What can you correctly conclude?",
+   "imageRef": null,
+   "options": [
+    "They are similar, but not necessarily congruent",
+    "They are congruent, and therefore also similar",
+    "They are similar only if one is a reflection",
+    "They are neither similar nor congruent without side data"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equal angles force the same shape, so the corresponding sides are in a constant ratio \u2014 that is the definition of similar figures \u2014 but the ratio could be any value, so the sizes may differ. Saying they are congruent is the common trap: congruence requires matching size as well as shape, which needs side information. Cue: angles control shape, sides control size.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Equal angles fix the shape of a triangle but say nothing about its size.\n\nThat is enough to conclude the two triangles are scaled versions of one another, with all sides in the same ratio. It is not enough to conclude they are identical, because any enlargement of a triangle has exactly the same angles as the original. This is precisely why angle-angle-angle is not on the list of congruence tests, and why every valid congruence test includes at least one side length.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0003",
+   "topicId": "maths-space-y8",
+   "stem": "Which transformation produces an image that is similar to the original shape but generally NOT congruent to it?",
+   "imageRef": null,
+   "options": [
+    "A rotation of 90\u00b0 about a fixed point",
+    "A translation 5 units to the right",
+    "A reflection in a vertical mirror line",
+    "An enlargement with scale factor 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Translations, reflections and rotations are rigid transformations: every length and angle is preserved, so the image is congruent to the original. An enlargement multiplies every length by the scale factor while keeping angles the same, giving a similar figure that is a different size unless the factor is 1. Reflection tempts students because the image looks 'flipped', but flipping changes neither lengths nor angle sizes.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Transformations divide into those that preserve size and those that do not.\n\nTranslations, rotations and reflections all move a shape without changing any length or angle, so the image is congruent to the original \u2014 identical, just somewhere else or facing differently. Enlargement is the exception: it multiplies every length by a scale factor while keeping angles the same, so the image has the same shape in different proportions. That produces similarity without congruence, unless the scale factor happens to be one.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0004",
+   "topicId": "maths-space-y8",
+   "stem": "Which statement about common shapes is true?",
+   "imageRef": null,
+   "options": [
+    "Any two rhombuses are similar to each other",
+    "Any two isosceles triangles are similar to each other",
+    "Any two rectangles are similar to each other",
+    "Any two squares are similar to each other"
+   ],
+   "correctIndex": 3,
+   "explanation": "All squares have four right angles and four equal sides, so any two squares have equal angles and sides in a constant ratio \u2014 they are always similar. Rectangles fail because their length-to-width ratios can differ (a 2 by 3 and a 2 by 10 rectangle are not similar), rhombuses can have different angles, and isosceles triangles can have different apex angles. Cue: a shape family is 'always similar' only when both its angles and its side ratios are fixed.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Similar shapes have equal angles and sides in a fixed ratio; congruent shapes are identical in every measurement.\n\nSome shapes are always similar to others of their own kind because their angles are fixed by definition \u2014 every square has four right angles and four equal sides, so any two squares differ only in scale. Rectangles are not like this: one can be long and thin and another almost square, so their side ratios differ. Asking whether the shape's angles and proportions are forced by its definition sorts these questions quickly.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0005",
+   "topicId": "maths-space-y8",
+   "stem": "In triangles ABC and PQR, AB = PQ = 6 cm, BC = QR = 9 cm, and angle B = angle Q = 50\u00b0. Which test proves the triangles are congruent?",
+   "imageRef": null,
+   "options": [
+    "AAS, because the angle is not between the given sides",
+    "SAS, because the equal angle lies between the two equal sides",
+    "ASA, because an angle and two measurements are given",
+    "SSS, because two sides and one angle are effectively three sides"
+   ],
+   "correctIndex": 1,
+   "explanation": "Angle B sits between sides AB and BC, and angle Q sits between PQ and QR, so the matching pairs are side\u2013angle\u2013side, which is a valid congruence test. Choosing ASA is the usual slip: ASA needs two angles with the side between them, and only one angle is given here. Cue: check whether the equal angle is enclosed by the two equal sides before naming the test.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0006",
+   "topicId": "maths-space-y8",
+   "stem": "Triangle ABC has sides 3 cm, 4 cm and 5 cm. Triangle DEF has sides 7.5 cm, 10 cm and 12.5 cm. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "They are similar with scale factor 2.5",
+    "They are congruent because both are right-angled",
+    "They are similar with scale factor 4.5",
+    "They are not similar because the sides differ"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dividing corresponding sides gives 7.5 \u00f7 3 = 2.5, 10 \u00f7 4 = 2.5 and 12.5 \u00f7 5 = 2.5, so all three ratios match and the triangles are similar by SSS similarity with scale factor 2.5. The answer 'scale factor 4.5' comes from subtracting 3 from 7.5 instead of dividing \u2014 similarity uses multiplication, not addition. Cue: test similarity by comparing ratios, not differences.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0007",
+   "topicId": "maths-space-y8",
+   "stem": "Two right-angled triangles each have a hypotenuse of 13 cm. What extra piece of information is enough to prove they are congruent?",
+   "imageRef": null,
+   "options": [
+    "Each has an acute angle greater than 30\u00b0",
+    "Each has an area under 40 square centimetres",
+    "The two triangles have equal perimeters",
+    "Each has another side of length 5 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "A matching right angle, equal hypotenuses and one further equal side is the RHS test, which proves congruence. 'An acute angle greater than 30\u00b0' fails because the angles could be different sizes and still both exceed 30\u00b0, giving differently shaped triangles. Cue: congruence tests need exact matching measurements, not inequalities or totals.",
+   "difficulty": 2,
+   "tier": "core",
+   "diagram": {
+    "curve": null,
+    "direction": null,
+    "kind": "shape",
+    "market": "Right-angled triangle",
+    "shape": "rightTriangle"
+   },
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0008",
+   "topicId": "maths-space-y8",
+   "stem": "A triangle is reflected in a line, then translated 4 units up, then rotated 90\u00b0 about a point. Which statement about the final image is correct?",
+   "imageRef": null,
+   "options": [
+    "It is congruent in angles but the reflection reverses its side lengths",
+    "It is congruent to the original, with all lengths and angles unchanged",
+    "It is similar but not congruent, since three transformations were applied",
+    "It is congruent only if the reflection is undone by the rotation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reflections, translations and rotations are all rigid transformations, so each one preserves every length and angle; applying several in a row still preserves them, and the final image is congruent to the original. The idea that combining transformations creates a similar-but-smaller figure is wrong \u2014 only enlargement changes size. Cue: size only changes when a scale factor is involved.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0009",
+   "topicId": "maths-space-y8",
+   "stem": "Triangle JKL has angles 40\u00b0 and 60\u00b0. Triangle MNP has angles 60\u00b0 and 80\u00b0. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "They are similar only if a pair of sides is also known",
+    "They are congruent, because their angle sums are both 180\u00b0",
+    "They are similar, because both have angles 40\u00b0, 60\u00b0 and 80\u00b0",
+    "They are not similar, because only one angle pair matches"
+   ],
+   "correctIndex": 2,
+   "explanation": "The missing angle in JKL is 180\u00b0 \u2212 40\u00b0 \u2212 60\u00b0 = 80\u00b0, and in MNP it is 180\u00b0 \u2212 60\u00b0 \u2212 80\u00b0 = 40\u00b0, so both triangles have angles 40\u00b0, 60\u00b0 and 80\u00b0 and are similar by AA. Concluding 'not similar because only one angle pair matches' skips the step of finding the third angle. Cue: always complete the angle sum before comparing triangles.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0010",
+   "topicId": "maths-space-y8",
+   "stem": "Rectangle ABCD measures 6 cm by 9 cm and rectangle PQRS measures 8 cm by 12 cm. Which statement about the two rectangles is correct?",
+   "imageRef": null,
+   "options": [
+    "They are similar, because all four angles are 90\u00b0 in each and the corresponding sides are in the constant ratio 3:4",
+    "They are congruent, because both are rectangles whose sides are in the same simplified ratio of 2:3",
+    "They are similar, because every rectangle has four right angles, so equal angles alone make rectangles similar",
+    "They are neither similar nor congruent, because the side lengths of one are not equal to those of the other"
+   ],
+   "correctIndex": 0,
+   "explanation": "For polygons, similarity requires both equal corresponding angles and a constant ratio between corresponding sides. Here every angle is 90\u00b0 and 6/8 = 9/12 = 3/4, so the rectangles are similar with scale factor 3:4. The claim that equal angles alone make rectangles similar is the most tempting error \u2014 a 1 cm by 10 cm rectangle also has four right angles but is nowhere near similar to a square, so the side ratios must be checked. Congruence would need the corresponding sides to be equal in length, not just proportional, and shapes with unequal sides can still be similar.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0011",
+   "topicId": "maths-space-y8",
+   "stem": "Which statement is true of every parallelogram?",
+   "imageRef": null,
+   "options": [
+    "The diagonals bisect each other",
+    "The diagonals are equal in length",
+    "The diagonals meet at right angles",
+    "The diagonals bisect the interior angles"
+   ],
+   "correctIndex": 0,
+   "explanation": "Drawing both diagonals of a parallelogram creates triangles that are congruent by ASA (alternate angles plus a pair of equal opposite sides), which forces each diagonal to cut the other into two equal parts. Equal diagonals is tempting, but that is a special property of rectangles; a slanted parallelogram has one long and one short diagonal. Perpendicular diagonals and angle-bisecting diagonals belong to rhombuses.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Quadrilaterals have overlapping property lists, and questions test which properties belong to which shape.\n\nFor a parallelogram, opposite sides are equal and parallel, opposite angles are equal, and the diagonals cut each other in half. What is not guaranteed is anything about the diagonals being equal in length or meeting at right angles \u2014 those extras belong to rectangles and rhombuses respectively, which are special cases. So the safest approach is to ask whether the property holds for a deliberately slanted, non-special example.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0012",
+   "topicId": "maths-space-y8",
+   "stem": "Which pair of properties is true for every rhombus?",
+   "imageRef": null,
+   "options": [
+    "All four angles equal, and the diagonals bisect each other",
+    "All four angles equal, and the diagonals meet at right angles",
+    "All four sides equal, and the diagonals meet at right angles",
+    "All four sides equal, and the two diagonals are equal in length"
+   ],
+   "correctIndex": 2,
+   "explanation": "A rhombus has four equal sides, so the two triangles formed by a diagonal are congruent by SSS; this forces the diagonals to cross at 90\u00b0 and bisect each other. The option claiming equal diagonals is wrong because equal diagonals occur in rectangles \u2014 a typical rhombus has one long and one short diagonal. Any option saying all four angles are equal describes a square or rectangle, and a rhombus need not have right angles.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "A rhombus is a parallelogram with all four sides equal, and that extra condition brings extra properties with it.\n\nBecause the sides are all equal, the diagonals cross at right angles and each one bisects the angles at the corners it joins \u2014 neither of which is true of a parallelogram in general. The diagonals still bisect each other, as in any parallelogram, but they are not equal in length unless the shape is also a square. Sorting quadrilateral properties by which shape first guarantees them is what makes these questions manageable.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0013",
+   "topicId": "maths-space-y8",
+   "stem": "Which statement correctly distinguishes the diagonals of a rectangle from those of a general parallelogram?",
+   "imageRef": null,
+   "options": [
+    "A rectangle's diagonals are equal in length as well as bisecting each other",
+    "A rectangle's diagonals cross at right angles as well as bisecting each other",
+    "A rectangle's diagonals bisect each other, while a parallelogram's do not",
+    "A rectangle's diagonals each bisect a pair of interior angles"
+   ],
+   "correctIndex": 0,
+   "explanation": "In a rectangle, triangles formed by a side and the two diagonals are congruent by SAS (equal sides and 90\u00b0 angles), giving diagonals of equal length; like all parallelograms, they also bisect each other. The claim about right angles is the rhombus property, not the rectangle's \u2014 rectangle diagonals only cross at 90\u00b0 when it is a square. Bisecting each other is shared by all parallelograms, so it cannot be the distinguishing feature, and angle-bisecting diagonals again belong to the rhombus.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0014",
+   "topicId": "maths-space-y8",
+   "stem": "In parallelogram WXYZ, angle W = 74\u00b0. What are the sizes of angles X, Y and Z?",
+   "imageRef": null,
+   "options": [
+    "X = 74\u00b0, Y = 106\u00b0, Z = 106\u00b0",
+    "X = 106\u00b0, Y = 106\u00b0, Z = 74\u00b0",
+    "X = 74\u00b0, Y = 74\u00b0, Z = 106\u00b0",
+    "X = 106\u00b0, Y = 74\u00b0, Z = 106\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a parallelogram, co-interior angles between the parallel sides are supplementary, so the angles next to W are 180\u00b0 \u2212 74\u00b0 = 106\u00b0, and the angle opposite W equals 74\u00b0. Going around WXYZ in order, W and Y are the opposite pair, so Y = 74\u00b0 and both X and Z are 106\u00b0. The tempting errors come from making W and X the opposite pair, which misreads the order of the labelled vertices \u2014 remember that in WXYZ the opposite vertices are W with Y and X with Z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0015",
+   "topicId": "maths-space-y8",
+   "stem": "Kite ABCD has AB = AD and CB = CD. Diagonal AC is drawn. Which congruence test proves triangle ABC is congruent to triangle ADC?",
+   "imageRef": null,
+   "options": [
+    "RHS, using AC as the hypotenuse of both right-angled triangles",
+    "SSS, using AB = AD, CB = CD and AC common to both",
+    "SAS, using AB = AD, angle B = angle D and CB = CD",
+    "ASA, using angle A shared, AC common and angle C shared"
+   ],
+   "correctIndex": 1,
+   "explanation": "Three pairs of matching sides are known \u2014 the two pairs of equal kite sides and the shared side AC \u2014 so SSS applies directly. The SAS option fails because angle B = angle D is not given; it is a conclusion that follows from the congruence, so using it would be circular reasoning. The ASA option assumes the diagonal bisects angles A and C, which is again a result rather than a given, and RHS is impossible since the kite's sides need not meet at right angles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0016",
+   "topicId": "maths-space-y8",
+   "stem": "Three interior angles of a quadrilateral measure 96\u00b0, 58\u00b0 and 131\u00b0. What is the fourth angle?",
+   "imageRef": null,
+   "options": [
+    "64\u00b0",
+    "75\u00b0",
+    "105\u00b0",
+    "85\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The interior angles of a quadrilateral total 360\u00b0, and 96\u00b0 + 58\u00b0 + 131\u00b0 = 285\u00b0, so the fourth angle is 360\u00b0 \u2212 285\u00b0 = 75\u00b0. The value 105\u00b0 comes from subtracting 285\u00b0 from 390\u00b0 or from wrongly supplementing 75\u00b0, a common slip when students mix in the co-interior angle rule. Always check the three known angles sum first, then subtract from 360\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0017",
+   "topicId": "maths-space-y8",
+   "stem": "Which statement is true of every isosceles trapezium (a trapezium with one pair of parallel sides and the other two sides equal)?",
+   "imageRef": null,
+   "options": [
+    "The diagonals bisect each other, and each diagonal bisects a pair of angles",
+    "Both pairs of opposite angles are equal, and the diagonals are equal in length",
+    "The diagonals meet at right angles, and all four angles sum to 180\u00b0",
+    "The two angles at each parallel side are equal, and the diagonals are equal in length"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reflection symmetry in the perpendicular bisector of the parallel sides makes the base angles equal in pairs, and it maps one diagonal onto the other, so the diagonals are equal. Diagonals bisecting each other is a parallelogram property, and an isosceles trapezium is not a parallelogram unless it is a rectangle. Opposite angles in an isosceles trapezium are supplementary rather than equal, and the four angles of any quadrilateral sum to 360\u00b0, not 180\u00b0.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0018",
+   "topicId": "maths-space-y8",
+   "stem": "Which single condition guarantees that a quadrilateral must be a parallelogram?",
+   "imageRef": null,
+   "options": [
+    "One pair of opposite sides is parallel and the other pair is equal in length",
+    "The two diagonals of the quadrilateral are equal in length",
+    "One pair of opposite angles is equal in size",
+    "One pair of opposite sides is both parallel and equal in length"
+   ],
+   "correctIndex": 3,
+   "explanation": "If one pair of opposite sides is both parallel and equal, drawing a diagonal creates two triangles congruent by SAS (alternate angles between the parallel sides), which forces the other pair of sides to be parallel and equal as well. The condition of one pair parallel with the other pair equal fails, because an isosceles trapezium satisfies it without being a parallelogram. Equal diagonals also hold in an isosceles trapezium, and a single pair of equal opposite angles can occur in a kite.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0019",
+   "topicId": "maths-space-y8",
+   "stem": "In parallelogram ABCD, the diagonal BD is drawn to help prove that triangle ABD is congruent to triangle CDB. Which reason correctly justifies the statement angle ABD = angle CDB?",
+   "imageRef": null,
+   "options": [
+    "They are alternate angles formed where the transversal BD cuts the parallel sides AB and DC",
+    "They are corresponding angles formed where the transversal BD cuts the parallel sides AB and DC",
+    "They are co-interior angles formed where the transversal BD cuts the parallel sides AB and DC",
+    "They are vertically opposite angles formed where the diagonal BD crosses the diagonal AC"
+   ],
+   "correctIndex": 0,
+   "explanation": "BD is a transversal cutting the two parallel sides AB and DC, and angles ABD and CDB sit on opposite sides of that transversal between the parallel lines, so they are alternate angles and therefore equal. The co-interior option is the tempting one because those angles also lie between the parallel lines, but co-interior angles are on the same side of the transversal and add to 180\u00b0 rather than being equal. The cue is the position relative to the transversal: opposite sides means alternate and equal, same side means co-interior and supplementary.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0020",
+   "topicId": "maths-space-y8",
+   "stem": "In a three-dimensional Cartesian coordinate system, a point is written as (x, y, z). What does the third number, z, usually represent?",
+   "imageRef": null,
+   "options": [
+    "The height of the point above or below the horizontal xy-plane",
+    "The distance of the point from the origin along a straight line",
+    "The angle the point makes with the positive x-axis",
+    "The total of the horizontal distances travelled along x and y"
+   ],
+   "correctIndex": 0,
+   "explanation": "In 3D Cartesian coordinates the three numbers give displacements along three mutually perpendicular axes; conventionally x and y set out the horizontal plane and z gives height above (positive) or below (negative) that plane. 'The distance of the point from the origin along a straight line' is tempting because in 1D a single coordinate is a distance, but in 3D the straight-line distance from the origin depends on all three coordinates, not just z. The cue: each coordinate is measured parallel to one axis, never diagonally.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0021",
+   "topicId": "maths-space-y8",
+   "stem": "How many numbers are needed to specify the position of a single point in three-dimensional space using a Cartesian coordinate system?",
+   "imageRef": null,
+   "options": [
+    "Four",
+    "Six",
+    "Three",
+    "Two"
+   ],
+   "correctIndex": 2,
+   "explanation": "Three-dimensional space has three independent directions, so three coordinates (x, y, z) are needed and are enough to fix one point. 'Two' is the common slip of carrying over the 2D plane, where only x and y exist. Match the number of coordinates to the number of dimensions: 2D needs 2, 3D needs 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Coordinate systems use one number per dimension, which is why the count changes as you add dimensions.\n\nOn a line, one number fixes a position. On a flat plane, two are needed \u2014 across and up. In space, a third axis is added perpendicular to the other two, usually called z, giving depth. So the number required matches the number of dimensions exactly. Latitude, longitude and altitude are the everyday version of the same idea, and they are why an aircraft's position needs three figures rather than two.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0022",
+   "topicId": "maths-space-y8",
+   "stem": "A point has coordinates (5, 2, 0) in a 3D Cartesian system. Where does this point lie?",
+   "imageRef": null,
+   "options": [
+    "In the xz-plane, since its y-coordinate is smallest",
+    "In the xy-plane, since its z-coordinate is 0",
+    "On the x-axis, since its z-coordinate is 0",
+    "At the origin, since one coordinate is 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A z-coordinate of 0 means zero height, so the point sits on the flat horizontal plane containing the x- and y-axes. 'On the x-axis' is the tempting error: a point only lies on the x-axis when both other coordinates are 0, and here y = 2. One zero coordinate places a point in a plane; two zero coordinates place it on an axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "In three dimensions a point is written as three coordinates, one for each axis, in the order x, y, z.\n\nA coordinate of zero means the point sits exactly on the plane where that axis is zero rather than being off in that direction. So a zero in the third position places the point flat on the plane formed by the first two axes \u2014 the same plane you work in for ordinary two-dimensional graphs. Reading which coordinate is zero, and remembering which plane that corresponds to, is what these questions test.",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0023",
+   "topicId": "maths-space-y8",
+   "stem": "A classroom is set up so that a corner of the floor is the origin, x runs east along the floor, y runs north along the floor, and z runs vertically upwards, with all units in metres. A light fitting is at (3, 4, 2.5). Which description matches this position?",
+   "imageRef": null,
+   "options": [
+    "3 m north, 4 m east, and 2.5 m above the floor corner",
+    "3 m east, 4 m up, and 2.5 m north of the floor corner",
+    "2.5 m east, 3 m north, and 4 m above the floor corner",
+    "3 m east, 4 m north, and 2.5 m above the floor corner"
+   ],
+   "correctIndex": 3,
+   "explanation": "The coordinates are read in the fixed order (x, y, z), so 3 goes with the east direction, 4 with north and 2.5 with height. '3 m north, 4 m east, and 2.5 m above the floor corner' swaps the first two coordinates, which is the most common error when the axes are relabelled with compass directions. Always write down which direction each axis stands for before reading the triple.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0024",
+   "topicId": "maths-space-y8",
+   "stem": "A rectangular box sits with one vertex at the origin (0, 0, 0) and edges of length 6 along the x-axis, 4 along the y-axis and 3 along the z-axis. What are the coordinates of the vertex diagonally opposite the origin?",
+   "imageRef": null,
+   "options": [
+    "(3, 4, 6)",
+    "(6, 4, 0)",
+    "(6, 4, 3)",
+    "(0, 0, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The opposite vertex is reached by moving the full edge length along every one of the three axes, giving (6, 4, 3). '(6, 4, 0)' is tempting because it is the far corner of the base, but it is still at floor level, so it is diagonally opposite on one face only, not in 3D. Check that all three coordinates change when you move to the fully opposite vertex.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0025",
+   "topicId": "maths-space-y8",
+   "stem": "On a computer model, a drone is at (2, 5, 8) with z measured vertically in metres. The drone then flies 3 m in the positive x direction and descends 5 m, with no change in y. What are its new coordinates?",
+   "imageRef": null,
+   "options": [
+    "(2, 8, 3)",
+    "(5, 5, 13)",
+    "(5, 10, 8)",
+    "(5, 5, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Adding 3 to x gives 5, y is unchanged at 5, and descending 5 m subtracts 5 from z to give 3. '(5, 5, 13)' comes from adding instead of subtracting when the drone descends. Downward movement always decreases the z-coordinate, so treat 'descends' as a negative change in z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0026",
+   "topicId": "maths-space-y8",
+   "stem": "Two students describe the location of a book in a library. Student A says 'Aisle 4, shelf unit 2, third shelf from the floor'. Student B uses a 3D coordinate system with the corner of the room as the origin. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Only Student B has described a genuine three-dimensional position, since A used no numbers as coordinates",
+    "Only Student A has described a position, since coordinates cannot locate real objects",
+    "Neither description is three-dimensional, because both need a fourth measurement",
+    "Both describe the same position in three dimensions, but use different reference systems and units"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any position in space can be described in several ways, as long as three independent pieces of information and an agreed reference point are given; aisle, unit and shelf number play exactly the same role as x, y and z. 'Only Student B has described a genuine three-dimensional position' wrongly assumes that only Cartesian numbers count, when in fact A's labels also fix three independent directions. Look for three independent measures from an agreed starting point.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0027",
+   "topicId": "maths-space-y8",
+   "stem": "A point P is at (0, 0, 7) and a point Q is at (0, 5, 7) in a 3D Cartesian system, with all units in metres. Which statement about P and Q is correct?",
+   "imageRef": null,
+   "options": [
+    "They are the same point, since two coordinates match",
+    "They are 12 m apart, found by adding 5 and 7",
+    "They are at the same height and 5 m apart",
+    "They are at different heights and 5 m apart vertically"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both points have z = 7, so they are at equal height, and they differ only in y by 5 units, so the separation is 5 m in the horizontal y direction. 'They are at different heights and 5 m apart vertically' is tempting if you forget that height is carried by z alone, not by y. Compare coordinates one axis at a time: matching z means matching height.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0028",
+   "topicId": "maths-space-y8",
+   "stem": "A hall has a 3D coordinate system with the origin at one floor corner, x and y along the floor edges in metres, and z upwards in metres. A speaker is described as being 'directly above the point (6, 3, 0), at a height of 4 m'. Which set of coordinates matches this description?",
+   "imageRef": null,
+   "options": [
+    "(10, 3, 0)",
+    "(6, 3, 4)",
+    "(6, 3, 0) and (0, 0, 4)",
+    "(6, 7, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Directly above' means the x and y coordinates are unchanged and only the height changes, so the speaker is at (6, 3, 4). Writing it as two separate triples treats the floor point and the height as two different locations, when in fact one point in 3D needs a single triple. Remember that a vertical move alters z only.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0029",
+   "topicId": "maths-space-y8",
+   "stem": "In a warehouse, the origin is a floor corner, x runs east and y runs north along the floor (both in metres), and z is height above the floor in metres. Sensor A is at (2, 3, 1) and sensor B is at (2, 3, 6). Which statement correctly describes the position of B relative to A?",
+   "imageRef": null,
+   "options": [
+    "B is 5 m from A in a slanted direction, both up and north",
+    "B is directly above A, 5 m higher up the same vertical line",
+    "B is 5 m north of A, at the same height above the floor",
+    "B is 5 m east of A, at the same height above the floor"
+   ],
+   "correctIndex": 1,
+   "explanation": "The x and y coordinates of both sensors are identical (2 and 3), so the two points sit on the same vertical line through the floor point (2, 3, 0); only the z value changes, from 1 to 6, a rise of 5 m. The option saying B is 5 m north is the usual trap: it treats the third coordinate as the northward one, but north is measured by y, which is 3 for both sensors. The cue is to compare the coordinates one at a time \u2014 whichever coordinate changes tells you the direction of movement, and here it is z, the vertical.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0030",
+   "topicId": "maths-space-y8",
+   "stem": "A student writes an algorithm to test congruency. Which of these lines is a decision step rather than an instruction step?",
+   "imageRef": null,
+   "options": [
+    "Label the vertices of each triangle in matching order.",
+    "Measure and record the length of every side of both shapes.",
+    "Print the conclusion 'the two triangles are congruent'.",
+    "Are the three pairs of corresponding sides equal in length?"
+   ],
+   "correctIndex": 3,
+   "explanation": "A decision step asks a question with a yes/no answer and sends the algorithm down different branches depending on the answer. Labelling vertices in matching order is tempting because it is an important early move, but it is something you do, not a question you answer, so it has only one path out. Cue: a decision step can be answered 'yes' or 'no'; an instruction step tells you to perform an action.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0031",
+   "topicId": "maths-space-y8",
+   "stem": "An algorithm runs as follows. Step 1: Are all three pairs of corresponding sides in the same ratio? If yes, go to Step 2; if no, output 'not similar'. Step 2: Is that ratio equal to 1? If yes, output 'congruent'; if no, output 'similar only'. Triangle ABC has sides 4 cm, 5 cm and 6 cm; triangle DEF has sides 6 cm, 7.5 cm and 9 cm. What does the algorithm output?",
+   "imageRef": null,
+   "options": [
+    "'Similar only', because two ratios are 1.5 and one is different",
+    "'Similar only', because the three ratios are all 1.5",
+    "'Congruent', because the ratios are all the same value",
+    "'Not similar', because the side lengths are not equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dividing 6 by 4, 7.5 by 5 and 9 by 6 all give 1.5, so Step 1 passes; the ratio is not 1, so Step 2 sends the algorithm to the output 'similar only'. Choosing 'congruent, because the ratios are all the same value' skips Step 2, which exists precisely to separate scale factor 1 from other scale factors. Cue: trace every decision in order rather than jumping to a conclusion after the first one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0032",
+   "topicId": "maths-space-y8",
+   "stem": "Using the same algorithm (Step 1: are all three side ratios equal? Step 2: is that ratio 1?), a pair of triangles has sides 6 cm, 8 cm, 10 cm and 9 cm, 12 cm, 14 cm. What is the output, and why?",
+   "imageRef": null,
+   "options": [
+    "'Not similar', because the ratios are 1.5, 1.5 and 1.4, so they are not all equal",
+    "'Similar only', because two of the three ratios are equal to 1.5",
+    "'Congruent', because both triangles have their sides in increasing order",
+    "'Not similar', because the algorithm stops as soon as one ratio is above 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The ratios are 9 \u00f7 6 = 1.5, 12 \u00f7 8 = 1.5 and 14 \u00f7 10 = 1.4; because they are not all the same, Step 1 fails and the algorithm outputs 'not similar'. The option accepting two matching ratios out of three is the usual error \u2014 similarity of triangles needs all three pairs in the same ratio, not a majority. Cue: a 'yes' at a decision step requires every part of the condition to hold.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0033",
+   "topicId": "maths-space-y8",
+   "stem": "An algorithm claims: 'If two rectangles have equal perimeters, output CONGRUENT.' Which test case proves the algorithm wrong?",
+   "imageRef": null,
+   "options": [
+    "A 3 cm by 5 cm rectangle and a 3 cm by 5 cm rectangle",
+    "A 4 cm by 4 cm square and a 6 cm by 6 cm square",
+    "A 2 cm by 9 cm rectangle and a 3 cm by 6 cm rectangle",
+    "A 2 cm by 8 cm rectangle and a 4 cm by 6 cm rectangle"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both the 2 by 8 and the 4 by 6 rectangles have perimeter 20 cm, yet their side lengths differ, so they are not congruent \u2014 the algorithm gives a wrong output and is disproved. The 2 by 9 and 3 by 6 pair looks similar in spirit but their perimeters are 22 cm and 18 cm, so the algorithm never claims they are congruent and nothing is exposed. Cue: a counterexample must satisfy the algorithm's condition while failing its conclusion.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0034",
+   "topicId": "maths-space-y8",
+   "stem": "You must design an algorithm that sorts every pair of triangles into 'congruent', 'similar only' or 'neither', using the three pairs of corresponding side lengths. Which arrangement of decisions works for all inputs?",
+   "imageRef": null,
+   "options": [
+    "First ask whether all three ratios are equal to 1; if no, output 'neither' straight away",
+    "First ask whether the largest sides are equal; if yes, output 'congruent' without further checks",
+    "First ask whether the perimeters are equal; if yes, output 'congruent', otherwise output 'similar only'",
+    "First ask whether all three ratios are equal; if yes, then ask whether that common ratio is 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Checking that all three ratios are equal establishes similarity, and only then does asking whether the common ratio equals 1 split that group into congruent and similar-only, so every pair reaches a correct output. Asking first whether all ratios equal 1 and otherwise outputting 'neither' is the tempting shortcut, but it wrongly discards genuine enlargements. Cue: order decisions from the general condition to the special case inside it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0035",
+   "topicId": "maths-space-y8",
+   "stem": "A student copies the SSS test across to quadrilaterals: 'If four pairs of corresponding sides are equal, output CONGRUENT.' Which test case shows this step is unreliable?",
+   "imageRef": null,
+   "options": [
+    "A square of side 5 cm and a square of side 7 cm",
+    "A square of side 5 cm and a rhombus of side 5 cm with a 60\u00b0 angle",
+    "A square of side 5 cm and another square of side 5 cm",
+    "A 3 cm by 5 cm rectangle and another 3 cm by 5 cm rectangle"
+   ],
+   "correctIndex": 1,
+   "explanation": "The square and the rhombus both have four 5 cm sides, so the algorithm outputs 'congruent', yet their angles differ and one can never be mapped onto the other \u2014 quadrilaterals are not rigid, so equal sides alone are not enough. The two identical squares are tempting as a 'test', but the algorithm gets that case right, so it exposes no fault. Cue: to break an algorithm, find an input that meets its condition but contradicts its conclusion.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0036",
+   "topicId": "maths-space-y8",
+   "stem": "An algorithm must be written so that any person (or computer) following it gets the same result. Which of these steps is written suitably for a congruency algorithm?",
+   "imageRef": null,
+   "options": [
+    "Look carefully at both triangles and decide whether they seem the same size.",
+    "Check whether the two shapes basically have the same overall shape and size.",
+    "Measure a few of the sides and angles, then judge whether they match well.",
+    "Is the ratio of the longest sides equal to the ratio of the shortest sides? Yes or no."
+   ],
+   "correctIndex": 3,
+   "explanation": "Every step of an algorithm must be unambiguous and, if it is a decision, must have clearly defined outcomes such as yes or no. Comparing two stated ratios gives exactly one answer no matter who carries it out. The most tempting wrong choice is 'Measure a few of the sides and angles, then judge whether they match well', which sounds mathematical but never says which sides, how many, or what counts as matching. The cue: if two students could follow the step and honestly disagree about the outcome, it is not an algorithm step.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0037",
+   "topicId": "maths-space-y8",
+   "stem": "When testing an algorithm that is meant to identify congruent shapes, why should you include test cases made from shapes you already know are NOT congruent?",
+   "imageRef": null,
+   "options": [
+    "To prove that the algorithm will work correctly for every possible pair of shapes",
+    "To show that congruence tests such as SSS cannot be applied to those shapes",
+    "To count how many decision steps the algorithm needs before it stops",
+    "To check the algorithm does not wrongly output 'congruent' for those shapes"
+   ],
+   "correctIndex": 3,
+   "explanation": "Testing means running cases with a known answer and comparing them with the algorithm's output, so you need both cases that should pass and cases that should fail; a non-congruent pair exposes a false 'congruent' output. The tempting answer is 'To prove that the algorithm will work correctly for every possible pair of shapes', but testing a finite number of cases can reveal errors, never guarantee correctness for all inputs. Remember: testing can disprove an algorithm, not prove it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0038",
+   "topicId": "maths-space-y8",
+   "stem": "An algorithm runs as follows. Step 1: Are two pairs of corresponding angles equal? If no, output NOT SIMILAR; if yes, go to Step 2. Step 2: Is a pair of corresponding sides equal in length? If yes, output CONGRUENT; if no, output SIMILAR ONLY. Two triangles each have angles 50\u00b0, 60\u00b0 and 70\u00b0, and in each triangle the side opposite the 50\u00b0 angle is 8 cm. What is the output?",
+   "imageRef": null,
+   "options": [
+    "SIMILAR ONLY, because equal angles can only ever establish similarity",
+    "NOT SIMILAR, because Step 1 needs all three pairs of angles listed as equal",
+    "CONGRUENT, but only after Step 1 fails and the algorithm restarts at Step 2",
+    "CONGRUENT, because Step 1 passes and the corresponding 8 cm sides are equal"
+   ],
+   "correctIndex": 3,
+   "explanation": "Step 1 is satisfied (two pairs of corresponding angles are equal, which forces the third pair), so the algorithm moves to Step 2, where the matching pair of 8 cm sides gives the output CONGRUENT. The tempting choice is 'SIMILAR ONLY, because equal angles can only ever establish similarity' \u2014 true of angles alone, but this algorithm adds a side comparison, which is exactly what upgrades similarity to congruence (AAS). The cue when tracing: follow the stated steps in order rather than answering from a remembered rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0039",
+   "topicId": "maths-space-y8",
+   "stem": "A student writes this similarity algorithm. Step 1: Are two pairs of corresponding sides in the same ratio? If no, output NOT SIMILAR; if yes, go to Step 2. Step 2: Is one pair of corresponding angles equal? If yes, output SIMILAR. Which test case shows the algorithm can give a wrong output?",
+   "imageRef": null,
+   "options": [
+    "Sides 3 cm and 4 cm with a 90\u00b0 angle between them; sides 6 cm and 8 cm with a 90\u00b0 angle between them",
+    "Sides 5 cm and 7 cm with a 60\u00b0 angle between them; sides 10 cm and 15 cm with a 60\u00b0 angle between them",
+    "Sides 5 cm and 9 cm with a 35\u00b0 angle between them; identical sides 5 cm and 9 cm with a 35\u00b0 angle between them",
+    "Sides 4 cm and 6 cm with a 40\u00b0 angle between them; sides 8 cm and 12 cm with a 40\u00b0 angle opposite the 12 cm side"
+   ],
+   "correctIndex": 3,
+   "explanation": "The SAS similarity idea only works when the equal angle lies between the two sides in the same ratio; if the angle is positioned differently in the two triangles, the triangles need not be similar, yet this algorithm still outputs SIMILAR. The tempting choice is the 3, 4 and 6, 8 pair with a right angle between the sides in both, but there the algorithm's output of SIMILAR is actually correct, so it is not a counterexample. A good counterexample must be a case where you know the true answer and the algorithm disagrees with it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0040",
+   "topicId": "maths-space-y8",
+   "stem": "What is the sum of the angles in a quadrilateral?",
+   "imageRef": null,
+   "options": [
+    "180\u00b0",
+    "540\u00b0",
+    "270\u00b0",
+    "360\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "A quadrilateral splits into two triangles, and each contributes 180\u00b0. Every extra side adds another 180\u00b0 to the total.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0041",
+   "topicId": "maths-space-y8",
+   "stem": "Two angles on a straight line are 65\u00b0 and x. What is x?",
+   "imageRef": null,
+   "options": [
+    "35\u00b0",
+    "115\u00b0",
+    "25\u00b0",
+    "295\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Angles on a straight line total 180\u00b0, so x = 180 \u2212 65. Using 90 or 360 instead is the most common error in angle chasing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0042",
+   "topicId": "maths-space-y8",
+   "stem": "What are vertically opposite angles?",
+   "imageRef": null,
+   "options": [
+    "Angles inside parallel lines",
+    "Equal angles formed where two lines cross",
+    "Angles that add to 180 degrees",
+    "Angles on the same side of a line"
+   ],
+   "correctIndex": 1,
+   "explanation": "When two straight lines cross, the angles directly opposite each other are equal. The pairs beside each other add to 180\u00b0 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0043",
+   "topicId": "maths-space-y8",
+   "stem": "Two parallel lines are crossed by a transversal. Co-interior angles:",
+   "imageRef": null,
+   "options": [
+    "Add to 180\u00b0",
+    "Are equal",
+    "Add to 90\u00b0",
+    "Add to 360\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Co-interior angles sit between the parallel lines on the same side of the transversal and are supplementary. Alternate and corresponding angles are the equal pairs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0044",
+   "topicId": "maths-space-y8",
+   "stem": "Which transformation turns a shape about a point?",
+   "imageRef": null,
+   "options": [
+    "An enlargement",
+    "A rotation",
+    "A reflection",
+    "A translation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rotation needs a centre and an angle. Reflection needs a mirror line and translation needs a direction and distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0045",
+   "topicId": "maths-space-y8",
+   "stem": "A shape is translated 3 right and 2 down. What happens to the point (4, 5)?",
+   "imageRef": null,
+   "options": [
+    "It moves to (7, 7)",
+    "It moves to (2, 3)",
+    "It moves to (7, 3)",
+    "It moves to (1, 7)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Add 3 to the x and subtract 2 from the y. Down is negative on the y-axis, which is the part most often reversed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0046",
+   "topicId": "maths-space-y8",
+   "stem": "A point (3, 4) is reflected in the x-axis. Where does it land?",
+   "imageRef": null,
+   "options": [
+    "(\u22123, 4)",
+    "(\u22123, \u22124)",
+    "(4, 3)",
+    "(3, \u22124)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reflecting in the x-axis keeps the x and flips the sign of the y. Reflecting in the y-axis does the opposite.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0047",
+   "topicId": "maths-space-y8",
+   "stem": "How many lines of symmetry does a rectangle have?",
+   "imageRef": null,
+   "options": [
+    "One",
+    "None",
+    "Two",
+    "Four"
+   ],
+   "correctIndex": 2,
+   "explanation": "A rectangle has a horizontal and a vertical line of symmetry, but not the diagonals. A square has four, because its diagonals work too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0048",
+   "topicId": "maths-space-y8",
+   "stem": "What is the order of rotational symmetry of an equilateral triangle?",
+   "imageRef": null,
+   "options": [
+    "Two",
+    "Three",
+    "One",
+    "Six"
+   ],
+   "correctIndex": 1,
+   "explanation": "It looks the same three times in a full turn, every 120\u00b0. Order 1 would mean no rotational symmetry beyond a full turn.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0049",
+   "topicId": "maths-space-y8",
+   "stem": "Which solid has two circular faces and one curved surface?",
+   "imageRef": null,
+   "options": [
+    "A sphere",
+    "A prism",
+    "A cylinder",
+    "A cone"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cone has one circular face and a point, and a sphere has no flat faces at all. Counting faces is the quickest way to tell solids apart.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0050",
+   "topicId": "maths-space-y8",
+   "stem": "A cube has how many edges?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "24",
+    "12",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Six faces, eight vertices and twelve edges. The counts satisfy Euler formula, where faces plus vertices minus edges equals two.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0051",
+   "topicId": "maths-space-y8",
+   "stem": "What is a net of a solid?",
+   "imageRef": null,
+   "options": [
+    "A cross-section through the solid",
+    "A flat shape that folds into the solid",
+    "A drawing of the solid from above",
+    "The surface area of the solid"
+   ],
+   "correctIndex": 1,
+   "explanation": "A net is the unfolded surface, so its total area is the surface area. A view from above is a plan instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0052",
+   "topicId": "maths-space-y8",
+   "stem": "What is the area of a parallelogram with base 8 and perpendicular height 5?",
+   "imageRef": null,
+   "options": [
+    "20 square units",
+    "26 square units",
+    "40 square units",
+    "13 square units"
+   ],
+   "correctIndex": 2,
+   "explanation": "Base times perpendicular height, the same as a rectangle. The slanted side is longer than the height and must not be used.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0053",
+   "topicId": "maths-space-y8",
+   "stem": "A triangle has angles 40\u00b0 and 75\u00b0. What is the third angle?",
+   "imageRef": null,
+   "options": [
+    "65\u00b0",
+    "75\u00b0",
+    "45\u00b0",
+    "115\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Angles in a triangle total 180\u00b0, so 180 \u2212 115 = 65. Adding the two given angles first is the reliable order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0054",
+   "topicId": "maths-space-y8",
+   "stem": "An isosceles triangle has an apex angle of 40\u00b0. What are the base angles?",
+   "imageRef": null,
+   "options": [
+    "70\u00b0 each",
+    "140\u00b0 each",
+    "40\u00b0 each",
+    "50\u00b0 each"
+   ],
+   "correctIndex": 0,
+   "explanation": "The two base angles are equal and share the remaining 140\u00b0, so 70\u00b0 each. Recognising which angle is the odd one out is the key step.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0055",
+   "topicId": "maths-space-y8",
+   "stem": "Which quadrilateral has four equal sides and four right angles?",
+   "imageRef": null,
+   "options": [
+    "A parallelogram",
+    "A square",
+    "A rhombus",
+    "A rectangle"
+   ],
+   "correctIndex": 1,
+   "explanation": "A rhombus has equal sides but not right angles, and a rectangle has right angles but not equal sides. A square is both at once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0056",
+   "topicId": "maths-space-y8",
+   "stem": "What is the perimeter of a regular octagon with side 7 cm?",
+   "imageRef": null,
+   "options": [
+    "14 cm",
+    "56 cm",
+    "49 cm",
+    "63 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Regular means all eight sides are equal, so multiply by 8. The number of sides is what the prefix oct tells you.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0057",
+   "topicId": "maths-space-y8",
+   "stem": "Which is a property of a kite?",
+   "imageRef": null,
+   "options": [
+    "Two pairs of adjacent equal sides",
+    "Two pairs of parallel sides",
+    "Four equal angles",
+    "Diagonals of equal length"
+   ],
+   "correctIndex": 0,
+   "explanation": "A kite pairs its equal sides next to each other rather than opposite. Opposite equal sides would make it a parallelogram.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0058",
+   "topicId": "maths-space-y8",
+   "stem": "A shape is enlarged by scale factor 2 about the origin. What happens to (3, 4)?",
+   "imageRef": null,
+   "options": [
+    "It stays at (3, 4)",
+    "It moves to (6, 8)",
+    "It moves to (5, 6)",
+    "It moves to (1.5, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply both coordinates by the scale factor when the centre is the origin. Adding the factor instead is a translation, not an enlargement.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0059",
+   "topicId": "maths-space-y8",
+   "stem": "How many degrees in a right angle?",
+   "imageRef": null,
+   "options": [
+    "180",
+    "45",
+    "360",
+    "90"
+   ],
+   "correctIndex": 3,
+   "explanation": "A right angle is a quarter turn. Two of them make a straight line and four make a full revolution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0060",
+   "topicId": "maths-space-y8",
+   "stem": "A regular polygon has exterior angles of 45\u00b0. How many sides does it have?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "6",
+    "10",
+    "45"
+   ],
+   "correctIndex": 0,
+   "explanation": "Exterior angles always total 360\u00b0, so divide by 45 to get 8. This works for any regular polygon and avoids the interior-angle formula.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y8-0061",
+   "topicId": "maths-space-y8",
+   "stem": "What does congruent mean?",
+   "imageRef": null,
+   "options": [
+    "Having the same area only",
+    "Having the same perimeter only",
+    "The same shape and the same size",
+    "The same shape at a different size"
+   ],
+   "correctIndex": 2,
+   "explanation": "Congruent shapes can be placed exactly on top of each other. Same shape at a different size is similar instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

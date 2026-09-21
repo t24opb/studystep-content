@@ -1,0 +1,803 @@
+{
+ "topicId": "mm-circular",
+ "questions": [
+  {
+   "id": "mm-circular-0001",
+   "topicId": "mm-circular",
+   "stem": "On the unit circle, the coordinates of a point at angle \u03b8 are:",
+   "imageRef": null,
+   "options": [
+    "(sin \u03b8, cos \u03b8)",
+    "(tan \u03b8, cos \u03b8)",
+    "(\u03b8, sin \u03b8)",
+    "(cos \u03b8, sin \u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cosine is the horizontal distance and sine is the vertical one. Every sign rule and exact value follows from that single sentence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0002",
+   "topicId": "mm-circular",
+   "stem": "How many radians are in a full turn?",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "360",
+    "\u03c0/2",
+    "2\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "A full turn is 2\u03c0 radians, which is why \u03c0 radians is half a turn and \u03c0/2 is a right angle. The radian is defined so the arc length equals the radius when the angle is 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0003",
+   "topicId": "mm-circular",
+   "stem": "Convert 180\u00b0 to radians.",
+   "imageRef": null,
+   "options": [
+    "2\u03c0",
+    "\u03c0/2",
+    "180\u03c0",
+    "\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply degrees by \u03c0/180: 180 \u00d7 \u03c0/180 = \u03c0. Half a turn is half of 2\u03c0, which is the fastest way to remember it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0004",
+   "topicId": "mm-circular",
+   "stem": "Convert 60\u00b0 to radians.",
+   "imageRef": null,
+   "options": [
+    "3\u03c0",
+    "\u03c0/3",
+    "\u03c0/6",
+    "\u03c0/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "60 \u00d7 \u03c0/180 = \u03c0/3. A sixth of a full turn is a sixth of 2\u03c0, which is \u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0005",
+   "topicId": "mm-circular",
+   "stem": "Convert 3\u03c0/4 radians to degrees.",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "120\u00b0",
+    "270\u00b0",
+    "135\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by 180/\u03c0: 3/4 \u00d7 180 = 135\u00b0. Three quarters of a half turn is three quarters of 180.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0006",
+   "topicId": "mm-circular",
+   "stem": "In which quadrant is sine positive and cosine negative?",
+   "imageRef": null,
+   "options": [
+    "Second",
+    "First",
+    "Third",
+    "Fourth"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sine is the y-coordinate and cosine is the x-coordinate, so this asks where y is positive and x is negative \u2014 the second quadrant, above and left of the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0007",
+   "topicId": "mm-circular",
+   "stem": "What is the exact value of sin 30\u00b0?",
+   "imageRef": null,
+   "options": [
+    "\u221a2/2",
+    "1",
+    "1/2",
+    "\u221a3/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "From half an equilateral triangle with sides 1, \u221a3 and 2, the side opposite 30\u00b0 is 1 and the hypotenuse is 2. Drawing that triangle is quicker than memorising the table.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0008",
+   "topicId": "mm-circular",
+   "stem": "What is the exact value of cos 45\u00b0?",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "1",
+    "\u221a2/2",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Half a unit square cut along its diagonal gives sides 1, 1 and \u221a2, so both the sine and cosine of 45\u00b0 are 1/\u221a2, which is written \u221a2/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0009",
+   "topicId": "mm-circular",
+   "stem": "What is the exact value of sin 60\u00b0?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u221a2/2",
+    "2/\u221a3",
+    "\u221a3/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "In the 30\u201360\u201390 triangle the side opposite 60\u00b0 is \u221a3 and the hypotenuse is 2. Note that sin 60\u00b0 and cos 30\u00b0 are the same value, because the two angles are complementary.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0010",
+   "topicId": "mm-circular",
+   "stem": "Find the exact value of cos(5\u03c0/6).",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u2212\u221a3/2",
+    "\u221a3/2",
+    "\u22121/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "5\u03c0/6 is 150\u00b0, which is in the second quadrant where cosine is negative. Its reference angle is 30\u00b0, and cos 30\u00b0 = \u221a3/2, so the answer is \u2212\u221a3/2.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0011",
+   "topicId": "mm-circular",
+   "stem": "Find the exact value of sin(5\u03c0/6).",
+   "imageRef": null,
+   "options": [
+    "\u22121/2",
+    "\u221a3/2",
+    "\u2212\u221a3/2",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "150\u00b0 is in the second quadrant where sine is positive, and the reference angle is 30\u00b0, so the value is sin 30\u00b0 = 1/2.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0012",
+   "topicId": "mm-circular",
+   "stem": "What is tan \u03b8 in terms of sine and cosine?",
+   "imageRef": null,
+   "options": [
+    "sin \u03b8 \u00d7 cos \u03b8",
+    "sin \u03b8 + cos \u03b8",
+    "sin \u03b8 \u00f7 cos \u03b8",
+    "cos \u03b8 \u00f7 sin \u03b8"
+   ],
+   "correctIndex": 2,
+   "explanation": "On the unit circle it is the height divided by the width. This is why tan is undefined at 90\u00b0, where the width is zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0013",
+   "topicId": "mm-circular",
+   "stem": "Why is tan 90\u00b0 undefined?",
+   "imageRef": null,
+   "options": [
+    "Because tan only works for acute angles",
+    "Because cos 90\u00b0 = 0 and you cannot divide by zero",
+    "Because sin 90\u00b0 = 0",
+    "Because 90\u00b0 is not on the unit circle"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tangent is sine over cosine, and at 90\u00b0 the cosine is exactly zero. The value does not become very large \u2014 it does not exist.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0014",
+   "topicId": "mm-circular",
+   "stem": "What is the period of y = sin x?",
+   "imageRef": null,
+   "options": [
+    "360\u00b0 or 2\u03c0",
+    "180\u00b0 or \u03c0",
+    "90\u00b0",
+    "720\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The pattern repeats after one full turn round the circle. Cosine has the same period; tangent repeats every 180\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0015",
+   "topicId": "mm-circular",
+   "stem": "What is the amplitude of y = 3 sin x?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "1",
+    "6",
+    "1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The coefficient in front stretches the curve vertically, so it now swings between 3 and \u22123. The period is unaffected by it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0016",
+   "topicId": "mm-circular",
+   "stem": "What is the period of y = sin 2x?",
+   "imageRef": null,
+   "options": [
+    "360\u00b0 or 2\u03c0",
+    "720\u00b0",
+    "90\u00b0",
+    "180\u00b0 or \u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "A coefficient inside squashes the curve horizontally, dividing the period: 360 \u00f7 2 = 180\u00b0. Inside affects the period, outside affects the amplitude.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0017",
+   "topicId": "mm-circular",
+   "stem": "Solve sin x = 0.5 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+   "imageRef": null,
+   "options": [
+    "30\u00b0 and 210\u00b0",
+    "60\u00b0 and 120\u00b0",
+    "30\u00b0 and 150\u00b0",
+    "30\u00b0 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "The calculator gives 30\u00b0, and sine is also positive in the second quadrant, where 180 \u2212 30 = 150\u00b0. Missing the second solution is the standard error.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0018",
+   "topicId": "mm-circular",
+   "stem": "Solve cos x = \u22120.5 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+   "imageRef": null,
+   "options": [
+    "60\u00b0 and 300\u00b0",
+    "120\u00b0 only",
+    "60\u00b0 and 120\u00b0",
+    "120\u00b0 and 240\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cosine is negative in the second and third quadrants, and the reference angle is 60\u00b0, giving 180 \u2212 60 = 120\u00b0 and 180 + 60 = 240\u00b0.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0019",
+   "topicId": "mm-circular",
+   "stem": "What is sin\u00b2\u03b8 + cos\u00b2\u03b8 equal to, for any angle?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "2",
+    "tan \u03b8"
+   ],
+   "correctIndex": 0,
+   "explanation": "It is Pythagoras on the unit circle: the height squared plus the width squared equals the radius squared, and the radius is 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0020",
+   "topicId": "mm-circular",
+   "stem": "What is cos 0\u00b0?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22121",
+    "1/2",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "At 0\u00b0 the point sits at (1, 0), so the width is 1 and the height is 0. Reading the coordinates off the circle answers every question of this kind.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0021",
+   "topicId": "mm-circular",
+   "stem": "How many degrees are in one radian, roughly?",
+   "imageRef": null,
+   "options": [
+    "About 90\u00b0",
+    "About 180\u00b0",
+    "About 57\u00b0",
+    "About 45\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A radian is the angle where the arc equals the radius, and that is 180 divided by \u03c0, which is about 57.3\u00b0. Knowing the rough size is a useful check on any conversion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0022",
+   "topicId": "mm-circular",
+   "stem": "Convert 90\u00b0 to radians.",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "\u03c0",
+    "2\u03c0",
+    "\u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by \u03c0 over 180, so 90 becomes \u03c0/2. A quarter turn is a quarter of 2\u03c0, which gives the same answer another way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0023",
+   "topicId": "mm-circular",
+   "stem": "Convert 7\u03c0/4 radians to degrees.",
+   "imageRef": null,
+   "options": [
+    "270\u00b0",
+    "225\u00b0",
+    "135\u00b0",
+    "315\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by 180 over \u03c0: 7 \u00d7 180 \u00f7 4 = 315. Since 7\u03c0/4 is seven eighths of a full turn, a value just under 360\u00b0 is expected.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0024",
+   "topicId": "mm-circular",
+   "stem": "Where is the point at angle \u03c0 on the unit circle?",
+   "imageRef": null,
+   "options": [
+    "(1, 0)",
+    "(0, \u22121)",
+    "(\u22121, 0)",
+    "(0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "An angle of \u03c0 is half a turn anticlockwise from (1, 0), landing on the negative x-axis. The four quarter-turn points are worth knowing on sight.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0025",
+   "topicId": "mm-circular",
+   "stem": "What is sin(\u03c0/2)?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22121",
+    "1/2",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "At a quarter turn the point is (0, 1), and sine is the y-coordinate. Reading sine as the height on the unit circle makes these values immediate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0026",
+   "topicId": "mm-circular",
+   "stem": "What is cos(\u03c0)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "\u22121/2",
+    "\u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "At half a turn the point is (\u22121, 0), and cosine is the x-coordinate. Sine there is 0, which is the other half of the same fact.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0027",
+   "topicId": "mm-circular",
+   "stem": "In which quadrant are both sine and cosine negative?",
+   "imageRef": null,
+   "options": [
+    "The first",
+    "The third",
+    "The second",
+    "The fourth"
+   ],
+   "correctIndex": 1,
+   "explanation": "In the third quadrant both coordinates are negative, and sine and cosine are the y and x values. Tangent is positive there, because a negative divided by a negative is positive.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0028",
+   "topicId": "mm-circular",
+   "stem": "Where is sine positive but cosine negative?",
+   "imageRef": null,
+   "options": [
+    "The second quadrant",
+    "The first quadrant",
+    "The third quadrant",
+    "The fourth quadrant"
+   ],
+   "correctIndex": 0,
+   "explanation": "The second quadrant has a negative x and a positive y, which is exactly negative cosine and positive sine. Reading the signs off the coordinates beats memorising a mnemonic.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0029",
+   "topicId": "mm-circular",
+   "stem": "What is the period of y = sin x, in radians?",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "\u03c0/2",
+    "4\u03c0",
+    "2\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve repeats after one full turn around the circle. Tangent is the exception, repeating every \u03c0 rather than every 2\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0030",
+   "topicId": "mm-circular",
+   "stem": "What is the amplitude of y = 5 cos x?",
+   "imageRef": null,
+   "options": [
+    "1/5",
+    "5",
+    "1",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "Amplitude is the distance from the centre line to a peak, which the 5 stretches. The full height from trough to peak is twice that.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0031",
+   "topicId": "mm-circular",
+   "stem": "What is the period of y = sin(2x)?",
+   "imageRef": null,
+   "options": [
+    "2\u03c0",
+    "4\u03c0",
+    "\u03c0/2",
+    "\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Doubling the x compresses the curve, so it repeats twice as often: 2\u03c0 \u00f7 2 = \u03c0. A number inside the function affects the period, one outside affects the amplitude.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0032",
+   "topicId": "mm-circular",
+   "stem": "What does the 4 do in y = sin x + 4?",
+   "imageRef": null,
+   "options": [
+    "Shortens the period to a quarter",
+    "Shifts the curve right 4 units",
+    "Shifts the curve up 4 units",
+    "Multiplies the amplitude by 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding outside the function moves it vertically, so it now oscillates around y = 4. Adding inside the bracket would shift it sideways instead.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0033",
+   "topicId": "mm-circular",
+   "stem": "What is the maximum value of y = 2 cos x + 1?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "3",
+    "2",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Cosine peaks at 1, so the largest value is 2 \u00d7 1 + 1 = 3. The minimum is 2 \u00d7 (\u22121) + 1 = \u22121, so the curve swings between \u22121 and 3.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0034",
+   "topicId": "mm-circular",
+   "stem": "What is tan(\u03c0/4)?",
+   "imageRef": null,
+   "options": [
+    "1/\u221a3",
+    "1",
+    "0",
+    "\u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "At 45\u00b0 the sine and cosine are equal, so their ratio is 1. This is the one exact tangent value that needs no surd.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0035",
+   "topicId": "mm-circular",
+   "stem": "Why does sin(\u03c0 \u2212 x) equal sin x?",
+   "imageRef": null,
+   "options": [
+    "Sine is the same for every angle",
+    "Subtracting from \u03c0 reverses the sign",
+    "The two angles have the same height on the unit circle",
+    "The two angles are equal in size"
+   ],
+   "correctIndex": 2,
+   "explanation": "Reflecting across the vertical axis keeps the y-coordinate and flips the x. That is why sine is unchanged while cosine changes sign.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0036",
+   "topicId": "mm-circular",
+   "stem": "Why is a full turn 2\u03c0 radians rather than some other number?",
+   "imageRef": null,
+   "options": [
+    "The unit circle has circumference 2\u03c0 and a radian is one radius of arc",
+    "It was chosen to make the number \u03c0 appear in the answer",
+    "Because 360 divided by 180 happens to give 2",
+    "Because every circle has exactly two halves in it"
+   ],
+   "correctIndex": 0,
+   "explanation": "A radian is the angle whose arc equals the radius, and the whole circumference is 2\u03c0 radii, so a full turn contains 2\u03c0 of them. The definition does the work, not a convention.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0037",
+   "topicId": "mm-circular",
+   "stem": "Solve sin x = 1/2 for x between 0 and 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6 only",
+    "\u03c0/3 and 2\u03c0/3",
+    "\u03c0/6 and 7\u03c0/6",
+    "\u03c0/6 and 5\u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Sine is positive in the first and second quadrants, so there are two solutions, and they are reflections about the vertical axis. Giving only the calculator answer misses the second.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0038",
+   "topicId": "mm-circular",
+   "stem": "What is the range of y = cos x?",
+   "imageRef": null,
+   "options": [
+    "Between 0 and 1 inclusive",
+    "All real numbers",
+    "Between \u2212\u03c0 and \u03c0",
+    "Between \u22121 and 1 inclusive"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cosine is an x-coordinate on a circle of radius 1, so it can never leave that interval. Any answer outside it signals an error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0039",
+   "topicId": "mm-circular",
+   "stem": "What is the exact value of cos(\u03c0/3)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/2",
+    "\u221a3/2",
+    "\u221a2/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03c0/3 is 60\u00b0, and in the 30-60-90 triangle the side adjacent to 60\u00b0 is half the hypotenuse. Sine of the same angle is \u221a3/2, which is the value often swapped in.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0040",
+   "topicId": "mm-circular",
+   "stem": "On the unit circle, sine corresponds to which coordinate?",
+   "imageRef": null,
+   "options": [
+    "The arc length",
+    "The y-coordinate",
+    "The x-coordinate",
+    "The radius"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sine is the height and cosine is the horizontal distance. Since the radius is 1 the coordinates are the ratios themselves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0041",
+   "topicId": "mm-circular",
+   "stem": "Why does the tangent function have a vertical asymptote at \u03c0/2?",
+   "imageRef": null,
+   "options": [
+    "The curve reaches its maximum there",
+    "Cosine is zero there, so the ratio is undefined",
+    "Sine is zero there, so the ratio is undefined",
+    "The angle is too large to measure"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tangent is sine over cosine, and dividing by zero has no value. The asymptotes appear wherever cosine crosses the axis.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-circular-0042",
+   "topicId": "mm-circular",
+   "stem": "Convert 30\u00b0 to radians.",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6",
+    "\u03c0/3",
+    "\u03c0/4",
+    "\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply by \u03c0 over 180: 30 becomes \u03c0/6. Since 30\u00b0 is a twelfth of a turn, it is also 2\u03c0 divided by 12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-circular-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

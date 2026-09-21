@@ -1,0 +1,879 @@
+{
+ "topicId": "mm-linear",
+ "questions": [
+  {
+   "id": "mm-linear-0001",
+   "topicId": "mm-linear",
+   "stem": "What is the gradient of the line y = 4x \u2212 7?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "4",
+    "\u22127",
+    "7"
+   ],
+   "correctIndex": 1,
+   "explanation": "In y = mx + c the coefficient of x is the gradient, so m = 4. The \u22127 is the y-intercept, which is where the line crosses the vertical axis, not how steep it is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0002",
+   "topicId": "mm-linear",
+   "stem": "A line passes through (0, 5) with gradient \u22122. What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = 5x \u2212 2",
+    "y = 2x + 5",
+    "y = \u22122x \u2212 5",
+    "y = \u22122x + 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Passing through (0, 5) means c = 5, and the gradient is m = \u22122, so y = \u22122x + 5. Swapping the two numbers gives y = 5x \u2212 2, which has the wrong steepness and the wrong intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0003",
+   "topicId": "mm-linear",
+   "stem": "Find the gradient of the line through A(1, 3) and B(4, 9).",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u22122",
+    "2",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Gradient is rise over run: (9 \u2212 3) \u00f7 (4 \u2212 1) = 6 \u00f7 3 = 2. Take the points in the same order in the numerator and denominator, or the sign comes out wrong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0004",
+   "topicId": "mm-linear",
+   "stem": "Write 2x + y = 6 in gradient-intercept form.",
+   "imageRef": null,
+   "options": [
+    "y = 2x + 6",
+    "y = 6 \u2212 x/2",
+    "y = 2x \u2212 6",
+    "y = \u22122x + 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtracting 2x from both sides gives y = \u22122x + 6, so the gradient is \u22122 and the intercept is 6. Forgetting that the 2x becomes negative when it moves across is the usual error here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0005",
+   "topicId": "mm-linear",
+   "stem": "Which line is parallel to y = 3x \u2212 1?",
+   "imageRef": null,
+   "options": [
+    "y = x/3 \u2212 1",
+    "y = \u2212x/3 + 4",
+    "y = 3x + 4",
+    "y = \u22123x \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parallel lines have equal gradients, so any line with m = 3 is parallel. The intercept is irrelevant \u2014 it only decides where the line sits, not which way it tilts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0006",
+   "topicId": "mm-linear",
+   "stem": "Which line is perpendicular to y = 2x + 5?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x/2 + 1",
+    "y = 2x \u2212 5",
+    "y = x/2 + 1",
+    "y = \u22122x + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Perpendicular gradients multiply to \u22121, so the required gradient is \u22121/2. Simply negating to \u22122 is the common trap: 2 \u00d7 \u22122 = \u22124, not \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0007",
+   "topicId": "mm-linear",
+   "stem": "Find the equation of the line with gradient 2 passing through (3, 11).",
+   "imageRef": null,
+   "options": [
+    "y = 2x + 5",
+    "y = 2x + 11",
+    "y = 2x \u2212 5",
+    "y = 3x + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute the point into y = 2x + c: 11 = 2(3) + c, so c = 5 and the line is y = 2x + 5. Reading the 11 straight into c ignores that the point is not on the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0008",
+   "topicId": "mm-linear",
+   "stem": "Find the midpoint of the interval joining A(2, 3) and B(8, 11).",
+   "imageRef": null,
+   "options": [
+    "(5, 7)",
+    "(6, 8)",
+    "(10, 14)",
+    "(3, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The midpoint is the average of the coordinates: ((2 + 8)/2, (3 + 11)/2) = (5, 7). Adding without halving gives (10, 14), which is a point far beyond B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0009",
+   "topicId": "mm-linear",
+   "stem": "Find the distance between A(1, 2) and B(4, 6).",
+   "imageRef": null,
+   "options": [
+    "25",
+    "3",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The horizontal gap is 3 and the vertical gap is 4, so the distance is \u221a(3\u00b2 + 4\u00b2) = \u221a25 = 5. Answering 25 stops one step early \u2014 that is the square of the distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0010",
+   "topicId": "mm-linear",
+   "stem": "Solve 3x + 2 > 11 and describe the solution.",
+   "imageRef": null,
+   "options": [
+    "x > 3",
+    "x < 3",
+    "x > 13/3",
+    "x \u2265 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract 2 to get 3x > 9, then divide by 3 to get x > 3. The inequality sign only flips when you multiply or divide by a negative, and 3 is positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0011",
+   "topicId": "mm-linear",
+   "stem": "Solve \u22122x > 6.",
+   "imageRef": null,
+   "options": [
+    "x < 3",
+    "x > 3",
+    "x < \u22123",
+    "x > \u22123"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing both sides by \u22122 reverses the inequality, giving x < \u22123. Test x = 0: \u22122(0) = 0, which is not greater than 6, so 0 must be excluded \u2014 and x < \u22123 excludes it while x > \u22123 would not.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0012",
+   "topicId": "mm-linear",
+   "stem": "How is x \u2264 4 shown on a number line?",
+   "imageRef": null,
+   "options": [
+    "A filled circle at 4 with the line going right",
+    "An open circle at 4 with the line going right",
+    "A filled circle at 4 with the line going left",
+    "An open circle at 4 with the line going left"
+   ],
+   "correctIndex": 2,
+   "explanation": "The \u2264 includes 4 itself, so the circle is filled, and \"less than\" means the values below it, so the line runs left. An open circle would mean 4 is excluded.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0013",
+   "topicId": "mm-linear",
+   "stem": "Solve simultaneously: x + y = 5 and x \u2212 y = 1.",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = 3",
+    "x = 4, y = 1",
+    "x = 1, y = 4",
+    "x = 3, y = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Adding the two equations eliminates y: 2x = 6, so x = 3, and substituting back gives y = 2. Check both equations \u2014 3 + 2 = 5 and 3 \u2212 2 = 1 \u2014 before you finish.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0014",
+   "topicId": "mm-linear",
+   "stem": "Solve simultaneously: 2x + y = 7 and x \u2212 y = 2.",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = 3",
+    "x = 4, y = \u22121",
+    "x = 3, y = 1",
+    "x = 1, y = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding eliminates y: 3x = 9, so x = 3, and then 3 \u2212 y = 2 gives y = 1. Elimination works here because the y terms are already equal and opposite.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0015",
+   "topicId": "mm-linear",
+   "stem": "Two lines have the same gradient but different intercepts. How many solutions does the pair of equations have?",
+   "imageRef": null,
+   "options": [
+    "None",
+    "Exactly one",
+    "Infinitely many",
+    "Exactly two"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equal gradients mean the lines are parallel, and different intercepts mean they never meet, so there is no point satisfying both. Infinitely many solutions would mean the two equations described the same line.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0016",
+   "topicId": "mm-linear",
+   "stem": "A phone plan costs C = 20 + 0.25t dollars for t minutes. What does the 20 represent?",
+   "imageRef": null,
+   "options": [
+    "The number of minutes included",
+    "The total cost",
+    "A fixed monthly charge",
+    "The cost per minute"
+   ],
+   "correctIndex": 2,
+   "explanation": "At t = 0 the cost is $20, so it is the standing charge paid regardless of use. The 0.25 is the gradient, which is the cost per minute.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0017",
+   "topicId": "mm-linear",
+   "stem": "Solve for x:  (x + 1)/3 + (x - 2)/4 = 2.",
+   "imageRef": null,
+   "options": [
+    "x = 26/7",
+    "x = 2",
+    "x = 7/26",
+    "x = 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply every term by 12: 4(x + 1) + 3(x - 2) = 24. Expanding gives 4x + 4 + 3x - 6 = 24, so 7x - 2 = 24 and x = 26/7. The step most often missed is multiplying the right-hand side by 12 as well as the two fractions.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0018",
+   "topicId": "mm-linear",
+   "stem": "A line has gradient 0. What does its graph look like?",
+   "imageRef": null,
+   "options": [
+    "Vertical",
+    "Rising at 45 degrees",
+    "Falling steeply",
+    "Horizontal"
+   ],
+   "correctIndex": 3,
+   "explanation": "A gradient of 0 means y does not change as x increases, so the line is flat. A vertical line has no gradient at all, because the run is zero and you cannot divide by it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0019",
+   "topicId": "mm-linear",
+   "stem": "Rearrange v = u + at to make a the subject.",
+   "imageRef": null,
+   "options": [
+    "a = v \u2212 u \u2212 t",
+    "a = (v + u)/t",
+    "a = t(v \u2212 u)",
+    "a = (v \u2212 u)/t"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract u from both sides to get v \u2212 u = at, then divide both sides by t. Every term on the left must be divided, which is why the bracket is needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0020",
+   "topicId": "mm-linear",
+   "stem": "The line through (2, k) and (5, 11) has gradient 3. Find k.",
+   "imageRef": null,
+   "options": [
+    "5",
+    "8",
+    "\u22122",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Gradient is (11 \u2212 k)/(5 \u2212 2) = 3, so 11 \u2212 k = 9 and k = 2. Setting up the fraction with the points in a consistent order is the whole of this question.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0021",
+   "topicId": "mm-linear",
+   "stem": "How is the region y > 2x + 1 shown on a graph?",
+   "imageRef": null,
+   "options": [
+    "A dashed line with the region above it shaded",
+    "A solid line with the region above shaded",
+    "A dashed line with the region below shaded",
+    "A solid line with the region below shaded"
+   ],
+   "correctIndex": 0,
+   "explanation": "A strict inequality excludes the boundary, so the line is dashed. Testing a point such as the origin decides which side to shade.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0022",
+   "topicId": "mm-linear",
+   "stem": "Why is the boundary drawn solid for y \u2264 3x \u2212 2?",
+   "imageRef": null,
+   "options": [
+    "Because the points on the line satisfy the inequality",
+    "Because the gradient of the boundary line is positive",
+    "Because the shaded region lies below the boundary",
+    "Because the intercept of the line is negative"
+   ],
+   "correctIndex": 0,
+   "explanation": "A non-strict inequality includes equality, so the line itself is part of the solution and is drawn solid. A dashed line would exclude it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0023",
+   "topicId": "mm-linear",
+   "stem": "Solve (2x \u2212 1)/3 = (x + 4)/2.",
+   "imageRef": null,
+   "options": [
+    "x = 14",
+    "x = 7",
+    "x = 2",
+    "x = 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Cross-multiply: 2(2x \u2212 1) = 3(x + 4), so 4x \u2212 2 = 3x + 12 and x = 14. Substituting back into the original is a ten-second check worth doing.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0024",
+   "topicId": "mm-linear",
+   "stem": "Solve x/2 + x/3 = 10.",
+   "imageRef": null,
+   "options": [
+    "x = 6",
+    "x = 60",
+    "x = 12",
+    "x = 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply every term by 6: 3x + 2x = 60, so 5x = 60 and x = 12. Multiplying the right-hand side as well as the fractions is the step most often missed.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0025",
+   "topicId": "mm-linear",
+   "stem": "What is the gradient of the line y = 5 \u2212 2x?",
+   "imageRef": null,
+   "options": [
+    "\u22125",
+    "\u22122",
+    "5",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearranged into y = mx + c form this is y = \u22122x + 5, so the gradient is \u22122 and the intercept is 5. Reading the first number you see is the trap when the terms are written the other way round.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0026",
+   "topicId": "mm-linear",
+   "stem": "A line passes through (1, 4) and (3, 10). What is its gradient?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "2",
+    "6",
+    "1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Gradient is the change in y over the change in x, so (10 \u2212 4) \u00f7 (3 \u2212 1) = 6 \u00f7 2 = 3. Dividing the other way round gives 1/3, which is the usual slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0027",
+   "topicId": "mm-linear",
+   "stem": "What is the equation of a line with gradient 4 passing through (0, \u22123)?",
+   "imageRef": null,
+   "options": [
+    "y = 4x",
+    "y = 4x \u2212 3",
+    "y = 4x + 3",
+    "y = \u22123x + 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The point has an x of 0, so it is the y-intercept and can be written straight into y = mx + c. When a point sits on the y-axis no substitution is needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0028",
+   "topicId": "mm-linear",
+   "stem": "What is the equation of the line through (2, 7) with gradient 3?",
+   "imageRef": null,
+   "options": [
+    "y = 3x + 1",
+    "y = 3x + 7",
+    "y = 3x \u2212 1",
+    "y = 2x + 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute into y = 3x + c: 7 = 6 + c, so c = 1. Assuming the y value given is the intercept is what produces y = 3x + 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0029",
+   "topicId": "mm-linear",
+   "stem": "Which line is parallel to y = 3x \u2212 4?",
+   "imageRef": null,
+   "options": [
+    "y = \u22123x \u2212 4",
+    "y = (1/3)x \u2212 4",
+    "y = \u2212(1/3)x + 9",
+    "y = 3x + 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Parallel lines have equal gradients, so only the gradient matters and the intercept is irrelevant. Sharing the intercept instead of the gradient is what makes the second option tempting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0030",
+   "topicId": "mm-linear",
+   "stem": "Which line is perpendicular to y = 2x + 1?",
+   "imageRef": null,
+   "options": [
+    "y = \u22122x + 1",
+    "y = \u2212(1/2)x + 4",
+    "y = 2x \u2212 1",
+    "y = (1/2)x + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Perpendicular gradients multiply to \u22121, so the gradient must be the negative reciprocal of 2, which is \u22121/2. Flipping the sign alone or flipping the fraction alone each gets half the rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0031",
+   "topicId": "mm-linear",
+   "stem": "A line has gradient \u22123/4. What is the gradient of a line perpendicular to it?",
+   "imageRef": null,
+   "options": [
+    "\u22123/4",
+    "4/3",
+    "3/4",
+    "\u22124/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Turn the fraction upside down and change the sign: \u22123/4 becomes 4/3. A check is that \u22123/4 \u00d7 4/3 = \u22121, which is the defining condition.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0032",
+   "topicId": "mm-linear",
+   "stem": "Where does 2x + 3y = 12 cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "(0, 6)",
+    "(6, 0)",
+    "(0, 4)",
+    "(4, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "On the x-axis y is zero, so 2x = 12 and x = 6. Setting x to zero instead finds the y-intercept, which is the other crossing point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0033",
+   "topicId": "mm-linear",
+   "stem": "Where does 2x + 3y = 12 cross the y-axis?",
+   "imageRef": null,
+   "options": [
+    "(4, 0)",
+    "(0, 6)",
+    "(0, 4)",
+    "(0, 12)"
+   ],
+   "correctIndex": 2,
+   "explanation": "On the y-axis x is zero, so 3y = 12 and y = 4. Both intercepts together are enough to sketch a straight line quickly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0034",
+   "topicId": "mm-linear",
+   "stem": "Solve the pair y = 2x + 1 and y = x + 4 simultaneously.",
+   "imageRef": null,
+   "options": [
+    "x = 1, y = 3",
+    "x = 3, y = 7",
+    "x = 3, y = 6",
+    "x = 5, y = 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both equal y, so set them equal: 2x + 1 = x + 4 gives x = 3, then y = 7 from either equation. Substituting back into both is the check.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0035",
+   "topicId": "mm-linear",
+   "stem": "Solve 3x + y = 11 and 2x \u2212 y = 4 simultaneously.",
+   "imageRef": null,
+   "options": [
+    "x = 4, y = \u22121",
+    "x = 3, y = 2",
+    "x = 2, y = 5",
+    "x = 3, y = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding the two equations eliminates y, giving 5x = 15 and x = 3, then y = 2. Elimination is quicker than substitution whenever a variable already has opposite signs.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0036",
+   "topicId": "mm-linear",
+   "stem": "What does it mean if two simultaneous equations have no solution?",
+   "imageRef": null,
+   "options": [
+    "The lines are the same line",
+    "One line has no gradient",
+    "Both lines pass through the origin",
+    "The lines are parallel and never meet"
+   ],
+   "correctIndex": 3,
+   "explanation": "A solution is a crossing point, so no solution means the lines never cross, which happens when the gradients are equal but the intercepts differ. Identical lines give infinitely many solutions instead.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0037",
+   "topicId": "mm-linear",
+   "stem": "Solve the inequality 3x \u2212 5 > 7.",
+   "imageRef": null,
+   "options": [
+    "x > 2/3",
+    "x < 4",
+    "x > 12",
+    "x > 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Add 5 then divide by 3, and since 3 is positive the inequality sign does not change. It only flips when you multiply or divide by a negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0038",
+   "topicId": "mm-linear",
+   "stem": "Solve \u22122x + 1 \u2265 9.",
+   "imageRef": null,
+   "options": [
+    "x \u2265 \u22124",
+    "x \u2264 4",
+    "x \u2265 5",
+    "x \u2264 \u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract 1 to get \u22122x \u2265 8, then divide by \u22122, which flips the sign to give x \u2264 \u22124. Dividing by a negative without flipping is the single most common error in inequalities.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0039",
+   "topicId": "mm-linear",
+   "stem": "A taxi charges $4 plus $2 per kilometre. Which equation gives the cost?",
+   "imageRef": null,
+   "options": [
+    "C = 6d",
+    "C = 2d \u2212 4",
+    "C = 2d + 4",
+    "C = 4d + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The per-kilometre rate is the gradient and the flat charge is the intercept, because it is paid even at zero distance. Swapping them puts the flat fee on the distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0040",
+   "topicId": "mm-linear",
+   "stem": "Two phone plans cost C = 20 + 0.10m and C = 5 + 0.25m. At how many minutes do they cost the same?",
+   "imageRef": null,
+   "options": [
+    "60 minutes",
+    "25 minutes",
+    "100 minutes",
+    "150 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set them equal: 20 + 0.10m = 5 + 0.25m gives 15 = 0.15m, so m = 100. Below that the cheaper plan is the one with the lower flat fee, and above it the one with the lower rate.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0041",
+   "topicId": "mm-linear",
+   "stem": "What is the gradient of a horizontal line?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "Undefined",
+    "Any value",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "A horizontal line has no rise for any run, so the gradient is zero. A vertical line is the undefined case, because the run is zero and division by zero has no value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0042",
+   "topicId": "mm-linear",
+   "stem": "What is the equation of the vertical line through (5, \u22122)?",
+   "imageRef": null,
+   "options": [
+    "y = \u22122",
+    "y = 5x",
+    "x = \u22122",
+    "x = 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "On a vertical line every point has the same x, so the equation names x alone. The y value of the point is irrelevant, which is what makes y = \u22122 tempting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0043",
+   "topicId": "mm-linear",
+   "stem": "The midpoint of a line joining (1, 3) and (7, 11) is:",
+   "imageRef": null,
+   "options": [
+    "(3, 4)",
+    "(6, 8)",
+    "(4, 7)",
+    "(8, 14)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Average each coordinate separately: (1 + 7)/2 = 4 and (3 + 11)/2 = 7. Adding without halving gives the sum rather than the midpoint.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0044",
+   "topicId": "mm-linear",
+   "stem": "How long is the line joining (0, 0) and (6, 8)?",
+   "imageRef": null,
+   "options": [
+    "\u221a14",
+    "10",
+    "14",
+    "48"
+   ],
+   "correctIndex": 1,
+   "explanation": "Use Pythagoras on the horizontal and vertical gaps: \u221a(36 + 64) = \u221a100 = 10. Adding the gaps instead of squaring them gives 14, which is the distance if you had to travel along the axes.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0045",
+   "topicId": "mm-linear",
+   "stem": "A line has equation y = \u2212x + 6. Which point lies on it?",
+   "imageRef": null,
+   "options": [
+    "(4, 4)",
+    "(6, 6)",
+    "(2, 4)",
+    "(2, 8)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute each point and see which satisfies the equation: \u22122 + 6 = 4, so (2, 4) works. Testing by substitution is faster than sketching when only one point is needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0046",
+   "topicId": "mm-linear",
+   "stem": "Rearrange 4x \u2212 2y = 10 into gradient-intercept form.",
+   "imageRef": null,
+   "options": [
+    "y = \u22122x \u2212 5",
+    "y = 4x \u2212 10",
+    "y = 2x \u2212 5",
+    "y = 2x + 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtract 4x then divide every term by \u22122, which gives y = 2x \u2212 5. Dividing only some of the terms is what produces the wrong intercept.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "topicId": "mm-surds",
+ "questions": [
+  {
+   "id": "mm-surds-0001",
+   "topicId": "mm-surds",
+   "stem": "Which of these is a surd?",
+   "imageRef": null,
+   "options": [
+    "\u221a16",
+    "\u221a25",
+    "\u221a7",
+    "\u221a9"
+   ],
+   "correctIndex": 2,
+   "explanation": "A surd is a root that cannot be simplified to a rational number. 9, 16 and 25 are perfect squares, so their roots are exactly 3, 4 and 5, while \u221a7 runs on forever without repeating.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0002",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a50.",
+   "imageRef": null,
+   "options": [
+    "25\u221a2",
+    "2\u221a5",
+    "10\u221a5",
+    "5\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Find the largest perfect-square factor: 50 = 25 \u00d7 2, so \u221a50 = \u221a25 \u00d7 \u221a2 = 5\u221a2. Taking out 5 rather than 25 is the mistake that gives 25\u221a2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0003",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a48.",
+   "imageRef": null,
+   "options": [
+    "4\u221a3",
+    "16\u221a3",
+    "3\u221a4",
+    "2\u221a12"
+   ],
+   "correctIndex": 0,
+   "explanation": "The largest perfect-square factor of 48 is 16, so \u221a48 = 4\u221a3. The answer 2\u221a12 is correct but not fully simplified, because \u221a12 still has a factor of 4 inside it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0004",
+   "topicId": "mm-surds",
+   "stem": "Simplify 3\u221a5 + 7\u221a5 \u2212 2\u221a5.",
+   "imageRef": null,
+   "options": [
+    "8",
+    "8\u221a5",
+    "8\u221a15",
+    "12\u221a5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Surds add like terms only when the part under the root matches, so count the coefficients: 3 + 7 \u2212 2 = 8, giving 8\u221a5. The 5 under the root never changes when you add.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0005",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a50 + \u221a18.",
+   "imageRef": null,
+   "options": [
+    "68\u221a2",
+    "8\u221a2",
+    "\u221a68",
+    "2\u221a34"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simplify each first: \u221a50 = 5\u221a2 and \u221a18 = 3\u221a2. Now they share the same root and add to 8\u221a2. Adding under the root, as in \u221a68, is never valid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0006",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a8 \u00d7 \u221a2.",
+   "imageRef": null,
+   "options": [
+    "2\u221a2",
+    "16",
+    "4",
+    "\u221a10"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying surds multiplies what is underneath: \u221a8 \u00d7 \u221a2 = \u221a16 = 4. Unlike addition, this one does work under the root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0007",
+   "topicId": "mm-surds",
+   "stem": "Simplify 2\u221a6 \u00d7 3\u221a2.",
+   "imageRef": null,
+   "options": [
+    "12\u221a3",
+    "6\u221a12",
+    "5\u221a8",
+    "6\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply the outsides and the insides separately: 2 \u00d7 3 = 6 and \u221a6 \u00d7 \u221a2 = \u221a12 = 2\u221a3, so the result is 6 \u00d7 2\u221a3 = 12\u221a3. Leaving it as 6\u221a12 is correct but not fully simplified.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0008",
+   "topicId": "mm-surds",
+   "stem": "Expand and simplify (2\u221a5 + 3)(2\u221a5 \u2212 3).",
+   "imageRef": null,
+   "options": [
+    "20",
+    "29",
+    "4\u221a5",
+    "11"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is a difference of two squares: (2\u221a5)\u00b2 \u2212 3\u00b2 = 20 \u2212 9 = 11. Squaring 2\u221a5 means squaring both parts, so 4 \u00d7 5 = 20, not 2 \u00d7 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0009",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a72 \u00f7 \u221a2.",
+   "imageRef": null,
+   "options": [
+    "6\u221a2",
+    "6",
+    "36",
+    "\u221a70"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dividing surds divides what is underneath: \u221a72 \u00f7 \u221a2 = \u221a36 = 6. Subtracting under the root, as in \u221a70, is not a valid operation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0010",
+   "topicId": "mm-surds",
+   "stem": "Write 6/\u221a3 with a rational denominator.",
+   "imageRef": null,
+   "options": [
+    "2\u221a3",
+    "6\u221a3",
+    "2/\u221a3",
+    "\u221a2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply top and bottom by \u221a3: 6\u221a3 \u00f7 3 = 2\u221a3. Rationalising means removing the root from the denominator, and multiplying by \u221a3/\u221a3 changes the appearance without changing the value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0011",
+   "topicId": "mm-surds",
+   "stem": "Write 4/(\u221a5 + 1) with a rational denominator.",
+   "imageRef": null,
+   "options": [
+    "4\u221a5 \u2212 4",
+    "\u221a5 \u2212 1",
+    "\u221a5 + 1",
+    "(\u221a5 \u2212 1)/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply top and bottom by the conjugate \u221a5 \u2212 1. The denominator becomes 5 \u2212 1 = 4 and the numerator becomes 4(\u221a5 \u2212 1), so the 4s cancel to leave \u221a5 \u2212 1.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0012",
+   "topicId": "mm-surds",
+   "stem": "Between which two whole numbers does \u221a20 lie?",
+   "imageRef": null,
+   "options": [
+    "5 and 6",
+    "2 and 3",
+    "4 and 5",
+    "3 and 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The perfect squares either side of 20 are 16 and 25, so \u221a20 lies between 4 and 5 \u2014 and much nearer 4, since 20 is nearer 16 than 25.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0013",
+   "topicId": "mm-surds",
+   "stem": "Which calculation gives a rational answer?",
+   "imageRef": null,
+   "options": [
+    "\u221a8 \u00d7 \u221a2",
+    "\u221a8 + \u221a2",
+    "\u221a8 \u00f7 \u221a3",
+    "\u221a8 \u00d7 \u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u221a8 \u00d7 \u221a2 = \u221a16 = 4, which is rational. The others leave a root of a number that is not a perfect square, so they stay irrational.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0014",
+   "topicId": "mm-surds",
+   "stem": "Simplify (3\u221a2)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "6",
+    "36",
+    "18",
+    "9\u221a2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Squaring multiplies both parts: 3\u00b2 \u00d7 (\u221a2)\u00b2 = 9 \u00d7 2 = 18. Squaring only the number, or only the root, are the two usual errors.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0015",
+   "topicId": "mm-surds",
+   "stem": "Is the product of two irrational numbers always irrational?",
+   "imageRef": null,
+   "options": [
+    "Yes, always",
+    "Only if they are different",
+    "Only if both are surds",
+    "No \u2014 \u221a2 \u00d7 \u221a2 = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "One counter-example settles it: \u221a2 is irrational and \u221a2 \u00d7 \u221a2 = 2, which is rational. A single counter-example is enough to disprove an \"always\" claim.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0016",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a27 \u2212 \u221a12.",
+   "imageRef": null,
+   "options": [
+    "\u221a3",
+    "\u221a15",
+    "3\u221a3",
+    "5\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u221a27 = 3\u221a3 and \u221a12 = 2\u221a3, so the difference is \u221a3. Simplifying both before subtracting is what makes them like terms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0017",
+   "topicId": "mm-surds",
+   "stem": "Express 3\u221a2 as a single square root.",
+   "imageRef": null,
+   "options": [
+    "\u221a18",
+    "\u221a6",
+    "\u221a12",
+    "\u221a9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Take the 3 inside by squaring it: 3\u221a2 = \u221a9 \u00d7 \u221a2 = \u221a18. Reversing a simplification like this is often the quickest way to compare two surds.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0018",
+   "topicId": "mm-surds",
+   "stem": "Which is larger, 3\u221a2 or 2\u221a5?",
+   "imageRef": null,
+   "options": [
+    "It cannot be decided",
+    "2\u221a5",
+    "3\u221a2",
+    "They are equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Square both: (3\u221a2)\u00b2 = 18 and (2\u221a5)\u00b2 = 20. Since 20 is larger and both values are positive, 2\u221a5 is the larger.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0019",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a100.",
+   "imageRef": null,
+   "options": [
+    "\u221a10",
+    "50",
+    "10",
+    "10\u221a10"
+   ],
+   "correctIndex": 2,
+   "explanation": "100 is a perfect square, so its root is exactly 10 and it is not a surd at all. Not every root is irrational.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0020",
+   "topicId": "mm-surds",
+   "stem": "Simplify (\u221a3 + 1)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "2\u221a3",
+    "4 + 2\u221a3",
+    "4",
+    "3 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expand fully: (\u221a3)\u00b2 + 2 \u00d7 \u221a3 \u00d7 1 + 1\u00b2 = 3 + 2\u221a3 + 1 = 4 + 2\u221a3. Forgetting the middle term is the classic squaring error.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0021",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a72.",
+   "imageRef": null,
+   "options": [
+    "36\u221a2",
+    "6\u221a2",
+    "8\u221a3",
+    "2\u221a36"
+   ],
+   "correctIndex": 1,
+   "explanation": "The largest perfect-square factor of 72 is 36, so \u221a72 = \u221a36 \u00d7 \u221a2 = 6\u221a2. Writing 2\u221a36 is correct arithmetic but leaves a perfect square under the root, so it is not in simplest form.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0022",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a98.",
+   "imageRef": null,
+   "options": [
+    "2\u221a49",
+    "14\u221a2",
+    "49\u221a2",
+    "7\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Split 98 into 49 \u00d7 2, so \u221a98 = 7\u221a2. Choosing 2 as the factor to take out instead of 49 leaves 2\u221a49, which still has a perfect square inside the root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0023",
+   "topicId": "mm-surds",
+   "stem": "Simplify 3\u221a12.",
+   "imageRef": null,
+   "options": [
+    "6\u221a3",
+    "3\u221a12",
+    "36\u221a3",
+    "9\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "First simplify \u221a12 to 2\u221a3, then multiply by the 3 outside to get 6\u221a3. The outside number multiplies the number that comes out, it does not multiply what stays under the root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0024",
+   "topicId": "mm-surds",
+   "stem": "Simplify 5\u221a8 \u2212 2\u221a2.",
+   "imageRef": null,
+   "options": [
+    "10\u221a2",
+    "3\u221a2",
+    "8\u221a2",
+    "3\u221a6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Simplify first: 5\u221a8 = 5 \u00d7 2\u221a2 = 10\u221a2. Then 10\u221a2 \u2212 2\u221a2 = 8\u221a2. Subtracting before simplifying gives 3\u221a6, which is wrong because unlike surds cannot be combined.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0025",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a27 + \u221a48.",
+   "imageRef": null,
+   "options": [
+    "12\u221a3",
+    "7\u221a3",
+    "\u221a75",
+    "5\u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simplify each first: \u221a27 = 3\u221a3 and \u221a48 = 4\u221a3, so the sum is 7\u221a3. Adding what is under the roots to get \u221a75 is the common error, and \u221a75 is actually 5\u221a3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0026",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a5 \u00d7 \u221a20.",
+   "imageRef": null,
+   "options": [
+    "10\u221a5",
+    "10",
+    "\u221a100",
+    "5\u221a20"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply under one root: \u221a5 \u00d7 \u221a20 = \u221a100 = 10, which is a whole number rather than a surd. Leaving the answer as \u221a100 is not simplified, and a root that turns out rational is worth noticing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0027",
+   "topicId": "mm-surds",
+   "stem": "Simplify 4\u221a6 \u00d7 2\u221a3 fully.",
+   "imageRef": null,
+   "options": [
+    "8\u221a18",
+    "8\u221a2",
+    "24\u221a18",
+    "24\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply outsides and insides separately: 4 \u00d7 2 = 8 and \u221a6 \u00d7 \u221a3 = \u221a18, giving 8\u221a18. But \u221a18 is 3\u221a2, so the answer becomes 24\u221a2. Stopping at 8\u221a18 leaves a perfect square under the root.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0028",
+   "topicId": "mm-surds",
+   "stem": "Simplify (2\u221a5)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "10",
+    "4\u221a5",
+    "2\u221a25",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Square both parts: 2\u00b2 = 4 and (\u221a5)\u00b2 = 5, so the result is 4 \u00d7 5 = 20. Squaring only the number outside and leaving the root alone gives 4\u221a5, which is the usual slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0029",
+   "topicId": "mm-surds",
+   "stem": "Rationalise the denominator of 3/\u221a3.",
+   "imageRef": null,
+   "options": [
+    "\u221a3",
+    "3\u221a3",
+    "1/\u221a3",
+    "3/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply top and bottom by \u221a3 to get 3\u221a3/3, which simplifies to \u221a3. It is worth checking: 3 divided by about 1.73 is about 1.73, which is \u221a3 as expected.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0030",
+   "topicId": "mm-surds",
+   "stem": "Rationalise the denominator of 4/(\u221a5 \u2212 1).",
+   "imageRef": null,
+   "options": [
+    "4\u221a5 + 4",
+    "\u221a5 \u2212 1",
+    "4/(\u221a5 + 1)",
+    "\u221a5 + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply top and bottom by the conjugate \u221a5 + 1. The bottom becomes 5 \u2212 1 = 4 and the top becomes 4(\u221a5 + 1), so the 4s cancel and the answer is \u221a5 + 1. The conjugate works because it produces a difference of two squares.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0031",
+   "topicId": "mm-surds",
+   "stem": "Why does multiplying by the conjugate rationalise a denominator?",
+   "imageRef": null,
+   "options": [
+    "It creates a difference of two squares, which removes the root",
+    "It cancels the numerator, which removes the root",
+    "It makes the denominator larger, which removes the root",
+    "It reverses the sign, which removes the root"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a denominator a + \u221ab the conjugate is a \u2212 \u221ab, and their product is a\u00b2 \u2212 b. Squaring the root is what removes it, and that only happens because the middle terms cancel.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0032",
+   "topicId": "mm-surds",
+   "stem": "Which expression is NOT in simplest surd form?",
+   "imageRef": null,
+   "options": [
+    "3\u221a2",
+    "2\u221a7",
+    "5\u221a3",
+    "\u221a18"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u221a18 has the perfect-square factor 9 still inside it, so it simplifies to 3\u221a2. The other three have no perfect square left under the root, which is what simplest form means.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0033",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a(4/9).",
+   "imageRef": null,
+   "options": [
+    "4/9",
+    "2/9",
+    "\u221a4 over 9",
+    "2/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A root distributes over a fraction, so \u221a4 over \u221a9 gives 2/3. Both parts are perfect squares here, so the result is rational and no surd remains.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0034",
+   "topicId": "mm-surds",
+   "stem": "Write 4\u221a3 as a single square root.",
+   "imageRef": null,
+   "options": [
+    "\u221a12",
+    "\u221a24",
+    "\u221a36",
+    "\u221a48"
+   ],
+   "correctIndex": 3,
+   "explanation": "Take the 4 back inside by squaring it: 4\u00b2 \u00d7 3 = 48, so 4\u221a3 = \u221a48. The number outside always squares on the way in, which is why 12 is the tempting wrong answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0035",
+   "topicId": "mm-surds",
+   "stem": "Which is larger, 3\u221a3 or 5\u221a2?",
+   "imageRef": null,
+   "options": [
+    "3\u221a3",
+    "They are equal",
+    "It depends on rounding",
+    "5\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Square both to compare exactly: (3\u221a3)\u00b2 = 27 and (5\u221a2)\u00b2 = 50. Since 50 is larger and both are positive, 5\u221a2 is larger. Squaring avoids relying on decimals.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0036",
+   "topicId": "mm-surds",
+   "stem": "Simplify \u221a200.",
+   "imageRef": null,
+   "options": [
+    "2\u221a100",
+    "20\u221a2",
+    "100\u221a2",
+    "10\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The largest perfect-square factor of 200 is 100, so \u221a200 = 10\u221a2. Taking out 2 instead leaves 2\u221a100, which still has a perfect square inside.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0037",
+   "topicId": "mm-surds",
+   "stem": "Simplify 6\u221a10 \u00f7 2\u221a5.",
+   "imageRef": null,
+   "options": [
+    "3\u221a5",
+    "4\u221a2",
+    "3\u221a10",
+    "3\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Divide the outside numbers and the insides separately: 6 \u00f7 2 = 3 and \u221a10 \u00f7 \u221a5 = \u221a2. Division works on surds the same way multiplication does.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0038",
+   "topicId": "mm-surds",
+   "stem": "Expand and simplify (\u221a7 \u2212 \u221a2)(\u221a7 + \u221a2).",
+   "imageRef": null,
+   "options": [
+    "\u221a5",
+    "7 \u2212 2\u221a14 + 2",
+    "5",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is a difference of two squares, so the answer is 7 \u2212 2 = 5. The middle terms cancel, which is exactly why this pattern is used for rationalising.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0039",
+   "topicId": "mm-surds",
+   "stem": "Which of these sums can be simplified further?",
+   "imageRef": null,
+   "options": [
+    "\u221a2 + \u221a7",
+    "\u221a5 + \u221a11",
+    "\u221a8 + \u221a2",
+    "\u221a3 + \u221a5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Only \u221a8 + \u221a2 has a term that simplifies: \u221a8 = 2\u221a2, so the sum becomes 3\u221a2. Unlike surds cannot be added, which is why the other three are already as simple as they get.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0040",
+   "topicId": "mm-surds",
+   "stem": "A square has area 32 cm\u00b2. What is its side length in exact form?",
+   "imageRef": null,
+   "options": [
+    "4\u221a2 cm",
+    "16 cm",
+    "\u221a32 cm left unsimplified",
+    "8\u221a2 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "The side is \u221a32, and 32 = 16 \u00d7 2, so the side is 4\u221a2 cm. Exact form means leaving the surd rather than rounding, and it means simplifying it rather than leaving \u221a32.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0041",
+   "topicId": "mm-surds",
+   "stem": "Simplify 2\u221a3 + 5\u221a3 \u2212 \u221a3.",
+   "imageRef": null,
+   "options": [
+    "7\u221a3",
+    "6",
+    "6\u221a3",
+    "6\u221a9"
+   ],
+   "correctIndex": 2,
+   "explanation": "These are like surds, so the coefficients add and subtract while \u221a3 stays: 2 + 5 \u2212 1 = 6. The root itself never changes when like surds are combined.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-surds-0042",
+   "topicId": "mm-surds",
+   "stem": "Simplify 1/(2\u221a3) with a rational denominator.",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "2\u221a3/3",
+    "1/6",
+    "\u221a3/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply top and bottom by \u221a3 to get \u221a3/(2 \u00d7 3) = \u221a3/6. The 2 stays in the denominator and the \u221a3 squares to 3, giving 6 underneath.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-surds-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,1341 @@
+{
+ "topicId": "maths-data-y9",
+ "questions": [
+  {
+   "id": "maths-data-y9-0001",
+   "topicId": "maths-data-y9",
+   "stem": "Two standard six-sided dice are rolled and the results are recorded in an array (a 6 by 6 table). How many outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "36",
+    "12",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "For a two-step experiment you multiply the number of options at each step: 6 results on the first die \u00d7 6 results on the second die = 36 equally likely outcomes, which is exactly the number of cells in a 6 by 6 array. The tempting choice 11 counts the possible totals (2 through 12), but those totals are not equally likely and are not the outcomes of the two steps. The cue: an outcome of a two-step experiment is a pair (first result, second result), so count cells in the array, not sums.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0002",
+   "topicId": "maths-data-y9",
+   "stem": "A bag holds 5 marbles, each a different colour. One marble is drawn, kept out, and then a second is drawn. If order is recorded, how many outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "25",
+    "10",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Without replacement there are 5 choices for the first marble and only 4 left for the second, so 5 \u00d7 4 = 20 ordered outcomes. The choice 25 is what you would get with replacement, where the first marble goes back and all 5 are available again. The cue: if the item is kept out, the second step always has one fewer option.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0003",
+   "topicId": "maths-data-y9",
+   "stem": "On a two-step tree diagram drawn WITHOUT replacement, what differs from the same experiment WITH replacement?",
+   "imageRef": null,
+   "options": [
+    "Every complete path through the tree still has the same probability",
+    "The tree has the same number of final branches, but none can be calculated",
+    "The probabilities on the second branches depend on the first step",
+    "The probabilities on the first branches change depending on the second"
+   ],
+   "correctIndex": 2,
+   "explanation": "Removing an item changes what is left in the bag, so the second-step branch probabilities are conditional on the first result, and the denominator drops by one. Saying the first-step probabilities change is a reversal: the first draw happens from the full bag and is unaffected by what comes later. The cue: read a tree left to right \u2014 only branches to the right of a choice can be affected by it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0004",
+   "topicId": "maths-data-y9",
+   "stem": "A bag contains 3 red and 2 blue counters. A counter is drawn, its colour recorded, and it is returned to the bag before a second draw. What is the probability that both counters drawn are red?",
+   "imageRef": null,
+   "options": [
+    "3/10",
+    "6/25",
+    "3/5",
+    "9/25"
+   ],
+   "correctIndex": 3,
+   "explanation": "With replacement the bag is identical for both draws, so P(red then red) = 3/5 \u00d7 3/5 = 9/25. The answer 3/10 comes from using 3/5 \u00d7 2/4, which is the without-replacement calculation \u2014 but here the counter goes back, so the second draw is still out of 5. The cue: 'returned to the bag' means the same fraction is used twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0005",
+   "topicId": "maths-data-y9",
+   "stem": "A bag contains 3 red and 2 blue counters. Two counters are drawn one after the other WITHOUT replacement. What is the probability that both are red?",
+   "imageRef": null,
+   "options": [
+    "9/25",
+    "1/10",
+    "3/5",
+    "3/10"
+   ],
+   "correctIndex": 3,
+   "explanation": "After a red is drawn there are 2 reds among the 4 remaining counters, so P(red, red) = 3/5 \u00d7 2/4 = 6/20 = 3/10. The value 9/25 assumes the first counter was replaced, leaving 3 reds out of 5 for the second draw. The cue: without replacement, reduce both the favourable count and the total by one for the second step.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0006",
+   "topicId": "maths-data-y9",
+   "stem": "Two fair coins are tossed. Using the list HH, HT, TH, TT, what is the probability of exactly one head?",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "1/3",
+    "1/2",
+    "1/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two of the four equally likely outcomes (HT and TH) contain exactly one head, so the probability is 2/4 = 1/2. The answer 1/4 counts only HT and forgets that TH is a separate outcome in an ordered list. The cue: HT and TH are different outcomes because the coins are tossed in order, even if they look the same when reported as 'one head'.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0007",
+   "topicId": "maths-data-y9",
+   "stem": "A bag contains 3 red and 2 blue counters. Two are drawn without replacement. What is the probability of getting at least one blue counter?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "7/10",
+    "3/10",
+    "1/10"
+   ],
+   "correctIndex": 1,
+   "explanation": "'At least one blue' is the complement of 'no blue', that is, of two reds, and P(two reds) = 3/5 \u00d7 2/4 = 3/10, so the answer is 1 \u2212 3/10 = 7/10. The value 1/10 is P(both blue) = 2/5 \u00d7 1/4, which is only part of the event, since 'at least one' also includes one blue and one red. The cue: 'at least one' is usually fastest as 1 minus the probability of none.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0008",
+   "topicId": "maths-data-y9",
+   "stem": "A bag contains 3 red and 2 blue counters. Two are drawn without replacement. What is the probability that one counter is red and the other is blue?",
+   "imageRef": null,
+   "options": [
+    "12/25",
+    "1/2",
+    "3/5",
+    "3/10"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two paths of the tree give one of each colour: P(red then blue) = 3/5 \u00d7 2/4 = 6/20 and P(blue then red) = 2/5 \u00d7 3/4 = 6/20, and adding gives 12/20 = 3/5. The answer 3/10 uses only one of those two paths, forgetting that the colours can appear in either order. The cue: when a question does not fix the order, add every tree path that matches the description.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0009",
+   "topicId": "maths-data-y9",
+   "stem": "A relative frequency is calculated from collected data as:",
+   "imageRef": null,
+   "options": [
+    "the number of times the event occurred \u00f7 the total number of trials",
+    "the total number of trials \u00f7 the number of times the event occurred",
+    "the number of favourable outcomes \u00f7 the number of possible outcomes",
+    "the number of times the event did not occur \u00f7 the total number of trials"
+   ],
+   "correctIndex": 0,
+   "explanation": "Relative frequency compares how often an event actually happened with how many trials were run, so it is the event's frequency divided by the total number of trials, giving a value between 0 and 1 that estimates the probability. The tempting option 'number of favourable outcomes \u00f7 number of possible outcomes' is the definition of theoretical probability, which is worked out from the sample space rather than from data. The cue: if the numbers come from an experiment or survey, it is relative frequency; if they come from listing equally likely outcomes, it is theoretical probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0010",
+   "topicId": "maths-data-y9",
+   "stem": "A spinner is spun 250 times and lands on red 60 times. Based on this data, the estimated probability of red is:",
+   "imageRef": null,
+   "options": [
+    "0.42",
+    "0.76",
+    "0.60",
+    "0.24"
+   ],
+   "correctIndex": 3,
+   "explanation": "The relative frequency of red is 60 \u00f7 250 = 0.24, and this relative frequency is used as the estimate of the probability. The value 0.76 is the relative frequency of NOT red (190 \u00f7 250), which answers a different question. Read carefully whether the event asked for is the one counted or its complement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0011",
+   "topicId": "maths-data-y9",
+   "stem": "In probability, the inclusive 'or' for events A and B refers to the outcomes where:",
+   "imageRef": null,
+   "options": [
+    "A occurs, or B occurs, or both occur",
+    "A occurs or B occurs, but not both",
+    "both A and B occur at the same time",
+    "neither A nor B occurs in the trial"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inclusive 'or' counts every outcome in at least one of the two events, so outcomes in the overlap are included once. The option 'A occurs or B occurs, but not both' is the exclusive 'or', which deliberately leaves out the overlap. The cue word is 'both': inclusive keeps it, exclusive removes it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0012",
+   "topicId": "maths-data-y9",
+   "stem": "In a survey of 200 Year 9 students: 40 play a sport and an instrument, 90 play a sport only, 30 play an instrument only, and 40 do neither. The estimated probability that a randomly chosen surveyed student plays a sport AND an instrument is:",
+   "imageRef": null,
+   "options": [
+    "0.80",
+    "0.20",
+    "0.65",
+    "0.35"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 'and' event is the overlap only, which is 40 students out of 200, so the relative frequency is 40 \u00f7 200 = 0.20. Choosing 0.65 uses all 130 sport players (90 + 40), which is the probability of playing a sport, not the overlap. For 'and', use only the cell counted in both categories.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0013",
+   "topicId": "maths-data-y9",
+   "stem": "Using the same survey of 200 students (40 play a sport and an instrument, 90 sport only, 30 instrument only, 40 neither), the estimated probability that a student plays a sport OR an instrument (inclusive) is:",
+   "imageRef": null,
+   "options": [
+    "1.00",
+    "0.60",
+    "0.65",
+    "0.80"
+   ],
+   "correctIndex": 3,
+   "explanation": "Inclusive 'or' counts everyone in at least one category: 90 + 30 + 40 = 160 students, so 160 \u00f7 200 = 0.80. Choosing 1.00 comes from adding 130 and 70 without subtracting the 40 counted twice, which pushes the total past the number of students surveyed. Whenever you add two category totals, subtract the overlap once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0014",
+   "topicId": "maths-data-y9",
+   "stem": "Using the same survey of 200 students (40 play a sport and an instrument, 90 sport only, 30 instrument only, 40 neither), the estimated probability that a student plays a sport OR an instrument but NOT both is:",
+   "imageRef": null,
+   "options": [
+    "0.80",
+    "0.20",
+    "0.45",
+    "0.60"
+   ],
+   "correctIndex": 3,
+   "explanation": "Exclusive 'or' counts the two 'only' groups: 90 + 30 = 120, so 120 \u00f7 200 = 0.60. The value 0.80 is the inclusive 'or', which also counts the 40 students in both categories. The words 'but not both' signal that the overlap must be left out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0015",
+   "topicId": "maths-data-y9",
+   "stem": "From a large data set, the estimated probabilities are P(A) = 0.55, P(B) = 0.40 and P(A and B) = 0.25. The estimated probability of A or B but not both is:",
+   "imageRef": null,
+   "options": [
+    "0.45",
+    "0.70",
+    "0.95",
+    "0.30"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inclusive 'or' is 0.55 + 0.40 \u2212 0.25 = 0.70, and removing the overlap once more for exclusive 'or' gives 0.70 \u2212 0.25 = 0.45 (equivalently 0.55 + 0.40 \u2212 2 \u00d7 0.25). The answer 0.70 is the inclusive 'or', which still contains the outcomes where both happen. Remember the overlap is subtracted once for inclusive 'or' and twice for exclusive 'or'.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0016",
+   "topicId": "maths-data-y9",
+   "stem": "In a survey of 400 students, each named the single main way they travel to school: bus 120, walk 60, car 140, bike 80. Both the inclusive 'or' and the exclusive 'or' estimates for 'travels by bus or walks' equal 0.45. Why are the two estimates the same?",
+   "imageRef": null,
+   "options": [
+    "Bus and walking are the two smallest groups, so neither can overlap the other",
+    "Inclusive and exclusive 'or' always give the same estimate from data",
+    "No student is in both groups, so the 'and' relative frequency is 0",
+    "The two groups happen to have relative frequencies that add to 0.45"
+   ],
+   "correctIndex": 2,
+   "explanation": "Inclusive 'or' and exclusive 'or' differ only by the overlap, and since each student named one main method, no one is both a bus traveller and a walker, so P(bus and walk) = 0 and the two versions coincide. The statement that every student is in exactly one of the four groups is true of the survey but does not by itself explain the equality \u2014 the reason is specifically that the two chosen events cannot both happen. Look for whether the events overlap: if they are mutually exclusive, the two 'or' calculations agree.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0017",
+   "topicId": "maths-data-y9",
+   "stem": "After a simulation, the estimated probability of an event is:",
+   "imageRef": null,
+   "options": [
+    "the trials in which the event occurred divided by the total trials",
+    "the total trials divided by the trials in which the event occurred",
+    "the number of possible outcomes divided by the total trials",
+    "the trials in which the event occurred divided by the outcomes"
+   ],
+   "correctIndex": 0,
+   "explanation": "An estimated (experimental) probability is a relative frequency: successes divided by total trials, which always gives a value between 0 and 1. 'The total number of trials divided by the number of trials in which the event occurred' is the reciprocal and usually gives a number greater than 1, which cannot be a probability. Checking that your answer sits between 0 and 1 catches this reversal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0018",
+   "topicId": "maths-data-y9",
+   "stem": "A student simulates a basketball player who makes 70% of free throws by generating random whole numbers from 1 to 10. Which rule correctly models one free throw?",
+   "imageRef": null,
+   "options": [
+    "Numbers 1 to 7 represent a made shot and 1 to 3 represent a miss",
+    "Only even numbers represent a made shot and odd numbers represent a miss",
+    "Numbers 1 to 7 represent a made shot and 8 to 10 represent a miss",
+    "Numbers 1 to 3 represent a made shot and 4 to 10 represent a miss"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each of the ten numbers is equally likely, so assigning 7 of the 10 numbers to a made shot gives that outcome a probability of 0.7, matching the player's rate. '1 to 3 represent a made shot' reverses the roles and models a 30% shooter. A good check: count how many numbers are assigned to each outcome and confirm the proportions match the real probabilities, with no number used twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0019",
+   "topicId": "maths-data-y9",
+   "stem": "A simulation is run 50 times, then 500, then 5000. What happens to the estimated probability?",
+   "imageRef": null,
+   "options": [
+    "It becomes exactly equal to the true probability once 5000 is reached",
+    "It varies more wildly with more trials, as more results are collected",
+    "It stays the same after 50 trials, since the first estimate is reliable",
+    "It settles closer to the true probability as the number of trials rises"
+   ],
+   "correctIndex": 3,
+   "explanation": "With more trials, relative frequency tends to stabilise near the true probability \u2014 this is the law of large numbers, and it is why simulations use many repetitions. 'It becomes exactly equal to the true probability once 5000 trials are reached' overstates it: an estimate can get very close but random variation means exactness is not guaranteed. Look for the word 'exactly' \u2014 estimates from simulations approach, they do not land on, the true value.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0020",
+   "topicId": "maths-data-y9",
+   "stem": "A spreadsheet simulation of two children in a family records the pair BB 63 times, BG 61, GB 68 and GG 58 in 250 trials. The estimated probability of at least one girl is:",
+   "imageRef": null,
+   "options": [
+    "129/250 = 0.516",
+    "63/250 = 0.252",
+    "187/250 = 0.748",
+    "58/250 = 0.232"
+   ],
+   "correctIndex": 2,
+   "explanation": "'At least one girl' includes BG, GB and GG, so add 61 + 68 + 58 = 187 out of 250 trials, giving 0.748. The value 129/250 counts only BG and GB, which is 'exactly one girl' and leaves out the two-girl outcome. The phrase 'at least one' always means one or more, so the both-case must be included.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0021",
+   "topicId": "maths-data-y9",
+   "stem": "A student wants to estimate the probability that a drawing pin lands point up when dropped. Why can a simulation with random numbers not be set up directly for this?",
+   "imageRef": null,
+   "options": [
+    "The probability the pin lands point up is unknown, so no number ranges can be assigned to the outcomes",
+    "A pin has only two outcomes, and random number tools can only model three or more outcomes",
+    "Physical experiments always give more accurate results than any digital simulation does",
+    "Random number generators produce equally likely values, and only equally likely events can be estimated"
+   ],
+   "correctIndex": 0,
+   "explanation": "To build a random-number simulation you must first know the probability of each outcome so you can allocate proportions of the numbers; for a drawing pin that probability is exactly what is unknown, so it must be found by physically dropping the pin many times. 'Random number generators produce equally likely values, and only equally likely events can be estimated' is false \u2014 unequal probabilities are modelled easily by allocating unequal ranges, as with a 70% free-throw shooter. The cue: a simulation reproduces known probabilities, it cannot invent them.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0022",
+   "topicId": "maths-data-y9",
+   "stem": "Which probability cannot be found by listing equally likely outcomes, so must be estimated by repeated trials?",
+   "imageRef": null,
+   "options": [
+    "A spinner with 8 equal sectors, 3 of them green, landing on green",
+    "A dropped plastic bottle cap landing upright on a tiled floor",
+    "Drawing a red card from a shuffled standard deck of 52 cards",
+    "A fair six-sided die showing a number greater than 4 on one roll"
+   ],
+   "correctIndex": 1,
+   "explanation": "An exact probability can be calculated when the outcomes are equally likely and countable; a bottle cap is an irregular object, so there is no reason to believe 'upright' and 'not upright' are equally likely, and the only way to estimate it is to drop it many times and use relative frequency. The deck of cards option is tempting because 52 cards sounds complicated, but every card is equally likely to be drawn, so the probability is exactly 26/52. The cue: if you can describe a set of equally likely outcomes, calculate; if the physical object is irregular or biased, simulate or experiment.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0023",
+   "topicId": "maths-data-y9",
+   "stem": "Records show a certain train is late on about 15% of mornings. A student wants to simulate 5 school mornings using random whole numbers from 1 to 100. Which rule correctly models one morning?",
+   "imageRef": null,
+   "options": [
+    "Generate one number from 1 to 10 instead: a 1 means late, 2 to 10 means on time",
+    "Generate one number: 1 to 15 means late, 16 to 100 means on time",
+    "Generate one number: 1 to 85 means late, 86 to 100 means on time",
+    "Generate numbers until one from 1 to 15 appears; that morning is late"
+   ],
+   "correctIndex": 1,
+   "explanation": "A valid simulation must assign a set of random numbers to each outcome in the same proportion as the real probabilities, so 15 of the 100 equally likely numbers represent 'late' and the remaining 85 represent 'on time'. The 1 to 85 rule reverses the two events and would model a train late 85% of the time. Check your assignment by counting how many numbers you gave the event and dividing by the total range \u2014 it should match the stated percentage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0024",
+   "topicId": "maths-data-y9",
+   "stem": "A student uses a spreadsheet's random whole numbers 1 to 6 to estimate the probability that a family of three children includes at least two girls, treating 1, 2 or 3 as a girl and 4, 5 or 6 as a boy. In this simulation, what counts as one trial?",
+   "imageRef": null,
+   "options": [
+    "One set of three random numbers, checked to see whether at least two of them are 1, 2 or 3",
+    "One random number, counted as a success whenever it comes out as 1, 2 or 3",
+    "One set of six random numbers, since the generator produces six equally likely values",
+    "One complete column of 100 random numbers, giving one estimate of the probability"
+   ],
+   "correctIndex": 0,
+   "explanation": "A trial must model the whole real situation once, and the situation here is a family of three children, so one trial needs three random numbers, one per child, and the trial is a success if at least two of them fall in the 'girl' range. Choosing 'one random number, counted as a success whenever it comes out as 1, 2 or 3' models a single child only, which estimates the chance of one girl rather than the chance of at least two girls in three children. The cue is to match the number of random values per trial to the number of steps in the real event, then repeat that trial many times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0025",
+   "topicId": "maths-data-y9",
+   "stem": "A survey records each person's age in years and their preferred news source. These two variables are:",
+   "imageRef": null,
+   "options": [
+    "Both age and preferred news source are categorical",
+    "Age is numerical and preferred news source is categorical",
+    "Age is categorical and preferred news source is numerical",
+    "Both age and preferred news source are numerical"
+   ],
+   "correctIndex": 1,
+   "explanation": "A numerical variable takes measured or counted number values that can be averaged, such as age in years; a categorical variable places each person in a named group, such as TV or online. Saying age is categorical and news source is numerical reverses the two definitions \u2014 a tempting slip because news sources are sometimes coded as 1, 2, 3, 4 in a spreadsheet. The cue: ask whether finding a mean of the values would make sense. A mean age does; a mean news source does not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0026",
+   "topicId": "maths-data-y9",
+   "stem": "A website reports the mean exercise hours from readers who chose to respond. Why is that a poor estimate?",
+   "imageRef": null,
+   "options": [
+    "The sample of 2 300 people is far too small for any population mean to be estimated",
+    "Hours of exercise is categorical, so a mean cannot be found",
+    "Means can never be estimated from samples, only medians",
+    "The sample is self-selected, so people keen on exercise are over-represented"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a voluntary online poll the respondents choose themselves, so the group is not representative of the wider population and the mean is biased. The claim that 2 300 is too small is wrong \u2014 2 300 is a large sample; the problem is how it was obtained, not its size. Hours per week is clearly numerical, and means are routinely estimated from samples. Look at the selection method first, not the sample size.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0027",
+   "topicId": "maths-data-y9",
+   "stem": "When reading a media report of a survey to judge how trustworthy its estimates are, which piece of information is most important to look for?",
+   "imageRef": null,
+   "options": [
+    "How the people surveyed were selected from the population",
+    "How many colours were used in the graphs of the results",
+    "Which media outlet published the report of the survey",
+    "How many decimal places the reported averages were given to"
+   ],
+   "correctIndex": 0,
+   "explanation": "The estimate of a population mean or median is only as good as the sample, so the selection method \u2014 random, self-selected, convenience \u2014 is the key thing to check. The publisher of the report is tempting because some outlets seem more reliable, but a well-chosen sample gives a sound estimate no matter who reports it. Graph colours and extra decimal places affect presentation only, not accuracy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0028",
+   "topicId": "maths-data-y9",
+   "stem": "A random sample of 9 Year 9 students reported these weekly part-time work hours: 0, 0, 3, 4, 6, 8, 9, 12, 30. Which summary statistic is the better estimate of the typical hours worked by all Year 9 students at the school, and why?",
+   "imageRef": null,
+   "options": [
+    "The median of 8 hours, because the middle value of the list is 8",
+    "The mean of 6 hours, because it matches the most common data value",
+    "The median of 6 hours, because the value 30 pulls the mean upwards",
+    "The mean of about 8 hours, because it uses every value in the sample"
+   ],
+   "correctIndex": 2,
+   "explanation": "The nine ordered values have a middle value of 6, and the outlier of 30 hours drags the mean up to about 8, so the median better represents a typical student. Choosing the mean because it uses every value is the tempting answer, but that same property is exactly why one extreme value distorts it. When a data set is clearly skewed by one or two large values, prefer the median.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0029",
+   "topicId": "maths-data-y9",
+   "stem": "A council wants to estimate the median weekly grocery spend of households in its area. Which sampling plan is most likely to give a representative sample?",
+   "imageRef": null,
+   "options": [
+    "Survey shoppers leaving one large supermarket between 9 am and 11 am on a Tuesday",
+    "Post the survey on the council's social media page and use every reply received",
+    "Survey every household in the two streets closest to the council offices",
+    "Randomly select households from the full council rates list and contact each one"
+   ],
+   "correctIndex": 3,
+   "explanation": "Random selection from a list covering all households gives every household a chance of being chosen, so the sample should reflect the population and the sample median should estimate the population median well. Surveying shoppers at one supermarket on a weekday morning is tempting because it reaches real grocery buyers, but it misses anyone working at that time and anyone shopping elsewhere. Social media replies are self-selected, and two nearby streets are a convenience sample of one small area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0030",
+   "topicId": "maths-data-y9",
+   "stem": "A report says: \"In our sample of 250 Year 9 students, 62% own a smartwatch, and their mean daily screen time was 4.2 hours.\" Which statement about these figures is correct?",
+   "imageRef": null,
+   "options": [
+    "Both figures summarise categorical variables, since both come from the same survey",
+    "62% is a summary of a categorical variable and 4.2 hours summarises a numerical variable",
+    "Both figures summarise numerical variables, since both are written as numbers",
+    "62% summarises a numerical variable and 4.2 hours summarises a categorical variable"
+   ],
+   "correctIndex": 1,
+   "explanation": "Owning a smartwatch is a yes/no category, and the sensible summary of a categorical variable is a proportion or percentage; screen time is measured, so a mean is appropriate. The claim that both are numerical because both are written as numbers confuses the summary statistic with the underlying variable \u2014 a percentage of a category is still a category count. Ask what was recorded from each person, not what the report's number looks like.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0031",
+   "topicId": "maths-data-y9",
+   "stem": "Two random samples of Year 9 students at the same large school give mean heights of 162 cm and 165 cm. What does this difference best show?",
+   "imageRef": null,
+   "options": [
+    "One of the two samples must have been measured or recorded incorrectly",
+    "The population mean height must be exactly 163.5 cm, the average of the two means",
+    "Random sampling is unreliable, so a census is the only valid way to find a mean",
+    "Sample means naturally vary, so each is only an estimate of the population mean"
+   ],
+   "correctIndex": 3,
+   "explanation": "Different random samples contain different people, so their means differ; this sampling variability is expected and is why a sample mean is reported as an estimate rather than an exact value. Assuming one sample was measured incorrectly is tempting, but two correct random samples will still normally disagree. Averaging the two means gives a better estimate, not a guaranteed exact population mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0032",
+   "topicId": "maths-data-y9",
+   "stem": "A media report claims \"Australian teenagers spend a median of 90 minutes a day on homework\", based on interviews with 180 students at three selective-entry schools. What is the main limitation of this estimate?",
+   "imageRef": null,
+   "options": [
+    "The median cannot be estimated from a sample; only the mean can be estimated",
+    "A sample of 180 students is too small to calculate a median from the data",
+    "Homework time in minutes is categorical, so a median is not a valid summary",
+    "The sample comes only from selective schools, so it may not represent all teenagers"
+   ],
+   "correctIndex": 3,
+   "explanation": "Students at selective-entry schools may have homework habits unlike the wider teenage population, so the sample is not representative and the estimate cannot be safely generalised. Claiming 180 is too small is the tempting distractor, but a median can be found from any sample and 180 is a reasonable size \u2014 the flaw is who was sampled, not how many. Time in minutes is numerical, and medians are a standard summary for it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0033",
+   "topicId": "maths-data-y9",
+   "stem": "A school wants a sample of 60 that reflects its year levels. Which method is stratified sampling?",
+   "imageRef": null,
+   "options": [
+    "Splitting the roll into year levels and randomly choosing 10 from each",
+    "Choosing 60 names at random from the whole school roll",
+    "Asking the first 60 students who arrive at the school gate that morning",
+    "Choosing every 15th name from the alphabetical roll"
+   ],
+   "correctIndex": 0,
+   "explanation": "Stratified sampling divides the population into groups (strata) such as year levels, then randomly samples from each group so the groups appear in known proportions. Choosing 60 names at random from the whole roll is simple random sampling; it usually gives a spread of year levels but does not guarantee 10 from each, so that option's claim is false. The cue is the word 'strata': if the population is deliberately split into groups before sampling, it is stratified.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0034",
+   "topicId": "maths-data-y9",
+   "stem": "An inspector tests every 50th item off a line, starting from a randomly chosen one. Which sampling method?",
+   "imageRef": null,
+   "options": [
+    "Convenience sampling, because the inspector takes whatever passes by",
+    "Self-selected sampling, because the items arrive on their own",
+    "Systematic sampling, because items are chosen at regular intervals in order",
+    "Stratified sampling, because the line is divided into equal groups of 50"
+   ],
+   "correctIndex": 2,
+   "explanation": "Systematic sampling selects members at a fixed interval from an ordered list or sequence, usually after a random start. Stratified sampling is tempting here because of the groups of 50, but stratification requires meaningful categories (such as machine or shift) with a random selection made inside each one, not a fixed counting rule. The cue for systematic sampling is 'every nth'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0035",
+   "topicId": "maths-data-y9",
+   "stem": "A company's bar graph compares two products' customer satisfaction scores, 82% and 85%, but the vertical axis runs only from 80% to 86%. Why is this display misleading?",
+   "imageRef": null,
+   "options": [
+    "Starting an axis anywhere other than zero changes the values that the bars represent",
+    "A bar graph cannot be used for percentages, so the display should be a line graph",
+    "Truncating the axis makes the 3 percentage point gap look like a very large difference",
+    "Truncating the axis makes the 3 percentage point gap look much smaller than it really is"
+   ],
+   "correctIndex": 2,
+   "explanation": "When the vertical scale is cut off well above zero, the visible parts of the bars are compared instead of the full values, so a small difference fills a large part of the graph and looks dramatic. The option saying the gap looks smaller reverses the effect: stretching a narrow range exaggerates, it does not shrink. Always check where the vertical axis begins before judging the size of a difference.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0036",
+   "topicId": "maths-data-y9",
+   "stem": "Two teachers each take a separate random sample of 25 Year 9 students from the same large school and record their mean weekly screen time. The results are 14.2 hours and 16.8 hours. What does this best show?",
+   "imageRef": null,
+   "options": [
+    "The population mean must lie exactly halfway between the two values, at 15.5 hours",
+    "Natural sample-to-sample variation; different samples from one population give different estimates",
+    "One teacher must have made a recording error, since the same method should give the same mean",
+    "Random sampling is unreliable and a convenience sample would have given matching results"
+   ],
+   "correctIndex": 1,
+   "explanation": "Even a well-designed method picks different individuals each time, so summary statistics vary between samples; this variation is expected and generally shrinks as sample size grows. The 'recording error' option assumes a good method must reproduce identical results, which is not how sampling works. Two different estimates from the same sound method are evidence of variability, not of a mistake.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0037",
+   "topicId": "maths-data-y9",
+   "stem": "At a company, staff yearly pay has a mean of $95 000 and a median of $58 000. In a recruitment advertisement the company quotes only the mean. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "A gap this large between mean and median means one of the two values has been calculated wrongly",
+    "A few very high salaries pull the mean up, so quoting it makes typical pay look higher than it is",
+    "The mean is always the fairest summary of pay, so quoting it gives an accurate picture of the company",
+    "Because the mean exceeds the median, more than half the staff must earn above $58 000 a year"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pay data are usually skewed by a small number of large salaries, and the mean is sensitive to those extreme values while the median is not; choosing the mean therefore supports a flattering point of view. The claim that more than half earn above $58 000 is false, because the median is the middle value, so about half the staff earn below it. A large mean\u2013median gap is a normal sign of skew, not an arithmetic error.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0038",
+   "topicId": "maths-data-y9",
+   "stem": "A town's yearly rainfall has drifted up and down for 40 years. A campaigner publishes a line graph showing only the years 2016 to 2020, during which rainfall happened to rise steadily, and claims rainfall is increasing. Why does this representation support a particular point of view?",
+   "imageRef": null,
+   "options": [
+    "The five plotted values must be inaccurate, since a genuine trend would show over 40 years",
+    "Selecting a short favourable window hides the ups and downs of the full 40 years of data",
+    "Line graphs cannot be used for rainfall data, so a column graph should have been drawn instead",
+    "Using five years of data is invalid because a data display needs at least ten data points"
+   ],
+   "correctIndex": 1,
+   "explanation": "Choosing which portion of the data to display is itself a representation choice; a short window picked because it trends upward cannot show whether the longer record trends at all. The 'column graph' option is wrong because line graphs are entirely appropriate for a value measured over time. The alarm bell is a conclusion about a long-term trend drawn from a deliberately narrow slice of the data.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0039",
+   "topicId": "maths-data-y9",
+   "stem": "A researcher wants to estimate the mean daily commute time of workers across a whole state. Which sample is most likely to give a trustworthy estimate?",
+   "imageRef": null,
+   "options": [
+    "2 000 workers from the researcher's own workplace, chosen at random from its staff list",
+    "400 workers chosen at random from an employment database covering the entire state",
+    "5 000 workers surveyed at one large inner-city railway station on a weekday morning",
+    "3 000 workers who saw the survey link on a commuting forum and chose to respond"
+   ],
+   "correctIndex": 1,
+   "explanation": "A large sample does not fix bias: the estimate is only trustworthy if every worker in the population had a chance of selection, which is true only for the state-wide random sample. The 5 000 at a railway station is tempting because of its size, but it can only include people who commute by train through the city, whose travel times differ systematically from other workers. Check coverage of the population first, then sample size.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0040",
+   "topicId": "maths-data-y9",
+   "stem": "Mia wants to estimate the proportion of students at her school who buy lunch from the canteen. She surveys 50 students standing in the canteen queue at lunchtime. Compared with a random sample of 50 students drawn from the whole school roll, her result will most likely:",
+   "imageRef": null,
+   "options": [
+    "overestimate the proportion, because students in the queue are far more likely than average to be canteen buyers",
+    "underestimate the proportion, because students already in the queue have been counted before their purchase is made",
+    "give roughly the same proportion, because a sample of 50 students is large enough to remove any bias",
+    "be less precise only because 50 is a small sample; surveying in the queue itself adds no bias"
+   ],
+   "correctIndex": 0,
+   "explanation": "A sample must be chosen so that every member of the population has a fair chance of being selected; picking people in the canteen queue selects a group that is unusually likely to have the characteristic being measured, so the estimated proportion is pushed too high. The option saying 50 students is large enough to remove bias is the tempting one, but increasing or accepting a sample size never fixes a biased selection method \u2014 a big biased sample is just confidently wrong. The cue is to ask 'where were the people found?' before asking 'how many were there?'.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0041",
+   "topicId": "maths-data-y9",
+   "stem": "A histogram of ages has tall bars at the younger groups and a long tail towards the older ones. Describe it.",
+   "imageRef": null,
+   "options": [
+    "Symmetric, because the bar heights change gradually and evenly",
+    "Bi-modal, because the bars have more than one height",
+    "Positively skewed, because the tail stretches towards the higher values",
+    "Negatively skewed, because most of the data sits at the lower values"
+   ],
+   "correctIndex": 2,
+   "explanation": "The direction of skew is named after the long tail, not the bunched-up peak, so a tail stretching towards the higher values is positive (right) skew. 'Negatively skewed, because most of the data sits at the lower values' is the common trap: it names the skew after where the bulk of the data sits, which reverses the convention. A symmetric display would look roughly the same either side of the centre, and bi-modal requires two separate peaks, not simply bars of differing heights. Cue: follow the tail to name the skew.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0042",
+   "topicId": "maths-data-y9",
+   "stem": "Two histograms are drawn to compare the weekly training hours of a netball squad (28 players) and a soccer squad (44 players). What must be true if the two histograms are to give a fair comparison of the distributions?",
+   "imageRef": null,
+   "options": [
+    "Both histograms use the same class intervals and the same scale on each axis",
+    "Both squads must contain the same number of players before histograms can be drawn",
+    "Each histogram must use class intervals wide enough to give it exactly five bars",
+    "The taller histogram must be redrawn so the two have equal maximum bar heights"
+   ],
+   "correctIndex": 0,
+   "explanation": "Comparative displays only work when the measuring is identical: matching class intervals and matching axis scales mean a difference in the picture reflects a real difference in the data. 'Both squads must contain the same number of players' is the tempting one, but unequal group sizes are fine \u2014 you compare shape, centre and spread, and can use percentage frequency if the counts differ a lot. Forcing five bars or equal maximum heights would distort the very features being compared.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0043",
+   "topicId": "maths-data-y9",
+   "stem": "Seven Year 9 students recorded the minutes they spent on homework one night: 12, 14, 15, 15, 18, 20, 58. What are the median and the mean of this data set?",
+   "imageRef": null,
+   "options": [
+    "Median 15 minutes, mean about 15.7 minutes",
+    "Median 21.7 minutes, mean 15 minutes",
+    "Median 15 minutes, mean about 21.7 minutes",
+    "Median 18 minutes, mean about 21.7 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "With seven ordered values the median is the 4th value, 15, and the mean is 152 \u00f7 7 \u2248 21.7. 'Median 18 minutes, mean about 21.7 minutes' comes from miscounting the middle position \u2014 18 is the 5th value, not the 4th. The gap between 15 and 21.7 exists because the single large value of 58 drags the mean up while leaving the middle value where it is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0044",
+   "topicId": "maths-data-y9",
+   "stem": "Two classes sat the same test. Class A: mean 70, median 70, range 20. Class B: mean 70, median 78, range 55. Which comparison is correct?",
+   "imageRef": null,
+   "options": [
+    "The classes have equal mean scores, but Class A's scores are far more spread out and its distribution is positively skewed",
+    "Class B has the higher typical score and its scores are the more consistent of the two",
+    "The equal means show that the two classes have the same shape and the same spread of scores",
+    "The classes have equal mean scores, but Class B's scores are far more spread out and its distribution is negatively skewed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Class B's range of 55 against Class A's 20 shows much greater spread, and a median (78) well above the mean (70) indicates a tail of low scores, that is, negative skew. 'Class B has the higher typical score and its scores are the more consistent of the two' is tempting because B's median is higher, but the larger range shows B is the less consistent class, and the means are identical. Cue: range describes spread, while the gap between mean and median points to the direction of skew.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0045",
+   "topicId": "maths-data-y9",
+   "stem": "A histogram of house sale prices in a suburb is strongly skewed to the right by a small number of very expensive sales. What does this tell you about the mean and median price?",
+   "imageRef": null,
+   "options": [
+    "The mean and median are equal, because skew changes only the range and not the centre",
+    "The mean equals the most common price, because the tallest bar always sits at the mean",
+    "The mean is greater than the median, because the few very high prices pull the mean upwards",
+    "The median is greater than the mean, because the median counts the expensive sales more heavily"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every value contributes to the mean, so a long right tail of very high prices drags the mean above the middle value, giving mean greater than median. 'The median is greater than the mean, because the median counts the expensive sales more heavily' reverses the roles \u2014 the median depends only on position in the ordered list, so extreme prices barely shift it. Cue: the mean chases the tail; the median stays near the bulk of the data.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0046",
+   "topicId": "maths-data-y9",
+   "stem": "A histogram of caf\u00e9 arrivals has one tall cluster near 8 am, low bars midday, and another cluster near 1 pm. Describe it.",
+   "imageRef": null,
+   "options": [
+    "Symmetric, because the two peaks balance either side of the middle",
+    "Skewed, because the data are spread unevenly across the day",
+    "Outlier-affected, because the midday bars are much shorter",
+    "Bi-modal, because the data cluster around two separate peaks"
+   ],
+   "correctIndex": 3,
+   "explanation": "A distribution is bi-modal when the values pile up around two clearly separated peaks rather than one. The tempting answer is 'symmetric, because the two peaks balance either side of the middle' \u2014 symmetry describes a shape whose left and right halves mirror each other about a single centre, and having two peaks does not make a distribution symmetric (a bi-modal shape may or may not also be symmetric). The cue: count the peaks first to decide modality, then look at balance and tails to decide symmetry or skew. Short bars in the middle are simply low frequency, not outliers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0047",
+   "topicId": "maths-data-y9",
+   "stem": "A back-to-back stem-and-leaf plot compares test scores.\nClass A leaves (read right to left) | Stem | Class B leaves\n9 7 5 | 3 | 2 6\n8 6 4 2 | 4 | 1 3 5 8\n5 1 | 5 | 0 2 4 7 9\nWhich comparison of the two classes is correct?",
+   "imageRef": null,
+   "options": [
+    "Both classes have a median of 44, but Class B has the larger range (27 against 20)",
+    "Class B has the higher median (48 against 44), but both classes have a range of 20",
+    "Class B has the higher median (48 against 44) and the larger range (27 against 20)",
+    "Class A has the higher median (48 against 44) and the larger range (27 against 20)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Class A has 9 scores (35, 37, 39, 42, 44, 46, 48, 51, 55), so its median is the 5th value, 44, and its range is 55 \u2212 35 = 20. Class B has 11 scores (32, 36, 41, 43, 45, 48, 50, 52, 54, 57, 59), so its median is the 6th value, 48, and its range is 59 \u2212 32 = 27. The tempting error is 'Class A has the higher median (48 against 44)' \u2014 that comes from reading the leaves on the wrong side of the stems. Always check which side belongs to which group, and remember the left-hand leaves are written in reverse order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0048",
+   "topicId": "maths-data-y9",
+   "stem": "Eight students recorded the number of text messages they sent in an hour: 4, 5, 6, 6, 7, 8, 9, 45. The value 45 is removed as an outlier. What happens to the summary statistics?",
+   "imageRef": null,
+   "options": [
+    "The median falls by about 4.8, the mean falls by 0.5 and the range falls by 36",
+    "The mean falls by about 4.8, the median falls by 0.5 and the range stays at 41",
+    "The mean falls by about 4.8, the median falls by 0.5 and the range falls by 36",
+    "The mean falls by about 4.8, the median stays at 6.5 and the range falls by 36"
+   ],
+   "correctIndex": 2,
+   "explanation": "With the outlier, the mean is 90 \u00f7 8 = 11.25, the median is (6 + 7) \u00f7 2 = 6.5 and the range is 45 \u2212 4 = 41; without it the mean is 45 \u00f7 7 \u2248 6.43, the median is the 4th of seven values, 6, and the range is 9 \u2212 4 = 5. So the mean drops about 4.8, the median only 0.5, and the range by 36. The tempting choice is the one saying the median stays at 6.5 \u2014 removing a value changes the number of data values from 8 to 7, so the median moves from a midpoint of two values to a single middle value. The cue: outliers pull the mean and stretch the range strongly, but shift the median only slightly.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0049",
+   "topicId": "maths-data-y9",
+   "stem": "A canteen surveys 200 students on favourite hot food. Which display shows each item's share of the whole?",
+   "imageRef": null,
+   "options": [
+    "A sector (pie) graph, since each sector shows a category's share of the whole",
+    "A histogram, treating the four food categories as equal-width intervals",
+    "A scatter plot, since it shows how the four food choices relate to each other",
+    "A line graph, since joining the totals shows how preferences change"
+   ],
+   "correctIndex": 0,
+   "explanation": "The data is categorical and the question asks about each category's portion of one whole, which is exactly what the sectors of a pie graph represent. The histogram option is the most tempting because the data is displayed in bars, but histograms are for numerical data grouped into intervals, and food types are not intervals. The cue is the phrase 'share of the whole': parts of a single total point to a pie graph, while comparing separate counts points to a column graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0050",
+   "topicId": "maths-data-y9",
+   "stem": "A histogram is the appropriate choice of display when the data is:",
+   "imageRef": null,
+   "options": [
+    "categorical, with a gap left between the bars to separate the categories",
+    "made up of paired values of two variables plotted as points on a grid",
+    "a set of parts of one whole, so the bars can be compared to the total",
+    "numerical and grouped into class intervals, with bars drawn touching each other"
+   ],
+   "correctIndex": 3,
+   "explanation": "A histogram displays the frequency of numerical data grouped into intervals, and the bars touch because the horizontal scale is a continuous number line. The categorical option is the common trap: bars with gaps between them describe a column (bar) graph, not a histogram. The cue is the gaps \u2014 no gaps means a continuous numerical scale underneath.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0051",
+   "topicId": "maths-data-y9",
+   "stem": "A class measures both arm span and height for 30 students, to see whether the two are related. Which display?",
+   "imageRef": null,
+   "options": [
+    "A column graph of the arm spans, so each student's value can be compared",
+    "A scatter plot, because each student gives a pair of values to plot as a point",
+    "A histogram of the heights, because it shows how those values are spread",
+    "Two pie graphs, because they show how each measurement is shared out"
+   ],
+   "correctIndex": 1,
+   "explanation": "Investigating a relationship between two numerical variables measured on the same individuals requires the pairs to be kept together, and a scatter plot does this by plotting each pair as a point. The histogram option is tempting because height is numerical, but a histogram of heights alone throws away the arm span pairing, so no relationship can be seen. The cue is 'two measurements on each person' \u2014 paired numerical data means a scatter plot.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0052",
+   "topicId": "maths-data-y9",
+   "stem": "A council records the number of visitors to its pool at the end of each month for two years and wants to show how visitor numbers have changed over that period. Which choice and justification are correct?",
+   "imageRef": null,
+   "options": [
+    "A line graph, because plotting the totals in time order and joining them shows the trend",
+    "A histogram, because it displays how the visitor numbers change from month to month",
+    "A sector (pie) graph, because it shows whether visitor numbers rose or fell over two years",
+    "A dot plot, because it shows the order in which the monthly totals actually occurred"
+   ],
+   "correctIndex": 0,
+   "explanation": "Time-series data is displayed with time on the horizontal axis and the values joined, so rises, falls and seasonal patterns can be read directly. The histogram option is the most tempting because the monthly totals are numerical, but a histogram groups values by size and destroys the time order, so no trend is visible. The cue is 'over time': if the horizontal variable is time, choose a line graph.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0053",
+   "topicId": "maths-data-y9",
+   "stem": "A teacher wants to compare the test scores of two Year 9 classes (26 and 28 students) and also wants every individual score to remain visible. Which display best suits this purpose?",
+   "imageRef": null,
+   "options": [
+    "A scatter plot with Class A scores on one axis and Class B scores on the other axis",
+    "A line graph joining each class's scores in the order the students are listed on the roll",
+    "A back-to-back stem-and-leaf plot, with one class's leaves on each side of a shared stem",
+    "A single pie graph, with one sector for each class showing its share of the total score"
+   ],
+   "correctIndex": 2,
+   "explanation": "A back-to-back stem-and-leaf plot puts both distributions against one common stem, so centre and spread can be compared while every original score is still readable. The scatter plot option is tempting, but the scores are not paired \u2014 no Class A student is matched with a particular Class B student \u2014 so plotting them against each other is meaningless. The cue is 'compare two groups and keep the actual values': that combination points to a back-to-back stem-and-leaf plot.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0054",
+   "topicId": "maths-data-y9",
+   "stem": "A pie graph shows how a household's weekly budget is divided. The sector for rent is a right angle. What fraction of the weekly budget goes to rent?",
+   "imageRef": null,
+   "options": [
+    "\u00bd, because a right angle divides the circle into two equal halves",
+    "1/9, because the 90\u00b0 angle is compared with 360\u00b0 plus the 90\u00b0 sector",
+    "\u00be, because the remaining part of the circle is what the rent sector measures",
+    "\u00bc, because 90\u00b0 out of the full 360\u00b0 of the circle is one quarter"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a pie graph each sector angle is the matching fraction of 360\u00b0, so 90 \u00f7 360 = \u00bc of the budget. Choosing \u00bd comes from thinking a right angle halves the circle, but a right angle is one of four that make up a full turn. Always divide the sector angle by 360, not by 180 or by 90.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0055",
+   "topicId": "maths-data-y9",
+   "stem": "In a survey, 300 students each ticked every streaming service they use, so the percentages for the services add to about 180%. Why is a pie graph an unsuitable display for these results?",
+   "imageRef": null,
+   "options": [
+    "The sectors of a pie graph must be parts of one whole adding to 100%, so a column graph suits better",
+    "Pie graphs can only display counts, never percentages, so the results must be shown as raw totals",
+    "Pie graphs can only be used when there are exactly two or three categories to compare",
+    "Pie graphs can only display numerical data, and streaming services are categories not numbers"
+   ],
+   "correctIndex": 0,
+   "explanation": "A pie graph divides one whole into non-overlapping parts, so it only works when each person is counted in exactly one category; here students appear in several categories at once and the totals exceed 100%. The claim that pie graphs cannot show percentages is tempting but false \u2014 percentages are the usual labels on a pie graph. The cue is 'tick all that apply': overlapping responses rule out any parts-of-a-whole display.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0056",
+   "topicId": "maths-data-y9",
+   "stem": "Thirty test scores range from 32 to 98. Which is the best justification for choosing a stem-and-leaf plot rather than a histogram for this data?",
+   "imageRef": null,
+   "options": [
+    "It shows the percentage of scores falling in each interval, which a histogram cannot show",
+    "It shows the shape of the distribution while keeping every score, so the median can be read off",
+    "It is the only display that shows the shape of a numerical distribution such as test scores",
+    "It groups the scores into intervals, whereas a histogram plots each score as its own bar"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both displays show shape, but a stem-and-leaf plot keeps the original data values as leaves, so the median, range and any repeated scores can be read straight from the plot. The claim that it is the only display showing shape is false \u2014 that is precisely what a histogram does too. The deciding cue is whether you need the individual values back again; if you do, use a stem-and-leaf plot.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0057",
+   "topicId": "maths-data-y9",
+   "stem": "Which sequence of stages in a statistical investigation is in the correct order?",
+   "imageRef": null,
+   "options": [
+    "Collect easy data \u2192 pose a question to fit it \u2192 display \u2192 report",
+    "Pose a question \u2192 predict the outcome \u2192 collect only data that agrees \u2192 report",
+    "Display sample data \u2192 pose a question \u2192 plan collection \u2192 report",
+    "Pose a question \u2192 plan collection \u2192 collect data \u2192 display \u2192 report findings"
+   ],
+   "correctIndex": 3,
+   "explanation": "A statistical investigation starts with a clear question, then a plan for collecting suitable data, then collection, then analysis with displays and summary statistics, and finally a report that states conclusions and their limitations. The version that begins by collecting easy data and then inventing a question is wrong because the data may not be capable of answering any useful question, and the collection method is not designed for the purpose. The cue is that the question must be settled before the data, so the plan can be judged fit for purpose.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0058",
+   "topicId": "maths-data-y9",
+   "stem": "A student measures 40 classmates' reaction times, and downloads published figures. Which is correct?",
+   "imageRef": null,
+   "options": [
+    "Both sets are secondary, because both were recorded electronically",
+    "Her own measurements are primary data; the published figures are secondary",
+    "Her own measurements are secondary data; the published figures are primary",
+    "Both sets are primary data, because she personally obtained both"
+   ],
+   "correctIndex": 1,
+   "explanation": "Primary data is collected first-hand by the investigator for the current investigation, while secondary data has already been collected and published by someone else. Calling both sets primary is tempting because she 'got' both, but downloading figures is not collecting them \u2014 the university did the measuring. The cue is to ask who actually made the observations, not who is now holding the numbers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0059",
+   "topicId": "maths-data-y9",
+   "stem": "A survey of 300 students finds that students who eat breakfast have a higher mean test score than students who skip it. Which conclusion does this investigation support?",
+   "imageRef": null,
+   "options": [
+    "Eating breakfast causes higher test scores, since the two groups were compared directly",
+    "Higher test scores cause students to eat breakfast, since scores were recorded after the meals",
+    "No conclusion at all is possible, because a survey can never show a link between two variables",
+    "There is an association between eating breakfast and higher scores, but other factors may explain it"
+   ],
+   "correctIndex": 3,
+   "explanation": "Survey data of this kind is observational, so it can show that two variables tend to occur together but cannot rule out other factors such as sleep, home routine or study habits that differ between the groups. Saying breakfast causes the higher scores is the most tempting answer because the comparison looks so direct, but a direct comparison of two self-selected groups does not control anything. The cue is that only a controlled experiment, not an observational survey, can support a causal claim.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0060",
+   "topicId": "maths-data-y9",
+   "stem": "Two groups investigate the same question: 'What proportion of students at our school of 1200 walk to school?' Group A surveys 30 students in one Year 9 class. Group B surveys 200 students chosen at random from the school roll. Whose evidence is stronger, and why?",
+   "imageRef": null,
+   "options": [
+    "Group B, because a larger random sample from the whole roll better represents all year levels",
+    "Group A, because a small sample can be surveyed more carefully and so gives more reliable answers",
+    "Group B, because a sample of 200 is large enough to give the exact proportion for the school",
+    "Group A, because Year 9 students sit in the middle of the school and so represent it fairly"
+   ],
+   "correctIndex": 0,
+   "explanation": "Strength of evidence depends on how the sample was chosen and how big it is: a large random sample from the whole population reduces both bias and sampling variability. The claim that 200 students give the exact proportion is tempting but false \u2014 any sample gives an estimate that varies from sample to sample. The cue is to praise a sample for reducing error, never for eliminating it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0061",
+   "topicId": "maths-data-y9",
+   "stem": "A report concludes: 'Students at our school prefer canteen wedges to pies.' Which detail in the report would most weaken the strength of this conclusion?",
+   "imageRef": null,
+   "options": [
+    "The results were displayed in a column graph rather than a pie graph",
+    "The survey was conducted on a Wednesday rather than across the whole week",
+    "Both the number choosing wedges and the number choosing pies were reported",
+    "Students were asked 'Wedges are much tastier than pies, don't you agree?'"
+   ],
+   "correctIndex": 3,
+   "explanation": "A leading question pushes respondents towards one answer, so the recorded preferences no longer measure genuine opinion and the conclusion cannot be trusted at all. Surveying on one day only is a real but much smaller concern, and it does not systematically favour wedges the way the wording does. The cue is that wording which suggests the 'right' answer creates bias in every single response.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0062",
+   "topicId": "maths-data-y9",
+   "stem": "A group investigating 'Do Year 9 students sleep less than Year 7 students?' collects sleep hours from 60 students in each year level and finds means of 7.6 hours and 8.1 hours. Which reported finding uses the evidence most appropriately?",
+   "imageRef": null,
+   "options": [
+    "The two means differ, so the samples must have been collected incorrectly and the investigation should be discarded",
+    "The Year 9 mean was 0.5 hours lower; the samples suggest less sleep in Year 9, but the gap is small relative to the spread",
+    "The Year 9 mean was 0.5 hours lower, which proves that every Year 9 student sleeps less than every Year 7 student",
+    "The Year 9 mean was 0.5 hours lower, so moving into Year 9 causes students to lose about half an hour of sleep"
+   ],
+   "correctIndex": 1,
+   "explanation": "A difference in sample means is evidence of a difference in the populations only when it is judged against the spread of the data and the fact that samples vary; reporting the size of the gap alongside that caution is the honest use of the evidence. Claiming that every Year 9 student sleeps less is tempting because the means clearly differ, but a mean says nothing about every individual. The cue is that means describe groups, not guarantees about each member.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0063",
+   "topicId": "maths-data-y9",
+   "stem": "A student's report says: 'I asked 25 friends online and 21 said they recycle at home, so 84% of Australian teenagers recycle.' Which single change would most improve the strength of the evidence?",
+   "imageRef": null,
+   "options": [
+    "Report the result as a fraction, 21 out of 25, instead of converting it to 84%",
+    "Repeat the same survey with the same 25 friends on three separate occasions",
+    "Display the two categories in a pie graph rather than stating the percentage",
+    "Select the respondents at random from a much larger and wider group of teenagers"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fatal weakness is that friends of one student are not representative of Australian teenagers, so no amount of re-presenting or repeating fixes it; only a random sample from a much broader population supports a claim about all teenagers. Repeating the survey with the same friends is tempting because repetition sounds rigorous, but it just re-measures the same biased group. The cue is that bias is a property of who is in the sample, so it can only be fixed at the selection stage.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0064",
+   "topicId": "maths-data-y9",
+   "stem": "Priya is planning an investigation into student opinion about the school canteen. She randomly selects 100 students from the school roll and asks each one: \"Do you agree that the canteen should stop selling unhealthy junk food?\" (Yes/No). She reports that 78% said Yes. What is the main weakness in her method?",
+   "imageRef": null,
+   "options": [
+    "A randomly selected sample of 100 students is too small to report any percentage from",
+    "Percentages should not be used to summarise responses to a Yes/No question",
+    "A Yes/No question produces numerical data, which cannot be collected in a survey",
+    "The wording of the question is leading, so it pushes respondents towards answering Yes"
+   ],
+   "correctIndex": 3,
+   "explanation": "In the planning stage of an investigation, the collection instrument must not steer responses. Calling the food \"unhealthy junk food\" and asking whether people \"agree\" invites agreement, so the 78% figure measures the wording as much as the opinion; a neutral version such as \"Should the canteen sell more healthy food options?\" would give stronger evidence. The tempting choice is that a sample of 100 is too small to report a percentage \u2014 but 100 students randomly chosen from the roll is a reasonable, unbiased sample, and sample size is not the flaw here. The cue: check the sampling method and the question wording separately, because a good sample can still be spoiled by a loaded question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0065",
+   "topicId": "maths-data-y9",
+   "stem": "What does the mean of a data set measure?",
+   "imageRef": null,
+   "options": [
+    "The gap between highest and lowest",
+    "The total shared equally between values",
+    "The value exactly in the middle",
+    "The most frequently occurring value"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding everything and dividing shares the total out evenly. Because every value counts, one extreme drags the result \u2014 which is exactly when the median becomes the better choice.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Three measures describe the centre of a data set, and each has a different weakness.\n\nOne adds every value and divides by how many there are, effectively sharing the total out equally. Because every value contributes, a single extreme one pulls the result towards itself \u2014 one billionaire in a room shifts it enormously while leaving the middle-of-the-list value untouched. That sensitivity is exactly why income and house prices are usually reported using the middle value instead. Knowing which measure a source has used is often more important than the number itself.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0066",
+   "topicId": "maths-data-y9",
+   "stem": "What is a random sample?",
+   "imageRef": null,
+   "options": [
+    "One that includes the entire population",
+    "One where everyone has an equal chance of selection",
+    "One chosen from whoever is easiest to reach",
+    "One made up of people who volunteer"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equal chance is what keeps a sample unbiased. Surveying whoever is nearest is a convenience sample, and it is how surveys end up describing a group nobody intended to study.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "How a sample is chosen decides whether conclusions from it mean anything, and there is one property that keeps it honest.\n\nIf every member of the population has an equal chance of being picked, no group is systematically over- or under-represented, and the sample should reflect the whole. Departures from that create bias: surveying only people leaving a gym about exercise, or only people who volunteered to respond, produces a precise answer to a question nobody asked. Note that a large biased sample is worse than a small unbiased one, because size makes the wrong answer look confident.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0067",
+   "topicId": "maths-data-y9",
+   "stem": "What does an outlier mean in a data set?",
+   "imageRef": null,
+   "options": [
+    "The value in the exact middle",
+    "A value recorded more than once",
+    "A value far away from the others",
+    "The value that appears most often"
+   ],
+   "correctIndex": 2,
+   "explanation": "An outlier may be a recording error or a genuinely unusual case, and those need different treatment. Either way it drags the mean and the range far more than it drags the median.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Most data clusters, and occasionally a value sits well away from the cluster.\n\nSuch a value matters for two reasons. First, it may be an error \u2014 a mistyped digit, a broken instrument, a misread scale \u2014 in which case it should be investigated rather than silently kept or silently deleted. Second, it may be genuine and important, like a record flood or an unusually successful patient. Either way it drags the mean and the range far more than it drags the median and interquartile range, which is why those two are described as resistant.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0068",
+   "topicId": "maths-data-y9",
+   "stem": "What does a box plot display?",
+   "imageRef": null,
+   "options": [
+    "The change in a value over time",
+    "The spread of data through quartiles",
+    "The frequency of each category",
+    "The relationship between two variables"
+   ],
+   "correctIndex": 1,
+   "explanation": "A box plot shows the minimum, quartiles and maximum at a glance, which makes comparing the spread of two groups very quick. A scatterplot is for two variables and answers a different question.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Different displays answer different questions, so start by asking what the display is built from.\n\nThis one is built from five numbers: the minimum, the three quartiles, and the maximum. The box covers the middle half of the data and the whiskers reach out to the extremes, so at a glance you can see the centre, the spread and any skew. Its real strength is comparison \u2014 two or three of them side by side make differences between groups obvious in a way that two lists of numbers never do.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0069",
+   "topicId": "maths-data-y9",
+   "stem": "Two events are independent when:",
+   "imageRef": null,
+   "options": [
+    "they have exactly the same probability",
+    "they always happen together",
+    "one happening does not affect the other",
+    "they cannot both happen at once"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two coin tosses are independent; drawing two cards without replacing the first is not. Events that cannot both occur are mutually exclusive \u2014 a different idea that is easily substituted here.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Two probability terms describe relationships between events, and they are easy to swap.\n\nOne describes events where knowing that the first happened tells you nothing about the second: two coin tosses, or two rolls of a die. The other describes events that cannot both occur \u2014 rolling a 3 and rolling a 5 on one throw. These are different ideas, and events can be one without being the other. Drawing two cards without replacing the first breaks the first relationship, because the first draw changes what is left in the deck.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y9-0070",
+   "topicId": "maths-data-y9",
+   "stem": "What is the interquartile range?",
+   "imageRef": null,
+   "options": [
+    "The most common value in the set",
+    "The spread of the middle half of the data",
+    "The gap between the largest and smallest",
+    "The average distance from the mean"
+   ],
+   "correctIndex": 1,
+   "explanation": "Cutting off the top and bottom quarters leaves the middle half, so a single extreme value cannot distort it. That resistance to outliers is why it is often preferred to the range.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Measures of spread differ in how much notice they take of extreme values.\n\nThe simplest subtracts the smallest value from the largest, so it uses only two numbers and a single outlier can multiply it. A more robust measure ignores the top and bottom quarters entirely and reports the spread of what is left in the middle. Because the extremes have been cut away, one unusual value cannot distort it. It is the width of the box on a box plot, and it pairs naturally with the median for skewed data.",
+   "generationBatch": "maths-data-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

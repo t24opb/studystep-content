@@ -1,0 +1,1039 @@
+{
+ "topicId": "maths-data-y8",
+ "questions": [
+  {
+   "id": "maths-data-y8-0001",
+   "topicId": "maths-data-y8",
+   "stem": "Two events are complementary. Which statement is always true about their probabilities?",
+   "imageRef": null,
+   "options": [
+    "They are equal to each other",
+    "They multiply to 1",
+    "They add to 1",
+    "They add to 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Complementary events cover every possible outcome without overlapping, so one of them is certain to happen, and certainty has probability 1. The tempting choice 'They are equal to each other' describes only the special case of a fair coin \u2014 complements are usually unequal, such as rolling a 6 (1/6) and not rolling a 6 (5/6). The cue is that 'complementary' is about covering all outcomes, not about being the same size.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Complementary events are opposites that between them cover everything: exactly one of the pair must occur.\n\nSince something is certain to happen, their probabilities together account for the whole of certainty \u2014 which pins down what they sum to. This is what lets you find one from the other by subtraction, and it is also a check on your work: if you calculate both independently and they do not combine correctly, one of them is wrong. Note that mutually exclusive events are not necessarily complementary; they may leave other outcomes possible.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0002",
+   "topicId": "maths-data-y8",
+   "stem": "The probability that it rains tomorrow is 0.35. What is the probability that it does not rain tomorrow?",
+   "imageRef": null,
+   "options": [
+    "1.35",
+    "0.65",
+    "0.35",
+    "0.75"
+   ],
+   "correctIndex": 1,
+   "explanation": "The complement is found by subtracting from 1, so 1 \u2212 0.35 = 0.65. Choosing '0.35' assumes the two outcomes are equally likely, which the given figure already contradicts. Remember that the two probabilities must total exactly 1, so a quick check is 0.35 + 0.65 = 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Probabilities of an event and its opposite must account for everything that can happen, so together they make up complete certainty.\n\nThat means one can always be found from the other by subtraction, and the arithmetic is easiest if both are written in the same form \u2014 decimals with decimals, fractions with a common denominator. A quick sanity check: your answer must sit between 0 and 1, and if the original probability was small the complement should be large.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0003",
+   "topicId": "maths-data-y8",
+   "stem": "A spinner has a 2/9 chance of landing on green. What is the probability it does not land on green?",
+   "imageRef": null,
+   "options": [
+    "2/7",
+    "9/2",
+    "1/9",
+    "7/9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since 1 can be written as 9/9, the complement is 9/9 \u2212 2/9 = 7/9. The option '2/7' comes from subtracting the numerator from the denominator instead of subtracting the whole fraction from 1. Convert 1 into a fraction with the same denominator before subtracting.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Two events are complementary when one happening means the other did not, and between them they cover every possibility.\n\nBecause something must happen, their probabilities have to account for the whole of certainty \u2014 so once you know one, the other follows by subtraction. This is often much faster than the direct route: working out 'at least one' by listing every case is laborious, while working out 'none' and taking it from the total is usually a single step. Keep the denominator the same when you subtract fractions.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0004",
+   "topicId": "maths-data-y8",
+   "stem": "Which pair of events for one roll of a standard six-sided die are complementary?",
+   "imageRef": null,
+   "options": [
+    "Rolling a 3, and rolling a number that is not 3",
+    "Rolling an even number, and rolling a 4",
+    "Rolling less than 3, and rolling more than 3",
+    "Rolling a 1, and rolling a 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Complementary events must have no overlap and together cover all six outcomes. 'Rolling less than 3, and rolling more than 3' is tempting because the two events do not overlap, but they miss the outcome 3, so their probabilities total 4/6, not 1. Always check that every outcome is included exactly once.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "For two events to be complementary, they must be opposites that between them cover every possible outcome.\n\nTest any pair with two questions: can both happen at once, and is there any outcome that satisfies neither? If both answers are no, they are complementary. That second question is what catches most wrong options \u2014 'rolling a 2' and 'rolling a 5' cannot both happen, but plenty of other results satisfy neither, so they are merely mutually exclusive rather than complementary.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0005",
+   "topicId": "maths-data-y8",
+   "stem": "In a bag of marbles, the probability of drawing a red marble is 3/10 and the probability of drawing a blue marble is 1/5. What is the probability of drawing a marble that is neither red nor blue?",
+   "imageRef": null,
+   "options": [
+    "7/10",
+    "4/5",
+    "1/2",
+    "3/10"
+   ],
+   "correctIndex": 2,
+   "explanation": "Red or blue has probability 3/10 + 2/10 = 5/10, and the complement of that is 1 \u2212 5/10 = 1/2. The answer '7/10' is the complement of red only, ignoring the blue marbles. Combine the listed events first, then take the complement of the total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0006",
+   "topicId": "maths-data-y8",
+   "stem": "A weather app states there is an 18% chance of a storm at the beach today. What is the chance of no storm?",
+   "imageRef": null,
+   "options": [
+    "18%",
+    "72%",
+    "88%",
+    "82%"
+   ],
+   "correctIndex": 3,
+   "explanation": "Probabilities as percentages must total 100%, so 100% \u2212 18% = 82%. Choosing '72%' comes from subtracting from 90% by mistake, a common slip when subtracting mentally. Check by adding: 18% + 82% = 100%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0007",
+   "topicId": "maths-data-y8",
+   "stem": "A raffle has a fixed number of tickets. Jo buys some tickets and works out that her probability of NOT winning first prize is 47/50. How many tickets did she buy, if there are 50 tickets in total?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "47",
+    "50"
+   ],
+   "correctIndex": 1,
+   "explanation": "Winning and not winning are complementary, so the probability of winning is 1 \u2212 47/50 = 3/50, which means Jo holds 3 of the 50 tickets. The answer '47' mistakes the numerator of the not-winning probability for the number of tickets she owns. Read carefully which event the given fraction describes before converting it to a count.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0008",
+   "topicId": "maths-data-y8",
+   "stem": "A game has three possible results: win, draw or loss. The probability of a win is 0.42 and the probability of a draw is 0.13. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The probability of not winning is 0.45, and the probability of a loss is 0.58",
+    "The probability of not winning is 0.87, and the probability of a loss is 0.42",
+    "The probability of not winning is 0.55, and the probability of a loss is 0.13",
+    "The probability of not winning is 0.58, and the probability of a loss is 0.45"
+   ],
+   "correctIndex": 3,
+   "explanation": "Not winning is the complement of winning, so 1 \u2212 0.42 = 0.58, and this includes both draws and losses; the loss probability is then 0.58 \u2212 0.13 = 0.45. The reversed option swaps these two values, which happens when students subtract the draw from 1 first and mislabel the result. Keep track of which event each subtraction removes: not winning removes only the win, while a loss removes both the win and the draw.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0009",
+   "topicId": "maths-data-y8",
+   "stem": "A fair coin is tossed and a standard six-sided die is rolled. How many different outcome combinations are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "8 outcomes",
+    "6 outcomes",
+    "36 outcomes",
+    "12 outcomes"
+   ],
+   "correctIndex": 3,
+   "explanation": "For two events happening together, the total number of combinations is found by multiplying the number of outcomes at each stage: 2 coin results \u00d7 6 die results = 12. The answer '8 outcomes' comes from adding 2 and 6 instead of multiplying, which counts the results of each event separately rather than pairing them up. A quick check is to picture a two-way table with 2 rows and 6 columns \u2014 the cells inside it are the combinations, and there are 12 of them.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "When an experiment has two independent stages, the total number of outcomes is found by multiplying, not adding.\n\nEvery result of the first stage can pair with every result of the second, so the count of one multiplies the count of the other. A tree diagram makes this visible: each first-stage branch splits into a full set of second-stage branches. Adding the two counts instead is the standard error, and it gives a number far too small. The same rule extends to three or more stages.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0010",
+   "topicId": "maths-data-y8",
+   "stem": "A Venn diagram has two overlapping circles, one labelled 'plays soccer' and one labelled 'plays netball', drawn inside a rectangle for the whole class. What does the overlapping region represent?",
+   "imageRef": null,
+   "options": [
+    "Students who play exactly one of the two sports",
+    "Students who play both soccer and netball",
+    "Students who play soccer but not netball",
+    "Students who play neither soccer nor netball"
+   ],
+   "correctIndex": 1,
+   "explanation": "The overlap of two circles is the intersection, so it holds only the members that belong to both categories at once. 'Students who play soccer but not netball' describes the part of the soccer circle outside the overlap, not the overlap itself. Remember: inside the rectangle but outside both circles is 'neither', and the shared middle is always 'both'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0011",
+   "topicId": "maths-data-y8",
+   "stem": "A tree diagram is drawn for tossing a coin twice. Which list shows the complete sample space?",
+   "imageRef": null,
+   "options": [
+    "HH, HT, TT",
+    "HH, TT, HT, TH, HH",
+    "H, T, HH, TT",
+    "HH, HT, TH, TT"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each of the 2 first-toss branches splits into 2 second-toss branches, giving 4 equally likely paths, and HT (head then tail) is a different path from TH (tail then head). The list 'HH, HT, TT' misses TH because it treats one head and one tail as a single outcome, ignoring the order the branches record. Reading a tree diagram means following each complete path from start to finish, so the number of outcomes equals the number of final branches.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "The sample space is the complete list of possible outcomes, and getting it complete is what tree diagrams are for.\n\nEach stage of the experiment adds a layer of branches, and each full path from the start to a tip is one outcome. For two stages with two options each, every combination of first and second result appears. The error to watch for is treating two outcomes as the same because they contain the same results: getting heads then tails is a different path from tails then heads, so both appear separately.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0012",
+   "topicId": "maths-data-y8",
+   "stem": "A two-way table for 40 Year 8 students shows: plays sport and wears glasses 8; plays sport, no glasses 17; no sport but wears glasses 5; no sport, no glasses 10. A student is chosen at random. What is the probability the student plays sport AND wears glasses?",
+   "imageRef": null,
+   "options": [
+    "13/40",
+    "8/25",
+    "25/40",
+    "8/40"
+   ],
+   "correctIndex": 3,
+   "explanation": "'And' means a single cell of the two-way table \u2014 the 8 students in the sport-and-glasses cell \u2014 compared with the whole group of 40. The answer 13/40 adds the whole glasses column (8 + 5), which answers 'wears glasses' rather than 'plays sport and wears glasses'. Cue: 'and' points to one inner cell, while a single condition points to a whole row or column total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0013",
+   "topicId": "maths-data-y8",
+   "stem": "In a class of 30 students, 14 study French, 11 study Japanese and 6 study both. One student is chosen at random. What is the probability the student studies neither language?",
+   "imageRef": null,
+   "options": [
+    "11/30",
+    "5/30",
+    "19/30",
+    "9/30"
+   ],
+   "correctIndex": 0,
+   "explanation": "Filling the Venn diagram gives French only 14 \u2212 6 = 8, Japanese only 11 \u2212 6 = 5, and both 6, so 8 + 5 + 6 = 19 study at least one language and 30 \u2212 19 = 11 study neither. The answer 19/30 is the probability of studying at least one language, which is the complement of what was asked. Always subtract the 'both' group once before adding, otherwise those 6 students get counted twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0014",
+   "topicId": "maths-data-y8",
+   "stem": "A spinner has three equal sections coloured red, yellow and blue. It is spun twice and a tree diagram is drawn. What is the probability that both spins give the same colour?",
+   "imageRef": null,
+   "options": [
+    "1/9",
+    "2/3",
+    "1/6",
+    "1/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The tree diagram has 3 \u00d7 3 = 9 equally likely paths, and three of them are matches (red-red, yellow-yellow, blue-blue), so the probability is 3/9 = 1/3. The answer 1/9 counts only one matching path, such as red-red, and forgets the other two matches. The value 2/3 is the probability the two spins are different, which is the complement of the event asked about.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0015",
+   "topicId": "maths-data-y8",
+   "stem": "Of 100 people surveyed, 55 own a dog, 40 own a cat and 22 own both. One person is chosen at random. What is the probability the person owns a dog but not a cat?",
+   "imageRef": null,
+   "options": [
+    "22/100",
+    "33/100",
+    "55/100",
+    "18/100"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 'dog but not cat' cell of the two-way table is the dog total minus those who own both: 55 \u2212 22 = 33, out of 100 people. The answer 55/100 is every dog owner, including the 22 who also own a cat, so it does not match the 'but not a cat' condition. The value 18/100 is the cat-only group (40 \u2212 22), which is the same calculation applied to the wrong animal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0016",
+   "topicId": "maths-data-y8",
+   "stem": "A bag holds 3 red counters and 2 blue counters. A counter is drawn, its colour recorded, and it is returned before a second draw. Using a tree diagram, what is the probability of getting one red and one blue in the two draws?",
+   "imageRef": null,
+   "options": [
+    "9/25",
+    "1/2",
+    "12/25",
+    "6/25"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each draw has P(red) = 3/5 and P(blue) = 2/5, and two different paths give one of each: red-then-blue is 3/5 \u00d7 2/5 = 6/25 and blue-then-red is also 6/25, giving 12/25 in total. The answer 6/25 counts only one of these two paths, forgetting that the order can be reversed. When an event can happen along more than one branch path, multiply along each path and then add the paths together.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0017",
+   "topicId": "maths-data-y8",
+   "stem": "A student runs a chance experiment many times and records the results. Which calculation gives the experimental probability of an event?",
+   "imageRef": null,
+   "options": [
+    "The number of favourable outcomes in the sample space, divided by the total number of outcomes",
+    "The number of different outcomes recorded, divided by the total number of trials",
+    "The number of trials in which the event occurred, divided by the total number of trials",
+    "The number of trials in which the event occurred, divided by the number of trials in which it did not occur"
+   ],
+   "correctIndex": 2,
+   "explanation": "Experimental probability (relative frequency) compares how often the event actually happened with how many times the experiment was run, so it is successes \u00f7 trials. The option dividing favourable outcomes by total outcomes in the sample space is the theoretical probability \u2014 it is worked out by reasoning about the set-up, not by running trials. The cue is the word 'trials': if you counted results, you are finding an experimental probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0018",
+   "topicId": "maths-data-y8",
+   "stem": "A class uses a spreadsheet to simulate rolling a fair die, first 50 times, then 5000 times. What should they expect to see as the number of trials increases?",
+   "imageRef": null,
+   "options": [
+    "The relative frequency of each face becomes exactly 1/6 once enough trials are run",
+    "The theoretical probability of each face gradually changes to match the results",
+    "Each face must come up the same number of times by the end of the simulation",
+    "The relative frequency of each face tends to get closer to 1/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "With more repetitions, the proportion of trials giving each outcome settles down near the theoretical probability, which for a fair die is 1/6 per face. Saying the relative frequency becomes exactly 1/6 is too strong \u2014 random variation means it will usually be close but not equal, and 5000 is not even divisible in a way that guarantees it. Remember: more trials means a better estimate, never a guarantee of exact agreement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0019",
+   "topicId": "maths-data-y8",
+   "stem": "Which digital simulation correctly models one toss of a fair coin?",
+   "imageRef": null,
+   "options": [
+    "Generate a random integer from 1 to 2; call 1 heads and 2 tails",
+    "Generate a random integer from 1 to 3; call 1 heads and 2 or 3 tails",
+    "Generate a random integer from 1 to 10; call 1 to 4 heads and 5 to 10 tails",
+    "Generate a random decimal from 0 to 1; call values above 0.6 heads"
+   ],
+   "correctIndex": 0,
+   "explanation": "A fair coin has two equally likely outcomes, so the simulation must give each outcome a probability of 1/2. Generating 1 to 10 and calling 1 to 4 heads gives heads a probability of 0.4, which models a biased coin, not a fair one. Always check that the fraction of the generator's range assigned to each outcome matches the probability you want.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0020",
+   "topicId": "maths-data-y8",
+   "stem": "A simulation tosses two fair coins 200 times. Two heads came up 48 times. What is the experimental probability of getting two heads in this simulation?",
+   "imageRef": null,
+   "options": [
+    "0.25",
+    "0.48",
+    "1/3",
+    "0.24"
+   ],
+   "correctIndex": 3,
+   "explanation": "Experimental probability uses the recorded results: 48 \u00f7 200 = 0.24. The value 0.25 is the theoretical probability of two heads (HH out of HH, HT, TH, TT), which is what the simulation is estimating, not what it produced. The question asks what the simulation gave, so divide the count by the number of trials.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0021",
+   "topicId": "maths-data-y8",
+   "stem": "A spreadsheet simulates rolling two fair dice 500 times and records the total each time. Roughly how many trials would you expect to give a total of 7?",
+   "imageRef": null,
+   "options": [
+    "About 83",
+    "About 45",
+    "About 42",
+    "About 250"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are 36 equally likely ordered outcomes for two dice and 6 of them total 7, so the probability is 6/36 = 1/6, giving 500 \u00d7 1/6 \u2248 83 trials. Choosing about 45 comes from assuming the eleven possible totals (2 to 12) are equally likely, but they are not \u2014 7 has the most ways of occurring. Build the 36-outcome sample space before estimating counts from a simulation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0022",
+   "topicId": "maths-data-y8",
+   "stem": "A spinner has four equal sections coloured red, blue, green and yellow. It is spun twice, and a student wants to simulate this compound event with a random number generator. Which plan is correct?",
+   "imageRef": null,
+   "options": [
+    "For each trial, generate one random integer from 1 to 4 and use that colour for both spins",
+    "For each trial, generate two random integers from 1 to 4, discarding a trial if the two match",
+    "For each trial, generate one random integer from 1 to 8 and split it into two colours",
+    "For each trial, generate two random integers from 1 to 4, one for each spin"
+   ],
+   "correctIndex": 3,
+   "explanation": "The two spins are independent and each has four equally likely results, so each trial needs two separate numbers drawn from 1 to 4. Discarding trials where the two numbers match is tempting if you are looking for different colours, but it removes legitimate outcomes and distorts every probability the simulation estimates. A good simulation reproduces the real experiment exactly, including outcomes you find uninteresting.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0023",
+   "topicId": "maths-data-y8",
+   "stem": "A netballer scores 30% of her long shots. To estimate the probability that she scores at least one of her next three long shots, which simulation should she use?",
+   "imageRef": null,
+   "options": [
+    "Each trial: three coin tosses, counting each head as a score; record whether any head occurs",
+    "Each trial: three random integers from 1 to 10, counting 1, 2 or 3 as a score; record whether any score occurs",
+    "Each trial: one random integer from 1 to 10, counting 1, 2 or 3 as a score; record whether a score occurs",
+    "Each trial: three random integers from 1 to 3, counting a 1 as a score; record whether any score occurs"
+   ],
+   "correctIndex": 1,
+   "explanation": "The model must match both the success rate (3 chances in 10) and the number of shots (three per trial), so three digits from 1 to 10 per trial with 1, 2 and 3 as scores is right. Using integers from 1 to 3 with a 1 as a score gives a success rate of 1/3, not 30%, so it quietly overstates her accuracy. Check two things in any simulation design: does one trial contain the whole compound event, and does each part have the correct probability?",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0024",
+   "topicId": "maths-data-y8",
+   "stem": "Amy simulates tossing two coins 20 times and gets two heads on 40% of trials. Ben runs the same simulation 400 times and gets two heads on 26% of trials. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Amy's result is likely to be the better estimate, because a small number of trials is less affected by unusual runs",
+    "Both estimates are equally reliable, because they used exactly the same simulation set-up",
+    "Amy's simulation must contain an error, because 40% cannot occur when the true probability is 25%",
+    "Ben's result is likely to be the better estimate, because more trials reduce the effect of random variation"
+   ],
+   "correctIndex": 3,
+   "explanation": "Relative frequencies from larger numbers of trials cluster more tightly around the true probability, so 400 trials gives a more trustworthy estimate than 20. Claiming Amy's simulation must contain an error is wrong: 8 out of 20 trials showing two heads is unlikely but perfectly possible with a fair set-up. Short runs of a correct simulation can still stray a long way from the theoretical value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0025",
+   "topicId": "maths-data-y8",
+   "stem": "Which data collection technique is a census?",
+   "imageRef": null,
+   "options": [
+    "Collecting data by watching behaviour without interfering",
+    "Collecting data by changing a variable and measuring the result",
+    "Collecting data from every member of the population",
+    "Collecting data from a randomly chosen part of the population"
+   ],
+   "correctIndex": 2,
+   "explanation": "A census gathers data from every single member of the population, which is why it gives complete information but costs the most time and money. 'Collecting data from a randomly chosen part of the population' is a sample survey \u2014 accurate only within a margin of error, but far cheaper. The other two options describe observation and an experiment respectively.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "There is an important distinction between studying everyone and studying a subset.\n\nCollecting data from every single member of the population gives you exact figures with no sampling error, but it is expensive and slow \u2014 which is why Australia runs its national one only every five years. Studying a selected subset is far cheaper and faster, and if the subset is chosen well it gives an estimate close enough to be useful. The trade-off is precision against cost, and the choice depends on what the data is for.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0026",
+   "topicId": "maths-data-y8",
+   "stem": "A researcher sits at a shopping centre food court and records how many people put their rubbish in the bin, without speaking to anyone. Which data collection technique is this?",
+   "imageRef": null,
+   "options": [
+    "Questionnaire survey",
+    "Observation",
+    "Experiment",
+    "Census"
+   ],
+   "correctIndex": 1,
+   "explanation": "Observation means recording what happens naturally without asking questions or changing any conditions, which is exactly what the researcher does here. 'Experiment' is tempting, but an experiment requires the researcher to deliberately change a condition and measure the effect; nothing is being changed here. If people were asked to fill in a form it would be a survey, and a census would need data from every person in the population.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Data collection techniques differ by how the researcher interacts with the people being studied, and each has trade-offs.\n\nA survey or questionnaire asks people directly, which is efficient but relies on honest and accurate self-reporting. An interview goes deeper with fewer people. An experiment changes one variable deliberately. And watching and recording what people actually do, without asking or intervening, avoids self-reporting bias entirely \u2014 though it cannot tell you why they did it, and raises its own questions about consent.",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0027",
+   "topicId": "maths-data-y8",
+   "stem": "A school of 900 students wants to know the average time students spend on homework. Which of these is a sample rather than a census?",
+   "imageRef": null,
+   "options": [
+    "Counting the total homework hours recorded for the whole school",
+    "Asking 60 students chosen at random from the school roll",
+    "Asking every student in the school during roll call",
+    "Asking all 900 students to complete an online form"
+   ],
+   "correctIndex": 1,
+   "explanation": "A sample is a subset of the population, so 60 randomly chosen students out of 900 is a sample. 'Asking all 900 students to complete an online form' is tempting because some students may not reply, but the technique is still a census \u2014 data is sought from every member of the population. The cue is who is intended to be included: everyone means census, a selected part means sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0028",
+   "topicId": "maths-data-y8",
+   "stem": "A quality inspector must test whether batteries last at least 20 hours, which destroys each battery tested. Why should the factory sample rather than conduct a census?",
+   "imageRef": null,
+   "options": [
+    "A census cannot be used when the population is larger than 1000",
+    "A sample removes all bias, while a census always contains bias",
+    "A census would destroy the entire batch, leaving nothing to sell",
+    "A census would give results that are less accurate than a sample"
+   ],
+   "correctIndex": 2,
+   "explanation": "When testing is destructive, a census is impossible in practice because every item would be used up, so sampling is the only workable technique. 'A census would give results that are less accurate than a sample' reverses the truth: a census gives complete, more accurate information \u2014 the problem is purely practical. Note also that a well-designed sample reduces bias but never guarantees its absence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0029",
+   "topicId": "maths-data-y8",
+   "stem": "In a statistical investigation, what does the term 'population' refer to?",
+   "imageRef": null,
+   "options": [
+    "The entire group of people or items that the investigation is about",
+    "The group of people or items that data is actually collected from",
+    "The number of people living in the town or suburb being studied",
+    "The people who choose to reply when a survey is handed out"
+   ],
+   "correctIndex": 0,
+   "explanation": "In statistics, the population is the complete set of individuals or objects you want to draw a conclusion about, whether that is every student in a school or every battery in a batch. The option describing the group data is actually collected from is the definition of a sample, which is the tempting trap because samples are what we usually work with. The cue: population = who the question is about; sample = who you actually measured.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0030",
+   "topicId": "maths-data-y8",
+   "stem": "A council wants to know what all 12 000 residents think about building a new skate park. A researcher surveys 200 people at the existing skate park on a Saturday afternoon. Which statement about this data collection is correct?",
+   "imageRef": null,
+   "options": [
+    "It is a census, because 200 responses is enough to cover every type of resident in the council area",
+    "It is an unbiased sample, because the 200 people at the skate park were not chosen by the researcher",
+    "It is an experiment, because the researcher changed where the survey was carried out that day",
+    "It is a biased sample, because skate park users are more likely to support the plan than residents generally"
+   ],
+   "correctIndex": 3,
+   "explanation": "A sample is biased when the way it is selected makes some parts of the population much more likely to be included, and people already at a skate park are not typical of all 12 000 residents. Calling it unbiased because the researcher did not pick the individuals is the tempting error \u2014 bias comes from the location and timing of the selection, not just from choosing names. Check the selection method against the population: if a whole group of residents had almost no chance of being surveyed, the sample is biased.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0031",
+   "topicId": "maths-data-y8",
+   "stem": "A Year 8 class wants to estimate the mean number of hours per week that the school's 800 students play sport. Which plan gives the sample most likely to represent the whole school?",
+   "imageRef": null,
+   "options": [
+    "Use the full school roll and randomly select 80 students to survey",
+    "Survey the first 80 students who arrive at the school sports carnival",
+    "Survey all 25 students in their own class and scale the results up",
+    "Post the survey online and use the first 80 students who volunteer"
+   ],
+   "correctIndex": 0,
+   "explanation": "A random selection drawn from a list of the whole population gives every student the same chance of being chosen, so the sample is not tilted towards any particular group. Surveying the first 80 students at a sports carnival is tempting because the sample is large, but those students are keener on sport than average and will push the estimated mean up. Look at who is systematically left out: if some students could never be selected, the estimate will be biased no matter how many responses you gather.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0032",
+   "topicId": "maths-data-y8",
+   "stem": "A Year 8 student divides 40 seedlings into two groups, gives one group fertiliser and the other none, keeps light and water the same, and measures heights after four weeks. Which data collection technique is this, and why?",
+   "imageRef": null,
+   "options": [
+    "A sample, because 40 seedlings are only a small part of all the seedlings that exist",
+    "An experiment, because a condition is deliberately changed and its effect on the results is measured",
+    "An observation, because the student watches the seedlings over four weeks and records their heights",
+    "A census, because every one of the 40 seedlings in the study is measured at the end"
+   ],
+   "correctIndex": 1,
+   "explanation": "An experiment is a technique in which the researcher deliberately controls or changes a variable (here, fertiliser) while holding other conditions constant, then measures the effect. Calling it an observation is tempting because measuring does involve looking, but observation means recording what happens naturally without the researcher intervening \u2014 and here the fertiliser was deliberately applied. The cue is intervention: if the researcher changes something on purpose, it is an experiment, not an observation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0033",
+   "topicId": "maths-data-y8",
+   "stem": "What makes a sample a simple random sample of a population?",
+   "imageRef": null,
+   "options": [
+    "The sample is made up of whoever volunteers first when asked",
+    "The population is split into groups and each group is sampled in proportion",
+    "Members are chosen at regular intervals down a numbered list",
+    "Every member of the population has an equal chance of being chosen"
+   ],
+   "correctIndex": 3,
+   "explanation": "A simple random sample is defined by equal chance: every member of the population is equally likely to be selected, as when names are drawn from a hat. Choosing members at regular intervals down a list describes systematic sampling, which is a different technique and does not give every possible sample an equal chance. Splitting into proportional groups is stratified sampling, and taking volunteers is a self-selected, non-random sample. Match the description to the name rather than assuming any organised method is 'random'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0034",
+   "topicId": "maths-data-y8",
+   "stem": "A school captain wants to know how far the school's 700 students travel to school. Which method gives a NON-random sample?",
+   "imageRef": null,
+   "options": [
+    "Using a random number generator to pick 50 numbers from the student roll",
+    "Numbering all students and using a spinner-style app to select 50 of them",
+    "Interviewing the students sitting at her usual table at lunchtime",
+    "Drawing 50 student names out of a box containing all 700 names"
+   ],
+   "correctIndex": 2,
+   "explanation": "A non-random sample is one where the members are not selected by chance, so some students have no possibility of being chosen. Interviewing her usual lunch table is convenience sampling: her friends may live nearby or travel together, which can bias the distances. The other three all use a chance device applied to the full roll, so every student has an equal chance. The cue is whether the whole population was in the draw.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0035",
+   "topicId": "maths-data-y8",
+   "stem": "A researcher lists all 500 members of a sports club in alphabetical order, picks a starting point in the first ten names, then surveys every 10th person on the list. Which sampling technique is this?",
+   "imageRef": null,
+   "options": [
+    "Stratified sampling",
+    "Convenience sampling",
+    "Census",
+    "Systematic sampling"
+   ],
+   "correctIndex": 3,
+   "explanation": "Systematic sampling means selecting members at a fixed interval through an ordered list, which is exactly the 'every 10th person' rule described here. Stratified sampling is tempting, but that requires splitting the club into subgroups such as age or grade and sampling each in proportion, which is not happening. It is not a census either, since only 50 of the 500 members are surveyed.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0036",
+   "topicId": "maths-data-y8",
+   "stem": "A school has 240 Year 7, 200 Year 8, 180 Year 9 and 180 Year 10 students. A stratified sample of 40 students is taken, with each year level represented in proportion. How many Year 8 students are in the sample?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "8",
+    "12",
+    "20"
+   ],
+   "correctIndex": 0,
+   "explanation": "Year 8 makes up 200 out of 800 students, which is one quarter, so the sample should contain one quarter of 40, that is 10 students. The answer 10 comes from 200 \u00f7 800 \u00d7 40. Choosing 8 is tempting if you split the sample evenly by dividing 40 by the number of things you can count rather than using the year level proportions; stratified sampling weights each group by its share of the population, not equally.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0037",
+   "topicId": "maths-data-y8",
+   "stem": "A sample of weekly part-time work hours for 7 students is: 12, 13, 14, 14, 15, 16, 58. Which statement correctly reports this distribution?",
+   "imageRef": null,
+   "options": [
+    "The value 58 pulls the median up to about 20.3, well above the mean of 14, so the mean better describes a typical student",
+    "The value 58 affects the median more than the mean, because the median depends on every value in the data set",
+    "Removing the value 58 would leave both the mean and the median unchanged, since it is only one of seven values",
+    "The value 58 pulls the mean up to about 20.3, well above the median of 14, so the median better describes a typical student"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mean is 142 \u00f7 7 \u2248 20.3 while the middle value of the ordered list is 14, so the single extreme value has dragged the mean above every other data value except itself. The option that swaps the two statistics is tempting if you mix up their names, but the median is a position-based measure and stays at 14 regardless of how large the top value is. The mean uses every value in its calculation, so it, not the median, is the measure sensitive to outliers.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0038",
+   "topicId": "maths-data-y8",
+   "stem": "A Year 8 student is investigating screen time. She hands out her own questionnaire to students in her class and also downloads screen time figures published by a national statistics agency. How should these two data sets be described?",
+   "imageRef": null,
+   "options": [
+    "The questionnaire she wrote gives primary data; the published figures are secondary data",
+    "The questionnaire she wrote gives secondary data; the published figures are primary data",
+    "Both are primary data, because she personally collected and downloaded both sets",
+    "Both are secondary data, because both describe people other than herself"
+   ],
+   "correctIndex": 0,
+   "explanation": "Primary data is collected first-hand by the investigator for their own question, while secondary data has already been collected and published by someone else. Writing and handing out her own questionnaire is first-hand collection, and the agency's figures were gathered by another organisation, so they are secondary. The tempting swap is calling the questionnaire secondary and the published figures primary; the cue is who did the actual collecting, not who is holding the data now. Downloading a file is not collecting it, so 'both are primary' is also wrong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0039",
+   "topicId": "maths-data-y8",
+   "stem": "A class records the number of pets owned by each of 14 students. The results are: 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 9. Which statement best reports this distribution?",
+   "imageRef": null,
+   "options": [
+    "The data is roughly symmetric about 2, with values evenly spread from 0 to 9 and no outliers",
+    "The data is bimodal, with clear peaks at 0 and 4 and a gap in the middle of the distribution",
+    "The data is positively skewed, with most values clustered from 0 to 2, a peak at 1 and a possible outlier at 9",
+    "The data is negatively skewed, with most values clustered from 2 to 4, a peak at 2 and a possible outlier at 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Reporting a distribution means describing centre, spread, shape and unusual values: here the bulk of the data sits at 0 to 2, the most common value (mode) is 1, and the long tail stretching up to 9 makes it positively skewed with 9 a likely outlier. Calling it negatively skewed reverses the direction \u2014 the skew is named for the side the long tail is on, which here is the high side. Checking where the tail stretches, rather than where the pile of data sits, separates the two.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0040",
+   "topicId": "maths-data-y8",
+   "stem": "Many random samples of the same size are taken from one population, and the proportion of left-handed people is recorded for each sample. What happens to the variation between these sample proportions as the sample size is increased?",
+   "imageRef": null,
+   "options": [
+    "The sample proportions all become exactly equal to the population proportion",
+    "The sample proportions vary less and cluster more closely around the population proportion",
+    "The sample proportions vary more, because a larger sample includes more unusual people",
+    "The sample proportions vary by the same amount, because every sample is chosen randomly"
+   ],
+   "correctIndex": 1,
+   "explanation": "Larger random samples average out individual differences, so the proportions from different samples of the same large size are bunched more tightly around the true population proportion. The idea that they vary more because a larger sample includes more unusual people is tempting, but extra unusual people are balanced by many more typical people, which steadies the proportion. The cue is: bigger sample, smaller spread of results, but never zero spread \u2014 sample proportions are still estimates, so they never all land exactly on the population value.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0041",
+   "topicId": "maths-data-y8",
+   "stem": "Two students each take a different random sample of 30 students from the same school and find different percentages who ride a bike to school. What is the main reason the two results differ?",
+   "imageRef": null,
+   "options": [
+    "The population percentage changed between the two times the samples were taken",
+    "Samples of 30 are too small to be random, so their results are meaningless",
+    "Natural chance variation in which 30 students happened to be selected",
+    "One of the samples must have been collected incorrectly or dishonestly"
+   ],
+   "correctIndex": 2,
+   "explanation": "Different random samples contain different individuals, so their statistics naturally differ even when the population and sample size are identical \u2014 this is sampling variation. The suggestion that one sample must have been collected incorrectly is the common trap: correctly taken random samples are still expected to disagree with each other. Remember that differing results are normal evidence of variation, not proof of a mistake.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0042",
+   "topicId": "maths-data-y8",
+   "stem": "In a large lake, 30% of the fish are tagged. Ana catches a random sample of 25 fish and Ben catches a random sample of 250 fish, and each finds the percentage tagged. Whose sample percentage is more likely to be close to 30%?",
+   "imageRef": null,
+   "options": [
+    "Neither, because chance means any percentage is equally likely in both samples",
+    "Ben's, because larger random samples give estimates closer to the population value",
+    "Ana's, because a small sample is quicker and easier to count accurately",
+    "Neither, because both samples were chosen randomly from the same lake"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sample size controls how much a sample statistic bounces around the population value, so the sample of 250 is more likely to land near 30% than the sample of 25. Saying neither, because both were chosen randomly, confuses being unbiased with being precise: both methods are fair, but the larger one is more reliable. Randomness removes bias; size reduces variation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0043",
+   "topicId": "maths-data-y8",
+   "stem": "Each student in a class takes a random sample of 25 students from their school of 800 and records the proportion who own a smart watch. Their sample proportions range from 0.16 to 0.44. If every student instead took a random sample of 100, what would most likely happen to that range?",
+   "imageRef": null,
+   "options": [
+    "The range of sample proportions would be noticeably wider",
+    "The range would stay about the same, since the population is unchanged",
+    "The range would become zero, since 100 is a large enough sample",
+    "The range of sample proportions would be noticeably narrower"
+   ],
+   "correctIndex": 3,
+   "explanation": "Quadrupling the sample size reduces how far individual sample proportions stray from the population proportion, so the collection of results is squeezed into a narrower band. Saying the range stays about the same because the population is unchanged is the tempting error: spread of sample results depends on sample size, not on population size. Watch for the cue 'same population, bigger samples' \u2014 that means less spread.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0044",
+   "topicId": "maths-data-y8",
+   "stem": "A market researcher wants to estimate the proportion of a town's residents who recycle. Four random samples give: 40 people (65%), 80 people (58%), 150 people (61%) and 600 people (60%). Which sample gives the most reliable single estimate of the town's proportion?",
+   "imageRef": null,
+   "options": [
+    "The sample of 150 people, because its percentage sits in the middle of the four",
+    "All four are equally reliable, because each one was selected at random",
+    "The sample of 600 people, because larger samples vary less from the true proportion",
+    "The sample of 40 people, because its percentage is the highest of the four"
+   ],
+   "correctIndex": 2,
+   "explanation": "Among random samples, the largest one is the least affected by chance variation, so 600 people gives the estimate most likely to be near the town's true proportion. Choosing the sample of 150 because its percentage sits in the middle mixes up the value of a result with its reliability \u2014 where a number falls among other results says nothing about how it was obtained. Judge reliability by sample size and randomness, not by the size or position of the percentage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0045",
+   "topicId": "maths-data-y8",
+   "stem": "A class simulates taking 100 random samples of size 10 from a population, and then 100 random samples of size 100 from the same population, plotting the sample proportions on two dot plots. What difference should they expect between the two dot plots?",
+   "imageRef": null,
+   "options": [
+    "Both are centred near the population proportion, but the size-100 plot is more tightly clustered",
+    "Both are equally spread, but the size-100 plot is centred at a higher proportion",
+    "The size-10 plot is more tightly clustered, and both are centred at the same proportion",
+    "The size-100 plot is centred at the population proportion and the size-10 plot is not centred there"
+   ],
+   "correctIndex": 0,
+   "explanation": "Random sampling is unbiased at any size, so both sets of sample proportions pile up around the population proportion; the sample size changes only how widely they spread. The claim that the size-10 plot is more tightly clustered reverses the rule \u2014 small samples swing further from the true value. Sample size shifts the spread, not the centre.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0046",
+   "topicId": "maths-data-y8",
+   "stem": "Several different random samples, each of size 50, are taken from the same population of 2000 people, and the proportion who catch public transport is recorded for each sample. What should be expected of these sample proportions?",
+   "imageRef": null,
+   "options": [
+    "They will vary somewhat from sample to sample, but most will sit fairly close to the population proportion",
+    "They will all be identical, because each sample is the same size and comes from the same population",
+    "They will vary widely with no tendency to settle near the population proportion, because sampling is random",
+    "They will vary only if the sampling was done poorly, since correct random sampling removes all variation"
+   ],
+   "correctIndex": 0,
+   "explanation": "Different random samples contain different individuals, so their proportions differ \u2014 this is natural sampling variability \u2014 but random selection means the sample proportions are centred on the population proportion, so most land near it. The idea that identical sample size guarantees identical results confuses the size of a sample with the particular people chosen in it. The cue: random sampling controls bias, not variability; variation between same-size samples is expected, not a sign of a mistake.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0047",
+   "topicId": "maths-data-y8",
+   "stem": "Two students each take five random samples from the same school and record the percentage of students who walk to school. Student P's results are 20%, 45%, 30%, 55%, 35%. Student Q's results are 36%, 34%, 38%, 35%, 37%. Which statement is most likely correct?",
+   "imageRef": null,
+   "options": [
+    "Q used the smaller samples, because smaller samples are more consistent when drawn from one population",
+    "Q used the larger samples, because larger samples give proportions clustered more tightly together",
+    "P used the larger samples, because larger samples produce a wider range of possible results",
+    "Both students used samples of the same size, because both sets of results average about 35%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Increasing sample size reduces the variation between sample proportions, so a tightly clustered set of results (34% to 38%) points to larger samples, while a widely spread set (20% to 55%) points to smaller ones. The claim that P used larger samples reverses the actual rule \u2014 larger samples narrow, not widen, the spread. Comparing averages does not help here: both sets are centred near the population value, and it is the spread, not the centre, that reveals sample size.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0048",
+   "topicId": "maths-data-y8",
+   "stem": "A student writes this survey question: 'Do you agree that our unhealthy canteen menu should be improved?' Why is this question unfair for a statistical investigation?",
+   "imageRef": null,
+   "options": [
+    "It is a leading question, because its wording pushes respondents towards agreeing",
+    "It is a closed question, and closed questions cannot be used in valid surveys",
+    "It is a personal question, so answering it would breach respondents' privacy",
+    "It is an open question, so the responses cannot be counted or summarised"
+   ],
+   "correctIndex": 0,
+   "explanation": "A fair survey question uses neutral wording so respondents are free to answer either way; calling the menu 'unhealthy' inside the question suggests the answer the researcher wants, which biases the results. 'It is a closed question' is tempting because the question does invite a yes/no answer, but closed questions are perfectly valid and are in fact easy to summarise. The cue is to look for loaded or emotive words planted in the question itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0049",
+   "topicId": "maths-data-y8",
+   "stem": "A Year 8 group plans to survey students about sleep habits and publish the results in the school newsletter. Which action best shows ethical data collection?",
+   "imageRef": null,
+   "options": [
+    "Telling students how the data will be used and reporting results without names attached",
+    "Collecting names with each response so unusual answers can be checked later",
+    "Publishing the full list of individual responses so readers can check the working",
+    "Surveying only students who are willing to have their answers quoted by name"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ethical practice means participants know the purpose of the survey and their individual responses stay anonymous, so no one can be identified from the published findings. 'Publishing the full list of individual responses' sounds like honest transparency, but releasing raw personal responses exposes participants and is not needed to justify results \u2014 a summary and description of the method do that. Transparency applies to the method, not to individuals' private data.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0050",
+   "topicId": "maths-data-y8",
+   "stem": "A class investigates the question 'How long do Year 8 students at our school spend travelling to school each day?' Which step belongs to the PLANNING stage of the investigation?",
+   "imageRef": null,
+   "options": [
+    "Deciding how many students to sample and how they will be chosen",
+    "Calculating the mean and median travel times from the responses",
+    "Drawing a histogram of the travel times that were collected",
+    "Writing a conclusion about typical travel time for the year level"
+   ],
+   "correctIndex": 0,
+   "explanation": "Planning happens before any data exists: it covers the question, the population, the sample size and the sampling method, plus how data will be recorded. 'Calculating the mean and median' is tempting because it feels like the main mathematical work, but it can only happen after data is collected, so it belongs to the analysis stage. If a step needs data to already exist, it is not planning.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0051",
+   "topicId": "maths-data-y8",
+   "stem": "A magazine posts an online poll asking readers to click if they support later school start times. Of the 3000 people who respond, 82% support the change. Why is it unfair to conclude that 82% of all students support later start times?",
+   "imageRef": null,
+   "options": [
+    "Online polls measure opinions, and opinion data cannot be used in statistics",
+    "Respondents chose themselves, so people with strong views are over-represented",
+    "The sample of 3000 is too small for any conclusion to be drawn from it",
+    "Percentages from a sample can never be used to estimate a population value"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a self-selected (voluntary response) sample, only people motivated enough to click take part, and those with strong opinions are far more likely to respond, so the result is biased no matter how many reply. 'The sample of 3000 is too small' is the common trap: 3000 is a large sample, and increasing the size of a biased sample does not remove the bias. Check how people entered the sample before you judge its size.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0052",
+   "topicId": "maths-data-y8",
+   "stem": "A student wants to estimate the mean number of books read per year by the 640 students at her school. She surveys 50 students as they leave the school library. Which criticism of this plan is correct?",
+   "imageRef": null,
+   "options": [
+    "Library users likely read more than average, so the estimate will be biased upwards",
+    "A sample of 50 is invalid because it is not exactly 10% of the population",
+    "Means cannot be estimated from samples, only proportions can be",
+    "Surveying students in person always produces less reliable data than a written form"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sampling at the library selects a group whose reading habits differ systematically from the whole school, so the sample mean will tend to sit above the true school mean \u2014 that is selection bias. 'A sample of 50 is invalid because it is not exactly 10%' is tempting because larger samples are better, but there is no rule requiring a fixed percentage; the fault here is where the students came from, not how many. Ask first whether every student had a fair chance of being chosen.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0053",
+   "topicId": "maths-data-y8",
+   "stem": "Two Year 8 students investigate the same question at their school. Ravi randomly samples 40 students and finds 25% own a pet bird; Mia randomly samples 40 different students and finds 15%. What is the fairest way to report the findings together?",
+   "imageRef": null,
+   "options": [
+    "Report only Mia's 15%, because the smaller estimate is the safer one to publish",
+    "Report that the investigation failed, because two random samples must give matching results",
+    "Combine both samples into 80 students and report a single estimate, noting the results varied",
+    "Report only Ravi's 25%, because a higher result shows more students were found who own birds"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both samples were selected fairly, so pooling them gives a larger sample and a more reliable estimate, while mentioning the spread honestly signals the uncertainty involved. 'Report that the investigation failed' is tempting if you expect randomness to be consistent, but random samples from the same population routinely differ \u2014 that variation is expected, not evidence of failure. Discarding one valid sample because you prefer its number is cherry-picking and is not ethical.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0054",
+   "topicId": "maths-data-y8",
+   "stem": "A school has 800 students. A student takes a random sample of 50 students and finds that 18 of them catch a bus to school. Using this sample, what is the best estimate of the number of students in the whole school who catch a bus?",
+   "imageRef": null,
+   "options": [
+    "720 students",
+    "288 students",
+    "18 students",
+    "360 students"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sample proportion is 18 out of 50, which is 0.36, and applying this to the population gives 0.36 \u00d7 800 = 288 students. Choosing 360 comes from rounding the proportion up to 45% or from dividing by 40 instead of 50, which does not match the sample. A quick check: 50 goes into 800 sixteen times, so multiply the sample count by 16, giving 18 \u00d7 16 = 288 \u2014 an estimate, not an exact count.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

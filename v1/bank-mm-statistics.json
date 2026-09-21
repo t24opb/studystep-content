@@ -1,0 +1,917 @@
+{
+ "topicId": "mm-statistics",
+ "questions": [
+  {
+   "id": "mm-statistics-0001",
+   "topicId": "mm-statistics",
+   "stem": "What is the median of a data set?",
+   "imageRef": null,
+   "options": [
+    "The largest minus the smallest",
+    "The middle value when they are ordered",
+    "The most common value",
+    "The total divided by how many there are"
+   ],
+   "correctIndex": 1,
+   "explanation": "Order first, then take the middle \u2014 or the average of the middle two if there is an even count. Skipping the ordering step is the commonest error.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0002",
+   "topicId": "mm-statistics",
+   "stem": "A data set of 9 values has a mean of 50. One more value, exactly 50, is added. What happens to the mean?",
+   "imageRef": null,
+   "options": [
+    "It cannot be determined",
+    "It stays at 50",
+    "It rises slightly",
+    "It falls slightly"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding a value equal to the current mean leaves the total and the count in the same proportion, so the mean is unchanged. Adding anything else would move it towards that value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0003",
+   "topicId": "mm-statistics",
+   "stem": "Seven students recorded homework minutes: 12, 13, 14, 14, 15, 16, 58. Which average best represents them?",
+   "imageRef": null,
+   "options": [
+    "The median, because 58 is an outlier",
+    "The mean, because it uses every value",
+    "The range, because it shows the spread",
+    "The mode, because 14 appears twice"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 58 drags the mean up to about 20, which is higher than six of the seven values. The median of 14 describes the group far better.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0004",
+   "topicId": "mm-statistics",
+   "stem": "What is the interquartile range?",
+   "imageRef": null,
+   "options": [
+    "The largest minus the smallest",
+    "The mean of the two quartiles",
+    "Half the range",
+    "The upper quartile minus the lower quartile"
+   ],
+   "correctIndex": 3,
+   "explanation": "It is the spread of the middle half of the data, and because it ignores the extremes it is not distorted by outliers the way the range is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0005",
+   "topicId": "mm-statistics",
+   "stem": "A box plot shows five numbers. Which are they?",
+   "imageRef": null,
+   "options": [
+    "Mean, median, mode, range and the total of the values",
+    "Five values spaced equally across the whole range",
+    "The five values that occur most often in the set",
+    "Minimum, lower quartile, median, upper quartile, maximum"
+   ],
+   "correctIndex": 3,
+   "explanation": "The box spans the quartiles with the median marked inside it, and the whiskers reach the extremes. A long whisker with a short box means most values cluster with a few stragglers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0006",
+   "topicId": "mm-statistics",
+   "stem": "A histogram is the right display when the data is:",
+   "imageRef": null,
+   "options": [
+    "a set of separate categories",
+    "proportions of a single whole",
+    "two variables measured on the same things",
+    "continuous numerical data grouped into intervals"
+   ],
+   "correctIndex": 3,
+   "explanation": "The columns of a histogram touch because the underlying scale is continuous. Separate categories take a bar graph with gaps.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0007",
+   "topicId": "mm-statistics",
+   "stem": "What does the standard deviation measure?",
+   "imageRef": null,
+   "options": [
+    "The typical distance of values from the mean",
+    "The middle value",
+    "The difference between the largest and smallest",
+    "The most common value"
+   ],
+   "correctIndex": 0,
+   "explanation": "A small standard deviation means values cluster tightly around the mean; a large one means they are spread out. It uses every value, so an outlier affects it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0008",
+   "topicId": "mm-statistics",
+   "stem": "Two classes have the same mean but class A has a much larger standard deviation. What does that tell you?",
+   "imageRef": null,
+   "options": [
+    "Class A has no outliers",
+    "Class A results are more spread out",
+    "Class A scored higher on average",
+    "Class A has more students"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean says where the centre is and the standard deviation says how tightly the values gather around it. Equal means with different spreads are common and are exactly what this comparison is for.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0009",
+   "topicId": "mm-statistics",
+   "stem": "On a scatterplot the points form a narrow band running from upper left to lower right. This shows:",
+   "imageRef": null,
+   "options": [
+    "no correlation",
+    "causation",
+    "strong negative correlation",
+    "strong positive correlation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Falling left to right is negative, and a narrow band means strong. A wide scatter in the same direction would be weak negative correlation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0010",
+   "topicId": "mm-statistics",
+   "stem": "Correlation between two variables means:",
+   "imageRef": null,
+   "options": [
+    "the data is unreliable",
+    "they tend to move together",
+    "one causes the other",
+    "they are equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Correlation describes a pattern in the data and nothing about why. A third factor may cause both, or the link may be coincidence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0011",
+   "topicId": "mm-statistics",
+   "stem": "Ice cream sales and drownings both rise in summer. What is the best explanation?",
+   "imageRef": null,
+   "options": [
+    "Drownings cause ice cream sales",
+    "The correlation is a calculation error",
+    "A third factor \u2014 hot weather \u2014 affects both",
+    "Ice cream causes drownings"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is the standard confounding example. Two things rising together with a shared cause is correlation without any causal link between them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0012",
+   "topicId": "mm-statistics",
+   "stem": "What is a line of good fit used for?",
+   "imageRef": null,
+   "options": [
+    "Joining every point exactly",
+    "Showing the median",
+    "Marking the outliers",
+    "Summarising a trend and making predictions"
+   ],
+   "correctIndex": 3,
+   "explanation": "It passes through the general trend with points scattered either side, and reading values off it estimates one variable from the other. Predicting far outside the data range is unreliable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0013",
+   "topicId": "mm-statistics",
+   "stem": "A Year 8 class wants to estimate the mean sleep of 800 students. Which sample is best?",
+   "imageRef": null,
+   "options": [
+    "40 of their own friends",
+    "40 students from one year level",
+    "The 40 who reply to an online poll",
+    "40 students chosen at random from the whole school"
+   ],
+   "correctIndex": 3,
+   "explanation": "Only a random sample from the whole population gives every student an equal chance of selection, which is what makes the estimate representative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0014",
+   "topicId": "mm-statistics",
+   "stem": "Two teachers each take a separate random sample of 25 students from the same population and get different means. What does this show?",
+   "imageRef": null,
+   "options": [
+    "One of them made an error",
+    "The population has changed",
+    "The samples were biased",
+    "Normal sampling variability"
+   ],
+   "correctIndex": 3,
+   "explanation": "Different random samples naturally give slightly different results. Larger samples vary less, which is why sample size is always reported alongside a result.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0015",
+   "topicId": "mm-statistics",
+   "stem": "Which is a census rather than a sample?",
+   "imageRef": null,
+   "options": [
+    "Asking 100 students at random",
+    "Asking the students in one class",
+    "Asking every student in the school",
+    "Asking every tenth student"
+   ],
+   "correctIndex": 2,
+   "explanation": "A census surveys the entire population. It removes sampling error and is usually impractical, which is why sampling exists at all.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0016",
+   "topicId": "mm-statistics",
+   "stem": "A news site runs an online poll asking readers to click yes or no. Why is the result unreliable?",
+   "imageRef": null,
+   "options": [
+    "Respondents select themselves, so they are not representative",
+    "Online polls record each vote less accurately than paper",
+    "The sample is always too small to draw a conclusion from",
+    "The wording of an online question is always biased"
+   ],
+   "correctIndex": 0,
+   "explanation": "Only people who feel strongly enough to click take part, and readers of one site are not a cross-section of anything. Increasing the number of responses does not fix self-selection.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0017",
+   "topicId": "mm-statistics",
+   "stem": "Which feature best indicates a statistic came from a reliable study?",
+   "imageRef": null,
+   "options": [
+    "It reports the sample size and how participants were selected",
+    "It is expressed as a percentage rather than a raw count",
+    "It appears in more than one newspaper or news website",
+    "It is a round number that a reader can easily remember"
+   ],
+   "correctIndex": 0,
+   "explanation": "Provenance is what makes a figure checkable: who was studied, how many, chosen how, and when. A number repeated across articles is often the same unreliable source quoted repeatedly.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0018",
+   "topicId": "mm-statistics",
+   "stem": "An advertisement shows a bar graph of satisfaction where the vertical axis starts at 80%. What is the effect?",
+   "imageRef": null,
+   "options": [
+    "Small differences look much larger",
+    "The bars are drawn to scale",
+    "The data is falsified",
+    "The graph shows proportions of a whole"
+   ],
+   "correctIndex": 0,
+   "explanation": "Truncating the axis exaggerates differences visually while every number stays accurate. It is the commonest way a graph misleads without lying.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0019",
+   "topicId": "mm-statistics",
+   "stem": "Which sequence of a statistical investigation is in the correct order?",
+   "imageRef": null,
+   "options": [
+    "Collect data, pose a question, interpret, analyse",
+    "Analyse, collect data, pose a question, interpret",
+    "Interpret, analyse, collect data, pose a question",
+    "Pose a question, collect data, analyse, interpret"
+   ],
+   "correctIndex": 3,
+   "explanation": "The question comes first because it decides what data is worth collecting. Collecting first and looking for a pattern afterwards is how spurious findings appear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0020",
+   "topicId": "mm-statistics",
+   "stem": "What is bivariate data?",
+   "imageRef": null,
+   "options": [
+    "Two variables measured on the same individuals",
+    "Data with two possible values",
+    "Data collected twice",
+    "Data from two different groups"
+   ],
+   "correctIndex": 0,
+   "explanation": "Height and arm span for each of thirty people is bivariate, and it is what a scatterplot displays. Two separate one-variable data sets cannot be plotted that way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0021",
+   "topicId": "mm-statistics",
+   "stem": "What does the 75th percentile tell you?",
+   "imageRef": null,
+   "options": [
+    "It is the value occurring 75 times",
+    "75% of the data lies at or below that value",
+    "75% of the data lies above it",
+    "It is 75% of the maximum value"
+   ],
+   "correctIndex": 1,
+   "explanation": "A percentile marks the position below which that share of the data falls. The 25th, 50th and 75th percentiles are the lower quartile, the median and the upper quartile.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0022",
+   "topicId": "mm-statistics",
+   "stem": "What does a cumulative frequency graph show?",
+   "imageRef": null,
+   "options": [
+    "The difference between consecutive frequencies",
+    "The proportion of the whole",
+    "A running total of the frequencies",
+    "The frequency of each individual value"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each point gives the number of values at or below that measurement, so the curve only ever rises. Reading across from half the total gives the median.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0023",
+   "topicId": "mm-statistics",
+   "stem": "What is time-series data?",
+   "imageRef": null,
+   "options": [
+    "Data collected from a random sample",
+    "Measurements of one variable recorded over time",
+    "Two variables measured on the same individuals",
+    "Data grouped into class intervals"
+   ],
+   "correctIndex": 1,
+   "explanation": "Time always goes on the horizontal axis, and the points are joined because the order is meaningful \u2014 unlike a scatterplot, where joining them would mean nothing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0024",
+   "topicId": "mm-statistics",
+   "stem": "What is a trend in time-series data?",
+   "imageRef": null,
+   "options": [
+    "The general direction over the long run",
+    "The highest value recorded",
+    "The difference between consecutive points",
+    "A repeating seasonal pattern"
+   ],
+   "correctIndex": 0,
+   "explanation": "A trend is the underlying movement once short-term ups and downs are set aside. A repeating pattern tied to the time of year is called seasonality instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0025",
+   "topicId": "mm-statistics",
+   "stem": "A line of best fit is drawn by eye. What should it do?",
+   "imageRef": null,
+   "options": [
+    "Pass through the first and last points",
+    "Pass through the origin",
+    "Follow the trend with points scattered evenly either side",
+    "Pass through every point exactly"
+   ],
+   "correctIndex": 2,
+   "explanation": "It summarises the direction of the data rather than joining it. Forcing it through particular points usually makes it a worse summary of the rest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0026",
+   "topicId": "mm-statistics",
+   "stem": "Why is predicting far outside the range of the data unreliable?",
+   "imageRef": null,
+   "options": [
+    "The mean and median stop agreeing",
+    "There is no evidence the pattern continues beyond the data",
+    "The line of best fit becomes curved",
+    "The correlation coefficient changes sign"
+   ],
+   "correctIndex": 1,
+   "explanation": "Predicting inside the range is interpolation and is reasonably safe. Predicting well outside it is extrapolation, and it assumes a relationship holds where nothing was measured.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0027",
+   "topicId": "mm-statistics",
+   "stem": "What does the median measure?",
+   "imageRef": null,
+   "options": [
+    "The gap between largest and smallest",
+    "The middle value once the data is ordered",
+    "The most common value in the data",
+    "The total divided by how many there are"
+   ],
+   "correctIndex": 1,
+   "explanation": "The median splits an ordered list in half. Ordering first is essential, and skipping that step is the most common error.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0028",
+   "topicId": "mm-statistics",
+   "stem": "Find the median of 4, 9, 2, 7, 5.",
+   "imageRef": null,
+   "options": [
+    "4",
+    "7",
+    "5.4",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Order them as 2, 4, 5, 7, 9 and take the middle one. The value 5.4 is the mean, which for this set happens to sit close to the median.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0029",
+   "topicId": "mm-statistics",
+   "stem": "Find the median of 3, 8, 6, 2.",
+   "imageRef": null,
+   "options": [
+    "6",
+    "4",
+    "4.5",
+    "5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ordered they are 2, 3, 6, 8, and with an even count the median is the average of the middle two: (3 + 6)/2 = 4.5. A median need not be a value in the data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0030",
+   "topicId": "mm-statistics",
+   "stem": "Which measure is most affected by one extreme value?",
+   "imageRef": null,
+   "options": [
+    "The mode",
+    "The interquartile range",
+    "The mean",
+    "The median"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every value enters the mean, so one very large or small figure drags it. The median only cares about position, which is why it is preferred for skewed data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0031",
+   "topicId": "mm-statistics",
+   "stem": "House prices in a suburb are mostly around $700k but one sold for $9m. Which average is more representative?",
+   "imageRef": null,
+   "options": [
+    "The mean, because it uses every sale",
+    "The mode, because it is the most common",
+    "The range, because it shows the spread",
+    "The median, because it ignores the extreme"
+   ],
+   "correctIndex": 3,
+   "explanation": "The single high sale pulls the mean well above what a typical buyer pays. This is why property reports quote median prices.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0032",
+   "topicId": "mm-statistics",
+   "stem": "Which part of the data does the interquartile range cover?",
+   "imageRef": null,
+   "options": [
+    "The middle half of the values",
+    "Every value in the data set",
+    "Only the largest quarter of values",
+    "The values on either side of the mean"
+   ],
+   "correctIndex": 0,
+   "explanation": "It runs from the lower quartile to the upper quartile, so it spans the central 50%. Leaving out both tails is what makes it resistant to outliers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0033",
+   "topicId": "mm-statistics",
+   "stem": "A data set has quartiles 12 and 20 and a median of 15. What is the IQR?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "15",
+    "5",
+    "32"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract the lower quartile from the upper: 20 \u2212 12 = 8. The median sits inside that range but plays no part in calculating it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0034",
+   "topicId": "mm-statistics",
+   "stem": "What are the five numbers in a five-number summary?",
+   "imageRef": null,
+   "options": [
+    "Lower quartile, mean, median, upper quartile, range",
+    "Minimum, lower quartile, median, upper quartile, maximum",
+    "Mean, median, mode, range and total",
+    "Minimum, mean, median, mode and maximum"
+   ],
+   "correctIndex": 1,
+   "explanation": "All five are positions in the ordered data, which is exactly what a box plot draws. No average or total appears among them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0035",
+   "topicId": "mm-statistics",
+   "stem": "On a box plot, what does the box itself show?",
+   "imageRef": null,
+   "options": [
+    "The full range of the data",
+    "The mean and standard deviation",
+    "The most common values",
+    "The middle half of the data"
+   ],
+   "correctIndex": 3,
+   "explanation": "The box runs from the lower to the upper quartile, so its width is the interquartile range. The whiskers carry the rest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0036",
+   "topicId": "mm-statistics",
+   "stem": "One box plot has a much wider box than another with the same median. What does that tell you?",
+   "imageRef": null,
+   "options": [
+    "It has more outliers",
+    "Its middle half is more spread out",
+    "It has a higher average",
+    "It has more data points"
+   ],
+   "correctIndex": 1,
+   "explanation": "Box width is the interquartile range, which is a measure of spread, not of centre or of sample size. Two sets can share a median and differ completely in consistency.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0037",
+   "topicId": "mm-statistics",
+   "stem": "What does a scatter plot show?",
+   "imageRef": null,
+   "options": [
+    "The proportion of a whole",
+    "The relationship between two variables",
+    "The frequency of one variable",
+    "The spread of a single data set"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each point carries two measurements, so a pattern in the cloud suggests a relationship. One variable at a time belongs on a histogram.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0038",
+   "topicId": "mm-statistics",
+   "stem": "Points on a scatter plot fall from upper left to lower right. The correlation is:",
+   "imageRef": null,
+   "options": [
+    "Zero",
+    "Undefined",
+    "Negative",
+    "Positive"
+   ],
+   "correctIndex": 2,
+   "explanation": "As one variable rises the other falls, which is a negative association. The steepness says how strong it is, not which sign it has.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0039",
+   "topicId": "mm-statistics",
+   "stem": "Ice cream sales and drowning rates both rise in summer. What does this show?",
+   "imageRef": null,
+   "options": [
+    "That there is no relationship",
+    "Correlation without causation",
+    "That ice cream causes drowning",
+    "That drowning causes ice cream sales"
+   ],
+   "correctIndex": 1,
+   "explanation": "A third factor, hot weather, drives both. A strong correlation never proves a cause on its own, which is the single most useful idea in this topic.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0040",
+   "topicId": "mm-statistics",
+   "stem": "What is a line of best fit used for?",
+   "imageRef": null,
+   "options": [
+    "Finding the mode of the data",
+    "Summarising a trend and estimating values",
+    "Joining every point on the plot",
+    "Showing the range of the data"
+   ],
+   "correctIndex": 1,
+   "explanation": "It is a single straight summary of the pattern, useful for predicting within the range of the data. Predicting far outside that range is extrapolation and is unreliable.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0041",
+   "topicId": "mm-statistics",
+   "stem": "What is the mode of 3, 7, 7, 2, 9, 7?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "5.8",
+    "9",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mode is the value appearing most often, which is 7 with three appearances. A set can have more than one mode, or none at all.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0042",
+   "topicId": "mm-statistics",
+   "stem": "Which average can be used on non-numerical data such as favourite colour?",
+   "imageRef": null,
+   "options": [
+    "The median",
+    "The range",
+    "The mode",
+    "The mean"
+   ],
+   "correctIndex": 2,
+   "explanation": "Only the mode works on categories, because counting is possible where adding and ordering are not. This is why survey results often quote the most common response.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0043",
+   "topicId": "mm-statistics",
+   "stem": "A set has mean 20 and five values. Four of them are 15, 18, 22 and 25. What is the fifth?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "18",
+    "22",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "The total must be 5 \u00d7 20 = 100, and the four given add to 80, so the fifth is 20. Working back from the total is the standard method for a missing value.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0044",
+   "topicId": "mm-statistics",
+   "stem": "What does the range tell you?",
+   "imageRef": null,
+   "options": [
+    "The middle value of the data set",
+    "The most frequently occurring value",
+    "The average of all the values",
+    "The gap between the largest and smallest values"
+   ],
+   "correctIndex": 3,
+   "explanation": "It is the simplest measure of spread, and it uses only two values. That makes it quick and also very sensitive to a single outlier.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0045",
+   "topicId": "mm-statistics",
+   "stem": "Why is the interquartile range often preferred to the range?",
+   "imageRef": null,
+   "options": [
+    "It is easier to calculate by hand",
+    "It uses every value in the data",
+    "It is always a larger number",
+    "It ignores extreme values at both ends"
+   ],
+   "correctIndex": 3,
+   "explanation": "The range is decided entirely by the two most extreme values, so one unusual figure distorts it. The IQR looks only at the central half.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0046",
+   "topicId": "mm-statistics",
+   "stem": "A histogram differs from a bar chart because:",
+   "imageRef": null,
+   "options": [
+    "Its bars are always taller than a bar chart",
+    "It can only show two categories at once",
+    "Its bars are ordered by height",
+    "Its bars show continuous intervals with no gaps"
+   ],
+   "correctIndex": 3,
+   "explanation": "Histograms show grouped numerical data, so the intervals touch. Bar charts show separate categories, which is why their bars have gaps.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0047",
+   "topicId": "mm-statistics",
+   "stem": "A data set is skewed to the right. Where does the mean sit relative to the median?",
+   "imageRef": null,
+   "options": [
+    "It cannot be determined",
+    "Above it",
+    "Below it",
+    "Exactly on it"
+   ],
+   "correctIndex": 1,
+   "explanation": "A long tail to the right pulls the mean upward while the median stays put. Comparing the two is a quick way to detect skew without drawing anything.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-statistics-0048",
+   "topicId": "mm-statistics",
+   "stem": "Which sample is most likely to be representative?",
+   "imageRef": null,
+   "options": [
+    "Friends of the person running the survey",
+    "Randomly chosen from the whole population",
+    "Volunteers who reply to an online post",
+    "The first twenty people at the door"
+   ],
+   "correctIndex": 1,
+   "explanation": "Random selection gives everyone an equal chance and avoids systematic bias. Self-selecting and convenience samples both over-represent particular groups.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-statistics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

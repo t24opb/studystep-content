@@ -1,0 +1,879 @@
+{
+ "topicId": "mm-geometry",
+ "questions": [
+  {
+   "id": "mm-geometry-0001",
+   "topicId": "mm-geometry",
+   "stem": "The angle at the centre of a circle is twice the angle at the circumference when:",
+   "imageRef": null,
+   "options": [
+    "the triangle is isosceles",
+    "both stand on the same arc",
+    "both are acute",
+    "the chord is a diameter"
+   ],
+   "correctIndex": 1,
+   "explanation": "The relationship only holds when the two angles subtend the same arc. Checking that before halving or doubling is the whole of most circle theorem questions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0002",
+   "topicId": "mm-geometry",
+   "stem": "An angle at the centre standing on arc AB is 84\u00b0. What is the angle at the circumference on the same arc?",
+   "imageRef": null,
+   "options": [
+    "42\u00b0",
+    "168\u00b0",
+    "84\u00b0",
+    "96\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The angle at the circumference is half the angle at the centre, so 84 \u00f7 2 = 42\u00b0. Doubling instead of halving is the error to watch for.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0003",
+   "topicId": "mm-geometry",
+   "stem": "AB is a diameter and C is another point on the circle. What is angle ACB?",
+   "imageRef": null,
+   "options": [
+    "It depends on where C is",
+    "90\u00b0",
+    "45\u00b0",
+    "180\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A diameter gives a straight angle of 180\u00b0 at the centre, and half of that is 90\u00b0. The angle in a semicircle is not a separate theorem \u2014 it is the main one with 180 substituted in.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0004",
+   "topicId": "mm-geometry",
+   "stem": "What is the angle between a tangent and the radius at the point of contact?",
+   "imageRef": null,
+   "options": [
+    "180\u00b0",
+    "It varies",
+    "90\u00b0",
+    "45\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A tangent always meets the radius at a right angle where it touches. This is what turns most tangent problems into Pythagoras.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0005",
+   "topicId": "mm-geometry",
+   "stem": "Two tangents from an external point P touch a circle of radius 9 cm at A and B, with OP = 15 cm. Find PA.",
+   "imageRef": null,
+   "options": [
+    "17.5 cm",
+    "24 cm",
+    "12 cm",
+    "6 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "The radius meets the tangent at 90\u00b0, so OAP is right-angled with OP as hypotenuse: PA\u00b2 = 225 \u2212 81 = 144, giving 12 cm. Two tangents from one external point are also equal in length.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0006",
+   "topicId": "mm-geometry",
+   "stem": "A chord of length 16 cm lies in a circle of radius 10 cm. How far is it from the centre?",
+   "imageRef": null,
+   "options": [
+    "12 cm",
+    "4 cm",
+    "6 cm",
+    "8 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "The perpendicular from the centre bisects the chord, giving a right-angled triangle with hypotenuse 10 and one leg 8. So the distance is \u221a(100 \u2212 64) = 6 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0007",
+   "topicId": "mm-geometry",
+   "stem": "What does a perpendicular drawn from the centre to a chord always do?",
+   "imageRef": null,
+   "options": [
+    "Meet the chord at 45\u00b0",
+    "Pass through the tangent",
+    "Bisect the chord",
+    "Double the chord"
+   ],
+   "correctIndex": 2,
+   "explanation": "It cuts the chord into two equal halves, which is what creates the right-angled triangle that Pythagoras then solves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0008",
+   "topicId": "mm-geometry",
+   "stem": "Opposite angles of a cyclic quadrilateral:",
+   "imageRef": null,
+   "options": [
+    "add to 90\u00b0",
+    "add to 180\u00b0",
+    "are equal",
+    "add to 360\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A cyclic quadrilateral has all four vertices on the circle, and each pair of opposite angles sums to a straight angle. Confusing this with the whole quadrilateral summing to 360\u00b0 is common.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0009",
+   "topicId": "mm-geometry",
+   "stem": "Which is NOT a valid test for congruent triangles?",
+   "imageRef": null,
+   "options": [
+    "SSS",
+    "SAS",
+    "RHS",
+    "AAA"
+   ],
+   "correctIndex": 3,
+   "explanation": "Three equal angles fix the shape but not the size, so AAA proves similarity, not congruence. The four valid tests are SSS, SAS, ASA and RHS.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0010",
+   "topicId": "mm-geometry",
+   "stem": "Two triangles have all three pairs of angles equal. What can you conclude?",
+   "imageRef": null,
+   "options": [
+    "They are congruent",
+    "They have equal areas",
+    "Their sides are equal",
+    "They are similar"
+   ],
+   "correctIndex": 3,
+   "explanation": "Equal angles mean the same shape, so the sides are in proportion \u2014 that is similarity. Without a side in common the sizes could be anything.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0011",
+   "topicId": "mm-geometry",
+   "stem": "Triangle ABC has sides 3, 4 and 5. Triangle DEF has sides 7.5, 10 and 12.5. What is the relationship?",
+   "imageRef": null,
+   "options": [
+    "Congruent",
+    "Similar with scale factor 2",
+    "Not related",
+    "Similar with scale factor 2.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every side of DEF is 2.5 times the matching side of ABC, so the triangles are similar but not congruent. Checking all three ratios rather than one is what makes the conclusion safe.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0012",
+   "topicId": "mm-geometry",
+   "stem": "In triangles ABC and PQR, AB = PQ = 6 cm, BC = QR = 9 cm and angle B = angle Q = 50\u00b0. Which test applies?",
+   "imageRef": null,
+   "options": [
+    "SSS",
+    "ASA",
+    "RHS",
+    "SAS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Two sides and the angle between them are given, which is SAS. The angle must be the included one \u2014 an angle elsewhere would not prove congruence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0013",
+   "topicId": "mm-geometry",
+   "stem": "A shape is enlarged by scale factor 4. How is its area affected?",
+   "imageRef": null,
+   "options": [
+    "Multiplied by 8",
+    "Unchanged",
+    "Multiplied by 16",
+    "Multiplied by 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Area involves two dimensions, so it scales by the square of the factor: 4\u00b2 = 16. Volume would scale by 4\u00b3 = 64.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0014",
+   "topicId": "mm-geometry",
+   "stem": "Two similar solids have lengths in the ratio 1 : 2. What is the ratio of their volumes?",
+   "imageRef": null,
+   "options": [
+    "1 : 4",
+    "1 : 6",
+    "1 : 8",
+    "1 : 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Volume scales by the cube of the length ratio, so 1\u00b3 : 2\u00b3 = 1 : 8. This is why a model at half scale holds only an eighth as much.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0015",
+   "topicId": "mm-geometry",
+   "stem": "What must every step of a geometric proof include?",
+   "imageRef": null,
+   "options": [
+    "A measurement from a ruler",
+    "A reason naming the theorem used",
+    "A diagram redrawn",
+    "An algebraic equation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Marks in a proof are for the reasoning, not the answer. Each statement needs the theorem that justifies it \u2014 \"angles in the same segment\", \"vertically opposite\" \u2014 written beside it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0016",
+   "topicId": "mm-geometry",
+   "stem": "Parallel lines are crossed by a transversal, giving a corresponding angle of 118\u00b0. What is the co-interior angle with it?",
+   "imageRef": null,
+   "options": [
+    "42\u00b0",
+    "236\u00b0",
+    "62\u00b0",
+    "118\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Co-interior angles add to 180\u00b0, so 180 \u2212 118 = 62\u00b0. Corresponding and alternate angles are equal; only co-interior angles are supplementary.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0017",
+   "topicId": "mm-geometry",
+   "stem": "What is the sum of the interior angles of a triangle?",
+   "imageRef": null,
+   "options": [
+    "360\u00b0",
+    "90\u00b0",
+    "It depends on the triangle",
+    "180\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Always 180\u00b0, for every triangle in the plane. It is the fact most other angle results are ultimately derived from.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0018",
+   "topicId": "mm-geometry",
+   "stem": "An exterior angle of a triangle equals:",
+   "imageRef": null,
+   "options": [
+    "180\u00b0 minus the smallest angle",
+    "half the sum of the interior angles",
+    "the sum of the two opposite interior angles",
+    "the largest interior angle"
+   ],
+   "correctIndex": 2,
+   "explanation": "It follows from the angle sum: the exterior angle and its neighbour make 180\u00b0, and so do all three interior angles, so the exterior angle equals the other two.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0019",
+   "topicId": "mm-geometry",
+   "stem": "Two right-angled triangles each have a hypotenuse of 13 cm. What further information proves them congruent?",
+   "imageRef": null,
+   "options": [
+    "One more pair of equal sides",
+    "One more pair of equal angles",
+    "Their areas are equal",
+    "Nothing further is needed"
+   ],
+   "correctIndex": 0,
+   "explanation": "RHS needs the right angle, the hypotenuse and one other side. An equal angle would only give similarity, since the right angle and one acute angle fix the shape but not the size.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0020",
+   "topicId": "mm-geometry",
+   "stem": "A triangle is reflected, then translated 4 units up, then rotated 90\u00b0. What is true of the image?",
+   "imageRef": null,
+   "options": [
+    "It is no longer a triangle",
+    "It is congruent to the original",
+    "It is similar but larger",
+    "It is similar but smaller"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reflection, translation and rotation all preserve every length and angle, so any sequence of them leaves the shape congruent. Only an enlargement would change the size.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0021",
+   "topicId": "mm-geometry",
+   "stem": "How is congruence used to prove a quadrilateral is a parallelogram?",
+   "imageRef": null,
+   "options": [
+    "Show the diagonals are equal in length",
+    "Draw a diagonal and show the two triangles are congruent",
+    "Measure all four sides carefully",
+    "Show all four angles are equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "A diagonal splits the quadrilateral into two triangles. Proving them congruent gives equal opposite sides and equal alternate angles, which establishes the parallel sides.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0022",
+   "topicId": "mm-geometry",
+   "stem": "Two chords AB and CD intersect inside a circle at P. What is true?",
+   "imageRef": null,
+   "options": [
+    "AB = CD",
+    "AP \u00d7 PB = CP \u00d7 PD",
+    "AP + PB = CP + PD",
+    "AP = CP"
+   ],
+   "correctIndex": 1,
+   "explanation": "The intersecting chords theorem: the products of the two parts of each chord are equal. It follows from the similar triangles the crossing chords create.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0023",
+   "topicId": "mm-geometry",
+   "stem": "What does the alternate segment theorem state?",
+   "imageRef": null,
+   "options": [
+    "Two tangents from a point are equal",
+    "Opposite angles in a cyclic quadrilateral add to 180 degrees",
+    "The angle between a tangent and a chord equals the angle in the alternate segment",
+    "A tangent meets a radius at 90 degrees"
+   ],
+   "correctIndex": 2,
+   "explanation": "The angle a chord makes with a tangent equals the inscribed angle standing on that chord in the segment on the other side.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0024",
+   "topicId": "mm-geometry",
+   "stem": "Which property is true of the diagonals of a rhombus?",
+   "imageRef": null,
+   "options": [
+    "They are parallel to two sides",
+    "They meet outside the shape",
+    "They bisect each other at right angles",
+    "They are equal in length"
+   ],
+   "correctIndex": 2,
+   "explanation": "Equal diagonals belong to a rectangle; bisecting at right angles belongs to a rhombus. A square has both, which is why it is both.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0025",
+   "topicId": "mm-geometry",
+   "stem": "Two triangles are similar. What must be true?",
+   "imageRef": null,
+   "options": [
+    "Their angles match and their sides are in a constant ratio",
+    "Their sides match and their angles differ",
+    "Their areas are equal",
+    "Their perimeters are equal"
+   ],
+   "correctIndex": 0,
+   "explanation": "Similar means the same shape at a different size, so angles are preserved and every pair of matching sides shares one scale factor. Equal sides would make them congruent instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0026",
+   "topicId": "mm-geometry",
+   "stem": "Two similar triangles have sides 3 and 12 in matching positions. What is the scale factor?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "15",
+    "4",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide the new length by the old: 12 \u00f7 3 = 4. Subtracting to get 9 is the usual slip, and it would give a different answer for every pair of sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0027",
+   "topicId": "mm-geometry",
+   "stem": "A shape is enlarged by a scale factor of 3. What happens to its area?",
+   "imageRef": null,
+   "options": [
+    "It becomes 9 times larger",
+    "It becomes 3 times larger",
+    "It becomes 6 times larger",
+    "It stays the same"
+   ],
+   "correctIndex": 0,
+   "explanation": "Area involves two dimensions, so it scales by the square of the factor. This is why a photograph enlarged to twice the width takes four times the ink.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0028",
+   "topicId": "mm-geometry",
+   "stem": "A solid is enlarged by a scale factor of 2. What happens to its volume?",
+   "imageRef": null,
+   "options": [
+    "It becomes 4 times larger",
+    "It becomes 6 times larger",
+    "It becomes 8 times larger",
+    "It becomes 2 times larger"
+   ],
+   "correctIndex": 2,
+   "explanation": "Volume involves three dimensions, so it scales by the cube of the factor. Length, area and volume scale by the factor, its square and its cube.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0029",
+   "topicId": "mm-geometry",
+   "stem": "What is the sum of the interior angles of a hexagon?",
+   "imageRef": null,
+   "options": [
+    "1080\u00b0",
+    "720\u00b0",
+    "360\u00b0",
+    "540\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rule is 180 times two fewer than the number of sides, so 180 \u00d7 4 = 720. It comes from splitting the shape into triangles from one corner.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0030",
+   "topicId": "mm-geometry",
+   "stem": "Each interior angle of a regular pentagon is:",
+   "imageRef": null,
+   "options": [
+    "108\u00b0",
+    "72\u00b0",
+    "120\u00b0",
+    "90\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interior angles total 540\u00b0, and a regular shape divides them equally between 5 corners. The 72\u00b0 answer is the exterior angle instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0031",
+   "topicId": "mm-geometry",
+   "stem": "The exterior angles of any polygon add to:",
+   "imageRef": null,
+   "options": [
+    "540\u00b0",
+    "It depends on the number of sides",
+    "360\u00b0",
+    "180\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Walking once around any polygon turns you through one full revolution, whatever its shape. That makes exterior angles the quicker route for many problems.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0032",
+   "topicId": "mm-geometry",
+   "stem": "In a circle, the angle at the centre is what compared with the angle at the circumference on the same arc?",
+   "imageRef": null,
+   "options": [
+    "Twice as large",
+    "Half as large",
+    "Equal",
+    "Supplementary"
+   ],
+   "correctIndex": 0,
+   "explanation": "The centre angle is always double the one at the circumference standing on the same arc. It is the circle theorem most others are built from.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0033",
+   "topicId": "mm-geometry",
+   "stem": "An angle in a semicircle is always:",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "Equal to the arc",
+    "90\u00b0",
+    "180\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "This follows from the centre-angle theorem: the centre angle on a diameter is 180\u00b0, so the circumference angle is half of that. It is why a right angle can be constructed with a circle.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0034",
+   "topicId": "mm-geometry",
+   "stem": "Three corners of a quadrilateral lie on a circle and so does the fourth. One angle is 85\u00b0. What is the angle opposite it?",
+   "imageRef": null,
+   "options": [
+    "85\u00b0",
+    "275\u00b0",
+    "175\u00b0",
+    "95\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "All four corners on a circle makes it cyclic, and opposite angles of a cyclic quadrilateral are supplementary, so 180 \u2212 85 = 95. Adjacent angles follow no such rule.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0035",
+   "topicId": "mm-geometry",
+   "stem": "Two tangents are drawn to a circle from the same outside point. What is true of them?",
+   "imageRef": null,
+   "options": [
+    "They have different lengths",
+    "They are equal in length",
+    "They are perpendicular to each other",
+    "They meet at the centre"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two tangent lengths from a point are always equal, which makes the figure symmetric about the line to the centre. Each tangent is perpendicular to its own radius, not to the other tangent.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0036",
+   "topicId": "mm-geometry",
+   "stem": "A tangent from P touches a circle of radius 5 cm at T, and OP = 13 cm. How long is PT?",
+   "imageRef": null,
+   "options": [
+    "18 cm",
+    "12 cm",
+    "8 cm",
+    "13 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The tangent meets the radius at 90\u00b0, so OTP is right-angled at T. Pythagoras gives PT = \u221a(13\u00b2 \u2212 5\u00b2) = \u221a144 = 12 cm. Subtracting the lengths is the usual slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0037",
+   "topicId": "mm-geometry",
+   "stem": "Which pair of triangles must be congruent?",
+   "imageRef": null,
+   "options": [
+    "Three matching angles",
+    "Two matching sides only",
+    "Equal areas",
+    "Three matching sides"
+   ],
+   "correctIndex": 3,
+   "explanation": "Three matching sides fix the shape and the size completely. Three matching angles fix only the shape, which makes the triangles similar rather than congruent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0038",
+   "topicId": "mm-geometry",
+   "stem": "A 1.5 m person casts a 2 m shadow while a tower casts a 30 m shadow. How tall is the tower?",
+   "imageRef": null,
+   "options": [
+    "45 m",
+    "20 m",
+    "22.5 m",
+    "40 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The two triangles are similar because the sun angle is the same, so 30 \u00f7 2 = 15 is the scale factor and 1.5 \u00d7 15 = 22.5 m. Similar triangles are how heights are measured without climbing.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0039",
+   "topicId": "mm-geometry",
+   "stem": "What is the scale factor from a triangle with sides 6, 8, 10 to one with sides 9, 12, 15?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "0.67",
+    "1.5",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide any matching pair: 9 \u00f7 6 = 1.5, and the same ratio holds for the other two. Checking a second pair confirms the triangles really are similar.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0040",
+   "topicId": "mm-geometry",
+   "stem": "Two similar shapes have areas 25 cm\u00b2 and 100 cm\u00b2. What is the length scale factor?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "75",
+    "50",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Areas scale by the square of the length factor, so take the root of 100 \u00f7 25 = 4 to get 2. Using the area ratio directly as a length factor is the common error.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0041",
+   "topicId": "mm-geometry",
+   "stem": "The diagonals of a rhombus:",
+   "imageRef": null,
+   "options": [
+    "Never meet",
+    "Cross at right angles",
+    "Are equal in length",
+    "Are parallel"
+   ],
+   "correctIndex": 1,
+   "explanation": "A rhombus has four equal sides and its diagonals bisect each other at right angles. Equal diagonals belong to a rectangle instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0042",
+   "topicId": "mm-geometry",
+   "stem": "Which quadrilateral has exactly one pair of parallel sides?",
+   "imageRef": null,
+   "options": [
+    "A trapezium",
+    "A parallelogram",
+    "A rhombus",
+    "A rectangle"
+   ],
+   "correctIndex": 0,
+   "explanation": "A trapezium is defined by that single pair. The other three all have two pairs, which makes them parallelograms of one kind or another.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0043",
+   "topicId": "mm-geometry",
+   "stem": "Why do three matching angles not prove congruence?",
+   "imageRef": null,
+   "options": [
+    "The third angle is fixed, so it adds nothing new to check",
+    "Congruence is only ever proved using three matching sides",
+    "The triangles could be the same shape at different sizes",
+    "The angles could be matched to the wrong corners entirely"
+   ],
+   "correctIndex": 2,
+   "explanation": "Matching angles fix the shape but say nothing about scale, so the triangles are similar. Congruence needs at least one side to fix the size.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0044",
+   "topicId": "mm-geometry",
+   "stem": "Angles on a straight line add to:",
+   "imageRef": null,
+   "options": [
+    "270\u00b0",
+    "180\u00b0",
+    "90\u00b0",
+    "360\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A straight line is half a full turn. Angles round a point add to 360\u00b0 instead, and confusing the two is the most common error in angle chasing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0045",
+   "topicId": "mm-geometry",
+   "stem": "In similar triangles, which sides correspond?",
+   "imageRef": null,
+   "options": [
+    "The two longest sides",
+    "The sides drawn horizontally",
+    "Those opposite equal angles",
+    "Those of equal length"
+   ],
+   "correctIndex": 2,
+   "explanation": "Matching is decided by the angles, not by position on the page or by length. Marking equal angles before writing any ratio prevents mismatched pairs.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0046",
+   "topicId": "mm-geometry",
+   "stem": "A map has a scale of 1 to 25000. How far is 4 cm on the map, in real life?",
+   "imageRef": null,
+   "options": [
+    "10 km",
+    "250 m",
+    "1 km",
+    "100 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply by the scale: 4 \u00d7 25000 = 100000 cm, which is 1000 m or 1 km. Converting at the end rather than the start keeps the arithmetic simple.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

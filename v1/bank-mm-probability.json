@@ -1,0 +1,917 @@
+{
+ "topicId": "mm-probability",
+ "questions": [
+  {
+   "id": "mm-probability-0001",
+   "topicId": "mm-probability",
+   "stem": "Two events are complementary. Which is always true?",
+   "imageRef": null,
+   "options": [
+    "Their probabilities are equal",
+    "They can both happen",
+    "Their probabilities multiply to 1",
+    "Their probabilities add to 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Complementary events cover every possibility between them and cannot both happen, so the probabilities must total exactly 1. This is why P(not A) = 1 \u2212 P(A).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0002",
+   "topicId": "mm-probability",
+   "stem": "A bag has 3 red and 2 blue counters. Two are drawn without replacement. Find P(both red).",
+   "imageRef": null,
+   "options": [
+    "3/10",
+    "9/25",
+    "6/25",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "First draw 3/5; then only 4 counters remain with 2 red, so 2/4. Multiply: 3/5 \u00d7 2/4 = 3/10. Using 3/5 twice would be the with-replacement answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0003",
+   "topicId": "mm-probability",
+   "stem": "A fair die is rolled twice. Find P(at least one six).",
+   "imageRef": null,
+   "options": [
+    "1/36",
+    "25/36",
+    "11/36",
+    "1/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Work from the complement: P(no six) = 5/6 \u00d7 5/6 = 25/36, so P(at least one) = 1 \u2212 25/36 = 11/36. \"At least one\" is nearly always easier from the other end.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0004",
+   "topicId": "mm-probability",
+   "stem": "Two events are independent when:",
+   "imageRef": null,
+   "options": [
+    "A and B cannot both happen",
+    "P(A and B) = P(A) \u00d7 P(B)",
+    "P(A and B) = 0",
+    "P(A) + P(B) = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Independence means one event does not change the probability of the other, and the multiplication test is how you check it numerically. Events that cannot both happen are mutually exclusive, which is a different idea.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0005",
+   "topicId": "mm-probability",
+   "stem": "For two events, P(A or B) equals:",
+   "imageRef": null,
+   "options": [
+    "P(A) + P(B) + P(A and B)",
+    "P(A) + P(B) \u2212 P(A and B)",
+    "P(A) + P(B)",
+    "P(A) \u00d7 P(B)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The overlap has been counted in both P(A) and P(B), so it must be subtracted once. If the events cannot both happen the overlap is zero and the formula simplifies.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0006",
+   "topicId": "mm-probability",
+   "stem": "P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Are A and B independent?",
+   "imageRef": null,
+   "options": [
+    "Yes, because 0.5 \u00d7 0.4 = 0.2",
+    "No, because 0.5 + 0.4 \u2260 0.2",
+    "No, because the events overlap",
+    "It cannot be determined"
+   ],
+   "correctIndex": 0,
+   "explanation": "The test is whether P(A and B) equals P(A) \u00d7 P(B). Here 0.5 \u00d7 0.4 = 0.2, which matches, so the events are independent.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0007",
+   "topicId": "mm-probability",
+   "stem": "At a school 30% of students walk, and 20% of those who walk arrive late. What percentage both walk and arrive late?",
+   "imageRef": null,
+   "options": [
+    "10%",
+    "6%",
+    "20%",
+    "50%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 20% is conditional on walking, so multiply: 0.3 \u00d7 0.2 = 0.06, which is 6%. Reading the 20% as a share of all students is exactly the misreading this tests.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0008",
+   "topicId": "mm-probability",
+   "stem": "In a class of 30, 14 study French, 11 study Japanese and 6 study both. How many study neither?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "17",
+    "9",
+    "11"
+   ],
+   "correctIndex": 3,
+   "explanation": "Fill the overlap first: 6 both, so 8 French only and 5 Japanese only, giving 19 studying at least one. That leaves 30 \u2212 19 = 11 studying neither.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0009",
+   "topicId": "mm-probability",
+   "stem": "Two dice are rolled and the results recorded in a 6 by 6 array. How many outcomes are there?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "6",
+    "21",
+    "36"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each of the six results on the first die pairs with six on the second, so 6 \u00d7 6 = 36. Listing them in an array is what makes the less obvious totals countable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0010",
+   "topicId": "mm-probability",
+   "stem": "Two dice are rolled. What is P(total of 7)?",
+   "imageRef": null,
+   "options": [
+    "1/12",
+    "7/36",
+    "1/7",
+    "1/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Six of the 36 outcomes total seven, so 6/36 = 1/6. Seven is the most likely total, which is why it appears so often in dice games.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0011",
+   "topicId": "mm-probability",
+   "stem": "Which probability cannot be found by listing equally likely outcomes?",
+   "imageRef": null,
+   "options": [
+    "The chance of drawing an ace",
+    "The chance a fair coin shows heads",
+    "The chance a drawing pin lands point up",
+    "The chance of rolling a 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "A drawing pin is not symmetrical, so there is no reason the two ways it can land are equally likely. That probability has to be estimated experimentally.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0012",
+   "topicId": "mm-probability",
+   "stem": "Why does a larger number of trials usually give a relative frequency closer to the theoretical probability?",
+   "imageRef": null,
+   "options": [
+    "Because the die becomes fairer",
+    "Because earlier results influence later ones",
+    "Because random variation averages out over many trials",
+    "Because the events become more likely"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is the law of large numbers. Short runs vary wildly and long runs settle, without any individual trial being affected by the ones before it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0013",
+   "topicId": "mm-probability",
+   "stem": "After five heads in a row, what is P(heads) on the next toss of a fair coin?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "Less than 1/2",
+    "More than 1/2",
+    "It cannot be known"
+   ],
+   "correctIndex": 0,
+   "explanation": "The coin has no memory, so every toss is 1/2 regardless of history. Believing otherwise is the gambler\u2019s fallacy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0014",
+   "topicId": "mm-probability",
+   "stem": "What is the value of 5! ?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "120",
+    "25",
+    "15"
+   ],
+   "correctIndex": 1,
+   "explanation": "Factorial means multiplying down to 1: 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120. It counts the number of ways five distinct items can be arranged in order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0015",
+   "topicId": "mm-probability",
+   "stem": "In how many orders can 4 different books be arranged on a shelf?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "12",
+    "4",
+    "24"
+   ],
+   "correctIndex": 3,
+   "explanation": "Four choices for the first position, three for the next, and so on: 4! = 24. Each choice reduces the options for the next, which is what factorial notation records.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0016",
+   "topicId": "mm-probability",
+   "stem": "A tree diagram is most useful when:",
+   "imageRef": null,
+   "options": [
+    "the events are impossible",
+    "the probabilities are unknown",
+    "an experiment has several stages",
+    "there is only one outcome"
+   ],
+   "correctIndex": 2,
+   "explanation": "A tree shows every path through a multi-stage experiment with the probability on each branch, and multiplying along a path gives the probability of that outcome.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0017",
+   "topicId": "mm-probability",
+   "stem": "A two-way table shows 90 students: 36 own a pet and study music, 14 own a pet and do not. How many own a pet?",
+   "imageRef": null,
+   "options": [
+    "22",
+    "50",
+    "36",
+    "14"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two categories are the only ways to own a pet, so add them: 36 + 14 = 50. Filling in row and column totals first makes most two-way table questions immediate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0018",
+   "topicId": "mm-probability",
+   "stem": "Which digital simulation correctly models one toss of a fair coin?",
+   "imageRef": null,
+   "options": [
+    "A random decimal between 0 and 10",
+    "Alternating 0 and 1 in turn",
+    "A random integer of 0 or 1, each equally likely",
+    "A random integer from 1 to 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "A fair coin has two equally likely outcomes, so the model needs exactly two equally likely values. Alternating is not random at all \u2014 it is perfectly predictable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0019",
+   "topicId": "mm-probability",
+   "stem": "A raffle has a fixed number of tickets. Jo buys some and works out her probability of winning. What happens if she buys one more?",
+   "imageRef": null,
+   "options": [
+    "Her probability is unchanged",
+    "The total number of tickets rises",
+    "Her probability rises",
+    "Her probability falls"
+   ],
+   "correctIndex": 2,
+   "explanation": "With the total fixed, owning more of the tickets means a larger share of the possible winners, so the probability rises. If buying a ticket also increased the total, the effect would be smaller.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0020",
+   "topicId": "mm-probability",
+   "stem": "P(A) = 0.35. What is P(not A)?",
+   "imageRef": null,
+   "options": [
+    "1.35",
+    "0.5",
+    "0.65",
+    "0.35"
+   ],
+   "correctIndex": 2,
+   "explanation": "All probabilities total 1, so P(not A) = 1 \u2212 0.35 = 0.65. Using the complement is often far quicker than counting the remaining cases.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0021",
+   "topicId": "mm-probability",
+   "stem": "In set notation, what does A \u2229 B mean?",
+   "imageRef": null,
+   "options": [
+    "Elements in A but not B",
+    "Elements in neither set",
+    "Elements in both A and B",
+    "Elements in A or B or both"
+   ],
+   "correctIndex": 2,
+   "explanation": "The intersection is the overlap \u2014 everything belonging to both. The union, written A \u222a B, is everything in either or both.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0022",
+   "topicId": "mm-probability",
+   "stem": "What does A\u2032 mean in set notation?",
+   "imageRef": null,
+   "options": [
+    "Everything in A",
+    "The number of elements in A",
+    "A repeated twice",
+    "Everything not in A"
+   ],
+   "correctIndex": 3,
+   "explanation": "The dash marks the complement, so P(A\u2032) = 1 \u2212 P(A). It is the set-notation version of the complement rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0023",
+   "topicId": "mm-probability",
+   "stem": "In how many ways can 5 different books be arranged in a row?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "120",
+    "25",
+    "20"
+   ],
+   "correctIndex": 1,
+   "explanation": "Five choices for the first position, four for the next, and so on: 5! = 120. Each choice reduces what is available for the next, which is what factorial notation records.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0024",
+   "topicId": "mm-probability",
+   "stem": "In how many ways can 3 students be chosen from 8 for a committee, where order does not matter?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "512",
+    "56",
+    "336"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is a selection, not an arrangement: 8 \u00d7 7 \u00d7 6 = 336 ordered ways, divided by 3! = 6 because the same three people in any order is one committee. That gives 56.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0025",
+   "topicId": "mm-probability",
+   "stem": "When does order matter in a counting problem?",
+   "imageRef": null,
+   "options": [
+    "Whenever there are more than three items",
+    "Only when items may be repeated",
+    "Only when the total is a factorial",
+    "When the positions are different, as in first, second and third"
+   ],
+   "correctIndex": 3,
+   "explanation": "Arrangements count order and selections do not. Prizes for first and second are different outcomes; two members of the same committee are not.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0026",
+   "topicId": "mm-probability",
+   "stem": "From a class of 10, how many ways can a captain and a vice-captain be chosen?",
+   "imageRef": null,
+   "options": [
+    "45",
+    "100",
+    "20",
+    "90"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ten choices for captain and nine for vice-captain, and the two roles are different, so order matters: 10 \u00d7 9 = 90. Dividing by two would be right only if the roles were identical.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0027",
+   "topicId": "mm-probability",
+   "stem": "A fair die is rolled. What is P(even)?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "2/3",
+    "1/2",
+    "1/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Three of the six faces are even, so the probability is 3/6 = 1/2. Counting favourable outcomes over total outcomes works whenever the outcomes are equally likely.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0028",
+   "topicId": "mm-probability",
+   "stem": "Two coins are tossed. What is P(exactly one head)?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/4",
+    "1/3",
+    "3/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The four equally likely outcomes are HH, HT, TH and TT, and two of them have exactly one head. Listing outcomes avoids the trap of treating one-head as a single case.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0029",
+   "topicId": "mm-probability",
+   "stem": "What does it mean for two events to be mutually exclusive?",
+   "imageRef": null,
+   "options": [
+    "They cannot both happen",
+    "They must both happen",
+    "They are equally likely",
+    "One causes the other"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mutually exclusive events have no overlap, so their probabilities can simply be added. Rolling a 2 and rolling an odd number are mutually exclusive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0030",
+   "topicId": "mm-probability",
+   "stem": "What does it mean for two events to be independent?",
+   "imageRef": null,
+   "options": [
+    "Both must happen together or neither happens",
+    "One happening does not change the chance of the other",
+    "One happening rules out the other completely",
+    "Both have exactly the same probability as each other"
+   ],
+   "correctIndex": 1,
+   "explanation": "Independence is about influence, not overlap. Two coin tosses are independent; drawing two cards without replacement is not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0031",
+   "topicId": "mm-probability",
+   "stem": "A bag has 4 red and 6 blue balls. Two are drawn without replacement. What is P(both red)?",
+   "imageRef": null,
+   "options": [
+    "4/25",
+    "1/5",
+    "8/45",
+    "2/15"
+   ],
+   "correctIndex": 3,
+   "explanation": "The first is 4/10 and the second is 3/9, because one red has gone. Multiplying gives 12/90 = 2/15. Using 4/10 twice would assume replacement.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0032",
+   "topicId": "mm-probability",
+   "stem": "The same bag, but the first ball is replaced. What is P(both red) now?",
+   "imageRef": null,
+   "options": [
+    "3/10",
+    "4/25",
+    "2/15",
+    "2/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "With replacement the bag is identical each time, so it is 4/10 \u00d7 4/10 = 4/25. Replacement is what makes the two draws independent.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0033",
+   "topicId": "mm-probability",
+   "stem": "What does P(A or B) equal when A and B are mutually exclusive?",
+   "imageRef": null,
+   "options": [
+    "P(A) + P(B)",
+    "P(A) \u00d7 P(B)",
+    "P(A) + P(B) \u2212 P(A and B)",
+    "P(A) \u00f7 P(B)"
+   ],
+   "correctIndex": 0,
+   "explanation": "With no overlap nothing is counted twice, so the probabilities simply add. The subtraction version is the general rule for events that can overlap.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0034",
+   "topicId": "mm-probability",
+   "stem": "In a class of 30, 18 study French and 12 study German, with 5 studying both. How many study neither?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "25",
+    "5",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Those studying at least one are 18 + 12 \u2212 5 = 25, so 5 study neither. Subtracting the overlap stops the five from being counted twice.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0035",
+   "topicId": "mm-probability",
+   "stem": "What does the notation for A intersect B mean?",
+   "imageRef": null,
+   "options": [
+    "A happens but not B",
+    "Both A and B happen",
+    "Either A or B happens",
+    "Neither happens"
+   ],
+   "correctIndex": 1,
+   "explanation": "Intersection is the overlap, so both must occur. Union is the other symbol and means at least one of them occurs.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0036",
+   "topicId": "mm-probability",
+   "stem": "What is the complement of an event with probability 0.35?",
+   "imageRef": null,
+   "options": [
+    "0.35",
+    "1.35",
+    "\u22120.35",
+    "0.65"
+   ],
+   "correctIndex": 3,
+   "explanation": "The complement is everything else, and all probabilities total 1, so it is 1 \u2212 0.35. Working with the complement is often easier than counting the event directly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0037",
+   "topicId": "mm-probability",
+   "stem": "Why is P(at least one) often found using the complement?",
+   "imageRef": null,
+   "options": [
+    "Because at least one is impossible to count",
+    "Because it avoids multiplication",
+    "Because none is a single case while at least one has many",
+    "Because complements are always smaller"
+   ],
+   "correctIndex": 2,
+   "explanation": "At least one covers several combinations, but its complement is the single case of none at all. Counting the easy side and subtracting from 1 is the standard move.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0038",
+   "topicId": "mm-probability",
+   "stem": "Three coins are tossed. What is P(at least one head)?",
+   "imageRef": null,
+   "options": [
+    "1/8",
+    "3/8",
+    "1/2",
+    "7/8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The complement is no heads at all, which is 1/8, so the answer is 1 \u2212 1/8 = 7/8. Listing all eight outcomes gives the same result more slowly.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0039",
+   "topicId": "mm-probability",
+   "stem": "A spinner has 8 equal sectors numbered 1 to 8. What is P(a number greater than 5)?",
+   "imageRef": null,
+   "options": [
+    "3/8",
+    "5/8",
+    "1/8",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The numbers 6, 7 and 8 qualify, so three out of eight. Including 5 itself is the trap in the phrase greater than.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0040",
+   "topicId": "mm-probability",
+   "stem": "What is conditional probability?",
+   "imageRef": null,
+   "options": [
+    "The chance of one event given another has happened",
+    "The chance of two events both happening",
+    "The chance of either event happening",
+    "The chance of neither event happening"
+   ],
+   "correctIndex": 0,
+   "explanation": "The condition narrows the sample space to the cases where the first event occurred. That smaller denominator is what makes it different from a plain probability.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0041",
+   "topicId": "mm-probability",
+   "stem": "In a group, 60% own a bike and 30% own both a bike and a scooter. Given someone owns a bike, what is P(scooter)?",
+   "imageRef": null,
+   "options": [
+    "0.9",
+    "0.5",
+    "0.3",
+    "0.18"
+   ],
+   "correctIndex": 1,
+   "explanation": "Restrict attention to bike owners: 30 out of every 60, which is 0.5. Dividing the overlap by the condition is the whole of conditional probability.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0042",
+   "topicId": "mm-probability",
+   "stem": "A two-way table shows 12 of 40 students walk to school. What is the relative frequency?",
+   "imageRef": null,
+   "options": [
+    "0.12",
+    "3.33",
+    "0.4",
+    "0.3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Relative frequency is the count divided by the total, so 12/40 = 0.3. It is an estimate of probability drawn from data rather than from theory.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0043",
+   "topicId": "mm-probability",
+   "stem": "Why can experimental probability differ from theoretical probability?",
+   "imageRef": null,
+   "options": [
+    "Probability changes over time",
+    "A finite number of trials varies by chance",
+    "The theory is usually wrong",
+    "Experiments are always biased"
+   ],
+   "correctIndex": 1,
+   "explanation": "Random variation means short runs rarely match the theory exactly, though they close in as trials increase. That convergence is the law of large numbers.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0044",
+   "topicId": "mm-probability",
+   "stem": "A tree diagram for two independent events shows what on each branch?",
+   "imageRef": null,
+   "options": [
+    "The complement",
+    "The probability of that outcome",
+    "The number of outcomes",
+    "The total probability"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each branch carries its own probability, and following a path multiplies them. Branches from one point must add to 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0045",
+   "topicId": "mm-probability",
+   "stem": "Two dice are rolled. Which total is the most likely?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "2",
+    "7",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Six of the 36 equally likely pairs total 7, more than any other total, so its probability is 6/36 = 1/6. Totals of 2 and 12 have only one pair each.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0046",
+   "topicId": "mm-probability",
+   "stem": "What is P(an impossible event)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0.5",
+    "It cannot be defined",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Impossible is zero and certain is one, and every probability sits between them. A value outside that range means an arithmetic error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0047",
+   "topicId": "mm-probability",
+   "stem": "Cards are drawn from a standard deck. What is P(a heart or a king)?",
+   "imageRef": null,
+   "options": [
+    "4/52",
+    "16/52",
+    "17/52",
+    "13/52"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 13 hearts and 4 kings, but the king of hearts is in both, so 13 + 4 \u2212 1 = 16. Forgetting to subtract the overlap is the classic error.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0048",
+   "topicId": "mm-probability",
+   "stem": "If P(A) = 0.4 and P(B) = 0.5 and they are independent, what is P(A and B)?",
+   "imageRef": null,
+   "options": [
+    "0.9",
+    "0.1",
+    "0.45",
+    "0.2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Independent events multiply, so 0.4 \u00d7 0.5 = 0.2. Adding them would answer a different question, about either event happening.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

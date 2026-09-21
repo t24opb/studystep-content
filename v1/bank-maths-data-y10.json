@@ -1,0 +1,1892 @@
+{
+ "topicId": "maths-data-y10",
+ "questions": [
+  {
+   "id": "maths-data-y10-0001",
+   "topicId": "maths-data-y10",
+   "stem": "What is the value of 5! ?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "15",
+    "120",
+    "25"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorial notation means multiply the whole numbers from that number down to 1, so 5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120. The answer 20 is tempting because it is just 5 \u00d7 4, stopping after two factors instead of continuing down to 1. Remember the exclamation mark means 'keep multiplying all the way down to 1', not squaring and not adding.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0002",
+   "topicId": "maths-data-y10",
+   "stem": "A canteen meal deal has 4 sandwich choices, 3 drink choices and 2 snack choices. How many different meal deals are possible?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "9",
+    "14",
+    "12"
+   ],
+   "correctIndex": 0,
+   "explanation": "Apply the multiplication principle: independent choices multiply, so 4 \u00d7 3 \u00d7 2 = 24 meal deals. The answer 9 comes from adding 4 + 3 + 2, which counts how many individual items there are, not how many combinations. The cue is the word 'and': choices made together multiply, while choices of only one item from separate lists would add.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0003",
+   "topicId": "maths-data-y10",
+   "stem": "In how many different orders can 6 distinct books be arranged in a row on a shelf?",
+   "imageRef": null,
+   "options": [
+    "46656",
+    "720",
+    "36",
+    "30"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first position has 6 choices, the next 5, and so on, giving 6! = 720 arrangements. The answer 46656 is 6^6, which would apply if a book could be reused in every position, but each book is placed only once. Whenever items are used up as you place them, the counts count down and you get a factorial.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0004",
+   "topicId": "maths-data-y10",
+   "stem": "Which expression correctly simplifies 8! \u00f7 6! ?",
+   "imageRef": null,
+   "options": [
+    "8 \u00d7 7 \u00d7 6 = 336",
+    "8 \u00d7 7 = 56",
+    "8 \u00f7 6 \u2248 1.33",
+    "2! = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since 8! = 8 \u00d7 7 \u00d7 6!, dividing by 6! cancels the common tail and leaves 8 \u00d7 7 = 56. Choosing 2! = 2 comes from subtracting the numbers first, but factorials cannot be subtracted inside the notation like that. Always expand the larger factorial until the smaller one appears, then cancel.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0005",
+   "topicId": "maths-data-y10",
+   "stem": "A 4-digit PIN is formed using digits 0 to 9, and digits may be repeated. How many different PINs are possible?",
+   "imageRef": null,
+   "options": [
+    "5040",
+    "3 628 800",
+    "40",
+    "10 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each of the 4 positions independently has 10 possible digits, so the multiplication principle gives 10 \u00d7 10 \u00d7 10 \u00d7 10 = 10 000. The answer 5040 is 10 \u00d7 9 \u00d7 8 \u00d7 7, which assumes no digit can be repeated \u2014 but the question allows repeats. Check whether items are 'used up': if not, each position keeps the full number of choices.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0006",
+   "topicId": "maths-data-y10",
+   "stem": "A class must choose a committee of 3 students from 8 volunteers, with no particular roles. How many different committees are possible?",
+   "imageRef": null,
+   "options": [
+    "56",
+    "336",
+    "512",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "Order does not matter here, so the count is 8 \u00d7 7 \u00d7 6 divided by 3! (the number of ways the same 3 people could be ordered), giving 336 \u00f7 6 = 56. The answer 336 is the number of ordered selections, which would be right only if the three positions were distinct roles such as president, secretary and treasurer. Look for whether the roles are named: named roles means order matters.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0007",
+   "topicId": "maths-data-y10",
+   "stem": "The 5 letters of the word CHIMP (all different) are arranged at random in a row. What is the probability the arrangement begins with a vowel?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/25",
+    "1/5",
+    "2/5"
+   ],
+   "correctIndex": 2,
+   "explanation": "CHIMP contains exactly one vowel, I, and there are 5 equally likely letters that could occupy the first position, so the probability is 1/5. The answer 2/5 assumes two vowels, but Y is absent and only I is a vowel here. A quick check of favourable first letters over total letters avoids the need for full factorial working.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0008",
+   "topicId": "maths-data-y10",
+   "stem": "Five different novels are arranged at random on a shelf. What is the probability that two particular novels end up next to each other?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "1/5",
+    "1/2",
+    "1/10"
+   ],
+   "correctIndex": 0,
+   "explanation": "Treat the pair as one block: the block plus the other 3 novels can be arranged in 4! = 24 ways, and the pair can be internally ordered in 2 ways, giving 48 favourable arrangements out of 5! = 120, which is 2/5. The answer 1/5 comes from using 4! \u00f7 5! and forgetting that the two novels can swap places within the block. Whenever you glue items together, remember to multiply by the arrangements inside the block.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0009",
+   "topicId": "maths-data-y10",
+   "stem": "A news website reports: \"Survey shows 78% of Australians support the new council parking plan.\" To judge how trustworthy this claim is, which piece of information about the study's planning is most important to look for?",
+   "imageRef": null,
+   "options": [
+    "How many percentage points the result differs from a round number",
+    "How the people surveyed were selected and how many were surveyed",
+    "How many other news websites also published the same report",
+    "How many days after the council meeting the survey was published"
+   ],
+   "correctIndex": 1,
+   "explanation": "A percentage can only be generalised to a population if the sample was chosen in a way that represents that population, so the selection method and sample size are the first things to check. Choosing how many other outlets republished the report is tempting because repetition feels like confirmation, but republishing a flawed survey does not improve its sampling. The cue is that trustworthiness comes from how the data were collected, not from how widely the number was repeated.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0010",
+   "topicId": "maths-data-y10",
+   "stem": "A radio station asks listeners to phone in to vote on whether school hours should be shortened, and reports that 91% agree. What is the main problem with the study's implementation?",
+   "imageRef": null,
+   "options": [
+    "The sample is self-selected, so people with strong opinions are over-represented",
+    "The sample is too large, so ordinary opinions get averaged away",
+    "Percentages should never be reported without also reporting the median",
+    "Phone responses cannot be counted accurately enough to give a percentage"
+   ],
+   "correctIndex": 0,
+   "explanation": "In a voluntary phone-in, respondents choose themselves, and people who feel strongly (usually in one direction) are far more likely to bother calling, so the result is biased regardless of how many call. The claim that the sample is too large reverses the actual issue: large self-selected samples are still biased, and size never fixes selection bias. Look for who decided that a person would be in the sample \u2014 the researcher or the participant.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0011",
+   "topicId": "maths-data-y10",
+   "stem": "Two reports on the same trial appear online. Report A states the sample size, how participants were selected, the questions asked and who funded the study. Report B states only the headline percentage and the researcher's name. Which conclusion is justified?",
+   "imageRef": null,
+   "options": [
+    "Report A allows readers to evaluate possible bias, because the planning details are disclosed",
+    "Report B is more reliable, because giving fewer details leaves less room for error",
+    "Report A must be biased, because studies that name their funder are always sponsored",
+    "Report B must be accurate, because a named researcher guarantees correct methods"
+   ],
+   "correctIndex": 0,
+   "explanation": "Evaluating a study requires knowing how it was planned and carried out; disclosure of selection method, sample size, question wording and funding lets a reader look for sources of bias. Saying Report B is more reliable because it gives fewer details reverses the logic \u2014 missing information hides problems rather than removing them. Transparency is not proof of quality, but it is what makes evaluation possible.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0012",
+   "topicId": "maths-data-y10",
+   "stem": "When investigating a media report of a study, which feature is the clearest sign of a well-planned sampling method?",
+   "imageRef": null,
+   "options": [
+    "Participants were chosen by the researchers because they knew the topic well",
+    "Participants were chosen by random selection from a list of the whole population of interest",
+    "Participants were the first 200 people who clicked the link on the study's home page",
+    "Participants were volunteers who replied to a notice posted in one shopping centre"
+   ],
+   "correctIndex": 1,
+   "explanation": "Random selection from the population of interest gives every member a known chance of being included, so the sample is likely to reflect the population and results can be generalised. The option about the first 200 people who clicked the link is tempting because a large number sounds convincing, but self-selected online responders differ systematically from the population, and size does not fix bias. The cue is how people got into the sample, not how many there are.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0013",
+   "topicId": "maths-data-y10",
+   "stem": "A report states: \"In our survey, 4 out of 5 dentists recommended the toothpaste.\" Which follow-up question best targets the study's implementation?",
+   "imageRef": null,
+   "options": [
+    "Which brand of toothpaste do most dentists use themselves at home?",
+    "How many dentists were surveyed in total, and how were they approached?",
+    "How much does a tube of the toothpaste cost in supermarkets?",
+    "What percentage of Australians brush their teeth twice each day?"
+   ],
+   "correctIndex": 1,
+   "explanation": "'4 out of 5' is a ratio that hides the total surveyed and the recruitment method \u2014 it could be 4 of 5 dentists, or 400 of 500 hand-picked ones \u2014 so asking for the count and the approach directly tests how the study was carried out. Asking which brand dentists use at home sounds related but concerns a different question and does not reveal anything about this study's method. The cue is that ratios and percentages always need the underlying sample size and selection process attached.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0014",
+   "topicId": "maths-data-y10",
+   "stem": "In a set of numerical data, what does the standard deviation measure?",
+   "imageRef": null,
+   "options": [
+    "The value that occurs most often in the data",
+    "The middle value once the data are ordered",
+    "The difference between the largest and smallest values",
+    "How spread out the values are about the mean"
+   ],
+   "correctIndex": 3,
+   "explanation": "Standard deviation is built from the squared differences between each value and the mean, so it summarises the typical distance of values from the mean \u2014 a measure of spread. 'The difference between the largest and smallest values' is the tempting choice because it is also a spread measure, but that is the range, which uses only two values, while standard deviation uses every value. Cue: if a measure only needs the two extremes, it is the range, not the standard deviation.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0015",
+   "topicId": "maths-data-y10",
+   "stem": "Two bus routes both have a mean travel time of 24 minutes. Route P has a standard deviation of 2.1 minutes and Route Q has a standard deviation of 8.6 minutes. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "Route Q must have been timed on more days than Route P",
+    "Route P's travel times are more consistent than Route Q's",
+    "Route P's travel times are typically shorter than Route Q's",
+    "Route Q's travel times are more consistent than Route P's"
+   ],
+   "correctIndex": 1,
+   "explanation": "With equal means, the smaller standard deviation belongs to the data set whose values cluster more tightly around that mean, so Route P is the more consistent one. 'Route P's travel times are typically shorter' is tempting, but typical size is described by the mean, which is 24 minutes for both; standard deviation says nothing about the centre. Cue: mean answers 'how big', standard deviation answers 'how varied'.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0016",
+   "topicId": "maths-data-y10",
+   "stem": "Every student in a class had 5 marks added to their test score. Compared with the original scores, the new mean and standard deviation are:",
+   "imageRef": null,
+   "options": [
+    "mean unchanged, standard deviation increased by 5",
+    "mean increased by 5, standard deviation increased by 25",
+    "mean increased by 5, standard deviation unchanged",
+    "mean increased by 5, standard deviation increased by 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding the same amount to every value slides the whole distribution along, so the centre moves up by 5 but the distances between values and the mean are exactly the same, leaving the spread unchanged. 'Mean increased by 5, standard deviation increased by 5' is the common trap of assuming every statistic shifts with the data. Cue: adding a constant changes location only; only multiplying changes spread.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0017",
+   "topicId": "maths-data-y10",
+   "stem": "For the data set 2, 4, 4, 4, 5, 5, 7, 9, the mean is 5. What is the population standard deviation?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "4",
+    "2.5",
+    "1.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The deviations from the mean are -3, -1, -1, -1, 0, 0, 2, 4; their squares total 32, so the variance is 32 \u00f7 8 = 4 and the standard deviation is \u221a4 = 2. Choosing 4 is the most common slip: that is the variance, and the final square root step has been forgotten. Cue: variance is in squared units, so always take the square root at the end.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0018",
+   "topicId": "maths-data-y10",
+   "stem": "The data set 12, 14, 15, 16, 18 has a mean of 15. A sixth value of 60 is then added. What happens to the mean and the standard deviation?",
+   "imageRef": null,
+   "options": [
+    "The mean increases but the standard deviation is unchanged",
+    "The standard deviation increases but the mean is unchanged",
+    "Both decrease because there are now more values",
+    "Both increase, with a large rise in the standard deviation"
+   ],
+   "correctIndex": 3,
+   "explanation": "An outlier well above the rest pulls the mean up and, because standard deviation uses squared distances from the mean, a value 45 or so away from the centre contributes an enormous squared deviation, so the spread rises sharply. 'The standard deviation increases but the mean is unchanged' is tempting for students who recall that the median resists outliers, but the mean is not resistant. Cue: the median can ignore an outlier; the mean and standard deviation cannot.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0019",
+   "topicId": "maths-data-y10",
+   "stem": "Class A scored a mean of 72 with a standard deviation of 4. Class B scored a mean of 72 with a standard deviation of 11. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Class B's scores are more widely spread around 72 than Class A's",
+    "Class B's average score is higher than Class A's average score",
+    "Class A must contain more students than Class B contains",
+    "Class B's scores must all lie between 61 and 83 marks"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equal means with a larger standard deviation means Class B's individual scores sit further from 72 on average, so B is the more spread out set. 'Class B's scores must all lie between 61 and 83' looks reasonable because it uses the mean plus or minus one standard deviation, but that interval only describes roughly where many values fall, not a guaranteed limit for every score. Cue: standard deviation describes typical distance from the mean, never an absolute boundary.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0020",
+   "topicId": "maths-data-y10",
+   "stem": "A set of race times has a mean of 40 seconds and a standard deviation of 6 seconds. Every time is then multiplied by 3. What are the new mean and standard deviation?",
+   "imageRef": null,
+   "options": [
+    "Mean 120 seconds, standard deviation 18 seconds",
+    "Mean 120 seconds, standard deviation 6 seconds",
+    "Mean 120 seconds, standard deviation 54 seconds",
+    "Mean 40 seconds, standard deviation 18 seconds"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying every value by 3 triples each distance from the mean as well as the mean itself, so both the mean and the standard deviation are multiplied by 3, giving 120 and 18. 'Mean 120 seconds, standard deviation 6 seconds' comes from wrongly carrying over the rule for adding a constant, where the spread stays fixed. Cue: adding shifts the data and leaves spread alone; multiplying stretches the data and scales spread by the same factor.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0021",
+   "topicId": "maths-data-y10",
+   "stem": "A data set of 9 values has a mean of 50. One extra value, exactly 50, is added to the set. Compared with before, the mean and the standard deviation are:",
+   "imageRef": null,
+   "options": [
+    "mean unchanged, standard deviation unchanged",
+    "mean unchanged, standard deviation slightly larger",
+    "mean slightly larger, standard deviation unchanged",
+    "mean unchanged, standard deviation slightly smaller"
+   ],
+   "correctIndex": 3,
+   "explanation": "The new value equals the mean, so the total of squared deviations does not change at all, but it is now divided among more values, making the variance and hence the standard deviation smaller. 'Mean unchanged, standard deviation unchanged' is the tempting answer, since a value at the mean feels like it adds nothing \u2014 but it does add to the count in the denominator. Cue: any value at the mean contributes zero to the squared deviations while still increasing the number of data values.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0022",
+   "topicId": "maths-data-y10",
+   "stem": "Which of the following is a measure of centre rather than a measure of spread?",
+   "imageRef": null,
+   "options": [
+    "The median",
+    "The range",
+    "The interquartile range",
+    "The standard deviation"
+   ],
+   "correctIndex": 0,
+   "explanation": "Measures of spread describe how scattered the data values are; range, interquartile range and standard deviation all do this. The median is a measure of centre \u2014 it locates a typical value, not the variability around it. The interquartile range is the most tempting wrong choice because it is calculated from quartiles, which are location values like the median, but the subtraction Q3 \u2212 Q1 turns them into a width, and a width is a spread. The cue: if the statistic is a distance or difference between values, it measures spread.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0023",
+   "topicId": "maths-data-y10",
+   "stem": "For a numerical data set, the interquartile range is calculated as:",
+   "imageRef": null,
+   "options": [
+    "the largest value minus the smallest value",
+    "the median of the upper half of the data",
+    "half of the difference between the largest and smallest values",
+    "the upper quartile minus the lower quartile"
+   ],
+   "correctIndex": 3,
+   "explanation": "The interquartile range is Q3 \u2212 Q1, the width of the interval containing the middle 50% of ordered data. 'The largest value minus the smallest value' is the range, which uses only the two most extreme values and is not the IQR. 'The median of the upper half of the data' is simply Q3 itself, a single location, not a spread. Cue: the IQR always requires a subtraction of two quartiles.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0024",
+   "topicId": "maths-data-y10",
+   "stem": "A data set contains one extremely large outlier. Which measure of spread is least affected by that outlier?",
+   "imageRef": null,
+   "options": [
+    "The interquartile range",
+    "The range",
+    "The standard deviation",
+    "The variance"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interquartile range depends only on the quartiles, so a single extreme value at one end changes it very little or not at all \u2014 it is resistant to outliers. 'The range' is the most tempting wrong choice because it seems like a simple summary, but it is calculated directly from the maximum and minimum, so an outlier changes it the most. Standard deviation and variance both square distances from the mean, so a far-away value has a large effect on them. Cue: statistics built from the extremes or from the mean are sensitive; quartile-based statistics are not.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0025",
+   "topicId": "maths-data-y10",
+   "stem": "For the ordered data set 3, 5, 6, 8, 11, 12, 15, 20, what is the interquartile range?",
+   "imageRef": null,
+   "options": [
+    "17",
+    "9.5",
+    "13.5",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "With 8 values, the lower half is 3, 5, 6, 8 giving Q1 = 5.5, and the upper half is 11, 12, 15, 20 giving Q3 = 13.5, so the IQR is 13.5 \u2212 5.5 = 8. The answer 17 is the range (20 \u2212 3), which uses only the extremes rather than the quartiles. The value 9.5 is the median and 13.5 is Q3 on its own, neither of which measures spread. Cue: an IQR is always a difference between two quartiles, so it must be smaller than the range.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0026",
+   "topicId": "maths-data-y10",
+   "stem": "A set of 200 house sale prices is strongly right-skewed, with a few very expensive sales. Which pair of summary statistics best describes this distribution?",
+   "imageRef": null,
+   "options": [
+    "Median and range, since both are easy to read from ordered data",
+    "Median and interquartile range, since both resist the extreme prices",
+    "Mean and standard deviation, since both use every price in the set",
+    "Mean and range, since both reflect the highest prices reached"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a strongly skewed distribution the few extreme values pull the mean upwards and inflate the standard deviation and the range, so those statistics misrepresent a typical sale. The median and IQR are determined by position in the ordered list, so they describe the bulk of the data faithfully. 'Mean and standard deviation, since both use every price' is tempting because using all data sounds better, but using every value is exactly why extreme values distort them. Cue: skewed or outlier-affected data calls for median and IQR; roughly symmetric data suits mean and standard deviation.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0027",
+   "topicId": "maths-data-y10",
+   "stem": "Two classes are compared on a reaction-time task. Class X has a five-number summary of 12, 18, 22, 26, 32 and Class Y has 5, 14, 22, 34, 45 (all in hundredths of a second). Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The two classes have equal interquartile ranges, but Class Y has a larger range",
+    "The two classes have equal medians, but Class Y's times are far more spread out",
+    "Class Y has the higher median, so its students reacted more slowly overall",
+    "Class X has the greater spread, because its box sits higher on the scale"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both medians are 22, so typical performance matches, but Class X has an IQR of 26 \u2212 18 = 8 and a range of 20, while Class Y has an IQR of 34 \u2212 14 = 20 and a range of 40 \u2014 much greater variability. The claim that the IQRs are equal is false as soon as the quartiles are subtracted, and the claim that Class Y's median is higher misreads the summaries, since both are 22. Where the box sits on the scale shows centre, not spread; spread is shown by the box's width and the whiskers' length.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0028",
+   "topicId": "maths-data-y10",
+   "stem": "A report on 40 property sales in a suburb states that the range of prices is $2.1 million but the interquartile range is only $180 000. What does this most reliably indicate?",
+   "imageRef": null,
+   "options": [
+    "Exactly half of the sales are separated from the other half by about $2.1 million",
+    "The prices are evenly spread right across the full $2.1 million interval",
+    "The data must contain an error, since the IQR can never be much smaller than the range",
+    "The middle 50% of prices are tightly clustered, while a few sales are far from the rest"
+   ],
+   "correctIndex": 3,
+   "explanation": "The IQR describes the width of the middle 50% of the ordered data, so a small IQR beside a huge range means most sales sit close together while one or two extreme sales stretch the maximum-to-minimum distance. 'The prices are evenly spread right across the interval' is the most tempting wrong answer, but an even spread would force the IQR to be roughly half the range, not a small fraction of it. There is no error: a small IQR with a large range is the standard signature of outliers. Cue: compare the IQR with the range to detect extremes.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0029",
+   "topicId": "maths-data-y10",
+   "stem": "Set A is 10, 10, 10, 50, 50, 50 and Set B is 5, 15, 25, 35, 45, 55. Both sets have a mean of 30. Without full calculation, which set has the larger standard deviation, and why?",
+   "imageRef": null,
+   "options": [
+    "Set B, because it contains six different values rather than only two repeated values",
+    "They are equal, because the two sets have the same mean and the same number of values",
+    "Set A, because every value sits 20 from the mean while most of Set B sits closer",
+    "Set B, because its values reach further out, from 5 up to 55"
+   ],
+   "correctIndex": 2,
+   "explanation": "Standard deviation measures the typical distance of values from the mean. In Set A every value is exactly 20 away, giving a standard deviation of 20, whereas Set B has deviations of 25, 15, 5, 5, 15 and 25, most of which are under 20, giving a standard deviation of about 17.1. 'Set B, because its values reach further out' is tempting since Set B has the larger range, but range depends only on the two extremes while standard deviation weighs every value. Cue: a data set piled up at two far-apart clumps can be more variable than one spread evenly over a wider interval.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0030",
+   "topicId": "maths-data-y10",
+   "stem": "A digital tool is used to plot a scatterplot of arm span against height for 30 Year 10 students. What does a single point on this scatterplot represent?",
+   "imageRef": null,
+   "options": [
+    "One student, positioned using that student's arm span and height",
+    "The average arm span and average height of all 30 students",
+    "One measurement of arm span only, spread out along the axis",
+    "The number of students who share a particular height value"
+   ],
+   "correctIndex": 0,
+   "explanation": "Bivariate numerical data pairs two measurements taken from the same individual, so each plotted point carries one individual's value on each variable. The idea that a point shows the average of both variables confuses the whole data set's centre with a single case \u2014 the mean would be a single point, not 30 of them. If a display shows counts of one variable, it is a histogram or column graph, not a scatterplot.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0031",
+   "topicId": "maths-data-y10",
+   "stem": "A researcher investigates whether the number of hours of rehearsal explains performance scores. When entering the data into a spreadsheet to make a scatterplot, which variable should go on the horizontal axis?",
+   "imageRef": null,
+   "options": [
+    "Whichever variable was recorded first in the spreadsheet",
+    "Performance score, because the outcome is always plotted first",
+    "Hours of rehearsal, because it is the explanatory variable",
+    "Performance score, because it is the larger set of numbers"
+   ],
+   "correctIndex": 2,
+   "explanation": "By convention the explanatory (independent) variable goes on the horizontal axis and the response (dependent) variable on the vertical axis, so a fitted line can be used to predict the response from the explanatory variable. Choosing the performance score because it is the outcome reverses this convention \u2014 the response belongs on the vertical axis. The cue is the wording 'explains' or 'predicts': whatever does the explaining goes across the bottom.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0032",
+   "topicId": "maths-data-y10",
+   "stem": "A digital tool fits the line y = 4.5x + 42 to data on hours of study (x) and test score out of 100 (y). What score does the line predict for a student who studies 8 hours?",
+   "imageRef": null,
+   "options": [
+    "36",
+    "46.5",
+    "340.5",
+    "78"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting x = 8 gives 4.5 \u00d7 8 + 42 = 36 + 42 = 78. The answer 36 comes from multiplying by the gradient but forgetting to add the vertical intercept, which is the most common slip. The value 340.5 comes from swapping the roles of the gradient and the intercept, so check which number is attached to x before substituting.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0033",
+   "topicId": "maths-data-y10",
+   "stem": "For a set of used cars, a fitted line is price = 28000 \u2212 1450 \u00d7 (age in years). What does the number 1450 tell you?",
+   "imageRef": null,
+   "options": [
+    "A car costs about $1450 when it is brand new",
+    "On average, price falls by about $1450 for each extra year of age",
+    "The oldest car in the data set is worth about $1450",
+    "Every car in the data set loses exactly $1450 in value each year"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient of a fitted line gives the average change in the response variable for a one-unit increase in the explanatory variable, so each extra year is associated with an average drop of $1450 in price. Saying every car loses exactly $1450 ignores the variation the line is fitted through \u2014 individual points sit above and below it. The value at age 0 is given by the intercept, $28 000, not by the gradient.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0034",
+   "topicId": "maths-data-y10",
+   "stem": "A digital tool draws a line of best fit that passes through the points (2, 14) and (10, 46). What is the equation of this line?",
+   "imageRef": null,
+   "options": [
+    "y = 4x \u2212 6",
+    "y = 0.25x + 13.5",
+    "y = 32x + 14",
+    "y = 4x + 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The gradient is (46 \u2212 14) \u00f7 (10 \u2212 2) = 32 \u00f7 8 = 4, and substituting (2, 14) gives 14 = 4 \u00d7 2 + c, so c = 6. The equation with gradient 0.25 comes from dividing the change in x by the change in y instead of the other way round. Always set up rise over run as (change in y) \u00f7 (change in x) before finding the intercept.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0035",
+   "topicId": "maths-data-y10",
+   "stem": "A line fits ice-cream sales against temperatures from 14\u00b0C to 34\u00b0C. Why is predicting sales at 45\u00b0C a limitation?",
+   "imageRef": null,
+   "options": [
+    "The line only works for values that appear exactly as points in the original data",
+    "A straight line can never predict, only describe the direction of a relationship",
+    "It is extrapolation beyond the range of the data, where the pattern may not continue",
+    "It is interpolation, and interpolation is always less reliable than reading the data"
+   ],
+   "correctIndex": 2,
+   "explanation": "A fitted line only summarises the pattern over the range of data actually collected; predicting outside that range (extrapolation) assumes the same straight-line behaviour continues, which is unverified and may fail. The option calling 45\u00b0C interpolation misnames the process \u2014 interpolation means predicting within the range of the data, and it is generally the more reliable use of the line. The cue: check whether the x-value sits inside or outside the smallest and largest observed x-values.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0036",
+   "topicId": "maths-data-y10",
+   "stem": "A spreadsheet fits the line cost = 3.2 \u00d7 (distance in km) + 5.5 to taxi trips ranging from 2 km to 25 km. A 12 km trip actually cost $47.20, while the line predicts $43.90. What does this difference show?",
+   "imageRef": null,
+   "options": [
+    "The line has been fitted incorrectly and should pass through every data point",
+    "There is no linear relationship between distance and cost for these taxi trips",
+    "The prediction is invalid because 12 km is outside the range of the data used",
+    "Natural variation about the line \u2014 individual points scatter around the fitted trend"
+   ],
+   "correctIndex": 3,
+   "explanation": "A line of best fit describes an overall trend, so real observations sit above or below it; the gap between the actual $47.20 and the predicted $43.90 is ordinary variation caused by traffic, waiting time and other factors. Saying the line is fitted incorrectly misunderstands the purpose of the fit \u2014 no straight line can pass through all points of scattered bivariate data. The cue: a single point differing from the line is variation, whereas a systematic curved pattern in the differences would suggest a line is the wrong model.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0037",
+   "topicId": "maths-data-y10",
+   "stem": "A student uses a spreadsheet to plot 25 pairs of data and the points form a clear curved pattern that rises steeply then levels off. The software still reports a straight line of best fit. What is the most appropriate response?",
+   "imageRef": null,
+   "options": [
+    "The straight line is suitable, because any set of paired numerical data can be summarised by its line of best fit",
+    "The straight line is not suitable, because a line of best fit can only be used when the data set has fewer than 20 points",
+    "The straight line is not a suitable summary here, because the points follow a curve rather than scattering evenly about a line",
+    "The straight line is suitable, because software only fits a line when the relationship between the variables is strong"
+   ],
+   "correctIndex": 2,
+   "explanation": "A straight line is only an appropriate model when the points scatter randomly above and below a line with no systematic pattern left over; a clear curve means the line would overpredict in some regions and underpredict in others. The option saying software only fits a line when the relationship is strong is tempting, but a spreadsheet will calculate a line for any pair of numerical columns, including data with no relationship or a curved one \u2014 it does not check whether a line is sensible. The cue is to look at the shape of the plotted points first, and only then decide whether a line is a fair description.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0038",
+   "topicId": "maths-data-y10",
+   "stem": "In probability notation, P(A given B) is described in words as:",
+   "imageRef": null,
+   "options": [
+    "the probability that A occurs before B occurs in a sequence of trials",
+    "the probability that A occurs, considering only the outcomes in which B has occurred",
+    "the probability that both A and B occur out of all possible outcomes",
+    "the probability that B occurs, considering only the outcomes in which A occurred"
+   ],
+   "correctIndex": 1,
+   "explanation": "Conditioning on B means the sample space shrinks to just those outcomes where B happened, and we ask how often A happens within that reduced set. The option about both A and B occurring out of all outcomes describes the joint probability P(A and B), which uses the full sample space as its denominator, not just the B outcomes. The cue is the word 'given': whatever follows it becomes the new whole.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0039",
+   "topicId": "maths-data-y10",
+   "stem": "A transport report states: P(bus is late given it is raining) = 0.7. Which sentence says exactly the same thing?",
+   "imageRef": null,
+   "options": [
+    "The probability that it is raining and the bus is late is 0.7",
+    "On 70% of all days across the year the bus runs late",
+    "If it is raining, then the probability the bus is late is 0.7",
+    "If the bus is late, then the probability it is raining is 0.7"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Given it is raining' sets the condition, so the 0.7 applies only within rainy days \u2014 exactly what the 'if it is raining, then...' wording says. The sentence starting 'If the bus is late' reverses the condition and asks a completely different question, since most late buses might occur on dry days if dry days are far more common. Check which event is being assumed and which is being measured before you rewrite a conditional statement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0040",
+   "topicId": "maths-data-y10",
+   "stem": "In a survey of 60 students, 40 play a sport. Of those 40, 25 also play a musical instrument. Of the 20 who play no sport, 5 play an instrument. What is the probability that a randomly chosen student plays an instrument, given that they play a sport?",
+   "imageRef": null,
+   "options": [
+    "25/30",
+    "40/60",
+    "25/40",
+    "25/60"
+   ],
+   "correctIndex": 2,
+   "explanation": "The condition 'given that they play a sport' restricts attention to the 40 sport players, and 25 of those play an instrument, so the probability is 25/40 = 0.625. The value 25/30 is the reversed conditional: 30 students play an instrument in total, so 25/30 is the probability of playing sport given they play an instrument. Always put the 'given' group in the denominator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0041",
+   "topicId": "maths-data-y10",
+   "stem": "At a school, 30% of students walk to school. Of those who walk, 20% arrive late. What percentage of all the school's students both walk and arrive late?",
+   "imageRef": null,
+   "options": [
+    "6%",
+    "20%",
+    "26%",
+    "50%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 20% is a conditional rate applied only to walkers, so the fraction of all students who walk and are late is 0.30 \u00d7 0.20 = 0.06, or 6%. Choosing 20% treats the conditional rate as if it applied to the whole school, which is the classic 'of' mistake. The phrase 'of those who walk' tells you the 20% is measured inside the walker group only, so it must be multiplied by the size of that group.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0042",
+   "topicId": "maths-data-y10",
+   "stem": "A spreadsheet runs 2000 simulated trials of a card game. In 640 trials the first card drawn was a picture card, and in 160 of those 640 the second card was also a picture card. What is the simulation's estimate of P(second card is a picture card, given the first was)?",
+   "imageRef": null,
+   "options": [
+    "160/640 = 0.25",
+    "160/2000 = 0.08",
+    "640/2000 = 0.32",
+    "640/160 = 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The condition restricts the simulation to the 640 trials where the first card was a picture card, and 160 of those had a second picture card, giving an estimate of 0.25. Using 160/2000 divides by every trial run, which estimates the probability that both cards are picture cards, not the conditional probability. In simulation results, the count of trials meeting the condition is always the denominator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0043",
+   "topicId": "maths-data-y10",
+   "stem": "For two events A and B, P(A) = 0.4 and P(A given B) = 0.4. What does this tell you?",
+   "imageRef": null,
+   "options": [
+    "P(B given A) must also equal 0.4, because conditional probabilities are symmetric",
+    "P(A and B) = 0.4, because the conditional and unconditional values are equal",
+    "A and B are independent, since knowing B occurred does not change the chance of A",
+    "A and B are mutually exclusive, since B occurring leaves A's chance unchanged"
+   ],
+   "correctIndex": 2,
+   "explanation": "Independence means conditioning on one event leaves the other's probability unaltered, which is exactly what P(A given B) = P(A) states. Mutually exclusive is the opposite situation: if B occurred, A could not, so P(A given B) would be 0, not 0.4. Conditional probabilities are not symmetric \u2014 P(B given A) equals P(B), which need not be 0.4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0044",
+   "topicId": "maths-data-y10",
+   "stem": "A disease affects 2% of a population. A screening test is positive for 90% of people who have the disease, and is also positive for 10% of people who do not. In a group of 1000 people, what is the approximate probability that a person who tests positive actually has the disease?",
+   "imageRef": null,
+   "options": [
+    "About 80%, because 90% accuracy minus the 10% false positive rate leaves 80%",
+    "About 16%, because 18 of the 116 positive results come from people with the disease",
+    "About 90%, because the test is positive for 90% of people who have the disease",
+    "About 2%, because only 2% of the population has the disease at all"
+   ],
+   "correctIndex": 1,
+   "explanation": "Of 1000 people, 20 have the disease and 18 of them test positive, while 980 do not and 98 of those test positive anyway, giving 116 positives of which 18 are genuine, about 16%. Answering 90% is the classic reversal: that figure is P(positive given disease), not P(disease given positive), and it ignores the large healthy group producing false positives. When a rare condition meets an imperfect test, always build the frequency table before reading off a conditional.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0045",
+   "topicId": "maths-data-y10",
+   "stem": "A health flyer states: \"Of people who have hay fever, 80% sneeze in spring.\" A student concludes: \"So if someone sneezes in spring, there is an 80% chance they have hay fever.\" Which statement best identifies the student's mistake?",
+   "imageRef": null,
+   "options": [
+    "The student has added two probabilities that should have been multiplied, so the figure of 80% has been made too large",
+    "The student has misread the word \"of\", because the flyer's 80% is really the probability of having hay fever and sneezing",
+    "The student has reversed the condition and the outcome: P(sneezes given hay fever) is not the same as P(hay fever given sneezes)",
+    "The student has assumed the two events are independent, when the flyer shows that sneezing depends on having hay fever"
+   ],
+   "correctIndex": 2,
+   "explanation": "The flyer conditions on having hay fever, so 80% is P(sneezes given hay fever). Swapping the order gives P(hay fever given sneezes), a different quantity, because far more people sneeze in spring than have hay fever. The tempting option about independence is wrong: the flyer does not claim independence, and the student's error is not an assumption of independence but a reversal of the conditioning event. A useful cue is to underline the words after \"of\", \"given\" or \"knowing that\" \u2014 that group is the condition, and it cannot be switched with the outcome.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0046",
+   "topicId": "maths-data-y10",
+   "stem": "Two events A and B are independent when:",
+   "imageRef": null,
+   "options": [
+    "knowing B occurred makes A certain to occur as well",
+    "the probability of A is unchanged by knowing whether B occurred",
+    "A and B cannot both occur in the same trial of the experiment",
+    "the probability of A is equal to the probability of B"
+   ],
+   "correctIndex": 1,
+   "explanation": "Independence means information about one event gives you no information about the other, so P(A given B) = P(A). The option saying A and B cannot both occur describes mutually exclusive events, which is a different idea \u2014 in fact mutually exclusive events with non-zero probability are dependent, because if one happens the other definitely cannot. Cue: independence is about probabilities staying the same, not about outcomes clashing or being equal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0047",
+   "topicId": "maths-data-y10",
+   "stem": "A bag holds 10 marbles. One marble is drawn, then a second is drawn WITHOUT replacement. Compared with drawing with replacement, the second draw:",
+   "imageRef": null,
+   "options": [
+    "always has a higher chance of matching the colour of the first marble",
+    "has different probabilities, because only 9 marbles remain and the mix has changed",
+    "has the same probabilities, because each marble is still equally likely to be picked",
+    "is impossible to assign probabilities to, because the bag has been disturbed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Without replacement the sample space shrinks and the composition changes, so the second-stage probabilities depend on what was drawn first \u2014 the draws are dependent. The option saying probabilities stay the same describes drawing WITH replacement, where the bag is restored each time. Cue: if the item goes back, stages are independent; if it does not, the denominator drops by one and the counts change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0048",
+   "topicId": "maths-data-y10",
+   "stem": "A fair coin is tossed three times and the sequence of results is recorded. How many equally likely outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "8",
+    "6",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each toss has 2 possible results and the tosses are independent, so the number of ordered outcomes is 2 \u00d7 2 \u00d7 2 = 8. The answer 6 comes from adding 2 + 2 + 2 instead of multiplying along the branches of the tree diagram. Cue: for a multi-step experiment, multiply the number of options at each step.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0049",
+   "topicId": "maths-data-y10",
+   "stem": "A bag contains 5 red and 3 blue counters. Two counters are drawn without replacement. What is the probability that both are red?",
+   "imageRef": null,
+   "options": [
+    "25/64",
+    "5/28",
+    "10/16",
+    "5/14"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(first red) = 5/8, and with one red gone P(second red) = 4/7, so the product is 20/56 = 5/14. The answer 25/64 comes from using 5/8 \u00d7 5/8, which treats the draws as if the first counter were replaced. Cue: without replacement, reduce both the favourable count and the total by one for the second stage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0050",
+   "topicId": "maths-data-y10",
+   "stem": "A fair six-sided die is rolled twice. What is the probability of getting at least one 6?",
+   "imageRef": null,
+   "options": [
+    "1/36",
+    "5/36",
+    "11/36",
+    "1/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "'At least one 6' is easiest as the complement of 'no 6 at all': P(no 6) = 5/6 \u00d7 5/6 = 25/36, so P(at least one 6) = 1 \u2212 25/36 = 11/36. The answer 1/3 comes from adding 1/6 + 1/6, which double-counts the outcome where both dice show 6. Cue: for 'at least one', find the probability of none and subtract from 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0051",
+   "topicId": "maths-data-y10",
+   "stem": "For two events A and B, P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "A and B are mutually exclusive, since 0.5 + 0.4 \u2260 1",
+    "A and B are dependent, since P(A) is greater than P(B)",
+    "A and B are independent, since 0.5 \u00d7 0.4 = 0.2",
+    "A and B are dependent, since P(A and B) is not 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The test for independence is whether P(A and B) = P(A) \u00d7 P(B); here 0.5 \u00d7 0.4 = 0.2, which matches, so the events are independent. The option claiming dependence because P(A and B) is not 0 confuses independence with mutual exclusivity \u2014 a non-zero overlap is exactly what independent events with positive probabilities must have. Cue: multiply the two separate probabilities and compare with the given 'and' probability.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0052",
+   "topicId": "maths-data-y10",
+   "stem": "A jar contains 4 red and 6 green counters. Three counters are drawn without replacement. What is the probability that all three are green?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "27/125",
+    "1/8",
+    "18/30"
+   ],
+   "correctIndex": 0,
+   "explanation": "The three stages give 6/10 \u00d7 5/9 \u00d7 4/8 = 120/720 = 1/6, since each green taken reduces both the greens and the total. The answer 27/125 comes from (6/10)\u00b3, which assumes each counter is replaced before the next draw. Cue: in a three-step without-replacement problem, write three fractions with denominators 10, 9 and 8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0053",
+   "topicId": "maths-data-y10",
+   "stem": "Two cards are dealt from a standard 52-card deck without replacement. What is the probability that both are hearts?",
+   "imageRef": null,
+   "options": [
+    "1/16",
+    "13/102",
+    "1/26",
+    "1/17"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(first heart) = 13/52 = 1/4 and then P(second heart) = 12/51, so the product is 156/2652 = 1/17. The answer 1/16 comes from 1/4 \u00d7 1/4, which would be right only if the first card were returned and the deck reshuffled. Cue: dealing is without replacement, so the second denominator is 51 and the second numerator is 12.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0054",
+   "topicId": "maths-data-y10",
+   "stem": "On a boxplot of continuous data, what does the length of the box (from one end to the other) represent?",
+   "imageRef": null,
+   "options": [
+    "The full range of the data, covering 100% of the data values",
+    "The middle 25% of the data values, from the median up to Q3",
+    "The distance from the smallest value to the median of the data",
+    "The interquartile range, covering the middle 50% of the data values"
+   ],
+   "correctIndex": 3,
+   "explanation": "The ends of the box are the lower quartile (Q1) and the upper quartile (Q3), so its length is Q3 \u2212 Q1, the interquartile range, and it spans the central half of the ordered data. The option naming the full range is wrong because the range is measured from the end of one whisker to the end of the other, not across the box. Remember: whiskers carry the extremes, the box carries the middle 50%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0055",
+   "topicId": "maths-data-y10",
+   "stem": "In a histogram of 150 students' 100 m sprint times, one bar sits above the interval 13 s to 14 s and has a height of 26. What does the 26 tell you?",
+   "imageRef": null,
+   "options": [
+    "26 different sprint times were recorded somewhere in the data set",
+    "26 of the students had a time in the interval from 13 s to 14 s",
+    "26 of the students had a time of exactly 13.5 s, the interval's midpoint",
+    "26 of the students had a time of 14 s or less in the whole data set"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a histogram the height of each bar is the frequency of that class interval, that is, how many data values fall inside it. The option about 14 s or less describes a cumulative frequency, which builds up across all earlier bars rather than being read from one bar. The cue is the word 'interval': a single bar reports a count for its own interval only.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0056",
+   "topicId": "maths-data-y10",
+   "stem": "A dot plot has most dots between 5 s and 7 s, plus three isolated dots at 12 s, 13 s and 14 s. Describe it.",
+   "imageRef": null,
+   "options": [
+    "Approximately uniform, since dots appear right across the range",
+    "Positively skewed, with the three high times as possible outliers",
+    "Negatively skewed, with the three high times as possible outliers",
+    "Roughly symmetric, with a large spread caused by the high times"
+   ],
+   "correctIndex": 1,
+   "explanation": "Skew is named for the direction of the long thin tail: here the bulk of the data sits at low times and the tail stretches towards high times, so the distribution is positively (right) skewed, and the separated high values are candidate outliers. Calling it negatively skewed reverses the naming, which describes a tail towards the low values. Check where the tail points, not where the peak is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0057",
+   "topicId": "maths-data-y10",
+   "stem": "For the ordered data 4, 7, 8, 11, 13, 14, 16, 19, 21, 24, 30, what are the median and interquartile range?",
+   "imageRef": null,
+   "options": [
+    "Median 14.5 and interquartile range 13",
+    "Median 13 and interquartile range 10",
+    "Median 14 and interquartile range 13",
+    "Median 14 and interquartile range 26"
+   ],
+   "correctIndex": 2,
+   "explanation": "With 11 values the median is the 6th value, 14; the lower five values give Q1 = 8 and the upper five give Q3 = 21, so the IQR is 21 \u2212 8 = 13. The answer with IQR 26 comes from using the range of the whole data set minus something similar, or from doubling the IQR, not from Q3 \u2212 Q1. With an odd number of values, leave the median out of both halves when finding the quartiles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0058",
+   "topicId": "maths-data-y10",
+   "stem": "For a set of daily temperatures, Q1 = 22\u00b0C and Q3 = 34\u00b0C. Using the 1.5 \u00d7 IQR rule, which of these recorded values would be flagged as an outlier?",
+   "imageRef": null,
+   "options": [
+    "48\u00b0C",
+    "6\u00b0C",
+    "55\u00b0C",
+    "50\u00b0C"
+   ],
+   "correctIndex": 2,
+   "explanation": "The IQR is 34 \u2212 22 = 12, so 1.5 \u00d7 IQR = 18 and the fences are at 22 \u2212 18 = 4\u00b0C and 34 + 18 = 52\u00b0C; only 55\u00b0C lies beyond a fence. Values such as 50\u00b0C and 48\u00b0C look extreme but are still inside the upper fence of 52\u00b0C, so the rule does not flag them. Always compute the fences first, then compare, rather than judging by eye.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0059",
+   "topicId": "maths-data-y10",
+   "stem": "Boxplots of tomato masses (grams) give Farm A the five-number summary 80, 95, 110, 130, 160 and Farm B the summary 90, 100, 105, 115, 140. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Farm A has the larger interquartile range but the lower median",
+    "Farm A has the higher median and the larger interquartile range",
+    "Farm B has the higher median and the larger interquartile range",
+    "The two farms have equal medians but Farm B has the larger range"
+   ],
+   "correctIndex": 1,
+   "explanation": "Farm A's median is 110 g against Farm B's 105 g, and Farm A's IQR is 130 \u2212 95 = 35 g against Farm B's 115 \u2212 100 = 15 g, so Farm A is centred higher and its middle 50% is more spread out. The option pairing a larger IQR for Farm A with a lower median mixes up which farm has the higher middle value. Read the third number of each summary for centre and subtract the second from the fourth for spread.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0060",
+   "topicId": "maths-data-y10",
+   "stem": "Two Year 10 classes recorded their 40 m walking times. Their boxplots are identical, yet a histogram of Class P shows one clear central peak while Class Q's histogram has two separate peaks. What does this show?",
+   "imageRef": null,
+   "options": [
+    "Boxplots can hide features such as two peaks, so histograms or dot plots should also be examined",
+    "Identical boxplots guarantee identical distributions, so one of the histograms must be drawn incorrectly",
+    "Boxplots always reveal clustering, so the two classes must have different quartiles after all",
+    "Histograms cannot show the shape of a distribution, so only the boxplot information is reliable"
+   ],
+   "correctIndex": 0,
+   "explanation": "A boxplot summarises a distribution using only five positions, so it reports centre, spread and possible outliers but not how the data clump between those positions; two very differently shaped sets can share a five-number summary. Claiming identical boxplots guarantee identical distributions confuses a summary with the full data. When shape matters, plot a histogram or dot plot alongside the boxplot.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0061",
+   "topicId": "maths-data-y10",
+   "stem": "On a scatterplot the points form a narrow band from upper left to lower right. This shows:",
+   "imageRef": null,
+   "options": [
+    "a negative direction, because as one variable increases the other decreases",
+    "a positive direction, because both variables are still changing together steadily",
+    "no direction, because a downward trend means the variables are unrelated",
+    "a non-linear form, because the band slopes downwards rather than upwards"
+   ],
+   "correctIndex": 0,
+   "explanation": "Direction is read from whether y tends to rise or fall as x increases: a band running from upper left to lower right means larger x values go with smaller y values, which is a negative association. Saying it is positive because 'both variables change together' confuses any relationship with an increasing one \u2014 positive means they increase together. The cue is the slope of the overall pattern: up to the right is positive, down to the right is negative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0062",
+   "topicId": "maths-data-y10",
+   "stem": "When commenting on the strength of the association shown in a scatterplot, you are describing:",
+   "imageRef": null,
+   "options": [
+    "whether the pattern in the points rises or falls as x increases",
+    "how closely the points cluster about the overall straight-line pattern",
+    "how steep the gradient of the line of good fit turns out to be",
+    "how many data points were plotted on the scatterplot altogether"
+   ],
+   "correctIndex": 1,
+   "explanation": "Strength is about scatter: the tighter the points sit around the trend, the stronger the association, and a wide cloud means a weak association. Steepness of the line is the most tempting wrong choice, but a very steep line can still have points scattered far from it, so gradient says nothing about strength. Remember: gradient answers 'how fast', scatter answers 'how strong'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0063",
+   "topicId": "maths-data-y10",
+   "stem": "Commenting on the linearity of an association means judging:",
+   "imageRef": null,
+   "options": [
+    "whether the overall pattern of points follows a straight line or a curve",
+    "whether the line of good fit has a positive rather than negative gradient",
+    "whether the line of good fit passes exactly through the origin (0, 0)",
+    "whether the two variables have been measured in the same units"
+   ],
+   "correctIndex": 0,
+   "explanation": "Linearity is about form: if the points trend along a straight path the association is linear, and if they bend systematically (for example rising then levelling off) it is non-linear. The option about a positive gradient describes direction, not form \u2014 a falling straight-line pattern is still perfectly linear. Ask 'straight or curved?' for linearity and 'up or down?' for direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0064",
+   "topicId": "maths-data-y10",
+   "stem": "A scatterplot of 30 second-hand laptops shows age (years) against selling price ($). The points sit in a tight, straight band that falls steadily from left to right. The association is best described as:",
+   "imageRef": null,
+   "options": [
+    "strong, positive and linear",
+    "weak, negative and non-linear",
+    "strong, negative and non-linear",
+    "strong, negative and linear"
+   ],
+   "correctIndex": 3,
+   "explanation": "A tight band means strong, falling from left to right means negative, and a straight band means linear. Calling it 'strong, negative and non-linear' is tempting if you assume any sloping-down pattern must curve, but the stem says the band is straight, so the form is linear. Read the three features separately: tightness for strength, slope for direction, straight-or-curved for form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0065",
+   "topicId": "maths-data-y10",
+   "stem": "A student draws a line of good fit by eye on a scatterplot showing a clear linear trend. The line is best placed so that it:",
+   "imageRef": null,
+   "options": [
+    "follows the overall trend with roughly as many points above it as below",
+    "joins the leftmost point to the rightmost point of the data set",
+    "passes through the origin so that predictions begin at zero",
+    "passes through the highest and the lowest y-values in the data"
+   ],
+   "correctIndex": 0,
+   "explanation": "A line of good fit summarises the whole pattern, so it should run along the trend through the middle of the cloud with the points balanced above and below it. Joining the leftmost and rightmost points is tempting because it is easy to do, but those two points may be unusual and the line would then ignore the 28 points in between. Check your line by counting points on each side \u2014 they should be roughly equal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0066",
+   "topicId": "maths-data-y10",
+   "stem": "A class records daily screen time (hours) and sleep (hours) for six students: (1, 8.5), (2, 8.0), (3, 8.1), (4, 7.4), (5, 7.0), (6, 6.6). Plotted as a scatterplot, this data shows an association that is:",
+   "imageRef": null,
+   "options": [
+    "fairly strong, negative and approximately linear",
+    "fairly strong, positive and approximately linear",
+    "very weak, with no clear direction or form",
+    "fairly strong, negative and clearly non-linear"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sleep falls by roughly 0.4 hours for each extra hour of screen time, with only one small wobble at (3, 8.1), so the points sit close to a straight downward path: strong, negative, approximately linear. Choosing 'clearly non-linear' overreacts to that single wobble \u2014 a curve would show a steady bend in one direction, not one point slightly out of step. Check whether the drops between consecutive y-values are roughly equal; if so, the form is linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0067",
+   "topicId": "maths-data-y10",
+   "stem": "Scatterplot A has points lying in a very narrow band along a gently rising line. Scatterplot B has points spread widely on both sides of a steeply rising line. Which plot shows the stronger association, and why?",
+   "imageRef": null,
+   "options": [
+    "Plot B, because the wider spread of points means the data covers a greater range of values",
+    "Plot A, because a gentle gradient always indicates a more reliable relationship between variables",
+    "Plot A, because strength depends on how little the points scatter about the trend, not on the gradient",
+    "Plot B, because the steeper line means each unit increase in x produces a bigger change in y"
+   ],
+   "correctIndex": 2,
+   "explanation": "Strength is measured by how tightly the points hug the trend, so the narrow band in Plot A is the stronger association even though its line is not steep. Choosing Plot B for its steeper line confuses rate of change with strength \u2014 a steep line with points scattered far from it predicts poorly. Judge strength by the width of the band of points, then use the gradient only to describe how quickly y changes.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0068",
+   "topicId": "maths-data-y10",
+   "stem": "A scatterplot of 25 seedlings shows fertiliser applied (grams) against height gained (cm). The points lie close to a smooth curve that climbs steeply at first and then flattens off at the right-hand side. How should this association be described?",
+   "imageRef": null,
+   "options": [
+    "No association, because a single straight line cannot summarise the points",
+    "Strong and positive, but not linear, since the points follow a clear curved path",
+    "Weak and positive, because points that do not lie on a straight line show scatter",
+    "Strong, positive and linear, because the height gained never decreases"
+   ],
+   "correctIndex": 1,
+   "explanation": "Strength is about how closely the points cluster around a clear pattern, direction is about whether the response rises or falls as the explanatory variable increases, and linearity is a separate judgement about whether that pattern is a straight line. Here the points hug a curve tightly (strong) and height gained rises throughout (positive), but the flattening shows the form is non-linear. The tempting choice is 'Weak and positive, because points that do not lie on a straight line show scatter' \u2014 but departure from a straight line is a linearity issue, not scatter; these points sit very close to their curve. Cue: judge strength by how tightly the points cluster about the pattern, and judge linearity by the shape of that pattern.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0069",
+   "topicId": "maths-data-y10",
+   "stem": "A two-way table is used to display data about:",
+   "imageRef": null,
+   "options": [
+    "one categorical variable and its running cumulative totals",
+    "two categorical variables recorded for the same group of individuals",
+    "one numerical variable measured on two separate occasions",
+    "two numerical variables plotted against each other as coordinates"
+   ],
+   "correctIndex": 1,
+   "explanation": "A two-way table cross-classifies each individual by the categories of two categorical variables, with counts in the cells. Comparing one numerical variable twice, or pairing two numerical variables, calls for displays like boxplots or scatterplots instead. The cue is 'categories in rows and categories in columns' \u2014 the entries are frequencies, not measurements.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0070",
+   "topicId": "maths-data-y10",
+   "stem": "In a two-way table of 200 people classified by 'wears glasses' (yes/no) and 'plays a sport' (yes/no), what does the number in the bottom-right corner cell of the margins represent?",
+   "imageRef": null,
+   "options": [
+    "The total number of people surveyed, 200",
+    "The number of people who both wear glasses and play a sport",
+    "The number of people who neither wear glasses nor play a sport",
+    "The difference between the two row totals"
+   ],
+   "correctIndex": 0,
+   "explanation": "The corner of the margin row and margin column is the grand total, since it is the sum of all row totals and of all column totals. The tempting choice 'neither wear glasses nor play a sport' is a cell inside the body of the table (the no/no cell), not the margin corner. Check whether the cell sits inside the four data cells or in the shaded totals strip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0071",
+   "topicId": "maths-data-y10",
+   "stem": "A two-way table shows: of 90 students, 36 own a pet and study music, 14 own a pet and do not study music, 20 own no pet and study music, 20 own no pet and do not study music. How many students study music?",
+   "imageRef": null,
+   "options": [
+    "56",
+    "50",
+    "36",
+    "70"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 'studies music' column total adds the two music cells: 36 + 20 = 56. Choosing 50 adds the pet owners (36 + 14) instead, which is the row total, not the column total. Read across for a row total and down for a column total, and check your four cells still sum to 90.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0072",
+   "topicId": "maths-data-y10",
+   "stem": "In a two-way table, a percentage such as 'of the 80 left-handers, 25% play tennis' is called a:",
+   "imageRef": null,
+   "options": [
+    "row percentage, found by dividing a cell by its own row total",
+    "joint percentage, found by dividing a cell by the grand total",
+    "column percentage, found by dividing a cell by the grand total",
+    "marginal percentage, found by dividing a row total by a column total"
+   ],
+   "correctIndex": 0,
+   "explanation": "Because the 80 left-handers form one row, dividing a cell in that row by 80 gives a row percentage \u2014 it describes the breakdown within that category. A joint percentage would divide by the grand total of everyone surveyed, not by the 80. The cue is the phrase 'of the ...' \u2014 whatever follows it is the denominator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0073",
+   "topicId": "maths-data-y10",
+   "stem": "A survey of 150 people gives: of 60 city residents, 45 use public transport; of 90 country residents, 27 use public transport. What is the best comparison?",
+   "imageRef": null,
+   "options": [
+    "45 city residents use it compared with 27 country residents, so city residents are more likely by 18 people",
+    "Since more country residents were surveyed, country residents are more likely to use public transport",
+    "75% of city residents use public transport compared with 30% of country residents, suggesting an association",
+    "72 of 150 people use public transport, so residence and transport use are unrelated"
+   ],
+   "correctIndex": 2,
+   "explanation": "To compare groups of unequal size you must convert to percentages within each row: 45/60 = 75% and 27/90 = 30%. The count comparison '45 compared with 27' is misleading because the two groups have different totals, so a difference of 18 people says nothing about likelihood. Whenever row totals differ, compare proportions, not raw counts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0074",
+   "topicId": "maths-data-y10",
+   "stem": "In a two-way table of 200 people, 120 own a bicycle and 80 live in an apartment. If bicycle ownership and living in an apartment were completely unrelated, how many of the apartment dwellers would you expect to own a bicycle?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "48",
+    "60",
+    "80"
+   ],
+   "correctIndex": 1,
+   "explanation": "If there is no relationship, the bicycle-owning rate should be the same in every group: 120/200 = 60%, so 60% of the 80 apartment dwellers, which is 0.6 \u00d7 80 = 48. Choosing 40 assumes a 50/50 split of the apartment dwellers, which ignores the fact that 60% of the whole sample owns a bicycle. Apply the overall rate to the group total.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0075",
+   "topicId": "maths-data-y10",
+   "stem": "A two-way table shows 120 students by part-time job (yes/no) and team sport (yes/no). How does it work?",
+   "imageRef": null,
+   "options": [
+    "Both variables must first be converted to numerical values and grouped into intervals",
+    "The margin figures show the largest count in each row and each column",
+    "Each student sits in exactly one cell, and the row and column totals each add to 120",
+    "A student with both a job and a sport sits in two cells, so counts exceed 120"
+   ],
+   "correctIndex": 2,
+   "explanation": "A two-way table cross-classifies every individual by one category from each variable, so each person falls in exactly one of the four inner cells; the margins are the sums of those cells, and the row totals and column totals must both add back to the sample size of 120. The idea that someone with both attributes is counted twice is the common trap \u2014 that combination is exactly what one single cell is for, so double counting would break the totals. Cue: the four inner cells partition the sample, so they always sum to the grand total.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0076",
+   "topicId": "maths-data-y10",
+   "stem": "A supermarket surveys 240 shoppers. Of the 60 shoppers aged under 30, 45 used the self-checkout. Of the 180 shoppers aged 30 and over, 72 used the self-checkout. What is the best comment on the relationship between age group and self-checkout use?",
+   "imageRef": null,
+   "options": [
+    "There is a relationship, and it shows that being aged under 30 causes a shopper to choose the self-checkout",
+    "There is a relationship: 75% of under-30 shoppers used self-checkout, compared with 40% of those aged 30 and over",
+    "There is no relationship: overall 117 of the 240 shoppers used self-checkout, which is close to half",
+    "Self-checkout use is higher among shoppers aged 30 and over, since 72 of them used it compared with 45 under-30s"
+   ],
+   "correctIndex": 1,
+   "explanation": "To compare groups of different sizes you must compare percentages within each row: 45 out of 60 is 75% and 72 out of 180 is 40%, and that large gap indicates an association between age group and self-checkout use. The tempting wrong answer is the one claiming higher use among those aged 30 and over because 72 is bigger than 45 \u2014 raw counts are misleading here because that group has three times as many shoppers. Cue: in a two-way table, always convert to row (or column) percentages before comparing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0077",
+   "topicId": "maths-data-y10",
+   "stem": "Which of the following is the best example of a representative sample for estimating the average weekly spending on public transport by students at a school of 900 students?",
+   "imageRef": null,
+   "options": [
+    "The first 90 students who arrive by train at the school gate one morning",
+    "The 90 students who volunteer after a notice is read in a Year 12 assembly",
+    "The 90 students in the school's travel and tourism elective classes",
+    "A random selection of 90 students drawn from the full enrolment list"
+   ],
+   "correctIndex": 3,
+   "explanation": "A representative sample must give every member of the population a known chance of selection, which random selection from the full enrolment list does. Choosing students arriving by train is tempting because the topic is transport, but it excludes students who walk, cycle or are driven, and those are exactly the people whose spending differs. Look for whether any group in the population has been shut out before you judge a sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0078",
+   "topicId": "maths-data-y10",
+   "stem": "A council report states: \"The mean household income in our area is $142,000, so most residents are comfortably off.\" Census figures show the median income is $61,000. What does the gap between the two statistics most likely indicate?",
+   "imageRef": null,
+   "options": [
+    "A small number of very high incomes has pulled the mean well above the typical income",
+    "Half the residents earn more than $142,000, so the claim is supported",
+    "The mean must have been calculated incorrectly, since it cannot exceed the median",
+    "Incomes are symmetrically distributed with a large spread around the centre"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean is sensitive to extreme values, so a right-skewed income distribution with a few very large incomes lifts the mean far above the median, which stays near the typical value. The option claiming half earn more than $142,000 confuses the mean with the median \u2014 it is the median, $61,000, that splits the group in half. When mean and median differ greatly, suspect skew or outliers and quote the median as the typical value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0079",
+   "topicId": "maths-data-y10",
+   "stem": "A news website runs a click-in poll. Of the 4200 people who responded, 78% said yes, and the site reports that most drivers in the state agree. What is the main problem with that claim?",
+   "imageRef": null,
+   "options": [
+    "Respondents selected themselves, so people who feel strongly are over-represented and the group is not representative of all drivers",
+    "The sample of 4200 is too small, because a poll must include at least 10% of the population",
+    "The results are reported as a percentage instead of raw numbers, which hides the size of the majority",
+    "The question offers only two answers, and any two-option question produces a result above 50%"
+   ],
+   "correctIndex": 0,
+   "explanation": "A voluntary or self-selected sample is biased because only people motivated to respond appear in it, so the 78% describes engaged readers of that site rather than all drivers in the state. The option about the sample being too small is the most tempting, but there is no rule requiring a fixed fraction of the population \u2014 a well-chosen sample of a few thousand can describe a whole state accurately, while a self-selected sample of any size cannot. The cue is to ask how people got into the sample, not just how many there are.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0080",
+   "topicId": "maths-data-y10",
+   "stem": "A sample is representative of a population when:",
+   "imageRef": null,
+   "options": [
+    "it is drawn only from the part of the population most affected by the issue",
+    "it holds an equal number from every age group, whatever the population's make-up",
+    "its members are chosen so the range of characteristics reflects the whole population",
+    "every member of the population has been surveyed, since anything less cannot support a conclusion"
+   ],
+   "correctIndex": 2,
+   "explanation": "Representativeness means the sample mirrors the population's mix of relevant characteristics, which is usually achieved by random or stratified selection. The option about surveying everyone confuses a census with representativeness \u2014 samples exist precisely so that conclusions can be drawn without a census. Watch for the word 'reflects the population': that, not size or fairness between groups, is the test.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0081",
+   "topicId": "maths-data-y10",
+   "stem": "A company's advertisement shows a bar graph of customer satisfaction for four brands, with bars of height 88%, 86%, 85% and 84%. The vertical axis is drawn from 83% to 89%, and the company's bar looks about five times as tall as its nearest rival's. What does this tell a careful reader?",
+   "imageRef": null,
+   "options": [
+    "The truncated axis exaggerates small differences, so the visual gap is far larger than the 2 percentage point difference in the data",
+    "The graph is misleading because bar graphs should never be used for percentage data; a line graph is required here",
+    "The company's satisfaction really is about five times its rival's, since bar heights are always proportional to the values",
+    "The graph is acceptable, because starting an axis above zero is only misleading when the data are counts rather than percentages"
+   ],
+   "correctIndex": 0,
+   "explanation": "When a bar graph's vertical axis does not start at zero, the bars no longer show the values in proportion, so tiny differences can be made to look dramatic. The option claiming the company really is five times better applies the 'bars are proportional' rule without checking the axis \u2014 that rule only holds when the axis starts at zero. Always read the axis scale before judging a comparison from bar heights.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0082",
+   "topicId": "maths-data-y10",
+   "stem": "A road safety report claims: \"Intersection A is twice as dangerous as Intersection B, because A had 40 crashes last year and B had 20.\" Traffic counts show 90,000 vehicles pass through A each week and 15,000 pass through B. What is the best criticism of the claim?",
+   "imageRef": null,
+   "options": [
+    "One year of data is never enough to compare two intersections, so no rate or count comparison can be meaningful",
+    "The counts are correct but should be converted to percentages of all crashes in the city before being compared",
+    "The claim is sound, because both crash figures were collected over the same one-year period at both sites",
+    "Comparing raw crash counts ignores traffic volume; per vehicle, Intersection B has the higher crash rate"
+   ],
+   "correctIndex": 3,
+   "explanation": "A fair comparison needs a rate \u2014 crashes per vehicle passing through \u2014 and B has 20 crashes on one-sixth of A's traffic, so B is the riskier intersection per vehicle. The option saying the claim is sound because the time period matches is tempting, since equal time periods do matter, but matching time does not fix the missing denominator of traffic volume. When counts are compared, ask 'out of how many?' before accepting the conclusion.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0083",
+   "topicId": "maths-data-y10",
+   "stem": "A drink manufacturer funds ten taste tests of its new sports drink and publishes only the three in which its drink was preferred, without mentioning the other seven. Which statement best describes the statistical and ethical problem?",
+   "imageRef": null,
+   "options": [
+    "The problem is only that the manufacturer funded the research, since results paid for by a company can never be valid data",
+    "Three trials is simply too few for any conclusion, so the report would have been acceptable if all ten had favoured the drink",
+    "There is no problem, because each of the three published trials was carried out and reported accurately in its own right",
+    "Selectively reporting only favourable trials misrepresents the full evidence, so the published preference is not a fair estimate"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reporting a chosen subset of results hides evidence that points the other way, so the published figure is biased and the audience cannot judge the claim \u2014 this is both a statistical flaw and an ethical breach. The option blaming the funding alone is tempting, because a conflict of interest is worth disclosing, but funded research can still be sound; it is the suppression of the unfavourable trials that makes this report dishonest. Ask whether all the data collected have been reported, not just whether each reported number is accurate.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0084",
+   "topicId": "maths-data-y10",
+   "stem": "A class investigates how a town's monthly rainfall has changed over the past five years. Which display is the appropriate choice for this bivariate data, where the independent variable is time?",
+   "imageRef": null,
+   "options": [
+    "A histogram in which the class intervals along the axis are the months",
+    "A line graph with time on the horizontal axis and the points joined in time order",
+    "A pie chart in which each month is shown as a sector of the yearly total",
+    "A two-way table with the months listed as one of the categorical variables"
+   ],
+   "correctIndex": 1,
+   "explanation": "When one variable is time, the data form a time series, and the standard display is a time series (line) graph: time on the horizontal axis, the measured variable on the vertical axis, and successive points joined so the trend over time is visible. The histogram option is tempting because months look like intervals, but a histogram shows the frequency distribution of a single numerical variable, not how a second variable changes across time. A pie chart shows parts of a whole, and a two-way table needs two categorical variables, so neither can display a trend. Cue: two numerical variables, one of them time, means a scatterplot or line graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0085",
+   "topicId": "maths-data-y10",
+   "stem": "A town's monthly water usage is recorded for three years. How should the graph be set up?",
+   "imageRef": null,
+   "options": [
+    "Water usage on the horizontal axis and time on the vertical, as usage is investigated",
+    "The variable with the smaller range on the horizontal axis, so the graph fits",
+    "Time on the vertical axis and water usage on the horizontal, as time increases steadily",
+    "Time on the horizontal axis and water usage on the vertical, as time is independent"
+   ],
+   "correctIndex": 3,
+   "explanation": "By convention the independent (explanatory) variable goes on the horizontal axis and the dependent (response) variable on the vertical axis; here time explains the changes in usage, so time is horizontal. The option putting usage on the horizontal axis 'because it is the variable being investigated' reverses the roles: being the focus of the investigation makes usage the dependent variable, not the independent one. Choice of axes is never decided by which range is smaller. Cue: ask 'which variable is used to explain the other?' \u2014 that one goes across the bottom.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0086",
+   "topicId": "maths-data-y10",
+   "stem": "A line of good fit covers x from 2 to 9. Predicting y at x = 25 is:",
+   "imageRef": null,
+   "options": [
+    "extrapolation; reliable, because a straight line extends indefinitely both ways",
+    "interpolation; unreliable, because values between plotted points were not measured",
+    "extrapolation; unreliable, because the pattern may not continue outside the data",
+    "interpolation; reliable, because the line was fitted using every data point"
+   ],
+   "correctIndex": 2,
+   "explanation": "Predicting outside the range of the collected data is extrapolation, and it is risky because there is no evidence that the same linear relationship holds beyond where data were gathered. The option calling extrapolation reliable 'because a straight line can be extended' confuses what is mathematically possible with what is statistically justified \u2014 the line can be drawn further, but the claim about the real situation is unsupported. Interpolation, by contrast, is prediction between existing data values and is generally the more trustworthy of the two. Cue: inside the data range means interpolate; outside means extrapolate and add a warning.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0087",
+   "topicId": "maths-data-y10",
+   "stem": "A shop's time series of monthly sales from 2018 to 2023 shows a steady upward trend except for one month with extremely low sales, which the owner knows was the month the shop was closed for flood repairs. How should the report handle this point?",
+   "imageRef": null,
+   "options": [
+    "Delete the point from the graph so the trend line fits the remaining months more closely, without comment",
+    "Treat the point as evidence that the long-term trend in sales is actually downwards",
+    "Adjust every other month's figure upwards so that the unusual month no longer stands out",
+    "Keep the point in the graph and explain its cause, noting that it does not reflect the underlying trend"
+   ],
+   "correctIndex": 3,
+   "explanation": "An unusual value with a known, one-off cause should be reported transparently and explained, so readers can see both the outlier and the trend it interrupts. Quietly deleting it is the tempting shortcut, but removing inconvenient data without disclosure misrepresents the investigation and hides information the reader needs. One extreme low month cannot reverse a trend established over six years, and altering the other months fabricates data. Cue: outliers get explained, not erased.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0088",
+   "topicId": "maths-data-y10",
+   "stem": "A class tests whether hours of sleep affect reaction time. How should the scatterplot be set up?",
+   "imageRef": null,
+   "options": [
+    "Sleep hours on the horizontal axis, reaction time on the vertical axis",
+    "Reaction time on the horizontal axis, sleep hours on the vertical axis",
+    "Both variables are categorical, so use a two-way table instead",
+    "Time is always independent, so the date of each measurement goes across"
+   ],
+   "correctIndex": 0,
+   "explanation": "The independent (explanatory) variable is the one thought to influence the other, and by convention it is plotted horizontally, with the dependent (response) variable plotted vertically. Here sleep is proposed as the influence and reaction time as the response. The option putting reaction time on the horizontal axis reverses the proposed direction of influence \u2014 reaction time is being explained, not doing the explaining. Both variables are numerical, so a scatterplot is the display, and time only becomes the independent variable in a time series where measurements are taken across dates.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0089",
+   "topicId": "maths-data-y10",
+   "stem": "A time series graph of a town's monthly electricity use over six years shows values peaking every January and dipping every October, while the overall level of the peaks and dips slowly rises year after year. How is this best reported?",
+   "imageRef": null,
+   "options": [
+    "Because the plotted points do not lie near a straight line, no trend can be reported from this data",
+    "There is a repeating seasonal pattern each year, superimposed on a gradual upward long-term trend",
+    "The regular rises and falls show there is no long-term trend in the town's electricity use",
+    "Each January peak should be treated as an outlier and removed before any trend is described"
+   ],
+   "correctIndex": 1,
+   "explanation": "A time series can contain both a seasonal component (a pattern that repeats over a fixed period, here one year) and a trend (the long-term direction), and both should be described. Saying there is no long-term trend confuses the within-year fluctuation with the year-on-year movement \u2014 the peaks themselves are getting higher, which is the trend. January peaks are part of a predictable annual pattern, not outliers, so removing them would distort the picture. Cue: look at whether successive cycles sit at higher levels to judge trend separately from seasonality.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0090",
+   "topicId": "maths-data-y10",
+   "stem": "What is the median of a data set?",
+   "imageRef": null,
+   "options": [
+    "The difference between extremes",
+    "The middle value when ordered",
+    "The most common value",
+    "The average of all values"
+   ],
+   "correctIndex": 1,
+   "explanation": "The median is the middle value once the data is in order. Unlike the mean it is barely affected by one extreme value, which is why it suits skewed data.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "There are three standard ways to report a single \"typical\" number for a set of data, and they answer subtly different questions.\n\nAdd everything up and divide by how many there are, and the result uses every value \u2014 which is also why one extreme value drags it around. Sort the data instead and take whatever sits in the centre of the list, and extremes barely register: moving the largest value from 40 to 4000 does not shift what is in the middle at all. Or count which value appears most often, the only one of the three that works for things like favourite colours. Australian house prices are reported using the centre-of-the-list method for exactly this reason \u2014 a handful of enormous sales would badly distort the alternative.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0091",
+   "topicId": "maths-data-y10",
+   "stem": "What is the mode of a data set?",
+   "imageRef": null,
+   "options": [
+    "The middle value when ordered",
+    "The sum divided by the count",
+    "The largest value in the set",
+    "The most frequently occurring value"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mode is whichever value appears most often, and a set can have more than one. It is the only one of these that works for categories as well as numbers.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Three averages get taught together, and each one answers a different question about the data.\n\nAdding everything and dividing by the count gives a figure that uses every value, so a single extreme drags it. Sorting the data and taking the centre of the list gives a figure that ignores extremes. Counting which value turns up most often gives a third \u2014 and this one is unique in an important way: it is the only one you can use on data that is not numbers. You cannot average favourite colours or shoe brands, but you can say which came up most. A set can also have two of these, or none at all.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0092",
+   "topicId": "maths-data-y10",
+   "stem": "What is the range of a data set?",
+   "imageRef": null,
+   "options": [
+    "The middle value when ordered",
+    "The most common value",
+    "The sum of all the values",
+    "The largest value minus the smallest"
+   ],
+   "correctIndex": 3,
+   "explanation": "Range measures spread: highest minus lowest. Because it uses only the two extremes, a single outlier can make it very misleading.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Averages tell you where the middle of the data sits. They say nothing about how spread out it is, and two very different sets can share the same average.\n\nMeasures of spread fill that gap, and the simplest subtracts the smallest value from the largest. It is quick, but it uses only two numbers out of the whole set, which makes it very sensitive to a single outlier: one unusual value can multiply it several times over while the rest of the data is unchanged. That weakness is why the interquartile range \u2014 the spread of the middle half \u2014 is often preferred for reporting.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0093",
+   "topicId": "maths-data-y10",
+   "stem": "What does a scatterplot show?",
+   "imageRef": null,
+   "options": [
+    "The change in one value over time",
+    "The relationship between two variables",
+    "The frequency of one variable",
+    "The share each category takes"
+   ],
+   "correctIndex": 1,
+   "explanation": "A scatterplot puts one variable on each axis and one dot per case, so the pattern of dots shows how they relate. A histogram is the tempting alternative, but it only handles one variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Different displays suit different kinds of data, so start by asking how many variables are involved.\n\nFor one numerical variable, a histogram or dot plot shows how the values are distributed. For one categorical variable, a bar chart or pie chart shows the share each category takes. When each individual has been measured on *two* numerical variables \u2014 height and arm span, hours of sleep and reaction time \u2014 you need a display that puts one on each axis and marks a single point for each individual. The pattern in those points then reveals whether the two are related, and in which direction.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0094",
+   "topicId": "maths-data-y10",
+   "stem": "What is the probability of an impossible event?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0.5",
+    "100",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Impossible events have probability 0 and certain events 1, so every probability sits between them. Answering 100 confuses probability with a percentage.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Probability is measured on a fixed scale, and knowing the ends of that scale answers a lot of questions immediately.\n\nAt one end sits something that cannot happen; at the other, something certain to happen. Everything else falls between those two, so no probability can be negative and none can exceed the upper limit. Values can be written as fractions, decimals or percentages, and answering 100 confuses the percentage form with the decimal form. A useful check on any probability calculation: if your answer falls outside the scale, you have made an arithmetic error somewhere.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0095",
+   "topicId": "maths-data-y10",
+   "stem": "You roll a fair die. What is the probability of a 4?",
+   "imageRef": null,
+   "options": [
+    "4/6",
+    "1/2",
+    "1/6",
+    "1/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "There is one favourable outcome out of six equally likely ones, so the probability is 1/6. Answering 1/4 comes from reading the 4 as the number of outcomes rather than the face wanted.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "For equally likely outcomes, probability is a count of what you want over a count of everything possible. So the whole task is identifying those two numbers correctly.\n\nA die has six faces, all equally likely, so the bottom number is six. Then ask how many of those faces satisfy the condition. Rolling a specific number gives one. Rolling an even number would give three. Rolling more than four would give two. The classic error is letting the number named in the question become one of the counts \u2014 the 4 here is which face you want, not how many ways there are to get it.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0096",
+   "topicId": "maths-data-y10",
+   "stem": "What does 'correlation does not imply causation' mean?",
+   "imageRef": null,
+   "options": [
+    "Causation can never be shown by any evidence",
+    "Correlation always proves that one variable causes the other one",
+    "Two variables can move together without one causing the other",
+    "Two variables that move together are never linked"
+   ],
+   "correctIndex": 2,
+   "explanation": "A pattern in data shows association, not a mechanism \u2014 a third factor may drive both. It does not mean the two are unrelated, which is the over-correction in the second option.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Ice cream sales and drowning deaths rise and fall together across the year. Nobody thinks ice cream causes drowning. Hot weather drives both, and that hidden third factor is what statisticians call a confounder.\n\nThat is the trap the phrase warns about. Finding that two measurements rise and fall in step is genuinely useful and often the first clue that something real is going on \u2014 but the pattern by itself cannot tell you which one is driving the other, whether something else is driving both, or whether it is coincidence in a small sample. Watch for the over-correction too. The phrase does not claim the two are unrelated, and it does not claim causes can never be established. It says a chart on its own is not enough.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0097",
+   "topicId": "maths-data-y10",
+   "stem": "What is a sample?",
+   "imageRef": null,
+   "options": [
+    "The conclusion drawn from data",
+    "The question asked in a survey",
+    "A part of a population chosen to study",
+    "The entire population that is being studied"
+   ],
+   "correctIndex": 2,
+   "explanation": "A sample is the subset actually measured, standing in for the whole population. How it is chosen decides whether conclusions about the population hold up.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Measuring everybody is usually impossible. A census of the whole population is expensive and slow, so statisticians measure a subset and reason from it.\n\nThat subset is what this question names, and everything depends on how it is chosen. If it is representative \u2014 the range of characteristics in it reflecting the range in the whole group \u2014 conclusions about the population are reasonable. If it is not, no amount of clever mathematics fixes it. Surveying only people leaving a gym about exercise habits gives you a precise answer to the wrong question, which is why how a group was selected matters more than how large it is.",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "topicId": "mm-measurement",
+ "questions": [
+  {
+   "id": "mm-measurement-0001",
+   "topicId": "mm-measurement",
+   "stem": "What is the circumference of a circle of diameter 14 cm, using \u03c0 \u2248 22/7?",
+   "imageRef": null,
+   "options": [
+    "154 cm",
+    "44 cm",
+    "22 cm",
+    "88 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Circumference is \u03c0d, so 22/7 \u00d7 14 = 44 cm. Using the radius instead of the diameter halves the answer, which is the usual slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0002",
+   "topicId": "mm-measurement",
+   "stem": "What is the area of a circle of radius 5 cm, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "31.4 cm\u00b2",
+    "15.7 cm\u00b2",
+    "157.1 cm\u00b2",
+    "78.5 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Area is \u03c0r\u00b2 = \u03c0 \u00d7 25 = 78.5 cm\u00b2. The 31.4 answer is the circumference, which is what you get from 2\u03c0r instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0003",
+   "topicId": "mm-measurement",
+   "stem": "A rectangle has area 60 cm\u00b2 and length 12 cm. What is its width?",
+   "imageRef": null,
+   "options": [
+    "5 cm",
+    "48 cm",
+    "72 cm",
+    "7.5 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "Divide the area by the known length: 60 \u00f7 12 = 5 cm. Subtracting instead of dividing is the error this question is set to catch.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0004",
+   "topicId": "mm-measurement",
+   "stem": "A pencil is measured as 12.4 cm on a ruler marked in millimetres. What is the greatest possible error?",
+   "imageRef": null,
+   "options": [
+    "0.1 cm",
+    "0.4 cm",
+    "1 cm",
+    "0.05 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "The greatest possible error is half the smallest unit on the scale. The smallest division is 1 mm = 0.1 cm, so the error is 0.05 cm and the true length lies between 12.35 and 12.45 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0005",
+   "topicId": "mm-measurement",
+   "stem": "A garden bed is measured as 45 cm, correct to the nearest centimetre. What is the smallest it could be?",
+   "imageRef": null,
+   "options": [
+    "44.9 cm",
+    "44.5 cm",
+    "44 cm",
+    "45 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rounding to the nearest centimetre means the true value lies within half a centimetre, so the range is 44.5 to 45.5 cm and 44.5 is the lower limit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0006",
+   "topicId": "mm-measurement",
+   "stem": "A right-angled triangle has shorter sides 9 cm and 12 cm. Find the hypotenuse.",
+   "imageRef": null,
+   "options": [
+    "225 cm",
+    "10.5 cm",
+    "15 cm",
+    "21 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "By Pythagoras, c\u00b2 = 81 + 144 = 225, so c = 15 cm. Answering 225 stops at the square of the length.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0007",
+   "topicId": "mm-measurement",
+   "stem": "A cuboid measures 3 cm by 4 cm by 12 cm. Find its longest internal diagonal.",
+   "imageRef": null,
+   "options": [
+    "13 cm",
+    "19 cm",
+    "12.6 cm",
+    "15 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "Apply Pythagoras twice: the base diagonal is \u221a(9 + 16) = 5, then the space diagonal is \u221a(25 + 144) = 13 cm. A three-dimensional problem is nearly always two right-angled triangles in sequence.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0008",
+   "topicId": "mm-measurement",
+   "stem": "What is the surface area of a closed cylinder with radius 3 cm and height 10 cm, to the nearest cm\u00b2?",
+   "imageRef": null,
+   "options": [
+    "283 cm\u00b2",
+    "94 cm\u00b2",
+    "245 cm\u00b2",
+    "188 cm\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The net is two circles and a rectangle: 2\u03c0r\u00b2 + 2\u03c0rh = 56.5 + 188.5 = 245 cm\u00b2. Forgetting one or both circles is the standard omission.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0009",
+   "topicId": "mm-measurement",
+   "stem": "What is the volume of a cylinder with radius 5 cm and height 10 cm, to the nearest cm\u00b3?",
+   "imageRef": null,
+   "options": [
+    "1571 cm\u00b3",
+    "785 cm\u00b3",
+    "157 cm\u00b3",
+    "314 cm\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Volume of a prism is the cross-section area times the length: \u03c0r\u00b2h = \u03c0 \u00d7 25 \u00d7 10 = 785 cm\u00b3. Note the units are cubic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0010",
+   "topicId": "mm-measurement",
+   "stem": "A triangular prism has a cross-section of base 6 cm and height 4 cm, and a length of 10 cm. Find its volume.",
+   "imageRef": null,
+   "options": [
+    "240 cm\u00b3",
+    "60 cm\u00b3",
+    "80 cm\u00b3",
+    "120 cm\u00b3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cross-section area is \u00bd \u00d7 6 \u00d7 4 = 12 cm\u00b2, then \u00d7 10 = 120 cm\u00b3. Forgetting the half is what gives 240.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0011",
+   "topicId": "mm-measurement",
+   "stem": "Find the volume of a cone with radius 3 cm and height 8 cm, to one decimal place.",
+   "imageRef": null,
+   "options": [
+    "25.1 cm\u00b3",
+    "150.8 cm\u00b3",
+    "75.4 cm\u00b3",
+    "226.2 cm\u00b3"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cone is a third of the cylinder that contains it: V = \u2153\u03c0r\u00b2h = \u2153 \u00d7 \u03c0 \u00d7 9 \u00d7 8 = 75.4 cm\u00b3. Leaving out the third gives 226.2, the volume of that whole cylinder.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0012",
+   "topicId": "mm-measurement",
+   "stem": "Find the volume of a sphere of radius 6 cm, to one decimal place.",
+   "imageRef": null,
+   "options": [
+    "150.8 cm\u00b3",
+    "904.8 cm\u00b3",
+    "452.4 cm\u00b3",
+    "113.1 cm\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = (4/3)\u03c0r\u00b3 = (4/3) \u00d7 \u03c0 \u00d7 216 = 904.8 cm\u00b3. Cubing the radius rather than squaring it is the step to be careful with.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0013",
+   "topicId": "mm-measurement",
+   "stem": "Find the surface area of a sphere of radius 5 cm, to the nearest cm\u00b2.",
+   "imageRef": null,
+   "options": [
+    "523 cm\u00b2",
+    "79 cm\u00b2",
+    "157 cm\u00b2",
+    "314 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Surface area of a sphere is 4\u03c0r\u00b2 = 4 \u00d7 \u03c0 \u00d7 25 = 314 cm\u00b2. It happens to equal the curved surface of the cylinder that just contains it.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0014",
+   "topicId": "mm-measurement",
+   "stem": "A square-based pyramid has base side 6 cm and perpendicular height 10 cm. Find its volume.",
+   "imageRef": null,
+   "options": [
+    "360 cm\u00b3",
+    "60 cm\u00b3",
+    "240 cm\u00b3",
+    "120 cm\u00b3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A pyramid is a third of the prism with the same base and height: V = \u2153 \u00d7 36 \u00d7 10 = 120 cm\u00b3.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0015",
+   "topicId": "mm-measurement",
+   "stem": "A cylinder of radius 4 cm and height 12 cm has a hemisphere of the same radius on top. What makes up the total outside surface?",
+   "imageRef": null,
+   "options": [
+    "Curved surface, one circle, and half a sphere",
+    "Curved surface and two full circles",
+    "Two full circles and a whole sphere",
+    "The curved surface of the cylinder only"
+   ],
+   "correctIndex": 0,
+   "explanation": "The base circle is still exposed, the top circle is covered by the hemisphere, and the hemisphere contributes half a sphere. Composite surface area is about which faces remain visible.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0016",
+   "topicId": "mm-measurement",
+   "stem": "Convert 7.5 litres to millilitres.",
+   "imageRef": null,
+   "options": [
+    "7500 mL",
+    "750 mL",
+    "75 mL",
+    "0.0075 mL"
+   ],
+   "correctIndex": 0,
+   "explanation": "1 litre is 1000 millilitres, so multiply by 1000. Remember also that 1 mL is exactly 1 cm\u00b3, which is the bridge between volume and capacity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0017",
+   "topicId": "mm-measurement",
+   "stem": "A tank has radius 40 cm and height 1 m. What is its capacity in litres, to the nearest litre?",
+   "imageRef": null,
+   "options": [
+    "126 L",
+    "503 L",
+    "50 L",
+    "5027 L"
+   ],
+   "correctIndex": 1,
+   "explanation": "Work in centimetres: V = \u03c0 \u00d7 1600 \u00d7 100 = 502655 cm\u00b3. Since 1000 cm\u00b3 is 1 litre, that is 503 litres. Mixing metres and centimetres is what makes this question hard.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0018",
+   "topicId": "mm-measurement",
+   "stem": "How many square centimetres are there in 1 square metre?",
+   "imageRef": null,
+   "options": [
+    "100",
+    "1000",
+    "1 000 000",
+    "10 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "The conversion applies to both dimensions: 100 \u00d7 100 = 10 000 cm\u00b2. For volume it applies three times, so 1 m\u00b3 is 1 000 000 cm\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0019",
+   "topicId": "mm-measurement",
+   "stem": "A shape is enlarged by a scale factor of 3. How do its area and volume change?",
+   "imageRef": null,
+   "options": [
+    "Area \u00d7 9, volume \u00d7 27",
+    "Area \u00d7 3, volume \u00d7 3",
+    "Area \u00d7 6, volume \u00d7 9",
+    "Area \u00d7 9, volume \u00d7 9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Length scales by k, area by k\u00b2 and volume by k\u00b3. With k = 3 that is 9 and 27 respectively.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0020",
+   "topicId": "mm-measurement",
+   "stem": "A rectangle 10 cm by 6 cm has a 2 cm square cut from one corner. Find the remaining area.",
+   "imageRef": null,
+   "options": [
+    "60 cm\u00b2",
+    "64 cm\u00b2",
+    "52 cm\u00b2",
+    "56 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Find the whole rectangle and subtract the missing piece: 60 \u2212 4 = 56 cm\u00b2. Splitting it into two rectangles gives the same answer and takes longer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0021",
+   "topicId": "mm-measurement",
+   "stem": "What is the area of a circle with radius 5 cm, in exact form?",
+   "imageRef": null,
+   "options": [
+    "10\u03c0 cm\u00b2",
+    "5\u03c0 cm\u00b2",
+    "100\u03c0 cm\u00b2",
+    "25\u03c0 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Area is \u03c0 times the radius squared, so 25\u03c0. Using the diameter or forgetting to square is what produces the other options.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0022",
+   "topicId": "mm-measurement",
+   "stem": "What is the circumference of a circle with radius 7 cm, in exact form?",
+   "imageRef": null,
+   "options": [
+    "7\u03c0 cm",
+    "28\u03c0 cm",
+    "14\u03c0 cm",
+    "49\u03c0 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Circumference is 2\u03c0r, so 14\u03c0. Squaring the radius gives the area instead, which is the most common confusion in this topic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0023",
+   "topicId": "mm-measurement",
+   "stem": "What is the volume of a cylinder with radius 3 and height 10, in exact form?",
+   "imageRef": null,
+   "options": [
+    "60\u03c0",
+    "900\u03c0",
+    "90\u03c0",
+    "30\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Volume is the circular area times the height: \u03c0 \u00d7 9 \u00d7 10 = 90\u03c0. A prism of any shape follows the same rule of base area times height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0024",
+   "topicId": "mm-measurement",
+   "stem": "What is the volume of a cone with radius 3 and height 10?",
+   "imageRef": null,
+   "options": [
+    "90\u03c0",
+    "10\u03c0",
+    "45\u03c0",
+    "30\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "A cone is exactly one third of the cylinder that contains it, so 90\u03c0 \u00f7 3 = 30\u03c0. The same one-third relationship holds for any pyramid and its prism.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0025",
+   "topicId": "mm-measurement",
+   "stem": "What is the volume of a sphere with radius 3, in exact form?",
+   "imageRef": null,
+   "options": [
+    "36\u03c0",
+    "27\u03c0",
+    "12\u03c0",
+    "108\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Volume is four thirds times \u03c0 times the radius cubed: (4/3) \u00d7 \u03c0 \u00d7 27 = 36\u03c0. Cubing rather than squaring is what distinguishes volume from surface area.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0026",
+   "topicId": "mm-measurement",
+   "stem": "How many cubic centimetres are in a litre?",
+   "imageRef": null,
+   "options": [
+    "100",
+    "10000",
+    "10",
+    "1000"
+   ],
+   "correctIndex": 3,
+   "explanation": "A litre is a cube 10 cm on each side, so 10 \u00d7 10 \u00d7 10 = 1000. This is why a millilitre and a cubic centimetre are the same volume.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0027",
+   "topicId": "mm-measurement",
+   "stem": "Convert 2.5 square metres into square centimetres.",
+   "imageRef": null,
+   "options": [
+    "25000",
+    "250",
+    "2500",
+    "250000"
+   ],
+   "correctIndex": 0,
+   "explanation": "A square metre is 100 \u00d7 100 = 10000 square centimetres, so multiply by that. Multiplying by 100 once is the error, because area conversions square the factor.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0028",
+   "topicId": "mm-measurement",
+   "stem": "A cube has volume 64 cm\u00b3. What is its surface area?",
+   "imageRef": null,
+   "options": [
+    "16 cm\u00b2",
+    "96 cm\u00b2",
+    "64 cm\u00b2",
+    "384 cm\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The side is the cube root of 64, which is 4. Each face is 16 cm\u00b2 and there are six of them, so 96 cm\u00b2. Finding the side first is the key step.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0029",
+   "topicId": "mm-measurement",
+   "stem": "What is the area of a trapezium with parallel sides 6 and 10 and height 4?",
+   "imageRef": null,
+   "options": [
+    "32 square units",
+    "40 square units",
+    "24 square units",
+    "64 square units"
+   ],
+   "correctIndex": 0,
+   "explanation": "Average the parallel sides and multiply by the height: 8 \u00d7 4 = 32. The height must be the perpendicular distance, not a slanted side.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0030",
+   "topicId": "mm-measurement",
+   "stem": "What is the area of a triangle with base 9 and perpendicular height 6?",
+   "imageRef": null,
+   "options": [
+    "27 square units",
+    "54 square units",
+    "15 square units",
+    "13.5 square units"
+   ],
+   "correctIndex": 0,
+   "explanation": "Half the base times the height gives 27. Forgetting to halve gives 54, which is the area of the rectangle that contains the triangle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0031",
+   "topicId": "mm-measurement",
+   "stem": "The surface area of a cylinder with radius r and height h is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0r\u00b2h",
+    "2\u03c0r\u00b2 + 2\u03c0rh",
+    "\u03c0r\u00b2 + 2\u03c0rh",
+    "2\u03c0r\u00b2 + \u03c0rh"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are two circular ends and one curved side that unrolls into a rectangle of width 2\u03c0r. The last option is the volume rather than an area.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0032",
+   "topicId": "mm-measurement",
+   "stem": "What is the perimeter of a semicircle with radius 4, in exact form?",
+   "imageRef": null,
+   "options": [
+    "4\u03c0",
+    "8\u03c0 + 8",
+    "2\u03c0 + 4",
+    "4\u03c0 + 8"
+   ],
+   "correctIndex": 3,
+   "explanation": "Half the circumference is 4\u03c0, and the straight diameter of 8 closes the shape. Forgetting the diameter is the classic semicircle error.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0033",
+   "topicId": "mm-measurement",
+   "stem": "A rectangle has area 48 cm\u00b2 and width 6 cm. What is its perimeter?",
+   "imageRef": null,
+   "options": [
+    "28 cm",
+    "54 cm",
+    "20 cm",
+    "48 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "The length is 48 \u00f7 6 = 8, so the perimeter is 2 \u00d7 (6 + 8) = 28 cm. Finding the missing side first is what makes this two steps rather than one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0034",
+   "topicId": "mm-measurement",
+   "stem": "What is the length of the space diagonal of a 3 by 4 by 12 box?",
+   "imageRef": null,
+   "options": [
+    "19",
+    "12",
+    "5",
+    "13"
+   ],
+   "correctIndex": 3,
+   "explanation": "Apply Pythagoras twice: the base diagonal is 5, then \u221a(25 + 144) = 13. The three-dimensional version squares all three edges and takes the root.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0035",
+   "topicId": "mm-measurement",
+   "stem": "Convert 3.6 km/h into metres per second.",
+   "imageRef": null,
+   "options": [
+    "10 m/s",
+    "3.6 m/s",
+    "0.36 m/s",
+    "1 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "Divide by 3.6, because there are 1000 metres in a kilometre and 3600 seconds in an hour. Multiplying instead gives a value far too large for a walking pace.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0036",
+   "topicId": "mm-measurement",
+   "stem": "A circle has area 49\u03c0. What is its radius?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "24.5",
+    "7",
+    "49"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set \u03c0r\u00b2 = 49\u03c0, so r\u00b2 = 49 and r = 7. Working backwards from an area always involves a root, which is easy to forget.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0037",
+   "topicId": "mm-measurement",
+   "stem": "What is the area of a sector that is a quarter of a circle with radius 8, in exact form?",
+   "imageRef": null,
+   "options": [
+    "64\u03c0",
+    "4\u03c0",
+    "32\u03c0",
+    "16\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The full circle is 64\u03c0 and a quarter of that is 16\u03c0. A sector area is always the fraction of the turn multiplied by the whole circle.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0038",
+   "topicId": "mm-measurement",
+   "stem": "A sector has an angle of 60\u00b0 in a circle of radius 6. What is its exact area?",
+   "imageRef": null,
+   "options": [
+    "12\u03c0",
+    "3\u03c0",
+    "6\u03c0",
+    "36\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sixty degrees is one sixth of a turn, and the full area is 36\u03c0, so the sector is 6\u03c0. Turning the angle into a fraction of 360\u00b0 is the first step every time.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0039",
+   "topicId": "mm-measurement",
+   "stem": "Which measurement needs a perpendicular height rather than a slant length?",
+   "imageRef": null,
+   "options": [
+    "The length of a diagonal",
+    "The area of a parallelogram",
+    "The perimeter of a rectangle",
+    "The circumference of a circle"
+   ],
+   "correctIndex": 1,
+   "explanation": "Area formulas use the perpendicular distance between the parallel sides. Using the slanted side always overestimates the area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0040",
+   "topicId": "mm-measurement",
+   "stem": "Two similar cones have heights 4 cm and 12 cm. How do their volumes compare?",
+   "imageRef": null,
+   "options": [
+    "The larger is 12 times the smaller",
+    "The larger is 27 times the smaller",
+    "The larger is 3 times the smaller",
+    "The larger is 9 times the smaller"
+   ],
+   "correctIndex": 1,
+   "explanation": "The length scale factor is 3, and volume scales by its cube, so 27. Length, area and volume scale by the factor, its square and its cube.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0041",
+   "topicId": "mm-measurement",
+   "stem": "What is 1 hectare in square metres?",
+   "imageRef": null,
+   "options": [
+    "10000",
+    "1000",
+    "100",
+    "100000"
+   ],
+   "correctIndex": 0,
+   "explanation": "A hectare is a square 100 m on each side, so 10000 square metres. It is the usual unit for land area in Australia.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-measurement-0042",
+   "topicId": "mm-measurement",
+   "stem": "A tank is a cylinder of radius 1 m and height 2 m. Roughly how many litres does it hold?",
+   "imageRef": null,
+   "options": [
+    "About 628 litres",
+    "About 62800 litres",
+    "About 2000 litres",
+    "About 6280 litres"
+   ],
+   "correctIndex": 3,
+   "explanation": "The volume is \u03c0 \u00d7 1 \u00d7 2, about 6.28 cubic metres, and each cubic metre is 1000 litres. Converting at the end keeps the arithmetic simple.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-measurement-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

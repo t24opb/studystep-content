@@ -1,0 +1,803 @@
+{
+ "topicId": "mm-rates",
+ "questions": [
+  {
+   "id": "mm-rates-0001",
+   "topicId": "mm-rates",
+   "stem": "What does the gradient of a distance-time graph represent?",
+   "imageRef": null,
+   "options": [
+    "The time taken",
+    "Speed",
+    "Distance",
+    "Acceleration"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gradient is the vertical change divided by the horizontal change, which here is distance over time \u2014 speed. A horizontal section means stopped.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0002",
+   "topicId": "mm-rates",
+   "stem": "What is the average rate of change between two points on a curve?",
+   "imageRef": null,
+   "options": [
+    "The difference between the two y values",
+    "The area under the curve between them",
+    "The gradient of the straight line joining them",
+    "The gradient of the tangent at the first point"
+   ],
+   "correctIndex": 2,
+   "explanation": "The line joining two points on a curve is a chord, and its gradient is the average rate of change across that interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0003",
+   "topicId": "mm-rates",
+   "stem": "An object falls so that distance is d = 5t\u00b2. What is its average speed over the first 2 seconds?",
+   "imageRef": null,
+   "options": [
+    "5 m/s",
+    "40 m/s",
+    "10 m/s",
+    "20 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "At t = 0, d = 0; at t = 2, d = 20. Average speed is 20 \u00f7 2 = 10 m/s. This is not the speed at any particular instant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0004",
+   "topicId": "mm-rates",
+   "stem": "What is the instantaneous rate of change at a point on a curve?",
+   "imageRef": null,
+   "options": [
+    "The value of y at that point",
+    "The gradient of the tangent at that point",
+    "The gradient of a chord through that point",
+    "The average of the gradients either side of it"
+   ],
+   "correctIndex": 1,
+   "explanation": "As the second point slides closer, the chord approaches the tangent, and the tangent gradient is the rate at that exact instant. This idea becomes differentiation.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0005",
+   "topicId": "mm-rates",
+   "stem": "How can an instantaneous rate of change be estimated from a graph?",
+   "imageRef": null,
+   "options": [
+    "Measure the area beneath the curve",
+    "Draw a tangent at the point and find its gradient",
+    "Read off the y value at that point",
+    "Find the gradient between the two endpoints"
+   ],
+   "correctIndex": 1,
+   "explanation": "Drawing the tangent by eye and taking rise over run is the standard method, and the accuracy depends entirely on how well the tangent is drawn.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0006",
+   "topicId": "mm-rates",
+   "stem": "A speed-time graph is a straight line rising from the origin. What does this show?",
+   "imageRef": null,
+   "options": [
+    "Constant acceleration",
+    "Constant speed",
+    "A stationary object",
+    "An object slowing down"
+   ],
+   "correctIndex": 0,
+   "explanation": "On a speed-time graph the gradient is the acceleration, so a constant gradient means constant acceleration. A horizontal line would mean constant speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0007",
+   "topicId": "mm-rates",
+   "stem": "On a speed-time graph, what does the area under the line represent?",
+   "imageRef": null,
+   "options": [
+    "The final speed",
+    "The distance travelled",
+    "The acceleration",
+    "The average speed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Speed multiplied by time gives distance, and that product is exactly the area beneath the graph. This is why area matters on one graph and not on the other.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0008",
+   "topicId": "mm-rates",
+   "stem": "Which relationship shows y in direct proportion to x?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2",
+    "y = 5x",
+    "y = 5/x",
+    "y = x + 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Direct proportion means y is a constant multiple of x, so the graph is a straight line through the origin. Adding a constant breaks it, because the line no longer passes through zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0009",
+   "topicId": "mm-rates",
+   "stem": "In direct variation y = kx, what does k represent?",
+   "imageRef": null,
+   "options": [
+    "The rate of acceleration",
+    "The constant of proportionality",
+    "The starting value of y",
+    "The value of y when x equals zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "k is the fixed ratio y \u00f7 x, and it is also the gradient of the line. Finding k from one pair of values is the first step in nearly every variation question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0010",
+   "topicId": "mm-rates",
+   "stem": "If y varies directly with x and y = 12 when x = 3, find y when x = 7.",
+   "imageRef": null,
+   "options": [
+    "84",
+    "28",
+    "16",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "Find k = 12 \u00f7 3 = 4, so y = 4x, and at x = 7 that gives 28. Always find k explicitly rather than adding on, which works only by coincidence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0011",
+   "topicId": "mm-rates",
+   "stem": "What does inverse variation mean?",
+   "imageRef": null,
+   "options": [
+    "Both quantities rise together",
+    "One quantity is the negative of the other",
+    "The graph is a straight line",
+    "As one quantity doubles, the other halves"
+   ],
+   "correctIndex": 3,
+   "explanation": "In inverse variation the product is constant: xy = k, so y = k/x. The graph is a hyperbola rather than a line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0012",
+   "topicId": "mm-rates",
+   "stem": "Six workers take 10 days to finish a job. Assuming inverse variation, how long would 4 workers take?",
+   "imageRef": null,
+   "options": [
+    "15 days",
+    "6.7 days",
+    "20 days",
+    "12 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "The product is constant: 6 \u00d7 10 = 60 worker-days, so 60 \u00f7 4 = 15 days. Fewer workers means more time, which checks that the answer is on the right side of the original.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0013",
+   "topicId": "mm-rates",
+   "stem": "The graph of y = k/x has which feature?",
+   "imageRef": null,
+   "options": [
+    "It crosses the y-axis at k",
+    "It is a straight line through the origin",
+    "It has a minimum turning point",
+    "It approaches both axes without touching them"
+   ],
+   "correctIndex": 3,
+   "explanation": "The axes are asymptotes: x can never be zero and y never reaches zero. That is what distinguishes this shape from every other graph in the course.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0014",
+   "topicId": "mm-rates",
+   "stem": "A car covers 60 km at 60 km/h and the next 60 km at 30 km/h. What is its average speed?",
+   "imageRef": null,
+   "options": [
+    "30 km/h",
+    "40 km/h",
+    "45 km/h",
+    "50 km/h"
+   ],
+   "correctIndex": 1,
+   "explanation": "Average speed is total distance over total time: 120 km in 1 + 2 = 3 hours, giving 40 km/h. Averaging the two speeds gives 45 and is wrong, because more time was spent at the slower speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0015",
+   "topicId": "mm-rates",
+   "stem": "How does the rate of change behave for a quantity growing exponentially?",
+   "imageRef": null,
+   "options": [
+    "It increases as the quantity increases",
+    "It stays the same throughout",
+    "It decreases steadily over time",
+    "It is always zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "Exponential growth multiplies by a constant factor each period, so the amount added each period gets larger. That is why the curve steepens, unlike a straight line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0016",
+   "topicId": "mm-rates",
+   "stem": "For h = 20t \u2212 5t\u00b2, what is the average rate of change of height from t = 0 to t = 2?",
+   "imageRef": null,
+   "options": [
+    "5 m/s",
+    "0 m/s",
+    "10 m/s",
+    "20 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "At t = 0, h = 0; at t = 2, h = 20. The average rate is 20 \u00f7 2 = 10 m/s upward. At t = 2 itself the object is at its highest point and the instantaneous rate is zero, which is why the two differ.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0017",
+   "topicId": "mm-rates",
+   "stem": "Water drains from a tank so the depth falls quickly at first and then more slowly. What shape is the graph?",
+   "imageRef": null,
+   "options": [
+    "A straight line sloping downward",
+    "A curve that starts flat and then steepens",
+    "A horizontal line",
+    "A curve that is steep at first and then flattens"
+   ],
+   "correctIndex": 3,
+   "explanation": "A falling rate of change shows as a curve whose gradient becomes less steep. A straight line would mean the depth fell by the same amount every minute.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0018",
+   "topicId": "mm-rates",
+   "stem": "Two quantities are in direct proportion. Which point must the graph pass through?",
+   "imageRef": null,
+   "options": [
+    "A point on the y-axis above zero",
+    "A turning point",
+    "The origin",
+    "The point (1, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "If y = kx then x = 0 gives y = 0, so the line must pass through (0, 0). A line that does not is linear but not proportional.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0019",
+   "topicId": "mm-rates",
+   "stem": "A rate of change is negative. What does that tell you?",
+   "imageRef": null,
+   "options": [
+    "The quantity is decreasing",
+    "The quantity is below zero",
+    "The graph lies below the x-axis",
+    "The rate has been calculated wrongly"
+   ],
+   "correctIndex": 0,
+   "explanation": "A negative gradient means the quantity falls as the variable increases. The quantity itself can be positive the whole time, which is the distinction being tested.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0020",
+   "topicId": "mm-rates",
+   "stem": "Which of these is a rate?",
+   "imageRef": null,
+   "options": [
+    "A total distance of 45 kilometres",
+    "A mass of 3 kilograms",
+    "Litres per 100 kilometres",
+    "The area of a paddock"
+   ],
+   "correctIndex": 2,
+   "explanation": "A rate compares two quantities with different units. Fuel consumption, speed, price per litre and heart rate are all rates; a single measurement is not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0021",
+   "topicId": "mm-rates",
+   "stem": "A car travels 150 km in 2 hours. What is its average speed?",
+   "imageRef": null,
+   "options": [
+    "300 km/h",
+    "152 km/h",
+    "37.5 km/h",
+    "75 km/h"
+   ],
+   "correctIndex": 3,
+   "explanation": "Average speed is total distance over total time, so 150 \u00f7 2. Multiplying instead of dividing gives a figure no road car reaches.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0022",
+   "topicId": "mm-rates",
+   "stem": "A tap fills a 60 litre tank in 5 minutes. What is the rate in litres per minute?",
+   "imageRef": null,
+   "options": [
+    "0.083",
+    "12",
+    "300",
+    "55"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide the amount by the time: 60 \u00f7 5 = 12. The unit tells you which way round to divide, because litres per minute means litres divided by minutes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0023",
+   "topicId": "mm-rates",
+   "stem": "Two distance-time lines are drawn, one steeper than the other. What does that mean?",
+   "imageRef": null,
+   "options": [
+    "The steeper line took more time",
+    "The steeper line covered less distance",
+    "The steeper line is the faster journey",
+    "The steeper line is the longer journey"
+   ],
+   "correctIndex": 2,
+   "explanation": "Gradient on a distance-time graph is speed, so a steeper line covers more distance in the same time. Steepness says nothing about how far or how long on its own.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0024",
+   "topicId": "mm-rates",
+   "stem": "On a distance-time graph, what does a horizontal line mean?",
+   "imageRef": null,
+   "options": [
+    "The object is stationary",
+    "The object is moving at a steady speed",
+    "The object is speeding up",
+    "The object is returning home"
+   ],
+   "correctIndex": 0,
+   "explanation": "No change in distance over time means no movement. A steady speed would be a sloping straight line instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0025",
+   "topicId": "mm-rates",
+   "stem": "What does the gradient of a speed-time graph represent?",
+   "imageRef": null,
+   "options": [
+    "Average speed",
+    "Total time",
+    "Acceleration",
+    "Distance travelled"
+   ],
+   "correctIndex": 2,
+   "explanation": "Gradient is change in speed over change in time, which is acceleration. The area under that graph gives the distance instead.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0026",
+   "topicId": "mm-rates",
+   "stem": "A car accelerates from rest to 20 m/s over 8 s. How far does it travel?",
+   "imageRef": null,
+   "options": [
+    "160 m",
+    "20 m",
+    "2.5 m",
+    "80 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The speed-time graph is a triangle, and the area under it is the distance: \u00bd \u00d7 8 \u00d7 20 = 80 m. Multiplying 20 by 8 gives 160 m, which would be the distance at a constant 20 m/s rather than while speeding up.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0027",
+   "topicId": "mm-rates",
+   "stem": "A recipe uses 300 g of flour for 12 biscuits. How much for 20 biscuits?",
+   "imageRef": null,
+   "options": [
+    "250 g",
+    "600 g",
+    "500 g",
+    "360 g"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each biscuit needs 25 g, so 20 need 500 g. Finding the unit amount first is the most reliable way through a proportion question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0028",
+   "topicId": "mm-rates",
+   "stem": "Which is the better value: 400 g for $6 or 600 g for $8.40?",
+   "imageRef": null,
+   "options": [
+    "It cannot be compared",
+    "600 g for $8.40",
+    "400 g for $6",
+    "They are the same value"
+   ],
+   "correctIndex": 1,
+   "explanation": "The unit prices are $15 and $14 per kilogram, so the larger pack is cheaper per gram. Comparing per unit is the only fair comparison.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0029",
+   "topicId": "mm-rates",
+   "stem": "A population of 2000 grows by 5% each year. What is it after 2 years?",
+   "imageRef": null,
+   "options": [
+    "2200",
+    "2100",
+    "2500",
+    "2205"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by 1.05 twice: 2000 \u00d7 1.1025 = 2205. Adding 5% of the original twice gives 2200 and misses the growth on the growth.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0030",
+   "topicId": "mm-rates",
+   "stem": "Why is compound growth larger than simple growth over several periods?",
+   "imageRef": null,
+   "options": [
+    "The percentage increases each period",
+    "It is calculated more often per year",
+    "Simple growth ignores the starting amount",
+    "Each period grows on the new total, not the original"
+   ],
+   "correctIndex": 3,
+   "explanation": "Compounding applies the rate to a total that already includes earlier growth. The rate itself stays the same, which is what makes this counterintuitive.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0031",
+   "topicId": "mm-rates",
+   "stem": "A car worth $30000 depreciates 15% a year. What is it worth after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$25500",
+    "$21675",
+    "$21000",
+    "$22500"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply by 0.85 twice: 30000 \u00d7 0.7225 = 21675. Depreciation is compound in the same way growth is, just with a multiplier below 1.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0032",
+   "topicId": "mm-rates",
+   "stem": "A shirt is $40 after a 20% discount. What was the original price?",
+   "imageRef": null,
+   "options": [
+    "$32",
+    "$60",
+    "$50",
+    "$48"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sale price is 80% of the original, so divide by 0.8. Adding 20% to $40 gives $48, which is the classic reverse-percentage error.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0033",
+   "topicId": "mm-rates",
+   "stem": "Convert 72 km/h into metres per second.",
+   "imageRef": null,
+   "options": [
+    "20 m/s",
+    "200 m/s",
+    "259 m/s",
+    "2 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "Divide by 3.6 to get 20 m/s. A quick check is that 72 km/h is a highway speed, and 20 m/s covers a footy field in five seconds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0034",
+   "topicId": "mm-rates",
+   "stem": "A pipe fills a pool in 6 hours and another in 3 hours. Together, how long do they take?",
+   "imageRef": null,
+   "options": [
+    "4.5 hours",
+    "9 hours",
+    "3 hours",
+    "2 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "Add the rates rather than the times: one sixth plus one third is one half of the pool per hour, so 2 hours. Averaging the times gives 4.5 and is wrong.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0035",
+   "topicId": "mm-rates",
+   "stem": "A phone plan charges $30 plus $0.20 per GB. What is the cost for 25 GB?",
+   "imageRef": null,
+   "options": [
+    "$5",
+    "$50",
+    "$30.20",
+    "$35"
+   ],
+   "correctIndex": 3,
+   "explanation": "The variable part is 25 \u00d7 0.20 = $5, added to the fixed $30. Flat plus per-unit is the most common rate structure in real bills.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0036",
+   "topicId": "mm-rates",
+   "stem": "What is a unit rate?",
+   "imageRef": null,
+   "options": [
+    "The difference between two rates",
+    "A rate written as a percentage",
+    "An amount expressed per one of something",
+    "The total of two quantities added"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing to get a per-one figure makes different offers directly comparable. Shelf labels in supermarkets do exactly this.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0037",
+   "topicId": "mm-rates",
+   "stem": "A runner covers 400 m in 50 seconds. What is the pace in seconds per 100 m?",
+   "imageRef": null,
+   "options": [
+    "200",
+    "20",
+    "12.5",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide the time by four, since 400 m is four lots of 100 m. Pace is time per distance, which is the inverse of speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0038",
+   "topicId": "mm-rates",
+   "stem": "A graph shows distance rising steeply then levelling off. What happened?",
+   "imageRef": null,
+   "options": [
+    "The object moved fast then stopped",
+    "The object stopped then moved fast",
+    "The object reversed direction",
+    "The object accelerated the whole time"
+   ],
+   "correctIndex": 0,
+   "explanation": "A steep gradient is a high speed and a flat section is no movement, so the order of the sections gives the order of events. Reading left to right is what tells the story.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0039",
+   "topicId": "mm-rates",
+   "stem": "What is 15% of 240?",
+   "imageRef": null,
+   "options": [
+    "360",
+    "36",
+    "16",
+    "3.6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ten percent is 24 and five percent is 12, so the total is 36. Splitting a percentage into easy parts is faster than reaching for a calculator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0040",
+   "topicId": "mm-rates",
+   "stem": "A quantity rises from 80 to 100. What is the percentage increase?",
+   "imageRef": null,
+   "options": [
+    "25%",
+    "20%",
+    "80%",
+    "125%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The increase is 20 on an original of 80, so 20 \u00f7 80 = 25%. Dividing by the new value instead gives 20%, which is the most common error.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0041",
+   "topicId": "mm-rates",
+   "stem": "A price rises 10% then falls 10%. What is the net effect?",
+   "imageRef": null,
+   "options": [
+    "It falls by 20% overall",
+    "It ends slightly below the original",
+    "It returns to the original",
+    "It ends slightly above the original"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fall applies to the larger amount, so 1.1 \u00d7 0.9 = 0.99, leaving 99% of the original. Percentage changes never simply cancel.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-rates-0042",
+   "topicId": "mm-rates",
+   "stem": "A map scale is 1 cm to 5 km. How far apart are two towns 7 cm apart on the map?",
+   "imageRef": null,
+   "options": [
+    "0.7 km",
+    "5 km",
+    "35 km",
+    "12 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply by the scale: 7 \u00d7 5 = 35 km. A scale is itself a rate, in kilometres per centimetre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-rates-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

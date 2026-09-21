@@ -1,0 +1,2329 @@
+{
+ "topicId": "maths-algebra-y10",
+ "questions": [
+  {
+   "id": "maths-algebra-y10-0001",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise fully: 6x\u00b2 + 9x:",
+   "imageRef": null,
+   "options": [
+    "6x(x + 3)",
+    "9x(x + 1)",
+    "3x(2x + 3)",
+    "3x(2x + 9)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The highest common factor of 6x\u00b2 and 9x is 3x, and dividing each term by 3x gives 2x and 3, so the answer is 3x(2x + 3). The tempting error is 3x(2x + 9), which comes from taking the 3 out of 6x\u00b2 but forgetting to divide 9x by 3 as well. Always check by expanding: 3x \u00d7 2x = 6x\u00b2 and 3x \u00d7 3 = 9x, which matches the original.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0002",
+   "topicId": "maths-algebra-y10",
+   "stem": "What is the highest common factor of the terms 12a\u00b3b and 18a\u00b2b\u00b2?",
+   "imageRef": null,
+   "options": [
+    "36a\u00b3b\u00b2",
+    "6a\u00b3b\u00b2",
+    "6a\u00b2b",
+    "6ab"
+   ],
+   "correctIndex": 2,
+   "explanation": "For the HCF you take the largest number dividing both coefficients (6) and the lowest power of each pronumeral appearing in both terms (a\u00b2 and b), giving 6a\u00b2b. Choosing 6ab is a common slip: a\u00b2 divides both a\u00b3 and a\u00b2, so more than a single a can be taken out. Remember the rule \u2014 lowest index wins for the HCF, highest index would give a common multiple instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0003",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise: 5(x + 2) + x(x + 2):",
+   "imageRef": null,
+   "options": [
+    "(x + 2)(5x)",
+    "(x + 2)(5 + 2x)",
+    "(x + 2)\u00b2 + 5",
+    "(x + 2)(5 + x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here the common factor is the whole bracket (x + 2); taking it out leaves 5 from the first term and x from the second, giving (x + 2)(5 + x). The answer (x + 2)(5x) comes from multiplying the leftovers instead of adding them \u2014 but factorising reverses the distributive law, so the leftover parts are added. Check by expanding: (x + 2)(5 + x) = 5x + x\u00b2 + 10 + 2x, which matches the original expression.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0004",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise -4x\u00b2 - 12x by taking out the negative common factor.",
+   "imageRef": null,
+   "options": [
+    "-4x(x - 3)",
+    "-4x(x + 12)",
+    "4x(x + 3)",
+    "-4x(x + 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Taking out -4x means dividing each term by -4x: -4x\u00b2 \u00f7 -4x = x and -12x \u00f7 -4x = 3, so the result is -4x(x + 3). The trap is -4x(x - 3), which comes from assuming the sign inside must stay negative \u2014 but dividing a negative term by a negative factor gives a positive. Expanding is the safest check: -4x \u00d7 3 = -12x, as required.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0005",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise fully: 3x(x - 4) - 6(x - 4):",
+   "imageRef": null,
+   "options": [
+    "3(x - 4)(x - 2)",
+    "3(x - 4)(x + 2)",
+    "(x - 4)(3x + 6)",
+    "(3x - 6)(x + 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "First take out the common bracket (x - 4) to get (x - 4)(3x - 6), then notice 3x - 6 still has a common factor of 3, giving 3(x - 4)(x - 2). The option (x - 4)(3x + 6) is tempting because the -6 looks like it should stay as +6 after nothing is done to it, but dividing -6(x - 4) by (x - 4) leaves -6, not +6. Whenever a factor still contains a numerical common factor, keep going until nothing more can be taken out.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0006",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify: 3a\u2074 \u00d7 5a\u00b3:",
+   "imageRef": null,
+   "options": [
+    "15a^12 \u00f7 2",
+    "15a\u2077",
+    "15a\u00b9\u00b2",
+    "8a\u2077"
+   ],
+   "correctIndex": 1,
+   "explanation": "When multiplying terms with the same base, multiply the coefficients and add the indices: 3 \u00d7 5 = 15 and a\u2074 \u00d7 a\u00b3 = a^(4+3) = a\u2077. The tempting answer 15a\u00b9\u00b2 comes from multiplying the indices instead of adding them \u2014 multiplying indices belongs to the power-of-a-power law, not to a product of two terms. The answer 8a\u2077 adds the coefficients, which are multiplied, not added. Cue: 'times the bases \u2192 add the powers'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0007",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify: 12x\u2075 \u00f7 4x\u00b2:",
+   "imageRef": null,
+   "options": [
+    "3x\u2077",
+    "8x\u00b3",
+    "3x^2.5",
+    "3x\u00b3"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a quotient with the same base, divide the coefficients and subtract the indices: 12 \u00f7 4 = 3 and x\u2075 \u00f7 x\u00b2 = x^(5\u22122) = x\u00b3. The answer 3x\u2077 adds the indices, which is the rule for multiplying, not dividing. The answer 8x\u00b3 subtracts the coefficients instead of dividing them, and 3x^2.5 wrongly divides the indices. Cue: coefficients are divided, indices are subtracted.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0008",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify: (2x\u00b3y)\u2074:",
+   "imageRef": null,
+   "options": [
+    "2x\u00b9\u00b2y\u2074",
+    "8x\u00b9\u00b2y\u2074",
+    "16x\u2077y\u2074",
+    "16x\u00b9\u00b2y\u2074"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every factor inside the brackets is raised to the power 4: 2\u2074 = 16, (x\u00b3)\u2074 = x^(3\u00d74) = x\u00b9\u00b2, and y\u2074. The most tempting error is 2x\u00b9\u00b2y\u2074, which raises the pronumerals but leaves the coefficient untouched \u2014 the index applies to the whole product, coefficient included. The 8x\u00b9\u00b2y\u2074 version multiplies 2 by 4 instead of raising 2 to the fourth power. Cue: brackets mean 'everything inside gets the power'.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0009",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify fully: (15m\u00b3n\u2075) \u00f7 (5m\u00b3n\u00b2):",
+   "imageRef": null,
+   "options": [
+    "0",
+    "3n\u00b3",
+    "3mn\u00b3",
+    "3n\u2077"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide coefficients (15 \u00f7 5 = 3) and subtract indices: m^(3\u22123) = m\u2070 = 1 and n^(5\u22122) = n\u00b3, giving 3n\u00b3. The tempting answer 3mn\u00b3 keeps an m because students assume identical powers must leave one factor behind, but m\u00b3 \u00f7 m\u00b3 = 1. The answer 0 confuses the index becoming zero with the whole term becoming zero. Cue: anything (non-zero) to the power 0 equals 1, so it simply disappears from the product.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0010",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify fully: (4x\u00b2y\u00b3)\u00b3 \u00f7 (8x\u2074y\u2075):",
+   "imageRef": null,
+   "options": [
+    "8x\u00b2y\u2079",
+    "32x\u00b2y\u2074",
+    "8x\u00b2y\u2074",
+    "2x\u00b2y\u2074"
+   ],
+   "correctIndex": 2,
+   "explanation": "First expand the bracket: (4x\u00b2y\u00b3)\u00b3 = 4\u00b3 \u00d7 x\u2076 \u00d7 y\u2079 = 64x\u2076y\u2079. Then divide: 64 \u00f7 8 = 8, x^(6\u22124) = x\u00b2, y^(9\u22125) = y\u2074, giving 8x\u00b2y\u2074. The answer 2x\u00b2y\u2074 comes from writing the coefficient as 4 \u00d7 3 = 12 or from dividing 4 by 8 before cubing, instead of using 4\u00b3 = 64. The answer 8x\u00b2y\u2079 forgets to subtract the y indices in the division step. Cue: always apply the power to the bracket completely before dividing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0011",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify: x/3 + x/4:",
+   "imageRef": null,
+   "options": [
+    "2x/7",
+    "x/12",
+    "7x\u00b2/12",
+    "7x/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "To add fractions you need a common denominator: x/3 = 4x/12 and x/4 = 3x/12, so the sum is 7x/12. The tempting answer 2x/7 comes from adding the numerators and the denominators separately, which is never a valid rule for adding fractions. Remember that the denominators are only multiplied when you multiply fractions, not when you add them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0012",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify fully: (2x)/5 \u00d7 10/(3x):",
+   "imageRef": null,
+   "options": [
+    "4/(3x)",
+    "3/4",
+    "4/3",
+    "4x/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying gives 20x/(15x); the x in the numerator and denominator cancel and 20/15 reduces to 4/3. The answer 4x/3 comes from cancelling the x only in the denominator, leaving an x that should have gone. Check that every common factor, including the variable, is cancelled from top and bottom before you finish.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0013",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify: 5/x \u2212 2/(3x):",
+   "imageRef": null,
+   "options": [
+    "13/(3x\u00b2)",
+    "13/(3x)",
+    "3/(2x)",
+    "1/x"
+   ],
+   "correctIndex": 1,
+   "explanation": "The lowest common denominator is 3x, so 5/x becomes 15/(3x) and the subtraction gives (15 \u2212 2)/(3x) = 13/(3x). The answer 1/x comes from subtracting the numerators (5 \u2212 2 = 3) while keeping the denominator 3x, without first rewriting 5/x. Always rescale each numerator by the same factor you used on its denominator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0014",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify fully: (x + 1)/4 \u00f7 (x + 1)/8:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "(x + 1)\u00b2/32",
+    "(x + 1)/32",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dividing means multiplying by the reciprocal of the second fraction: (x + 1)/4 \u00d7 8/(x + 1). The (x + 1) factors cancel and 8/4 = 2. The answer 1/2 comes from flipping the first fraction instead of the second, which reverses the division. Always invert the fraction you are dividing by, never the one you start with.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0015",
+   "topicId": "maths-algebra-y10",
+   "stem": "Write as a single fraction: (x + 2)/3 + (x \u2212 1)/4:",
+   "imageRef": null,
+   "options": [
+    "(7x + 11)/12",
+    "(2x + 1)/12",
+    "(2x + 1)/7",
+    "(7x + 5)/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using the common denominator 12 gives (4(x + 2) + 3(x \u2212 1))/12 = (4x + 8 + 3x \u2212 3)/12 = (7x + 5)/12. The answer (7x + 11)/12 comes from expanding 3(x \u2212 1) as 3x + 3, dropping the negative sign. Expand each bracket carefully and watch the sign on the second numerator before collecting like terms.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0016",
+   "topicId": "maths-algebra-y10",
+   "stem": "Expand and simplify: (x + 5)(x - 3):",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 - 2x - 15",
+    "x\u00b2 + 2x + 15",
+    "x\u00b2 + 8x - 15",
+    "x\u00b2 + 2x - 15"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying each term gives x\u00b2 - 3x + 5x - 15, and -3x + 5x = +2x, so the result is x\u00b2 + 2x - 15. The tempting answer x\u00b2 - 2x - 15 comes from subtracting the wrong way round (5x - 3x is +2x, not -2x). A quick check: the middle coefficient is the sum of +5 and -3, and the constant is their product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0017",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise: x\u00b2 + 9x + 20:",
+   "imageRef": null,
+   "options": [
+    "(x + 2)(x + 10)",
+    "(x - 4)(x - 5)",
+    "(x + 9)(x + 20)",
+    "(x + 4)(x + 5)"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a monic quadratic you need two numbers that multiply to 20 and add to 9; those are 4 and 5, giving (x + 4)(x + 5). The option (x + 2)(x + 10) does multiply to 20 but adds to 12, not 9 \u2014 always check the sum as well as the product. Note that correctIndex here is the pair 4 and 5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0018",
+   "topicId": "maths-algebra-y10",
+   "stem": "Expand and simplify: (2x - 3)\u00b2:",
+   "imageRef": null,
+   "options": [
+    "4x\u00b2 - 9",
+    "4x\u00b2 + 12x + 9",
+    "4x\u00b2 - 12x + 9",
+    "4x\u00b2 - 6x + 9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Squaring a binomial means (2x - 3)(2x - 3) = 4x\u00b2 - 6x - 6x + 9 = 4x\u00b2 - 12x + 9. The answer 4x\u00b2 - 6x + 9 comes from doubling only once instead of collecting both middle terms; the middle term is 2 \u00d7 2x \u00d7 (-3). Remember the perfect square pattern: first term squared, twice the product, last term squared.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0019",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise: x\u00b2 - 7x + 12:",
+   "imageRef": null,
+   "options": [
+    "(x - 2)(x - 6)",
+    "(x + 3)(x - 4)",
+    "(x - 3)(x - 4)",
+    "(x + 3)(x + 4)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The constant +12 is positive and the middle coefficient -7 is negative, so both numbers must be negative: -3 and -4 multiply to +12 and add to -7. The pair (x + 3)(x + 4) has the correct product but expands to a middle term of +7x. Cue: a positive constant with a negative middle term means two negative numbers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0020",
+   "topicId": "maths-algebra-y10",
+   "stem": "The expression (x + a)(x - 4) expands to x\u00b2 - x - 12. What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "-12",
+    "3",
+    "-3",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expanding gives x\u00b2 + (a - 4)x - 4a, so -4a = -12 and a = 3, which also makes the middle term (3 - 4)x = -x, as required. Choosing -3 comes from assuming the constant -12 means a must be negative, but the -4 in the second bracket already supplies the negative sign. Check any candidate by testing both the constant and the middle term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0021",
+   "topicId": "maths-algebra-y10",
+   "stem": "Using the formula v = u + at, find v when u = 6, a = \u22122 and t = 5.",
+   "imageRef": null,
+   "options": [
+    "v = 4",
+    "v = \u221210",
+    "v = \u22124",
+    "v = 20"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute first, then follow order of operations: at = \u22122 \u00d7 5 = \u221210, so v = 6 + (\u221210) = \u22124. The answer 20 comes from adding u and a first to get 4 and then multiplying by 5, which ignores that multiplication is done before addition. The cue is that the term at is a single product, so work it out before combining it with u.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0022",
+   "topicId": "maths-algebra-y10",
+   "stem": "The circumference of a circle is C = 2\u03c0r. Rearranged to make r the subject, the formula is:",
+   "imageRef": null,
+   "options": [
+    "r = 2\u03c0/C",
+    "r = C/(2\u03c0)",
+    "r = 2\u03c0C",
+    "r = C \u2212 2\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "In C = 2\u03c0r the variable r is multiplied by 2\u03c0, so the inverse operation is to divide both sides by 2\u03c0, giving r = C/(2\u03c0). The option r = C \u2212 2\u03c0 treats 2\u03c0 as if it were added to r, but 2\u03c0r means 2\u03c0 times r, not 2\u03c0 plus r. Check the operation attached to the subject before choosing the inverse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0023",
+   "topicId": "maths-algebra-y10",
+   "stem": "The formula F = 9C/5 + 32 converts degrees Celsius to degrees Fahrenheit. Find C when F = 5.",
+   "imageRef": null,
+   "options": [
+    "C = \u22123",
+    "C = 15",
+    "C = \u221215",
+    "C = 41"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute F = 5 to get 5 = 9C/5 + 32, so 9C/5 = \u221227, then multiply by 5 and divide by 9: C = \u2212135/9 = \u221215. The answer 41 comes from substituting 5 in place of C and converting the wrong way, which answers a different question. Always check which letter the given value belongs to before substituting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0024",
+   "topicId": "maths-algebra-y10",
+   "stem": "For a pendulum, T = 2\u03c0\u221a(L/g). Rearranged to make L the subject, the formula is:",
+   "imageRef": null,
+   "options": [
+    "L = gT\u00b2/(4\u03c0\u00b2)",
+    "L = gT\u00b2/(2\u03c0)",
+    "L = gT/(4\u03c0\u00b2)",
+    "L = 4\u03c0\u00b2gT\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Divide both sides by 2\u03c0 to get T/(2\u03c0) = \u221a(L/g), square both sides to get T\u00b2/(4\u03c0\u00b2) = L/g, then multiply by g, giving L = gT\u00b2/(4\u03c0\u00b2). The option L = gT\u00b2/(2\u03c0) squares the T but forgets that squaring T/(2\u03c0) also squares the 2\u03c0 in the denominator. When you square a fraction, both the numerator and the denominator are squared.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0025",
+   "topicId": "maths-algebra-y10",
+   "stem": "The volume of a cone is given by V = (1/3)\u03c0r\u00b2h. Rearranged to make r the subject, the formula is:",
+   "imageRef": null,
+   "options": [
+    "r = \u221a(3V \u00f7 (\u03c0h))",
+    "r = \u221a(V \u00f7 (3\u03c0h))",
+    "r = 3V \u00f7 (\u03c0h)",
+    "r = \u221a(3Vh \u00f7 \u03c0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply both sides by 3 to clear the fraction: 3V = \u03c0r\u00b2h. Divide both sides by \u03c0h to isolate r\u00b2, giving r\u00b2 = 3V/(\u03c0h), then take the square root, so r = \u221a(3V/(\u03c0h)). The version r = \u221a(V \u00f7 (3\u03c0h)) is tempting because the original has a 1/3, but that third is on the right-hand side, so undoing it means multiplying V by 3, not dividing. A useful cue: whatever the subject is multiplied or divided by must be undone by the opposite operation, and the square root is applied last because squaring was applied to r first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0026",
+   "topicId": "maths-algebra-y10",
+   "stem": "How does a stack behave?",
+   "imageRef": null,
+   "options": [
+    "The last item pushed on is the first popped off",
+    "The first item pushed on is the first popped off",
+    "Items pop off from smallest value to largest",
+    "Items pop off in the order they were sorted alphabetically"
+   ],
+   "correctIndex": 0,
+   "explanation": "A stack is a last-in, first-out structure: items are added and removed at the same end, so the most recently pushed value comes off first. The option saying the first item pushed is the first popped is the common trap \u2014 that is a queue, which adds at one end and removes from the other. Cue: think of a stack of plates (take from the top) versus a queue at a canteen (served from the front).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0027",
+   "topicId": "maths-algebra-y10",
+   "stem": "Trace this pseudocode:\n\nnumbers \u2190 [4, 9, 2, 11, 7]\nbest \u2190 numbers[1]\nfor each n in numbers:\n  if n > best then best \u2190 n\ndisplay best\n\nWhat is displayed?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "7",
+    "2",
+    "11"
+   ],
+   "correctIndex": 3,
+   "explanation": "The variable best starts at the first element, 4, and is replaced whenever a later element is larger, so it becomes 9, then 11, and 7 does not replace it \u2014 the algorithm returns the maximum, 11. Choosing 7 assumes the loop simply keeps the final value it examined, but the condition n > best blocks that update. Cue: an if statement inside a loop only changes the variable when the test is true.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0028",
+   "topicId": "maths-algebra-y10",
+   "stem": "Trace this pseudocode:\n\nnumbers \u2190 [3, 6, 7, 10, 5]\ntotal \u2190 0\nfor each n in numbers:\n  if n mod 2 = 0 then total \u2190 total + n\ndisplay total\n\nWhat is displayed?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "31",
+    "15",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "n mod 2 = 0 is true only for even numbers, so only 6 and 10 are added, giving a total of 16. The value 31 is tempting because it is the sum of every number in the list, which is what you get if the if statement is ignored. Cue: 'mod' gives the remainder after division, so mod 2 = 0 selects the evens.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0029",
+   "topicId": "maths-algebra-y10",
+   "stem": "This pseudocode counts letters using a dictionary (a structure of key\u2013value pairs):\n\ncounts \u2190 empty dictionary\nfor each letter in \"banana\":\n  if letter is a key in counts then\n    counts[letter] \u2190 counts[letter] + 1\n  else\n    counts[letter] \u2190 1\n\nWhat does counts hold at the end?",
+   "imageRef": null,
+   "options": [
+    "b \u2192 1, a \u2192 1, n \u2192 1",
+    "b \u2192 1, a \u2192 6, n \u2192 6",
+    "b \u2192 1, a \u2192 3, n \u2192 2",
+    "b \u2192 1, a \u2192 2, n \u2192 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each new letter is stored with the value 1, and every repeat of a letter adds 1 to its existing value, so 'banana' gives b once, a three times and n twice. The pairing a \u2192 2, n \u2192 3 is the tempting slip from miscounting the letters of the word rather than the logic. Cue: write the word out and tally each letter \u2014 b-a-n-a-n-a.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0030",
+   "topicId": "maths-algebra-y10",
+   "stem": "Trace this pseudocode:\n\nvalues \u2190 [2, 5, 1, 8]\nresult \u2190 empty list\nfor each v in values:\n  if v > 2 then insert v at the FRONT of result\ndisplay result\n\nWhat is displayed?",
+   "imageRef": null,
+   "options": [
+    "[8, 5]",
+    "[5, 8]",
+    "[8, 5, 2, 1]",
+    "[2, 5, 8]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Only values strictly greater than 2 are kept, so 5 and 8 pass while 2 and 1 are skipped. Each kept value is inserted at the front, so after 5 the list is [5], and inserting 8 at the front gives [8, 5]. The tempting answer [5, 8] comes from adding each value to the END of the list, which is what most loops do by default \u2014 here the instruction says 'insert at the front', which reverses the order of the kept values. The cue: check both the test in the if statement and where each item is placed before you write the list down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0031",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x: 4x \u2212 7 = 21:",
+   "imageRef": null,
+   "options": [
+    "x = 3.5",
+    "x = 5.25",
+    "x = 14",
+    "x = 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Undo the operations in reverse order: add 7 to both sides to get 4x = 28, then divide both sides by 4 to get x = 7. The tempting answer x = 3.5 comes from subtracting 7 instead of adding it (21 \u2212 7 = 14, then 14 \u00f7 4), which undoes the wrong way. Remember that to cancel a '\u2212 7' you must add 7 to both sides, and always deal with the addition or subtraction before dividing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0032",
+   "topicId": "maths-algebra-y10",
+   "stem": "The perimeter of a rectangle is P = 2(l + w). A rectangle has P = 34 cm and l = 11 cm. What is the width w?",
+   "imageRef": null,
+   "options": [
+    "w = 11.5 cm",
+    "w = 6 cm",
+    "w = 12 cm",
+    "w = 23 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting gives 34 = 2(11 + w); dividing both sides by 2 gives 17 = 11 + w, so w = 6 cm. The answer 12 cm comes from expanding to 34 = 22 + 2w and then subtracting but forgetting to divide the remaining 12 by 2. A quick check is to substitute back: 2(11 + 6) = 34, which works, while 2(11 + 12) = 46 does not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0033",
+   "topicId": "maths-algebra-y10",
+   "stem": "A plumber charges a $90 callout fee plus $65 per hour. The total bill for a job was $382.50. How many hours did the job take?",
+   "imageRef": null,
+   "options": [
+    "4.5 hours",
+    "5.9 hours",
+    "7.3 hours",
+    "3.1 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "The model is 90 + 65h = 382.5; subtracting 90 gives 65h = 292.5, so h = 292.5 \u00f7 65 = 4.5 hours. The answer 5.9 hours comes from dividing the whole bill by 65 and forgetting that $90 of it was the fixed callout fee. The cue is that a fixed fee must be removed from the total before dividing by the hourly rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0034",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x: (2x + 1)/3 = (x \u2212 4)/2:",
+   "imageRef": null,
+   "options": [
+    "x = 14",
+    "x = \u22125",
+    "x = \u221214",
+    "x = \u22126"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply both sides by 6 (or cross-multiply) to get 2(2x + 1) = 3(x \u2212 4), which expands to 4x + 2 = 3x \u2212 12; subtracting 3x and 2 gives x = \u221214. The answer x = \u22126 comes from only multiplying the first term inside each bracket, giving 4x + 2 = 3x \u2212 4. Always expand the bracket over every term after clearing the denominators.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0035",
+   "topicId": "maths-algebra-y10",
+   "stem": "The length of a rectangle is 3 cm more than twice its width. The perimeter is 42 cm. What is the length?",
+   "imageRef": null,
+   "options": [
+    "12 cm",
+    "29 cm",
+    "15 cm",
+    "6 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let the width be w, so the length is 2w + 3 and 2(w + 2w + 3) = 42, giving 6w + 6 = 42 and w = 6; the length is 2(6) + 3 = 15 cm. The answer 6 cm is the width, which is the value of the variable you solved for, not the quantity asked for. After solving a worded equation, always reread the question to see which quantity it wants.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0036",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve the inequality 3x + 5 < 20.",
+   "imageRef": null,
+   "options": [
+    "x < 5",
+    "x > 5",
+    "x < 25/3",
+    "x \u2264 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract 5 from both sides to get 3x < 15, then divide both sides by 3 (a positive number, so the inequality sign is unchanged) to get x < 5. The tempting choice x > 5 comes from flipping the sign, but the sign only reverses when you multiply or divide by a negative number, and here you divided by positive 3. Also check the strictness: the original uses <, so the answer stays strict, not \u2264.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0037",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve the inequality \u22122x > 8.",
+   "imageRef": null,
+   "options": [
+    "x > \u22124",
+    "x > 4",
+    "x < 4",
+    "x < \u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dividing or multiplying both sides of an inequality by a negative number reverses the inequality sign, so \u22122x > 8 becomes x < \u22124. The answer x > \u22124 is what you get by dividing by \u22122 and forgetting to flip the sign, which is the most common slip here. Check by substituting: x = \u22125 gives \u22122 \u00d7 \u22125 = 10, which is greater than 8, so values below \u22124 are the ones that work.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0038",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which number line shows the solution to 2x + 3 \u2264 11?",
+   "imageRef": null,
+   "options": [
+    "A closed circle at 4 with the arrow shaded to the left",
+    "An open circle at 4 with the arrow shaded to the left",
+    "A closed circle at 4 with the arrow shaded to the right",
+    "An open circle at 7 with the arrow shaded to the left"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtracting 3 gives 2x \u2264 8, and dividing by positive 2 gives x \u2264 4, so 4 itself is included (closed circle) and all smaller values are shaded to the left. The version with an open circle at 4 shading left has the right direction but wrongly excludes 4; an open circle is only used for < or >. The cue is the line under the inequality symbol: \u2264 or \u2265 means a filled-in circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0039",
+   "topicId": "maths-algebra-y10",
+   "stem": "A lift has a maximum load of 600 kg. An operator of mass 80 kg loads boxes each of mass 25 kg. What is the greatest number of boxes that can be carried?",
+   "imageRef": null,
+   "options": [
+    "21 boxes",
+    "24 boxes",
+    "20.8 boxes",
+    "20 boxes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The condition is 80 + 25n \u2264 600, so 25n \u2264 520 and n \u2264 20.8; since n must be a whole number of boxes, the greatest value is 20. Answering 21 comes from rounding 20.8 up, but 21 boxes gives 605 kg, which breaks the limit. With 'at most' problems, always round the decimal answer down to the whole number below.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0040",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve the compound inequality \u22123 \u2264 2x \u2212 1 < 5 and describe its graph.",
+   "imageRef": null,
+   "options": [
+    "\u22122 \u2264 x < 2: closed circle at \u22122, open circle at 2, shaded between",
+    "\u22121 \u2264 x < 3: open circles at both \u22121 and 3, shaded between",
+    "\u22121 \u2264 x < 3: closed circle at \u22121, open circle at 3, shaded between",
+    "\u22121 < x \u2264 3: open circle at \u22121, closed circle at 3, shaded between"
+   ],
+   "correctIndex": 2,
+   "explanation": "Add 1 to all three parts to get \u22122 \u2264 2x < 6, then divide all three parts by positive 2 to get \u22121 \u2264 x < 3, so \u22121 is included (closed) and 3 is excluded (open). The option with \u22121 < x \u2264 3 swaps which endpoint is included, which happens if you read the symbols off the wrong ends after rearranging. Keep track of each symbol as you operate: the \u2264 stays attached to the left end throughout.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0041",
+   "topicId": "maths-algebra-y10",
+   "stem": "The graphs of two linear equations are drawn on the same axes using graphing software. They cross at the point (3, \u22122). What does this tell you about the simultaneous equations?",
+   "imageRef": null,
+   "options": [
+    "The two equations have the separate solutions x = 3 and x = \u22122",
+    "The value 3 satisfies the first equation and the value \u22122 satisfies the second equation",
+    "x = 3 together with y = \u22122 is the one pair of values that satisfies both equations",
+    "x = \u22122 together with y = 3 is the one pair of values that satisfies both equations"
+   ],
+   "correctIndex": 2,
+   "explanation": "A point of intersection lies on both lines, so its coordinates satisfy both equations at once \u2014 the x-coordinate is the x-value and the y-coordinate is the y-value of the solution. The option giving x = \u22122 and y = 3 reverses the coordinates; in an ordered pair the x-value is always written first. Remember that a simultaneous solution is a single pair (x, y), not two separate x-values and not one value for each equation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0042",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve the simultaneous equations 2x + y = 11 and x \u2212 y = 1 using elimination.",
+   "imageRef": null,
+   "options": [
+    "x = 4, y = \u22123",
+    "x = 2, y = 7",
+    "x = 4, y = 3",
+    "x = 3, y = 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The y terms are +y and \u2212y, so adding the equations eliminates y: 3x = 12, giving x = 4, and substituting back into x \u2212 y = 1 gives y = 3. The answer x = 3, y = 4 swaps the two values \u2014 always check by substituting into both original equations, since 2(3) + 4 = 10, not 11. The cue is that when the coefficients of a variable are opposites you add the equations; when they are identical you subtract.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0043",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve the simultaneous equations y = 2x \u2212 1 and 3x + y = 14 by substitution.",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = 3",
+    "x = 3, y = 5",
+    "x = 3, y = 6",
+    "x = 5, y = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting y = 2x \u2212 1 into 3x + y = 14 gives 3x + 2x \u2212 1 = 14, so 5x = 15 and x = 3, and then y = 2(3) \u2212 1 = 5. The answer x = 3, y = 6 comes from dropping the \u22121 and using y = 2x. After finding one variable, substitute into the simplest original equation and then check the pair in the other equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0044",
+   "topicId": "maths-algebra-y10",
+   "stem": "At a canteen, 3 coffees and 2 muffins cost $19, while 1 coffee and 2 muffins cost $11. What is the cost of one coffee?",
+   "imageRef": null,
+   "options": [
+    "$3.50",
+    "$5.50",
+    "$6.33",
+    "$4.00"
+   ],
+   "correctIndex": 3,
+   "explanation": "Letting c and m be the prices, 3c + 2m = 19 and c + 2m = 11; subtracting eliminates m to give 2c = 8, so c = $4 (and then m = $3.50). The answer $3.50 is the muffin price, found correctly but not the quantity asked for. When a word problem is solved by elimination, re-read the question at the end to see which variable it wanted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0045",
+   "topicId": "maths-algebra-y10",
+   "stem": "A student tries to solve 2x + 3y = 7 and 4x + 6y = 9 by elimination and obtains the statement 0 = \u22125. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "The solution is x = 2, y = 1, since that point satisfies the first equation",
+    "The student made an error, because every pair of linear equations has a solution",
+    "There is no solution: the lines are parallel with different y-intercepts",
+    "There are infinitely many solutions: the two equations describe the same line"
+   ],
+   "correctIndex": 2,
+   "explanation": "Doubling the first equation gives 4x + 6y = 14, which contradicts 4x + 6y = 9, so no pair (x, y) can satisfy both; graphically the lines have the same gradient but different intercepts and never meet. The 'infinitely many solutions' option describes the case where one equation is an exact multiple of the other, including the constant \u2014 here the left sides match but 14 \u2260 9. The cue is a false numerical statement such as 0 = \u22125 means no solution, while a true statement such as 0 = 0 means infinitely many.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0046",
+   "topicId": "maths-algebra-y10",
+   "stem": "What is the gradient of any line perpendicular to the line y = 3x \u2212 4?",
+   "imageRef": null,
+   "options": [
+    "\u22121/3",
+    "1/3",
+    "\u22123",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Perpendicular gradients multiply to \u22121, so the required gradient is the negative reciprocal of 3, which is \u22121/3. Choosing \u22123 only changes the sign without taking the reciprocal, which would give a product of \u22129, not \u22121. The cue is that you must do both steps: flip the fraction and change the sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0047",
+   "topicId": "maths-algebra-y10",
+   "stem": "Two distinct straight lines are parallel. Which statement about their gradients must be true?",
+   "imageRef": null,
+   "options": [
+    "The gradients multiply together to give \u22121",
+    "The gradients are negative reciprocals of each other",
+    "The gradients add together to give zero",
+    "The gradients are equal to each other"
+   ],
+   "correctIndex": 3,
+   "explanation": "Parallel lines have the same steepness and direction, so their gradients are identical (only their y-intercepts differ). The statement that the gradients multiply to \u22121 is the rule for perpendicular lines, not parallel ones, and it is the most common mix-up. Remember: same gradient means parallel; product of \u22121 means perpendicular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0048",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which of these lines is parallel to the line 4x \u2212 2y = 10?",
+   "imageRef": null,
+   "options": [
+    "y = \u22122x + 3",
+    "y = \u00bdx + 5",
+    "y = \u2212\u00bdx + 5",
+    "y = 2x + 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearranging 4x \u2212 2y = 10 gives \u22122y = \u22124x + 10, so y = 2x \u2212 5 and the gradient is 2. A parallel line must also have gradient 2, whatever its intercept. The option y = \u2212\u00bdx + 5 uses the negative reciprocal, which gives a perpendicular line instead; y = \u22122x + 3 comes from dropping a negative sign when dividing by \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0049",
+   "topicId": "maths-algebra-y10",
+   "stem": "Find the equation of the line that passes through (4, \u22121) and is perpendicular to y = (2/3)x + 5.",
+   "imageRef": null,
+   "options": [
+    "y = \u2212(2/3)x + 5/3",
+    "y = (3/2)x \u2212 7",
+    "y = \u2212(3/2)x + 5",
+    "y = (2/3)x \u2212 11/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The perpendicular gradient is the negative reciprocal of 2/3, which is \u22123/2. Substituting (4, \u22121): \u22121 = \u22123/2 \u00d7 4 + c gives \u22121 = \u22126 + c, so c = 5 and the line is y = \u2212(3/2)x + 5. The option y = (2/3)x \u2212 11/3 keeps the original gradient, which produces a parallel line through the point, not a perpendicular one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0050",
+   "topicId": "maths-algebra-y10",
+   "stem": "The line joining the points (\u22121, 4) and (5, k) is perpendicular to the line y = 2x \u2212 3. What is the value of k?",
+   "imageRef": null,
+   "options": [
+    "\u22128",
+    "1",
+    "7",
+    "16"
+   ],
+   "correctIndex": 1,
+   "explanation": "For perpendicularity the required gradient is \u22121/2, so (k \u2212 4)/(5 \u2212 (\u22121)) = \u22121/2, giving (k \u2212 4)/6 = \u22121/2, so k \u2212 4 = \u22123 and k = 1. The answer 7 comes from using a gradient of +1/2, forgetting that perpendicular gradients must have opposite signs. Always work out the target gradient first, then set the rise-over-run expression equal to it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0051",
+   "topicId": "maths-algebra-y10",
+   "stem": "A circle is drawn with its centre at the origin and a radius of 6 units. Which equation describes this circle?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 = 6",
+    "x + y = 36",
+    "x\u00b2 \u2212 y\u00b2 = 36",
+    "x\u00b2 + y\u00b2 = 36"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every point (x, y) on a circle centred at the origin sits a distance r from (0, 0), so by Pythagoras x\u00b2 + y\u00b2 = r\u00b2. With r = 6, r\u00b2 = 36. The tempting choice x\u00b2 + y\u00b2 = 6 comes from substituting the radius instead of the radius squared \u2014 that equation would give a circle of radius \u221a6, about 2.45 units. Check by testing an obvious point: (6, 0) must satisfy the equation, and only x\u00b2 + y\u00b2 = 36 works.",
+   "difficulty": 1,
+   "tier": "core",
+   "diagram": {
+    "curve": null,
+    "direction": null,
+    "kind": "circle",
+    "market": "Circle",
+    "shape": "radius",
+    "sides": [
+     6.0
+    ]
+   },
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0052",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which statement correctly describes the graph of y = 3^x?",
+   "imageRef": null,
+   "options": [
+    "It passes through (0, 0) and gets closer and closer to the x-axis for large negative x",
+    "It passes through (0, 3) and crosses the x-axis once at a negative value of x",
+    "It passes through (0, 1) and crosses the x-axis once at a negative value of x",
+    "It passes through (0, 1) and gets closer and closer to the x-axis for large negative x"
+   ],
+   "correctIndex": 3,
+   "explanation": "For any exponential y = a^x with a > 0, substituting x = 0 gives a^0 = 1, so the graph cuts the y-axis at 1. As x becomes large and negative, 3^x becomes a tiny positive number but never reaches zero, so y = 0 is a horizontal asymptote. The version saying it passes through (0, 1) and crosses the x-axis is tempting, but 3^x is positive for every x, so the curve never touches or crosses the x-axis. Cue: an exponential of this form has a y-intercept but no x-intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0053",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which feature is shown by the graph of y = 6/x?",
+   "imageRef": null,
+   "options": [
+    "A single smooth U-shaped curve with a minimum turning point at (0, 6)",
+    "A single straight line through the origin with gradient 6",
+    "Two separate branches, one in the first quadrant and one in the third, approaching both axes",
+    "Two separate branches, one in the second quadrant and one in the fourth, approaching both axes"
+   ],
+   "correctIndex": 2,
+   "explanation": "For y = 6/x with a positive numerator, x and y always share the same sign, so the branches lie in the first and third quadrants; x = 0 and y = 0 are asymptotes because neither variable can be zero. The second-and-fourth-quadrant option describes y = \u22126/x, where the negative numerator flips the branches. Cue: check the sign of the numerator to decide which pair of quadrants the hyperbola occupies.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0054",
+   "topicId": "maths-algebra-y10",
+   "stem": "Graphing software is used to plot y = x\u00b2 \u2212 6x + 5. What are the coordinates of the turning point?",
+   "imageRef": null,
+   "options": [
+    "(3, 5)",
+    "(6, 5)",
+    "(3, \u22124)",
+    "(\u22123, \u22124)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The turning point sits on the axis of symmetry, x = \u2212b/(2a) = 6/2 = 3; substituting gives y = 9 \u2212 18 + 5 = \u22124, so the vertex is (3, \u22124). The choice (\u22123, \u22124) comes from forgetting the minus sign in \u2212b/(2a) and using b directly. The choice (3, 5) uses the constant term, which is the y-intercept, not the minimum value. Always substitute the x-value of the axis of symmetry back into the equation to get the y-coordinate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0055",
+   "topicId": "maths-algebra-y10",
+   "stem": "The equation (x \u2212 2)\u00b2 + (y + 1)\u00b2 = 25 is graphed. What are the centre and radius of this circle?",
+   "imageRef": null,
+   "options": [
+    "Centre (2, \u22121), radius 5",
+    "Centre (\u22122, 1), radius 5",
+    "Centre (2, \u22121), radius 25",
+    "Centre (\u22122, 1), radius 25"
+   ],
+   "correctIndex": 0,
+   "explanation": "The general form (x \u2212 h)\u00b2 + (y \u2212 k)\u00b2 = r\u00b2 has centre (h, k) and radius r. Here x \u2212 2 gives h = 2, and y + 1 is y \u2212 (\u22121) so k = \u22121, while r\u00b2 = 25 gives r = 5. The version with centre (\u22122, 1) simply copies the signs shown in the brackets instead of reversing them. Remember the bracket signs are always the opposite of the centre coordinates, and the number on the right is the radius squared.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0056",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  x/4 + 2 = 7:",
+   "imageRef": null,
+   "options": [
+    "x = 36",
+    "x = 5",
+    "x = 1.25",
+    "x = 20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract 2 from both sides first to get x/4 = 5, then multiply both sides by 4 to get x = 20. The tempting answer x = 36 comes from adding 2 to 7 instead of subtracting, then multiplying by 4 \u2014 but the 2 is added on the left, so it must be undone by subtraction. The cue is to undo operations in reverse order: deal with the +2 before the division by 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0057",
+   "topicId": "maths-algebra-y10",
+   "stem": "To solve (x + 3)/2 = 5, what is the correct first step and the equation it produces?",
+   "imageRef": null,
+   "options": [
+    "Multiply only the left side by 2, giving x + 3 = 5",
+    "Multiply both sides by 2, giving x + 3 = 10",
+    "Subtract 3 from both sides, giving x/2 = 2",
+    "Divide both sides by 2, giving x + 3 = 2.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The whole expression x + 3 is divided by 2, so multiplying both sides by 2 clears the fraction and gives x + 3 = 10, leading to x = 7. Subtracting 3 from both sides is wrong because the 3 is inside the numerator, not a separate term added to the fraction \u2014 removing it would need (x + 3)/2 \u2212 3, not x/2. The cue is the position of the fraction bar: if it runs under x + 3, both terms are divided.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0058",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  x/2 + x/3 = 10:",
+   "imageRef": null,
+   "options": [
+    "x = 12",
+    "x = 50",
+    "x = 60",
+    "x = 20"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying every term by the lowest common denominator 6 gives 3x + 2x = 60, so 5x = 60 and x = 12. The answer x = 50 comes from adding the denominators to get x/5 = 10, which is not how fractions with different denominators combine. Always multiply through by the LCD rather than combining denominators by addition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0059",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  (3x \u2212 1)/4 = 5:",
+   "imageRef": null,
+   "options": [
+    "x = 0.75",
+    "x = 7",
+    "x = 21",
+    "x = 20/3 (about 6.67)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply both sides by 4 to get 3x \u2212 1 = 20, add 1 to get 3x = 21, then divide by 3 to get x = 7. The tempting answer x = 21 stops one step early \u2014 21 is the value of 3x, not of x. Check by substituting: (3 \u00d7 7 \u2212 1)/4 = 20/4 = 5, which confirms the solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0060",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  (x + 4)/3 \u2212 (x \u2212 2)/5 = 2:",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = 8",
+    "x = \u221212",
+    "x = 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying every term by the LCD 15 gives 5(x + 4) \u2212 3(x \u2212 2) = 30, so 5x + 20 \u2212 3x + 6 = 30, giving 2x = 4 and x = 2. The answer x = 8 comes from distributing the subtraction incorrectly as \u22123x \u2212 6; subtracting a bracket changes the sign of both terms inside it. Writing the middle line as 5(x + 4) \u2212 3(x \u2212 2) before expanding makes that sign change easy to control.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0061",
+   "topicId": "maths-algebra-y10",
+   "stem": "The equation (x \u2212 3)(x + 7) = 0 is solved using the null factor law. What are the solutions?",
+   "imageRef": null,
+   "options": [
+    "x = 3 or x = \u22127",
+    "x = \u22123 or x = 7",
+    "x = 3 or x = 7",
+    "x = \u22123 or x = \u22127"
+   ],
+   "correctIndex": 0,
+   "explanation": "The null factor law says that if a product of two factors equals zero, at least one factor must be zero. Setting x \u2212 3 = 0 gives x = 3, and setting x + 7 = 0 gives x = \u22127. The tempting choice x = \u22123 or x = 7 comes from copying the signs shown inside the brackets instead of solving each factor; remember each bracket must be set equal to zero and solved, which reverses the sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0062",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve x\u00b2 = 49.",
+   "imageRef": null,
+   "options": [
+    "x = 24.5 or x = \u221224.5",
+    "x = 49 or x = \u221249",
+    "x = 7 or x = \u22127",
+    "x = 7 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking the square root of both sides of x\u00b2 = 49 gives x = \u00b17, because both 7 \u00d7 7 and (\u22127) \u00d7 (\u22127) equal 49. The answer x = 7 only is the most common slip: \u221a49 as a positive root symbol is 7, but the equation x\u00b2 = 49 has two solutions. Whenever an equation has x\u00b2 alone equal to a positive number, expect two answers, one positive and one negative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0063",
+   "topicId": "maths-algebra-y10",
+   "stem": "A student solves x\u00b2 \u2212 5x = 0 by dividing both sides by x to get x = 5. What is wrong with this method?",
+   "imageRef": null,
+   "options": [
+    "Dividing by x loses the solution x = 0, so the answers are x = 0 or x = 5",
+    "Dividing by x is fine, but the answer should be x = \u22125 rather than x = 5",
+    "Dividing by x gives x = 5 correctly, and this is the only solution",
+    "Dividing by x is wrong because you must first add 5x to both sides"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dividing by x assumes x is not zero, but x = 0 does satisfy the equation, so that solution is thrown away. Factorising instead gives x(x \u2212 5) = 0, and the null factor law gives x = 0 or x = 5. The claim that x = 5 is the only solution is tempting because substituting 5 does work, but a quadratic like this has two solutions; the cue is that there is no constant term, so x is a common factor and x = 0 is always a root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0064",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve x\u00b2 + 2x \u2212 15 = 0 by factorising.",
+   "imageRef": null,
+   "options": [
+    "x = 5 or x = 3",
+    "x = 15 or x = \u22121",
+    "x = 3 or x = \u22125",
+    "x = \u22123 or x = 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "You need two numbers with product \u221215 and sum +2: these are +5 and \u22123, so the equation factorises as (x + 5)(x \u2212 3) = 0, giving x = \u22125 or x = 3. The option x = \u22123 or x = 5 uses the correct pair of numbers but forgets to reverse the signs when solving each bracket. Always substitute one answer back: 3\u00b2 + 2(3) \u2212 15 = 0 confirms x = 3 works.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0065",
+   "topicId": "maths-algebra-y10",
+   "stem": "A rectangular garden bed is 4 m longer than it is wide and has an area of 45 m\u00b2. If the width is w metres, which equation and solution are correct?",
+   "imageRef": null,
+   "options": [
+    "w(w + 4) = 45, giving w = 5 (rejecting w = \u22129)",
+    "w(w + 4) = 45, giving w = 9 (rejecting w = \u22125)",
+    "w(w \u2212 4) = 45, giving w = 9 (rejecting w = \u22125)",
+    "2w + 2(w + 4) = 45, giving w = 9.25"
+   ],
+   "correctIndex": 0,
+   "explanation": "The length is w + 4, so area gives w(w + 4) = 45, that is w\u00b2 + 4w \u2212 45 = 0, which factorises to (w + 9)(w \u2212 5) = 0. Only w = 5 makes sense as a width, and the length is then 9 m. The version giving w = 9 mixes up the two roots and swaps width with length; check by multiplying, since 5 \u00d7 9 = 45 with 9 being 4 more than 5.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0066",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  2^x = 32:",
+   "imageRef": null,
+   "options": [
+    "x = 16",
+    "x = 6",
+    "x = 4",
+    "x = 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write 32 as a power of the same base: 32 = 2 \u00d7 2 \u00d7 2 \u00d7 2 \u00d7 2 = 2^5, so 2^x = 2^5 and therefore x = 5. The tempting answer x = 16 comes from dividing 32 by 2, but the variable is an exponent, not a multiplier, so dividing does not undo the power. The cue is to rewrite both sides with the same base and then equate the exponents.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0067",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  3^x = 1:",
+   "imageRef": null,
+   "options": [
+    "x = 1/3",
+    "x = 0",
+    "x = 1",
+    "x = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Any non-zero base raised to the power 0 equals 1, so 3^x = 3^0 gives x = 0. The answer x = 1 is tempting because students match the '1' on the right-hand side with the exponent, but 3^1 = 3, not 1. Remember: the exponent that produces 1 is always 0, whatever the base.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0068",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  5^(x + 1) = 125:",
+   "imageRef": null,
+   "options": [
+    "x = 25",
+    "x = 2",
+    "x = 3",
+    "x = 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since 125 = 5^3, the equation becomes 5^(x + 1) = 5^3, so the exponents are equal: x + 1 = 3, giving x = 2. The common slip is x = 3, which solves 5^power = 125 but forgets that the power is x + 1, not x. Always equate the whole exponent expression, then solve the linear equation that results.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0069",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  9^x = 27:",
+   "imageRef": null,
+   "options": [
+    "x = 3/2",
+    "x = 3",
+    "x = 2/3",
+    "x = 1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rewrite both sides with base 3: 9^x = (3\u00b2)^x = 3^(2x) and 27 = 3^3, so 2x = 3 and x = 3/2. The answer x = 3 comes from reading the exponent of 27 directly without converting 9 to a power of 3. The cue is that when the bases differ, express both as powers of the smallest common base first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0070",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  5^(2x \u2212 1) = 1/25:",
+   "imageRef": null,
+   "options": [
+    "x = \u22121/2",
+    "x = 3/2",
+    "x = \u22122",
+    "x = 1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Since 1/25 = 5^(\u22122), the equation becomes 5^(2x \u2212 1) = 5^(\u22122), so 2x \u2212 1 = \u22122, giving 2x = \u22121 and x = \u22121/2. The answer x = 3/2 comes from using 2 instead of \u22122 on the right, ignoring that the reciprocal makes the index negative. The cue is that 1 over a power always converts to a negative exponent of the same base.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0071",
+   "topicId": "maths-algebra-y10",
+   "stem": "The time t hours to complete a job is inversely proportional to the number of workers n. With 6 workers the job takes 10 hours. How long would 4 workers take, assuming all workers work at the same steady rate?",
+   "imageRef": null,
+   "options": [
+    "15 hours",
+    "6.7 hours",
+    "8 hours",
+    "20 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inverse proportion means t = k/n, so k = 6 \u00d7 10 = 60 and with n = 4, t = 60/4 = 15 hours. The answer 6.7 hours comes from treating the relationship as direct proportion (10 \u00d7 4/6), which wrongly makes fewer workers finish faster. Check the sense of the answer: fewer workers must take longer, so t must be more than 10 hours.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0072",
+   "topicId": "maths-algebra-y10",
+   "stem": "$4000 is invested at 5% per annum compounded annually. What is the value of the investment after 3 years, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$4600.00",
+    "$4410.00",
+    "$4862.03",
+    "$4630.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using A = P(1 + r)^n with P = 4000, r = 0.05 and n = 3 gives 4000 \u00d7 1.05\u00b3 = 4000 \u00d7 1.157625 = $4630.50. The tempting $4600.00 is the simple interest result (3 \u00d7 $200), which ignores that later years earn interest on the interest already added. Compound answers are always slightly larger than the simple interest answer for the same rate and time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0073",
+   "topicId": "maths-algebra-y10",
+   "stem": "A van bought for $30 000 loses 12% of its value each year. Which model gives the value V dollars after n years?",
+   "imageRef": null,
+   "options": [
+    "V = 30000 \u2212 3600n",
+    "V = 30000 \u00d7 0.88^n",
+    "V = 30000 \u00d7 1.12^n",
+    "V = 30000 \u00d7 0.12^n"
+   ],
+   "correctIndex": 1,
+   "explanation": "Losing 12% each year leaves 88% of the previous value, so the multiplier is 0.88 and V = 30000 \u00d7 0.88^n. The model V = 30000 \u00d7 0.12^n uses the percentage lost as the multiplier, which would leave only $3600 after one year instead of $26 400. Test any decay model with n = 1: the value should drop by exactly 12% of the starting figure.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0074",
+   "topicId": "maths-algebra-y10",
+   "stem": "A town's population grows by 8% each year. Using the model P = P\u2080 \u00d7 1.08^n, after how many whole years does the population first exceed double its starting value?",
+   "imageRef": null,
+   "options": [
+    "12 years",
+    "10 years",
+    "9 years",
+    "13 years"
+   ],
+   "correctIndex": 1,
+   "explanation": "We need 1.08^n > 2. Trialling values, 1.08^9 \u2248 1.999 which is just under 2, while 1.08^10 \u2248 2.159, so 10 whole years is the first time the population exceeds double. Choosing 9 years is the common slip of stopping at the value closest to 2 rather than the first one above it. Also note that dividing 100 by 8 does not work, because growth compounds rather than adding a fixed amount each year.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0075",
+   "topicId": "maths-algebra-y10",
+   "stem": "An amount of $P is invested at an annual interest rate r (written as a decimal), with interest compounded once per year. Which explanation correctly shows why repeatedly applying simple interest leads to the model A = P(1 + r)^n after n years?",
+   "imageRef": null,
+   "options": [
+    "Simple interest is applied each year to the balance at the start of that year, so the balance is multiplied by (1 + r) once every year, giving P(1 + r)^n",
+    "Simple interest is applied each year to the original principal only, so the balance rises by the same amount P \u00d7 r every year, giving P(1 + r)^n",
+    "Simple interest is applied each year to the interest already earned rather than to the whole balance, so the interest itself is multiplied by (1 + r) every year",
+    "Simple interest is applied each year by multiplying the current balance by the rate r, so after n years the balance has been multiplied by r a total of n times"
+   ],
+   "correctIndex": 0,
+   "explanation": "Compounding means that at the end of each year the interest, P \u00d7 r for that year's opening balance, is added on, so a balance B becomes B + Br = B(1 + r); doing this n times multiplies the original P by (1 + r) exactly n times. The tempting choice is the one saying interest is calculated on the original principal only \u2014 that describes simple interest, which grows by equal amounts and gives A = P(1 + rn), not a power. The other options either apply interest only to previously earned interest or multiply by r instead of (1 + r), which would shrink the investment for any rate below 100%. Cue: with compounding, the multiplier each year is (1 + r) applied to the whole current balance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0076",
+   "topicId": "maths-algebra-y10",
+   "stem": "Graphing software is used to plot y = x\u00b2 and y = 2x + 3 on the same axes. How are the solutions of the equation x\u00b2 = 2x + 3 read from this display?",
+   "imageRef": null,
+   "options": [
+    "They are the x-coordinates of the intersections read as x = \u22123 and x = 1",
+    "They are the x-coordinates of the two intersection points, x = \u22121 and x = 3",
+    "They are the y-coordinates of the two intersection points, y = 1 and y = 9",
+    "They are the x-intercepts of the parabola y = x\u00b2, giving only x = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "An equation of the form f(x) = g(x) is solved graphically by plotting both sides and reading the x-values where the curves meet, since at those points the two expressions are equal. Substituting confirms (\u22121)\u00b2 = 1 = 2(\u22121) + 3 and 3\u00b2 = 9 = 2(3) + 3. The option giving y = 1 and y = 9 uses the heights of the intersection points rather than their x-values \u2014 those are the values of both sides, not the solutions. The cue: the unknown is x, so read across the horizontal axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0077",
+   "topicId": "maths-algebra-y10",
+   "stem": "To solve the equation x\u00b3 \u2212 4x = 0 using a graph of y = x\u00b3 \u2212 4x, which feature of the graph gives the solutions?",
+   "imageRef": null,
+   "options": [
+    "The y-values of the two turning points of the curve, near 3.1 and \u22123.1",
+    "The x-values where the curve cuts the horizontal axis, here \u22122, 0 and 2",
+    "The y-value where the curve cuts the vertical axis, which is 0",
+    "The x-values of the two turning points of the curve, near \u22121.2 and 1.2"
+   ],
+   "correctIndex": 1,
+   "explanation": "When an equation is written as f(x) = 0, its solutions are the values of x that make the height of the graph zero, so they are the horizontal intercepts. Here the curve cuts the axis three times, at \u22122, 0 and 2. Choosing the turning points is the most common slip: turning points are where the curve changes direction, not where its value is zero. Cue: 'equals zero' means height zero, so look at where the curve crosses the x-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0078",
+   "topicId": "maths-algebra-y10",
+   "stem": "A spreadsheet is used with guess-check-and-refine to solve x\u00b3 + x = 12. The results are: x = 2.0 gives 10.000; x = 2.1 gives 11.361; x = 2.2 gives 12.848; x = 2.3 gives 14.467. Between which values does the solution lie?",
+   "imageRef": null,
+   "options": [
+    "Between 2.0 and 2.1, because both outputs are below 12",
+    "Between 2.2 and 2.3, because both outputs are above 12",
+    "Exactly at 2.2, because 12.848 is the value closest to 12",
+    "Between 2.1 and 2.2, because the output crosses 12 there"
+   ],
+   "correctIndex": 3,
+   "explanation": "The expression x\u00b3 + x increases steadily, so the solution sits where the outputs change from below the target to above it: 11.361 is under 12 and 12.848 is over it, so x lies between 2.1 and 2.2. Choosing 2.2 because 12.848 looks close is wrong \u2014 refining further gives about 2.146, and 12.848 is not equal to 12. The cue is to hunt for the step where the output passes through the target value, then narrow the interval again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0079",
+   "topicId": "maths-algebra-y10",
+   "stem": "A student solves x\u00b2 = 3x + 10 with graphing software, using a viewing window of 0 \u2264 x \u2264 10, sees one intersection at x = 5 and reports that as the only solution. What is the problem?",
+   "imageRef": null,
+   "options": [
+    "A parabola and a line can never meet twice, so the report should mention the turning point too",
+    "The window is fine, but the student should also list y = 25 as a second solution of the equation",
+    "A second intersection at x = \u22122 lies outside the chosen window, so the window must be widened",
+    "The intersection at x = 5 is not a true solution, because the window cut off part of the parabola"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearranging gives x\u00b2 \u2212 3x \u2212 10 = 0, which factorises to (x \u2212 5)(x + 2) = 0, so there are two solutions and one of them is negative. A viewing window that starts at 0 hides it, which is exactly why solutions must be checked for completeness. Saying y = 25 is a second solution confuses the height of the intersection point with a value of the unknown. The habit to build: zoom out first and count how many times the graphs can cross before recording answers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0080",
+   "topicId": "maths-algebra-y10",
+   "stem": "Using guess-check-and-refine on a smooth, unbroken graph of y = f(x), a student finds f(2) = \u22123 and f(3) = 1.5. What can be concluded about solutions of f(x) = 0?",
+   "imageRef": null,
+   "options": [
+    "There is exactly one solution between x = 2 and x = 3, since the sign changes once",
+    "The solution is x = 2.5, since it lies midway between the two tested values",
+    "There are no solutions outside 2 < x < 3, since the sign change locates them all",
+    "There is at least one solution between x = 2 and x = 3, since the graph must cross the axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "A change of sign on a continuous graph means the curve passes from below the axis to above it, so it must cross the axis somewhere in that interval \u2014 at least once. Claiming exactly one solution is the tempting error: the curve could dip back and cross three times within the same interval, so a single sign change guarantees existence, not uniqueness. Sign changes also say nothing about behaviour outside the tested interval, which is why other regions must still be searched.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0081",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which of these expressions is a polynomial in x?",
+   "imageRef": null,
+   "options": [
+    "(3x + 2)/(x \u2212 5) + x\u00b2",
+    "4x\u00b3 \u2212 2x\u00b2 + 7x \u2212 1",
+    "5x\u00b2 + 3x^(1/2) \u2212 8",
+    "6x\u207b\u00b2 + 4x + 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "A polynomial in x is a sum of terms of the form a\u00d7x^n where every power n is a whole number (0, 1, 2, 3, \u2026) and the coefficients are numbers. Only the first expression meets this: its powers are 3, 2, 1 and 0. The option containing 3x^(1/2) is tempting because it looks otherwise ordinary, but a power of \u00bd (a square root) is not a whole number, so it is not a polynomial. Likewise a negative power such as x\u207b\u00b2, or a variable in a denominator, disqualifies an expression \u2014 check every exponent is a non-negative whole number.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0082",
+   "topicId": "maths-algebra-y10",
+   "stem": "P(x) = 2x\u00b3 \u2212 5x\u00b2 + x + 6. According to the remainder theorem, what is the remainder when P(x) is divided by (x \u2212 2)?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "12",
+    "\u22128",
+    "0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The remainder theorem says the remainder on dividing P(x) by (x \u2212 a) equals P(a), so here you substitute x = 2: 2(8) \u2212 5(4) + 2 + 6 = 16 \u2212 20 + 8 = 0. Choosing 4 comes from substituting x = \u22122 incorrectly or mis-signing a term; the cue is that the divisor (x \u2212 2) is zero when x = +2, so you substitute the value that makes the bracket zero. A remainder of 0 also means (x \u2212 2) is a factor of P(x).",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0083",
+   "topicId": "maths-algebra-y10",
+   "stem": "The factor theorem is used to test whether (x + 3) is a factor of P(x) = x\u00b3 + 2x\u00b2 \u2212 5x \u2212 6. Which calculation and conclusion are correct?",
+   "imageRef": null,
+   "options": [
+    "P(\u22123) = 0, so (x + 3) is a factor",
+    "P(3) = 24, so (x + 3) is not a factor",
+    "P(\u22123) = \u22126, so (x + 3) is not a factor",
+    "P(0) = \u22126, so (x + 3) is not a factor"
+   ],
+   "correctIndex": 0,
+   "explanation": "(x + 3) is a factor exactly when P(\u22123) = 0, since x = \u22123 makes the bracket zero: (\u221227) + 2(9) \u2212 5(\u22123) \u2212 6 = \u221227 + 18 + 15 \u2212 6 = 0. Substituting P(3) is the common error \u2014 it tests the factor (x \u2212 3), not (x + 3). The cue: always use the value of x that makes the bracket equal zero, which reverses the sign shown inside it.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0084",
+   "topicId": "maths-algebra-y10",
+   "stem": "When P(x) = x\u00b3 + kx\u00b2 \u2212 4x + 1 is divided by (x \u2212 1), the remainder is 6. What is the value of k?",
+   "imageRef": null,
+   "options": [
+    "k = 4",
+    "k = 2",
+    "k = \u22128",
+    "k = 8"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the remainder theorem P(1) = 6, so 1 + k \u2212 4 + 1 = 6, giving k \u2212 2 = 6 and k = 8. Getting k = 4 usually comes from setting the expression equal to 0 instead of 6, or from dropping the constant term. Remember that a non-zero remainder is set equal to the given value, and only a remainder of 0 signals a factor.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0085",
+   "topicId": "maths-algebra-y10",
+   "stem": "P(x) = x\u00b3 \u2212 6x\u00b2 + 11x \u2212 6 and it is known that P(1) = 0. Which statement gives the correct full factorisation and roots?",
+   "imageRef": null,
+   "options": [
+    "P(x) = (x \u2212 1)(x \u2212 6)(x \u2212 1), with roots 1 and 6",
+    "P(x) = (x \u2212 1)(x \u2212 2)(x \u2212 3), with roots 1, 2 and 3",
+    "P(x) = (x \u2212 1)(x\u00b2 \u2212 5x + 6) only, so 1 is the single root",
+    "P(x) = (x + 1)(x + 2)(x + 3), with roots \u22121, \u22122 and \u22123"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since P(1) = 0, the factor theorem gives (x \u2212 1) as a factor; dividing gives the quadratic x\u00b2 \u2212 5x + 6, which factorises to (x \u2212 2)(x \u2212 3), so the roots are 1, 2 and 3 (check: the three constants multiply to give \u22126). The tempting option that stops at (x \u2212 1)(x\u00b2 \u2212 5x + 6) is wrong because the quadratic factor still has real zeros at x = 2 and x = 3, so 1 is not the only root. Always factorise the quotient fully before listing roots.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0086",
+   "topicId": "maths-algebra-y10",
+   "stem": "In mathematics, which description best fits what is meant by an algorithm?",
+   "imageRef": null,
+   "options": [
+    "A finite sequence of precise, unambiguous steps that can be carried out to produce a result",
+    "A single formula that gives the answer in one line without any repeated or conditional steps",
+    "One reasonable guess at an answer, checked once against the original problem statement",
+    "A diagram or graph drawn to display the relationship between two variables"
+   ],
+   "correctIndex": 0,
+   "explanation": "An algorithm is a finite, clearly defined procedure: each step is unambiguous, the order is fixed, and it terminates with a result. The option describing a single formula is tempting because formulas do give answers, but a formula is one calculation rather than a step-by-step procedure that may loop or branch \u2014 many algorithms (such as repeated halving) cannot be written as one formula. The cue is 'steps that can be repeated and must stop': that signals an algorithm, not a formula or a picture.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0087",
+   "topicId": "maths-algebra-y10",
+   "stem": "A spreadsheet simulates many die rolls and records the fraction that are sixes. What happens as rolls increase?",
+   "imageRef": null,
+   "options": [
+    "The theoretical probability of rolling a six itself changes as more data comes in",
+    "The recorded fraction tends to settle close to the theoretical probability of 1/6",
+    "The recorded fraction becomes exactly 1/6 once enough rolls are simulated",
+    "The recorded fraction is unaffected by the number of rolls, as each is random"
+   ],
+   "correctIndex": 1,
+   "explanation": "With more trials, the relative frequency produced by a simulation tends to stabilise near the theoretical probability \u2014 this is why simulations are useful for estimating probabilities that are hard to calculate. The claim that it becomes exactly 1/6 is wrong: random variation means the fraction may get very close but is not guaranteed to hit the exact value. Remember that a simulation estimates a probability; it never redefines or exactly reproduces it.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0088",
+   "topicId": "maths-algebra-y10",
+   "stem": "The Euclidean algorithm repeatedly divides the larger number by the smaller and replaces the pair with (smaller, remainder), stopping when the remainder is 0. Applied to 84 and 36: 84 \u00f7 36 leaves remainder 12, then 36 \u00f7 12 leaves remainder 0. What is the output and what does it mean?",
+   "imageRef": null,
+   "options": [
+    "12, which is the highest common factor of 84 and 36",
+    "0, because the algorithm always outputs the final remainder",
+    "252, which is the lowest common multiple of 84 and 36",
+    "48, which is the difference between 84 and 36"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Euclidean algorithm returns the last non-zero remainder, and that value is the highest common factor \u2014 here 12, since 84 = 12 \u00d7 7 and 36 = 12 \u00d7 3. Choosing 0 is the common slip: the zero remainder is only the stopping signal that tells you the algorithm has finished, not the answer. The cue is 'last non-zero remainder' \u2014 read back one line from where the process stops.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0089",
+   "topicId": "maths-algebra-y10",
+   "stem": "An algorithm for locating a solution of f(x) = 0 repeatedly tests the midpoint of an interval and keeps the half where the sign of f changes. For a smooth graph, f(1) = \u22122 and f(2) = 3, so the first midpoint tested is x = 1.5, giving f(1.5) = 0.4. Which interval does the algorithm keep next?",
+   "imageRef": null,
+   "options": [
+    "Between x = 1.5 and x = 1.75, because the interval halves again immediately",
+    "Between x = 1 and x = 1.5, because the sign of f changes there",
+    "Between x = 1.5 and x = 2, because both values there are positive",
+    "Between x = 1 and x = 2, because the midpoint did not give exactly 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A sign change between two points on a smooth, unbroken graph guarantees a solution lies between them; since f(1) is negative and f(1.5) is positive, the root is in [1, 1.5]. Keeping [1.5, 2] is the classic error \u2014 both f(1.5) and f(2) are positive, so no sign change is trapped there and the algorithm would lose the root. Always keep the half whose endpoint values have opposite signs.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0090",
+   "topicId": "maths-algebra-y10",
+   "stem": "An iterative algorithm for estimating \u221a20 uses the rule: new estimate = (old estimate + 20 \u00f7 old estimate) \u00f7 2, starting at x = 4. What are the first two estimates produced, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "4.500 then 4.250",
+    "5.000 then 4.500",
+    "4.472 then 4.500",
+    "4.500 then 4.472"
+   ],
+   "correctIndex": 3,
+   "explanation": "Applying the rule to x = 4 gives (4 + 20 \u00f7 4) \u00f7 2 = (4 + 5) \u00f7 2 = 4.500; applying it again gives (4.5 + 20 \u00f7 4.5) \u00f7 2 = (4.5 + 4.444...) \u00f7 2 \u2248 4.472. The answer 4.500 then 4.250 comes from averaging 4 and 4.5 on the second pass instead of re-using the rule with the new estimate. Each iteration must substitute the most recent estimate into both places in the formula, and the values close in on \u221a20 \u2248 4.4721.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0091",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify 2x/3 + x/4.",
+   "imageRef": null,
+   "options": [
+    "x/4",
+    "3x/7",
+    "5x/12",
+    "11x/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "With a common denominator of 12, 2x/3 becomes 8x/12 and x/4 becomes 3x/12, so the sum is 11x/12. The tempting answer x/4 comes from writing (2x + x)/12 = 3x/12, which keeps the original numerators instead of rescaling them for the new denominator. The answer 3x/7 adds numerators and denominators separately, which is never a valid rule for adding fractions. Always rescale each numerator by the same factor used on its denominator.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0092",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify x/2 + 3x/4 \u2212 x.",
+   "imageRef": null,
+   "options": [
+    "x",
+    "5x/4",
+    "9x/4",
+    "x/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Writing every term over 4 gives 2x/4 + 3x/4 \u2212 4x/4 = x/4. The answer x comes from writing (2x + 3x \u2212 x)/4 = 4x/4, forgetting that the whole term x must be converted to 4x/4, not left as x. The answer 5x/4 stops after adding the first two terms and never subtracts. Convert whole-number coefficients to fractions with the common denominator before combining.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0093",
+   "topicId": "maths-algebra-y10",
+   "stem": "Simplify (2x + 1)/3 + (x \u2212 4)/2.",
+   "imageRef": null,
+   "options": [
+    "(7x + 14)/6",
+    "(3x \u2212 3)/5",
+    "(7x \u2212 10)/6",
+    "(3x \u2212 3)/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Using a denominator of 6, the first fraction becomes 2(2x + 1)/6 = (4x + 2)/6 and the second becomes 3(x \u2212 4)/6 = (3x \u2212 12)/6, giving (7x \u2212 10)/6. The answer (3x \u2212 3)/6 puts the numerators over 6 without multiplying them by 2 and 3, which changes the value of each fraction. The answer (7x + 14)/6 comes from expanding 3(x \u2212 4) as 3x + 12 instead of 3x \u2212 12. Multiply each numerator by the same factor used on its denominator, then expand carefully with signs.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0094",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  2x/5 \u2212 x/3 = 4:",
+   "imageRef": null,
+   "options": [
+    "x = 60/11",
+    "x = 60",
+    "x = 4",
+    "x = 8"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying every term by 15 gives 6x \u2212 5x = 60, so x = 60. The answer x = 4 comes from multiplying only the left-hand side by 15 and leaving the 4 unchanged \u2014 the multiplier must be applied to every term in the equation. The answer x = 8 comes from subtracting numerators and denominators to get x/2 = 4, which is not a valid rule. Check by substituting: 120/5 \u2212 60/3 = 24 \u2212 20 = 4.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0095",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve for x:  (2x \u2212 1)/3 \u2212 (x + 2)/4 = 1/6:",
+   "imageRef": null,
+   "options": [
+    "x = 0",
+    "x = 22/5",
+    "x = 12/5",
+    "x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying every term by the LCD 12 gives 4(2x \u2212 1) \u2212 3(x + 2) = 2, so 8x \u2212 4 \u2212 3x \u2212 6 = 2, giving 5x = 12 and x = 12/5. The answer x = 0 comes from distributing the subtraction incorrectly as \u22123x + 6, which loses the sign on the second term of the bracket. The answer x = 22/5 comes from multiplying the right-hand side by 12 to get 12 instead of 12 \u00d7 1/6 = 2. Put the minus sign in front of a bracket before expanding, and multiply the right-hand side by the LCD as well.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0096",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which statement correctly expresses the equation 2^5 = 32 in logarithmic form?",
+   "imageRef": null,
+   "options": [
+    "log\u208532 = 2",
+    "log\u2083\u20822 = 5",
+    "log\u20825 = 32",
+    "log\u208232 = 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "By definition, log to base b of a number is the power that b must be raised to in order to give that number, so b^y = x is the same statement as log_b x = y. Here the base is 2 and the power is 5, giving log\u208232 = 5. The tempting choice log\u208532 = 2 swaps the base with the index, which reverses the roles of the two numbers. The cue is that the base of the power is always the base of the logarithm, and the logarithm equals the index.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0097",
+   "topicId": "maths-algebra-y10",
+   "stem": "The functions y = 3^x and y = log\u2083x are inverses of each other. What does this mean for their graphs on the same set of axes?",
+   "imageRef": null,
+   "options": [
+    "The two graphs are identical but shifted 3 units apart",
+    "Each graph is the reflection of the other in the line y = x",
+    "Each graph is the reflection of the other in the x-axis",
+    "Each graph is the reflection of the other in the y-axis"
+   ],
+   "correctIndex": 1,
+   "explanation": "Inverse functions swap the x- and y-coordinates of every point, so the point (2, 9) on y = 3^x corresponds to (9, 2) on y = log\u2083x; swapping coordinates is exactly a reflection in the line y = x. Reflection in the y-axis is tempting because it produces another exponential-looking curve, but that gives y = 3^(\u2212x), which is not the logarithmic function. Check with a point: if (0, 1) maps to (1, 0), the mirror line must be y = x.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0098",
+   "topicId": "maths-algebra-y10",
+   "stem": "Evaluate log\u208464.",
+   "imageRef": null,
+   "options": [
+    "16",
+    "256",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "log\u208464 asks for the power of 4 that gives 64, and since 4\u00b3 = 64 the answer is 3. Choosing 16 comes from computing 64 \u00f7 4, treating the logarithm as a division rather than as an index. The cue is to rewrite the question as 4^? = 64 before doing anything else.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0099",
+   "topicId": "maths-algebra-y10",
+   "stem": "Solve log\u2085(x) = 3 for x.",
+   "imageRef": null,
+   "options": [
+    "x = 15",
+    "x = 5/3",
+    "x = 243",
+    "x = 125"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rewriting log\u2085x = 3 in exponential form gives 5\u00b3 = x, so x = 125. The answer 15 comes from multiplying the base by the logarithm instead of using it as an index. The answer 243 reverses base and index, calculating 3^5. Always convert log_b x = y straight to b^y = x before evaluating.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0100",
+   "topicId": "maths-algebra-y10",
+   "stem": "A colony of bacteria is modelled by N = 200 \u00d7 2^t, where t is time in hours. Which expression gives the exact time when the colony reaches 3200 bacteria, and what is that time?",
+   "imageRef": null,
+   "options": [
+    "t = log\u2081\u20862, so t = 0.25 hours",
+    "t = 3200 \u00f7 200 \u00f7 2, so t = 8 hours",
+    "t = log\u208216, so t = 4 hours",
+    "t = log\u20823200, so t \u2248 11.6 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "Setting 200 \u00d7 2^t = 3200 and dividing both sides by 200 gives 2^t = 16, and taking the logarithm base 2 of both sides gives t = log\u208216 = 4. The choice t = log\u20823200 is tempting because it applies the logarithm immediately, but the coefficient 200 must be divided out first \u2014 the logarithm undoes the power, not the multiplication in front of it. Isolate the power on its own before converting to logarithmic form.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0101",
+   "topicId": "maths-algebra-y10",
+   "stem": "The graph of x\u00b2 + y\u00b2 = 25 is drawn on Cartesian axes. Which description is correct?",
+   "imageRef": null,
+   "options": [
+    "A circle centred at the origin with radius 5",
+    "A circle centred at the origin with radius 25",
+    "A circle centred at (5, 5) with radius 5",
+    "A parabola with vertex at the origin opening upwards"
+   ],
+   "correctIndex": 0,
+   "explanation": "The equation x\u00b2 + y\u00b2 = r\u00b2 describes a circle centred at the origin whose radius is r, so here r\u00b2 = 25 gives radius \u221a25 = 5. The tempting error is 'a circle centred at the origin with radius 25', which reads the number on the right as the radius instead of the radius squared. The cue: always take the square root of the constant term to get the radius.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0102",
+   "topicId": "maths-algebra-y10",
+   "stem": "The parabola y = x\u00b2 is transformed to y = (x \u2212 4)\u00b2 + 1. How has the graph moved?",
+   "imageRef": null,
+   "options": [
+    "4 units right and 1 unit up",
+    "4 units left and 1 unit up",
+    "4 units right and 1 unit down",
+    "1 unit right and 4 units up"
+   ],
+   "correctIndex": 0,
+   "explanation": "In y = (x \u2212 h)\u00b2 + k the vertex sits at (h, k), so (x \u2212 4)\u00b2 + 1 places the vertex at (4, 1): 4 right and 1 up from the origin. The common trap is '4 units left and 1 unit up', because the minus sign inside the bracket looks like a shift in the negative direction. Remember that the horizontal shift is the value of x that makes the bracket zero.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0103",
+   "topicId": "maths-algebra-y10",
+   "stem": "The exponential graph y = 2^x is transformed to y = 2^x \u2212 5. Which pair of features is correct for the new graph?",
+   "imageRef": null,
+   "options": [
+    "Horizontal asymptote y = \u22125, y-intercept (0, \u22124)",
+    "Horizontal asymptote y = \u22125, y-intercept (0, \u22125)",
+    "Horizontal asymptote y = 0, y-intercept (0, \u22124)",
+    "Horizontal asymptote y = 5, y-intercept (0, \u22123)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtracting 5 slides the whole graph down 5 units, so the asymptote y = 0 becomes y = \u22125, and the y-intercept 2^0 = 1 becomes 1 \u2212 5 = \u22124. The near-miss option keeps the correct asymptote but gives the y-intercept as (0, \u22125), which forgets that 2^0 = 1, not 0. Always substitute x = 0 into the full rule rather than assuming the intercept equals the constant.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0104",
+   "topicId": "maths-algebra-y10",
+   "stem": "A parabola has x-intercepts at x = \u22121 and x = 5 and passes through the point (0, \u221210). Which rule fits?",
+   "imageRef": null,
+   "options": [
+    "y = \u22122(x + 1)(x \u2212 5)",
+    "y = 2(x + 1)(x \u2212 5)",
+    "y = 2(x \u2212 1)(x + 5)",
+    "y = (x + 1)(x \u2212 5)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Intercepts at \u22121 and 5 give factors (x + 1) and (x \u2212 5), so y = a(x + 1)(x \u2212 5); substituting (0, \u221210) gives \u221210 = a(1)(\u22125), so a = 2. The tempting choice y = (x + 1)(x \u2212 5) has the right intercepts but gives y = \u22125 at x = 0, so it misses the given point \u2014 the dilation factor must be checked, not assumed to be 1. Reversing the signs inside the brackets, as in the option with (x \u2212 1)(x + 5), would put the intercepts at 1 and \u22125 instead.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0105",
+   "topicId": "maths-algebra-y10",
+   "stem": "The hyperbola y = 1/x is transformed to y = 1/(x \u2212 2) + 3. Which pair of asymptotes does the new graph have?",
+   "imageRef": null,
+   "options": [
+    "Vertical asymptote x = \u22122 and horizontal asymptote y = 3",
+    "Vertical asymptote x = 3 and horizontal asymptote y = 2",
+    "Vertical asymptote x = \u22122 and horizontal asymptote y = \u22123",
+    "Vertical asymptote x = 2 and horizontal asymptote y = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Replacing x by (x \u2212 2) shifts the graph 2 units right, so the vertical asymptote moves from x = 0 to x = 2; adding 3 shifts it 3 units up, so the horizontal asymptote moves from y = 0 to y = 3. The tempting answer 'Vertical asymptote x = \u22122 and horizontal asymptote y = 3' comes from reading (x \u2212 2) as a shift in the negative direction \u2014 but the graph is undefined where the denominator is zero, and x \u2212 2 = 0 gives x = 2. The option swapping the two values (x = 3 and y = 2) confuses which number controls the horizontal shift and which controls the vertical shift. Cue: set the denominator equal to zero to find the vertical asymptote, and read the added constant as the horizontal asymptote.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0106",
+   "topicId": "maths-algebra-y10",
+   "stem": "Sketch y = (x \u2212 1)(x + 2)(x \u2212 3). Which description is correct?",
+   "imageRef": null,
+   "options": [
+    "It touches the x-axis at x = \u22122, 1 and 3 without crossing, staying above elsewhere",
+    "It cuts the x-axis at x = \u22122, 1 and 3, and y is large positive for large positive x",
+    "It cuts the x-axis at x = \u22121, 2 and \u22123, and y is large positive for large positive x",
+    "It cuts the x-axis at x = \u22122, 1 and 3, and y is large negative for large positive x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each factor gives a zero when it equals 0, so x \u2212 1 = 0, x + 2 = 0 and x \u2212 3 = 0 give x = 1, x = \u22122 and x = 3. Expanding would give leading term x\u00b3 with a positive coefficient, so for large positive x the graph rises. The tempting error is reading the zeros as x = \u22121, 2 and \u22123, which just copies the signs inside the brackets instead of solving each factor. Also, single (unrepeated) factors mean the curve cuts straight through the axis rather than touching it.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0107",
+   "topicId": "maths-algebra-y10",
+   "stem": "For y = \u22122x\u2074 + 3x\u00b2 \u2212 1, what happens at each far end?",
+   "imageRef": null,
+   "options": [
+    "y becomes large and negative at the left, large and positive at the right",
+    "y becomes large and negative at both the left and the right ends",
+    "y becomes large and positive at both the left and the right ends",
+    "y becomes large and positive at the left, large and negative at the right"
+   ],
+   "correctIndex": 1,
+   "explanation": "End behaviour is controlled by the leading term, here \u22122x\u2074. An even power makes x\u2074 large and positive at both ends, and the negative coefficient flips both ends downwards. Choosing large and positive at both ends ignores the negative sign on the leading coefficient. The opposite-ends options belong to odd-degree polynomials such as cubics, not to a degree-4 curve.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0108",
+   "topicId": "maths-algebra-y10",
+   "stem": "The graph of y = x(x \u2212 2)\u00b2 is sketched. What happens at the two x-intercepts?",
+   "imageRef": null,
+   "options": [
+    "The curve touches the axis at x = 0 and cuts through the axis at x = 2",
+    "The curve cuts through the axis at both x = 0 and x = 2",
+    "The curve touches the axis at both x = 0 and x = 2 without crossing",
+    "The curve cuts through the axis at x = 0 and touches the axis at x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "A factor appearing once gives a zero where the curve passes straight through the axis, while a squared factor gives a zero where the curve just touches the axis and turns back. Here x appears once (cut at x = 0) and (x \u2212 2) is squared (touch at x = 2). The most tempting swap is touching at x = 0 and cutting at x = 2, which attaches the repeated behaviour to the wrong factor. The cue is the exponent on each factor, not the order the factors are written in.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0109",
+   "topicId": "maths-algebra-y10",
+   "stem": "What is the y-intercept of the graph of y = (x + 1)(x \u2212 2)(x \u2212 4)?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "8",
+    "\u22128",
+    "\u22125"
+   ],
+   "correctIndex": 1,
+   "explanation": "The y-intercept is found by substituting x = 0, giving (0 + 1)(0 \u2212 2)(0 \u2212 4) = 1 \u00d7 (\u22122) \u00d7 (\u22124) = 8. The answer \u22128 comes from multiplying only one of the negative signs through instead of both, since two negatives multiply to give a positive. Choosing 0 assumes every cubic passes through the origin, which is only true when x is a factor.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0110",
+   "topicId": "maths-algebra-y10",
+   "stem": "Which set of features correctly describes the graph of y = \u2212(x + 1)\u00b2(x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "Cuts the axis at x = \u22121, touches at x = 3, y-intercept \u22123, and falls to large negative y as x becomes large and positive",
+    "Touches the axis at x = 1, cuts at x = \u22123, y-intercept 3, and rises to large positive y as x becomes large and positive",
+    "Touches the axis at x = \u22121, cuts at x = 3, y-intercept 3, and falls to large negative y as x becomes large and positive",
+    "Touches the axis at x = \u22121, cuts at x = 3, y-intercept 3, and rises to large positive y as x becomes large and positive"
+   ],
+   "correctIndex": 2,
+   "explanation": "The squared factor (x + 1)\u00b2 gives a touch at x = \u22121 and the single factor (x \u2212 3) gives a crossing at x = 3. Substituting x = 0 gives \u2212(1)\u00b2(\u22123) = 3 for the y-intercept, and expanding gives a leading term \u2212x\u00b3, so the curve falls at the far right. The most tempting choice keeps everything correct but claims the curve rises for large positive x, which forgets the negative sign in front of the whole expression. Check the leading term's sign separately from the intercepts.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0111",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise x\u00b2 + 2x \u2212 15.",
+   "imageRef": null,
+   "options": [
+    "(x + 5)(x \u2212 3)",
+    "(x \u2212 5)(x + 3)",
+    "(x + 5)(x + 3)",
+    "(x + 15)(x \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a monic quadratic you need two numbers that multiply to \u221215 and add to +2; those are +5 and \u22123, giving (x + 5)(x \u2212 3). The pairing (x \u2212 5)(x + 3) uses the same numbers with signs swapped, so it multiplies out to x\u00b2 \u2212 2x \u2212 15 \u2014 the correct product but the wrong middle term. Always check the middle term by expanding mentally: 5x \u2212 3x = 2x, which matches.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0112",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise 9x\u00b2 \u2212 25 completely.",
+   "imageRef": null,
+   "options": [
+    "(3x \u2212 25)(3x + 1)",
+    "(3x \u2212 5)(3x + 5)",
+    "(3x \u2212 5)\u00b2",
+    "(9x \u2212 5)(x + 5)"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is a difference of two squares: 9x\u00b2 = (3x)\u00b2 and 25 = 5\u00b2, so a\u00b2 \u2212 b\u00b2 = (a \u2212 b)(a + b) gives (3x \u2212 5)(3x + 5). The tempting answer (3x \u2212 5)\u00b2 is a perfect square, and expanding it gives 9x\u00b2 \u2212 30x + 25, which has an unwanted middle term. The cue is the minus sign between two perfect squares with no x term: that always factorises into a difference and a sum.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0113",
+   "topicId": "maths-algebra-y10",
+   "stem": "Factorise the non-monic quadratic 6x\u00b2 + 11x \u2212 10.",
+   "imageRef": null,
+   "options": [
+    "(3x \u2212 5)(2x + 2)",
+    "(3x \u2212 2)(2x + 5)",
+    "(3x + 2)(2x \u2212 5)",
+    "(6x \u2212 5)(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply 6 \u00d7 (\u221210) = \u221260 and find two numbers multiplying to \u221260 and adding to +11: these are +15 and \u22124, so 6x\u00b2 + 15x \u2212 4x \u2212 10 groups to 3x(2x + 5) \u2212 2(2x + 5) = (3x \u2212 2)(2x + 5). The option (3x + 2)(2x \u2212 5) uses the same numbers with signs reversed and expands to 6x\u00b2 \u2212 11x \u2212 10, so the middle term has the wrong sign. Always expand quickly to confirm both the middle term and its sign.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0114",
+   "topicId": "maths-algebra-y10",
+   "stem": "A rectangular vegetable patch is 3 m longer than it is wide and has an area of 40 m\u00b2. Letting the width be w metres, which answer correctly solves the situation?",
+   "imageRef": null,
+   "options": [
+    "w\u00b2 + 3w \u2212 40 = 0, so w = 5 or w = \u22128; the width is 8 m",
+    "w\u00b2 + 3w \u2212 40 = 0, so w = 5 or w = \u22128; both widths are possible",
+    "w\u00b2 + 3w = 40 cannot be factorised, so the width must be found by trial",
+    "w\u00b2 + 3w \u2212 40 = 0, so w = 5 or w = \u22128; the width is 5 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The area gives w(w + 3) = 40, so w\u00b2 + 3w \u2212 40 = 0, which factorises as (w + 8)(w \u2212 5) = 0 with roots w = 5 and w = \u22128; only the positive root makes sense for a length, so the width is 5 m (and the length 8 m). The answer claiming the width is 8 m confuses the length with the width \u2014 8 m is w + 3, not w. In context questions, always state which quantity the variable represents before choosing which root to keep.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0115",
+   "topicId": "maths-algebra-y10",
+   "stem": "A ball is thrown upwards and its height after t seconds is h = 20t \u2212 5t\u00b2 metres. At what times is the ball exactly 15 m above the ground?",
+   "imageRef": null,
+   "options": [
+    "t = 3 s only",
+    "t = \u22121 s and t = \u22123 s",
+    "t = 1.5 s and t = 2 s",
+    "t = 1 s and t = 3 s"
+   ],
+   "correctIndex": 3,
+   "explanation": "Setting 20t \u2212 5t\u00b2 = 15 and rearranging gives 5t\u00b2 \u2212 20t + 15 = 0, then dividing by 5 gives t\u00b2 \u2212 4t + 3 = 0, which factorises as (t \u2212 1)(t \u2212 3) = 0. Choosing t = 3 only misses that the ball passes 15 m on the way up as well as on the way down, so both roots are physically meaningful here. The cue is to check each root against the context: negative times are impossible, but two positive times are perfectly reasonable for a projectile.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0116",
+   "topicId": "maths-algebra-y10",
+   "stem": "A marquee hire company charges according to the rule C(n) = 4n + 30, where C(n) is the cost in dollars of hiring a marquee for n hours. What does C(12) represent?",
+   "imageRef": null,
+   "options": [
+    "The number of hours hired when the cost comes to $12",
+    "The hourly rate charged when a 12-hour booking is made",
+    "The cost of making twelve separate one-hour bookings",
+    "The cost in dollars of hiring the marquee for 12 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "In function notation the value inside the brackets is the input (the independent variable), so C(12) means the rule is applied with n = 12 hours, giving the output cost of 4 \u00d7 12 + 30 = $78. The option about the cost being $12 reverses input and output \u2014 that situation would be written as C(n) = 12 and solved for n. The cue: the number in the brackets is always the input, and the whole expression C(12) is the output.",
+   "difficulty": 1,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0117",
+   "topicId": "maths-algebra-y10",
+   "stem": "V(t) = 15000 \u00d7 0.85^t gives a van's value in dollars at age t years. Which variable is which?",
+   "imageRef": null,
+   "options": [
+    "t is independent and V is dependent, since value depends on age",
+    "V is independent and t is dependent, since the price is set first",
+    "Both t and V are independent, because each can change on its own",
+    "t is dependent, because the van's age is determined by its value"
+   ],
+   "correctIndex": 0,
+   "explanation": "In function notation V(t), the variable in the brackets is the input we choose or observe, and the function output depends on it \u2014 here the value of the van depends on how old it is. The claim that V is independent because price is set first confuses the starting value $15 000 with the role of the variable in the model. Cue: whatever sits inside the brackets is the independent variable.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0118",
+   "topicId": "maths-algebra-y10",
+   "stem": "The height of a ball above the ground is modelled by h(t) = 20t \u2212 5t\u00b2, where h is in metres and t is in seconds. What does h(3) equal, and what does it mean?",
+   "imageRef": null,
+   "options": [
+    "h(3) = 15, so the ball is 15 m above the ground after 3 seconds",
+    "h(3) = 60, so the ball is 60 m above the ground after 3 seconds",
+    "h(3) = \u2212165, so the ball is 165 m below its launch point",
+    "h(3) = 3, so the ball reaches that height 15 seconds after release"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substituting t = 3 gives 20 \u00d7 3 \u2212 5 \u00d7 3\u00b2 = 60 \u2212 45 = 15, and since t is the input in seconds and h is the output in metres, the ball is 15 m high at 3 seconds. The answer of 60 comes from using only the 20t term and ignoring \u22125t\u00b2. The answer \u2212165 comes from squaring 5t instead of t alone: order of operations means the square applies to t before multiplying by 5.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0119",
+   "topicId": "maths-algebra-y10",
+   "stem": "For the hire cost model C(n) = 4n + 30 (dollars for n hours), a customer's invoice is $110. Which statement shows the correct use of function notation and the correct answer?",
+   "imageRef": null,
+   "options": [
+    "Evaluate C(110) and halve it, giving 235, so the hire lasted 235 hours",
+    "Solve C(n) = 110, giving 4n + 30 = 110, so the hire lasted 20 hours",
+    "Evaluate C(110) = 4 \u00d7 110 + 30 = 470, so the hire lasted 470 hours",
+    "Solve C(n) = 110 by dividing, giving n = 110 \u00f7 4 = 27.5 hours"
+   ],
+   "correctIndex": 1,
+   "explanation": "A known cost is an output value, so the correct set-up is the equation C(n) = 110, and solving 4n + 30 = 110 gives 4n = 80 and n = 20 hours. Evaluating C(110) is the tempting error: it treats the $110 as an input number of hours instead of an output cost. Cue: if the given number carries the units of the output, write it on the right of the equals sign and solve.",
+   "difficulty": 2,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0120",
+   "topicId": "maths-algebra-y10",
+   "stem": "A tank drains according to V(t) = 800 \u2212 25t, where V is the volume in litres remaining after t minutes. Which statement about the model is correct?",
+   "imageRef": null,
+   "options": [
+    "The practical domain is 0 \u2264 t \u2264 25, because the tank loses 25 litres in every minute",
+    "The practical domain is 0 \u2264 t \u2264 32, because V(32) = 0 and negative volumes are meaningless",
+    "The practical domain is all t \u2265 0, because time is never negative and the rule always gives a value",
+    "The practical domain is 0 \u2264 t \u2264 800, because the tank holds 800 litres of water"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a modelling context the domain is limited to input values that make sense in the situation: the tank empties when 800 \u2212 25t = 0, that is t = 32 minutes, and after that the rule would predict negative volume. Saying all t \u2265 0 works is tempting because the algebraic rule is defined for every t, but a rule being defined is not the same as it modelling reality. The domain restricts the independent variable t (minutes), not the output litres, which is why 0 \u2264 t \u2264 800 confuses domain with range.",
+   "difficulty": 3,
+   "tier": "extension",
+   "pathway": "10A",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

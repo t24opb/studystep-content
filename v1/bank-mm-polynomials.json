@@ -1,0 +1,917 @@
+{
+ "topicId": "mm-polynomials",
+ "questions": [
+  {
+   "id": "mm-polynomials-0001",
+   "topicId": "mm-polynomials",
+   "stem": "What is the degree of 4x\u00b3 \u2212 2x\u00b2 + 7?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "4",
+    "2",
+    "7"
+   ],
+   "correctIndex": 0,
+   "explanation": "The degree is the highest power of x appearing, which here is 3. The 4 in front is the leading coefficient and the 7 is the constant term \u2014 neither affects the degree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0002",
+   "topicId": "mm-polynomials",
+   "stem": "Which of these is a polynomial?",
+   "imageRef": null,
+   "options": [
+    "3x\u00b2 \u2212 x + 1",
+    "2/x + 1",
+    "\u221ax + 3",
+    "x^(\u22122)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A polynomial has only whole-number powers of x that are zero or above. Dividing by x, taking a root of x, or using a negative index all disqualify an expression.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0003",
+   "topicId": "mm-polynomials",
+   "stem": "For P(x) = x\u00b2 \u2212 3x + 2, find P(4).",
+   "imageRef": null,
+   "options": [
+    "2",
+    "30",
+    "\u22126",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute 4 everywhere x appears: 16 \u2212 12 + 2 = 6. Working left to right without squaring first is what produces the wrong values here.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0004",
+   "topicId": "mm-polynomials",
+   "stem": "For P(x) = x\u00b3 \u2212 2x + 5, find P(\u22122).",
+   "imageRef": null,
+   "options": [
+    "\u22127",
+    "1",
+    "9",
+    "17"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(\u22122) = (\u22128) \u2212 (\u22124) + 5 = \u22128 + 4 + 5 = 1. The sign of the cube is the step to be careful with: an odd power of a negative stays negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0005",
+   "topicId": "mm-polynomials",
+   "stem": "By the remainder theorem, what is the remainder when P(x) is divided by (x \u2212 a)?",
+   "imageRef": null,
+   "options": [
+    "a",
+    "P(a)",
+    "P(\u2212a)",
+    "P(0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The remainder theorem says the remainder equals P evaluated at the value that makes the divisor zero. For (x \u2212 a) that value is a, so the remainder is P(a).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0006",
+   "topicId": "mm-polynomials",
+   "stem": "Find the remainder when x\u00b3 + 2x \u2212 3 is divided by (x \u2212 1).",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "6",
+    "0",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute x = 1: 1 + 2 \u2212 3 = 0. A remainder of zero means (x \u2212 1) divides the polynomial exactly, so it is also a factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0007",
+   "topicId": "mm-polynomials",
+   "stem": "Find the remainder when x\u00b3 \u2212 4x + 1 is divided by (x + 2).",
+   "imageRef": null,
+   "options": [
+    "17",
+    "\u221215",
+    "1",
+    "\u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "For (x + 2) the value making the divisor zero is x = \u22122, so evaluate P(\u22122) = \u22128 + 8 + 1 = 1. Using x = 2 instead of \u22122 is the standard slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0008",
+   "topicId": "mm-polynomials",
+   "stem": "The factor theorem says (x \u2212 a) is a factor of P(x) exactly when:",
+   "imageRef": null,
+   "options": [
+    "P(\u2212a) = 0",
+    "P(a) = 0",
+    "P(0) = a",
+    "P(a) = a"
+   ],
+   "correctIndex": 1,
+   "explanation": "A factor leaves no remainder, and the remainder is P(a), so (x \u2212 a) is a factor precisely when P(a) = 0. This turns testing a factor into one substitution instead of a long division.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0009",
+   "topicId": "mm-polynomials",
+   "stem": "Which of these is a factor of P(x) = x\u00b3 \u2212 7x + 6?",
+   "imageRef": null,
+   "options": [
+    "(x + 6)",
+    "(x \u2212 1)",
+    "(x + 1)",
+    "(x \u2212 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(1) = 1 \u2212 7 + 6 = 0, so (x \u2212 1) is a factor. Testing P(\u22121) gives 12 and P(4) gives 42, so neither of those is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0010",
+   "topicId": "mm-polynomials",
+   "stem": "Factorise fully: x\u00b3 \u2212 7x + 6.",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)(x + 2)(x \u2212 3)",
+    "(x + 1)(x \u2212 2)(x \u2212 3)",
+    "(x \u2212 1)(x \u2212 2)(x \u2212 3)",
+    "(x \u2212 1)(x \u2212 2)(x + 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(1) = 0 gives the first factor (x \u2212 1); dividing leaves x\u00b2 + x \u2212 6, which factorises into (x \u2212 2)(x + 3). Checking that the three constants multiply to +6 is a fast way to confirm the signs.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0011",
+   "topicId": "mm-polynomials",
+   "stem": "What is the maximum number of x-intercepts a cubic can have?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "A polynomial of degree n crosses the x-axis at most n times, because the equation P(x) = 0 has at most n solutions. A cubic may have fewer, but never more than three.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0012",
+   "topicId": "mm-polynomials",
+   "stem": "What shape does y = x\u00b3 have?",
+   "imageRef": null,
+   "options": [
+    "Rises from bottom left to top right",
+    "A U-shape with one minimum point",
+    "Two branches approaching the axes",
+    "A wave repeating every 2\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "An odd-degree polynomial with a positive leading coefficient falls away on the left and rises on the right. The U shape belongs to a quadratic and the repeating wave to a trigonometric function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0013",
+   "topicId": "mm-polynomials",
+   "stem": "For a cubic with a positive leading coefficient, what happens as x becomes very large and negative?",
+   "imageRef": null,
+   "options": [
+    "y approaches the leading coefficient",
+    "y becomes very large and negative",
+    "y becomes very large and positive",
+    "y approaches zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "The highest-power term dominates for large values of x, and an odd power of a large negative number is a large negative number. This is why a positive cubic runs from bottom left to top right.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0014",
+   "topicId": "mm-polynomials",
+   "stem": "y = (x \u2212 1)(x + 2)(x \u2212 3) cuts the x-axis where?",
+   "imageRef": null,
+   "options": [
+    "x = 6 only",
+    "x = 1, \u22122 and 3",
+    "x = \u22121, 2 and \u22123",
+    "x = 1, 2 and 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "A product is zero when any factor is zero, so set each bracket to zero in turn. The sign flips: (x + 2) = 0 gives x = \u22122, not +2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0015",
+   "topicId": "mm-polynomials",
+   "stem": "A cubic has a repeated factor (x \u2212 2)\u00b2. What does the graph do at x = 2?",
+   "imageRef": null,
+   "options": [
+    "Touches the axis and turns back",
+    "Crosses straight through",
+    "Has a vertical asymptote",
+    "Has a hole in the curve"
+   ],
+   "correctIndex": 0,
+   "explanation": "A factor of even multiplicity touches the axis without crossing it, because the sign of that factor does not change as x passes through. An odd multiplicity crosses.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0016",
+   "topicId": "mm-polynomials",
+   "stem": "What is the constant term of P(x) = 2x\u00b3 \u2212 5x + 4?",
+   "imageRef": null,
+   "options": [
+    "\u22125",
+    "3",
+    "4",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The constant term is the one with no x, which is 4. It is also P(0), which is why it tells you where the curve crosses the y-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0017",
+   "topicId": "mm-polynomials",
+   "stem": "Expand (x + 2)(x\u00b2 \u2212 3x + 1).",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 \u2212 x\u00b2 + 5x + 2",
+    "x\u00b3 \u2212 6x\u00b2 + 2x",
+    "x\u00b3 \u2212 x\u00b2 \u2212 5x + 2",
+    "x\u00b3 + x\u00b2 \u2212 5x + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply every term in the first bracket by every term in the second: x\u00b3 \u2212 3x\u00b2 + x + 2x\u00b2 \u2212 6x + 2, then collect to x\u00b3 \u2212 x\u00b2 \u2212 5x + 2. Collecting the two x\u00b2 terms is where the sign matters.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0018",
+   "topicId": "mm-polynomials",
+   "stem": "Given P(x) = x\u00b3 + kx \u2212 6 and P(2) = 0, find k.",
+   "imageRef": null,
+   "options": [
+    "\u22127",
+    "7",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute: 8 + 2k \u2212 6 = 0, so 2k = \u22122 and k = \u22121. Any question saying a value is a zero is telling you to substitute it and solve.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0019",
+   "topicId": "mm-polynomials",
+   "stem": "How many terms does a polynomial of degree 3 have at most?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "6",
+    "4",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cubic can contain x\u00b3, x\u00b2, x and a constant \u2014 four terms in all. Some may be missing, which is why 2x\u00b3 \u2212 5 is still a cubic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0020",
+   "topicId": "mm-polynomials",
+   "stem": "P(x) leaves a remainder of 5 when divided by (x \u2212 3). What is P(3)?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22125",
+    "5",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The remainder theorem works in both directions: the remainder on division by (x \u2212 3) *is* P(3), so P(3) = 5. No division is needed.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0021",
+   "topicId": "mm-polynomials",
+   "stem": "For f(x) = x\u00b2 \u2212 4, what is f(\u22123)?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "\u221213",
+    "5",
+    "\u22125"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute carefully with brackets: (\u22123)\u00b2 \u2212 4 = 9 \u2212 4 = 5. Squaring a negative gives a positive, which is the step most often mishandled.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0022",
+   "topicId": "mm-polynomials",
+   "stem": "What is the domain of f(x) = 1/(x \u2212 2)?",
+   "imageRef": null,
+   "options": [
+    "All real numbers",
+    "Only numbers greater than 2",
+    "Only 2",
+    "All real numbers except 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The denominator cannot be zero, so x = 2 is excluded. Domain restrictions come from division by zero and from square roots of negatives.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0023",
+   "topicId": "mm-polynomials",
+   "stem": "What does the vertical line test check?",
+   "imageRef": null,
+   "options": [
+    "Whether a graph is symmetrical",
+    "Whether a graph has an asymptote",
+    "Whether a graph passes through the origin",
+    "Whether a graph represents a function"
+   ],
+   "correctIndex": 3,
+   "explanation": "A function gives exactly one output per input, so any vertical line may cross the graph at most once. A circle fails the test, which is why it is a relation and not a function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0024",
+   "topicId": "mm-polynomials",
+   "stem": "What is the equation of a circle of radius 5 centred at the origin?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 = 25",
+    "x\u00b2 + y\u00b2 = 5",
+    "x + y = 25",
+    "y = x\u00b2 + 25"
+   ],
+   "correctIndex": 0,
+   "explanation": "The equation is x\u00b2 + y\u00b2 = r\u00b2, and r\u00b2 is 25 rather than 5. It follows directly from Pythagoras applied to any point on the circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0025",
+   "topicId": "mm-polynomials",
+   "stem": "How does y = a(x \u2212 h)\u00b3 + k compare with y = x\u00b3?",
+   "imageRef": null,
+   "options": [
+    "Moved h left and k down, and squashed by a",
+    "Reflected in the y-axis and moved up by k",
+    "Turned into a parabola with vertex (h, k)",
+    "Moved h right and k up, and stretched by a"
+   ],
+   "correctIndex": 3,
+   "explanation": "The transformation rules are the same for every function: inside the bracket acts horizontally and opposite to its sign, outside acts vertically and as written.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0026",
+   "topicId": "mm-polynomials",
+   "stem": "The hyperbola y = 1/x is transformed to y = 1/(x \u2212 2) + 3. What are its asymptotes?",
+   "imageRef": null,
+   "options": [
+    "x = 3 and y = 2",
+    "x = 2 and y = \u22123",
+    "x = 2 and y = 3",
+    "x = \u22122 and y = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The horizontal shift moves the vertical asymptote to x = 2, and the added constant lifts the horizontal asymptote to y = 3.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0027",
+   "topicId": "mm-polynomials",
+   "stem": "What is the degree of 4x\u00b3 \u2212 2x + 7?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The degree is the highest index on the variable, which is 3 here. The coefficient in front of it and the constant term have nothing to do with the degree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0028",
+   "topicId": "mm-polynomials",
+   "stem": "Which expression is NOT a polynomial?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 5",
+    "7",
+    "3/x + 2",
+    "3x + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "A polynomial has whole-number indices only, and 3/x is x to the power \u22121. A plain number counts as a polynomial of degree zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0029",
+   "topicId": "mm-polynomials",
+   "stem": "Add (2x\u00b2 + 3x \u2212 1) and (x\u00b2 \u2212 5x + 4).",
+   "imageRef": null,
+   "options": [
+    "2x\u00b2 \u2212 2x + 3",
+    "3x\u00b2 \u2212 2x + 3",
+    "3x\u00b2 + 8x + 3",
+    "3x\u00b2 \u2212 2x \u2212 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Collect like terms by degree: the x\u00b2 terms give 3x\u00b2, the x terms give \u22122x, and the constants give 3. Only terms with the same index combine.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0030",
+   "topicId": "mm-polynomials",
+   "stem": "Expand (x + 3)(x\u00b2 \u2212 2x + 4).",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 \u2212 2x\u00b2 + 4x + 12",
+    "x\u00b3 + x\u00b2 + 10x + 12",
+    "x\u00b3 + x\u00b2 \u2212 2x + 7",
+    "x\u00b3 + x\u00b2 \u2212 2x + 12"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply every term in the first bracket by every term in the second, then collect: x\u00b3 \u2212 2x\u00b2 + 4x + 3x\u00b2 \u2212 6x + 12. The x\u00b2 terms give +x\u00b2 and the x terms give \u22122x.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0031",
+   "topicId": "mm-polynomials",
+   "stem": "If P(x) = x\u00b3 \u2212 2x + 5, what is P(2)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "13",
+    "5",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute 2 everywhere: 8 \u2212 4 + 5 = 9. Evaluating a polynomial is just careful substitution with the order of operations respected.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0032",
+   "topicId": "mm-polynomials",
+   "stem": "If P(x) = x\u00b3 + kx \u2212 6 and P(3) = 0, find k.",
+   "imageRef": null,
+   "options": [
+    "k = \u22123",
+    "k = 2",
+    "k = \u22127",
+    "k = 7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute 3: 27 + 3k \u2212 6 = 0, so 3k = \u221221 and k = \u22127. A root of zero is what lets you solve for an unknown coefficient.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0033",
+   "topicId": "mm-polynomials",
+   "stem": "What does the remainder theorem say about P(x) divided by (x \u2212 a)?",
+   "imageRef": null,
+   "options": [
+    "The remainder is P(a)",
+    "The remainder is P(\u2212a)",
+    "The remainder is always zero",
+    "The remainder is a"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substituting the value that makes the divisor zero gives the remainder directly, with no long division. The sign matters: for (x + 3) you substitute \u22123.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0034",
+   "topicId": "mm-polynomials",
+   "stem": "Find the remainder when x\u00b3 \u2212 4x + 1 is divided by (x \u2212 2).",
+   "imageRef": null,
+   "options": [
+    "17",
+    "1",
+    "9",
+    "\u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the remainder theorem substitute 2: 8 \u2212 8 + 1 = 1. Long division gives the same answer with far more work.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0035",
+   "topicId": "mm-polynomials",
+   "stem": "What does it mean if P(a) = 0?",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 a) is a factor of P(x)",
+    "(x + a) is a factor of P(x)",
+    "P has no real roots",
+    "a is the degree of P"
+   ],
+   "correctIndex": 0,
+   "explanation": "A zero remainder means the division is exact, so the divisor is a factor. This is the factor theorem, and it is the remainder theorem with the remainder set to zero.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0036",
+   "topicId": "mm-polynomials",
+   "stem": "Which is a factor of x\u00b3 \u2212 7x + 6?",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)",
+    "(x + 1)",
+    "(x \u2212 7)",
+    "(x + 6)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Test small values: P(1) = 1 \u2212 7 + 6 = 0, so (x \u2212 1) is a factor. Trying the factors of the constant term is the fastest way to find the first root.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0037",
+   "topicId": "mm-polynomials",
+   "stem": "How many roots can a cubic have at most?",
+   "imageRef": null,
+   "options": [
+    "Three",
+    "Two",
+    "Four",
+    "One"
+   ],
+   "correctIndex": 0,
+   "explanation": "A polynomial has at most as many real roots as its degree. A cubic always has at least one, because its ends go in opposite directions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0038",
+   "topicId": "mm-polynomials",
+   "stem": "Which way do the ends of y = x\u00b3 go?",
+   "imageRef": null,
+   "options": [
+    "Down on both ends",
+    "Up on the left, down on the right",
+    "Down on the left, up on the right",
+    "Up on both ends"
+   ],
+   "correctIndex": 2,
+   "explanation": "An odd degree with a positive leading coefficient goes down on the left and up on the right. A negative coefficient would swap them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0039",
+   "topicId": "mm-polynomials",
+   "stem": "Which way do the ends of y = \u2212x\u2074 go?",
+   "imageRef": null,
+   "options": [
+    "Up on both ends",
+    "Down left, up right",
+    "Up left, down right",
+    "Down on both ends"
+   ],
+   "correctIndex": 3,
+   "explanation": "An even degree sends both ends the same way, and the minus sign sends them both down. Degree decides whether the ends match, the sign decides which way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0040",
+   "topicId": "mm-polynomials",
+   "stem": "Sketch y = (x \u2212 1)(x + 2)(x \u2212 3). Where does it cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "At \u22121, 2 and \u22123",
+    "At 1, 2 and 3",
+    "At 6 only",
+    "At 1, \u22122 and 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each bracket gives a root where it equals zero, and the sign flips. A factorised cubic can be sketched from its roots without any further work.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0041",
+   "topicId": "mm-polynomials",
+   "stem": "What is the y-intercept of y = (x \u2212 1)(x + 2)(x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "\u22126",
+    "0",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute x = 0 into every bracket: (\u22121)(2)(\u22123) = 6. Two negatives multiplying makes the result positive, which is easy to lose track of.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0042",
+   "topicId": "mm-polynomials",
+   "stem": "Subtract (x\u00b2 \u2212 4x + 2) from (3x\u00b2 + x \u2212 5).",
+   "imageRef": null,
+   "options": [
+    "2x\u00b2 \u2212 3x \u2212 3",
+    "4x\u00b2 \u2212 3x \u2212 3",
+    "2x\u00b2 + 5x \u2212 3",
+    "2x\u00b2 + 5x \u2212 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every term in the second bracket changes sign before collecting, so the \u22124x becomes +4x. Subtracting only the first term is the classic error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0043",
+   "topicId": "mm-polynomials",
+   "stem": "Factorise x\u00b3 \u2212 4x fully.",
+   "imageRef": null,
+   "options": [
+    "x(x\u00b2 \u2212 4)",
+    "x(x \u2212 4)",
+    "(x \u2212 2)(x + 2)",
+    "x(x \u2212 2)(x + 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Take out the common x first, then the bracket is a difference of two squares. Stopping at x(x\u00b2 \u2212 4) leaves a factorisable bracket, so it is not full factorisation.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0044",
+   "topicId": "mm-polynomials",
+   "stem": "What is the leading coefficient of 5 \u2212 2x + 7x\u00b3?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "5",
+    "\u22122",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The leading coefficient belongs to the highest power, which is 7x\u00b3 here. The terms being written out of order is what makes 5 look like the leading one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0045",
+   "topicId": "mm-polynomials",
+   "stem": "A cubic has a repeated root at x = 2. What does its graph do there?",
+   "imageRef": null,
+   "options": [
+    "It has a vertical asymptote",
+    "It has a hole",
+    "It touches the axis without crossing",
+    "It crosses the axis steeply"
+   ],
+   "correctIndex": 2,
+   "explanation": "A repeated factor means the curve meets the axis and turns back, so it touches rather than crosses. A single root crosses and a triple root flattens as it crosses.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0046",
+   "topicId": "mm-polynomials",
+   "stem": "Multiply (x + 3) by (x + 3).",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + 9",
+    "x\u00b2 + 3x + 9",
+    "2x + 6",
+    "x\u00b2 + 6x + 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Squaring a bracket produces a middle term of twice the product of the two terms, here 6x. Squaring each term separately drops it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0047",
+   "topicId": "mm-polynomials",
+   "stem": "Divide x\u00b2 + 5x + 6 by (x + 2).",
+   "imageRef": null,
+   "options": [
+    "x + 2",
+    "x + 3",
+    "x + 6",
+    "x \u2212 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The quadratic factorises into (x + 2)(x + 3), so dividing by one bracket leaves the other. Factorising is quicker than long division whenever it is available.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-polynomials-0048",
+   "topicId": "mm-polynomials",
+   "stem": "What is the constant term of (x \u2212 2)(x + 5)?",
+   "imageRef": null,
+   "options": [
+    "\u221210",
+    "10",
+    "3",
+    "\u22123"
+   ],
+   "correctIndex": 0,
+   "explanation": "The constant comes from multiplying the two constants: \u22122 \u00d7 5 = \u221210. Substituting x = 0 gives the same answer and is a useful check.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-polynomials-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

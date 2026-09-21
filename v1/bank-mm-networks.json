@@ -1,0 +1,803 @@
+{
+ "topicId": "mm-networks",
+ "questions": [
+  {
+   "id": "mm-networks-0001",
+   "topicId": "mm-networks",
+   "stem": "In a network, what are the points called?",
+   "imageRef": null,
+   "options": [
+    "Paths",
+    "Vertices",
+    "Edges",
+    "Faces"
+   ],
+   "correctIndex": 1,
+   "explanation": "The points are vertices, sometimes called nodes, and the lines joining them are edges. Everything else in the topic is defined from those two.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0002",
+   "topicId": "mm-networks",
+   "stem": "What is the degree of a vertex?",
+   "imageRef": null,
+   "options": [
+    "The length of the shortest edge",
+    "The number of faces around it",
+    "The number of edges meeting at it",
+    "The number of vertices next to it"
+   ],
+   "correctIndex": 2,
+   "explanation": "Degree counts edges, and a loop counts twice because both of its ends meet the vertex.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0003",
+   "topicId": "mm-networks",
+   "stem": "Why can two network diagrams that look completely different represent the same network?",
+   "imageRef": null,
+   "options": [
+    "Because degree is not important",
+    "Only the connections matter, not the positions",
+    "Because networks are always drawn to scale",
+    "Because edges can be curved"
+   ],
+   "correctIndex": 1,
+   "explanation": "A network records which vertices are joined. Moving a vertex on the page changes the picture and not the network, and two such networks are called isomorphic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0004",
+   "topicId": "mm-networks",
+   "stem": "What is a planar graph?",
+   "imageRef": null,
+   "options": [
+    "One drawn on a flat page",
+    "One with exactly four vertices",
+    "One where every vertex has the same degree",
+    "One that can be drawn with no edges crossing"
+   ],
+   "correctIndex": 3,
+   "explanation": "Planar means it can be redrawn without crossings, even if the version in front of you has some. Testing planarity means trying to find such a drawing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0005",
+   "topicId": "mm-networks",
+   "stem": "For a connected planar graph, which formula relates vertices, edges and faces?",
+   "imageRef": null,
+   "options": [
+    "v + e + f = 2",
+    "v + e \u2212 f = 0",
+    "v \u2212 e \u2212 f = 2",
+    "v \u2212 e + f = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Vertices minus edges plus faces equals two, counting the outer region as a face. It holds for every connected planar graph, which is why it can prove that a graph is not planar.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0006",
+   "topicId": "mm-networks",
+   "stem": "A connected planar graph has 6 vertices and 9 edges. How many faces does it have?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearranging the formula: f = 2 \u2212 v + e = 2 \u2212 6 + 9 = 5, counting the outside region as one of them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0007",
+   "topicId": "mm-networks",
+   "stem": "What is a walk in a network?",
+   "imageRef": null,
+   "options": [
+    "A route using every edge once",
+    "A route visiting every vertex once",
+    "The shortest route between two vertices",
+    "Any sequence of edges from one vertex to another"
+   ],
+   "correctIndex": 3,
+   "explanation": "A walk is the general term with no restrictions. The more specific terms \u2014 trail, path, circuit \u2014 each add a condition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0008",
+   "topicId": "mm-networks",
+   "stem": "What is a trail?",
+   "imageRef": null,
+   "options": [
+    "A walk that visits no vertex twice",
+    "A walk that starts and ends at the same vertex",
+    "The shortest walk available",
+    "A walk that uses no edge more than once"
+   ],
+   "correctIndex": 3,
+   "explanation": "A trail may revisit a vertex but never reuses an edge. A path is stricter still: it repeats neither an edge nor a vertex.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0009",
+   "topicId": "mm-networks",
+   "stem": "What is a circuit?",
+   "imageRef": null,
+   "options": [
+    "A walk that uses every vertex",
+    "The longest trail in the network",
+    "A trail that starts and ends at the same vertex",
+    "Any closed shape in the graph"
+   ],
+   "correctIndex": 2,
+   "explanation": "Closed means the start and the finish are the same vertex. A circuit is a closed trail, and a cycle is a closed path.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0010",
+   "topicId": "mm-networks",
+   "stem": "A network has an Eulerian circuit when:",
+   "imageRef": null,
+   "options": [
+    "it is connected and every vertex has even degree",
+    "it is connected and exactly two vertices have odd degree",
+    "every vertex has degree 2",
+    "it has no odd vertices and is planar"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every time you enter a vertex you must leave it, so each visit uses two edges. That is only possible at every vertex if every degree is even.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0011",
+   "topicId": "mm-networks",
+   "stem": "A network has an Eulerian trail but no Eulerian circuit when:",
+   "imageRef": null,
+   "options": [
+    "it has more edges than vertices",
+    "exactly two vertices have odd degree",
+    "every vertex has even degree",
+    "exactly one vertex has odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two odd vertices must be the start and the finish, because those are the only places a leftover edge is allowed. A graph can never have exactly one odd vertex.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0012",
+   "topicId": "mm-networks",
+   "stem": "The bridges of K\u00f6nigsberg problem asked whether a walk could cross every bridge exactly once. Why was it impossible?",
+   "imageRef": null,
+   "options": [
+    "There were too many bridges in the city",
+    "The bridges were of different lengths",
+    "The river divided the city into two halves",
+    "More than two land areas had an odd number of bridges"
+   ],
+   "correctIndex": 3,
+   "explanation": "All four land areas had an odd number of bridges, and an Eulerian trail allows at most two. The answer Euler gave in 1736 is where the whole subject began.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0013",
+   "topicId": "mm-networks",
+   "stem": "What is a Hamiltonian path?",
+   "imageRef": null,
+   "options": [
+    "A closed path of even length",
+    "A path visiting every vertex exactly once",
+    "A path using every edge exactly once",
+    "The shortest path between two vertices"
+   ],
+   "correctIndex": 1,
+   "explanation": "Eulerian conditions are about edges; Hamiltonian conditions are about vertices. Confusing the two is the commonest error in this topic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0014",
+   "topicId": "mm-networks",
+   "stem": "In a weighted network, what does the number on an edge usually represent?",
+   "imageRef": null,
+   "options": [
+    "The number of vertices it joins",
+    "The degree of the vertex",
+    "How many times it may be used",
+    "A distance, time or cost"
+   ],
+   "correctIndex": 3,
+   "explanation": "Weights let a network model something real \u2014 kilometres between towns, minutes between stations, dollars to lay a cable \u2014 and shortest path problems then have a meaning.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0015",
+   "topicId": "mm-networks",
+   "stem": "What does the shortest path problem ask for?",
+   "imageRef": null,
+   "options": [
+    "The vertex with the lowest degree",
+    "The route of least total weight between two vertices",
+    "The route with the fewest edges between them",
+    "A route that uses every edge once"
+   ],
+   "correctIndex": 1,
+   "explanation": "Fewest edges and least total weight are different questions, and a three-edge route can easily be shorter than a two-edge one.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0016",
+   "topicId": "mm-networks",
+   "stem": "A network has edges A\u2013B 4, B\u2013C 3, A\u2013C 9, C\u2013D 2 and B\u2013D 6. What is the shortest path from A to D?",
+   "imageRef": null,
+   "options": [
+    "A\u2013C\u2013B\u2013D, total 18",
+    "A\u2013B\u2013C\u2013D, total 9",
+    "A\u2013C\u2013D, total 11",
+    "A\u2013B\u2013D, total 10"
+   ],
+   "correctIndex": 1,
+   "explanation": "A\u2013B\u2013C\u2013D costs 4 + 3 + 2 = 9, which beats the two-edge route A\u2013C\u2013D at 11. Checking every reasonable route systematically is what avoids missing the answer.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0017",
+   "topicId": "mm-networks",
+   "stem": "What does it mean for a network to be connected?",
+   "imageRef": null,
+   "options": [
+    "Every vertex has the same degree",
+    "It contains no loops anywhere",
+    "It can be drawn without crossings",
+    "Every vertex can be reached from every other"
+   ],
+   "correctIndex": 3,
+   "explanation": "A disconnected network falls into separate pieces with no route between them, and most of the standard results assume connectedness.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0018",
+   "topicId": "mm-networks",
+   "stem": "What is an adjacency matrix?",
+   "imageRef": null,
+   "options": [
+    "A table of the degree of each vertex",
+    "A drawing of the network done to scale",
+    "A table showing how many edges join each pair of vertices",
+    "A list of all the shortest paths"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each row and column is a vertex, and the entry counts the edges between them. Adding across a row gives that degree, which is a quick check.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0019",
+   "topicId": "mm-networks",
+   "stem": "Which situation is best modelled by a network?",
+   "imageRef": null,
+   "options": [
+    "The area of a paddock",
+    "The height of a plant over time",
+    "The mass of a soil sample",
+    "Train stations and the lines between them"
+   ],
+   "correctIndex": 3,
+   "explanation": "Networks model relationships and connections. Anything where what matters is which things are joined, rather than distance or shape, is a network problem.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0020",
+   "topicId": "mm-networks",
+   "stem": "What is a loop in a network?",
+   "imageRef": null,
+   "options": [
+    "An edge joining a vertex to itself",
+    "A closed path through several vertices",
+    "Two edges joining the same pair",
+    "A vertex of degree zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "A loop starts and ends at the same vertex and adds two to its degree, because both of its ends meet there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0021",
+   "topicId": "mm-networks",
+   "stem": "In a network, what is a vertex?",
+   "imageRef": null,
+   "options": [
+    "A closed loop of edges",
+    "The total number of connections",
+    "A point where edges meet",
+    "A line joining two points"
+   ],
+   "correctIndex": 2,
+   "explanation": "Vertices are the points and edges are the connections between them. Almost every network idea is counted from one or the other.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0022",
+   "topicId": "mm-networks",
+   "stem": "A vertex has three ordinary edges and one loop. What is its degree?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each ordinary edge contributes 1 and a loop contributes 2, because both of its ends are at that vertex. So 3 + 2 = 5, and forgetting to double the loop gives 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0023",
+   "topicId": "mm-networks",
+   "stem": "A network has degrees 3, 3, 4 and 2. How many edges does it have?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "4",
+    "8",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every edge contributes 2 to the total degree, so the sum of 12 means 6 edges. This doubling rule is the handshake lemma.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0024",
+   "topicId": "mm-networks",
+   "stem": "What is a path in a network?",
+   "imageRef": null,
+   "options": [
+    "A route that does not repeat a vertex",
+    "Any set of edges chosen at random",
+    "A route that visits every vertex",
+    "A closed loop returning to the start"
+   ],
+   "correctIndex": 0,
+   "explanation": "A path moves between vertices without revisiting one. A closed route back to the start is a cycle instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0025",
+   "topicId": "mm-networks",
+   "stem": "When does a network have an Eulerian circuit?",
+   "imageRef": null,
+   "options": [
+    "When every vertex has an odd degree",
+    "When it has exactly two odd vertices",
+    "When it has no cycles at all",
+    "When every vertex has an even degree"
+   ],
+   "correctIndex": 3,
+   "explanation": "An Eulerian circuit uses every edge once and returns to the start, which needs every visit to a vertex to have a matching exit. Two odd vertices allow a trail but not a circuit.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0026",
+   "topicId": "mm-networks",
+   "stem": "A network has exactly two vertices of odd degree. What does that allow?",
+   "imageRef": null,
+   "options": [
+    "An Eulerian circuit from any vertex",
+    "No route using every edge once",
+    "A route visiting every vertex once",
+    "An Eulerian trail starting and ending at those two"
+   ],
+   "correctIndex": 3,
+   "explanation": "The two odd vertices must be the start and the end, because every other visit needs an entry and an exit. This is the bridges of K\u00f6nigsberg result.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0027",
+   "topicId": "mm-networks",
+   "stem": "What is a tree in network terms?",
+   "imageRef": null,
+   "options": [
+    "A network where every vertex has degree 3",
+    "Any network drawn without crossings",
+    "A network with exactly one vertex",
+    "A connected network with no cycles"
+   ],
+   "correctIndex": 3,
+   "explanation": "A tree connects everything using the fewest possible edges, so adding any edge creates a cycle and removing any disconnects it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0028",
+   "topicId": "mm-networks",
+   "stem": "A tree has 8 vertices. How many edges does it have?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "8",
+    "9",
+    "16"
+   ],
+   "correctIndex": 0,
+   "explanation": "A tree always has one fewer edge than vertices, because each new vertex needs exactly one edge to join it. More edges would force a cycle.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0029",
+   "topicId": "mm-networks",
+   "stem": "What is a minimum spanning tree used for?",
+   "imageRef": null,
+   "options": [
+    "Colouring a map with fewest colours",
+    "Connecting every point at the least total cost",
+    "Finding the quickest route between two points",
+    "Counting the cycles in a network"
+   ],
+   "correctIndex": 1,
+   "explanation": "It reaches every vertex with the smallest total edge weight, which is the cable or pipeline problem. The shortest route between two specific points is a different question.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0030",
+   "topicId": "mm-networks",
+   "stem": "In a weighted network, what does an edge weight usually represent?",
+   "imageRef": null,
+   "options": [
+    "How many times it may be used",
+    "The degree of its endpoints",
+    "A distance, time or cost",
+    "The number of vertices it joins"
+   ],
+   "correctIndex": 2,
+   "explanation": "Weights carry whatever quantity the problem is about. The shape alone does not tell you which route is cheapest, which is why weights are added.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0031",
+   "topicId": "mm-networks",
+   "stem": "What does the shortest path algorithm find?",
+   "imageRef": null,
+   "options": [
+    "The route using every edge once",
+    "The lowest total weight between two vertices",
+    "The fewest edges between two vertices",
+    "The route visiting every vertex once"
+   ],
+   "correctIndex": 1,
+   "explanation": "It minimises total weight, which is not always the fewest edges, because one long edge can beat several short ones. Counting edges is only correct when all weights are equal.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0032",
+   "topicId": "mm-networks",
+   "stem": "Two networks are isomorphic when:",
+   "imageRef": null,
+   "options": [
+    "They are drawn with the same shape",
+    "They have the same total edge weight",
+    "They have the same number of edges only",
+    "They have the same structure of connections"
+   ],
+   "correctIndex": 3,
+   "explanation": "Isomorphic means the same connections, however differently the diagram is drawn. Matching edge counts alone is not enough.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0033",
+   "topicId": "mm-networks",
+   "stem": "What is a connected network?",
+   "imageRef": null,
+   "options": [
+    "One where every vertex can be reached from every other",
+    "One where every vertex has the same degree",
+    "One drawn without any edges crossing",
+    "One with no repeated edges"
+   ],
+   "correctIndex": 0,
+   "explanation": "Connectedness is about reachability, not about how neatly it is drawn. A network in two separate pieces is disconnected however many edges each piece has.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0034",
+   "topicId": "mm-networks",
+   "stem": "A delivery van must travel every street once and return to the depot. Which idea applies?",
+   "imageRef": null,
+   "options": [
+    "A Hamiltonian cycle, because every vertex is used",
+    "A minimum spanning tree, because cost is minimised",
+    "A shortest path, because it starts and ends together",
+    "An Eulerian circuit, because every edge is used"
+   ],
+   "correctIndex": 3,
+   "explanation": "Streets are edges, so covering every street is an edge problem. Visiting every location once would be the vertex problem instead.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0035",
+   "topicId": "mm-networks",
+   "stem": "A salesperson must visit every town once and return home. Which idea applies?",
+   "imageRef": null,
+   "options": [
+    "A shortest path between two towns",
+    "A Hamiltonian cycle, because every vertex is used",
+    "An Eulerian circuit, because every edge is used",
+    "A minimum spanning tree, because it connects everything"
+   ],
+   "correctIndex": 1,
+   "explanation": "Towns are vertices, so visiting each once is a vertex problem. Telling the edge and vertex versions apart is the whole skill here.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0036",
+   "topicId": "mm-networks",
+   "stem": "Which of these describes a cycle rather than a loop?",
+   "imageRef": null,
+   "options": [
+    "A vertex that has no edges attached to it",
+    "Two separate edges joining the same pair of vertices",
+    "A route through several vertices that returns to its start",
+    "A single edge joining one vertex back to itself"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cycle travels through other vertices before coming back, while a loop is one edge at a single vertex. The two words are easy to swap and mean different things.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0037",
+   "topicId": "mm-networks",
+   "stem": "What does an adjacency matrix record?",
+   "imageRef": null,
+   "options": [
+    "The degree of every vertex in order",
+    "Which vertices lie on a cycle",
+    "How many edges join each pair of vertices",
+    "The weight of the shortest path"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each entry counts the direct connections between a pair. The row totals then give the degrees, so the matrix carries that information too.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0038",
+   "topicId": "mm-networks",
+   "stem": "Can a network have an odd number of odd-degree vertices?",
+   "imageRef": null,
+   "options": [
+    "Only if it has a loop",
+    "Only if it is disconnected",
+    "No, there is always an even number",
+    "Yes, any number is possible"
+   ],
+   "correctIndex": 2,
+   "explanation": "The degrees total twice the edge count, which is even, so the odd degrees must pair up. This is why Eulerian rules mention zero or two odd vertices and never one.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0039",
+   "topicId": "mm-networks",
+   "stem": "A planar network is one that:",
+   "imageRef": null,
+   "options": [
+    "Can be drawn with no edges crossing",
+    "Has all its vertices in a straight line",
+    "Has exactly four vertices",
+    "Has no cycles in it"
+   ],
+   "correctIndex": 0,
+   "explanation": "Planar is about whether a crossing-free drawing exists, not about the drawing in front of you. Many networks drawn with crossings can be redrawn without them.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0040",
+   "topicId": "mm-networks",
+   "stem": "In a simple network with 5 vertices, what is the greatest possible number of edges?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "25",
+    "10",
+    "5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every pair can be joined once, and there are 10 pairs among 5 vertices. Simple means no loops and no repeated edges.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0041",
+   "topicId": "mm-networks",
+   "stem": "Which of these is a network in the mathematical sense?",
+   "imageRef": null,
+   "options": [
+    "A train map showing stations and lines",
+    "A list of train departure times",
+    "A graph of passenger numbers over time",
+    "A photograph of a station"
+   ],
+   "correctIndex": 0,
+   "explanation": "Stations are vertices and lines are edges, so the connections are what matter. A graph of numbers over time is a different kind of diagram entirely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-networks-0042",
+   "topicId": "mm-networks",
+   "stem": "Why is a minimum spanning tree always a tree?",
+   "imageRef": null,
+   "options": [
+    "Any cycle would contain a removable edge",
+    "It always has the fewest vertices",
+    "Trees are the only connected networks",
+    "It must contain every possible edge"
+   ],
+   "correctIndex": 0,
+   "explanation": "If a cycle existed you could delete one of its edges and stay connected at lower cost, so the cheapest solution never has one. Connected and cycle-free is the definition of a tree.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-networks-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

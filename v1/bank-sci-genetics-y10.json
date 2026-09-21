@@ -1,0 +1,986 @@
+{
+ "topicId": "sci-genetics-y10",
+ "questions": [
+  {
+   "id": "sci-genetics-y10-0001",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is the main role of mitosis in a multicellular organism such as a human?",
+   "imageRef": null,
+   "options": [
+    "Copying DNA so that chromosome number doubles in every new generation",
+    "Producing genetically identical body cells for growth and repair",
+    "Producing gametes that carry half the normal chromosome number",
+    "Creating new combinations of alleles to increase variation in offspring"
+   ],
+   "correctIndex": 1,
+   "explanation": "Mitosis produces two daughter cells with the same chromosome number and the same genetic information as the parent cell, which is what growth, repair and replacement of body cells require. The option about gametes with half the chromosome number describes meiosis, which is the tempting swap. The cue is the outcome: identical cells and same chromosome number means mitosis; halved chromosome number and varied cells means meiosis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0002",
+   "topicId": "sci-genetics-y10",
+   "stem": "A human body cell contains 46 chromosomes. How many chromosomes are in a human sperm cell, and which process makes it?",
+   "imageRef": null,
+   "options": [
+    "23 chromosomes, produced by meiosis",
+    "46 chromosomes, produced by meiosis",
+    "23 chromosomes, produced by mitosis",
+    "92 chromosomes, produced by mitosis"
+   ],
+   "correctIndex": 0,
+   "explanation": "Meiosis halves the chromosome number, so gametes are haploid: a human sperm or egg carries 23 chromosomes, and fertilisation restores 46. The answer pairing 23 chromosomes with mitosis gets the number right but the process wrong \u2014 mitosis always keeps the chromosome number the same. Link the halving directly to meiosis, because that halving is what stops chromosome number doubling every generation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0003",
+   "topicId": "sci-genetics-y10",
+   "stem": "In pea plants, purple flower colour (P) is dominant to white (p). Two heterozygous plants (Pp) are crossed. What phenotype ratio is expected in the offspring?",
+   "imageRef": null,
+   "options": [
+    "1 purple : 1 white",
+    "1 purple : 2 pale purple : 1 white",
+    "4 purple : 0 white",
+    "3 purple : 1 white"
+   ],
+   "correctIndex": 3,
+   "explanation": "A Pp \u00d7 Pp Punnett square gives PP, Pp, Pp and pp, and because one P allele is enough to give purple flowers, three of the four are purple and one is white. The 1:2:1 answer is the genotype ratio being reported as phenotypes, and it also wrongly assumes heterozygotes look intermediate \u2014 with a fully dominant allele, Pp looks the same as PP. Check whether the question asks for genotypes (1:2:1 here) or phenotypes (3:1 here).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0004",
+   "topicId": "sci-genetics-y10",
+   "stem": "In guinea pigs, black coat (B) is dominant to white (b). A black guinea pig of unknown genotype is crossed with a white guinea pig, and about half the offspring are white. What is the genotype of the black parent?",
+   "imageRef": null,
+   "options": [
+    "Bb, because a white offspring must receive a b allele from each parent",
+    "BB, because only a homozygous parent can produce many offspring",
+    "bb, because it must match the white parent to produce white offspring",
+    "BB or Bb, because either genotype can give white offspring in this cross"
+   ],
+   "correctIndex": 0,
+   "explanation": "White guinea pigs are bb, so each white offspring received one b allele from each parent; the black parent must therefore carry a b allele and be Bb. The 'BB or Bb' answer is tempting because both parents look black in many crosses, but a BB parent crossed with bb gives only Bb offspring, all black \u2014 no white offspring at all. Whenever a recessive phenotype appears in the offspring, both parents must carry the recessive allele.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0005",
+   "topicId": "sci-genetics-y10",
+   "stem": "Two parents who both have brown eyes have a child with blue eyes. Treating brown (B) as dominant and blue (b) as recessive, what is the chance that their next child has blue eyes?",
+   "imageRef": null,
+   "options": [
+    "0, because the recessive combination has already occurred once",
+    "3 in 4, because blue eyes now run in the family",
+    "1 in 4, because both parents must be Bb",
+    "1 in 2, because half of the parents' alleles are b"
+   ],
+   "correctIndex": 2,
+   "explanation": "The blue-eyed child is bb, so each brown-eyed parent must be Bb; a Bb \u00d7 Bb cross gives a 1 in 4 chance of bb for every pregnancy. The '1 in 2' answer confuses the chance that a single parent passes on b (which is 1/2) with the chance that both do, which requires multiplying: 1/2 \u00d7 1/2 = 1/4. Each fertilisation is independent, so an earlier blue-eyed child does not change the odds for the next.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0006",
+   "topicId": "sci-genetics-y10",
+   "stem": "Two tall pea plants are crossed and the offspring are 3/4 tall and 1/4 short, where tall (T) is dominant. Of the TALL offspring only, what fraction is expected to be homozygous (TT)?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "3/4",
+    "1/3",
+    "1/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The parents are Tt \u00d7 Tt, giving genotypes in the ratio 1 TT : 2 Tt : 1 tt. The short (tt) plants are excluded from the question, so of the three tall plants, one is TT \u2014 a fraction of 1/3. The answer 1/4 is the proportion of TT among all offspring, not among tall offspring only; the wording 'of the tall offspring only' tells you to leave the tt plants out of the total.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0007",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which statement best describes what a gene is?",
+   "imageRef": null,
+   "options": [
+    "A segment of DNA that carries the coded instructions for making a particular protein",
+    "A whole chromosome that carries the instructions for one inherited characteristic",
+    "One of the two alternative versions of an allele found in a body cell",
+    "The protein molecule that a cell builds and then stores inside the nucleus"
+   ],
+   "correctIndex": 0,
+   "explanation": "A gene is a length of DNA at a particular position on a chromosome, and its base sequence codes for a protein, which in turn influences a characteristic. The option calling a gene a whole chromosome is tempting because genes are found on chromosomes, but a single chromosome carries hundreds or thousands of genes. Also note the wording 'alternative versions of an allele' is back to front: alleles are alternative versions of a gene, not the reverse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0008",
+   "topicId": "sci-genetics-y10",
+   "stem": "In a DNA molecule, which base pairing rule is correct?",
+   "imageRef": null,
+   "options": [
+    "Adenine pairs with guanine, and cytosine pairs with thymine",
+    "Adenine pairs with cytosine, and thymine pairs with guanine",
+    "Adenine pairs with adenine, and cytosine pairs with cytosine",
+    "Adenine pairs with thymine, and cytosine pairs with guanine"
+   ],
+   "correctIndex": 3,
+   "explanation": "The two strands of the DNA double helix are held together by complementary base pairs: A always pairs with T, and C always pairs with G. The 'adenine with guanine' option is tempting because A and G are both purines and look similar in diagrams, but a purine always pairs with a pyrimidine so the rungs of the ladder stay the same width. A useful memory cue is that the two 'straight-letter' bases A and T go together, leaving C and G.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0009",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which describes the cells produced by meiosis in a human?",
+   "imageRef": null,
+   "options": [
+    "Four cells, each with half the chromosomes and genetically different",
+    "Two cells, each with the full number and identical to the parent",
+    "Four cells, each with the full number and identical to each other",
+    "Two cells, each with half the number and identical to each other"
+   ],
+   "correctIndex": 0,
+   "explanation": "Meiosis involves two divisions after one round of DNA copying, so one parent cell gives four gametes, each with 23 chromosomes rather than 46, and shuffling of alleles makes them genetically varied. The 'two identical cells with the full chromosome number' option describes mitosis, which is used for growth and repair. The cue is that meiosis halves the chromosome number and creates variation, while mitosis copies it exactly.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0010",
+   "topicId": "sci-genetics-y10",
+   "stem": "A pair of homologous chromosomes in a body cell carries the gene for coat colour at the same position on both chromosomes. What does this tell you?",
+   "imageRef": null,
+   "options": [
+    "One chromosome carries the dominant allele and the other always carries the recessive allele",
+    "Only one chromosome of the pair carries the gene; the partner chromosome carries different genes",
+    "Both chromosomes carry a coat colour gene, but the alleles on them may be the same or different",
+    "Both chromosomes must carry exactly the same allele, because they are a matching pair"
+   ],
+   "correctIndex": 2,
+   "explanation": "Homologous chromosomes carry the same genes in the same order, one copy inherited from each parent, but the versions of those genes (the alleles) can differ, which is why an organism may be homozygous or heterozygous. The option saying the alleles must match confuses 'same gene' with 'same allele' and would make heterozygotes impossible. Remember: matching positions, possibly different alleles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0011",
+   "topicId": "sci-genetics-y10",
+   "stem": "A mouse has the allele combination Bb for coat colour, where black (B) is dominant to brown (b). The mouse has a black coat. Which statement correctly uses the terms genotype and phenotype?",
+   "imageRef": null,
+   "options": [
+    "Its genotype is BB because it looks black, and its phenotype is Bb",
+    "Its genotype and phenotype are both Bb, since the alleles are visible",
+    "Its genotype is Bb and its phenotype is black",
+    "Its genotype is black and its phenotype is Bb"
+   ],
+   "correctIndex": 2,
+   "explanation": "Genotype refers to the alleles an organism carries, so Bb, while phenotype is the observable characteristic those alleles produce, so black. The reversed option swaps the two terms, which is the most common slip. A cue: 'pheno' relates to what is shown or appears, so phenotype is the visible trait.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0012",
+   "topicId": "sci-genetics-y10",
+   "stem": "Cystic fibrosis is caused by a recessive allele (f). Two parents are both carriers with the genotype Ff. What is the chance that their child is a carrier (Ff) but does not have cystic fibrosis?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "3/4",
+    "1/3",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "A Punnett square for Ff \u00d7 Ff gives FF, Ff, Ff and ff, so two of the four boxes are Ff, a chance of 1/2. The answer 1/4 is tempting because that is the chance of the ff child who actually has the condition, and also the chance of FF, but the heterozygous combination can arise two ways. Count both Ff boxes, not just one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0013",
+   "topicId": "sci-genetics-y10",
+   "stem": "Two children of the same parents (other than identical twins) are never genetically identical. Which explanation best accounts for this?",
+   "imageRef": null,
+   "options": [
+    "Meiosis shuffles alleles into gametes in many combinations, and which sperm fertilises which egg is random",
+    "Mitosis mixes the parents' alleles differently in each child's body cells as the child grows",
+    "Each parent passes on a complete set of all their own chromosomes, which combine differently each time",
+    "DNA changes its base sequence over time, so each child is built from an altered version of the code"
+   ],
+   "correctIndex": 0,
+   "explanation": "Independent assortment of homologous chromosomes and crossing over during meiosis mean each gamete carries a different allele combination, and random fertilisation adds a further layer of chance. The option about mitosis is tempting because mitosis does happen constantly during growth, but mitosis makes genetically identical copies and does not mix parental alleles. Variation is generated when gametes form, not when body cells divide.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0014",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which describes the structure of a DNA molecule?",
+   "imageRef": null,
+   "options": [
+    "Two strands twist in a double helix, joined across by paired bases",
+    "One long strand coils on itself, with bases pairing along its length",
+    "Four strands wind together, each base pairing with one opposite",
+    "Two strands lie side by side, joined by bonds between their sugars"
+   ],
+   "correctIndex": 0,
+   "explanation": "DNA is a double helix: two strands, each with a sugar-phosphate backbone, held together by hydrogen bonds between complementary base pairs (A with T, C with G). The option describing two strands joined by sugar-to-sugar bonds is tempting because the backbone really is made of sugars and phosphates, but the rungs joining the strands are base pairs, not sugar bonds. Picture a twisted ladder: sugars and phosphates are the sides, paired bases are the rungs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0015",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which list places these structures in order from LARGEST to smallest?",
+   "imageRef": null,
+   "options": [
+    "Chromosome, nucleus, base pair, gene",
+    "Gene, chromosome, nucleus, base pair",
+    "Nucleus, gene, chromosome, base pair",
+    "Nucleus, chromosome, gene, base pair"
+   ],
+   "correctIndex": 3,
+   "explanation": "The nucleus holds the chromosomes; each chromosome is one very long DNA molecule carrying many genes; each gene is a stretch of that DNA made of many base pairs. The list starting with 'gene' is tempting for students who think a chromosome sits inside a gene, but the relationship is the other way around \u2014 genes are segments of chromosomes. Remember the nesting: nucleus holds chromosomes, chromosomes hold genes, genes are made of base pairs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0016",
+   "topicId": "sci-genetics-y10",
+   "stem": "A plant species has 12 chromosomes in each of its body cells. One root cell divides by mitosis. How many cells are produced and how many chromosomes does each contain?",
+   "imageRef": null,
+   "options": [
+    "2 cells, each with 6 chromosomes",
+    "4 cells, each with 12 chromosomes",
+    "4 cells, each with 6 chromosomes",
+    "2 cells, each with 12 chromosomes"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mitosis copies every chromosome once and then divides once, producing two daughter cells genetically identical to the parent cell, so the chromosome number stays at 12. The answer '2 cells, each with 6 chromosomes' applies the halving that belongs to meiosis, not mitosis. Cue: halving and four cells go with meiosis and gametes; identical pairs of cells with the full number go with mitosis and growth or repair.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0017",
+   "topicId": "sci-genetics-y10",
+   "stem": "Two heterozygous mice (Aa) are crossed. What GENOTYPE ratio is expected in the offspring?",
+   "imageRef": null,
+   "options": [
+    "2 AA : 1 Aa : 1 aa",
+    "1 AA : 1 Aa",
+    "1 AA : 2 Aa : 1 aa",
+    "3 AA : 1 aa"
+   ],
+   "correctIndex": 2,
+   "explanation": "A Punnett square for Aa \u00d7 Aa gives the four combinations AA, Aa, aA and aa, which is one homozygous dominant, two heterozygotes and one homozygous recessive. The answer '3 AA : 1 aa' is the classic slip of quoting the 3:1 phenotype ratio and labelling it with genotypes \u2014 three offspring show the dominant trait, but only one of them is AA. Cue: phenotype ratio 3:1, genotype ratio 1:2:1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0018",
+   "topicId": "sci-genetics-y10",
+   "stem": "In cattle, black coat (B) is dominant to red (b). A farmer has a black bull and needs to find out whether it is BB or Bb. Which cross gives the answer, and how?",
+   "imageRef": null,
+   "options": [
+    "Cross the bull with red (bb) cows; if any calf is red, the bull must be Bb",
+    "Cross the bull with homozygous black (BB) cows; if any calf is red, the bull must be Bb",
+    "Cross the bull with heterozygous (Bb) cows; if every calf is black, the bull must be BB",
+    "No cross is needed; a black coat on a bull shows the bull's genotype is BB"
+   ],
+   "correctIndex": 0,
+   "explanation": "A test cross uses a homozygous recessive partner, because bb cows can only donate b, so each calf's phenotype directly reveals the allele the bull passed on \u2014 a red calf can only come from a bull that carries b. Crossing with Bb cows is tempting, but a run of black calves there could easily happen by chance even if the bull is Bb, so it proves nothing. The rule to remember: to expose a hidden recessive allele, cross with the recessive phenotype.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0019",
+   "topicId": "sci-genetics-y10",
+   "stem": "A frog species has 26 chromosomes in its body cells. Why is it important that its gametes are produced by meiosis rather than mitosis?",
+   "imageRef": null,
+   "options": [
+    "Meiosis copies the DNA twice, so each gamete carries 13 identical pairs of chromosomes",
+    "Meiosis halves the number to 13 per gamete, so fertilisation restores 26 in the offspring",
+    "Meiosis gives each gamete both chromosomes of every pair, so the offspring inherits a complete set",
+    "Fertilisation halves the chromosome number, so gametes must each carry the full 26"
+   ],
+   "correctIndex": 1,
+   "explanation": "Meiosis separates the homologous pairs, so each gamete is haploid with one chromosome from each pair; when sperm and egg fuse, the 13 from each combine to give the offspring the species number of 26. The idea that fertilisation halves the number reverses cause and effect \u2014 fertilisation adds two sets together, it never removes chromosomes. Check the logic by adding: half plus half equals the full body-cell number each generation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0020",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which statement best describes what an allele is?",
+   "imageRef": null,
+   "options": [
+    "A different version of the same gene, found at the same position on a homologous chromosome",
+    "A short length of DNA that joins two separate genes together on a chromosome",
+    "A whole chromosome inherited from one parent that pairs with one from the other parent",
+    "A protein made by a gene that determines the physical appearance of the organism"
+   ],
+   "correctIndex": 0,
+   "explanation": "A gene occupies a particular position (locus) on a chromosome, and the alternative forms of that gene \u2014 such as the black and brown versions of a coat-colour gene \u2014 are called alleles. The option describing a whole chromosome from one parent confuses the level of organisation: a chromosome carries hundreds or thousands of genes, each of which may have different alleles. The cue is that alleles are versions of ONE gene, not structures larger or smaller than a gene, and not the protein product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0021",
+   "topicId": "sci-genetics-y10",
+   "stem": "What does it mean to say an allele is recessive?",
+   "imageRef": null,
+   "options": [
+    "It is a weaker allele that slowly disappears from a population over several generations",
+    "It is only passed on by the mother, since the father's alleles are always dominant",
+    "It is always the rarer allele in a population, so few individuals ever inherit it",
+    "Its effect appears in the phenotype only when two copies of that allele are present"
+   ],
+   "correctIndex": 3,
+   "explanation": "A recessive allele is masked whenever a dominant allele is also present, so the recessive phenotype shows only in a homozygous recessive individual. The idea that recessive alleles disappear over generations is wrong \u2014 heterozygous carriers pass them on unchanged, which is why recessive traits keep reappearing. Remember that 'recessive' describes how an allele behaves alongside a dominant allele, not how common it is or which parent supplies it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0022",
+   "topicId": "sci-genetics-y10",
+   "stem": "In tomatoes, red fruit (R) is dominant to yellow fruit (r). A heterozygous red plant (Rr) is crossed with a yellow plant (rr). What phenotype ratio is expected in the offspring?",
+   "imageRef": null,
+   "options": [
+    "3 red : 1 yellow",
+    "All offspring red",
+    "1 red : 2 red-yellow : 1 yellow",
+    "1 red : 1 yellow"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Rr parent makes R and r gametes in equal numbers and the rr parent makes only r gametes, so the offspring are half Rr (red) and half rr (yellow) \u2014 a 1:1 ratio. The 3:1 answer is the tempting one because it is the familiar monohybrid result, but 3:1 comes only from crossing two heterozygotes (Rr \u00d7 Rr). Check both parent genotypes before reaching for a memorised ratio.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0023",
+   "topicId": "sci-genetics-y10",
+   "stem": "In humans, an egg cell always carries an X chromosome, while a sperm cell carries either an X or a Y. A couple already have three sons. What is the chance their next child is a girl?",
+   "imageRef": null,
+   "options": [
+    "Less than 50%, because this father produces mostly Y-carrying sperm",
+    "Greater than 50%, because the chances must even out over four children",
+    "25%, because a girl needs an X from the mother and an X from the father",
+    "50%, because each sperm has an equal chance of carrying X or Y"
+   ],
+   "correctIndex": 3,
+   "explanation": "Sex is determined by whether an X-carrying or Y-carrying sperm fertilises the egg, and meiosis produces these in equal numbers, so each fertilisation is an independent 50:50 event. The 'chances must even out' option is the gambler's fallacy \u2014 previous children have no influence on which sperm fertilises the next egg. The 25% option double-counts: the mother's contribution is always an X, so only the sperm varies.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0024",
+   "topicId": "sci-genetics-y10",
+   "stem": "A grasshopper body cell contains 24 chromosomes and enters meiosis. How many cells result, and how many chromosomes does each contain?",
+   "imageRef": null,
+   "options": [
+    "2 cells, each with 24 chromosomes",
+    "4 cells, each with 12 chromosomes",
+    "2 cells, each with 12 chromosomes",
+    "4 cells, each with 24 chromosomes"
+   ],
+   "correctIndex": 1,
+   "explanation": "Meiosis involves two rounds of division after one round of DNA replication, so one diploid cell gives four haploid cells, each with half the original chromosome number \u2014 here 12. The '2 cells, each with 12' answer stops after meiosis I and forgets the second division. The '4 cells, each with 24' answer keeps the full chromosome number, which would double the chromosome number at fertilisation each generation. Remember: mitosis gives 2 identical diploid cells, meiosis gives 4 genetically different haploid cells.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0025",
+   "topicId": "sci-genetics-y10",
+   "stem": "An organism is described as homozygous for a particular gene. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "It shows the dominant version of the trait controlled by that gene",
+    "It carries two identical alleles of that gene, one on each homologous chromosome",
+    "It carries two different alleles of that gene, one on each homologous chromosome",
+    "It carries only one allele of that gene, because the other copy was lost"
+   ],
+   "correctIndex": 1,
+   "explanation": "Homozygous refers to genotype: the two alleles at that gene's position on the pair of homologous chromosomes are the same (for example TT or tt). Two different alleles, such as Tt, is heterozygous, which is the most common mix-up. Note also that homozygous says nothing about which trait shows \u2014 tt is homozygous but shows the recessive phenotype.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0026",
+   "topicId": "sci-genetics-y10",
+   "stem": "Where is most of a human cell's DNA found, and how is it organised?",
+   "imageRef": null,
+   "options": [
+    "In the ribosomes, where it is stored until the cell needs to divide",
+    "In the nucleus, coiled with proteins into structures called chromosomes",
+    "In the cytoplasm, as free-floating loops attached to the cell membrane",
+    "In the nucleus, as a single long strand that is never coiled or packaged"
+   ],
+   "correctIndex": 1,
+   "explanation": "In eukaryotic cells such as human cells, DNA is housed in the nucleus and is wound around proteins to form chromosomes, which is how metres of DNA fit inside a microscopic cell. The suggestion that DNA sits in the cytoplasm as loops describes bacterial cells, not human cells. Remember that a chromosome is not a different substance from DNA \u2014 it is DNA packaged up.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0027",
+   "topicId": "sci-genetics-y10",
+   "stem": "In pea plants, round seed shape (R) is dominant to wrinkled (r). A round-seeded plant is crossed with a wrinkled-seeded plant and all 60 offspring have round seeds. What is the most likely genotype of the round parent?",
+   "imageRef": null,
+   "options": [
+    "Rr, because the round parent must carry a hidden recessive allele from its own parents",
+    "rr, because the round phenotype can be produced by two recessive alleles together",
+    "Rr, because round is dominant and dominant plants are always heterozygous",
+    "RR, because a heterozygous Rr parent would be expected to give about half wrinkled offspring"
+   ],
+   "correctIndex": 3,
+   "explanation": "The wrinkled parent is rr and can only pass on r, so any r allele in the round parent would show up as wrinkled offspring in roughly half the cases. With 60 round offspring and no wrinkled ones, the round parent is almost certainly RR. Choosing Rr because 'dominants carry a hidden recessive' is a common error \u2014 a dominant phenotype can be either RR or Rr, and the offspring data here rule out Rr.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0028",
+   "topicId": "sci-genetics-y10",
+   "stem": "A mouse body cell contains two alleles for a coat-colour gene. How many alleles for that gene does one of its sperm cells contain, and why?",
+   "imageRef": null,
+   "options": [
+    "One, because the second allele is destroyed when the sperm cell matures",
+    "Two, because a gamete must carry both alleles for fertilisation to work",
+    "One, because meiosis separates the members of each homologous chromosome pair",
+    "Two, because meiosis copies the whole set of chromosomes into every gamete"
+   ],
+   "correctIndex": 2,
+   "explanation": "During meiosis the homologous chromosomes of each pair are pulled into different cells, so each gamete ends up with one chromosome of the pair and therefore one allele of each gene. The idea that a gamete carries both alleles confuses meiosis with mitosis, which does keep the full set. Fertilisation then restores two alleles by combining one from each parent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0029",
+   "topicId": "sci-genetics-y10",
+   "stem": "A population of beetles has only a green allele for shell colour. Later, some beetles are found with a brown shell caused by a new allele of the same gene. How did this new allele most likely arise?",
+   "imageRef": null,
+   "options": [
+    "The beetles' need for camouflage caused the gene to rewrite itself into a new form",
+    "A whole extra chromosome was added to the beetles' cells during fertilisation",
+    "The green allele was used up over many generations and gradually wore away",
+    "A change in the base sequence of that gene produced a different version of it"
+   ],
+   "correctIndex": 3,
+   "explanation": "Alleles are alternative versions of the same gene, and new versions arise when a mutation changes the sequence of bases in the DNA, altering the protein the gene codes for. The idea that a need for camouflage caused the change reverses cause and effect: mutations occur randomly, and the environment then affects which alleles become common. A gene is a length of DNA, so a new allele means a new base sequence, not an extra chromosome.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0030",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which statement is true of mitosis but NOT of meiosis?",
+   "imageRef": null,
+   "options": [
+    "The chromosomes are copied before the cell begins to divide",
+    "The daughter cells each contain a nucleus with chromosomes",
+    "The daughter cells have half the chromosome number of the original cell",
+    "The daughter cells are genetically identical to the original cell"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mitosis produces daughter cells with the same chromosome number and the same genetic information as the parent cell, while meiosis shuffles the genetic material and halves the chromosome number, so its products differ from each other and from the parent. The halving statement is the tempting one, but that is meiosis, not mitosis. Copying of chromosomes and the presence of nuclei happen in both, so neither separates the two processes. Cue: mitosis = copies, meiosis = halves and varies.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0031",
+   "topicId": "sci-genetics-y10",
+   "stem": "In a flowering plant, white flowers are caused by a recessive allele (w) and coloured flowers by the dominant allele (W). Two white-flowered plants are crossed. What colour will the offspring be?",
+   "imageRef": null,
+   "options": [
+    "All white, because each white parent must be ww and can only pass on w",
+    "Three quarters white and one quarter coloured, in a 3:1 ratio",
+    "All coloured, because the offspring receive two different alleles",
+    "Half white and half coloured, because each parent may carry a hidden W"
+   ],
+   "correctIndex": 0,
+   "explanation": "A recessive phenotype can only appear when both alleles are recessive, so both white parents must be ww and every gamete carries w, giving ww offspring that are all white. The 'hidden W' option is the tempting one, but a plant carrying a W allele would show the dominant coloured phenotype, so a white plant cannot be a carrier. Cue: recessive trait shown means homozygous recessive genotype, with no hidden dominant allele possible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0032",
+   "topicId": "sci-genetics-y10",
+   "stem": "Why must a cell copy all of its DNA before it divides by mitosis?",
+   "imageRef": null,
+   "options": [
+    "So the new cells can have slightly different alleles from each other",
+    "So the chromosomes can pair up and exchange sections of DNA",
+    "So each of the two new cells receives a complete set of chromosomes",
+    "So the two new cells each end up with half the DNA of the original cell"
+   ],
+   "correctIndex": 2,
+   "explanation": "Mitosis separates identical copies of each chromosome into two daughter cells, so the DNA must be replicated first or each new cell would be missing genetic information. The 'half the DNA' option describes the outcome of meiosis, not mitosis, and would not require replication in the first place. Pairing and exchanging sections of DNA (crossing over) occurs in meiosis and creates variation, whereas mitosis deliberately avoids variation. Cue: replication doubles first so that division can halve back to a full set.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0033",
+   "topicId": "sci-genetics-y10",
+   "stem": "In a population of rabbits, the gene for coat colour exists as three different alleles. How many of these alleles can be found in a single body cell of one rabbit, and why?",
+   "imageRef": null,
+   "options": [
+    "One, because each rabbit shows only one coat colour at a time",
+    "Six, because each of the three alleles is present on both chromosomes of the pair",
+    "Two, because the cell has one copy of the gene on each chromosome of a homologous pair",
+    "Three, because every body cell must carry every allele present in the population"
+   ],
+   "correctIndex": 2,
+   "explanation": "A gene sits at a particular position (locus) on a chromosome, and body cells have chromosomes in homologous pairs, so an individual carries two copies of the gene and therefore at most two of the three alleles available in the population. The 'three' option confuses the variation present across a whole population with what one individual can inherit. The 'one' option confuses phenotype with genotype: a heterozygous rabbit shows one colour but still carries two alleles. Cue: alleles are versions of a gene; a population can have many, an individual has two.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0034",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is the main function of the sequence of bases along a section of DNA?",
+   "imageRef": null,
+   "options": [
+    "It controls the thickness of the membrane surrounding the nucleus",
+    "It carries a coded instruction for building a particular protein",
+    "It provides the energy the cell needs to divide into two cells",
+    "It joins chromosomes together so they stay paired in the nucleus"
+   ],
+   "correctIndex": 1,
+   "explanation": "A gene is a length of DNA whose base order (A, T, C, G) is a code that the cell reads to assemble a protein, and proteins go on to build structures and control chemical reactions that produce traits. The option about energy for division is tempting because DNA is active in dividing cells, but energy comes from respiration in the cytoplasm and mitochondria, not from the base sequence. Remember: DNA is information, not fuel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0035",
+   "topicId": "sci-genetics-y10",
+   "stem": "In a human, where does meiosis take place and what does it produce?",
+   "imageRef": null,
+   "options": [
+    "In the bone marrow only, producing red and white blood cells",
+    "In the nucleus of a zygote, producing the first body cells",
+    "In the testes and ovaries, producing sperm and egg cells",
+    "In every body tissue, producing identical replacement cells"
+   ],
+   "correctIndex": 2,
+   "explanation": "Meiosis is the specialised division that halves the chromosome number, so it happens only in the reproductive organs where gametes are made. The choice about every body tissue producing identical cells describes mitosis, which is how the body grows and repairs itself. The cue is the product: identical body cells means mitosis, gametes with half the chromosomes means meiosis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0036",
+   "topicId": "sci-genetics-y10",
+   "stem": "What does a Punnett square show about a cross between two parents?",
+   "imageRef": null,
+   "options": [
+    "The stages a chromosome passes through as a body cell divides",
+    "The possible allele combinations in offspring and the probability of each",
+    "The exact number of offspring of each type that the parents will produce",
+    "The order of DNA bases inherited from each of the two parents"
+   ],
+   "correctIndex": 1,
+   "explanation": "A Punnett square lists the alleles each parent can put into a gamete and combines them, giving the chance of each offspring genotype. The option about the exact number of offspring is the common trap: predicted ratios are probabilities, so a real litter of four from a 3:1 cross might be 4:0. Treat a Punnett square result the same way you treat the chance of tossing heads.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0037",
+   "topicId": "sci-genetics-y10",
+   "stem": "In rabbits, short hair (H) is dominant to long hair (h). A homozygous short-haired rabbit (HH) is crossed with a heterozygous short-haired rabbit (Hh). What is expected in the offspring?",
+   "imageRef": null,
+   "options": [
+    "Three short-haired to one long-haired, in the usual 3:1 ratio",
+    "Two short-haired to one long-haired, because HH cannot pass on h",
+    "All short-haired, with genotypes about 1 HH to 1 Hh",
+    "All short-haired, with every offspring having the genotype Hh"
+   ],
+   "correctIndex": 2,
+   "explanation": "The HH parent can only give H, while the Hh parent gives H or h, so offspring are HH or Hh in equal proportions and all show short hair because H is dominant. The answer saying every offspring is Hh is tempting but ignores that the heterozygous parent passes H half the time, producing HH offspring too. A 3:1 phenotype ratio only appears when both parents are heterozygous.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0038",
+   "topicId": "sci-genetics-y10",
+   "stem": "A cell containing 8 chromosomes copies its DNA and then completes meiosis I. How many cells are present at that point, and how many chromosomes does each contain?",
+   "imageRef": null,
+   "options": [
+    "One cell with 16 chromosomes, ready to divide again",
+    "Two cells, each with 4 chromosomes made of two chromatids",
+    "Two cells, each with 8 chromosomes made of two chromatids",
+    "Four cells, each with 4 chromosomes made of one chromatid"
+   ],
+   "correctIndex": 1,
+   "explanation": "Meiosis I separates the homologous pairs, so each of the two daughter cells receives one chromosome from each pair \u2014 4 chromosomes \u2014 and each is still double-stranded until meiosis II splits the chromatids. The answer giving two cells with 8 chromosomes describes what mitosis produces, where pairs are not separated. The halving of chromosome number happens at meiosis I; meiosis II only separates chromatids.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0039",
+   "topicId": "sci-genetics-y10",
+   "stem": "A recessive allele (t) causes a condition in cats. Two carrier parents (Tt) plan to have two kittens. What is the chance that BOTH kittens have the condition?",
+   "imageRef": null,
+   "options": [
+    "1/8",
+    "1/4",
+    "1/2",
+    "1/16"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each kitten independently has a 1/4 chance of being tt, so for two kittens the chance is 1/4 \u00d7 1/4 = 1/16. Choosing 1/4 is the usual slip: that is the chance for one kitten only, not for two in a row. When events are independent, multiply the separate probabilities rather than reusing the single-offspring value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0040",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is a gene?",
+   "imageRef": null,
+   "options": [
+    "A protein that builds part of a cell",
+    "A cell that carries inherited information",
+    "A section of DNA coding for a characteristic",
+    "A complete set of an organism's chromosomes"
+   ],
+   "correctIndex": 2,
+   "explanation": "A gene is a length of DNA carrying the instructions for one characteristic. A full set of chromosomes is a genome, so that option is the same idea at the wrong scale.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "It helps to see the levels of organisation, because the words for them get swapped constantly.\n\nDNA is the molecule. It is coiled and packaged into chromosomes, of which humans have 46 in most cells. Along the length of that DNA are stretches that each carry the instructions for one particular characteristic or protein \u2014 those stretches are the unit this question is about, and there are roughly 20,000 of them in a human. The complete set of all of them is the genome. So the order runs: molecule, chromosome, individual instruction, whole set. Each answer option here names a real thing, just at the wrong level.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0041",
+   "topicId": "sci-genetics-y10",
+   "stem": "Where is DNA found in a cell?",
+   "imageRef": null,
+   "options": [
+    "Mainly in the nucleus",
+    "Mainly in the cell wall",
+    "Mainly in the cytoplasm",
+    "Mainly in the membrane"
+   ],
+   "correctIndex": 0,
+   "explanation": "Almost all of a cell's DNA sits in the nucleus, packaged as chromosomes. A small amount is also held in mitochondria, but the nucleus is where the chromosomes are.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "In animal and plant cells the genetic material is not loose in the cell. It is enclosed in a membrane-bound compartment, which is one of the main differences between these cells and bacteria, where it does float free.\n\nThat compartment is the control centre, and keeping the DNA in it protects the molecule and keeps the copying and reading processes organised. A small separate amount of DNA also sits inside mitochondria, which is why mitochondrial DNA is inherited only from the mother \u2014 but the chromosomes are all in the one compartment. Watch out for the plant-cell distractor: the cell wall is structural and contains no DNA at all.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0042",
+   "topicId": "sci-genetics-y10",
+   "stem": "What does it mean if an allele is dominant?",
+   "imageRef": null,
+   "options": [
+    "It shows in the offspring even if only one copy is present",
+    "It is the more common allele found in the population overall",
+    "It always produces a healthier organism",
+    "It is carried only on the X chromosome"
+   ],
+   "correctIndex": 0,
+   "explanation": "A dominant allele is expressed when just one copy is present, so a recessive allele only shows with two copies. Dominant does not mean common or better \u2014 many harmful conditions are dominant and rare.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "You carry two copies of most genes, one from each parent, and they need not be the same version. When they differ, something has to settle what actually appears.\n\nSome versions mask others. Where a masking version turns up at all, its effect is what you see; the masked version is still there and can still be handed on, but it stays hidden unless a child happens to receive two of it. That is why a trait can skip a generation entirely and then reappear. It is also worth knowing what the word does not mean: it says nothing about how common a version is in the population, and nothing about whether it is good for you. Plenty are rare, and some cause serious conditions.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0043",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is a genotype?",
+   "imageRef": null,
+   "options": [
+    "An organism's total cell count",
+    "An organism's set of alleles",
+    "An organism's visible features",
+    "An organism's species name"
+   ],
+   "correctIndex": 1,
+   "explanation": "The genotype is the combination of alleles an organism carries. Its visible features are the phenotype, which comes from the genotype together with the environment.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Two words are used constantly in this topic and they sit at different levels \u2014 one is the instructions, the other is the result.\n\nThe instruction level is the particular combination of gene versions an organism inherited: two of each gene, one from each parent, written into the DNA and passed on unchanged. That is what this question asks about. The result level is everything you can actually observe \u2014 height, colour, blood group \u2014 which comes from the instructions plus the environment acting on them. Punnett squares work at the instruction level, which is why they predict ratios of combinations rather than ratios of appearances directly.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0044",
+   "topicId": "sci-genetics-y10",
+   "stem": "How many chromosomes are in a human gamete?",
+   "imageRef": null,
+   "options": [
+    "92",
+    "23",
+    "46",
+    "22"
+   ],
+   "correctIndex": 1,
+   "explanation": "A gamete carries 23 chromosomes, one from each pair. 46 is the count in a body cell, and the halving at gamete formation is what stops the number doubling every generation.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Body cells carry chromosomes in matched pairs \u2014 23 pairs, making 46 in total in humans. Every pair has one chromosome from each parent.\n\nSex cells cannot work that way. If each parent passed on a full set, the child would have double the number, and the next generation double again. So gametes are made by a special division that separates the pairs, giving each sex cell one chromosome from each pair rather than both. Fertilisation then puts two of those half-sets together and the full number is restored. Work out the answer by halving the body-cell figure, and remember it is the pairs being split, not the total being divided arbitrarily.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0045",
+   "topicId": "sci-genetics-y10",
+   "stem": "What does DNA stand for?",
+   "imageRef": null,
+   "options": [
+    "Diribonucleic acid",
+    "Deoxyribonucleic acid",
+    "Dinucleic acid",
+    "Deoxyribose nitrate"
+   ],
+   "correctIndex": 1,
+   "explanation": "DNA is deoxyribonucleic acid, named for the deoxyribose sugar in its backbone. The other options are near-misses built from pieces of the real name.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "The name is a description of the molecule's chemistry, so it is easier to remember if you take it apart.\n\nIt is an acid, found originally in the nucleus. Its backbone is built from a sugar called ribose, but with one oxygen atom removed \u2014 chemists mark that removal with the prefix \"deoxy\". Put those pieces together in order and you have the full name. RNA, the closely related molecule that carries copies of genetic instructions out of the nucleus, has the same name without the prefix, because it keeps the oxygen that DNA has lost. That single missing oxygen is the entire difference in the naming.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0046",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is a phenotype?",
+   "imageRef": null,
+   "options": [
+    "An organism's set of alleles",
+    "An organism's total DNA length",
+    "An organism's total number of chromosomes",
+    "An organism's observable characteristics"
+   ],
+   "correctIndex": 3,
+   "explanation": "The phenotype is what you can observe \u2014 height, eye colour, blood group. The underlying alleles are the genotype, and environment shapes how the genotype shows up.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Genetics has two layers, and keeping them apart makes most inheritance problems easier. One layer is the instructions carried in DNA \u2014 the particular versions of each gene, inherited from parents and passed on to offspring.\n\nThe other layer is what those instructions actually produce: the height, the eye colour, the blood group, anything you could measure or photograph. The second follows from the first, but not from the first alone. Diet, sunlight, illness and plain chance all get a say. Two plants grown from genetically identical cuttings can end up completely different if one is kept in the dark, which is the clearest demonstration that the two layers are not the same thing.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0047",
+   "topicId": "sci-genetics-y10",
+   "stem": "What shape is a DNA molecule?",
+   "imageRef": null,
+   "options": [
+    "A double helix",
+    "A single spiral",
+    "A flat sheet",
+    "A branched chain"
+   ],
+   "correctIndex": 0,
+   "explanation": "DNA is a double helix: two strands wound around each other, with paired bases between them. That pairing is what lets DNA copy itself accurately.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Watson and Crick's 1953 model, built on Rosalind Franklin's X-ray images, was famous because the shape explained how the molecule works.\n\nDNA is two long strands running in opposite directions and twisted around each other, with pairs of bases rungs between them. The pairing is strict: A always pairs with T, C always with G. That strictness is the point \u2014 unzip the two strands and each one carries all the information needed to rebuild its partner, which is how DNA copies itself before a cell divides. A structure that was a single strand or a flat sheet would give you no such mechanism, which is why the discovery mattered so much.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0048",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is an allele?",
+   "imageRef": null,
+   "options": [
+    "One strand of DNA",
+    "One protein in a cell",
+    "One version of a gene",
+    "One whole chromosome"
+   ],
+   "correctIndex": 2,
+   "explanation": "Alleles are alternative forms of the same gene, which is why one gene can give different eye colours. You inherit one allele of each gene from each parent.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "A gene is the instruction for a characteristic. But instructions come in variants \u2014 the gene for eye colour is one gene, and yet eyes come in several colours.\n\nThose variants are what this word names. You carry two copies of most genes, one on each chromosome of a pair, and the two copies can be the same variant or different ones. If they are the same you are homozygous for that gene; if they differ you are heterozygous, and one variant may mask the other. Keep the levels apart: a chromosome is a whole packaged length of DNA, a gene is one instruction on it, and these are the alternative forms that instruction can take.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0049",
+   "topicId": "sci-genetics-y10",
+   "stem": "What does 'heterozygous' mean?",
+   "imageRef": null,
+   "options": [
+    "Carrying two different alleles",
+    "Carrying two identical alleles",
+    "Carrying only one chromosome",
+    "Carrying no working alleles"
+   ],
+   "correctIndex": 0,
+   "explanation": "Heterozygous means the two alleles differ, so a dominant one will mask a recessive one. Homozygous is the matching-pair case, and the two words are easily swapped.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "The prefix does the work. \"Homo\" means same and \"hetero\" means different, exactly as in other English words built from the same roots.\n\nYou inherit two copies of each gene, one from each parent, and they may be the same variant or different variants. One of those two words describes the matching case and the other the mismatched case. The mismatched case is where dominance shows up: if one variant masks the other, only the masking one appears, while the hidden one is still carried and can still be passed to a child. That is why two parents who both show a trait can have a child who does not, and why carriers of a recessive condition show no sign of it.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0050",
+   "topicId": "sci-genetics-y10",
+   "stem": "Which parent's gamete determines a child's sex chromosomes?",
+   "imageRef": null,
+   "options": [
+    "The sperm, carrying an X or a Y",
+    "The egg, carrying an X or a Y",
+    "Both equally, by combining",
+    "Neither; it is set after birth"
+   ],
+   "correctIndex": 0,
+   "explanation": "Eggs always carry an X, while sperm carry either an X or a Y, so the sperm decides the pairing. This is why the historical blaming of mothers for a child's sex had the biology backwards.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "Humans have 23 pairs of chromosomes, and one pair differs between the sexes. Typically that pair is XX or XY.\n\nNow think about what each parent can contribute. A person with two X chromosomes can only pass on an X, whatever happens \u2014 every one of their gametes carries the same type. A person with an X and a Y passes on one or the other, roughly half and half. So the pairing that results depends entirely on which of the two that second parent happens to contribute. This is worth knowing beyond the exam: historically, women were often blamed for not producing a male heir, and the biology says the opposite.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "sci-genetics-y10-0051",
+   "topicId": "sci-genetics-y10",
+   "stem": "What is a mutation?",
+   "imageRef": null,
+   "options": [
+    "A change in body temperature",
+    "A change in the DNA sequence",
+    "A change in an organism's habits",
+    "A change in the number of cells"
+   ],
+   "correctIndex": 1,
+   "explanation": "A mutation alters the DNA itself, so it can be inherited. Changes in habits or condition during a lifetime are not written into DNA and are not passed on.",
+   "difficulty": 1,
+   "tier": "core",
+   "teaching": "DNA is a long coded message, and copying it billions of times is not a flawless process. Occasionally a letter is swapped, dropped or duplicated. Radiation and certain chemicals push the rate up.\n\nWhat decides whether it matters for evolution is where it happens. An alteration inside a cell that goes on to make eggs or sperm can be inherited; damage to a skin cell cannot, and dies with that cell. Most alterations do nothing measurable at all, some are harmful, and a very small number turn out to be useful. Nothing in the process aims at usefulness \u2014 the alterations arrive at random, and the environment does the sorting afterwards.",
+   "generationBatch": "sci-genetics-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}
