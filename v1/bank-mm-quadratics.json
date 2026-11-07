@@ -874,6 +874,272 @@
    "generationBatch": "mm-quadratics-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0047",
+   "topicId": "mm-quadratics",
+   "stem": "Using the substitution u = x\u00b2, solve x\u2074 \u2212 13x\u00b2 + 36 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = \u00b14 or x = \u00b19",
+    "x = \u00b12 or x = \u00b13",
+    "x = 4 or x = 9",
+    "x = 2 or x = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "With u = x\u00b2 the equation becomes u\u00b2 \u2212 13u + 36 = 0, so (u \u2212 4)(u \u2212 9) = 0 and u = 4 or 9. Then x\u00b2 = 4 or x\u00b2 = 9, giving x = \u00b12 or \u00b13. Stopping at u = 4 or 9 forgets to undo the substitution, and taking only positive roots loses half the solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0048",
+   "topicId": "mm-quadratics",
+   "stem": "Solve x\u2074 \u2212 3x\u00b2 \u2212 4 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = \u00b12 or x = \u00b11",
+    "x = 4 or x = \u22121",
+    "x = 2 or x = \u22121",
+    "x = \u00b12 only"
+   ],
+   "correctIndex": 3,
+   "explanation": "Let u = x\u00b2: u\u00b2 \u2212 3u \u2212 4 = (u \u2212 4)(u + 1) = 0, so u = 4 or u = \u22121. Then x\u00b2 = 4 gives x = \u00b12, but x\u00b2 = \u22121 has no real solution because a square cannot be negative, so it is rejected. Turning x\u00b2 = \u22121 into x = \u00b11 is the trap: (\u00b11)\u00b2 is 1, not \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0049",
+   "topicId": "mm-quadratics",
+   "stem": "Using u = 3^x, solve 9^x \u2212 4(3^x) + 3 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 1 only",
+    "x = 3 or x = 9",
+    "x = 0 or x = 1",
+    "x = 1 or x = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since 9^x = (3^x)\u00b2 = u\u00b2, the equation is u\u00b2 \u2212 4u + 3 = 0, so u = 1 or u = 3. Then 3^x = 1 gives x = 0 and 3^x = 3 gives x = 1. Writing x = 1 or 3 reports the values of u instead of x, and 3\u2070 = 1 is why x = 0 must be included.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0050",
+   "topicId": "mm-quadratics",
+   "stem": "Solve 4^x \u2212 2^x \u2212 2 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 2 only",
+    "x = 1 only",
+    "x = 1 or x = \u22121",
+    "x = 2 or x = \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "Let u = 2^x, so 4^x = u\u00b2 and u\u00b2 \u2212 u \u2212 2 = (u \u2212 2)(u + 1) = 0. Then 2^x = 2 gives x = 1, while 2^x = \u22121 is impossible because a positive base raised to any power is positive, so it is rejected. Answers containing 2 or \u22121 report values of u, not x.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0051",
+   "topicId": "mm-quadratics",
+   "stem": "Solve x + 6/x = 5, where x \u2260 0.",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 or x = \u22123",
+    "x = 1 or x = 6",
+    "x = \u22121 or x = 6",
+    "x = 2 or x = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply every term by x: x\u00b2 + 6 = 5x, so x\u00b2 \u2212 5x + 6 = 0 and (x \u2212 2)(x \u2212 3) = 0. Check: 2 + 3 = 5 and 3 + 2 = 5. The pair 1 and 6 multiply to 6 but give 1 + 6 = 7, and \u22122 and \u22123 come from a sign slip when factorising.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0052",
+   "topicId": "mm-quadratics",
+   "stem": "Solve 2x\u00b3 \u2212 3 = 51.",
+   "imageRef": null,
+   "options": [
+    "3",
+    "9",
+    "27",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add 3 to get 2x\u00b3 = 54, divide by 2 to get x\u00b3 = 27, then take the cube root: x = 3, since 3 \u00d7 3 \u00d7 3 = 27. Stopping at 27 forgets the cube root, and 9 comes from dividing by 3 instead of taking a cube root. Subtracting 3 instead of adding gives x\u00b3 = 24.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0053",
+   "topicId": "mm-quadratics",
+   "stem": "Solve x\u00b3 + 64 = 0.",
+   "imageRef": null,
+   "options": [
+    "\u00b14",
+    "\u22128",
+    "\u22124",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtract 64 to get x\u00b3 = \u221264, and since (\u22124) \u00d7 (\u22124) \u00d7 (\u22124) = \u221264, x = \u22124. Unlike a square root, a cube root of a negative number exists and is negative, and there is only one real answer, so \u00b14 is wrong: 4\u00b3 is +64. The \u22128 comes from taking a square root, since 8\u00b2 = 64.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0054",
+   "topicId": "mm-quadratics",
+   "stem": "A cube-shaped box has a volume of 343 cm\u00b3. How long is each edge?",
+   "imageRef": null,
+   "options": [
+    "49 cm",
+    "7 cm",
+    "114.3 cm",
+    "18.5 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The volume of a cube is s\u00b3, so s\u00b3 = 343 and s = \u221b343 = 7 cm, because 7 \u00d7 7 \u00d7 7 = 343. Dividing by 3 gives 114.3, and 18.5 is the square root of 343 rather than the cube root. The 49 cm is 7\u00b2, the area of one face in cm\u00b2, not an edge length.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0055",
+   "topicId": "mm-quadratics",
+   "stem": "Solve x\u00b2 \u2212 4x + 1 = 0, giving exact answers.",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 \u00b1 \u221a3",
+    "x = 2 \u00b1 2\u221a3",
+    "x = 4 \u00b1 2\u221a3",
+    "x = 2 \u00b1 \u221a3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The quadratic formula gives x = (4 \u00b1 \u221a(16 \u2212 4)) \u00f7 2 = (4 \u00b1 \u221a12) \u00f7 2. Since \u221a12 = 2\u221a3, this is (4 \u00b1 2\u221a3) \u00f7 2 = 2 \u00b1 \u221a3. Dividing only the 4 by 2 leaves 2 \u00b1 2\u221a3, and \u22122 comes from forgetting that \u2212b is +4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0056",
+   "topicId": "mm-quadratics",
+   "stem": "A quadratic with rational coefficients has one root 3 + \u221a5. What is the other root?",
+   "imageRef": null,
+   "options": [
+    "3 \u2212 \u221a5",
+    "\u22123 \u2212 \u221a5",
+    "\u22123 + \u221a5",
+    "5 + \u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The quadratic formula produces roots of the form \u2212b/(2a) \u00b1 \u221a(\u0394)/(2a), so irrational roots come in conjugate pairs that differ only in the sign of the surd. The partner of 3 + \u221a5 is therefore 3 \u2212 \u221a5. Any other partner leaves a surd in the sum or the product of the two roots, so the coefficients could not all be rational.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0057",
+   "topicId": "mm-quadratics",
+   "stem": "A parabola has x-intercepts 1 + \u221a7 and 1 \u2212 \u221a7. What is its axis of symmetry?",
+   "imageRef": null,
+   "options": [
+    "x = 1",
+    "x = \u221a7",
+    "y = 1",
+    "x = \u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "The axis of symmetry lies halfway between the x-intercepts: (1 + \u221a7 + 1 \u2212 \u221a7) \u00f7 2 = 2 \u00f7 2 = 1, so it is x = 1. The surd parts cancel, which is why conjugate roots always sit symmetrically about the axis. A vertical axis has an equation of the form x = constant, never y = constant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0058",
+   "topicId": "mm-quadratics",
+   "stem": "The discriminant of 2x\u00b2 + 5x \u2212 3 = 0 is 49. What does this tell you about its roots?",
+   "imageRef": null,
+   "options": [
+    "Two different irrational roots",
+    "One repeated rational root",
+    "No real roots at all",
+    "Two different rational roots"
+   ],
+   "correctIndex": 3,
+   "explanation": "A positive discriminant means two different real roots, and because 49 = 7\u00b2 is a perfect square, \u221a49 is a whole number and the roots are rational: (\u22125 \u00b1 7) \u00f7 4 gives 1/2 and \u22123. Irrational roots happen only when a positive discriminant is not a perfect square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0059",
+   "topicId": "mm-quadratics",
+   "stem": "Which quadratic equation has two irrational roots?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 6x + 9 = 0",
+    "x\u00b2 \u2212 6x + 10 = 0",
+    "x\u00b2 \u2212 6x + 7 = 0",
+    "x\u00b2 \u2212 6x + 8 = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The discriminants are 36 \u2212 28 = 8, 36 \u2212 32 = 4, 36 \u2212 36 = 0 and 36 \u2212 40 = \u22124. Only 8 is positive and not a perfect square, so only x\u00b2 \u2212 6x + 7 = 0 has two irrational roots, 3 \u00b1 \u221a2. A discriminant of 4 gives rational roots, 0 gives one repeated root and \u22124 gives none.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-quadratics-0060",
+   "topicId": "mm-quadratics",
+   "stem": "A parabola opens downwards, has a negative y-intercept and does not cross the x-axis. Which equation could it be?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x\u00b2 + 2x + 5",
+    "y = \u2212x\u00b2 + 2x \u2212 5",
+    "y = \u2212x\u00b2 + 6x \u2212 5",
+    "y = x\u00b2 + 2x + 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Opening downwards needs a < 0, a negative y-intercept needs c < 0, and no x-intercepts needs b\u00b2 \u2212 4ac < 0. For y = \u2212x\u00b2 + 2x \u2212 5 the discriminant is 4 \u2212 20 = \u221216, so all three hold. y = \u2212x\u00b2 + 6x \u2212 5 has discriminant 36 \u2212 20 = 16, so it does cross the axis, at x = 1 and x = 5.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-quadratics-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

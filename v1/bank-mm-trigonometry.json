@@ -798,6 +798,158 @@
    "generationBatch": "mm-trigonometry-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0043",
+   "topicId": "mm-trigonometry",
+   "stem": "sin \u03b8 = 0.6 and \u03b8 is obtuse. What is \u03b8, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "143.1\u00b0",
+    "126.9\u00b0",
+    "36.9\u00b0",
+    "216.9\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The calculator gives sin\u207b\u00b9 0.6 \u2248 36.9\u00b0, which is the acute answer. Because sin(180\u00b0 \u2212 \u03b8) = sin \u03b8, the obtuse angle with the same sine is 180\u00b0 \u2212 36.9\u00b0 = 143.1\u00b0. Adding 90\u00b0 gives 126.9\u00b0, whose sine is about 0.8, and 216.9\u00b0 is more than 180\u00b0, so it cannot be an angle of a triangle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0044",
+   "topicId": "mm-trigonometry",
+   "stem": "For any angle \u03b8, cos(180\u00b0 \u2212 \u03b8) is equal to:",
+   "imageRef": null,
+   "options": [
+    "cos \u03b8",
+    "sin \u03b8",
+    "\u2212sin \u03b8",
+    "\u2212cos \u03b8"
+   ],
+   "correctIndex": 3,
+   "explanation": "An obtuse angle has a negative cosine, and its size matches the cosine of its supplement: for example cos 120\u00b0 = \u22120.5 and cos 60\u00b0 = 0.5. Sine is the ratio that stays the same, since sin(180\u00b0 \u2212 \u03b8) = sin \u03b8. This is why the cosine rule gives a negative value when the angle is obtuse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0045",
+   "topicId": "mm-trigonometry",
+   "stem": "In triangle ABC, a = 7 cm, b = 10 cm and A = 30\u00b0. How many triangles fit this information?",
+   "imageRef": null,
+   "options": [
+    "Two: B \u2248 45.6\u00b0 or B \u2248 134.4\u00b0",
+    "One: B \u2248 45.6\u00b0 only",
+    "One: B \u2248 134.4\u00b0 only",
+    "None: sin B is more than 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sine rule gives sin B = 10 \u00d7 sin 30\u00b0 \u00f7 7 = 5/7 \u2248 0.714, so B \u2248 45.6\u00b0 or B \u2248 180\u00b0 \u2212 45.6\u00b0 = 134.4\u00b0. Both work, because 30\u00b0 + 134.4\u00b0 = 164.4\u00b0 still leaves room for angle C. Taking only the calculator answer misses the second triangle \u2014 this is the ambiguous case.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0046",
+   "topicId": "mm-trigonometry",
+   "stem": "In triangle ABC, a = 12 cm, b = 8 cm and A = 70\u00b0. The sine rule gives B \u2248 38.8\u00b0. Why is there no second, obtuse value for B?",
+   "imageRef": null,
+   "options": [
+    "The sine rule can never produce an obtuse angle",
+    "Side a is shorter than side b, so B is fixed",
+    "The sine of any obtuse angle is negative",
+    "The obtuse value plus 70\u00b0 would be more than 180\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The obtuse partner would be 180\u00b0 \u2212 38.8\u00b0 = 141.2\u00b0, and 141.2\u00b0 + 70\u00b0 = 211.2\u00b0, which is impossible in a triangle. The sine of an obtuse angle is positive, not negative \u2014 that is exactly why the ambiguous case can arise at all. Here side a is the longer side, which is why only one triangle fits.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0047",
+   "topicId": "mm-trigonometry",
+   "stem": "A triangle has sides 4 cm, 5 cm and 8 cm. Find its largest angle, to the nearest degree.",
+   "imageRef": null,
+   "options": [
+    "125\u00b0",
+    "55\u00b0",
+    "145\u00b0",
+    "35\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The largest angle is opposite the 8 cm side: cos C = (4\u00b2 + 5\u00b2 \u2212 8\u00b2) \u00f7 (2 \u00d7 4 \u00d7 5) = \u221223/40 = \u22120.575, so C \u2248 125\u00b0. The negative cosine is what tells you the angle is obtuse. Dropping the minus sign gives cos C = 0.575 and 55\u00b0, which cannot be the largest angle since the other two would then add to 125\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0048",
+   "topicId": "mm-trigonometry",
+   "stem": "A line has gradient \u2212\u221a3. What angle does it make with the positive direction of the x-axis?",
+   "imageRef": null,
+   "options": [
+    "150\u00b0",
+    "120\u00b0",
+    "60\u00b0",
+    "\u221260\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The angle of inclination \u03b8 satisfies m = tan \u03b8, measured anticlockwise from the positive x-axis, between 0\u00b0 and 180\u00b0. Since tan 60\u00b0 = \u221a3, a negative gradient means \u03b8 = 180\u00b0 \u2212 60\u00b0 = 120\u00b0. The calculator gives \u221260\u00b0, but that is outside the range used for inclination, and tan 150\u00b0 is \u22121/\u221a3, not \u2212\u221a3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0049",
+   "topicId": "mm-trigonometry",
+   "stem": "Which of these is equal to cos 25\u00b0?",
+   "imageRef": null,
+   "options": [
+    "sin 155\u00b0",
+    "sin 65\u00b0",
+    "sin 25\u00b0",
+    "cos 65\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a right-angled triangle the two acute angles add to 90\u00b0, and the side adjacent to one is opposite the other, so cos \u03b8 = sin(90\u00b0 \u2212 \u03b8). With \u03b8 = 25\u00b0, cos 25\u00b0 = sin 65\u00b0. The value sin 155\u00b0 equals sin 25\u00b0, about 0.42, while cos 25\u00b0 is about 0.91.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-trigonometry-0050",
+   "topicId": "mm-trigonometry",
+   "stem": "A ship sails 8 km from port on a bearing of 060\u00b0, then 5 km on a bearing of 180\u00b0. How far is it from port?",
+   "imageRef": null,
+   "options": [
+    "9.4 km",
+    "11.4 km",
+    "13 km",
+    "7 km"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the turning point the bearing back to port is 240\u00b0 and the new course is 180\u00b0, so the angle between the two legs is 60\u00b0. The cosine rule gives d\u00b2 = 8\u00b2 + 5\u00b2 \u2212 2 \u00d7 8 \u00d7 5 \u00d7 cos 60\u00b0 = 89 \u2212 40 = 49, so d = 7 km. Using Pythagoras assumes a right angle and gives 9.4 km; using 120\u00b0 gives 11.4 km.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-trigonometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

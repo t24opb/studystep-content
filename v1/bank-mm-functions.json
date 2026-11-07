@@ -1,0 +1,461 @@
+{
+ "topicId": "mm-functions",
+ "questions": [
+  {
+   "id": "mm-functions-0001",
+   "topicId": "mm-functions",
+   "stem": "Which set of ordered pairs describes a function?",
+   "imageRef": null,
+   "options": [
+    "(1, 4), (2, 4), (3, 5)",
+    "(1, 4), (1, 5), (2, 6)",
+    "(2, 3), (4, 5), (2, 7)",
+    "(0, 1), (3, 2), (0, 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A relation is a function when each x-value is paired with exactly one y-value. In the correct set the y-value 4 appears twice, but that is allowed \u2014 two inputs may share an output. Each of the other sets repeats an x-value with two different y-values, so it is not a function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0002",
+   "topicId": "mm-functions",
+   "stem": "A vertical line drawn at x = 3 cuts a graph at two points. What does this tell you?",
+   "imageRef": null,
+   "options": [
+    "The relation is a many-to-one function",
+    "The relation has two x-intercepts",
+    "The relation is a one-to-one function",
+    "The relation is not a function"
+   ],
+   "correctIndex": 3,
+   "explanation": "Two points on the same vertical line share the x-value 3 but have different y-values, so one input has two outputs and the relation fails the vertical line test. It is tempting to think of x-intercepts, but those are where a graph meets the x-axis, which a vertical line cannot show.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0003",
+   "topicId": "mm-functions",
+   "stem": "Which type of relation is y = x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "Many-to-one",
+    "One-to-one",
+    "One-to-many",
+    "Many-to-many"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each x-value gives exactly one y-value, but different x-values can give the same y-value: x = 2 and x = \u22122 both give y = 4. That makes it many-to-one, which is still a function. It is not one-to-one because a horizontal line such as y = 4 cuts the parabola twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0004",
+   "topicId": "mm-functions",
+   "stem": "Which of these relations is one-to-many?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b3",
+    "x = y\u00b2",
+    "y = x\u00b2",
+    "y = 2x + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "In x = y\u00b2, the input x = 9 gives y = 3 and y = \u22123, so one x-value is paired with two y-values; each y-value still gives just one x-value. The relation y = x\u00b2 is the reverse, many-to-one. Both y = 2x + 1 and y = x\u00b3 are one-to-one, because every horizontal and every vertical line meets them once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0005",
+   "topicId": "mm-functions",
+   "stem": "If f(x) = 3x \u2212 5, what is f(4)?",
+   "imageRef": null,
+   "options": [
+    "17",
+    "3",
+    "12",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(4) means replace every x with 4: 3 \u00d7 4 \u2212 5 = 12 \u2212 5 = 7. The answer 3 comes from solving 3x \u2212 5 = 4 instead, which treats f(4) as the output rather than the input. Forgetting to subtract the 5 leaves 12.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0006",
+   "topicId": "mm-functions",
+   "stem": "If f(x) = 2x\u00b2 \u2212 x, what is f(\u22123)?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "15",
+    "39",
+    "\u221215"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute with brackets: 2(\u22123)\u00b2 \u2212 (\u22123) = 2 \u00d7 9 + 3 = 21. Losing the double negative gives 18 \u2212 3 = 15, and squaring the whole of 2x gives 36 + 3 = 39. Writing the bracket around \u22123 before squaring prevents the \u22129 slip that leads to \u221215.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0007",
+   "topicId": "mm-functions",
+   "stem": "What is the domain of y = \u221ax?",
+   "imageRef": null,
+   "options": [
+    "x \u2264 0",
+    "x \u2265 0",
+    "x > 0",
+    "All real numbers"
+   ],
+   "correctIndex": 1,
+   "explanation": "The square root of a negative number is not a real number, so x cannot be negative. Zero is allowed because \u221a0 = 0, which is why the domain is x \u2265 0 rather than x > 0. The graph starts at the origin and runs to the right.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0008",
+   "topicId": "mm-functions",
+   "stem": "What is the range of y = x\u00b2 + 3?",
+   "imageRef": null,
+   "options": [
+    "All real numbers",
+    "y \u2265 3",
+    "y \u2265 0",
+    "y > 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since x\u00b2 is never negative, the smallest value of x\u00b2 + 3 is 3, reached when x = 0, and every larger value is reached too. The range y \u2265 0 belongs to y = x\u00b2 before the shift up by 3. Writing y > 3 leaves out the turning point (0, 3) itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0009",
+   "topicId": "mm-functions",
+   "stem": "What is the range of y = 1/x + 2?",
+   "imageRef": null,
+   "options": [
+    "All real numbers except 0",
+    "All real numbers except \u22122",
+    "All real numbers greater than 2",
+    "All real numbers except 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fraction 1/x can be any real number except 0, so 1/x + 2 can be any real number except 0 + 2 = 2, and y = 2 is the horizontal asymptote. Excluding 0 is the range of y = 1/x before the shift. Values below 2 do occur, from negative x, so the range is not just numbers greater than 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0010",
+   "topicId": "mm-functions",
+   "stem": "In which quadrants does the graph of y = \u22124/x lie?",
+   "imageRef": null,
+   "options": [
+    "The second and fourth",
+    "The first and third",
+    "The first and second",
+    "The third and fourth"
+   ],
+   "correctIndex": 0,
+   "explanation": "When k is negative in y = k/x, x and y always have opposite signs: a positive x gives a negative y, and a negative x gives a positive y. That places the branches in the second and fourth quadrants. The first and third quadrants hold the branches when k is positive, as in y = 4/x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0011",
+   "topicId": "mm-functions",
+   "stem": "What are the asymptotes of y = 3/(x + 1) \u2212 2?",
+   "imageRef": null,
+   "options": [
+    "x = 1 and y = \u22122",
+    "x = \u22121 and y = 2",
+    "x = 1 and y = 2",
+    "x = \u22121 and y = \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fraction is undefined when x + 1 = 0, so the vertical asymptote is x = \u22121, and the graph of y = 3/x has been moved down 2, so the horizontal asymptote is y = \u22122. Reading x = 1 from the bracket is the usual sign slip: (x + 1) means a shift one unit to the left.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0012",
+   "topicId": "mm-functions",
+   "stem": "What are the centre and radius of the circle (x \u2212 3)\u00b2 + (y + 2)\u00b2 = 16?",
+   "imageRef": null,
+   "options": [
+    "Centre (3, \u22122), radius 16",
+    "Centre (\u22123, 2), radius 16",
+    "Centre (3, \u22122), radius 4",
+    "Centre (\u22123, 2), radius 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Compare with (x \u2212 h)\u00b2 + (y \u2212 k)\u00b2 = r\u00b2: here h = 3, k = \u22122 and r\u00b2 = 16, so r = 4. Flipping both signs of the centre is a common slip, and so is reading 16 as the radius when it is the radius squared.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0013",
+   "topicId": "mm-functions",
+   "stem": "By completing the square, find the centre and radius of x\u00b2 + y\u00b2 + 4x \u2212 10y + 20 = 0.",
+   "imageRef": null,
+   "options": [
+    "Centre (2, \u22125), radius 3",
+    "Centre (\u22122, 5), radius 9",
+    "Centre (\u22124, 10), radius 3",
+    "Centre (\u22122, 5), radius 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Group and complete each square: (x + 2)\u00b2 \u2212 4 + (y \u2212 5)\u00b2 \u2212 25 + 20 = 0, so (x + 2)\u00b2 + (y \u2212 5)\u00b2 = 9, giving centre (\u22122, 5) and radius 3. Using the coefficients 4 and \u221210 without halving them gives (\u22124, 10), and 9 is the radius squared, not the radius.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0014",
+   "topicId": "mm-functions",
+   "stem": "For y = 2^x \u2212 3, what are the horizontal asymptote and the y-intercept?",
+   "imageRef": null,
+   "options": [
+    "y = 3 and (0, \u22122)",
+    "y = \u22123 and (0, \u22122)",
+    "y = \u22123 and (0, \u22123)",
+    "y = 0 and (0, \u22122)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtracting 3 moves the whole graph of y = 2^x down 3, so the asymptote y = 0 becomes y = \u22123. At x = 0, 2\u2070 = 1, so y = 1 \u2212 3 = \u22122. Taking 2\u2070 as 0 gives the wrong intercept (0, \u22123), which would put the graph on its own asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0015",
+   "topicId": "mm-functions",
+   "stem": "How is the graph of y = 3^(\u2212x) related to the graph of y = 3^x?",
+   "imageRef": null,
+   "options": [
+    "It is reflected in the y-axis",
+    "It is reflected in the x-axis",
+    "It is reflected in the line y = x",
+    "It is shifted 3 units to the left"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replacing x with \u2212x swaps every point (a, b) to (\u2212a, b), which is a reflection in the y-axis: the graph now falls from left to right but still passes through (0, 1). A reflection in the x-axis comes from y = \u2212(3^x) instead, which puts the graph below the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0016",
+   "topicId": "mm-functions",
+   "stem": "Which description fits the graph of y = \u2212(3^x)?",
+   "imageRef": null,
+   "options": [
+    "Below the x-axis, through (0, \u22121)",
+    "Above the x-axis, through (0, 1)",
+    "Below the x-axis, through (0, \u22123)",
+    "Below the x-axis, through (0, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every y-value of y = 3^x is made negative, so the graph is reflected in the x-axis and lies entirely below it. At x = 0, 3\u2070 = 1, so the y-intercept is \u22121, not \u22123. It approaches the x-axis as an asymptote but never reaches (0, 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0017",
+   "topicId": "mm-functions",
+   "stem": "Which equation has a circle as its graph?",
+   "imageRef": null,
+   "options": [
+    "y = 16/x",
+    "y = 16^x",
+    "x\u00b2 + y\u00b2 = 16",
+    "y = x\u00b2 + 16"
+   ],
+   "correctIndex": 2,
+   "explanation": "A circle centred at the origin has the form x\u00b2 + y\u00b2 = r\u00b2, with both variables squared and added; this one has radius 4. The equation y = x\u00b2 + 16 is a parabola, y = 16/x is a hyperbola and y = 16^x is an exponential curve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0018",
+   "topicId": "mm-functions",
+   "stem": "A graph passes through (0, 1), rises ever more steeply to the right and approaches the x-axis to the left. Which equation fits?",
+   "imageRef": null,
+   "options": [
+    "y = 4^x",
+    "y = 4x + 1",
+    "y = x\u00b2 + 1",
+    "y = x\u00b3 + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "All four pass through (0, 1), but only an exponential curve gets closer and closer to the x-axis on one side without reaching it. The line y = 4x + 1 rises at a constant rate, y = x\u00b2 + 1 rises on both sides, and y = x\u00b3 + 1 heads down without limit to the left.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0019",
+   "topicId": "mm-functions",
+   "stem": "The region 2x + 3y \u2264 12 is shaded. Which point lies in the shaded region?",
+   "imageRef": null,
+   "options": [
+    "(3, 3)",
+    "(6, 1)",
+    "(0, 5)",
+    "(1, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute each point into the left side: (1, 2) gives 2 + 6 = 8, which is at most 12. The others give 15, 15 and 15, all greater than 12, so they lie on the far side of the boundary. Substituting a test point is how you decide which side to shade.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0020",
+   "topicId": "mm-functions",
+   "stem": "On a number plane, how is the region x < \u22121 shown?",
+   "imageRef": null,
+   "options": [
+    "A dashed vertical line at x = \u22121, shaded to the left",
+    "A solid vertical line at x = \u22121, shaded to the left",
+    "A dashed horizontal line at y = \u22121, shaded below",
+    "A dashed vertical line at x = \u22121, shaded to the right"
+   ],
+   "correctIndex": 0,
+   "explanation": "All points with x = \u22121 lie on a vertical line, and the strict sign < means points on the line are not included, so it is dashed. Values of x less than \u22121 lie to the left. A solid line would only be correct for x \u2264 \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0021",
+   "topicId": "mm-functions",
+   "stem": "Which point lies in the region where both y \u2265 x and x + y < 4?",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 6)",
+    "(1, 2)",
+    "(2, 2)",
+    "(3, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "For (1, 2): 2 \u2265 1 and 1 + 2 = 3 < 4, so both hold. The point (2, 2) satisfies y \u2265 x but gives x + y = 4, which is not less than 4 \u2014 it sits on the dashed boundary. The point (3, 1) fails y \u2265 x, and (\u22121, 6) gives x + y = 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0022",
+   "topicId": "mm-functions",
+   "stem": "Where does the line y = x + 1 meet the parabola y = x\u00b2 \u2212 1?",
+   "imageRef": null,
+   "options": [
+    "(\u22122, \u22121) and (1, 2)",
+    "(2, 3) only",
+    "(1, 0) and (\u22121, 0)",
+    "(2, 3) and (\u22121, 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set the two expressions equal: x\u00b2 \u2212 1 = x + 1, so x\u00b2 \u2212 x \u2212 2 = 0, which factorises to (x \u2212 2)(x + 1) = 0. Then x = 2 gives y = 3 and x = \u22121 gives y = 0. Taking the roots as \u22122 and 1 is a sign slip, and those points are not on the parabola.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0023",
+   "topicId": "mm-functions",
+   "stem": "Where does the line y = x + 1 meet the circle x\u00b2 + y\u00b2 = 25?",
+   "imageRef": null,
+   "options": [
+    "(3, 4) and (\u22124, \u22123)",
+    "(4, 3) and (\u22123, \u22124)",
+    "(\u22123, \u22122) and (4, 5)",
+    "(0, 1) and (\u22121, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute y = x + 1: x\u00b2 + (x + 1)\u00b2 = 25, so 2x\u00b2 + 2x \u2212 24 = 0, or x\u00b2 + x \u2212 12 = 0, giving (x + 4)(x \u2212 3) = 0. Then x = 3 gives y = 4 and x = \u22124 gives y = \u22123. The points (4, 3) and (\u22123, \u22124) are on the circle but not on the line, since 3 \u2260 4 + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-functions-0024",
+   "topicId": "mm-functions",
+   "stem": "Which graph has rotational symmetry about the origin?",
+   "imageRef": null,
+   "options": [
+    "y = \u221ax",
+    "y = x\u00b3",
+    "y = x\u00b2",
+    "y = 2^x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Turning y = x\u00b3 through 180\u00b0 about the origin maps every point (a, b) to (\u2212a, \u2212b), which is also on the curve because (\u2212a)\u00b3 = \u2212a\u00b3. The parabola y = x\u00b2 has line symmetry about the y-axis instead, and neither y = 2^x nor y = \u221ax has any symmetry about the origin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-functions-states-20261101",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -2324,6 +2324,177 @@
    "generationBatch": "maths-algebra-y10-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0121",
+   "topicId": "maths-algebra-y10",
+   "stem": "$2000 is invested at 5% per annum, compounded annually. Working one year at a time, the balance after year 1 is $2100. What is the balance after year 3?",
+   "imageRef": null,
+   "options": [
+    "$2310.00",
+    "$2315.25",
+    "$2300.00",
+    "$2205.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each year's interest is 5% of the current balance: year 2 gives $2100 \u00d7 1.05 = $2205, and year 3 gives $2205 \u00d7 1.05 = $2315.25. The $2300.00 answer adds $100 every year, which is simple interest on the original $2000 only. Compound interest grows faster because each year earns interest on the previous years' interest too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0122",
+   "topicId": "maths-algebra-y10",
+   "stem": "A savings account pays 4.8% per annum, compounded monthly. What interest rate is applied each month?",
+   "imageRef": null,
+   "options": [
+    "0.4%",
+    "4.8%",
+    "1.2%",
+    "0.04%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The annual rate is shared across 12 compounding periods, so each month uses 4.8% \u00f7 12 = 0.4%. The 1.2% answer divides by 4, which is the rate per period for quarterly compounding, and 4.8% would apply the full yearly rate every month.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0123",
+   "topicId": "maths-algebra-y10",
+   "stem": "$5000 is invested at 6% per annum, compounded monthly, for 2 years. Which calculation gives the final amount?",
+   "imageRef": null,
+   "options": [
+    "5000 \u00d7 1.005\u00b2\u2074",
+    "5000 \u00d7 1.06\u00b2\u2074",
+    "5000 \u00d7 1.06\u00b2",
+    "5000 \u00d7 1.005\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Monthly compounding uses a rate of 6% \u00f7 12 = 0.5% per period, so the growth factor is 1.005, and 2 years contains 2 \u00d7 12 = 24 periods. Using 1.06 with 24 periods applies the yearly rate every month, which hugely overstates the growth. Using 1.005 with only 2 periods forgets to count the periods in months.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0124",
+   "topicId": "maths-algebra-y10",
+   "stem": "$8000 is invested at 4% per annum, compounded quarterly, for 3 years. What is the final amount, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$9014.60",
+    "$8998.91",
+    "$8960.00",
+    "$12 808.26"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rate per quarter is 4% \u00f7 4 = 1% and there are 3 \u00d7 4 = 12 quarters, so A = 8000 \u00d7 1.01\u00b9\u00b2 = $9014.60. The $8998.91 answer compounds only once a year, and $12 808.26 applies the full 4% in each of the 12 quarters. More frequent compounding gives slightly more than annual compounding at the same annual rate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0125",
+   "topicId": "maths-algebra-y10",
+   "stem": "$12 000 is invested at 5% per annum, compounded half-yearly, for 2 years. How much interest is earned?",
+   "imageRef": null,
+   "options": [
+    "$1245.75",
+    "$1200.00",
+    "$1230.00",
+    "$13 245.75"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rate per half-year is 2.5% and there are 4 periods, so A = 12 000 \u00d7 1.025\u2074 = $13 245.75, and the interest is A \u2212 P = $1245.75. The $13 245.75 answer is the final amount, not the interest, and $1230.00 compounds yearly instead of half-yearly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0126",
+   "topicId": "maths-algebra-y10",
+   "stem": "The values of a simple-interest investment and a compound-interest investment, with the same principal and the same annual rate, are graphed against time. Which description is correct?",
+   "imageRef": null,
+   "options": [
+    "Compound interest gives a straight line; simple interest gives a curve bending upwards",
+    "Both give curves that rise quickly at first and then level off as time goes on",
+    "Simple interest gives a straight line; compound interest gives a curve bending upwards",
+    "Both give straight lines, with the compound-interest line slightly steeper than the other"
+   ],
+   "correctIndex": 2,
+   "explanation": "Simple interest adds the same amount each year, so its graph is a straight line. Compound interest adds a larger amount each year because the balance keeps growing, so its graph curves upwards and moves further above the straight line over time. A straight compound-interest line would mean the yearly interest never grows.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0127",
+   "topicId": "maths-algebra-y10",
+   "stem": "A tractor bought for $85 000 depreciates by 15% of its value each year. What is its value after 3 years, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$129 274.38",
+    "$52 200.63",
+    "$46 750.00",
+    "$72 250.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reducing-balance depreciation multiplies by 1 \u2212 0.15 = 0.85 each year, so S = 85 000 \u00d7 0.85\u00b3 = $52 200.63. The $46 750.00 answer takes 15% of the original price off every year, which is straight-line depreciation. The $129 274.38 answer multiplies by 1.15, which describes growth instead of a loss in value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0128",
+   "topicId": "maths-algebra-y10",
+   "stem": "A laptop costs $2400 and depreciates by 25% of its value each year. What is the total depreciation after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$1200",
+    "$1350",
+    "$600",
+    "$1050"
+   ],
+   "correctIndex": 3,
+   "explanation": "Its value after 2 years is 2400 \u00d7 0.75\u00b2 = $1350, so it has lost $2400 \u2212 $1350 = $1050. The $1200 answer takes 25% of the original price twice, but the second year's loss is 25% of the reduced value of $1800. The $1350 answer is the value remaining, not the amount lost.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-y10-0129",
+   "topicId": "maths-algebra-y10",
+   "stem": "A car worth $40 000 depreciates by 20% of its value each year. After how many whole years does its value first fall below $15 000?",
+   "imageRef": null,
+   "options": [
+    "4 years",
+    "3 years",
+    "6 years",
+    "5 years"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying by 0.8 each year gives $32 000, $25 600, $20 480, $16 384 and then $13 107.20, so the value first drops below $15 000 after 5 years. The 4 years answer stops at $16 384, which is still above $15 000, and it is also what straight-line depreciation of $8000 a year would give.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

@@ -912,6 +912,139 @@
    "generationBatch": "mm-probability-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0049",
+   "topicId": "mm-probability",
+   "stem": "In how many different orders can 5 objects be arranged in a row if 3 of them are identical?",
+   "imageRef": null,
+   "options": [
+    "120",
+    "40",
+    "10",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "If all 5 were different there would be 5! = 120 orders, but swapping the 3 identical objects among themselves does not create a new arrangement. Each distinct arrangement is counted 3! = 6 times, so the answer is 120 \u00f7 6 = 20. Dividing by 3 instead of 3! gives 40.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0050",
+   "topicId": "mm-probability",
+   "stem": "How many different arrangements are there of the letters of the word LEVEL?",
+   "imageRef": null,
+   "options": [
+    "60",
+    "24",
+    "30",
+    "120"
+   ],
+   "correctIndex": 2,
+   "explanation": "LEVEL has 5 letters with two Ls and two Es, so divide 5! by 2! for the Ls and by 2! for the Es: 120 \u00f7 (2 \u00d7 2) = 30. Allowing for only one repeated letter gives 60, and 120 treats all five letters as different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0051",
+   "topicId": "mm-probability",
+   "stem": "How many subsets does a set with 4 elements have, including the empty set and the whole set?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "15",
+    "24",
+    "16"
+   ],
+   "correctIndex": 3,
+   "explanation": "For each element there are two choices \u2014 in the subset or out of it \u2014 so there are 2 \u00d7 2 \u00d7 2 \u00d7 2 = 2\u2074 = 16 subsets. The 15 leaves out the empty set, which the question includes, and 8 comes from 2 \u00d7 4 instead of 2\u2074.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0052",
+   "topicId": "mm-probability",
+   "stem": "A pizza shop offers 5 toppings, and a customer may choose any combination of them, including none. How many different pizzas are possible?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "120",
+    "31",
+    "32"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each topping is either on or off, so the number of combinations is 2\u2075 = 32, the number of subsets of a 5-element set. The 120 is 5!, which counts orders of adding toppings, and order does not change a pizza. The 31 forgets the plain pizza with no toppings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0053",
+   "topicId": "mm-probability",
+   "stem": "Two cards are drawn one after the other from a standard 52-card pack without replacement. How many ordered pairs of cards are possible?",
+   "imageRef": null,
+   "options": [
+    "2652",
+    "2704",
+    "1326",
+    "104"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are 52 choices for the first card and, since it is not replaced, 51 for the second, giving 52 \u00d7 51 = 2652 by the multiplication principle. The 2704 is 52\u00b2, which would be correct with replacement. The 1326 halves the count, which is right only if order does not matter.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0054",
+   "topicId": "mm-probability",
+   "stem": "A card is drawn from a standard pack, replaced, and a second card drawn. Ignoring suits, how many ordered pairs of ranks, such as a king then a 7, are possible?",
+   "imageRef": null,
+   "options": [
+    "2704",
+    "26",
+    "169",
+    "156"
+   ],
+   "correctIndex": 2,
+   "explanation": "With suits ignored there are 13 ranks, and replacing the card means all 13 are available again, so there are 13 \u00d7 13 = 169 ordered pairs. The 156 is 13 \u00d7 12, which wrongly excludes a repeated rank such as two kings. Adding 13 + 13 instead of multiplying gives 26.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-probability-0055",
+   "topicId": "mm-probability",
+   "stem": "The letters of LEVEL are arranged in a random order. What is the probability that the arrangement starts and ends with L?",
+   "imageRef": null,
+   "options": [
+    "1/20",
+    "1/10",
+    "4/25",
+    "2/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 5!/(2! \u00d7 2!) = 30 arrangements in all. With an L fixed at each end, the middle three letters E, V, E can be arranged in 3!/2! = 3 ways, so the probability is 3/30 = 1/10. Multiplying 2/5 by 2/5 treats the first L as if it were replaced and gives 4/25.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-probability-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

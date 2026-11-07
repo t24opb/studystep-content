@@ -1604,6 +1604,120 @@
    "generationBatch": "circuits-2026-08",
    "reviewStatus": "crossReviewed",
    "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0091",
+   "topicId": "circuits",
+   "stem": "What does a safety switch, or residual current device (RCD), do in a home?",
+   "imageRef": null,
+   "options": [
+    "Cuts the power within a fraction of a second if current leaks to earth",
+    "Melts a thin wire inside it whenever the current through it gets too high",
+    "Keeps the mains voltage steady when the demand for power rises",
+    "Stores energy so that the lights stay on during a blackout"
+   ],
+   "correctIndex": 0,
+   "explanation": "A safety switch cuts the power in about 30 milliseconds if it detects current leaking to earth, for example through a person who touches a live wire \u2014 fast enough to prevent electrocution in most cases. Melting a thin wire is how a fuse works, and fuses respond to too much current, not to leakage through a person.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0092",
+   "topicId": "circuits",
+   "stem": "How does a safety switch (RCD) detect that something is wrong?",
+   "imageRef": null,
+   "options": [
+    "It measures the supply voltage and trips if the voltage rises above 230 V",
+    "It senses the temperature of the wiring and trips when the wires get hot",
+    "It trips whenever the total current drawn goes above the safe rating of the circuit",
+    "It compares the current in the active and neutral wires and trips if they differ"
+   ],
+   "correctIndex": 3,
+   "explanation": "Normally all the current that flows out along the active wire returns along the neutral wire. If some current leaks to earth, perhaps through a person, the two no longer match and the switch trips. Tripping on too much total current is the job of a circuit breaker, not a safety switch.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0093",
+   "topicId": "circuits",
+   "stem": "What is the main advantage of a circuit breaker over a fuse?",
+   "imageRef": null,
+   "options": [
+    "A fuse works only in battery circuits, but a circuit breaker works on mains",
+    "A circuit breaker can be reset after it trips, but a fuse must be replaced",
+    "A fuse can be reset after it melts, but a circuit breaker must be replaced",
+    "A circuit breaker protects against shock, but a fuse protects nothing"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both cut the circuit when the current is too high. A fuse does it by melting, so it works only once, while a circuit breaker is a switch that trips and can be reset once the fault is fixed. Protecting people from shock through leakage is the job of a safety switch.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0094",
+   "topicId": "circuits",
+   "stem": "In modern Australian household wiring, which colour shows the earth wire?",
+   "imageRef": null,
+   "options": [
+    "Brown",
+    "Blue",
+    "Red",
+    "Green and yellow"
+   ],
+   "correctIndex": 3,
+   "explanation": "The earth wire is green and yellow, the active wire is brown and the neutral wire is blue. Older Australian wiring used red for active and black for neutral, so neither red nor black has ever marked the earth wire.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0095",
+   "topicId": "circuits",
+   "stem": "Some appliances, such as many hair dryers, have no earth wire because they are double insulated. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "The live parts are fully enclosed, so no exposed metal could ever become live",
+    "The power cord contains two active wires, so one can take over if the other fails",
+    "The appliance runs on half the mains voltage used by other appliances",
+    "The appliance contains two fuses, so it is protected twice against overloads"
+   ],
+   "correctIndex": 0,
+   "explanation": "A double-insulated appliance has a plastic case or extra insulation so that a fault cannot make any part you touch live, so an earth wire is not needed. It is marked with a symbol of one square inside another. It still runs on the normal mains voltage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "circuits-0096",
+   "topicId": "circuits",
+   "stem": "Why is touching a mains appliance or switch with wet hands so dangerous?",
+   "imageRef": null,
+   "options": [
+    "Water stores electric charge and then releases all of it at once in a single spark",
+    "Water raises the voltage of the mains supply where it touches the appliance",
+    "Water is a perfect conductor, so even a torch battery could cause a severe shock",
+    "Water on the skin lowers the body's resistance, so a much larger current can flow"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dry skin has a fairly high resistance, which limits the current through the body, but wet skin has a much lower resistance, so the same mains voltage drives a far larger and more dangerous current. Water does not change the supply voltage, and pure water is actually a poor conductor \u2014 it is the dissolved salts in tap water and sweat that let it conduct.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "circuits-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

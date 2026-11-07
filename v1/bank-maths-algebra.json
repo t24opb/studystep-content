@@ -509,7 +509,7 @@
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "maths-algebra-2026-08",
-   "reviewStatus": "crossReviewed",
+   "reviewStatus": "draft",
    "scope": "curriculum"
   },
   {
@@ -1084,7 +1084,7 @@
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "maths-algebra-2026-08",
-   "reviewStatus": "crossReviewed",
+   "reviewStatus": "draft",
    "scope": "curriculum"
   },
   {
@@ -1600,7 +1600,7 @@
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "maths-algebra-2026-08",
-   "reviewStatus": "crossReviewed",
+   "reviewStatus": "draft",
    "scope": "curriculum"
   },
   {
@@ -1772,6 +1772,196 @@
    "tier": "core",
    "generationBatch": "maths-algebra-2026-08",
    "reviewStatus": "crossReviewed",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0096",
+   "topicId": "maths-algebra",
+   "stem": "A travel graph shows distance from home against time. One straight section slopes downwards. What is happening during that section?",
+   "imageRef": null,
+   "options": [
+    "The person is walking downhill",
+    "The person is travelling back towards home",
+    "The person is slowing down but still moving away",
+    "The person has stopped for a rest"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph shows distance from home, so a falling line means that distance is getting smaller: the person is heading home. A rest would be a flat section, and the graph shows distance, not height, so it says nothing about hills.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0097",
+   "topicId": "maths-algebra",
+   "stem": "A travel graph shows a cyclist's distance from home rising in a straight line from 0 km at 9:00 am to 24 km at 11:00 am. What is her speed?",
+   "imageRef": null,
+   "options": [
+    "48 km/h",
+    "2.2 km/h",
+    "12 km/h",
+    "24 km/h"
+   ],
+   "correctIndex": 2,
+   "explanation": "Speed is distance \u00f7 time, and she covers 24 km in the 2 hours from 9:00 to 11:00, so her speed is 24 \u00f7 2 = 12 km/h. The 24 km/h answer treats the trip as taking one hour, and 2.2 km/h divides by the clock reading 11 instead of the time taken.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0098",
+   "topicId": "maths-algebra",
+   "stem": "A runner's distance-time graph is a straight line from 0 m at 0 seconds to 150 m at 30 seconds. What is the runner's speed?",
+   "imageRef": null,
+   "options": [
+    "4500 m/s",
+    "5 m/s",
+    "0.2 m/s",
+    "120 m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient of a distance-time graph is the speed: 150 m \u00f7 30 s = 5 m/s. The 0.2 m/s answer divides time by distance, which is upside down, and 120 m/s subtracts the numbers instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0099",
+   "topicId": "maths-algebra",
+   "stem": "A travel graph shows Josh's distance from home: 0 km at 8:00 am, rising to 15 km at 8:30 am, then flat until 9:15 am, then falling back to 0 km at 10:00 am. How long did Josh stop for?",
+   "imageRef": null,
+   "options": [
+    "30 minutes",
+    "1 hour 15 minutes",
+    "2 hours",
+    "45 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The flat section, where the distance does not change, runs from 8:30 am to 9:15 am, which is 45 minutes. The 1 hour 15 minutes answer measures from the very start at 8:00 am, which includes the 30 minutes spent travelling out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0100",
+   "topicId": "maths-algebra",
+   "stem": "A travel graph shows Josh 15 km from home at 9:15 am, with a straight line falling to 0 km at 10:00 am. What was his speed on the way home?",
+   "imageRef": null,
+   "options": [
+    "20 km/h",
+    "30 km/h",
+    "15 km/h",
+    "11.25 km/h"
+   ],
+   "correctIndex": 0,
+   "explanation": "He travels 15 km in 45 minutes, which is 0.75 hours, so his speed is 15 \u00f7 0.75 = 20 km/h. The 15 km/h answer assumes the trip took a full hour, and 11.25 km/h multiplies 15 by 0.75 instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0101",
+   "topicId": "maths-algebra",
+   "stem": "Mia walks 3 km from home to a park, rests, then walks the same 3 km back home. Her travel graph ends at a distance of 0 km. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "She travelled 0 km and ended 0 km from home",
+    "She travelled 6 km and ended 6 km from home",
+    "She travelled 6 km and ended 0 km from home",
+    "She travelled 3 km and ended 0 km from home"
+   ],
+   "correctIndex": 2,
+   "explanation": "The total distance travelled adds both trips, 3 + 3 = 6 km, but because she finished where she started, her final distance from home is 0 km. A graph ending at 0 shows where she ended up, not how far she walked.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0102",
+   "topicId": "maths-algebra",
+   "stem": "On a distance-time graph, one section is curved and gets steeper and steeper as time goes on. What is happening to the object?",
+   "imageRef": null,
+   "options": [
+    "It is moving at a steady speed",
+    "It is moving back towards the start",
+    "It is speeding up",
+    "It is slowing down"
+   ],
+   "correctIndex": 2,
+   "explanation": "Steepness shows speed, so a section that keeps getting steeper shows the speed increasing. A straight section would show a steady speed, and a curve that flattens out would show the object slowing down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0103",
+   "topicId": "maths-algebra",
+   "stem": "Ava leaves home at 9:00 am walking at 5 km/h. Her brother leaves home at 9:30 am along the same path, cycling at 15 km/h. Where their lines cross on a travel graph, he catches up. When and where does this happen?",
+   "imageRef": null,
+   "options": [
+    "At 9:45 am, 3.75 km from home",
+    "At 10:00 am, 5 km from home",
+    "At 9:45 am, 11.25 km from home",
+    "At 9:30 am, 2.5 km from home"
+   ],
+   "correctIndex": 0,
+   "explanation": "By 9:30 am Ava is 2.5 km ahead, and her brother closes the gap at 15 \u2212 5 = 10 km/h, so he needs 2.5 \u00f7 10 = 0.25 hours, catching her at 9:45 am. By then Ava has walked 5 \u00d7 0.75 = 3.75 km. The 11.25 km answer uses 45 minutes of cycling, but he only rode for 15 minutes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0104",
+   "topicId": "maths-algebra",
+   "stem": "A conversion graph is a straight line through (0 km, 0 miles) and (80 km, 50 miles). Using the graph, how many kilometres is 30 miles?",
+   "imageRef": null,
+   "options": [
+    "80 km",
+    "48 km",
+    "18.75 km",
+    "30 km"
+   ],
+   "correctIndex": 1,
+   "explanation": "From the graph, 50 miles = 80 km, so 1 mile = 1.6 km and 30 miles = 30 \u00d7 1.6 = 48 km. The 18.75 km answer converts the wrong way, turning 30 km into miles. A mile is longer than a kilometre, so the number of kilometres must be bigger than 30.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-algebra-0105",
+   "topicId": "maths-algebra",
+   "stem": "A graph of a seedling's height against time rises quickly at first, then rises more and more slowly. How is this best described?",
+   "imageRef": null,
+   "options": [
+    "Increasing at an increasing rate",
+    "Increasing at a constant rate",
+    "Increasing at a decreasing rate",
+    "Decreasing at an increasing rate"
+   ],
+   "correctIndex": 2,
+   "explanation": "The height keeps going up, so it is increasing, but the graph gets flatter, so the rate of growth is getting smaller. Increasing at an increasing rate would mean the graph gets steeper over time, the opposite of this shape.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-algebra-2026-08",
+   "reviewStatus": "doubleChecked",
    "scope": "curriculum"
   },
   {

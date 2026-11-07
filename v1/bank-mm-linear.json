@@ -874,6 +874,196 @@
    "generationBatch": "mm-linear-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0047",
+   "topicId": "mm-linear",
+   "stem": "Write y = 2x \u2212 3 in the general form ax + by + c = 0.",
+   "imageRef": null,
+   "options": [
+    "2x + y \u2212 3 = 0",
+    "2x \u2212 y + 3 = 0",
+    "x \u2212 2y \u2212 3 = 0",
+    "2x \u2212 y \u2212 3 = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Move every term to one side: subtracting y from both sides of y = 2x \u2212 3 gives 0 = 2x \u2212 y \u2212 3. Rearranging 2x \u2212 y + 3 = 0 back gives y = 2x + 3, so its intercept has the wrong sign. Checking by rearranging your answer into y = mx + c catches these slips.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0048",
+   "topicId": "mm-linear",
+   "stem": "What is the gradient of the line 3x + 4y \u2212 12 = 0?",
+   "imageRef": null,
+   "options": [
+    "\u22123/4",
+    "3/4",
+    "\u22124/3",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearrange: 4y = \u22123x + 12, so y = \u2212(3/4)x + 3 and the gradient is \u22123/4. Quoting 3/4 forgets that moving 3x across the equals sign makes it negative, and \u22124/3 divides the wrong way. For ax + by + c = 0 the gradient is always \u2212a/b.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0049",
+   "topicId": "mm-linear",
+   "stem": "Which equation is the point-gradient form of the line with gradient 4 through (\u22121, 6)?",
+   "imageRef": null,
+   "options": [
+    "y + 6 = 4(x \u2212 1)",
+    "y \u2212 6 = 4(x \u2212 1)",
+    "y + 1 = 4(x \u2212 6)",
+    "y \u2212 6 = 4(x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The form is y \u2212 y\u2081 = m(x \u2212 x\u2081), so substitute x\u2081 = \u22121 and y\u2081 = 6: y \u2212 6 = 4(x \u2212 (\u22121)) = 4(x + 1). Writing x \u2212 1 forgets that subtracting \u22121 means adding 1. Swapping the coordinates puts 6 with x, which describes a line through (6, \u22121) instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0050",
+   "topicId": "mm-linear",
+   "stem": "Find the equation of the line through (1, 2) and (3, 8).",
+   "imageRef": null,
+   "options": [
+    "y = (1/3)x + 5/3",
+    "y = 3x + 2",
+    "y = 3x \u2212 1",
+    "y = 3x + 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient is (8 \u2212 2) \u00f7 (3 \u2212 1) = 3. Then y \u2212 2 = 3(x \u2212 1) gives y = 3x \u2212 1, and (3, 8) checks: 9 \u2212 1 = 8. Using run over rise gives a gradient of 1/3, and taking the y-coordinate 2 as the intercept forgets that (1, 2) is not on the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0051",
+   "topicId": "mm-linear",
+   "stem": "Three points are collinear when the gradients between them are equal. Which point is collinear with A(0, 1) and B(2, 5)?",
+   "imageRef": null,
+   "options": [
+    "(4, 10)",
+    "(1, 2)",
+    "(3, 8)",
+    "(4, 9)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The gradient of AB is (5 \u2212 1) \u00f7 2 = 2, and from B to (4, 9) it is (9 \u2212 5) \u00f7 2 = 2, so all three lie on y = 2x + 1. Doubling both coordinates of B gives (4, 10), but that only works for lines through the origin. The point (1, 2) fits y = 2x and ignores the intercept of 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0052",
+   "topicId": "mm-linear",
+   "stem": "Triangle PQR has vertices P(1, 1), Q(4, 3) and R(2, 6). Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It is right-angled at Q and isosceles",
+    "It is right-angled at Q but not isosceles",
+    "It is isosceles but not right-angled",
+    "It is right-angled at P and isosceles"
+   ],
+   "correctIndex": 0,
+   "explanation": "The gradient of PQ is 2/3 and of QR is 3/(\u22122) = \u22123/2; their product is \u22121, so PQ is perpendicular to QR and the right angle is at Q. The lengths PQ = \u221a(9 + 4) = \u221a13 and QR = \u221a(4 + 9) = \u221a13 are equal, so it is isosceles as well. Stopping after the gradients misses the equal sides.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0053",
+   "topicId": "mm-linear",
+   "stem": "Find the equation of the perpendicular bisector of the interval from A(2, 1) to B(6, 5).",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x + 11",
+    "y = \u2212x + 3",
+    "y = \u2212x + 7",
+    "y = x \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint is (4, 3) and the gradient of AB is 4 \u00f7 4 = 1, so the perpendicular gradient is \u22121. Then y \u2212 3 = \u2212(x \u2212 4) gives y = \u2212x + 7. Using the point A or B instead of the midpoint gives a perpendicular line that does not bisect the interval, and y = x \u2212 1 is the line AB itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0054",
+   "topicId": "mm-linear",
+   "stem": "ABCD is a parallelogram with A(1, 2), B(5, 3) and C(6, 7). Find D.",
+   "imageRef": null,
+   "options": [
+    "(3.5, 4.5)",
+    "(2, 6)",
+    "(10, 8)",
+    "(0, \u22122)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Going from B to C is 1 right and 4 up, so going from A to D must be the same: D = (1 + 1, 2 + 4) = (2, 6). As a check, the diagonals AC and BD both have midpoint (3.5, 4.5), which is the point where they bisect each other, not the fourth vertex. The point (10, 8) completes a parallelogram with the vertices in a different order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0055",
+   "topicId": "mm-linear",
+   "stem": "Solving two simultaneous linear equations by elimination gives 0 = 0. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "The lines coincide, so there are infinitely many solutions",
+    "The lines are parallel, so there are no solutions at all",
+    "The lines meet at the origin, so x = 0 and y = 0",
+    "The lines are perpendicular, so they meet exactly once"
+   ],
+   "correctIndex": 0,
+   "explanation": "A statement like 0 = 0 is true whatever x and y are, so the two equations describe the same line and every point on it is a solution. A false statement such as 0 = 5 is what signals parallel lines with no solution. The 0 = 0 says nothing about where the lines meet, so it does not mean x and y are zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-linear-0056",
+   "topicId": "mm-linear",
+   "stem": "For which value of k does the pair y = 3x + 2 and 6x \u2212 2y = k have infinitely many solutions?",
+   "imageRef": null,
+   "options": [
+    "\u22124",
+    "4",
+    "2",
+    "\u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearrange the second equation: 2y = 6x \u2212 k, so y = 3x \u2212 k/2. For the lines to coincide the intercepts must match, so \u2212k/2 = 2 and k = \u22124. Choosing 4 drops the sign from the rearrangement; any other k gives parallel lines with no solution.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-linear-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

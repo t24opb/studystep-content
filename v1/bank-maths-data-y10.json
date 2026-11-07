@@ -1887,6 +1887,215 @@
    "generationBatch": "maths-data-y10-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0098",
+   "topicId": "maths-data-y10",
+   "stem": "In a frequency table, what is the cumulative frequency of a class?",
+   "imageRef": null,
+   "options": [
+    "The running total of the frequencies up to and including that class",
+    "The frequency of that class divided by the total number of values",
+    "The difference between the upper and lower boundaries of that class",
+    "The frequency of whichever class contains the most values in the table"
+   ],
+   "correctIndex": 0,
+   "explanation": "Cumulative frequency adds up the frequencies as you go down the table, so each entry counts every value up to the end of that class. Dividing a class's frequency by the total gives its relative frequency, a different column of the table.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0099",
+   "topicId": "maths-data-y10",
+   "stem": "A grouped frequency table has classes 0\u20139, 10\u201319, 20\u201329 and 30\u201339 with frequencies 4, 7, 10 and 3. What is the cumulative frequency for the class 20\u201329?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "21",
+    "10",
+    "17"
+   ],
+   "correctIndex": 1,
+   "explanation": "Add the frequencies up to and including the 20\u201329 class: 4 + 7 + 10 = 21. The 10 answer is just that class's own frequency, and 17 forgets the first class. The 24 answer is the cumulative frequency of the final class, which always equals the total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0100",
+   "topicId": "maths-data-y10",
+   "stem": "An ogive is drawn for 200 travel times. Reading from it: cumulative frequency 50 at 32 minutes, 100 at 41 minutes and 150 at 47 minutes. What is the estimated interquartile range?",
+   "imageRef": null,
+   "options": [
+    "9 minutes",
+    "41 minutes",
+    "100 minutes",
+    "15 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "With 200 values, the lower quartile is read at 50 (25%) and the upper quartile at 150 (75%), so IQR = 47 \u2212 32 = 15 minutes. The 41 minutes answer is the median, read at 100, and 100 minutes subtracts the cumulative frequencies instead of the times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0101",
+   "topicId": "maths-data-y10",
+   "stem": "Mia's test score is at the 90th percentile. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "About 90% of the scores are above her score",
+    "About 90% of the scores are at or below her score",
+    "She answered about 90% of the questions correctly",
+    "Her score on the test was exactly 90 marks"
+   ],
+   "correctIndex": 1,
+   "explanation": "A percentile describes position in the group: the 90th percentile means about 90% of scores are at or below hers, so she did better than most. It says nothing directly about her percentage correct, which depends on how hard the test was.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0102",
+   "topicId": "maths-data-y10",
+   "stem": "When an ogive is drawn from a grouped frequency table, where is each point plotted?",
+   "imageRef": null,
+   "options": [
+    "At the centre of a class, at the height of that class's own frequency",
+    "At the lower boundary of a class, at the height of its own frequency",
+    "At the upper boundary of a class, at the height of its own frequency",
+    "At the upper boundary of a class, at the height of its cumulative frequency"
+   ],
+   "correctIndex": 3,
+   "explanation": "A cumulative frequency counts every value up to the end of a class, so it belongs at the class's upper boundary. Plotting class frequencies at class centres draws a frequency polygon instead, which shows how often each class occurs rather than a running total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0103",
+   "topicId": "maths-data-y10",
+   "stem": "A cumulative relative frequency table shows: under 40 minutes, 15%; under 50 minutes, 48%; under 60 minutes, 82%; under 70 minutes, 100%. What percentage of times were at least 50 minutes but under 60 minutes?",
+   "imageRef": null,
+   "options": [
+    "18%",
+    "34%",
+    "82%",
+    "48%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The percentage under 60 minutes includes everything under 50 minutes, so subtract: 82% \u2212 48% = 34%. The 82% answer is everything under 60 minutes, including the times below 50, and 18% is the share of times that were 60 minutes or more.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0104",
+   "topicId": "maths-data-y10",
+   "stem": "Ogives of the exam marks for class A and class B are drawn on the same axes, and class B's ogive lies entirely to the right of class A's. What does this show?",
+   "imageRef": null,
+   "options": [
+    "Class A has a smaller spread of marks, since its ogive is further to the left",
+    "Class B generally scored higher, as each percentile is reached at a higher mark",
+    "Class A generally scored higher, as its ogive rises earlier and more quickly",
+    "Class B has more students in it, since its ogive is further to the right"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reading across at any cumulative percentage, such as the median at 50%, class B's ogive reaches it at a higher mark, so B's marks are generally higher. An ogive rising earlier means more students reached each total at lower marks, which is worse, not better. Position left or right shows where the marks are, not how many students there are or how spread out they are.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0105",
+   "topicId": "maths-data-y10",
+   "stem": "What is the mean absolute deviation of a data set?",
+   "imageRef": null,
+   "options": [
+    "The average distance of the values from the mean",
+    "The difference between the largest and smallest values",
+    "The average of the deviations from the mean, keeping their signs",
+    "The square root of the average squared deviation from the mean"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mean absolute deviation finds how far each value is from the mean, ignoring whether it is above or below, then averages those distances. Keeping the signs always gives zero, because the deviations above and below the mean cancel out. The square root of the average squared deviation is the standard deviation.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0106",
+   "topicId": "maths-data-y10",
+   "stem": "What is the mean absolute deviation of 2, 4, 6, 8, 10?",
+   "imageRef": null,
+   "options": [
+    "2.83",
+    "2.4",
+    "0",
+    "6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean is 6, the distances from it are 4, 2, 0, 2 and 4, and their average is 12 \u00f7 5 = 2.4. The 0 answer averages the deviations with their signs, which always cancel to zero, and 2.83 is the standard deviation, \u221a8, which squares the deviations first.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0107",
+   "topicId": "maths-data-y10",
+   "stem": "What is the median absolute deviation of 3, 5, 6, 9, 22?",
+   "imageRef": null,
+   "options": [
+    "5.2",
+    "4.6",
+    "6",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The median is 6, the distances from it are 3, 1, 0, 3 and 16, and the median of those distances (0, 1, 3, 3, 16 in order) is 3. The 5.2 answer is the mean absolute deviation, measured from the mean of 9, and 4.6 averages the distances from the median instead of taking their median.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y10-0108",
+   "topicId": "maths-data-y10",
+   "stem": "A single outlier far from the other values is added to a data set. Which measure of spread is usually least affected?",
+   "imageRef": null,
+   "options": [
+    "The range",
+    "The median absolute deviation",
+    "The standard deviation",
+    "The mean absolute deviation"
+   ],
+   "correctIndex": 1,
+   "explanation": "The median absolute deviation is based on medians, which barely move when one extreme value is added. The standard deviation is the most affected of the averages because it squares the outlier's large distance from the mean, and the range changes completely because the outlier becomes one of its ends.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "maths-data-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

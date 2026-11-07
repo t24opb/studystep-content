@@ -912,6 +912,120 @@
    "generationBatch": "mm-indices-logs-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0049",
+   "topicId": "mm-indices-logs",
+   "stem": "Which expression gives the exact solution of 5^x = 20?",
+   "imageRef": null,
+   "options": [
+    "x = log 20 \u00f7 log 5",
+    "x = log 5 \u00f7 log 20",
+    "x = log 20 \u2212 log 5",
+    "x = 20 \u00f7 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Take the log of both sides: log(5^x) = log 20, so x log 5 = log 20 and x = log 20 \u00f7 log 5 \u2248 1.86. The difference log 20 \u2212 log 5 equals log 4, about 0.60, which confuses dividing logs with the log of a quotient. Dividing 20 by 5 ignores the power altogether.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0050",
+   "topicId": "mm-indices-logs",
+   "stem": "Solve 2^x = 10, correct to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "3.16",
+    "3.32",
+    "5",
+    "0.30"
+   ],
+   "correctIndex": 1,
+   "explanation": "Taking logs gives x = log 10 \u00f7 log 2 = 1 \u00f7 0.30103 \u2248 3.32. Check: 2\u00b3 = 8 and 2\u2074 = 16, so the answer must lie between 3 and 4. The 0.30 is log 2 \u00f7 log 10, the division upside down, and 5 is simply 10 \u00f7 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0051",
+   "topicId": "mm-indices-logs",
+   "stem": "An investment earns 5% per year compound interest, so its value is multiplied by 1.05 each year. After how many whole years will it first be worth at least double?",
+   "imageRef": null,
+   "options": [
+    "15 years",
+    "14 years",
+    "20 years",
+    "40 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve 1.05^n = 2: n = log 2 \u00f7 log 1.05 \u2248 14.2. After 14 years the value is only 1.05\u00b9\u2074 \u2248 1.98 times the start, so it first reaches double after 15 whole years. The 20 years is what simple interest would take, since 20 \u00d7 5% = 100%, and compounding is faster than that.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0052",
+   "topicId": "mm-indices-logs",
+   "stem": "How is the graph of y = log\u2081\u2080 x related to the graph of y = 10^x?",
+   "imageRef": null,
+   "options": [
+    "It is the reflection in the y-axis",
+    "It is a rotation of 90\u00b0 about the origin",
+    "It is the reflection in the line y = x",
+    "It is the reflection in the x-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "Logarithms and exponentials are inverses, so every point (a, b) on y = 10^x becomes (b, a) on y = log\u2081\u2080 x \u2014 swapping x and y reflects a graph in the line y = x. For example (1, 10) on the exponential matches (10, 1) on the log graph. A reflection in the y-axis would give y = 10^(\u2212x) instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0053",
+   "topicId": "mm-indices-logs",
+   "stem": "Which pair of features belongs to the graph of y = log\u2081\u2080 x?",
+   "imageRef": null,
+   "options": [
+    "y-intercept 1 and asymptote y = 0",
+    "x-intercept 10 and asymptote x = 0",
+    "x-intercept 0 and asymptote x = 1",
+    "x-intercept 1 and asymptote x = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since log\u2081\u2080 1 = 0, the graph crosses the x-axis at x = 1, and because only positive numbers have logs, it approaches the y-axis, x = 0, without reaching it. A y-intercept of 1 with asymptote y = 0 describes y = 10^x, the reflected graph. At x = 10 the graph is at height 1, not on the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-indices-logs-0054",
+   "topicId": "mm-indices-logs",
+   "stem": "Evaluate 10^2.5, correct to the nearest whole number.",
+   "imageRef": null,
+   "options": [
+    "1000",
+    "316",
+    "250",
+    "550"
+   ],
+   "correctIndex": 1,
+   "explanation": "10^2.5 = 10\u00b2 \u00d7 10^0.5 = 100 \u00d7 \u221a10 \u2248 100 \u00d7 3.162 = 316. It lies between 10\u00b2 = 100 and 10\u00b3 = 1000 but much nearer 100, because each step of 1 in the index multiplies by 10. The 550 assumes the halfway index gives the halfway value, which is what a log scale is designed not to do, and 250 is 100 \u00d7 2.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-indices-logs-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

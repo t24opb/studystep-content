@@ -513,16 +513,16 @@
    "imageRef": null,
    "options": [
     "30\u00b0",
-    "72\u00b0",
+    "73\u00b0",
     "17\u00b0",
     "18\u00b0"
    ],
    "correctIndex": 1,
-   "explanation": "The 1.8 m is adjacent to the ground angle and the 6 m ladder is the hypotenuse, so cos of the angle = 1.8 \u00f7 6 = 0.3, giving an angle of about 72\u00b0. The answer 17\u00b0 comes from using tangent with 1.8 and 6, which wrongly treats the 6 m ladder as the vertical side. Identify the hypotenuse first \u2014 it is always the longest side, opposite the right angle.",
+   "explanation": "The 1.8 m is adjacent to the ground angle and the 6 m ladder is the hypotenuse, so cos of the angle = 1.8 \u00f7 6 = 0.3, giving an angle of 72.54\u2026\u00b0, which is 73\u00b0 to the nearest degree. The answer 17\u00b0 comes from using tangent with 1.8 and 6, which wrongly treats the 6 m ladder as the vertical side. Identify the hypotenuse first \u2014 it is always the longest side, opposite the right angle.",
    "difficulty": 3,
    "tier": "core",
    "generationBatch": "maths-measurement-y9-authored-20260824",
-   "reviewStatus": "doubleChecked",
+   "reviewStatus": "draft",
    "scope": "curriculum"
   },
   {
@@ -1243,6 +1243,253 @@
    "explanation": "Multiplying centimetres by centimetres gives square centimetres, just as multiplying three gives cubic. The index records how many lengths were combined.",
    "difficulty": 3,
    "tier": "extension",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0063",
+   "topicId": "maths-measurement-y9",
+   "stem": "How many significant figures does 0.004 06 have?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "2",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Leading zeros only locate the decimal point, so they are not significant; counting starts at the 4, and the zero between 4 and 6 is significant, giving 4, 0, 6. Answering 2 skips that middle zero, but zeros between non-zero digits always count.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0064",
+   "topicId": "maths-measurement-y9",
+   "stem": "Round 34 750 to two significant figures.",
+   "imageRef": null,
+   "options": [
+    "35 000",
+    "34 000",
+    "35",
+    "34 800"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first two significant figures are 3 and 4, and the next digit is 7, so round up to 35 and fill the remaining places with zeros: 35 000. Writing just 35 loses the place value, and 34 000 truncates instead of rounding. The 34 800 answer has three significant figures.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0065",
+   "topicId": "maths-measurement-y9",
+   "stem": "Round 0.004 56 to two significant figures.",
+   "imageRef": null,
+   "options": [
+    "0.00",
+    "0.0046",
+    "0.0045",
+    "0.005"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first significant figure is the 4, so two significant figures means 4 and 5, and the next digit 6 rounds the 5 up: 0.0046. The 0.00 answer rounds to two decimal places instead, and 0.005 has only one significant figure.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0066",
+   "topicId": "maths-measurement-y9",
+   "stem": "Which of these numbers has exactly three significant figures?",
+   "imageRef": null,
+   "options": [
+    "0.025",
+    "2.005",
+    "0.2",
+    "2.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "A trailing zero after the decimal point is significant, because it records that the measurement was made to the nearest hundredth, so 2.50 has three. The leading zeros in 0.025 are not significant, leaving two, and 2.005 has four because the zeros sit between non-zero digits.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0067",
+   "topicId": "maths-measurement-y9",
+   "stem": "A rectangle is measured as 4.2 m by 3.7 m, each to two significant figures, and a calculator gives its area as 15.54 m\u00b2. Using the rule that an answer should have the same number of significant figures as the least accurate measurement, how should the area be stated?",
+   "imageRef": null,
+   "options": [
+    "20 m\u00b2",
+    "16 m\u00b2",
+    "15.54 m\u00b2",
+    "15.5 m\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both measurements have two significant figures, so the area should too, and 15.54 rounds to 16 m\u00b2. Keeping 15.54 m\u00b2 suggests an accuracy the measurements cannot support, and 20 m\u00b2 rounds to only one significant figure, throwing away accuracy the data does have.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0068",
+   "topicId": "maths-measurement-y9",
+   "stem": "What does the prefix nano- mean?",
+   "imageRef": null,
+   "options": [
+    "\u00d7 10\u207b\u2079",
+    "\u00d7 10\u207b\u2076",
+    "\u00d7 10\u2079",
+    "\u00d7 10\u207b\u00b9\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Nano- means one billionth, so 1 nanometre is 10\u207b\u2079 m. The 10\u207b\u2076 answer is micro-, 10\u207b\u00b9\u00b2 is pico-, and 10\u2079 is giga-, the large prefix that matches nano- in size but in the opposite direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0069",
+   "topicId": "maths-measurement-y9",
+   "stem": "Using SI prefixes, how many bytes are in 1 terabyte (TB)?",
+   "imageRef": null,
+   "options": [
+    "10\u00b9\u00b2",
+    "10\u2079",
+    "10\u2076",
+    "10\u00b9\u2075"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tera- means 10\u00b9\u00b2, so 1 TB is a million million bytes. The 10\u2079 answer is a gigabyte and 10\u2076 is a megabyte; each prefix step from mega- to giga- to tera- multiplies by 1000.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0070",
+   "topicId": "maths-measurement-y9",
+   "stem": "A wire is 3.2 nm thick. What is this thickness in metres, in scientific notation?",
+   "imageRef": null,
+   "options": [
+    "3.2 \u00d7 10\u207b\u2079 m",
+    "3.2 \u00d7 10\u2079 m",
+    "3.2 \u00d7 10\u207b\u2076 m",
+    "3.2 \u00d7 10\u207b\u00b9\u00b2 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "Nano- means 10\u207b\u2079, so 3.2 nm = 3.2 \u00d7 10\u207b\u2079 m. The positive power 10\u2079 would make the wire 3.2 billion metres thick, and 10\u207b\u2076 is the micro- prefix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0071",
+   "topicId": "maths-measurement-y9",
+   "stem": "A camera shutter stays open for 250 microseconds. How long is this in seconds?",
+   "imageRef": null,
+   "options": [
+    "2.5 \u00d7 10\u207b\u2074 s",
+    "2.5 \u00d7 10\u207b\u2077 s",
+    "2.5 \u00d7 10\u207b\u00b9 s",
+    "2.5 \u00d7 10\u2078 s"
+   ],
+   "correctIndex": 0,
+   "explanation": "Micro- means 10\u207b\u2076, so 250 \u00b5s = 250 \u00d7 10\u207b\u2076 s = 2.5 \u00d7 10\u207b\u2074 s. The 2.5 \u00d7 10\u207b\u00b9 s answer treats micro- as milli- (10\u207b\u00b3), and 2.5 \u00d7 10\u207b\u2077 s uses nano- (10\u207b\u2079).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0072",
+   "topicId": "maths-measurement-y9",
+   "stem": "A power station has an output of 2.4 gigawatts (GW). What is this in megawatts (MW)?",
+   "imageRef": null,
+   "options": [
+    "2 400 000 MW",
+    "2400 MW",
+    "240 MW",
+    "0.0024 MW"
+   ],
+   "correctIndex": 1,
+   "explanation": "Giga- is 10\u2079 and mega- is 10\u2076, so 1 GW = 1000 MW and 2.4 GW = 2400 MW. The 0.0024 MW answer divides by 1000 instead of multiplying; a megawatt is the smaller unit, so there must be more of them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0073",
+   "topicId": "maths-measurement-y9",
+   "stem": "Which of these lengths is the greatest?",
+   "imageRef": null,
+   "options": [
+    "450 \u00b5m",
+    "0.3 mm",
+    "2 \u00d7 10\u2075 nm",
+    "4.2 \u00d7 10\u207b\u2074 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "In metres they are 450 \u00b5m = 4.5 \u00d7 10\u207b\u2074 m, 0.3 mm = 3 \u00d7 10\u207b\u2074 m, 2 \u00d7 10\u2075 nm = 2 \u00d7 10\u207b\u2074 m and 4.2 \u00d7 10\u207b\u2074 m, so 450 \u00b5m is the greatest. The 2 \u00d7 10\u2075 nm option looks huge because of its positive power, but nanometres are so small that it is only 0.2 mm.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0074",
+   "topicId": "maths-measurement-y9",
+   "stem": "A farm dam holds 4.5 megalitres (ML). How many litres is this?",
+   "imageRef": null,
+   "options": [
+    "4 500 000 L",
+    "4500 L",
+    "450 000 L",
+    "45 000 000 L"
+   ],
+   "correctIndex": 0,
+   "explanation": "1 ML = 1000 kL and 1 kL = 1000 L, so 1 ML = 1 000 000 L and 4.5 ML = 4 500 000 L. The 4500 L answer converts only to kilolitres and stops there, multiplying by 1000 once instead of twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y9-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y9-0075",
+   "topicId": "maths-measurement-y9",
+   "stem": "A backyard swimming pool holds 52 000 L of water. What is its capacity in kilolitres (kL)?",
+   "imageRef": null,
+   "options": [
+    "0.052 kL",
+    "52 kL",
+    "5.2 kL",
+    "520 kL"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 1000 L in 1 kL, so 52 000 \u00f7 1000 = 52 kL. The 0.052 kL answer divides by a million, which would give megalitres (0.052 ML), and 520 kL divides by only 100.",
+   "difficulty": 2,
+   "tier": "core",
    "generationBatch": "maths-measurement-y9-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"

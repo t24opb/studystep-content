@@ -1186,6 +1186,557 @@
    "generationBatch": "maths-measurement-y8-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0057",
+   "topicId": "maths-measurement-y8",
+   "stem": "Which of these states does NOT use daylight saving time in summer?",
+   "imageRef": null,
+   "options": [
+    "New South Wales",
+    "Tasmania",
+    "South Australia",
+    "Queensland"
+   ],
+   "correctIndex": 3,
+   "explanation": "Queensland stays on Australian Eastern Standard Time all year, as do Western Australia and the Northern Territory. New South Wales, Victoria, Tasmania, South Australia and the ACT move their clocks forward one hour in summer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0058",
+   "topicId": "maths-measurement-y8",
+   "stem": "In summer, Sydney uses Australian Eastern Daylight Time (AEDT). What is its offset from UTC?",
+   "imageRef": null,
+   "options": [
+    "UTC+11",
+    "UTC+10",
+    "UTC+10:30",
+    "UTC+12"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sydney is normally UTC+10, and daylight saving moves clocks forward one hour, giving UTC+11. UTC+10 is the standard-time offset used in winter, and UTC+10:30 is Adelaide's offset during daylight saving.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0059",
+   "topicId": "maths-measurement-y8",
+   "stem": "In January, daylight saving is in use in New South Wales but not in Queensland. When it is 3:00 pm in Brisbane, what time is it in Sydney?",
+   "imageRef": null,
+   "options": [
+    "2:00 pm",
+    "4:30 pm",
+    "4:00 pm",
+    "3:00 pm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Brisbane stays on UTC+10 while Sydney moves to UTC+11, so Sydney is one hour ahead in summer and the time there is 4:00 pm. The 3:00 pm answer is correct only in winter, when both cities are on UTC+10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0060",
+   "topicId": "maths-measurement-y8",
+   "stem": "During daylight saving, Adelaide uses UTC+10:30 and Perth uses UTC+8. When it is 9:00 am in Perth, what time is it in Adelaide?",
+   "imageRef": null,
+   "options": [
+    "10:30 am",
+    "6:30 am",
+    "11:00 am",
+    "11:30 am"
+   ],
+   "correctIndex": 3,
+   "explanation": "The difference is 10:30 \u2212 8 = 2 hours 30 minutes, and Adelaide is ahead because its offset is larger, so the time is 11:30 am. The 10:30 am answer uses the winter difference of 1 hour 30 minutes, when Adelaide is on UTC+9:30. The 6:30 am answer subtracts instead of adding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0061",
+   "topicId": "maths-measurement-y8",
+   "stem": "Perth is on UTC+8 and London is on UTC+0 during the northern winter. When it is 6:00 pm on Tuesday in Perth, what time is it in London?",
+   "imageRef": null,
+   "options": [
+    "10:00 am Wednesday",
+    "10:00 pm Tuesday",
+    "10:00 am Tuesday",
+    "2:00 am Wednesday"
+   ],
+   "correctIndex": 2,
+   "explanation": "London is 8 hours behind Perth, so subtract 8 hours from 6:00 pm Tuesday to get 10:00 am Tuesday. Adding the 8 hours, which gives 2:00 am Wednesday, goes the wrong way: places west of Australia, like Europe, are behind Australian time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0062",
+   "topicId": "maths-measurement-y8",
+   "stem": "In summer, Auckland uses UTC+13 and Melbourne uses UTC+11. A video call starts at 7:30 pm Auckland time. What time does it start in Melbourne?",
+   "imageRef": null,
+   "options": [
+    "7:30 pm",
+    "5:30 pm",
+    "9:30 pm",
+    "6:30 pm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Auckland is 13 \u2212 11 = 2 hours ahead of Melbourne, so subtract 2 hours from 7:30 pm to get 5:30 pm. The 9:30 pm answer adds the difference, which would mean Melbourne is ahead of Auckland. New Zealand is east of Australia, so its clocks are ahead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0063",
+   "topicId": "maths-measurement-y8",
+   "stem": "A flight leaves Sydney (UTC+11) at 9:00 pm on Friday and takes 13 hours to reach Los Angeles (UTC\u22128). What is the local time in Los Angeles when it lands?",
+   "imageRef": null,
+   "options": [
+    "5:00 am Sunday",
+    "3:00 pm Friday",
+    "3:00 pm Saturday",
+    "10:00 am Saturday"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding 13 hours gives 10:00 am Saturday in Sydney time, and Los Angeles is 11 + 8 = 19 hours behind Sydney, so the local time is 10:00 am Saturday \u2212 19 hours = 3:00 pm Friday. The 10:00 am Saturday answer forgets to change to Los Angeles time at all. The flight lands on the same date it left, earlier in the day, because it crosses the International Date Line.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0064",
+   "topicId": "maths-measurement-y8",
+   "stem": "A flight leaves Auckland on Sunday evening and lands in Honolulu on Sunday morning, earlier the same day. Why does this happen?",
+   "imageRef": null,
+   "options": [
+    "It crosses the International Date Line travelling west, so the date goes back a day",
+    "It crosses the equator, which is the line where one date changes into the next",
+    "Honolulu uses daylight saving time, which moves its clocks back by a full day",
+    "It crosses the International Date Line travelling east, so the date goes back a day"
+   ],
+   "correctIndex": 3,
+   "explanation": "Travelling east across the International Date Line, from the Auckland side to the Hawaii side, sets the calendar back one day, so a traveller can land 'before' they left. Crossing the line travelling west moves the date forward a day instead. The equator has nothing to do with dates, and daylight saving shifts clocks by one hour, not a whole day.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0065",
+   "topicId": "maths-measurement-y8",
+   "stem": "A team in Perth (UTC+8), Sydney (UTC+11) and London (UTC+0) needs a one-hour video meeting that starts and ends between 7:00 am and 10:00 pm local time in all three cities. Which Sydney start time works?",
+   "imageRef": null,
+   "options": [
+    "8:00 am",
+    "3:00 pm",
+    "10:30 pm",
+    "7:00 pm"
+   ],
+   "correctIndex": 3,
+   "explanation": "A 7:00 pm start in Sydney is 4:00 pm in Perth (3 hours behind) and 8:00 am in London (11 hours behind), and the meeting ends at 8:00 pm, 5:00 pm and 9:00 am, all inside the window. An 8:00 am Sydney start is 5:00 am in Perth, and 3:00 pm is 4:00 am in London. A 10:30 pm start is already too late in Sydney itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0066",
+   "topicId": "maths-measurement-y8",
+   "stem": "What is a chord of a circle?",
+   "imageRef": null,
+   "options": [
+    "A straight line from the centre out to the circle",
+    "The curved part of the circle between two points",
+    "A straight line that touches the circle at one point",
+    "A straight line joining two points on the circle"
+   ],
+   "correctIndex": 3,
+   "explanation": "A chord joins any two points on the circle, and the longest possible chord is a diameter. A line from the centre to the circle is a radius, a curved piece of the circle is an arc, and a line touching at one point is a tangent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0067",
+   "topicId": "maths-measurement-y8",
+   "stem": "What is a tangent to a circle?",
+   "imageRef": null,
+   "options": [
+    "The curved part of the circle that lies between two radii",
+    "A straight line that touches the circle at exactly one point",
+    "A straight line that cuts through the circle at two points",
+    "A straight line through the centre joining two points on it"
+   ],
+   "correctIndex": 1,
+   "explanation": "A tangent just touches the circle at a single point without crossing into it. A line that cuts the circle at two points contains a chord, and a chord through the centre is a diameter.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0068",
+   "topicId": "maths-measurement-y8",
+   "stem": "What is the difference between a sector and a segment of a circle?",
+   "imageRef": null,
+   "options": [
+    "A sector is always half of a circle; a segment is always a quarter of a circle",
+    "A sector is the curved edge of a circle; a segment is the region inside it",
+    "A sector is bounded by two radii and an arc; a segment by a chord and an arc",
+    "A sector is bounded by a chord and an arc; a segment by two radii and an arc"
+   ],
+   "correctIndex": 2,
+   "explanation": "A sector is a 'pizza slice' cut out by two radii, while a segment is the region cut off by a chord. Swapping the two is the common mix-up. Neither has a fixed size: a semicircle and a quadrant are just particular sectors.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0069",
+   "topicId": "maths-measurement-y8",
+   "stem": "A sector has a radius of 9 cm and an angle of 80\u00b0. What is its area, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "254.5 cm\u00b2",
+    "6.3 cm\u00b2",
+    "56.5 cm\u00b2",
+    "12.6 cm\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Area = (\u03b8 \u00f7 360) \u00d7 \u03c0r\u00b2 = (80 \u00f7 360) \u00d7 \u03c0 \u00d7 9\u00b2 \u2248 56.5 cm\u00b2. The 254.5 cm\u00b2 answer is the whole circle, forgetting the fraction 80/360. The 12.6 cm\u00b2 answer uses 2\u03c0r, which gives the arc length, not an area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0070",
+   "topicId": "maths-measurement-y8",
+   "stem": "A garden bed is a rectangle 10 m by 4 m with a quadrant of radius 4 m attached to one of its 4 m ends. What is the total area, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "65.1 m\u00b2",
+    "90.3 m\u00b2",
+    "43.1 m\u00b2",
+    "52.6 m\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The quadrant is a quarter of a circle, so its area is \u03c0 \u00d7 4\u00b2 \u00f7 4 \u2248 12.6 m\u00b2, and adding the 40 m\u00b2 rectangle gives 52.6 m\u00b2. The 65.1 m\u00b2 answer treats the quadrant as a semicircle, and 90.3 m\u00b2 adds a whole circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0071",
+   "topicId": "maths-measurement-y8",
+   "stem": "What is the perimeter of a quadrant with a radius of 10 cm, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "78.5 cm",
+    "35.7 cm",
+    "15.7 cm",
+    "25.7 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curved edge is a quarter of the circumference, 2\u03c0 \u00d7 10 \u00f7 4 \u2248 15.7 cm, and the two straight edges are radii, adding 20 cm, so the perimeter is 35.7 cm. The 15.7 cm answer forgets the straight edges, and 25.7 cm includes only one of them. The 78.5 cm answer is the area of the quadrant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0072",
+   "topicId": "maths-measurement-y8",
+   "stem": "A sports field is a rectangle 100 m long and 60 m wide with a semicircle on each 60 m end. What is the perimeter of the whole field, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "508.5 m",
+    "577.0 m",
+    "294.2 m",
+    "388.5 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The boundary is the two 100 m straights plus two semicircles of diameter 60 m, which make one full circle: 200 + \u03c0 \u00d7 60 \u2248 388.5 m. The 508.5 m answer also adds the two 60 m ends, but those are inside the field once the semicircles are attached. The 577.0 m answer uses 60 m as the radius instead of the diameter.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0073",
+   "topicId": "maths-measurement-y8",
+   "stem": "A semicircle has an area of 18\u03c0 cm\u00b2. What is its radius?",
+   "imageRef": null,
+   "options": [
+    "9 cm",
+    "\u221a18 cm",
+    "6 cm",
+    "3 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "A semicircle's area is \u03c0r\u00b2 \u00f7 2, so \u03c0r\u00b2 \u00f7 2 = 18\u03c0, giving r\u00b2 = 36 and r = 6 cm. The \u221a18 cm answer forgets to halve the circle, solving \u03c0r\u00b2 = 18\u03c0. The 9 cm answer halves 18 but never takes a square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0074",
+   "topicId": "maths-measurement-y8",
+   "stem": "A rhombus has diagonals of 12 cm and 9 cm. What is its area?",
+   "imageRef": null,
+   "options": [
+    "54 cm\u00b2",
+    "108 cm\u00b2",
+    "21 cm\u00b2",
+    "10.5 cm\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area of a rhombus is half the product of its diagonals: \u00bd \u00d7 12 \u00d7 9 = 54 cm\u00b2. The 108 cm\u00b2 answer forgets to halve; the rhombus fills exactly half of the rectangle formed around its diagonals. The 21 cm\u00b2 answer adds the diagonals instead of multiplying them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0075",
+   "topicId": "maths-measurement-y8",
+   "stem": "A kite-shaped window has an area of 72 cm\u00b2, and one of its diagonals is 18 cm long. How long is the other diagonal?",
+   "imageRef": null,
+   "options": [
+    "54 cm",
+    "16 cm",
+    "8 cm",
+    "4 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Using A = \u00bdxy, 72 = \u00bd \u00d7 18 \u00d7 y, so 72 = 9y and y = 8 cm. The 4 cm answer divides 72 by 18 but forgets the half in the formula, and 54 cm subtracts 18 from 72.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0076",
+   "topicId": "maths-measurement-y8",
+   "stem": "A logo is made of a trapezium with parallel sides 10 cm and 6 cm and a height of 4 cm, with a kite whose diagonals are 6 cm and 5 cm sitting on top. What is the total area of the logo?",
+   "imageRef": null,
+   "options": [
+    "47 cm\u00b2",
+    "62 cm\u00b2",
+    "79 cm\u00b2",
+    "94 cm\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The trapezium is \u00bd \u00d7 (10 + 6) \u00d7 4 = 32 cm\u00b2 and the kite is \u00bd \u00d7 6 \u00d7 5 = 15 cm\u00b2, totalling 47 cm\u00b2. The 62 cm\u00b2 answer forgets to halve the kite's diagonals, and 79 cm\u00b2 forgets the half in the trapezium formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0077",
+   "topicId": "maths-measurement-y8",
+   "stem": "A wedge of cheese is a right prism whose cross-section is a sector of radius 12 cm and angle 30\u00b0. The wedge is 5 cm thick. What is its volume, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "2261.9 cm\u00b3",
+    "188.5 cm\u00b3",
+    "31.4 cm\u00b3",
+    "377.0 cm\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The cross-section is (30 \u00f7 360) \u00d7 \u03c0 \u00d7 12\u00b2 \u2248 37.7 cm\u00b2, and volume = cross-section \u00d7 thickness \u2248 37.7 \u00d7 5 = 188.5 cm\u00b3. The 377.0 cm\u00b3 answer uses 30 \u00f7 180, which treats the full turn as 180\u00b0. The 2261.9 cm\u00b3 answer is the whole cylinder of cheese.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0078",
+   "topicId": "maths-measurement-y8",
+   "stem": "A model tunnel is a half-cylinder (a prism with a semicircular cross-section) of radius 3 m and length 20 m. What is its volume, to the nearest cubic metre?",
+   "imageRef": null,
+   "options": [
+    "188 m\u00b3",
+    "1131 m\u00b3",
+    "283 m\u00b3",
+    "565 m\u00b3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The semicircle's area is \u03c0 \u00d7 3\u00b2 \u00f7 2 \u2248 14.14 m\u00b2, and multiplying by the 20 m length gives about 283 m\u00b3. The 565 m\u00b3 answer forgets to halve the circle, and 1131 m\u00b3 uses the 6 m diameter as if it were the radius.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0079",
+   "topicId": "maths-measurement-y8",
+   "stem": "What is a Pythagorean triad?",
+   "imageRef": null,
+   "options": [
+    "Any three consecutive whole numbers, such as 3, 4, 5",
+    "Three whole numbers a, b and c where a\u00b2 + b\u00b2 = c\u00b2",
+    "Any three numbers that can be the sides of a triangle",
+    "Three whole numbers a, b and c where a + b = c"
+   ],
+   "correctIndex": 1,
+   "explanation": "A Pythagorean triad is a set of whole numbers that fit Pythagoras' theorem, so they form a right-angled triangle. The triad 3, 4, 5 happens to be consecutive, but 5, 12, 13 is not, and 4, 5, 6 is consecutive but 16 + 25 \u2260 36.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0080",
+   "topicId": "maths-measurement-y8",
+   "stem": "Which of these sets of numbers is a Pythagorean triad?",
+   "imageRef": null,
+   "options": [
+    "5, 11, 12",
+    "8, 15, 17",
+    "6, 9, 11",
+    "7, 24, 26"
+   ],
+   "correctIndex": 1,
+   "explanation": "Check whether the squares of the two smaller numbers add to the square of the largest: 64 + 225 = 289 = 17\u00b2. For 7, 24, 26 the sum is 49 + 576 = 625, which is 25\u00b2, not 26\u00b2 = 676, so it misses by one in the largest number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0081",
+   "topicId": "maths-measurement-y8",
+   "stem": "Multiplying every number in the triad 5, 12, 13 by 3 gives which new triad?",
+   "imageRef": null,
+   "options": [
+    "15, 36, 39",
+    "8, 15, 16",
+    "15, 12, 13",
+    "25, 144, 169"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying all three sides by the same number gives a similar right-angled triangle, so 15, 36, 39 is a triad: 225 + 1296 = 1521 = 39\u00b2. Adding 3 to each number, giving 8, 15, 16, does not keep the shape, and 64 + 225 = 289 is not 16\u00b2 = 256.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0082",
+   "topicId": "maths-measurement-y8",
+   "stem": "A triangle has sides of 7 cm, 8 cm and 11 cm. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "It is acute-angled, because 11\u00b2 is greater than 7\u00b2 + 8\u00b2",
+    "It is right-angled, because 7 + 8 is greater than 11",
+    "It is obtuse-angled, because 7 + 8 is greater than 11",
+    "It is obtuse-angled, because 11\u00b2 is greater than 7\u00b2 + 8\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Compare the square of the longest side with the sum of the other two squares: 121 > 49 + 64 = 113, so the largest angle is more than 90\u00b0 and the triangle is obtuse. If the longest side's square were smaller than the sum, the triangle would be acute. Comparing 7 + 8 with 11 only shows that a triangle can be made, not what kind of angles it has.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0083",
+   "topicId": "maths-measurement-y8",
+   "stem": "Which set of side lengths makes an acute-angled triangle?",
+   "imageRef": null,
+   "options": [
+    "6, 7, 9",
+    "5, 12, 13",
+    "4, 5, 7",
+    "3, 5, 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "For 6, 7, 9: 36 + 49 = 85, which is greater than 81, so every angle is less than 90\u00b0. The set 5, 12, 13 gives exactly 169 = 169, so it is right-angled, while 4, 5, 7 (41 < 49) and 3, 5, 7 (34 < 49) are obtuse.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0084",
+   "topicId": "maths-measurement-y8",
+   "stem": "Triangle PQR has PQ = 20 cm, QR = 21 cm and PR = 29 cm. Where is the right angle?",
+   "imageRef": null,
+   "options": [
+    "At R",
+    "There is no right angle",
+    "At Q",
+    "At P"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since 20\u00b2 + 21\u00b2 = 400 + 441 = 841 = 29\u00b2, the triangle is right-angled, and the right angle is opposite the longest side PR. The vertex not on PR is Q. The right angle is never at either end of the hypotenuse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-measurement-y8-0085",
+   "topicId": "maths-measurement-y8",
+   "stem": "A builder checks that a corner is square. She marks 1.2 m along one wall and 1.6 m along the other, and measures 2.0 m between the marks. What can she conclude?",
+   "imageRef": null,
+   "options": [
+    "Nothing can be concluded without measuring the angle",
+    "The corner is a right angle, since 1.2\u00b2 + 1.6\u00b2 = 2.0\u00b2",
+    "The corner is not square, since 1.2 + 1.6 is not 2.0",
+    "The corner is acute, since 2.0\u00b2 is less than 1.2\u00b2 + 1.6\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "1.44 + 2.56 = 4.00 = 2.0\u00b2, so by the converse of Pythagoras' theorem the corner is exactly 90\u00b0. Adding the lengths themselves is the wrong test; it is the squares that must match. Builders use this check because it needs only a tape measure, not a protractor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-measurement-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

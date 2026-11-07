@@ -1034,6 +1034,177 @@
    "generationBatch": "maths-data-y8-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0055",
+   "topicId": "maths-data-y8",
+   "stem": "In a class of 28 students, 15 play a musical instrument, 12 play a sport and 5 do both. How many students do neither?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "5",
+    "11",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Draw the Venn diagram: instrument only is 15 \u2212 5 = 10, sport only is 12 \u2212 5 = 7, and both is 5, so 22 students are inside the circles and 28 \u2212 22 = 6 are outside. The 1 answer subtracts 15 and 12 from 28, which counts the 5 students who do both twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0056",
+   "topicId": "maths-data-y8",
+   "stem": "In a Venn diagram, what does A \u222a B represent?",
+   "imageRef": null,
+   "options": [
+    "Everything in A or B or both",
+    "Only the region where A and B overlap",
+    "Everything outside both A and B",
+    "Everything in A but not in B"
+   ],
+   "correctIndex": 0,
+   "explanation": "The union A \u222a B joins the two sets together, so it includes every element in either circle, including the overlap. Only the overlap is the intersection, A \u2229 B, which is the symbol most often confused with it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0057",
+   "topicId": "maths-data-y8",
+   "stem": "Two events are mutually exclusive. How is this shown in a Venn diagram?",
+   "imageRef": null,
+   "options": [
+    "The two circles overlap a great deal",
+    "Both circles fill the whole rectangle",
+    "The two circles do not overlap",
+    "One circle sits entirely inside the other"
+   ],
+   "correctIndex": 2,
+   "explanation": "Mutually exclusive events cannot happen together, so there is nothing in both, and the circles are drawn separately with no overlap. One circle inside the other would mean every outcome of one event is also an outcome of the other, which is the opposite idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0058",
+   "topicId": "maths-data-y8",
+   "stem": "In a Venn diagram, which region shows 'in A but not in B'?",
+   "imageRef": null,
+   "options": [
+    "The part of circle A outside the overlap",
+    "The overlap of circles A and B",
+    "Everything outside circle B",
+    "All of circle A, including the overlap"
+   ],
+   "correctIndex": 0,
+   "explanation": "Elements in A but not B are inside circle A and outside circle B, which is the crescent of A that does not overlap B (written A \u2229 B\u2032). Everything outside B also includes the region outside both circles, which is not in A at all.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0059",
+   "topicId": "maths-data-y8",
+   "stem": "A Venn diagram shows: coffee only 12, tea only 9, both 7 and neither 4. The same data is put in a two-way table with rows 'coffee: yes / no' and columns 'tea: yes / no'. What number goes in the cell 'coffee: yes, tea: no'?",
+   "imageRef": null,
+   "options": [
+    "19",
+    "7",
+    "9",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "People who drink coffee but not tea are the 'coffee only' region, which is 12. The 19 answer is the total for the coffee circle (12 + 7), which includes the 7 who also drink tea and belong in the 'tea: yes' column.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0060",
+   "topicId": "maths-data-y8",
+   "stem": "A Venn diagram shows: coffee only 12, tea only 9, both 7 and neither 4. One person is chosen at random. What is the probability they drink coffee or tea?",
+   "imageRef": null,
+   "options": [
+    "1/8",
+    "7/8",
+    "21/32",
+    "7/32"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 12 + 9 + 7 + 4 = 32 people, and 12 + 9 + 7 = 28 drink coffee or tea or both, so the probability is 28/32 = 7/8. The 21/32 answer leaves out the 7 people who drink both, but 'or' includes them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0061",
+   "topicId": "maths-data-y8",
+   "stem": "For two events, P(A) = 0.5, P(B) = 0.4 and P(A \u2229 B) = 0.15. What is P(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "1.05",
+    "0.75",
+    "0.9",
+    "0.6"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the addition rule, P(A \u222a B) = P(A) + P(B) \u2212 P(A \u2229 B) = 0.5 + 0.4 \u2212 0.15 = 0.75. The 0.9 answer adds the probabilities without subtracting the overlap, which counts the outcomes in both events twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0062",
+   "topicId": "maths-data-y8",
+   "stem": "Of 40 students, 22 like pizza, 18 like pasta and 8 like both. How many like pizza or pasta, but not both?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "24",
+    "32",
+    "8"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pizza only is 22 \u2212 8 = 14 and pasta only is 18 \u2212 8 = 10, so 14 + 10 = 24 like exactly one of them. The 32 answer is the inclusive 'or', which also counts the 8 who like both, but 'not both' excludes them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-data-y8-0063",
+   "topicId": "maths-data-y8",
+   "stem": "Of 50 students, 30 play football, 25 play cricket and 12 play both. How many students play at most one of the two sports?",
+   "imageRef": null,
+   "options": [
+    "31",
+    "43",
+    "7",
+    "38"
+   ],
+   "correctIndex": 3,
+   "explanation": "'At most one' means none or exactly one, which is everyone except the 12 who play both: 50 \u2212 12 = 38. The 31 answer counts only those who play exactly one sport (18 + 13), forgetting the 7 who play neither. The 43 answer is 'at least one', a different condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-data-y8-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

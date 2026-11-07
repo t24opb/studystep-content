@@ -874,6 +874,139 @@
    "generationBatch": "mm-geometry-handwritten-20260911",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0047",
+   "topicId": "mm-geometry",
+   "stem": "What is a secant of a circle?",
+   "imageRef": null,
+   "options": [
+    "A line that touches the circle at one point",
+    "An interval joining two points on the circle",
+    "An interval from the centre to the circle",
+    "A line that cuts the circle at two points"
+   ],
+   "correctIndex": 3,
+   "explanation": "A secant is a line that passes through a circle, crossing it at two points. A line touching at exactly one point is a tangent, and the interval between the two crossing points is a chord \u2014 the chord is part of a secant, but a secant extends beyond the circle in both directions. An interval from the centre to the circle is a radius.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0048",
+   "topicId": "mm-geometry",
+   "stem": "Two chords in the same circle have equal lengths. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "They both pass through the centre of the circle",
+    "They are the same distance from the centre",
+    "They are parallel to each other",
+    "They bisect each other"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equal chords are always equidistant from the centre, and they also subtend equal angles at the centre. They can point in any direction, so they need not be parallel or cross at all. They only pass through the centre in the special case where both are diameters.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0049",
+   "topicId": "mm-geometry",
+   "stem": "The perpendicular bisector of any chord of a circle:",
+   "imageRef": null,
+   "options": [
+    "touches the circle at exactly one point",
+    "passes through one endpoint of the chord",
+    "passes through the centre only for a diameter",
+    "passes through the centre of the circle"
+   ],
+   "correctIndex": 3,
+   "explanation": "The centre is the same distance from both ends of the chord, and every point equidistant from the two ends lies on the perpendicular bisector, so the bisector always passes through the centre. This is how you locate the centre of a circle: draw the perpendicular bisectors of two chords and see where they cross. It does this for every chord, not only for diameters, and because it passes through the centre it cuts the circle twice rather than touching it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0050",
+   "topicId": "mm-geometry",
+   "stem": "In a circle with centre O, chords AB and CD are both 10 cm long and angle AOB = 70\u00b0. What is angle OCD?",
+   "imageRef": null,
+   "options": [
+    "110\u00b0",
+    "55\u00b0",
+    "70\u00b0",
+    "35\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equal chords subtend equal angles at the centre, so angle COD = 70\u00b0. Triangle OCD is isosceles because OC and OD are radii, so its base angles are (180\u00b0 \u2212 70\u00b0) \u00f7 2 = 55\u00b0. The 70\u00b0 is angle COD itself, not the base angle at C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0051",
+   "topicId": "mm-geometry",
+   "stem": "From a point P outside a circle, one secant meets the circle at A and B with PA = 4 cm and PB = 9 cm. Another meets it at C and D with PC = 3 cm. Find PD.",
+   "imageRef": null,
+   "options": [
+    "10 cm",
+    "27 cm",
+    "12 cm",
+    "6.75 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "For two secants from the same external point, PA \u00d7 PB = PC \u00d7 PD, where each product uses the near and far distances from P. So 4 \u00d7 9 = 3 \u00d7 PD, giving PD = 36 \u00f7 3 = 12 cm. The value 6.75 cm comes from pairing the lengths the wrong way, as PB \u00d7 PC \u00f7 PA, and 27 cm multiplies PB by PC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0052",
+   "topicId": "mm-geometry",
+   "stem": "A tangent from P touches a circle at T. A secant from P cuts the circle at A and then B, with PA = 4 cm and AB = 5 cm. Find PT.",
+   "imageRef": null,
+   "options": [
+    "6 cm",
+    "\u221a20 cm",
+    "36 cm",
+    "4.5 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "The tangent\u2013secant theorem says PT\u00b2 = PA \u00d7 PB, where PB is the whole distance from P to the far point: 4 + 5 = 9 cm. So PT\u00b2 = 4 \u00d7 9 = 36 and PT = 6 cm. Using the chord AB instead of PB gives \u221a20, and 36 is PT\u00b2 before taking the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "mm-geometry-0053",
+   "topicId": "mm-geometry",
+   "stem": "A secant from P passes through a circle at A and then B, with PA = 5 cm and AB = x cm. A tangent from P has length PT = 10 cm. Find x.",
+   "imageRef": null,
+   "options": [
+    "20 cm",
+    "2 cm",
+    "75 cm",
+    "15 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the tangent\u2013secant theorem, PT\u00b2 = PA \u00d7 PB, so 100 = 5 \u00d7 (5 + x). Then 5 + x = 20 and x = 15 cm. The 20 cm is the whole length PB, not the chord AB, and 2 cm comes from dividing 10 by 5 without squaring the tangent.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "mm-geometry-handwritten-20260911",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }

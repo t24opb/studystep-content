@@ -1927,6 +1927,139 @@
    "generationBatch": "maths-space-y10-authored-20260824",
    "reviewStatus": "doubleChecked",
    "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0097",
+   "topicId": "maths-space-y10",
+   "stem": "Which formula is Euler's formula for a convex polyhedron with F faces, V vertices and E edges?",
+   "imageRef": null,
+   "options": [
+    "F + V = E + 2",
+    "F + V = E \u2212 2",
+    "F + E = V + 2",
+    "F \u00d7 V = E + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Euler's formula says faces plus vertices is always two more than the number of edges. A cube checks it: 6 + 8 = 12 + 2. Swapping edges and vertices fails that check, since 6 + 12 is not 8 + 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0098",
+   "topicId": "maths-space-y10",
+   "stem": "How many faces, vertices and edges does a cube have?",
+   "imageRef": null,
+   "options": [
+    "6 faces, 8 vertices, 10 edges",
+    "6 faces, 8 vertices, 12 edges",
+    "6 faces, 12 vertices, 8 edges",
+    "8 faces, 6 vertices, 12 edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "A cube has 6 square faces, 8 corners (vertices) and 12 edges: 4 around the top, 4 around the bottom and 4 upright. Swapping the vertex and edge counts is the usual slip, and Euler's formula catches it, because 6 + 8 = 12 + 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0099",
+   "topicId": "maths-space-y10",
+   "stem": "A pentagonal prism has 7 faces and 10 vertices. Use Euler's formula to find how many edges it has.",
+   "imageRef": null,
+   "options": [
+    "15",
+    "19",
+    "17",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "F + V = E + 2 gives 7 + 10 = E + 2, so E = 15: 5 edges around each pentagon plus 5 joining them. The 19 answer adds 2 instead of subtracting it, and 17 forgets the 2 altogether.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0100",
+   "topicId": "maths-space-y10",
+   "stem": "A convex polyhedron has 12 faces and 30 edges. How many vertices does it have?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "44",
+    "18",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearranging F + V = E + 2 gives V = E + 2 \u2212 F = 30 + 2 \u2212 12 = 20. The 16 answer subtracts the 2 instead of adding it, and 18 leaves the 2 out, giving 30 \u2212 12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0101",
+   "topicId": "maths-space-y10",
+   "stem": "Which set of counts is correct for a hexagonal pyramid?",
+   "imageRef": null,
+   "options": [
+    "8 faces, 12 vertices, 18 edges",
+    "6 faces, 7 vertices, 11 edges",
+    "7 faces, 12 vertices, 18 edges",
+    "7 faces, 7 vertices, 12 edges"
+   ],
+   "correctIndex": 3,
+   "explanation": "A hexagonal pyramid has the hexagon base plus 6 triangles (7 faces), 6 base corners plus the apex (7 vertices), and 6 base edges plus 6 sloping edges (12 edges). The counts 8, 12, 18 belong to a hexagonal prism. The set 6, 7, 11 satisfies Euler's formula (6 + 7 = 11 + 2) but undercounts both faces and edges, so the formula alone cannot prove a set of counts is right.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0102",
+   "topicId": "maths-space-y10",
+   "stem": "Could a convex polyhedron have 6 faces, 10 vertices and 15 edges?",
+   "imageRef": null,
+   "options": [
+    "No, as vertices cannot outnumber faces",
+    "No, because F + V would need to equal 17",
+    "Yes, because F + V is greater than E",
+    "Yes, because there are more edges than faces"
+   ],
+   "correctIndex": 1,
+   "explanation": "Euler's formula needs F + V = E + 2 = 17, but 6 + 10 = 16, so no convex polyhedron has these counts. Vertices can outnumber faces, as in a cube with 8 vertices and 6 faces, so that is not the reason.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "maths-space-y10-0103",
+   "topicId": "maths-space-y10",
+   "stem": "In the K\u00f6nigsberg bridge problem, why is there no walk that crosses each of the seven bridges exactly once?",
+   "imageRef": null,
+   "options": [
+    "The walk would have to finish where it started, and that is not possible",
+    "More than two land areas have an odd number of bridges, so no such walk exists",
+    "There is an odd number of bridges, and an odd number can never all be crossed",
+    "Every land area has an even number of bridges, which blocks a complete walk"
+   ],
+   "correctIndex": 1,
+   "explanation": "As a network, the four land areas are vertices with 5, 3, 3 and 3 bridges, all odd. A walk using every edge once is only possible when zero or two vertices have odd degree, so four odd vertices make it impossible. The walk was never required to return to its start, so that is not the obstacle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "maths-space-y10-authored-20260824",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
   }
  ]
 }
