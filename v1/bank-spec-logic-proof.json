@@ -1,0 +1,822 @@
+{
+ "topicId": "spec-logic-proof",
+ "questions": [
+  {
+   "id": "spec-logic-proof-0001",
+   "topicId": "spec-logic-proof",
+   "stem": "The contrapositive of \u201cIf P, then Q\u201d is:",
+   "imageRef": null,
+   "options": [
+    "If Q, then P",
+    "If not P, then not Q",
+    "If P, then not Q",
+    "If not Q, then not P"
+   ],
+   "correctIndex": 3,
+   "explanation": "The contrapositive swaps the two parts and negates both, and it is logically equivalent to the original. \u201cIf Q, then P\u201d is the converse and \u201cIf not P, then not Q\u201d is the inverse; neither is equivalent to the original.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0002",
+   "topicId": "spec-logic-proof",
+   "stem": "The converse of \u201cIf n is divisible by 6, then n is divisible by 3\u201d is:",
+   "imageRef": null,
+   "options": [
+    "If n is divisible by 3, then n is divisible by 6",
+    "If n is not divisible by 3, then n is not divisible by 6",
+    "If n is not divisible by 6, then n is not divisible by 3",
+    "n is divisible by 6 if and only if n is divisible by 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The converse of \u201cIf P, then Q\u201d is \u201cIf Q, then P\u201d. Here the converse is false (n = 3 is a counter-example) while the original is true. The statement with both parts negated and swapped is the contrapositive, not the converse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0003",
+   "topicId": "spec-logic-proof",
+   "stem": "The negation of \u201cFor all real numbers x, x\u00b2 \u2265 x\u201d is:",
+   "imageRef": null,
+   "options": [
+    "For all real numbers x, x\u00b2 \u2264 x",
+    "There exists a real number x such that x\u00b2 < x",
+    "For all real numbers x, x\u00b2 < x",
+    "There exists a real number x such that x\u00b2 \u2265 x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Negating \u201cfor all\u201d gives \u201cthere exists\u201d, and the inequality is negated: not (x\u00b2 \u2265 x) is x\u00b2 < x. Keeping \u201cfor all\u201d and reversing the inequality makes a much stronger claim than the negation; x = 1/2 shows the negation is true.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0004",
+   "topicId": "spec-logic-proof",
+   "stem": "The statement \u201cP is a sufficient condition for Q\u201d means that:",
+   "imageRef": null,
+   "options": [
+    "P and Q are equivalent",
+    "P implies Q",
+    "Q implies P",
+    "not P implies not Q"
+   ],
+   "correctIndex": 1,
+   "explanation": "A sufficient condition is enough on its own: whenever P holds, Q holds, so P implies Q. \u201cQ implies P\u201d would make P a necessary condition for Q, and equivalence would need both directions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0005",
+   "topicId": "spec-logic-proof",
+   "stem": "A proof by contradiction that \u221a2 is irrational begins by assuming that:",
+   "imageRef": null,
+   "options": [
+    "2 is the square of an even integer",
+    "\u221a2 = a/b, where a and b are both even integers",
+    "\u221a2 = a/b, where a and b are integers with no common factor",
+    "\u221a2 cannot be written as a fraction of two integers"
+   ],
+   "correctIndex": 2,
+   "explanation": "A proof by contradiction assumes the negation of what is to be proved, so it assumes \u221a2 is rational, written in lowest terms. The proof then shows a and b are both even, which contradicts their having no common factor.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0006",
+   "topicId": "spec-logic-proof",
+   "stem": "In a proof by mathematical induction that P(n) is true for all n \u2208 N, the inductive step shows that:",
+   "imageRef": null,
+   "options": [
+    "if P(k) is true, then P(k + 1) is true",
+    "P(k + 1) is true for every k \u2208 N",
+    "P(1) is true",
+    "if P(k + 1) is true, then P(k) is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inductive step proves the implication P(k) \u2192 P(k + 1) for an arbitrary k. Checking P(1) is the base case, a separate step. Proving P(k + 1) outright for every k would be proving the whole result without induction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0007",
+   "topicId": "spec-logic-proof",
+   "stem": "The statement \u201cP if and only if Q\u201d means:",
+   "imageRef": null,
+   "options": [
+    "Q implies P, but P need not imply Q",
+    "P implies Q, and Q implies P",
+    "P implies Q, but Q need not imply P",
+    "P and Q are both true"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u201cIf and only if\u201d joins an implication and its converse: P is both necessary and sufficient for Q. It says P and Q have the same truth value, which can mean both are false.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0008",
+   "topicId": "spec-logic-proof",
+   "stem": "Which value of n proves the statement \u201cThere exists an integer n such that n\u00b2 = 2n\u201d?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22122",
+    "4",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "An existence statement is proved by one example: 2\u00b2 = 4 = 2 \u00d7 2. For n = 1, n\u00b2 = 1 but 2n = 2; for n = \u22122, n\u00b2 = 4 but 2n = \u22124; and for n = 4, 16 \u2260 8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0009",
+   "topicId": "spec-logic-proof",
+   "stem": "In mathematics, a conjecture is:",
+   "imageRef": null,
+   "options": [
+    "a statement that has been proved from axioms",
+    "a statement accepted without proof as a starting point",
+    "an example that shows a general statement is false",
+    "a statement put forward to be proved or disproved"
+   ],
+   "correctIndex": 3,
+   "explanation": "A conjecture is a claim that has not yet been settled. A proved statement is a theorem, a statement accepted without proof is an axiom, and a single example showing a statement fails is a counter-example.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0010",
+   "topicId": "spec-logic-proof",
+   "stem": "To prove that n(n + 1) is even for every integer n, a student treats n even and n odd separately. This method is:",
+   "imageRef": null,
+   "options": [
+    "proof by cases",
+    "proof by contrapositive",
+    "proof by contradiction",
+    "proof by mathematical induction"
+   ],
+   "correctIndex": 0,
+   "explanation": "Splitting into cases that together cover every integer is proof by cases. If n = 2m, then n(n + 1) = 2m(2m + 1); if n = 2m + 1, then n(n + 1) = (2m + 1)(2m + 2) = 2(2m + 1)(m + 1). Both are even.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0011",
+   "topicId": "spec-logic-proof",
+   "stem": "In a proof by contradiction of a statement P, the student:",
+   "imageRef": null,
+   "options": [
+    "finds one example for which P fails",
+    "assumes not P and deduces something known to be false",
+    "assumes P and deduces something known to be true",
+    "assumes the conclusion is false and deduces the hypothesis is false"
+   ],
+   "correctIndex": 1,
+   "explanation": "Proof by contradiction assumes the statement is false and reasons to an impossibility, so the assumption must be wrong. Assuming the conclusion false and deducing the hypothesis false is proof by contrapositive, and a single failing example disproves a statement rather than proving it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0012",
+   "topicId": "spec-logic-proof",
+   "stem": "Which formula for 1\u00b2 + 2\u00b2 + 3\u00b2 + \u2026 + n\u00b2 can be proved by mathematical induction?",
+   "imageRef": null,
+   "options": [
+    "n(n + 1)(2n + 1)/6",
+    "n(n + 1)/2",
+    "n\u00b2(n + 1)\u00b2/4",
+    "n(n + 1)(n + 2)/6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Only a true formula can be proved. Checking n = 2: 1 + 4 = 5, and 2 \u00d7 3 \u00d7 5/6 = 5. The formula n(n + 1)/2 sums 1 + 2 + \u2026 + n, n\u00b2(n + 1)\u00b2/4 sums the cubes, and n(n + 1)(n + 2)/6 gives 4 at n = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0013",
+   "topicId": "spec-logic-proof",
+   "stem": "If m = 2a + 1 and n = 2b + 1 for integers a and b, a direct proof that mn is odd writes mn as:",
+   "imageRef": null,
+   "options": [
+    "2(ab + a + b) + 1",
+    "4ab + 1",
+    "2(2ab + a + b)",
+    "2(2ab + a + b) + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives mn = 4ab + 2a + 2b + 1 = 2(2ab + a + b) + 1, which is one more than an even number. Writing 4ab + 1 drops the cross terms 2a and 2b.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0014",
+   "topicId": "spec-logic-proof",
+   "stem": "The sum \u2211(2k \u2212 1), from k = 1 to k = 5, equals:",
+   "imageRef": null,
+   "options": [
+    "25",
+    "29",
+    "36",
+    "16"
+   ],
+   "correctIndex": 0,
+   "explanation": "The terms are 1 + 3 + 5 + 7 + 9 = 25, which is 5\u00b2. Subtracting 1 only once from 2(1 + 2 + 3 + 4 + 5) = 30 gives 29, and 36 and 16 come from stopping at the wrong term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0015",
+   "topicId": "spec-logic-proof",
+   "stem": "To prove \u201cIf 3n + 2 is odd, then n is odd\u201d by contrapositive, a student proves:",
+   "imageRef": null,
+   "options": [
+    "If n is even, then 3n + 2 is odd",
+    "If n is even, then 3n + 2 is even",
+    "If n is odd, then 3n + 2 is odd",
+    "If 3n + 2 is even, then n is even"
+   ],
+   "correctIndex": 1,
+   "explanation": "The contrapositive of \u201cif P then Q\u201d is \u201cif not Q then not P\u201d: if n is not odd, then 3n + 2 is not odd. With n = 2m, 3n + 2 = 2(3m + 1), which is even. \u201cIf n is odd, then 3n + 2 is odd\u201d is the converse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0016",
+   "topicId": "spec-logic-proof",
+   "stem": "The statement \u201cIf x > 2, then x\u00b2 > 4\u201d is true for real x. Which value of x is a counter-example to its converse?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "3",
+    "2",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "The converse is \u201cIf x\u00b2 > 4, then x > 2\u201d. For x = \u22123, x\u00b2 = 9 > 4 but x is not greater than 2. For x = 2 and x = \u22121 the hypothesis x\u00b2 > 4 is false, so they cannot be counter-examples.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0017",
+   "topicId": "spec-logic-proof",
+   "stem": "Which statement is logically equivalent to \u201cIf a quadrilateral is a square, then its diagonals are equal in length\u201d?",
+   "imageRef": null,
+   "options": [
+    "If a quadrilateral is not a square, its diagonals are not equal",
+    "A quadrilateral is a square exactly when its diagonals are equal",
+    "If its diagonals are not equal, a quadrilateral is not a square",
+    "If its diagonals are equal, a quadrilateral is a square"
+   ],
+   "correctIndex": 2,
+   "explanation": "Only the contrapositive is equivalent to an implication. The converse and the inverse are both false here, since a rectangle that is not a square has equal diagonals.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0018",
+   "topicId": "spec-logic-proof",
+   "stem": "Which statement about real numbers x is true?",
+   "imageRef": null,
+   "options": [
+    "x = 3 is a necessary and sufficient condition for x\u00b2 = 9",
+    "x = 3 is neither necessary nor sufficient for x\u00b2 = 9",
+    "x = 3 is a sufficient but not necessary condition for x\u00b2 = 9",
+    "x = 3 is a necessary but not sufficient condition for x\u00b2 = 9"
+   ],
+   "correctIndex": 2,
+   "explanation": "If x = 3 then x\u00b2 = 9, so the condition is sufficient. It is not necessary, because x = \u22123 also gives x\u00b2 = 9. Necessary and sufficient would need x\u00b2 = 9 to force x = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0019",
+   "topicId": "spec-logic-proof",
+   "stem": "The negation of \u201cFor all integers n, if n is prime, then n is odd\u201d is:",
+   "imageRef": null,
+   "options": [
+    "For all integers n, if n is prime, then n is even",
+    "There exists an integer n that is not prime and is odd",
+    "For all integers n, if n is not prime, then n is even",
+    "There exists a prime integer n that is even"
+   ],
+   "correctIndex": 3,
+   "explanation": "The negation of \u201cfor all n, P implies Q\u201d is \u201cthere exists n with P and not Q\u201d: a prime that is not odd. This negation is true (n = 2), so the original statement is false. Swapping \u201codd\u201d for \u201ceven\u201d inside the \u201cfor all\u201d is not a negation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0020",
+   "topicId": "spec-logic-proof",
+   "stem": "The negation of \u201cThere exists x \u2208 R such that x\u00b2 + 1 = 0\u201d is:",
+   "imageRef": null,
+   "options": [
+    "There exists x \u2208 R such that x\u00b2 + 1 \u2260 0",
+    "For all x \u2208 R, x\u00b2 + 1 = 0",
+    "There exists no x \u2208 C such that x\u00b2 + 1 = 0",
+    "For all x \u2208 R, x\u00b2 + 1 \u2260 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Negating \u201cthere exists\u201d gives \u201cfor all\u201d, and the equation becomes \u2260. The negation is true, since x\u00b2 + 1 \u2265 1 for real x. The last statement changes the set to C, where x = i is a solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0021",
+   "topicId": "spec-logic-proof",
+   "stem": "A student will prove that 2^n > n\u00b2 for all integers n \u2265 5 by mathematical induction. The base case checks:",
+   "imageRef": null,
+   "options": [
+    "n = 5: 32 > 25",
+    "n = 1: 2 > 1",
+    "n = 4: 16 > 16",
+    "n = 0: 1 > 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The base case is the first value in the claimed range, n = 5, where 2\u2075 = 32 > 25. The inequality is false at n = 2, 3 and 4 (for example 16 > 16 fails), so starting from n = 1 would not lead to a valid proof.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0022",
+   "topicId": "spec-logic-proof",
+   "stem": "In proving 1 + 3 + 5 + \u2026 + (2n \u2212 1) = n\u00b2 by induction, a student assumes the result for n = k. The inductive step must show that k\u00b2 + (2k + 1) equals:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)\u00b2",
+    "k\u00b2 + 1",
+    "(2k + 1)\u00b2",
+    "(k + 1)\u00b2 \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The next odd number after 2k \u2212 1 is 2(k + 1) \u2212 1 = 2k + 1, and the target is the formula with n = k + 1, which is (k + 1)\u00b2. Indeed k\u00b2 + 2k + 1 = (k + 1)\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0023",
+   "topicId": "spec-logic-proof",
+   "stem": "To prove 5^n \u2212 1 is divisible by 4 for all n \u2208 N, a student assumes 5^k \u2212 1 = 4m for an integer m. Then 5^(k + 1) \u2212 1 equals:",
+   "imageRef": null,
+   "options": [
+    "4(5m) + 5",
+    "5(4m) \u2212 1",
+    "4m + 5",
+    "4(5m + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "5^(k + 1) \u2212 1 = 5 \u00d7 5^k \u2212 1 = 5(4m + 1) \u2212 1 = 20m + 4 = 4(5m + 1), a multiple of 4. Writing 5(4m) \u2212 1 replaces 5^k with 4m and loses the +1 from 5^k = 4m + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0024",
+   "topicId": "spec-logic-proof",
+   "stem": "A student proves \u201cIf mn is even, then m is even or n is even\u201d by assuming m and n are both odd and showing mn is odd. This is a proof by:",
+   "imageRef": null,
+   "options": [
+    "contradiction",
+    "cases",
+    "counter-example",
+    "contrapositive"
+   ],
+   "correctIndex": 3,
+   "explanation": "The negation of \u201cm is even or n is even\u201d is \u201cm and n are both odd\u201d, and the negation of \u201cmn is even\u201d is \u201cmn is odd\u201d. Proving not Q implies not P is proof by contrapositive. A contradiction proof would also assume mn is even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0025",
+   "topicId": "spec-logic-proof",
+   "stem": "A direct proof that a\u00b2 + b\u00b2 \u2265 2ab for all real numbers a and b starts from which true statement?",
+   "imageRef": null,
+   "options": [
+    "(a + b)\u00b2 \u2265 0",
+    "a\u00b2 \u2265 0 and b\u00b2 \u2265 0",
+    "a + b \u2265 2\u221a(ab)",
+    "(a \u2212 b)\u00b2 \u2265 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding (a \u2212 b)\u00b2 \u2265 0 gives a\u00b2 \u2212 2ab + b\u00b2 \u2265 0, which rearranges to the result. (a + b)\u00b2 \u2265 0 only gives a\u00b2 + b\u00b2 \u2265 \u22122ab, and a + b \u2265 2\u221a(ab) is not even defined when ab < 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0026",
+   "topicId": "spec-logic-proof",
+   "stem": "Let S(n) = 1/(1 \u00d7 2) + 1/(2 \u00d7 3) + \u2026 + 1/(n(n + 1)). From S(1), S(2) and S(3), the formula for S(n) to prove by induction is:",
+   "imageRef": null,
+   "options": [
+    "n/(n + 1)",
+    "(n + 1)/(n + 2)",
+    "1/(n + 1)",
+    "n/(n + 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "S(1) = 1/2, S(2) = 1/2 + 1/6 = 2/3 and S(3) = 2/3 + 1/12 = 3/4, matching n/(n + 1). The formula 1/(n + 1) fits n = 1 but gives 1/3 at n = 2, which shows why one case is not enough.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0027",
+   "topicId": "spec-logic-proof",
+   "stem": "A student conjectures that |z + w| = |z| + |w| for all complex numbers z and w. Which pair is a counter-example?",
+   "imageRef": null,
+   "options": [
+    "z = i, w = 2i",
+    "z = 0, w = 1 + i",
+    "z = 1, w = \u22121",
+    "z = 1, w = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "For z = 1 and w = \u22121, |z + w| = 0 but |z| + |w| = 2. In the other pairs one number is a positive real multiple of the other (or zero), so the moduli add exactly and the equation holds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0028",
+   "topicId": "spec-logic-proof",
+   "stem": "Conjecture: if f\u2032(a) = 0, then f has a local maximum or a local minimum at x = a. Which function is a counter-example at a = 0?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b3 + x",
+    "f(x) = x\u00b3",
+    "f(x) = x\u00b2",
+    "f(x) = \u2212x\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(x) = x\u00b3 has f\u2032(0) = 0 but a stationary point of inflection at the origin, so the conjecture fails. For x\u00b3 + x, f\u2032(0) = 1, so the hypothesis is false and it cannot be a counter-example.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0029",
+   "topicId": "spec-logic-proof",
+   "stem": "A student checks that n\u00b2 \u2212 n + 11 is prime for n = 1, 2, \u2026, 10 and concludes that it is prime for all n \u2208 N. Which comment is correct?",
+   "imageRef": null,
+   "options": [
+    "It is false, since n = 5 gives 31, which is composite",
+    "It is true for odd n only, since even n give even values",
+    "It is false, since n = 11 gives 121 = 11\u00b2",
+    "It is true, since ten checked cases establish it"
+   ],
+   "correctIndex": 2,
+   "explanation": "At n = 11 the value is 121 \u2212 11 + 11 = 121 = 11\u00b2, so one counter-example disproves the claim. Checking cases never proves a \u201cfor all\u201d statement, however many are checked; 31 is prime and every value of n\u00b2 \u2212 n + 11 is odd.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0030",
+   "topicId": "spec-logic-proof",
+   "stem": "For a function f and a real number a, how are \u201cf is differentiable at x = a\u201d and \u201cf is continuous at x = a\u201d related?",
+   "imageRef": null,
+   "options": [
+    "Each implies the other",
+    "Neither implies the other",
+    "Differentiable implies continuous, but not conversely",
+    "Continuous implies differentiable, but not conversely"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every function differentiable at a point is continuous there. The converse fails: f(x) = |x| is continuous at x = 0 but has no derivative there, so the two conditions are not equivalent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0031",
+   "topicId": "spec-logic-proof",
+   "stem": "To prove that n\u00b2 leaves remainder 0 or 1 when divided by 4, the most natural cases to consider are:",
+   "imageRef": null,
+   "options": [
+    "n even and n odd",
+    "n prime and n composite",
+    "n positive and n negative",
+    "n < 4 and n \u2265 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "If n = 2m then n\u00b2 = 4m\u00b2, remainder 0; if n = 2m + 1 then n\u00b2 = 4(m\u00b2 + m) + 1, remainder 1. Splitting by sign or size does not give a form that can be squared and divided by 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0032",
+   "topicId": "spec-logic-proof",
+   "stem": "A student argues: \u201cIf n is divisible by 4, then n is even. The number 6 is even, so 6 is divisible by 4.\u201d The error is:",
+   "imageRef": null,
+   "options": [
+    "using a single example in place of a proof",
+    "assuming the converse of a true implication",
+    "assuming the contrapositive of a true implication",
+    "assuming the negation of a true implication"
+   ],
+   "correctIndex": 1,
+   "explanation": "The argument uses \u201cif n is even, then n is divisible by 4\u201d, the converse, which is false. The contrapositive (if n is odd, it is not divisible by 4) is a valid deduction, so using it would not be an error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0033",
+   "topicId": "spec-logic-proof",
+   "stem": "In the proof that \u221a3 is irrational, assume \u221a3 = a/b in lowest terms, so a\u00b2 = 3b\u00b2. Which contradiction does the proof reach?",
+   "imageRef": null,
+   "options": [
+    "a and b are both multiples of 3",
+    "a and b are both even",
+    "b\u00b2 = 3a\u00b2",
+    "a = 3 and b = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "From a\u00b2 = 3b\u00b2, 3 divides a\u00b2, so 3 divides a. Writing a = 3c gives 9c\u00b2 = 3b\u00b2, so b\u00b2 = 3c\u00b2 and 3 divides b. Then a and b share the factor 3, contradicting lowest terms. Evenness is the argument for \u221a2, not \u221a3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0034",
+   "topicId": "spec-logic-proof",
+   "stem": "For an integer n, the condition \u201cn is divisible by 2\u201d is ___ for \u201cn is divisible by 4\u201d.",
+   "imageRef": null,
+   "options": [
+    "sufficient but not necessary",
+    "both necessary and sufficient",
+    "neither necessary nor sufficient",
+    "necessary but not sufficient"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every multiple of 4 is even, so being even is necessary for divisibility by 4. It is not sufficient, because 6 is even but not divisible by 4. Students often swap the words: the sufficient condition is the one that implies the other.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0035",
+   "topicId": "spec-logic-proof",
+   "stem": "Euclid\u2019s proof assumes there are finitely many primes, multiplies them all together and adds 1 to get N. Why is this a contradiction?",
+   "imageRef": null,
+   "options": [
+    "N leaves remainder 1 on division by each listed prime, yet N has a prime factor",
+    "N is always itself a prime, and it is not on the list",
+    "N is even, so it is divisible by 2 and by no other prime",
+    "N is larger than every listed prime, so N must be prime"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every integer greater than 1 has a prime factor, but none of the listed primes divides N, so the list was incomplete. N need not be prime itself: 2 \u00d7 3 \u00d7 5 \u00d7 7 \u00d7 11 \u00d7 13 + 1 = 30 031 = 59 \u00d7 509.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0036",
+   "topicId": "spec-logic-proof",
+   "stem": "Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "For every real x, x\u00b2 > 0",
+    "There exists a real x such that x\u00b2 < 0",
+    "For every real x, there exists a real y such that y > x\u00b2",
+    "There exists a real y such that, for every real x, y > x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Given any x, take y = x\u00b2 + 1. Swapping the quantifiers asks for one y that beats every x\u00b2, which fails because x\u00b2 is unbounded. The statement x\u00b2 > 0 fails at x = 0, and no real square is negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0037",
+   "topicId": "spec-logic-proof",
+   "stem": "For n \u2265 2, the partial product (1 \u2212 1/2\u00b2)(1 \u2212 1/3\u00b2)(1 \u2212 1/4\u00b2) \u2026 (1 \u2212 1/n\u00b2) equals:",
+   "imageRef": null,
+   "options": [
+    "1/n",
+    "(n + 1)/n",
+    "(n + 1)/(2n)",
+    "(n \u2212 1)/n"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each factor is (k \u2212 1)(k + 1)/k\u00b2, and the product telescopes to (1/n) \u00d7 ((n + 1)/2) = (n + 1)/(2n). Check n = 2: 3/4; n = 3: 3/4 \u00d7 8/9 = 2/3 = 4/6. The formula (n \u2212 1)/n gives 1/2 at n = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0038",
+   "topicId": "spec-logic-proof",
+   "stem": "The largest integer that divides n\u00b3 \u2212 n for every integer n is:",
+   "imageRef": null,
+   "options": [
+    "24",
+    "6",
+    "3",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "n\u00b3 \u2212 n = (n \u2212 1)n(n + 1) is a product of three consecutive integers, so it contains a multiple of 2 and a multiple of 3, and 6 divides it. At n = 2 the value is 6, so no larger integer always divides it; 2 and 3 divide it but are not the largest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0039",
+   "topicId": "spec-logic-proof",
+   "stem": "A student \u201cproves\u201d by induction that n\u00b2 + n + 1 is even for all n \u2208 N. The inductive step, from k to k + 1, is correct. What is wrong?",
+   "imageRef": null,
+   "options": [
+    "The inductive step should show that P(k \u2212 1) implies P(k)",
+    "The base case fails, since 1\u00b2 + 1 + 1 = 3 is odd",
+    "The inductive step must assume the result for all n \u2264 k",
+    "Induction cannot be used for statements about parity"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding 2k + 2 to an even number gives an even number, so the step is valid, but the statement never starts: n\u00b2 + n + 1 = n(n + 1) + 1 is always odd. Both the base case and the inductive step are needed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0040",
+   "topicId": "spec-logic-proof",
+   "stem": "To prove that log\u2082(3) is irrational, a student assumes log\u2082(3) = p/q for positive integers p and q. This leads to:",
+   "imageRef": null,
+   "options": [
+    "p = 3q/2, so p cannot be an integer",
+    "2^q = 3^p, but one side is even and the other is odd",
+    "2^p = 3^q, but one side is even and the other is odd",
+    "3^p = 2^q, but one side is odd and the other is even"
+   ],
+   "correctIndex": 2,
+   "explanation": "From 2^(p/q) = 3, raise both sides to the power q to get 2^p = 3^q. With p \u2265 1 the left side is even, while every power of 3 is odd. Writing 3^p = 2^q or 2^q = 3^p puts the indices on the wrong bases.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0041",
+   "topicId": "spec-logic-proof",
+   "stem": "Which \u201cif and only if\u201d statement about integers n is true?",
+   "imageRef": null,
+   "options": [
+    "n is divisible by 4 if and only if n\u00b2 is divisible by 4",
+    "n > 1 if and only if n\u00b2 > 1",
+    "n is divisible by 6 if and only if n is divisible by 3",
+    "n is odd if and only if n\u00b2 is odd"
+   ],
+   "correctIndex": 3,
+   "explanation": "Odd times odd is odd, and if n is even then n\u00b2 is even, so both directions hold. Each of the others fails in one direction: n = 2 gives n\u00b2 = 4, n = \u22122 gives n\u00b2 > 1, and n = 3 is divisible by 3 but not 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0042",
+   "topicId": "spec-logic-proof",
+   "stem": "The negation of \u201cFor every \u03b5 > 0, there exists n \u2208 N such that 1/n < \u03b5\u201d is:",
+   "imageRef": null,
+   "options": [
+    "There exists \u03b5 > 0 such that, for all n \u2208 N, 1/n \u2265 \u03b5",
+    "For every \u03b5 > 0 and every n \u2208 N, 1/n \u2265 \u03b5",
+    "There exist \u03b5 > 0 and n \u2208 N such that 1/n \u2265 \u03b5",
+    "For every \u03b5 \u2264 0, there exists n \u2208 N such that 1/n \u2265 \u03b5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each quantifier flips, \u201cfor every\u201d to \u201cthere exists\u201d and back, and the final inequality is negated. The condition \u03b5 > 0 restricts the variable and stays as it is; changing it to \u03b5 \u2264 0 is a common slip.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-logic-proof-0043",
+   "topicId": "spec-logic-proof",
+   "stem": "A student proves that P(1) is true and that P(k) implies P(k + 2) for every k \u2208 N. Which conclusion follows?",
+   "imageRef": null,
+   "options": [
+    "P(n) is true for every natural number n",
+    "P(n) is true for every even natural number n",
+    "P(n) is true for n = 1 and n = 3 only",
+    "P(n) is true for every odd natural number n"
+   ],
+   "correctIndex": 3,
+   "explanation": "From P(1) the step gives P(3), then P(5), and so on through every odd number. Nothing reaches P(2), so the even cases need a second base case. The chain does not stop at 3, because the step applies for every k.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-logic-proof-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

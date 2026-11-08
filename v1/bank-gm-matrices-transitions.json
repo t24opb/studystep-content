@@ -1,0 +1,841 @@
+{
+ "topicId": "gm-matrices-transitions",
+ "questions": [
+  {
+   "id": "gm-matrices-transitions-0001",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A matrix has 3 rows and 2 columns. Its order is:",
+   "imageRef": null,
+   "options": [
+    "6 \u00d7 1",
+    "5",
+    "3 \u00d7 2",
+    "2 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The order is written as rows \u00d7 columns, so 3 rows and 2 columns gives 3 \u00d7 2. A 2 \u00d7 3 matrix has 2 rows and 3 columns.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0002",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A symmetric matrix is a square matrix that:",
+   "imageRef": null,
+   "options": [
+    "has non-zero elements only on its leading diagonal",
+    "is equal to its own transpose",
+    "has only zeros below its leading diagonal",
+    "has every element equal to 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a symmetric matrix the element in row i, column j equals the element in row j, column i, so swapping rows and columns changes nothing. Zeros below the diagonal describe an upper triangular matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0003",
+   "topicId": "gm-matrices-transitions",
+   "stem": "An identity matrix is a square matrix with:",
+   "imageRef": null,
+   "options": [
+    "exactly one 1 in each row, in any position",
+    "1s on the leading diagonal and 0s everywhere else",
+    "1s in every position of the matrix",
+    "0s on the leading diagonal and 1s everywhere else"
+   ],
+   "correctIndex": 1,
+   "explanation": "The identity matrix I has 1s down the leading diagonal and 0s elsewhere, and AI = IA = A. A matrix with exactly one 1 in each row and column, in any position, is a permutation matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0004",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A square matrix has an inverse if and only if:",
+   "imageRef": null,
+   "options": [
+    "its determinant is equal to zero",
+    "it is a symmetric matrix",
+    "all of its elements are positive",
+    "its determinant is not zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "The inverse of a 2 \u00d7 2 matrix involves dividing by the determinant, so it exists only when the determinant is non-zero. Many non-symmetric matrices have inverses.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0005",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A permutation matrix is a square binary matrix with:",
+   "imageRef": null,
+   "options": [
+    "a 1 in every position on the leading diagonal",
+    "at least one 1 in each row of the matrix",
+    "equal numbers of 1s and 0s in the matrix",
+    "exactly one 1 in each row and each column"
+   ],
+   "correctIndex": 3,
+   "explanation": "A permutation matrix has a single 1 in every row and every column and 0s elsewhere, so multiplying by it reorders rows or columns. The identity is one example, but not the only one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0006",
+   "topicId": "gm-matrices-transitions",
+   "stem": "For the product AB of two matrices to be defined:",
+   "imageRef": null,
+   "options": [
+    "A and B must both be square matrices of the same order",
+    "the number of rows of A must equal the number of columns of B",
+    "the number of columns of A must equal the number of rows of B",
+    "the number of rows of A must equal the number of rows of B"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each element of AB pairs a row of A with a column of B, so they must have the same length. Matrices of different orders, such as 2 \u00d7 3 and 3 \u00d7 4, can still be multiplied.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0007",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a transition matrix where each column is a current state and each row is the next state, each column adds to:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "100",
+    "the number of states",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each column lists where everything in one state goes next, so its proportions must account for the whole state and add to 1 (100%).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0008",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A transition matrix T is regular if:",
+   "imageRef": null,
+   "options": [
+    "T is a symmetric matrix",
+    "T is equal to its own inverse",
+    "some power of T has only positive elements",
+    "every column of T contains at least one 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A regular transition matrix has a power with no zero elements, and regular matrices lead to an equilibrium state. A matrix whose powers always keep a zero element is not regular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0009",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a Leslie matrix for a population divided into age groups, the top row contains:",
+   "imageRef": null,
+   "options": [
+    "the birth rates of each age group",
+    "the survival rates of each age group",
+    "the number in each age group",
+    "the death rates of each age group"
+   ],
+   "correctIndex": 0,
+   "explanation": "The top row of a Leslie matrix gives the average number of offspring per individual in each age group. The survival rates sit just below the leading diagonal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0010",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a communication matrix, an element of 1 in row A, column B means that:",
+   "imageRef": null,
+   "options": [
+    "B can send a message directly to A",
+    "A can send a message directly to B",
+    "A can send a message to B through one other person",
+    "A and B cannot communicate at all"
+   ],
+   "correctIndex": 1,
+   "explanation": "A one-step communication matrix records direct links from the row person to the column person. Two-step links, through one other person, are counted by the square of the matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0011",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A matrix with zeros below the leading diagonal and any values on or above it is:",
+   "imageRef": null,
+   "options": [
+    "lower triangular",
+    "diagonal",
+    "symmetric",
+    "upper triangular"
+   ],
+   "correctIndex": 3,
+   "explanation": "Zeros below the leading diagonal leave the non-zero values in the upper triangle, so it is upper triangular. A diagonal matrix has zeros both above and below the diagonal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0012",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The equilibrium (steady) state of a transition model is recognised when:",
+   "imageRef": null,
+   "options": [
+    "successive state matrices show no noticeable change",
+    "every element of the state matrix equals zero",
+    "the state matrix becomes the identity matrix",
+    "the transition matrix becomes a zero matrix"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a regular transition matrix, repeated steps settle down so that S(n + 1) is essentially the same as S(n). The transition matrix itself never changes.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0013",
+   "topicId": "gm-matrices-transitions",
+   "stem": "Matrix A has order 2 \u00d7 3 and matrix B has order 3 \u00d7 4. The order of AB is:",
+   "imageRef": null,
+   "options": [
+    "4 \u00d7 2",
+    "2 \u00d7 3",
+    "2 \u00d7 4",
+    "3 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inner dimensions (3 and 3) match, so AB exists, and its order comes from the outer dimensions: 2 \u00d7 4. BA is not defined, because B has 4 columns and A has 2 rows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0014",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The determinant of the matrix [4 3; 2 5] (rows separated by semicolons) is:",
+   "imageRef": null,
+   "options": [
+    "26",
+    "\u221214",
+    "2",
+    "14"
+   ],
+   "correctIndex": 3,
+   "explanation": "For [a b; c d] the determinant is ad \u2212 bc = 4 \u00d7 5 \u2212 3 \u00d7 2 = 20 \u2212 6 = 14. Adding the products gives 26.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0015",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The inverse of the matrix [3 1; 5 2] (rows separated by semicolons) is:",
+   "imageRef": null,
+   "options": [
+    "[3 \u22121; \u22125 2]",
+    "[2 \u22121; \u22125 3]",
+    "[\u22122 1; 5 \u22123]",
+    "[2 1; 5 3]"
+   ],
+   "correctIndex": 1,
+   "explanation": "The determinant is 3 \u00d7 2 \u2212 1 \u00d7 5 = 1. Swap the leading diagonal, negate the other two elements and divide by 1: [2 \u22121; \u22125 3]. Forgetting to swap the diagonal gives [3 \u22121; \u22125 2].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0016",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The matrix [k 4; 3 6] (rows separated by semicolons) has no inverse when k equals:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "8",
+    "\u22122",
+    "4.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "No inverse exists when the determinant is zero: 6k \u2212 4 \u00d7 3 = 0, so 6k = 12 and k = 2. k = 4.5 sets 4k \u2212 18 = 0, using the wrong diagonal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0017",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A 2 \u00d7 2 matrix A has elements given by the rule a(i, j) = 2i \u2212 j, where i is the row and j is the column. Matrix A is:",
+   "imageRef": null,
+   "options": [
+    "[1 0; 3 2]",
+    "[1 3; 0 2]",
+    "[1 0; 2 3]",
+    "[0 1; 2 3]"
+   ],
+   "correctIndex": 0,
+   "explanation": "a(1, 1) = 1, a(1, 2) = 0, a(2, 1) = 3 and a(2, 2) = 2, so the rows are 1 0 and 3 2. Swapping i and j gives the transpose, [1 3; 0 2].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0018",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The product [1 2; 3 0] \u00d7 [2; 1] (rows separated by semicolons) is:",
+   "imageRef": null,
+   "options": [
+    "[4; 6]",
+    "[2 2; 6 0]",
+    "[5; 3]",
+    "[4 6]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 1: 1 \u00d7 2 + 2 \u00d7 1 = 4. Row 2: 3 \u00d7 2 + 0 \u00d7 1 = 6. A 2 \u00d7 2 matrix times a 2 \u00d7 1 matrix gives a 2 \u00d7 1 column matrix, not a row matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0019",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A = [3 1; 0 2] and B = [1 4; 2 1] (rows separated by semicolons). The matrix 2A \u2212 B is:",
+   "imageRef": null,
+   "options": [
+    "[5 \u22123; \u22122 1]",
+    "[4 \u22122; \u22122 3]",
+    "[7 6; 2 5]",
+    "[5 \u22122; \u22122 3]"
+   ],
+   "correctIndex": 3,
+   "explanation": "2A = [6 2; 0 4], and subtracting B element by element gives [6 \u2212 1  2 \u2212 4; 0 \u2212 2  4 \u2212 1] = [5 \u22122; \u22122 3]. [7 6; 2 5] adds B instead of subtracting it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0020",
+   "topicId": "gm-matrices-transitions",
+   "stem": "For A = [1 1; 0 1] (rows separated by semicolons), the matrix A\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "[1 2; 0 1]",
+    "[1 1; 0 1]",
+    "[2 2; 0 2]",
+    "[1 1; 0 2]"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u00b2 = A \u00d7 A: row 1 gives 1 \u00d7 1 + 1 \u00d7 0 = 1 and 1 \u00d7 1 + 1 \u00d7 1 = 2; row 2 gives 0 and 1. Doubling every element, to get [2 2; 0 2], is 2A, not A\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0021",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A stall sells pies at $3, sausage rolls at $5 and drinks at $2. It sells 10 pies, 4 sausage rolls and 6 drinks. The product [3 5 2] \u00d7 [10; 4; 6] gives the total takings, which are:",
+   "imageRef": null,
+   "options": [
+    "$114",
+    "$62",
+    "$20",
+    "$10"
+   ],
+   "correctIndex": 1,
+   "explanation": "The row matrix of prices times the column matrix of quantities is 3 \u00d7 10 + 5 \u00d7 4 + 2 \u00d7 6 = 30 + 20 + 12 = $62. Adding the prices and the quantities separately gives meaningless totals.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0022",
+   "topicId": "gm-matrices-transitions",
+   "stem": "P = [0 1 0; 0 0 1; 1 0 0] (rows separated by semicolons). The product P \u00d7 [A; B; C] is:",
+   "imageRef": null,
+   "options": [
+    "[C; A; B]",
+    "[A; B; C]",
+    "[B; A; C]",
+    "[B; C; A]"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row 1 of P picks the second element, row 2 picks the third and row 3 picks the first, giving B, C, A. A permutation matrix only rearranges the elements.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0023",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In the square of a communication matrix, C\u00b2, the element in row 1, column 3 is 2. This means that person 1 can send a message to person 3:",
+   "imageRef": null,
+   "options": [
+    "in two ways, each through exactly one other person",
+    "directly, in two different ways",
+    "in two ways, each through exactly two other people",
+    "in one way, through exactly two other people"
+   ],
+   "correctIndex": 0,
+   "explanation": "C\u00b2 counts two-step links, so there are two different routes from person 1 to person 3 that pass through one intermediary. Direct links are counted in C itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0024",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a dominance matrix D for a round-robin tournament, the row sums of D give:",
+   "imageRef": null,
+   "options": [
+    "the total number of matches played by everyone",
+    "the number of one-step dominances of each player",
+    "the number of matches lost by each player",
+    "the number of two-step dominances of each player"
+   ],
+   "correctIndex": 1,
+   "explanation": "A 1 in row X, column Y shows X defeated Y, so each row sum counts a player\u2019s direct wins, the one-step dominances. Two-step dominances are given by the row sums of D\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0025",
+   "topicId": "gm-matrices-transitions",
+   "stem": "Of the people who shop at store X this week, 90% shop at X next week and the rest go to Y. Of those at Y, 40% move to X. With columns as this week (X, Y), the transition matrix is:",
+   "imageRef": null,
+   "options": [
+    "[0.9 0.6; 0.1 0.4]",
+    "[0.1 0.4; 0.9 0.6]",
+    "[0.9 0.4; 0.1 0.6]",
+    "[0.9 0.1; 0.4 0.6]"
+   ],
+   "correctIndex": 2,
+   "explanation": "Column X holds 0.9 staying and 0.1 leaving; column Y holds 0.4 moving to X and 0.6 staying. Writing the X proportions across a row gives [0.9 0.1; 0.4 0.6], whose columns do not add to 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0026",
+   "topicId": "gm-matrices-transitions",
+   "stem": "T = [0.9 0.4; 0.1 0.6] and S(0) = [500; 500] (rows separated by semicolons). Using S(n + 1) = T \u00d7 S(n), the state matrix S(1) is:",
+   "imageRef": null,
+   "options": [
+    "[650; 350]",
+    "[500; 500]",
+    "[350; 650]",
+    "[450; 300]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 1: 0.9 \u00d7 500 + 0.4 \u00d7 500 = 650. Row 2: 0.1 \u00d7 500 + 0.6 \u00d7 500 = 350. [450; 300] keeps only the people who stay put.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0027",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In the transition matrix T = [0.7 0.4; 0.3 0.6], with columns as this week and rows as next week (states X, Y), the element 0.3 means that:",
+   "imageRef": null,
+   "options": [
+    "30% of those in Y this week are in X next week",
+    "30% of those in X this week stay in X next week",
+    "30% of everyone is in Y next week",
+    "30% of those in X this week are in Y next week"
+   ],
+   "correctIndex": 3,
+   "explanation": "The element sits in column X (this week) and row Y (next week), so it is the proportion moving from X to Y. The move from Y to X is the 0.4 in row X, column Y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0028",
+   "topicId": "gm-matrices-transitions",
+   "stem": "An insect population is modelled by S(n + 1) = L \u00d7 S(n), with L = [0 0 20; 0.1 0 0; 0 0.5 0] and S(0) = [1000; 200; 50] for eggs, juveniles and adults. After one step, the number of adults is:",
+   "imageRef": null,
+   "options": [
+    "100",
+    "25",
+    "50",
+    "1000"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 3 of L gives adults = 0.5 \u00d7 juveniles = 0.5 \u00d7 200 = 100. Applying 0.5 to the 50 current adults, to get 25, uses the wrong age group.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0029",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a Leslie matrix, the element 0.5 in row 3, column 2 represents:",
+   "imageRef": null,
+   "options": [
+    "the proportion of age group 2 that dies before the next step",
+    "the proportion of age group 2 that survives into age group 3",
+    "the number of offspring born to each member of age group 3",
+    "the proportion of age group 3 that survives into age group 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Below the top row, a Leslie matrix holds survival rates: column 2 is the current age group and row 3 is the next. Birth rates are in the top row.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0030",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A population is modelled by S(n + 1) = T \u00d7 S(n) + B, where S lists three regions and B = [0; 50; \u221220]. The matrix B shows that, each step:",
+   "imageRef": null,
+   "options": [
+    "region 1 is restocked with 30 and region 3 is culled",
+    "50 are added to region 2 and 20 are removed from region 3",
+    "50 are removed from region 2 and 20 are added to region 3",
+    "50% of region 2 and 20% of region 3 are culled"
+   ],
+   "correctIndex": 1,
+   "explanation": "B is added after the transitions: +50 restocks region 2, \u221220 culls region 3, and 0 leaves region 1 unchanged. B holds numbers, not percentages.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0031",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The transpose of the matrix [1 2 3; 4 5 6] (rows separated by semicolons) is:",
+   "imageRef": null,
+   "options": [
+    "[1 4; 2 5; 3 6]",
+    "[4 5 6; 1 2 3]",
+    "[6 5 4; 3 2 1]",
+    "[3 2 1; 6 5 4]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Transposing turns each row into a column, so the 2 \u00d7 3 matrix becomes 3 \u00d7 2 with rows 1 4, 2 5 and 3 6. Swapping the order of the rows is not a transpose.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0032",
+   "topicId": "gm-matrices-transitions",
+   "stem": "For two 2 \u00d7 2 matrices A and B, which statement is true in general?",
+   "imageRef": null,
+   "options": [
+    "AB and BA may be different",
+    "AB always equals BA",
+    "AB is defined but BA is not",
+    "AB always equals A + B"
+   ],
+   "correctIndex": 0,
+   "explanation": "Matrix multiplication is not commutative: rows of the first matrix are combined with columns of the second, so swapping the order usually changes the result. Both products exist for square matrices of the same order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0033",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A transition matrix with columns adding to 1 models the movement of a fixed population. After many steps, the total population:",
+   "imageRef": null,
+   "options": [
+    "grows by the same amount each step",
+    "falls to zero",
+    "doubles at each step",
+    "stays the same as at the start"
+   ],
+   "correctIndex": 3,
+   "explanation": "Because each column adds to 1, everyone in each state is redistributed but nobody is added or lost. Only culling, restocking or births would change the total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0034",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A shop\u2019s monthly sales are stored in a matrix with rows for branches and columns for products. The element in row 2, column 3 gives:",
+   "imageRef": null,
+   "options": [
+    "the total sales at branch 2",
+    "the total sales of product 3",
+    "the sales of product 3 at branch 2",
+    "the sales of product 2 at branch 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "An element is named by its row then its column, so row 2 (branch 2) and column 3 (product 3). Totals would come from row or column sums.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0035",
+   "topicId": "gm-matrices-transitions",
+   "stem": "In a round-robin, A defeated B and C, B defeated C and D, C defeated D, and D defeated A. Ranking by one-step plus two-step dominances, the order from first to last is:",
+   "imageRef": null,
+   "options": [
+    "A, B, D, C",
+    "A, B, C, D",
+    "B, A, D, C",
+    "A, D, B, C"
+   ],
+   "correctIndex": 0,
+   "explanation": "One-step wins: A 2, B 2, C 1, D 1. Two-step: A 3, B 2, C 1, D 2. Totals: A 5, B 4, D 3, C 2. Using wins alone cannot separate A from B or C from D.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0036",
+   "topicId": "gm-matrices-transitions",
+   "stem": "T = [0.7 0.2; 0.3 0.8] models 1000 shoppers moving between stores X and Y (columns as this week, rows as next week). In the long run, the number shopping at X settles at about:",
+   "imageRef": null,
+   "options": [
+    "600",
+    "700",
+    "400",
+    "500"
+   ],
+   "correctIndex": 2,
+   "explanation": "At equilibrium the flow from X to Y equals the flow back: 0.3x = 0.2y, so x : y = 2 : 3, giving 400 at X and 600 at Y. 600 swaps the ratio.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0037",
+   "topicId": "gm-matrices-transitions",
+   "stem": "T = [0.9 0.2; 0.1 0.8] and S(0) = [100; 100] (rows separated by semicolons). Using S(n + 1) = T \u00d7 S(n), the state matrix S(2) is:",
+   "imageRef": null,
+   "options": [
+    "[117; 83]",
+    "[110; 90]",
+    "[120; 80]",
+    "[121; 79]"
+   ],
+   "correctIndex": 0,
+   "explanation": "S(1) = [90 + 20; 10 + 80] = [110; 90], then S(2) = [0.9 \u00d7 110 + 0.2 \u00d7 90; 0.1 \u00d7 110 + 0.8 \u00d7 90] = [117; 83]. [110; 90] is only one step.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0038",
+   "topicId": "gm-matrices-transitions",
+   "stem": "T = [0.9 0.2; 0.1 0.8], S(0) = [200; 100] and B = [10; \u221210] (rows separated by semicolons). Using S(n + 1) = T \u00d7 S(n) + B, the state matrix S(1) is:",
+   "imageRef": null,
+   "options": [
+    "[190; 110]",
+    "[209; 93]",
+    "[210; 90]",
+    "[200; 100]"
+   ],
+   "correctIndex": 2,
+   "explanation": "T \u00d7 S(0) = [180 + 20; 20 + 80] = [200; 100], and adding B gives [210; 90]. [190; 110] subtracts B instead of adding it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0039",
+   "topicId": "gm-matrices-transitions",
+   "stem": "Which of these transition matrices is not regular (rows separated by semicolons)?",
+   "imageRef": null,
+   "options": [
+    "[0 1; 1 0]",
+    "[0.5 0.2; 0.5 0.8]",
+    "[0 0.4; 1 0.6]",
+    "[0.9 0.1; 0.1 0.9]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Powers of [0 1; 1 0] alternate between itself and the identity, so a zero element always remains and the states swap forever. [0 0.4; 1 0.6] has a zero, but its square has all positive elements.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0040",
+   "topicId": "gm-matrices-transitions",
+   "stem": "The simultaneous equations 2x + y = 5 and x + y = 3 are written as [2 1; 1 1] \u00d7 [x; y] = [5; 3]. Using the inverse matrix [1 \u22121; \u22121 2], the solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = \u22121",
+    "x = 8, y = 1",
+    "x = 2, y = 1",
+    "x = 1, y = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "[x; y] = [1 \u22121; \u22121 2] \u00d7 [5; 3] = [5 \u2212 3; \u22125 + 6] = [2; 1]. Check: 2 \u00d7 2 + 1 = 5 and 2 + 1 = 3. The inverse must multiply on the left of the constants.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0041",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A = [2 6; 1 3] (rows separated by semicolons). Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "A has no inverse, because its determinant is 0",
+    "A has an inverse, because it has no zero elements",
+    "A has no inverse, because it is not symmetric",
+    "A has an inverse, because its determinant is 12"
+   ],
+   "correctIndex": 0,
+   "explanation": "det A = 2 \u00d7 3 \u2212 6 \u00d7 1 = 0, so A is singular and has no inverse. A matrix with no zero elements can still have a zero determinant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0042",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A binary matrix F records friendships among four students, with F = F transposed. This tells us that:",
+   "imageRef": null,
+   "options": [
+    "every student is friends with every other student",
+    "no student is friends with any other student",
+    "the number of friendships is a perfect square",
+    "every friendship is recorded in both directions"
+   ],
+   "correctIndex": 3,
+   "explanation": "F equal to its transpose means F is symmetric: if row X, column Y is 1 then row Y, column X is also 1, so friendship goes both ways. It says nothing about how many friendships exist.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0043",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A Leslie matrix model gives S(n + 1) = L \u00d7 S(n). Unlike a transition matrix model, the total population:",
+   "imageRef": null,
+   "options": [
+    "can change, because births are added and not all individuals survive",
+    "stays fixed, because each column of L must add to 1",
+    "can only fall, because survival rates are below 1",
+    "can only rise, because birth rates are positive"
+   ],
+   "correctIndex": 0,
+   "explanation": "The columns of a Leslie matrix need not add to 1: births add individuals and survival rates below 1 remove them, so the total can grow or shrink. A transition matrix keeps a fixed population.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrices-transitions-0044",
+   "topicId": "gm-matrices-transitions",
+   "stem": "A communication matrix C has zeros on its leading diagonal and is not symmetric. This means that:",
+   "imageRef": null,
+   "options": [
+    "every link between two people works in both directions",
+    "each person sends only to themselves",
+    "no one sends to themselves, and some links are one-way",
+    "everyone can send directly to everyone else"
+   ],
+   "correctIndex": 2,
+   "explanation": "Zeros on the diagonal show no one communicates with themselves. If C were symmetric, every link would be two-way; since it is not, at least one link works in one direction only.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrices-transitions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

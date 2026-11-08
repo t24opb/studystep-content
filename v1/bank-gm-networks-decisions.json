@@ -1,0 +1,841 @@
+{
+ "topicId": "gm-networks-decisions",
+ "questions": [
+  {
+   "id": "gm-networks-decisions-0001",
+   "topicId": "gm-networks-decisions",
+   "stem": "For a connected planar graph with v vertices, e edges and f faces, Euler\u2019s formula states:",
+   "imageRef": null,
+   "options": [
+    "v \u2212 e \u2212 f = 2",
+    "v \u2212 e + f = 2",
+    "v + e \u2212 f = 2",
+    "v + e + f = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Euler\u2019s formula is v \u2212 e + f = 2, where the faces include the unbounded outside region. A cube, for example, has 8 \u2212 12 + 6 = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0002",
+   "topicId": "gm-networks-decisions",
+   "stem": "A loop at a vertex adds how much to the degree of that vertex?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "0",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The degree counts edge ends at a vertex, and both ends of a loop meet the same vertex, so a loop adds 2. This keeps the sum of the degrees equal to twice the number of edges.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0003",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected graph has a Eulerian circuit if and only if:",
+   "imageRef": null,
+   "options": [
+    "every vertex has the same degree",
+    "every vertex has an even degree",
+    "exactly two vertices have an odd degree",
+    "every vertex has an odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "A circuit must leave each vertex as often as it arrives, which needs every degree to be even. Exactly two odd vertices gives a Eulerian trail that is not a circuit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0004",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected graph has a Eulerian trail that is not a circuit if and only if it has:",
+   "imageRef": null,
+   "options": [
+    "more than two vertices of odd degree",
+    "exactly two vertices of odd degree",
+    "no vertices of odd degree at all",
+    "exactly one vertex of odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "The trail must start at one odd vertex and finish at the other, with every other vertex even. A graph can never have exactly one odd vertex, because the degree sum is even.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0005",
+   "topicId": "gm-networks-decisions",
+   "stem": "A Hamiltonian cycle is a route that:",
+   "imageRef": null,
+   "options": [
+    "visits every vertex exactly once and returns to the start",
+    "uses every edge exactly once and returns to the start",
+    "visits every vertex exactly once without returning",
+    "uses every edge exactly once without returning"
+   ],
+   "correctIndex": 0,
+   "explanation": "Hamiltonian routes are about vertices, and a cycle returns to its starting vertex. Using every edge once and returning is a Eulerian circuit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0006",
+   "topicId": "gm-networks-decisions",
+   "stem": "A tree with 12 vertices has:",
+   "imageRef": null,
+   "options": [
+    "24 edges",
+    "11 edges",
+    "12 edges",
+    "13 edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "A tree is connected with no cycles, so it always has one fewer edge than vertices: 12 \u2212 1 = 11. A 12th edge would create a cycle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0007",
+   "topicId": "gm-networks-decisions",
+   "stem": "In graph terminology, a path is a walk in which:",
+   "imageRef": null,
+   "options": [
+    "every edge of the graph is used once",
+    "no vertex is repeated",
+    "no edge is repeated, but vertices may be",
+    "the start and end vertices are the same"
+   ],
+   "correctIndex": 1,
+   "explanation": "A path repeats no vertices (and so no edges). A walk that repeats no edges but may repeat vertices is a trail.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0008",
+   "topicId": "gm-networks-decisions",
+   "stem": "In a connected graph, a bridge is an edge that:",
+   "imageRef": null,
+   "options": [
+    "disconnects the graph if it is removed",
+    "joins a vertex to itself",
+    "has the largest weight in the network",
+    "forms part of every cycle in the graph"
+   ],
+   "correctIndex": 0,
+   "explanation": "Removing a bridge splits the graph into two parts that are no longer connected. An edge joining a vertex to itself is a loop.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0009",
+   "topicId": "gm-networks-decisions",
+   "stem": "The maximum-flow minimum-cut theorem states that the maximum flow through a network equals:",
+   "imageRef": null,
+   "options": [
+    "the capacity of the minimum cut",
+    "the sum of all the edge capacities",
+    "the capacity of the largest cut",
+    "the capacity of the edges leaving the sink"
+   ],
+   "correctIndex": 0,
+   "explanation": "Flow can be no larger than the smallest bottleneck between source and sink, and the theorem says it reaches that value. The sum of all capacities ignores bottlenecks.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0010",
+   "topicId": "gm-networks-decisions",
+   "stem": "In critical path analysis, the activities on the critical path are those with:",
+   "imageRef": null,
+   "options": [
+    "zero float time",
+    "the longest durations",
+    "the earliest start times",
+    "no predecessors"
+   ],
+   "correctIndex": 0,
+   "explanation": "A critical activity cannot be delayed without delaying the whole project, so its float is zero. A long activity can still have float if it is not on the longest path.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0011",
+   "topicId": "gm-networks-decisions",
+   "stem": "A dummy activity in an activity network:",
+   "imageRef": null,
+   "options": [
+    "is always on the critical path of the project",
+    "has zero duration and shows a dependency",
+    "has the longest duration in the project",
+    "can be removed without changing the network"
+   ],
+   "correctIndex": 1,
+   "explanation": "A dummy takes no time; it is drawn, usually dashed, so that the precedence relationships are shown correctly. Removing it would show the wrong predecessors.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0012",
+   "topicId": "gm-networks-decisions",
+   "stem": "A bipartite graph is one in which:",
+   "imageRef": null,
+   "options": [
+    "the vertices form two groups, and edges only join vertices in different groups",
+    "every vertex is joined by an edge to every other vertex in the graph",
+    "the vertices form two groups, and edges only join vertices in the same group",
+    "there are exactly two edges at every vertex in the graph"
+   ],
+   "correctIndex": 0,
+   "explanation": "In a bipartite graph, such as workers and tasks, every edge joins one group to the other. A graph with every pair of vertices joined is a complete graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0013",
+   "topicId": "gm-networks-decisions",
+   "stem": "At each step after the first, Prim\u2019s algorithm adds:",
+   "imageRef": null,
+   "options": [
+    "the longest edge that does not form a cycle",
+    "the edge that joins the two closest unconnected vertices",
+    "the shortest edge joining the tree to a vertex not yet in it",
+    "the shortest remaining edge anywhere in the network"
+   ],
+   "correctIndex": 2,
+   "explanation": "Prim\u2019s algorithm grows a single tree, always choosing the shortest edge from a vertex already in the tree to a new vertex. Picking the shortest edge anywhere may leave separate pieces.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0014",
+   "topicId": "gm-networks-decisions",
+   "stem": "Dijkstra\u2019s algorithm is used to find:",
+   "imageRef": null,
+   "options": [
+    "a minimum spanning tree connecting all the vertices",
+    "the maximum flow from a source to a sink",
+    "the optimal allocation of workers to tasks",
+    "the shortest path from one vertex to each of the other vertices"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dijkstra\u2019s algorithm labels vertices with their shortest known distance from a starting vertex. Minimum spanning trees use Prim\u2019s algorithm and allocations use the Hungarian algorithm.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0015",
+   "topicId": "gm-networks-decisions",
+   "stem": "A graph has five vertices with degrees 3, 3, 2, 2 and 4. The number of edges is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "5",
+    "10",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each edge adds 2 to the sum of the degrees, so edges = (3 + 3 + 2 + 2 + 4) \u00f7 2 = 14 \u00f7 2 = 7. 14 is the degree sum itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0016",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected planar graph has 6 vertices and 9 edges. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "13",
+    "1",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "From v \u2212 e + f = 2: 6 \u2212 9 + f = 2, so f = 5, which includes the outside face. 3 forgets that faces are added in the formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0017",
+   "topicId": "gm-networks-decisions",
+   "stem": "A graph with vertices A, B and C has adjacency matrix [0 1 1; 1 0 2; 1 2 0] (rows separated by semicolons). The number of edges in the graph is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "8",
+    "3",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The matrix shows one edge A\u2013B, one edge A\u2013C and two edges B\u2013C, which is 4 edges. Adding every element gives 8, which counts each edge twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0018",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected graph has vertex degrees A 2, B 3, C 4, D 2 and E 3. A Eulerian trail:",
+   "imageRef": null,
+   "options": [
+    "must start at A and finish at D",
+    "cannot exist in this graph",
+    "must start at B or E and finish at the other",
+    "must start and finish at vertex C"
+   ],
+   "correctIndex": 2,
+   "explanation": "Exactly two vertices, B and E, have odd degree, so a Eulerian trail exists and must run from one of them to the other. A circuit would need all degrees even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0019",
+   "topicId": "gm-networks-decisions",
+   "stem": "The complete graph on 5 vertices has every pair of vertices joined by one edge. Its number of edges is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "20",
+    "5",
+    "25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each vertex has degree 4, so the degree sum is 5 \u00d7 4 = 20 and the number of edges is 20 \u00f7 2 = 10. 20 counts every edge from both ends.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0020",
+   "topicId": "gm-networks-decisions",
+   "stem": "A council inspector must drive along every street in a suburb exactly once, starting and finishing at the depot. The inspector needs:",
+   "imageRef": null,
+   "options": [
+    "a minimum spanning tree",
+    "a Eulerian circuit",
+    "a Hamiltonian cycle",
+    "a Hamiltonian path"
+   ],
+   "correctIndex": 1,
+   "explanation": "Travelling every edge (street) once and returning to the start is a Eulerian circuit. A Hamiltonian cycle visits every vertex (intersection) once, which may skip streets.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0021",
+   "topicId": "gm-networks-decisions",
+   "stem": "A courier must visit each of eight towns exactly once and return to the first town. The courier needs:",
+   "imageRef": null,
+   "options": [
+    "a Eulerian circuit",
+    "a Eulerian trail",
+    "a spanning tree",
+    "a Hamiltonian cycle"
+   ],
+   "correctIndex": 3,
+   "explanation": "Visiting every vertex (town) exactly once and returning is a Hamiltonian cycle. A Eulerian circuit would travel every road once, which is not required here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0022",
+   "topicId": "gm-networks-decisions",
+   "stem": "In a graph, the walk A\u2013B\u2013C\u2013A\u2013D uses four different edges. This walk is:",
+   "imageRef": null,
+   "options": [
+    "a path and a trail",
+    "a cycle",
+    "a circuit",
+    "a trail but not a path"
+   ],
+   "correctIndex": 3,
+   "explanation": "No edge repeats, so it is a trail, but vertex A appears twice, so it is not a path. It does not finish where it started, so it is neither a cycle nor a circuit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0023",
+   "topicId": "gm-networks-decisions",
+   "stem": "A network has edges A\u2013B 4, A\u2013C 2, B\u2013C 5, B\u2013D 3, C\u2013D 6, C\u2013E 7 and D\u2013E 1. The total weight of a minimum spanning tree is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "12",
+    "6",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "The tree uses D\u2013E 1, A\u2013C 2, B\u2013D 3 and A\u2013B 4, total 10, with 4 edges joining the 5 vertices. Using B\u2013C 5 instead of A\u2013B gives 11, and 6 leaves one vertex unconnected.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0024",
+   "topicId": "gm-networks-decisions",
+   "stem": "A network has edges P\u2013Q 5, P\u2013R 3, Q\u2013R 4, Q\u2013S 2, R\u2013S 6, R\u2013T 8 and S\u2013T 7. Using Prim\u2019s algorithm from P, the second edge added is:",
+   "imageRef": null,
+   "options": [
+    "Q\u2013R",
+    "Q\u2013S",
+    "P\u2013Q",
+    "R\u2013S"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first edge is P\u2013R (3). From P and R, the shortest edge to a new vertex is Q\u2013R (4), ahead of P\u2013Q (5), R\u2013S (6) and R\u2013T (8). Q\u2013S is shortest overall but does not yet touch the tree.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0025",
+   "topicId": "gm-networks-decisions",
+   "stem": "A cut crosses three edges. Two flow from the source side to the sink side, with capacities 12 and 9. One flows from the sink side back to the source side, with capacity 7. The capacity of the cut is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "7",
+    "21",
+    "28"
+   ],
+   "correctIndex": 2,
+   "explanation": "Only edges flowing from the source side to the sink side are counted: 12 + 9 = 21. The edge pointing back towards the source is ignored, rather than added (28).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0026",
+   "topicId": "gm-networks-decisions",
+   "stem": "A network has directed edges S\u2192A 8, S\u2192B 5, A\u2192T 6, B\u2192T 7 and A\u2192B 3, where S is the source and T is the sink. The maximum flow from S to T is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "29",
+    "13",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "Send 6 from A to T and 2 from A to B, so B passes 5 + 2 = 7 to T: a flow of 13. The cut through A\u2192T and B\u2192T has capacity 6 + 7 = 13, which confirms it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0027",
+   "topicId": "gm-networks-decisions",
+   "stem": "A network has edges A\u2013B 3, A\u2013C 7, B\u2013C 2, B\u2013D 6, C\u2013D 2, C\u2013E 5 and D\u2013E 1. The length of the shortest path from A to E is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "10",
+    "11",
+    "12"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u2013B\u2013C\u2013D\u2013E has length 3 + 2 + 2 + 1 = 8. A\u2013B\u2013D\u2013E and A\u2013B\u2013C\u2013E are both 10, and A\u2013C\u2013E is 12, so taking a single short-looking edge first does not guarantee the shortest path.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0028",
+   "topicId": "gm-networks-decisions",
+   "stem": "In the Hungarian algorithm for a 4 \u00d7 4 cost table, after reducing the rows and columns, all the zeros can be covered by 3 lines. This means:",
+   "imageRef": null,
+   "options": [
+    "an optimal allocation is not yet possible, so further adjustment is needed",
+    "an optimal allocation can now be made using the zeros",
+    "only three of the four tasks can ever be allocated",
+    "the minimum total cost is three times the smallest cost"
+   ],
+   "correctIndex": 0,
+   "explanation": "An optimal allocation needs as many lines as rows, here 4. With only 3 lines, subtract the smallest uncovered element from all uncovered elements, add it where lines cross, and test again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0029",
+   "topicId": "gm-networks-decisions",
+   "stem": "Ana can do task 1 or task 2, Ben can do only task 2, and Cal can do task 1 or task 3. If each person does exactly one task, Ana must do:",
+   "imageRef": null,
+   "options": [
+    "task 2",
+    "task 3",
+    "either task 1 or 2",
+    "task 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ben can only do task 2, so Ana must take task 1, which leaves task 3 for Cal. Giving Ana task 2 would leave Ben with nothing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0030",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in hours; immediate predecessors) are A 3 (\u2013), B 4 (\u2013), C 2 (A), D 5 (A, B), E 3 (C), F 2 (D, E). The earliest starting time of F is:",
+   "imageRef": null,
+   "options": [
+    "8 hours",
+    "11 hours",
+    "10 hours",
+    "9 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "EST of D is max(3, 4) = 4, so D finishes at 9; E starts at 5 and finishes at 8. F must wait for both, so it starts at 9. 8 waits only for E.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0031",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in days; immediate predecessors) are P 2 (\u2013), Q 5 (\u2013), R 3 (P), S 4 (P, Q), T 2 (R), U 3 (S, T). The float time of activity R is:",
+   "imageRef": null,
+   "options": [
+    "2 days",
+    "0 days",
+    "1 day",
+    "4 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "R has EST 2. The project finishes on day 12, so U has LST 9, T has LST 7 and R has LST 4. Float = 4 \u2212 2 = 2 days; 4 is the LST, not the float.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0032",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activity C has immediate predecessor A only, while activity D has immediate predecessors A and B. Drawing these in an activity network needs a dummy because:",
+   "imageRef": null,
+   "options": [
+    "A and B must be completed at the same time",
+    "C and D have different durations from each other",
+    "B must be finished before activity C begins",
+    "D depends on both A and B, but C depends on A alone"
+   ],
+   "correctIndex": 3,
+   "explanation": "C and D both follow A, but only D also follows B. A dummy from the end of A to the start of D shows this without making C wait for B as well.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0033",
+   "topicId": "gm-networks-decisions",
+   "stem": "Two graphs each have 5 vertices and 6 edges. The degrees in the first graph are 3, 3, 2, 2, 2 and in the second are 4, 2, 2, 2, 2. The graphs:",
+   "imageRef": null,
+   "options": [
+    "are not isomorphic, because one of them is not planar",
+    "are not isomorphic, because their degrees differ",
+    "are isomorphic, because they have the same numbers of edges",
+    "are isomorphic, because they have the same numbers of vertices"
+   ],
+   "correctIndex": 1,
+   "explanation": "Isomorphic graphs have the same structure, so their vertex degrees must match. Equal numbers of vertices and edges are necessary but not enough.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0034",
+   "topicId": "gm-networks-decisions",
+   "stem": "In the adjacency matrix of a digraph, with rows as the starting vertex, the element in row P, column Q is 1. This means there is:",
+   "imageRef": null,
+   "options": [
+    "a path of length 2 from P to Q",
+    "one edge directed from P to Q",
+    "one edge directed from Q to P",
+    "one undirected edge between P and Q"
+   ],
+   "correctIndex": 1,
+   "explanation": "For a digraph, each element counts the edges from the row vertex to the column vertex. An edge from Q to P would appear in row Q, column P.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0035",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected graph has exactly four vertices of odd degree. The minimum number of edges that must be added to give it a Eulerian circuit is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each added edge joins two odd vertices and makes both even, so two edges fix all four. One edge would leave two odd vertices, giving only a Eulerian trail.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0036",
+   "topicId": "gm-networks-decisions",
+   "stem": "Times (minutes) for tasks P, Q, R are: Ali 6, 4, 9; Bo 5, 7, 8; Cy 7, 6, 5. Each person does one task. The allocation with the minimum total time is:",
+   "imageRef": null,
+   "options": [
+    "Ali R, Bo P, Cy Q",
+    "Ali Q, Bo P, Cy R",
+    "Ali P, Bo Q, Cy R",
+    "Ali Q, Bo R, Cy P"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ali Q (4) + Bo P (5) + Cy R (5) = 14 minutes, the lowest of the six possible allocations. Ali P, Bo Q, Cy R takes 18 minutes, and Ali Q, Bo R, Cy P takes 19.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0037",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in hours; immediate predecessors) are A 3 (\u2013), B 4 (\u2013), C 2 (A), D 5 (A, B), E 3 (C), F 2 (D, E). If D is crashed by 2 hours, the minimum completion time becomes:",
+   "imageRef": null,
+   "options": [
+    "9 hours",
+    "11 hours",
+    "8 hours",
+    "10 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "Originally B\u2013D\u2013F takes 11 hours. With D at 3 hours, B\u2013D\u2013F takes 9, but A\u2013C\u2013E\u2013F still takes 10, so the project now takes 10 hours. 9 forgets the other path becomes critical.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0038",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in days; immediate predecessors) are A 4 (\u2013), B 6 (\u2013), C 3 (A), D 6 (A), E 2 (B, C), F 4 (D, E). The critical path is:",
+   "imageRef": null,
+   "options": [
+    "B\u2013E\u2013F",
+    "A\u2013C\u2013D\u2013F",
+    "A\u2013D\u2013F",
+    "A\u2013C\u2013E\u2013F"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2013D\u2013F takes 4 + 6 + 4 = 14 days, longer than A\u2013C\u2013E\u2013F (13) and B\u2013E\u2013F (12). The critical path is the longest path, and A\u2013C\u2013D\u2013F is not a path, because D does not follow C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0039",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in days; immediate predecessors) are A 4 (\u2013), B 6 (\u2013), C 3 (A), D 6 (A), E 2 (B, C), F 4 (D, E). The latest starting time of B is:",
+   "imageRef": null,
+   "options": [
+    "day 1",
+    "day 8",
+    "day 2",
+    "day 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The project takes 14 days, so F has LST 10 and E has LST 10 \u2212 2 = 8. B must finish by day 8, so its LST is 8 \u2212 6 = 2. Day 8 is the latest finish time, not the latest start.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0040",
+   "topicId": "gm-networks-decisions",
+   "stem": "Activities (duration in minutes; immediate predecessors) are A 2 (\u2013), B 5 (\u2013), C 4 (A), D 3 (B), E 2 (C, D), F 3 (A). Reducing which one activity by 1 minute would reduce the project\u2019s completion time?",
+   "imageRef": null,
+   "options": [
+    "A",
+    "C",
+    "F",
+    "D"
+   ],
+   "correctIndex": 3,
+   "explanation": "The critical path is B\u2013D\u2013E (10 minutes), and only critical activities affect completion time. A and C have 2 minutes of float and F has 5, so shortening them changes nothing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0041",
+   "topicId": "gm-networks-decisions",
+   "stem": "A connected planar graph has 8 vertices, each of degree 3. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "6",
+    "12",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The degree sum is 8 \u00d7 3 = 24, so there are 12 edges. Then 8 \u2212 12 + f = 2 gives f = 6, as on a cube. 12 is the number of edges, not faces.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0042",
+   "topicId": "gm-networks-decisions",
+   "stem": "A graph has edges A\u2013B, B\u2013C, C\u2013D, D\u2013A, A\u2013C, C\u2013E and E\u2013D. Which route is a Hamiltonian cycle?",
+   "imageRef": null,
+   "options": [
+    "A\u2013B\u2013C\u2013D\u2013A",
+    "A\u2013C\u2013E\u2013D\u2013A",
+    "A\u2013B\u2013C\u2013E\u2013D\u2013C\u2013A",
+    "A\u2013B\u2013C\u2013E\u2013D\u2013A"
+   ],
+   "correctIndex": 3,
+   "explanation": "A\u2013B\u2013C\u2013E\u2013D\u2013A visits all five vertices once and returns to A using existing edges. A\u2013B\u2013C\u2013D\u2013A misses E, and the last route visits C twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0043",
+   "topicId": "gm-networks-decisions",
+   "stem": "A network has edges P\u2013Q 4, P\u2013R 1, Q\u2013R 2, Q\u2013S 5, R\u2013S 8, S\u2013T 3 and Q\u2013T 9. Using Dijkstra\u2019s algorithm from P, the shortest distance to S is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "10",
+    "7",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "R is 1 from P, so Q is min(4, 1 + 2) = 3, and S is min(3 + 5, 1 + 8) = 8. 9 comes from using the direct edge P\u2013Q, or the edge R\u2013S.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-networks-decisions-0044",
+   "topicId": "gm-networks-decisions",
+   "stem": "A water network has a cut with capacity 40 litres per minute, and the maximum flow is 32 litres per minute. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "The maximum flow should be 40 litres per minute.",
+    "Every cut in the network has capacity 40.",
+    "The flow can be raised to 40 using this cut.",
+    "This cut is not a minimum cut."
+   ],
+   "correctIndex": 3,
+   "explanation": "The maximum flow equals the capacity of the minimum cut, so the minimum cut has capacity 32. A cut of capacity 40 is larger, so it cannot be the minimum cut.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-networks-decisions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

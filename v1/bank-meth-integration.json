@@ -1,0 +1,822 @@
+{
+ "topicId": "meth-integration",
+ "questions": [
+  {
+   "id": "meth-integration-0001",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of x\u00b3 is:",
+   "imageRef": null,
+   "options": [
+    "3x\u00b2",
+    "x\u2074",
+    "4x\u2074",
+    "x\u2074/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Add 1 to the index and divide by the new index: x\u2074/4. Check by differentiating: d/dx(x\u2074/4) = x\u00b3. The answer 3x\u00b2 is the derivative, the opposite process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0002",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of e^(2x) is:",
+   "imageRef": null,
+   "options": [
+    "e^(2x + 1)/(2x + 1)",
+    "e^(2x)/2",
+    "2e^(2x)",
+    "e^(2x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiating e^(2x) brings out a factor 2, so the anti-derivative must divide by 2. The power rule does not apply to e^(2x), because the variable is in the index.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0003",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of cos(3x) is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)sin(3x)",
+    "3sin(3x)",
+    "\u2212(1/3)sin(3x)",
+    "\u22123sin(3x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "d/dx sin(3x) = 3cos(3x), so (1/3)sin(3x) has derivative cos(3x). Multiplying by 3 instead of dividing is the most common slip, and the negative sign belongs to the anti-derivative of sine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0004",
+   "topicId": "meth-integration",
+   "stem": "For x > 0, an anti-derivative of 1/x is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/x\u00b2",
+    "\u22121/(2x\u00b2)",
+    "x ln(x)",
+    "ln(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "d/dx ln(x) = 1/x, so ln(x) is an anti-derivative. The power rule fails here because it would divide by n + 1 = 0; lowering the index to get \u22121/(2x\u00b2) runs it the wrong way, and \u22121/x\u00b2 is the derivative of 1/x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0005",
+   "topicId": "meth-integration",
+   "stem": "If F is an anti-derivative of f, then the definite integral of f(x) from x = a to x = b equals:",
+   "imageRef": null,
+   "options": [
+    "F(b) \u2212 F(a)",
+    "F(a) \u2212 F(b)",
+    "F\u2032(b) \u2212 F\u2032(a)",
+    "F(b) + F(a)"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is the fundamental theorem of calculus: evaluate the anti-derivative at the upper terminal and subtract its value at the lower terminal. Using F\u2032, which is just f, skips the anti-differentiation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0006",
+   "topicId": "meth-integration",
+   "stem": "The integral of f(x) from x = 1 to x = 4 is 7. What is the integral of f(x) from x = 4 to x = 1?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "1/7",
+    "0",
+    "\u22127"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swapping the terminals reverses the subtraction F(b) \u2212 F(a), so the sign changes: the answer is \u22127. The integral is 0 only when both terminals are the same.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0007",
+   "topicId": "meth-integration",
+   "stem": "The integral of f(x) from 0 to 3 is 4, and the integral of f(x) from 0 to 5 is 9. What is the integral of f(x) from 3 to 5?",
+   "imageRef": null,
+   "options": [
+    "\u22125",
+    "9/4",
+    "5",
+    "13"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrals over adjoining intervals add: the integral from 0 to 3 plus the integral from 3 to 5 equals the integral from 0 to 5. So the answer is 9 \u2212 4 = 5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0008",
+   "topicId": "meth-integration",
+   "stem": "The area enclosed by y = sin(x) and the x-axis for 0 \u2264 x \u2264 \u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "0",
+    "1",
+    "\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral is [\u2212cos(x)] from 0 to \u03c0 = \u2212cos(\u03c0) + cos(0) = 1 + 1 = 2. Getting 0 comes from writing the anti-derivative as +cos(x), which reverses the sign of each term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0009",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of \u221ax is:",
+   "imageRef": null,
+   "options": [
+    "(1/2)x^(\u22121/2)",
+    "(2/3)x^(1/2)",
+    "(2/3)x^(3/2)",
+    "(3/2)x^(3/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write \u221ax as x^(1/2), add 1 to the index to get 3/2, and divide by 3/2, which is multiplying by 2/3. The expression (1/2)x^(\u22121/2) is the derivative of \u221ax.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0010",
+   "topicId": "meth-integration",
+   "stem": "Evaluate the integral of 1/x from x = 1 to x = e.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "e \u2212 1",
+    "0",
+    "1/e"
+   ],
+   "correctIndex": 0,
+   "explanation": "The anti-derivative is ln(x), so the integral is ln(e) \u2212 ln(1) = 1 \u2212 0 = 1. The value e \u2212 1 comes from using x as the anti-derivative and subtracting the terminals.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0011",
+   "topicId": "meth-integration",
+   "stem": "As the number of rectangles under y = f(x) on [a, b] increases without bound, the sum of their areas approaches:",
+   "imageRef": null,
+   "options": [
+    "f(b) \u2212 f(a)",
+    "f\u2032(b) \u2212 f\u2032(a)",
+    "the average value of f on [a, b]",
+    "the definite integral of f from a to b"
+   ],
+   "correctIndex": 3,
+   "explanation": "The definite integral is defined as the limiting value of these sums, which is why it measures the area under a positive curve. The average value is that area divided by the width b \u2212 a.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0012",
+   "topicId": "meth-integration",
+   "stem": "For x > 0, an anti-derivative of e^x + 1/x is:",
+   "imageRef": null,
+   "options": [
+    "xe^x + ln(x)",
+    "e^(x + 1) + ln(x)",
+    "e^x + ln(x)",
+    "e^x \u2212 1/x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Anti-differentiate term by term: e^x gives e^x and 1/x gives ln(x). The expression e^x \u2212 1/x\u00b2 is the derivative, the opposite process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0013",
+   "topicId": "meth-integration",
+   "stem": "Evaluate the integral of (3x\u00b2 + 1) from x = 0 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "12",
+    "9",
+    "10",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "The anti-derivative is x\u00b3 + x, and [x\u00b3 + x] from 0 to 2 is (8 + 2) \u2212 0 = 10. The answer 8 leaves out the anti-derivative of the constant 1, which is x, not 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0014",
+   "topicId": "meth-integration",
+   "stem": "The trapezium rule with two strips of width 1 is used to estimate the area under y = x\u00b2 from x = 0 to x = 2. The estimate is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "5",
+    "3",
+    "8/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The estimate is (1/2)(f(0) + 2f(1) + f(2)) = (1/2)(0 + 2 + 4) = 3. The exact area is 8/3, and the estimate is a little high because the curve is concave up. The value 5 uses right-hand rectangles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0015",
+   "topicId": "meth-integration",
+   "stem": "For a function that is concave up over an interval, the trapezium rule estimate of the area under the curve:",
+   "imageRef": null,
+   "options": [
+    "is less than the exact area",
+    "equals the exact area",
+    "is negative",
+    "is greater than the exact area"
+   ],
+   "correctIndex": 3,
+   "explanation": "On a curve that is concave up, the chord joining two points lies above the curve, so each trapezium includes a sliver above the graph. For a concave down curve the trapeziums sit below and underestimate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0016",
+   "topicId": "meth-integration",
+   "stem": "Given that d/dx(e^(x\u00b2)) = 2xe^(x\u00b2), an anti-derivative of xe^(x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "2e^(x\u00b2)",
+    "e^(x\u00b2)",
+    "x\u00b2e^(x\u00b2)/2",
+    "e^(x\u00b2)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "If F\u2032(x) = f(x), then F is an anti-derivative of f. Here xe^(x\u00b2) is half of 2xe^(x\u00b2), so its anti-derivative is half of e^(x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0017",
+   "topicId": "meth-integration",
+   "stem": "f\u2032(x) = 6x\u00b2 \u2212 2 and f(1) = 4. The rule for f is:",
+   "imageRef": null,
+   "options": [
+    "f(x) = 3x\u00b3 \u2212 2x + 3",
+    "f(x) = 2x\u00b3 \u2212 2x + 4",
+    "f(x) = 2x\u00b3 \u2212 2x",
+    "f(x) = 2x\u00b3 \u2212 2x + 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiate: f(x) = 2x\u00b3 \u2212 2x + c. Then f(1) = 2 \u2212 2 + c = 4 gives c = 4. Leaving out c means the boundary condition is never used.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0018",
+   "topicId": "meth-integration",
+   "stem": "Water flows into a tank at 20 \u2212 2t litres per minute for 0 \u2264 t \u2264 10. The tank holds 50 L at t = 0. How much does it hold at t = 10?",
+   "imageRef": null,
+   "options": [
+    "200 L",
+    "150 L",
+    "100 L",
+    "250 L"
+   ],
+   "correctIndex": 1,
+   "explanation": "The volume added is the integral of (20 \u2212 2t) from 0 to 10, which is [20t \u2212 t\u00b2] = 200 \u2212 100 = 100 L. Adding the starting 50 L gives 150 L. The answer 100 L forgets the water already in the tank.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0019",
+   "topicId": "meth-integration",
+   "stem": "The total area enclosed by y = sin(x) and the x-axis for 0 \u2264 x \u2264 2\u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "2",
+    "2\u03c0",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve is above the axis on [0, \u03c0] and below on [\u03c0, 2\u03c0], each enclosing area 2. The single integral over [0, 2\u03c0] is 0 because the signed areas cancel, so the parts must be integrated separately.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0020",
+   "topicId": "meth-integration",
+   "stem": "The area of the region enclosed by y = x and y = x\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "5/6",
+    "1/6",
+    "1/3",
+    "1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet at x = 0 and x = 1, and y = x is above y = x\u00b2 between them. The area is the integral of (x \u2212 x\u00b2) from 0 to 1, which is 1/2 \u2212 1/3 = 1/6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0021",
+   "topicId": "meth-integration",
+   "stem": "The area of the region between y = x\u00b2 \u2212 4 and the x-axis, from x = 0 to x = 2, is:",
+   "imageRef": null,
+   "options": [
+    "16/3",
+    "\u221216/3",
+    "8/3",
+    "32/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral is [x\u00b3/3 \u2212 4x] from 0 to 2 = 8/3 \u2212 8 = \u221216/3, which is negative because the region is below the axis. An area is always positive, so it is 16/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0022",
+   "topicId": "meth-integration",
+   "stem": "The average value of f(x) = x\u00b2 over [0, 3] is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "3",
+    "9",
+    "4.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Average value is (1/(b \u2212 a)) \u00d7 the integral from a to b, so (1/3) \u00d7 [x\u00b3/3] from 0 to 3 = (1/3) \u00d7 9 = 3. The value 4.5 averages only the endpoint values 0 and 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0023",
+   "topicId": "meth-integration",
+   "stem": "The average value of sin(x) over [0, \u03c0] is:",
+   "imageRef": null,
+   "options": [
+    "2/\u03c0",
+    "0",
+    "1/2",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral of sin(x) from 0 to \u03c0 is 2, and dividing by the interval length \u03c0 gives 2/\u03c0 \u2248 0.64. The integral 2 itself is the area, not the average height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0024",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of (2x + 1)\u2074 is:",
+   "imageRef": null,
+   "options": [
+    "8(2x + 1)\u00b3",
+    "(2x + 1)\u2075/10",
+    "(2x + 1)\u2075/5",
+    "2(2x + 1)\u2075/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise the power to 5, divide by 5 and also divide by the coefficient 2 of x, giving (2x + 1)\u2075/10. Check: differentiating gives 5(2x + 1)\u2074 \u00d7 2/10 = (2x + 1)\u2074.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0025",
+   "topicId": "meth-integration",
+   "stem": "For x > 2/3, an anti-derivative of 1/(3x \u2212 2) is:",
+   "imageRef": null,
+   "options": [
+    "3ln(3x \u2212 2)",
+    "ln(3x \u2212 2)",
+    "\u22123/(3x \u2212 2)\u00b2",
+    "(1/3)ln(3x \u2212 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "d/dx ln(3x \u2212 2) = 3/(3x \u2212 2), so dividing by 3 gives the anti-derivative. The expression \u22123/(3x \u2212 2)\u00b2 is the derivative of 1/(3x \u2212 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0026",
+   "topicId": "meth-integration",
+   "stem": "Evaluate the integral of cos(2x) from x = 0 to x = \u03c0/6.",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "1/4",
+    "\u221a3",
+    "\u221a3/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The anti-derivative is (1/2)sin(2x), so the value is (1/2)sin(\u03c0/3) \u2212 0 = (1/2)(\u221a3/2) = \u221a3/4. Forgetting the 1/2 from the chain rule gives \u221a3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0027",
+   "topicId": "meth-integration",
+   "stem": "Evaluate the integral of e^x from x = 0 to x = ln 2.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "ln 2",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The anti-derivative is e^x, so the value is e^(ln 2) \u2212 e\u2070 = 2 \u2212 1 = 1. The answer 3 adds the values at the two terminals instead of subtracting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0028",
+   "topicId": "meth-integration",
+   "stem": "f(x) changes from positive to negative at x = a. At x = a, every anti-derivative F of f has:",
+   "imageRef": null,
+   "options": [
+    "a local minimum",
+    "a point of inflection",
+    "an x-intercept",
+    "a local maximum"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since F\u2032 = f, F is increasing before x = a and decreasing after it, which is a local maximum. Whether F crosses the x-axis there depends on the constant of integration, so an intercept is not guaranteed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0029",
+   "topicId": "meth-integration",
+   "stem": "F is an anti-derivative of f(x) = x(x \u2212 2). F is strictly decreasing over:",
+   "imageRef": null,
+   "options": [
+    "[1, \u221e)",
+    "(\u2212\u221e, 1]",
+    "[\u22122, 0]",
+    "[0, 2]"
+   ],
+   "correctIndex": 3,
+   "explanation": "F decreases where its derivative f is negative, and x(x \u2212 2) < 0 for 0 < x < 2. The value 1 is the turning point of f, which marks a point of inflection of F, not a change in its direction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0030",
+   "topicId": "meth-integration",
+   "stem": "For k > 0, the integral of 2x from x = 0 to x = k is 9. What is k?",
+   "imageRef": null,
+   "options": [
+    "81",
+    "4.5",
+    "3",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The anti-derivative is x\u00b2, so k\u00b2 \u2212 0 = 9 and k = 3, taking the positive root. Treating the integral as 2k = 9 gives 4.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0031",
+   "topicId": "meth-integration",
+   "stem": "The area of the region bounded by y = e^x, the x-axis, x = 0 and x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "e",
+    "1",
+    "e + 1",
+    "e \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve is above the axis, so the area is [e^x] from 0 to 1 = e \u2212 e\u2070 = e \u2212 1 \u2248 1.72. Forgetting that e\u2070 = 1, not 0, gives e.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0032",
+   "topicId": "meth-integration",
+   "stem": "The temperature in a greenhouse is T(t) = 20 + 4sin(\u03c0t/12) \u00b0C, t hours after midnight. What is the average temperature over one full day, 0 \u2264 t \u2264 24?",
+   "imageRef": null,
+   "options": [
+    "22 \u00b0C",
+    "16 \u00b0C",
+    "20 \u00b0C",
+    "24 \u00b0C"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sine term has period 24 hours, and its integral over one full period is 0, so the average is just the constant 20 \u00b0C. The value 24 \u00b0C is the maximum temperature, not the average.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0033",
+   "topicId": "meth-integration",
+   "stem": "The integral of f(x) from 1 to 3 is 6. What is the integral of (2f(x) + 1) from 1 to 3?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "12",
+    "7",
+    "14"
+   ],
+   "correctIndex": 3,
+   "explanation": "By linearity, the integral is 2 \u00d7 6 plus the integral of 1 over an interval of length 2, which is 12 + 2 = 14. The answer 13 treats the integral of 1 as 1 rather than as the interval length.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0034",
+   "topicId": "meth-integration",
+   "stem": "An anti-derivative of sin(x/2) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212(1/2)cos(x/2)",
+    "2sin(x/2)",
+    "\u22122cos(x/2)",
+    "2cos(x/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx cos(x/2) = \u2212(1/2)sin(x/2), so \u22122cos(x/2) has derivative sin(x/2). Dividing by the coefficient 1/2 means multiplying by 2, not by 1/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0035",
+   "topicId": "meth-integration",
+   "stem": "The integral of f(x) from 0 to 2 is 5. What is the integral of f(x \u2212 1) from x = 1 to x = 3?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "6",
+    "10",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The graph of y = f(x \u2212 1) is y = f(x) moved 1 unit right, and the interval [1, 3] is [0, 2] moved 1 unit right as well. So the region is the same shape and the integral is unchanged at 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0036",
+   "topicId": "meth-integration",
+   "stem": "The trapezium rule with two strips of equal width is used to estimate the integral of 1/x from x = 1 to x = 2. The estimate is:",
+   "imageRef": null,
+   "options": [
+    "17/24",
+    "17/12",
+    "5/6",
+    "7/12"
+   ],
+   "correctIndex": 0,
+   "explanation": "The strips have width 0.5 and the heights are 1, 2/3 and 1/2, so the estimate is (0.5/2)(1 + 2 \u00d7 2/3 + 1/2) = (1/4)(17/6) = 17/24 \u2248 0.708, close to ln 2 \u2248 0.693. Forgetting to halve the width gives 17/12.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0037",
+   "topicId": "meth-integration",
+   "stem": "Given that d/dx(x ln(x)) = ln(x) + 1, an anti-derivative of ln(x) is:",
+   "imageRef": null,
+   "options": [
+    "x ln(x) \u2212 x",
+    "x ln(x)",
+    "x ln(x) + x",
+    "1/x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Integrating both sides, x ln(x) is an anti-derivative of ln(x) + 1, so subtract an anti-derivative of 1, which is x. Check: d/dx(x ln(x) \u2212 x) = ln(x) + 1 \u2212 1 = ln(x).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0038",
+   "topicId": "meth-integration",
+   "stem": "The area of the region enclosed by y = 4 \u2212 x\u00b2 and y = x + 2 is:",
+   "imageRef": null,
+   "options": [
+    "27/2",
+    "10/3",
+    "9/2",
+    "7/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet where x\u00b2 + x \u2212 2 = 0, at x = \u22122 and x = 1, and the parabola is on top. The integral of (2 \u2212 x \u2212 x\u00b2) from \u22122 to 1 is 7/6 \u2212 (\u221210/3) = 9/2. Integrating only from 0 to 1 gives 7/6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0039",
+   "topicId": "meth-integration",
+   "stem": "The area of the region enclosed by y = sin(x) and y = cos(x) between x = \u03c0/4 and x = 5\u03c0/4 is:",
+   "imageRef": null,
+   "options": [
+    "2\u221a2",
+    "\u221a2",
+    "0",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "On this interval sin(x) \u2265 cos(x), so the area is [\u2212cos(x) \u2212 sin(x)] from \u03c0/4 to 5\u03c0/4 = \u221a2 \u2212 (\u2212\u221a2) = 2\u221a2. The value \u221a2 is the value at one terminal only.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0040",
+   "topicId": "meth-integration",
+   "stem": "For a > 0, the integral of (2x \u2212 4) from x = 0 to x = a is 0. What is a?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "8",
+    "4",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The anti-derivative gives a\u00b2 \u2212 4a = a(a \u2212 4) = 0, and a > 0 means a = 4. The line is below the axis from 0 to 2 and above from 2 to 4, and the two signed areas cancel. The value 2 is only the x-intercept.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0041",
+   "topicId": "meth-integration",
+   "stem": "The total area of the regions enclosed by y = x\u00b3 and the x-axis from x = \u22121 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1/4",
+    "1",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = x\u00b3 is odd, so the integral from \u22121 to 1 is 0, but that is signed area. Each half has area [x\u2074/4] from 0 to 1 = 1/4, and the two together make 1/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0042",
+   "topicId": "meth-integration",
+   "stem": "The average value of f(x) = e^(2x) over [0, ln 2] is:",
+   "imageRef": null,
+   "options": [
+    "3/ln 2",
+    "2/ln 2",
+    "3/(2 ln 2)",
+    "3/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral is [e^(2x)/2] from 0 to ln 2 = (4 \u2212 1)/2 = 3/2. Dividing by the interval length ln 2 gives 3/(2 ln 2) \u2248 2.16. Stopping at 3/2 gives the integral, not the average.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-integration-0043",
+   "topicId": "meth-integration",
+   "stem": "Which statement holds for all functions f and g that are integrable on [a, b]?",
+   "imageRef": null,
+   "options": [
+    "The integral of f/g is the quotient of the integrals of f and g.",
+    "The integral of f\u00b2 is the square of the integral of f.",
+    "The integral of f + g is the sum of the integrals of f and g.",
+    "The integral of f \u00d7 g is the product of the integrals of f and g."
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrals are linear: sums and constant multiples pass through. Products do not: from 0 to 1, x \u00d7 x integrates to 1/3, but each factor integrates to 1/2, whose product is 1/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-integration-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

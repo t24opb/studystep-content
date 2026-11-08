@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-sequences-series",
+ "questions": [
+  {
+   "id": "spec-sequences-series-0001",
+   "topicId": "spec-sequences-series",
+   "stem": "In mathematics, a series is:",
+   "imageRef": null,
+   "options": [
+    "the sum of the terms of a sequence",
+    "a list of numbers in a definite order",
+    "a sequence whose terms always increase",
+    "a rule giving each term from the one before"
+   ],
+   "correctIndex": 0,
+   "explanation": "A sequence is the ordered list; a series adds its terms, as in 1 + 2 + 3 + \u2026 . A rule giving each term from the previous one is a recurrence relation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0002",
+   "topicId": "spec-sequences-series",
+   "stem": "In an arithmetic sequence, consecutive terms always have a common:",
+   "imageRef": null,
+   "options": [
+    "difference",
+    "ratio",
+    "sum",
+    "product"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each term is the previous one plus a fixed d. A common ratio defines a geometric sequence instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0003",
+   "topicId": "spec-sequences-series",
+   "stem": "Which sequence is geometric?",
+   "imageRef": null,
+   "options": [
+    "8, \u22124, 2, \u22121, \u2026",
+    "1, 4, 9, 16, \u2026",
+    "2, 4, 6, 8, \u2026",
+    "1, 1/2, 1/3, 1/4, \u2026"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each term of 8, \u22124, 2, \u22121 is the previous one times \u22121/2, a common ratio. The sequence 2, 4, 6, 8 has a common difference, and the reciprocals 1/n have neither.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0004",
+   "topicId": "spec-sequences-series",
+   "stem": "The recurrence relation t(n + 1) = a \u00d7 t(n) + b is called first-order because:",
+   "imageRef": null,
+   "options": [
+    "each term depends only on the term before it",
+    "the constants a and b do not depend on n",
+    "the highest power of t(n) in the rule is 1",
+    "the sequence is defined from its first term t(1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Order counts how many previous terms the rule uses, and here it uses one. The power of t(n) being 1 is what makes the relation linear, a different property.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0005",
+   "topicId": "spec-sequences-series",
+   "stem": "The arithmetic sequence 5, 9, 13, 17, \u2026 has nth term:",
+   "imageRef": null,
+   "options": [
+    "4n + 5",
+    "5n + 4",
+    "n + 4",
+    "4n + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "With t(1) = 5 and d = 4, t(n) = 5 + 4(n \u2212 1) = 4n + 1. The rule 4n + 5 gives 9 for n = 1, which is the second term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0006",
+   "topicId": "spec-sequences-series",
+   "stem": "An arithmetic sequence has first term 3 and common difference 5. Its 20th term is:",
+   "imageRef": null,
+   "options": [
+    "100",
+    "93",
+    "98",
+    "103"
+   ],
+   "correctIndex": 2,
+   "explanation": "t(20) = 3 + (20 \u2212 1) \u00d7 5 = 98. Using 20 \u00d7 5 instead of 19 \u00d7 5 gives 103, which is the 21st term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0007",
+   "topicId": "spec-sequences-series",
+   "stem": "An arithmetic sequence has t(4) = 11 and t(10) = 29. Its first term is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "8",
+    "2",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Six steps take 11 to 29, so 6d = 18 and d = 3; then t(1) = 11 \u2212 3 \u00d7 3 = 2. The value 3 is the common difference, not the first term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0008",
+   "topicId": "spec-sequences-series",
+   "stem": "Which term of the arithmetic sequence 50, 47, 44, \u2026 is the first negative term?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "18",
+    "17",
+    "19"
+   ],
+   "correctIndex": 1,
+   "explanation": "t(n) = 50 \u2212 3(n \u2212 1) = 53 \u2212 3n, which is negative when n > 17.67, so the 18th term, \u22121, is the first. The 17th term is 2, still positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0009",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the first n natural numbers, 1 + 2 + 3 + \u2026 + n, is:",
+   "imageRef": null,
+   "options": [
+    "n(n + 1)/2",
+    "n(n \u2212 1)/2",
+    "n\u00b2/2",
+    "n(n + 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pairing the first and last terms gives n/2 pairs each adding to n + 1. Check with n = 4: 1 + 2 + 3 + 4 = 10 = 4 \u00d7 5/2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0010",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the first 20 terms of the arithmetic sequence 3, 8, 13, \u2026 is:",
+   "imageRef": null,
+   "options": [
+    "2020",
+    "1010",
+    "1060",
+    "505"
+   ],
+   "correctIndex": 1,
+   "explanation": "S(n) = (n/2)(2a + (n \u2212 1)d) = 10(6 + 19 \u00d7 5) = 10 \u00d7 101 = 1010. Using 20 \u00d7 5 instead of 19 \u00d7 5 gives 1060.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0011",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the odd numbers 1 + 3 + 5 + \u2026 + 99 is:",
+   "imageRef": null,
+   "options": [
+    "2450",
+    "5000",
+    "2550",
+    "2500"
+   ],
+   "correctIndex": 3,
+   "explanation": "There are 50 odd numbers from 1 to 99, and their sum is (50/2)(1 + 99) = 2500, which is 50\u00b2. The sum 2550 is that of the even numbers 2 to 100.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0012",
+   "topicId": "spec-sequences-series",
+   "stem": "How many terms of the series 2 + 5 + 8 + \u2026 must be added to give a sum of 155?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "31",
+    "10",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "S(n) = (n/2)(4 + 3(n \u2212 1)) = n(3n + 1)/2, so n(3n + 1) = 310 and n = 10, since 10 \u00d7 31 = 310. Nine terms give 126 and eleven give 187.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0013",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the first n terms of an arithmetic sequence is S(n) = n\u00b2 + 2n. The 5th term is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "35",
+    "13",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "t(5) = S(5) \u2212 S(4) = 35 \u2212 24 = 11. The value 35 is the sum of five terms, not the fifth term itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0014",
+   "topicId": "spec-sequences-series",
+   "stem": "The geometric sequence 3, 6, 12, 24, \u2026 has nth term:",
+   "imageRef": null,
+   "options": [
+    "3 \u00d7 2^n",
+    "6^(n \u2212 1)",
+    "2 \u00d7 3^(n \u2212 1)",
+    "3 \u00d7 2^(n \u2212 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "With t(1) = 3 and r = 2, t(n) = 3 \u00d7 2^(n \u2212 1). The rule 3 \u00d7 2^n gives 6 when n = 1, one term too far along.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0015",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the first n terms of a geometric sequence with first term a and common ratio r \u2260 1 is:",
+   "imageRef": null,
+   "options": [
+    "a(r^n \u2212 1)/(r \u2212 1)",
+    "a(r^(n \u2212 1) \u2212 1)/(r \u2212 1)",
+    "a \u00d7 r^(n \u2212 1)",
+    "(n/2)(a + a \u00d7 r^(n \u2212 1))"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying the sum by r and subtracting cancels all but two terms, giving S(n) = a(r^n \u2212 1)/(r \u2212 1). The rule a \u00d7 r^(n \u2212 1) is the nth term, and averaging the first and last terms only works for arithmetic sequences.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0016",
+   "topicId": "spec-sequences-series",
+   "stem": "A geometric sequence has first term 2 and common ratio 3. The sum of its first 5 terms is:",
+   "imageRef": null,
+   "options": [
+    "162",
+    "728",
+    "242",
+    "486"
+   ],
+   "correctIndex": 2,
+   "explanation": "S(5) = 2(3\u2075 \u2212 1)/(3 \u2212 1) = 243 \u2212 1 = 242, that is, 2 + 6 + 18 + 54 + 162. The value 162 is only the fifth term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0017",
+   "topicId": "spec-sequences-series",
+   "stem": "A geometric sequence has t(2) = 12 and t(5) = 96. Its first term is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "4",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "Three steps multiply by r\u00b3 = 96 \u00f7 12 = 8, so r = 2 and t(1) = 12 \u00f7 2 = 6. Dividing 12 by 4 treats the gap as two steps.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0018",
+   "topicId": "spec-sequences-series",
+   "stem": "The numbers x, 12 and 18 are consecutive terms of a geometric sequence. The value of x is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "10",
+    "8",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The ratio is constant, so 12/x = 18/12 = 1.5 and x = 8. The value 6 makes the terms arithmetic, with difference 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0019",
+   "topicId": "spec-sequences-series",
+   "stem": "For the series 1 + 2 + 4 + 8 + \u2026, the smallest number of terms whose sum exceeds 1000 is:",
+   "imageRef": null,
+   "options": [
+    "500",
+    "10",
+    "9",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum of n terms is 2^n \u2212 1, and 2\u2079 \u2212 1 = 511 while 2\u00b9\u2070 \u2212 1 = 1023. So ten terms are needed; nine fall short.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0020",
+   "topicId": "spec-sequences-series",
+   "stem": "The sum of the first 10 terms of the series 1 \u2212 2 + 4 \u2212 8 + \u2026 is:",
+   "imageRef": null,
+   "options": [
+    "341",
+    "\u22121023",
+    "1023",
+    "\u2212341"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here a = 1 and r = \u22122, so S(10) = (1 \u2212 (\u22122)\u00b9\u2070)/(1 \u2212 (\u22122)) = (1 \u2212 1024)/3 = \u2212341. Using r = 2 gives 1023, which ignores the alternating signs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0021",
+   "topicId": "spec-sequences-series",
+   "stem": "A colony of 200 bacteria triples every hour. How many bacteria are there after 5 hours?",
+   "imageRef": null,
+   "options": [
+    "48 600",
+    "16 200",
+    "3000",
+    "145 800"
+   ],
+   "correctIndex": 0,
+   "explanation": "After n hours there are 200 \u00d7 3^n, and 200 \u00d7 3\u2075 = 200 \u00d7 243 = 48 600. Using 3\u2074 gives 16 200, the count after only 4 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0022",
+   "topicId": "spec-sequences-series",
+   "stem": "A machine worth $30 000 loses 20% of its value each year. What is it worth after 3 years?",
+   "imageRef": null,
+   "options": [
+    "$19 200",
+    "$18 000",
+    "$15 360",
+    "$12 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The value is 30 000 \u00d7 0.8\u00b3 = 30 000 \u00d7 0.512 = 15 360. Taking 20% of the original value each year gives the linear answer $12 000, which is not how this depreciation works.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0023",
+   "topicId": "spec-sequences-series",
+   "stem": "The terms of a geometric sequence with non-zero first term approach 0 as n \u2192 \u221e exactly when:",
+   "imageRef": null,
+   "options": [
+    "r = \u22121",
+    "\u22121 < r < 1",
+    "r > 1",
+    "r < \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying repeatedly by a number of size less than 1 shrinks the terms towards 0. For r > 1 or r < \u22121 the terms grow in size without limit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0024",
+   "topicId": "spec-sequences-series",
+   "stem": "A geometric sequence has first term 5 and common ratio \u22121. As n \u2192 \u221e, its terms:",
+   "imageRef": null,
+   "options": [
+    "approach the value 5",
+    "grow in size without limit",
+    "alternate between 5 and \u22125, with no limit",
+    "approach 0 from alternate sides"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by \u22121 just switches the sign, giving 5, \u22125, 5, \u22125, \u2026 for ever. The size never shrinks, so the terms do not approach 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0025",
+   "topicId": "spec-sequences-series",
+   "stem": "A geometric sequence has first term 4 and common ratio \u22121.5. As n \u2192 \u221e, its terms:",
+   "imageRef": null,
+   "options": [
+    "alternate between two fixed values",
+    "alternate in sign and grow in size without limit",
+    "alternate in sign and approach 0",
+    "stay positive and grow without limit"
+   ],
+   "correctIndex": 1,
+   "explanation": "The negative ratio makes the signs alternate, and |\u22121.5| > 1 makes each term larger in size than the last. The terms approach 0 only when |r| < 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0026",
+   "topicId": "spec-sequences-series",
+   "stem": "The infinite geometric series 12 + 6 + 3 + 1.5 + \u2026 has sum:",
+   "imageRef": null,
+   "options": [
+    "24",
+    "18",
+    "21",
+    "36"
+   ],
+   "correctIndex": 0,
+   "explanation": "Since |r| = 1/2 < 1, the partial sums approach a/(1 \u2212 r) = 12/(1/2) = 24. The value 21 is only the sum of the first three terms.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0027",
+   "topicId": "spec-sequences-series",
+   "stem": "A sequence has t(1) = 2 and t(n + 1) = 3t(n) \u2212 1. What is t(4)?",
+   "imageRef": null,
+   "options": [
+    "122",
+    "44",
+    "41",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms are 2, 5, 14, 41, so t(4) = 41. The value 14 is t(3), and 122 is t(5).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0028",
+   "topicId": "spec-sequences-series",
+   "stem": "A sequence has t(1) = 1, t(2) = 1 and t(n + 2) = t(n + 1) + t(n). What is t(8)?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "34",
+    "15",
+    "21"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21, so the 8th term is 21. The value 13 is the 7th term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0029",
+   "topicId": "spec-sequences-series",
+   "stem": "Which recurrence relation generates the sequence 7, 4, 1, \u22122, \u2026?",
+   "imageRef": null,
+   "options": [
+    "t(1) = 7, t(n + 1) = t(n) + 3",
+    "t(1) = 4, t(n + 1) = t(n) \u2212 3",
+    "t(1) = 7, t(n + 1) = t(n) \u2212 3",
+    "t(1) = 7, t(n + 1) = \u22123t(n)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sequence starts at 7 and each term is 3 less than the one before. Multiplying by \u22123 would give 7, \u221221, 63, \u2026 instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0030",
+   "topicId": "spec-sequences-series",
+   "stem": "A sequence has t(1) = 1 and t(n + 1) = t(n) + 2n. What is t(5)?",
+   "imageRef": null,
+   "options": [
+    "31",
+    "11",
+    "21",
+    "13"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms are 1, 1 + 2 = 3, 3 + 4 = 7, 7 + 6 = 13 and 13 + 8 = 21. The value 13 is t(4), and 31 is t(6).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0031",
+   "topicId": "spec-sequences-series",
+   "stem": "The recurrence t(n + 1) = a \u00d7 t(n) + b, with constants a and b, always generates an arithmetic sequence when:",
+   "imageRef": null,
+   "options": [
+    "b = 0",
+    "a = 0",
+    "b = 1",
+    "a = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "With a = 1 the rule is t(n + 1) = t(n) + b, adding the same b each time. With b = 0 the rule multiplies by a, which gives a geometric sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0032",
+   "topicId": "spec-sequences-series",
+   "stem": "For the recurrence t(n + 1) = 2t(n) \u2212 6, which first term makes every term the same?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "6",
+    "3",
+    "\u22126"
+   ],
+   "correctIndex": 1,
+   "explanation": "A constant sequence needs t = 2t \u2212 6, so t = 6, and indeed 2 \u00d7 6 \u2212 6 = 6. Starting at 3 gives 3, 0, \u22126, \u2026, which falls away.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0033",
+   "topicId": "spec-sequences-series",
+   "stem": "A sequence has t(1) = 1 and t(n + 1) = 2t(n) + 3. Which rule gives t(n)?",
+   "imageRef": null,
+   "options": [
+    "4 \u00d7 2^n \u2212 3",
+    "2^(n + 1) \u2212 3",
+    "3 \u00d7 2^(n \u2212 1) \u2212 2",
+    "2^n + 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The steady value c satisfies c = 2c + 3, so c = \u22123 and t(n) = A \u00d7 2^(n \u2212 1) \u2212 3 with A = 4, giving 2^(n + 1) \u2212 3. The rule 3 \u00d7 2^(n \u2212 1) \u2212 2 gives t(1) = 1 but t(2) = 4, not 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0034",
+   "topicId": "spec-sequences-series",
+   "stem": "A sequence has t(1) = 0 and t(n + 1) = \u22120.5t(n) + 3. As n increases, its terms:",
+   "imageRef": null,
+   "options": [
+    "oscillate about 3 without settling",
+    "increase without limit",
+    "oscillate about 2 and approach it",
+    "increase steadily towards 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms are 0, 3, 1.5, 2.25, 1.875, \u2026, swinging either side of the steady value L = \u22120.5L + 3, that is, L = 2. The negative multiplier causes the oscillation and its size below 1 makes it die away.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0035",
+   "topicId": "spec-sequences-series",
+   "stem": "A loan of $20 000 is charged interest of 0.5% per month, and $400 is repaid at the end of each month. Which recurrence models the balance B(n) after n months?",
+   "imageRef": null,
+   "options": [
+    "B(0) = 20 000, B(n + 1) = 1.005B(n) \u2212 400",
+    "B(0) = 20 000, B(n + 1) = 0.995B(n) \u2212 400",
+    "B(0) = 20 000, B(n + 1) = 1.05B(n) \u2212 400",
+    "B(0) = 20 000, B(n + 1) = 1.005B(n) + 400"
+   ],
+   "correctIndex": 0,
+   "explanation": "Interest multiplies the balance by 1 + 0.5/100 = 1.005, and each repayment reduces it by 400. The factor 1.05 would be 5% a month, and adding 400 would increase the debt.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0036",
+   "topicId": "spec-sequences-series",
+   "stem": "A loan of $10 000 is charged interest of 1% per month. What monthly repayment keeps the balance at exactly $10 000?",
+   "imageRef": null,
+   "options": [
+    "$100",
+    "$1000",
+    "$10",
+    "$101"
+   ],
+   "correctIndex": 0,
+   "explanation": "The balance stays fixed when the repayment equals the interest added, 1% of 10 000 = 100. This is an interest-only loan; $1000 would be 10%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0037",
+   "topicId": "spec-sequences-series",
+   "stem": "An investment of $5000 earns 4% per year, compounding annually, and $1000 is added at the end of each year. What is it worth after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$6448",
+    "$7448",
+    "$7408",
+    "$7200"
+   ],
+   "correctIndex": 1,
+   "explanation": "After one year, 5000 \u00d7 1.04 + 1000 = 6200; after two, 6200 \u00d7 1.04 + 1000 = 7448. The value $7408 forgets that the first $1000 also earns interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0038",
+   "topicId": "spec-sequences-series",
+   "stem": "A lake holds 2000 fish. The population grows by 10% each year and then 150 fish are caught. How many fish are there after two years?",
+   "imageRef": null,
+   "options": [
+    "2050",
+    "2105",
+    "2120",
+    "2100"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(n + 1) = 1.1P(n) \u2212 150 gives 2200 \u2212 150 = 2050 and then 2255 \u2212 150 = 2105. The value 2050 is the count after only one year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0039",
+   "topicId": "spec-sequences-series",
+   "stem": "A wildlife park loses 10% of its animals each year and then adds 300 new animals. In the long run, the number of animals approaches:",
+   "imageRef": null,
+   "options": [
+    "2700",
+    "3300",
+    "330",
+    "3000"
+   ],
+   "correctIndex": 3,
+   "explanation": "The model is P(n + 1) = 0.9P(n) + 300, and a steady value satisfies P = 0.9P + 300, so 0.1P = 300 and P = 3000. Because 0.9 is between 0 and 1, the population settles there from any start.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sequences-series-0040",
+   "topicId": "spec-sequences-series",
+   "stem": "A population follows P(n + 1) = 1.2P(n) \u2212 500 with P(0) = 2000. In the long run the population:",
+   "imageRef": null,
+   "options": [
+    "stays constant at 2000",
+    "decreases and eventually reaches 0",
+    "increases without limit",
+    "approaches the steady value 2500"
+   ],
+   "correctIndex": 1,
+   "explanation": "The steady value 2500 satisfies P = 1.2P \u2212 500, but with a multiplier greater than 1 the gap from it grows: 2000, 1900, 1780, \u2026 . Starting below 2500, the population falls ever faster until it dies out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sequences-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

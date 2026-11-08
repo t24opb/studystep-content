@@ -1,0 +1,746 @@
+{
+ "topicId": "gm-graphs-networks",
+ "questions": [
+  {
+   "id": "gm-graphs-networks-0001",
+   "topicId": "gm-graphs-networks",
+   "stem": "The degree of a vertex in a graph is:",
+   "imageRef": null,
+   "options": [
+    "the length of the longest edge at the vertex",
+    "the number of edges that meet at the vertex",
+    "the number of vertices joined to the graph",
+    "the number of faces that touch the vertex"
+   ],
+   "correctIndex": 1,
+   "explanation": "Degree counts edge ends at a vertex, so a loop adds 2. The number of faces touching a vertex is a different count that Euler\u2019s formula does not use.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0002",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph is connected when:",
+   "imageRef": null,
+   "options": [
+    "every vertex can be reached from every other vertex",
+    "every vertex is joined directly to every other vertex",
+    "every vertex has a degree of at least 2",
+    "the graph can be drawn with no edges crossing"
+   ],
+   "correctIndex": 0,
+   "explanation": "A connected graph has a route, possibly through other vertices, between every pair of vertices. A direct edge between every pair is much stronger than connected, and no crossings describes a planar graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0003",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a connected graph, a bridge is:",
+   "imageRef": null,
+   "options": [
+    "an edge with the largest weight",
+    "an edge that crosses another edge",
+    "an edge whose removal disconnects the graph",
+    "an edge that joins a vertex to itself"
+   ],
+   "correctIndex": 2,
+   "explanation": "Removing a bridge splits the graph into two parts that can no longer reach each other. An edge from a vertex to itself is a loop.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0004",
+   "topicId": "gm-graphs-networks",
+   "stem": "A tree is:",
+   "imageRef": null,
+   "options": [
+    "a graph with no edges at all",
+    "a graph in which every vertex has degree 2",
+    "a connected graph with no cycles",
+    "a connected graph with exactly one cycle"
+   ],
+   "correctIndex": 2,
+   "explanation": "A tree joins all its vertices with no closed loops, so there is exactly one path between any two vertices. A graph in which every vertex has degree 2 is a cycle, the opposite of a tree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0005",
+   "topicId": "gm-graphs-networks",
+   "stem": "A planar graph is a graph that:",
+   "imageRef": null,
+   "options": [
+    "has no vertices of odd degree at all",
+    "can be drawn in the plane with no edges crossing",
+    "is drawn on paper with straight edges only",
+    "has the same number of faces as vertices"
+   ],
+   "correctIndex": 1,
+   "explanation": "Planar means it is possible to redraw the graph so no two edges cross. A drawing that has crossings may still be of a planar graph, if a crossing-free drawing exists.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0006",
+   "topicId": "gm-graphs-networks",
+   "stem": "Euler\u2019s formula links the numbers of vertices v, edges e and faces f of any connected planar graph. It states:",
+   "imageRef": null,
+   "options": [
+    "v + e + f = 2",
+    "v \u2212 e \u2212 f = 2",
+    "v \u2212 e + f = 2",
+    "v + e \u2212 f = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Euler\u2019s formula is v \u2212 e + f = 2, where the outside region counts as one of the faces. For a triangle, 3 \u2212 3 + 2 = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0007",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a graph, a path is a walk in which:",
+   "imageRef": null,
+   "options": [
+    "no edge is repeated, though vertices may be",
+    "the start and end vertices are the same",
+    "every edge of the graph is used",
+    "no vertex is repeated"
+   ],
+   "correctIndex": 3,
+   "explanation": "A path never revisits a vertex, so it cannot repeat an edge either. A walk with no repeated edges, but possibly repeated vertices, is a trail.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0008",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a graph, a trail is a walk with:",
+   "imageRef": null,
+   "options": [
+    "no repeated edges",
+    "no repeated vertices",
+    "every vertex used once",
+    "the same start and end vertex"
+   ],
+   "correctIndex": 0,
+   "explanation": "A trail may pass through a vertex more than once but never uses the same edge twice. A walk with no repeated vertices is a path.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0009",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a graph, a cycle is:",
+   "imageRef": null,
+   "options": [
+    "a closed walk that may repeat vertices but not edges",
+    "any walk that uses every edge of the graph",
+    "an open walk with no repeated edges",
+    "a closed walk with no repeated vertices except the start"
+   ],
+   "correctIndex": 3,
+   "explanation": "A cycle is a path that returns to its start, so only the start and end vertex are the same. A closed walk that repeats vertices but not edges is a circuit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0010",
+   "topicId": "gm-graphs-networks",
+   "stem": "Two graphs are isomorphic when:",
+   "imageRef": null,
+   "options": [
+    "they have equal numbers of faces, whatever the edges",
+    "they have the same connections, though they may be drawn differently",
+    "they look identical when they are drawn on the page",
+    "they have equal numbers of vertices, whatever the edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "Isomorphic graphs have a matching of vertices that keeps every connection, so they are the same graph drawn in different ways. Equal numbers of vertices are necessary but not enough.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0011",
+   "topicId": "gm-graphs-networks",
+   "stem": "A greedy algorithm is one that:",
+   "imageRef": null,
+   "options": [
+    "makes the best available choice at each step",
+    "checks every possible solution before choosing",
+    "always starts from the longest edge",
+    "chooses each step at random"
+   ],
+   "correctIndex": 0,
+   "explanation": "A greedy algorithm, such as Prim\u2019s algorithm, takes the best-looking option at each step without looking ahead. Checking every possible solution is called exhaustive search.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0012",
+   "topicId": "gm-graphs-networks",
+   "stem": "A minimum spanning tree of a connected weighted graph is:",
+   "imageRef": null,
+   "options": [
+    "the shortest path between two given vertices",
+    "a cycle through every vertex with the least weight",
+    "the tree with the fewest number of edges",
+    "a tree joining all vertices with the least total weight"
+   ],
+   "correctIndex": 3,
+   "explanation": "A spanning tree reaches every vertex with no cycles, and the minimum one has the smallest total weight. The shortest path between two vertices is a different problem.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0013",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a directed graph (digraph), the edges:",
+   "imageRef": null,
+   "options": [
+    "must join every pair of vertices",
+    "have a direction, shown by an arrow",
+    "all have weights such as distances",
+    "never form a closed walk"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a digraph each edge can be travelled only in the direction of its arrow, as in a one-way street. Weights belong to weighted graphs, which may or may not be directed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0014",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has 7 edges. The sum of the degrees of its vertices is:",
+   "imageRef": null,
+   "options": [
+    "3.5",
+    "21",
+    "14",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each edge has two ends and adds 1 to the degree of each, so the sum of the degrees is 2 \u00d7 7 = 14.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0015",
+   "topicId": "gm-graphs-networks",
+   "stem": "A connected planar graph has 8 vertices and 12 edges. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "4",
+    "22",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "From v \u2212 e + f = 2: 8 \u2212 12 + f = 2, so f = 6. The value 4 is just e \u2212 v, which leaves out the 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0016",
+   "topicId": "gm-graphs-networks",
+   "stem": "A tree has 9 vertices. The number of edges is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "18",
+    "8",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every tree with n vertices has n \u2212 1 edges, so 9 vertices give 8 edges. A ninth edge would create a cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0017",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, AC, AD, BC, CD and a loop at D. The degree of vertex D is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Edges AD and CD each add 1, and the loop adds 2 because both its ends are at D, giving 4. Counting the loop as 1 gives 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0018",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has vertices P, Q and R, two edges joining P and Q, and one edge joining Q and R. In the adjacency matrix, the row for P is:",
+   "imageRef": null,
+   "options": [
+    "(2, 0, 1)",
+    "(0, 2, 0)",
+    "(0, 1, 0)",
+    "(1, 2, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The entries count the edges from P to P, Q and R in turn: none to itself, two to Q, none to R. Writing 1 for Q records the connection but not the number of edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0019",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, BC, CA and CD. The walk A\u2013B\u2013C\u2013D\u2013C is:",
+   "imageRef": null,
+   "options": [
+    "a path",
+    "a circuit",
+    "a walk, but not a trail",
+    "a trail, but not a path"
+   ],
+   "correctIndex": 2,
+   "explanation": "The walk goes C\u2013D then D\u2013C, using edge CD twice, so it is not a trail. A circuit would also have to return to A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0020",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, BC, CA, CD, DE and EC. The walk A\u2013B\u2013C\u2013D\u2013E\u2013C is:",
+   "imageRef": null,
+   "options": [
+    "a walk with a repeated edge",
+    "a trail, but not a path",
+    "a path",
+    "a cycle"
+   ],
+   "correctIndex": 1,
+   "explanation": "The edges AB, BC, CD, DE and EC are all different, so it is a trail, but vertex C is visited twice, so it is not a path. It ends at C, not A, so it is not closed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0021",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, BC, CA, CD, DE, EF and FD. Which edge is a bridge?",
+   "imageRef": null,
+   "options": [
+    "CA",
+    "CD",
+    "AB",
+    "DE"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph is two triangles, ABC and DEF, joined only by CD. Removing CD separates them. Every other edge lies on a triangle, so removing it leaves another way round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0022",
+   "topicId": "gm-graphs-networks",
+   "stem": "A spanning tree of a connected graph with 12 vertices has how many edges?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "6",
+    "11",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "A spanning tree is a tree that includes all 12 vertices, and any tree with n vertices has n \u2212 1 edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0023",
+   "topicId": "gm-graphs-networks",
+   "stem": "Prim\u2019s algorithm builds a minimum spanning tree. After choosing a starting vertex, at each step it adds:",
+   "imageRef": null,
+   "options": [
+    "the longest edge joining two vertices in the tree",
+    "the edge that leads to the nearest unvisited vertex from the last one",
+    "the shortest edge joining the tree to a vertex not yet in it",
+    "the shortest edge anywhere in the graph not yet used"
+   ],
+   "correctIndex": 2,
+   "explanation": "Prim\u2019s algorithm grows one tree, always adding the cheapest edge from any vertex already in it to a new vertex. Adding only from the last vertex reached is a different, nearest-neighbour method.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0024",
+   "topicId": "gm-graphs-networks",
+   "stem": "A connected planar graph has 10 edges and 6 faces. The number of vertices is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "18",
+    "6",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "From v \u2212 e + f = 2: v \u2212 10 + 6 = 2, so v = 6. Adding 10 + 6 \u2212 2 gives 14, a sign error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0025",
+   "topicId": "gm-graphs-networks",
+   "stem": "In the adjacency matrix of an undirected graph with no loops, the sum of the entries in a vertex\u2019s row equals:",
+   "imageRef": null,
+   "options": [
+    "the number of faces in the graph",
+    "the total number of edges in the graph",
+    "the degree of that vertex",
+    "the number of vertices in the graph"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each entry counts the edges from that vertex to one other vertex, so the row adds up all edges at the vertex, its degree. Summing the whole matrix gives twice the number of edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0026",
+   "topicId": "gm-graphs-networks",
+   "stem": "The adjacency matrix of an undirected graph is always:",
+   "imageRef": null,
+   "options": [
+    "a matrix with no zero entries",
+    "a row matrix with one entry per vertex",
+    "symmetric about the leading diagonal",
+    "filled with 1s on the leading diagonal"
+   ],
+   "correctIndex": 2,
+   "explanation": "An undirected edge between P and Q is counted in row P, column Q and in row Q, column P, so the matrix mirrors itself across the leading diagonal. A digraph\u2019s matrix need not be symmetric.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0027",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a tree, every edge is:",
+   "imageRef": null,
+   "options": [
+    "part of a cycle",
+    "a loop",
+    "one of a pair of multiple edges",
+    "a bridge"
+   ],
+   "correctIndex": 3,
+   "explanation": "A tree has exactly one path between any two vertices, so removing any edge leaves two parts with no connection. That makes every edge a bridge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0028",
+   "topicId": "gm-graphs-networks",
+   "stem": "Roads join five towns: Ayr\u2013Bel 7 km, Bel\u2013Cor 5 km, Ayr\u2013Cor 14 km, Cor\u2013Dun 4 km and Bel\u2013Dun 10 km. The shortest route from Ayr to Dun is:",
+   "imageRef": null,
+   "options": [
+    "18 km",
+    "14 km",
+    "16 km",
+    "17 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "The routes are Ayr\u2013Bel\u2013Cor\u2013Dun = 7 + 5 + 4 = 16 km, Ayr\u2013Bel\u2013Dun = 17 km and Ayr\u2013Cor\u2013Dun = 18 km. The route with the fewest roads is not the shortest one here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0029",
+   "topicId": "gm-graphs-networks",
+   "stem": "Which statement about minimum spanning trees is true?",
+   "imageRef": null,
+   "options": [
+    "A minimum spanning tree must include the longest edge.",
+    "A graph can have two different minimum spanning trees.",
+    "A minimum spanning tree must contain at least one cycle.",
+    "A minimum spanning tree on n vertices has n edges."
+   ],
+   "correctIndex": 1,
+   "explanation": "If some edges have equal weights, different choices can give different trees with the same least total weight. A tree has no cycles and has n \u2212 1 edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0030",
+   "topicId": "gm-graphs-networks",
+   "stem": "When the faces of a connected planar graph are counted for Euler\u2019s formula, the region outside the graph:",
+   "imageRef": null,
+   "options": [
+    "is not counted as a face",
+    "is counted once for each edge on it",
+    "is counted only if it touches a loop",
+    "is counted as one face"
+   ],
+   "correctIndex": 3,
+   "explanation": "The unbounded outside region is a face. For a single triangle, the inside and the outside give f = 2, and 3 \u2212 3 + 2 = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0031",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, BC, CA, CD, DE and EC. The walk A\u2013B\u2013C\u2013D\u2013E\u2013C\u2013A is:",
+   "imageRef": null,
+   "options": [
+    "a cycle, and also a path",
+    "a trail that is not closed",
+    "a walk with a repeated edge",
+    "a circuit, but not a cycle"
+   ],
+   "correctIndex": 3,
+   "explanation": "It returns to A and uses six different edges, so it is a circuit. Vertex C is visited twice along the way, so it is not a cycle, which allows no repeated vertex except the start.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0032",
+   "topicId": "gm-graphs-networks",
+   "stem": "In a weighted graph, A\u2013B is 4, A\u2013C is 2, C\u2013B is 1, B\u2013D is 5, C\u2013D is 8, D\u2013E is 3 and B\u2013E is 9. The length of the shortest path from A to E is:",
+   "imageRef": null,
+   "options": [
+    "13",
+    "10",
+    "11",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2013C\u2013B\u2013D\u2013E = 2 + 1 + 5 + 3 = 11. The routes A\u2013B\u2013D\u2013E and A\u2013C\u2013B\u2013E are both 12, and A\u2013C\u2013D\u2013E is 13. Going via C to reach B is shorter than taking A\u2013B directly.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0033",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB = 3, AC = 5, AD = 4, BC = 2, BD = 6 and CD = 7. The total weight of a minimum spanning tree is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "27",
+    "9",
+    "10"
+   ],
+   "correctIndex": 2,
+   "explanation": "Choose the cheapest edges that create no cycle: BC = 2, AB = 3, AD = 4. Three edges join four vertices, for a total of 9. The value 27 is the weight of the whole graph.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0034",
+   "topicId": "gm-graphs-networks",
+   "stem": "Graphs X and Y each have 5 vertices and 6 edges. X has degrees 3, 3, 2, 2, 2 and Y has degrees 4, 2, 2, 2, 2. Are X and Y isomorphic?",
+   "imageRef": null,
+   "options": [
+    "No, because they have different numbers of edges.",
+    "No, because their degree sequences differ.",
+    "Yes, because they have equal numbers of edges.",
+    "Yes, because both degree sums equal 12."
+   ],
+   "correctIndex": 1,
+   "explanation": "Isomorphic graphs must have the same degrees, since matched vertices keep all their edges. Y has a vertex of degree 4 and X does not, so no matching exists. Equal edge counts are necessary but not sufficient.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0035",
+   "topicId": "gm-graphs-networks",
+   "stem": "Four vertices of a graph have degrees 3, 3, 2 and 4. Which could be the degree of the fifth and final vertex?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "5",
+    "2",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sum of all degrees is twice the number of edges, so it must be even. The four degrees sum to 12, so the fifth must be even, and of these only 2 works.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0036",
+   "topicId": "gm-graphs-networks",
+   "stem": "A connected planar graph has 6 vertices, each of degree 3. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "5",
+    "3",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "The degree sum is 6 \u00d7 3 = 18, so there are 9 edges. Then 6 \u2212 9 + f = 2 gives f = 5. The value 9 is the number of edges, not faces.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0037",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has 6 vertices and 4 edges. Can it be connected?",
+   "imageRef": null,
+   "options": [
+    "No: connecting 6 vertices needs at least 5 edges.",
+    "Yes: any graph with 4 edges can be connected.",
+    "Yes, but only if one of the edges is a loop.",
+    "No: connecting 6 vertices needs 6 or more edges."
+   ],
+   "correctIndex": 0,
+   "explanation": "The fewest edges that connect n vertices is n \u2212 1, a tree, so 6 vertices need at least 5. A loop joins a vertex to itself and connects nothing new.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0038",
+   "topicId": "gm-graphs-networks",
+   "stem": "A graph has edges AB, BC, CD, DA and AC. Which walk is a cycle?",
+   "imageRef": null,
+   "options": [
+    "A\u2013B\u2013C\u2013D\u2013A",
+    "A\u2013B\u2013C\u2013A\u2013D\u2013A",
+    "A\u2013C\u2013B\u2013A\u2013C",
+    "A\u2013B\u2013C\u2013D"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u2013B\u2013C\u2013D\u2013A returns to its start with no other repeated vertex, so it is a cycle. A\u2013B\u2013C\u2013A\u2013D\u2013A revisits A and uses edge AD twice, and A\u2013B\u2013C\u2013D does not return to the start.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-graphs-networks-0039",
+   "topicId": "gm-graphs-networks",
+   "stem": "Edges: S\u2013A = 1, A\u2013T = 10, S\u2013B = 3 and B\u2013T = 3. A student finds a route from S to T by always taking the shortest edge out of the current vertex. Compared with the shortest path, the student\u2019s route is:",
+   "imageRef": null,
+   "options": [
+    "the same length",
+    "5 units shorter",
+    "5 units longer",
+    "4 units longer"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking S\u2013A first, then A\u2013T, gives 1 + 10 = 11. The shortest path, S\u2013B\u2013T, is 3 + 3 = 6, so the student\u2019s route is 5 units longer. A good first step can lead to a poor route.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-graphs-networks-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

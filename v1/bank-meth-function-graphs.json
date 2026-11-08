@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-function-graphs",
+ "questions": [
+  {
+   "id": "meth-function-graphs-0001",
+   "topicId": "meth-function-graphs",
+   "stem": "The maximal domain of f(x) = ln(x \u2212 3) is:",
+   "imageRef": null,
+   "options": [
+    "x > 3",
+    "x \u2265 3",
+    "x > \u22123",
+    "x \u2260 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "A logarithm is only defined for positive inputs, so x \u2212 3 > 0, which gives x > 3. The value x = 3 itself is excluded because ln 0 is undefined; the line x = 3 is the vertical asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0002",
+   "topicId": "meth-function-graphs",
+   "stem": "Which equation is the asymptote of the graph of y = e^x?",
+   "imageRef": null,
+   "options": [
+    "y = 1",
+    "x = 0",
+    "y = e",
+    "y = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "As x \u2192 \u2212\u221e, e^x gets closer and closer to 0 but stays positive, so y = 0 is a horizontal asymptote. The graph crosses the y-axis at (0, 1), which is a point on the curve, not an asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0003",
+   "topicId": "meth-function-graphs",
+   "stem": "Which of these gives every vertical asymptote of y = tan(x), where k \u2208 Z?",
+   "imageRef": null,
+   "options": [
+    "x = k\u03c0",
+    "x = \u03c0/2 + 2k\u03c0",
+    "x = \u03c0 + 2k\u03c0",
+    "x = \u03c0/2 + k\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "tan(x) = sin(x)/cos(x) is undefined wherever cos(x) = 0, which is x = \u03c0/2 + k\u03c0. The values x = k\u03c0 are the x-intercepts, and x = \u03c0/2 + 2k\u03c0 misses every second asymptote because tan has period \u03c0, not 2\u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0004",
+   "topicId": "meth-function-graphs",
+   "stem": "The range of y = 1/x\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "R",
+    "(1, \u221e)",
+    "(0, \u221e)",
+    "[0, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "For every x \u2260 0, x\u00b2 is positive, so 1/x\u00b2 is positive, and it takes every positive value. It never equals 0, so the range is (0, \u221e) with y = 0 as a horizontal asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0005",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = log\u2081\u2080(x) passes through which point?",
+   "imageRef": null,
+   "options": [
+    "(10, 1)",
+    "(1, 10)",
+    "(0, 1)",
+    "(10, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "log\u2081\u2080(10) = 1 because 10\u00b9 = 10, so (10, 1) is on the graph. The point (0, 1) belongs to y = 10^x, the inverse; every logarithm graph crosses the x-axis at (1, 0) instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0006",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of an even function is symmetric about:",
+   "imageRef": null,
+   "options": [
+    "the line y = x",
+    "the y-axis",
+    "the x-axis",
+    "the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "An even function satisfies f(\u2212x) = f(x), so the points at x and \u2212x have the same height and the graph mirrors across the y-axis, as y = cos(x) and y = x\u00b2 do. Symmetry about the origin belongs to odd functions, where f(\u2212x) = \u2212f(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0007",
+   "topicId": "meth-function-graphs",
+   "stem": "For y = 3x\u00b2 \u2212 x\u2074, as x \u2192 \u2212\u221e:",
+   "imageRef": null,
+   "options": [
+    "y \u2192 3",
+    "y \u2192 \u2212\u221e",
+    "y \u2192 \u221e",
+    "y \u2192 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "For large |x| the leading term \u2212x\u2074 dominates, and x\u2074 is positive whether x is positive or negative, so \u2212x\u2074 is a large negative number. An even-degree polynomial heads the same way at both ends.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0008",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = (x \u2212 1)\u00b3 + 2 has a stationary point of inflection at:",
+   "imageRef": null,
+   "options": [
+    "(2, 1)",
+    "(1, 2)",
+    "(\u22121, 2)",
+    "(1, \u22122)"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = x\u00b3 has its stationary point of inflection at the origin. Replacing x with x \u2212 1 moves it 1 unit right and adding 2 moves it 2 units up, so it is at (1, 2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0009",
+   "topicId": "meth-function-graphs",
+   "stem": "At which value of x does the graph of y = (x \u2212 2)\u00b2(x + 1) touch the x-axis without crossing it?",
+   "imageRef": null,
+   "options": [
+    "x = \u22121",
+    "x = \u22122",
+    "x = 1",
+    "x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "A squared factor gives a repeated root, where the graph touches the axis and turns back. The single factor (x + 1) gives a root at x = \u22121, where the graph crosses the axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0010",
+   "topicId": "meth-function-graphs",
+   "stem": "Which of these functions has range R?",
+   "imageRef": null,
+   "options": [
+    "y = ln(x)",
+    "y = e^x",
+    "y = x\u00b2",
+    "y = 1/x\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The natural logarithm takes every real value: it falls to \u2212\u221e near x = 0 and rises without bound as x grows. The exponential has range (0, \u221e), and both x\u00b2 and 1/x\u00b2 never give negative values.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0011",
+   "topicId": "meth-function-graphs",
+   "stem": "What is the maximum number of turning points the graph of a polynomial of degree 4 can have?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of a degree 4 polynomial is a cubic, which has at most three real zeros, so there are at most three turning points. In general a degree n polynomial has at most n \u2212 1 turning points.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0012",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = (1/2)^x:",
+   "imageRef": null,
+   "options": [
+    "is strictly decreasing and passes through (1, 0)",
+    "has the asymptote x = 0 and passes through (1, 0)",
+    "is strictly decreasing and passes through (0, 1)",
+    "is strictly increasing and passes through (0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "When the base a satisfies 0 < a < 1, y = a^x falls as x increases. Every graph y = a^x passes through (0, 1) because a\u2070 = 1; the point (1, 0) and the asymptote x = 0 belong to logarithm graphs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0013",
+   "topicId": "meth-function-graphs",
+   "stem": "The maximal domain of f(x) = \u221a(4 \u2212 2x) is:",
+   "imageRef": null,
+   "options": [
+    "x \u2265 \u22122",
+    "x \u2264 2",
+    "x \u2265 2",
+    "x \u2264 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The expression under the square root must be non-negative: 4 \u2212 2x \u2265 0, so 2x \u2264 4 and x \u2264 2. Writing x \u2265 2 reverses the inequality, which only happens when dividing by a negative number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0014",
+   "topicId": "meth-function-graphs",
+   "stem": "The maximal domain of f(x) = 1/\u221a(x \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "x > 1",
+    "x \u2265 1",
+    "x \u2260 1",
+    "x > 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The square root needs x \u2212 1 \u2265 0, and the denominator cannot be zero, so x \u2212 1 > 0. Both conditions together give x > 1, with x = 1 excluded because it makes the denominator 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0015",
+   "topicId": "meth-function-graphs",
+   "stem": "The range of f(x) = 2e^x \u2212 3 is:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u221e)",
+    "(3, \u221e)",
+    "(\u22123, \u221e)",
+    "[\u22123, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "e^x takes every value in (0, \u221e), so 2e^x does too, and subtracting 3 gives (\u22123, \u221e). The y-intercept is \u22121, but that is a point on the graph, not the bottom of the range; \u22123 is never reached because e^x is never 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0016",
+   "topicId": "meth-function-graphs",
+   "stem": "What is the period of y = tan(2x)?",
+   "imageRef": null,
+   "options": [
+    "4\u03c0",
+    "\u03c0/2",
+    "\u03c0",
+    "2\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The period of y = tan(nx) is \u03c0/n, so tan(2x) has period \u03c0/2. The period of 2\u03c0 belongs to sine and cosine; using 2\u03c0/n would give \u03c0, which is the period of tan(x) itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0017",
+   "topicId": "meth-function-graphs",
+   "stem": "How many x-intercepts does y = sin(2x) have for x \u2208 [0, 2\u03c0]?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(2x) = 0 when 2x = k\u03c0, so x = k\u03c0/2. In [0, 2\u03c0] that gives x = 0, \u03c0/2, \u03c0, 3\u03c0/2 and 2\u03c0, which is five values because both endpoints are included.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0018",
+   "topicId": "meth-function-graphs",
+   "stem": "What is the y-intercept of y = 2cos(x \u2212 \u03c0/3)?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22121",
+    "1",
+    "\u221a3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substituting x = 0 gives 2cos(\u2212\u03c0/3) = 2cos(\u03c0/3) = 2 \u00d7 1/2 = 1, since cosine is even. The value \u221a3 comes from using sin(\u03c0/3) instead of cos(\u03c0/3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0019",
+   "topicId": "meth-function-graphs",
+   "stem": "What is the x-intercept of y = ln(x) + 1?",
+   "imageRef": null,
+   "options": [
+    "x = e",
+    "x = \u22121/e",
+    "x = e \u2212 1",
+    "x = 1/e"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set ln(x) + 1 = 0, so ln(x) = \u22121 and x = e^(\u22121) = 1/e. Answering e solves ln(x) = 1, which drops the sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0020",
+   "topicId": "meth-function-graphs",
+   "stem": "The maximal domain of y = x^(\u22121/2) and the corresponding range are:",
+   "imageRef": null,
+   "options": [
+    "domain [0, \u221e), range [0, \u221e)",
+    "domain (0, \u221e), range R",
+    "domain R, range (0, \u221e)",
+    "domain (0, \u221e), range (0, \u221e)"
+   ],
+   "correctIndex": 3,
+   "explanation": "x^(\u22121/2) = 1/\u221ax, which needs x > 0 because the square root needs x \u2265 0 and the denominator cannot be 0. Its values are all positive and it takes every positive value, so the range is (0, \u221e).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0021",
+   "topicId": "meth-function-graphs",
+   "stem": "For the function f: [0, \u03c0] \u2192 R, f(x) = sin(x), the range is:",
+   "imageRef": null,
+   "options": [
+    "[\u22121, 1]",
+    "[0, \u03c0]",
+    "R",
+    "[0, 1]"
+   ],
+   "correctIndex": 3,
+   "explanation": "Over [0, \u03c0] the sine graph rises from 0 to 1 at \u03c0/2 and falls back to 0, never going negative. R is the co-domain given in the function notation, not the range, and [\u22121, 1] is the range only over a full period.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0022",
+   "topicId": "meth-function-graphs",
+   "stem": "For 0 < x < 1, which statement is true?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 < x\u2074 < x",
+    "x\u00b2 < x < x\u2074",
+    "x\u2074 < x\u00b2 < x",
+    "x < x\u00b2 < x\u2074"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying a number between 0 and 1 by itself makes it smaller, so higher powers are smaller: x\u2074 < x\u00b2 < x. For x > 1 the order reverses, and all three graphs meet at (1, 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0023",
+   "topicId": "meth-function-graphs",
+   "stem": "What are the x-intercepts of y = x\u2074 \u2212 4x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "\u22122, 0 and 2",
+    "0 and 4",
+    "\u22124, 0 and 4",
+    "\u22122 and 2 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "Factorise: x\u2074 \u2212 4x\u00b2 = x\u00b2(x\u00b2 \u2212 4) = x\u00b2(x \u2212 2)(x + 2), giving x = 0, 2 and \u22122. The graph touches the axis at x = 0, because x\u00b2 is a repeated factor, and crosses it at \u00b12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0024",
+   "topicId": "meth-function-graphs",
+   "stem": "Which of these functions is odd?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b3 + 1",
+    "f(x) = x\u00b2 + x",
+    "f(x) = cos(x)",
+    "f(x) = x\u00b3 + x"
+   ],
+   "correctIndex": 3,
+   "explanation": "For f(x) = x\u00b3 + x, f(\u2212x) = \u2212x\u00b3 \u2212 x = \u2212f(x), so it is odd. Adding a constant breaks this: x\u00b3 + 1 gives f(\u2212x) = \u2212x\u00b3 + 1, which is neither f(x) nor \u2212f(x), and cos(x) is even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0025",
+   "topicId": "meth-function-graphs",
+   "stem": "The height of a Ferris wheel seat is h(t) = 12 \u2212 10cos(\u03c0t/15) metres, t minutes after it leaves the bottom. How long does one revolution take?",
+   "imageRef": null,
+   "options": [
+    "2\u03c0 minutes",
+    "60 minutes",
+    "30 minutes",
+    "15 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "The period of cos(nt) is 2\u03c0/n, and here n = \u03c0/15, so the period is 2\u03c0 \u00f7 (\u03c0/15) = 30 minutes. Half a revolution, 15 minutes, takes the seat from the bottom to the top.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0026",
+   "topicId": "meth-function-graphs",
+   "stem": "Which statement compares y = ln(x) and y = log\u2081\u2080(x) correctly for x > 1?",
+   "imageRef": null,
+   "options": [
+    "the graphs cross again at x = 10",
+    "the graphs cross again at x = e",
+    "ln(x) > log\u2081\u2080(x) for all x > 1",
+    "ln(x) < log\u2081\u2080(x) for all x > 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both graphs pass through (1, 0), and ln(x) = log\u2081\u2080(x) \u00d7 ln 10 where ln 10 \u2248 2.3. So for x > 1, where both are positive, ln(x) is about 2.3 times as large, and the graphs never meet again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0027",
+   "topicId": "meth-function-graphs",
+   "stem": "The function f: (\u2212\u03c0/2, \u03c0/2) \u2192 R, f(x) = tan(x) has range:",
+   "imageRef": null,
+   "options": [
+    "R",
+    "[\u22121, 1]",
+    "(\u2212\u03c0/2, \u03c0/2)",
+    "(0, \u221e)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Between its asymptotes at \u00b1\u03c0/2, tan(x) rises from \u2212\u221e to \u221e, so it takes every real value. The interval (\u2212\u03c0/2, \u03c0/2) is the domain here, and [\u22121, 1] is the range of sine and cosine.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0028",
+   "topicId": "meth-function-graphs",
+   "stem": "Which feature does the graph of y = x^(1/3), x \u2208 R, have at the origin?",
+   "imageRef": null,
+   "options": [
+    "a vertical tangent",
+    "a horizontal tangent",
+    "a local minimum",
+    "a vertical asymptote"
+   ],
+   "correctIndex": 0,
+   "explanation": "The derivative (1/3)x^(\u22122/3) grows without bound as x \u2192 0, so the curve passes through the origin with a vertical tangent. The cube y = x\u00b3 is the one with a horizontal tangent there, a stationary point of inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0029",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = x\u00b3 \u2212 3x has a local maximum at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22122)",
+    "(1, 2)",
+    "(\u22121, 2)",
+    "(1, \u22122)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 3 = 0 gives x = \u00b11. A cubic with positive leading coefficient rises, falls, then rises, so the left turning point is the maximum: y(\u22121) = \u22121 + 3 = 2. The point (1, \u22122) is the local minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0030",
+   "topicId": "meth-function-graphs",
+   "stem": "Over [0, 2\u03c0], the largest interval over which y = cos(x) is strictly decreasing is:",
+   "imageRef": null,
+   "options": [
+    "[0, \u03c0/2]",
+    "[0, \u03c0]",
+    "[\u03c0, 2\u03c0]",
+    "[\u03c0/2, 3\u03c0/2]"
+   ],
+   "correctIndex": 1,
+   "explanation": "Cosine starts at its maximum 1 when x = 0 and falls to its minimum \u22121 at x = \u03c0, then rises again to 1 at 2\u03c0, so [0, \u03c0] is the largest interval of decrease; [0, \u03c0/2] is only part of it. The interval [\u03c0/2, 3\u03c0/2] is where cosine is negative, which is a different property from decreasing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0031",
+   "topicId": "meth-function-graphs",
+   "stem": "The maximal domain of f(x) = ln(x\u00b2 \u2212 9) is:",
+   "imageRef": null,
+   "options": [
+    "\u22123 < x < 3",
+    "x > 9",
+    "x < \u22123 or x > 3",
+    "x > 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The log needs x\u00b2 \u2212 9 > 0, so x\u00b2 > 9, which holds for x > 3 and for x < \u22123. Keeping only x > 3 forgets the negative branch, which is just as valid because x is squared.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0032",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = x\u00b3 \u2212 3x\u00b2 has a point of inflection at:",
+   "imageRef": null,
+   "options": [
+    "(1, 2)",
+    "(1, \u22122)",
+    "(0, 0)",
+    "(2, \u22124)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The second derivative is 6x \u2212 6, which changes sign at x = 1, and y(1) = 1 \u2212 3 = \u22122. The points (0, 0) and (2, \u22124) are the turning points; a cubic\u2019s point of inflection lies midway between them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0033",
+   "topicId": "meth-function-graphs",
+   "stem": "A cubic graph touches the x-axis at x = 1, crosses it at x = \u22122 and passes through (0, 4). Its rule is:",
+   "imageRef": null,
+   "options": [
+    "y = 2(x \u2212 1)(x + 2)\u00b2",
+    "y = 2(x \u2212 1)\u00b2(x + 2)",
+    "y = 2(x + 1)\u00b2(x \u2212 2)",
+    "y = 4(x \u2212 1)\u00b2(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Touching at x = 1 needs the squared factor (x \u2212 1)\u00b2, and crossing at x = \u22122 needs (x + 2). Then y = a(x \u2212 1)\u00b2(x + 2) at x = 0 gives 2a = 4, so a = 2. Using a = 4 sets a equal to the y-intercept without solving for it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0034",
+   "topicId": "meth-function-graphs",
+   "stem": "How many stationary points does the graph of y = (x + 1)\u00b2(x \u2212 3)\u00b2 have?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph touches the x-axis at x = \u22121 and x = 3, which are both local minima, and it must turn between them, giving a local maximum. That is three stationary points, which is the most a degree 4 polynomial can have.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0035",
+   "topicId": "meth-function-graphs",
+   "stem": "A polynomial p has degree 3, a negative leading coefficient, and x-intercepts only at x = \u22121 and x = 4, where it crosses at x = 4. Which rule could p have?",
+   "imageRef": null,
+   "options": [
+    "p(x) = \u2212(x + 1)\u00b2(x \u2212 4)",
+    "p(x) = \u2212(x + 1)(x \u2212 4)\u00b2",
+    "p(x) = (x + 1)\u00b2(x \u2212 4)",
+    "p(x) = \u2212(x \u2212 1)\u00b2(x + 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A cubic with only two intercepts has one repeated root where it touches. It crosses at x = 4, so (x \u2212 4) is the single factor and (x + 1)\u00b2 the repeated one, with a negative coefficient in front. Swapping the squared factor would make it touch at 4 instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0036",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = a sin(x) + c, a > 0, has maximum value 7 and minimum value \u22121. The values of a and c are:",
+   "imageRef": null,
+   "options": [
+    "a = 4, c = 3",
+    "a = 8, c = 3",
+    "a = 4, c = \u22121",
+    "a = 3, c = 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The amplitude is half the distance from maximum to minimum, (7 \u2212 (\u22121))/2 = 4, and the centre line is their average, (7 + (\u22121))/2 = 3. Taking a = 8 uses the full distance between maximum and minimum instead of half of it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0037",
+   "topicId": "meth-function-graphs",
+   "stem": "The function f: [\u22122, 2] \u2192 R, f(x) = x\u00b2 \u2212 2x has range:",
+   "imageRef": null,
+   "options": [
+    "[0, 4]",
+    "[\u22121, 8]",
+    "[0, 8]",
+    "[\u22121, 0]"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(x) = (x \u2212 1)\u00b2 \u2212 1 has its minimum \u22121 at x = 1, which is inside the domain. The largest value is at the endpoint further from 1: f(\u22122) = 4 + 4 = 8, while f(2) = 0. Using only the endpoints misses the turning point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0038",
+   "topicId": "meth-function-graphs",
+   "stem": "The function f(x) = x^n, where n is a positive integer, satisfies f(\u22122) = \u22128 and f(2) = 8. Which statement about its graph must be true?",
+   "imageRef": null,
+   "options": [
+    "It is symmetric about the y-axis.",
+    "It has a local minimum at the origin.",
+    "It passes through (\u22121, 1).",
+    "It is symmetric about the origin."
+   ],
+   "correctIndex": 3,
+   "explanation": "From 2^n = 8, n = 3, so f(x) = x\u00b3, which is odd: f(\u2212x) = \u2212f(x), so its graph is symmetric about the origin. Symmetry about the y-axis belongs to even powers, and x\u00b3 passes through (\u22121, \u22121), not (\u22121, 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0039",
+   "topicId": "meth-function-graphs",
+   "stem": "For the graph of f(x) = e^x \u2212 4, which list of key features is correct?",
+   "imageRef": null,
+   "options": [
+    "asymptote x = \u22124, x-intercept ln 4, y-intercept \u22123",
+    "asymptote y = \u22124, x-intercept ln 4, y-intercept \u22123",
+    "asymptote y = \u22124, x-intercept ln 4, y-intercept \u22124",
+    "asymptote y = 4, x-intercept 4, y-intercept \u22123"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph of e^x moved down 4 has asymptote y = \u22124. Setting e^x = 4 gives the x-intercept x = ln 4, and f(0) = 1 \u2212 4 = \u22123. The y-intercept is not \u22124, because e\u2070 is 1, not 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-function-graphs-0040",
+   "topicId": "meth-function-graphs",
+   "stem": "The graph of y = cos(x) for x \u2208 [0, 2\u03c0] and the graph of y = sin(x) for x \u2208 [0, 2\u03c0] meet at:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/2 and x = 3\u03c0/2",
+    "x = \u03c0/4 and x = 5\u03c0/4",
+    "x = \u03c0/4 and x = 3\u03c0/4",
+    "x = \u03c0/4 and x = 7\u03c0/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graphs meet where sin(x) = cos(x), that is tan(x) = 1, which happens at \u03c0/4 and \u03c0/4 + \u03c0 = 5\u03c0/4. At 3\u03c0/4 sine is positive and cosine negative, so they are opposite in sign there, not equal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-function-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

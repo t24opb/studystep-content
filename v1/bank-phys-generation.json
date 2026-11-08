@@ -1,0 +1,765 @@
+{
+ "topicId": "phys-generation",
+ "questions": [
+  {
+   "id": "phys-generation-0001",
+   "topicId": "phys-generation",
+   "stem": "A flat coil of area 0.020 m\u00b2 lies perpendicular to a uniform 0.50 T magnetic field. What is the magnetic flux through the coil?",
+   "imageRef": null,
+   "options": [
+    "1.0 Wb",
+    "1.0 \u00d7 10\u207b\u00b2 Wb",
+    "25 Wb",
+    "4.0 \u00d7 10\u207b\u00b2 Wb"
+   ],
+   "correctIndex": 1,
+   "explanation": "When the field is perpendicular to the area, flux = BA = 0.50 \u00d7 0.020 = 1.0 \u00d7 10\u207b\u00b2 Wb. Dividing the field by the area gives 25, and dividing the area by the field gives 4.0 \u00d7 10\u207b\u00b2; neither is the flux.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0002",
+   "topicId": "phys-generation",
+   "stem": "A flat coil in a uniform magnetic field is turned from perpendicular to the field until its plane is parallel to the field. How does the flux through the coil change?",
+   "imageRef": null,
+   "options": [
+    "It reverses sign but keeps the same magnitude",
+    "It falls from its maximum value to zero",
+    "It rises from zero to its maximum value",
+    "It stays constant, as the coil\u2019s area is unchanged"
+   ],
+   "correctIndex": 1,
+   "explanation": "Flux depends on the area perpendicular to the field. Facing the field, the whole area counts and the flux is greatest; edge-on, no field lines pass through the coil and the flux is zero. The coil\u2019s own area stays the same, but the area the field passes through does not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0003",
+   "topicId": "phys-generation",
+   "stem": "The flux through a 200-turn coil falls steadily from 3.0 \u00d7 10\u207b\u00b3 Wb to zero in 0.050 s. What is the size of the average induced emf?",
+   "imageRef": null,
+   "options": [
+    "0.060 V",
+    "0.60 V",
+    "0.030 V",
+    "12 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "Faraday\u2019s law gives emf = N \u00d7 (change in flux)/\u0394t = 200 \u00d7 3.0 \u00d7 10\u207b\u00b3 / 0.050 = 12 V. Leaving out the number of turns gives 0.060 V, and forgetting to divide by the time gives 0.60 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0004",
+   "topicId": "phys-generation",
+   "stem": "A square coil of 50 turns, each side 0.10 m, sits completely inside a uniform 0.40 T field perpendicular to its plane. It is pulled completely out of the field in 0.20 s. What is the average induced emf?",
+   "imageRef": null,
+   "options": [
+    "10 V",
+    "0.20 V",
+    "1.0 V",
+    "0.020 V"
+   ],
+   "correctIndex": 2,
+   "explanation": "The flux changes from BA = 0.40 \u00d7 0.10\u00b2 = 4.0 \u00d7 10\u207b\u00b3 Wb to zero, so emf = 50 \u00d7 4.0 \u00d7 10\u207b\u00b3 / 0.20 = 1.0 V. Using the side length instead of the area gives 10 V, and leaving out the turns gives 0.020 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0005",
+   "topicId": "phys-generation",
+   "stem": "A 100-turn coil of area 0.050 m\u00b2 starts perpendicular to a uniform 0.20 T field and is turned through 90\u00b0 in 0.025 s, ending with its plane parallel to the field. What is the average induced emf?",
+   "imageRef": null,
+   "options": [
+    "40 V",
+    "0.40 V",
+    "80 V",
+    "1.0 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "The flux falls from BA = 0.20 \u00d7 0.050 = 0.010 Wb to zero, so emf = 100 \u00d7 0.010 / 0.025 = 40 V. Turning through 180\u00b0 would reverse the flux and double the change, giving 80 V, but a quarter turn only takes it to zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0006",
+   "topicId": "phys-generation",
+   "stem": "The size of the average emf induced in a coil depends on:",
+   "imageRef": null,
+   "options": [
+    "the number of turns and the rate of change of flux",
+    "the total flux, but not how quickly it changes",
+    "the resistance of the coil and the field strength",
+    "the number of turns and how long the flux is steady"
+   ],
+   "correctIndex": 0,
+   "explanation": "Faraday\u2019s law says emf = \u2212N \u00d7 (change in flux)/\u0394t: more turns and a faster change both give a larger emf. A large but steady flux induces nothing, because there is no change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0007",
+   "topicId": "phys-generation",
+   "stem": "A coil sits at rest in a strong, steady magnetic field that passes through it. What emf is induced in the coil?",
+   "imageRef": null,
+   "options": [
+    "Zero, because the flux through it is not changing",
+    "A large emf, because the flux through it is large",
+    "A steady emf, set by the strength of the field",
+    "An alternating emf at the frequency of the mains"
+   ],
+   "correctIndex": 0,
+   "explanation": "An emf is induced only when the flux through a coil changes. A large flux that stays constant gives no emf. Moving the coil, turning it or changing the field would change the flux and induce an emf.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0008",
+   "topicId": "phys-generation",
+   "stem": "The flux through a 10-turn coil rises steadily from 0 to 0.020 Wb over 0.40 s, then stays at 0.020 Wb for a further 0.40 s. What is the induced emf in each stage?",
+   "imageRef": null,
+   "options": [
+    "0.50 V while rising and while steady",
+    "0.50 V while rising, then zero",
+    "0.050 V while rising, then zero",
+    "Zero while rising, then 0.50 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "While the flux rises, emf = 10 \u00d7 0.020/0.40 = 0.50 V. Once it is steady, the rate of change of flux is zero, so no emf is induced. The emf depends on the gradient of the flux\u2013time graph, not on its height.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0009",
+   "topicId": "phys-generation",
+   "stem": "The north pole of a bar magnet is pushed into one end of a coil connected in a closed circuit. What does the induced current do at that end of the coil?",
+   "imageRef": null,
+   "options": [
+    "It makes a north pole there, which opposes the approaching magnet",
+    "It makes a south pole there, which attracts the approaching magnet",
+    "It makes no pole there until the magnet comes to rest in the coil",
+    "It makes a north pole there only once the magnet has passed through"
+   ],
+   "correctIndex": 0,
+   "explanation": "By Lenz\u2019s law the induced current opposes the change that causes it. To oppose an approaching north pole, the near end of the coil becomes a north pole and repels the magnet. A south pole would attract the magnet in, adding energy for free, which would break conservation of energy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0010",
+   "topicId": "phys-generation",
+   "stem": "A coil lies flat on a table in a uniform upward magnetic field. The field is steadily reduced to zero. Viewed from above, in which direction does the induced current flow?",
+   "imageRef": null,
+   "options": [
+    "Anticlockwise, to replace the falling upward flux",
+    "Clockwise, to replace the falling upward flux",
+    "Clockwise, to add a downward flux to the change",
+    "No current flows, as the coil itself is not moving"
+   ],
+   "correctIndex": 0,
+   "explanation": "The upward flux is decreasing, so the induced current makes its own upward field to oppose that decrease. By the right-hand grip rule, an upward field inside the coil needs an anticlockwise current viewed from above. A changing field induces a current even when the coil is still.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0011",
+   "topicId": "phys-generation",
+   "stem": "Lenz\u2019s law, which gives the direction of an induced current, is a consequence of the conservation of:",
+   "imageRef": null,
+   "options": [
+    "momentum",
+    "magnetic flux",
+    "energy",
+    "charge"
+   ],
+   "correctIndex": 2,
+   "explanation": "If an induced current aided the change that caused it, the motion would speed up and electrical energy would appear from nothing. Opposing the change means work must be done to induce the current, which is conservation of energy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0012",
+   "topicId": "phys-generation",
+   "stem": "A strong magnet dropped down a vertical copper tube falls much more slowly than one dropped down a plastic tube. Why?",
+   "imageRef": null,
+   "options": [
+    "Gravitational field strength is weaker inside a tube made of metal",
+    "Currents induced in the copper make fields that oppose the magnet\u2019s motion",
+    "Copper is a magnetic material, so the tube attracts the falling magnet",
+    "The air trapped inside the narrow copper tube slows the magnet down"
+   ],
+   "correctIndex": 1,
+   "explanation": "The moving magnet changes the flux through each ring of the copper tube, inducing eddy currents. By Lenz\u2019s law their magnetic fields oppose the motion, slowing the magnet. Copper is not attracted to magnets, which is why a stationary magnet is not held by the tube.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0013",
+   "topicId": "phys-generation",
+   "stem": "How does an alternator connect its rotating coil to the external circuit, and what output does it give?",
+   "imageRef": null,
+   "options": [
+    "Through slip rings, giving an AC output",
+    "Through a split ring, giving an AC output",
+    "Through slip rings, giving a DC output",
+    "Through a split ring, giving a steady DC output"
+   ],
+   "correctIndex": 0,
+   "explanation": "Slip rings keep each end of the coil connected to the same brush, so the output reverses as the coil\u2019s emf reverses: alternating current. A split ring commutator swaps the connections every half turn and is used in DC generators.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0014",
+   "topicId": "phys-generation",
+   "stem": "What does the output voltage of a simple DC generator with one coil and a split ring commutator look like on a voltage\u2013time graph?",
+   "imageRef": null,
+   "options": [
+    "A steady, constant voltage like that from a battery",
+    "A sine curve alternating between positive and negative",
+    "A square wave switching between two fixed values",
+    "A sine curve with each negative half flipped to positive"
+   ],
+   "correctIndex": 3,
+   "explanation": "The coil\u2019s emf is sinusoidal, but the commutator reverses the connections every half turn, so every half cycle comes out positive. The result is a varying DC that is never negative, not a steady voltage like a battery\u2019s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0015",
+   "topicId": "phys-generation",
+   "stem": "What change turns a simple alternator into a simple DC generator?",
+   "imageRef": null,
+   "options": [
+    "Replacing its magnets with a solenoid on a DC supply",
+    "Replacing its slip rings with a split ring commutator",
+    "Replacing its split ring commutator with slip rings",
+    "Adding an inverter between the coil and the brushes"
+   ],
+   "correctIndex": 1,
+   "explanation": "An alternator uses slip rings, which give AC. Swapping them for a split ring commutator reverses the connections every half turn so the output is always the same polarity, which is a DC generator. An inverter does the opposite job, changing DC to AC.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0016",
+   "topicId": "phys-generation",
+   "stem": "In an alternator, the induced emf is greatest at the moment when the plane of the coil is:",
+   "imageRef": null,
+   "options": [
+    "at 45\u00b0 to the field, halfway between the other two positions",
+    "parallel to the field, where the flux is zero but changing fastest",
+    "perpendicular to the field, where the flux through it is greatest",
+    "perpendicular to the field, where the flux is changing fastest"
+   ],
+   "correctIndex": 1,
+   "explanation": "The emf depends on the rate of change of flux, not on the flux itself. As the coil passes the position parallel to the field, the flux is zero but changing most rapidly, so the emf peaks. When the coil faces the field, the flux is greatest but momentarily not changing, so the emf is zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0017",
+   "topicId": "phys-generation",
+   "stem": "The rate of rotation of an alternator\u2019s coil is doubled. What happens to the peak emf and the period of the output?",
+   "imageRef": null,
+   "options": [
+    "Peak emf quadruples; period halves",
+    "Peak emf doubles; period halves",
+    "Peak emf is unchanged; period halves",
+    "Peak emf doubles; period doubles"
+   ],
+   "correctIndex": 1,
+   "explanation": "Turning twice as fast changes the flux twice as quickly, so the peak emf doubles, and each cycle takes half as long, so the period halves and the frequency doubles. Many students remember the frequency change but forget that the peak emf also rises.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0018",
+   "topicId": "phys-generation",
+   "stem": "Which change would increase the peak emf of an alternator without changing its frequency?",
+   "imageRef": null,
+   "options": [
+    "Spinning the coil at a faster rate",
+    "Swapping the slip rings for a split ring",
+    "Winding the coil with fewer turns",
+    "Using a stronger magnetic field"
+   ],
+   "correctIndex": 3,
+   "explanation": "A stronger field increases the flux through the coil, and so the rate of change of flux, at the same rotation rate. Spinning faster also raises the emf but increases the frequency too. Fewer turns would lower the emf.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0019",
+   "topicId": "phys-generation",
+   "stem": "Rooftop solar panels produce electricity of which type, and what is needed to use it in a home?",
+   "imageRef": null,
+   "options": [
+    "AC, so an inverter converts it to DC",
+    "DC, so an inverter converts it to AC",
+    "AC at 50 Hz, ready for use in a home",
+    "DC, so a transformer converts it to AC"
+   ],
+   "correctIndex": 1,
+   "explanation": "Photovoltaic cells produce direct current. Household appliances and the grid use 50 Hz AC, so an inverter converts the DC to AC. A transformer only changes the size of an AC voltage; it cannot turn DC into AC.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0020",
+   "topicId": "phys-generation",
+   "stem": "How does a photovoltaic cell differ from a generator in producing electricity?",
+   "imageRef": null,
+   "options": [
+    "It transforms light energy directly into electrical energy with no moving parts",
+    "It uses sunlight to spin a coil in a magnetic field, as a generator does",
+    "It produces AC whose frequency rises as the sunlight becomes brighter",
+    "It uses heat from the Sun to make steam that drives a turbine and coil"
+   ],
+   "correctIndex": 0,
+   "explanation": "A photovoltaic cell converts the energy of incoming light straight into electrical energy, producing DC, with no rotating parts. Generators and alternators instead rely on a coil and a magnetic field moving relative to each other. Concentrated solar thermal plants use steam, but that is not how a photovoltaic cell works.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0021",
+   "topicId": "phys-generation",
+   "stem": "An AC supply has a peak voltage of 170 V. What is its peak-to-peak voltage?",
+   "imageRef": null,
+   "options": [
+    "85 V",
+    "340 V",
+    "170 V",
+    "120 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "The peak-to-peak voltage runs from the positive peak to the negative peak, so it is twice the peak: 2 \u00d7 170 = 340 V. 120 V is the rms value, 170/\u221a2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0022",
+   "topicId": "phys-generation",
+   "stem": "The Australian household supply is 230 V rms. What is its peak voltage?",
+   "imageRef": null,
+   "options": [
+    "163 V",
+    "460 V",
+    "651 V",
+    "325 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "V(peak) = \u221a2 \u00d7 V(rms) = 1.414 \u00d7 230 \u2248 325 V. Dividing by \u221a2 instead gives 163 V, and 651 V is the peak-to-peak voltage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0023",
+   "topicId": "phys-generation",
+   "stem": "An AC current has a peak value of 2.0 A. What is its rms value?",
+   "imageRef": null,
+   "options": [
+    "1.0 A",
+    "1.4 A",
+    "2.8 A",
+    "4.0 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "I(rms) = I(peak)/\u221a2 = 2.0/1.414 \u2248 1.4 A. Multiplying by \u221a2 gives 2.8 A, and 4.0 A is the peak-to-peak current.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0024",
+   "topicId": "phys-generation",
+   "stem": "A sinusoidal voltage completes 5 cycles in 0.10 s. What are its period and frequency?",
+   "imageRef": null,
+   "options": [
+    "0.10 s and 10 Hz",
+    "0.50 s and 2.0 Hz",
+    "0.010 s and 100 Hz",
+    "0.020 s and 50 Hz"
+   ],
+   "correctIndex": 3,
+   "explanation": "One cycle takes 0.10/5 = 0.020 s, and f = 1/T = 50 Hz. Taking 0.010 s as the period counts each half cycle as a whole cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0025",
+   "topicId": "phys-generation",
+   "stem": "The root-mean-square (rms) value of an AC voltage is:",
+   "imageRef": null,
+   "options": [
+    "the greatest voltage the supply reaches during each complete cycle",
+    "half of the difference between the highest and lowest voltages reached",
+    "the DC voltage that would deliver the same average power to a resistor",
+    "the average voltage over one complete cycle of the alternating supply"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rms value is defined by power: an AC supply of 12 V rms heats a resistor at the same rate as a 12 V DC supply. The plain average over a cycle is zero, and half the peak-to-peak value is the peak, which is \u221a2 times the rms value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0026",
+   "topicId": "phys-generation",
+   "stem": "A heater connected to a 12 V rms AC supply produces heat at the same rate as when it is connected to:",
+   "imageRef": null,
+   "options": [
+    "a 17 V DC supply",
+    "an 8.5 V DC supply",
+    "a 24 V DC supply",
+    "a 12 V DC supply"
+   ],
+   "correctIndex": 3,
+   "explanation": "That is what an rms value means: the steady DC voltage giving the same average power in a resistor. 17 V is the peak of a 12 V rms supply, which would give more power as a steady DC voltage, and 8.5 V divides by \u221a2 a second time.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0027",
+   "topicId": "phys-generation",
+   "stem": "A 50 \u03a9 heater is connected to the 230 V rms mains. What average power does it use?",
+   "imageRef": null,
+   "options": [
+    "2.1 \u00d7 10\u00b3 W",
+    "5.3 \u00d7 10\u00b2 W",
+    "4.2 \u00d7 10\u00b3 W",
+    "1.1 \u00d7 10\u00b3 W"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using rms values, P = V\u00b2/R = 230\u00b2/50 \u2248 1.1 \u00d7 10\u00b3 W. Using the peak voltage of 325 V gives 2.1 \u00d7 10\u00b3 W, which is the peak power, not the average. Converting the rms value again by dividing by \u221a2 gives 5.3 \u00d7 10\u00b2 W.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0028",
+   "topicId": "phys-generation",
+   "stem": "An alternator\u2019s output, shown on an oscilloscope, varies between +15 V and \u221215 V with a period of 40 ms. What are its frequency and rms voltage?",
+   "imageRef": null,
+   "options": [
+    "25 Hz and 21 V rms",
+    "50 Hz and 11 V rms",
+    "25 Hz and 30 V rms",
+    "25 Hz and 11 V rms"
+   ],
+   "correctIndex": 3,
+   "explanation": "f = 1/T = 1/0.040 = 25 Hz, and V(rms) = 15/\u221a2 \u2248 11 V. Multiplying the peak by \u221a2 gives 21 V, and 30 V is the peak-to-peak voltage, not an rms value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0029",
+   "topicId": "phys-generation",
+   "stem": "A 10 \u03a9 resistor is connected to an AC supply with a peak voltage of 14 V. What is the peak-to-peak current?",
+   "imageRef": null,
+   "options": [
+    "2.0 A",
+    "2.8 A",
+    "1.4 A",
+    "0.99 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "The peak current is 14/10 = 1.4 A, so the peak-to-peak current is 2 \u00d7 1.4 = 2.8 A. 1.4 A is only the peak value, and 0.99 A is the rms current.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0030",
+   "topicId": "phys-generation",
+   "stem": "In a transformer, how does energy pass from the primary coil to the secondary coil?",
+   "imageRef": null,
+   "options": [
+    "A changing flux in the iron core links the coils and induces an emf in the secondary",
+    "Current flows from the primary coil through the iron core into the secondary coil",
+    "Charge crosses the small gap between the two coils as a stream of tiny sparks",
+    "The primary\u2019s steady field permanently magnetises the secondary coil\u2019s wire"
+   ],
+   "correctIndex": 0,
+   "explanation": "The alternating current in the primary produces a changing magnetic flux, which the iron core carries through the secondary. That changing flux induces an emf in the secondary. The coils are insulated from each other and the core, so no current passes between them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0031",
+   "topicId": "phys-generation",
+   "stem": "Why will a transformer not give a continuous output when its primary is connected to a steady DC supply?",
+   "imageRef": null,
+   "options": [
+    "The iron core blocks direct current from passing through to the secondary",
+    "A steady current makes the flux in the core change far too quickly to use",
+    "A steady current gives a constant flux, so no emf is induced in the secondary",
+    "A direct current cannot flow at all through a coil wound on an iron core"
+   ],
+   "correctIndex": 2,
+   "explanation": "Induction needs a changing flux. A steady direct current produces a constant flux in the core, so after the moment of switching on, no emf is induced in the secondary. Direct current does flow in the primary, which is why a DC supply can overheat it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0032",
+   "topicId": "phys-generation",
+   "stem": "A transformer steps 230 V down to 23 V. The primary coil has 1500 turns. How many turns does the secondary coil have?",
+   "imageRef": null,
+   "options": [
+    "15 turns",
+    "1500 turns",
+    "150 turns",
+    "15 000 turns"
+   ],
+   "correctIndex": 2,
+   "explanation": "For an ideal transformer, Vp/Vs = Np/Ns, so Ns = 1500 \u00d7 23/230 = 150 turns. A step-down transformer needs fewer turns on the secondary; 15 000 turns would step the voltage up instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0033",
+   "topicId": "phys-generation",
+   "stem": "An ideal transformer steps 230 V down to 12 V, and the secondary current is 5.0 A. What is the primary current?",
+   "imageRef": null,
+   "options": [
+    "2.6 A",
+    "0.26 A",
+    "96 A",
+    "5.0 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "In an ideal transformer, power in equals power out: VpIp = VsIs, so Ip = 12 \u00d7 5.0/230 \u2248 0.26 A. Current changes in the opposite ratio to voltage, so stepping voltage down means the primary current is smaller; 96 A uses the ratio upside down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0034",
+   "topicId": "phys-generation",
+   "stem": "In an ideal step-up transformer, how does the secondary compare with the primary?",
+   "imageRef": null,
+   "options": [
+    "Higher voltage, lower current and less power",
+    "The same voltage, higher current and the same power",
+    "Higher voltage, lower current and the same power",
+    "Higher voltage, higher current and more power"
+   ],
+   "correctIndex": 2,
+   "explanation": "Stepping up raises the voltage, and because an ideal transformer loses no energy, VI is the same on both sides, so the current falls. A transformer cannot create power, so the secondary cannot deliver more than the primary takes in.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0035",
+   "topicId": "phys-generation",
+   "stem": "A power station sends 100 kW at 10 kV along transmission lines with a total resistance of 4.0 \u03a9. What power is lost in the lines?",
+   "imageRef": null,
+   "options": [
+    "400 W",
+    "40 W",
+    "2.5 \u00d7 10\u2077 W",
+    "4.0 \u00d7 10\u2075 W"
+   ],
+   "correctIndex": 0,
+   "explanation": "The line current is I = P/V = 100 000/10 000 = 10 A, so the power lost is I\u00b2R = 10\u00b2 \u00d7 4.0 = 400 W. Using V\u00b2/R with the transmission voltage gives 2.5 \u00d7 10\u2077 W, but 10 kV is not the voltage across the lines themselves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0036",
+   "topicId": "phys-generation",
+   "stem": "For the same power delivered, the transmission voltage is raised from 22 kV to 220 kV. By what factor does the power lost in the lines change?",
+   "imageRef": null,
+   "options": [
+    "It rises to 10 times its original value",
+    "It falls to 1/100 of its original value",
+    "It falls to 1/10 of its original value",
+    "It rises to 100 times its original value"
+   ],
+   "correctIndex": 1,
+   "explanation": "For the same power, ten times the voltage means a tenth of the current, and the loss is I\u00b2R, so it falls to (1/10)\u00b2 = 1/100. Using P = V\u00b2/R with the transmission voltage wrongly predicts a rise; the voltage that matters there is the small drop across the lines, not the transmission voltage.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0037",
+   "topicId": "phys-generation",
+   "stem": "A generator supplies 20 A at 250 V to a farm through lines with a total resistance of 2.5 \u03a9. What is the voltage available at the farm?",
+   "imageRef": null,
+   "options": [
+    "250 V",
+    "50 V",
+    "225 V",
+    "200 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "The lines drop V = IR = 20 \u00d7 2.5 = 50 V, so the farm receives 250 \u2212 50 = 200 V. 50 V is the drop across the lines, not the voltage at the farm. 225 V counts the resistance of only one of the two wires.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0038",
+   "topicId": "phys-generation",
+   "stem": "A generator supplies 50 kW at 2.0 kV through lines with a total resistance of 4.0 \u03a9. What percentage of the power supplied is lost in the lines?",
+   "imageRef": null,
+   "options": [
+    "5.0%",
+    "0.20%",
+    "1.3%",
+    "20%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The current is 50 000/2000 = 25 A, so the loss is I\u00b2R = 25\u00b2 \u00d7 4.0 = 2500 W, which is 2500/50 000 = 5.0% of the power supplied. Using I \u00d7 R = 100 instead of I\u00b2R gives 0.20%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0039",
+   "topicId": "phys-generation",
+   "stem": "Why do power stations use step-up transformers before sending electricity along long transmission lines?",
+   "imageRef": null,
+   "options": [
+    "A higher voltage needs a lower current for the same power, so less is lost as I\u00b2R",
+    "A higher voltage lowers the resistance of the long lines, so less power is lost",
+    "A higher voltage increases the total power that the station is able to generate",
+    "A higher voltage means a higher current, so the energy reaches homes faster"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a given power, P = VI, so raising the voltage lowers the current, and the power lost as heat in the lines, I\u00b2R, falls with the square of the current. The lines\u2019 resistance does not change, and a transformer cannot increase the power generated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-generation-0040",
+   "topicId": "phys-generation",
+   "stem": "Which change would reduce the power lost in a transmission line the most, for the same power delivered?",
+   "imageRef": null,
+   "options": [
+    "Doubling the transmission voltage, which cuts the loss to a quarter",
+    "Halving the line resistance, which cuts the loss to a quarter",
+    "Doubling the transmission voltage, which cuts the loss to a half",
+    "Halving the transmission voltage, which cuts the loss to a quarter"
+   ],
+   "correctIndex": 0,
+   "explanation": "Doubling the voltage halves the current, and the loss I\u00b2R falls to a quarter. Halving the resistance only halves the loss, because R is not squared. Halving the voltage would double the current and quadruple the loss.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-generation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

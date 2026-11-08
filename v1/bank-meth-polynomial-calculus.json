@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-polynomial-calculus",
+ "questions": [
+  {
+   "id": "meth-polynomial-calculus-0001",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Which expression is the limit definition of the derivative f\u2032(x)?",
+   "imageRef": null,
+   "options": [
+    "The limit as h \u2192 0 of (f(x) \u2212 f(h))/h",
+    "The limit as x \u2192 0 of (f(x + h) \u2212 f(x))/h",
+    "The limit as h \u2192 0 of (f(x + h) \u2212 f(x))/h",
+    "The limit as h \u2192 0 of (f(x + h) \u2212 f(x))/x"
+   ],
+   "correctIndex": 2,
+   "explanation": "The derivative is the limit of the gradient of a secant from x to x + h as the run h shrinks to 0. Dividing by x instead of h no longer gives rise over run.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0002",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "For f(x) = x\u00b2 + 3x, what does (f(x + h) \u2212 f(x))/h simplify to, for h \u2260 0?",
+   "imageRef": null,
+   "options": [
+    "2x + h",
+    "2x + h + 3",
+    "2x + 3",
+    "2xh + h\u00b2 + 3h"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(x + h) \u2212 f(x) = 2xh + h\u00b2 + 3h, and dividing by h gives 2x + h + 3. Its limit as h \u2192 0 is f\u2032(x) = 2x + 3, but before the limit is taken the h is still there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0003",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Evaluate the limit as x \u2192 2 of (x\u00b2 \u2212 4)/(x \u2212 2).",
+   "imageRef": null,
+   "options": [
+    "1",
+    "4",
+    "0",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "For x \u2260 2, (x\u00b2 \u2212 4)/(x \u2212 2) = x + 2, which approaches 4. The function is undefined at x = 2 itself, but a limit depends only on values near the point; the answer 0 comes from substituting into the numerator alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0004",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Evaluate the limit as h \u2192 0 of ((3 + h)\u00b2 \u2212 9)/h.",
+   "imageRef": null,
+   "options": [
+    "0",
+    "3",
+    "6",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding gives (6h + h\u00b2)/h = 6 + h, which approaches 6. This is the gradient of y = x\u00b2 at x = 3; substituting h = 0 too early gives 0/0, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0005",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Graphically, the central difference approximation (f(x + h) \u2212 f(x \u2212 h))/(2h) is the gradient of:",
+   "imageRef": null,
+   "options": [
+    "the tangent drawn to the curve at the point x + h",
+    "the chord joining the points at x and x + h",
+    "the chord joining the origin to the point at x",
+    "the chord joining the points at x \u2212 h and x + h"
+   ],
+   "correctIndex": 3,
+   "explanation": "The central difference uses points equally spaced either side of x, which usually gives a better estimate of f\u2032(x) than the one-sided chord from x to x + h.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0006",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Use the central difference approximation with h = 0.1 to estimate f\u2032(2) for f(x) = x\u00b3.",
+   "imageRef": null,
+   "options": [
+    "11.41",
+    "12.01",
+    "12.61",
+    "24.02"
+   ],
+   "correctIndex": 1,
+   "explanation": "(f(2.1) \u2212 f(1.9))/0.2 = (9.261 \u2212 6.859)/0.2 = 2.402/0.2 = 12.01, very close to the exact value 12. The value 12.61 is the forward difference (f(2.1) \u2212 f(2))/0.1, and 24.02 divides by h instead of 2h.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0007",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A function is not differentiable at a point where its graph:",
+   "imageRef": null,
+   "options": [
+    "has a sharp corner or a break",
+    "has a turning point",
+    "crosses the x-axis",
+    "has a stationary point of inflection"
+   ],
+   "correctIndex": 0,
+   "explanation": "A derivative needs a single tangent gradient, which a break or a corner does not have. At turning points and stationary points of inflection the derivative exists and equals zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0008",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Differentiate 5x\u00b3 with respect to x.",
+   "imageRef": null,
+   "options": [
+    "3x\u00b2",
+    "15x\u00b2",
+    "5x\u00b2",
+    "15x\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply by the index and reduce it by one: 5 \u00d7 3x\u00b2 = 15x\u00b2. Writing 5x\u00b2 lowers the index but forgets to multiply by 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0009",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "If f(x) = 4x\u00b2 \u2212 3x + 7, what is f\u2032(x)?",
+   "imageRef": null,
+   "options": [
+    "8x\u00b2 \u2212 3x",
+    "8x \u2212 3",
+    "8x + 4",
+    "4x \u2212 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiate term by term: 4x\u00b2 gives 8x, \u22123x gives \u22123, and the constant 7 gives 0. Keeping the 7 and combining it with \u22123 leads to 8x + 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0010",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What is the gradient of the tangent to y = x\u00b3 \u2212 3x at x = 2?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "6",
+    "9",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 3, so at x = 2 the gradient is 12 \u2212 3 = 9. The value 2 is y at x = 2, the height of the point rather than its gradient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0011",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "If f(x) = 2x\u00b3 \u2212 x\u00b2 + 4x, what is f\u2032(\u22121)?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "8",
+    "\u221212",
+    "\u22127"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032(x) = 6x\u00b2 \u2212 2x + 4, so f\u2032(\u22121) = 6 + 2 + 4 = 12. The value 8 mishandles \u22122 \u00d7 (\u22121), and \u22127 is f(\u22121), not the derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0012",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Find the derivative of y = (2x \u2212 1)(x + 3).",
+   "imageRef": null,
+   "options": [
+    "4x \u2212 5",
+    "2x + 5",
+    "4x + 5",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expand first: y = 2x\u00b2 + 5x \u2212 3, so dy/dx = 4x + 5. Multiplying the derivatives of the two factors, 2 \u00d7 1, is not a valid rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0013",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Find the derivative of y = (x\u00b3 \u2212 2x)/x, for x \u2260 0.",
+   "imageRef": null,
+   "options": [
+    "2x",
+    "3x\u00b2 \u2212 2",
+    "2x \u2212 2",
+    "x\u00b2 \u2212 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Simplify first: y = x\u00b2 \u2212 2, so dy/dx = 2x. Differentiating only the numerator, to get 3x\u00b2 \u2212 2, ignores the division by x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0014",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "If f(x) = x\u2074 \u2212 2x\u00b2 + 1, what is f\u2032(1)?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "\u22124",
+    "0",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032(x) = 4x\u00b3 \u2212 4x, so f\u2032(1) = 4 \u2212 4 = 0, and the graph has a stationary point at x = 1. The value 8 comes from adding the two terms instead of subtracting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0015",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "The volume of water in a tank is V = 2t\u00b3 + 5t litres after t minutes. At what rate is the volume increasing when t = 2?",
+   "imageRef": null,
+   "options": [
+    "24 L/min",
+    "13 L/min",
+    "29 L/min",
+    "26 L/min"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rate is dV/dt = 6t\u00b2 + 5, which is 6 \u00d7 4 + 5 = 29 L/min at t = 2. The value 26 is V(2), the volume itself rather than its rate of change.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0016",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "If f is a cubic polynomial function, what kind of graph does y = f\u2032(x) have?",
+   "imageRef": null,
+   "options": [
+    "A straight line",
+    "A horizontal line",
+    "A parabola",
+    "A cubic curve"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiating lowers the degree by one, so the derivative of a cubic is a quadratic, whose graph is a parabola. A straight line is the derivative graph of a quadratic.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0017",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What is the equation of the tangent to y = x\u00b2 \u2212 4x at x = 3?",
+   "imageRef": null,
+   "options": [
+    "y = 2x + 3",
+    "y = \u22123x + 6",
+    "y = 2x \u2212 9",
+    "y = 2x \u2212 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "At x = 3, y = \u22123 and dy/dx = 2(3) \u2212 4 = 2. The tangent is y + 3 = 2(x \u2212 3), that is y = 2x \u2212 9. The line y = 2x \u2212 3 has the right gradient but passes through (3, 3).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0018",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "At which point on y = x\u00b2 + 2x \u2212 1 is the tangent parallel to the line y = 6x + 5?",
+   "imageRef": null,
+   "options": [
+    "(3, 14)",
+    "(2, 7)",
+    "(2, 6)",
+    "(4, 23)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Parallel lines have equal gradients, so 2x + 2 = 6 and x = 2. Then y = 4 + 4 \u2212 1 = 7. The point (2, 6) takes the gradient as the y-value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0019",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What are the stationary points of f(x) = x\u00b3 \u2212 12x?",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 16) and (2, \u221216)",
+    "(2, 16) and (\u22122, \u221216)",
+    "(0, 0) only",
+    "(4, 16) and (\u22124, \u221216)"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032(x) = 3x\u00b2 \u2212 12 = 0 gives x = \u00b12. Then f(\u22122) = \u22128 + 24 = 16 and f(2) = 8 \u2212 24 = \u221216. Pairing the signs the other way round comes from not substituting back into f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0020",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "f(x) = x\u00b3 + ax\u00b2 has a stationary point at x = 2. What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "3",
+    "\u22126",
+    "\u221212"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032(x) = 3x\u00b2 + 2ax, and f\u2032(2) = 12 + 4a = 0 gives a = \u22123. Setting f(2) = 0 instead gives 8 + 4a = 0 and a = \u22122, which finds an x-intercept, not a stationary point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0021",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "f(x) = 2x\u00b3 \u2212 3x\u00b2 \u2212 12x. What is the nature of the stationary point at x = \u22121?",
+   "imageRef": null,
+   "options": [
+    "Stationary point of inflection at (\u22121, 7)",
+    "Local maximum at (\u22121, 7)",
+    "Local minimum at (\u22121, 7)",
+    "Local maximum at (\u22121, \u22127)"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(x) = 6x\u00b2 \u2212 6x \u2212 12 = 6(x \u2212 2)(x + 1), which is positive for x < \u22121 and negative for \u22121 < x < 2, so the graph rises then falls. f(\u22121) = \u22122 \u2212 3 + 12 = 7.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0022",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What stationary point does f(x) = x\u00b3 \u2212 6x\u00b2 + 12x have?",
+   "imageRef": null,
+   "options": [
+    "Stationary point of inflection at (2, 0)",
+    "Stationary point of inflection at (2, 8)",
+    "Local minimum at (2, 8)",
+    "Local maximum at (2, 8)"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(x) = 3x\u00b2 \u2212 12x + 12 = 3(x \u2212 2)\u00b2, which is zero at x = 2 and positive on both sides, so the graph keeps rising through a flat point. f(2) = 8 \u2212 24 + 24 = 8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0023",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "f\u2032(x) = (x \u2212 1)\u00b2(x + 2). What are the stationary points of f?",
+   "imageRef": null,
+   "options": [
+    "Local minimum at x = \u22122, stationary point of inflection at x = 1",
+    "Local maximum at x = \u22122, stationary point of inflection at x = 1",
+    "Local minimum at x = \u22122, local maximum at x = 1",
+    "Local maximum at x = \u22122, local minimum at x = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032 changes from negative to positive at x = \u22122, giving a local minimum. The squared factor (x \u2212 1)\u00b2 does not change sign, so f\u2032 is positive on both sides of x = 1, a stationary point of inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0024",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "For which values of x is the gradient of f(x) = x\u00b2 \u2212 6x + 1 positive?",
+   "imageRef": null,
+   "options": [
+    "x > \u22123",
+    "x > 3",
+    "x < 3",
+    "x > 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(x) = 2x \u2212 6 is positive when x > 3, to the right of the turning point. The value 6 comes from the coefficient in f rather than from f\u2032.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0025",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "For f(x) = x\u00b3 \u2212 3x with domain [\u22122, 3], what is the absolute (global) maximum value?",
+   "imageRef": null,
+   "options": [
+    "18, at x = 3",
+    "2, at x = \u22121",
+    "\u22122, at x = \u22122",
+    "27, at x = 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The local maximum is f(\u22121) = 2, but the endpoints must also be checked: f(3) = 27 \u2212 9 = 18 is larger. On a closed interval the global maximum can occur at an endpoint.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0026",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What is the absolute (global) minimum of f(x) = 1 \u2212 x\u00b2 on the interval [\u22121, 2]?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "0",
+    "1",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "The only stationary point is the maximum at (0, 1), so the minimum is at an endpoint: f(\u22121) = 0 and f(2) = \u22123, so the minimum is \u22123. The value 0 checks only the left endpoint.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0027",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A paddock beside a straight river is fenced on three sides with 200 m of fencing, the river forming the fourth side. What is the largest possible area?",
+   "imageRef": null,
+   "options": [
+    "2500 m\u00b2",
+    "10 000 m\u00b2",
+    "4800 m\u00b2",
+    "5000 m\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "With two sides of x m and one of 200 \u2212 2x m, A = x(200 \u2212 2x). A\u2032 = 200 \u2212 4x = 0 gives x = 50, so A = 50 \u00d7 100 = 5000 m\u00b2. A 50 m square, 2500 m\u00b2, is not the best shape when one side is free.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0028",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Squares of side x cm are cut from the corners of a 12 cm square sheet, which is folded into an open box with V = x(12 \u2212 2x)\u00b2. What gives the maximum volume?",
+   "imageRef": null,
+   "options": [
+    "x = 2, volume 128 cm\u00b3",
+    "x = 6, volume 0 cm\u00b3",
+    "x = 3, volume 108 cm\u00b3",
+    "x = 4, volume 64 cm\u00b3"
+   ],
+   "correctIndex": 0,
+   "explanation": "V\u2032 = (12 \u2212 2x)(12 \u2212 6x), which is zero at x = 2 and x = 6. x = 6 leaves no base and lies at the edge of the modelling domain 0 < x < 6, so the maximum is at x = 2, giving 2 \u00d7 8\u00b2 = 128 cm\u00b3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0029",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A ball's height is h(t) = 20t \u2212 5t\u00b2 metres after t seconds, for 0 \u2264 t \u2264 4. What is its maximum height?",
+   "imageRef": null,
+   "options": [
+    "40 m, at t = 2",
+    "15 m, at t = 1",
+    "0 m, at t = 4",
+    "20 m, at t = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "h\u2032(t) = 20 \u2212 10t = 0 at t = 2, and h(2) = 40 \u2212 20 = 20 m. The value 40 is 20t alone at t = 2, leaving out the \u22125t\u00b2 term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0030",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A particle moves along a line with position x(t) = t\u00b3 \u2212 6t\u00b2 + 9t metres. At what times is it at rest?",
+   "imageRef": null,
+   "options": [
+    "t = 3 only",
+    "t = 1 and t = 3",
+    "t = 0 and t = 3",
+    "t = 2 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "At rest means velocity zero: v(t) = 3t\u00b2 \u2212 12t + 9 = 3(t \u2212 1)(t \u2212 3) = 0. The times 0 and 3 are when the position is zero, which is a different question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0031",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A particle has position x(t) = t\u00b3 \u2212 6t\u00b2 + 9t metres. What is its velocity at t = 2?",
+   "imageRef": null,
+   "options": [
+    "3 m/s, moving in the positive direction",
+    "0 m/s, the particle is at rest",
+    "\u22123 m/s, moving in the negative direction",
+    "2 m/s, moving in the positive direction"
+   ],
+   "correctIndex": 2,
+   "explanation": "v(t) = 3t\u00b2 \u2212 12t + 9, so v(2) = 12 \u2212 24 + 9 = \u22123 m/s: the particle is moving in the negative direction. The value 2 is its position x(2), not its velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0032",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "What is an anti-derivative of 6x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "3x\u00b3 + c",
+    "2x\u00b3 + c",
+    "12x + c",
+    "6x\u00b3 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise the index by one and divide by the new index: 6x\u00b3/3 = 2x\u00b3, plus a constant. Differentiating 6x\u00b2 to get 12x is the reverse process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0033",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Find an anti-derivative of 4x\u00b3 \u2212 2x + 5.",
+   "imageRef": null,
+   "options": [
+    "12x\u00b2 \u2212 2 + c",
+    "x\u2074 \u2212 2x\u00b2 + 5x + c",
+    "x\u2074 \u2212 x\u00b2 + c",
+    "x\u2074 \u2212 x\u00b2 + 5x + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Term by term: 4x\u00b3 gives x\u2074, \u22122x gives \u2212x\u00b2, and 5 gives 5x. Leaving the constant 5 out of the anti-derivative is a common slip, as is forgetting to halve the \u22122x term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0034",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Why does a family of anti-derivatives include an arbitrary constant c?",
+   "imageRef": null,
+   "options": [
+    "Functions that differ by a constant have the same derivative",
+    "The constant c makes the function equal zero at x = 0",
+    "Every polynomial has a constant term that must be shown",
+    "The constant c is the gradient of the curve at the origin"
+   ],
+   "correctIndex": 0,
+   "explanation": "The derivative of a constant is 0, so x\u00b2 + 1 and x\u00b2 \u2212 7 both have derivative 2x. Their graphs are vertical translations of each other, a family of curves with the same gradient function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0035",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Find an anti-derivative of (x + 1)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "x\u00b3/3 + x\u00b2 + x + c",
+    "(x + 1)\u00b3 + c",
+    "2(x + 1) + c",
+    "x\u00b3/3 + x + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expand to x\u00b2 + 2x + 1, then anti-differentiate term by term: x\u00b3/3 + x\u00b2 + x + c. Differentiating (x + 1)\u00b3 gives 3(x + 1)\u00b2, three times too large.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0036",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "f\u2032(x) = 2x \u2212 4 and f(1) = 3. What is f(x)?",
+   "imageRef": null,
+   "options": [
+    "f(x) = 2x\u00b2 \u2212 4x + 5",
+    "f(x) = x\u00b2 \u2212 4x + 6",
+    "f(x) = x\u00b2 \u2212 4x + 3",
+    "f(x) = x\u00b2 \u2212 4x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiate: f(x) = x\u00b2 \u2212 4x + c. Then f(1) = 1 \u2212 4 + c = 3, so c = 6. Taking c = 3 sets the constant equal to f(1) without substituting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0037",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "A curve has gradient function dy/dx = 3x\u00b2 + 2 and passes through (1, 5). What is y when x = 2?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "14",
+    "12",
+    "17"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = x\u00b3 + 2x + c, and 1 + 2 + c = 5 gives c = 2, so y(2) = 8 + 4 + 2 = 14. Using c = 5, the y-value of the given point, gives 17.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0038",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Newton's method improves an estimate x\u2080 of a root of f(x) = 0 using which formula?",
+   "imageRef": null,
+   "options": [
+    "x\u2081 = x\u2080 \u2212 f\u2032(x\u2080)/f(x\u2080)",
+    "x\u2081 = (x\u2080 + f(x\u2080))/2",
+    "x\u2081 = x\u2080 \u2212 f(x\u2080)/f\u2032(x\u2080)",
+    "x\u2081 = x\u2080 + f(x\u2080)/f\u2032(x\u2080)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The next estimate is where the tangent at x\u2080 meets the x-axis, which gives x\u2081 = x\u2080 \u2212 f(x\u2080)/f\u2032(x\u2080). Adding the correction moves the estimate away from the root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0039",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Apply one step of Newton's method to f(x) = x\u00b3 \u2212 2x \u2212 5, starting at x\u2080 = 2.",
+   "imageRef": null,
+   "options": [
+    "x\u2081 = 12",
+    "x\u2081 = 2.1",
+    "x\u2081 = 1.9",
+    "x\u2081 = 2.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(2) = 8 \u2212 4 \u2212 5 = \u22121 and f\u2032(x) = 3x\u00b2 \u2212 2, so f\u2032(2) = 10. Then x\u2081 = 2 \u2212 (\u22121)/10 = 2.1. Losing the double negative gives 1.9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-calculus-0040",
+   "topicId": "meth-polynomial-calculus",
+   "stem": "Newton's method breaks down if the starting value x\u2080 is chosen where:",
+   "imageRef": null,
+   "options": [
+    "f(x\u2080) > 0, so the curve is above the axis",
+    "x\u2080 is negative, so the root is on the left",
+    "f(x\u2080) < 0, so the curve is below the axis",
+    "f\u2032(x\u2080) = 0, so the tangent is horizontal"
+   ],
+   "correctIndex": 3,
+   "explanation": "A horizontal tangent never meets the x-axis, and the formula would divide by f\u2032(x\u2080) = 0. The sign of f(x\u2080) or of x\u2080 does not stop the method working.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-depreciation-interest",
+ "questions": [
+  {
+   "id": "gm-depreciation-interest-0001",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The value of an asset is modelled by V(0) = 5000, V(n + 1) = V(n) \u2212 400, where n is in years. This recurrence relation models:",
+   "imageRef": null,
+   "options": [
+    "simple interest of $400 earned per year",
+    "compound interest of 8% charged per year",
+    "flat rate depreciation of $400 per year",
+    "reducing balance depreciation of 8% per year"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtracting the same amount each year is flat rate depreciation, and the value falls in a straight line. Reducing balance depreciation multiplies by a constant R less than 1, such as 0.92.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0002",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An asset depreciates by the reducing balance method at 15% per year. In the recurrence relation V(n + 1) = R \u00d7 V(n), the value of R is:",
+   "imageRef": null,
+   "options": [
+    "0.85",
+    "1.15",
+    "0.15",
+    "85"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each year the asset keeps 100% \u2212 15% = 85% of its value, so R = 1 \u2212 15/100 = 0.85. R = 1.15 would describe growth of 15%, such as compound interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0003",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An investment earns compound interest at 6% per annum, compounding annually. A recurrence relation for its value is:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = 0.94 \u00d7 V(n)",
+    "V(n + 1) = 1.06 \u00d7 V(n)",
+    "V(n + 1) = V(n) + 0.06",
+    "V(n + 1) = 0.06 \u00d7 V(n)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each year the balance is multiplied by 1 + 6/100 = 1.06. Multiplying by 0.06 would give only the interest, and 0.94 would model 6% depreciation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0004",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The value of an investment earning simple interest is modelled by a recurrence relation of the form:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = R \u00d7 V(n), where R is greater than 1",
+    "V(n + 1) = R \u00d7 V(n) \u2212 d, where d is fixed",
+    "V(n + 1) = V(n) \u2212 d, where d is a fixed amount",
+    "V(n + 1) = V(n) + d, where d is a fixed amount"
+   ],
+   "correctIndex": 3,
+   "explanation": "Simple interest is calculated on the original principal only, so the same amount d is added every period. Multiplying by R each period is compound interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0005",
+   "topicId": "gm-depreciation-interest",
+   "stem": "With unit cost depreciation, the value of an asset falls according to:",
+   "imageRef": null,
+   "options": [
+    "a fixed percentage of the current value each year",
+    "the interest rate charged on the purchase loan",
+    "how much the asset is used, such as kilometres driven",
+    "the time since purchase, by a fixed amount each year"
+   ],
+   "correctIndex": 2,
+   "explanation": "Unit cost depreciation charges a fixed amount for each unit of use, such as each kilometre or each item produced. A fixed percentage of the current value each year is reducing balance depreciation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0006",
+   "topicId": "gm-depreciation-interest",
+   "stem": "Plotted against time, the value of an asset under reducing balance depreciation:",
+   "imageRef": null,
+   "options": [
+    "stays constant until it is fully used",
+    "decreases along a curve, by less each year",
+    "decreases along a straight line to zero",
+    "decreases along a curve, by more each year"
+   ],
+   "correctIndex": 1,
+   "explanation": "A fixed percentage of a shrinking value is a smaller amount each year, so the points lie on a decaying curve that never reaches zero. Flat rate depreciation gives a straight line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0007",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The rule for the value of an asset after n years of reducing balance depreciation is:",
+   "imageRef": null,
+   "options": [
+    "V(n) = V(0) \u2212 n \u00d7 d",
+    "V(n) = V(0) + n \u00d7 d",
+    "V(n) = R \u00d7 V(0) \u2212 n",
+    "V(n) = R\u207f \u00d7 V(0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying by R once each year for n years gives R\u207f \u00d7 V(0). V(0) \u2212 n \u00d7 d is the rule for flat rate or unit cost depreciation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0008",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The effective annual interest rate of an investment is:",
+   "imageRef": null,
+   "options": [
+    "the interest rate applied in each compounding period",
+    "the annual rate after inflation has been subtracted",
+    "the actual annual rate once compounding is taken into account",
+    "the advertised rate before compounding is taken into account"
+   ],
+   "correctIndex": 2,
+   "explanation": "The effective rate is the percentage the balance actually grows by in a year, including interest on interest. The advertised (nominal) rate does not allow for compounding within the year.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0009",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An interest rate of 4.8% per annum compounds monthly. The interest rate applied each month is:",
+   "imageRef": null,
+   "options": [
+    "1.2%",
+    "0.4%",
+    "4.8%",
+    "0.48%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is the annual rate divided by 12: 4.8 \u00f7 12 = 0.4%. 1.2% would be the quarterly rate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0010",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A sequence is generated by V(0) = 3, V(n + 1) = 2 \u00d7 V(n) \u2212 1. The value of V(3) is:",
+   "imageRef": null,
+   "options": [
+    "23",
+    "5",
+    "17",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "V(1) = 2 \u00d7 3 \u2212 1 = 5, V(2) = 2 \u00d7 5 \u2212 1 = 9 and V(3) = 2 \u00d7 9 \u2212 1 = 17. 9 is V(2), one step short.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0011",
+   "topicId": "gm-depreciation-interest",
+   "stem": "With the same nominal annual interest rate, compounding more often (for example monthly instead of annually) gives:",
+   "imageRef": null,
+   "options": [
+    "the same effective interest rate",
+    "a lower nominal interest rate",
+    "a higher effective interest rate",
+    "a lower effective interest rate"
+   ],
+   "correctIndex": 2,
+   "explanation": "More frequent compounding means interest starts earning interest sooner, so the balance grows more over the year. Only when compounding is annual are the nominal and effective rates equal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0012",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A machine is valued using V(0) = 12 000, V(n + 1) = 0.8 \u00d7 V(n), where n is in years. Its value after 2 years is:",
+   "imageRef": null,
+   "options": [
+    "$6144",
+    "$7680",
+    "$7200",
+    "$9600"
+   ],
+   "correctIndex": 1,
+   "explanation": "V(1) = 0.8 \u00d7 12 000 = 9600 and V(2) = 0.8 \u00d7 9600 = 7680. $7200 subtracts 20% of the original value twice, which is flat rate depreciation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0013",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A ute bought for $36 000 depreciates at a flat rate of 12.5% of its purchase price per year. Its value after 4 years is:",
+   "imageRef": null,
+   "options": [
+    "$31 500",
+    "$13 500",
+    "$18 000",
+    "$21 093.75"
+   ],
+   "correctIndex": 2,
+   "explanation": "The annual depreciation is 12.5% of 36 000 = $4500, so after 4 years the value is 36 000 \u2212 4 \u00d7 4500 = $18 000. $21 093.75 applies 12.5% to the reducing balance instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0014",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A machine costing $80 000 depreciates by $0.25 for each item it produces. It produces 40 000 items per year. Its value after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$60 000",
+    "$50 000",
+    "$70 000",
+    "$30 000"
+   ],
+   "correctIndex": 1,
+   "explanation": "Depreciation each year is 0.25 \u00d7 40 000 = $10 000, so after 3 years the value is 80 000 \u2212 30 000 = $50 000. $30 000 is the total depreciation, not the remaining value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0015",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A photocopier depreciates by 2 cents per copy and makes 15 000 copies each month. If V(n) is its value after n months, the recurrence relation is:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = V(n) \u2212 30 000",
+    "V(n + 1) = 0.98 \u00d7 V(n)",
+    "V(n + 1) = V(n) \u2212 0.02",
+    "V(n + 1) = V(n) \u2212 300"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each month the value falls by 15 000 \u00d7 $0.02 = $300, which is unit cost depreciation. Writing 30 000 treats 2 cents as $2, and 0.98 \u00d7 V(n) is 2% reducing balance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0016",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A laptop bought for $2500 depreciates by the reducing balance method at 20% per year. Its value after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$2000",
+    "$1280",
+    "$1000",
+    "$1600"
+   ],
+   "correctIndex": 1,
+   "explanation": "V(3) = 0.8\u00b3 \u00d7 2500 = 0.512 \u00d7 2500 = $1280. $1000 subtracts 20% of $2500 three times, which is flat rate depreciation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0017",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The recurrence relation V(0) = 45 000, V(n + 1) = 0.92 \u00d7 V(n) models the value of a car after n years. The car depreciates by:",
+   "imageRef": null,
+   "options": [
+    "8% of its purchase price each year",
+    "8% of its current value each year",
+    "92% of its current value each year",
+    "$3600 each year, at a flat rate"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying by 0.92 keeps 92% of the current value, so the car loses 8% of its current value each year. A flat rate of $3600 each year would be 8% of the purchase price.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0018",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The sum of $5000 is invested at 4% per annum, compounding annually. The value of the investment after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$5600.00",
+    "$5849.29",
+    "$624.32",
+    "$5624.32"
+   ],
+   "correctIndex": 3,
+   "explanation": "5000 \u00d7 1.04\u00b3 = $5624.32. $5600 is the simple interest value, $5849.29 is the value after 4 years, and $624.32 is the interest earned rather than the value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0019",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A loan charges interest at 6% per annum, compounding monthly, with no repayments. A recurrence relation for the balance after n months is:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = 1.05 \u00d7 V(n)",
+    "V(n + 1) = 1.5 \u00d7 V(n)",
+    "V(n + 1) = 1.005 \u00d7 V(n)",
+    "V(n + 1) = 1.06 \u00d7 V(n)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The monthly rate is 6 \u00f7 12 = 0.5%, so each month the balance is multiplied by 1.005. Using 1.06 applies the full annual rate every month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0020",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An interest rate of 6% per annum compounds monthly. Correct to two decimal places, the effective annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "6.17%",
+    "6.00%",
+    "6.50%",
+    "72.00%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Effective rate = (1 + 0.06/12)\u00b9\u00b2 \u2212 1 = 1.005\u00b9\u00b2 \u2212 1 \u2248 0.0617, or 6.17%. It is slightly above 6% because the monthly interest itself earns interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0021",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The sum of $10 000 is invested at 8% per annum, compounding quarterly. The value after 2 years is:",
+   "imageRef": null,
+   "options": [
+    "$11 716.59",
+    "$11 600.00",
+    "$11 664.00",
+    "$18 509.30"
+   ],
+   "correctIndex": 0,
+   "explanation": "The quarterly rate is 2% over 8 quarters: 10 000 \u00d7 1.02\u2078 \u2248 $11 716.59. $11 664 compounds annually, and $18 509.30 applies 8% each quarter.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0022",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The sum of $4000 is invested at 3.5% per annum simple interest. The value of the investment after 5 years is:",
+   "imageRef": null,
+   "options": [
+    "$4000",
+    "$4700",
+    "$4140",
+    "$4750.75"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simple interest each year is 3.5% of 4000 = $140, so after 5 years the value is 4000 + 5 \u00d7 140 = $4700. $4750.75 is the compound interest value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0023",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A savings account is modelled by V(0) = 4000, V(n + 1) = V(n) + 140, where n is in years. The simple interest rate is:",
+   "imageRef": null,
+   "options": [
+    "3.5% per annum",
+    "1.4% per annum",
+    "14% per annum",
+    "35% per annum"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interest each year is $140, and 140 \u00f7 4000 = 0.035, or 3.5% of the principal. 14% would be $560 per year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0024",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An investment is modelled by V(n + 1) = 1.0025 \u00d7 V(n), where n is in months. The nominal annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "25%",
+    "3%",
+    "0.25%",
+    "2.5%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is 0.25%, and the nominal annual rate is 12 \u00d7 0.25% = 3%. 0.25% is the rate for one month only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0025",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A forklift costs $15 000 and depreciates at a flat rate of $1800 per year. It is sold for scrap when its value reaches $4200. This happens after:",
+   "imageRef": null,
+   "options": [
+    "6 years",
+    "8 years",
+    "2 years",
+    "5 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "The forklift must lose 15 000 \u2212 4200 = $10 800, which takes 10 800 \u00f7 1800 = 6 years. 15 000 \u00f7 1800 \u2248 8 years is the time to fall to zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0026",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A painting valued at $50 000 is worth $42 500 one year later. If it depreciates by the reducing balance method, the annual depreciation rate is:",
+   "imageRef": null,
+   "options": [
+    "17.6%",
+    "15%",
+    "85%",
+    "7.5%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The loss is 50 000 \u2212 42 500 = $7500, and 7500 \u00f7 50 000 = 0.15, so the rate is 15% (R = 0.85). 17.6% divides the loss by the new value, $42 500.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0027",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An amount invested now at 5% per annum, compounding annually, will grow to $11 025 in 2 years. The amount invested is:",
+   "imageRef": null,
+   "options": [
+    "$10 500",
+    "$11 576.25",
+    "$10 000",
+    "$9922.50"
+   ],
+   "correctIndex": 2,
+   "explanation": "Present value = 11 025 \u00f7 1.05\u00b2 = 11 025 \u00f7 1.1025 = $10 000. $11 576.25 multiplies by 1.05 again instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0028",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An interest rate of 12% per annum compounds quarterly. Correct to two decimal places, the effective annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "12.00%",
+    "12.68%",
+    "3.00%",
+    "12.55%"
+   ],
+   "correctIndex": 3,
+   "explanation": "Effective rate = 1.03\u2074 \u2212 1 \u2248 0.1255, or 12.55%. 12.68% is the effective rate for monthly compounding, and 3% is the quarterly rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0029",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The value of a car is given by V(n) = 24 000 \u2212 3000n, where n is in years. An equivalent recurrence relation is:",
+   "imageRef": null,
+   "options": [
+    "V(0) = 24 000, V(n + 1) = V(n) \u2212 3000",
+    "V(0) = 24 000, V(n + 1) = 0.875 \u00d7 V(n)",
+    "V(0) = 21 000, V(n + 1) = V(n) \u2212 3000",
+    "V(0) = 3000, V(n + 1) = V(n) \u2212 24 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rule subtracts $3000 for every year from a starting value of $24 000, which is flat rate depreciation. 0.875 \u00d7 V(n) matches the first year only and then falls by less each year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0030",
+   "topicId": "gm-depreciation-interest",
+   "stem": "Which statement about nominal and effective interest rates is true?",
+   "imageRef": null,
+   "options": [
+    "The nominal rate grows as compounding becomes more frequent.",
+    "They are equal when interest compounds annually.",
+    "The effective rate is always below the nominal rate.",
+    "They are equal when interest compounds monthly."
+   ],
+   "correctIndex": 1,
+   "explanation": "With annual compounding the interest is added once a year, so the balance grows by exactly the nominal rate. More frequent compounding raises the effective rate above the nominal rate, which stays fixed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0031",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The sum of $8000 is invested at 5% per annum, compounding annually. The interest earned during the second year is:",
+   "imageRef": null,
+   "options": [
+    "$441",
+    "$420",
+    "$400",
+    "$820"
+   ],
+   "correctIndex": 1,
+   "explanation": "After one year the balance is 8000 \u00d7 1.05 = $8400, and the interest in year 2 is 5% of 8400 = $420. $400 is first-year interest, and $820 is the total over two years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0032",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A boat valued at $20 000 depreciates by the reducing balance method at 20% per year. Its value first falls below half its original value after:",
+   "imageRef": null,
+   "options": [
+    "3 years",
+    "5 years",
+    "2 years",
+    "4 years"
+   ],
+   "correctIndex": 3,
+   "explanation": "The values are $16 000, $12 800, $10 240 and then $8192, so it first drops below $10 000 after 4 years. After 3 years it is still $10 240.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0033",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An asset worth $30 000 can be depreciated at a flat rate of $4000 per year or by the reducing balance method at 15% per year. The reducing balance value is first greater than the flat rate value after:",
+   "imageRef": null,
+   "options": [
+    "1 year",
+    "2 years",
+    "4 years",
+    "3 years"
+   ],
+   "correctIndex": 3,
+   "explanation": "Flat rate gives $26 000, $22 000, $18 000; reducing balance gives $25 500, $21 675, $18 423.75. The reducing balance value first exceeds the flat rate value in year 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0034",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A credit card balance of $3000 accrues interest at 18% per annum, compounding monthly, and no payments are made. The balance after one year is closest to:",
+   "imageRef": null,
+   "options": [
+    "$3540.00",
+    "$3045.00",
+    "$3810.00",
+    "$3586.85"
+   ],
+   "correctIndex": 3,
+   "explanation": "The monthly rate is 1.5%, so the balance is 3000 \u00d7 1.015\u00b9\u00b2 \u2248 $3586.85. $3540 adds 18% once, which ignores the monthly compounding.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0035",
+   "topicId": "gm-depreciation-interest",
+   "stem": "One account pays 5.9% per annum compounding monthly; another pays 6% per annum compounding annually. Comparing effective rates, the better return is from:",
+   "imageRef": null,
+   "options": [
+    "the 6% account, with an effective rate of about 6.17%",
+    "the 6% account, because its nominal rate is higher",
+    "either account, because both earn about 6% each year",
+    "the 5.9% account, with an effective rate of about 6.06%"
+   ],
+   "correctIndex": 3,
+   "explanation": "The monthly account has effective rate (1 + 0.059/12)\u00b9\u00b2 \u2212 1 \u2248 6.06%, while annual compounding at 6% gives exactly 6%. Comparing nominal rates alone ignores the effect of compounding.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0036",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A tractor valued at $10 000 depreciates by the reducing balance method at 10% per year. The amount of depreciation during the third year is:",
+   "imageRef": null,
+   "options": [
+    "$810",
+    "$1000",
+    "$729",
+    "$900"
+   ],
+   "correctIndex": 0,
+   "explanation": "After two years the value is 10 000 \u00d7 0.9\u00b2 = $8100, and the third year\u2019s depreciation is 10% of that, $810. $1000 is the first year\u2019s depreciation, and $729 is 8100 \u00d7 0.09.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0037",
+   "topicId": "gm-depreciation-interest",
+   "stem": "A van costs $42 000. It depreciates by 20 cents for every kilometre driven and is driven 25 000 km per year. Its value after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$37 000",
+    "$15 000",
+    "$40 500",
+    "$27 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Depreciation each year is 0.20 \u00d7 25 000 = $5000, so after 3 years the value is 42 000 \u2212 15 000 = $27 000. $15 000 is the total depreciation, not the van\u2019s value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0038",
+   "topicId": "gm-depreciation-interest",
+   "stem": "Two investments of $1000 each run for 3 years: one at 10% per annum simple interest, the other at 10% per annum compounding annually. The difference in their final values is:",
+   "imageRef": null,
+   "options": [
+    "$10",
+    "$331",
+    "$31",
+    "$0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Simple interest gives 1000 + 3 \u00d7 100 = $1300; compound interest gives 1000 \u00d7 1.1\u00b3 = $1331. The difference is $31; $331 is the compound interest earned.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0039",
+   "topicId": "gm-depreciation-interest",
+   "stem": "The value of an asset is modelled by V(0) = 64 000, V(n + 1) = 0.75 \u00d7 V(n). Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It is worth nothing after 4 years.",
+    "After 3 years it is worth $27 000.",
+    "After 3 years it is worth $16 000.",
+    "It loses $16 000 in every year."
+   ],
+   "correctIndex": 1,
+   "explanation": "V(3) = 0.75\u00b3 \u00d7 64 000 = 0.421875 \u00d7 64 000 = $27 000. It loses $16 000 only in the first year, and reducing balance depreciation never reaches zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-depreciation-interest-0040",
+   "topicId": "gm-depreciation-interest",
+   "stem": "An investment of $2000 grows to $2420 in two years with interest compounding annually. The annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "21%",
+    "10.5%",
+    "42%",
+    "10%"
+   ],
+   "correctIndex": 3,
+   "explanation": "The growth factor is 2420 \u00f7 2000 = 1.21 = 1.1\u00b2, so R = 1.1 and the rate is 10% per annum. 21% is the total growth over two years, which is more than twice 10% because of compounding.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-depreciation-interest-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "topicId": "spec-statistical-inference",
+ "questions": [
+  {
+   "id": "spec-statistical-inference-0001",
+   "topicId": "spec-statistical-inference",
+   "stem": "If E(X) = 5, then E(2X + 3) equals:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "13",
+    "10",
+    "16"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(aX + b) = aE(X) + b = 2 \u00d7 5 + 3 = 13. Adding 3 before doubling gives 16, which would be E(2(X + 3)).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0002",
+   "topicId": "spec-statistical-inference",
+   "stem": "If Var(X) = 4, then Var(2X + 3) equals:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "8",
+    "19",
+    "16"
+   ],
+   "correctIndex": 3,
+   "explanation": "Var(aX + b) = a\u00b2Var(X), so Var(2X + 3) = 4 \u00d7 4 = 16. Adding a constant shifts every value equally and leaves the spread unchanged; doubling without squaring gives 8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0003",
+   "topicId": "spec-statistical-inference",
+   "stem": "X and Y are independent with Var(X) = 9 and Var(Y) = 4. Then Var(X \u2212 Y) equals:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "\u221a13",
+    "25",
+    "13"
+   ],
+   "correctIndex": 3,
+   "explanation": "For independent variables Var(X \u2212 Y) = Var(X) + (\u22121)\u00b2Var(Y) = 9 + 4 = 13. Subtracting the variances gives 5, but subtracting a random quantity adds variability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0004",
+   "topicId": "spec-statistical-inference",
+   "stem": "A population has standard deviation 12. For samples of size 36, the standard deviation of the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "12",
+    "72",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The standard deviation of the sample mean is \u03c3/\u221an = 12/\u221a36 = 2. Dividing by n instead of \u221an gives 1/3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0005",
+   "topicId": "spec-statistical-inference",
+   "stem": "The mean of the distribution of sample means, for random samples of size n from a population with mean \u03bc, is:",
+   "imageRef": null,
+   "options": [
+    "\u03bc",
+    "\u03bc/n",
+    "n\u03bc",
+    "\u03bc/\u221an"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample mean is an unbiased estimator: its expected value is the population mean \u03bc for every n. The factor \u221an affects the standard deviation, not the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0006",
+   "topicId": "spec-statistical-inference",
+   "stem": "For a large sample size n, the distribution of the sample mean is approximately normal:",
+   "imageRef": null,
+   "options": [
+    "only if the population is symmetric",
+    "only if n is close to the population size",
+    "whatever the shape of the population distribution",
+    "only if the population is normal"
+   ],
+   "correctIndex": 2,
+   "explanation": "For large n the sample mean is approximately normal even for skewed or discrete populations. A normal population makes it exactly normal for every n, but that is not required.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0007",
+   "topicId": "spec-statistical-inference",
+   "stem": "For an approximate 95% confidence interval, the standard normal quantile used is about:",
+   "imageRef": null,
+   "options": [
+    "1.96",
+    "1.645",
+    "2.576",
+    "0.95"
+   ],
+   "correctIndex": 0,
+   "explanation": "95% of the standard normal distribution lies between \u22121.96 and 1.96. The value 1.645 is for 90% (or a one-tailed 5% test) and 2.576 is for 99%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0008",
+   "topicId": "spec-statistical-inference",
+   "stem": "In a hypothesis test about a population mean \u03bc, the null hypothesis H\u2080 is:",
+   "imageRef": null,
+   "options": [
+    "that \u03bc differs from a stated value",
+    "that \u03bc equals a stated value",
+    "the claim the researcher hopes to support",
+    "that the sample mean equals a stated value"
+   ],
+   "correctIndex": 1,
+   "explanation": "H\u2080 states that the population mean has a particular value, such as \u03bc = 500. Hypotheses are about the population parameter, not the sample mean, and the claim the researcher hopes to support is usually H\u2081.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0009",
+   "topicId": "spec-statistical-inference",
+   "stem": "The p-value of a hypothesis test is the probability, assuming H\u2080 is true, of:",
+   "imageRef": null,
+   "options": [
+    "a sample mean exactly equal to the one observed",
+    "a sample mean at least as extreme as the one observed",
+    "H\u2080 being true",
+    "H\u2081 being true"
+   ],
+   "correctIndex": 1,
+   "explanation": "The p-value is calculated assuming H\u2080, so it cannot be the probability that H\u2080 is true. For a continuous distribution any exact value has probability 0, which is why the tail is used.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0010",
+   "topicId": "spec-statistical-inference",
+   "stem": "A test at the 5% level of significance gives a p-value of 0.03. The correct decision is to:",
+   "imageRef": null,
+   "options": [
+    "not reject H\u2080",
+    "accept H\u2080 as proven",
+    "conclude that H\u2081 is false",
+    "reject H\u2080 in favour of H\u2081"
+   ],
+   "correctIndex": 3,
+   "explanation": "The p-value is less than the significance level 0.05, so the result is significant and H\u2080 is rejected. A test never proves H\u2080; at most it fails to find evidence against it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0011",
+   "topicId": "spec-statistical-inference",
+   "stem": "A type I error is:",
+   "imageRef": null,
+   "options": [
+    "not rejecting H\u2080 when H\u2080 is true",
+    "rejecting H\u2080 when H\u2080 is true",
+    "not rejecting H\u2080 when H\u2080 is false",
+    "rejecting H\u2080 when H\u2080 is false"
+   ],
+   "correctIndex": 1,
+   "explanation": "A type I error rejects a true null hypothesis, and its probability is the significance level. Not rejecting a false H\u2080 is a type II error; the other two are correct decisions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0012",
+   "topicId": "spec-statistical-inference",
+   "stem": "A machine fills bottles with a mean of 750 mL. An engineer tests whether the mean has changed. The hypotheses are:",
+   "imageRef": null,
+   "options": [
+    "H\u2080: \u03bc \u2260 750, H\u2081: \u03bc = 750",
+    "H\u2080: \u03bc = 750, H\u2081: \u03bc > 750",
+    "H\u2080: \u03bc = 750, H\u2081: \u03bc \u2260 750",
+    "H\u2080: \u03bc = 750, H\u2081: \u03bc < 750"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u201cChanged\u201d allows either direction, so the alternative is two-tailed. A one-tailed alternative would be used only if the engineer suspected a change in one stated direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0013",
+   "topicId": "spec-statistical-inference",
+   "stem": "Apples have masses with mean 150 g and standard deviation 10 g, independently. The total mass of 5 apples has:",
+   "imageRef": null,
+   "options": [
+    "mean 750 g and standard deviation 10/\u221a5 g",
+    "mean 750 g and standard deviation 10\u221a5 g",
+    "mean 750 g and standard deviation 50 g",
+    "mean 150 g and standard deviation 10\u221a5 g"
+   ],
+   "correctIndex": 1,
+   "explanation": "For a sum of n independent identically distributed variables the mean is n\u03bc = 750 and the variance is n\u03c3\u00b2 = 500, so the standard deviation is \u221a500 = 10\u221a5. The value 50 = 5 \u00d7 10 treats the total as 5X.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0014",
+   "topicId": "spec-statistical-inference",
+   "stem": "X ~ N(20, 3\u00b2) and Y ~ N(30, 4\u00b2) are independent. The distribution of X + Y is normal with:",
+   "imageRef": null,
+   "options": [
+    "mean 50, standard deviation 7",
+    "mean 50, standard deviation 25",
+    "mean 10, standard deviation 5",
+    "mean 50, standard deviation 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Means add: 20 + 30 = 50. Variances add for independent variables: 9 + 16 = 25, so the standard deviation is 5. Standard deviations do not add, so 7 is wrong, and 25 is the variance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0015",
+   "topicId": "spec-statistical-inference",
+   "stem": "E(X) = 4, E(Y) = 1, Var(X) = 2 and Var(Y) = 3, with X and Y independent. Then 3X \u2212 2Y has:",
+   "imageRef": null,
+   "options": [
+    "mean 14 and variance 30",
+    "mean 10 and variance 30",
+    "mean 10 and variance 6",
+    "mean 10 and variance 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(3X \u2212 2Y) = 12 \u2212 2 = 10, and Var(3X \u2212 2Y) = 9 \u00d7 2 + 4 \u00d7 3 = 30. The coefficients are squared, so the minus sign disappears; subtracting gives 18 \u2212 12 = 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0016",
+   "topicId": "spec-statistical-inference",
+   "stem": "A population has \u03bc = 100 and \u03c3 = 15. For a random sample of size 25, Pr(sample mean > 106) is about:",
+   "imageRef": null,
+   "options": [
+    "0.252",
+    "0.023",
+    "0.345",
+    "0.977"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sample mean has standard deviation 15/\u221a25 = 3, so z = (106 \u2212 100)/3 = 2 and Pr(Z > 2) \u2248 0.023. Using \u03c3 = 15 gives z = 0.4 and 0.345, the probability for a single value, not a mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0017",
+   "topicId": "spec-statistical-inference",
+   "stem": "Multiplying the sample size by 4 changes the standard deviation of the sample mean by:",
+   "imageRef": null,
+   "options": [
+    "multiplying it by 4",
+    "halving it",
+    "quartering it",
+    "doubling it"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation is \u03c3/\u221an, and \u221a(4n) = 2\u221an, so it halves. To quarter it, the sample size would have to be multiplied by 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0018",
+   "topicId": "spec-statistical-inference",
+   "stem": "A random sample of 100 has mean 52, from a population with \u03c3 = 10. An approximate 95% confidence interval for \u03bc is:",
+   "imageRef": null,
+   "options": [
+    "(50.36, 53.64)",
+    "(50.04, 53.96)",
+    "(32.40, 71.60)",
+    "(51.80, 52.20)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The interval is 52 \u00b1 1.96 \u00d7 10/\u221a100 = 52 \u00b1 1.96. Dividing by n gives 52 \u00b1 0.196, forgetting \u221an gives 52 \u00b1 19.6, and 52 \u00b1 1.645 is a 90% interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0019",
+   "topicId": "spec-statistical-inference",
+   "stem": "Which statement about 95% confidence intervals for \u03bc is correct?",
+   "imageRef": null,
+   "options": [
+    "About 95% of the sample\u2019s values lie inside the interval",
+    "The sample mean lies inside the interval with probability 0.95",
+    "About 95% of intervals made this way, from repeated samples, contain \u03bc",
+    "About 95% of the population\u2019s values lie inside the interval"
+   ],
+   "correctIndex": 2,
+   "explanation": "The 95% describes the method: across many samples, about 95% of the intervals capture \u03bc. The interval estimates the mean, not where individual values lie, and the sample mean is always at the centre of its own interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0020",
+   "topicId": "spec-statistical-inference",
+   "stem": "Using the same sample, the confidence level is increased from 95% to 99%. The interval:",
+   "imageRef": null,
+   "options": [
+    "becomes narrower",
+    "keeps the same width",
+    "keeps the same width but moves",
+    "becomes wider"
+   ],
+   "correctIndex": 3,
+   "explanation": "The quantile rises from 1.96 to about 2.576, so the margin of error grows. More confidence of capturing \u03bc costs a less precise interval. The centre is the sample mean, which does not change.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0021",
+   "topicId": "spec-statistical-inference",
+   "stem": "A consumer group suspects that the mean life of a battery is less than the 500 hours claimed. The hypotheses are:",
+   "imageRef": null,
+   "options": [
+    "H\u2080: \u03bc = 500, H\u2081: \u03bc < 500",
+    "H\u2080: \u03bc < 500, H\u2081: \u03bc = 500",
+    "H\u2080: \u03bc = 500, H\u2081: \u03bc \u2260 500",
+    "H\u2080: \u03bc = 500, H\u2081: \u03bc > 500"
+   ],
+   "correctIndex": 0,
+   "explanation": "H\u2080 is the claim being tested, \u03bc = 500, and the suspicion of a lower mean gives the one-tailed alternative \u03bc < 500. The hypotheses never swap roles: H\u2080 always contains the equality.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0022",
+   "topicId": "spec-statistical-inference",
+   "stem": "H\u2080: \u03bc = 100, with \u03c3 = 12. A sample of 36 has mean 103. The value of the test statistic z is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "\u22121.5",
+    "1.5",
+    "0.25"
+   ],
+   "correctIndex": 2,
+   "explanation": "z = (103 \u2212 100)/(12/\u221a36) = 3/2 = 1.5. Dividing by \u03c3 alone gives 0.25, and dividing by \u03c3/n gives 9. The sample mean is above 100, so z is positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0023",
+   "topicId": "spec-statistical-inference",
+   "stem": "In a two-tailed test, the test statistic is z = 2.0. The p-value is about:",
+   "imageRef": null,
+   "options": [
+    "0.977",
+    "0.954",
+    "0.046",
+    "0.023"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(Z \u2265 2) \u2248 0.023, and a two-tailed test counts both tails, so p \u2248 2 \u00d7 0.023 = 0.046. The one-tailed value 0.023 is half the p-value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0024",
+   "topicId": "spec-statistical-inference",
+   "stem": "For H\u2080: \u03bc = 20 against H\u2081: \u03bc < 20, the test statistic is z = \u22121.2. At the 5% level:",
+   "imageRef": null,
+   "options": [
+    "p \u2248 0.885, so H\u2080 is not rejected",
+    "p \u2248 0.115, so H\u2080 is rejected",
+    "p \u2248 0.230, so H\u2080 is not rejected",
+    "p \u2248 0.115, so H\u2080 is not rejected"
+   ],
+   "correctIndex": 3,
+   "explanation": "The p-value is Pr(Z \u2264 \u22121.2) \u2248 0.115, which is greater than 0.05, so the result is not significant. The value 0.885 is the wrong tail, and 0.230 doubles for a two-tailed test that was not asked for.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0025",
+   "topicId": "spec-statistical-inference",
+   "stem": "A test gives a p-value of 0.30. At the 5% level, the conclusion is that:",
+   "imageRef": null,
+   "options": [
+    "there is not enough evidence to reject H\u2080",
+    "H\u2080 has been proved true",
+    "there is a 30% chance that H\u2080 is true",
+    "H\u2081 is true with probability 0.70"
+   ],
+   "correctIndex": 0,
+   "explanation": "A large p-value means the sample is consistent with H\u2080, so it is not rejected. That is not proof of H\u2080, and the p-value is not the probability that either hypothesis is true.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0026",
+   "topicId": "spec-statistical-inference",
+   "stem": "H\u2080: \u03bc = 500 hours is tested against H\u2081: \u03bc < 500 hours for a battery. A type II error would be:",
+   "imageRef": null,
+   "options": [
+    "concluding the mean is less than 500 h when it is 500 h",
+    "concluding the mean is less than 500 h when it is less",
+    "concluding the mean could be 500 h when it is 500 h",
+    "concluding the mean could be 500 h when it is in fact less"
+   ],
+   "correctIndex": 3,
+   "explanation": "A type II error fails to reject a false H\u2080: the mean really is below 500 h, but the test does not detect it. Concluding the mean is lower when it is actually 500 h is a type I error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0027",
+   "topicId": "spec-statistical-inference",
+   "stem": "In terms of conditional probability, the significance level \u03b1 of a test is:",
+   "imageRef": null,
+   "options": [
+    "Pr(reject H\u2080 | H\u2080 false)",
+    "Pr(H\u2080 false | H\u2080 not rejected)",
+    "Pr(reject H\u2080 | H\u2080 true)",
+    "Pr(H\u2080 true | reject H\u2080)"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u03b1 is the probability of a type I error, rejecting H\u2080 given that it is true. Reversing the condition, Pr(H\u2080 true | reject H\u2080), is a different quantity that the test does not control.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0028",
+   "topicId": "spec-statistical-inference",
+   "stem": "For a one-tailed test of H\u2081: \u03bc > \u03bc\u2080 at the 5% level, H\u2080 is rejected when the test statistic z is greater than about:",
+   "imageRef": null,
+   "options": [
+    "2.576",
+    "0.05",
+    "1.645",
+    "1.96"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(Z > 1.645) \u2248 0.05, so all of the 5% lies in the upper tail. The value 1.96 splits 5% between two tails, for a two-tailed test.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0029",
+   "topicId": "spec-statistical-inference",
+   "stem": "A simulation takes 1000 samples of size 25 from a population with \u03c3 = 20. The standard deviation of the 1000 sample means should be close to:",
+   "imageRef": null,
+   "options": [
+    "0.63",
+    "4",
+    "20",
+    "0.8"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of the sample mean is \u03c3/\u221an with n the sample size: 20/\u221a25 = 4. The number of samples simulated does not enter the formula, so 20/\u221a1000 \u2248 0.63 is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0030",
+   "topicId": "spec-statistical-inference",
+   "stem": "For samples from a normally distributed population, the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "approximately normal, but only when n \u2265 30",
+    "normal only when n is large",
+    "normal only when \u03c3 is known",
+    "exactly normal, for every sample size n"
+   ],
+   "correctIndex": 3,
+   "explanation": "A linear combination of independent normal variables is normal, and the sample mean is one. The large-sample approximation is needed only when the population is not normal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0031",
+   "topicId": "spec-statistical-inference",
+   "stem": "Times for two stages of a race are independent, N(30, 4\u00b2) and N(45, 3\u00b2) minutes. Pr(total time < 80 minutes) is about:",
+   "imageRef": null,
+   "options": [
+    "0.691",
+    "0.841",
+    "0.159",
+    "0.762"
+   ],
+   "correctIndex": 1,
+   "explanation": "The total is N(75, 25), with standard deviation 5, so z = (80 \u2212 75)/5 = 1 and Pr(Z < 1) \u2248 0.841. Adding the standard deviations to get 7 gives z \u2248 0.71 and 0.762.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0032",
+   "topicId": "spec-statistical-inference",
+   "stem": "200 separate 90% confidence intervals for \u03bc are made from independent random samples. About how many will not contain \u03bc?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "10",
+    "180",
+    "90"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each interval has probability 0.1 of missing \u03bc, so about 0.1 \u00d7 200 = 20 miss. About 180 will contain \u03bc, which answers the opposite question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0033",
+   "topicId": "spec-statistical-inference",
+   "stem": "X\u2081 and X\u2082 are independent, each with variance \u03c3\u00b2. Then Var(X\u2081 + X\u2082) and Var(2X\u2081) are:",
+   "imageRef": null,
+   "options": [
+    "both 4\u03c3\u00b2",
+    "both 2\u03c3\u00b2",
+    "4\u03c3\u00b2 and 2\u03c3\u00b2",
+    "2\u03c3\u00b2 and 4\u03c3\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Var(X\u2081 + X\u2082) = \u03c3\u00b2 + \u03c3\u00b2 = 2\u03c3\u00b2, but Var(2X\u2081) = 2\u00b2\u03c3\u00b2 = 4\u03c3\u00b2. Two independent values partly offset each other, while doubling one value doubles every deviation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0034",
+   "topicId": "spec-statistical-inference",
+   "stem": "X ~ N(50, 3\u00b2) and Y ~ N(40, 4\u00b2) are independent. Pr(X > Y) is about:",
+   "imageRef": null,
+   "options": [
+    "0.923",
+    "0.5",
+    "0.977",
+    "0.023"
+   ],
+   "correctIndex": 2,
+   "explanation": "X \u2212 Y ~ N(10, 25), so Pr(X \u2212 Y > 0) = Pr(Z > \u22122) \u2248 0.977. Using standard deviation 3 + 4 = 7 instead of 5 gives about 0.923.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0035",
+   "topicId": "spec-statistical-inference",
+   "stem": "With \u03c3 = 10, what is the smallest sample size for which an approximate 95% confidence interval for \u03bc has a margin of error of at most 2?",
+   "imageRef": null,
+   "options": [
+    "96",
+    "10",
+    "385",
+    "97"
+   ],
+   "correctIndex": 3,
+   "explanation": "Require 1.96 \u00d7 10/\u221an \u2264 2, so \u221an \u2265 9.8 and n \u2265 96.04. The sample size must be a whole number at least this, so n = 97; 96 is just too small. A margin of 1 would need 385.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0036",
+   "topicId": "spec-statistical-inference",
+   "stem": "An approximate 95% confidence interval for \u03bc, from a large sample of size 64, is (76.08, 83.92). The sample standard deviation was about:",
+   "imageRef": null,
+   "options": [
+    "31.36",
+    "8",
+    "16",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The centre is 80 and the margin is 3.92 = 1.96 \u00d7 s/\u221a64, so s/8 = 2 and s = 16. The value 2 is s/\u221an, the standard deviation of the sample mean, not of the sample.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0037",
+   "topicId": "spec-statistical-inference",
+   "stem": "With z = 1.8 and a significance level of 0.05, which decision is correct?",
+   "imageRef": null,
+   "options": [
+    "Reject H\u2080 for neither of these alternatives",
+    "Reject H\u2080 for H\u2081: \u03bc \u2260 \u03bc\u2080, but not for H\u2081: \u03bc > \u03bc\u2080",
+    "Reject H\u2080 for H\u2081: \u03bc > \u03bc\u2080, but not for H\u2081: \u03bc \u2260 \u03bc\u2080",
+    "Reject H\u2080 for both of these alternatives"
+   ],
+   "correctIndex": 2,
+   "explanation": "One-tailed, p = Pr(Z > 1.8) \u2248 0.036 < 0.05. Two-tailed, p \u2248 0.072 > 0.05. The same data can be significant in a one-tailed test and not in a two-tailed one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0038",
+   "topicId": "spec-statistical-inference",
+   "stem": "H\u2080: \u03bc = 60 is tested against H\u2081: \u03bc > 60, with \u03c3 = 8 and n = 16, at the 5% level. H\u2080 is rejected when the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "greater than 61.645",
+    "greater than 63.29",
+    "greater than 63.92",
+    "greater than 73.16"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reject when (sample mean \u2212 60)/(8/\u221a16) > 1.645, that is, when the sample mean exceeds 60 + 1.645 \u00d7 2 = 63.29. Using 1.96 gives the two-tailed cut-off, and using \u03c3 instead of \u03c3/\u221an gives 73.16.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0039",
+   "topicId": "spec-statistical-inference",
+   "stem": "A 95% confidence interval for \u03bc is (12.1, 15.3). For a two-tailed test of H\u2080: \u03bc = 12 at the 5% level, the correct decision is to:",
+   "imageRef": null,
+   "options": [
+    "reject H\u2080, since the interval contains the sample mean",
+    "not reject H\u2080, since 12 is below the sample mean",
+    "reject H\u2080, since 12 lies outside the interval",
+    "not reject H\u2080, since 12 is close to the interval"
+   ],
+   "correctIndex": 2,
+   "explanation": "A two-tailed test at the 5% level rejects H\u2080 exactly when \u03bc\u2080 lies outside the 95% confidence interval. The interval always contains the sample mean, so that cannot be a reason to reject.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0040",
+   "topicId": "spec-statistical-inference",
+   "stem": "A can\u2019s mass is N(400, 5\u00b2) g and an empty box\u2019s is N(200, 10\u00b2) g, independently. A box holding 12 cans has total mass with:",
+   "imageRef": null,
+   "options": [
+    "mean 5000 g, standard deviation \u221a3700 g",
+    "mean 5000 g, standard deviation 70 g",
+    "mean 4800 g, standard deviation 20 g",
+    "mean 5000 g, standard deviation 20 g"
+   ],
+   "correctIndex": 3,
+   "explanation": "The total is X\u2081 + \u2026 + X\u2081\u2082 + B, with mean 4800 + 200 = 5000 and variance 12 \u00d7 25 + 100 = 400, so the standard deviation is 20. Writing 12X for twelve different cans gives 144 \u00d7 25 + 100 = 3700.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0041",
+   "topicId": "spec-statistical-inference",
+   "stem": "A 95% confidence interval has width 8. From the same data, a 90% confidence interval has width about:",
+   "imageRef": null,
+   "options": [
+    "7.6",
+    "9.5",
+    "4.0",
+    "6.7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Width is proportional to the quantile, so the new width is 8 \u00d7 1.645/1.96 \u2248 6.7. Scaling by 0.90/0.95 gives 7.6, and 9.5 inverts the ratio; a lower confidence level gives a narrower interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-statistical-inference-0042",
+   "topicId": "spec-statistical-inference",
+   "stem": "Twenty independent tests are each carried out at the 5% level, and H\u2080 is true in every one. The probability of at least one type I error is about:",
+   "imageRef": null,
+   "options": [
+    "0.36",
+    "0.64",
+    "0.05",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each test avoids a type I error with probability 0.95, so all twenty do with probability 0.95\u00b2\u2070 \u2248 0.36, and at least one error has probability 1 \u2212 0.36 \u2248 0.64. Multiplying 20 \u00d7 0.05 = 1 double-counts.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-statistical-inference-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

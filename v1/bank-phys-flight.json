@@ -1,0 +1,727 @@
+{
+ "topicId": "phys-flight",
+ "questions": [
+  {
+   "id": "phys-flight-0001",
+   "topicId": "phys-flight",
+   "stem": "An aircraft is in steady, level flight at constant speed. Which forces balance?",
+   "imageRef": null,
+   "options": [
+    "Lift balances weight, and thrust balances drag",
+    "Lift balances thrust, and weight balances drag",
+    "Lift exceeds weight, and thrust exceeds drag",
+    "Lift balances drag, and thrust balances weight"
+   ],
+   "correctIndex": 0,
+   "explanation": "With constant velocity the net force is zero, so the vertical forces, lift and weight, balance, and the horizontal forces, thrust and drag, balance. If thrust exceeded drag, the aircraft would speed up.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0002",
+   "topicId": "phys-flight",
+   "stem": "In the model of the forces on an aircraft, where do lift, drag and the force due to gravity act?",
+   "imageRef": null,
+   "options": [
+    "Lift and drag at the centre of pressure; gravity at the centre of mass",
+    "Lift and drag at the centre of mass; gravity at the centre of pressure",
+    "All three forces at the aircraft\u2019s centre of mass",
+    "All three forces at the wing\u2019s centre of pressure"
+   ],
+   "correctIndex": 0,
+   "explanation": "The force due to gravity is modelled as acting at the centre of mass. Lift and drag are aerodynamic forces from the pressure of the air on the surfaces, so they act at the centre of pressure. The two points are generally not the same, which is why the forces can produce torques.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0003",
+   "topicId": "phys-flight",
+   "stem": "A glider of mass 400 kg is flying level at constant speed. What lift is its wing producing?",
+   "imageRef": null,
+   "options": [
+    "400 N",
+    "41 N",
+    "3.9 \u00d7 10\u2074 N",
+    "3.9 \u00d7 10\u00b3 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "In level flight lift balances the force due to gravity: L = mg = 400 \u00d7 9.8 \u2248 3.9 \u00d7 10\u00b3 N. 400 is the mass in kilograms, not a force.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0004",
+   "topicId": "phys-flight",
+   "stem": "Lift is given by L = \u00bd \u00d7 (air density) \u00d7 v\u00b2 \u00d7 A \u00d7 CL. If the airspeed of an aircraft doubles while everything else stays the same, what happens to the lift?",
+   "imageRef": null,
+   "options": [
+    "It becomes twice as large",
+    "It becomes half as large",
+    "It becomes eight times as large",
+    "It becomes four times as large"
+   ],
+   "correctIndex": 3,
+   "explanation": "Lift is proportional to v\u00b2, so doubling v multiplies the lift by 2\u00b2 = 4. Assuming lift is simply proportional to speed gives twice as large.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0005",
+   "topicId": "phys-flight",
+   "stem": "Using L = \u00bd \u00d7 (air density) \u00d7 v\u00b2 \u00d7 A \u00d7 CL, what happens to the lift if the wing area is doubled and everything else is unchanged?",
+   "imageRef": null,
+   "options": [
+    "It quadruples",
+    "It halves",
+    "It is unchanged",
+    "It doubles"
+   ],
+   "correctIndex": 3,
+   "explanation": "Lift is directly proportional to wing area, so doubling A doubles L. Only the speed is squared in the lift equation, so only a change in speed has a squared effect.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0006",
+   "topicId": "phys-flight",
+   "stem": "A wing has an area of 16 m\u00b2 and a lift coefficient of 0.50. It moves at 50 m s\u207b\u00b9 through air of density 1.2 kg m\u207b\u00b3. Using L = \u00bd \u00d7 (air density) \u00d7 v\u00b2 \u00d7 A \u00d7 CL, what lift does it produce?",
+   "imageRef": null,
+   "options": [
+    "2.4 \u00d7 10\u00b2 N",
+    "6.0 \u00d7 10\u00b3 N",
+    "1.2 \u00d7 10\u2074 N",
+    "2.4 \u00d7 10\u2074 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "L = \u00bd \u00d7 1.2 \u00d7 50\u00b2 \u00d7 16 \u00d7 0.50 = 0.6 \u00d7 2500 \u00d7 8 = 1.2 \u00d7 10\u2074 N. Leaving out the \u00bd gives 2.4 \u00d7 10\u2074 N, and using v instead of v\u00b2 gives 2.4 \u00d7 10\u00b2 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0007",
+   "topicId": "phys-flight",
+   "stem": "At a high-altitude airport the air density is about half its sea-level value. For the same wing area and lift coefficient, how fast must an aircraft move to produce the same lift as at sea level?",
+   "imageRef": null,
+   "options": [
+    "Exactly twice as fast as at sea level",
+    "Half as fast",
+    "Four times as fast",
+    "About 1.4 times as fast"
+   ],
+   "correctIndex": 3,
+   "explanation": "With density halved, v\u00b2 must double to keep \u00bd \u00d7 density \u00d7 v\u00b2 \u00d7 A \u00d7 CL the same, so v increases by \u221a2 \u2248 1.4. Doubling the speed would quadruple v\u00b2 and give twice the lift needed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0008",
+   "topicId": "phys-flight",
+   "stem": "Drag is given by D = \u00bd \u00d7 (air density) \u00d7 v\u00b2 \u00d7 A \u00d7 CD. By what factor does the drag increase when an aircraft\u2019s speed rises from 100 m s\u207b\u00b9 to 150 m s\u207b\u00b9, with everything else unchanged?",
+   "imageRef": null,
+   "options": [
+    "4.5",
+    "2.25",
+    "1.5",
+    "3.4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Drag is proportional to v\u00b2, so the factor is (150 \u00f7 100)\u00b2 = 1.5\u00b2 = 2.25. A factor of 1.5 treats drag as proportional to speed, and 3.4 is 1.5\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0009",
+   "topicId": "phys-flight",
+   "stem": "What does Bernoulli\u2019s principle state about a moving fluid?",
+   "imageRef": null,
+   "options": [
+    "Where the fluid flows faster, its pressure is higher",
+    "Its pressure is the same however fast it flows",
+    "Where the fluid flows faster, its density is higher",
+    "Where the fluid flows faster, its pressure is lower"
+   ],
+   "correctIndex": 3,
+   "explanation": "Bernoulli\u2019s principle says that along a streamline, an increase in the speed of a fluid goes with a decrease in its pressure. This is what links faster flow over a wing to lower pressure above it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0010",
+   "topicId": "phys-flight",
+   "stem": "How does Bernoulli\u2019s principle account for the lift on a wing?",
+   "imageRef": null,
+   "options": [
+    "Air flows faster under the lower surface, so the pressure there is higher and it pushes the whole wing strongly upward",
+    "Air flows more slowly over the upper surface, so the pressure there is higher and it pulls the wing up",
+    "Air pressure is equal above and below the wing, but the air above it is lighter and so rises with it",
+    "Air flows faster over the upper surface, so the pressure there is lower than below and there is a net upward force"
+   ],
+   "correctIndex": 3,
+   "explanation": "Over a lifting wing the air moves faster above than below, so the pressure above is lower. The pressure difference across the wing\u2019s area gives a net upward force. Faster flow means lower pressure, not higher.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0011",
+   "topicId": "phys-flight",
+   "stem": "A website explains lift by saying that air over the top of a wing travels further and must reach the trailing edge at the same time as the air below. Why is this explanation not valid?",
+   "imageRef": null,
+   "options": [
+    "Air over the top of a wing travels a shorter path, so it must move more slowly",
+    "Air under the wing moves faster than the air above, as its path is the longer one",
+    "The two streams do meet together, but the air below the wing is compressed instead",
+    "Experiments show the upper air reaches the trailing edge well before the lower air"
+   ],
+   "correctIndex": 3,
+   "explanation": "Smoke-stream experiments in wind tunnels show the air over the top moves much faster than \u2018equal transit time\u2019 would need, and arrives at the trailing edge first. Nothing requires the two streams to meet again, so the explanation rests on a false premise even though the upper flow is faster.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0012",
+   "topicId": "phys-flight",
+   "stem": "How is lift explained using conservation of momentum and Newton\u2019s laws?",
+   "imageRef": null,
+   "options": [
+    "The wing deflects air downward, and the air pushes up on the wing with an equal force",
+    "The wing deflects air upward, and that rising air then pulls the wing up along with it",
+    "The wing pushes air forward, and the air in turn pushes the wing upward and backward",
+    "The wing traps a cushion of still air beneath it, which then carries the aircraft\u2019s weight"
+   ],
+   "correctIndex": 0,
+   "explanation": "A wing gives the air a downward momentum, called downwash. By Newton\u2019s second law a force acts on the air, and by the third law the air pushes up on the wing with an equal force. This and the Bernoulli explanation describe the same flow.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0013",
+   "topicId": "phys-flight",
+   "stem": "A wing deflects 500 kg of air downward each second, giving it a downward velocity of 20 m s\u207b\u00b9. What lift does this produce?",
+   "imageRef": null,
+   "options": [
+    "1.0 \u00d7 10\u2074 N",
+    "25 N",
+    "1.0 \u00d7 10\u2075 N",
+    "4.9 \u00d7 10\u00b3 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "The force equals the rate of change of momentum of the air: 500 kg s\u207b\u00b9 \u00d7 20 m s\u207b\u00b9 = 1.0 \u00d7 10\u2074 N, and the reaction on the wing is upward. 1.0 \u00d7 10\u2075 comes from using kinetic energy, \u00bdmv\u00b2, and 4.9 \u00d7 10\u00b3 N is just the weight of the air.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0014",
+   "topicId": "phys-flight",
+   "stem": "Up to a limit, why does increasing a wing\u2019s angle of attack increase its lift?",
+   "imageRef": null,
+   "options": [
+    "The wing deflects more air downward and the pressure difference across it grows",
+    "The wing\u2019s drag falls to nothing, so all of the engine\u2019s thrust is turned into lift",
+    "The wing presents a smaller area to the airflow, so the air flows faster",
+    "The aircraft\u2019s weight falls because the wing pushes on less of the air"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tilting the wing further into the airflow turns more air downward and increases the speed difference above and below, so the lift coefficient rises. Drag also increases; it does not fall, and the aircraft\u2019s weight is unchanged.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0015",
+   "topicId": "phys-flight",
+   "stem": "A wind-tunnel graph of a wing\u2019s lift coefficient against angle of attack rises steadily to about 15\u00b0, then drops sharply. What does the drop show?",
+   "imageRef": null,
+   "options": [
+    "The airflow over the upper surface speeds up, so the measured lift rises",
+    "The drag on the wing falls to zero, so the measured lift is reduced",
+    "The wing\u2019s weight increases, so less of its lift can be measured",
+    "The wing stalls: the airflow separates from the upper surface and lift falls"
+   ],
+   "correctIndex": 3,
+   "explanation": "Beyond the critical angle of attack the air can no longer follow the curved upper surface and breaks away into turbulence. The pressure difference collapses and lift falls sharply while drag rises. This is a stall.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0016",
+   "topicId": "phys-flight",
+   "stem": "An aerobatic aircraft can fly level while upside down. How does its wing still produce upward lift?",
+   "imageRef": null,
+   "options": [
+    "Bernoulli\u2019s principle reverses when a wing is upside down, so low pressure then forms beneath it",
+    "When the aircraft is inverted its weight acts upward, so the wing no longer needs to produce lift",
+    "The pilot holds the nose up so the wing meets the air at a positive angle of attack and still deflects air down",
+    "Its engines provide all of the upward force, since a wing cannot produce any useful lift at all once it is inverted"
+   ],
+   "correctIndex": 2,
+   "explanation": "Lift depends mainly on the angle of attack, not on which way up the wing is. Inverted, the pilot raises the nose relative to the flight path so the wing turns air downward, giving an upward reaction. Engines point forward and cannot hold the aircraft up, and weight always acts downward.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0017",
+   "topicId": "phys-flight",
+   "stem": "What causes skin friction drag?",
+   "imageRef": null,
+   "options": [
+    "The force of gravity acting on the aircraft\u2019s outer skin",
+    "The friction of air moving along the aircraft\u2019s surfaces",
+    "The pressure difference caused by the aircraft\u2019s shape",
+    "The wingtip vortices formed as the wing produces lift"
+   ],
+   "correctIndex": 1,
+   "explanation": "Skin friction drag comes from the viscosity of air rubbing along the surfaces, and it grows with the wetted area. Drag from the pressure difference caused by shape is form drag, and drag from wingtip vortices is lift-induced drag.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0018",
+   "topicId": "phys-flight",
+   "stem": "Which change to an aircraft mainly reduces form drag?",
+   "imageRef": null,
+   "options": [
+    "Polishing the skin so that its surface is as smooth as possible",
+    "Fitting winglets to the wingtips so that the vortices are weakened",
+    "Increasing the wing area so a smaller angle of attack is needed",
+    "Streamlining the fuselage so the air flows round it without separating"
+   ],
+   "correctIndex": 3,
+   "explanation": "Form drag is caused by the low-pressure wake behind a body when the airflow separates from it, so a streamlined shape reduces it. Polishing reduces skin friction, and winglets and lower angles of attack reduce lift-induced drag.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0019",
+   "topicId": "phys-flight",
+   "stem": "When is lift-induced drag greatest?",
+   "imageRef": null,
+   "options": [
+    "When the aircraft cruises fast at a small angle of attack at its normal altitude",
+    "When the aircraft is parked on the ground with its engines running at full power",
+    "When the aircraft dives steeply at full thrust with its wings producing very little lift",
+    "When the aircraft flies slowly at a high angle of attack, as in take-off and landing"
+   ],
+   "correctIndex": 3,
+   "explanation": "Lift-induced drag comes from the wingtip vortices and downwash that go with producing lift. It is largest when a wing must work hard at high angle of attack to make enough lift at low speed. At high cruising speed it is small.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0020",
+   "topicId": "phys-flight",
+   "stem": "As an aircraft\u2019s speed increases, skin friction and form drag increase, while lift-induced drag decreases. What does this mean for the total drag?",
+   "imageRef": null,
+   "options": [
+    "It is least at one particular intermediate speed",
+    "It is the same at every speed the aircraft flies",
+    "It is least at the slowest speed the aircraft can fly",
+    "It is least at the aircraft\u2019s top speed in level flight"
+   ],
+   "correctIndex": 0,
+   "explanation": "At low speed the large induced drag dominates; at high speed the growing friction and form drag dominate. Adding the two curves gives a total drag that falls, reaches a minimum, then rises, so the least drag is at an intermediate speed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0021",
+   "topicId": "phys-flight",
+   "stem": "Why are winglets fitted to the wingtips of many airliners?",
+   "imageRef": null,
+   "options": [
+    "To produce extra thrust by deflecting the engines\u2019 exhaust",
+    "To move the centre of mass forward for greater stability",
+    "To weaken the wingtip vortices and reduce lift-induced drag",
+    "To increase skin friction and slow the aircraft for landing"
+   ],
+   "correctIndex": 2,
+   "explanation": "High-pressure air below the wing curls round the tip to the low-pressure region above, forming vortices that add lift-induced drag. Winglets weaken these vortices, saving fuel. They are not part of the engines.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0022",
+   "topicId": "phys-flight",
+   "stem": "How does a jet engine produce thrust?",
+   "imageRef": null,
+   "options": [
+    "It pushes exhaust gas backward, and the gas pushes the engine forward",
+    "Its exhaust pushes against the still air behind the aircraft",
+    "It heats the air around the aircraft, making the aircraft lighter",
+    "It burns fuel, which reduces the drag on the aircraft to zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "By Newton\u2019s third law, the force on the gas by the engine, backward, is matched by an equal force on the engine by the gas, forward. The exhaust does not need air behind it to push against, which is why rockets work in space.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0023",
+   "topicId": "phys-flight",
+   "stem": "How does a propeller produce thrust?",
+   "imageRef": null,
+   "options": [
+    "It cuts through the air ahead, which removes the drag acting on the aircraft",
+    "It spins fast enough that the force on the blades cancels the aircraft\u2019s weight",
+    "It accelerates air backward, so the air exerts a forward force on the propeller",
+    "It accelerates air forward, so the moving air drags the aircraft along behind it"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each propeller blade is a small rotating wing angled to push air backward. The air gains backward momentum, and the reaction force on the blades pulls the aircraft forward.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0024",
+   "topicId": "phys-flight",
+   "stem": "A jet engine takes in 50 kg of air per second at 200 m s\u207b\u00b9, relative to the aircraft, and ejects it at 600 m s\u207b\u00b9 relative to the aircraft. Ignoring the mass of fuel added, what thrust does it produce?",
+   "imageRef": null,
+   "options": [
+    "1.0 \u00d7 10\u2074 N",
+    "4.0 \u00d7 10\u2074 N",
+    "2.0 \u00d7 10\u2074 N",
+    "3.0 \u00d7 10\u2074 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "Thrust equals the rate of change of momentum of the air: 50 kg s\u207b\u00b9 \u00d7 (600 \u2212 200) m s\u207b\u00b9 = 2.0 \u00d7 10\u2074 N. Using 600 m s\u207b\u00b9 alone ignores the air\u2019s speed on entry, and adding the speeds gives 4.0 \u00d7 10\u2074 N.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0025",
+   "topicId": "phys-flight",
+   "stem": "During its take-off run, a 5.0 \u00d7 10\u2074 kg aircraft has an engine thrust of 2.0 \u00d7 10\u2075 N, while drag and rolling friction total 5.0 \u00d7 10\u2074 N. What is its acceleration?",
+   "imageRef": null,
+   "options": [
+    "0.33 m s\u207b\u00b2",
+    "3.0 m s\u207b\u00b2",
+    "4.0 m s\u207b\u00b2",
+    "5.0 m s\u207b\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The net force is 2.0 \u00d7 10\u2075 \u2212 5.0 \u00d7 10\u2074 = 1.5 \u00d7 10\u2075 N, so a = F/m = 1.5 \u00d7 10\u2075 \u00f7 5.0 \u00d7 10\u2074 = 3.0 m s\u207b\u00b2. Ignoring the resistive forces gives 4.0 m s\u207b\u00b2, and adding them gives 5.0 m s\u207b\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0026",
+   "topicId": "phys-flight",
+   "stem": "An aircraft climbs along a straight path at constant speed. How does the thrust compare with the drag?",
+   "imageRef": null,
+   "options": [
+    "Thrust equals the drag plus the entire weight of the aircraft",
+    "Thrust exceeds drag, as it must also balance part of the weight",
+    "Thrust equals drag, as the aircraft is moving at a constant speed",
+    "Thrust is less than drag, as the lift does the work of climbing"
+   ],
+   "correctIndex": 1,
+   "explanation": "On a climbing path, part of the weight acts backward along the flight path. With zero net force, thrust must balance drag plus that component, so it exceeds drag. It would have to equal drag plus the whole weight only in a vertical climb.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0027",
+   "topicId": "phys-flight",
+   "stem": "In a steady glide with the engine off, the glider descends along a straight path at constant speed. What balances the drag?",
+   "imageRef": null,
+   "options": [
+    "The air pressure under the wing, which acts forward",
+    "The glider\u2019s momentum, which acts as a forward force",
+    "The component of the weight acting along the flight path",
+    "The lift, which acts forward along the flight path"
+   ],
+   "correctIndex": 2,
+   "explanation": "When the path slopes downward, gravity has a component along the direction of motion, which balances the drag and keeps the speed constant. Lift acts at right angles to the flight path, and momentum is not a force.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0028",
+   "topicId": "phys-flight",
+   "stem": "To turn, a pilot banks the aircraft. What supplies the net sideways force that makes it turn?",
+   "imageRef": null,
+   "options": [
+    "The thrust, which is redirected sideways by the bank",
+    "The weight, which tilts sideways along with the aircraft",
+    "The horizontal component of the lift, which is tilted by the bank",
+    "The rudder alone, which pushes the whole aircraft sideways"
+   ],
+   "correctIndex": 2,
+   "explanation": "Lift acts at right angles to the wings, so banking tilts it, and its horizontal component provides the net force towards the centre of the turn. Weight always acts straight down and thrust points along the aircraft\u2019s axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0029",
+   "topicId": "phys-flight",
+   "stem": "In a level banked turn, how must the lift compare with the weight?",
+   "imageRef": null,
+   "options": [
+    "Lift must equal weight, as the aircraft stays at the same altitude",
+    "Lift must be less than weight, as part of the lift now acts sideways",
+    "Lift must equal weight, with the sideways force coming from thrust",
+    "Lift must exceed weight, as only its vertical part balances weight"
+   ],
+   "correctIndex": 3,
+   "explanation": "Banked, only the vertical component of lift opposes the weight, so the total lift must be larger than the weight to hold altitude. That is why pilots increase the angle of attack in a turn. Thrust acts along the aircraft, not sideways.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0030",
+   "topicId": "phys-flight",
+   "stem": "Which control surface mainly controls an aircraft\u2019s pitch, raising or lowering its nose?",
+   "imageRef": null,
+   "options": [
+    "The elevator",
+    "The ailerons",
+    "The rudder",
+    "The flaps"
+   ],
+   "correctIndex": 0,
+   "explanation": "Elevators on the tailplane change the tail\u2019s lift and so the pitching torque. Ailerons control roll, the rudder controls yaw, and flaps change the wing\u2019s lift for take-off and landing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0031",
+   "topicId": "phys-flight",
+   "stem": "How do the ailerons make an aircraft roll?",
+   "imageRef": null,
+   "options": [
+    "Both go down together, raising the lift on the two wings by an equal amount",
+    "They swing left or right, turning the nose of the aircraft about a vertical axis",
+    "They tilt the whole tailplane, which raises or lowers the nose of the aircraft",
+    "One goes up and one down, raising lift on one wing and lowering it on the other"
+   ],
+   "correctIndex": 3,
+   "explanation": "A lowered aileron increases that wing\u2019s lift and a raised one decreases it. The difference in lift on the two wings produces a torque about the aircraft\u2019s long axis, which rolls it. Turning the nose about a vertical axis is yaw, from the rudder.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0032",
+   "topicId": "phys-flight",
+   "stem": "A pilot raises the elevators, so their trailing edges tilt up. What happens?",
+   "imageRef": null,
+   "options": [
+    "The tail is pushed down, so the nose pitches up",
+    "The tail is pushed up, so the nose pitches down",
+    "The aircraft rolls towards its right wing",
+    "The aircraft yaws so that its nose swings left"
+   ],
+   "correctIndex": 0,
+   "explanation": "Raised elevators deflect air upward, so the air pushes the tail down. That torque about the centre of mass pitches the nose up. Roll comes from ailerons and yaw from the rudder.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0033",
+   "topicId": "phys-flight",
+   "stem": "In many aircraft the centre of mass is slightly ahead of the wing\u2019s centre of pressure. What role does the tailplane play in level flight?",
+   "imageRef": null,
+   "options": [
+    "It makes the centre of mass and the centre of pressure coincide, so the wing produces no torque",
+    "It makes a small downward force behind the centre of mass, whose torque balances the nose-down torque",
+    "It makes an upward force behind the centre of mass, which adds to the nose-down torque from the weight",
+    "It makes thrust at the tail, which pushes the aircraft\u2019s nose upward against the force of gravity"
+   ],
+   "correctIndex": 1,
+   "explanation": "With weight acting ahead of the lift, there is a nose-down torque. For rotational equilibrium the tailplane provides a small downward force well behind, giving an opposing nose-up torque. An upward tail force would make the nose-down torque worse.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0034",
+   "topicId": "phys-flight",
+   "stem": "Why are flaps extended for landing?",
+   "imageRef": null,
+   "options": [
+    "They reduce the drag on the aircraft, so it can touch down at a higher speed",
+    "They reduce the lift from the wing, so the aircraft descends more quickly",
+    "They shift the centre of mass backward, which raises the nose for landing",
+    "They raise the lift coefficient, so the aircraft can fly safely more slowly"
+   ],
+   "correctIndex": 3,
+   "explanation": "Flaps increase the wing\u2019s curvature, and some types its area too, so the lift coefficient rises. From L = \u00bd \u00d7 density \u00d7 v\u00b2 \u00d7 A \u00d7 CL, the same lift can then be produced at a lower speed. They also add drag, which helps the aircraft slow down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0035",
+   "topicId": "phys-flight",
+   "stem": "How does a helicopter\u2019s rotor produce lift?",
+   "imageRef": null,
+   "options": [
+    "Its blades heat the air below the helicopter, creating a current of rising air",
+    "Its rotating blades are wings that deflect air downward, so the air pushes them up",
+    "Its rotating blades push air upward, and the rising air pulls the helicopter up",
+    "Its blades spin so fast that the rotation itself cancels the force of gravity"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each rotor blade has an aerofoil shape and a positive angle of attack, so as it sweeps round it deflects air downward. The reaction force on the blades is upward, exactly as for a fixed wing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0036",
+   "topicId": "phys-flight",
+   "stem": "As an aircraft approaches the speed of sound, its drag rises steeply. Why?",
+   "imageRef": null,
+   "options": [
+    "The air density around the aircraft falls to zero, so the air cannot flow round it",
+    "Air ahead is compressed, and shock waves form that add a large wave drag",
+    "Skin friction disappears at high speed, so air piles up ahead of the aircraft",
+    "The engines\u2019 thrust falls to zero at the speed of sound, so drag takes over"
+   ],
+   "correctIndex": 1,
+   "explanation": "Near the speed of sound, air can no longer move out of the way smoothly, so it is compressed and shock waves form. The energy carried away in the shock waves appears as a sharp rise in drag. Skin friction does not disappear and the air does not vanish.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0037",
+   "topicId": "phys-flight",
+   "stem": "A student is researching how wings produce lift. Which source is most likely to be valid?",
+   "imageRef": null,
+   "options": [
+    "A forum post by an unnamed person who claims to be a pilot",
+    "A university aerospace engineering textbook that cites wind-tunnel data",
+    "An anonymous online video about lift with millions of views",
+    "An airline advertisement promoting the advanced wing design of its new aircraft"
+   ],
+   "correctIndex": 1,
+   "explanation": "A textbook written by experts, reviewed before publication and based on cited experimental data is the most reliable. Popularity, commercial interest and unverified claims of expertise do not make a source valid.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-flight-0038",
+   "topicId": "phys-flight",
+   "stem": "Which is a genuine limitation of explaining lift by Bernoulli\u2019s principle alone?",
+   "imageRef": null,
+   "options": [
+    "It contradicts Newton\u2019s third law, so the two models cannot both be right",
+    "It does not explain why the air above the wing speeds up in the first place",
+    "It predicts that lift should increase as the speed of the aircraft falls",
+    "It only applies to wings that are flying upside down at low speed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Bernoulli\u2019s principle links faster flow to lower pressure, but on its own it does not say what makes the flow faster over the top. The momentum and downwash model, using Newton\u2019s laws, describes the same flow and is consistent with it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-flight-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

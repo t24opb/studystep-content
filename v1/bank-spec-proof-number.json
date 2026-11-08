@@ -1,0 +1,860 @@
+{
+ "topicId": "spec-proof-number",
+ "questions": [
+  {
+   "id": "spec-proof-number-0001",
+   "topicId": "spec-proof-number",
+   "stem": "Which number is rational but not an integer?",
+   "imageRef": null,
+   "options": [
+    "\u221a9",
+    "\u22123",
+    "\u03c0/2",
+    "\u22127/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u22127/4 is a ratio of integers that is not a whole number. \u221a9 = 3 and \u22123 are integers, and \u03c0/2 is irrational because \u03c0 is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0002",
+   "topicId": "spec-proof-number",
+   "stem": "The set of integers, Z, is closed under which operation?",
+   "imageRef": null,
+   "options": [
+    "division",
+    "taking square roots",
+    "taking reciprocals",
+    "subtraction"
+   ],
+   "correctIndex": 3,
+   "explanation": "The difference of any two integers is an integer. Division fails closure because 1 \u00f7 2 is not an integer, and reciprocals fail for the same reason.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0003",
+   "topicId": "spec-proof-number",
+   "stem": "A set A has 4 elements. How many elements does its power set have?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "8",
+    "15",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The power set is the set of all subsets, and each element is either in or out of a subset, giving 2\u2074 = 16. The count of 15 leaves out the empty set, which is a subset of every set.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0004",
+   "topicId": "spec-proof-number",
+   "stem": "Which chain of subsets is correct?",
+   "imageRef": null,
+   "options": [
+    "N \u2282 Z \u2282 R \u2282 Q \u2282 C",
+    "N \u2282 Z \u2282 Q \u2282 R \u2282 C",
+    "Z \u2282 N \u2282 Q \u2282 R \u2282 C",
+    "N \u2282 Q \u2282 Z \u2282 R \u2282 C"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every natural number is an integer, every integer is rational, every rational is real, and every real number is a complex number with imaginary part 0. Placing R inside Q fails because \u221a2 is real but not rational.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0005",
+   "topicId": "spec-proof-number",
+   "stem": "The universal set is the integers 1 to 10. A is the set of even numbers in it and B is the set of multiples of 3 in it. How many elements does A \u222a B have?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "8",
+    "3",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "A has 5 elements and B has 3, but 6 is in both, so A \u222a B has 5 + 3 \u2212 1 = 7 elements. Adding 5 and 3 counts 6 twice; 3 is the size of the complement of A \u222a B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0006",
+   "topicId": "spec-proof-number",
+   "stem": "For any sets A and B, the complement (A \u222a B)\u2032 is equal to:",
+   "imageRef": null,
+   "options": [
+    "A\u2032 \u2229 B\u2032",
+    "A\u2032 \u222a B\u2032",
+    "A \u2229 B",
+    "A\u2032 \u2229 B"
+   ],
+   "correctIndex": 0,
+   "explanation": "An element is outside A \u222a B exactly when it is outside A and outside B, which is De Morgan\u2019s law. A\u2032 \u222a B\u2032 is the complement of A \u2229 B instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0007",
+   "topicId": "spec-proof-number",
+   "stem": "The recurring decimal 0.363636\u2026, where 36 repeats, is equal to:",
+   "imageRef": null,
+   "options": [
+    "3/11",
+    "4/9",
+    "4/11",
+    "9/25"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let x = 0.3636\u2026; then 100x = 36.3636\u2026, so 99x = 36 and x = 36/99 = 4/11. The fraction 9/25 is 0.36 exactly, which stops rather than recurs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0008",
+   "topicId": "spec-proof-number",
+   "stem": "The recurring decimal 0.1666\u2026, where only the 6 repeats, is equal to:",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "16/99",
+    "4/25",
+    "3/20"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let x = 0.1666\u2026; then 100x \u2212 10x = 16.666\u2026 \u2212 1.666\u2026 = 15, so x = 15/90 = 1/6. The fraction 16/99 is 0.161616\u2026, which treats both digits as repeating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0009",
+   "topicId": "spec-proof-number",
+   "stem": "The fundamental theorem of arithmetic states that:",
+   "imageRef": null,
+   "options": [
+    "every integer greater than 1 has exactly two positive factors, 1 and itself",
+    "there are infinitely many prime numbers, so the list of primes never ends",
+    "every integer greater than 1 is a product of primes in exactly one way, apart from order",
+    "every even integer greater than 2 can be written as the sum of two prime numbers"
+   ],
+   "correctIndex": 2,
+   "explanation": "The theorem is about unique prime factorisation, such as 60 = 2\u00b2 \u00d7 3 \u00d7 5 and no other way. The infinitude of primes is a separate theorem, and the sum of two primes is Goldbach\u2019s conjecture, which is unproved.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0010",
+   "topicId": "spec-proof-number",
+   "stem": "Euclid\u2019s proof that there are infinitely many primes supposes there are finitely many and considers N, the product of all of them plus 1. The key step is that:",
+   "imageRef": null,
+   "options": [
+    "N is even, so it is divisible by 2",
+    "no prime in the list divides N",
+    "N must itself be a prime number",
+    "N is divisible by the largest prime in the list"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each listed prime leaves remainder 1 when divided into N, so N has a prime factor missing from the list, a contradiction. The proof does not need N to be prime, and it often is not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0011",
+   "topicId": "spec-proof-number",
+   "stem": "Let N = 2 \u00d7 3 \u00d7 5 \u00d7 7 \u00d7 11 \u00d7 13 + 1 = 30031. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "N is not prime, but none of 2, 3, 5, 7, 11 and 13 divides it",
+    "N is prime, as Euclid\u2019s argument guarantees for such a number",
+    "N is divisible by 13, the largest prime in the product",
+    "N is divisible by 7, because 30030 is a multiple of 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "30031 = 59 \u00d7 509, so it is composite, yet each of the six primes leaves remainder 1. Euclid\u2019s argument only shows N has a prime factor outside the list, not that N is prime.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0012",
+   "topicId": "spec-proof-number",
+   "stem": "In proving that \u221a3 is irrational, a student writes \u221a3 = a/b in lowest terms and obtains a\u00b2 = 3b\u00b2. Which fact justifies concluding that 3 divides a?",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 = 3b\u00b2 means a is three times b, so a is a multiple of 3",
+    "every square number has an odd number of positive factors",
+    "if a prime divides a product of two integers, it divides one of them",
+    "every integer is either even or odd, so a\u00b2 is even or odd"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since 3 divides a \u00d7 a and 3 is prime, 3 divides a; then b\u00b2 = 3c\u00b2 gives 3 divides b too, contradicting lowest terms. The equation gives a\u00b2 = 3b\u00b2, not a = 3b, so reasoning from a = 3b is invalid.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0013",
+   "topicId": "spec-proof-number",
+   "stem": "To prove a statement P by contradiction, you begin by:",
+   "imageRef": null,
+   "options": [
+    "assuming that P is true",
+    "assuming the converse of P",
+    "proving the contrapositive of P",
+    "assuming that P is false"
+   ],
+   "correctIndex": 3,
+   "explanation": "A proof by contradiction assumes the negation of P and derives something impossible, so P must be true. Proving the contrapositive is a different, direct method.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0014",
+   "topicId": "spec-proof-number",
+   "stem": "The contrapositive of \u201cif p then q\u201d is:",
+   "imageRef": null,
+   "options": [
+    "p and not q",
+    "if not q then not p",
+    "if q then p",
+    "if not p then not q"
+   ],
+   "correctIndex": 1,
+   "explanation": "The contrapositive reverses and negates both parts, and it always has the same truth value as the original. \u201cIf q then p\u201d is the converse, which can be false when the original is true.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0015",
+   "topicId": "spec-proof-number",
+   "stem": "The negation of \u201cfor all real x, x\u00b2 \u2265 0\u201d is:",
+   "imageRef": null,
+   "options": [
+    "there exists a real x such that x\u00b2 \u2265 0",
+    "for all real x, x\u00b2 \u2264 0",
+    "there exists a real x such that x\u00b2 < 0",
+    "for all real x, x\u00b2 < 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Negating a universal statement gives an existential one with the condition negated. \u201cFor all real x, x\u00b2 < 0\u201d is a stronger claim than the negation needs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0016",
+   "topicId": "spec-proof-number",
+   "stem": "A student claims that n\u00b2 + n + 41 is prime for every natural number n. Which value of n is a counter-example?",
+   "imageRef": null,
+   "options": [
+    "n = 1",
+    "n = 10",
+    "n = 20",
+    "n = 40"
+   ],
+   "correctIndex": 3,
+   "explanation": "When n = 40, n\u00b2 + n + 41 = 1600 + 40 + 41 = 1681 = 41\u00b2, which is composite. The other values give 43, 151 and 461, which are all prime.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0017",
+   "topicId": "spec-proof-number",
+   "stem": "Which statement is shown to be false by the counter-example a = \u22123, b = 2?",
+   "imageRef": null,
+   "options": [
+    "if a < b then a\u00b2 < b\u00b2",
+    "if a < b then a\u00b3 < b\u00b3",
+    "if a < b then a + 1 < b + 1",
+    "if a < b then \u2212a > \u2212b"
+   ],
+   "correctIndex": 0,
+   "explanation": "Here \u22123 < 2 but 9 > 4, so squaring does not preserve the inequality. Cubing does preserve it, since \u221227 < 8, and adding 1 or negating behave as the other statements say.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0018",
+   "topicId": "spec-proof-number",
+   "stem": "A direct proof that the sum of two odd integers is even writes m = 2a + 1 and n = 2b + 1. The next step is:",
+   "imageRef": null,
+   "options": [
+    "m + n = 4ab + 2, which is even",
+    "m + n = 2(a + b + 1), which is even",
+    "m + n = 2(a + b) + 1, which is odd",
+    "m + n = 2a + 2b, which is even"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding gives 2a + 2b + 2 = 2(a + b + 1), a multiple of 2. The line 2a + 2b drops the two 1s, and 4ab + 2 comes from multiplying instead of adding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0019",
+   "topicId": "spec-proof-number",
+   "stem": "To prove \u201cif n\u00b2 is even then n is even\u201d using the contrapositive, you prove that:",
+   "imageRef": null,
+   "options": [
+    "if n\u00b2 is odd then n is odd",
+    "n\u00b2 is even for every integer n",
+    "if n is odd then n\u00b2 is odd",
+    "if n is even then n\u00b2 is even"
+   ],
+   "correctIndex": 2,
+   "explanation": "The contrapositive of \u201cif n\u00b2 even then n even\u201d is \u201cif n not even then n\u00b2 not even\u201d. Proving \u201cif n is even then n\u00b2 is even\u201d proves the converse, which is a different statement.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0020",
+   "topicId": "spec-proof-number",
+   "stem": "Consider the true statement \u201cif an integer is divisible by 6 then it is divisible by 3\u201d. Which description is correct?",
+   "imageRef": null,
+   "options": [
+    "Its contrapositive is false and its converse is true",
+    "Its contrapositive and its converse are both true",
+    "Its contrapositive and its converse are both false",
+    "Its contrapositive is true and its converse is false"
+   ],
+   "correctIndex": 3,
+   "explanation": "A statement and its contrapositive always share a truth value, so the contrapositive is true. The converse \u201cdivisible by 3 means divisible by 6\u201d fails for 9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0021",
+   "topicId": "spec-proof-number",
+   "stem": "A proof by induction that 1 + 3 + 5 + \u2026 + (2n \u2212 1) = n\u00b2 assumes the result for n = k. The inductive step must then show that:",
+   "imageRef": null,
+   "options": [
+    "1 + 3 + \u2026 + (2k \u2212 1) + (2k \u2212 1) = (k + 1)\u00b2",
+    "1 + 3 + \u2026 + (2k \u2212 1) + (2k + 1) = (k + 1)\u00b2",
+    "1 + 3 + \u2026 + (2k \u2212 1) = k\u00b2",
+    "1 + 3 + \u2026 + (2k \u2212 1) + (2k + 1) = k\u00b2 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The step shows the result for n = k + 1, whose last term is 2(k + 1) \u2212 1 = 2k + 1, using k\u00b2 + 2k + 1 = (k + 1)\u00b2. The line ending in k\u00b2 is the assumption itself, not what has to be shown.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0022",
+   "topicId": "spec-proof-number",
+   "stem": "To prove 6 divides 7^n \u2212 1 by induction, assume 7^k \u2212 1 = 6m for some integer m. Then 7^(k + 1) \u2212 1 equals:",
+   "imageRef": null,
+   "options": [
+    "7(6m \u2212 1)",
+    "42m \u2212 1",
+    "6(7m + 1)",
+    "6(m + 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "7^(k + 1) \u2212 1 = 7 \u00d7 7^k \u2212 1 = 7(6m + 1) \u2212 1 = 42m + 6 = 6(7m + 1), a multiple of 6. Writing 42m \u2212 1 forgets that 7^k = 6m + 1, not 6m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0023",
+   "topicId": "spec-proof-number",
+   "stem": "Which observation proves that a\u00b2 + b\u00b2 \u2265 2ab for all real numbers a and b?",
+   "imageRef": null,
+   "options": [
+    "(a + b)\u00b2 \u2265 0",
+    "ab \u2264 0 for all real a and b",
+    "a\u00b2 \u2265 ab and b\u00b2 \u2265 ab",
+    "(a \u2212 b)\u00b2 \u2265 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding (a \u2212 b)\u00b2 \u2265 0 gives a\u00b2 \u2212 2ab + b\u00b2 \u2265 0, which rearranges to the result. Expanding (a + b)\u00b2 \u2265 0 only gives a\u00b2 + b\u00b2 \u2265 \u22122ab.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0024",
+   "topicId": "spec-proof-number",
+   "stem": "The proposition \u201cp and q\u201d is true when:",
+   "imageRef": null,
+   "options": [
+    "exactly one of p and q is true",
+    "p is true, whatever q is",
+    "p and q are both true",
+    "at least one of p and q is true"
+   ],
+   "correctIndex": 2,
+   "explanation": "A conjunction needs both parts true. \u201cAt least one true\u201d describes the disjunction \u201cp or q\u201d.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0025",
+   "topicId": "spec-proof-number",
+   "stem": "The conditional \u201cif p then q\u201d is false only when:",
+   "imageRef": null,
+   "options": [
+    "p is true and q is false",
+    "p is false and q is true",
+    "p and q are both false",
+    "p and q are both true"
+   ],
+   "correctIndex": 0,
+   "explanation": "A conditional fails only when the hypothesis holds and the conclusion does not. When p is false the conditional is true whatever q is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0026",
+   "topicId": "spec-proof-number",
+   "stem": "Which proposition is a tautology?",
+   "imageRef": null,
+   "options": [
+    "(p or q) \u2192 p",
+    "p \u2192 (p and q)",
+    "(p \u2192 q) \u2192 p",
+    "p \u2192 (p or q)"
+   ],
+   "correctIndex": 3,
+   "explanation": "If p is true then \u201cp or q\u201d is true, so the conditional can never be false. \u201c(p or q) \u2192 p\u201d fails when p is false and q is true.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0027",
+   "topicId": "spec-proof-number",
+   "stem": "The proposition \u201c(p \u2192 q) and (q \u2192 p)\u201d is logically equivalent to:",
+   "imageRef": null,
+   "options": [
+    "p \u2194 q",
+    "p and q",
+    "p or q",
+    "not (p \u2194 q)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both conditionals hold exactly when p and q have the same truth value, which is the biconditional. \u201cp and q\u201d is false when both are false, but the given proposition is then true.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0028",
+   "topicId": "spec-proof-number",
+   "stem": "The proposition \u201cnot (p and q)\u201d is equivalent to:",
+   "imageRef": null,
+   "options": [
+    "not p and not q",
+    "not p and q",
+    "p or not q",
+    "not p or not q"
+   ],
+   "correctIndex": 3,
+   "explanation": "By De Morgan\u2019s law, \u201cp and q\u201d fails when at least one part fails. \u201cNot p and not q\u201d is the negation of \u201cp or q\u201d instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0029",
+   "topicId": "spec-proof-number",
+   "stem": "Which argument form is valid?",
+   "imageRef": null,
+   "options": [
+    "If p then q; q; therefore p",
+    "If p then q; not p; therefore not q",
+    "p or q; p; therefore not q",
+    "If p then q; not q; therefore not p"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is modus tollens: if p were true, q would be true. Concluding p from q affirms the consequent, which is invalid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0030",
+   "topicId": "spec-proof-number",
+   "stem": "Every student who studies Specialist Mathematics also studies Methods. Mia studies Methods. Therefore Mia studies Specialist Mathematics. This argument is:",
+   "imageRef": null,
+   "options": [
+    "invalid, because it affirms the consequent",
+    "valid, by modus ponens",
+    "valid, by modus tollens",
+    "invalid, because it denies the antecedent"
+   ],
+   "correctIndex": 0,
+   "explanation": "The premise is \u201cif Specialist then Methods\u201d, and the argument reasons from the conclusion Methods back to Specialist. Modus ponens would need Mia to study Specialist and conclude she studies Methods.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0031",
+   "topicId": "spec-proof-number",
+   "stem": "In Boolean algebra, x + x\u2032 simplifies to:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "x",
+    "x\u2032",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Either x or its complement is always true, so their sum is 1. The product xx\u2032 is the one that equals 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0032",
+   "topicId": "spec-proof-number",
+   "stem": "The Boolean expression x + xy simplifies to:",
+   "imageRef": null,
+   "options": [
+    "y",
+    "x + y",
+    "xy",
+    "x"
+   ],
+   "correctIndex": 3,
+   "explanation": "x + xy = x(1 + y) = x \u00d7 1 = x, the absorption law. x + y is the simplification of x + x\u2032y instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0033",
+   "topicId": "spec-proof-number",
+   "stem": "The Boolean expression xy + xy\u2032 + x\u2032y simplifies to:",
+   "imageRef": null,
+   "options": [
+    "x",
+    "xy",
+    "x\u2032 + y",
+    "x + y"
+   ],
+   "correctIndex": 3,
+   "explanation": "xy + xy\u2032 = x(y + y\u2032) = x, so the expression is x + x\u2032y = (x + x\u2032)(x + y) = x + y. It is 0 only when x and y are both 0, which agrees with x + y.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0034",
+   "topicId": "spec-proof-number",
+   "stem": "A circuit has output (A + B)(A\u2032 + B). Its simplest form is:",
+   "imageRef": null,
+   "options": [
+    "A + B",
+    "B",
+    "A",
+    "AB"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expanding gives AA\u2032 + AB + A\u2032B + B = 0 + B(A + A\u2032 + 1) = B. A check: when B = 1 both brackets are 1, and when B = 0 the product is AA\u2032 = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0035",
+   "topicId": "spec-proof-number",
+   "stem": "A two-variable Karnaugh map for x and y has 1s in the cells xy and x\u2032y and 0s elsewhere. The simplest expression is:",
+   "imageRef": null,
+   "options": [
+    "x + y",
+    "y",
+    "x",
+    "x\u2032"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two 1s are adjacent and share y while x changes, so they group to y. x + y would also be 1 in the cell xy\u2032, which is 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0036",
+   "topicId": "spec-proof-number",
+   "stem": "A three-variable Karnaugh map has 1s exactly in the cells xyz, xy\u2032z, x\u2032yz and x\u2032y\u2032z. The simplest expression is:",
+   "imageRef": null,
+   "options": [
+    "z",
+    "xz",
+    "x + z",
+    "yz"
+   ],
+   "correctIndex": 0,
+   "explanation": "The four cells are all the combinations of x and y with z true, so they form a block of four that simplifies to z. xz covers only the two cells with x true.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0037",
+   "topicId": "spec-proof-number",
+   "stem": "The output of a NAND gate is 0 when:",
+   "imageRef": null,
+   "options": [
+    "both inputs are 1",
+    "both inputs are 0",
+    "exactly one input is 1",
+    "at least one input is 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "NAND is NOT AND, so it outputs 0 only when AND would output 1. With any input 0 the AND is 0 and the NAND is 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0038",
+   "topicId": "spec-proof-number",
+   "stem": "Inputs A and B go into an OR gate, and its output passes through a NOT gate. The circuit is equivalent to:",
+   "imageRef": null,
+   "options": [
+    "a NAND gate",
+    "an AND gate",
+    "an OR gate with both inputs inverted",
+    "a NOR gate"
+   ],
+   "correctIndex": 3,
+   "explanation": "NOT (A OR B) is NOR by definition. An OR gate with inverted inputs gives A\u2032 + B\u2032, which by De Morgan\u2019s law is NAND.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0039",
+   "topicId": "spec-proof-number",
+   "stem": "The decimal number 45 written in binary is:",
+   "imageRef": null,
+   "options": [
+    "101101",
+    "110101",
+    "101011",
+    "100101"
+   ],
+   "correctIndex": 0,
+   "explanation": "45 = 32 + 8 + 4 + 1, so the bits for 32, 16, 8, 4, 2, 1 are 1, 0, 1, 1, 0, 1. 110101 is 53, which puts a 1 in the 16s place instead of the 8s.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0040",
+   "topicId": "spec-proof-number",
+   "stem": "In binary, 1011\u2082 + 110\u2082 is equal to:",
+   "imageRef": null,
+   "options": [
+    "1111\u2082",
+    "10111\u2082",
+    "11001\u2082",
+    "10001\u2082"
+   ],
+   "correctIndex": 3,
+   "explanation": "1011\u2082 = 11 and 110\u2082 = 6, and 11 + 6 = 17 = 16 + 1 = 10001\u2082. 1111\u2082 is 15, which comes from adding without carrying.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0041",
+   "topicId": "spec-proof-number",
+   "stem": "The three fundamental constructs used to describe algorithms are:",
+   "imageRef": null,
+   "options": [
+    "abstraction, decomposition and pattern",
+    "sequence, decision and repetition",
+    "input, output and storage",
+    "variables, constants and functions"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every algorithm is built from steps in order, choices such as if \u2026 then \u2026 else, and loops. Abstraction, decomposition and pattern are parts of computational thinking, not the constructs of an algorithm.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0042",
+   "topicId": "spec-proof-number",
+   "stem": "In pseudocode, an \u201cif \u2026 then \u2026 else\u201d block is an example of:",
+   "imageRef": null,
+   "options": [
+    "decision",
+    "repetition",
+    "sequence",
+    "iteration"
+   ],
+   "correctIndex": 0,
+   "explanation": "An if block chooses between paths, which is decision, also called selection. Repetition and iteration both mean loops such as for and while.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0043",
+   "topicId": "spec-proof-number",
+   "stem": "Consider the pseudocode: total \u2190 0; for i from 1 to 4, total \u2190 total + i\u00b2; end for; print total. What is printed?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "30",
+    "16",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "The loop adds 1 + 4 + 9 + 16 = 30. 10 is the sum of i without squaring, and 14 stops after i = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0044",
+   "topicId": "spec-proof-number",
+   "stem": "Consider the pseudocode: a \u2190 84; b \u2190 36; while b \u2260 0, r \u2190 a mod b, a \u2190 b, b \u2190 r; end while; print a. What is printed?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "36",
+    "12",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is Euclid\u2019s algorithm: (84, 36) \u2192 (36, 12) \u2192 (12, 0), so it prints 12, the highest common factor. 6 and 4 are common factors but not the highest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-proof-number-0045",
+   "topicId": "spec-proof-number",
+   "stem": "Consider the pseudocode: n \u2190 10; count \u2190 0; while n > 1, if n is even then n \u2190 n/2 else n \u2190 3n + 1, count \u2190 count + 1; end while; print count. What is printed?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "6",
+    "7",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "n runs 10, 5, 16, 8, 4, 2, 1, which is six passes through the loop. Counting the starting value 10 as well gives 7, which is the number of terms rather than steps.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-proof-number-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

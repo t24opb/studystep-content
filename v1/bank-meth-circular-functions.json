@@ -1,0 +1,784 @@
+{
+ "topicId": "meth-circular-functions",
+ "questions": [
+  {
+   "id": "meth-circular-functions-0001",
+   "topicId": "meth-circular-functions",
+   "stem": "What is one radian?",
+   "imageRef": null,
+   "options": [
+    "The angle at the centre of a circle made by an arc as long as the radius",
+    "The angle at the centre of a circle made by an arc as long as the diameter",
+    "One three-hundred-and-sixtieth of a full turn about the centre",
+    "The angle at the centre made by an arc of length \u03c0 units"
+   ],
+   "correctIndex": 0,
+   "explanation": "A radian is defined by arc length: an arc equal to one radius subtends 1 radian, so a full turn of arc 2\u03c0r is 2\u03c0 radians. One 360th of a turn is a degree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0002",
+   "topicId": "meth-circular-functions",
+   "stem": "What is 135\u00b0 in radians?",
+   "imageRef": null,
+   "options": [
+    "5\u03c0/6",
+    "3\u03c0/2",
+    "3\u03c0/4",
+    "2\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply by \u03c0/180: 135 \u00d7 \u03c0/180 = 3\u03c0/4. The angle 3\u03c0/2 is 270\u00b0, and 2\u03c0/3 is 120\u00b0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0003",
+   "topicId": "meth-circular-functions",
+   "stem": "What is 5\u03c0/6 radians in degrees?",
+   "imageRef": null,
+   "options": [
+    "300\u00b0",
+    "165\u00b0",
+    "150\u00b0",
+    "120\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u03c0 radians is 180\u00b0, so 5\u03c0/6 is 5 \u00d7 30\u00b0 = 150\u00b0. The value 300\u00b0 comes from treating \u03c0 as 360\u00b0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0004",
+   "topicId": "meth-circular-functions",
+   "stem": "A circle has radius 4 cm. What is the length of the arc subtended by an angle of \u03c0/3 at the centre?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/12 cm",
+    "4\u03c0/3 cm",
+    "8\u03c0/3 cm",
+    "240 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Arc length is l = r\u03b8 with \u03b8 in radians: 4 \u00d7 \u03c0/3 = 4\u03c0/3 cm. The value 8\u03c0/3 is the sector area r\u00b2\u03b8/2, not an arc length, and 240 uses the angle in degrees.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0005",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the exact value of sin(\u03c0/3)?",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "1/2",
+    "\u221a2/2",
+    "\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03c0/3 is 60\u00b0, and in the half-equilateral triangle the side opposite 60\u00b0 is \u221a3 when the hypotenuse is 2, giving \u221a3/2. The value 1/2 is sin(\u03c0/6), the most common swap.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0006",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the exact value of cos(2\u03c0/3)?",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "\u22121/2",
+    "1/2",
+    "\u2212\u221a3/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "2\u03c0/3 is in the second quadrant, where cosine is negative, and its related angle is \u03c0/3, so cos(2\u03c0/3) = \u2212cos(\u03c0/3) = \u22121/2. Getting 1/2 forgets the sign change in the second quadrant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0007",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the exact value of tan(5\u03c0/4)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22121",
+    "\u221a3",
+    "1/\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "5\u03c0/4 is in the third quadrant, where sine and cosine are both negative, so their quotient tangent is positive. The related angle is \u03c0/4, so tan(5\u03c0/4) = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0008",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the exact value of sin(\u2212\u03c0/4)?",
+   "imageRef": null,
+   "options": [
+    "\u2212\u221a2/2",
+    "\u221a2/2",
+    "\u22121/2",
+    "\u2212\u221a3/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "A negative angle is measured clockwise, into the fourth quadrant, where sine is negative: sin(\u2212\u03c0/4) = \u2212sin(\u03c0/4) = \u2212\u221a2/2. Sine is an odd function, so the sign cannot be dropped.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0009",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the exact value of cos(11\u03c0/6)?",
+   "imageRef": null,
+   "options": [
+    "\u22121/2",
+    "\u221a3/2",
+    "\u2212\u221a3/2",
+    "1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "11\u03c0/6 = 2\u03c0 \u2212 \u03c0/6 lies in the fourth quadrant, where cosine is positive, so cos(11\u03c0/6) = cos(\u03c0/6) = \u221a3/2. Using the sign of sine there would give the negative value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0010",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the value of tan(\u03c0/2)?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1",
+    "\u03c0/2",
+    "It is undefined"
+   ],
+   "correctIndex": 3,
+   "explanation": "tan(\u03c0/2) = sin(\u03c0/2)/cos(\u03c0/2) = 1/0, which has no value; the graph of y = tan x has a vertical asymptote there. The value 0 is tan(0) or tan(\u03c0).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0011",
+   "topicId": "meth-circular-functions",
+   "stem": "Evaluate sin\u00b2(\u03c0/3) + cos(\u03c0).",
+   "imageRef": null,
+   "options": [
+    "\u22121/4",
+    "7/4",
+    "1/4",
+    "\u22121/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin(\u03c0/3) = \u221a3/2, so sin\u00b2(\u03c0/3) = 3/4, and cos(\u03c0) = \u22121. The total is 3/4 \u2212 1 = \u22121/4. The answer 7/4 takes cos(\u03c0) as +1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0012",
+   "topicId": "meth-circular-functions",
+   "stem": "For every real x, sin\u00b2(x) + cos\u00b2(x) equals:",
+   "imageRef": null,
+   "options": [
+    "tan\u00b2(x)",
+    "2 sin(x) cos(x)",
+    "1",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The point (cos x, sin x) lies on the unit circle, x\u00b2 + y\u00b2 = 1, so the identity holds for every x. It is the Pythagorean identity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0013",
+   "topicId": "meth-circular-functions",
+   "stem": "sin \u03b8 = 0.6. What is sin(\u03c0 + \u03b8)?",
+   "imageRef": null,
+   "options": [
+    "\u22120.6",
+    "0.6",
+    "0.4",
+    "\u22120.4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adding \u03c0 moves the point to the opposite side of the unit circle, which changes the sign of both coordinates: sin(\u03c0 + \u03b8) = \u2212sin \u03b8 = \u22120.6. The value 0.6 is sin(\u03c0 \u2212 \u03b8), the reflection rather than the half-turn.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0014",
+   "topicId": "meth-circular-functions",
+   "stem": "cos \u03b8 = 0.3. What is cos(2\u03c0 \u2212 \u03b8)?",
+   "imageRef": null,
+   "options": [
+    "\u22120.7",
+    "0.3",
+    "\u22120.3",
+    "0.7"
+   ],
+   "correctIndex": 1,
+   "explanation": "2\u03c0 \u2212 \u03b8 is the reflection of \u03b8 in the x-axis, which keeps the x-coordinate, so cos(2\u03c0 \u2212 \u03b8) = cos \u03b8 = 0.3. The values 0.7 and \u22120.7 come from subtracting from 1, which is not a symmetry property.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0015",
+   "topicId": "meth-circular-functions",
+   "stem": "cos \u03b8 = 0.8. What is sin(\u03c0/2 \u2212 \u03b8)?",
+   "imageRef": null,
+   "options": [
+    "0.8",
+    "0.6",
+    "\u22120.8",
+    "0.2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The complementary relation sin(\u03c0/2 \u2212 \u03b8) = cos \u03b8 gives 0.8 directly. The value 0.6 is sin \u03b8 for an acute \u03b8, which is what the complementary angle swaps away from.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0016",
+   "topicId": "meth-circular-functions",
+   "stem": "sin \u03b8 = 3/5 and \u03c0/2 < \u03b8 < \u03c0. What is the value of tan \u03b8?",
+   "imageRef": null,
+   "options": [
+    "\u22123/4",
+    "3/4",
+    "\u22124/3",
+    "\u22123/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "From sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1, cos\u00b2\u03b8 = 16/25, and cosine is negative in the second quadrant, so cos \u03b8 = \u22124/5. Then tan \u03b8 = sin \u03b8/cos \u03b8 = \u22123/4. Inverting to \u22124/3 gives cos \u03b8/sin \u03b8 instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0017",
+   "topicId": "meth-circular-functions",
+   "stem": "cos x = 1/3 and 3\u03c0/2 < x < 2\u03c0. What is the exact value of sin x?",
+   "imageRef": null,
+   "options": [
+    "\u2212\u221a2/3",
+    "\u22122\u221a2/3",
+    "2\u221a2/3",
+    "\u22122/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin\u00b2x = 1 \u2212 1/9 = 8/9, so sin x = \u00b1\u221a8/3 = \u00b12\u221a2/3. In the fourth quadrant sine is negative. The value \u22122/3 comes from taking 1 \u2212 1/3 instead of squaring first.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0018",
+   "topicId": "meth-circular-functions",
+   "stem": "Use sin(x) \u2248 x for small x to estimate sin(2\u00b0).",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u03c0/180",
+    "0.02",
+    "\u03c0/90"
+   ],
+   "correctIndex": 3,
+   "explanation": "The approximation holds only for x in radians, and 2\u00b0 = 2 \u00d7 \u03c0/180 = \u03c0/90 \u2248 0.035. Answering 2 applies the approximation to degrees, and \u03c0/180 is 1\u00b0, not 2\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0019",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the period of y = tan x?",
+   "imageRef": null,
+   "options": [
+    "2\u03c0",
+    "\u03c0/2",
+    "4\u03c0",
+    "\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "tan x repeats every \u03c0, because adding \u03c0 changes the sign of both sine and cosine and leaves their quotient unchanged. Sine and cosine have period 2\u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0020",
+   "topicId": "meth-circular-functions",
+   "stem": "For 0 \u2264 x \u2264 2\u03c0, where does the graph of y = sin x cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "x = 0, \u03c0/2, \u03c0, 3\u03c0/2 and 2\u03c0",
+    "x = 0, \u03c0 and 2\u03c0",
+    "x = \u03c0/2 and 3\u03c0/2",
+    "x = 0 and 2\u03c0 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin x is the y-coordinate on the unit circle, which is zero at angles 0, \u03c0 and 2\u03c0. The values \u03c0/2 and 3\u03c0/2 are where cos x is zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0021",
+   "topicId": "meth-circular-functions",
+   "stem": "What are the amplitude and period of y = 3 sin(2x)?",
+   "imageRef": null,
+   "options": [
+    "Amplitude 6, period \u03c0",
+    "Amplitude 3, period \u03c0",
+    "Amplitude 3, period 4\u03c0",
+    "Amplitude 2, period 3\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The amplitude is |a| = 3 and the period is 2\u03c0/b = 2\u03c0/2 = \u03c0. Multiplying 2\u03c0 by 2 to get 4\u03c0 is the usual slip: a larger b squeezes the graph and shortens the period.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0022",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the period of y = 2 cos(\u03c0x/6)?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "6",
+    "1/12",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "Period = 2\u03c0/b with b = \u03c0/6, so 2\u03c0 \u00f7 (\u03c0/6) = 12. The value \u03c0/3 multiplies 2\u03c0 by \u03c0/6 instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0023",
+   "topicId": "meth-circular-functions",
+   "stem": "What is the range of y = 2 sin(3x) \u2212 1?",
+   "imageRef": null,
+   "options": [
+    "[\u22123, 1]",
+    "[\u22121, 1]",
+    "[\u22122, 2]",
+    "[1, 3]"
+   ],
+   "correctIndex": 0,
+   "explanation": "2 sin(3x) takes values in [\u22122, 2], and subtracting 1 shifts that to [\u22123, 1]. The 3 inside changes only the period, not the range.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0024",
+   "topicId": "meth-circular-functions",
+   "stem": "For 0 \u2264 x \u2264 2\u03c0, what is the maximum value of y = \u22123 cos(x) + 4, and where does it occur?",
+   "imageRef": null,
+   "options": [
+    "7, at x = \u03c0",
+    "7, at x = 0",
+    "1, at x = \u03c0",
+    "4, at x = \u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "y is greatest when \u22123 cos x is greatest, which is when cos x = \u22121, at x = \u03c0, giving 3 + 4 = 7. At x = 0, cos x = 1 and y takes its minimum value 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0025",
+   "topicId": "meth-circular-functions",
+   "stem": "For \u2212\u03c0 < x < \u03c0, where are the vertical asymptotes of y = tan x?",
+   "imageRef": null,
+   "options": [
+    "x = \u2212\u03c0/4 and x = \u03c0/4",
+    "x = \u2212\u03c0, 0 and \u03c0",
+    "x = \u2212\u03c0/2 and x = \u03c0/2",
+    "x = 0 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan x = sin x/cos x is undefined where cos x = 0, which is at \u00b1\u03c0/2 in this interval. At x = 0 and \u00b1\u03c0, tan x is zero, so those are intercepts, not asymptotes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0026",
+   "topicId": "meth-circular-functions",
+   "stem": "For 0 \u2264 x \u2264 \u03c0, where are the vertical asymptotes of y = tan(2x)?",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/4 and x = 3\u03c0/4",
+    "x = \u03c0/2 only",
+    "x = \u03c0/4, \u03c0/2 and 3\u03c0/4",
+    "x = \u03c0 and x = 2\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Asymptotes occur where 2x = \u03c0/2 + k\u03c0, that is x = \u03c0/4 + k\u03c0/2. In [0, \u03c0] these are \u03c0/4 and 3\u03c0/4. At x = \u03c0/2, 2x = \u03c0 and tan(2x) = 0, an intercept.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0027",
+   "topicId": "meth-circular-functions",
+   "stem": "Which transformation maps the graph of y = sin x to the graph of y = sin(2x)?",
+   "imageRef": null,
+   "options": [
+    "Dilation by factor 1/2 from the y-axis",
+    "Dilation by factor 2 from the y-axis",
+    "Dilation by factor 2 from the x-axis",
+    "Translation by 2 units to the left"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replacing x with 2x halves every x-coordinate, a dilation by factor 1/2 from the y-axis, so the period halves from 2\u03c0 to \u03c0. A factor 2 from the x-axis would double the amplitude instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0028",
+   "topicId": "meth-circular-functions",
+   "stem": "The graph of y = cos x is the graph of y = sin x translated:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2 units to the left",
+    "\u03c0/2 units to the right",
+    "\u03c0 units to the left",
+    "1 unit upward"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos x = sin(x + \u03c0/2), and replacing x with x + \u03c0/2 is a translation \u03c0/2 units left. Translating right gives sin(x \u2212 \u03c0/2) = \u2212cos x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0029",
+   "topicId": "meth-circular-functions",
+   "stem": "A graph y = a cos(bx) + c, with b > 0, has a maximum at (0, 5), a minimum value of \u22121 and period \u03c0. What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 3 cos(2x) + 2",
+    "y = 6 cos(2x) + 2",
+    "y = 3 cos(x/2) + 2",
+    "y = 2 cos(2x) + 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean value is (5 + (\u22121))/2 = 2 and the amplitude is (5 \u2212 (\u22121))/2 = 3. A period of \u03c0 needs 2\u03c0/b = \u03c0, so b = 2. Using the full distance 6 from maximum to minimum as the amplitude is the common slip.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0030",
+   "topicId": "meth-circular-functions",
+   "stem": "Which of these is best modelled by a sine or cosine function?",
+   "imageRef": null,
+   "options": [
+    "The distance a car travels at a constant speed",
+    "Hours of daylight each day in Hobart over several years",
+    "The temperature of a cup of tea cooling over an hour",
+    "The number of bacteria in a growing culture over a day"
+   ],
+   "correctIndex": 1,
+   "explanation": "Daylight hours rise and fall in a regular yearly cycle, which is the periodic pattern circular functions describe. Cooling and growth are exponential, and constant speed gives a linear graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0031",
+   "topicId": "meth-circular-functions",
+   "stem": "A model gives day length as D(t) = 12 + 2.5 sin(2\u03c0t/365) hours, t days after the equinox. What does 2.5 represent?",
+   "imageRef": null,
+   "options": [
+    "The period of the model, measured in days",
+    "The longest day length in hours over the year",
+    "The amplitude: the most the day length differs from the mean",
+    "The mean day length, in hours, over a full year"
+   ],
+   "correctIndex": 2,
+   "explanation": "The coefficient of the sine is the amplitude, so day length ranges from 12 \u2212 2.5 to 12 + 2.5 hours. The mean value is 12, the period is 365 days, and the longest day is 14.5 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0032",
+   "topicId": "meth-circular-functions",
+   "stem": "The depth of water at a jetty is h(t) = 1.5 sin(\u03c0t/6) + 3 metres, t hours after midnight. What is the period of the tide?",
+   "imageRef": null,
+   "options": [
+    "6 hours",
+    "\u03c0/6 hours",
+    "24 hours",
+    "12 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "Period = 2\u03c0 \u00f7 (\u03c0/6) = 12 hours, so there are two high tides each day. The value \u03c0/6 is b itself, not the period.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0033",
+   "topicId": "meth-circular-functions",
+   "stem": "The depth at a jetty is h(t) = 1.5 sin(\u03c0t/6) + 3 metres. What are the greatest and least depths?",
+   "imageRef": null,
+   "options": [
+    "4.5 m and 1.5 m",
+    "4.5 m and 3 m",
+    "3 m and 1.5 m",
+    "1.5 m and \u22121.5 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean depth is 3 m and the amplitude is 1.5 m, so the depth runs from 3 \u2212 1.5 = 1.5 m to 3 + 1.5 = 4.5 m. The pair 1.5 m and \u22121.5 m ignores the mean value of 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0034",
+   "topicId": "meth-circular-functions",
+   "stem": "The depth at a jetty is h(t) = 1.5 sin(\u03c0t/6) + 3 metres, t hours after midnight. When does the depth first reach 3.75 m?",
+   "imageRef": null,
+   "options": [
+    "3 am",
+    "1 am",
+    "5 am",
+    "2 am"
+   ],
+   "correctIndex": 1,
+   "explanation": "1.5 sin(\u03c0t/6) = 0.75 gives sin(\u03c0t/6) = 1/2, so \u03c0t/6 = \u03c0/6 or 5\u03c0/6, that is t = 1 or t = 5. The first time is 1 am; 5 am is when the falling tide passes that depth again.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0035",
+   "topicId": "meth-circular-functions",
+   "stem": "A model for temperature is T(t) = 20 \u2212 6 cos(\u03c0t/12) \u00b0C, t hours after midnight. What is the maximum temperature and when does it occur?",
+   "imageRef": null,
+   "options": [
+    "26 \u00b0C at noon",
+    "26 \u00b0C at midnight",
+    "14 \u00b0C at noon",
+    "20 \u00b0C at 6 am"
+   ],
+   "correctIndex": 0,
+   "explanation": "T is greatest when cos(\u03c0t/12) = \u22121, that is \u03c0t/12 = \u03c0 and t = 12, giving 20 + 6 = 26 \u00b0C at noon. At midnight cos 0 = 1 and the temperature is at its minimum, 14 \u00b0C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0036",
+   "topicId": "meth-circular-functions",
+   "stem": "Solve sin x = 1/2 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 or x = 5\u03c0/6",
+    "x = \u03c0/6 or x = 7\u03c0/6",
+    "x = \u03c0/3 or x = 2\u03c0/3",
+    "x = \u03c0/6 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "The related angle is \u03c0/6, and sine is positive in the first and second quadrants, giving \u03c0/6 and \u03c0 \u2212 \u03c0/6 = 5\u03c0/6. The angle 7\u03c0/6 is in the third quadrant, where sine is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0037",
+   "topicId": "meth-circular-functions",
+   "stem": "Solve cos x = \u2212\u221a3/2 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = 5\u03c0/6 or x = 11\u03c0/6",
+    "x = 5\u03c0/6 or x = 7\u03c0/6",
+    "x = \u03c0/6 or x = 11\u03c0/6",
+    "x = 2\u03c0/3 or x = 4\u03c0/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The related angle is \u03c0/6, and cosine is negative in the second and third quadrants, giving \u03c0 \u2212 \u03c0/6 = 5\u03c0/6 and \u03c0 + \u03c0/6 = 7\u03c0/6. The pair 2\u03c0/3 and 4\u03c0/3 solves cos x = \u22121/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0038",
+   "topicId": "meth-circular-functions",
+   "stem": "Solve tan x = \u22121 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/4 or x = 5\u03c0/4",
+    "x = 3\u03c0/4 or x = 7\u03c0/4",
+    "x = 3\u03c0/4 or x = 5\u03c0/4",
+    "x = 5\u03c0/4 or x = 7\u03c0/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tangent is negative in the second and fourth quadrants, and the related angle is \u03c0/4, giving 3\u03c0/4 and 2\u03c0 \u2212 \u03c0/4 = 7\u03c0/4. The solutions are \u03c0 apart, matching the period of tan x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0039",
+   "topicId": "meth-circular-functions",
+   "stem": "Solve 2 sin(2x) = \u221a3 for 0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3 or x = 2\u03c0/3",
+    "x = \u03c0/6 or x = 5\u03c0/6",
+    "x = \u03c0/6, \u03c0/3, 7\u03c0/6 or 4\u03c0/3",
+    "x = \u03c0/6 or x = \u03c0/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin(2x) = \u221a3/2 with 0 \u2264 2x \u2264 2\u03c0 gives 2x = \u03c0/3 or 2\u03c0/3, so x = \u03c0/6 or \u03c0/3. Forgetting to halve gives \u03c0/3 and 2\u03c0/3, and the four-value answer runs past x = \u03c0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0040",
+   "topicId": "meth-circular-functions",
+   "stem": "Solve 2 cos x + 1 = 0 for \u2212\u03c0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = 2\u03c0/3 or x = 4\u03c0/3",
+    "x = \u2212\u03c0/3 or x = \u03c0/3",
+    "x = 2\u03c0/3 only",
+    "x = \u22122\u03c0/3 or x = 2\u03c0/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos x = \u22121/2, with related angle \u03c0/3. In [\u2212\u03c0, \u03c0] cosine is negative in the second and third quadrants, at 2\u03c0/3 and \u22122\u03c0/3. The value 4\u03c0/3 is the same point on the circle but lies outside the domain.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-circular-functions-0041",
+   "topicId": "meth-circular-functions",
+   "stem": "How many solutions does sin(3x) = 0.4 have for 0 \u2264 x \u2264 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "4",
+    "6",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The period of sin(3x) is 2\u03c0/3, so there are three full cycles in [0, 2\u03c0], and each cycle meets the line y = 0.4 twice, giving 6. The answer 2 counts only the solutions of sin x = 0.4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-circular-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

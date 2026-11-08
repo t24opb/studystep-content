@@ -1,0 +1,822 @@
+{
+ "topicId": "spec-vectors-lines-planes",
+ "questions": [
+  {
+   "id": "spec-vectors-lines-planes-0001",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The magnitude of 2i \u2212 3j + 6k is:",
+   "imageRef": null,
+   "options": [
+    "49",
+    "5",
+    "\u221a11",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "|a| = \u221a(2\u00b2 + (\u22123)\u00b2 + 6\u00b2) = \u221a(4 + 9 + 36) = \u221a49 = 7. Adding the components gives 5, and taking the square root of 2 + 3 + 6 forgets to square them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0002",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The unit vector in the direction of 3i + 4j is:",
+   "imageRef": null,
+   "options": [
+    "(1/7)(3i + 4j)",
+    "(1/25)(3i + 4j)",
+    "(1/\u221a7)(3i + 4j)",
+    "(1/5)(3i + 4j)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Divide a vector by its magnitude to get a unit vector. |3i + 4j| = \u221a(9 + 16) = 5. Dividing by 25 uses the squared magnitude, and 7 is the sum of the components.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0003",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "For a = 2i + j \u2212 k and b = i \u2212 3j + 2k, the scalar product a.b is:",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "3",
+    "\u22121",
+    "2i \u2212 3j \u2212 2k"
+   ],
+   "correctIndex": 0,
+   "explanation": "a.b = 2 \u00d7 1 + 1 \u00d7 (\u22123) + (\u22121) \u00d7 2 = 2 \u2212 3 \u2212 2 = \u22123. The scalar product is a number; writing the products as the components of a vector confuses it with something else.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0004",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vectors 2i \u2212 4j + 6k and \u2212i + nj \u2212 3k are parallel when n equals:",
+   "imageRef": null,
+   "options": [
+    "\u22124",
+    "2",
+    "\u22122",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Parallel vectors are scalar multiples: \u2212i + nj \u2212 3k = \u2212(1/2)(2i \u2212 4j + 6k) = \u2212i + 2j \u2212 3k, so n = 2. The i and k components fix the multiplier as \u22121/2, which also changes the sign of the j component.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0005",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vector product j \u00d7 i equals:",
+   "imageRef": null,
+   "options": [
+    "i + j",
+    "\u2212k",
+    "k",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "In the right-handed system i \u00d7 j = k, and reversing the order changes the sign, so j \u00d7 i = \u2212k. The zero result belongs to i \u00d7 i, or to the scalar product i.j.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0006",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Points A and B have position vectors i + 2j + 3k and 4i \u2212 k. The vector from A to B is:",
+   "imageRef": null,
+   "options": [
+    "3i \u2212 2j \u2212 4k",
+    "\u22123i + 2j + 4k",
+    "5i + 2j + 2k",
+    "3i + 2j \u2212 4k"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vector from A to B is OB \u2212 OA = (4 \u2212 1)i + (0 \u2212 2)j + (\u22121 \u2212 3)k = 3i \u2212 2j \u2212 4k. Subtracting the other way gives the vector from B to A, and adding gives neither.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0007",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Three vectors a, b and c are linearly dependent when:",
+   "imageRef": null,
+   "options": [
+    "none is a scalar multiple of another",
+    "one of them is a linear combination of the others",
+    "they are mutually perpendicular",
+    "they all have the same magnitude"
+   ],
+   "correctIndex": 1,
+   "explanation": "Linear dependence means a non-trivial combination \u03b1a + \u03b2b + \u03b3c equals 0, so one vector can be written in terms of the others. Mutually perpendicular non-zero vectors are always linearly independent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0008",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The line through A(1, 0, 2) and B(3, 1, \u22121) has vector equation:",
+   "imageRef": null,
+   "options": [
+    "r = (i + 2k) + t(3i + j \u2212 k)",
+    "r = (i + 2k) + t(4i + j + k)",
+    "r = (i + 2k) + t(2i + j \u2212 3k)",
+    "r = (2i + j \u2212 3k) + t(i + 2k)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A line needs a point and a direction: r = OA + t(OB \u2212 OA), where OB \u2212 OA = 2i + j \u2212 3k. Using OB itself as the direction gives a line through A that misses B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0009",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "A normal vector to the plane x \u2212 2y + 3z = 6 is:",
+   "imageRef": null,
+   "options": [
+    "i + 2j + 3k",
+    "6i \u2212 2j + 3k",
+    "6k",
+    "i \u2212 2j + 3k"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a plane ax + by + cz = d, the vector ai + bj + ck is normal to it. The constant d fixes the plane\u2019s position, not its direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0010",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "For vectors a and b with angle \u03b8 between them, |a \u00d7 b| equals:",
+   "imageRef": null,
+   "options": [
+    "|a||b|cos(\u03b8)",
+    "|a| + |b|",
+    "(a.b)sin(\u03b8)",
+    "|a||b|sin(\u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The magnitude of the vector product is |a||b|sin(\u03b8), which is the area of the parallelogram formed by a and b. The cosine version is the scalar product a.b.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0011",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The curve r(t) = 3cos(t)i + 2sin(t)j, 0 \u2264 t \u2264 2\u03c0, has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/9 + y\u00b2/4 = 1",
+    "x\u00b2/3 + y\u00b2/2 = 1",
+    "x\u00b2/4 + y\u00b2/9 = 1",
+    "9x\u00b2 + 4y\u00b2 = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos(t) = x/3 and sin(t) = y/2, and cos\u00b2(t) + sin\u00b2(t) = 1 gives x\u00b2/9 + y\u00b2/4 = 1, an ellipse. The denominators are the squares of the coefficients, not the coefficients.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0012",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Which point lies on all three planes x + y + z = 6, x \u2212 y = 0 and z = 2?",
+   "imageRef": null,
+   "options": [
+    "(2, 2, 2)",
+    "(3, 3, 0)",
+    "(4, 0, 2)",
+    "(1, 1, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "From z = 2 and x = y, the first equation gives 2x + 2 = 6, so x = y = 2. Each other point lies on the first plane but fails one of the other two equations.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0013",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "In parallelogram OABC with OA = a and OC = c, the midpoints of both diagonals have position vector:",
+   "imageRef": null,
+   "options": [
+    "(c \u2212 a)/2",
+    "(a + c)/2",
+    "(a \u2212 c)/2",
+    "a + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "OB = a + c, so the midpoint of OB is (a + c)/2. The midpoint of AC is (a + c)/2 too. The same point means the diagonals bisect each other; c \u2212 a is the diagonal AC itself, not a midpoint.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0014",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The plane r.(i + j \u2212 k) = 4 contains which point?",
+   "imageRef": null,
+   "options": [
+    "(2, 1, 1)",
+    "(2, 3, 1)",
+    "(1, 1, \u22121)",
+    "(4, 0, 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Cartesian form is x + y \u2212 z = 4, and 2 + 3 \u2212 1 = 4. The point (1, 1, \u22121) has the components of the normal, which gives 3, not 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0015",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vectors 2i + mj + k and i \u2212 2j + 4k are perpendicular when m equals:",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "6",
+    "2",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Perpendicular vectors have scalar product 0: 2 \u2212 2m + 4 = 0, so m = 3. Losing the sign of \u22122 gives \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0016",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The scalar resolute of a = 2i + j + 2k in the direction of b = i + 2j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "8/9",
+    "8",
+    "8/\u221a3",
+    "8/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The scalar resolute is a.b/|b| = (2 + 2 + 4)/3 = 8/3. Dividing by |b|\u00b2 = 9 gives the factor used in the vector resolute, not the scalar resolute.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0017",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vector resolute of a = i + 3j \u2212 k in the direction of b = 2i \u2212 j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "\u2212(1/9)(2i \u2212 j + 2k)",
+    "\u2212(1/3)(i + 3j \u2212 k)",
+    "(1/3)(2i \u2212 j + 2k)",
+    "\u2212(1/3)(2i \u2212 j + 2k)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vector resolute is (a.b/|b|\u00b2)b. Here a.b = 2 \u2212 3 \u2212 2 = \u22123 and |b|\u00b2 = 9, giving \u2212(1/3)b. It points opposite to b because a.b is negative, and it is always parallel to b, not a.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0018",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The angle between i + j and j + k is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "2\u03c0/3",
+    "\u03c0/3",
+    "\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos(\u03b8) = (a.b)/(|a||b|) = 1/(\u221a2 \u00d7 \u221a2) = 1/2, so \u03b8 = \u03c0/3. The scalar product is positive, so the angle is acute, which rules out 2\u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0019",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vector product (i + 2j) \u00d7 (3i \u2212 k) is:",
+   "imageRef": null,
+   "options": [
+    "\u22122i + j \u2212 6k",
+    "2i \u2212 j + 6k",
+    "\u22122i \u2212 j \u2212 6k",
+    "3i \u2212 2k"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using the determinant with rows (1, 2, 0) and (3, 0, \u22121): i(2 \u00d7 (\u22121) \u2212 0) \u2212 j(1 \u00d7 (\u22121) \u2212 0) + k(0 \u2212 6) = \u22122i + j \u2212 6k. The negative of this is the product in the reverse order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0020",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The line r = (1 + 2t)i + (3 \u2212 t)j + 4tk passes through which point?",
+   "imageRef": null,
+   "options": [
+    "(3, 2, 4)",
+    "(2, \u22121, 4)",
+    "(3, 4, 4)",
+    "(5, 1, 6)"
+   ],
+   "correctIndex": 0,
+   "explanation": "At t = 1 the point is (3, 2, 4). The vector 2i \u2212 j + 4k is the direction, not a point on the line, and (5, 1, 6) fails because t = 2 gives z = 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0021",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The plane through (1, 2, 3) with normal 2i \u2212 j + k has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "2x \u2212 y + z = 3",
+    "2x \u2212 y + z = 0",
+    "x + 2y + 3z = 3",
+    "2x \u2212 y + z = 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "The equation is 2x \u2212 y + z = d, and the point gives d = 2 \u2212 2 + 3 = 3. Forgetting the minus sign on y gives 7, and swapping the roles of the point and the normal gives x + 2y + 3z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0022",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The line r = (1 + t)i + (2 \u2212 t)j + 2tk meets the plane x + y + z = 6 at:",
+   "imageRef": null,
+   "options": [
+    "(4, \u22121, 6)",
+    "(3/2, \u22123/2, 3)",
+    "(1, 2, 0)",
+    "(5/2, 1/2, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting: (1 + t) + (2 \u2212 t) + 2t = 3 + 2t = 6, so t = 3/2, giving (5/2, 1/2, 3). The point (4, \u22121, 6) uses t = 3, the value of 3 + 2t before solving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0023",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "In rhombus OABC with OA = a and OC = c, the proof that the diagonals are perpendicular uses (a + c).(c \u2212 a) = |c|\u00b2 \u2212 |a|\u00b2 = 0. This is zero because:",
+   "imageRef": null,
+   "options": [
+    "a and c are perpendicular, as in every rhombus",
+    "a + c and c \u2212 a are parallel vectors",
+    "a.c = |a||c|, as adjacent sides are parallel",
+    "|a| = |c|, as the sides of a rhombus are equal"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives a.c + |c|\u00b2 \u2212 |a|\u00b2 \u2212 c.a = |c|\u00b2 \u2212 |a|\u00b2. All sides of a rhombus are equal, so this is 0. The sides of a rhombus need not be perpendicular; that would make it a square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0024",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "In triangle OAB with OA = a and OB = b, the point two-thirds of the way along the median from O to the midpoint of AB has position vector:",
+   "imageRef": null,
+   "options": [
+    "2(a + b)/3",
+    "(a + b)/6",
+    "(a + b)/3",
+    "(a + b)/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint of AB is (a + b)/2, and two-thirds of that is (a + b)/3. The expression is symmetric in O, A and B, which is why the three medians are concurrent at this point, the centroid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0025",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Three non-zero vectors in three dimensions are linearly dependent. Geometrically, this means they:",
+   "imageRef": null,
+   "options": [
+    "are mutually perpendicular",
+    "have equal magnitudes",
+    "point in three different directions",
+    "are parallel to a single plane"
+   ],
+   "correctIndex": 3,
+   "explanation": "If c = \u03b1a + \u03b2b, then c lies in the plane spanned by a and b, so the three vectors are coplanar. Three independent vectors span all of space, so pointing in three different directions does not imply dependence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0026",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "A force of 10 N acts at 30\u00b0 above the positive x-direction. In component form it is:",
+   "imageRef": null,
+   "options": [
+    "5\u221a3 i + 5j",
+    "5i + 5\u221a3 j",
+    "10i + 10j",
+    "10cos(30\u00b0)i"
+   ],
+   "correctIndex": 0,
+   "explanation": "The components are 10cos(30\u00b0) = 5\u221a3 and 10sin(30\u00b0) = 5. Swapping sine and cosine gives 5i + 5\u221a3 j, which is at 60\u00b0. The x-component alone leaves out the vertical part.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0027",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Which vector is perpendicular to both i + j and j + k?",
+   "imageRef": null,
+   "options": [
+    "i \u2212 k",
+    "i \u2212 j + k",
+    "i + j + k",
+    "i + 2j + k"
+   ],
+   "correctIndex": 1,
+   "explanation": "(i + j) \u00d7 (j + k) = i \u2212 j + k. Checking: (1)(1) + (1)(\u22121) + 0 = 0 and 0 + (1)(\u22121) + (1)(1) = 0. The vector i \u2212 k fails both checks: its scalar products with i + j and j + k are 1 and \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0028",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The curve r(t) = (t + 1)i + t\u00b2j has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "y = (x + 1)\u00b2",
+    "y = x\u00b2 \u2212 1",
+    "y = x\u00b2 + 1",
+    "y = (x \u2212 1)\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "From x = t + 1, t = x \u2212 1, so y = t\u00b2 = (x \u2212 1)\u00b2. Substituting x for t without rearranging gives y = (x + 1)\u00b2, which shifts the wrong way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0029",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The curve r(t) = cos(t)i + sin(t)j + tk, t \u2265 0, is:",
+   "imageRef": null,
+   "options": [
+    "a straight line",
+    "a spiral in the xy-plane",
+    "a helix about the z-axis",
+    "a circle in the plane z = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The x and y components trace the unit circle while z = t increases steadily, so the curve winds upward around the z-axis. A spiral in the xy-plane would have z constant and a changing radius.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0030",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "A system of three linear equations in x, y and z has infinitely many solutions. Geometrically, the three planes:",
+   "imageRef": null,
+   "options": [
+    "meet in pairs, forming a triangular prism",
+    "share a common line, or coincide",
+    "meet at a single point",
+    "are parallel and distinct"
+   ],
+   "correctIndex": 1,
+   "explanation": "The solution set is a line or a plane, so the planes all contain a common line. A single point is a unique solution, and parallel distinct planes or a prism arrangement give no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0031",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Express c = 5i + j as a linear combination of a = i + j and b = i \u2212 j.",
+   "imageRef": null,
+   "options": [
+    "c = 2a + 3b",
+    "c = 3a \u2212 2b",
+    "c = 5a + b",
+    "c = 3a + 2b"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write \u03b1a + \u03b2b = (\u03b1 + \u03b2)i + (\u03b1 \u2212 \u03b2)j. Then \u03b1 + \u03b2 = 5 and \u03b1 \u2212 \u03b2 = 1, so \u03b1 = 3 and \u03b2 = 2. Checking: 3(i + j) + 2(i \u2212 j) = 5i + j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0032",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Point P divides AB internally in the ratio 2 : 1. If OA = a and OB = b, then OP is:",
+   "imageRef": null,
+   "options": [
+    "(a + 2b)/3",
+    "(2a + b)/3",
+    "(a + b)/3",
+    "2(b \u2212 a)/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "AP = (2/3)AB, so OP = a + (2/3)(b \u2212 a) = (a + 2b)/3. P is closer to B, so b carries the larger weight; (2a + b)/3 puts P closer to A. The vector 2(b \u2212 a)/3 is AP, not OP.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0033",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The planes 2x \u2212 y + z = 3 and 4x \u2212 2y + 2z = 5 are:",
+   "imageRef": null,
+   "options": [
+    "perpendicular",
+    "intersecting in a line",
+    "parallel and distinct",
+    "coincident"
+   ],
+   "correctIndex": 2,
+   "explanation": "The normals 2i \u2212 j + k and 4i \u2212 2j + 2k are parallel, so the planes are parallel. Doubling the first equation gives 4x \u2212 2y + 2z = 6, not 5, so they are distinct.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0034",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The triangle with vertices O, A and B, where OA = i + j + k and OB = i \u2212 j, has area:",
+   "imageRef": null,
+   "options": [
+    "\u221a6/2",
+    "\u221a6",
+    "3",
+    "\u221a6/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "OA \u00d7 OB = (0 + 1)i \u2212 (0 \u2212 1)j + (\u22121 \u2212 1)k = i + j \u2212 2k, with magnitude \u221a6. That is the parallelogram\u2019s area, so the triangle is half of it, \u221a6/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0035",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The plane through A(1, 0, 0), B(0, 2, 0) and C(0, 0, 3) has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x + 2y + 3z = 1",
+    "2x + 3y + 6z = 6",
+    "6x + 3y + 2z = 6",
+    "x + 2y + 3z = 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "AB \u00d7 AC = (\u2212i + 2j) \u00d7 (\u2212i + 3k) = 6i + 3j + 2k, so the plane is 6x + 3y + 2z = d, and A gives d = 6. Using the intercepts as normal components gives x + 2y + 3z, which does not pass through B or C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0036",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The line r = i + t(2i + j \u2212 k) and the plane x \u2212 y + z = 4:",
+   "imageRef": null,
+   "options": [
+    "are parallel, and the line is not in the plane",
+    "meet at exactly one point",
+    "are perpendicular to each other",
+    "are parallel, and the line is in the plane"
+   ],
+   "correctIndex": 0,
+   "explanation": "The direction dotted with the normal is 2 \u2212 1 \u2212 1 = 0, so the line is parallel to the plane. The point (1, 0, 0) on the line gives 1 \u2212 0 + 0 = 1 \u2260 4, so the line is not in the plane.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0037",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The vectors i + j, j + k and 2i + mj + k are linearly dependent when m equals:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "\u22123",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Try 2i + mj + k = \u03b1(i + j) + \u03b2(j + k). The i component gives \u03b1 = 2 and the k component \u03b2 = 1, so m = \u03b1 + \u03b2 = 3. Equivalently, the determinant of the three vectors is 3 \u2212 m, which is zero at m = 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0038",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Write a = 4i + 2j as the sum of a vector parallel to b = i + j and a vector perpendicular to b.",
+   "imageRef": null,
+   "options": [
+    "(6i + 6j) + (\u22122i \u2212 4j)",
+    "(3i + 3j) + (i + j)",
+    "(3i + 3j) + (i \u2212 j)",
+    "(2i + 2j) + 2i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The parallel part is the vector resolute (a.b/|b|\u00b2)b = (6/2)(i + j) = 3i + 3j, and the rest is a \u2212 (3i + 3j) = i \u2212 j, with (i \u2212 j).(i + j) = 0. Using a.b = 6 without dividing by |b|\u00b2 gives 6i + 6j.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0039",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The curve x = 2sec(t), y = 3tan(t) has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/2 \u2212 y\u00b2/3 = 1",
+    "x\u00b2/4 \u2212 y\u00b2/9 = 1",
+    "x\u00b2/4 + y\u00b2/9 = 1",
+    "y\u00b2/9 \u2212 x\u00b2/4 = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "sec(t) = x/2 and tan(t) = y/3, and the identity sec\u00b2(t) \u2212 tan\u00b2(t) = 1 gives x\u00b2/4 \u2212 y\u00b2/9 = 1, a hyperbola. The plus sign belongs to cos and sin, which give an ellipse.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0040",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "The planes x + y + z = 1 and x \u2212 y + 2z = 3 meet in a line. A direction vector for that line is:",
+   "imageRef": null,
+   "options": [
+    "2i + 3k",
+    "i + j + k",
+    "3i + j \u2212 2k",
+    "3i \u2212 j \u2212 2k"
+   ],
+   "correctIndex": 3,
+   "explanation": "The line lies in both planes, so it is perpendicular to both normals: (i + j + k) \u00d7 (i \u2212 j + 2k) = 3i \u2212 j \u2212 2k. Adding the normals gives 2i + 3k, which is not perpendicular to either.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0041",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "Lines r\u2081 = (1 + t)i + 2tj + 3k and r\u2082 = si + (s + 1)j + (2s + 1)k:",
+   "imageRef": null,
+   "options": [
+    "are parallel",
+    "meet at (1, 0, 3)",
+    "are skew",
+    "meet at (1, 2, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Equating k components gives s = 1, then the i components give t = 0, but then the j components are 0 and 2. No solution, and the directions i + 2j and i + j + 2k are not parallel, so the lines are skew.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0042",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "A unit vector perpendicular to both i + 2j + 2k and 2i + j \u2212 2k is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)(\u22122i + 2j \u2212 k)",
+    "(1/9)(\u22122i + 2j \u2212 k)",
+    "(1/3)(2i + 2j \u2212 k)",
+    "\u22126i + 6j \u2212 3k"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vector product is \u22126i + 6j \u2212 3k = 3(\u22122i + 2j \u2212 k), and |\u22122i + 2j \u2212 k| = 3, so the unit vector is (1/3)(\u22122i + 2j \u2212 k). The vector \u22126i + 6j \u2212 3k is perpendicular but has magnitude 9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-vectors-lines-planes-0043",
+   "topicId": "spec-vectors-lines-planes",
+   "stem": "If |a| = 3, |b| = 4 and |a + b| = 6, then a.b equals:",
+   "imageRef": null,
+   "options": [
+    "\u221211/2",
+    "5",
+    "11/2",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "|a + b|\u00b2 = |a|\u00b2 + 2a.b + |b|\u00b2, so 36 = 9 + 2a.b + 16 and a.b = 11/2. Forgetting the factor 2 gives 11.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-vectors-lines-planes-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

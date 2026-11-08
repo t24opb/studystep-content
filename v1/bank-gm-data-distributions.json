@@ -1,0 +1,803 @@
+{
+ "topicId": "gm-data-distributions",
+ "questions": [
+  {
+   "id": "gm-data-distributions-0001",
+   "topicId": "gm-data-distributions",
+   "stem": "The postcode of each student\u2019s home address is recorded. Postcode is an example of:",
+   "imageRef": null,
+   "options": [
+    "ordinal categorical data",
+    "continuous numerical data",
+    "nominal categorical data",
+    "discrete numerical data"
+   ],
+   "correctIndex": 2,
+   "explanation": "A postcode is written with digits but only labels a place: adding or averaging postcodes means nothing, and the codes have no natural order of size. It is nominal categorical data, not discrete numerical data.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0002",
+   "topicId": "gm-data-distributions",
+   "stem": "The number of pets in each household on a street is recorded. This variable is:",
+   "imageRef": null,
+   "options": [
+    "discrete numerical",
+    "continuous numerical",
+    "ordinal categorical",
+    "nominal categorical"
+   ],
+   "correctIndex": 0,
+   "explanation": "The number of pets is found by counting and can only take whole-number values, so it is discrete numerical. Continuous data come from measuring, where any value in an interval is possible.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0003",
+   "topicId": "gm-data-distributions",
+   "stem": "A caf\u00e9 asks customers to rate its service as poor, fair, good or excellent. The ratings are:",
+   "imageRef": null,
+   "options": [
+    "nominal categorical data",
+    "discrete numerical data",
+    "continuous numerical data",
+    "ordinal categorical data"
+   ],
+   "correctIndex": 3,
+   "explanation": "The ratings are categories with a natural order, from poor up to excellent, so they are ordinal. Nominal categories, such as hair colour, have no order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0004",
+   "topicId": "gm-data-distributions",
+   "stem": "At an athletics carnival, which of these variables is continuous numerical?",
+   "imageRef": null,
+   "options": [
+    "the number of events each athlete entered",
+    "each runner\u2019s finishing place in a race",
+    "the colour of each house team",
+    "the time taken to run 100 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Time is measured, and could in principle take any value in an interval, so it is continuous. A count of events is discrete, a finishing place is ordinal, and a team colour is nominal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0005",
+   "topicId": "gm-data-distributions",
+   "stem": "For a categorical variable, the mode is:",
+   "imageRef": null,
+   "options": [
+    "the category with the highest frequency",
+    "the highest frequency in the table",
+    "the category in the middle of the list",
+    "the mean of all the frequencies"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mode is the most common category, so it is reported as the category itself, such as \u201cwalk\u201d. The highest frequency, such as 12, tells how often the mode occurs but is not the mode.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0006",
+   "topicId": "gm-data-distributions",
+   "stem": "The five-number summary of a numerical data set is:",
+   "imageRef": null,
+   "options": [
+    "minimum, Q1, median, Q3, maximum",
+    "minimum, Q1, mean, Q3, maximum",
+    "mean, median, mode, range, IQR",
+    "Q1, median, Q3, IQR, range"
+   ],
+   "correctIndex": 0,
+   "explanation": "The five-number summary lists the minimum, the lower quartile, the median, the upper quartile and the maximum, and a boxplot draws exactly these five values. The mean is not part of it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0007",
+   "topicId": "gm-data-distributions",
+   "stem": "A value in a data set is a possible outlier if it is greater than the upper fence, which is:",
+   "imageRef": null,
+   "options": [
+    "Q3 + 1.5 \u00d7 range",
+    "median + 1.5 \u00d7 IQR",
+    "Q3 + 2 \u00d7 IQR",
+    "Q3 + 1.5 \u00d7 IQR"
+   ],
+   "correctIndex": 3,
+   "explanation": "The upper fence is Q3 + 1.5 \u00d7 IQR and the lower fence is Q1 \u2212 1.5 \u00d7 IQR. The fences are measured out from the quartiles, not the median, and use the IQR rather than the range.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0008",
+   "topicId": "gm-data-distributions",
+   "stem": "In a negatively skewed distribution, the long tail of the distribution is:",
+   "imageRef": null,
+   "options": [
+    "on both sides of the peak equally",
+    "on the same side as the peak",
+    "to the left, towards the lower values",
+    "to the right, towards the higher values"
+   ],
+   "correctIndex": 2,
+   "explanation": "Skew is named for the tail: negative skew has its tail stretching towards the lower values, on the left. Most of the data then sit on the right, at the higher values.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0009",
+   "topicId": "gm-data-distributions",
+   "stem": "For a symmetric, bell-shaped distribution, about what percentage of values lie within one standard deviation of the mean?",
+   "imageRef": null,
+   "options": [
+    "68%",
+    "95%",
+    "50%",
+    "99.7%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 68\u201395\u201399.7% rule says about 68% of values lie within one standard deviation of the mean, 95% within two and 99.7% within three. Fifty per cent is the share between the quartiles, a different idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0010",
+   "topicId": "gm-data-distributions",
+   "stem": "A histogram is the most suitable display for:",
+   "imageRef": null,
+   "options": [
+    "the frequencies of a nominal variable",
+    "a small set of ordinal ratings",
+    "two numerical variables per subject",
+    "a large set of continuous numerical data"
+   ],
+   "correctIndex": 3,
+   "explanation": "A histogram groups numerical values into intervals, which suits a large set of measurements. Categorical data belong in a bar chart, and two numerical variables measured on each subject need a scatterplot.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0011",
+   "topicId": "gm-data-distributions",
+   "stem": "Which summary statistic is resistant to outliers, so that one extreme value barely changes it?",
+   "imageRef": null,
+   "options": [
+    "the range",
+    "the standard deviation",
+    "the median",
+    "the mean"
+   ],
+   "correctIndex": 2,
+   "explanation": "The median depends only on the middle of the ordered data, so one extreme value barely moves it. The mean, range and standard deviation all use the extreme value directly and can change a lot.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0012",
+   "topicId": "gm-data-distributions",
+   "stem": "The interquartile range (IQR) measures:",
+   "imageRef": null,
+   "options": [
+    "the typical distance of values from the mean",
+    "the spread of the top 25% of values",
+    "the spread of the middle 50% of values",
+    "the spread from minimum to maximum"
+   ],
+   "correctIndex": 2,
+   "explanation": "IQR = Q3 \u2212 Q1, the width of the interval holding the middle half of the ordered data. The spread from minimum to maximum is the range, and the typical distance from the mean is the standard deviation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0013",
+   "topicId": "gm-data-distributions",
+   "stem": "When describing the distribution of a numerical variable from a histogram, a full description comments on:",
+   "imageRef": null,
+   "options": [
+    "the highest and lowest frequencies only",
+    "shape, centre, spread and outliers",
+    "mean, median, mode and sample size",
+    "the number and width of the columns"
+   ],
+   "correctIndex": 1,
+   "explanation": "A distribution is described by its shape (symmetric or skewed), its centre, its spread and any outliers, all in the context of the data. The column width is a choice made when drawing the histogram, not a feature of the data.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0014",
+   "topicId": "gm-data-distributions",
+   "stem": "In a back-to-back stem plot comparing two groups:",
+   "imageRef": null,
+   "options": [
+    "one group\u2019s leaves are written above the other\u2019s",
+    "the stems are shared, with each group\u2019s leaves on one side",
+    "each group has its own stems, drawn side by side",
+    "the leaves are shared, with the stems on either side"
+   ],
+   "correctIndex": 1,
+   "explanation": "A back-to-back stem plot has one column of stems down the middle. One group\u2019s leaves go to the left and the other\u2019s to the right, so the two distributions can be compared row by row.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0015",
+   "topicId": "gm-data-distributions",
+   "stem": "For the data 3, 5, 6, 8, 9, 12, 15, the interquartile range is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "7",
+    "12",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The median is 8. Leaving the median out, the lower half is 3, 5, 6, so Q1 = 5, and the upper half is 9, 12, 15, so Q3 = 12. IQR = 12 \u2212 5 = 7; 12 is the range, and 5 comes from wrongly including the median in each half.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0016",
+   "topicId": "gm-data-distributions",
+   "stem": "The mean of the data 4, 7, 7, 9, 13 is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "8",
+    "7",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum is 4 + 7 + 7 + 9 + 13 = 40, and 40 \u00f7 5 = 8. The value 7 is the median and the mode, not the mean, and 10 comes from dividing by 4 instead of 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0017",
+   "topicId": "gm-data-distributions",
+   "stem": "A data set has five-number summary 12, 20, 26, 30, 52. The upper fence is:",
+   "imageRef": null,
+   "options": [
+    "40",
+    "41",
+    "35",
+    "45"
+   ],
+   "correctIndex": 3,
+   "explanation": "IQR = 30 \u2212 20 = 10, so the upper fence is 30 + 1.5 \u00d7 10 = 45. Since 52 is above 45, the maximum is a possible outlier. Starting from the median gives 41, and adding just one IQR gives 40.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0018",
+   "topicId": "gm-data-distributions",
+   "stem": "Test scores have Q1 = 40 and Q3 = 52. Which score would be a possible outlier?",
+   "imageRef": null,
+   "options": [
+    "68",
+    "20",
+    "24",
+    "28"
+   ],
+   "correctIndex": 1,
+   "explanation": "IQR = 12, so the fences are 40 \u2212 18 = 22 and 52 + 18 = 70. Only 20 lies outside the interval from 22 to 70; 68 is high but still below the upper fence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0019",
+   "topicId": "gm-data-distributions",
+   "stem": "Bag masses are bell-shaped with mean 60 kg and standard deviation 8 kg. About what percentage of bags have a mass between 44 kg and 76 kg?",
+   "imageRef": null,
+   "options": [
+    "99.7%",
+    "47.5%",
+    "95%",
+    "68%"
+   ],
+   "correctIndex": 2,
+   "explanation": "44 = 60 \u2212 2 \u00d7 8 and 76 = 60 + 2 \u00d7 8, so the interval reaches two standard deviations either side of the mean, which holds about 95% of values. Only one standard deviation either side would give 68%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0020",
+   "topicId": "gm-data-distributions",
+   "stem": "Heights of adult men in a sample are bell-shaped with mean 170 cm and standard deviation 6 cm. About what percentage are shorter than 164 cm?",
+   "imageRef": null,
+   "options": [
+    "16%",
+    "32%",
+    "34%",
+    "2.5%"
+   ],
+   "correctIndex": 0,
+   "explanation": "164 is one standard deviation below the mean. Of the 32% outside one standard deviation, half, or 16%, lies below. 34% is the share between 164 and 170 cm, and 32% counts both tails.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0021",
+   "topicId": "gm-data-distributions",
+   "stem": "The distribution of house prices in a suburb is positively skewed. Which is most likely to be true?",
+   "imageRef": null,
+   "options": [
+    "The median is greater than the mean.",
+    "The mean and the median are equal.",
+    "The mode is greater than the mean.",
+    "The mean is greater than the median."
+   ],
+   "correctIndex": 3,
+   "explanation": "A few very expensive houses in the right-hand tail pull the mean up, but barely move the median. So in a positively skewed distribution the mean is usually above the median.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0022",
+   "topicId": "gm-data-distributions",
+   "stem": "A distribution is strongly skewed and has two outliers. The most appropriate measures of centre and spread to report are:",
+   "imageRef": null,
+   "options": [
+    "the mean and the IQR",
+    "the median and the standard deviation",
+    "the median and the IQR",
+    "the mean and the standard deviation"
+   ],
+   "correctIndex": 2,
+   "explanation": "The median and the IQR are not affected much by skew or outliers, so they describe a typical value and spread fairly. The mean and standard deviation suit symmetric distributions without outliers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0023",
+   "topicId": "gm-data-distributions",
+   "stem": "Reaction times in Group A have median 240 ms and IQR 30 ms. In Group B, median 260 ms and IQR 60 ms. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Group A has the higher median but the smaller spread.",
+    "Group B has the higher median and the greater spread.",
+    "Group A has the higher median and the greater spread.",
+    "Group B has the higher median but the smaller spread."
+   ],
+   "correctIndex": 1,
+   "explanation": "Group B\u2019s median of 260 ms is above Group A\u2019s 240 ms, and its IQR of 60 ms is double Group A\u2019s 30 ms. So Group B\u2019s typical time is slower and its times are more variable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0024",
+   "topicId": "gm-data-distributions",
+   "stem": "Of 25 students surveyed, 8 chose swimming as their favourite sport. As a percentage this is:",
+   "imageRef": null,
+   "options": [
+    "25%",
+    "3.2%",
+    "32%",
+    "8%"
+   ],
+   "correctIndex": 2,
+   "explanation": "8 \u00f7 25 = 0.32, which is 32%. Reading the count of 8 as a percentage ignores the total of 25 students.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0025",
+   "topicId": "gm-data-distributions",
+   "stem": "For the data 4, 6, 7, 9, 10, 14, 15, 18, the upper quartile Q3 is:",
+   "imageRef": null,
+   "options": [
+    "15",
+    "12",
+    "14.5",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are eight values, so the median lies between 9 and 10. The upper half is 10, 14, 15, 18, and its middle is (14 + 15) \u00f7 2 = 14.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0026",
+   "topicId": "gm-data-distributions",
+   "stem": "A boxplot shows a possible outlier as a separate point. The whisker on that side extends to:",
+   "imageRef": null,
+   "options": [
+    "the upper fence, wherever it falls",
+    "the outlier, with a dot at its end",
+    "one IQR beyond the end of the box",
+    "the most extreme value that is not an outlier"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a boxplot with outliers, the whisker stops at the most extreme data value that lies inside the fence. The fence itself is not drawn, and the outlier is marked separately.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0027",
+   "topicId": "gm-data-distributions",
+   "stem": "Two classes have the same mean test score. Class P\u2019s standard deviation is 4 and Class Q\u2019s is 11. This means that:",
+   "imageRef": null,
+   "options": [
+    "Class Q has more students than Class P",
+    "Class Q\u2019s scores are more spread out about the mean",
+    "Class Q scored higher on average than Class P",
+    "Class P\u2019s scores are more spread out about the mean"
+   ],
+   "correctIndex": 1,
+   "explanation": "Standard deviation measures how far scores typically lie from the mean, so the larger value shows more spread. It says nothing about the average, which is the same for both classes, or the class size.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0028",
+   "topicId": "gm-data-distributions",
+   "stem": "A stem plot has key 1 | 2 = 12. Its rows are 1 | 2 5 8, then 2 | 0 3 3 7, then 3 | 1 4. The median is:",
+   "imageRef": null,
+   "options": [
+    "22",
+    "23",
+    "20",
+    "27"
+   ],
+   "correctIndex": 1,
+   "explanation": "The values are 12, 15, 18, 20, 23, 23, 27, 31, 34. There are nine, so the median is the 5th value, which is 23.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0029",
+   "topicId": "gm-data-distributions",
+   "stem": "A histogram of the ages at which people retire has a long tail towards the younger ages. Its shape is:",
+   "imageRef": null,
+   "options": [
+    "bimodal",
+    "negatively skewed",
+    "positively skewed",
+    "symmetric"
+   ],
+   "correctIndex": 1,
+   "explanation": "A long tail towards the lower values means negative skew. A tail towards the higher values would be positive skew.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0030",
+   "topicId": "gm-data-distributions",
+   "stem": "A survey records responses as 1 = strongly disagree up to 5 = strongly agree. These responses are best classified as:",
+   "imageRef": null,
+   "options": [
+    "ordinal categorical",
+    "discrete numerical",
+    "continuous numerical",
+    "nominal categorical"
+   ],
+   "correctIndex": 0,
+   "explanation": "The numbers are codes for ordered categories: the gap between \u201cdisagree\u201d and \u201cneutral\u201d is not a measured quantity. Coding categories with digits does not make them numerical data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0031",
+   "topicId": "gm-data-distributions",
+   "stem": "A data set has five-number summary 8, 15, 21, 30, 44. About what percentage of values lie between 15 and 44?",
+   "imageRef": null,
+   "options": [
+    "75%",
+    "50%",
+    "25%",
+    "95%"
+   ],
+   "correctIndex": 0,
+   "explanation": "From Q1 = 15 up to the maximum of 44 covers the middle 50% plus the top 25% of the data, which is 75%. Only the interval from Q1 to Q3 holds 50%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0032",
+   "topicId": "gm-data-distributions",
+   "stem": "A researcher wants to compare the distribution of a numerical variable across three age groups. The most suitable display is:",
+   "imageRef": null,
+   "options": [
+    "parallel boxplots",
+    "a back-to-back stem plot",
+    "a single histogram",
+    "a segmented bar chart"
+   ],
+   "correctIndex": 0,
+   "explanation": "Parallel boxplots can show any number of groups on a common scale. A back-to-back stem plot has only two sides, so it compares just two groups.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0033",
+   "topicId": "gm-data-distributions",
+   "stem": "The sample standard deviation of 2, 4, 6, 8, 10, correct to two decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "2.83",
+    "10",
+    "4",
+    "3.16"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mean is 6 and the squared deviations are 16, 4, 0, 4, 16, which sum to 40. The sample standard deviation divides by n \u2212 1 = 4: \u221a(40 \u00f7 4) = \u221a10 \u2248 3.16. Dividing by 5 gives 2.83, and 10 is the variance before the square root.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0034",
+   "topicId": "gm-data-distributions",
+   "stem": "The value 95 is added to the data 10, 12, 13, 15, 16. What happens to the mean and the median?",
+   "imageRef": null,
+   "options": [
+    "mean rises to 14; median rises to about 26.8",
+    "mean stays at 13.2; median rises to 14",
+    "mean rises to about 26.8; median rises to 14",
+    "mean rises to about 26.8; median stays at 13"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mean goes from 66 \u00f7 5 = 13.2 to 161 \u00f7 6 \u2248 26.8. With six values the median is the average of 13 and 15, which is 14. The outlier pulls the mean far more than the median.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0035",
+   "topicId": "gm-data-distributions",
+   "stem": "Class X: min 35, Q1 52, median 64, Q3 71, max 90. Class Y: min 41, Q1 58, median 62, Q3 66, max 79. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Class Y has the larger IQR and the larger range.",
+    "Class X has the higher median and the larger IQR.",
+    "Class Y has the higher median and the smaller IQR.",
+    "Class X has the higher median and the smaller range."
+   ],
+   "correctIndex": 1,
+   "explanation": "Class X\u2019s median is 64 against 62, and its IQR is 71 \u2212 52 = 19 against 66 \u2212 58 = 8. Class X\u2019s range is also larger, 55 against 38, so its scores are more spread out on both measures.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0036",
+   "topicId": "gm-data-distributions",
+   "stem": "Plant heights are bell-shaped with mean 40 cm, and 95% of plants are between 34 cm and 46 cm. The standard deviation is:",
+   "imageRef": null,
+   "options": [
+    "6 cm",
+    "12 cm",
+    "2 cm",
+    "3 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "The middle 95% runs two standard deviations either side of the mean, so 2 \u00d7 s = 46 \u2212 40 = 6 and s = 3 cm. Taking 6 cm forgets that 95% spans two standard deviations each way.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0037",
+   "topicId": "gm-data-distributions",
+   "stem": "Scores are bell-shaped with mean 50 and standard deviation 5. About what percentage of scores lie between 45 and 60?",
+   "imageRef": null,
+   "options": [
+    "68%",
+    "84%",
+    "81.5%",
+    "95%"
+   ],
+   "correctIndex": 2,
+   "explanation": "From 45 to 50 is one standard deviation below the mean, 34%. From 50 to 60 is two above, 47.5%. Together that is 81.5%. 84% is the share below 55, a different interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0038",
+   "topicId": "gm-data-distributions",
+   "stem": "Twenty families: 3 have no children, 5 have 1, 8 have 2 and 4 have 3. The mean number of children per family is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "5",
+    "1.65",
+    "1.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The total is 0 \u00d7 3 + 1 \u00d7 5 + 2 \u00d7 8 + 3 \u00d7 4 = 33 children, and 33 \u00f7 20 = 1.65. The value 2 is the median and the mode, and 5 is the mean of the frequencies, not of the data.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0039",
+   "topicId": "gm-data-distributions",
+   "stem": "A boxplot is drawn from the five-number summary 2, 10, 14, 18, 40. Which values are possible outliers?",
+   "imageRef": null,
+   "options": [
+    "only 2",
+    "both 2 and 40",
+    "neither 2 nor 40",
+    "only 40"
+   ],
+   "correctIndex": 3,
+   "explanation": "IQR = 18 \u2212 10 = 8, so the fences are 10 \u2212 12 = \u22122 and 18 + 12 = 30. The minimum, 2, is inside the lower fence, but 40 is above 30, so only 40 is a possible outlier.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0040",
+   "topicId": "gm-data-distributions",
+   "stem": "Every student\u2019s test score is increased by 5 marks. What happens to the mean and the standard deviation?",
+   "imageRef": null,
+   "options": [
+    "The mean and the standard deviation both rise by 5.",
+    "The mean is unchanged; the standard deviation rises by 5.",
+    "The mean rises by 5; the standard deviation rises by 5%.",
+    "The mean rises by 5; the standard deviation is unchanged."
+   ],
+   "correctIndex": 3,
+   "explanation": "Adding 5 to every score shifts the whole distribution up by 5, so the mean rises by 5. Each score keeps the same distance from the new mean, so the spread, and hence the standard deviation, does not change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0041",
+   "topicId": "gm-data-distributions",
+   "stem": "Scores of 400 students are bell-shaped with mean 72 and standard deviation 6. About how many students scored above 84?",
+   "imageRef": null,
+   "options": [
+    "64",
+    "1",
+    "10",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "84 = 72 + 2 \u00d7 6, and about 2.5% of values lie more than two standard deviations above the mean. 2.5% of 400 is 10; 20 counts both tails.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-data-distributions-0042",
+   "topicId": "gm-data-distributions",
+   "stem": "A student says the mean is the best measure of centre for the incomes 32, 35, 38, 40, 41 and 260 (in thousands of dollars). Why is this a poor choice?",
+   "imageRef": null,
+   "options": [
+    "The outlier 260 pulls the mean above all other incomes.",
+    "The mean of six values cannot be calculated exactly.",
+    "The median would be pulled upward even more by 260.",
+    "The mean ignores the income of 260 when it is calculated."
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean is 446 \u00f7 6 \u2248 74.3 thousand, higher than five of the six incomes, so it is not typical. The median, (38 + 40) \u00f7 2 = 39 thousand, is barely affected by the outlier.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-data-distributions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

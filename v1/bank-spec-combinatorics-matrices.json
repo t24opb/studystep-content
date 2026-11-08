@@ -1,0 +1,784 @@
+{
+ "topicId": "spec-combinatorics-matrices",
+ "questions": [
+  {
+   "id": "spec-combinatorics-matrices-0001",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "In any group of 13 people, at least two were born in the same month. This follows from:",
+   "imageRef": null,
+   "options": [
+    "the inclusion\u2013exclusion principle",
+    "the multiplication principle",
+    "Pascal\u2019s identity",
+    "the pigeon-hole principle"
+   ],
+   "correctIndex": 3,
+   "explanation": "Thirteen people (pigeons) go into 12 months (holes), so some month holds at least two. Inclusion\u2013exclusion counts unions of overlapping sets instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0002",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A drawer holds many red, blue and green socks. How many socks must be taken out, without looking, to be sure of a matching pair?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "4",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Three socks could all be different colours, but a fourth must match one of the three colours. Taking 3 is not enough, since one of each colour is possible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0003",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "What is the smallest group of people that guarantees at least three share a birth month?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "36",
+    "37",
+    "25"
+   ],
+   "correctIndex": 3,
+   "explanation": "With 24 people each month could hold exactly two, so 2 \u00d7 12 + 1 = 25 forces a third into some month. 37 is the number that guarantees four.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0004",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Which choice of pigeon-holes proves that among any 6 integers, two differ by a multiple of 5?",
+   "imageRef": null,
+   "options": [
+    "the ten possible last digits of an integer",
+    "the two classes of even and odd integers",
+    "the five possible remainders on division by 5",
+    "the six integers themselves, one in each hole"
+   ],
+   "correctIndex": 2,
+   "explanation": "Six integers in five remainder classes means two share a remainder, and then their difference is a multiple of 5. Ten last digits would need 11 integers, and would only show a difference divisible by 10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0005",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Five points are placed inside a square of side 2. Which argument shows that two of them are at most \u221a2 apart?",
+   "imageRef": null,
+   "options": [
+    "The diagonal of the square is 2\u221a2, so the points average \u221a2 apart",
+    "Some two of the points must lie at corners, which are \u221a2 apart",
+    "Dividing it into four 1 \u00d7 1 squares puts two points in one small square",
+    "Dividing it into two 1 \u00d7 2 rectangles puts three points in one rectangle"
+   ],
+   "correctIndex": 2,
+   "explanation": "Five points in four small squares put two in one square, and points in a 1 \u00d7 1 square are at most its diagonal, \u221a2, apart. A 1 \u00d7 2 rectangle has diagonal \u221a5, so three points in one only guarantees a distance of at most \u221a5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0006",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "For finite sets A and B, the number of elements in A \u222a B is:",
+   "imageRef": null,
+   "options": [
+    "|A| \u00d7 |B| \u2212 |A \u2229 B|",
+    "|A| + |B| \u2212 |A \u2229 B|",
+    "|A| + |B| + |A \u2229 B|",
+    "|A| + |B|"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding |A| and |B| counts the elements of A \u2229 B twice, so they are subtracted once. Plain |A| + |B| is right only when the sets do not overlap.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0007",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "For finite sets A, B and C, the number of elements in A \u222a B \u222a C is:",
+   "imageRef": null,
+   "options": [
+    "|A| + |B| + |C| \u2212 |A \u2229 B \u2229 C|",
+    "|A| + |B| + |C| \u2212 |A \u2229 B| \u2212 |A \u2229 C| \u2212 |B \u2229 C| + |A \u2229 B \u2229 C|",
+    "|A| + |B| + |C| \u2212 |A \u2229 B| \u2212 |A \u2229 C| \u2212 |B \u2229 C| \u2212 |A \u2229 B \u2229 C|",
+    "|A| + |B| + |C| \u2212 |A \u2229 B| \u2212 |A \u2229 C| \u2212 |B \u2229 C|"
+   ],
+   "correctIndex": 1,
+   "explanation": "An element in all three sets is counted 3 times by the singles and removed 3 times by the pairs, so it must be added back once. Leaving out the last term misses those elements entirely.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0008",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "In a class of 30 students, 18 study French, 12 study German and 5 study both. How many study neither?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "5",
+    "0",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number studying at least one is 18 + 12 \u2212 5 = 25, so 30 \u2212 25 = 5 study neither. Forgetting to subtract the 5 who do both gives 30 and so 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0009",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "How many integers from 1 to 100 are divisible by 2 or by 5?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "60",
+    "70",
+    "50"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 50 multiples of 2 and 20 of 5, and the 10 multiples of 10 are counted twice, so 50 + 20 \u2212 10 = 60. Simply adding gives 70.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0010",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "How many integers from 1 to 60 are divisible by at least one of 2, 3 and 5?",
+   "imageRef": null,
+   "options": [
+    "62",
+    "16",
+    "44",
+    "42"
+   ],
+   "correctIndex": 2,
+   "explanation": "The singles give 30 + 20 + 12 = 62, the pairs (multiples of 6, 10, 15) give 10 + 6 + 4 = 20, and the 2 multiples of 30 are added back: 62 \u2212 20 + 2 = 44. Leaving out the last step gives 42; 16 is the count divisible by none.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0011",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "In how many ways can 6 different books be arranged in a row on a shelf?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "720",
+    "36",
+    "120"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 6 choices for the first place, 5 for the next, and so on, giving 6! = 720. The value 120 is 5!, which arranges only five books.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0012",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The number of ways of choosing r objects from n different objects, C(n, r), is:",
+   "imageRef": null,
+   "options": [
+    "n!/(r!(n \u2212 r)!)",
+    "n!/(n \u2212 r)!",
+    "n!/r!",
+    "r!(n \u2212 r)!/n!"
+   ],
+   "correctIndex": 0,
+   "explanation": "Arranging r of the n objects in order gives n!/(n \u2212 r)! ways, and dividing by r! removes the order. The undivided n!/(n \u2212 r)! counts permutations, not selections.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0013",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The value of C(7, 3) is:",
+   "imageRef": null,
+   "options": [
+    "343",
+    "35",
+    "210",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "C(7, 3) = 7!/(3! 4!) = (7 \u00d7 6 \u00d7 5)/(3 \u00d7 2 \u00d7 1) = 35. The value 210 is 7 \u00d7 6 \u00d7 5, which counts ordered selections.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0014",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A president, a secretary and a treasurer are to be chosen from 8 club members, with no one holding two positions. In how many ways can this be done?",
+   "imageRef": null,
+   "options": [
+    "336",
+    "56",
+    "512",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "The positions are different, so order matters: 8 \u00d7 7 \u00d7 6 = 336. The value 56 = C(8, 3) counts unlabelled committees of three.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0015",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "How many 4-digit PINs can be made from the digits 0 to 9 if digits may be repeated?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "10 000",
+    "5040",
+    "210"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each of the 4 places has 10 choices, so there are 10\u2074 = 10 000 PINs. The value 5040 = 10 \u00d7 9 \u00d7 8 \u00d7 7 is the count when no digit may repeat.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0016",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "How many different arrangements are there of the letters of the word ADELAIDE?",
+   "imageRef": null,
+   "options": [
+    "5040",
+    "40 320",
+    "10 080",
+    "20 160"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are 8 letters with A, D and E each appearing twice, so 8!/(2! 2! 2!) = 40 320/8 = 5040. The value 40 320 = 8! treats the repeated letters as different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0017",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "How many arrangements of the letters of the word NUMBER begin and end with a vowel?",
+   "imageRef": null,
+   "options": [
+    "720",
+    "48",
+    "24",
+    "96"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vowels U and E fill the two ends in 2 ways, and the other 4 letters fill the middle in 4! = 24 ways, giving 48. Forgetting that the vowels can swap ends gives 24.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0018",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Five people sit in a row. In how many arrangements do two particular friends sit together?",
+   "imageRef": null,
+   "options": [
+    "96",
+    "48",
+    "24",
+    "120"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat the pair as one unit, giving 4! = 24 arrangements, and the friends can swap within the unit, giving 2 \u00d7 24 = 48. The value 24 forgets that swap.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0019",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A team of 5 is chosen from 6 girls and 4 boys. How many teams contain exactly 2 boys?",
+   "imageRef": null,
+   "options": [
+    "720",
+    "120",
+    "252",
+    "26"
+   ],
+   "correctIndex": 1,
+   "explanation": "Choose the boys in C(4, 2) = 6 ways and the 3 girls in C(6, 3) = 20 ways, and multiply: 120. Adding 6 and 20 gives 26, but each choice of boys goes with every choice of girls.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0020",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A team of 5 is chosen from 6 girls and 4 boys. How many teams contain at least one boy?",
+   "imageRef": null,
+   "options": [
+    "240",
+    "246",
+    "252",
+    "126"
+   ],
+   "correctIndex": 1,
+   "explanation": "All teams number C(10, 5) = 252, and teams with no boys number C(6, 5) = 6, so 252 \u2212 6 = 246. The total 252 includes the six all-girl teams.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0021",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A cone holds 3 scoops chosen from 4 flavours. Flavours may be repeated and the order of scoops does not matter. How many different cones are possible?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "20",
+    "64",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Selections of 3 from 4 types with repetition number C(4 + 3 \u2212 1, 3) = C(6, 3) = 20. The value 4\u00b3 = 64 counts ordered choices, so it counts cones that differ only in order as different.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0022",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Which expression is equal to C(12, 9)?",
+   "imageRef": null,
+   "options": [
+    "C(12, 4)",
+    "C(21, 9)",
+    "C(12, 3)",
+    "C(9, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Choosing 9 to include is the same as choosing 3 to leave out, so C(12, 9) = C(12, 3) = 220. In general C(n, r) = C(n, n \u2212 r).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0023",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "By Pascal\u2019s identity, C(9, 4) + C(9, 5) is equal to:",
+   "imageRef": null,
+   "options": [
+    "C(9, 9)",
+    "C(10, 5)",
+    "C(10, 4)",
+    "C(18, 9)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pascal\u2019s identity is C(n \u2212 1, r \u2212 1) + C(n \u2212 1, r) = C(n, r); with n \u2212 1 = 9 and r = 5 this gives C(10, 5). Adding the top and bottom numbers gives C(18, 9), which is not how the identity works.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0024",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The sum C(6, 0) + C(6, 1) + C(6, 2) + \u2026 + C(6, 6) is equal to:",
+   "imageRef": null,
+   "options": [
+    "720",
+    "64",
+    "63",
+    "36"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum counts all subsets of a 6-element set, of every size, which is 2\u2076 = 64. The value 63 leaves out the empty subset counted by C(6, 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0025",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Which argument proves that C(n, r) = C(n, n \u2212 r)?",
+   "imageRef": null,
+   "options": [
+    "Both sides count the arrangements of n different objects in a row",
+    "Each side equals 2^n divided by the number of objects chosen",
+    "C(n, r) increases steadily as r increases from 0 to n",
+    "Choosing r objects to include is the same as choosing n \u2212 r to leave out"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each selection of r objects matches exactly one selection of the n \u2212 r objects left behind, so the counts are equal. Arrangements in a row are counted by n!, which is a different number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0026",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A matrix records the sales of 4 products in 3 shops, with one row for each shop. Its dimension is:",
+   "imageRef": null,
+   "options": [
+    "3 \u00d7 4",
+    "4 \u00d7 3",
+    "12 \u00d7 1",
+    "7 \u00d7 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dimension is rows \u00d7 columns: 3 rows for the shops and 4 columns for the products. Writing 4 \u00d7 3 swaps the convention.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0027",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A has rows (1, 3) and (0, 2), and B has rows (2, 1) and (\u22121, 4). The matrix 2A \u2212 B has rows:",
+   "imageRef": null,
+   "options": [
+    "(0, 5) and (\u22121, 0)",
+    "(\u22121, 2) and (1, \u22122)",
+    "(4, 7) and (\u22121, 8)",
+    "(0, 5) and (1, 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "2A has rows (2, 6) and (0, 4), and subtracting B element by element gives (0, 5) and (1, 0). The second row starts 0 \u2212 (\u22121) = 1; getting \u22121 there is a sign slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0028",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A is a 3 \u00d7 2 matrix and B is a 2 \u00d7 3 matrix. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "AB is 3 \u00d7 3 and BA is 2 \u00d7 2",
+    "AB and BA are both 3 \u00d7 3",
+    "AB is 2 \u00d7 2 and BA is 3 \u00d7 3",
+    "AB is 3 \u00d7 3 but BA is not defined"
+   ],
+   "correctIndex": 0,
+   "explanation": "For AB the inner sizes 2 and 2 match and the outer sizes give 3 \u00d7 3; for BA the inner sizes 3 and 3 match and the result is 2 \u00d7 2. So both products exist but have different dimensions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0029",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A has rows (1, 2) and (3, 4), and B has rows (0, 1) and (1, 0). The product AB has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 1) and (4, 3)",
+    "(3, 4) and (1, 2)",
+    "(0, 2) and (3, 0)",
+    "(1, 3) and (2, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 1 of A with the columns of B gives (1 \u00d7 0 + 2 \u00d7 1, 1 \u00d7 1 + 2 \u00d7 0) = (2, 1), and row 2 gives (4, 3). Rows (3, 4) and (1, 2) are BA, which swaps the rows of A instead of its columns.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0030",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "For any two square matrices A and B of the same size, which statement is always true?",
+   "imageRef": null,
+   "options": [
+    "(A + B)\u00b2 = A\u00b2 + 2AB + B\u00b2",
+    "AB = O only if A = O or B = O",
+    "A + B = B + A",
+    "AB = BA"
+   ],
+   "correctIndex": 2,
+   "explanation": "Matrix addition is element by element, so it is commutative. Multiplication is not, which is why AB = BA and the expansion with 2AB can both fail.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0031",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "For square matrices A and B of the same size, (A + B)\u00b2 is equal to:",
+   "imageRef": null,
+   "options": [
+    "A\u00b2 + B\u00b2",
+    "A\u00b2 + AB + BA + B\u00b2",
+    "A\u00b2 + 2AB + B\u00b2",
+    "A\u00b2 + 2BA + B\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "(A + B)(A + B) = A\u00b2 + AB + BA + B\u00b2, and AB and BA cannot be combined because they are usually different. The form with 2AB assumes the matrices commute.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0032",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A caf\u00e9 sells small coffees for $4 and large coffees for $5. On Monday it sells 20 small and 10 large, and on Tuesday 15 small and 12 large. The matrix with rows (20, 10) and (15, 12), times the column (4, 5), is:",
+   "imageRef": null,
+   "options": [
+    "a column with entries 155 and 100",
+    "a column with entries 120 and 130",
+    "a matrix with rows (80, 50) and (60, 60)",
+    "a column with entries 130 and 120"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each row times the price column gives a day\u2019s takings: 20 \u00d7 4 + 10 \u00d7 5 = 130 and 15 \u00d7 4 + 12 \u00d7 5 = 120. The entries 155 and 100 pair the columns of sales with the prices instead of the rows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0033",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The determinant of the matrix with rows (3, 5) and (2, 4) is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "2",
+    "22",
+    "\u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "For rows (a, b) and (c, d) the determinant is ad \u2212 bc = 3 \u00d7 4 \u2212 5 \u00d7 2 = 2. Adding the products instead gives 22.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0034",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The inverse of the matrix with rows (3, 5) and (2, 4) has rows:",
+   "imageRef": null,
+   "options": [
+    "(8, \u221210) and (\u22124, 6)",
+    "(2, \u22122.5) and (\u22121, 1.5)",
+    "(2, 2.5) and (1, 1.5)",
+    "(1.5, \u22122.5) and (\u22121, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swap the leading diagonal, negate the other two entries and divide by the determinant 2: (1/2) \u00d7 rows (4, \u22125) and (\u22122, 3). Multiplying by 2 instead of dividing gives rows (8, \u221210) and (\u22124, 6).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0035",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "For which value of k does the matrix with rows (2, k) and (3, 6) have no inverse?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "4",
+    "9",
+    "\u22124"
+   ],
+   "correctIndex": 1,
+   "explanation": "There is no inverse when the determinant 2 \u00d7 6 \u2212 3k is 0, so 12 = 3k and k = 4. Then the rows (2, 4) and (3, 6) are multiples of each other.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0036",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "If A is an invertible matrix and AX = B, then X is equal to:",
+   "imageRef": null,
+   "options": [
+    "A\u207b\u00b9B",
+    "BA\u207b\u00b9",
+    "B/A",
+    "AB\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply both sides on the left by A\u207b\u00b9: A\u207b\u00b9AX = X = A\u207b\u00b9B. Because matrix multiplication is not commutative, BA\u207b\u00b9 is usually different, and matrices cannot be divided.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0037",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The system 3x + 2y = 7 and x + 4y = 9 is written as AX = B. Its solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = \u22121",
+    "x = 1, y = 2",
+    "x = 2, y = 1",
+    "x = \u22121, y = 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "det A = 12 \u2212 2 = 10, and A\u207b\u00b9B = (1/10)(4 \u00d7 7 \u2212 2 \u00d7 9, \u22121 \u00d7 7 + 3 \u00d7 9) = (1, 2). Check: 3 + 4 = 7 and 1 + 8 = 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0038",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "The system kx + 2y = 3 and 2x + ky = 4 has a unique solution exactly when:",
+   "imageRef": null,
+   "options": [
+    "k = 2 or k = \u22122",
+    "k \u2260 2 and k \u2260 \u22122",
+    "k \u2260 2 only",
+    "k \u2260 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A unique solution needs the coefficient matrix to be invertible, so k\u00b2 \u2212 4 \u2260 0, which excludes both 2 and \u22122. Forgetting the negative square root leaves only k \u2260 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0039",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A is a 2 \u00d7 2 matrix with det A = 3. The value of det(2A) is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "36",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying A by 2 doubles every entry, so each product ad and bc is multiplied by 2\u00b2 = 4, and det(2A) = 4 \u00d7 3 = 12. The answer 6 treats the determinant as if it scaled like a single entry.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0040",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "A is an invertible matrix with det A = 5. The value of det(A\u207b\u00b9) is:",
+   "imageRef": null,
+   "options": [
+    "1/25",
+    "1/5",
+    "\u22125",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since AA\u207b\u00b9 = I and det(AB) = det A \u00d7 det B, det A \u00d7 det(A\u207b\u00b9) = det I = 1, so det(A\u207b\u00b9) = 1/5. The determinant of an inverse is the reciprocal, not the negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-combinatorics-matrices-0041",
+   "topicId": "spec-combinatorics-matrices",
+   "stem": "Non-zero 2 \u00d7 2 matrices A and B satisfy AB = O, the zero matrix. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "A + B is the zero matrix",
+    "det A = 0 and det B = 0",
+    "BA is also the zero matrix",
+    "exactly one of A and B is singular"
+   ],
+   "correctIndex": 1,
+   "explanation": "If A had an inverse, then B = A\u207b\u00b9AB = O, which is false, so det A = 0; the same argument with B\u207b\u00b9 gives det B = 0. BA need not be zero, because the order of multiplication matters.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-combinatorics-matrices-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

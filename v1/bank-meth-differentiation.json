@@ -1,0 +1,803 @@
+{
+ "topicId": "meth-differentiation",
+ "questions": [
+  {
+   "id": "meth-differentiation-0001",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of e^(3x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "e^(3x)/3",
+    "3e^(3x)",
+    "e^(3x)",
+    "3xe^(3x \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, d/dx e^(kx) = ke^(kx), so the answer is 3e^(3x). The power rule does not apply to an exponential, because the variable is in the index.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0002",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of sin(2x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u22122cos(2x)",
+    "2sin(2x)",
+    "2cos(2x)",
+    "cos(2x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx sin(kx) = kcos(kx), so the answer is 2cos(2x). Leaving out the factor 2 forgets the chain rule, and the negative sign belongs to the derivative of cosine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0003",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of cos(3x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u2212sin(3x)",
+    "\u22123cos(3x)",
+    "\u22123sin(3x)",
+    "3sin(3x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx cos(kx) = \u2212ksin(kx), so the answer is \u22123sin(3x). The derivative of cosine is negative sine, and the chain rule brings out the 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0004",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of tan(x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/cos\u00b2(x)",
+    "sin(x)/cos(x)",
+    "1/cos\u00b2(x)",
+    "1/sin\u00b2(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the quotient rule on sin(x)/cos(x), the derivative is (cos\u00b2(x) + sin\u00b2(x))/cos\u00b2(x) = 1/cos\u00b2(x). It is always positive, which matches tan(x) increasing between its asymptotes.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0005",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of 3/x with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "3 ln(x)",
+    "\u22123/x",
+    "\u22123/x\u00b2",
+    "3/x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write 3/x as 3x\u207b\u00b9; the power rule gives \u22123x\u207b\u00b2 = \u22123/x\u00b2. The logarithm 3 ln(x) is an anti-derivative of 3/x, not its derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0006",
+   "topicId": "meth-differentiation",
+   "stem": "By definition, a stationary point of a differentiable function f is a point where:",
+   "imageRef": null,
+   "options": [
+    "f\u2032\u2032(x) = 0",
+    "f\u2032(x) changes sign",
+    "f\u2032(x) = 0",
+    "f(x) = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A stationary point is where the gradient is zero. The gradient need not change sign there: at the stationary point of inflection of y = x\u00b3 at x = 0, the gradient is positive on both sides.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0007",
+   "topicId": "meth-differentiation",
+   "stem": "What is the gradient of the tangent to y = x\u00b2 + 3x at x = 1?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 2x + 3, which is 2 + 3 = 5 at x = 1. The value 4 is the y-coordinate of the point, not the gradient there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0008",
+   "topicId": "meth-differentiation",
+   "stem": "If f\u2032(x) changes from positive to negative at x = a, then f has at x = a:",
+   "imageRef": null,
+   "options": [
+    "a local maximum",
+    "a local minimum",
+    "a stationary point of inflection",
+    "a non-stationary point of inflection"
+   ],
+   "correctIndex": 0,
+   "explanation": "The function rises up to x = a and falls after it, so x = a is the top of a hill. A local minimum has the gradient changing from negative to positive, and an inflection point has no change of sign in f\u2032.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0009",
+   "topicId": "meth-differentiation",
+   "stem": "What is the average rate of change of f(x) = e^x from x = 0 to x = ln 3?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "2/ln 3",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Average rate of change is (f(ln 3) \u2212 f(0))/(ln 3 \u2212 0) = (3 \u2212 1)/ln 3 = 2/ln 3. The values 1 and 3 are the instantaneous rates at the endpoints, and 2 forgets to divide by the change in x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0010",
+   "topicId": "meth-differentiation",
+   "stem": "For y = (x\u00b2 \u2212 9)/(x + 3), the limit of y as x \u2192 \u22123 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "6",
+    "\u22123",
+    "\u22126"
+   ],
+   "correctIndex": 3,
+   "explanation": "For x \u2260 \u22123 the rule simplifies to x \u2212 3, so the graph is the line y = x \u2212 3 with a hole at (\u22123, \u22126). The function is undefined at x = \u22123, but the limit exists and equals \u22126.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0011",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of ln(5x), x > 0, with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "5 ln(x)",
+    "1/x",
+    "5/x",
+    "1/(5x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, d/dx ln(5x) = 5/(5x) = 1/x. Alternatively, ln(5x) = ln 5 + ln(x), and the constant ln 5 has derivative 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0012",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of 4x^(3/2) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "(8/5)x^(5/2)",
+    "6\u221ax",
+    "4\u221ax",
+    "6x^(3/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The power rule gives 4 \u00d7 (3/2)x^(1/2) = 6x^(1/2) = 6\u221ax. The expression (8/5)x^(5/2) is an anti-derivative instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0013",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of x\u00b2e^x with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "e^x(x\u00b2 + 2x)",
+    "2xe^x",
+    "x\u00b2e^x + 2x",
+    "e^x(x\u00b2 + 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the product rule, d/dx(uv) = u\u2032v + uv\u2032 = 2xe^x + x\u00b2e^x = e^x(x\u00b2 + 2x). Multiplying the two derivatives gives 2xe^x, which is not how a product differentiates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0014",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of sin(x)/x with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "(sin(x) \u2212 x cos(x))/x\u00b2",
+    "cos(x)",
+    "(x cos(x) + sin(x))/x\u00b2",
+    "(x cos(x) \u2212 sin(x))/x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The quotient rule gives (v u\u2032 \u2212 u v\u2032)/v\u00b2 with u = sin(x) and v = x: (x cos(x) \u2212 sin(x))/x\u00b2. Reversing the order in the numerator flips the sign of the whole derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0015",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of (2x + 1)\u2075 with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "10(2x + 1)\u2075",
+    "2(2x + 1)\u2074",
+    "10(2x + 1)\u2074",
+    "5(2x + 1)\u2074"
+   ],
+   "correctIndex": 2,
+   "explanation": "The chain rule gives 5(2x + 1)\u2074 \u00d7 2 = 10(2x + 1)\u2074. The answer 5(2x + 1)\u2074 forgets to multiply by the derivative of the inside, 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0016",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of \u221a(x\u00b2 + 1) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "1/(2\u221a(x\u00b2 + 1))",
+    "2x/\u221a(x\u00b2 + 1)",
+    "2x\u221a(x\u00b2 + 1)",
+    "x/\u221a(x\u00b2 + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write it as (x\u00b2 + 1)^(1/2): the derivative is (1/2)(x\u00b2 + 1)^(\u22121/2) \u00d7 2x = x/\u221a(x\u00b2 + 1). Leaving off the 2x from the inside gives 1/(2\u221a(x\u00b2 + 1)).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0017",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of ln(x\u00b2 + 4) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "2x/(x\u00b2 + 4)",
+    "1/(x\u00b2 + 4)",
+    "2x ln(x\u00b2 + 4)",
+    "1/(2x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "d/dx ln(g(x)) = g\u2032(x)/g(x), so the answer is 2x/(x\u00b2 + 4). Writing 1/(x\u00b2 + 4) forgets the chain rule factor 2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0018",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of e^(sin(x)) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "cos(x)e^(sin(x))",
+    "e^(sin(x))",
+    "sin(x)e^(sin(x) \u2212 1)",
+    "e^(cos(x))"
+   ],
+   "correctIndex": 0,
+   "explanation": "The chain rule multiplies e^(sin(x)) by the derivative of the index, cos(x). Differentiating only the index gives e^(cos(x)), which is not how a composite differentiates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0019",
+   "topicId": "meth-differentiation",
+   "stem": "If f(x) = x ln(x), then f\u2032(e) equals:",
+   "imageRef": null,
+   "options": [
+    "e + 1",
+    "2",
+    "1",
+    "1/e"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the product rule, f\u2032(x) = ln(x) + x \u00d7 1/x = ln(x) + 1, and ln(e) = 1 gives f\u2032(e) = 2. The answer 1 keeps only the second term of the product rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0020",
+   "topicId": "meth-differentiation",
+   "stem": "If f(x) = e^(2x)cos(x), then f\u2032(0) equals:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "3",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 2e^(2x)cos(x) \u2212 e^(2x)sin(x), and at x = 0 that is 2 \u00d7 1 \u00d7 1 \u2212 1 \u00d7 0 = 2. The answer 0 comes from multiplying the derivatives 2e^(2x) and \u2212sin(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0021",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative of tan(2x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u22122/sin\u00b2(2x)",
+    "2/cos\u00b2(2x)",
+    "1/cos\u00b2(2x)",
+    "2/cos\u00b2(x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "d/dx tan(u) = u\u2032/cos\u00b2(u), and with u = 2x this is 2/cos\u00b2(2x). Changing the argument to x inside the cosine loses the composite structure.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0022",
+   "topicId": "meth-differentiation",
+   "stem": "The equation of the tangent to y = x\u00b2 at the point (3, 9) is:",
+   "imageRef": null,
+   "options": [
+    "y = 2x + 3",
+    "y = 3x",
+    "y = 6x \u2212 9",
+    "y = 6x + 9"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 2x = 6 at x = 3, so y \u2212 9 = 6(x \u2212 3), giving y = 6x \u2212 9. Check: at x = 3 it gives 9. The rule y = 2x + 3 uses the derivative formula itself as the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0023",
+   "topicId": "meth-differentiation",
+   "stem": "What is the gradient of the normal to y = \u221ax at x = 4?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "\u22121/4",
+    "4",
+    "\u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = 1/(2\u221ax) = 1/4 at x = 4, so the tangent has gradient 1/4. The normal is perpendicular, so its gradient is the negative reciprocal, \u22124.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0024",
+   "topicId": "meth-differentiation",
+   "stem": "f(x) = x\u00b3 \u2212 6x\u00b2 + 9x + 1 is strictly decreasing over:",
+   "imageRef": null,
+   "options": [
+    "(\u2212\u221e, 1] \u222a [3, \u221e)",
+    "[1, 5]",
+    "[\u22123, \u22121]",
+    "[1, 3]"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 3x\u00b2 \u2212 12x + 9 = 3(x \u2212 1)(x \u2212 3), which is negative between its roots, so f decreases from its local maximum at x = 1 to its local minimum at x = 3. Outside that interval f\u2032 is positive and f increases.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0025",
+   "topicId": "meth-differentiation",
+   "stem": "The graph of y = f(x) has a local minimum at x = a. At x = a the graph of y = f\u2032(x):",
+   "imageRef": null,
+   "options": [
+    "crosses the x-axis from below to above",
+    "crosses the x-axis from above to below",
+    "touches the x-axis without crossing it",
+    "has a local minimum"
+   ],
+   "correctIndex": 0,
+   "explanation": "Before a local minimum the gradient is negative and after it positive, so f\u2032 passes through zero going upwards. Crossing from above to below would be a local maximum of f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0026",
+   "topicId": "meth-differentiation",
+   "stem": "A cubic function has a positive leading coefficient and two turning points. The graph of its derivative is:",
+   "imageRef": null,
+   "options": [
+    "a parabola that opens downward",
+    "a straight line",
+    "a cubic",
+    "a parabola that opens upward"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiating ax\u00b3 + \u2026 gives 3ax\u00b2 + \u2026, a quadratic with positive leading coefficient. Its two x-intercepts are at the turning points of the cubic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0027",
+   "topicId": "meth-differentiation",
+   "stem": "For f(x) = x\u2074, f\u2032(0) = 0 and f\u2032\u2032(0) = 0. At x = 0 the graph of f has:",
+   "imageRef": null,
+   "options": [
+    "a local maximum",
+    "a non-stationary point of inflection",
+    "a local minimum",
+    "a stationary point of inflection"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032(x) = 4x\u00b3 changes from negative to positive at 0, so it is a local minimum. A zero second derivative does not make a point of inflection on its own; the concavity has to change, and x\u2074 is concave up on both sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0028",
+   "topicId": "meth-differentiation",
+   "stem": "A rectangular vegetable patch is fenced on three sides with 40 m of fencing, with a brick wall as the fourth side. What is the largest area it can have?",
+   "imageRef": null,
+   "options": [
+    "100 m\u00b2",
+    "160 m\u00b2",
+    "200 m\u00b2",
+    "400 m\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "With two sides of x m at right angles to the wall, A = x(40 \u2212 2x). Then A\u2032 = 40 \u2212 4x = 0 gives x = 10, so the patch is 10 m by 20 m and A = 200 m\u00b2. The value 100 m\u00b2 is the answer for a square fenced on all four sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0029",
+   "topicId": "meth-differentiation",
+   "stem": "The depth of water at a boat ramp is h(t) = 2 + sin(\u03c0t/6) metres, t hours after 6 am. At what rate is the depth changing at t = 2?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6 m/h",
+    "\u03c0/12 m/h",
+    "\u03c0\u221a3/12 m/h",
+    "1/2 m/h"
+   ],
+   "correctIndex": 1,
+   "explanation": "h\u2032(t) = (\u03c0/6)cos(\u03c0t/6), so h\u2032(2) = (\u03c0/6)cos(\u03c0/3) = (\u03c0/6)(1/2) = \u03c0/12. Using sin(\u03c0/3) instead of cos(\u03c0/3) gives \u03c0\u221a3/12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0030",
+   "topicId": "meth-differentiation",
+   "stem": "The graph of y = f(x) is a parabola that opens downward with its turning point at x = 3. The graph of y = f\u2032(x) is:",
+   "imageRef": null,
+   "options": [
+    "a horizontal line through y = 3",
+    "a parabola with its turning point at x = 3",
+    "a line with negative gradient crossing the x-axis at x = 3",
+    "a line with positive gradient crossing the x-axis at x = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The derivative of a quadratic is linear, and it is zero at the turning point. The gradient of f goes from positive to negative across x = 3, so f\u2032 decreases.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0031",
+   "topicId": "meth-differentiation",
+   "stem": "The x-coordinate of the stationary point of y = e^x \u2212 2x is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "ln(1/2)",
+    "e\u00b2",
+    "ln 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = e^x \u2212 2 = 0 gives e^x = 2, so x = ln 2. The value 2 is the y-value of e^x there, not the x-coordinate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0032",
+   "topicId": "meth-differentiation",
+   "stem": "A quartic f with positive leading coefficient has turning points at x = \u22121, x = 1 and x = 3 only. For which values of x is f\u2032(x) < 0?",
+   "imageRef": null,
+   "options": [
+    "\u22121 < x < 1 or x > 3",
+    "1 < x < 3 only",
+    "x < \u22121 only",
+    "x < \u22121 or 1 < x < 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A quartic with positive leading coefficient comes down from the left, so its turning points are a minimum, a maximum and a minimum. It is falling before x = \u22121 and between the maximum at 1 and the minimum at 3, which is where f\u2032 is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0033",
+   "topicId": "meth-differentiation",
+   "stem": "Which statement about f(x) = x\u00b3, x \u2208 R, is true?",
+   "imageRef": null,
+   "options": [
+    "It is strictly increasing for x \u2260 0 but not over all of R.",
+    "It has a local minimum at x = 0.",
+    "It has a local maximum at x = 0.",
+    "It is strictly increasing over R, even though f\u2032(0) = 0."
+   ],
+   "correctIndex": 3,
+   "explanation": "If a < b then a\u00b3 < b\u00b3, so x\u00b3 is strictly increasing over R. A zero gradient at a single point does not stop a function being strictly increasing; it only makes the origin a stationary point of inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0034",
+   "topicId": "meth-differentiation",
+   "stem": "If f(2) = 3 and f\u2032(2) = 5, what is the derivative of [f(x)]\u00b2 at x = 2?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "30",
+    "10",
+    "25"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, d/dx [f(x)]\u00b2 = 2f(x)f\u2032(x) = 2 \u00d7 3 \u00d7 5 = 30. Squaring the derivative to get 25 treats the square as if it applied to f\u2032.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0035",
+   "topicId": "meth-differentiation",
+   "stem": "At a stationary point of inflection of f, the graph of y = f\u2032(x):",
+   "imageRef": null,
+   "options": [
+    "touches the x-axis without crossing it",
+    "crosses the x-axis",
+    "has a vertical asymptote",
+    "has a point of inflection on the x-axis"
+   ],
+   "correctIndex": 0,
+   "explanation": "At a stationary point of inflection the gradient is zero but has the same sign on both sides. So f\u2032 reaches zero and turns back, touching the axis. If f\u2032 crossed the axis, f would have a turning point instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0036",
+   "topicId": "meth-differentiation",
+   "stem": "f(x) = x\u00b2 for x \u2264 1 and f(x) = 3x \u2212 2 for x > 1. At x = 1, f is:",
+   "imageRef": null,
+   "options": [
+    "both continuous and differentiable",
+    "neither continuous nor differentiable",
+    "continuous but not differentiable",
+    "differentiable but not continuous"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both pieces give 1 at x = 1, so the graph has no break. But the gradient is 2 from the left and 3 from the right, so there is a corner and no single derivative. A differentiable function is always continuous, so that combination is impossible.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0037",
+   "topicId": "meth-differentiation",
+   "stem": "What is the maximum value of f(x) = x\u00b3 \u2212 12x over [0, 5]?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "0",
+    "\u221216",
+    "65"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 3x\u00b2 \u2212 12 = 0 at x = \u00b12. Only x = 2 is in the interval, and it is a local minimum, f(2) = \u221216. The maximum is at an endpoint: f(0) = 0 and f(5) = 125 \u2212 60 = 65. The local maximum value 16 occurs at x = \u22122, outside the interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0038",
+   "topicId": "meth-differentiation",
+   "stem": "The tangent to y = e^x that passes through the origin touches the curve at:",
+   "imageRef": null,
+   "options": [
+    "(e, 1)",
+    "(\u22121, 1/e)",
+    "(1, e)",
+    "(0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The tangent at x = a is y = e^a(x \u2212 a) + e^a. It passes through (0, 0) when e^a(1 \u2212 a) = 0, so a = 1, giving the point (1, e) and the tangent y = ex. The tangent at (0, 1) is y = x + 1, which misses the origin.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0039",
+   "topicId": "meth-differentiation",
+   "stem": "The stationary points of y = x + 2cos(x) for x \u2208 [0, 2\u03c0] occur at:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3 and x = 2\u03c0/3",
+    "x = 7\u03c0/6 and x = 11\u03c0/6",
+    "x = \u03c0/6 and x = 11\u03c0/6",
+    "x = \u03c0/6 and x = 5\u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = 1 \u2212 2sin(x) = 0 gives sin(x) = 1/2, so x = \u03c0/6 or 5\u03c0/6. Getting 7\u03c0/6 and 11\u03c0/6 comes from writing the derivative of cos(x) as +sin(x).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0040",
+   "topicId": "meth-differentiation",
+   "stem": "The largest interval over which f(x) = x\u00b2 \u2212 2ln(x), x > 0, is strictly increasing is:",
+   "imageRef": null,
+   "options": [
+    "(0, \u221e)",
+    "[1, \u221e)",
+    "(0, 1]",
+    "[2, \u221e)"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(x) = 2x \u2212 2/x = 2(x\u00b2 \u2212 1)/x, which is zero at x = 1, negative for 0 < x < 1 and positive for x > 1. So f falls to a minimum at x = 1 and then increases, giving the largest interval [1, \u221e). [2, \u221e) is also an interval of increase, but not the largest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0041",
+   "topicId": "meth-differentiation",
+   "stem": "An open box is made from a 12 cm by 12 cm sheet by cutting a square of side x cm from each corner and folding up the sides. Which value of x gives the greatest volume?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "2",
+    "6",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = x(12 \u2212 2x)\u00b2, so V\u2032 = (12 \u2212 2x)(12 \u2212 6x), which is zero at x = 6 or x = 2. At x = 6 the base vanishes and V = 0, so the maximum is at x = 2, with V = 2 \u00d7 8\u00b2 = 128 cm\u00b3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-differentiation-0042",
+   "topicId": "meth-differentiation",
+   "stem": "The derivative f\u2032 has a local maximum at x = a. What must the graph of y = f(x) have at x = a?",
+   "imageRef": null,
+   "options": [
+    "a point of inflection",
+    "a local maximum",
+    "a local minimum",
+    "a stationary point"
+   ],
+   "correctIndex": 0,
+   "explanation": "At a local maximum of f\u2032, the gradient of f stops increasing and starts decreasing, so f changes from concave up to concave down. That is a point of inflection, whether or not f\u2032(a) happens to be zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-differentiation-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-graph-theory",
+ "questions": [
+  {
+   "id": "spec-graph-theory-0001",
+   "topicId": "spec-graph-theory",
+   "stem": "In any graph, the sum of the degrees of all the vertices is equal to:",
+   "imageRef": null,
+   "options": [
+    "twice the number of vertices",
+    "the number of vertices",
+    "twice the number of edges",
+    "the number of edges"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each edge has two ends and adds 1 to the degree at each end, so it adds 2 to the sum. This is the handshaking lemma; counting each edge once forgets that it has two ends.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0002",
+   "topicId": "spec-graph-theory",
+   "stem": "In a friendship network, five people have 3, 3, 2, 2 and 4 friends within the group. How many friendships are there?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "6",
+    "7",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "The degree sum is 3 + 3 + 2 + 2 + 4 = 14, and each friendship is counted twice, so there are 14 \u00f7 2 = 7. The sum 14 itself counts every friendship from both ends.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0003",
+   "topicId": "spec-graph-theory",
+   "stem": "Which list could not be the degrees of the vertices of a graph?",
+   "imageRef": null,
+   "options": [
+    "3, 3, 2, 2, 2",
+    "4, 2, 2, 2, 2",
+    "1, 1, 1, 1",
+    "3, 3, 3, 2, 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The degree sum must be even, and 3 + 3 + 3 + 2 + 2 = 13 is odd. The other lists have even sums and can each be drawn, for example 1, 1, 1, 1 as two separate edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0004",
+   "topicId": "spec-graph-theory",
+   "stem": "In any graph, the number of vertices of odd degree is:",
+   "imageRef": null,
+   "options": [
+    "even",
+    "odd",
+    "at most 2",
+    "equal to the number of edges"
+   ],
+   "correctIndex": 0,
+   "explanation": "The degree sum is even, and the even degrees add to an even number, so the odd degrees must also add to an even number. That needs an even count of odd numbers; there can be more than 2, as in the complete graph on 4 vertices.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0005",
+   "topicId": "spec-graph-theory",
+   "stem": "The adjacency matrix of a graph on vertices A, B and C has rows (0 1 1), (1 0 2) and (1 2 0). Which description is correct?",
+   "imageRef": null,
+   "options": [
+    "One edge joins B and C, and there are 3 edges in total",
+    "Two edges join B and C, and there are 4 edges in total",
+    "A loop sits at B, and there are 4 edges in total",
+    "Two edges join B and C, and there are 8 edges in total"
+   ],
+   "correctIndex": 1,
+   "explanation": "The entry 2 in row B, column C means a double edge between B and C. The entries add to 8, but each edge appears twice in a symmetric matrix, so there are 4 edges.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0006",
+   "topicId": "spec-graph-theory",
+   "stem": "A simple graph is one that has:",
+   "imageRef": null,
+   "options": [
+    "no loops and no multiple edges",
+    "no cycles of any length",
+    "every vertex of the same degree",
+    "an edge between every pair of vertices"
+   ],
+   "correctIndex": 0,
+   "explanation": "Simple means at most one edge between two vertices and no edge from a vertex to itself. A graph with an edge between every pair is complete, which is a special kind of simple graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0007",
+   "topicId": "spec-graph-theory",
+   "stem": "How many edges does the complete graph on 8 vertices have?",
+   "imageRef": null,
+   "options": [
+    "28",
+    "56",
+    "64",
+    "36"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each of the 8 vertices joins the other 7, and each edge is counted twice, so there are 8 \u00d7 7 \u00f7 2 = 28. The count 56 forgets to halve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0008",
+   "topicId": "spec-graph-theory",
+   "stem": "Which argument shows that the complete graph on n vertices has n(n \u2212 1)/2 edges?",
+   "imageRef": null,
+   "options": [
+    "Each vertex has degree n, and the degree sum n\u00b2 is twice the number of edges",
+    "Each of the n vertices joins n \u2212 1 others, giving n(n \u2212 1) different edges",
+    "Each vertex has degree n \u2212 1, so the graph has exactly n \u2212 1 edges",
+    "Each vertex has degree n \u2212 1, and the degree sum n(n \u2212 1) is twice the number of edges"
+   ],
+   "correctIndex": 3,
+   "explanation": "A vertex joins every other vertex, so its degree is n \u2212 1, and the handshaking lemma halves the degree sum. Counting n(n \u2212 1) edges counts each edge from both ends.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0009",
+   "topicId": "spec-graph-theory",
+   "stem": "A regular graph has 10 vertices, each of degree 4. How many edges does it have?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "40",
+    "14",
+    "10"
+   ],
+   "correctIndex": 0,
+   "explanation": "The degree sum is 10 \u00d7 4 = 40, and that is twice the number of edges, so there are 20. The result rn/2 for an r-regular graph on n vertices is the handshaking lemma again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0010",
+   "topicId": "spec-graph-theory",
+   "stem": "The complete graph on 7 vertices is a regular graph of degree:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "21",
+    "3",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each vertex joins the other 6 and not itself, so every degree is 6. The number 21 is the count of edges, 7 \u00d7 6 \u00f7 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0011",
+   "topicId": "spec-graph-theory",
+   "stem": "How many edges does the complete bipartite graph K\u2083,\u2084 have?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "6",
+    "12",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each of the 3 vertices on one side joins each of the 4 on the other, giving 3 \u00d7 4 = 12 edges. 21 is the number of edges in the complete graph on 7 vertices, which also joins vertices on the same side.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0012",
+   "topicId": "spec-graph-theory",
+   "stem": "A simple graph G has 7 vertices and 9 edges. How many edges does the complement of G have?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "12",
+    "9",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "G and its complement together make the complete graph on 7 vertices, which has 21 edges, so the complement has 21 \u2212 9 = 12. Adding 9 to 21 gets the relationship backwards.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0013",
+   "topicId": "spec-graph-theory",
+   "stem": "Which graph is bipartite?",
+   "imageRef": null,
+   "options": [
+    "the complete graph on 3 vertices",
+    "the complete graph on 4 vertices",
+    "a cycle with 6 vertices",
+    "a cycle with 5 vertices"
+   ],
+   "correctIndex": 2,
+   "explanation": "The vertices of a 6-cycle can be coloured alternately in two colours, with every edge joining different colours. A 5-cycle cannot, because going round an odd cycle forces two neighbours to share a colour.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0014",
+   "topicId": "spec-graph-theory",
+   "stem": "A graph is bipartite exactly when it has no:",
+   "imageRef": null,
+   "options": [
+    "pair of multiple edges",
+    "cycle of odd length",
+    "cycle of even length",
+    "vertex of odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "Any cycle in a bipartite graph alternates sides, so it has even length; conversely a graph with no odd cycle can be split into two sides. Even cycles such as the 4-cycle are allowed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0015",
+   "topicId": "spec-graph-theory",
+   "stem": "The graph of the cube, one of the Platonic graphs, is:",
+   "imageRef": null,
+   "options": [
+    "4-regular, with 8 vertices and 12 edges",
+    "3-regular, with 6 vertices and 12 edges",
+    "3-regular, with 8 vertices and 24 edges",
+    "3-regular, with 8 vertices and 12 edges"
+   ],
+   "correctIndex": 3,
+   "explanation": "A cube has 8 corners, each meeting 3 edges, so the degree sum is 24 and there are 12 edges. The 24 edges count every edge from both ends.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0016",
+   "topicId": "spec-graph-theory",
+   "stem": "The octahedron graph is 4-regular with 6 vertices. How many faces does a planar drawing of it have?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "12",
+    "4",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "It has 6 \u00d7 4 \u00f7 2 = 12 edges, so Euler\u2019s formula gives f = 2 \u2212 v + e = 2 \u2212 6 + 12 = 8. The 12 is the number of edges, not faces.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0017",
+   "topicId": "spec-graph-theory",
+   "stem": "Graphs G and H are isomorphic exactly when:",
+   "imageRef": null,
+   "options": [
+    "they have the same list of vertex degrees, in some order",
+    "each can be drawn in the plane with no edges crossing",
+    "a one-to-one matching of their vertices preserves adjacency",
+    "they have the same number of vertices and of edges"
+   ],
+   "correctIndex": 2,
+   "explanation": "Isomorphic graphs are the same graph with the vertices relabelled, so the matching must keep every edge. Equal counts and equal degree lists are needed but are not enough.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0018",
+   "topicId": "spec-graph-theory",
+   "stem": "Graphs G and H each have 6 vertices, 9 edges and every vertex of degree 3. G contains a triangle and H does not. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "G and H are not isomorphic, since isomorphism preserves triangles",
+    "G and H are isomorphic, since their degree lists are identical",
+    "G and H are isomorphic, since they are both 3-regular graphs",
+    "G and H are isomorphic, since they have equal numbers of edges"
+   ],
+   "correctIndex": 0,
+   "explanation": "An isomorphism maps a triangle to a triangle, so a graph with one cannot match a graph without one. Matching degree lists is necessary for isomorphism but not sufficient, as the triangular prism and K\u2083,\u2083 show.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0019",
+   "topicId": "spec-graph-theory",
+   "stem": "In graph theory, a graph is said to be connected exactly when:",
+   "imageRef": null,
+   "options": [
+    "every vertex has degree at least 1",
+    "it has no isolated vertices or loops",
+    "there is a path between every pair of vertices",
+    "every pair of vertices is joined by an edge"
+   ],
+   "correctIndex": 2,
+   "explanation": "Connected means you can travel from any vertex to any other along edges. An edge between every pair is the stronger condition for a complete graph, and two separate edges show that degree at least 1 is not enough.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0020",
+   "topicId": "spec-graph-theory",
+   "stem": "A spanning tree of a connected graph with 10 vertices has:",
+   "imageRef": null,
+   "options": [
+    "all 10 vertices and 10 edges",
+    "9 vertices and 9 edges",
+    "9 vertices and 8 edges",
+    "all 10 vertices and 9 edges"
+   ],
+   "correctIndex": 3,
+   "explanation": "A spanning tree is a subgraph that includes every vertex and is a tree, so it has one fewer edge than vertices. Ten edges on 10 vertices would create a cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0021",
+   "topicId": "spec-graph-theory",
+   "stem": "A weighted graph has edges AB 4, AC 2, BC 5, BD 3, CD 6, DE 1 and CE 7. What is the total weight of a minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "13",
+    "10",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking the cheapest edges that make no cycle gives DE 1, AC 2, BD 3 and AB 4, which join all five vertices for a total of 10. Using BC 5 instead of AB 4 gives 11, which is not the minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0022",
+   "topicId": "spec-graph-theory",
+   "stem": "In graph theory, a tree is defined as:",
+   "imageRef": null,
+   "options": [
+    "a graph with no loops or multiple edges",
+    "a connected graph with no cycles",
+    "a graph with every vertex of degree at most 2",
+    "a connected graph with every vertex of even degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "Connected with no cycles is the definition. A connected graph with all degrees even has an Euler circuit, so it contains a cycle and cannot be a tree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0023",
+   "topicId": "spec-graph-theory",
+   "stem": "How many edges does a tree with 12 vertices have?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "6",
+    "11",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every tree on n vertices has n \u2212 1 edges. Twelve edges on 12 vertices would force a cycle if the graph is connected.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0024",
+   "topicId": "spec-graph-theory",
+   "stem": "In a tree, between any two vertices there is:",
+   "imageRef": null,
+   "options": [
+    "exactly two paths",
+    "a path through every vertex",
+    "an edge joining them directly",
+    "exactly one path"
+   ],
+   "correctIndex": 3,
+   "explanation": "If there were two different paths, together they would contain a cycle. A star shows that a tree need not have a path through every vertex.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0025",
+   "topicId": "spec-graph-theory",
+   "stem": "A simple graph has 9 vertices and 8 edges. Which extra fact guarantees that it is a tree?",
+   "imageRef": null,
+   "options": [
+    "it has a vertex of degree 1",
+    "no vertex has degree 0",
+    "its degree sum is 16",
+    "it is connected"
+   ],
+   "correctIndex": 3,
+   "explanation": "A connected graph with n vertices and n \u2212 1 edges is a tree. A triangle beside a path on 6 vertices has 9 vertices, 8 edges and no isolated vertex but is not a tree; the degree sum is 16 for any graph with 8 edges.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0026",
+   "topicId": "spec-graph-theory",
+   "stem": "A tree has 4 vertices of degree 3 and every other vertex has degree 1. How many vertices have degree 1?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "4",
+    "8",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "With L leaves there are 4 + L vertices and 3 + L edges, so the degree sum gives 12 + L = 2(3 + L), and L = 6. Check: 10 vertices, 9 edges and degree sum 18.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0027",
+   "topicId": "spec-graph-theory",
+   "stem": "A connected planar graph has 8 vertices and 12 edges. How many faces does a planar drawing of it have, including the outer face?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "22",
+    "8",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Euler\u2019s formula v \u2212 e + f = 2 gives 8 \u2212 12 + f = 2, so f = 6. Leaving out the 2 gives 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0028",
+   "topicId": "spec-graph-theory",
+   "stem": "Which graph is not planar?",
+   "imageRef": null,
+   "options": [
+    "the complete graph K\u2084",
+    "the complete bipartite graph K\u2082,\u2085",
+    "a tree with 20 vertices",
+    "the complete graph K\u2085"
+   ],
+   "correctIndex": 3,
+   "explanation": "The complete graph on n vertices is planar only when n \u2264 4, so K\u2085 is not. K\u2082,\u2085 is planar because one side has only 2 vertices, and every tree is planar.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0029",
+   "topicId": "spec-graph-theory",
+   "stem": "Every face of a simple connected planar graph with at least 3 vertices has at least 3 edges, which leads to e \u2264 3v \u2212 6. What is the most edges such a graph with 10 vertices can have?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "30",
+    "45",
+    "26"
+   ],
+   "correctIndex": 0,
+   "explanation": "The bound gives e \u2264 3 \u00d7 10 \u2212 6 = 24. The complete graph on 10 vertices has 45 edges, far too many to be planar.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0030",
+   "topicId": "spec-graph-theory",
+   "stem": "Which reasoning proves that K\u2085 is not planar?",
+   "imageRef": null,
+   "options": [
+    "It has 10 edges, but a simple planar graph on 5 vertices has at most 9",
+    "It has 10 edges, so Euler\u2019s formula would give it a negative number of faces",
+    "Every vertex of K\u2085 has even degree, and planar graphs need some odd degrees",
+    "It has 5 vertices, and no planar graph can have more than 4 vertices"
+   ],
+   "correctIndex": 0,
+   "explanation": "With v = 5 the bound e \u2264 3v \u2212 6 allows at most 9 edges, and K\u2085 has 10. Euler\u2019s formula would give f = 7 faces, a positive number; the contradiction comes from 7 faces needing at least 21 edge-sides when only 20 exist.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0031",
+   "topicId": "spec-graph-theory",
+   "stem": "Three houses must each be joined to three utilities without any lines crossing. This cannot be done because:",
+   "imageRef": null,
+   "options": [
+    "K\u2083,\u2083 is not connected",
+    "K\u2083,\u2083 is not bipartite",
+    "K\u2083,\u2083 is not planar",
+    "K\u2083,\u2083 has no Hamiltonian cycle"
+   ],
+   "correctIndex": 2,
+   "explanation": "The connections form the complete bipartite graph K\u2083,\u2083, which cannot be drawn in the plane without crossings. K\u2083,\u2083 is connected, bipartite and has a Hamiltonian cycle, so those reasons are false.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0032",
+   "topicId": "spec-graph-theory",
+   "stem": "An edge is added, without crossings, between two existing vertices of a connected plane graph. How does v \u2212 e + f change?",
+   "imageRef": null,
+   "options": [
+    "It is unchanged, because e and f each increase by 1",
+    "It decreases by 1, because e increases by 1",
+    "It increases by 1, because f increases by 1",
+    "It decreases by 2, because e increases and f decreases"
+   ],
+   "correctIndex": 0,
+   "explanation": "The new edge splits one face into two, so f rises by 1 as e rises by 1 and v \u2212 e + f stays at 2. This is the key step in proving Euler\u2019s formula by adding edges to a spanning tree.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0033",
+   "topicId": "spec-graph-theory",
+   "stem": "In graph theory, a trail is a walk in which:",
+   "imageRef": null,
+   "options": [
+    "no vertex is repeated",
+    "every edge of the graph is used",
+    "the walk ends where it started",
+    "no edge is repeated"
+   ],
+   "correctIndex": 3,
+   "explanation": "A trail may revisit vertices but never reuses an edge. A walk with no repeated vertex is a path, and one that ends where it starts is closed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0034",
+   "topicId": "spec-graph-theory",
+   "stem": "A connected graph has an Euler circuit exactly when:",
+   "imageRef": null,
+   "options": [
+    "no vertex has degree 1",
+    "every vertex has even degree",
+    "exactly two vertices have odd degree",
+    "every vertex has odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "An Euler circuit enters and leaves each vertex in pairs of edges, so every degree is even. Exactly two odd vertices gives an Euler trail that is not closed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0035",
+   "topicId": "spec-graph-theory",
+   "stem": "A connected graph has vertex degrees 2, 3, 4, 3 and 2. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It has an Euler trail that can start at any vertex",
+    "It has an Euler trail between the two odd vertices, but no Euler circuit",
+    "It has an Euler circuit, because its degree sum is even",
+    "It has neither an Euler trail nor an Euler circuit"
+   ],
+   "correctIndex": 1,
+   "explanation": "With exactly two vertices of odd degree, an Euler trail exists and must start at one odd vertex and end at the other. The degree sum is even for every graph, so it says nothing about Euler circuits.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0036",
+   "topicId": "spec-graph-theory",
+   "stem": "In the K\u00f6nigsberg bridge problem the four land masses have degrees 5, 3, 3 and 3. No walk crosses every bridge exactly once because:",
+   "imageRef": null,
+   "options": [
+    "the graph has multiple edges between land masses",
+    "the graph of the bridges is not planar",
+    "the graph of the bridges is not connected",
+    "more than two land masses have odd degree"
+   ],
+   "correctIndex": 3,
+   "explanation": "An Euler trail allows at most two vertices of odd degree, and here all four are odd. Multiple edges do not prevent an Euler trail, and the graph is both connected and planar.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0037",
+   "topicId": "spec-graph-theory",
+   "stem": "A Hamiltonian cycle in a graph:",
+   "imageRef": null,
+   "options": [
+    "uses every edge at least once along the shortest route",
+    "visits every vertex exactly once and returns to its start",
+    "uses every edge exactly once and returns to its start",
+    "visits every vertex at least once along the shortest route"
+   ],
+   "correctIndex": 1,
+   "explanation": "Hamiltonian refers to vertices: each is visited once before returning. Using every edge exactly once describes an Euler circuit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0038",
+   "topicId": "spec-graph-theory",
+   "stem": "Which graph has a Hamiltonian cycle but no Euler circuit?",
+   "imageRef": null,
+   "options": [
+    "the complete graph K\u2084",
+    "the complete graph K\u2085",
+    "a tree with 5 vertices",
+    "a cycle with 5 vertices"
+   ],
+   "correctIndex": 0,
+   "explanation": "K\u2084 has every degree equal to 3, so no Euler circuit, but A \u2192 B \u2192 C \u2192 D \u2192 A is a Hamiltonian cycle. K\u2085 and the 5-cycle have even degrees, so they have both, and a tree has neither.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0039",
+   "topicId": "spec-graph-theory",
+   "stem": "Finding the cheapest way to connect six towns with fibre-optic cable is an example of:",
+   "imageRef": null,
+   "options": [
+    "an existence problem",
+    "a counting problem",
+    "an isomorphism problem",
+    "an optimisation problem"
+   ],
+   "correctIndex": 3,
+   "explanation": "The question asks for the best of many possible networks, here a minimum spanning tree. An existence problem asks only whether something can be done, as in the K\u00f6nigsberg bridges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-graph-theory-0040",
+   "topicId": "spec-graph-theory",
+   "stem": "A chemist models molecules as graphs and asks how many different molecules with formula C\u2084H\u2081\u2080 are possible. This is an example of:",
+   "imageRef": null,
+   "options": [
+    "a counting problem",
+    "an optimisation problem",
+    "an existence problem",
+    "a shortest path problem"
+   ],
+   "correctIndex": 0,
+   "explanation": "The aim is to count the non-isomorphic graphs that fit the rules, which here gives two. Nothing is being made best, so it is not optimisation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-graph-theory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "topicId": "spec-relations-graphs",
+ "questions": [
+  {
+   "id": "spec-relations-graphs-0001",
+   "topicId": "spec-relations-graphs",
+   "stem": "Given that x\u00b2 + 5x + 7 = (x + 2)\u00b2 + a(x + 2) + b for all x, the values of a and b are:",
+   "imageRef": null,
+   "options": [
+    "a = 5, b = 7",
+    "a = 1, b = 3",
+    "a = 1, b = \u22121",
+    "a = 1, b = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The right side is x\u00b2 + (4 + a)x + (4 + 2a + b), so 4 + a = 5 and 4 + 2a + b = 7, giving a = 1 and b = 1. Reading a and b straight from the left side ignores the expansion of (x + 2)\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0002",
+   "topicId": "spec-relations-graphs",
+   "stem": "The correct form for the partial fractions of 1/((x \u2212 2)(x\u00b2 + 1)) is:",
+   "imageRef": null,
+   "options": [
+    "(Ax + B)/(x \u2212 2) + C/(x\u00b2 + 1)",
+    "A/(x \u2212 2) + (Bx + C)/(x\u00b2 + 1)",
+    "A/(x \u2212 2) + B/(x\u00b2 + 1)",
+    "A/(x \u2212 2) + B/(x + 1) + C/(x \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "An irreducible quadratic factor needs a linear numerator Bx + C, while a linear factor needs only a constant. x\u00b2 + 1 does not factorise over R, so splitting it into (x + 1)(x \u2212 1) is wrong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0003",
+   "topicId": "spec-relations-graphs",
+   "stem": "Expressed as partial fractions, (5x + 1)/((x \u2212 1)(x + 2)) is:",
+   "imageRef": null,
+   "options": [
+    "6/(x \u2212 1) \u2212 9/(x + 2)",
+    "2/(x \u2212 1) + 3/(x + 2)",
+    "3/(x \u2212 1) + 2/(x + 2)",
+    "2/(x \u2212 1) \u2212 3/(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "From 5x + 1 = A(x + 2) + B(x \u2212 1), x = 1 gives 6 = 3A and x = \u22122 gives \u22129 = \u22123B, so A = 2 and B = 3. Forgetting to divide by 3 and \u22123 leaves 6 and \u22129.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0004",
+   "topicId": "spec-relations-graphs",
+   "stem": "Expressed as partial fractions, (3x\u00b2 + 2x + 5)/((x + 1)(x\u00b2 + 2)) is:",
+   "imageRef": null,
+   "options": [
+    "2/(x + 1) + (x + 1)/(x\u00b2 + 2)",
+    "2/(x + 1) + 1/(x\u00b2 + 2)",
+    "2/(x + 1) + (x \u2212 1)/(x\u00b2 + 2)",
+    "3/(x + 1) + (2x + 5)/(x\u00b2 + 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = \u22121 gives 6 = 3A, so A = 2; then 3x\u00b2 + 2x + 5 \u2212 2(x\u00b2 + 2) = x\u00b2 + 2x + 1 = (x + 1)(x + 1), so the quadratic part is (x + 1)/(x\u00b2 + 2). A constant numerator alone cannot produce the x term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0005",
+   "topicId": "spec-relations-graphs",
+   "stem": "The rational function (x\u00b2 + 1)/(x \u2212 1) can be written as:",
+   "imageRef": null,
+   "options": [
+    "x + 1 \u2212 2/(x \u2212 1)",
+    "x + 1 + 2/(x \u2212 1)",
+    "x \u2212 1 + 2/(x \u2212 1)",
+    "x + 1 + 1/(x \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since (x \u2212 1)(x + 1) = x\u00b2 \u2212 1, the numerator is (x \u2212 1)(x + 1) + 2, so dividing gives x + 1 + 2/(x \u2212 1). The numerator\u2019s degree is not less than the denominator\u2019s, so division comes first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0006",
+   "topicId": "spec-relations-graphs",
+   "stem": "The function sec x is defined as:",
+   "imageRef": null,
+   "options": [
+    "cos\u207b\u00b9 x",
+    "1/tan x",
+    "1/cos x",
+    "1/sin x"
+   ],
+   "correctIndex": 2,
+   "explanation": "sec x = 1/cos x, cosec x = 1/sin x and cot x = 1/tan x. The inverse cos\u207b\u00b9 x is a different function from the reciprocal 1/cos x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0007",
+   "topicId": "spec-relations-graphs",
+   "stem": "The graph of y = sec x has vertical asymptotes at:",
+   "imageRef": null,
+   "options": [
+    "x = k\u03c0, k \u2208 Z",
+    "x = 2k\u03c0, k \u2208 Z",
+    "x = \u03c0/4 + k\u03c0, k \u2208 Z",
+    "x = \u03c0/2 + k\u03c0, k \u2208 Z"
+   ],
+   "correctIndex": 3,
+   "explanation": "sec x = 1/cos x is undefined where cos x = 0, at odd multiples of \u03c0/2. The asymptotes at x = k\u03c0 belong to cosec x and cot x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0008",
+   "topicId": "spec-relations-graphs",
+   "stem": "The range of y = cosec x is:",
+   "imageRef": null,
+   "options": [
+    "y \u2265 1",
+    "y \u2264 \u22121 or y \u2265 1",
+    "\u22121 \u2264 y \u2264 1",
+    "all real y except 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin x takes values in [\u22121, 1], and the reciprocal of a number between \u22121 and 1 (other than 0) has size at least 1. So the range is (\u2212\u221e, \u22121] \u222a [1, \u221e).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0009",
+   "topicId": "spec-relations-graphs",
+   "stem": "The period of y = cosec(2x) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "2\u03c0",
+    "\u03c0/2",
+    "4\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "cosec x has period 2\u03c0, and the factor 2 halves it: 2\u03c0/2 = \u03c0. Multiplying by 2 instead gives 4\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0010",
+   "topicId": "spec-relations-graphs",
+   "stem": "Where f(x) = 1 or f(x) = \u22121, the graphs of y = f(x) and y = 1/f(x):",
+   "imageRef": null,
+   "options": [
+    "have vertical asymptotes",
+    "both cross the x-axis",
+    "are reflections in y = x",
+    "intersect"
+   ],
+   "correctIndex": 3,
+   "explanation": "The reciprocal of 1 is 1 and of \u22121 is \u22121, so the two graphs share those points. Vertical asymptotes of 1/f occur where f(x) = 0 instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0011",
+   "topicId": "spec-relations-graphs",
+   "stem": "Let f(x) = x\u00b2 \u2212 4. The graph of y = 1/f(x) has:",
+   "imageRef": null,
+   "options": [
+    "asymptotes x = \u00b12 and a local maximum at (0, \u22121/4)",
+    "asymptotes x = \u00b12 and a local minimum at (0, \u22121/4)",
+    "asymptotes x = \u00b14 and a local maximum at (0, \u22121/4)",
+    "asymptotes x = \u00b12 and a local maximum at (0, \u22124)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The zeros of f, x = \u00b12, become vertical asymptotes, and the minimum of f at (0, \u22124) becomes a maximum of 1/f at (0, \u22121/4). A reciprocal turns a minimum into a maximum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0012",
+   "topicId": "spec-relations-graphs",
+   "stem": "For 0 < x < \u03c0, the graph of y = cot x:",
+   "imageRef": null,
+   "options": [
+    "increases from \u2212\u221e to +\u221e, crossing the x-axis at \u03c0/2",
+    "decreases, crossing the x-axis at \u03c0/4",
+    "has a turning point at x = \u03c0/2",
+    "decreases from +\u221e to \u2212\u221e, crossing the x-axis at \u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "cot x = cos x/sin x, with sin x positive and small near 0 and \u03c0, and cos x = 0 at \u03c0/2. It is always decreasing; cot(\u03c0/4) = 1, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0013",
+   "topicId": "spec-relations-graphs",
+   "stem": "The graph of y = 2sec(x \u2212 \u03c0/4) has vertical asymptotes at:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/2 + k\u03c0, k \u2208 Z",
+    "x = k\u03c0, k \u2208 Z",
+    "x = 3\u03c0/4 + k\u03c0, k \u2208 Z",
+    "x = \u03c0/4 + k\u03c0, k \u2208 Z"
+   ],
+   "correctIndex": 2,
+   "explanation": "The asymptotes of sec u are at u = \u03c0/2 + k\u03c0, so x \u2212 \u03c0/4 = \u03c0/2 + k\u03c0 and x = 3\u03c0/4 + k\u03c0. Shifting the asymptotes left instead of right gives \u03c0/4 + k\u03c0, and x = k\u03c0 are the asymptotes of cosec x, not of sec.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0014",
+   "topicId": "spec-relations-graphs",
+   "stem": "The domain and range of y = sin\u207b\u00b9 x are:",
+   "imageRef": null,
+   "options": [
+    "domain [\u22121, 1] and range [0, \u03c0]",
+    "domain [\u2212\u03c0/2, \u03c0/2] and range [\u22121, 1]",
+    "domain R and range (\u2212\u03c0/2, \u03c0/2)",
+    "domain [\u22121, 1] and range [\u2212\u03c0/2, \u03c0/2]"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9 undoes sine restricted to [\u2212\u03c0/2, \u03c0/2], so its inputs are sine values and its outputs are angles in that interval. The range [0, \u03c0] belongs to cos\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0015",
+   "topicId": "spec-relations-graphs",
+   "stem": "The range of y = cos\u207b\u00b9 x is:",
+   "imageRef": null,
+   "options": [
+    "[0, \u03c0]",
+    "[\u2212\u03c0/2, \u03c0/2]",
+    "[\u22121, 1]",
+    "(0, \u03c0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Cosine is one-to-one on [0, \u03c0], so cos\u207b\u00b9 returns angles from 0 to \u03c0, including both ends since cos\u207b\u00b9(1) = 0 and cos\u207b\u00b9(\u22121) = \u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0016",
+   "topicId": "spec-relations-graphs",
+   "stem": "The graph of y = tan\u207b\u00b9 x has:",
+   "imageRef": null,
+   "options": [
+    "horizontal asymptotes y = \u00b1\u03c0/2",
+    "vertical asymptotes x = \u00b1\u03c0/2",
+    "domain [\u22121, 1]",
+    "range [0, \u03c0]"
+   ],
+   "correctIndex": 0,
+   "explanation": "tan\u207b\u00b9 accepts every real x and its values approach \u00b1\u03c0/2 without reaching them. The vertical asymptotes x = \u00b1\u03c0/2 belong to tan x on its principal domain.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0017",
+   "topicId": "spec-relations-graphs",
+   "stem": "Sine must be restricted to [\u2212\u03c0/2, \u03c0/2] to define sin\u207b\u00b9 because on that interval it:",
+   "imageRef": null,
+   "options": [
+    "is one-to-one and takes every value in [\u22121, 1]",
+    "is defined, while elsewhere it is undefined",
+    "is positive, while elsewhere it is negative",
+    "is increasing, while elsewhere it is decreasing"
+   ],
+   "correctIndex": 0,
+   "explanation": "An inverse function needs a one-to-one function, and this interval keeps the full range [\u22121, 1]. Sine is defined for all real x and is also increasing on other intervals, such as [3\u03c0/2, 5\u03c0/2].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0018",
+   "topicId": "spec-relations-graphs",
+   "stem": "The exact value of sin\u207b\u00b9(\u22121/2) is:",
+   "imageRef": null,
+   "options": [
+    "7\u03c0/6",
+    "11\u03c0/6",
+    "5\u03c0/6",
+    "\u2212\u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9 gives the angle in [\u2212\u03c0/2, \u03c0/2] whose sine is \u22121/2, which is \u2212\u03c0/6. The angles 7\u03c0/6 and 11\u03c0/6 have sine \u22121/2 but are outside the range.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0019",
+   "topicId": "spec-relations-graphs",
+   "stem": "The exact value of cos\u207b\u00b9(\u2212\u221a3/2) is:",
+   "imageRef": null,
+   "options": [
+    "5\u03c0/6",
+    "\u2212\u03c0/6",
+    "7\u03c0/6",
+    "\u03c0/6"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos\u207b\u00b9 gives the angle in [0, \u03c0] with cosine \u2212\u221a3/2, which is \u03c0 \u2212 \u03c0/6 = 5\u03c0/6. A negative angle is never a value of cos\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0020",
+   "topicId": "spec-relations-graphs",
+   "stem": "The exact value of sin(cos\u207b\u00b9(3/5)) is:",
+   "imageRef": null,
+   "options": [
+    "\u22124/5",
+    "5/4",
+    "4/5",
+    "3/5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let \u03b8 = cos\u207b\u00b9(3/5), an angle in [0, \u03c0] with cos \u03b8 = 3/5, so sin \u03b8 = \u221a(1 \u2212 9/25) = 4/5, positive because \u03b8 is in [0, \u03c0]. The value 3/5 is cos \u03b8 itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0021",
+   "topicId": "spec-relations-graphs",
+   "stem": "The exact value of cos\u207b\u00b9(cos(5\u03c0/3)) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "5\u03c0/3",
+    "\u2212\u03c0/3",
+    "2\u03c0/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos(5\u03c0/3) = 1/2, and cos\u207b\u00b9(1/2) = \u03c0/3. The functions do not simply cancel, because 5\u03c0/3 lies outside the range [0, \u03c0].",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0022",
+   "topicId": "spec-relations-graphs",
+   "stem": "The exact value of tan(sin\u207b\u00b9(1/3)) is:",
+   "imageRef": null,
+   "options": [
+    "2\u221a2",
+    "1/3",
+    "3\u221a2/4",
+    "\u221a2/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "If sin \u03b8 = 1/3 with \u03b8 in [\u2212\u03c0/2, \u03c0/2], then cos \u03b8 = 2\u221a2/3 and tan \u03b8 = (1/3)/(2\u221a2/3) = 1/(2\u221a2) = \u221a2/4. The value 2\u221a2 inverts the ratio.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0023",
+   "topicId": "spec-relations-graphs",
+   "stem": "The maximal domain of y = sin\u207b\u00b9(2x \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "[\u22121, 1]",
+    "[\u22121, 0]",
+    "[\u22121/2, 1/2]",
+    "[0, 1]"
+   ],
+   "correctIndex": 3,
+   "explanation": "The input to sin\u207b\u00b9 must satisfy \u22121 \u2264 2x \u2212 1 \u2264 1, so 0 \u2264 2x \u2264 2 and 0 \u2264 x \u2264 1. The interval [\u22121, 1] is the domain of sin\u207b\u00b9 itself, before the transformation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0024",
+   "topicId": "spec-relations-graphs",
+   "stem": "The range of y = 2cos\u207b\u00b9(x) + \u03c0/2 is:",
+   "imageRef": null,
+   "options": [
+    "[\u03c0/2, 3\u03c0/2]",
+    "[\u2212\u03c0/2, 3\u03c0/2]",
+    "[\u03c0/2, 5\u03c0/2]",
+    "[0, 2\u03c0]"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos\u207b\u00b9 x takes values in [0, \u03c0], so 2cos\u207b\u00b9 x is in [0, 2\u03c0] and adding \u03c0/2 gives [\u03c0/2, 5\u03c0/2]. The interval [0, 2\u03c0] forgets the translation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0025",
+   "topicId": "spec-relations-graphs",
+   "stem": "A parabola is the locus of points that are:",
+   "imageRef": null,
+   "options": [
+    "at a constant difference of distances from two fixed points",
+    "equidistant from a fixed point and a fixed line",
+    "equidistant from two fixed points",
+    "at a constant sum of distances from two fixed points"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fixed point is the focus and the fixed line the directrix. A constant sum of distances from two foci defines an ellipse, and a constant difference a hyperbola.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0026",
+   "topicId": "spec-relations-graphs",
+   "stem": "The parabola with focus (0, 2) and directrix y = \u22122 has equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 = 2y",
+    "x\u00b2 = 4y",
+    "y\u00b2 = 8x",
+    "x\u00b2 = 8y"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a point (x, y), x\u00b2 + (y \u2212 2)\u00b2 = (y + 2)\u00b2, which simplifies to x\u00b2 = 8y. The general form x\u00b2 = 4ay has a = 2 here, so 4a = 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0027",
+   "topicId": "spec-relations-graphs",
+   "stem": "The locus of points equidistant from (3, 0) and (\u22121, 0) is:",
+   "imageRef": null,
+   "options": [
+    "the circle x\u00b2 + y\u00b2 = 3",
+    "the line x = 1",
+    "the line y = 1",
+    "the line x = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The locus is the perpendicular bisector of the segment, which passes through its midpoint (1, 0) and is vertical. Squaring (x \u2212 3)\u00b2 + y\u00b2 = (x + 1)\u00b2 + y\u00b2 gives 8x = 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0028",
+   "topicId": "spec-relations-graphs",
+   "stem": "The circle x\u00b2 + y\u00b2 \u2212 6x + 4y \u2212 3 = 0 has:",
+   "imageRef": null,
+   "options": [
+    "centre (3, \u22122) and radius 16",
+    "centre (3, \u22122) and radius 4",
+    "centre (\u22123, 2) and radius 4",
+    "centre (3, \u22122) and radius \u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Completing the squares gives (x \u2212 3)\u00b2 + (y + 2)\u00b2 = 3 + 9 + 4 = 16, so the radius is 4. Taking the radius from the constant 3 skips completing the square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0029",
+   "topicId": "spec-relations-graphs",
+   "stem": "The ellipse x\u00b2/9 + y\u00b2/4 = 1 meets the coordinate axes at:",
+   "imageRef": null,
+   "options": [
+    "(\u00b13, 0) and (0, \u00b12)",
+    "(\u00b19, 0) and (0, \u00b14)",
+    "(\u00b12, 0) and (0, \u00b13)",
+    "(\u00b13, 0) and (0, \u00b14)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Setting y = 0 gives x\u00b2 = 9 and setting x = 0 gives y\u00b2 = 4. The denominators are the squares of the intercepts, not the intercepts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0030",
+   "topicId": "spec-relations-graphs",
+   "stem": "The foci of the ellipse x\u00b2/25 + y\u00b2/9 = 1 are at:",
+   "imageRef": null,
+   "options": [
+    "(\u00b14, 0)",
+    "(\u00b1\u221a34, 0)",
+    "(0, \u00b14)",
+    "(\u00b15, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For an ellipse with a = 5 and b = 3, c\u00b2 = a\u00b2 \u2212 b\u00b2 = 16, so the foci are (\u00b14, 0) on the major axis. Adding instead of subtracting gives \u221a34, which is the hyperbola rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0031",
+   "topicId": "spec-relations-graphs",
+   "stem": "The asymptotes of the hyperbola x\u00b2/16 \u2212 y\u00b2/9 = 1 are:",
+   "imageRef": null,
+   "options": [
+    "y = \u00b19x/16",
+    "x = \u00b14",
+    "y = \u00b13x/4",
+    "y = \u00b14x/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "For x\u00b2/a\u00b2 \u2212 y\u00b2/b\u00b2 = 1 the asymptotes are y = \u00b1(b/a)x with a = 4 and b = 3. The lines x = \u00b14 pass through the vertices; they are not asymptotes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0032",
+   "topicId": "spec-relations-graphs",
+   "stem": "A point moves so that the difference of its distances from (5, 0) and (\u22125, 0) is always 8. Its locus is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/64 \u2212 y\u00b2/36 = 1",
+    "x\u00b2/16 \u2212 y\u00b2/9 = 1",
+    "x\u00b2/16 + y\u00b2/9 = 1",
+    "x\u00b2/25 \u2212 y\u00b2/16 = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "A constant difference gives a hyperbola with 2a = 8, so a = 4, and foci at c = 5, so b\u00b2 = c\u00b2 \u2212 a\u00b2 = 9. A plus sign would describe an ellipse, which comes from a constant sum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0033",
+   "topicId": "spec-relations-graphs",
+   "stem": "The curve x = 2cos t, y = 5sin t, for 0 \u2264 t < 2\u03c0, has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/25 + y\u00b2/4 = 1",
+    "x\u00b2/2 + y\u00b2/5 = 1",
+    "x\u00b2 + y\u00b2 = 29",
+    "x\u00b2/4 + y\u00b2/25 = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos t = x/2 and sin t = y/5, and cos\u00b2t + sin\u00b2t = 1 gives x\u00b2/4 + y\u00b2/25 = 1, an ellipse. The denominators are the squares of 2 and 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0034",
+   "topicId": "spec-relations-graphs",
+   "stem": "The curve x = t + 1, y = t\u00b2, for t \u2208 R, has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2 \u2212 1",
+    "x = (y \u2212 1)\u00b2",
+    "y = (x \u2212 1)\u00b2",
+    "y = (x + 1)\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "From the first equation t = x \u2212 1, and substituting gives y = (x \u2212 1)\u00b2. Replacing t with x + 1 reverses the substitution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0035",
+   "topicId": "spec-relations-graphs",
+   "stem": "The curve x = 3sec t, y = 2tan t has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/3 \u2212 y\u00b2/2 = 1",
+    "x\u00b2/9 \u2212 y\u00b2/4 = 1",
+    "x\u00b2/9 + y\u00b2/4 = 1",
+    "y\u00b2/4 \u2212 x\u00b2/9 = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "sec t = x/3 and tan t = y/2, and sec\u00b2t \u2212 tan\u00b2t = 1 gives a hyperbola opening left and right. The ellipse would come from cos t and sin t, which satisfy a sum identity.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0036",
+   "topicId": "spec-relations-graphs",
+   "stem": "The point with polar coordinates (2, \u03c0/3) has Cartesian coordinates:",
+   "imageRef": null,
+   "options": [
+    "(1, \u2212\u221a3)",
+    "(2, 2\u221a3)",
+    "(1, \u221a3)",
+    "(\u221a3, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "x = r cos \u03b8 = 2 \u00d7 1/2 = 1 and y = r sin \u03b8 = 2 \u00d7 \u221a3/2 = \u221a3. Swapping sine and cosine gives (\u221a3, 1), which is at angle \u03c0/6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0037",
+   "topicId": "spec-relations-graphs",
+   "stem": "The polar equation r cos \u03b8 = 3 has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x = 3",
+    "y = 3",
+    "x\u00b2 + y\u00b2 = 9",
+    "y = 3x"
+   ],
+   "correctIndex": 0,
+   "explanation": "In polar coordinates x = r cos \u03b8, so the equation is x = 3, a vertical line. The circle x\u00b2 + y\u00b2 = 9 has polar equation r = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0038",
+   "topicId": "spec-relations-graphs",
+   "stem": "The polar equation r = 4cos \u03b8 has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 2)\u00b2 + y\u00b2 = 4",
+    "x\u00b2 + y\u00b2 = 16",
+    "(x \u2212 4)\u00b2 + y\u00b2 = 16",
+    "x = 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying by r gives r\u00b2 = 4r cos \u03b8, that is, x\u00b2 + y\u00b2 = 4x, which completes to (x \u2212 2)\u00b2 + y\u00b2 = 4. It is a circle through the origin, not the circle r = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0039",
+   "topicId": "spec-relations-graphs",
+   "stem": "The solutions of |x \u2212 2| = 5 are:",
+   "imageRef": null,
+   "options": [
+    "x = 7 or x = \u22123",
+    "x = 7 only",
+    "x = 3 or x = \u22127",
+    "x = 5 or x = \u22125"
+   ],
+   "correctIndex": 0,
+   "explanation": "x \u2212 2 = 5 or x \u2212 2 = \u22125, so x = 7 or x = \u22123: the points 5 units from 2. Losing the negative case leaves only 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0040",
+   "topicId": "spec-relations-graphs",
+   "stem": "The vertex of the graph of y = |x + 1| \u2212 3 is at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22123)",
+    "(1, \u22123)",
+    "(\u22121, 3)",
+    "(3, \u22121)"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = |x| is translated 1 unit left and 3 units down, moving the vertex from (0, 0) to (\u22121, \u22123). The +1 inside the modulus moves the graph left, not right.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0041",
+   "topicId": "spec-relations-graphs",
+   "stem": "The solution of |2x \u2212 1| < 3 is:",
+   "imageRef": null,
+   "options": [
+    "\u22121 < x < 2",
+    "x < 2",
+    "\u22122 < x < 1",
+    "x < \u22121 or x > 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "|2x \u2212 1| < 3 means \u22123 < 2x \u2212 1 < 3, so \u22122 < 2x < 4 and \u22121 < x < 2. The answer x < \u22121 or x > 2 solves |2x \u2212 1| > 3 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-relations-graphs-0042",
+   "topicId": "spec-relations-graphs",
+   "stem": "How many real solutions does |x\u00b2 \u2212 4| = 3 have?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "0",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Either x\u00b2 \u2212 4 = 3, giving x = \u00b1\u221a7, or x\u00b2 \u2212 4 = \u22123, giving x = \u00b11. Forgetting the negative case gives only 2 solutions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-relations-graphs-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

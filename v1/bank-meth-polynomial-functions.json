@@ -1,0 +1,803 @@
+{
+ "topicId": "meth-polynomial-functions",
+ "questions": [
+  {
+   "id": "meth-polynomial-functions-0001",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Which of these relations is a function?",
+   "imageRef": null,
+   "options": [
+    "The relation x\u00b2 + y\u00b2 = 4",
+    "The relation x = y\u00b2",
+    "The set of points (1, 2), (2, 2), (3, 5)",
+    "The set of points (1, 2), (1, 3), (2, 4)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A function pairs each x-value with exactly one y-value, and repeating a y-value (2 appears twice) is allowed. The set with (1, 2) and (1, 3) pairs x = 1 with two y-values, and the circle and x = y\u00b2 each fail the vertical line test.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0002",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The vertical line test shows that a relation is a function when:",
+   "imageRef": null,
+   "options": [
+    "every vertical line meets its graph exactly once",
+    "its graph passes through the origin",
+    "every vertical line meets its graph at most once",
+    "every horizontal line meets its graph at most once"
+   ],
+   "correctIndex": 2,
+   "explanation": "A function gives at most one output for each input, so no vertical line may cut the graph twice. The horizontal line test is a different test: it decides whether a function is one-to-one. Exactly once is too strong, because a vertical line outside the domain meets the graph nowhere.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0003",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the maximal (implied) domain of f(x) = \u221a(x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "[3, \u221e)",
+    "(3, \u221e)",
+    "(\u2212\u221e, 3]",
+    "[\u22123, \u221e)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The square root needs x \u2212 3 \u2265 0, so x \u2265 3, and x = 3 itself is allowed because \u221a0 = 0. The open interval (3, \u221e) wrongly leaves out that endpoint.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0004",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the maximal domain of f(x) = 1/(x + 2)?",
+   "imageRef": null,
+   "options": [
+    "x \u2208 R, x \u2260 2",
+    "x \u2208 R, x > \u22122",
+    "x \u2208 R, x \u2260 0",
+    "x \u2208 R, x \u2260 \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "The only forbidden value is the one that makes the denominator zero: x + 2 = 0 gives x = \u22122. Excluding 2 is the sign slip, and excluding 0 belongs to y = 1/x before it was translated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0005",
+   "topicId": "meth-polynomial-functions",
+   "stem": "For f: [\u22121, 2] \u2192 R, f(x) = x\u00b2, what is the range of f?",
+   "imageRef": null,
+   "options": [
+    "[\u22121, 4]",
+    "[0, 2]",
+    "[0, 4]",
+    "[1, 4]"
+   ],
+   "correctIndex": 2,
+   "explanation": "The domain includes x = 0, where x\u00b2 takes its least value 0, and the greatest value is at x = 2, giving 4. Substituting only the endpoints gives 1 and 4, which misses the turning point inside the domain.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0006",
+   "topicId": "meth-polynomial-functions",
+   "stem": "For f: R \u2192 R, f(x) = x\u00b2 + 1, what is the co-domain of f?",
+   "imageRef": null,
+   "options": [
+    "[1, \u221e)",
+    "[0, \u221e)",
+    "(1, \u221e)",
+    "R"
+   ],
+   "correctIndex": 3,
+   "explanation": "The co-domain is the set written after the arrow in the function's specification, here R. The range is the set of values actually reached, which is [1, \u221e). The two are easily confused because both describe outputs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0007",
+   "topicId": "meth-polynomial-functions",
+   "stem": "If f(x) = 3 \u2212 2x, what is f(a + 1)?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 2a",
+    "3 \u2212 2a",
+    "5 \u2212 2a",
+    "1 + 2a"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replace x with the whole of a + 1: f(a + 1) = 3 \u2212 2(a + 1) = 3 \u2212 2a \u2212 2 = 1 \u2212 2a. Writing 5 \u2212 2a comes from treating \u22122 \u00d7 1 as +2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0008",
+   "topicId": "meth-polynomial-functions",
+   "stem": "A relation is given by the table x: 1, 2, 2, 3 and y: 4, 5, 6, 7. Why is it not a function?",
+   "imageRef": null,
+   "options": [
+    "The y-values increase steadily as x increases",
+    "No y-value appears in the table more than once",
+    "The x-value 2 is paired with two different y-values",
+    "The y-values are all different from one another"
+   ],
+   "correctIndex": 2,
+   "explanation": "A function must give each input one output, and here x = 2 gives both 5 and 6. Having all y-values different is no barrier: many functions, such as y = x + 3, do exactly that.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0009",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The graph of y = f\u207b\u00b9(x) is the reflection of the graph of y = f(x) in which line?",
+   "imageRef": null,
+   "options": [
+    "The y-axis",
+    "The x-axis",
+    "The line y = \u2212x",
+    "The line y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Finding an inverse swaps the coordinates of every point, and swapping (a, b) to (b, a) is reflection in the line y = x. Reflection in an axis changes the sign of one coordinate instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0010",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The point (2, 5) lies on the graph of a one-to-one function f. Which point lies on the graph of f\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 5)",
+    "(2, \u22125)",
+    "(1/2, 1/5)",
+    "(5, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The inverse reverses the input and output, so (2, 5) becomes (5, 2). The point (1/2, 1/5) confuses the inverse function with the reciprocal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0011",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the inverse function of f(x) = 2x + 6?",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = (x + 6)/2",
+    "f\u207b\u00b9(x) = 1/(2x + 6)",
+    "f\u207b\u00b9(x) = (x \u2212 6)/2",
+    "f\u207b\u00b9(x) = x/2 \u2212 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swap x and y to get x = 2y + 6, then solve: y = (x \u2212 6)/2. Writing x/2 \u2212 6 undoes the steps in the wrong order, and 1/(2x + 6) is the reciprocal, not the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0012",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Which of these functions has an inverse function?",
+   "imageRef": null,
+   "options": [
+    "f: R \u2192 R, f(x) = x\u2074 \u2212 1",
+    "f: [\u22122, 2] \u2192 R, f(x) = x\u00b2",
+    "f: [0, \u221e) \u2192 R, f(x) = x\u00b2",
+    "f: R \u2192 R, f(x) = x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "An inverse function exists only for a one-to-one function. Restricting x\u00b2 to [0, \u221e) keeps just the right half of the parabola, which passes the horizontal line test. Over [\u22122, 2] the values x = \u22121 and x = 1 still share the output 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0013",
+   "topicId": "meth-polynomial-functions",
+   "stem": "If f(x) = x\u00b3 + 1, what is the value of f\u207b\u00b9(9)?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "730",
+    "1/730",
+    "\u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u207b\u00b9(9) is the input that gives 9, so solve x\u00b3 + 1 = 9: x\u00b3 = 8 and x = 2. The value 730 is f(9), which is the function applied rather than undone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0014",
+   "topicId": "meth-polynomial-functions",
+   "stem": "f: [1, 5] \u2192 R, f(x) = 2x \u2212 1. What are the domain and range of f\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "Domain [0, 4], range [1, 5]",
+    "Domain R, range [1, 5]",
+    "Domain [1, 9], range [1, 5]",
+    "Domain [1, 5], range [1, 9]"
+   ],
+   "correctIndex": 2,
+   "explanation": "The range of f is [f(1), f(5)] = [1, 9]. The inverse swaps domain and range, so f\u207b\u00b9 has domain [1, 9] and range [1, 5]. Keeping the domain [1, 5] forgets that the swap applies to the sets as well as the points.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0015",
+   "topicId": "meth-polynomial-functions",
+   "stem": "f: [1, \u221e) \u2192 R, f(x) = (x \u2212 1)\u00b2. What is the rule of f\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = \u221ax \u2212 1",
+    "f\u207b\u00b9(x) = \u221a(x \u2212 1)",
+    "f\u207b\u00b9(x) = 1 + \u221ax",
+    "f\u207b\u00b9(x) = 1 \u2212 \u221ax"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swapping gives x = (y \u2212 1)\u00b2, so y \u2212 1 = \u00b1\u221ax. The range of f\u207b\u00b9 must be the domain of f, [1, \u221e), so the positive root is taken and y = 1 + \u221ax. Taking 1 \u2212 \u221ax would give values below 1, which f never has as inputs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0016",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the inverse function of f(x) = 1/(x \u2212 2) + 3, x \u2260 2?",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = 1/(x + 3) \u2212 2",
+    "f\u207b\u00b9(x) = 1/(x \u2212 2) + 3",
+    "f\u207b\u00b9(x) = 1/(x \u2212 3) \u2212 2",
+    "f\u207b\u00b9(x) = 1/(x \u2212 3) + 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swap to x = 1/(y \u2212 2) + 3, so x \u2212 3 = 1/(y \u2212 2) and y = 1/(x \u2212 3) + 2. The asymptotes x = 2 and y = 3 swap to x = 3 and y = 2, which is a quick check. Subtracting 2 at the end reverses the last step's sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0017",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The graph of a polynomial function has a stationary point of inflection at x = 2. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The gradient is zero at x = 2 and has the same sign on both sides",
+    "The gradient is zero at x = 2 and changes sign there",
+    "The graph must cross the x-axis at the point where x = 2",
+    "The gradient of the graph is undefined at the point x = 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "A stationary point of inflection is flat for an instant, but the graph keeps rising (or keeps falling) through it. A gradient that changes sign marks a turning point, a local maximum or minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0018",
+   "topicId": "meth-polynomial-functions",
+   "stem": "A graph shows a company's total sales over a year. Sales always rise. The rate of increase falls until June, then grows for the rest of the year. What is the feature at June?",
+   "imageRef": null,
+   "options": [
+    "A local minimum, where the sales stop falling and begin to rise",
+    "A local maximum, where the sales reach their highest value",
+    "A vertical asymptote, where the sales increase without bound",
+    "A point of inflection, where the rate of increase is least"
+   ],
+   "correctIndex": 3,
+   "explanation": "Sales never fall, so there is no turning point; what changes is how steeply they rise. The gradient falls to its smallest value at June and then grows, so the graph changes from concave down to concave up there, which marks a point of inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0019",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The temperature in a Ballarat backyard rises all morning, levels off for an instant at 21 \u00b0C at noon, then keeps rising until 3 pm. What feature does the graph show at noon?",
+   "imageRef": null,
+   "options": [
+    "A horizontal asymptote at 21 \u00b0C",
+    "A stationary point of inflection",
+    "A local maximum turning point",
+    "A local minimum turning point"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph is flat at noon but rises both before and after, so the gradient is zero without changing sign. A local maximum would need the temperature to fall after noon.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0020",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What are the asymptotes of the graph of y = 1/x?",
+   "imageRef": null,
+   "options": [
+    "x = 0 and y = 0",
+    "x = 1 and y = 1",
+    "y = x only",
+    "x = 0 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "1/x is undefined at x = 0 and approaches 0 as x grows large in either direction, so both axes are asymptotes. The graph is symmetric about y = x but never approaches that line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0021",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What are the asymptotes of the graph of y = 2/(x \u2212 3) + 1?",
+   "imageRef": null,
+   "options": [
+    "x = 1 and y = 3",
+    "x = 3 and y = 1",
+    "x = \u22123 and y = 1",
+    "x = 3 and y = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph of y = 1/x is translated 3 units right and 1 unit up, so the asymptotes move to x = 3 and y = 1. The dilation factor 2 stretches the graph but does not move any asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0022",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the range of y = 1/(x + 1)\u00b2 \u2212 4?",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u221e)",
+    "(\u22124, \u221e)",
+    "[\u22124, \u221e)",
+    "(\u2212\u221e, \u22124)"
+   ],
+   "correctIndex": 1,
+   "explanation": "1/(x + 1)\u00b2 is always positive and never zero, so y is always greater than \u22124 but never equals it. Including \u22124 forgets that the horizontal asymptote is approached and never reached.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0023",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Which of these functions has maximal domain R?",
+   "imageRef": null,
+   "options": [
+    "y = 1/(x \u2212 2)\u00b2",
+    "y = \u221b(x \u2212 2)",
+    "y = \u221a(x \u2212 2)",
+    "y = 1/(x \u2212 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every real number has a real cube root, including negative numbers: the cube root of \u22128 is \u22122. The square root needs x \u2265 2, and the two reciprocal functions are undefined at x = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0024",
+   "topicId": "meth-polynomial-functions",
+   "stem": "The graph of y = \u2212\u221a(x \u2212 2) + 3 has which endpoint and range?",
+   "imageRef": null,
+   "options": [
+    "Endpoint (2, 3), range (\u2212\u221e, 3]",
+    "Endpoint (2, 3), range [3, \u221e)",
+    "Endpoint (\u22122, 3), range (\u2212\u221e, 3]",
+    "Endpoint (3, 2), range (\u2212\u221e, 2]"
+   ],
+   "correctIndex": 0,
+   "explanation": "The graph of y = \u221ax is reflected in the x-axis, then moved 2 right and 3 up, so it starts at (2, 3) and heads downward. The reflection is what makes the range (\u2212\u221e, 3] rather than [3, \u221e).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0025",
+   "topicId": "meth-polynomial-functions",
+   "stem": "For 0 < x < 1, which of these has the greatest value?",
+   "imageRef": null,
+   "options": [
+    "x",
+    "x\u00b2",
+    "x\u00b3",
+    "x^(1/2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a number between 0 and 1, raising it to a higher power makes it smaller, and a root makes it larger: at x = 0.25, \u221ax = 0.5, x\u00b2 = 0.0625 and x\u00b3 \u2248 0.016. The order reverses for x > 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0026",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Which statement describes the graph of y = 1/x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "It passes through the origin and lies above the x-axis",
+    "It lies below the x-axis for negative values of x",
+    "It lies above the x-axis and is symmetric about the y-axis",
+    "It lies in the first and third quadrants and is symmetric about the origin"
+   ],
+   "correctIndex": 2,
+   "explanation": "Squaring makes x\u00b2 positive for every x \u2260 0, so y is always positive and the same for x and \u2212x. The first and third quadrants describe y = 1/x, whose sign follows the sign of x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0027",
+   "topicId": "meth-polynomial-functions",
+   "stem": "A truncus y = a/(x \u2212 2)\u00b2 \u2212 1 passes through the point (3, 1). What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "\u22122",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute x = 3: a/1\u00b2 \u2212 1 = 1, so a = 2. Getting 1 comes from forgetting to add the 1 across, and the graph then passes through (3, 0) instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0028",
+   "topicId": "meth-polynomial-functions",
+   "stem": "A hyperbola y = a/(x \u2212 1) + 2 passes through the origin. What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "2",
+    "\u22122",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "At (0, 0): 0 = a/(0 \u2212 1) + 2, so \u2212a + 2 = 0 and a = 2. The answer \u22122 comes from treating 0 \u2212 1 as +1; with a = \u22122 the graph would pass through (0, 4).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0029",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Where is the stationary point of inflection of y = \u22122(x + 1)\u00b3 + 4?",
+   "imageRef": null,
+   "options": [
+    "(1, 4)",
+    "(\u22121, \u22124)",
+    "(4, \u22121)",
+    "(\u22121, 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = x\u00b3 has its stationary point of inflection at the origin. Here it is translated 1 left and 4 up, so the point is (\u22121, 4). The factor \u22122 reflects and dilates the graph but does not move this point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0030",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the range of y = 3 \u2212 1/x?",
+   "imageRef": null,
+   "options": [
+    "y \u2208 R, y \u2260 3",
+    "y \u2208 R, y \u2260 0",
+    "y \u2208 R, y \u2260 \u22123",
+    "y \u2208 R, y > 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "1/x takes every real value except 0, so 3 \u2212 1/x takes every value except 3. The horizontal asymptote y = 3 is the excluded value; 0 is excluded only for y = 1/x itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0031",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the maximal domain of y = \u221a(4 \u2212 2x) + 1?",
+   "imageRef": null,
+   "options": [
+    "(\u2212\u221e, 4]",
+    "[\u22122, \u221e)",
+    "(\u2212\u221e, 2]",
+    "[2, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The square root needs 4 \u2212 2x \u2265 0, so 2x \u2264 4 and x \u2264 2. The interval [2, \u221e) comes from forgetting that the negative coefficient of x points the graph to the left.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0032",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Where does the graph of y = 2(x \u2212 1)^(1/3) \u2212 2 cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "x = 9",
+    "x = 0",
+    "x = \u22127",
+    "x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set y = 0: 2(x \u2212 1)^(1/3) = 2, so (x \u2212 1)^(1/3) = 1, x \u2212 1 = 1 and x = 2. The answer x = 9 comes from forgetting to divide by 2 first, which gives a cube root of 2 and x \u2212 1 = 8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0033",
+   "topicId": "meth-polynomial-functions",
+   "stem": "At x = 2, the graph of y = (x \u2212 2)\u00b2(x + 1):",
+   "imageRef": null,
+   "options": [
+    "has a vertical asymptote",
+    "touches the x-axis at a turning point",
+    "crosses the x-axis with non-zero gradient",
+    "has a stationary point of inflection"
+   ],
+   "correctIndex": 1,
+   "explanation": "A repeated factor (x \u2212 2)\u00b2 does not change sign, so the graph comes down to the axis and turns back. A factor cubed, such as (x \u2212 2)\u00b3, would give a stationary point of inflection instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0034",
+   "topicId": "meth-polynomial-functions",
+   "stem": "For y = \u22122x\u00b3 + x, what happens to y as x \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "y \u2192 \u22122",
+    "y \u2192 \u2212\u221e",
+    "y \u2192 \u221e",
+    "y \u2192 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "For large x the leading term \u22122x\u00b3 dominates, and it becomes a large negative number. A positive leading coefficient would send y to \u221e instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0035",
+   "topicId": "meth-polynomial-functions",
+   "stem": "What is the y-intercept of y = (x \u2212 1)(x + 2)(x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "(0, \u22126)",
+    "(0, 0)",
+    "(0, 2)",
+    "(0, 6)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set x = 0: (\u22121)(2)(\u22123) = 6. The two negative factors multiply to a positive, which is where the answer \u22126 goes wrong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0036",
+   "topicId": "meth-polynomial-functions",
+   "stem": "At the point (2, 0), the graph of y = x(x \u2212 2)\u00b3 has:",
+   "imageRef": null,
+   "options": [
+    "a stationary point of inflection",
+    "a local minimum touching the axis",
+    "a local maximum touching the axis",
+    "a vertical asymptote"
+   ],
+   "correctIndex": 0,
+   "explanation": "The factor (x \u2212 2)\u00b3 is odd-powered, so the graph crosses the axis, and because the power is 3 it flattens as it crosses. A squared factor would give a turning point touching the axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0037",
+   "topicId": "meth-polynomial-functions",
+   "stem": "A quartic with a positive leading coefficient touches the x-axis at x = \u22122 and crosses it at x = 1 and x = 3. Which rule could it have?",
+   "imageRef": null,
+   "options": [
+    "y = (x + 2)\u00b2(x \u2212 1)(x \u2212 3)",
+    "y = (x \u2212 2)\u00b2(x + 1)(x + 3)",
+    "y = (x + 2)(x \u2212 1)\u00b2(x \u2212 3)",
+    "y = \u2212(x + 2)\u00b2(x \u2212 1)(x \u2212 3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A touch point at x = \u22122 needs the squared factor (x + 2)\u00b2, and crossings at 1 and 3 need the single factors (x \u2212 1) and (x \u2212 3). The rule with (x \u2212 2)\u00b2 has every intercept's sign reversed, and the negative one has the wrong leading coefficient.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0038",
+   "topicId": "meth-polynomial-functions",
+   "stem": "How many x-intercepts can the graph of a cubic polynomial function have?",
+   "imageRef": null,
+   "options": [
+    "0, 1, 2 or 3",
+    "Exactly 3",
+    "1 or 3 only",
+    "1, 2 or 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A cubic heads to opposite infinities at its two ends, so it must cross the x-axis at least once. Two intercepts are possible when one is a touch point, as in y = x\u00b2(x \u2212 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0039",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Which function has a graph that is symmetric about the y-axis?",
+   "imageRef": null,
+   "options": [
+    "y = x\u2074 \u2212 3x\u00b2",
+    "y = x\u00b3 \u2212 x",
+    "y = (x \u2212 1)\u00b2",
+    "y = 1/x"
+   ],
+   "correctIndex": 0,
+   "explanation": "A polynomial containing only even powers gives the same value at x and \u2212x, so its graph is symmetric about the y-axis. y = x\u00b3 \u2212 x and y = 1/x are symmetric about the origin instead, and (x \u2212 1)\u00b2 is symmetric about x = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0040",
+   "topicId": "meth-polynomial-functions",
+   "stem": "Where does the graph of y = (x\u00b2 \u2212 4)\u00b2 meet the x-axis?",
+   "imageRef": null,
+   "options": [
+    "It touches at x = \u22122 and x = 2",
+    "It crosses at x = \u22122 and x = 2",
+    "It touches at x = 4 only",
+    "It crosses at x = \u22122, 0 and 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "(x\u00b2 \u2212 4)\u00b2 = (x \u2212 2)\u00b2(x + 2)\u00b2, so each intercept comes from a squared factor and the graph touches the axis at both. At x = 0 the value is 16, which is the y-intercept, not an x-intercept.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0041",
+   "topicId": "meth-polynomial-functions",
+   "stem": "For which values of x is x\u00b3 > x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "x > 1",
+    "x > 0",
+    "0 < x < 1",
+    "x < 0 or x > 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b3 \u2212 x\u00b2 = x\u00b2(x \u2212 1). The factor x\u00b2 is never negative, so the difference is positive only when x \u2212 1 > 0 and x \u2260 0, that is x > 1. For negative x, x\u00b3 is negative while x\u00b2 is positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-functions-0042",
+   "topicId": "meth-polynomial-functions",
+   "stem": "An open box made from a 10 cm square sheet has volume V(x) = x(10 \u2212 2x)\u00b2, where x cm is the side of the squares cut from each corner. What is the modelling domain?",
+   "imageRef": null,
+   "options": [
+    "[0, 10]",
+    "(\u22125, 5)",
+    "(0, 5)",
+    "(0, 10)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The cut must be positive, and the base side 10 \u2212 2x must also be positive, so x < 5. The rule is defined for any x, but (0, 10) allows cuts larger than half the sheet, which is physically impossible.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

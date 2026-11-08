@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-kinematics",
+ "questions": [
+  {
+   "id": "spec-kinematics-0001",
+   "topicId": "spec-kinematics",
+   "stem": "For a particle moving in a straight line, the signed area under its velocity\u2013time graph from t = a to t = b gives:",
+   "imageRef": null,
+   "options": [
+    "the acceleration",
+    "the average speed",
+    "the displacement",
+    "the distance travelled"
+   ],
+   "correctIndex": 2,
+   "explanation": "Velocity is the rate of change of position, so integrating it gives the change in position. Areas below the t-axis count as negative; the distance travelled counts every area as positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0002",
+   "topicId": "spec-kinematics",
+   "stem": "The gradient of a particle\u2019s velocity\u2013time graph at time t gives its:",
+   "imageRef": null,
+   "options": [
+    "displacement",
+    "speed",
+    "position",
+    "acceleration"
+   ],
+   "correctIndex": 3,
+   "explanation": "Acceleration is dv/dt, the gradient of the velocity\u2013time graph. Displacement comes from the area under that graph, not its gradient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0003",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with position x = t\u00b3 \u2212 6t\u00b2 + 9t, t \u2265 0. It is at rest when:",
+   "imageRef": null,
+   "options": [
+    "t = 2",
+    "t = 1 and t = 3",
+    "t = 0 and t = 3",
+    "t = 3 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "At rest means v = 0: v = 3t\u00b2 \u2212 12t + 9 = 3(t \u2212 1)(t \u2212 3), so t = 1 or t = 3. At t = 2 the acceleration 6t \u2212 12 is zero, which is a different condition. Solving x = 0 gives t = 0 and t = 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0004",
+   "topicId": "spec-kinematics",
+   "stem": "If a particle\u2019s velocity v is known as a function of its position x, its acceleration can be found as:",
+   "imageRef": null,
+   "options": [
+    "v(dv/dx)",
+    "dv/dx",
+    "x(dv/dx)",
+    "v\u00b2/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the chain rule, a = dv/dt = (dv/dx)(dx/dt) = v(dv/dx), which also equals d/dx(v\u00b2/2). The derivative dv/dx alone is not an acceleration; it still needs the factor v.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0005",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has position vector r(t) = t\u00b2i + 3tj. Its velocity vector is:",
+   "imageRef": null,
+   "options": [
+    "t\u00b2i + 3j",
+    "2i",
+    "2ti + 3j",
+    "2ti + 3tj"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiate each component with respect to t: d/dt(t\u00b2) = 2t and d/dt(3t) = 3. The velocity 2i is the acceleration, the second derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0006",
+   "topicId": "spec-kinematics",
+   "stem": "At some instant a particle has velocity 3i \u2212 4j m/s. Its speed at that instant is:",
+   "imageRef": null,
+   "options": [
+    "25 m/s",
+    "5 m/s",
+    "\u22121 m/s",
+    "7 m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "Speed is the magnitude of velocity: \u221a(3\u00b2 + (\u22124)\u00b2) = \u221a25 = 5 m/s. Speed can never be negative, and 25 forgets the square root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0007",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has acceleration a(t) = 6ti and initial velocity 2j. Its velocity at time t is:",
+   "imageRef": null,
+   "options": [
+    "3t\u00b2i + 2j",
+    "6i + 2j",
+    "3t\u00b2i",
+    "3t\u00b2i + 2tj"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating gives v = 3t\u00b2i + c, and v(0) = 2j gives c = 2j. Differentiating instead gives 6i, and 2tj comes from anti-differentiating the initial velocity as well.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0008",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with v = 2t \u2212 4 and x(0) = 3. Its position at t = 3 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22123",
+    "3",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating: x = t\u00b2 \u2212 4t + c, and x(0) = 3 gives c = 3. Then x(3) = 9 \u2212 12 + 3 = 0. Leaving out the constant gives \u22123.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0009",
+   "topicId": "spec-kinematics",
+   "stem": "The path of r(t) = ti + (1/t)j, t > 0, is:",
+   "imageRef": null,
+   "options": [
+    "the circle x\u00b2 + y\u00b2 = 1",
+    "the branch of y = 1/x with x > 0",
+    "both branches of y = 1/x",
+    "the line y = x"
+   ],
+   "correctIndex": 1,
+   "explanation": "x = t and y = 1/t give y = 1/x, and t > 0 restricts the path to x > 0. The domain of the parameter decides which part of the Cartesian graph is traced.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0010",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has position r(t) = e^(2t)i + e^(\u2212t)j. Its velocity at t = 0 is:",
+   "imageRef": null,
+   "options": [
+    "e\u00b2i \u2212 e^(\u22121)j",
+    "2i \u2212 j",
+    "i + j",
+    "2i + j"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = 2e^(2t)i \u2212 e^(\u2212t)j, so v(0) = 2i \u2212 j. The vector i + j is the position at t = 0, and e\u00b2i \u2212 e^(\u22121)j substitutes t = 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0011",
+   "topicId": "spec-kinematics",
+   "stem": "A particle\u2019s velocity\u2013time graph is below the t-axis for 0 < t < 3 and above it for t > 3. At t = 3 the particle:",
+   "imageRef": null,
+   "options": [
+    "returns to its starting point",
+    "changes direction",
+    "is at the origin",
+    "has zero acceleration"
+   ],
+   "correctIndex": 1,
+   "explanation": "The velocity changes sign at t = 3, so the direction of motion reverses. The position at that moment depends on the area so far, and the acceleration there is the gradient, which need not be zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0012",
+   "topicId": "spec-kinematics",
+   "stem": "A particle in rectilinear motion has a = 6t and v = 5 when t = 1. Its velocity at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "12",
+    "17",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating: v = 3t\u00b2 + c, and v(1) = 5 gives c = 2, so v(2) = 14. Treating 5 as the velocity at t = 0 gives 17, and leaving out c gives 12.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0013",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has velocity v(t) = 2ti + 2j + t\u00b2k. Its speed at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "\u221a12",
+    "36",
+    "6",
+    "10"
+   ],
+   "correctIndex": 2,
+   "explanation": "v(2) = 4i + 2j + 4k, with magnitude \u221a(16 + 4 + 16) = \u221a36 = 6. Adding the components gives 10, and 36 forgets the square root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0014",
+   "topicId": "spec-kinematics",
+   "stem": "The path of r(t) = 2cos(t)i + 2sin(t)j, t \u2265 0, is:",
+   "imageRef": null,
+   "options": [
+    "a circle of radius 4 traced anticlockwise",
+    "the line segment from (2, 0) to (0, 2)",
+    "a circle of radius 2 traced anticlockwise",
+    "a circle of radius 2 traced clockwise"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b2 + y\u00b2 = 4cos\u00b2(t) + 4sin\u00b2(t) = 4, a circle of radius 2. At t = 0 the particle is at (2, 0) and at t = \u03c0/2 at (0, 2), so it moves anticlockwise. The radius is 2, not 2\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0015",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with v = t \u2212 2, 0 \u2264 t \u2264 4. The distance it travels is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "8",
+    "4",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The particle moves backwards for 0 < t < 2 and forwards for 2 < t < 4, each covering 2 units, so the distance is 4. The integral of v over [0, 4] is 0, which is the displacement.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0016",
+   "topicId": "spec-kinematics",
+   "stem": "A ball is thrown vertically upward at 19.6 m/s with acceleration \u22129.8 m/s\u00b2. Its maximum height above the release point is:",
+   "imageRef": null,
+   "options": [
+    "19.6 m",
+    "39.2 m",
+    "9.8 m",
+    "2 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = 19.6 \u2212 9.8t is zero at t = 2, and x = 19.6t \u2212 4.9t\u00b2 gives x(2) = 39.2 \u2212 19.6 = 19.6 m. Multiplying the initial speed by the time ignores the slowing down, and 2 is the time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0017",
+   "topicId": "spec-kinematics",
+   "stem": "A boat\u2019s acceleration is a = \u22120.5v, and v = 10 at t = 0. Its velocity at time t is:",
+   "imageRef": null,
+   "options": [
+    "10 \u2212 0.5t",
+    "10e^(0.5t)",
+    "10 \u2212 0.25t\u00b2",
+    "10e^(\u22120.5t)"
+   ],
+   "correctIndex": 3,
+   "explanation": "dv/dt = \u22120.5v is exponential decay, so v = 10e^(\u22120.5t). The answer 10 \u2212 0.5t treats the acceleration as constant, but it changes as v changes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0018",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line so that v\u00b2 = 16 \u2212 x\u00b2. Its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "\u22122x",
+    "\u2212x/v",
+    "16 \u2212 x",
+    "\u2212x"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = d/dx(v\u00b2/2) = d/dx(8 \u2212 x\u00b2/2) = \u2212x. The expression \u2212x/v is dv/dx, which still needs the factor v, and \u22122x forgets to halve v\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0019",
+   "topicId": "spec-kinematics",
+   "stem": "A car accelerates uniformly from rest to 10 m/s in 4 s, travels at 10 m/s for 6 s, then slows uniformly to rest in 2 s. The distance travelled is:",
+   "imageRef": null,
+   "options": [
+    "100 m",
+    "80 m",
+    "90 m",
+    "120 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area under the velocity\u2013time graph is a triangle, a rectangle and a triangle: 20 + 60 + 10 = 90 m. Treating the whole 12 s as 10 m/s gives 120 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0020",
+   "topicId": "spec-kinematics",
+   "stem": "Particle A has position (t + 1)i + 2tj and particle B has position (3t \u2212 1)i + (t + 1)j, t \u2265 0. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "They meet at t = 2, at (3, 4)",
+    "Their paths never cross",
+    "They meet at t = 1, at (2, 2)",
+    "Their paths cross, but they never meet"
+   ],
+   "correctIndex": 2,
+   "explanation": "They meet if their position vectors are equal at the same t: t + 1 = 3t \u2212 1 gives t = 1, and 2t = t + 1 also gives t = 1. Both are at (2, 2) then. At t = 2, A is at (3, 4) but B is at (5, 3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0021",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has position r(t) = 3cos(t)i + 3sin(t)j + 4tk. Its speed is:",
+   "imageRef": null,
+   "options": [
+    "\u221a7",
+    "3",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "v = \u22123sin(t)i + 3cos(t)j + 4k, so the speed is \u221a(9sin\u00b2(t) + 9cos\u00b2(t) + 16) = \u221a25 = 5 for all t. Adding 3 and 4 gives 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0022",
+   "topicId": "spec-kinematics",
+   "stem": "The path of r(t) = (1 + 2cos(t))i + (3sin(t) \u2212 1)j has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)\u00b2/9 + (y + 1)\u00b2/4 = 1",
+    "(x \u2212 1)\u00b2/4 + (y + 1)\u00b2/9 = 1",
+    "(x + 1)\u00b2/4 + (y \u2212 1)\u00b2/9 = 1",
+    "(x \u2212 1)\u00b2/2 + (y + 1)\u00b2/3 = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos(t) = (x \u2212 1)/2 and sin(t) = (y + 1)/3, and cos\u00b2(t) + sin\u00b2(t) = 1 gives an ellipse with centre (1, \u22121). The denominators are the squares of 2 and 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0023",
+   "topicId": "spec-kinematics",
+   "stem": "A projectile has a = \u221210j, v(0) = 20i + 30j and r(0) = 0, in metres and seconds. How far has it travelled horizontally when it returns to y = 0?",
+   "imageRef": null,
+   "options": [
+    "60 m",
+    "180 m",
+    "90 m",
+    "120 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Anti-differentiating twice: r(t) = 20ti + (30t \u2212 5t\u00b2)j. The height is zero again at t = 6, when x = 120 m. Stopping at the top of the flight, t = 3, gives 60 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0024",
+   "topicId": "spec-kinematics",
+   "stem": "A projectile has position r(t) = 10ti + (20t \u2212 5t\u00b2)j metres. Its maximum height is:",
+   "imageRef": null,
+   "options": [
+    "15 m",
+    "20 m",
+    "40 m",
+    "10 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vertical velocity 20 \u2212 10t is zero at t = 2, so the maximum height is 40 \u2212 20 = 20 m. Using 20t alone ignores gravity and gives 40 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0025",
+   "topicId": "spec-kinematics",
+   "stem": "An object falls so that dv/dt = 9.8 \u2212 0.2v. Its limiting (terminal) velocity is:",
+   "imageRef": null,
+   "options": [
+    "49 m/s",
+    "9.8 m/s",
+    "1.96 m/s",
+    "0.2 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "The velocity stops changing when dv/dt = 0, so 0.2v = 9.8 and v = 49 m/s. Multiplying 9.8 by 0.2 instead of dividing gives 1.96.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0026",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves along the curve r(t) = 2cos(t)i + 2sin(t)j + tk. How far does it travel for 0 \u2264 t \u2264 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "\u221a5",
+    "2\u03c0\u221a5",
+    "4\u03c0",
+    "2\u03c0\u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The speed is \u221a(4sin\u00b2(t) + 4cos\u00b2(t) + 1) = \u221a5, constant, so the distance is 2\u03c0\u221a5. The value 4\u03c0 is the circumference of the circle beneath the helix, which ignores the upward motion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0027",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with x = 5sin(2t). The greatest magnitude of its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "40",
+    "20",
+    "10",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiating twice: a = \u221220sin(2t), so the greatest magnitude is 20. The value 10 is the greatest speed, from v = 10cos(2t).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0028",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with v = e^(\u2212t). Its acceleration in terms of v is:",
+   "imageRef": null,
+   "options": [
+    "\u2212v",
+    "v",
+    "\u2212v\u00b2",
+    "\u22121/v"
+   ],
+   "correctIndex": 0,
+   "explanation": "a = dv/dt = \u2212e^(\u2212t), and e^(\u2212t) = v, so a = \u2212v. The particle slows down at a rate proportional to its speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0029",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with v = 2x. Its acceleration in terms of x is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "2x",
+    "8x",
+    "4x"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = v(dv/dx) = 2x \u00d7 2 = 4x, or equivalently d/dx(v\u00b2/2) = d/dx(2x\u00b2) = 4x. The value 2 is dv/dx alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0030",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with a = \u22124x, and v = 0 when x = 3. Its speed when x = 0 is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "36",
+    "3\u221a2",
+    "12"
+   ],
+   "correctIndex": 0,
+   "explanation": "Use a = d/dx(v\u00b2/2): v\u00b2/2 = \u22122x\u00b2 + c, and v = 0 at x = 3 gives c = 18. At x = 0, v\u00b2 = 36, so the speed is 6. Forgetting the square root gives 36, and forgetting to double gives 3\u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0031",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with a = \u2212v\u00b2, and v = 4 when x = 0. Its velocity as a function of x is:",
+   "imageRef": null,
+   "options": [
+    "v = 4e^(\u2212x)",
+    "v = 4e^(\u2212x\u00b2/2)",
+    "v = 4/(1 + 4x)",
+    "v = 4 \u2212 x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write a = v(dv/dx) = \u2212v\u00b2, so dv/dx = \u2212v and v = 4e^(\u2212x). The form 4/(1 + 4x) comes from using dv/dt = \u2212v\u00b2 and then writing x where t belongs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0032",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with x = t\u00b2 \u2212 4t for 0 \u2264 t \u2264 5. Its average speed over this time is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "13",
+    "13/5",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The particle turns at t = 2, where x = \u22124. It moves 4 units back, then from \u22124 to x(5) = 5, a further 9 units, so the distance is 13 and the average speed 13/5. The average velocity is 5/5 = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0033",
+   "topicId": "spec-kinematics",
+   "stem": "Particle A has position ti + tj and particle B has position (4 \u2212 t)i + (t \u2212 2)j, t \u2265 0. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "Their paths cross at (1, 1), at different times",
+    "They meet at (1, 1) when t = 1",
+    "Their paths do not cross",
+    "They meet at (1, 1) when t = 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "A travels along y = x and B along y = 2 \u2212 x, so the paths cross at (1, 1). A is there at t = 1 but B is there at t = 3, so the particles never meet. Meeting needs the same point at the same time.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0034",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has position r(t) = 3cos(2t)i + 3sin(2t)j. Which statement about its acceleration a is true?",
+   "imageRef": null,
+   "options": [
+    "a = 4r, directed away from the origin",
+    "a = \u22122r, directed towards the origin",
+    "a = 0, since the speed is constant",
+    "a = \u22124r, directed towards the origin"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiating twice multiplies each component by \u22124, so a = \u22124r, of magnitude 12, pointing to the centre. Constant speed does not mean zero acceleration, because the direction of the velocity keeps changing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0035",
+   "topicId": "spec-kinematics",
+   "stem": "A particle has position r(t) = 2cos(t)i + sin(t)j. Its maximum speed is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u221a5",
+    "3",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "v = \u22122sin(t)i + cos(t)j, so speed\u00b2 = 4sin\u00b2(t) + cos\u00b2(t) = 1 + 3sin\u00b2(t), which is at most 4. The maximum speed is 2. The components cannot both be largest at the same t, so \u221a(4 + 1) is never reached.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0036",
+   "topicId": "spec-kinematics",
+   "stem": "The path of r(t) = (e^t + e^(\u2212t))i + (e^t \u2212 e^(\u2212t))j, t \u2208 R, is:",
+   "imageRef": null,
+   "options": [
+    "both branches of x\u00b2 \u2212 y\u00b2 = 4",
+    "the circle x\u00b2 + y\u00b2 = 4",
+    "the right branch of x\u00b2 \u2212 y\u00b2 = 1",
+    "the right branch of x\u00b2 \u2212 y\u00b2 = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u00b2 \u2212 y\u00b2 = (e^t + e^(\u2212t))\u00b2 \u2212 (e^t \u2212 e^(\u2212t))\u00b2 = 4. Since x = e^t + e^(\u2212t) > 0 for all t, only the right branch, x \u2265 2, is traced.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0037",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with dv/dt = \u22120.1v\u00b2, and v = 20 m/s at t = 0. Its velocity at t = 2 s is:",
+   "imageRef": null,
+   "options": [
+    "10 m/s",
+    "12 m/s",
+    "4 m/s",
+    "20e^(\u22120.2) m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating: 1/v = 0.1t + 1/20, so v = 20/(1 + 2t), and v(2) = 20/5 = 4 m/s. The answer 20e^(\u22120.2) solves dv/dt = \u22120.1v instead, where the drag is proportional to v rather than v\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0038",
+   "topicId": "spec-kinematics",
+   "stem": "A particle moves in a straight line with v = 1/(1 + t\u00b2), starting at x = 0. As t \u2192 \u221e, its position approaches:",
+   "imageRef": null,
+   "options": [
+    "\u221e",
+    "1",
+    "\u03c0/4",
+    "\u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = tan\u207b\u00b9(t), since x(0) = 0, and tan\u207b\u00b9(t) \u2192 \u03c0/2 as t \u2192 \u221e. The velocity stays positive but falls fast enough that the total distance is finite. The value \u03c0/4 is the position at t = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-kinematics-0039",
+   "topicId": "spec-kinematics",
+   "stem": "The path of r(t) = cos\u00b2(t)i + sin\u00b2(t)j, t \u2208 R, is:",
+   "imageRef": null,
+   "options": [
+    "the whole line x + y = 1",
+    "the parabola y = 1 \u2212 x\u00b2",
+    "the segment of x + y = 1 with 0 \u2264 x \u2264 1",
+    "the circle x\u00b2 + y\u00b2 = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "x + y = cos\u00b2(t) + sin\u00b2(t) = 1, and x = cos\u00b2(t) lies between 0 and 1, so only a segment is traced, back and forth. The circle needs cos(t) and sin(t), not their squares.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-kinematics-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

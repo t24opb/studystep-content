@@ -1,0 +1,784 @@
+{
+ "topicId": "spec-rational-functions",
+ "questions": [
+  {
+   "id": "spec-rational-functions-0001",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (2x + 1)/(x \u2212 3) has a vertical asymptote with equation:",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = 3",
+    "x = \u22123",
+    "x = \u22121/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A vertical asymptote occurs where the denominator is zero and the numerator is not, so x \u2212 3 = 0 gives x = 3. The value x = \u22121/2 makes the numerator zero, which is the x-intercept, and 2 is the height of the horizontal asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0002",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = 3 + 2/(x + 1) has asymptotes with equations:",
+   "imageRef": null,
+   "options": [
+    "x = \u22121 and y = 2",
+    "x = 3 and y = \u22121",
+    "x = \u22121 and y = 3",
+    "x = 1 and y = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "As x \u2192 \u00b1\u221e the fraction 2/(x + 1) \u2192 0, so y \u2192 3. The fraction is undefined at x = \u22121. The numerator 2 is a dilation factor, not the height of an asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0003",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (x\u00b2 + 1)/x has an oblique asymptote with equation:",
+   "imageRef": null,
+   "options": [
+    "y = x + 1",
+    "y = 0",
+    "y = x",
+    "y = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing gives y = x + 1/x, and 1/x \u2192 0 as x \u2192 \u00b1\u221e, so the graph approaches the line y = x. The vertical asymptote is x = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0004",
+   "topicId": "spec-rational-functions",
+   "stem": "Express 5/((x \u2212 1)(x + 4)) as partial fractions.",
+   "imageRef": null,
+   "options": [
+    "1/(x \u2212 1) \u2212 1/(x + 4)",
+    "1/(x + 4) \u2212 1/(x \u2212 1)",
+    "5/(x \u2212 1) \u2212 5/(x + 4)",
+    "1/(x \u2212 1) + 1/(x + 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write 5 = A(x + 4) + B(x \u2212 1). At x = 1, 5 = 5A so A = 1; at x = \u22124, 5 = \u22125B so B = \u22121. Checking: 1/(x \u2212 1) \u2212 1/(x + 4) = 5/((x \u2212 1)(x + 4)).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0005",
+   "topicId": "spec-rational-functions",
+   "stem": "The correct form of partial fractions for (x + 4)/((x \u2212 1)\u00b2(x + 2)) is:",
+   "imageRef": null,
+   "options": [
+    "A/(x \u2212 1)\u00b2 + B/(x + 2)",
+    "A/(x \u2212 1) + B/(x + 2)",
+    "A/(x \u2212 1) + B/(x + 1) + C/(x + 2)",
+    "A/(x \u2212 1) + B/(x \u2212 1)\u00b2 + C/(x + 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A repeated linear factor (x \u2212 1)\u00b2 needs a term for each power, A/(x \u2212 1) and B/(x \u2212 1)\u00b2. Leaving out either term means the constants cannot match every numerator. (x \u2212 1)\u00b2 is not (x \u2212 1)(x + 1).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0006",
+   "topicId": "spec-rational-functions",
+   "stem": "Which describes the graph of y = 1/(x\u00b2 + 1)?",
+   "imageRef": null,
+   "options": [
+    "Vertical asymptotes x = 1 and x = \u22121",
+    "A local maximum at (0, 1) and the asymptote x = 0",
+    "A local maximum at (0, 1) and no vertical asymptote",
+    "A local minimum at (0, 1) and no vertical asymptote"
+   ],
+   "correctIndex": 2,
+   "explanation": "The denominator x\u00b2 + 1 is never zero, so there is no vertical asymptote. It is smallest at x = 0, so its reciprocal is largest there, giving a maximum of 1. Students who see x\u00b2 \u2212 1 instead of x\u00b2 + 1 expect asymptotes at x = \u00b11.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0007",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (x \u2212 2)/(x + 1) crosses the axes at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 0) and (0, \u22122)",
+    "(2, 0) and (0, \u22122)",
+    "(\u22122, 0) and (0, 2)",
+    "(2, 0) and (0, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The x-intercept is where the numerator is zero, x = 2. At x = 0, y = \u22122/1 = \u22122. The line x = \u22121 is the vertical asymptote, not an intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0008",
+   "topicId": "spec-rational-functions",
+   "stem": "For x > 0, the graph of y = 1/x is:",
+   "imageRef": null,
+   "options": [
+    "decreasing and concave up",
+    "decreasing and concave down",
+    "increasing and concave up",
+    "increasing and concave down"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = \u22121/x\u00b2 < 0, so the graph decreases, and d\u00b2y/dx\u00b2 = 2/x\u00b3 > 0 for x > 0, so it is concave up. For x < 0 the graph is concave down.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0009",
+   "topicId": "spec-rational-functions",
+   "stem": "As x \u2192 2, the graph of y = 1/(x \u2212 2)\u00b2:",
+   "imageRef": null,
+   "options": [
+    "crosses the line x = 2",
+    "tends to +\u221e from both sides",
+    "tends to +\u221e from the right and \u2212\u221e from the left",
+    "tends to 0 from both sides"
+   ],
+   "correctIndex": 1,
+   "explanation": "The denominator is a square, so y is positive on both sides of x = 2 and grows without bound. The sign change from +\u221e to \u2212\u221e belongs to 1/(x \u2212 2), where the factor is not squared.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0010",
+   "topicId": "spec-rational-functions",
+   "stem": "For x > 0, the graph of y = ln(x)/x has a maximum at:",
+   "imageRef": null,
+   "options": [
+    "(1/e, \u2212e)",
+    "(e, 1/e)",
+    "(1, 0)",
+    "(e, e)"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the quotient rule, dy/dx = (1 \u2212 ln(x))/x\u00b2, which is zero when ln(x) = 1, so x = e and y = 1/e. The point (1, 0) is the x-intercept, and (e, e) is the minimum of the different function x/ln(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0011",
+   "topicId": "spec-rational-functions",
+   "stem": "The x-intercepts of the graph of y = (x\u00b2 \u2212 9)/(x + 1) are at:",
+   "imageRef": null,
+   "options": [
+    "x = 9 and x = \u22129",
+    "x = 3 and x = \u22123",
+    "x = \u22121",
+    "x = 3 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph meets the x-axis where the numerator is zero and the denominator is not: x\u00b2 = 9, so x = \u00b13. The value x = \u22121 is the vertical asymptote.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0012",
+   "topicId": "spec-rational-functions",
+   "stem": "Express (3x + 5)/((x + 1)(x + 3)) as partial fractions.",
+   "imageRef": null,
+   "options": [
+    "1/(x + 1) \u2212 2/(x + 3)",
+    "3/(x + 1) + 5/(x + 3)",
+    "1/(x + 1) + 2/(x + 3)",
+    "2/(x + 1) + 1/(x + 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write 3x + 5 = A(x + 3) + B(x + 1). At x = \u22121, 2 = 2A so A = 1; at x = \u22123, \u22124 = \u22122B so B = 2. Swapping A and B is a common slip when the cover-up values are substituted into the wrong factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0013",
+   "topicId": "spec-rational-functions",
+   "stem": "The correct form of partial fractions for (2x\u00b2 + 3)/((x\u00b2 + 1)(x \u2212 2)) is:",
+   "imageRef": null,
+   "options": [
+    "A/(x \u2212 2) + B/(x\u00b2 + 1)",
+    "A/(x \u2212 2) + B/(x + 1) + C/(x \u2212 1)",
+    "A/(x \u2212 2) + Bx/(x\u00b2 + 1)",
+    "A/(x \u2212 2) + (Bx + C)/(x\u00b2 + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u00b2 + 1 has no real factors, so it is an irreducible quadratic and needs a linear numerator Bx + C. A constant or Bx alone cannot match every numerator, and x\u00b2 + 1 is not (x + 1)(x \u2212 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0014",
+   "topicId": "spec-rational-functions",
+   "stem": "Express (2x + 3)/(x + 1)\u00b2 as partial fractions.",
+   "imageRef": null,
+   "options": [
+    "2/(x + 1) + 3/(x + 1)\u00b2",
+    "3/(x + 1) \u2212 1/(x + 1)\u00b2",
+    "2/(x + 1)\u00b2 + 1/(x + 1)",
+    "2/(x + 1) + 1/(x + 1)\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write 2x + 3 = A(x + 1) + B. Matching x terms gives A = 2, and at x = \u22121, B = 1. The answer with 3/(x + 1)\u00b2 copies the constant 3 from the numerator instead of solving for it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0015",
+   "topicId": "spec-rational-functions",
+   "stem": "Express (x\u00b2 + 1)/(x\u00b2 \u2212 1) as partial fractions.",
+   "imageRef": null,
+   "options": [
+    "1/(x \u2212 1) \u2212 1/(x + 1)",
+    "1 + 2/(x \u2212 1) \u2212 2/(x + 1)",
+    "1 \u2212 1/(x \u2212 1) + 1/(x + 1)",
+    "1 + 1/(x \u2212 1) \u2212 1/(x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fraction is improper, so divide first: (x\u00b2 + 1)/(x\u00b2 \u2212 1) = 1 + 2/(x\u00b2 \u2212 1). Then 2/((x \u2212 1)(x + 1)) = 1/(x \u2212 1) \u2212 1/(x + 1). Leaving out the 1 from the division is the most common error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0016",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (x\u00b2 + 3x + 5)/(x + 1) has an oblique asymptote with equation:",
+   "imageRef": null,
+   "options": [
+    "y = x",
+    "y = x + 5",
+    "y = x + 2",
+    "y = x + 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Division gives x\u00b2 + 3x + 5 = (x + 1)(x + 2) + 3, so y = x + 2 + 3/(x + 1). The remainder term tends to 0, leaving y = x + 2. Reading off y = x + 3 ignores the division.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0017",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = e^x/x, x \u2260 0, has a stationary point at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22121/e)",
+    "(0, 1)",
+    "(e, e^(e \u2212 1))",
+    "(1, e)"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the quotient rule, dy/dx = e^x(x \u2212 1)/x\u00b2, which is zero only at x = 1, where y = e. The point (\u22121, \u22121/e) is on the graph but not stationary, and x = 0 is the vertical asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0018",
+   "topicId": "spec-rational-functions",
+   "stem": "For x > 1, the graph of y = x/ln(x) has a local minimum at:",
+   "imageRef": null,
+   "options": [
+    "(e, 1/e)",
+    "(e, e)",
+    "(1, 0)",
+    "(e\u00b2, e\u00b2/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = (ln(x) \u2212 1)/(ln(x))\u00b2, which is zero when x = e, giving y = e/1 = e. The point (e\u00b2, e\u00b2/2) is the point of inflection, and (e, 1/e) is the maximum of the reciprocal function ln(x)/x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0019",
+   "topicId": "spec-rational-functions",
+   "stem": "As x \u2192 \u2212\u221e, the value of e^x/x approaches:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u221e",
+    "1",
+    "0, from below the x-axis",
+    "0, from above the x-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "The numerator e^x \u2192 0 while the denominator x \u2192 \u2212\u221e, so the quotient tends to 0. For x < 0 the numerator is positive and the denominator negative, so the values are negative, below the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0020",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = 1/(x\u00b2 \u2212 2x \u2212 3) has a local maximum at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22121/4)",
+    "(1, 1/4)",
+    "(1, \u22121/4)",
+    "(1, \u22124)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The quadratic x\u00b2 \u2212 2x \u2212 3 = (x \u2212 1)\u00b2 \u2212 4 has its minimum \u22124 at x = 1, so its reciprocal has a turning point at (1, \u22121/4). Between the asymptotes x = \u22121 and x = 3 the quadratic is negative, so the turning point is a local maximum below the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0021",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = x + 4/x\u00b2 has a stationary point at:",
+   "imageRef": null,
+   "options": [
+    "(\u22122, \u22121)",
+    "(2, 4)",
+    "(4, 17/4)",
+    "(2, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = 1 \u2212 8/x\u00b3, which is zero when x\u00b3 = 8, so x = 2 and y = 2 + 4/4 = 3. The point (\u22122, \u22121) is on the graph, but there dy/dx = 2, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0022",
+   "topicId": "spec-rational-functions",
+   "stem": "Which feature does the graph of y = x\u00b2/(x\u00b2 \u2212 1) have?",
+   "imageRef": null,
+   "options": [
+    "A horizontal asymptote y = 0",
+    "An oblique asymptote y = x",
+    "A local maximum at the origin",
+    "A local minimum at the origin"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write y = 1 + 1/(x\u00b2 \u2212 1). Near x = 0 the denominator x\u00b2 \u2212 1 is negative, so y \u2264 0 with y = 0 only at the origin, a local maximum. As x \u2192 \u00b1\u221e, y \u2192 1, so the horizontal asymptote is y = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0023",
+   "topicId": "spec-rational-functions",
+   "stem": "The maximum value of y = x/(x\u00b2 + 1) is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1",
+    "1/4",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = (1 \u2212 x\u00b2)/(x\u00b2 + 1)\u00b2, which is zero at x = \u00b11. At x = 1, y = 1/2, the maximum, and at x = \u22121 the minimum is \u22121/2. The value 1 is the x-coordinate of the maximum, not its value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0024",
+   "topicId": "spec-rational-functions",
+   "stem": "For f(x) = x + 1/x, the value of f\u2032\u2032(1) and the nature of the stationary point at x = 1 are:",
+   "imageRef": null,
+   "options": [
+    "\u22122, a local maximum",
+    "2, a local maximum",
+    "0, a point of inflection",
+    "2, a local minimum"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 1 \u2212 1/x\u00b2 and f\u2032\u2032(x) = 2/x\u00b3, so f\u2032\u2032(1) = 2 > 0 and the graph is concave up there: a local minimum at (1, 2). A positive second derivative means a minimum, not a maximum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0025",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = x\u00b2/(x \u2212 1) has a local minimum at:",
+   "imageRef": null,
+   "options": [
+    "(1, 2)",
+    "(\u22122, \u22124/3)",
+    "(2, 4)",
+    "(0, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write y = x + 1 + 1/(x \u2212 1), so dy/dx = 1 \u2212 1/(x \u2212 1)\u00b2, which is zero at x = 0 and x = 2. At (0, 0) the graph has a local maximum and at (2, 4) a local minimum. The minimum is higher than the maximum because they lie on different branches.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0026",
+   "topicId": "spec-rational-functions",
+   "stem": "A rational function has vertical asymptote x = 1, horizontal asymptote y = 2 and passes through the origin. Its rule could be:",
+   "imageRef": null,
+   "options": [
+    "y = 2x/(x \u2212 1)",
+    "y = 2/(x \u2212 1)",
+    "y = (x + 2)/(x \u2212 1)",
+    "y = 2x/(x + 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For 2x/(x \u2212 1), the denominator is zero at x = 1, y \u2192 2 as x \u2192 \u00b1\u221e, and y = 0 at x = 0. The rule 2/(x \u2212 1) has horizontal asymptote y = 0, (x + 2)/(x \u2212 1) has y = 1, and 2x/(x + 1) has its asymptote at x = \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0027",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (ax + b)/(x + c) has asymptotes x = \u22121 and y = 2 and passes through (0, 4). The values of a, b and c are:",
+   "imageRef": null,
+   "options": [
+    "a = 2, b = 4, c = \u22121",
+    "a = 4, b = 2, c = 1",
+    "a = 2, b = \u22124, c = 1",
+    "a = 2, b = 4, c = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vertical asymptote x = \u22121 needs x + c = 0 at x = \u22121, so c = 1. The horizontal asymptote is y = a, so a = 2. At x = 0, y = b/c = b = 4. Taking c = \u22121 confuses the asymptote with the value of c.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0028",
+   "topicId": "spec-rational-functions",
+   "stem": "For which values of k does the graph of y = 1/(x\u00b2 + k) have exactly two vertical asymptotes?",
+   "imageRef": null,
+   "options": [
+    "k = 0",
+    "k \u2265 0",
+    "k < 0",
+    "k > 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Vertical asymptotes occur where x\u00b2 = \u2212k. This has two solutions, x = \u00b1\u221a(\u2212k), only when k < 0. When k = 0 there is one asymptote, x = 0, and when k > 0 there are none.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0029",
+   "topicId": "spec-rational-functions",
+   "stem": "Which statement about the graph of y = (x\u00b2 \u2212 1)/(x \u2212 1) is true?",
+   "imageRef": null,
+   "options": [
+    "It is the line y = x + 1, including the point (1, 2)",
+    "It is the line y = x + 1 with the point (1, 2) removed",
+    "It has a vertical asymptote x = 1",
+    "It has an oblique asymptote y = x \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "For x \u2260 1 the rule simplifies to x + 1, but the function is undefined at x = 1, leaving a hole at (1, 2). There is no asymptote, because the factor x \u2212 1 cancels.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0030",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = x\u00b2/e^x has a local maximum at:",
+   "imageRef": null,
+   "options": [
+    "(0, 0)",
+    "(1, 1/e)",
+    "(2, 4e\u00b2)",
+    "(2, 4/e\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = (2x \u2212 x\u00b2)/e^x = x(2 \u2212 x)/e^x, zero at x = 0 and x = 2. The sign changes from positive to negative at x = 2, a maximum of 4/e\u00b2. The origin is a local minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0031",
+   "topicId": "spec-rational-functions",
+   "stem": "The asymptotes of the graph of y = (2x\u00b2 + 1)/(x\u00b2 \u2212 9) are:",
+   "imageRef": null,
+   "options": [
+    "x = 9, x = \u22129 and y = 2",
+    "x = 3, x = \u22123 and y = 2",
+    "x = 3, x = \u22123 and y = 0",
+    "x = 3 and y = 2 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "The denominator x\u00b2 \u2212 9 = (x \u2212 3)(x + 3) is zero at x = \u00b13. The numerator and denominator have the same degree, so y tends to the ratio of leading coefficients, 2/1 = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0032",
+   "topicId": "spec-rational-functions",
+   "stem": "The points of inflection of the graph of y = 1/(x\u00b2 + 1) occur where x equals:",
+   "imageRef": null,
+   "options": [
+    "\u00b1\u221a3",
+    "\u00b11/\u221a3",
+    "\u00b11",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = \u22122x/(x\u00b2 + 1)\u00b2 and d\u00b2y/dx\u00b2 = (6x\u00b2 \u2212 2)/(x\u00b2 + 1)\u00b3, which is zero and changes sign at x\u00b2 = 1/3, where y = 3/4. At x = 0 there is a maximum, not an inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0033",
+   "topicId": "spec-rational-functions",
+   "stem": "As x \u2192 \u00b1\u221e, the graph of y = (x\u00b3 + 1)/x approaches the curve:",
+   "imageRef": null,
+   "options": [
+    "y = x",
+    "y = x\u00b2 + 1",
+    "y = x\u00b3",
+    "y = x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dividing gives y = x\u00b2 + 1/x, and 1/x \u2192 0, so the graph approaches the parabola y = x\u00b2. A non-linear asymptote occurs when the degree of the numerator exceeds the denominator\u2019s by 2 or more.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0034",
+   "topicId": "spec-rational-functions",
+   "stem": "Which statement about the graph of y = (x\u00b2 + 4)/x is true?",
+   "imageRef": null,
+   "options": [
+    "It has a horizontal asymptote y = 1",
+    "It crosses the x-axis at x = 2 and x = \u22122",
+    "Its local maximum value is less than its local minimum value",
+    "Its local maximum value is greater than its local minimum value"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = x + 4/x has a local maximum at (\u22122, \u22124) and a local minimum at (2, 4), on different branches of the graph, so the maximum value is lower. The numerator x\u00b2 + 4 is never zero, so there are no x-intercepts.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0035",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = x/e^x has a point of inflection at:",
+   "imageRef": null,
+   "options": [
+    "(2, 2/e\u00b2)",
+    "(1, 1/e)",
+    "(0, 0)",
+    "(2, 2e\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = (1 \u2212 x)/e^x and d\u00b2y/dx\u00b2 = (x \u2212 2)/e^x, which changes sign at x = 2, where y = 2/e\u00b2. The point (1, 1/e) is the maximum, where the first derivative is zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0036",
+   "topicId": "spec-rational-functions",
+   "stem": "The graph of y = (2x\u00b2 + x)/(x\u00b2 + 1) crosses its horizontal asymptote at:",
+   "imageRef": null,
+   "options": [
+    "nowhere, as no graph can cross an asymptote",
+    "x = 2",
+    "x = 1/2",
+    "x = \u22121/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The horizontal asymptote is y = 2. Solving (2x\u00b2 + x)/(x\u00b2 + 1) = 2 gives 2x\u00b2 + x = 2x\u00b2 + 2, so x = 2. A graph can cross a horizontal asymptote; it only has to approach it as x \u2192 \u00b1\u221e.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0037",
+   "topicId": "spec-rational-functions",
+   "stem": "For x \u2260 0, the graph of y = x\u00b2 + 2/x has:",
+   "imageRef": null,
+   "options": [
+    "a local minimum at (1, 3) and no point of inflection",
+    "a local minimum at (\u22121, \u22121) and a local maximum at (1, 3)",
+    "a local minimum at (1, 3) and a point of inflection at (\u2212\u221b2, 0)",
+    "a local maximum at (1, 3) and a point of inflection at (\u2212\u221b2, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 2x \u2212 2/x\u00b2, zero when x\u00b3 = 1, and d\u00b2y/dx\u00b2 = 2 + 4/x\u00b3 = 6 > 0 there, a minimum at (1, 3). The second derivative changes sign at x\u00b3 = \u22122, where y = \u221b4 \u2212 2/\u221b2 = 0, so the inflection point is also the x-intercept.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0038",
+   "topicId": "spec-rational-functions",
+   "stem": "Express (x\u00b2 + 2)/(x(x\u00b2 + 1)) as partial fractions.",
+   "imageRef": null,
+   "options": [
+    "2/x \u2212 x/(x\u00b2 + 1)",
+    "2/x + x/(x\u00b2 + 1)",
+    "2/x \u2212 1/(x\u00b2 + 1)",
+    "1/x + 1/(x\u00b2 + 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write x\u00b2 + 2 = A(x\u00b2 + 1) + (Bx + C)x. At x = 0, A = 2. Then x\u00b2 + 2 = (2 + B)x\u00b2 + Cx + 2, so B = \u22121 and C = 0. Checking: 2(x\u00b2 + 1) \u2212 x\u00b2 = x\u00b2 + 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0039",
+   "topicId": "spec-rational-functions",
+   "stem": "How many stationary points does the graph of y = x/(x\u00b2 \u2212 1) have?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the quotient rule, dy/dx = ((x\u00b2 \u2212 1) \u2212 2x\u00b2)/(x\u00b2 \u2212 1)\u00b2 = \u2212(x\u00b2 + 1)/(x\u00b2 \u2212 1)\u00b2, which is never zero. The graph is decreasing on every branch, with a point of inflection at the origin.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0040",
+   "topicId": "spec-rational-functions",
+   "stem": "For which values of the real constant a does the graph of y = (x\u00b2 + a)/x have no stationary points?",
+   "imageRef": null,
+   "options": [
+    "a > 0",
+    "a < 0 only",
+    "a \u2264 0",
+    "a \u2265 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write y = x + a/x, so dy/dx = 1 \u2212 a/x\u00b2, which is zero when x\u00b2 = a. That has solutions only when a > 0. When a = 0 the graph is the line y = x with the origin removed, which has no stationary point either, so the answer includes a = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-rational-functions-0041",
+   "topicId": "spec-rational-functions",
+   "stem": "For what value of k does the graph of y = 1/(x\u00b2 \u2212 4x + k) have exactly one vertical asymptote?",
+   "imageRef": null,
+   "options": [
+    "\u22124",
+    "2",
+    "4",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "One asymptote needs the quadratic to have exactly one root, a repeated one, so its discriminant 16 \u2212 4k is zero and k = 4. Then y = 1/(x \u2212 2)\u00b2, with asymptote x = 2. The value 2 is where the asymptote is, not the value of k.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-rational-functions-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

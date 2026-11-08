@@ -1,0 +1,860 @@
+{
+ "topicId": "meth-algebra",
+ "questions": [
+  {
+   "id": "meth-algebra-0001",
+   "topicId": "meth-algebra",
+   "stem": "A function f has an inverse function exactly when f is:",
+   "imageRef": null,
+   "options": [
+    "defined for all real x",
+    "one-to-one",
+    "many-to-one",
+    "continuous"
+   ],
+   "correctIndex": 1,
+   "explanation": "An inverse must send each output back to a single input, which is only possible if no two inputs share an output. A continuous function such as x\u00b2 on R is many-to-one and has no inverse function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0002",
+   "topicId": "meth-algebra",
+   "stem": "If f(x) = 2x + 6, then f\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "1/(2x + 6)",
+    "(x \u2212 6)/2",
+    "x/2 \u2212 6",
+    "2x \u2212 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swap x and y in y = 2x + 6 to get x = 2y + 6, so y = (x \u2212 6)/2. The reciprocal 1/(2x + 6) is a different function altogether; the \u22121 in f\u207b\u00b9 is not an index.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0003",
+   "topicId": "meth-algebra",
+   "stem": "For a one-to-one function f, the domain of f\u207b\u00b9 is:",
+   "imageRef": null,
+   "options": [
+    "the co-domain of f",
+    "the range of f\u207b\u00b9",
+    "the range of f",
+    "the domain of f"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inverse swaps inputs and outputs, so its inputs are the outputs of f. The range of f\u207b\u00b9 is the domain of f, which is the other half of the same swap.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0004",
+   "topicId": "meth-algebra",
+   "stem": "The point (2, 5) lies on the graph of a one-to-one function f. Which point must lie on the graph of y = f\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "(5, 2)",
+    "(\u22122, \u22125)",
+    "(2, 1/5)",
+    "(\u22125, \u22122)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inverse swaps inputs and outputs, so (a, b) on f becomes (b, a) on f\u207b\u00b9; this is reflection in the line y = x. The point (2, 1/5) treats f\u207b\u00b9 as the reciprocal 1/f, which it is not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0005",
+   "topicId": "meth-algebra",
+   "stem": "The composite function with rule f(g(x)) is defined when:",
+   "imageRef": null,
+   "options": [
+    "the range of g is a subset of the domain of f",
+    "the range of f is a subset of the domain of g",
+    "the domain of g is a subset of the domain of f",
+    "the domain of f is a subset of the range of g"
+   ],
+   "correctIndex": 0,
+   "explanation": "g acts first, so every output of g must be an acceptable input for f. Checking the range of f against g gets the order of the composition backwards.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0006",
+   "topicId": "meth-algebra",
+   "stem": "A polynomial equation of degree 4 with real coefficients has:",
+   "imageRef": null,
+   "options": [
+    "at most 4 real solutions",
+    "exactly 4 real solutions",
+    "at least 1 real solution",
+    "exactly 2 real solutions"
+   ],
+   "correctIndex": 0,
+   "explanation": "A degree n polynomial equation has at most n real solutions. It can have fewer: x\u2074 + 1 = 0 has none, which is why a quartic need not have even one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0007",
+   "topicId": "meth-algebra",
+   "stem": "Solve log\u2082(x) = 3.",
+   "imageRef": null,
+   "options": [
+    "x = 6",
+    "x = 9",
+    "x = 3/2",
+    "x = 8"
+   ],
+   "correctIndex": 3,
+   "explanation": "In index form, log\u2082(x) = 3 means x = 2\u00b3 = 8. Multiplying 2 by 3 to get 6 confuses a power with a product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0008",
+   "topicId": "meth-algebra",
+   "stem": "A system of two linear equations in two variables has infinitely many solutions when their graphs:",
+   "imageRef": null,
+   "options": [
+    "meet at the origin",
+    "are the same line",
+    "are parallel and distinct",
+    "are perpendicular"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every point on a shared line satisfies both equations. Parallel distinct lines never meet, giving no solution, and lines that cross in any way, perpendicular or not, meet at exactly one point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0009",
+   "topicId": "meth-algebra",
+   "stem": "If f(x) = x\u00b2 and g(x) = x + 3, then f(g(x)) is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2(x + 3)",
+    "x\u00b2 + 9",
+    "(x + 3)\u00b2",
+    "x\u00b2 + 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(g(x)) puts g(x) into f: square the whole of x + 3. The rule x\u00b2 + 3 is g(f(x)), the other order, and x\u00b2 + 9 squares the terms separately.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0010",
+   "topicId": "meth-algebra",
+   "stem": "The exact solution of 3^x = 7 is:",
+   "imageRef": null,
+   "options": [
+    "x = 3^7",
+    "x = log\u2083 7",
+    "x = log\u2087 3",
+    "x = 7/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "In log form, 3^x = 7 means x = log\u2083 7, which equals ln 7/ln 3 \u2248 1.77. Swapping base and argument gives log\u2087 3, which is less than 1 and would make 3^x less than 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0011",
+   "topicId": "meth-algebra",
+   "stem": "Solve the system x + y + z = 6, y + z = 5, z = 3.",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 2, z = 1",
+    "x = 1, y = 3, z = 2",
+    "x = 1, y = 2, z = 3",
+    "x = 2, y = 1, z = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Back-substitute from the last equation: z = 3, so y = 5 \u2212 3 = 2, so x = 6 \u2212 5 = 1. Each answer can be checked by putting all three values into every equation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0012",
+   "topicId": "meth-algebra",
+   "stem": "The function f: [0, 2] \u2192 R, f(x) = 3x + 1 has an inverse. The domain of f\u207b\u00b9 is:",
+   "imageRef": null,
+   "options": [
+    "[0, 2]",
+    "R",
+    "[0, 7]",
+    "[1, 7]"
+   ],
+   "correctIndex": 3,
+   "explanation": "f is increasing, so its range runs from f(0) = 1 to f(2) = 7, and that range becomes the domain of f\u207b\u00b9. The interval [0, 2] is the range of f\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0013",
+   "topicId": "meth-algebra",
+   "stem": "f: [1, \u221e) \u2192 R, f(x) = (x \u2212 1)\u00b2 + 2. The inverse function is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = 1 + \u221a(x \u2212 2), x \u2265 1",
+    "f\u207b\u00b9(x) = 2 + \u221a(x \u2212 1), x \u2265 1",
+    "f\u207b\u00b9(x) = 1 + \u221a(x \u2212 2), x \u2265 2",
+    "f\u207b\u00b9(x) = 1 \u2212 \u221a(x \u2212 2), x \u2265 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swap x and y: x = (y \u2212 1)\u00b2 + 2, so y \u2212 1 = \u00b1\u221a(x \u2212 2). The range of f\u207b\u00b9 must be the domain of f, y \u2265 1, so take the positive root. The domain of f\u207b\u00b9 is the range of f, x \u2265 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0014",
+   "topicId": "meth-algebra",
+   "stem": "The function f: (\u2212\u221e, a] \u2192 R, f(x) = x\u00b2 \u2212 4x has an inverse function. What is the largest possible value of a?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "0",
+    "\u22122",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The parabola (x \u2212 2)\u00b2 \u2212 4 turns at x = 2, so it is one-to-one on (\u2212\u221e, 2] but not on any longer interval of that form. The value 4 is an x-intercept, not the turning point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0015",
+   "topicId": "meth-algebra",
+   "stem": "If f(x) = e^(x \u2212 1) + 2, then f\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "ln(x \u2212 2) \u2212 1, x > 2",
+    "1 + ln(x + 2), x > \u22122",
+    "ln(x \u2212 1) + 2, x > 1",
+    "1 + ln(x \u2212 2), x > 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swap x and y: x = e^(y \u2212 1) + 2, so e^(y \u2212 1) = x \u2212 2 and y = 1 + ln(x \u2212 2). The domain x > 2 matches the range of f, whose asymptote is y = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0016",
+   "topicId": "meth-algebra",
+   "stem": "If f(x) = ln(2x), x > 0, then f\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "2e^x",
+    "e^(x/2)",
+    "e^(2x)",
+    "e^x/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swap x and y: x = ln(2y), so 2y = e^x and y = e^x/2. Check at x = 0: f\u207b\u00b9(0) = 1/2, and f(1/2) = ln 1 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0017",
+   "topicId": "meth-algebra",
+   "stem": "Solve e^(2x) = 5.",
+   "imageRef": null,
+   "options": [
+    "x = 2ln 5",
+    "x = ln 5 \u2212 2",
+    "x = (ln 5)/2",
+    "x = ln(5/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Take natural logs of both sides: 2x = ln 5, so x = (ln 5)/2. Writing ln(5/2) divides inside the logarithm, which is a different number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0018",
+   "topicId": "meth-algebra",
+   "stem": "Solve 2sin(x) = \u221a3 for x \u2208 [0, 2\u03c0].",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 and x = 5\u03c0/6",
+    "x = \u03c0/3 and x = 4\u03c0/3",
+    "x = \u03c0/3 and x = 2\u03c0/3",
+    "x = \u03c0/3 and x = 5\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin(x) = \u221a3/2 has the first-quadrant solution \u03c0/3, and sine is also positive in the second quadrant, giving \u03c0 \u2212 \u03c0/3 = 2\u03c0/3. The values \u03c0/3 and 5\u03c0/3 solve the cosine equation instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0019",
+   "topicId": "meth-algebra",
+   "stem": "Solve 2cos(2x) = 1 for x \u2208 [0, \u03c0].",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 and x = 5\u03c0/6",
+    "x = \u03c0/3 and x = 5\u03c0/3",
+    "x = \u03c0/6 and x = \u03c0/3",
+    "x = \u03c0/6 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "For x \u2208 [0, \u03c0], 2x \u2208 [0, 2\u03c0], and cos(2x) = 1/2 gives 2x = \u03c0/3 or 5\u03c0/3, so x = \u03c0/6 or 5\u03c0/6. Stopping at \u03c0/3 and 5\u03c0/3 forgets to halve, and the second of those is outside [0, \u03c0] anyway.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0020",
+   "topicId": "meth-algebra",
+   "stem": "The general solution of cos(x) = 1/2, for k \u2208 Z, is:",
+   "imageRef": null,
+   "options": [
+    "x = k\u03c0 + \u03c0/3",
+    "x = 2k\u03c0 \u00b1 \u03c0/3",
+    "x = k\u03c0 \u00b1 \u03c0/3",
+    "x = 2k\u03c0 \u00b1 \u03c0/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The basic solutions are \u00b1\u03c0/3, and cosine repeats every 2\u03c0, so x = 2k\u03c0 \u00b1 \u03c0/3. Adding k\u03c0 would include values like 2\u03c0/3, where cosine is \u22121/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0021",
+   "topicId": "meth-algebra",
+   "stem": "Evaluate 2log\u2083(6) \u2212 log\u2083(4).",
+   "imageRef": null,
+   "options": [
+    "1",
+    "log\u2083 8",
+    "3",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using the log laws, 2log\u2083 6 = log\u2083 36, and log\u2083 36 \u2212 log\u2083 4 = log\u2083 9 = 2. The answer log\u2083 8 comes from doubling 6 to 12 instead of squaring it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0022",
+   "topicId": "meth-algebra",
+   "stem": "Solve ax + b = cx for x, where a \u2260 c.",
+   "imageRef": null,
+   "options": [
+    "x = b/(c \u2212 a)",
+    "x = b/(a \u2212 c)",
+    "x = (c \u2212 b)/a",
+    "x = \u2212b/(a + c)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Collect the x terms on one side: b = cx \u2212 ax = x(c \u2212 a), so x = b/(c \u2212 a). Moving the terms the other way gives \u2212b/(a \u2212 c), which is the same value; b/(a \u2212 c) has lost the sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0023",
+   "topicId": "meth-algebra",
+   "stem": "For which values of k does x\u00b2 + kx + 9 = 0 have exactly one real solution?",
+   "imageRef": null,
+   "options": [
+    "k = 3 or k = \u22123",
+    "\u22126 < k < 6",
+    "k = 6 or k = \u22126",
+    "k = 6 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "One solution needs the discriminant k\u00b2 \u2212 4 \u00d7 9 to be zero, so k\u00b2 = 36 and k = \u00b16. The interval \u22126 < k < 6 is where there are no real solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0024",
+   "topicId": "meth-algebra",
+   "stem": "The equations x + 3y = 5 and 2x + ay = b have infinitely many solutions when:",
+   "imageRef": null,
+   "options": [
+    "a = 6 and b \u2260 10",
+    "a = 3 and b = 5",
+    "a = 6 and b = 5",
+    "a = 6 and b = 10"
+   ],
+   "correctIndex": 3,
+   "explanation": "Infinitely many solutions need the second equation to be a multiple of the first: doubling gives 2x + 6y = 10. If a = 6 but b \u2260 10, the lines are parallel and distinct, and there is no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0025",
+   "topicId": "meth-algebra",
+   "stem": "Solve x\u00b3 \u2212 2x\u00b2 \u2212 5x + 6 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = \u22123, 1 or 2",
+    "x = \u22122, 1 or 3",
+    "x = 2, \u22121 or \u22123",
+    "x = 1, 2 or 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The coefficients sum to 0, so x = 1 is a root and x\u00b3 \u2212 2x\u00b2 \u2212 5x + 6 = (x \u2212 1)(x\u00b2 \u2212 x \u2212 6) = (x \u2212 1)(x \u2212 3)(x + 2). Reading roots straight off the factors without changing sign gives the second list.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0026",
+   "topicId": "meth-algebra",
+   "stem": "P(x) = x\u00b3 + ax\u00b2 \u2212 4x + 4 has (x \u2212 2) as a factor. What is a?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "1",
+    "\u22123",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the factor theorem P(2) = 0: 8 + 4a \u2212 8 + 4 = 0, so 4a = \u22124 and a = \u22121. Substituting x = \u22122 instead of 2 uses the wrong root for the factor (x \u2212 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0027",
+   "topicId": "meth-algebra",
+   "stem": "Newton\u2019s method is used on f(x) = x\u00b2 \u2212 5 with first estimate x\u2080 = 2. What is x\u2081?",
+   "imageRef": null,
+   "options": [
+    "1.75",
+    "2.5",
+    "2.2",
+    "2.25"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u2081 = x\u2080 \u2212 f(x\u2080)/f\u2032(x\u2080) = 2 \u2212 (\u22121)/4 = 2.25, which is closer to \u221a5 \u2248 2.236. Adding the fraction instead of subtracting it gives 1.75.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0028",
+   "topicId": "meth-algebra",
+   "stem": "In Newton\u2019s method, the next estimate is found from the current estimate x by calculating:",
+   "imageRef": null,
+   "options": [
+    "x \u2212 f(x)/f\u2032(x)",
+    "x \u2212 f\u2032(x)/f(x)",
+    "x + f(x)/f\u2032(x)",
+    "x \u2212 f(x) \u00d7 f\u2032(x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The new estimate is where the tangent at the current point meets the x-axis, which is x \u2212 f(x)/f\u2032(x). Inverting the fraction confuses the height f(x) with the gradient f\u2032(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0029",
+   "topicId": "meth-algebra",
+   "stem": "Newton\u2019s method fails at the first step if the starting value x\u2080 is:",
+   "imageRef": null,
+   "options": [
+    "a negative number",
+    "a non-stationary point of inflection",
+    "a stationary point of f",
+    "an x-intercept of f"
+   ],
+   "correctIndex": 2,
+   "explanation": "The formula divides by f\u2032(x\u2080), and at a stationary point that is zero: the tangent is horizontal and never meets the x-axis. Starting at an x-intercept is no failure, since x\u2081 = x\u2080 is already a solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0030",
+   "topicId": "meth-algebra",
+   "stem": "Solve 4^x = 8^(x \u2212 1).",
+   "imageRef": null,
+   "options": [
+    "x = 1",
+    "x = 3/5",
+    "x = 3",
+    "x = \u22123"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write both sides with base 2: 2^(2x) = 2^(3x \u2212 3), so 2x = 3x \u2212 3 and x = 3. Getting x = 1 comes from writing 8^(x \u2212 1) as 2^(3x \u2212 1), forgetting to multiply the 1 by 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0031",
+   "topicId": "meth-algebra",
+   "stem": "Make t the subject of A = Pe^(rt).",
+   "imageRef": null,
+   "options": [
+    "t = r ln(A/P)",
+    "t = ln(A)/(rP)",
+    "t = (1/r)ln(A/P)",
+    "t = ln(A \u2212 P)/r"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide by P first: e^(rt) = A/P. Then rt = ln(A/P) and t = (1/r)ln(A/P). Subtracting P treats a product as if it were a sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0032",
+   "topicId": "meth-algebra",
+   "stem": "Solve x\u00b2 \u2212 2x \u2212 3 = 0 for x \u2208 [0, 5].",
+   "imageRef": null,
+   "options": [
+    "x = \u22121 or x = 3",
+    "x = 1 or x = \u22123",
+    "x = \u22123 only",
+    "x = 3 only"
+   ],
+   "correctIndex": 3,
+   "explanation": "Factorise: (x \u2212 3)(x + 1) = 0, so x = 3 or x = \u22121. Only 3 lies in [0, 5], so the domain restriction removes \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0033",
+   "topicId": "meth-algebra",
+   "stem": "Which of these functions is one-to-one, and so has an inverse function?",
+   "imageRef": null,
+   "options": [
+    "f: [0, 2\u03c0] \u2192 R, f(x) = cos(x)",
+    "f: [0, \u03c0] \u2192 R, f(x) = sin(x)",
+    "f: R \u2192 R, f(x) = x\u00b3",
+    "f: R \u2192 R, f(x) = x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b3 is strictly increasing on R, so it is one-to-one. Sine on [0, \u03c0] rises then falls, so values such as 1/2 occur twice, and cosine on [0, 2\u03c0] repeats values too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0034",
+   "topicId": "meth-algebra",
+   "stem": "Solve ln(x) = 2ln(3) \u2212 ln(2).",
+   "imageRef": null,
+   "options": [
+    "x = 9/2",
+    "x = 4",
+    "x = 3/2",
+    "x = 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the log laws, 2ln 3 \u2212 ln 2 = ln 9 \u2212 ln 2 = ln(9/2), so x = 9/2. Ignoring the coefficient 2 gives ln 3 \u2212 ln 2 = ln(3/2), which is the answer 3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0035",
+   "topicId": "meth-algebra",
+   "stem": "How many solutions does sin(x) = 0.3 have for x \u2208 [0, 4\u03c0]?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "8",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "In each period of 2\u03c0 the line y = 0.3 meets the sine curve twice, once in the first quadrant and once in the second. The interval [0, 4\u03c0] is two full periods, giving four solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0036",
+   "topicId": "meth-algebra",
+   "stem": "f(x) = \u221ax and g(x) = 1 \u2212 x\u00b2. What is the largest domain of g for which the composite f(g(x)) is defined?",
+   "imageRef": null,
+   "options": [
+    "[1, \u221e)",
+    "[\u22121, 1]",
+    "[0, 1]",
+    "R"
+   ],
+   "correctIndex": 1,
+   "explanation": "The composite needs the range of g inside the domain of f, so 1 \u2212 x\u00b2 \u2265 0, which gives \u22121 \u2264 x \u2264 1. The interval [0, 1] is valid but not the largest, because g is even.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0037",
+   "topicId": "meth-algebra",
+   "stem": "f(x) = ln(x) and g(x) = x\u00b2 + 1, x \u2208 R. The range of f(g(x)) is:",
+   "imageRef": null,
+   "options": [
+    "[0, \u221e)",
+    "R",
+    "(0, \u221e)",
+    "[1, \u221e)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The range of g is [1, \u221e), and ln maps [1, \u221e) onto [0, \u221e), including ln 1 = 0 at x = 0. The interval [1, \u221e) is the range of g, before f acts on it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0038",
+   "topicId": "meth-algebra",
+   "stem": "The general solution of tan(2x) = 1, for k \u2208 Z, is:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/8 + k\u03c0",
+    "x = \u03c0/4 + k\u03c0/2",
+    "x = \u03c0/8 + 2k\u03c0",
+    "x = \u03c0/8 + k\u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "tan(2x) = 1 gives 2x = \u03c0/4 + k\u03c0, because tangent has period \u03c0. Dividing everything by 2 gives x = \u03c0/8 + k\u03c0/2. Halving only the first term gives \u03c0/8 + k\u03c0, which misses half the solutions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0039",
+   "topicId": "meth-algebra",
+   "stem": "Solve log\u2083(x) + log\u2083(x + 6) = 3.",
+   "imageRef": null,
+   "options": [
+    "x = \u22129 only",
+    "x = 4.5 only",
+    "x = 3 only",
+    "x = 3 or x = \u22129"
+   ],
+   "correctIndex": 2,
+   "explanation": "Combine the logs: log\u2083(x(x + 6)) = 3, so x\u00b2 + 6x = 27 and (x + 9)(x \u2212 3) = 0. The value x = \u22129 is rejected because log\u2083(\u22129) is undefined; both original logs need positive arguments.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0040",
+   "topicId": "meth-algebra",
+   "stem": "Solve e^(2x) \u2212 3e^x + 2 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = ln 2 only",
+    "x = \u22121 or x = \u22122",
+    "x = 0 or x = ln 2",
+    "x = 1 or x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let u = e^x: u\u00b2 \u2212 3u + 2 = (u \u2212 1)(u \u2212 2) = 0, so e^x = 1 or e^x = 2, giving x = 0 or ln 2. Stopping at u = 1 or 2 forgets to convert back from u to x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0041",
+   "topicId": "meth-algebra",
+   "stem": "For which value of k does the system kx + 2y = 4, 2x + ky = 4 have no solution?",
+   "imageRef": null,
+   "options": [
+    "k = 0",
+    "k = \u22122",
+    "k = 2",
+    "k = 2 or k = \u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "The lines are parallel when k/2 = 2/k, so k\u00b2 = 4. With k = 2 both equations become 2x + 2y = 4, the same line, giving infinitely many solutions; with k = \u22122 they are \u22122x + 2y = 4 and 2x \u2212 2y = 4, which are parallel and distinct.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0042",
+   "topicId": "meth-algebra",
+   "stem": "How many real solutions does e^x = x + 2 have?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "0",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let h(x) = e^x \u2212 x \u2212 2. Its only turning point is a minimum at x = 0, where h = \u22121 < 0, and h is positive far to the left and right, so it crosses zero twice. The line y = x + 2 cuts the curve once near x = \u22121.8 and once near x = 1.1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0043",
+   "topicId": "meth-algebra",
+   "stem": "f: [0, \u221e) \u2192 R, f(x) = x\u00b2. The solutions of f(x) = f\u207b\u00b9(x) are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22121, 0 and 1",
+    "x = 0 and x = 1",
+    "x = 1 only",
+    "x = 0 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "f is increasing, so the graphs of f and f\u207b\u00b9 = \u221ax meet on the line y = x: x\u00b2 = x gives x = 0 or 1. The value \u22121 is outside the domain of f.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0044",
+   "topicId": "meth-algebra",
+   "stem": "Solve \u221a3 sin(x) = cos(x) for x \u2208 [0, 2\u03c0].",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 and x = 5\u03c0/6",
+    "x = \u03c0/6 only",
+    "x = \u03c0/6 and x = 7\u03c0/6",
+    "x = \u03c0/3 and x = 4\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide by \u221a3 cos(x): tan(x) = 1/\u221a3, so x = \u03c0/6 or \u03c0/6 + \u03c0 = 7\u03c0/6. Writing tan(x) = \u221a3 inverts the ratio and gives \u03c0/3 and 4\u03c0/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-algebra-0045",
+   "topicId": "meth-algebra",
+   "stem": "For which values of m does the line y = mx \u2212 1 meet the parabola y = x\u00b2 at two distinct points?",
+   "imageRef": null,
+   "options": [
+    "m < \u22122 or m > 2",
+    "\u22122 < m < 2",
+    "m > 2 only",
+    "m = 2 or m = \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equate: x\u00b2 \u2212 mx + 1 = 0, which has two distinct real solutions when m\u00b2 \u2212 4 > 0, so m < \u22122 or m > 2. At m = \u00b12 the line is a tangent, meeting the parabola once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

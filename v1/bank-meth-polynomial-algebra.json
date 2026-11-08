@@ -1,0 +1,803 @@
+{
+ "topicId": "meth-polynomial-algebra",
+ "questions": [
+  {
+   "id": "meth-polynomial-algebra-0001",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Evaluate x\u00b2 \u2212 2x when x = 1 + \u221a3.",
+   "imageRef": null,
+   "options": [
+    "4 + 2\u221a3",
+    "6 + 4\u221a3",
+    "\u22122",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "(1 + \u221a3)\u00b2 = 1 + 2\u221a3 + 3 = 4 + 2\u221a3, and 2x = 2 + 2\u221a3, so the difference is 2. The answer 6 + 4\u221a3 comes from adding 2x instead of subtracting it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0002",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Expand (2x \u2212 3)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "4x\u00b2 \u2212 9",
+    "4x\u00b2 + 9",
+    "4x\u00b2 \u2212 6x + 9",
+    "4x\u00b2 \u2212 12x + 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "(2x \u2212 3)\u00b2 = (2x)\u00b2 \u2212 2 \u00d7 2x \u00d7 3 + 9 = 4x\u00b2 \u2212 12x + 9. Squaring each term separately to get 4x\u00b2 + 9 loses the middle term, and \u22126x forgets to double the product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0003",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Expand (x + 2)\u00b3.",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 + 6x\u00b2 + 12x + 8",
+    "x\u00b3 + 8",
+    "x\u00b3 + 6x\u00b2 + 6x + 8",
+    "x\u00b3 + 3x\u00b2 + 3x + 8"
+   ],
+   "correctIndex": 0,
+   "explanation": "(x + 2)\u00b3 = (x + 2)(x\u00b2 + 4x + 4) = x\u00b3 + 6x\u00b2 + 12x + 8, matching the binomial coefficients 1, 3, 3, 1 with powers of 2. Using 3x\u00b2 + 3x applies the coefficients without the powers of 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0004",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Simplify (2x\u00b3)\u00b2 \u00d7 x\u207b\u2074.",
+   "imageRef": null,
+   "options": [
+    "2x\u00b2",
+    "4x\u00b9\u2070",
+    "4x\u207b\u00b2",
+    "4x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "(2x\u00b3)\u00b2 = 4x\u2076, and x\u2076 \u00d7 x\u207b\u2074 = x\u00b2. Writing 2x\u00b2 forgets to square the coefficient, and 4x\u00b9\u2070 subtracts a negative index the wrong way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0005",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Simplify (x^(1/2) \u00d7 x^(3/2)) \u00f7 x\u00b3, for x > 0.",
+   "imageRef": null,
+   "options": [
+    "x",
+    "x^(\u22129/4)",
+    "1/x\u2075",
+    "1/x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying adds the indices: 1/2 + 3/2 = 2, so the numerator is x\u00b2. Then x\u00b2 \u00f7 x\u00b3 = x\u207b\u00b9 = 1/x. The answer x^(\u22129/4) comes from multiplying the indices 1/2 and 3/2 instead of adding them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0006",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Which expression is equivalent to (x \u2212 1)(x\u00b2 + x + 1)?",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 + 1",
+    "x\u00b3 \u2212 x\u00b2 + x \u2212 1",
+    "x\u00b3 \u2212 2x + 1",
+    "x\u00b3 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives x\u00b3 + x\u00b2 + x \u2212 x\u00b2 \u2212 x \u2212 1 = x\u00b3 \u2212 1, the difference of two cubes. The expression x\u00b3 \u2212 x\u00b2 + x \u2212 1 is (x \u2212 1)(x\u00b2 + 1), which has no x term in the second factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0007",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Factorise x\u00b3 \u2212 8.",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 2)(x\u00b2 + 2x + 4)",
+    "(x \u2212 2)(x\u00b2 \u2212 2x + 4)",
+    "(x + 2)(x\u00b2 \u2212 2x + 4)",
+    "(x \u2212 2)(x + 2)\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The difference of cubes pattern is a\u00b3 \u2212 b\u00b3 = (a \u2212 b)(a\u00b2 + ab + b\u00b2), and here b = 2. The quadratic factor with \u22122x belongs to the sum of cubes x\u00b3 + 8 = (x + 2)(x\u00b2 \u2212 2x + 4).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0008",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Factorise x\u00b2 \u2212 5x \u2212 14.",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 7)(x \u2212 2)",
+    "(x \u2212 14)(x + 1)",
+    "(x \u2212 7)(x + 2)",
+    "(x + 7)(x \u2212 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Find two numbers with product \u221214 and sum \u22125: \u22127 and 2. The pair 7 and \u22122 has the right product but sums to +5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0009",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Factorise 6x\u00b2 + x \u2212 2.",
+   "imageRef": null,
+   "options": [
+    "(3x \u2212 1)(2x + 2)",
+    "(2x \u2212 1)(3x + 2)",
+    "(2x + 1)(3x \u2212 2)",
+    "(6x \u2212 1)(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Check by expanding: (2x \u2212 1)(3x + 2) = 6x\u00b2 + 4x \u2212 3x \u2212 2 = 6x\u00b2 + x \u2212 2. Swapping the signs gives 6x\u00b2 \u2212 x \u2212 2, which has the wrong middle term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0010",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve (2x \u2212 1)(x + 3) = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 1 or x = \u22123",
+    "x = 2 or x = \u22123",
+    "x = 1/2 or x = \u22123",
+    "x = \u22121/2 or x = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the null factor law one factor must be zero: 2x \u2212 1 = 0 gives x = 1/2, and x + 3 = 0 gives x = \u22123. Reading the numbers straight from the brackets reverses both signs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0011",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Express x\u00b2 \u2212 6x + 2 in completed square form.",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3)\u00b2 + 11",
+    "(x + 3)\u00b2 \u2212 7",
+    "(x \u2212 6)\u00b2 \u2212 34",
+    "(x \u2212 3)\u00b2 \u2212 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Half of \u22126 is \u22123, and (x \u2212 3)\u00b2 = x\u00b2 \u2212 6x + 9, so subtract 9 and add 2: (x \u2212 3)\u00b2 \u2212 7. Adding the 9 instead of subtracting it gives the +11 version.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0012",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Express 2x\u00b2 + 8x + 3 in completed square form.",
+   "imageRef": null,
+   "options": [
+    "2(x + 2)\u00b2 \u2212 5",
+    "2(x + 2)\u00b2 \u2212 1",
+    "2(x + 4)\u00b2 \u2212 29",
+    "(2x + 2)\u00b2 \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Take out the 2 first: 2(x\u00b2 + 4x) + 3 = 2[(x + 2)\u00b2 \u2212 4] + 3 = 2(x + 2)\u00b2 \u2212 8 + 3 = 2(x + 2)\u00b2 \u2212 5. The answer \u22121 subtracts only 4, forgetting that the \u22124 inside the bracket is multiplied by 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0013",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve x\u00b2 \u2212 4x \u2212 1 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 2 \u00b1 \u221a5",
+    "x = \u22122 \u00b1 \u221a5",
+    "x = 2 \u00b1 \u221a3",
+    "x = 4 \u00b1 \u221a5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The quadratic formula gives x = (4 \u00b1 \u221a(16 + 4))/2 = (4 \u00b1 2\u221a5)/2 = 2 \u00b1 \u221a5. Using 16 \u2212 4 under the root treats c as +1 and leads to 2 \u00b1 \u221a3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0014",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "How many real solutions does 2x\u00b2 \u2212 3x + 5 = 0 have?",
+   "imageRef": null,
+   "options": [
+    "Two distinct real solutions",
+    "Two real solutions of opposite sign",
+    "No real solutions",
+    "Exactly one real solution"
+   ],
+   "correctIndex": 2,
+   "explanation": "The discriminant is b\u00b2 \u2212 4ac = 9 \u2212 40 = \u221231, which is negative, so the parabola never meets the x-axis. A positive discriminant would be needed for two solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0015",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "For which values of k does x\u00b2 + kx + 9 = 0 have two distinct real solutions?",
+   "imageRef": null,
+   "options": [
+    "k > 6 only",
+    "k = \u22126 or k = 6",
+    "k < \u22126 or k > 6",
+    "\u22126 < k < 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two solutions need b\u00b2 \u2212 4ac > 0: k\u00b2 \u2212 36 > 0, so k\u00b2 > 36 and k < \u22126 or k > 6. The values \u00b16 give exactly one solution, and between them there are none. Forgetting the negative branch gives k > 6 only.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0016",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "If P(a) = 0 for a polynomial P(x), which statement follows?",
+   "imageRef": null,
+   "options": [
+    "P(x) has remainder a when divided by x",
+    "(x \u2212 a) is a factor of P(x)",
+    "(x + a) is a factor of P(x)",
+    "a is the y-intercept of P"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is the factor theorem: P(a) = 0 exactly when x \u2212 a divides P(x) with no remainder. The sign trap is (x + a), which corresponds to P(\u2212a) = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0017",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "What is the remainder when P(x) = x\u00b3 \u2212 2x\u00b2 + 4 is divided by (x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "22",
+    "13",
+    "\u221241"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the remainder theorem the remainder is P(3) = 27 \u2212 18 + 4 = 13. The value \u221241 is P(\u22123), which is the remainder for division by x + 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0018",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "(x + 2) is a factor of x\u00b3 + ax\u00b2 \u2212 4. What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "2",
+    "3",
+    "\u22123"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the factor theorem P(\u22122) = 0: \u22128 + 4a \u2212 4 = 0, so a = 3. Substituting x = 2 instead gives 8 + 4a \u2212 4 = 0 and a = \u22121, which is the usual sign error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0019",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "When x\u00b3 + ax + 1 is divided by (x \u2212 2), the remainder is 3. What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "\u22125/2",
+    "\u22122",
+    "\u22123",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The remainder is P(2) = 8 + 2a + 1, and setting this equal to 3 gives 2a = \u22126, so a = \u22123. The answer \u22125/2 drops the constant term 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0020",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "By the rational root theorem, which of these is a possible rational root of 2x\u00b3 \u2212 3x\u00b2 + 4x \u2212 3?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1/3",
+    "3/2",
+    "2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "A rational root p/q in lowest terms has p dividing the constant 3 and q dividing the leading coefficient 2, so the candidates are \u00b11, \u00b13, \u00b11/2 and \u00b13/2. The value 2/3 swaps the roles of the two coefficients.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0021",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "x\u00b3 + 2x\u00b2 \u2212 5x + 1 = (x \u2212 1)q(x) + r. What are q(x) and r?",
+   "imageRef": null,
+   "options": [
+    "q(x) = x\u00b2 + 3x + 2, r = \u22121",
+    "q(x) = x\u00b2 + 3x \u2212 2, r = \u22121",
+    "q(x) = x\u00b2 + x \u2212 6, r = 7",
+    "q(x) = x\u00b2 + 3x \u2212 2, r = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The remainder is P(1) = 1 + 2 \u2212 5 + 1 = \u22121. Division gives q(x) = x\u00b2 + 3x \u2212 2, and indeed (x \u2212 1)(x\u00b2 + 3x \u2212 2) = x\u00b3 + 2x\u00b2 \u2212 5x + 2, which is one more than P(x). The quotient x\u00b2 + x \u2212 6 with remainder 7 comes from dividing by x + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0022",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve x\u00b3 \u2212 7x + 6 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = \u22123, 1 or 2",
+    "x = 3, \u22121 or \u22122",
+    "x = 1 or 6",
+    "x = \u22123, \u22121 or 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = 1 works (1 \u2212 7 + 6 = 0), so x \u2212 1 is a factor and x\u00b3 \u2212 7x + 6 = (x \u2212 1)(x\u00b2 + x \u2212 6) = (x \u2212 1)(x + 3)(x \u2212 2). The set 3, \u22121, \u22122 has every sign reversed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0023",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve x\u00b3 = 4x.",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 or 2",
+    "x = 2 only",
+    "x = 0 or 4",
+    "x = \u22122, 0 or 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearrange to x\u00b3 \u2212 4x = 0 and factorise: x(x \u2212 2)(x + 2) = 0. Dividing both sides by x loses the solution x = 0, which is how the answer \u00b12 alone arises.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0024",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "The bisection method for finding a root relies on which fact?",
+   "imageRef": null,
+   "options": [
+    "A root of a function is a point where its gradient is equal to zero",
+    "The root is closest to the endpoint with the smaller absolute value",
+    "A continuous function that changes sign over an interval has a root in that interval",
+    "A polynomial always has one of its roots at the midpoint of any interval"
+   ],
+   "correctIndex": 2,
+   "explanation": "If f is continuous and f(a), f(b) have opposite signs, the graph must cross the axis between a and b. Each step halves the interval and keeps the half with the sign change. A zero gradient marks a stationary point, not a root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0025",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "f(x) = x\u00b3 \u2212 x \u2212 3, with f(1) = \u22123 and f(2) = 3. After one step of the bisection method, which interval must contain a root?",
+   "imageRef": null,
+   "options": [
+    "[1.25, 1.5]",
+    "[1.5, 1.75]",
+    "[1.5, 2]",
+    "[1, 1.5]"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint is 1.5 and f(1.5) = 3.375 \u2212 1.5 \u2212 3 = \u22121.125, which is negative. The sign change is now between 1.5 and 2, so that half is kept. Choosing [1, 1.5] keeps the half where both ends are negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0026",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "The bisection method starts on an interval of width 1. How many bisections are needed before the interval is narrower than 0.01?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "10",
+    "100"
+   ],
+   "correctIndex": 0,
+   "explanation": "After n bisections the width is 1/2^n. 2\u2076 = 64 gives 1/64 \u2248 0.0156, still too wide, while 2\u2077 = 128 gives about 0.0078. The answer 100 treats each step as removing a fixed 0.01 rather than halving.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0027",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve the simultaneous equations 2x + y = 7 and x \u2212 y = 2.",
+   "imageRef": null,
+   "options": [
+    "x = 1, y = 3",
+    "x = 3, y = \u22121",
+    "x = 5/3, y = 11/3",
+    "x = 3, y = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Adding the equations eliminates y: 3x = 9, so x = 3, and then y = 7 \u2212 6 = 1. Check in the second equation: 3 \u2212 1 = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0028",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Two simultaneous linear equations in x and y have infinitely many solutions. What does this mean geometrically?",
+   "imageRef": null,
+   "options": [
+    "The two lines meet at exactly one point",
+    "The two lines are perpendicular",
+    "The two equations describe the same line",
+    "The two lines are parallel and distinct"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every point on a line satisfies its equation, so infinitely many common solutions means the lines coincide. Parallel, distinct lines share no point, so that system has no solution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0029",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "For what value of k do the equations kx + 2y = 4 and 3x + y = 5 have no solution?",
+   "imageRef": null,
+   "options": [
+    "k = \u22126",
+    "k = 3/2",
+    "k = 6",
+    "k = 2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "No solution means parallel distinct lines, so the gradients must match: \u2212k/2 = \u22123, giving k = 6. Then 6x + 2y = 4 is 3x + y = 2, parallel to 3x + y = 5 but not the same line. Taking k = \u22126 matches the sizes of the gradients but not their signs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0030",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Solve x + y + z = 6, x \u2212 y + z = 2 and 2x + y \u2212 z = 1.",
+   "imageRef": null,
+   "options": [
+    "x = 1, y = 2, z = 3",
+    "x = 3, y = 2, z = 1",
+    "x = 2, y = 1, z = 3",
+    "x = 1, y = 3, z = 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtracting the second equation from the first gives 2y = 4, so y = 2. Then x + z = 4 and 2x \u2212 z = \u22121, which add to 3x = 3, so x = 1 and z = 3. The triple 3, 2, 1 satisfies the first two equations but gives 7 in the third.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0031",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "f(x) = ax + b, with f(1) = 5 and f(3) = 11. What are a and b?",
+   "imageRef": null,
+   "options": [
+    "a = 3, b = 2",
+    "a = 2, b = 3",
+    "a = 6, b = \u22121",
+    "a = 3, b = 8"
+   ],
+   "correctIndex": 0,
+   "explanation": "The equations a + b = 5 and 3a + b = 11 subtract to give 2a = 6, so a = 3 and b = 2. The pair a = 2, b = 3 satisfies the first equation but gives f(3) = 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0032",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "The graph of y = a(x \u2212 1)(x \u2212 4)\u00b2 passes through (2, 8). What is the value of a?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22122",
+    "8",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute x = 2: a(1)(\u22122)\u00b2 = 4a = 8, so a = 2. The answer \u22122 comes from squaring \u22122 to get \u22124.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0033",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "A parabola cuts the x-axis at x = 1 and x = 3 and has y-intercept 3. What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x\u00b2 + 4x \u2212 3",
+    "y = 3x\u00b2 \u2212 12x + 9",
+    "y = x\u00b2 + 4x + 3",
+    "y = x\u00b2 \u2212 4x + 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write y = a(x \u2212 1)(x \u2212 3). At x = 0 this is 3a, which must equal 3, so a = 1 and y = x\u00b2 \u2212 4x + 3. The rule 3x\u00b2 \u2212 12x + 9 has the right intercepts on the x-axis but a y-intercept of 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0034",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "A parabola has turning point (2, \u22123) and passes through (0, 5). What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 2(x \u2212 2)\u00b2 \u2212 3",
+    "y = 2(x + 2)\u00b2 \u2212 3",
+    "y = 0.5(x \u2212 2)\u00b2 \u2212 3",
+    "y = (x \u2212 2)\u00b2 + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write y = a(x \u2212 2)\u00b2 \u2212 3 and substitute (0, 5): 4a \u2212 3 = 5, so a = 2. The rule with (x + 2)\u00b2 puts the turning point at x = \u22122, and 0.5 comes from dividing 4 by 8 instead of 8 by 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0035",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "For which values of k does x\u00b2 \u2212 2x = k have two solutions?",
+   "imageRef": null,
+   "options": [
+    "k < \u22121",
+    "k > 0",
+    "k \u2265 \u22121",
+    "k > \u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "The graph of y = x\u00b2 \u2212 2x = (x \u2212 1)\u00b2 \u2212 1 has its minimum at (1, \u22121). A horizontal line y = k meets it twice only when it lies above the turning point, so k > \u22121. At k = \u22121 the line just touches, giving one solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0036",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "A dilation by a factor of 3 from the x-axis maps the graph of y = f(x) to which graph?",
+   "imageRef": null,
+   "options": [
+    "y = f(x/3)",
+    "y = f(x) + 3",
+    "y = 3f(x)",
+    "y = f(3x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A dilation from the x-axis stretches every y-coordinate, so y is multiplied by 3. Changing x to 3x is a dilation from the y-axis by factor 1/3, which is the usual mix-up.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0037",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "A reflection in the y-axis maps the graph of y = f(x) to which graph?",
+   "imageRef": null,
+   "options": [
+    "y = f(\u2212x)",
+    "y = \u2212f(x)",
+    "y = 1/f(x)",
+    "y = f\u207b\u00b9(x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Reflecting in the y-axis sends each point (x, y) to (\u2212x, y), so x is replaced by \u2212x. Changing the sign of the whole function, \u2212f(x), reflects in the x-axis instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0038",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "A dilation by factor 4 parallel to the y-axis is the same as a dilation by factor 4:",
+   "imageRef": null,
+   "options": [
+    "parallel to the x-axis",
+    "in the line y = x",
+    "from the x-axis",
+    "from the y-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "Moving points parallel to the y-axis changes their distance from the x-axis, so both phrases describe y being multiplied by 4. A dilation from the y-axis moves points parallel to the x-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0039",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "The graph of y = x\u00b2 is dilated by a factor of 2 from the y-axis. What is the rule of the image?",
+   "imageRef": null,
+   "options": [
+    "y = (x/2)\u00b2",
+    "y = (2x)\u00b2",
+    "y = 2x\u00b2",
+    "y = x\u00b2 + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "A dilation from the y-axis doubles every x-coordinate, so x is replaced by x/2, giving y = x\u00b2/4. Replacing x with 2x compresses the graph towards the y-axis instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0040",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Which sequence of transformations maps y = x\u00b3 to y = 2(x + 1)\u00b3 \u2212 5?",
+   "imageRef": null,
+   "options": [
+    "Dilation by factor 2 from the y-axis, then translation 1 left and 5 down",
+    "Dilation by factor 1/2 from the x-axis, then translation 1 left and 5 down",
+    "Dilation by factor 2 from the x-axis, then translation 1 left and 5 down",
+    "Dilation by factor 2 from the x-axis, then translation 1 right and 5 down"
+   ],
+   "correctIndex": 2,
+   "explanation": "The 2 multiplies the y-values, which is a dilation from the x-axis, and x + 1 shifts the graph 1 unit left. Reading x + 1 as a move to the right is the most common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0041",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "The graph of y = \u221ax is reflected in the y-axis and then translated 3 units right. What is the rule of the image?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212\u221a(x \u2212 3)",
+    "y = \u221a(x + 3)",
+    "y = \u221a(3 \u2212 x)",
+    "y = \u221a(\u2212x \u2212 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The reflection gives y = \u221a(\u2212x). Translating 3 right replaces x with x \u2212 3: y = \u221a(\u2212(x \u2212 3)) = \u221a(3 \u2212 x). Doing the steps in the other order gives \u221a(\u2212x \u2212 3), so the order matters.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-polynomial-algebra-0042",
+   "topicId": "meth-polynomial-algebra",
+   "stem": "Under the transformation (x, y) \u2192 (2x, y \u2212 3), what is the image of the graph of y = x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2/4 \u2212 3",
+    "y = 4x\u00b2 \u2212 3",
+    "y = x\u00b2/4 + 3",
+    "y = (x \u2212 2)\u00b2 \u2212 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let x\u2032 = 2x and y\u2032 = y \u2212 3, so x = x\u2032/2 and y = y\u2032 + 3. Substituting gives y\u2032 + 3 = (x\u2032/2)\u00b2, that is y = x\u00b2/4 \u2212 3. Substituting 2x into the rule gives 4x\u00b2, which reverses the dilation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-polynomial-algebra-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

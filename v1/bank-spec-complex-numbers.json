@@ -1,0 +1,860 @@
+{
+ "topicId": "spec-complex-numbers",
+ "questions": [
+  {
+   "id": "spec-complex-numbers-0001",
+   "topicId": "spec-complex-numbers",
+   "stem": "In polar form, 1 + \u221a3 i is:",
+   "imageRef": null,
+   "options": [
+    "4 cis(\u03c0/3)",
+    "\u221a2 cis(\u03c0/3)",
+    "2 cis(\u03c0/3)",
+    "2 cis(\u03c0/6)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The modulus is \u221a(1\u00b2 + (\u221a3)\u00b2) = \u221a4 = 2, and tan \u03b8 = \u221a3 in the first quadrant gives \u03b8 = \u03c0/3. Writing 4 forgets the square root in the modulus, and \u03c0/6 swaps the real and imaginary parts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0002",
+   "topicId": "spec-complex-numbers",
+   "stem": "In Cartesian form, 2 cis(5\u03c0/6) is:",
+   "imageRef": null,
+   "options": [
+    "\u221a3 \u2212 i",
+    "\u22121 + \u221a3 i",
+    "\u221a3 + i",
+    "\u2212\u221a3 + i"
+   ],
+   "correctIndex": 3,
+   "explanation": "2 cis(5\u03c0/6) = 2(cos(5\u03c0/6) + i sin(5\u03c0/6)) = 2(\u2212\u221a3/2 + i/2) = \u2212\u221a3 + i. The angle 5\u03c0/6 is in the second quadrant, so the real part is negative and the imaginary part positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0003",
+   "topicId": "spec-complex-numbers",
+   "stem": "The product 3 cis(\u03c0/4) \u00d7 2 cis(\u03c0/12) equals:",
+   "imageRef": null,
+   "options": [
+    "6 cis(\u03c0/3)",
+    "5 cis(\u03c0/3)",
+    "6 cis(\u03c0/6)",
+    "6 cis(\u03c0\u00b2/48)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply the moduli and add the arguments: 3 \u00d7 2 = 6 and \u03c0/4 + \u03c0/12 = 3\u03c0/12 + \u03c0/12 = \u03c0/3. Adding the moduli or multiplying the arguments mixes up the two rules.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0004",
+   "topicId": "spec-complex-numbers",
+   "stem": "The quotient 8 cis(2\u03c0/3) \u00f7 2 cis(\u03c0/6) equals:",
+   "imageRef": null,
+   "options": [
+    "16 cis(\u03c0/2)",
+    "4i",
+    "4",
+    "4 cis(5\u03c0/6)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide the moduli and subtract the arguments: 8 \u00f7 2 = 4 and 2\u03c0/3 \u2212 \u03c0/6 = \u03c0/2, so the result is 4 cis(\u03c0/2) = 4i. Adding the arguments gives 5\u03c0/6, the rule for a product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0005",
+   "topicId": "spec-complex-numbers",
+   "stem": "De Moivre\u2019s theorem states that, for an integer n, (r cis \u03b8)^n equals:",
+   "imageRef": null,
+   "options": [
+    "nr cis(n\u03b8)",
+    "r^n cis(\u03b8^n)",
+    "r^n cis(\u03b8 + n)",
+    "r^n cis(n\u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Raising to the power n multiplies the argument by n and raises the modulus to the power n, because n factors each add \u03b8 to the argument. The argument is not itself raised to a power.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0006",
+   "topicId": "spec-complex-numbers",
+   "stem": "A polynomial with real coefficients has 2 \u2212 3i as a root. Which other number must also be a root?",
+   "imageRef": null,
+   "options": [
+    "\u22122 \u2212 3i",
+    "3 \u2212 2i",
+    "2 + 3i",
+    "\u22122 + 3i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The conjugate root theorem says non-real roots of a polynomial with real coefficients occur in conjugate pairs, so 2 + 3i is a root. The conjugate changes only the sign of the imaginary part.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0007",
+   "topicId": "spec-complex-numbers",
+   "stem": "Over C, a polynomial of degree 4 with real coefficients and no real roots factorises completely into:",
+   "imageRef": null,
+   "options": [
+    "two linear factors and a quadratic that cannot be factorised",
+    "two quadratic factors that cannot be factorised further",
+    "four linear factors",
+    "two linear factors only"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the fundamental theorem of algebra, every polynomial of degree n factorises over C into n linear factors. Over R this polynomial is a product of two irreducible quadratics, but over C each of those quadratics splits into two linear factors, so no quadratic factor is left.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0008",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u2074 = 1 over C are:",
+   "imageRef": null,
+   "options": [
+    "1 and \u22121 only",
+    "1, i, cis(\u03c0/4) and cis(3\u03c0/4)",
+    "1, \u22121, 1 + i and 1 \u2212 i",
+    "1, \u22121, i and \u2212i"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fourth roots of unity are cis(2k\u03c0/4) for k = 0, 1, 2, 3, which are 1, i, \u22121 and \u2212i, spaced \u03c0/2 apart on the unit circle. Over R only 1 and \u22121 are solutions, but over C there are four.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0009",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u2076 = 64 lie on a circle, centred at the origin, of radius:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "32/3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each solution has modulus r with r\u2076 = 64, so r = 2. Taking the square root gives 8 and dividing by 6 gives 32/3; neither undoes a sixth power.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0010",
+   "topicId": "spec-complex-numbers",
+   "stem": "The fifth roots of unity are equally spaced around the unit circle. The angle between adjacent roots is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0/5",
+    "\u03c0/5",
+    "\u03c0/10",
+    "5\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The roots are cis(2k\u03c0/5) for k = 0, 1, 2, 3, 4, so adjacent roots differ in argument by 2\u03c0/5. They form a regular pentagon; \u03c0/5 would fit ten points around the circle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0011",
+   "topicId": "spec-complex-numbers",
+   "stem": "Multiplying a complex number z by i corresponds, in the complex plane, to:",
+   "imageRef": null,
+   "options": [
+    "a clockwise rotation by \u03c0/2 about 0",
+    "a reflection in the real axis",
+    "a reflection in the line y = x",
+    "an anticlockwise rotation by \u03c0/2 about 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "i = cis(\u03c0/2), so multiplying adds \u03c0/2 to the argument and leaves the modulus unchanged: an anticlockwise rotation. For example, i \u00d7 1 = i and i \u00d7 i = \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0012",
+   "topicId": "spec-complex-numbers",
+   "stem": "In the complex plane, the conjugate of z is the image of z under:",
+   "imageRef": null,
+   "options": [
+    "reflection in the line y = x",
+    "reflection in the real axis",
+    "reflection in the imaginary axis",
+    "rotation by \u03c0 about 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The conjugate of x + yi is x \u2212 yi, which keeps the real part and changes the sign of the imaginary part: a reflection in the real axis. Reflection in the imaginary axis gives \u2212x + yi.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0013",
+   "topicId": "spec-complex-numbers",
+   "stem": "For any complex number z, the product of z and its conjugate equals:",
+   "imageRef": null,
+   "options": [
+    "2Re(z)",
+    "Re(z)\u00b2 \u2212 Im(z)\u00b2",
+    "|z|\u00b2",
+    "|z|"
+   ],
+   "correctIndex": 2,
+   "explanation": "(x + yi)(x \u2212 yi) = x\u00b2 \u2212 (yi)\u00b2 = x\u00b2 + y\u00b2 = |z|\u00b2, a real number. The sum of z and its conjugate is 2Re(z), and Re(z)\u00b2 \u2212 Im(z)\u00b2 comes from forgetting that i\u00b2 = \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0014",
+   "topicId": "spec-complex-numbers",
+   "stem": "Over C, z\u00b2 + 9 factorises as:",
+   "imageRef": null,
+   "options": [
+    "(z + 3i)\u00b2",
+    "(z + 9i)(z \u2212 9i)",
+    "(z + 3i)(z \u2212 3i)",
+    "(z + 3)(z \u2212 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write z\u00b2 + 9 = z\u00b2 \u2212 (3i)\u00b2 = (z + 3i)(z \u2212 3i), since (3i)\u00b2 = \u22129. The factors (z + 3)(z \u2212 3) give z\u00b2 \u2212 9, and (z + 9i)(z \u2212 9i) gives z\u00b2 + 81.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0015",
+   "topicId": "spec-complex-numbers",
+   "stem": "The principal argument, Arg(\u22121 \u2212 i), is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "5\u03c0/4",
+    "\u22123\u03c0/4",
+    "3\u03c0/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u22121 \u2212 i is in the third quadrant, and the principal argument lies in (\u2212\u03c0, \u03c0], so it is \u22123\u03c0/4. The angle 5\u03c0/4 points the same way but is outside the principal range, and \u03c0/4 is the angle the calculator gives for tan\u207b\u00b9(1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0016",
+   "topicId": "spec-complex-numbers",
+   "stem": "The value of (1 + i)\u2078 is:",
+   "imageRef": null,
+   "options": [
+    "256",
+    "16",
+    "\u221216",
+    "16i"
+   ],
+   "correctIndex": 1,
+   "explanation": "1 + i = \u221a2 cis(\u03c0/4), so by De Moivre\u2019s theorem (1 + i)\u2078 = (\u221a2)\u2078 cis(2\u03c0) = 16. Raising 2 rather than \u221a2 to the eighth power gives 256.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0017",
+   "topicId": "spec-complex-numbers",
+   "stem": "The smallest positive integer n for which (\u221a3 + i)^n is purely imaginary is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "2",
+    "1",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u221a3 + i = 2 cis(\u03c0/6), so (\u221a3 + i)^n = 2^n cis(n\u03c0/6). This is purely imaginary when n\u03c0/6 is an odd multiple of \u03c0/2, first at n = 3, giving 8i. At n = 6 the result is \u221264, which is real.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0018",
+   "topicId": "spec-complex-numbers",
+   "stem": "Which number is one of the cube roots of 8i?",
+   "imageRef": null,
+   "options": [
+    "2i",
+    "2",
+    "\u22122",
+    "\u22122i"
+   ],
+   "correctIndex": 3,
+   "explanation": "(\u22122i)\u00b3 = \u22128i\u00b3 = \u22128(\u2212i) = 8i. By contrast (2i)\u00b3 = 8i\u00b3 = \u22128i. The three cube roots are 2 cis(\u03c0/6), 2 cis(5\u03c0/6) and 2 cis(\u2212\u03c0/2) = \u22122i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0019",
+   "topicId": "spec-complex-numbers",
+   "stem": "The square roots of \u22125 + 12i are:",
+   "imageRef": null,
+   "options": [
+    "3 + 2i and \u22123 \u2212 2i",
+    "2 \u2212 3i and \u22122 + 3i",
+    "3 \u2212 2i and \u22123 + 2i",
+    "2 + 3i and \u22122 \u2212 3i"
+   ],
+   "correctIndex": 3,
+   "explanation": "(2 + 3i)\u00b2 = 4 + 12i + 9i\u00b2 = \u22125 + 12i. The square of 3 + 2i is 5 + 12i, so swapping the parts gives the wrong real part. The two square roots are negatives of each other.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0020",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u00b2 + 4z + 13 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "2 \u00b1 3i",
+    "\u22122 \u00b1 9i",
+    "\u22124 \u00b1 3i",
+    "\u22122 \u00b1 3i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Completing the square gives (z + 2)\u00b2 + 9 = 0, so (z + 2)\u00b2 = \u22129 and z + 2 = \u00b13i. Writing \u00b19i forgets to take the square root, and 2 \u00b1 3i has the wrong sign on the real part.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0021",
+   "topicId": "spec-complex-numbers",
+   "stem": "Over C, z\u00b3 \u2212 2z\u00b2 + 4z \u2212 8 factorises as:",
+   "imageRef": null,
+   "options": [
+    "(z + 2)(z \u2212 2i)(z + 2i)",
+    "(z \u2212 2)(z \u2212 4i)(z + 4i)",
+    "(z \u2212 2)\u00b2(z + 2)",
+    "(z \u2212 2)(z \u2212 2i)(z + 2i)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Grouping gives z\u00b2(z \u2212 2) + 4(z \u2212 2) = (z \u2212 2)(z\u00b2 + 4), and z\u00b2 + 4 = (z \u2212 2i)(z + 2i). Writing 4i treats z\u00b2 + 4 as if its roots were \u00b14i rather than \u00b12i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0022",
+   "topicId": "spec-complex-numbers",
+   "stem": "Given that 1 + i is a root of z\u00b3 \u2212 3z\u00b2 + 4z \u2212 2 = 0, the other two roots are:",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2212 i and 1",
+    "\u22121 + i and 2",
+    "1 \u2212 i and 1",
+    "1 \u2212 i and \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "The coefficients are real, so 1 \u2212 i is a root, and (z \u2212 1 \u2212 i)(z \u2212 1 + i) = z\u00b2 \u2212 2z + 2. Dividing gives z\u00b3 \u2212 3z\u00b2 + 4z \u2212 2 = (z \u2212 1)(z\u00b2 \u2212 2z + 2), so the third root is 1. Checking the constant: \u2212(1)(2) = \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0023",
+   "topicId": "spec-complex-numbers",
+   "stem": "If 3 + 2i is a root of a polynomial with real coefficients, which quadratic must be a factor?",
+   "imageRef": null,
+   "options": [
+    "z\u00b2 + 6z + 13",
+    "z\u00b2 \u2212 6z + 5",
+    "z\u00b2 \u2212 6z \u2212 13",
+    "z\u00b2 \u2212 6z + 13"
+   ],
+   "correctIndex": 3,
+   "explanation": "The roots 3 \u00b1 2i have sum 6 and product 9 + 4 = 13, so the factor is z\u00b2 \u2212 6z + 13 = (z \u2212 3)\u00b2 + 4. The quadratic z\u00b2 \u2212 6z + 5 = (z \u2212 3)\u00b2 \u2212 4 comes from taking (2i)\u00b2 as +4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0024",
+   "topicId": "spec-complex-numbers",
+   "stem": "If \u03c9 is a non-real cube root of unity, then 1 + \u03c9 + \u03c9\u00b2 equals:",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "0",
+    "1",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since \u03c9\u00b3 = 1, (\u03c9 \u2212 1)(\u03c9\u00b2 + \u03c9 + 1) = \u03c9\u00b3 \u2212 1 = 0, and \u03c9 \u2260 1, so \u03c9\u00b2 + \u03c9 + 1 = 0. Geometrically, the three cube roots of unity are equally spaced and their vector sum is zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0025",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u00b3 = 27i form the vertices of:",
+   "imageRef": null,
+   "options": [
+    "a right-angled triangle with vertices on |z| = 3",
+    "an equilateral triangle inscribed in a circle of radius 9",
+    "an equilateral triangle inscribed in a circle of radius 3",
+    "an equilateral triangle with side length 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every solution has modulus \u221b27 = 3, and the arguments differ by 2\u03c0/3, so they are equally spaced on |z| = 3. The side length of that triangle is 3\u221a3, not 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0026",
+   "topicId": "spec-complex-numbers",
+   "stem": "In proving De Moivre\u2019s theorem by induction, the inductive step writes (cis \u03b8)^(k + 1) = cis(k\u03b8) \u00d7 cis(\u03b8). Which result completes the step?",
+   "imageRef": null,
+   "options": [
+    "cis(A) + cis(B) = cis(A + B)",
+    "cis(A) cis(B) = cis(A \u2212 B)",
+    "cis(A) cis(B) = cis(A + B)",
+    "cis(A) cis(B) = cis(AB)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding (cos A + i sin A)(cos B + i sin B) and using the compound angle formulas gives cos(A + B) + i sin(A + B). So cis(k\u03b8) cis(\u03b8) = cis((k + 1)\u03b8), which is the statement for n = k + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0027",
+   "topicId": "spec-complex-numbers",
+   "stem": "The value of (2 cis(\u03c0/3))^(\u22122) is:",
+   "imageRef": null,
+   "options": [
+    "(1/4) cis(\u22122\u03c0/3)",
+    "\u22124 cis(2\u03c0/3)",
+    "(1/4) cis(2\u03c0/3)",
+    "4 cis(\u22122\u03c0/3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "De Moivre\u2019s theorem holds for negative integers: the modulus becomes 2^(\u22122) = 1/4 and the argument becomes \u22122 \u00d7 \u03c0/3 = \u22122\u03c0/3. Keeping the argument positive forgets that the power multiplies it too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0028",
+   "topicId": "spec-complex-numbers",
+   "stem": "In the complex plane, the set of z with |z \u2212 1| = |z + i| is:",
+   "imageRef": null,
+   "options": [
+    "the line y = x",
+    "the circle with centre 1 \u2212 i and radius 1",
+    "the line x = 1",
+    "the line y = \u2212x"
+   ],
+   "correctIndex": 3,
+   "explanation": "The points are equidistant from 1 and \u2212i, so they lie on the perpendicular bisector of (1, 0) and (0, \u22121). Expanding (x \u2212 1)\u00b2 + y\u00b2 = x\u00b2 + (y + 1)\u00b2 gives \u22122x = 2y, so y = \u2212x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0029",
+   "topicId": "spec-complex-numbers",
+   "stem": "Which relation describes the circle with centre 1 \u2212 2i and radius 3?",
+   "imageRef": null,
+   "options": [
+    "|z \u2212 1 + 2i| = 9",
+    "|z \u2212 1 + 2i| = 3",
+    "|z + 1 \u2212 2i| = 3",
+    "|z \u2212 1 \u2212 2i| = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "|z \u2212 c| = r is the circle with centre c and radius r. Here z \u2212 (1 \u2212 2i) = z \u2212 1 + 2i. The relation |z + 1 \u2212 2i| = 3 has centre \u22121 + 2i, and squaring the radius belongs only to the Cartesian equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0030",
+   "topicId": "spec-complex-numbers",
+   "stem": "In the complex plane, the relation Arg(z \u2212 2) = \u03c0/2 represents:",
+   "imageRef": null,
+   "options": [
+    "the ray x = \u22122, y > 0",
+    "the ray x = 2, y > 0",
+    "the ray y = 2, x > 0",
+    "the whole line x = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "z \u2212 2 points straight up from 2, so z = 2 + yi with y > 0. The point 2 itself is excluded because Arg(0) is undefined, and the points below have argument \u2212\u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0031",
+   "topicId": "spec-complex-numbers",
+   "stem": "Which number is a solution of z\u2074 = \u221216?",
+   "imageRef": null,
+   "options": [
+    "2i",
+    "2 + 2i",
+    "\u22122",
+    "\u221a2 + \u221a2 i"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u221216 = 16 cis(\u03c0), so the solutions are 2 cis(\u03c0/4 + k\u03c0/2). The first is 2 cis(\u03c0/4) = \u221a2 + \u221a2 i. Both 2i and \u22122 have fourth power +16, and (2 + 2i)\u2074 = \u221264 because its modulus is 2\u221a2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0032",
+   "topicId": "spec-complex-numbers",
+   "stem": "If z = \u22121 + i, then Arg(z\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/2",
+    "3\u03c0/2",
+    "\u03c0/2",
+    "3\u03c0/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "z\u00b2 = (\u22121 + i)\u00b2 = 1 \u2212 2i + i\u00b2 = \u22122i, which points down the imaginary axis, so Arg(z\u00b2) = \u2212\u03c0/2. Doubling 3\u03c0/4 gives 3\u03c0/2, which must be brought into (\u2212\u03c0, \u03c0] by subtracting 2\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0033",
+   "topicId": "spec-complex-numbers",
+   "stem": "Which list could not be the three roots of a cubic polynomial with real coefficients?",
+   "imageRef": null,
+   "options": [
+    "2, i and \u2212i",
+    "1, 1 and 1",
+    "1 + i, 1 \u2212 i and i",
+    "1 + i, 1 \u2212 i and 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Non-real roots of a real polynomial come in conjugate pairs. In the list 1 + i, 1 \u2212 i and i, the root i appears without \u2212i, and a cubic has no room for a fourth root. A triple root such as 1, 1, 1 is allowed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0034",
+   "topicId": "spec-complex-numbers",
+   "stem": "Which statement is true of every cubic polynomial with real coefficients?",
+   "imageRef": null,
+   "options": [
+    "It has no repeated roots",
+    "It has at least one real root",
+    "It has three real roots",
+    "It has at least one non-real root"
+   ],
+   "correctIndex": 1,
+   "explanation": "A cubic has three roots over C, and non-real roots come in conjugate pairs, so the number of non-real roots is 0 or 2. At least one root must be real. z\u00b3 \u2212 z has three real roots and z\u00b3 + z has one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0035",
+   "topicId": "spec-complex-numbers",
+   "stem": "The value of (1 \u2212 \u221a3 i)\u2075 is:",
+   "imageRef": null,
+   "options": [
+    "\u221216 \u2212 16\u221a3 i",
+    "\u221216 + 16\u221a3 i",
+    "16 + 16\u221a3 i",
+    "16 \u2212 16\u221a3 i"
+   ],
+   "correctIndex": 2,
+   "explanation": "1 \u2212 \u221a3 i = 2 cis(\u2212\u03c0/3), so the fifth power is 32 cis(\u22125\u03c0/3) = 32 cis(\u03c0/3) = 16 + 16\u221a3 i. The answer 16 \u2212 16\u221a3 i is 32 cis(\u2212\u03c0/3), which forgets to multiply the argument by 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0036",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u00b2 \u2212 2iz \u2212 5 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "2 + i and \u22122 + i",
+    "2 \u2212 i and \u22122 \u2212 i",
+    "1 + 2i and \u22121 + 2i",
+    "2 + i and 2 \u2212 i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Completing the square: (z \u2212 i)\u00b2 = z\u00b2 \u2212 2iz \u2212 1, so the equation is (z \u2212 i)\u00b2 = 4 and z = i \u00b1 2. The coefficients are not all real, so the conjugate root theorem does not apply and 2 \u2212 i is not a solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0037",
+   "topicId": "spec-complex-numbers",
+   "stem": "Over R, z\u2074 + 4 factorises as:",
+   "imageRef": null,
+   "options": [
+    "(z\u00b2 \u2212 2z + 2)(z\u00b2 + 2z + 2)",
+    "(z\u00b2 + 2)\u00b2",
+    "(z\u00b2 + 2)(z\u00b2 \u2212 2)",
+    "(z\u00b2 \u2212 2z \u2212 2)(z\u00b2 + 2z \u2212 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write z\u2074 + 4 = (z\u00b2 + 2)\u00b2 \u2212 4z\u00b2 = (z\u00b2 + 2 \u2212 2z)(z\u00b2 + 2 + 2z). Its roots are \u00b11 \u00b1 i, the fourth roots of \u22124. The square (z\u00b2 + 2)\u00b2 expands to z\u2074 + 4z\u00b2 + 4, which has an extra middle term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0038",
+   "topicId": "spec-complex-numbers",
+   "stem": "If z = cis \u03b8, then z^n + 1/z^n equals:",
+   "imageRef": null,
+   "options": [
+    "2cis(n\u03b8)",
+    "2(cos(\u03b8))^n",
+    "2cos(n\u03b8)",
+    "2i sin(n\u03b8)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By De Moivre\u2019s theorem z^n = cis(n\u03b8) and 1/z^n = cis(\u2212n\u03b8) = cos(n\u03b8) \u2212 i sin(n\u03b8). Adding cancels the imaginary parts, giving 2cos(n\u03b8). The difference z^n \u2212 1/z^n is 2i sin(n\u03b8).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0039",
+   "topicId": "spec-complex-numbers",
+   "stem": "A cubic polynomial P(z) with real coefficients and leading coefficient 1 has P(2) = 0 and P(1 \u2212 i) = 0. Then P(z) equals:",
+   "imageRef": null,
+   "options": [
+    "z\u00b3 \u2212 4z\u00b2 + 2z + 4",
+    "z\u00b3 \u2212 3z\u00b2 + 4z \u2212 2",
+    "z\u00b3 \u2212 4z\u00b2 + 6z \u2212 4",
+    "z\u00b3 \u2212 2z \u2212 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "1 + i is also a root, and the conjugate pair gives (z \u2212 1)\u00b2 + 1 = z\u00b2 \u2212 2z + 2. Then P(z) = (z \u2212 2)(z\u00b2 \u2212 2z + 2) = z\u00b3 \u2212 4z\u00b2 + 6z \u2212 4. The cubic z\u00b3 \u2212 3z\u00b2 + 4z \u2212 2 has real root 1, not 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0040",
+   "topicId": "spec-complex-numbers",
+   "stem": "The region of the complex plane where 1 \u2264 |z| \u2264 2 and 0 \u2264 Arg(z) \u2264 \u03c0/2 has area:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "3\u03c0/4",
+    "3\u03c0",
+    "\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The region is a quarter of the annulus between radii 1 and 2. The annulus has area \u03c0(2\u00b2 \u2212 1\u00b2) = 3\u03c0, so a quarter of it is 3\u03c0/4. The area \u03c0 is a quarter of the whole disc of radius 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0041",
+   "topicId": "spec-complex-numbers",
+   "stem": "One solution of z\u2074 = w, for some complex w, is 1 + \u221a3 i. Which number is also a solution?",
+   "imageRef": null,
+   "options": [
+    "\u2212\u221a3 + i",
+    "1 \u2212 \u221a3 i",
+    "\u22121 + \u221a3 i",
+    "\u221a3 + i"
+   ],
+   "correctIndex": 0,
+   "explanation": "The fourth roots of w are equally spaced, \u03c0/2 apart, so another is i(1 + \u221a3 i) = \u2212\u221a3 + i. Here w = 16 cis(4\u03c0/3) is not real, so the conjugate 1 \u2212 \u221a3 i need not be, and is not, a solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0042",
+   "topicId": "spec-complex-numbers",
+   "stem": "In the complex plane, the region where |z \u2212 2| \u2264 |z| is:",
+   "imageRef": null,
+   "options": [
+    "Re(z) \u2265 1",
+    "Re(z) \u2264 1",
+    "Im(z) \u2265 1",
+    "|z| \u2265 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The boundary |z \u2212 2| = |z| is the perpendicular bisector of 0 and 2, the line Re(z) = 1. Points closer to 2 than to 0 lie to its right, so Re(z) \u2265 1. Testing z = 2 confirms it: |0| \u2264 |2|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0043",
+   "topicId": "spec-complex-numbers",
+   "stem": "The solutions of z\u2074 + z\u00b3 + z\u00b2 + z + 1 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "cis(2k\u03c0/5) for k = 0, 1, 2, 3, 4",
+    "cis(2k\u03c0/4) for k = 1, 2, 3, 4",
+    "cis(2k\u03c0/5) for k = 1, 2, 3, 4",
+    "cis(k\u03c0/5) for k = 1, 2, 3, 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by z \u2212 1 gives z\u2075 \u2212 1 = 0, so the solutions are the fifth roots of unity except z = 1, which was introduced by the multiplication. Including k = 0 adds that extra root, and a quartic has only four roots.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0044",
+   "topicId": "spec-complex-numbers",
+   "stem": "Let u = 2 cis(\u03c0/6) and v = u \u00d7 cis(\u03c0/3). In the complex plane, the points 0, u and v form:",
+   "imageRef": null,
+   "options": [
+    "an equilateral triangle",
+    "a right-angled isosceles triangle",
+    "an isosceles triangle with apex angle 2\u03c0/3",
+    "a right-angled triangle with no equal sides"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying by cis(\u03c0/3) rotates u by \u03c0/3 about 0 without changing its modulus, so |u| = |v| = 2 with angle \u03c0/3 between them. An isosceles triangle with apex angle \u03c0/3 has all angles \u03c0/3, so it is equilateral.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-complex-numbers-0045",
+   "topicId": "spec-complex-numbers",
+   "stem": "Given that 2i is a root of z\u2074 + az\u00b2 + 12 = 0, where a is real, the other three roots are:",
+   "imageRef": null,
+   "options": [
+    "2, \u22122 and \u22122i",
+    "\u22122i, \u221a3 i and \u2212\u221a3 i",
+    "\u22122i, \u221a3 and \u2212\u221a3",
+    "\u22122i, 3i and \u22123i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting z = 2i gives 16 \u2212 4a + 12 = 0, so a = 7. Then z\u2074 + 7z\u00b2 + 12 = (z\u00b2 + 4)(z\u00b2 + 3), with roots \u00b12i and \u00b1\u221a3 i. The roots \u00b1\u221a3 would come from z\u00b2 \u2212 3, a factor with the wrong sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-complex-numbers-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

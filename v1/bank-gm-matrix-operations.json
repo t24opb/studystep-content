@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-matrix-operations",
+ "questions": [
+  {
+   "id": "gm-matrix-operations-0001",
+   "topicId": "gm-matrix-operations",
+   "stem": "A matrix with 3 rows and 2 columns has order:",
+   "imageRef": null,
+   "options": [
+    "2 \u00d7 3",
+    "6 \u00d7 1",
+    "5 \u00d7 1",
+    "3 \u00d7 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The order is written rows \u00d7 columns, so 3 rows and 2 columns is 3 \u00d7 2. Writing 2 \u00d7 3 reverses the convention, and the number of elements, 6, is not the order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0002",
+   "topicId": "gm-matrix-operations",
+   "stem": "The 2 \u00d7 2 identity matrix has rows:",
+   "imageRef": null,
+   "options": [
+    "(0, 1) and (1, 0)",
+    "(1, 0) and (0, 1)",
+    "(1, 1) and (1, 1)",
+    "(0, 0) and (0, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The identity matrix has 1s on the leading diagonal, from top left to bottom right, and 0s elsewhere. A matrix of all 0s is the zero matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0003",
+   "topicId": "gm-matrix-operations",
+   "stem": "Two matrices can be added only when:",
+   "imageRef": null,
+   "options": [
+    "they have the same determinant",
+    "they have the same order",
+    "they are both square matrices",
+    "the first has as many columns as the second has rows"
+   ],
+   "correctIndex": 1,
+   "explanation": "Addition combines elements in matching positions, so both matrices need the same number of rows and the same number of columns. The columns-equal-rows condition is the one for multiplication.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0004",
+   "topicId": "gm-matrix-operations",
+   "stem": "The matrix product AB is defined when:",
+   "imageRef": null,
+   "options": [
+    "the number of columns of A equals the number of rows of B",
+    "the number of rows of A equals the number of columns of B",
+    "A and B have the same order",
+    "A and B are both square"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each element of AB pairs a row of A with a column of B, so a row of A must be as long as a column of B. Equal orders are needed for addition, not multiplication.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0005",
+   "topicId": "gm-matrix-operations",
+   "stem": "If A is a 2 \u00d7 3 matrix and B is a 3 \u00d7 4 matrix, the order of AB is:",
+   "imageRef": null,
+   "options": [
+    "4 \u00d7 2",
+    "2 \u00d7 3",
+    "2 \u00d7 4",
+    "3 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inner numbers match (3 and 3), so AB exists, and its order is given by the outer numbers: 2 \u00d7 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0006",
+   "topicId": "gm-matrix-operations",
+   "stem": "A square matrix has an inverse only when:",
+   "imageRef": null,
+   "options": [
+    "it has more rows than columns",
+    "its determinant is not zero",
+    "its determinant is zero",
+    "all its elements are positive"
+   ],
+   "correctIndex": 1,
+   "explanation": "The inverse of a 2 \u00d7 2 matrix divides by its determinant, so a determinant of zero means there is no inverse. Negative elements are no obstacle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0007",
+   "topicId": "gm-matrix-operations",
+   "stem": "The element a\u2082\u2083 of matrix A is found in:",
+   "imageRef": null,
+   "options": [
+    "row 3, column 3",
+    "row 2, column 3",
+    "row 3, column 2",
+    "row 2, column 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first subscript gives the row and the second gives the column, so a\u2082\u2083 is in row 2, column 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0008",
+   "topicId": "gm-matrix-operations",
+   "stem": "In a communication matrix, a 1 in row P and column Q means that:",
+   "imageRef": null,
+   "options": [
+    "Q can send a message directly to P",
+    "P and Q communicate through one other person",
+    "P has sent exactly one message in total",
+    "P can send a message directly to Q"
+   ],
+   "correctIndex": 3,
+   "explanation": "By convention the row is the sender and the column is the receiver, so the entry shows P can contact Q directly. A one-way link need not work the other way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0009",
+   "topicId": "gm-matrix-operations",
+   "stem": "Multiplying a matrix by the scalar 3:",
+   "imageRef": null,
+   "options": [
+    "triples the number of rows",
+    "multiplies every element by 3",
+    "multiplies only the leading diagonal by 3",
+    "adds 3 to every element"
+   ],
+   "correctIndex": 1,
+   "explanation": "Scalar multiplication multiplies each element by the scalar, and the order does not change. Adding 3 to each element is a different operation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0010",
+   "topicId": "gm-matrix-operations",
+   "stem": "In a transition matrix where each column shows where members of one state move, each column adds to:",
+   "imageRef": null,
+   "options": [
+    "the number of states",
+    "the size of the population",
+    "1",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A column lists the proportions of one state that go to each state next step. Everyone goes somewhere, so the proportions add to 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0011",
+   "topicId": "gm-matrix-operations",
+   "stem": "A transition matrix T is regular when:",
+   "imageRef": null,
+   "options": [
+    "the determinant of T is 1",
+    "every leading-diagonal entry is 0",
+    "some power of T has only positive entries",
+    "every entry of T is the same"
+   ],
+   "correctIndex": 2,
+   "explanation": "If some power of T has no zero entries, every state can eventually be reached from every other, and the system settles to a steady state. Zeros in T itself are allowed as long as some power removes them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0012",
+   "topicId": "gm-matrix-operations",
+   "stem": "For a square matrix A and the identity matrix I of the same order, AI equals:",
+   "imageRef": null,
+   "options": [
+    "2A",
+    "A",
+    "I",
+    "the zero matrix"
+   ],
+   "correctIndex": 1,
+   "explanation": "The identity matrix acts like the number 1 in multiplication: AI = IA = A.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0013",
+   "topicId": "gm-matrix-operations",
+   "stem": "If A and B are 2 \u00d7 2 matrices with AB = I, then B is:",
+   "imageRef": null,
+   "options": [
+    "the zero matrix",
+    "equal to A",
+    "the inverse of A",
+    "the identity matrix"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inverse of A is the matrix that multiplies with A to give the identity, so B = A\u207b\u00b9. B equals I only when A itself is I.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0014",
+   "topicId": "gm-matrix-operations",
+   "stem": "A has rows (2, \u22121) and (0, 3). B has rows (4, 5) and (\u22122, 1). A + B has rows:",
+   "imageRef": null,
+   "options": [
+    "(6, 4) and (\u22122, 4)",
+    "(8, \u22125) and (0, 3)",
+    "(\u22122, \u22126) and (2, 2)",
+    "(6, 6) and (2, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add elements in matching positions: 2 + 4 = 6, \u22121 + 5 = 4, 0 + (\u22122) = \u22122, 3 + 1 = 4. Multiplying matching elements gives (8, \u22125) and (0, 3), and subtracting gives A \u2212 B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0015",
+   "topicId": "gm-matrix-operations",
+   "stem": "The matrix with rows (1, \u22122) and (4, 0) is multiplied by the scalar 3. The result has rows:",
+   "imageRef": null,
+   "options": [
+    "(4, 1) and (7, 3)",
+    "(3, \u22122) and (4, 0)",
+    "(3, \u22126) and (4, 0)",
+    "(3, \u22126) and (12, 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every element is multiplied by 3: 3, \u22126, 12 and 0. Adding 3 to each element gives (4, 1) and (7, 3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0016",
+   "topicId": "gm-matrix-operations",
+   "stem": "A has rows (1, 2) and (3, 4). B has rows (2, 0) and (1, 5). The product AB has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 4) and (16, 22)",
+    "(3, 2) and (4, 9)",
+    "(4, 10) and (10, 20)",
+    "(2, 0) and (3, 20)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Row 1 of A with each column of B: 1 \u00d7 2 + 2 \u00d7 1 = 4 and 1 \u00d7 0 + 2 \u00d7 5 = 10. Row 2: 3 \u00d7 2 + 4 \u00d7 1 = 10 and 3 \u00d7 0 + 4 \u00d7 5 = 20. The rows (2, 4) and (16, 22) are BA, which is different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0017",
+   "topicId": "gm-matrix-operations",
+   "stem": "The determinant of the matrix with rows (5, 3) and (2, 4) is:",
+   "imageRef": null,
+   "options": [
+    "26",
+    "\u221214",
+    "7",
+    "14"
+   ],
+   "correctIndex": 3,
+   "explanation": "For rows (a, b) and (c, d), the determinant is ad \u2212 bc = 5 \u00d7 4 \u2212 3 \u00d7 2 = 20 \u2212 6 = 14. Adding the products instead gives 26.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0018",
+   "topicId": "gm-matrix-operations",
+   "stem": "The inverse of the matrix with rows (4, 3) and (1, 1) has rows:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 3) and (1, \u22124)",
+    "(1, \u22123) and (\u22121, 4)",
+    "(4, \u22123) and (\u22121, 1)",
+    "(1, 3) and (1, 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The determinant is 4 \u00d7 1 \u2212 3 \u00d7 1 = 1. Swap the leading-diagonal elements, change the signs of the other two, and divide by 1: rows (1, \u22123) and (\u22121, 4). Changing signs without swapping gives (4, \u22123) and (\u22121, 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0019",
+   "topicId": "gm-matrix-operations",
+   "stem": "A canteen sells pies at $4, sausage rolls at $3 and drinks at $2.50. On Monday it sells 20 pies, 30 sausage rolls and 40 drinks. Multiplying the price row matrix by the quantity column matrix gives:",
+   "imageRef": null,
+   "options": [
+    "$9.50",
+    "$810",
+    "$90",
+    "$270"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row times column multiplies matching entries and adds: 4 \u00d7 20 + 3 \u00d7 30 + 2.50 \u00d7 40 = 80 + 90 + 100 = $270. Adding the three prices gives $9.50, which ignores the quantities.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0020",
+   "topicId": "gm-matrix-operations",
+   "stem": "C is the communication matrix of a group. In C\u00b2, the entry in row 1, column 3 gives the number of ways person 1 can send a message to person 3:",
+   "imageRef": null,
+   "options": [
+    "and receive a reply from person 3",
+    "through exactly one other person",
+    "directly, with no one in between",
+    "by any route at all"
+   ],
+   "correctIndex": 1,
+   "explanation": "Squaring a communication matrix counts two-step links: from person 1 to someone, then from that person to person 3. Direct links are counted in C itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0021",
+   "topicId": "gm-matrix-operations",
+   "stem": "Ann can call Ben and Cat. Ben can call Cat and Dan. Cat can call Dan. In how many ways can Ann send a message to Dan through exactly one other person?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "0",
+    "2",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The two-step routes are Ann \u2192 Ben \u2192 Dan and Ann \u2192 Cat \u2192 Dan. Ann \u2192 Ben \u2192 Cat \u2192 Dan uses two other people, so it is not a two-step route.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0022",
+   "topicId": "gm-matrix-operations",
+   "stem": "The equations 2x + y = 7 and x + y = 4 are written as AX = B. A\u207b\u00b9 has rows (1, \u22121) and (\u22121, 2). The solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 1",
+    "x = 1, y = 3",
+    "x = 11, y = \u22121",
+    "x = 3, y = \u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "X = A\u207b\u00b9B: x = 1 \u00d7 7 + (\u22121) \u00d7 4 = 3 and y = \u22121 \u00d7 7 + 2 \u00d7 4 = 1. Check: 2 \u00d7 3 + 1 = 7 and 3 + 1 = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0023",
+   "topicId": "gm-matrix-operations",
+   "stem": "The equations 3x \u2212 2y = 5 and x + 4y = 11 are written as AX = B, where X is the column matrix of x and y. Matrix A has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, \u22122) and (1, 4)",
+    "(3, 1) and (\u22122, 4)",
+    "(3, 2) and (1, 4)",
+    "(\u22122, 3) and (4, 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each row of A holds the coefficients of x and y from one equation, in order: (3, \u22122) and (1, 4). Writing the x-coefficients as the first row mixes the two equations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0024",
+   "topicId": "gm-matrix-operations",
+   "stem": "Each week 80% of caf\u00e9 P\u2019s customers return to P and 20% switch to caf\u00e9 Q, while 30% of Q\u2019s customers switch to P and 70% stay. This week P has 100 customers and Q has 100. Next week P has:",
+   "imageRef": null,
+   "options": [
+    "150",
+    "110",
+    "90",
+    "100"
+   ],
+   "correctIndex": 1,
+   "explanation": "P keeps 0.8 \u00d7 100 = 80 and gains 0.3 \u00d7 100 = 30 from Q, so it has 110. Q has the other 90.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0025",
+   "topicId": "gm-matrix-operations",
+   "stem": "A has rows (1, 1) and (0, 1). A\u00b3 has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, 3) and (0, 3)",
+    "(1, 2) and (0, 1)",
+    "(1, 3) and (0, 1)",
+    "(1, 1) and (0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u00b2 has rows (1, 2) and (0, 1), and A\u00b3 = A\u00b2 \u00d7 A has rows (1, 3) and (0, 1). Cubing each element would leave A unchanged, but matrix powers are repeated matrix multiplication.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0026",
+   "topicId": "gm-matrix-operations",
+   "stem": "A matrix shows the number of each of 3 products sold at each of 4 stores, with one row for each store. Its order is:",
+   "imageRef": null,
+   "options": [
+    "4 \u00d7 3",
+    "3 \u00d7 4",
+    "12 \u00d7 1",
+    "7 \u00d7 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "One row per store gives 4 rows, and one column per product gives 3 columns, so the order is 4 \u00d7 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0027",
+   "topicId": "gm-matrix-operations",
+   "stem": "A is a 2 \u00d7 3 matrix and B is a 2 \u00d7 2 matrix. Which of these can be calculated?",
+   "imageRef": null,
+   "options": [
+    "BA",
+    "AB",
+    "A\u00b2",
+    "A + B"
+   ],
+   "correctIndex": 0,
+   "explanation": "BA is (2 \u00d7 2)(2 \u00d7 3): the inner numbers match, giving a 2 \u00d7 3 matrix. AB is (2 \u00d7 3)(2 \u00d7 2), whose inner numbers 3 and 2 differ, and A\u00b2 needs a square matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0028",
+   "topicId": "gm-matrix-operations",
+   "stem": "For what value of k does the matrix with rows (k, 6) and (2, 3) have no inverse?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "\u22124",
+    "1",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "There is no inverse when the determinant is zero: 3k \u2212 6 \u00d7 2 = 0, so k = 4. The value 9 comes from multiplying the wrong pairs: 2k \u2212 6 \u00d7 3 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0029",
+   "topicId": "gm-matrix-operations",
+   "stem": "Which statement about the matrix with rows (6, 2) and (3, 1) is true?",
+   "imageRef": null,
+   "options": [
+    "Its determinant is 12, so it has an inverse.",
+    "Its inverse is the zero matrix of order 2 \u00d7 2.",
+    "It has no inverse, since its determinant is 0.",
+    "Its inverse has rows (1, \u22122) and (\u22123, 6)."
+   ],
+   "correctIndex": 2,
+   "explanation": "The determinant is 6 \u00d7 1 \u2212 2 \u00d7 3 = 0, so the inverse formula would divide by zero and no inverse exists. Swapping and changing signs is only the first step; it still has to be divided by the determinant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0030",
+   "topicId": "gm-matrix-operations",
+   "stem": "The product of a 1 \u00d7 3 row matrix and a 3 \u00d7 1 column matrix, in that order, has order:",
+   "imageRef": null,
+   "options": [
+    "3 \u00d7 3",
+    "1 \u00d7 3",
+    "3 \u00d7 1",
+    "1 \u00d7 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The inner numbers, 3 and 3, match, and the outer numbers give the order: 1 \u00d7 1, a single number. Multiplying in the other order, column times row, would give a 3 \u00d7 3 matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0031",
+   "topicId": "gm-matrix-operations",
+   "stem": "A population has transition matrix T and initial state matrix S\u2080. The state matrix after 3 steps is:",
+   "imageRef": null,
+   "options": [
+    "TS\u2080 + 3",
+    "S\u2080 + 3T",
+    "T\u00b3S\u2080",
+    "3TS\u2080"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each step multiplies the current state by T: S\u2081 = TS\u2080, S\u2082 = TS\u2081 = T\u00b2S\u2080, S\u2083 = T\u00b3S\u2080. Multiplying by 3 instead of cubing treats the steps as adding rather than repeating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0032",
+   "topicId": "gm-matrix-operations",
+   "stem": "Each week 80% of caf\u00e9 P\u2019s customers return to P and 20% switch to caf\u00e9 Q, while 30% of Q\u2019s customers switch to P and 70% stay. This week P has 100 and Q has 100. In two weeks\u2019 time P has:",
+   "imageRef": null,
+   "options": [
+    "120",
+    "121",
+    "115",
+    "110"
+   ],
+   "correctIndex": 2,
+   "explanation": "After one week P has 110 and Q 90. After two, P has 0.8 \u00d7 110 + 0.3 \u00d7 90 = 88 + 27 = 115. The value 120 is the long-run steady state, not the two-week figure.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0033",
+   "topicId": "gm-matrix-operations",
+   "stem": "Each week 80% of caf\u00e9 P\u2019s customers return to P and 20% switch to caf\u00e9 Q, while 30% of Q\u2019s customers switch to P and 70% stay. The 200 customers stay with the two caf\u00e9s. In the long run, P has about:",
+   "imageRef": null,
+   "options": [
+    "120 customers",
+    "100 customers",
+    "115 customers",
+    "140 customers"
+   ],
+   "correctIndex": 0,
+   "explanation": "At steady state the flows balance: 0.2P = 0.3Q, so P = 1.5Q. With P + Q = 200, Q = 80 and P = 120. The value 115 is only the number after two weeks.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0034",
+   "topicId": "gm-matrix-operations",
+   "stem": "Shop X charges $4/kg for apples and $3/kg for bananas; shop Y charges $5/kg and $2/kg. A price matrix with a row for each shop is multiplied by the column matrix of 2 kg apples and 4 kg bananas. The result shows:",
+   "imageRef": null,
+   "options": [
+    "$18 at X and $20 at Y",
+    "$14 at X and $14 at Y",
+    "$38 in total at each shop",
+    "$20 at X and $18 at Y"
+   ],
+   "correctIndex": 3,
+   "explanation": "Shop X: 4 \u00d7 2 + 3 \u00d7 4 = $20. Shop Y: 5 \u00d7 2 + 2 \u00d7 4 = $18. The product is a 2 \u00d7 1 matrix with one total for each shop.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0035",
+   "topicId": "gm-matrix-operations",
+   "stem": "The inverse of the matrix with rows (2, 1) and (4, 3) has rows:",
+   "imageRef": null,
+   "options": [
+    "(\u22121.5, 0.5) and (2, \u22121)",
+    "(1.5, \u22120.5) and (\u22122, 1)",
+    "(3, \u22121) and (\u22124, 2)",
+    "(1.5, 0.5) and (2, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The determinant is 2 \u00d7 3 \u2212 1 \u00d7 4 = 2. Swap the diagonal and change the other signs to get (3, \u22121) and (\u22124, 2), then divide by 2. Stopping before the division gives a matrix twice the inverse.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0036",
+   "topicId": "gm-matrix-operations",
+   "stem": "Using a matrix inverse, the solution of 2x + y = 5 and 4x + 3y = 13 is:",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 1",
+    "x = 2, y = 1",
+    "x = \u22121, y = 7",
+    "x = 1, y = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A\u207b\u00b9 has rows (1.5, \u22120.5) and (\u22122, 1). Then x = 1.5 \u00d7 5 \u2212 0.5 \u00d7 13 = 1 and y = \u22122 \u00d7 5 + 13 = 3. Check: 2 + 3 = 5 and 4 + 9 = 13; x = \u22121, y = 7 fits only the first equation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0037",
+   "topicId": "gm-matrix-operations",
+   "stem": "Each year 10% of a region\u2019s city dwellers move to the country and 5% of country dwellers move to the city. In the long run, what fraction of the population lives in the city?",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "2/3",
+    "1/2",
+    "1/10"
+   ],
+   "correctIndex": 0,
+   "explanation": "At steady state the flows balance: 0.10 \u00d7 city = 0.05 \u00d7 country, so the country population is twice the city\u2019s. The city therefore holds 1/3. The value 2/3 is the country\u2019s share.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0038",
+   "topicId": "gm-matrix-operations",
+   "stem": "A transition matrix T has columns (1, 0) and (0.4, 0.6), each showing where one state\u2019s members move. Is T regular?",
+   "imageRef": null,
+   "options": [
+    "No: its determinant is equal to 0.",
+    "No: every power of T has a zero in its first column.",
+    "Yes: each of its columns adds to 1.",
+    "Yes: T\u00b2 has no zero entries in it."
+   ],
+   "correctIndex": 1,
+   "explanation": "The first state keeps all its members every step, so no one ever leaves it and every power of T keeps a 0 in that column. Columns adding to 1 make T a transition matrix but not necessarily a regular one; its determinant is 0.6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0039",
+   "topicId": "gm-matrix-operations",
+   "stem": "C is the communication matrix of a group. The numbers of ways each person can send a message to each other person, either directly or through exactly one other person, are given by:",
+   "imageRef": null,
+   "options": [
+    "C\u00b2",
+    "2C",
+    "C\u00b2 \u2212 C",
+    "C + C\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "C counts one-step links and C\u00b2 counts two-step links, so their sum counts routes of one or two steps. C\u00b2 alone leaves out the direct links.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-matrix-operations-0040",
+   "topicId": "gm-matrix-operations",
+   "stem": "Matrix N (3 \u00d7 2) shows adult and child tickets sold on each of 3 days. Matrix P (2 \u00d7 1) holds the prices: $20 adult, $12 child. Each day\u2019s revenue is given by:",
+   "imageRef": null,
+   "options": [
+    "PN, a 3 \u00d7 1 matrix",
+    "NP, a 1 \u00d7 3 matrix",
+    "PN, a 2 \u00d7 3 matrix",
+    "NP, a 3 \u00d7 1 matrix"
+   ],
+   "correctIndex": 3,
+   "explanation": "NP is (3 \u00d7 2)(2 \u00d7 1): the inner numbers match and the result is 3 \u00d7 1, one revenue per day. PN is (2 \u00d7 1)(3 \u00d7 2), whose inner numbers 1 and 3 differ, so it is not defined.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-matrix-operations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

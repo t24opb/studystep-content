@@ -1,0 +1,803 @@
+{
+ "topicId": "spec-transformations-vectors",
+ "questions": [
+  {
+   "id": "spec-transformations-vectors-0001",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The matrix of the rotation by \u03b8 anticlockwise about the origin has rows:",
+   "imageRef": null,
+   "options": [
+    "(cos \u03b8, sin \u03b8) and (\u2212sin \u03b8, cos \u03b8)",
+    "(sin \u03b8, cos \u03b8) and (cos \u03b8, \u2212sin \u03b8)",
+    "(cos \u03b8, sin \u03b8) and (sin \u03b8, \u2212cos \u03b8)",
+    "(cos \u03b8, \u2212sin \u03b8) and (sin \u03b8, cos \u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The point (1, 0) must go to (cos \u03b8, sin \u03b8), which is the first column. The matrix with rows (cos \u03b8, sin \u03b8) and (\u2212sin \u03b8, cos \u03b8) rotates clockwise, and the one with \u2212cos \u03b8 in the corner is a reflection.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0002",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The point (3, 1) is rotated by 90\u00b0 anticlockwise about the origin. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(\u22123, 1)",
+    "(3, \u22121)",
+    "(\u22121, 3)",
+    "(1, \u22123)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A quarter turn anticlockwise sends (x, y) to (\u2212y, x), so (3, 1) goes to (\u22121, 3). The image (1, \u22123) is the clockwise rotation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0003",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The matrix of the reflection in the line y = x has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, 0) and (0, \u22121)",
+    "(\u22121, 0) and (0, 1)",
+    "(0, \u22121) and (\u22121, 0)",
+    "(0, 1) and (1, 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reflecting in y = x swaps the coordinates, (x, y) \u2192 (y, x). The matrix with rows (1, 0) and (0, \u22121) reflects in the x-axis, and rows (0, \u22121) and (\u22121, 0) reflect in y = \u2212x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0004",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The matrix of the reflection in the line y = \u221a3 x has rows:",
+   "imageRef": null,
+   "options": [
+    "(\u22121/2, \u221a3/2) and (\u221a3/2, 1/2)",
+    "(1/2, \u221a3/2) and (\u221a3/2, \u22121/2)",
+    "(\u22121/2, \u2212\u221a3/2) and (\u221a3/2, \u22121/2)",
+    "(1/2, \u2212\u221a3/2) and (\u221a3/2, 1/2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The line makes 60\u00b0 with the x-axis, and reflection in a line at angle \u03b8 has rows (cos 2\u03b8, sin 2\u03b8) and (sin 2\u03b8, \u2212cos 2\u03b8), with 2\u03b8 = 120\u00b0. Using 60\u00b0 in place of 120\u00b0 gives a reflection in a different line, y = x/\u221a3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0005",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The graph of y = x\u00b2 is translated by the vector (2, \u22123), that is, 2 units right and 3 units down. Its image is:",
+   "imageRef": null,
+   "options": [
+    "y = (x \u2212 2)\u00b2 \u2212 3",
+    "y = (x + 2)\u00b2 \u2212 3",
+    "y = (x \u2212 2)\u00b2 + 3",
+    "y = (x + 2)\u00b2 + 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vertex moves from (0, 0) to (2, \u22123), so x is replaced by x \u2212 2 and 3 is subtracted. Writing x + 2 moves the graph left instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0006",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The line y = 2x is transformed by the matrix with rows (1, 0) and (0, 3). Its image is the line:",
+   "imageRef": null,
+   "options": [
+    "y = 2x + 3",
+    "y = 5x",
+    "y = 6x",
+    "y = 2x/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The map (x, y) \u2192 (x, 3y) triples every y-coordinate, so points (t, 2t) go to (t, 6t). Dividing by 3 instead reverses the dilation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0007",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The matrix with rows (2, 0) and (0, 1) represents:",
+   "imageRef": null,
+   "options": [
+    "a translation of 2 units to the right",
+    "a dilation of factor 2 from the y-axis",
+    "a dilation of factor 2 from the x-axis",
+    "a dilation of factor 2 from the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "The map (x, y) \u2192 (2x, y) doubles distances from the y-axis, stretching parallel to the x-axis. A dilation from the x-axis would double the y-coordinates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0008",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The graph of y = x\u00b2 is transformed by (x, y) \u2192 (2x, y). Its image has equation:",
+   "imageRef": null,
+   "options": [
+    "y = 4x\u00b2",
+    "y = 2x\u00b2",
+    "y = x\u00b2/2",
+    "y = x\u00b2/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Image points satisfy x\u2032 = 2x and y\u2032 = y, so x = x\u2032/2 and y\u2032 = (x\u2032/2)\u00b2 = x\u2032\u00b2/4. Substituting 2x in place of x/2 gives 4x\u00b2, which narrows the graph instead of widening it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0009",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The inverse of the rotation by \u03c0/3 anticlockwise about the origin is:",
+   "imageRef": null,
+   "options": [
+    "the rotation by \u03c0/3 clockwise about the origin",
+    "the reflection in the line y = x",
+    "the rotation by \u03c0/3 anticlockwise about the origin",
+    "the rotation by 2\u03c0/3 anticlockwise about the origin"
+   ],
+   "correctIndex": 0,
+   "explanation": "Undoing a turn of \u03c0/3 one way needs a turn of \u03c0/3 the other way. Repeating the same rotation turns the plane further, by 2\u03c0/3 in total.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0010",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A shape is reflected in the x-axis and then reflected in the y-axis. The composite transformation is:",
+   "imageRef": null,
+   "options": [
+    "a rotation of 90\u00b0 about the origin",
+    "the identity transformation",
+    "a rotation of 180\u00b0 about the origin",
+    "a reflection in the line y = x"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first reflection sends (x, y) to (x, \u2212y) and the second to (\u2212x, \u2212y), which is a half turn about the origin. Two reflections compose to a rotation, not another reflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0011",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A point is rotated by 90\u00b0 anticlockwise about the origin and then reflected in the x-axis. The matrix of this composite transformation has rows:",
+   "imageRef": null,
+   "options": [
+    "(0, 1) and (\u22121, 0)",
+    "(1, 0) and (0, 1)",
+    "(0, \u22121) and (\u22121, 0)",
+    "(0, 1) and (1, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The matrix is (reflection) \u00d7 (rotation), applied right to left: (1, 0) \u2192 (0, 1) \u2192 (0, \u22121), and (0, 1) \u2192 (\u22121, 0) \u2192 (\u22121, 0). The result is reflection in y = \u2212x; multiplying in the other order gives reflection in y = x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0012",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Under the transformation with matrix rows (2, 1) and (1, 1), the image of a point P is (5, 3). The point P is:",
+   "imageRef": null,
+   "options": [
+    "(2, 1)",
+    "(13, 8)",
+    "(1, 2)",
+    "(3, 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "P satisfies 2x + y = 5 and x + y = 3, so x = 2 and y = 1; equivalently P is the inverse matrix times (5, 3). Applying the matrix to (5, 3) gives (13, 8), which goes the wrong way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0013",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A shape of area 5 square units is transformed by the matrix with rows (3, 1) and (2, 4). The area of its image is:",
+   "imageRef": null,
+   "options": [
+    "15 square units",
+    "2 square units",
+    "50 square units",
+    "10 square units"
+   ],
+   "correctIndex": 2,
+   "explanation": "Areas are multiplied by the absolute value of the determinant, 3 \u00d7 4 \u2212 1 \u00d7 2 = 10, so the image has area 50. The value 10 is the scale factor, not the new area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0014",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A linear transformation has a matrix with determinant \u22122. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "Areas are doubled and orientation is unchanged",
+    "Areas are multiplied by \u22122, giving negative areas",
+    "Areas are doubled and orientation is reversed",
+    "Areas are halved and orientation is reversed"
+   ],
+   "correctIndex": 2,
+   "explanation": "The size of the determinant gives the area factor, 2, and the negative sign shows the transformation includes a reflection. Areas themselves are never negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0015",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Which property is always invariant under a rotation about the origin?",
+   "imageRef": null,
+   "options": [
+    "the direction of every line",
+    "the coordinates of every point",
+    "the gradient of every line through the origin",
+    "the distance between any two points"
+   ],
+   "correctIndex": 3,
+   "explanation": "A rotation moves figures rigidly, so lengths, angles and areas are kept. It turns lines, so directions and gradients generally change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0016",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The points that are invariant under the reflection in the line y = x are:",
+   "imageRef": null,
+   "options": [
+    "all the points on the line y = \u2212x",
+    "no points of the plane",
+    "all the points on the line y = x",
+    "only the origin"
+   ],
+   "correctIndex": 2,
+   "explanation": "A reflection leaves its mirror line fixed, and (x, y) \u2192 (y, x) fixes exactly the points with x = y. Points on y = \u2212x are sent to their negatives.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0017",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Under the linear transformation with matrix rows (1, 2) and (0, 1), the invariant points are:",
+   "imageRef": null,
+   "options": [
+    "the points on the line y = 2x",
+    "the points on the x-axis",
+    "the points on the y-axis",
+    "only the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "The map is (x, y) \u2192 (x + 2y, y), which equals (x, y) exactly when y = 0. Points on the y-axis move sideways, so they are not fixed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0018",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A translation by a non-zero vector cannot be represented by a 2 \u00d7 2 matrix acting on (x, y) because:",
+   "imageRef": null,
+   "options": [
+    "it changes the distances between points of a shape",
+    "its determinant would have to be equal to zero",
+    "it moves the origin, but every linear transformation fixes the origin",
+    "it changes the areas of shapes, which a matrix cannot do"
+   ],
+   "correctIndex": 2,
+   "explanation": "Any 2 \u00d7 2 matrix sends (0, 0) to (0, 0), but a translation moves it. Translations keep both distances and areas, so those reasons are false.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0019",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Two vectors are equal when they have:",
+   "imageRef": null,
+   "options": [
+    "the same magnitude and the same direction",
+    "the same magnitude, whatever their directions",
+    "the same direction, whatever their magnitudes",
+    "the same initial point in the plane"
+   ],
+   "correctIndex": 0,
+   "explanation": "A vector is fixed by its magnitude and direction, so two arrows with the same length and direction represent the same vector wherever they start. Equal magnitude alone allows different directions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0020",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Compared with the vector a, the vector \u22122a is:",
+   "imageRef": null,
+   "options": [
+    "half as long and in the opposite direction",
+    "twice as long and in the same direction",
+    "the same length and in the opposite direction",
+    "twice as long and in the opposite direction"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying by 2 doubles the length and the negative sign reverses the direction. A scalar of \u22121/2 would give half the length.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0021",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The magnitude of the vector 3i \u2212 4j is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "7",
+    "\u22121",
+    "\u221a7"
+   ],
+   "correctIndex": 0,
+   "explanation": "|3i \u2212 4j| = \u221a(3\u00b2 + (\u22124)\u00b2) = \u221a25 = 5. Adding the components gives \u22121, and a magnitude cannot be negative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0022",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The unit vector in the direction of 3i \u2212 4j is:",
+   "imageRef": null,
+   "options": [
+    "(3i \u2212 4j)/5",
+    "(3i \u2212 4j)/25",
+    "(3i \u2212 4j)/7",
+    "(4i + 3j)/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Divide the vector by its magnitude, \u221a(9 + 16) = 5. Dividing by 25 uses the square of the magnitude, and (4i + 3j)/5 is perpendicular to the given vector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0023",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Point A is (1, 2) and point B is (4, \u22122). The vector AB is:",
+   "imageRef": null,
+   "options": [
+    "3i \u2212 4j",
+    "\u22123i + 4j",
+    "5i",
+    "4i \u2212 2j"
+   ],
+   "correctIndex": 0,
+   "explanation": "AB = OB \u2212 OA = (4 \u2212 1)i + (\u22122 \u2212 2)j = 3i \u2212 4j. Subtracting the other way gives BA, which points the opposite way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0024",
+   "topicId": "spec-transformations-vectors",
+   "stem": "If a = 2i + j and b = i \u2212 3j, then 3a \u2212 2b is:",
+   "imageRef": null,
+   "options": [
+    "4i + 9j",
+    "4i \u2212 3j",
+    "8i \u2212 3j",
+    "4i + 3j"
+   ],
+   "correctIndex": 0,
+   "explanation": "3a = 6i + 3j and 2b = 2i \u2212 6j, so 3a \u2212 2b = 4i + 9j. Forgetting that \u22122 \u00d7 (\u22123j) = +6j gives 4i \u2212 3j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0025",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The vectors 2i \u2212 3j and mi + 6j are parallel. The value of m is:",
+   "imageRef": null,
+   "options": [
+    "\u22124",
+    "4",
+    "\u22129",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Parallel vectors are scalar multiples: 6j = \u22122 \u00d7 (\u22123j), so mi = \u22122 \u00d7 2i and m = \u22124. Taking m = 4 ignores the sign of the scalar.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0026",
+   "topicId": "spec-transformations-vectors",
+   "stem": "In triangle OAB, OA = a and OB = b. The vector AB is:",
+   "imageRef": null,
+   "options": [
+    "(a + b)/2",
+    "b \u2212 a",
+    "a \u2212 b",
+    "a + b"
+   ],
+   "correctIndex": 1,
+   "explanation": "Going from A to B via O, AB = AO + OB = \u2212a + b. The vector a \u2212 b is BA, and (a + b)/2 is the position of the midpoint of AB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0027",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Points A and B have position vectors a and b. The midpoint M of AB has position vector:",
+   "imageRef": null,
+   "options": [
+    "(b \u2212 a)/2",
+    "(a \u2212 b)/2",
+    "a + b",
+    "(a + b)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "OM = a + (1/2)AB = a + (1/2)(b \u2212 a) = (a + b)/2. The vector (b \u2212 a)/2 is AM, the step from A to M, not the position of M.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0028",
+   "topicId": "spec-transformations-vectors",
+   "stem": "In triangle OAB, OA = a and OB = b. P is the midpoint of OA and Q is the midpoint of AB. The vector PQ is:",
+   "imageRef": null,
+   "options": [
+    "(a + b)/2",
+    "(b \u2212 a)/2",
+    "a/2",
+    "b/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "OP = a/2 and OQ = (a + b)/2, so PQ = OQ \u2212 OP = b/2. This proves PQ is parallel to OB and half its length; (a + b)/2 is OQ itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0029",
+   "topicId": "spec-transformations-vectors",
+   "stem": "For non-zero vectors a and b, the scalar product a.b = 0 means that:",
+   "imageRef": null,
+   "options": [
+    "a and b are perpendicular",
+    "a and b are parallel",
+    "a and b are equal",
+    "a and b have equal magnitudes"
+   ],
+   "correctIndex": 0,
+   "explanation": "a.b = |a||b|cos \u03b8, which for non-zero vectors is 0 only when cos \u03b8 = 0, that is \u03b8 = 90\u00b0. Parallel vectors give a.b = \u00b1|a||b|.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0030",
+   "topicId": "spec-transformations-vectors",
+   "stem": "If a = 3i + 2j and b = i \u2212 4j, then a.b is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "\u221211",
+    "\u22125",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "a.b = 3 \u00d7 1 + 2 \u00d7 (\u22124) = 3 \u2212 8 = \u22125. The scalar product is a number found by multiplying matching components and adding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0031",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The vectors 2i + 3j and ki \u2212 4j are perpendicular. The value of k is:",
+   "imageRef": null,
+   "options": [
+    "\u22126",
+    "\u22128/3",
+    "8/3",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "Perpendicular means the scalar product is 0: 2k \u2212 12 = 0, so k = 6. The value \u22128/3 makes the vectors parallel instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0032",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The angle between the vectors i + \u221a3 j and \u221a3 i + j is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "5\u03c0/6",
+    "\u03c0/6",
+    "\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The scalar product is \u221a3 + \u221a3 = 2\u221a3 and each magnitude is 2, so cos \u03b8 = 2\u221a3/4 = \u221a3/2 and \u03b8 = \u03c0/6. The vectors make angles \u03c0/3 and \u03c0/6 with the x-axis, which differ by \u03c0/6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0033",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Vectors a and b have |a| = 3, |b| = 4 and a.b = \u22126. The angle between them is:",
+   "imageRef": null,
+   "options": [
+    "60\u00b0",
+    "150\u00b0",
+    "30\u00b0",
+    "120\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos \u03b8 = a.b/(|a||b|) = \u22126/12 = \u22121/2, so \u03b8 = 120\u00b0. A negative scalar product means the angle is obtuse, which rules out 60\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0034",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The scalar resolute of a = 2i + 5j in the direction of b = 3i \u2212 4j is:",
+   "imageRef": null,
+   "options": [
+    "14/5",
+    "\u221214/25",
+    "\u221214/\u221a29",
+    "\u221214/5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The scalar resolute is a.b/|b| = (6 \u2212 20)/5 = \u221214/5. Dividing by |b|\u00b2 gives the multiplier for the vector resolute instead, and \u221a29 is the magnitude of a, not b.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0035",
+   "topicId": "spec-transformations-vectors",
+   "stem": "The vector resolute (projection) of a = 4i + 2j onto b = 3i + 4j is:",
+   "imageRef": null,
+   "options": [
+    "4(3i + 4j)",
+    "4i + 2j",
+    "(4/25)(3i + 4j)",
+    "(4/5)(3i + 4j)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The projection is (a.b/|b|\u00b2)b = (20/25)(3i + 4j). The scalar resolute is 4, but multiplying b by 4 forgets that b itself has length 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0036",
+   "topicId": "spec-transformations-vectors",
+   "stem": "OACB is a parallelogram with OA = a and OB = b, so its diagonals are a + b and b \u2212 a. The diagonals are perpendicular exactly when:",
+   "imageRef": null,
+   "options": [
+    "|a + b| = |a \u2212 b|",
+    "|a| = |b|",
+    "a.b = 0",
+    "a = b"
+   ],
+   "correctIndex": 1,
+   "explanation": "(a + b).(b \u2212 a) = |b|\u00b2 \u2212 |a|\u00b2, which is 0 exactly when |a| = |b|, so the parallelogram is a rhombus. The condition a.b = 0 makes the sides perpendicular, giving a rectangle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0037",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A boat moves at 4 m/s east relative to the water in a river flowing south at 3 m/s. Its speed relative to the bank is:",
+   "imageRef": null,
+   "options": [
+    "5 m/s",
+    "7 m/s",
+    "1 m/s",
+    "\u221a7 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "The resultant velocity is 4i \u2212 3j, with magnitude \u221a(16 + 9) = 5 m/s. Adding the speeds to get 7 assumes both velocities point the same way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0038",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A boat travels at 5 m/s relative to the water and must go straight across a river that flows at 3 m/s. Its speed across the river is:",
+   "imageRef": null,
+   "options": [
+    "8 m/s",
+    "\u221a34 m/s",
+    "4 m/s",
+    "5 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "The boat must point partly upstream so that 3 m/s of its velocity cancels the current, leaving \u221a(25 \u2212 9) = 4 m/s across. \u221a34 comes from adding the current instead of cancelling it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0039",
+   "topicId": "spec-transformations-vectors",
+   "stem": "Car A has velocity 60i km/h and car B has velocity 80j km/h. The velocity of B relative to A is:",
+   "imageRef": null,
+   "options": [
+    "60i \u2212 80j km/h",
+    "60i + 80j km/h",
+    "\u221260i \u2212 80j km/h",
+    "\u221260i + 80j km/h"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocity of B relative to A is v(B) \u2212 v(A) = 80j \u2212 60i, how B appears to move to someone in A. The vector 60i \u2212 80j is the velocity of A relative to B.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0040",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A particle is in equilibrium under three forces: 3i + 2j, \u22125i + j and F newtons. The force F is:",
+   "imageRef": null,
+   "options": [
+    "2i \u2212 3j",
+    "\u22122i + 3j",
+    "8i + j",
+    "\u22128i \u2212 j"
+   ],
+   "correctIndex": 0,
+   "explanation": "In equilibrium the forces add to zero, and the first two add to \u22122i + 3j, so F = 2i \u2212 3j. The vector \u22122i + 3j is the sum of the other two forces, not the force that balances them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0041",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A particle of mass 2 kg is acted on by a constant force 6i \u2212 4j newtons. Its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "6i \u2212 4j m/s\u00b2",
+    "(6i \u2212 4j)/\u221a52 m/s\u00b2",
+    "3i \u2212 2j m/s\u00b2",
+    "12i \u2212 8j m/s\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "From F = ma, a = (6i \u2212 4j)/2 = 3i \u2212 2j. Multiplying by the mass instead of dividing gives 12i \u2212 8j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-transformations-vectors-0042",
+   "topicId": "spec-transformations-vectors",
+   "stem": "A particle starts at rest at the origin and moves with constant acceleration 3i \u2212 2j m/s\u00b2. Its position vector after 4 seconds is:",
+   "imageRef": null,
+   "options": [
+    "3i \u2212 2j m",
+    "24i \u2212 16j m",
+    "12i \u2212 8j m",
+    "48i \u2212 32j m"
+   ],
+   "correctIndex": 1,
+   "explanation": "From rest, r = (1/2)at\u00b2 = (1/2) \u00d7 16 \u00d7 (3i \u2212 2j) = 24i \u2212 16j. The vector 12i \u2212 8j is the velocity at t = 4, not the position.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-transformations-vectors-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

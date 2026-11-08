@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-simulation-sampling",
+ "questions": [
+  {
+   "id": "spec-simulation-sampling-0001",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A random variable X takes the values 0, 1 and 2. Which list could be Pr(X = 0), Pr(X = 1) and Pr(X = 2)?",
+   "imageRef": null,
+   "options": [
+    "0.3, 0.3 and 0.3",
+    "0.2, 0.5 and 0.3",
+    "0.2, 0.5 and 0.4",
+    "0.5, 0.6 and \u22120.1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Probabilities must each lie between 0 and 1 and add to 1, and 0.2 + 0.5 + 0.3 = 1. The list 0.5, 0.6, \u22120.1 adds to 1 but contains a negative probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0002",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Pr(X = 0) = 0.2, Pr(X = 1) = 0.5 and Pr(X = 2) = 0.3. The value of E(X) is:",
+   "imageRef": null,
+   "options": [
+    "0.33",
+    "1.1",
+    "1",
+    "1.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(X) = 0 \u00d7 0.2 + 1 \u00d7 0.5 + 2 \u00d7 0.3 = 1.1. The value 1 is the middle value of X, not the probability-weighted mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0003",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Pr(X = 0) = 0.2, Pr(X = 1) = 0.5 and Pr(X = 2) = 0.3, so E(X) = 1.1. The value of Var(X) is:",
+   "imageRef": null,
+   "options": [
+    "0.49",
+    "1.7",
+    "0.7",
+    "0.6"
+   ],
+   "correctIndex": 0,
+   "explanation": "E(X\u00b2) = 0 + 0.5 + 4 \u00d7 0.3 = 1.7, so Var(X) = 1.7 \u2212 1.1\u00b2 = 1.7 \u2212 1.21 = 0.49. The value 0.7 is the standard deviation, and 1.7 is E(X\u00b2) before subtracting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0004",
+   "topicId": "spec-simulation-sampling",
+   "stem": "For a discrete random variable X, the variance Var(X) can be calculated as:",
+   "imageRef": null,
+   "options": [
+    "E(X\u00b2) \u2212 E(X)",
+    "(E(X))\u00b2 \u2212 E(X\u00b2)",
+    "(E(X\u00b2))\u00b2",
+    "E(X\u00b2) \u2212 (E(X))\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Var(X) = E((X \u2212 \u03bc)\u00b2) simplifies to E(X\u00b2) \u2212 \u03bc\u00b2. Reversing the subtraction would give a negative value, but a variance is never negative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0005",
+   "topicId": "spec-simulation-sampling",
+   "stem": "The expected value E(X) of a random variable is best described as:",
+   "imageRef": null,
+   "options": [
+    "the single most likely value of X",
+    "the middle value of X when the values are ordered",
+    "the largest value that X can take",
+    "the long-run average value of X over many trials"
+   ],
+   "correctIndex": 3,
+   "explanation": "E(X) weights each value by its probability, so it is the average result over many repetitions. The most likely value is the mode, which can be quite different.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0006",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X takes the values 1, 2 and 3 with probabilities k, 2k and 3k. The value of E(X) is:",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "14/3",
+    "7/3",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The probabilities add to 6k = 1, so k = 1/6, and E(X) = (1 + 4 + 9)/6 = 14/6 = 7/3. The value 1/6 is k, not the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0007",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X takes the values 1, 2, 3 and 4 with probabilities 0.1, 0.2, 0.3 and 0.4. The standard deviation of X is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "10",
+    "\u221a10",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "E(X) = 0.1 + 0.4 + 0.9 + 1.6 = 3 and E(X\u00b2) = 0.1 + 0.8 + 2.7 + 6.4 = 10, so Var(X) = 10 \u2212 9 = 1 and sd(X) = 1. The value 10 is E(X\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0008",
+   "topicId": "spec-simulation-sampling",
+   "stem": "If E(X) = 4, then E(3X \u2212 2) is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "14",
+    "4",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "E(aX + b) = aE(X) + b = 3 \u00d7 4 \u2212 2 = 10. Multiplying without subtracting 2 gives 12.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0009",
+   "topicId": "spec-simulation-sampling",
+   "stem": "If Var(X) = 5, then Var(3X \u2212 2) is:",
+   "imageRef": null,
+   "options": [
+    "15",
+    "13",
+    "45",
+    "43"
+   ],
+   "correctIndex": 2,
+   "explanation": "Var(aX + b) = a\u00b2Var(X) = 9 \u00d7 5 = 45, and adding a constant does not change spread. The value 15 forgets to square the 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0010",
+   "topicId": "spec-simulation-sampling",
+   "stem": "If sd(X) = 3, then sd(\u22122X + 7) is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "13",
+    "6",
+    "\u22126"
+   ],
+   "correctIndex": 2,
+   "explanation": "sd(aX + b) = |a| sd(X) = 2 \u00d7 3 = 6. A standard deviation cannot be negative, and the +7 shifts the values without spreading them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0011",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X and Y are independent with Var(X) = 4 and Var(Y) = 9. The value of sd(X + Y) is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "13",
+    "\u221a5",
+    "\u221a13"
+   ],
+   "correctIndex": 3,
+   "explanation": "For independent variables the variances add: Var(X + Y) = 13, so sd(X + Y) = \u221a13. Adding the standard deviations 2 + 3 = 5 is a common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0012",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X and Y are independent with Var(X) = 4 and Var(Y) = 9. The value of Var(X \u2212 Y) is:",
+   "imageRef": null,
+   "options": [
+    "36",
+    "13",
+    "\u22125",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Var(X \u2212 Y) = Var(X) + (\u22121)\u00b2Var(Y) = 4 + 9 = 13. Subtracting the variances gives \u22125, which is impossible for a variance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0013",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X and Y are independent with Var(X) = 1 and Var(Y) = 2. The value of Var(2X + 3Y) is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "22",
+    "8",
+    "13"
+   ],
+   "correctIndex": 1,
+   "explanation": "Var(2X + 3Y) = 2\u00b2 \u00d7 1 + 3\u00b2 \u00d7 2 = 4 + 18 = 22. The value 8 = 2 \u00d7 1 + 3 \u00d7 2 forgets to square the coefficients.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0014",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X has mean 2 and variance 1. T is the sum of 5 independent observations of X. The mean and variance of T are:",
+   "imageRef": null,
+   "options": [
+    "10 and 5",
+    "10 and 25",
+    "10 and \u221a5",
+    "2 and 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Means add and, for independent observations, variances add: E(T) = 5 \u00d7 2 and Var(T) = 5 \u00d7 1. The variance 25 would be Var(5X), which is a different variable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0015",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X takes the values 0 and 1, each with probability 1/2. For two independent observations X\u2081 and X\u2082, the sum X\u2081 + X\u2082 takes the values:",
+   "imageRef": null,
+   "options": [
+    "0, 1 and 2, with probabilities 1/2, 1/4 and 1/4",
+    "0, 1 and 2, with probabilities 1/4, 1/2 and 1/4",
+    "0, 1 and 2, with probabilities 1/3, 1/3 and 1/3",
+    "0 and 2, with probabilities 1/2 and 1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The four equally likely pairs are 00, 01, 10 and 11, giving sums 0, 1, 1 and 2. Values 0 and 2 only would be the distribution of 2X, which doubles a single observation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0016",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the sum of the uppermost faces is 7?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/12",
+    "7/36",
+    "1/11"
+   ],
+   "correctIndex": 0,
+   "explanation": "Six of the 36 equally likely pairs add to 7: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2) and (6, 1). Treating the 11 possible sums as equally likely gives 1/11.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0017",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X is the score on a fair die, and X\u2081 and X\u2082 are two independent rolls. The values of Pr(X\u2081 + X\u2082 = 4) and Pr(2X = 4) are:",
+   "imageRef": null,
+   "options": [
+    "1/12 and 1/6",
+    "1/6 and 1/12",
+    "1/12 and 1/12",
+    "1/6 and 1/6"
+   ],
+   "correctIndex": 0,
+   "explanation": "X\u2081 + X\u2082 = 4 for (1, 3), (2, 2) and (3, 1), which is 3/36 = 1/12. 2X = 4 needs only a single roll of 2, so its probability is 1/6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0018",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X is a discrete random variable, and X\u2081 and X\u2082 are independent observations of X. How does 2X compare with X\u2081 + X\u2082?",
+   "imageRef": null,
+   "options": [
+    "Same mean, and Var(2X) is twice Var(X\u2081 + X\u2082)",
+    "Same mean, and Var(2X) equals Var(X\u2081 + X\u2082)",
+    "Same mean, and Var(2X) is half Var(X\u2081 + X\u2082)",
+    "Var(2X) is four times Var(X\u2081 + X\u2082)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both have mean 2E(X), but Var(2X) = 4Var(X) while Var(X\u2081 + X\u2082) = 2Var(X). Doubling one observation spreads further than adding two, because the two observations partly offset each other.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0019",
+   "topicId": "spec-simulation-sampling",
+   "stem": "X takes the values 1 and 2, each with probability 0.5, so Var(X) = 0.25. S is the sum of 4 independent observations of X. The value of Var(S) is:",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "1",
+    "4",
+    "0.25"
+   ],
+   "correctIndex": 1,
+   "explanation": "Variances of independent observations add, so Var(S) = 4 \u00d7 0.25 = 1. The value 4 is Var(4X) = 16 \u00d7 0.25, which wrongly treats the sum as one observation multiplied by 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0020",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A game costs $2 to play and pays X dollars, where E(X) = 1.5 and sd(X) = 3. For 100 independent plays, the mean and standard deviation of the total profit are:",
+   "imageRef": null,
+   "options": [
+    "$150 and $30",
+    "\u2212$50 and $3",
+    "\u2212$50 and $30",
+    "\u2212$50 and $300"
+   ],
+   "correctIndex": 2,
+   "explanation": "Profit per play is X \u2212 2, with mean \u22120.5 and sd 3. Over 100 plays the mean is \u221250 and the variance is 100 \u00d7 9 = 900, so the sd is 30; multiplying the sd by 100 gives the wrong $300.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0021",
+   "topicId": "spec-simulation-sampling",
+   "stem": "For a random experiment, the event space or sample space is:",
+   "imageRef": null,
+   "options": [
+    "the set of all possible outcomes",
+    "the outcome that is most likely to occur",
+    "the outcomes that make up one particular event",
+    "the number of times the experiment is repeated"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample space lists every outcome that could occur, such as 1 to 6 for a die. An event is a subset of it, such as rolling an even number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0022",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A fair die is rolled. The event \u201can even number is rolled\u201d is:",
+   "imageRef": null,
+   "options": [
+    "the probability 1/2 of rolling an even number",
+    "the subset of the sample space made up of 2, 4 and 6",
+    "the whole sample space, made up of 1 to 6",
+    "the single outcome 2, the smallest even number"
+   ],
+   "correctIndex": 1,
+   "explanation": "An event is a set of outcomes from the sample space. Its probability, 1/2, is a number describing the event, not the event itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0023",
+   "topicId": "spec-simulation-sampling",
+   "stem": "To simulate a coin that lands heads with probability 0.3, random digits 0 to 9 are generated and 0, 1 and 2 count as heads. This is valid because:",
+   "imageRef": null,
+   "options": [
+    "the digits 0, 1 and 2 are the smallest and so occur most often",
+    "any three digits would give heads exactly 30% of the time in practice",
+    "each digit is equally likely, so 3 of the 10 digits give probability 0.3",
+    "every block of 10 random digits contains exactly three of 0, 1 and 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Random digits are equally likely, so any 3 of them have probability 3/10. Random digits do not come in perfectly balanced blocks, so exactly three in every ten is not guaranteed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0024",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A random number r is chosen uniformly with 0 \u2264 r < 1. Which rule simulates the roll of a fair six-sided die?",
+   "imageRef": null,
+   "options": [
+    "the integer part of 6r",
+    "the integer part of 7r",
+    "the integer part of 6r, plus 6",
+    "the integer part of 6r, plus 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The integer part of 6r is 0, 1, 2, 3, 4 or 5, each equally likely, and adding 1 gives 1 to 6. Without the 1 the result can be 0 and never 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0025",
+   "topicId": "spec-simulation-sampling",
+   "stem": "In 500 simulated trials an event occurs 135 times, giving an estimate of 0.27 for its probability. If 5000 trials were run instead, the estimate would typically:",
+   "imageRef": null,
+   "options": [
+    "be closer to the true probability",
+    "be exactly 0.27 again",
+    "be about ten times as large",
+    "vary further from the true probability"
+   ],
+   "correctIndex": 0,
+   "explanation": "More trials reduce the variation in a simulated proportion, so the estimate tends to settle near the true value. It is a proportion, so it does not grow with the number of trials.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0026",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A population parameter is:",
+   "imageRef": null,
+   "options": [
+    "the number of items included in each sample",
+    "a value describing the whole population, such as \u03bc",
+    "a value calculated from a sample, such as a sample mean",
+    "a value that changes from one sample to the next"
+   ],
+   "correctIndex": 1,
+   "explanation": "A parameter such as the population mean \u03bc is a fixed value for the population. A value calculated from a sample is a statistic, and it changes from sample to sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0027",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A random sample of 200 Victorian Year 11 students has a mean of 7.2 hours of sleep per night. The value 7.2 is:",
+   "imageRef": null,
+   "options": [
+    "a population parameter that is the same for every sample",
+    "the standard deviation of the distribution of sample means",
+    "a sample statistic, used to estimate the population mean",
+    "the population mean for all Victorian Year 11 students"
+   ],
+   "correctIndex": 2,
+   "explanation": "The 7.2 hours comes from 200 sampled students, so it is a statistic that estimates \u03bc for all students. Another sample would very likely give a slightly different value.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0028",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Which quantity varies from one random sample to another from the same population?",
+   "imageRef": null,
+   "options": [
+    "the population mean \u03bc",
+    "the population standard deviation \u03c3",
+    "the size of the population",
+    "the sample mean"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each sample contains different individuals, so its mean differs. \u03bc and \u03c3 describe the fixed population and do not change when a new sample is taken.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0029",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A sample statistic tends to be a better estimate of a population parameter when the sample is:",
+   "imageRef": null,
+   "options": [
+    "made up of volunteers",
+    "random and larger",
+    "chosen for convenience",
+    "small, so fewer errors are made"
+   ],
+   "correctIndex": 1,
+   "explanation": "Random selection avoids bias, and larger samples reduce the variation of the statistic. A convenience sample can be biased however large it is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0030",
+   "topicId": "spec-simulation-sampling",
+   "stem": "The population mean \u03bc is unknown. Three random samples of size 30 give sample means of 14.2, 15.1 and 14.6. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "At least one sample cannot be random, since the means differ",
+    "\u03bc certainly lies between 14.2 and 15.1, the smallest and largest means",
+    "Each is an estimate of \u03bc, and they differ because of sampling variation",
+    "\u03bc must be 14.6, because it is the middle of the three means"
+   ],
+   "correctIndex": 2,
+   "explanation": "Random samples naturally give different means, and each one estimates \u03bc. Nothing guarantees that \u03bc lies between three sample means, though it is likely to be close to them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0031",
+   "topicId": "spec-simulation-sampling",
+   "stem": "The sampling distribution of the sample mean is the distribution of:",
+   "imageRef": null,
+   "options": [
+    "the individual values within one single sample",
+    "the values in the population the samples come from",
+    "the different sample sizes used in a study",
+    "the sample means from all possible samples of a given size"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each sample of a fixed size gives one sample mean, and the sampling distribution describes how those means vary. The values within one sample form that sample\u2019s own distribution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0032",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Which display best shows the variation in 50 simulated sample means?",
+   "imageRef": null,
+   "options": [
+    "a pie chart of the 50 means",
+    "a single bar for the mean of the means",
+    "a two-way table of the 50 means",
+    "a dot plot of the 50 means"
+   ],
+   "correctIndex": 3,
+   "explanation": "A dot plot shows each mean on a number line, so its centre and spread can be seen. A single bar hides all the variation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0033",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A population has mean 50 and standard deviation 10. Samples of size 25 are taken. The mean of the distribution of sample means is:",
+   "imageRef": null,
+   "options": [
+    "250",
+    "50",
+    "2",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sample means are centred on the population mean, whatever the sample size. The value 2 = 10/\u221a25 is the standard deviation of the sample means, not their mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0034",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Many samples of size 10 and many of size 40 are drawn from the same population and their means plotted. Compared with size 10, the means for size 40 are:",
+   "imageRef": null,
+   "options": [
+    "centred at about the same value, with more spread",
+    "centred at a lower value, with the same spread",
+    "centred at about the same value, with less spread",
+    "centred at a higher value, with less spread"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both sets of means centre on \u03bc, but larger samples average out more variation, so their means cluster more tightly. The sample size changes the spread, not the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0035",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A population has standard deviation \u03c3 = 12. For samples of size 36, the standard deviation of the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "72",
+    "2",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation of the sample mean is \u03c3/\u221an = 12/\u221a36 = 12/6 = 2. Dividing by n instead of \u221an gives 1/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0036",
+   "topicId": "spec-simulation-sampling",
+   "stem": "A population has \u03bc = 20 and \u03c3 = 6. For random samples of size 9, the sample means have mean and standard deviation:",
+   "imageRef": null,
+   "options": [
+    "20 and 2/3",
+    "20 and 2",
+    "20 and 6",
+    "20/9 and 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean of the sample means is \u03bc = 20 and their standard deviation is \u03c3/\u221an = 6/3 = 2. Dividing \u03c3 by 9 rather than \u221a9 gives 2/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0037",
+   "topicId": "spec-simulation-sampling",
+   "stem": "To halve the standard deviation of the sample mean, the sample size must be multiplied by:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "4",
+    "2",
+    "\u221a2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation is \u03c3/\u221an, so halving it needs \u221an to double, which means n is multiplied by 4. Doubling n only divides the standard deviation by \u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-simulation-sampling-0038",
+   "topicId": "spec-simulation-sampling",
+   "stem": "Two dot plots each show 100 sample means from the same population, one for samples of size 5 and one for size 50. One plot runs from 42 to 58 and the other from 48 to 52. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The two plots must have different centres",
+    "The wider plot shows the population is more variable",
+    "The narrower plot is for samples of size 50",
+    "The narrower plot is for samples of size 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Larger samples give sample means with less spread, so size 50 gives the plot from 48 to 52. Both plots come from the same population, so the wider one reflects the smaller samples, not a more variable population.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-simulation-sampling-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

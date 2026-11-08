@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-rates-of-change",
+ "questions": [
+  {
+   "id": "meth-rates-of-change-0001",
+   "topicId": "meth-rates-of-change",
+   "stem": "What is the average rate of change of f(x) = x\u00b2 from x = 1 to x = 3?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "8",
+    "2",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Average rate of change = (f(3) \u2212 f(1))/(3 \u2212 1) = (9 \u2212 1)/2 = 4. The value 8 forgets to divide by the change in x, and 6 is the tangent gradient at x = 3, an instantaneous rate rather than an average.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0002",
+   "topicId": "meth-rates-of-change",
+   "stem": "A tank drains at a constant rate from 600 L to 150 L over 30 minutes. What is the rate of change of the volume?",
+   "imageRef": null,
+   "options": [
+    "15 L/min",
+    "\u221220 L/min",
+    "\u22125 L/min",
+    "\u221215 L/min"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rate = change in volume \u00f7 change in time = (150 \u2212 600)/30 = \u221215 L/min. The volume is falling, so the rate is negative; \u221220 L/min divides the starting volume by the time instead of the change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0003",
+   "topicId": "meth-rates-of-change",
+   "stem": "The average rate of change of a function between two points on its graph is the gradient of:",
+   "imageRef": null,
+   "options": [
+    "the tangent at the midpoint of the interval",
+    "the line joining the first point to the origin",
+    "the secant (chord) through the two points",
+    "the tangent at the first of the points"
+   ],
+   "correctIndex": 2,
+   "explanation": "The average rate of change is rise over run between the two points, which is exactly the gradient of the straight line through them. A tangent gives an instantaneous rate at a single point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0004",
+   "topicId": "meth-rates-of-change",
+   "stem": "The temperature in Mildura is 14 \u00b0C at 6 am and 32 \u00b0C at 3 pm. What is the average rate of change of temperature?",
+   "imageRef": null,
+   "options": [
+    "18 \u00b0C per hour",
+    "3.6 \u00b0C per hour",
+    "1.5 \u00b0C per hour",
+    "2 \u00b0C per hour"
+   ],
+   "correctIndex": 3,
+   "explanation": "The temperature rises 18 \u00b0C over the 9 hours from 6 am to 3 pm, so the average rate is 18 \u00f7 9 = 2 \u00b0C per hour. The figure 18 \u00b0C per hour is the total change, not a rate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0005",
+   "topicId": "meth-rates-of-change",
+   "stem": "A cyclist's distance is s(t) = 2t\u00b2 metres after t seconds. What is the average speed between t = 1 and t = 4?",
+   "imageRef": null,
+   "options": [
+    "16 m/s",
+    "30 m/s",
+    "10 m/s",
+    "8 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "Average speed = (s(4) \u2212 s(1))/(4 \u2212 1) = (32 \u2212 2)/3 = 10 m/s. Dividing s(4) by 4 gives 8 m/s, which is the average from t = 0, not from t = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0006",
+   "topicId": "meth-rates-of-change",
+   "stem": "A sunflower is h(t) = 2t\u00b2 + 10 cm tall after t weeks. What is its average growth rate from week 2 to week 5?",
+   "imageRef": null,
+   "options": [
+    "14 cm/week",
+    "12 cm/week",
+    "20 cm/week",
+    "42 cm/week"
+   ],
+   "correctIndex": 0,
+   "explanation": "h(5) = 60 and h(2) = 18, so the average rate is (60 \u2212 18)/3 = 14 cm/week. The figure 42 is the total growth over the three weeks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0007",
+   "topicId": "meth-rates-of-change",
+   "stem": "What is the average rate of change of f(x) = 1/x from x = 1 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u22122",
+    "3/2",
+    "\u22121/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "(f(2) \u2212 f(1))/(2 \u2212 1) = (1/2 \u2212 1)/1 = \u22121/2. The function is decreasing, so the rate must be negative, which rules out 1/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0008",
+   "topicId": "meth-rates-of-change",
+   "stem": "What is the average rate of change of f(x) = \u221ax from x = 4 to x = 9?",
+   "imageRef": null,
+   "options": [
+    "1/5",
+    "1",
+    "5",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u221a9 \u2212 \u221a4 = 3 \u2212 2 = 1, and the change in x is 5, so the rate is 1/5. The answer 5 divides the wrong way round, run over rise.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0009",
+   "topicId": "meth-rates-of-change",
+   "stem": "What is the average rate of change of f(x) = x\u00b3 from x = \u22121 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "3",
+    "7/3",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "(f(2) \u2212 f(\u22121))/(2 \u2212 (\u22121)) = (8 \u2212 (\u22121))/3 = 9/3 = 3. The answer 7/3 comes from treating (\u22121)\u00b3 as +1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0010",
+   "topicId": "meth-rates-of-change",
+   "stem": "V(t) is the volume of water in a tank, in litres, after t minutes. Its average rate of change over [0, 10] is \u221212. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "At exactly t = 10 the volume was falling at 12 litres per minute",
+    "The tank lost 12 litres in every 10-minute period of draining",
+    "Over the first 10 minutes the volume fell by 12 litres per minute on average",
+    "Over the first 10 minutes the volume fell by a total of 12 litres"
+   ],
+   "correctIndex": 2,
+   "explanation": "An average rate of change is the total change divided by the time taken, so the volume fell by 120 L in total, at 12 L/min on average. It says nothing about the instantaneous rate at t = 10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0011",
+   "topicId": "meth-rates-of-change",
+   "stem": "An instantaneous rate of change is found as the limit of average rates of change over intervals that:",
+   "imageRef": null,
+   "options": [
+    "begin at the origin and end at the point",
+    "double in width at each new step taken",
+    "cover the whole domain of the function",
+    "shrink towards zero width around the point"
+   ],
+   "correctIndex": 3,
+   "explanation": "As the second point of a secant slides towards the first, the secant approaches the tangent and its gradient approaches the instantaneous rate. Widening the interval moves further from the point of interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0012",
+   "topicId": "meth-rates-of-change",
+   "stem": "A car's speedometer reads 60 km/h. What does this measure?",
+   "imageRef": null,
+   "options": [
+    "The rate of change of the car's speed",
+    "The instantaneous rate of change of distance",
+    "The average rate of change of distance over the trip",
+    "The total distance travelled in the last hour"
+   ],
+   "correctIndex": 1,
+   "explanation": "A speedometer shows the speed at that instant, the gradient of the distance\u2013time graph at one point. An average speed would need a whole trip's distance and time. The rate of change of speed is acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0013",
+   "topicId": "meth-rates-of-change",
+   "stem": "Find the gradient of the secant of y = x\u00b2 between x = 2 and x = 2 + h, for h \u2260 0.",
+   "imageRef": null,
+   "options": [
+    "4h + h\u00b2",
+    "4 + h",
+    "4",
+    "2 + h"
+   ],
+   "correctIndex": 1,
+   "explanation": "((2 + h)\u00b2 \u2212 4)/h = (4 + 4h + h\u00b2 \u2212 4)/h = (4h + h\u00b2)/h = 4 + h. The expression 4h + h\u00b2 is the rise before dividing by the run h, and 4 is the limit as h \u2192 0, the tangent gradient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0014",
+   "topicId": "meth-rates-of-change",
+   "stem": "The gradient of the secant of y = x\u00b3 from x = 1 to x = 1 + h is 3 + 3h + h\u00b2. What is the gradient of the tangent at x = 1?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "1",
+    "3 + 3h",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Let h approach 0: 3 + 3h + h\u00b2 \u2192 3. The value 7 is the secant gradient for h = 1, an average over [1, 2] rather than a rate at x = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0015",
+   "topicId": "meth-rates-of-change",
+   "stem": "f(x) = x\u00b2 + 1, so f(2) = 5 and f(2.01) = 5.0401. Using these values, what is an estimate of the instantaneous rate of change at x = 2?",
+   "imageRef": null,
+   "options": [
+    "5.0401",
+    "2.01",
+    "4.01",
+    "0.0401"
+   ],
+   "correctIndex": 2,
+   "explanation": "The secant gradient over [2, 2.01] is (5.0401 \u2212 5)/0.01 = 4.01, close to the exact value 4. Forgetting to divide by 0.01 leaves the rise, 0.0401.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0016",
+   "topicId": "meth-rates-of-change",
+   "stem": "For y = x\u00b3, the secants from x = 2 to x = 2.1, 2.01 and 2.001 have gradients 12.61, 12.0601 and 12.006001. What is the best estimate of the tangent gradient at x = 2?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "6",
+    "12",
+    "12.61"
+   ],
+   "correctIndex": 2,
+   "explanation": "The secant gradients approach 12 as the interval shrinks, so the tangent gradient is 12. The value 8 is y itself at x = 2, and 12.61 uses the widest interval, the least accurate estimate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0017",
+   "topicId": "meth-rates-of-change",
+   "stem": "By considering secants from x = 1 to x = 1 + h, find the gradient of the tangent to y = x\u00b2 + 3x at x = 1.",
+   "imageRef": null,
+   "options": [
+    "2",
+    "5",
+    "6",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "((1 + h)\u00b2 + 3(1 + h) \u2212 4)/h = (5h + h\u00b2)/h = 5 + h, which approaches 5 as h \u2192 0. The value 6 is the secant gradient with h = 1, and 4 is the y-value at x = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0018",
+   "topicId": "meth-rates-of-change",
+   "stem": "A tangent drawn at the point (2, 3) on a curve also passes through (0, \u22121). What is the instantaneous rate of change of the curve at x = 2?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "2",
+    "1.5",
+    "\u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rate is the gradient of the tangent: (3 \u2212 (\u22121))/(2 \u2212 0) = 4/2 = 2. The value 1.5 is 3/2, the gradient from the origin to the point, which is not the tangent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0019",
+   "topicId": "meth-rates-of-change",
+   "stem": "What is the instantaneous rate of change of y = 5 \u2212 2x at x = 4?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22122",
+    "5",
+    "\u22123"
+   ],
+   "correctIndex": 1,
+   "explanation": "A linear function has the same gradient everywhere, here \u22122. The value \u22123 is y at x = 4, not its rate of change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0020",
+   "topicId": "meth-rates-of-change",
+   "stem": "The tangent to y = x\u00b2 at x = a has gradient 2a. At which value of x does the instantaneous rate of change equal the average rate of change over [1, 3]?",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = 4",
+    "x = 1",
+    "x = \u221a5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The average rate over [1, 3] is (9 \u2212 1)/2 = 4. Setting 2a = 4 gives a = 2, the midpoint, which is special to parabolas. The answer x = 4 confuses the gradient value with the x-value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0021",
+   "topicId": "meth-rates-of-change",
+   "stem": "Temperatures were 10 \u00b0C at 8 am, 13 \u00b0C at 9 am, 15 \u00b0C at 10 am and 16 \u00b0C at 11 am. How is the rate of change of temperature behaving?",
+   "imageRef": null,
+   "options": [
+    "It is positive and increasing",
+    "It is negative and decreasing",
+    "It is constant throughout",
+    "It is positive and decreasing"
+   ],
+   "correctIndex": 3,
+   "explanation": "The temperature keeps rising, so the rate is positive, but the hourly rises are 3, 2 and 1 \u00b0C, so the rate is getting smaller. Positive and increasing would need bigger rises each hour.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0022",
+   "topicId": "meth-rates-of-change",
+   "stem": "Carbon monoxide levels in a city rise smoothly from 7 am, peak at 9 am, then fall smoothly until noon. What is the rate of change of the level at 9 am?",
+   "imageRef": null,
+   "options": [
+    "Zero",
+    "Its greatest positive value",
+    "Its greatest negative value",
+    "Undefined"
+   ],
+   "correctIndex": 0,
+   "explanation": "At a smooth peak the graph is momentarily flat, so the tangent is horizontal and the rate is zero. The rate is greatest where the level climbs most steeply, which happens before the peak.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0023",
+   "topicId": "meth-rates-of-change",
+   "stem": "The volume in a draining tank falls quickly at first, then more and more slowly. How is the rate of change of volume behaving?",
+   "imageRef": null,
+   "options": [
+    "Negative, and getting further from zero",
+    "Positive, and getting closer to zero",
+    "Positive, and getting further from zero",
+    "Negative, and getting closer to zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "Falling volume means a negative rate. Falling more slowly means the size of that rate is shrinking, so it approaches zero from below. Getting further from zero would mean draining faster.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0024",
+   "topicId": "meth-rates-of-change",
+   "stem": "Water is poured at a constant rate into a cylindrical vase. What does the graph of water height against time look like?",
+   "imageRef": null,
+   "options": [
+    "A curve that becomes less steep over time",
+    "A horizontal line at the final height",
+    "A straight line with positive gradient",
+    "A curve that becomes steeper over time"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cylinder has the same cross-section at every height, so equal volumes raise the level by equal amounts and the height rises at a constant rate. A curve would need the width to change with height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0025",
+   "topicId": "meth-rates-of-change",
+   "stem": "Water is poured at a constant rate into a cone with its point at the bottom. How does the water height change?",
+   "imageRef": null,
+   "options": [
+    "It rises at a constant rate throughout",
+    "It rises quickly, slowly, then quickly again",
+    "It rises quickly at first, then more slowly",
+    "It rises slowly at first, then more quickly"
+   ],
+   "correctIndex": 2,
+   "explanation": "Near the point the cone is narrow, so a little water raises the level a lot. Higher up the cone is wider and the same volume spreads out, so the height rises more slowly. Rising slowly first would fit a cone with its point at the top.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0026",
+   "topicId": "meth-rates-of-change",
+   "stem": "Water is poured at a constant rate into a spherical flask. How does the steepness of the height\u2013time graph change as it fills?",
+   "imageRef": null,
+   "options": [
+    "Gentle, then steepest at the widest part, then gentle again",
+    "Equally steep all the way from the bottom to the top",
+    "Gentle at first, then steeper all the way to the top",
+    "Steep, then least steep at the widest part, then steep again"
+   ],
+   "correctIndex": 3,
+   "explanation": "The flask is narrow at the bottom and top and widest in the middle. Where it is wide, each litre raises the level least, so the graph is least steep there. The graph has a point of inflection at the widest part.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0027",
+   "topicId": "meth-rates-of-change",
+   "stem": "On a position\u2013time graph, what gives the velocity at an instant?",
+   "imageRef": null,
+   "options": [
+    "The gradient of the chord from the origin",
+    "The gradient of the tangent at that instant",
+    "The area under the graph up to that instant",
+    "The height of the graph at that instant"
+   ],
+   "correctIndex": 1,
+   "explanation": "Velocity is the rate of change of position, which is the gradient of the tangent. The height of the graph gives the position itself, and a chord gives an average velocity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0028",
+   "topicId": "meth-rates-of-change",
+   "stem": "A position\u2013time graph is horizontal between t = 3 and t = 5. What is the object doing then?",
+   "imageRef": null,
+   "options": [
+    "It is returning to its start",
+    "It is at rest",
+    "It is moving at a constant speed",
+    "It is speeding up"
+   ],
+   "correctIndex": 1,
+   "explanation": "A horizontal graph means the position is not changing, so the gradient and velocity are zero. A straight sloping line would mean constant speed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0029",
+   "topicId": "meth-rates-of-change",
+   "stem": "A ball is thrown straight up, and its height\u2013time graph is a parabola that is concave down. What is its velocity at the highest point?",
+   "imageRef": null,
+   "options": [
+    "Equal to the height reached",
+    "Zero",
+    "Its greatest upward value",
+    "Its greatest downward value"
+   ],
+   "correctIndex": 1,
+   "explanation": "At the top of the parabola the tangent is horizontal, so the gradient, and hence the velocity, is zero for an instant. The ball moves upward fastest at the moment it is released.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0030",
+   "topicId": "meth-rates-of-change",
+   "stem": "A particle's position is x(t) = t\u00b2 \u2212 6t metres at t seconds. What is its average velocity over the first 4 seconds?",
+   "imageRef": null,
+   "options": [
+    "2.5 m/s",
+    "\u22128 m/s",
+    "2 m/s",
+    "\u22122 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "Average velocity = (x(4) \u2212 x(0))/4 = (16 \u2212 24 \u2212 0)/4 = \u22122 m/s. The particle travels 9 m left then 1 m back, so its average speed is 10/4 = 2.5 m/s, a different quantity. The value \u22128 m is the change in position, not a rate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0031",
+   "topicId": "meth-rates-of-change",
+   "stem": "What does it mean for a function to be continuous at x = a?",
+   "imageRef": null,
+   "options": [
+    "Its graph has a sharp corner at the point where x = a",
+    "Its graph is a straight line near the point x = a",
+    "Its graph can be drawn through x = a without lifting the pen",
+    "Its graph has a horizontal tangent where x = a"
+   ],
+   "correctIndex": 2,
+   "explanation": "Informally, continuity means no break, jump or hole at the point. A graph can be continuous and still have a corner; smoothness is a separate, stronger idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0032",
+   "topicId": "meth-rates-of-change",
+   "stem": "Postage costs $1.50 for parcels up to 250 g and $3.00 for parcels over 250 g up to 500 g. What happens to the graph of cost against mass at 250 g?",
+   "imageRef": null,
+   "options": [
+    "It is smooth, with a gradient of 1.5 there",
+    "It has a sharp corner but no break",
+    "It jumps, so it is not continuous there",
+    "It has a turning point at 250 g"
+   ],
+   "correctIndex": 2,
+   "explanation": "A step graph jumps from one level to the next, so it cannot be drawn there without lifting the pen. A corner would join two pieces without a gap, which is not what happens here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0033",
+   "topicId": "meth-rates-of-change",
+   "stem": "The graph of y = |x| has a sharp corner at the origin. Which statement about x = 0 is true?",
+   "imageRef": null,
+   "options": [
+    "The graph is continuous there, but no tangent exists",
+    "The graph is not continuous, because of the corner",
+    "The tangent there is horizontal, with gradient zero",
+    "The graph has a vertical asymptote at that point"
+   ],
+   "correctIndex": 0,
+   "explanation": "There is no break in the graph, so it is continuous. Secants from the right have gradient 1 and from the left \u22121, so no single tangent gradient exists, and the graph is not smooth there.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0034",
+   "topicId": "meth-rates-of-change",
+   "stem": "Where the graph of y = f(x) is decreasing, what is the sign of the gradient of the tangent?",
+   "imageRef": null,
+   "options": [
+    "Undefined",
+    "Negative",
+    "Positive",
+    "Zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "A decreasing graph falls from left to right, so every tangent slopes downward and has negative gradient. Zero gradient occurs only at stationary points.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0035",
+   "topicId": "meth-rates-of-change",
+   "stem": "The gradient function of f is positive for x < 3, zero at x = 3 and negative for x > 3. What does the graph of f have at x = 3?",
+   "imageRef": null,
+   "options": [
+    "A local minimum",
+    "A stationary point of inflection",
+    "An x-axis intercept",
+    "A local maximum"
+   ],
+   "correctIndex": 3,
+   "explanation": "The graph rises up to x = 3 and falls after it, so x = 3 is a peak. A local minimum would need the gradient to go from negative to positive, and the gradient says nothing about where f crosses the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0036",
+   "topicId": "meth-rates-of-change",
+   "stem": "y = f(x) is a cubic with a local maximum at x = \u22121 and a local minimum at x = 2. Over which interval is the gradient negative?",
+   "imageRef": null,
+   "options": [
+    "x < \u22121 only",
+    "\u22121 < x < 2",
+    "x < \u22121 or x > 2",
+    "x > 2 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "Between a local maximum and the next local minimum the graph falls, so the gradient is negative on \u22121 < x < 2. Outside that interval the graph rises.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0037",
+   "topicId": "meth-rates-of-change",
+   "stem": "f(x) = x\u00b2 \u2212 4x. Over which interval is the instantaneous rate of change of f negative?",
+   "imageRef": null,
+   "options": [
+    "0 < x < 4",
+    "x < 0 or x > 4",
+    "x < 2",
+    "x > 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The parabola has its turning point at x = 2, halfway between its x-intercepts 0 and 4, and it falls to the left of that point. The interval 0 < x < 4 is where f itself is negative, a different question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0038",
+   "topicId": "meth-rates-of-change",
+   "stem": "f is a quadratic function whose graph has a minimum turning point at x = 1. What does the graph of its gradient function look like?",
+   "imageRef": null,
+   "options": [
+    "A parabola with its turning point where x = 1",
+    "A horizontal line at height 1 above the x-axis",
+    "A line with positive gradient crossing the x-axis at x = 1",
+    "A line with negative gradient crossing the x-axis at x = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient of f is negative left of x = 1, zero at x = 1 and positive to the right, and for a quadratic it changes at a steady rate, giving a straight line. A negative gradient line would match a maximum turning point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0039",
+   "topicId": "meth-rates-of-change",
+   "stem": "Where the graph of y = f(x) has a local maximum, how does the graph of its gradient function behave?",
+   "imageRef": null,
+   "options": [
+    "It crosses the x-axis from negative to positive",
+    "It touches the x-axis without crossing it",
+    "It has a vertical asymptote at that x-value",
+    "It crosses the x-axis from positive to negative"
+   ],
+   "correctIndex": 3,
+   "explanation": "Just before a local maximum the graph rises (positive gradient) and just after it falls (negative gradient), so the gradient function passes through zero going downward. Touching without crossing matches a stationary point of inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-rates-of-change-0040",
+   "topicId": "meth-rates-of-change",
+   "stem": "Over the interval [0, 4], the average rate of change of a function f is 0. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "f has a turning point at x = 2",
+    "The tangent at x = 0 is horizontal",
+    "f(4) = f(0)",
+    "f is constant on [0, 4]"
+   ],
+   "correctIndex": 2,
+   "explanation": "An average rate of zero means the total change f(4) \u2212 f(0) is zero. The function may rise and fall in between in any pattern, so it need not be constant or have a turning point at the midpoint.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-rates-of-change-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

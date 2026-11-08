@@ -1,0 +1,841 @@
+{
+ "topicId": "phys-electricity",
+ "questions": [
+  {
+   "id": "phys-electricity-0001",
+   "topicId": "phys-electricity",
+   "stem": "What is electric current?",
+   "imageRef": null,
+   "options": [
+    "The energy given to each coulomb of charge, measured in volts",
+    "The opposition to the flow of charge, measured in ohms",
+    "The rate at which energy is transferred, measured in watts",
+    "The rate of flow of charge past a point, measured in amperes"
+   ],
+   "correctIndex": 3,
+   "explanation": "Current is charge per unit time, I = Q/t, so 1 A is 1 coulomb per second. Energy per coulomb is potential difference, and energy per second is power.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0002",
+   "topicId": "phys-electricity",
+   "stem": "A current of 0.50 A flows through a globe for 2.0 minutes. How much charge passes through it?",
+   "imageRef": null,
+   "options": [
+    "240 C",
+    "4.2 \u00d7 10\u207b\u00b3 C",
+    "60 C",
+    "1.0 C"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q = It = 0.50 \u00d7 120 = 60 C, with the time converted to seconds. Using 2.0 minutes without converting gives 1.0 C, and dividing the time by the current gives 240 C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0003",
+   "topicId": "phys-electricity",
+   "stem": "The charge on an electron is \u22121.6 \u00d7 10\u207b\u00b9\u2079 C. How many electrons pass a point in a wire when 3.2 C of charge flows?",
+   "imageRef": null,
+   "options": [
+    "5.0 \u00d7 10\u207b\u00b2\u2070",
+    "2.0 \u00d7 10\u00b9\u2079",
+    "5.1 \u00d7 10\u207b\u00b9\u2079",
+    "2.0 \u00d7 10\u00b9\u2078"
+   ],
+   "correctIndex": 1,
+   "explanation": "Number of electrons = total charge \u00f7 charge per electron = 3.2 \u00f7 1.6 \u00d7 10\u207b\u00b9\u2079 = 2.0 \u00d7 10\u00b9\u2079. Multiplying instead gives a tiny number less than one electron, which cannot be right for a measurable charge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0004",
+   "topicId": "phys-electricity",
+   "stem": "What does a potential difference of 1 volt between two points mean?",
+   "imageRef": null,
+   "options": [
+    "1 joule of energy is transferred between them each second",
+    "1 coulomb of charge moves between them for each joule transferred",
+    "1 joule is transferred per coulomb of charge moving between them",
+    "1 coulomb of charge moves between them each second"
+   ],
+   "correctIndex": 2,
+   "explanation": "Potential difference is energy per unit charge, V = E/Q, so 1 V = 1 J C\u207b\u00b9. One coulomb per second is one ampere, and one joule per second is one watt.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0005",
+   "topicId": "phys-electricity",
+   "stem": "A 12 V battery drives 3.0 C of charge around a circuit. How much energy does it transfer to the charge?",
+   "imageRef": null,
+   "options": [
+    "15 J",
+    "36 J",
+    "4.0 J",
+    "0.25 J"
+   ],
+   "correctIndex": 1,
+   "explanation": "E = VQ = 12 \u00d7 3.0 = 36 J, since each coulomb gains 12 J. Dividing 12 by 3.0 gives 4.0, which wrongly treats energy as potential difference divided by charge.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0006",
+   "topicId": "phys-electricity",
+   "stem": "An electric kettle connected to 230 V draws a current of 8.0 A. What is its power?",
+   "imageRef": null,
+   "options": [
+    "238 W",
+    "0.035 W",
+    "1.8 kW",
+    "29 W"
+   ],
+   "correctIndex": 2,
+   "explanation": "P = VI = 230 \u00d7 8.0 = 1840 W, about 1.8 kW. Dividing the voltage by the current gives the kettle\u2019s resistance, about 29 \u03a9, not its power.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0007",
+   "topicId": "phys-electricity",
+   "stem": "How many joules are there in 1 kilowatt-hour?",
+   "imageRef": null,
+   "options": [
+    "3.6 \u00d7 10\u2076 J",
+    "3.6 \u00d7 10\u00b3 J",
+    "1.0 \u00d7 10\u00b3 J",
+    "6.0 \u00d7 10\u2074 J"
+   ],
+   "correctIndex": 0,
+   "explanation": "1 kW h = 1000 W \u00d7 3600 s = 3.6 \u00d7 10\u2076 J. Forgetting the factor of 1000 in \u2018kilo\u2019 gives 3.6 \u00d7 10\u00b3 J, and using 60 s instead of 3600 s gives 6.0 \u00d7 10\u2074 J.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0008",
+   "topicId": "phys-electricity",
+   "stem": "A 2000 W heater runs for 3.0 hours. If electricity costs 30 cents per kilowatt-hour, what does this cost?",
+   "imageRef": null,
+   "options": [
+    "$1.80",
+    "$1800",
+    "$0.20",
+    "$0.60"
+   ],
+   "correctIndex": 0,
+   "explanation": "Energy = 2.0 kW \u00d7 3.0 h = 6.0 kW h, and 6.0 \u00d7 $0.30 = $1.80. Using 2000 instead of 2.0 kW gives $1800, and leaving out the 3.0 hours gives $0.60.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0009",
+   "topicId": "phys-electricity",
+   "stem": "In the analogy of water flowing through pipes, what corresponds to potential difference in a circuit?",
+   "imageRef": null,
+   "options": [
+    "The pressure difference that pushes the water through the pipes",
+    "The rate at which water flows past a point in a pipe",
+    "A narrow section of pipe that restricts how fast the water can flow",
+    "The total amount of water held in all of the pipes"
+   ],
+   "correctIndex": 0,
+   "explanation": "The pressure difference pushes water through the pipes, just as potential difference drives charge around a circuit. The flow rate matches current, a narrow section matches a resistor, and the water itself matches the charge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0010",
+   "topicId": "phys-electricity",
+   "stem": "A student claims that the current in a series circuit is \u2018used up\u2019 by a globe, so less current returns to the battery. Which response is correct?",
+   "imageRef": null,
+   "options": [
+    "The current is lower after the globe, and the missing charge builds up inside the filament",
+    "The current is the same on both sides of the globe; it is energy, not charge, that is transferred",
+    "The current is lower after the globe, because some of the charge is turned into light and heat",
+    "The current is higher after the globe, because the hot filament pushes the charge onward"
+   ],
+   "correctIndex": 1,
+   "explanation": "Charge is conserved, so the same current flows everywhere in a series loop. As charge passes through the globe it loses electrical potential energy, which becomes light and thermal energy. The charges themselves are not used up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0011",
+   "topicId": "phys-electricity",
+   "stem": "How should an ammeter and a voltmeter be connected to measure the current through, and the potential difference across, a resistor?",
+   "imageRef": null,
+   "options": [
+    "Ammeter in series with the resistor; voltmeter in parallel across it",
+    "Ammeter in parallel across the resistor; voltmeter in series with it",
+    "Both meters in series with the resistor, one on each side of it",
+    "Both meters in parallel across the resistor, side by side"
+   ],
+   "correctIndex": 0,
+   "explanation": "An ammeter must carry the same current as the resistor, so it goes in series. A voltmeter compares the potential at two points, so it is connected across the resistor in parallel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0012",
+   "topicId": "phys-electricity",
+   "stem": "Why does an ideal voltmeter have a very high resistance?",
+   "imageRef": null,
+   "options": [
+    "So it draws almost no current and does not change the circuit it measures",
+    "So it can carry the full circuit current without overheating",
+    "So that the potential difference across it is kept as small as it can be",
+    "So it adds resistance in series that protects the circuit"
+   ],
+   "correctIndex": 0,
+   "explanation": "A voltmeter is placed in parallel, and any current through it would be drawn away from the component being measured. A very high resistance keeps that current tiny. An ammeter, in series, needs a very low resistance for the same reason.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0013",
+   "topicId": "phys-electricity",
+   "stem": "A device\u2019s current\u2013potential difference (I\u2013V) graph is a straight line through the origin. What does this show?",
+   "imageRef": null,
+   "options": [
+    "The device is ohmic: its resistance is constant",
+    "The device is non-ohmic: its resistance rises with current",
+    "The device has zero resistance at every voltage",
+    "The device conducts in one direction only"
+   ],
+   "correctIndex": 0,
+   "explanation": "A straight line through the origin means I is proportional to V, so V/I, the resistance, is the same at every point. That is the definition of an ohmic device. A device that conducts only one way, like a diode, has a strongly curved graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0014",
+   "topicId": "phys-electricity",
+   "stem": "The I\u2013V graph for a filament globe curves so that the current rises more and more slowly as the voltage increases. Why?",
+   "imageRef": null,
+   "options": [
+    "Its resistance falls as the voltage rises, because more charge can then pass",
+    "The globe is ohmic, but the meters become less accurate at high voltages",
+    "The filament heats up, and the resistance of the metal rises with its temperature",
+    "The filament cools as the voltage rises, so its resistance gradually falls"
+   ],
+   "correctIndex": 2,
+   "explanation": "A larger current makes the filament hotter, and the vibrating metal ions obstruct the electrons more, so resistance rises. Equal increases in voltage then give smaller increases in current. Falling resistance would make the graph curve upward, not flatten.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0015",
+   "topicId": "phys-electricity",
+   "stem": "A non-ohmic device carries a current of 0.20 A when the potential difference across it is 6.0 V. What is its resistance at this point?",
+   "imageRef": null,
+   "options": [
+    "6.2 \u03a9",
+    "30 \u03a9",
+    "1.2 \u03a9",
+    "0.033 \u03a9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Resistance is the ratio of potential difference to current: R = V/I = 6.0 \u00f7 0.20 = 30 \u03a9. This holds at any single point, even for a non-ohmic device whose resistance changes. Multiplying gives 1.2, which is the power in watts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0016",
+   "topicId": "phys-electricity",
+   "stem": "Resistors of 4.0 \u03a9, 6.0 \u03a9 and 10 \u03a9 are connected in series. What is their equivalent resistance?",
+   "imageRef": null,
+   "options": [
+    "20 \u03a9",
+    "1.9 \u03a9",
+    "6.7 \u03a9",
+    "240 \u03a9"
+   ],
+   "correctIndex": 0,
+   "explanation": "In series, resistances add: 4.0 + 6.0 + 10 = 20 \u03a9. 1.9 \u03a9 is the value for the same three resistors in parallel, and 6.7 \u03a9 is their average.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0017",
+   "topicId": "phys-electricity",
+   "stem": "A 6.0 \u03a9 resistor and a 3.0 \u03a9 resistor are connected in parallel. What is their equivalent resistance?",
+   "imageRef": null,
+   "options": [
+    "2.0 \u03a9",
+    "9.0 \u03a9",
+    "4.5 \u03a9",
+    "0.50 \u03a9"
+   ],
+   "correctIndex": 0,
+   "explanation": "1/R = 1/6.0 + 1/3.0 = 0.50, so R = 1 \u00f7 0.50 = 2.0 \u03a9. Forgetting the final inversion leaves 0.50, and adding the resistances is the rule for series. A parallel combination is always less than its smallest resistor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0018",
+   "topicId": "phys-electricity",
+   "stem": "A 4.0 \u03a9 resistor is connected in series with a parallel pair of 12 \u03a9 and 6.0 \u03a9 resistors. What is the equivalent resistance of the whole arrangement?",
+   "imageRef": null,
+   "options": [
+    "4.3 \u03a9",
+    "8.0 \u03a9",
+    "22 \u03a9",
+    "2.0 \u03a9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The parallel pair gives 1/R = 1/12 + 1/6.0 = 0.25, so R = 4.0 \u03a9. Adding the 4.0 \u03a9 series resistor gives 8.0 \u03a9. Treating all three as series gives 22 \u03a9, and forgetting to invert 0.25 gives 4.25 \u03a9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0019",
+   "topicId": "phys-electricity",
+   "stem": "The arrangement of a 4.0 \u03a9 resistor in series with a parallel pair of 12 \u03a9 and 6.0 \u03a9 is connected to a 12 V battery. What is the current through the 6.0 \u03a9 resistor?",
+   "imageRef": null,
+   "options": [
+    "2.0 A",
+    "1.0 A",
+    "1.5 A",
+    "0.50 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "The total resistance is 8.0 \u03a9, so the battery current is 12 \u00f7 8.0 = 1.5 A. The 4.0 \u03a9 resistor drops 1.5 \u00d7 4.0 = 6.0 V, leaving 6.0 V across the pair, so the 6.0 \u03a9 resistor carries 6.0 \u00f7 6.0 = 1.0 A. 2.0 A wrongly puts the full 12 V across it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0020",
+   "topicId": "phys-electricity",
+   "stem": "A 9.0 V supply is connected across a 2.0 k\u03a9 resistor and a 1.0 k\u03a9 resistor in series. What is the potential difference across the 1.0 k\u03a9 resistor?",
+   "imageRef": null,
+   "options": [
+    "6.0 V",
+    "4.5 V",
+    "9.0 V",
+    "3.0 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a voltage divider the voltage splits in proportion to resistance: 9.0 \u00d7 1.0/(2.0 + 1.0) = 3.0 V. 6.0 V is the share across the 2.0 k\u03a9 resistor, and 4.5 V assumes an equal split.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0021",
+   "topicId": "phys-electricity",
+   "stem": "A voltage divider is made from a fixed resistor and a thermistor whose resistance falls as its temperature rises. The output is taken across the thermistor. What happens to the output voltage as the thermistor warms?",
+   "imageRef": null,
+   "options": [
+    "It increases, because the thermistor\u2019s resistance falls and more current then flows",
+    "It increases, because the thermistor\u2019s resistance rises as its temperature rises",
+    "It stays the same, because the supply voltage across the divider is unchanged",
+    "It decreases, because the thermistor\u2019s resistance falls and it takes a smaller share"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a divider, each resistor\u2019s share of the supply is proportional to its resistance. As the thermistor\u2019s resistance falls, its share falls, so the output drops. More current does flow, but the larger share of the voltage now falls across the fixed resistor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0022",
+   "topicId": "phys-electricity",
+   "stem": "A light-dependent resistor (LDR) is in series with a 10 k\u03a9 resistor across a 6.0 V supply. In darkness the LDR\u2019s resistance is 50 k\u03a9. What is the potential difference across the LDR in darkness?",
+   "imageRef": null,
+   "options": [
+    "1.0 V",
+    "6.0 V",
+    "3.0 V",
+    "5.0 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "The total resistance is 60 k\u03a9, so the LDR\u2019s share is 6.0 \u00d7 50/60 = 5.0 V. 1.0 V is the share across the 10 k\u03a9 resistor. Because an LDR\u2019s resistance is high in darkness, it takes most of the supply.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0023",
+   "topicId": "phys-electricity",
+   "stem": "Why are the circuits in homes mostly wired in parallel?",
+   "imageRef": null,
+   "options": [
+    "If one appliance fails, all the others switch off as well, which makes the home\u2019s wiring safer",
+    "Each appliance receives the full supply voltage and can be switched on or off separately",
+    "The total resistance is higher in parallel, so less current is drawn from the supply",
+    "The same current flows through every appliance, which keeps the circuit balanced"
+   ],
+   "correctIndex": 1,
+   "explanation": "In parallel, every branch is connected directly across the supply, so each appliance gets the full voltage and works independently of the others. Adding branches in parallel lowers the total resistance and increases the current from the supply.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0024",
+   "topicId": "phys-electricity",
+   "stem": "Household mains is AC, but a home\u2019s wiring can be modelled as a simple DC circuit. What does the model treat the mains supply as?",
+   "imageRef": null,
+   "options": [
+    "A source of charge that is used up by each appliance in turn",
+    "A source of steady potential difference between the active and neutral wires",
+    "A source of steady current sent out through the earth wire to every appliance",
+    "A battery whose terminals are the earth wire and the neutral wire"
+   ],
+   "correctIndex": 1,
+   "explanation": "In the model the active wire is at a high potential relative to the neutral, which is near earth potential, and appliances are loads connected in parallel between them. The earth wire carries no current in normal use, and charge is never used up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0025",
+   "topicId": "phys-electricity",
+   "stem": "Two identical globes are connected in parallel to a battery, then in series to the same battery. How does the total power in the parallel arrangement compare with the series one?",
+   "imageRef": null,
+   "options": [
+    "It is half as large",
+    "It is four times as large",
+    "It is twice as large",
+    "It is the same"
+   ],
+   "correctIndex": 1,
+   "explanation": "In series the resistance is 2R, so the current is V/2R and the power is V \u00d7 V/2R. In parallel the resistance is R/2, so the current is 2V/R and the power is V \u00d7 2V/R. The ratio is 4. Halving the resistance twice over is what makes it four, not two.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0026",
+   "topicId": "phys-electricity",
+   "stem": "Two identical globes are connected in series to a battery. A third identical globe is connected alone to an identical battery. Compared with the single globe, what power does each series globe have?",
+   "imageRef": null,
+   "options": [
+    "A quarter of the power, as it has half the voltage and half the current",
+    "Half the power, as it shares the voltage but carries the same current",
+    "The same power, as each battery supplies identical globes",
+    "Half the power, as it carries half the current at the full voltage"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each series globe has half the battery voltage across it, and the doubled resistance halves the current. P = VI gives \u00bd \u00d7 \u00bd = \u00bc of the single globe\u2019s power, which is why series globes are much dimmer. The current is not the same as in the single-globe circuit.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0027",
+   "topicId": "phys-electricity",
+   "stem": "What does a diode do in a circuit?",
+   "imageRef": null,
+   "options": [
+    "It changes its resistance as light falls on it",
+    "It increases the current that passes through it",
+    "It lets current flow in one direction only",
+    "It stores charge and releases it later"
+   ],
+   "correctIndex": 2,
+   "explanation": "A diode has a very low resistance when forward biased and a very high resistance when reverse biased, so it conducts in one direction only. A component whose resistance changes with light is an LDR.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0028",
+   "topicId": "phys-electricity",
+   "stem": "An LED needs a potential difference of 2.0 V and a current of 20 mA. It is connected in series with a resistor to a 9.0 V battery. What resistance is needed?",
+   "imageRef": null,
+   "options": [
+    "100 \u03a9",
+    "0.14 \u03a9",
+    "350 \u03a9",
+    "450 \u03a9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The resistor must drop 9.0 \u2212 2.0 = 7.0 V while carrying 0.020 A, so R = 7.0 \u00f7 0.020 = 350 \u03a9. Using the full 9.0 V gives 450 \u03a9, which ignores the voltage across the LED.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0029",
+   "topicId": "phys-electricity",
+   "stem": "A torch globe has a potential difference of 3.0 V across it and carries a current of 0.30 A. What are its resistance and power?",
+   "imageRef": null,
+   "options": [
+    "0.90 \u03a9 and 10 W",
+    "10 \u03a9 and 10 W",
+    "0.10 \u03a9 and 0.90 W",
+    "10 \u03a9 and 0.90 W"
+   ],
+   "correctIndex": 3,
+   "explanation": "R = V/I = 3.0 \u00f7 0.30 = 10 \u03a9 and P = VI = 3.0 \u00d7 0.30 = 0.90 W. Swapping the two values mixes up which quantities are divided and which are multiplied.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0030",
+   "topicId": "phys-electricity",
+   "stem": "Which statement describes the thermistor in a fire alarm, whose resistance changes as it heats?",
+   "imageRef": null,
+   "options": [
+    "Its resistance falls as its temperature rises",
+    "Its resistance falls as the light on it gets brighter",
+    "It conducts only once a set temperature is reached",
+    "Its resistance is constant, but it glows when hot"
+   ],
+   "correctIndex": 0,
+   "explanation": "The common thermistor used in sensing circuits has a resistance that falls as temperature rises. A resistance that falls in brighter light describes an LDR. A thermistor conducts at all temperatures; only its resistance changes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0031",
+   "topicId": "phys-electricity",
+   "stem": "A street light uses an LDR to switch on at dusk. How does the LDR\u2019s resistance change as daylight fades?",
+   "imageRef": null,
+   "options": [
+    "It falls as the light level falls",
+    "It rises as the air temperature rises",
+    "It is constant until dark, then drops to zero",
+    "It rises as the light level falls"
+   ],
+   "correctIndex": 3,
+   "explanation": "An LDR\u2019s resistance is low in bright light and high in darkness. As light fades its resistance rises, and the change in its share of a voltage divider is used to switch the light on. Its response is to light, not temperature.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0032",
+   "topicId": "phys-electricity",
+   "stem": "A potentiometer is connected across a 6.0 V supply, with the output taken between one end and the sliding contact. The slider is a quarter of the way along the track from that end. What is the output voltage?",
+   "imageRef": null,
+   "options": [
+    "1.5 V",
+    "4.5 V",
+    "6.0 V",
+    "0.25 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "A potentiometer is a voltage divider with a movable tap. A quarter of the track gives a quarter of the resistance and so a quarter of the supply: 6.0 \u00d7 \u00bc = 1.5 V. 4.5 V is the voltage across the other three-quarters of the track.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0033",
+   "topicId": "phys-electricity",
+   "stem": "Why does an LED transfer energy more efficiently than a filament globe of similar brightness?",
+   "imageRef": null,
+   "options": [
+    "A filament globe turns electrical energy into light alone, but it needs a much larger current to do so",
+    "An LED has no resistance at all, so the charge flowing through it loses no electrical energy",
+    "A filament globe turns most electrical energy into thermal energy, while an LED turns far more into light",
+    "An LED first turns all of the electrical energy into thermal energy, then turns that energy into light"
+   ],
+   "correctIndex": 2,
+   "explanation": "A filament globe produces light by being very hot, so most of its input becomes thermal energy and only a small fraction becomes light. An LED converts electrical energy directly into light, wasting much less as heat.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0034",
+   "topicId": "phys-electricity",
+   "stem": "As charge flows through a resistor, its electrical potential energy is transformed mainly into which form?",
+   "imageRef": null,
+   "options": [
+    "Kinetic energy of the resistor",
+    "Chemical energy",
+    "Thermal energy",
+    "Light energy"
+   ],
+   "correctIndex": 2,
+   "explanation": "Electrons collide with the ions in the resistor, transferring energy that makes the ions vibrate more, so the resistor warms. This is why resistors and wires heat up when carrying current.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0035",
+   "topicId": "phys-electricity",
+   "stem": "A diode is connected in reverse bias in series with a globe and a battery. What happens?",
+   "imageRef": null,
+   "options": [
+    "The globe stays off, because the diode has a very high resistance in reverse",
+    "The globe lights normally, because diodes affect only AC circuits",
+    "The globe lights more brightly, because the diode adds extra energy to the charge",
+    "The globe flickers, because the diode keeps switching its direction"
+   ],
+   "correctIndex": 0,
+   "explanation": "In reverse bias a diode has a very high resistance, so almost no current flows and the globe stays off. Turning the diode around, to forward bias, would let current flow and light the globe.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0036",
+   "topicId": "phys-electricity",
+   "stem": "A silicon diode carries almost no current until the forward voltage reaches about 0.7 V. At 0.80 V it carries 40 mA. Using R = V/I, what is its resistance at 0.80 V?",
+   "imageRef": null,
+   "options": [
+    "2.5 \u03a9",
+    "20 \u03a9",
+    "0.032 \u03a9",
+    "17.5 \u03a9"
+   ],
+   "correctIndex": 1,
+   "explanation": "R = V/I = 0.80 \u00f7 0.040 = 20 \u03a9. Using 0.7 V gives 17.5 \u03a9, and using only the 0.1 V above the turn-on voltage gives 2.5 \u03a9, neither of which is the ratio at this point. Multiplying gives 0.032, which is the power in watts.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0037",
+   "topicId": "phys-electricity",
+   "stem": "How does a fuse protect a household circuit?",
+   "imageRef": null,
+   "options": [
+    "An electromagnet trips a switch on overload, and it can be reset",
+    "It carries any excess current safely away to the ground through the earth wire",
+    "A thin wire melts if the current is too high, breaking the circuit",
+    "It detects a difference between active and neutral currents"
+   ],
+   "correctIndex": 2,
+   "explanation": "A fuse contains a thin wire that heats and melts when the current exceeds its rating, so the wiring is not overheated. Detecting an active\u2013neutral imbalance is what an RCD does, and a resettable electromagnetic switch is a circuit breaker.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0038",
+   "topicId": "phys-electricity",
+   "stem": "What does a residual current device (RCD) detect?",
+   "imageRef": null,
+   "options": [
+    "A current in the active wire that is larger than the safe rating of the circuit\u2019s wiring",
+    "A rise in the temperature of the wiring inside the walls caused by too many appliances",
+    "A fall in the supply voltage between the active and neutral wires below its normal value",
+    "A difference between the currents in the active and neutral wires, showing current is leaking to earth"
+   ],
+   "correctIndex": 3,
+   "explanation": "In normal use, the current in the active and neutral wires is equal. If some current leaks to earth, perhaps through a person, the two differ, and the RCD switches off within a fraction of a second. Overload current is detected by fuses and circuit breakers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0039",
+   "topicId": "phys-electricity",
+   "stem": "A faulty appliance on a 10 A circuit lets 30 mA flow through a person to earth. Which device protects the person?",
+   "imageRef": null,
+   "options": [
+    "A circuit breaker, because it trips whenever any current passes through a person",
+    "A fuse, because 30 mA is enough current to melt the fuse\u2019s wire",
+    "The neutral wire, because it carries the leaking current back to the supply",
+    "An RCD, because it trips on the small imbalance between active and neutral"
+   ],
+   "correctIndex": 3,
+   "explanation": "30 mA is far below the 10 A rating, so neither a fuse nor a circuit breaker would react. It is, however, a dangerous current through the body. An RCD senses that 30 mA is missing from the neutral and cuts the supply.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0040",
+   "topicId": "phys-electricity",
+   "stem": "What is the purpose of the earth wire connected to the metal case of an appliance?",
+   "imageRef": null,
+   "options": [
+    "If the active wire touches the case, current flows to earth rather than through a user, and the circuit is cut",
+    "It carries the normal return current from the appliance back to the supply during everyday use",
+    "It supplies the appliance with its high potential so that charge can flow through the load",
+    "It stores any excess charge so that the appliance can run at a steady current over time"
+   ],
+   "correctIndex": 0,
+   "explanation": "The earth wire gives a low-resistance path from the case to earth. If a fault makes the case live, a large current flows to earth, which blows the fuse or trips the breaker. The normal return current flows in the neutral wire.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0041",
+   "topicId": "phys-electricity",
+   "stem": "Why are switches and fuses placed in the active wire rather than the neutral wire?",
+   "imageRef": null,
+   "options": [
+    "Because current flows only in the active wire and never in the neutral wire",
+    "So that the earth wire is disconnected whenever a switch is turned off",
+    "So that when they open, the appliance is cut off from the high potential",
+    "Because the neutral wire carries no current while appliances are in use"
+   ],
+   "correctIndex": 2,
+   "explanation": "The active wire is at high potential relative to earth. If a switch were in the neutral, the appliance would still be connected to that high potential when switched off, and could shock someone. The neutral carries the same current as the active in normal use.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0042",
+   "topicId": "phys-electricity",
+   "stem": "What is roughly the smallest AC current through the chest, lasting about a second, that can cause the heart to fibrillate?",
+   "imageRef": null,
+   "options": [
+    "About 50 mA",
+    "About 1 mA",
+    "About 5 \u00b5A",
+    "About 50 A"
+   ],
+   "correctIndex": 0,
+   "explanation": "Around 1 mA can just be felt, around 10 to 20 mA can make muscles lock so a person cannot let go, and around 50 mA or more for about a second can cause ventricular fibrillation. The longer the current lasts, the more dangerous it is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0043",
+   "topicId": "phys-electricity",
+   "stem": "A bird perches on a single power line at 22 kV and is unharmed. Why?",
+   "imageRef": null,
+   "options": [
+    "Current flows in the line only when appliances are switched on at night",
+    "Both its feet are at almost the same potential, so very little current flows through it",
+    "The line carries AC, and alternating current cannot flow through animal tissue",
+    "Birds have a far higher body resistance than humans, which blocks the 22 kV"
+   ],
+   "correctIndex": 1,
+   "explanation": "Harm comes from current through the body, which needs a potential difference across it. Both feet are on the same wire, so the potential difference between them is tiny and almost no current flows. Touching the line and the ground, or another wire, would be fatal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-electricity-0044",
+   "topicId": "phys-electricity",
+   "stem": "A person is in contact with a live electrical wire. What should a rescuer do first?",
+   "imageRef": null,
+   "options": [
+    "Switch off the power at the switchboard before touching them",
+    "Pull the person free of the wire with bare hands as quickly as possible",
+    "Pour water over the person to cool any burns",
+    "Begin CPR straight away while they are still in contact"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rescuer must first remove the danger by switching off the supply, or else they too may receive a shock. Only then is it safe to check the person, call 000 and begin CPR if needed. Water conducts and would make things worse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-electricity-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

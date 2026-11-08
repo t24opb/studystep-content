@@ -1,0 +1,822 @@
+{
+ "topicId": "spec-calculus",
+ "questions": [
+  {
+   "id": "spec-calculus-0001",
+   "topicId": "spec-calculus",
+   "stem": "For \u22121 < x < 1, the derivative of sin\u207b\u00b9(x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u221a(1 \u2212 x\u00b2)",
+    "1/\u221a(1 \u2212 x\u00b2)",
+    "\u22121/\u221a(1 \u2212 x\u00b2)",
+    "1/(1 + x\u00b2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "d/dx sin\u207b\u00b9(x) = 1/\u221a(1 \u2212 x\u00b2). The negative belongs to the derivative of cos\u207b\u00b9(x), and 1/(1 + x\u00b2) is the derivative of tan\u207b\u00b9(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0002",
+   "topicId": "spec-calculus",
+   "stem": "The derivative of tan\u207b\u00b9(2x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "2/(1 + 2x\u00b2)",
+    "2/(1 + x\u00b2)",
+    "2/(1 + 4x\u00b2)",
+    "1/(1 + 4x\u00b2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the chain rule, d/dx tan\u207b\u00b9(u) = u\u2032/(1 + u\u00b2) with u = 2x, giving 2/(1 + (2x)\u00b2) = 2/(1 + 4x\u00b2). Forgetting to square the 2 gives 1 + 2x\u00b2, and forgetting the chain rule loses the factor 2 on top.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0003",
+   "topicId": "spec-calculus",
+   "stem": "An anti-derivative of 1/(2x + 1), for x > \u22121/2, is:",
+   "imageRef": null,
+   "options": [
+    "\u22122/(2x + 1)\u00b2",
+    "(1/2)ln(2x + 1)",
+    "2 ln(2x + 1)",
+    "ln(2x + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "d/dx ln(2x + 1) = 2/(2x + 1), so dividing by 2 gives the anti-derivative. Multiplying by 2 instead of dividing is the common slip, and \u22122/(2x + 1)\u00b2 is the derivative of 1/(2x + 1).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0004",
+   "topicId": "spec-calculus",
+   "stem": "For \u22123 < x < 3, an anti-derivative of 1/\u221a(9 \u2212 x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)sin\u207b\u00b9(x/3)",
+    "cos\u207b\u00b9(x/3)",
+    "sin\u207b\u00b9(x/3)",
+    "sin\u207b\u00b9(3x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard result is that 1/\u221a(a\u00b2 \u2212 x\u00b2) has anti-derivative sin\u207b\u00b9(x/a). Differentiating sin\u207b\u00b9(x/3) gives (1/3)/\u221a(1 \u2212 x\u00b2/9) = 1/\u221a(9 \u2212 x\u00b2). The derivative of cos\u207b\u00b9(x/3) has the opposite sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0005",
+   "topicId": "spec-calculus",
+   "stem": "If f\u2032\u2032(x) < 0 for all x in an interval, then on that interval the graph of y = f(x) is:",
+   "imageRef": null,
+   "options": [
+    "always below the x-axis",
+    "concave down",
+    "concave up",
+    "a straight line"
+   ],
+   "correctIndex": 1,
+   "explanation": "A negative second derivative means the gradient f\u2032(x) is decreasing, so the graph bends downward: concave down. It says nothing about the sign of f(x) itself, and a straight line has f\u2032\u2032(x) = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0006",
+   "topicId": "spec-calculus",
+   "stem": "A point of inflection of the graph of y = f(x) is a point where:",
+   "imageRef": null,
+   "options": [
+    "the concavity changes",
+    "f\u2032(x) = 0",
+    "f\u2032\u2032(x) = 0, whether or not the concavity changes",
+    "f changes from increasing to decreasing"
+   ],
+   "correctIndex": 0,
+   "explanation": "An inflection point is defined by a change of concavity. f\u2032\u2032(x) = 0 alone is not enough: y = x\u2074 has f\u2032\u2032(0) = 0 but is concave up on both sides. A change from increasing to decreasing is a local maximum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0007",
+   "topicId": "spec-calculus",
+   "stem": "For the circle x\u00b2 + y\u00b2 = 25, implicit differentiation gives dy/dx as:",
+   "imageRef": null,
+   "options": [
+    "x/y",
+    "\u2212y/x",
+    "2x + 2y",
+    "\u2212x/y"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiating gives 2x + 2y(dy/dx) = 0, so dy/dx = \u2212x/y. The term y\u00b2 needs the chain rule, producing 2y(dy/dx). The result agrees with the tangent being perpendicular to the radius.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0008",
+   "topicId": "spec-calculus",
+   "stem": "Using the substitution u = x\u00b2 + 1, an anti-derivative of 2x(x\u00b2 + 1)\u2075 is:",
+   "imageRef": null,
+   "options": [
+    "(x\u00b2 + 1)\u2076/6",
+    "(x\u00b2 + 1)\u2076/3",
+    "x\u00b2(x\u00b2 + 1)\u2076/6",
+    "10x(x\u00b2 + 1)\u2074"
+   ],
+   "correctIndex": 0,
+   "explanation": "With u = x\u00b2 + 1, du/dx = 2x, so the integrand is u\u2075(du/dx) and anti-differentiates to u\u2076/6. The factor 2x is used up by the substitution, so it must not also appear in the answer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0009",
+   "topicId": "spec-calculus",
+   "stem": "The region under y = f(x), from x = a to x = b, is rotated about the x-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0 times the integral of f(x) from a to b",
+    "the integral of \u03c0f(x) from a to b",
+    "\u03c0 times the square of the integral of f(x) from a to b",
+    "\u03c0 times the integral of (f(x))\u00b2 from a to b"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each thin slice is a disc of radius f(x), with volume \u03c0(f(x))\u00b2 \u00d7 \u03b4x. Adding slices gives \u03c0 times the integral of (f(x))\u00b2. Squaring after integrating gives a different, wrong number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0010",
+   "topicId": "spec-calculus",
+   "stem": "If f(x) > 0 for all x in an interval, then on that interval every anti-derivative F of f is:",
+   "imageRef": null,
+   "options": [
+    "positive",
+    "concave up",
+    "decreasing",
+    "strictly increasing"
+   ],
+   "correctIndex": 3,
+   "explanation": "F\u2032(x) = f(x) > 0, so F is strictly increasing. The sign of F itself depends on the constant of integration, and concavity depends on f\u2032, not f.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0011",
+   "topicId": "spec-calculus",
+   "stem": "The point of inflection of the graph of y = x\u00b3 \u2212 3x\u00b2 + 2 is:",
+   "imageRef": null,
+   "options": [
+    "(2, \u22122)",
+    "(1, \u22121)",
+    "(1, 0)",
+    "(0, 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "d\u00b2y/dx\u00b2 = 6x \u2212 6, which is zero and changes sign at x = 1, where y = 1 \u2212 3 + 2 = 0. The points (0, 2) and (2, \u22122) are the turning points, where dy/dx = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0012",
+   "topicId": "spec-calculus",
+   "stem": "The integral of 1/(1 + x\u00b2) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "ln(2)",
+    "(1/2)ln(2)",
+    "\u03c0/2",
+    "\u03c0/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative is tan\u207b\u00b9(x), so the integral is tan\u207b\u00b9(1) \u2212 tan\u207b\u00b9(0) = \u03c0/4. The logarithm comes from x/(1 + x\u00b2), whose numerator is a multiple of the derivative of the denominator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0013",
+   "topicId": "spec-calculus",
+   "stem": "For the curve x = f(t), y = g(t), a \u2264 t \u2264 b, the arc length is the integral from t = a to t = b of:",
+   "imageRef": null,
+   "options": [
+    "\u221a((dx/dt)\u00b2 + (dy/dt)\u00b2)",
+    "dx/dt + dy/dt",
+    "\u221a(1 + dy/dt)",
+    "\u221a(x\u00b2 + y\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A small piece of curve has length \u221a((\u03b4x)\u00b2 + (\u03b4y)\u00b2) by Pythagoras, which is \u221a((dx/dt)\u00b2 + (dy/dt)\u00b2)\u03b4t. The expression \u221a(x\u00b2 + y\u00b2) is the distance from the origin, not a length along the curve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0014",
+   "topicId": "spec-calculus",
+   "stem": "For \u22122 < x < 2, the derivative of cos\u207b\u00b9(x/2) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "1/\u221a(4 \u2212 x\u00b2)",
+    "\u22122/\u221a(4 \u2212 x\u00b2)",
+    "\u22121/\u221a(4 \u2212 x\u00b2)",
+    "\u22121/(2\u221a(4 \u2212 x\u00b2))"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx cos\u207b\u00b9(x/a) = \u22121/\u221a(a\u00b2 \u2212 x\u00b2). Working it through: \u2212(1/2)/\u221a(1 \u2212 x\u00b2/4) = \u2212(1/2)/(\u221a(4 \u2212 x\u00b2)/2) = \u22121/\u221a(4 \u2212 x\u00b2). Leaving the inner 1/2 uncancelled gives the second option.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0015",
+   "topicId": "spec-calculus",
+   "stem": "The derivative of x sin\u207b\u00b9(x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "sin\u207b\u00b9(x) + x/\u221a(1 \u2212 x\u00b2)",
+    "x/\u221a(1 \u2212 x\u00b2)",
+    "sin\u207b\u00b9(x) + 1/\u221a(1 \u2212 x\u00b2)",
+    "1/\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the product rule, d/dx(x sin\u207b\u00b9(x)) = 1 \u00d7 sin\u207b\u00b9(x) + x \u00d7 1/\u221a(1 \u2212 x\u00b2). Dropping either term of the product rule gives one of the other options.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0016",
+   "topicId": "spec-calculus",
+   "stem": "An anti-derivative of 2/(4 + x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "tan\u207b\u00b9(2x)",
+    "tan\u207b\u00b9(x/2)",
+    "2tan\u207b\u00b9(x/2)",
+    "(1/2)tan\u207b\u00b9(x/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard form is a/(a\u00b2 + x\u00b2), with anti-derivative tan\u207b\u00b9(x/a). Here a = 2, so 2/(4 + x\u00b2) gives tan\u207b\u00b9(x/2) exactly. Differentiating tan\u207b\u00b9(x/2) gives (1/2)/(1 + x\u00b2/4) = 2/(4 + x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0017",
+   "topicId": "spec-calculus",
+   "stem": "An anti-derivative of sin\u00b2(x) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212cos\u00b3(x)/3",
+    "x/2 \u2212 sin(2x)/4",
+    "x/2 + sin(2x)/4",
+    "sin\u00b3(x)/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Use sin\u00b2(x) = (1 \u2212 cos(2x))/2, which anti-differentiates to x/2 \u2212 sin(2x)/4. The plus sign comes from the identity for cos\u00b2(x). sin\u00b3(x)/3 treats sin(x) as if it were x, which ignores the chain rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0018",
+   "topicId": "spec-calculus",
+   "stem": "The area enclosed between y = x\u00b2 and y = 2x is:",
+   "imageRef": null,
+   "options": [
+    "4/3",
+    "8/3",
+    "4",
+    "\u22124/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The curves meet at x = 0 and x = 2, with 2x above x\u00b2 between them. The area is the integral of (2x \u2212 x\u00b2) from 0 to 2, which is 4 \u2212 8/3 = 4/3. An area cannot be negative; \u22124/3 comes from subtracting the wrong way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0019",
+   "topicId": "spec-calculus",
+   "stem": "For the curve x\u00b2 + xy + y\u00b2 = 7, the gradient at the point (1, 2) is:",
+   "imageRef": null,
+   "options": [
+    "4/5",
+    "\u22122",
+    "\u22124/5",
+    "\u22125/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiating: 2x + y + x(dy/dx) + 2y(dy/dx) = 0, so dy/dx = \u2212(2x + y)/(x + 2y) = \u22124/5 at (1, 2). The term xy needs the product rule; treating its derivative as just y gives the wrong gradient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0020",
+   "topicId": "spec-calculus",
+   "stem": "For the curve y\u00b3 + xy = 12, the gradient at the point (2, 2) is:",
+   "imageRef": null,
+   "options": [
+    "\u22122/7",
+    "\u22121/7",
+    "\u22121/6",
+    "1/7"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiating: 3y\u00b2(dy/dx) + y + x(dy/dx) = 0, so dy/dx = \u2212y/(3y\u00b2 + x) = \u22122/(12 + 2) = \u22121/7. Leaving out the x(dy/dx) from the product rule gives \u22122/12 = \u22121/6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0021",
+   "topicId": "spec-calculus",
+   "stem": "The radius of a spherical balloon increases at 2 cm/s. How fast is its volume increasing when the radius is 5 cm?",
+   "imageRef": null,
+   "options": [
+    "100\u03c0 cm\u00b3/s",
+    "40\u03c0 cm\u00b3/s",
+    "(1000/3)\u03c0 cm\u00b3/s",
+    "200\u03c0 cm\u00b3/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "V = (4/3)\u03c0r\u00b3, so dV/dr = 4\u03c0r\u00b2. By the chain rule, dV/dt = 4\u03c0r\u00b2 \u00d7 dr/dt = 4\u03c0 \u00d7 25 \u00d7 2 = 200\u03c0 cm\u00b3/s. Leaving out dr/dt gives 100\u03c0, and (1000/3)\u03c0 is twice the volume itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0022",
+   "topicId": "spec-calculus",
+   "stem": "An anti-derivative of 1/(x\u00b2 \u2212 1), for x > 1, is:",
+   "imageRef": null,
+   "options": [
+    "(1/2)ln((x + 1)/(x \u2212 1))",
+    "ln(x\u00b2 \u2212 1)",
+    "tan\u207b\u00b9(x)",
+    "(1/2)ln((x \u2212 1)/(x + 1))"
+   ],
+   "correctIndex": 3,
+   "explanation": "Partial fractions give 1/(x\u00b2 \u2212 1) = (1/2)(1/(x \u2212 1) \u2212 1/(x + 1)), which anti-differentiates to (1/2)(ln(x \u2212 1) \u2212 ln(x + 1)). The tan\u207b\u00b9 result belongs to 1/(1 + x\u00b2), where the sign is a plus.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0023",
+   "topicId": "spec-calculus",
+   "stem": "Using integration by parts, an anti-derivative of xe^x is:",
+   "imageRef": null,
+   "options": [
+    "(x + 1)e^x",
+    "x\u00b2e^x/2",
+    "xe^x",
+    "(x \u2212 1)e^x"
+   ],
+   "correctIndex": 3,
+   "explanation": "With u = x and dv/dx = e^x, the integral is xe^x minus the integral of e^x, which is xe^x \u2212 e^x. Checking: d/dx((x \u2212 1)e^x) = e^x + (x \u2212 1)e^x = xe^x. Anti-differentiating each factor separately is not valid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0024",
+   "topicId": "spec-calculus",
+   "stem": "Using integration by parts, an anti-derivative of x cos(x) is:",
+   "imageRef": null,
+   "options": [
+    "x sin(x) \u2212 cos(x)",
+    "(x\u00b2/2)sin(x)",
+    "\u2212x sin(x) + cos(x)",
+    "x sin(x) + cos(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "With u = x and dv/dx = cos(x), the integral is x sin(x) minus the integral of sin(x), which is x sin(x) + cos(x). Checking: the derivative is sin(x) + x cos(x) \u2212 sin(x) = x cos(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0025",
+   "topicId": "spec-calculus",
+   "stem": "The integral of x/(x\u00b2 + 1) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "(1/2)ln(2)",
+    "ln(2)",
+    "2ln(2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The numerator is half the derivative of the denominator, so an anti-derivative is (1/2)ln(x\u00b2 + 1), giving (1/2)ln 2 \u2212 0. The value \u03c0/4 belongs to 1/(1 + x\u00b2), which needs tan\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0026",
+   "topicId": "spec-calculus",
+   "stem": "The integral of cos\u00b2(x) from x = 0 to x = \u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u03c0",
+    "0",
+    "\u03c0/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Use cos\u00b2(x) = (1 + cos(2x))/2. The cos(2x) part integrates to zero over [0, \u03c0], leaving (1/2) \u00d7 \u03c0 = \u03c0/2. The answer 0 confuses cos\u00b2(x), which is never negative, with cos(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0027",
+   "topicId": "spec-calculus",
+   "stem": "For the curve x = 3cos(t), y = 3sin(t), 0 \u2264 t \u2264 \u03c0, the arc length is:",
+   "imageRef": null,
+   "options": [
+    "9\u03c0",
+    "3\u03c0/2",
+    "3\u03c0",
+    "6\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "dx/dt = \u22123sin(t) and dy/dt = 3cos(t), so the integrand is \u221a(9sin\u00b2(t) + 9cos\u00b2(t)) = 3, and the length is 3\u03c0. This is half the circumference of a circle of radius 3, as expected.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0028",
+   "topicId": "spec-calculus",
+   "stem": "The region bounded by y = x\u00b2, the y-axis and the line y = 9, with x \u2265 0, is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "243\u03c0/5",
+    "81\u03c0/2",
+    "81\u03c0",
+    "27\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "About the y-axis, V = \u03c0 times the integral of x\u00b2 with respect to y. Since x\u00b2 = y, V = \u03c0 \u00d7 (integral of y from 0 to 9) = \u03c0 \u00d7 81/2. The value 243\u03c0/5 is \u03c0 times the integral of x\u2074 from 0 to 3, which rotates a different region about the x-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0029",
+   "topicId": "spec-calculus",
+   "stem": "The region under y = 1/cos(x), from x = 0 to x = \u03c0/4, is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "\u03c0/4",
+    "\u221a2\u03c0",
+    "\u03c0\u00b2/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = \u03c0 times the integral of 1/cos\u00b2(x) from 0 to \u03c0/4. An anti-derivative of 1/cos\u00b2(x) is tan(x), so V = \u03c0(tan(\u03c0/4) \u2212 0) = \u03c0. Forgetting to square the function leads to a logarithm, not any of these.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0030",
+   "topicId": "spec-calculus",
+   "stem": "The graph of y = f(x) crosses the x-axis from positive to negative at x = 2. At x = 2, every anti-derivative F of f has:",
+   "imageRef": null,
+   "options": [
+    "a point of inflection",
+    "a zero",
+    "a local maximum",
+    "a local minimum"
+   ],
+   "correctIndex": 2,
+   "explanation": "F\u2032(x) = f(x), so F\u2032 changes from positive to negative at x = 2 and F has a local maximum there. Whether F(2) = 0 depends on the constant of integration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0031",
+   "topicId": "spec-calculus",
+   "stem": "Which definite integral cannot be found exactly by anti-differentiation with elementary functions, and so is evaluated numerically?",
+   "imageRef": null,
+   "options": [
+    "The integral of 2xe^(x\u00b2) from 0 to 1",
+    "The integral of e^(\u2212x\u00b2) from 0 to 1",
+    "The integral of xe^(\u2212x\u00b2) from 0 to 1",
+    "The integral of e^(\u22122x) from 0 to 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "e^(\u2212x\u00b2) has no anti-derivative in terms of elementary functions, so technology evaluates it numerically (about 0.747). The other three have the derivative of the index as a factor, or a linear index, so substitution works.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0032",
+   "topicId": "spec-calculus",
+   "stem": "For the curve x = t\u00b2 + 1, y = t\u00b3, the value of dy/dx at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "3",
+    "12",
+    "4/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = (dy/dt) \u00f7 (dx/dt) = 3t\u00b2/(2t) = 3t/2, which is 3 at t = 2. Using dy/dt alone gives 12, and dividing the wrong way gives 1/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0033",
+   "topicId": "spec-calculus",
+   "stem": "If f\u2032\u2032(x) = 6x, f\u2032(0) = 1 and f(0) = 2, then f(1) equals:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "4",
+    "3",
+    "6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiating twice: f\u2032(x) = 3x\u00b2 + 1 and f(x) = x\u00b3 + x + 2, so f(1) = 4. Leaving out the first constant gives f(x) = x\u00b3 + 2 and f(1) = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0034",
+   "topicId": "spec-calculus",
+   "stem": "Water flows at 3 m\u00b3/min into an inverted cone whose radius is half its depth. How fast is the depth rising when the depth is 2 m?",
+   "imageRef": null,
+   "options": [
+    "12/\u03c0 m/min",
+    "3/(4\u03c0) m/min",
+    "\u03c0/3 m/min",
+    "3/\u03c0 m/min"
+   ],
+   "correctIndex": 3,
+   "explanation": "With r = h/2, V = (1/3)\u03c0(h/2)\u00b2h = \u03c0h\u00b3/12, so dV/dh = \u03c0h\u00b2/4 = \u03c0 at h = 2. Then dh/dt = (dV/dt) \u00f7 (dV/dh) = 3/\u03c0 m/min. The value 12/\u03c0 comes from dh/dt = 12/(\u03c0h\u00b2) with the h\u00b2 left out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0035",
+   "topicId": "spec-calculus",
+   "stem": "The graph of y = e^(\u2212x\u00b2) has points of inflection where x equals:",
+   "imageRef": null,
+   "options": [
+    "\u00b11/\u221a2",
+    "\u00b11",
+    "0",
+    "\u00b1\u221a2"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = \u22122xe^(\u2212x\u00b2) and d\u00b2y/dx\u00b2 = (4x\u00b2 \u2212 2)e^(\u2212x\u00b2), which is zero and changes sign when x\u00b2 = 1/2. At x = 0 the first derivative is zero, giving the maximum, not an inflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0036",
+   "topicId": "spec-calculus",
+   "stem": "Using the substitution u = cos(x), the integral of sin(x)cos\u00b2(x) from x = 0 to x = \u03c0/2 is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/3",
+    "\u22121/3",
+    "2/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "du/dx = \u2212sin(x), and the terminals become u = 1 and u = 0, so the integral is the integral of \u2212u\u00b2 from 1 to 0, which is the integral of u\u00b2 from 0 to 1 = 1/3. Keeping the old terminals or losing the minus sign gives \u22121/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0037",
+   "topicId": "spec-calculus",
+   "stem": "An anti-derivative of sin\u00b3(x) is:",
+   "imageRef": null,
+   "options": [
+    "cos(x) \u2212 cos\u00b3(x)/3",
+    "sin\u2074(x)/4",
+    "\u2212cos\u2074(x)/4",
+    "\u2212cos(x) + cos\u00b3(x)/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write sin\u00b3(x) = sin(x)(1 \u2212 cos\u00b2(x)) and substitute u = cos(x): the result is \u2212cos(x) + cos\u00b3(x)/3. The power rule cannot be used directly on sin\u00b3(x), because there is no factor cos(x) to match.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0038",
+   "topicId": "spec-calculus",
+   "stem": "For the curve x = t\u00b2, y = (2/3)t\u00b3, 0 \u2264 t \u2264 1, the arc length is:",
+   "imageRef": null,
+   "options": [
+    "(4/3)\u221a2",
+    "(4/3)(2\u221a2 \u2212 1)",
+    "2\u221a2 \u2212 1",
+    "(2/3)(2\u221a2 \u2212 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "dx/dt = 2t and dy/dt = 2t\u00b2, so the integrand is \u221a(4t\u00b2 + 4t\u2074) = 2t\u221a(1 + t\u00b2). With u = 1 + t\u00b2, it integrates to (2/3)(1 + t\u00b2)^(3/2), giving (2/3)(2\u221a2 \u2212 1). Forgetting the lower terminal gives (4/3)\u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0039",
+   "topicId": "spec-calculus",
+   "stem": "The semicircle y = \u221a(4 \u2212 x\u00b2), \u22122 \u2264 x \u2264 2, is rotated about the x-axis. The surface area of the solid is:",
+   "imageRef": null,
+   "options": [
+    "16\u03c0",
+    "8\u03c0",
+    "32\u03c0/3",
+    "4\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "S = 2\u03c0 times the integral of y\u221a(1 + (dy/dx)\u00b2). Here dy/dx = \u2212x/\u221a(4 \u2212 x\u00b2), so y\u221a(1 + (dy/dx)\u00b2) = 2, and S = 2\u03c0 \u00d7 2 \u00d7 4 = 16\u03c0, the area of a sphere of radius 2. The value 32\u03c0/3 is its volume.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0040",
+   "topicId": "spec-calculus",
+   "stem": "The function f has a local minimum at x = 1, and f(1) > 0. At x = 1, every anti-derivative F of f has:",
+   "imageRef": null,
+   "options": [
+    "a non-stationary point of inflection",
+    "a stationary point of inflection",
+    "a local minimum",
+    "a local maximum"
+   ],
+   "correctIndex": 0,
+   "explanation": "F\u2032\u2032 = f\u2032 changes sign at x = 1, so F changes concavity there. F\u2032(1) = f(1) > 0, so the gradient is not zero and the inflection is non-stationary. A local minimum of F would need f to change sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0041",
+   "topicId": "spec-calculus",
+   "stem": "The area of the region enclosed between y = sin(x) and y = cos(x) from x = \u03c0/4 to x = 5\u03c0/4 is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "2\u221a2",
+    "\u221a2",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves cross at \u03c0/4 and 5\u03c0/4, with sin(x) above. The area is the integral of (sin(x) \u2212 cos(x)), which is [\u2212cos(x) \u2212 sin(x)] = \u221a2 \u2212 (\u2212\u221a2) = 2\u221a2. An area cannot be 0 here, and \u221a2 is the contribution of only one terminal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0042",
+   "topicId": "spec-calculus",
+   "stem": "Using the substitution u = x \u2212 1, an anti-derivative of x\u221a(x \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "(x\u00b2/2) \u00d7 (2/3)(x \u2212 1)^(3/2)",
+    "(2/5)(x \u2212 1)^(5/2)",
+    "(2/5)(x \u2212 1)^(5/2) + (2/3)(x \u2212 1)^(3/2)",
+    "(2/3)x(x \u2212 1)^(3/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "With x = u + 1, the integrand becomes (u + 1)\u221au = u^(3/2) + u^(1/2), which anti-differentiates to (2/5)u^(5/2) + (2/3)u^(3/2). The factor x must be rewritten in terms of u; it cannot be treated as a constant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-calculus-0043",
+   "topicId": "spec-calculus",
+   "stem": "For x > 0, the derivative of tan\u207b\u00b9(x) + tan\u207b\u00b9(1/x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "2/(1 + x\u00b2)",
+    "1/(1 + x\u00b2) \u2212 1/x\u00b2",
+    "\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the chain rule, d/dx tan\u207b\u00b9(1/x) = (\u22121/x\u00b2)/(1 + 1/x\u00b2) = \u22121/(x\u00b2 + 1), which cancels the derivative of tan\u207b\u00b9(x). The sum is the constant \u03c0/2 for x > 0, so its derivative is 0, not \u03c0/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-calculus-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

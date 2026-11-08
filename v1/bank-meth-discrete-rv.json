@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-discrete-rv",
+ "questions": [
+  {
+   "id": "meth-discrete-rv-0001",
+   "topicId": "meth-discrete-rv",
+   "stem": "A die is rolled, and X = 1 if the number is even and X = 0 if it is odd. Mathematically, X is:",
+   "imageRef": null,
+   "options": [
+    "the sample space of the experiment",
+    "an event within the sample space",
+    "a function from the sample space to the real numbers",
+    "a probability between 0 and 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "A random variable assigns a real number to each outcome: here 2, 4 and 6 go to 1, and 1, 3 and 5 go to 0. Probabilities are then attached to its values, such as Pr(X = 1) = 1/2, but X itself is the rule, not a probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0002",
+   "topicId": "meth-discrete-rv",
+   "stem": "Which of these is a discrete random variable?",
+   "imageRef": null,
+   "options": [
+    "the mass of a randomly chosen apple",
+    "the number of heads in 10 tosses of a coin",
+    "the time taken to run 100 m",
+    "the height of a randomly chosen student"
+   ],
+   "correctIndex": 1,
+   "explanation": "A count can only take separate values, here 0, 1, \u2026, 10, so it is discrete. Time, height and mass are measured on a continuous scale and can take any value in an interval.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0003",
+   "topicId": "meth-discrete-rv",
+   "stem": "A discrete random variable X takes the values 0, 1, 2 and 3 with probabilities 0.1, 0.3, k and 0.2. What is k?",
+   "imageRef": null,
+   "options": [
+    "0.2",
+    "0.25",
+    "0.4",
+    "0.6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The probabilities in a distribution must add to 1, so k = 1 \u2212 (0.1 + 0.3 + 0.2) = 0.4. Each probability must also lie between 0 and 1, which 0.4 does.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0004",
+   "topicId": "meth-discrete-rv",
+   "stem": "X takes the values 0, 1 and 2 with probabilities 0.2, 0.5 and 0.3. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "0.8",
+    "1.1",
+    "1",
+    "1.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(X) is the sum of each value times its probability: 0 \u00d7 0.2 + 1 \u00d7 0.5 + 2 \u00d7 0.3 = 1.1. The value 1 is the middle value, which is not the mean unless the distribution is symmetric.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0005",
+   "topicId": "meth-discrete-rv",
+   "stem": "A Bernoulli random variable with probability of success p has mean and variance:",
+   "imageRef": null,
+   "options": [
+    "mean 1 \u2212 p, variance p(1 \u2212 p)",
+    "mean p(1 \u2212 p), variance p",
+    "mean p, variance p(1 \u2212 p)",
+    "mean p, variance p\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "X takes 1 with probability p and 0 otherwise, so E(X) = p and E(X\u00b2) = p, giving Var(X) = p \u2212 p\u00b2 = p(1 \u2212 p). A binomial variable is a sum of n of these, which is why its mean is np.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0006",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(10, 0.3), then E(X) and Var(X) are:",
+   "imageRef": null,
+   "options": [
+    "3 and 7",
+    "3 and 2.1",
+    "3 and 0.21",
+    "0.3 and 2.1"
+   ],
+   "correctIndex": 1,
+   "explanation": "For a binomial distribution E(X) = np = 10 \u00d7 0.3 = 3 and Var(X) = np(1 \u2212 p) = 3 \u00d7 0.7 = 2.1. The value 7 is n(1 \u2212 p), the expected number of failures.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0007",
+   "topicId": "meth-discrete-rv",
+   "stem": "A fair die is rolled twice and X is the number of sixes. What is Pr(X = 1)?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/3",
+    "25/36",
+    "5/18"
+   ],
+   "correctIndex": 3,
+   "explanation": "X = 1 for six then not-six, or not-six then six: 2 \u00d7 (1/6)(5/6) = 10/36 = 5/18. The value 1/3 is 2 \u00d7 1/6, which forgets that the other roll must not be a six.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0008",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(100, 0.5), what is the standard deviation of X?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "50",
+    "2.5",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Var(X) = np(1 \u2212 p) = 100 \u00d7 0.5 \u00d7 0.5 = 25, and the standard deviation is its square root, 5. The value 50 is the mean, np.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0009",
+   "topicId": "meth-discrete-rv",
+   "stem": "For a discrete random variable X, E(X) represents:",
+   "imageRef": null,
+   "options": [
+    "a value that X must take at least once",
+    "the long-run average value of X over many repetitions",
+    "the most likely value of X",
+    "the middle value of X when its values are ordered"
+   ],
+   "correctIndex": 1,
+   "explanation": "The expected value is the probability-weighted average, the mean of X in the long run. It need not be the most likely value, and it need not even be a value X can take: the mean of a fair die roll is 3.5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0010",
+   "topicId": "meth-discrete-rv",
+   "stem": "A fair die is rolled 30 times. What is the expected number of sixes?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "5",
+    "6",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number of sixes is Bi(30, 1/6), with mean np = 30 \u00d7 1/6 = 5. The value 1/6 is the probability of a six on a single roll.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0011",
+   "topicId": "meth-discrete-rv",
+   "stem": "The graph of the probability mass function of X ~ Bi(10, 0.5) is:",
+   "imageRef": null,
+   "options": [
+    "positively skewed",
+    "negatively skewed",
+    "symmetric about x = 5",
+    "symmetric about x = 0.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "When p = 0.5, Pr(X = k) = Pr(X = 10 \u2212 k), so the graph is symmetric about the mean np = 5. Skew appears when p is not 0.5: positive for p < 0.5 and negative for p > 0.5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0012",
+   "topicId": "meth-discrete-rv",
+   "stem": "If E(X) = 4, what is E(3 \u2212 2X)?",
+   "imageRef": null,
+   "options": [
+    "11",
+    "\u22125",
+    "5",
+    "\u22128"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expected value is linear: E(a + bX) = a + bE(X) = 3 \u2212 2 \u00d7 4 = \u22125. The value 11 comes from adding the 2X instead of subtracting it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0013",
+   "topicId": "meth-discrete-rv",
+   "stem": "X takes the values 0, 1 and 2 with probabilities 0.2, 0.5 and 0.3. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "0.49",
+    "1.7",
+    "0.7",
+    "0.59"
+   ],
+   "correctIndex": 0,
+   "explanation": "E(X) = 1.1 and E(X\u00b2) = 0 + 0.5 + 4 \u00d7 0.3 = 1.7, so Var(X) = E(X\u00b2) \u2212 [E(X)]\u00b2 = 1.7 \u2212 1.21 = 0.49. Subtracting E(X) instead of its square gives 0.59, and 0.7 is the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0014",
+   "topicId": "meth-discrete-rv",
+   "stem": "Which situation can be modelled by a binomial distribution?",
+   "imageRef": null,
+   "options": [
+    "the number of rolls of a die until the first six",
+    "the number of aces in 5 cards dealt without replacement",
+    "the total of the numbers on two dice",
+    "the number of sixes in 20 rolls of a fair die"
+   ],
+   "correctIndex": 3,
+   "explanation": "A binomial needs a fixed number of independent trials, each with the same probability of success. Rolling until a six has no fixed number of trials, and dealing without replacement changes the probability from card to card.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0015",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(4, 1/2), what is Pr(X = 2)?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "3/8",
+    "1/4",
+    "1/16"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(X = 2) = C(4, 2)(1/2)\u00b2(1/2)\u00b2 = 6/16 = 3/8. The answer 1/16 gives the probability of one particular order, such as SSFF, and forgets the 6 arrangements.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0016",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(5, 0.2), then Pr(X \u2265 1) equals:",
+   "imageRef": null,
+   "options": [
+    "5 \u00d7 0.2 \u00d7 0.8\u2074",
+    "1 \u2212 0.8\u2075",
+    "1 \u2212 0.2\u2075",
+    "0.2\u2075"
+   ],
+   "correctIndex": 1,
+   "explanation": "The complement of at least one success is no successes, which has probability 0.8\u2075, so Pr(X \u2265 1) = 1 \u2212 0.8\u2075 \u2248 0.672. The expression 5 \u00d7 0.2 \u00d7 0.8\u2074 is Pr(X = 1) only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0017",
+   "topicId": "meth-discrete-rv",
+   "stem": "If Var(X) = 5, what is Var(2X + 3)?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "23",
+    "20",
+    "13"
+   ],
+   "correctIndex": 2,
+   "explanation": "Var(aX + b) = a\u00b2Var(X), so the answer is 4 \u00d7 5 = 20. Adding a constant shifts every value equally and does not change the spread, and the factor 2 is squared, not doubled.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0018",
+   "topicId": "meth-discrete-rv",
+   "stem": "For X ~ Bi(20, p), as p increases from 0.2 to 0.8, the graph of the probability mass function:",
+   "imageRef": null,
+   "options": [
+    "has its peak move to the left",
+    "becomes steadily more spread out",
+    "stays symmetric about x = 10",
+    "has its peak move to the right"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mean np rises from 4 to 16, so the peak moves right. The variance np(1 \u2212 p) rises until p = 0.5 and then falls, so the spread does not increase steadily; the graph is symmetric only at p = 0.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0019",
+   "topicId": "meth-discrete-rv",
+   "stem": "Pr(X = x) = kx for x = 1, 2, 3, 4. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "10",
+    "3",
+    "2.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The probabilities add to 1, so 10k = 1 and k = 1/10. Then E(X) = (1 \u00d7 1 + 2 \u00d7 2 + 3 \u00d7 3 + 4 \u00d7 4)/10 = 30/10 = 3. The value 2.5 would be the mean if the four values were equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0020",
+   "topicId": "meth-discrete-rv",
+   "stem": "Two fair dice are rolled and X is the larger of the two numbers. What is Pr(X = 2)?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/12",
+    "1/36",
+    "1/18"
+   ],
+   "correctIndex": 1,
+   "explanation": "The larger number is 2 for the outcomes (1, 2), (2, 1) and (2, 2), which is 3 of the 36 equally likely outcomes, so the probability is 1/12. Counting (1, 2) and (2, 1) as one outcome gives 1/18.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0021",
+   "topicId": "meth-discrete-rv",
+   "stem": "A game costs $5 to play. A player wins $20 with probability 0.2 and nothing otherwise. What is the expected profit per game?",
+   "imageRef": null,
+   "options": [
+    "\u2212$1",
+    "$4",
+    "\u2212$4",
+    "$3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The profit is $15 with probability 0.2 and \u2212$5 with probability 0.8, so E = 3 \u2212 4 = \u2212$1. The value $4 is the expected winnings, before the $5 cost is subtracted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0022",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(3, 1/2), what is Pr(2 \u2264 X \u2264 3)?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "1/2",
+    "3/8",
+    "7/8"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(X = 2) = 3/8 and Pr(X = 3) = 1/8, which add to 1/2. The value 3/8 is Pr(X = 2) alone, leaving out the upper end of the interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0023",
+   "topicId": "meth-discrete-rv",
+   "stem": "X takes the values 1, 2, 3 and 4 with probabilities 0.1, 0.2, 0.3 and 0.4. What is Pr(X \u2265 3 | X \u2265 2)?",
+   "imageRef": null,
+   "options": [
+    "2/9",
+    "7/9",
+    "0.7",
+    "0.63"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(X \u2265 3 | X \u2265 2) = Pr(X \u2265 3)/Pr(X \u2265 2) = 0.7/0.9 = 7/9. The value 0.7 is the unconditional probability, which ignores that X = 1 has been ruled out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0024",
+   "topicId": "meth-discrete-rv",
+   "stem": "If E(X) = 2 and Var(X) = 3, what is E(X\u00b2)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "4",
+    "7",
+    "5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearranging Var(X) = E(X\u00b2) \u2212 [E(X)]\u00b2 gives E(X\u00b2) = 3 + 2\u00b2 = 7. The value 4 is [E(X)]\u00b2, which is not the same as E(X\u00b2) unless the variance is 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0025",
+   "topicId": "meth-discrete-rv",
+   "stem": "In a large population, 40% of people can roll their tongue. Five people are chosen at random. What is the probability that exactly two can roll their tongue?",
+   "imageRef": null,
+   "options": [
+    "0.3456",
+    "0.03456",
+    "0.2304",
+    "0.4"
+   ],
+   "correctIndex": 0,
+   "explanation": "With X ~ Bi(5, 0.4), Pr(X = 2) = C(5, 2)(0.4)\u00b2(0.6)\u00b3 = 10 \u00d7 0.16 \u00d7 0.216 = 0.3456. Swapping p and 1 \u2212 p gives 0.2304, and leaving out C(5, 2) gives 0.03456.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0026",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(2, p) and Pr(X = 0) = 0.16, what is p?",
+   "imageRef": null,
+   "options": [
+    "0.6",
+    "0.4",
+    "0.84",
+    "0.16"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pr(X = 0) = (1 \u2212 p)\u00b2 = 0.16, so 1 \u2212 p = 0.4 and p = 0.6. The value 0.4 is the probability of failure, not of success.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0027",
+   "topicId": "meth-discrete-rv",
+   "stem": "For a fixed n, the variance of X ~ Bi(n, p) is greatest when p is:",
+   "imageRef": null,
+   "options": [
+    "1/n",
+    "0.5",
+    "1",
+    "close to 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Var(X) = np(1 \u2212 p), and p(1 \u2212 p) is a parabola in p with its maximum at p = 0.5. Near p = 0 or p = 1 almost every trial gives the same result, so the variance is small.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0028",
+   "topicId": "meth-discrete-rv",
+   "stem": "Which rule defines a probability mass function on the values listed?",
+   "imageRef": null,
+   "options": [
+    "Pr(X = x) = x/6 for x = 1, 2, 3",
+    "Pr(X = x) = x/10 for x = 1, 2, 3",
+    "Pr(X = x) = (x \u2212 2)/2 for x = 1, 2, 3, 4",
+    "Pr(X = x) = x/4 for x = 1, 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The values 1/6, 2/6 and 3/6 are all between 0 and 1 and add to 1. The rule (x \u2212 2)/2 adds to 1 but gives \u22121/2 when x = 1, and a probability cannot be negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0029",
+   "topicId": "meth-discrete-rv",
+   "stem": "For X ~ Bi(n, 0.2), as n increases, the graph of the probability mass function:",
+   "imageRef": null,
+   "options": [
+    "moves to the left and becomes more spread out",
+    "moves to the right and becomes narrower",
+    "keeps its peak at x = 0.2",
+    "moves to the right and becomes more spread out"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mean np = 0.2n and the variance 0.16n both grow with n, so the graph shifts right and widens. The value 0.2 is the probability of success on one trial, not a value of X.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0030",
+   "topicId": "meth-discrete-rv",
+   "stem": "X is the number shown when a fair six-sided die is rolled. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "35/12",
+    "91/6",
+    "49/4",
+    "7/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "E(X) = 7/2 and E(X\u00b2) = (1 + 4 + 9 + 16 + 25 + 36)/6 = 91/6, so Var(X) = 91/6 \u2212 49/4 = 35/12. The value 91/6 is E(X\u00b2), before the square of the mean is subtracted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0031",
+   "topicId": "meth-discrete-rv",
+   "stem": "Which of these binomial random variables has the largest standard deviation?",
+   "imageRef": null,
+   "options": [
+    "Bi(200, 0.05)",
+    "Bi(100, 0.5)",
+    "Bi(100, 0.9)",
+    "Bi(50, 0.5)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The variances np(1 \u2212 p) are 25, 9, 12.5 and 9.5, so Bi(100, 0.5) has standard deviation 5, the largest. Bi(200, 0.05) has the most trials, but with p so small nearly every trial fails, which keeps the spread low.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0032",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(3, 1/2), what is Pr(X = 3 | X \u2265 1)?",
+   "imageRef": null,
+   "options": [
+    "7/8",
+    "3/7",
+    "1/7",
+    "1/8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(X = 3) = 1/8 and Pr(X \u2265 1) = 1 \u2212 1/8 = 7/8, so the conditional probability is (1/8)/(7/8) = 1/7. The value 1/8 ignores the condition that at least one success has occurred.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0033",
+   "topicId": "meth-discrete-rv",
+   "stem": "A binomial random variable has mean 6 and variance 4.2. What are n and p?",
+   "imageRef": null,
+   "options": [
+    "n = 30, p = 0.2",
+    "n = 20, p = 0.3",
+    "n = 20, p = 0.7",
+    "n = 10, p = 0.6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dividing np(1 \u2212 p) = 4.2 by np = 6 gives 1 \u2212 p = 0.7, so p = 0.3 and n = 6/0.3 = 20. Taking 0.7 as p confuses the probability of success with the probability of failure.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0034",
+   "topicId": "meth-discrete-rv",
+   "stem": "A fair coin is tossed n times. What is the smallest n for which the probability of at least one head is greater than 0.9?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "5",
+    "10",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "We need 1 \u2212 0.5^n > 0.9, so 0.5^n < 0.1. Since 0.5\u00b3 = 0.125 is too big and 0.5\u2074 = 0.0625 is small enough, n = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0035",
+   "topicId": "meth-discrete-rv",
+   "stem": "Pr(X = x) = kx for x = 1, 2, 3, 4. What is Pr(X > 1 | X < 4)?",
+   "imageRef": null,
+   "options": [
+    "5/6",
+    "1/2",
+    "3/5",
+    "9/10"
+   ],
+   "correctIndex": 0,
+   "explanation": "With k = 1/10, Pr(X < 4) = (1 + 2 + 3)/10 = 6/10 and Pr(1 < X < 4) = (2 + 3)/10 = 5/10. The conditional probability is (5/10)/(6/10) = 5/6. The value 1/2 is the unconditional Pr(1 < X < 4).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0036",
+   "topicId": "meth-discrete-rv",
+   "stem": "A netballer scores each shot with probability 0.8, independently. She takes three shots. Given that she scores at least two, what is the probability that she scores all three?",
+   "imageRef": null,
+   "options": [
+    "0.896",
+    "3/7",
+    "4/7",
+    "0.512"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(3) = 0.8\u00b3 = 0.512 and Pr(2) = 3 \u00d7 0.8\u00b2 \u00d7 0.2 = 0.384, so Pr(at least 2) = 0.896. The conditional probability is 0.512/0.896 = 4/7. The value 0.512 ignores the condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0037",
+   "topicId": "meth-discrete-rv",
+   "stem": "A discrete random variable X has E(X) = 2 and Var(X) = 1. What is E((X \u2212 1)\u00b2)?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "0",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "E(X\u00b2) = Var(X) + [E(X)]\u00b2 = 5, and E(X\u00b2 \u2212 2X + 1) = 5 \u2212 4 + 1 = 2. Writing E((X \u2212 1)\u00b2) as (E(X) \u2212 1)\u00b2 gives 1, but the expected value of a square is not the square of the expected value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0038",
+   "topicId": "meth-discrete-rv",
+   "stem": "X takes the values 0, 1 and 2 with probabilities a, 0.5 and b, and E(X) = 1.2. What is a?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0.25",
+    "0.15",
+    "0.35"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X) = 0.5 + 2b = 1.2 gives b = 0.35, and a + 0.5 + b = 1 gives a = 0.15. The value 0.35 is b, not a.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0039",
+   "topicId": "meth-discrete-rv",
+   "stem": "What is the most likely value of X ~ Bi(7, 0.6)?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "4.2",
+    "5",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The probabilities are Pr(3) \u2248 0.194, Pr(4) \u2248 0.290 and Pr(5) \u2248 0.261, so the mode is 4. The mean np = 4.2 is not even a possible value of X, so it cannot be the most likely one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-discrete-rv-0040",
+   "topicId": "meth-discrete-rv",
+   "stem": "If X ~ Bi(4, 1/3), what is Pr(X \u2265 2)?",
+   "imageRef": null,
+   "options": [
+    "8/27",
+    "1/9",
+    "11/27",
+    "16/81"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(X = 0) = (2/3)\u2074 = 16/81 and Pr(X = 1) = 4 \u00d7 (1/3)(2/3)\u00b3 = 32/81, so Pr(X \u2265 2) = 1 \u2212 48/81 = 33/81 = 11/27. The value 16/81 is Pr(X = 0) alone.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-discrete-rv-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

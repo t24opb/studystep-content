@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-conditional-probability",
+ "questions": [
+  {
+   "id": "meth-conditional-probability-0001",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.5, Pr(B) = 0.4 and Pr(A \u2229 B) = 0.2. What is Pr(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "0.7",
+    "0.9",
+    "0.2",
+    "1.1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The addition rule gives Pr(A \u222a B) = Pr(A) + Pr(B) \u2212 Pr(A \u2229 B) = 0.5 + 0.4 \u2212 0.2 = 0.7. Simply adding to get 0.9 counts the overlap twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0002",
+   "topicId": "meth-conditional-probability",
+   "stem": "Events A and B are mutually exclusive. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "Pr(A \u2229 B) = Pr(A) \u00d7 Pr(B)",
+    "Pr(A) + Pr(B) = 1",
+    "Pr(A | B) = Pr(A)",
+    "Pr(A \u2229 B) = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mutually exclusive events cannot occur together, so their intersection is empty and has probability 0. The product rule describes independent events, a different idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0003",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are mutually exclusive, with Pr(A) = 0.3 and Pr(B) = 0.45. What is Pr(A\u2032 \u2229 B\u2032)?",
+   "imageRef": null,
+   "options": [
+    "0.385",
+    "0.135",
+    "0.25",
+    "0.75"
+   ],
+   "correctIndex": 2,
+   "explanation": "With no overlap, Pr(A \u222a B) = 0.3 + 0.45 = 0.75, and A\u2032 \u2229 B\u2032 is the outside of the union, so its probability is 1 \u2212 0.75 = 0.25. Multiplying 0.7 \u00d7 0.55 = 0.385 wrongly treats the events as independent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0004",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A \u222a B) = 0.8, Pr(A) = 0.5 and Pr(B) = 0.6. What is Pr(A \u2229 B)?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0.3",
+    "0.1",
+    "0.2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearrange the addition rule: Pr(A \u2229 B) = Pr(A) + Pr(B) \u2212 Pr(A \u222a B) = 1.1 \u2212 0.8 = 0.3. The value 0.2 is 1 \u2212 0.8, the probability of neither event.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0005",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.6 and Pr(A \u2229 B) = 0.25. What is Pr(A \u2229 B\u2032)?",
+   "imageRef": null,
+   "options": [
+    "0.85",
+    "0.45",
+    "0.35",
+    "0.15"
+   ],
+   "correctIndex": 2,
+   "explanation": "A splits into the part inside B and the part outside it, so Pr(A \u2229 B\u2032) = 0.6 \u2212 0.25 = 0.35. The value 0.15 uses Pr(A\u2032) = 0.4 instead of Pr(A).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0006",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.45, Pr(B) = 0.35 and Pr(A \u2229 B) = 0.15. What is the probability that exactly one of A and B occurs?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0.65",
+    "0.8",
+    "0.35"
+   ],
+   "correctIndex": 0,
+   "explanation": "A only is 0.45 \u2212 0.15 = 0.3 and B only is 0.35 \u2212 0.15 = 0.2, so exactly one has probability 0.5. The value 0.65 is Pr(A \u222a B), which also includes the overlap.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0007",
+   "topicId": "meth-conditional-probability",
+   "stem": "In a Venn diagram, Pr(A only) = 0.3, Pr(A \u2229 B) = 0.1 and Pr(B only) = 0.4. What is the probability of neither A nor B?",
+   "imageRef": null,
+   "options": [
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The four regions of the diagram must add to 1, so Pr(neither) = 1 \u2212 (0.3 + 0.1 + 0.4) = 0.2. Leaving the overlap out of the sum gives 0.3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0008",
+   "topicId": "meth-conditional-probability",
+   "stem": "In a probability table (Karnaugh map) for two events A and B, what do the four inner cells add to?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "Pr(A) + Pr(B)",
+    "Pr(A \u222a B)",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inner cells are A \u2229 B, A \u2229 B\u2032, A\u2032 \u2229 B and A\u2032 \u2229 B\u2032, which do not overlap and together cover the whole sample space, so they add to 1. The margins hold the totals Pr(A), Pr(A\u2032), Pr(B) and Pr(B\u2032).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0009",
+   "topicId": "meth-conditional-probability",
+   "stem": "Which formula defines Pr(A | B), for Pr(B) > 0?",
+   "imageRef": null,
+   "options": [
+    "Pr(A \u2229 B)/Pr(A)",
+    "Pr(A) \u00d7 Pr(B)",
+    "Pr(B)/Pr(A \u2229 B)",
+    "Pr(A \u2229 B)/Pr(B)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Given that B has occurred, B becomes the reduced sample space, so the probability of A is the share of B that is also in A. Dividing by Pr(A) gives Pr(B | A) instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0010",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A \u2229 B) = 0.12 and Pr(B) = 0.4. What is Pr(A | B)?",
+   "imageRef": null,
+   "options": [
+    "0.048",
+    "0.52",
+    "0.2",
+    "0.3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pr(A | B) = 0.12/0.4 = 0.3. Multiplying to get 0.048 confuses the definition with the multiplication rule, and 0.2 divides by Pr(B\u2032) = 0.6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0011",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(B) = 0.4 and Pr(A | B) = 0.25. What is Pr(A \u2229 B)?",
+   "imageRef": null,
+   "options": [
+    "0.15",
+    "0.1",
+    "0.625",
+    "0.65"
+   ],
+   "correctIndex": 1,
+   "explanation": "The multiplication rule gives Pr(A \u2229 B) = Pr(A | B) \u00d7 Pr(B) = 0.25 \u00d7 0.4 = 0.1. Dividing 0.25 by 0.4 to get 0.625 runs the definition backwards.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0012",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.5, Pr(B) = 0.25 and Pr(A \u2229 B) = 0.1. What is Pr(B | A)?",
+   "imageRef": null,
+   "options": [
+    "0.05",
+    "0.125",
+    "0.2",
+    "0.4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Given A, divide by Pr(A): Pr(B | A) = 0.1/0.5 = 0.2. The value 0.4 is Pr(A | B) = 0.1/0.25; the two conditional probabilities are generally different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0013",
+   "topicId": "meth-conditional-probability",
+   "stem": "A fair die is rolled. Given that the result is even, what is the probability that it is greater than 3?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/6",
+    "2/3",
+    "1/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The reduced sample space is 2, 4, 6, and two of these, 4 and 6, are greater than 3, so the probability is 2/3. The value 1/3 is Pr(even and greater than 3) over the full sample space.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0014",
+   "topicId": "meth-conditional-probability",
+   "stem": "Two fair coins are tossed. Given that at least one shows a head, what is the probability that both show heads?",
+   "imageRef": null,
+   "options": [
+    "2/3",
+    "1/3",
+    "1/2",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Knowing at least one head leaves the reduced sample space HH, HT, TH, and only HH has two heads, so the probability is 1/3. The tempting 1/2 assumes a particular coin is known to be a head.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0015",
+   "topicId": "meth-conditional-probability",
+   "stem": "Two fair dice are rolled. Given that the sum is 8, what is the probability that at least one die shows a 6?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "11/36",
+    "1/3",
+    "1/18"
+   ],
+   "correctIndex": 0,
+   "explanation": "The outcomes summing to 8 are (2, 6), (3, 5), (4, 4), (5, 3) and (6, 2), and two of these five contain a 6, so the probability is 2/5. The value 11/36 ignores the condition entirely.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0016",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are mutually exclusive, with Pr(A) > 0 and Pr(B) > 0. What is Pr(A | B)?",
+   "imageRef": null,
+   "options": [
+    "Pr(A)/Pr(B)",
+    "0",
+    "Pr(A)",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(A | B) = Pr(A \u2229 B)/Pr(B), and the numerator is 0 because A and B cannot occur together. Once B has happened, A is impossible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0017",
+   "topicId": "meth-conditional-probability",
+   "stem": "Of 200 Year 11 students, 120 study Methods, 80 study Physics and 50 study both. A student who studies Methods is chosen at random. What is the probability they also study Physics?",
+   "imageRef": null,
+   "options": [
+    "5/12",
+    "5/8",
+    "1/4",
+    "2/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The condition restricts attention to the 120 Methods students, of whom 50 study Physics: 50/120 = 5/12. The value 5/8 = 50/80 is the probability of Methods given Physics.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0018",
+   "topicId": "meth-conditional-probability",
+   "stem": "Of 200 Year 11 students, 120 study Methods, 80 study Physics and 50 study both. What is the probability that a student who does not study Physics studies Methods?",
+   "imageRef": null,
+   "options": [
+    "7/12",
+    "7/20",
+    "3/5",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "120 students do not study Physics, and 120 \u2212 50 = 70 of them study Methods, so the probability is 70/120 = 7/12. The value 7/20 divides by all 200 students instead of the reduced sample space.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0019",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.6, Pr(B) = 0.5 and Pr(A \u2229 B) = 0.35. What is Pr(B | A\u2032)?",
+   "imageRef": null,
+   "options": [
+    "0.15",
+    "0.25",
+    "0.5",
+    "0.375"
+   ],
+   "correctIndex": 3,
+   "explanation": "In the probability table, Pr(A\u2032 \u2229 B) = 0.5 \u2212 0.35 = 0.15 and Pr(A\u2032) = 0.4, so Pr(B | A\u2032) = 0.15/0.4 = 0.375. The value 0.15 is the joint probability before dividing by Pr(A\u2032).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0020",
+   "topicId": "meth-conditional-probability",
+   "stem": "Events A and B are independent exactly when:",
+   "imageRef": null,
+   "options": [
+    "Pr(A \u2229 B) = 0",
+    "Pr(A \u222a B) = Pr(A) + Pr(B)",
+    "Pr(A | B) = Pr(B | A)",
+    "Pr(A \u2229 B) = Pr(A) \u00d7 Pr(B)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Independence means one event occurring does not change the probability of the other, which is equivalent to the product rule. Pr(A \u2229 B) = 0 describes mutually exclusive events instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0021",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are independent, with Pr(A) = 0.3 and Pr(B) = 0.5. What is Pr(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "0.65",
+    "0.8",
+    "0.15",
+    "0.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Independence gives Pr(A \u2229 B) = 0.3 \u00d7 0.5 = 0.15, so Pr(A \u222a B) = 0.3 + 0.5 \u2212 0.15 = 0.65. Adding to get 0.8 is only valid for mutually exclusive events.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0022",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are independent, with Pr(A) = 0.7 and Pr(B) = 0.5. What is Pr(A | B)?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "1.4",
+    "0.7",
+    "0.35"
+   ],
+   "correctIndex": 2,
+   "explanation": "For independent events, knowing that B occurred does not change the probability of A, so Pr(A | B) = Pr(A) = 0.7. The value 0.35 is Pr(A \u2229 B), before dividing by Pr(B).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0023",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are independent, with Pr(A) = 0.2 and Pr(B) = 0.6. What is Pr(A\u2032 \u2229 B\u2032)?",
+   "imageRef": null,
+   "options": [
+    "0.68",
+    "0.2",
+    "0.32",
+    "0.12"
+   ],
+   "correctIndex": 2,
+   "explanation": "If A and B are independent, so are their complements, so Pr(A\u2032 \u2229 B\u2032) = 0.8 \u00d7 0.4 = 0.32. The value 0.68 is Pr(A \u222a B), the complement of the answer.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0024",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are independent, Pr(A \u222a B) = 0.6 and Pr(A) = 0.2. What is Pr(B)?",
+   "imageRef": null,
+   "options": [
+    "0.3",
+    "0.5",
+    "0.4",
+    "0.75"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write p = Pr(B): 0.6 = 0.2 + p \u2212 0.2p, so 0.4 = 0.8p and p = 0.5. The value 0.4 subtracts as though the events were mutually exclusive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0025",
+   "topicId": "meth-conditional-probability",
+   "stem": "Pr(A) = 0.4, Pr(B) = 0.5 and Pr(A \u222a B) = 0.7. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "A and B are neither, as Pr(A \u2229 B) = 0.1",
+    "A and B are independent",
+    "A and B are mutually exclusive",
+    "A and B are mutually exclusive and independent"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(A \u2229 B) = 0.4 + 0.5 \u2212 0.7 = 0.2, which equals 0.4 \u00d7 0.5, so the events are independent. They are not mutually exclusive, because their intersection has non-zero probability.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0026",
+   "topicId": "meth-conditional-probability",
+   "stem": "A and B are mutually exclusive, with Pr(A) > 0 and Pr(B) > 0. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "Pr(A | B) is equal to Pr(A)",
+    "Pr(A \u222a B) is equal to Pr(A) \u00d7 Pr(B)",
+    "A and B cannot be independent",
+    "A and B must be independent"
+   ],
+   "correctIndex": 2,
+   "explanation": "Mutually exclusive means Pr(A \u2229 B) = 0, but Pr(A) \u00d7 Pr(B) is positive, so the product rule fails. Knowing B occurred makes A impossible, which is the opposite of independence.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0027",
+   "topicId": "meth-conditional-probability",
+   "stem": "A basketballer scores each free throw with probability 0.8, independently. What is the probability she scores the first two and misses the third?",
+   "imageRef": null,
+   "options": [
+    "0.032",
+    "0.128",
+    "0.384",
+    "0.512"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply along one path: 0.8 \u00d7 0.8 \u00d7 0.2 = 0.128. The value 0.384 counts all three orders of two scores and one miss, which the question does not ask for.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0028",
+   "topicId": "meth-conditional-probability",
+   "stem": "A basketballer scores each free throw with probability 0.8, independently. What is the probability she scores exactly two of three?",
+   "imageRef": null,
+   "options": [
+    "0.64",
+    "0.384",
+    "0.128",
+    "0.512"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are three paths with two scores and one miss (SSM, SMS, MSS), each with probability 0.8 \u00d7 0.8 \u00d7 0.2 = 0.128, so the total is 3 \u00d7 0.128 = 0.384. The value 0.512 is the probability of scoring all three.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0029",
+   "topicId": "meth-conditional-probability",
+   "stem": "On a tree diagram, the probabilities on the branches leaving any one point:",
+   "imageRef": null,
+   "options": [
+    "multiply to give 1",
+    "are always equal",
+    "add to the next stage's probability",
+    "add to 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The branches from one point list every possible outcome at that stage, given what happened before, so their probabilities add to 1. Multiplying happens along a path, not across branches.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0030",
+   "topicId": "meth-conditional-probability",
+   "stem": "A bag holds 4 green and 3 yellow counters. Two are drawn without replacement. What is the probability that they are different colours?",
+   "imageRef": null,
+   "options": [
+    "4/7",
+    "24/49",
+    "2/7",
+    "3/7"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pr(GY) + Pr(YG) = (4/7)(3/6) + (3/7)(4/6) = 12/42 + 12/42 = 4/7. The value 24/49 uses 7 counters on both draws, which is drawing with replacement, and 2/7 counts only one order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0031",
+   "topicId": "meth-conditional-probability",
+   "stem": "A bag holds 4 green and 3 yellow counters. Two are drawn without replacement. Given that the second is green, what is the probability that the first was green?",
+   "imageRef": null,
+   "options": [
+    "3/7",
+    "1/2",
+    "4/7",
+    "2/7"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(both green) = (4/7)(3/6) = 2/7 and Pr(second green) = 2/7 + (3/7)(4/6) = 4/7, so the answer is (2/7)/(4/7) = 1/2. The value 4/7 ignores the information about the second draw.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0032",
+   "topicId": "meth-conditional-probability",
+   "stem": "A box holds 6 good and 4 faulty batteries. Two are chosen at random without replacement. What is the probability that both are faulty?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "7/15",
+    "2/15",
+    "4/25"
+   ],
+   "correctIndex": 2,
+   "explanation": "(4/10) \u00d7 (3/9) = 12/90 = 2/15, because after one faulty battery is taken only 3 of the remaining 9 are faulty. The value 4/25 = (4/10)\u00b2 treats the draws as with replacement.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0033",
+   "topicId": "meth-conditional-probability",
+   "stem": "Which statement is the law of total probability for events A and B?",
+   "imageRef": null,
+   "options": [
+    "Pr(A) = Pr(B | A)Pr(A) + Pr(B\u2032)",
+    "Pr(A) = Pr(A | B)Pr(B) + Pr(A | B\u2032)Pr(B\u2032)",
+    "Pr(A) = Pr(A | B) + Pr(A | B\u2032)",
+    "Pr(A) = Pr(A \u2229 B) \u00d7 Pr(A \u2229 B\u2032)"
+   ],
+   "correctIndex": 1,
+   "explanation": "A happens either together with B or together with B\u2032, and these cases do not overlap, so Pr(A) = Pr(A \u2229 B) + Pr(A \u2229 B\u2032), with each term written using the multiplication rule. Adding the two conditional probabilities alone ignores how likely B is.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0034",
+   "topicId": "meth-conditional-probability",
+   "stem": "A factory makes 40% of its parts on machine A, with 5% defective, and 60% on machine B, with 2% defective. What is the probability that a part is defective?",
+   "imageRef": null,
+   "options": [
+    "0.02",
+    "0.032",
+    "0.035",
+    "0.07"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the law of total probability, Pr(D) = 0.4 \u00d7 0.05 + 0.6 \u00d7 0.02 = 0.02 + 0.012 = 0.032. Averaging 5% and 2% to get 0.035 ignores the fact that machine B makes more of the parts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0035",
+   "topicId": "meth-conditional-probability",
+   "stem": "A factory makes 40% of its parts on machine A, with 5% defective, and 60% on machine B, with 2% defective. A part is defective. What is the probability it came from machine A?",
+   "imageRef": null,
+   "options": [
+    "0.4",
+    "0.05",
+    "0.02",
+    "0.625"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pr(A \u2229 D) = 0.4 \u00d7 0.05 = 0.02 and Pr(D) = 0.032, so Pr(A | D) = 0.02/0.032 = 0.625. The value 0.05 is Pr(D | A), the conditional probability the wrong way round.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0036",
+   "topicId": "meth-conditional-probability",
+   "stem": "If it rains today, the chance of rain tomorrow is 0.6; if not, it is 0.2. The chance of rain today is 0.3. What is the probability of rain tomorrow?",
+   "imageRef": null,
+   "options": [
+    "0.4",
+    "0.18",
+    "0.32",
+    "0.8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(rain tomorrow) = 0.3 \u00d7 0.6 + 0.7 \u00d7 0.2 = 0.18 + 0.14 = 0.32. The value 0.18 counts only the path where it rains today.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0037",
+   "topicId": "meth-conditional-probability",
+   "stem": "If it rains today, the chance of rain tomorrow is 0.6; if not, it is 0.2. The chance of rain today is 0.3. Given rain tomorrow, what is the probability it rained today?",
+   "imageRef": null,
+   "options": [
+    "9/16",
+    "0.6",
+    "0.3",
+    "0.18"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pr(rain today \u2229 rain tomorrow) = 0.18 and Pr(rain tomorrow) = 0.32, so the answer is 0.18/0.32 = 9/16. The value 0.6 is the conditional probability in the other direction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0038",
+   "topicId": "meth-conditional-probability",
+   "stem": "A spinner shows 1, 2, 3 or 4 with equal probability and is spun twice. What is the probability that the first number is greater than the second?",
+   "imageRef": null,
+   "options": [
+    "3/8",
+    "1/2",
+    "5/8",
+    "1/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "A 4 \u00d7 4 grid has 16 outcomes, 4 of which are ties. The other 12 split evenly, so 6 have the first number greater: 6/16 = 3/8. The value 1/2 forgets the ties.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0039",
+   "topicId": "meth-conditional-probability",
+   "stem": "A simulation estimates the probability of drawing two red balls, without replacement, from a bag of 3 red and 5 black. What should each trial do?",
+   "imageRef": null,
+   "options": [
+    "Toss a coin for each of the two draws and record heads as a red ball",
+    "Draw two balls without putting the first back, then return both before the next trial",
+    "Draw one ball, put it back, then draw a second ball before the next trial",
+    "Draw two balls without replacement and leave both out for all later trials"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each trial must copy the real experiment, two draws without replacement, and then reset the bag so every trial starts the same. Replacing after the first draw simulates a different experiment, and a coin gives each draw probability 1/2 rather than the bag's 3/8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-conditional-probability-0040",
+   "topicId": "meth-conditional-probability",
+   "stem": "A simulation of 100 trials estimates a probability as 0.41, but the theoretical value is 0.4. What is the best explanation?",
+   "imageRef": null,
+   "options": [
+    "The simulation must have used replacement by mistake",
+    "The theoretical value of 0.4 must have been miscalculated",
+    "One hundred trials always reproduce the exact value",
+    "Simulation estimates vary randomly about the true value"
+   ],
+   "correctIndex": 3,
+   "explanation": "A simulation gives a relative frequency, which varies from run to run; 41 successes in 100 trials is entirely consistent with a probability of 0.4. More trials would usually bring the estimate closer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-conditional-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "acc-trading-inventory",
+ "questions": [
+  {
+   "id": "acc-trading-inventory-0001",
+   "topicId": "acc-trading-inventory",
+   "stem": "Under the First-In, First-Out (FIFO) cost assignment method, inventory sold is assumed to come from:",
+   "imageRef": null,
+   "options": [
+    "the inventory with the lowest cost price on hand",
+    "the inventory identified by its own invoice cost",
+    "the oldest inventory on hand, at its cost price",
+    "the newest inventory on hand, at its cost price"
+   ],
+   "correctIndex": 2,
+   "explanation": "FIFO assumes the first goods bought are the first sold, so each sale is costed from the oldest layer on the inventory card. Costing each item from its own invoice describes the Identified Cost method.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0002",
+   "topicId": "acc-trading-inventory",
+   "stem": "On an inventory card, the cost price of each item is recorded:",
+   "imageRef": null,
+   "options": [
+    "excluding GST, because the GST paid is claimed back through GST Clearing",
+    "including GST, because that is the total amount paid to the supplier",
+    "at the selling price, because that is the value the inventory will bring",
+    "at the replacement cost, because that is the price of the next purchase"
+   ],
+   "correctIndex": 0,
+   "explanation": "GST paid on inventory is recoverable, so it is not part of the inventory's cost and goes to GST Clearing instead. Recording inventory at selling price would recognise profit before any sale has been made.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0003",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running holds 10 pairs of a shoe at $40 and then buys 20 pairs at $45. It then sells 16 pairs. Using FIFO, what is the cost of goods sold?",
+   "imageRef": null,
+   "options": [
+    "$720",
+    "$640",
+    "$670",
+    "$690"
+   ],
+   "correctIndex": 2,
+   "explanation": "FIFO takes the oldest 10 pairs first at $40 ($400) and the remaining 6 from the next layer at $45 ($270), a total of $670. Costing all 16 at the newer $45 gives $720, and taking the newer layer first gives $690.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0004",
+   "topicId": "acc-trading-inventory",
+   "stem": "A FIFO inventory card for a camping stove shows: opening balance 8 at $25; purchase 12 at $27; sale of 10; owner's drawings of 1; purchase 10 at $28. What is the closing balance?",
+   "imageRef": null,
+   "options": [
+    "19 units, $507",
+    "19 units, $532",
+    "19 units, $523",
+    "20 units, $550"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sale takes all 8 at $25 and 2 at $27, leaving 10 at $27; the drawing takes 1 more at $27, leaving 9 at $27 ($243); adding 10 at $28 ($280) gives 19 units at $523. Leaving out the owner's drawing gives 20 units, and costing the sale from the newer layer gives $507.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0005",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running's FIFO card for a drink bottle shows a balance of 5 at $30 and 12 at $34. A physical count finds 15 bottles. Using the study design's rule for losses, what is the inventory loss?",
+   "imageRef": null,
+   "options": [
+    "$120",
+    "$60",
+    "$68",
+    "$64"
+   ],
+   "correctIndex": 1,
+   "explanation": "The study design values an inventory loss using the oldest cost price of the inventory on hand on the inventory card, so 2 bottles at $30 is $60. Using the latest cost price of $34 gives $68, which is the rule for gains, not losses.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0006",
+   "topicId": "acc-trading-inventory",
+   "stem": "The same FIFO card shows 5 at $30 and 12 at $34, but a later count finds 20 bottles. How is the inventory gain valued?",
+   "imageRef": null,
+   "options": [
+    "3 units at $34, the latest cost price in the IN column",
+    "3 units at $30, the oldest cost price of inventory on hand",
+    "3 units at $32, the midpoint of the two cost prices",
+    "3 units at their selling price, as they are ready for sale"
+   ],
+   "correctIndex": 0,
+   "explanation": "Under FIFO the study design values an inventory gain using the latest cost price recorded in the IN column, here $34, giving $102. The oldest cost is used for losses, not gains.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0007",
+   "topicId": "acc-trading-inventory",
+   "stem": "A FIFO card records a credit sale of 8 units in the OUT column as 3 at $50 and 5 at $54. The customer later returns 2 units. At what cost are they returned to inventory?",
+   "imageRef": null,
+   "options": [
+    "2 at the price the customer paid",
+    "2 at $54, reversing the last out",
+    "2 at $50, the oldest cost in the sale",
+    "1 at $50 and 1 at $54"
+   ],
+   "correctIndex": 1,
+   "explanation": "The study design costs a sales return under FIFO by reversing the last out, using the latest cost prices shown in the OUT column, so 2 at $54 ($108). The selling price is credited to Accounts Receivable, but the inventory returns at cost.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0008",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running returns 4 faulty jackets to its supplier. The inventory card holds jackets at $60 and $64, and the supplier's credit note values the returned jackets at $64 each. At what cost are they recorded in the OUT column?",
+   "imageRef": null,
+   "options": [
+    "$70.40 each, the credit note price plus GST",
+    "$64 each, the cost on the supplier's credit note",
+    "$60 each, the oldest cost price on the card",
+    "$62 each, the average of the two cost prices"
+   ],
+   "correctIndex": 1,
+   "explanation": "The study design values purchase returns at the cost price identified on the supplier's credit note, under both FIFO and Identified Cost. GST is never part of the inventory cost, so $70.40 overstates it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0009",
+   "topicId": "acc-trading-inventory",
+   "stem": "When inventory is taken for an advertising display, it is recorded on the inventory card:",
+   "imageRef": null,
+   "options": [
+    "in the OUT column at selling price",
+    "in the IN column at cost price",
+    "only in the General Journal, not the card",
+    "in the OUT column at cost price"
+   ],
+   "correctIndex": 3,
+   "explanation": "Inventory used for advertising leaves the business's stock, so it is recorded in the OUT column at cost and matched by an Advertising expense in the journal. Selling price is used only for the Sales entry when a sale actually occurs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0010",
+   "topicId": "acc-trading-inventory",
+   "stem": "A FIFO card shows 6 units at $70 and 10 units at $75. The owner takes 2 units home and then 1 unit is used in a shop display. What is the total cost removed from the card?",
+   "imageRef": null,
+   "options": [
+    "$220",
+    "$210",
+    "$225",
+    "$215"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both the drawing and the advertising use are costed by FIFO from the oldest layer, so 3 units at $70 is $210. Costing them at the latest $75 gives $225, and costing only the display unit at $75 gives $215.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0011",
+   "topicId": "acc-trading-inventory",
+   "stem": "Under the Identified Cost method, an inventory loss or gain is revealed by:",
+   "imageRef": null,
+   "options": [
+    "comparing this period's sales with last period's sales",
+    "the supplier's statement of account at month end",
+    "the oldest and latest cost prices on the inventory card",
+    "a physical count of the items and their individual costs"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each item under Identified Cost has its own recorded cost, so a physical count shows which items are missing or extra and what each one cost. The oldest and latest cost conventions apply to FIFO, not to Identified Cost.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0012",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which business is best suited to the Identified Cost method?",
+   "imageRef": null,
+   "options": [
+    "a dealer in used cars, each bought at a different price",
+    "a supermarket selling thousands of identical tins of soup",
+    "a hardware store selling screws by the box",
+    "a newsagent selling daily newspapers and magazines"
+   ],
+   "correctIndex": 0,
+   "explanation": "Identified Cost suits a small number of distinct, high-value items whose individual costs can be tracked, such as used cars. Identical low-cost items sold in large volumes are far more practical to cost with FIFO.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0013",
+   "topicId": "acc-trading-inventory",
+   "stem": "Ivory Keys Music sells pianos under the Identified Cost method. It holds piano P14 bought for $4,200 and piano P19 bought for $4,600. It sells P19 for $6,600 including GST. What is the cost of goods sold?",
+   "imageRef": null,
+   "options": [
+    "$6,000",
+    "$4,600",
+    "$4,200",
+    "$4,400"
+   ],
+   "correctIndex": 1,
+   "explanation": "Identified Cost uses the actual cost of the item sold, so selling P19 gives a cost of goods sold of $4,600. FIFO would cost the oldest piano first, and $6,000 is the sale price excluding GST, which is the Sales revenue, not the cost.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0014",
+   "topicId": "acc-trading-inventory",
+   "stem": "In a period of rising purchase prices, how would using FIFO rather than Identified Cost generally affect a business selling items of different cost?",
+   "imageRef": null,
+   "options": [
+    "Either method could give the higher profit, depending on which items are actually sold.",
+    "FIFO always gives the lower profit, because it costs every sale at the newest price.",
+    "Identified Cost always gives the lower profit, because it excludes product costs.",
+    "Both methods always give exactly the same cost of goods sold in every period."
+   ],
+   "correctIndex": 0,
+   "explanation": "Identified Cost matches whichever item was sold, which may be an old cheap one or a new dear one, while FIFO always costs from the oldest layer, so the comparison depends on the items sold. FIFO costs sales at the oldest prices, not the newest, and both methods include product costs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0015",
+   "topicId": "acc-trading-inventory",
+   "stem": "A product cost is:",
+   "imageRef": null,
+   "options": [
+    "any cost paid by the business during the reporting period it relates to",
+    "a cost incurred in running the office, such as administration wages",
+    "a cost incurred to get inventory into the location and condition ready for sale",
+    "a cost incurred in selling inventory, such as delivery to the customer"
+   ],
+   "correctIndex": 2,
+   "explanation": "Product costs are added to the cost of inventory because they are needed to bring it to the point of sale, such as cartage inwards and customs duty. Delivery to customers and office wages are period costs, expensed in the period they are incurred.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0016",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which cost should be recorded as a period cost rather than added to the cost of inventory?",
+   "imageRef": null,
+   "options": [
+    "cartage inwards paid to bring goods from the supplier",
+    "customs duty paid on imported goods",
+    "insurance on goods while in transit to the shop",
+    "delivery charges for taking goods to customers"
+   ],
+   "correctIndex": 3,
+   "explanation": "Delivery to customers happens after the goods are ready for sale, so it is a selling expense of the period. Cartage inwards, customs duty and transit insurance are all needed to get the inventory to the shop, so they are product costs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0017",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running imports 50 treadmills at $1,200 each and pays cartage inwards of $3,000, customs duty of $2,000 and a local newspaper advertisement of $2,500 (all excluding GST). What cost per treadmill is recorded on the inventory card?",
+   "imageRef": null,
+   "options": [
+    "$1,260",
+    "$1,200",
+    "$1,300",
+    "$1,350"
+   ],
+   "correctIndex": 2,
+   "explanation": "Product costs are the purchase price, cartage inwards and customs duty: $60,000 + $3,000 + $2,000 = $65,000, or $1,300 per treadmill. The advertisement is a period cost, so including it overstates the cost at $1,350.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0018",
+   "topicId": "acc-trading-inventory",
+   "stem": "If a business records cartage inwards as an expense rather than as part of the cost of inventory, and all the inventory is still on hand at the end of the period, then:",
+   "imageRef": null,
+   "options": [
+    "net profit is understated and inventory is overstated",
+    "net profit is correct but inventory is understated",
+    "net profit is understated and inventory is understated",
+    "net profit is overstated and inventory is overstated"
+   ],
+   "correctIndex": 2,
+   "explanation": "Cartage inwards is a product cost, so expensing it immediately reduces profit in this period and leaves the inventory asset too low. The cost should only become an expense, through cost of goods sold, when the goods are sold.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0019",
+   "topicId": "acc-trading-inventory",
+   "stem": "Net realisable value (NRV) is:",
+   "imageRef": null,
+   "options": [
+    "the price the business would pay to replace the inventory",
+    "the estimated selling price less the costs needed to make the sale",
+    "the original cost price plus product costs such as cartage inwards",
+    "the estimated selling price including GST"
+   ],
+   "correctIndex": 1,
+   "explanation": "NRV is what the business expects to receive from selling the inventory after deducting costs such as repairs, packaging or commission needed to make the sale. The original cost plus product costs is the inventory's cost, which is compared with NRV.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0020",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running has 20 jackets that cost $80 each. They were water damaged and can now be sold for $90 each, but only after repairs costing $25 each. What inventory write-down is required?",
+   "imageRef": null,
+   "options": [
+    "$1,300",
+    "$0",
+    "$300",
+    "$500"
+   ],
+   "correctIndex": 2,
+   "explanation": "NRV is $90 \u2212 $25 = $65, which is $15 below the $80 cost, so the write-down is 20 \u00d7 $15 = $300. Assuming no write-down because $90 exceeds $80 ignores the repair cost, and writing off the whole $500 of repairs ignores the selling price.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0021",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which General Journal entry records an inventory write-down to net realisable value?",
+   "imageRef": null,
+   "options": [
+    "Dr Inventory Loss; Cr Accounts Payable",
+    "Dr Inventory Write-down; Cr Inventory",
+    "Dr Inventory; Cr Inventory Write-down",
+    "Dr Cost of Goods Sold; Cr Sales"
+   ],
+   "correctIndex": 1,
+   "explanation": "An inventory write-down is an expense that reduces the inventory asset, so the expense is debited and Inventory credited. No goods have been sold or returned to a supplier, so Sales and Accounts Payable are not involved.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0022",
+   "topicId": "acc-trading-inventory",
+   "stem": "Reporting inventory at the lower of cost and net realisable value applies which qualitative characteristic most directly?",
+   "imageRef": null,
+   "options": [
+    "timeliness, so that inventory is reported as soon as it arrives",
+    "comparability, so that every business uses the same supplier",
+    "understandability, so that the owner can follow the inventory card",
+    "faithful representation, so that assets are not overstated"
+   ],
+   "correctIndex": 3,
+   "explanation": "Inventory that can only bring in less than its cost would be overstated if kept at cost, so writing it down makes the Balance Sheet a faithful representation. The rule is about the value reported, not the speed or format of reporting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0023",
+   "topicId": "acc-trading-inventory",
+   "stem": "The owner of Ivory Keys Music refuses to write down a fire-damaged piano because the business is applying for a bank loan next month. What is the effect, and what is the ethical problem?",
+   "imageRef": null,
+   "options": [
+    "Profit and assets are overstated, misleading the bank about the business's position.",
+    "Profit and assets are understated, so the bank lends the business too little money.",
+    "Profit is overstated but assets are correct, which only affects the tax the owner pays.",
+    "Assets are overstated but profit is correct, because a write-down is not an expense."
+   ],
+   "correctIndex": 0,
+   "explanation": "Leaving out the write-down keeps an expense out of the Income Statement and leaves inventory too high, so both profit and assets are overstated. Doing this to win a loan deliberately misleads a user of the reports, which is unethical as well as a breach of faithful representation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0024",
+   "topicId": "acc-trading-inventory",
+   "stem": "Lyrebird Linen made credit sales of $160,000 and had credit sales returns of $10,000 for the year (both excluding GST). Accounts receivable at year end were $40,000. It creates an allowance for doubtful debts at 2% of net credit sales. What is the Doubtful Debts expense?",
+   "imageRef": null,
+   "options": [
+    "$3,800",
+    "$3,000",
+    "$3,200",
+    "$800"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Income Statement approach applies the percentage to net credit sales: 2% \u00d7 ($160,000 \u2212 $10,000) = $3,000. Using gross credit sales gives $3,200, and applying the percentage to the receivables balance of $40,000 gives $800, which is not the approach the study design requires.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0025",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which entry creates an allowance for doubtful debts?",
+   "imageRef": null,
+   "options": [
+    "Dr Accounts Receivable; Cr Allowance for Doubtful Debts",
+    "Dr Doubtful Debts; Cr Allowance for Doubtful Debts",
+    "Dr Allowance for Doubtful Debts; Cr Accounts Receivable",
+    "Dr Doubtful Debts; Cr Accounts Receivable"
+   ],
+   "correctIndex": 1,
+   "explanation": "The allowance recognises the expense of expected bad debts now, with the credit to the allowance account rather than to any particular customer's debt. Debiting the allowance and crediting Accounts Receivable is the later write-off of a debt that proves bad.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0026",
+   "topicId": "acc-trading-inventory",
+   "stem": "How is the Allowance for Doubtful Debts reported in the Balance Sheet?",
+   "imageRef": null,
+   "options": [
+    "as a non-current asset, because debts may take years to collect",
+    "deducted from Accounts Receivable within current assets",
+    "as a current liability owed to customers who cannot pay",
+    "as an expense deducted from net profit within owner's equity"
+   ],
+   "correctIndex": 1,
+   "explanation": "The allowance is a negative asset that reduces Accounts Receivable to the amount expected to be collected. It is not owed to anyone, so it is not a liability, and the related expense appears in the Income Statement, not the Balance Sheet.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0027",
+   "topicId": "acc-trading-inventory",
+   "stem": "In the year after creating its allowance, Lyrebird Linen learns that a customer owing $550 cannot pay. Using the allowance method, which entry writes off the debt?",
+   "imageRef": null,
+   "options": [
+    "Dr Accounts Receivable; Cr Bad Debts",
+    "Dr Allowance for Doubtful Debts; Cr Accounts Receivable",
+    "Dr Bad Debts; Cr Accounts Receivable",
+    "Dr Doubtful Debts; Cr Allowance for Doubtful Debts"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under the allowance method the expense was recognised when the allowance was created, so the write-off simply uses up the allowance and removes the debt. Debiting a Bad Debts expense would record the same loss a second time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0028",
+   "topicId": "acc-trading-inventory",
+   "stem": "Lyrebird Linen began the year with an Allowance for Doubtful Debts of $3,000 and during the year wrote off bad debts of $2,600 using the allowance method. What was the effect of the write-offs?",
+   "imageRef": null,
+   "options": [
+    "Net accounts receivable was unchanged but net profit fell by $2,600.",
+    "Net accounts receivable fell by $2,600 but net profit was unchanged.",
+    "Net accounts receivable and net profit were both unchanged.",
+    "Net accounts receivable fell by $2,600 and net profit fell by $2,600."
+   ],
+   "correctIndex": 2,
+   "explanation": "The write-offs reduce Accounts Receivable and the allowance by the same $2,600, so the net amount reported is unchanged, and no expense is recorded because it was recognised when the allowance was created. Treating the write-off as a new expense would double count the loss.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0029",
+   "topicId": "acc-trading-inventory",
+   "stem": "Creating an allowance for doubtful debts in the same year as the credit sales applies which accounting assumption?",
+   "imageRef": null,
+   "options": [
+    "the entity assumption, separating the customer's affairs from the business",
+    "the period assumption alone, which requires a report every month",
+    "the accrual basis assumption, recognising the expense in the period it is incurred",
+    "the going concern assumption, assuming customers will continue to buy"
+   ],
+   "correctIndex": 2,
+   "explanation": "The expense of debts that will not be collected arises from the sales made this period, so the accrual basis recognises it now rather than when a debt is finally written off. The entity assumption separates the owner's affairs, not the customers'.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0030",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running had opening inventory of $36,000, closing inventory of $44,000 and cost of goods sold of $292,000. What is its inventory turnover?",
+   "imageRef": null,
+   "options": [
+    "50 days",
+    "55 days",
+    "45 days",
+    "7.3 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "Average inventory is ($36,000 + $44,000) \u00f7 2 = $40,000, and $40,000 \u00f7 $292,000 \u00d7 365 = 50 days. Using closing inventory alone gives 55 days, and 7.3 is the number of times inventory turned over, not a number of days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0031",
+   "topicId": "acc-trading-inventory",
+   "stem": "Lyrebird Linen had average accounts receivable of $33,000 and net credit sales of $300,000 excluding GST. What is its accounts receivable turnover?",
+   "imageRef": null,
+   "options": [
+    "33 days",
+    "36.5 days",
+    "40.2 days",
+    "10 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "Net credit sales must include GST because the receivables include it: $300,000 \u00d7 1.1 = $330,000, and $33,000 \u00f7 $330,000 \u00d7 365 = 36.5 days. Leaving out the GST gives about 40.2 days, and 10 is the number of times the receivables turned over, not days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0032",
+   "topicId": "acc-trading-inventory",
+   "stem": "A business had average accounts payable of $18,000 and net credit purchases including GST of $219,000. Its suppliers offer 30-day terms. What does its accounts payable turnover show?",
+   "imageRef": null,
+   "options": [
+    "45 days, so it is paying its suppliers well outside terms",
+    "30 days, so it is paying its suppliers within their terms",
+    "30 days, so it is collecting from its customers within terms",
+    "12.2 days, so it is paying its suppliers much too quickly"
+   ],
+   "correctIndex": 1,
+   "explanation": "Accounts payable turnover is $18,000 \u00f7 $219,000 \u00d7 365 = 30 days, the average time taken to pay suppliers, which matches the 30-day terms. It measures paying suppliers, not collecting from customers, which is the accounts receivable turnover.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0033",
+   "topicId": "acc-trading-inventory",
+   "stem": "Lyrebird Linen offers 30-day credit terms, but its accounts receivable turnover has risen from 34 days to 52 days. Which strategy would most directly improve this?",
+   "imageRef": null,
+   "options": [
+    "extending the time taken to pay suppliers to the full credit term allowed",
+    "raising selling prices so that each credit sale earns a larger gross profit",
+    "checking new customers' credit history and following up overdue accounts promptly",
+    "buying inventory in larger quantities to earn bulk discounts from suppliers"
+   ],
+   "correctIndex": 2,
+   "explanation": "A rising receivables turnover means customers are taking longer to pay, so tighter credit checks, prompt statements and follow-up of overdue accounts target the problem. Paying suppliers later affects accounts payable turnover, not how quickly customers pay.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0034",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running's inventory turnover has slowed from 40 days to 65 days while its suppliers deliver within a week. What is the most likely problem and a suitable strategy?",
+   "imageRef": null,
+   "options": [
+    "The business is paying suppliers too slowly; pay every supplier as soon as the invoice arrives.",
+    "Too much inventory is held or some lines are slow-selling; order smaller amounts more often and discount slow lines.",
+    "Inventory is selling too quickly and stock is running out; order larger amounts less often from suppliers.",
+    "Customers are paying more slowly; offer settlement discounts to customers for paying early."
+   ],
+   "correctIndex": 1,
+   "explanation": "Slower inventory turnover means goods sit on the shelves longer, raising holding costs and the risk of obsolescence, so smaller, more frequent orders and clearing slow lines help. Customer payments and supplier payments are measured by the receivables and payables turnovers, not inventory turnover.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0035",
+   "topicId": "acc-trading-inventory",
+   "stem": "A business's accounts payable turnover has risen from 28 to 48 days, against supplier terms of 30 days. Which consequence is most likely?",
+   "imageRef": null,
+   "options": [
+    "It may lose settlement discounts and damage its relationship with suppliers.",
+    "It will earn more discount revenue because it is holding its cash for longer.",
+    "Its inventory turnover will improve because suppliers will deliver faster.",
+    "Its accounts receivable turnover will fall because customers will pay faster."
+   ],
+   "correctIndex": 0,
+   "explanation": "Paying well outside terms forfeits any discounts for prompt payment and risks suppliers refusing credit or delivering less reliably. Discount revenue is earned by paying early, not late, and supplier payments do not change how fast customers pay.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0036",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which is non-financial information that would help the owner of Rosella Running assess how well inventory is managed?",
+   "imageRef": null,
+   "options": [
+    "the inventory turnover in days for this year compared with last year",
+    "the total value of inventory write-downs recorded during the year",
+    "the cost of goods sold as a percentage of net sales for the year",
+    "the number of customers turned away because a product was out of stock"
+   ],
+   "correctIndex": 3,
+   "explanation": "Lost customers due to stock-outs is information not expressed in dollars that shows whether enough of the right inventory is held. Inventory turnover, write-downs and cost of goods sold ratios are all financial information drawn from the accounting records.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0037",
+   "topicId": "acc-trading-inventory",
+   "stem": "Which non-financial information would best help Lyrebird Linen choose between two suppliers offering similar prices?",
+   "imageRef": null,
+   "options": [
+    "each supplier's record of on-time deliveries and faulty goods",
+    "each supplier's accounts payable turnover in the business's records",
+    "the GST charged on each supplier's invoices for the same goods",
+    "the gross profit the business earned on each supplier's goods"
+   ],
+   "correctIndex": 0,
+   "explanation": "Delivery reliability and the quality of goods are non-financial measures that directly affect stock-outs and returns. The other choices are financial figures, and GST is charged at the same rate by every registered supplier.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0038",
+   "topicId": "acc-trading-inventory",
+   "stem": "Rosella Running has a line of running watches that has not sold for a year and is becoming outdated. Which response is both financially sound and ethical?",
+   "imageRef": null,
+   "options": [
+    "Return the watches to the supplier and claim they arrived faulty a year ago.",
+    "Write the watches down to NRV and sell them at a clearly advertised discount.",
+    "Keep the watches at cost and describe them to customers as the latest model.",
+    "Throw the watches into general waste so that they no longer appear on the card."
+   ],
+   "correctIndex": 1,
+   "explanation": "Writing obsolete stock down to NRV reports it faithfully, and an honest clearance sale recovers some cash. Misleading customers or a supplier is dishonest, and dumping usable goods is environmentally wasteful and still needs to be recorded as a loss.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0039",
+   "topicId": "acc-trading-inventory",
+   "stem": "Lyrebird Linen is short of cash and considers paying a small local supplier 60 days late while paying a large national supplier on time. Which ethical consideration is most relevant?",
+   "imageRef": null,
+   "options": [
+    "Paying late is always acceptable because the business has a legal right to delay.",
+    "Paying the large supplier first is required by the going concern assumption.",
+    "Late payment only matters if it reduces the profit reported for the period.",
+    "Delaying payment shifts the cash problem onto a small business that may depend on it."
+   ],
+   "correctIndex": 3,
+   "explanation": "Paying a small supplier late can harm its own cash flow and survival, which is a social and ethical consideration as well as a breach of agreed credit terms. No accounting assumption decides which supplier is paid first, and paying late can be ethically wrong even when it does not change profit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "acc-trading-inventory-0040",
+   "topicId": "acc-trading-inventory",
+   "stem": "The perpetual inventory method means that:",
+   "imageRef": null,
+   "options": [
+    "inventory cards are updated with every purchase, sale and return as it occurs",
+    "inventory is only counted and valued once a year at the end of the period",
+    "inventory is recorded at selling price so that profit is always visible",
+    "inventory is never written down, because it is assumed to sell eventually"
+   ],
+   "correctIndex": 0,
+   "explanation": "Under the perpetual method the inventory records are kept up to date with each movement, so the balance of inventory and the cost of goods sold are always known. A physical count is still needed to check the records and reveal losses or gains.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-acc-trading-inventory-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "topicId": "spec-differential-equations",
+ "questions": [
+  {
+   "id": "spec-differential-equations-0001",
+   "topicId": "spec-differential-equations",
+   "stem": "Which function is a solution of the differential equation dy/dx = 3y?",
+   "imageRef": null,
+   "options": [
+    "y = 3e^x",
+    "y = e^(3x) + 1",
+    "y = 3x\u00b2/2",
+    "y = 5e^(3x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "For y = 5e^(3x), dy/dx = 15e^(3x) = 3y. For y = e^(3x) + 1, dy/dx = 3e^(3x), but 3y = 3e^(3x) + 3, so adding a constant breaks the equation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0002",
+   "topicId": "spec-differential-equations",
+   "stem": "The rate at which a population P increases is proportional to P. Which differential equation models this, with k > 0?",
+   "imageRef": null,
+   "options": [
+    "dP/dt = k/P",
+    "dP/dt = kP",
+    "dP/dt = k",
+    "dP/dt = kt"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u201cRate of increase\u201d is dP/dt, and \u201cproportional to P\u201d means it equals a constant times P. The equation dP/dt = k describes a population growing by the same amount each unit of time.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0003",
+   "topicId": "spec-differential-equations",
+   "stem": "In the logistic differential equation dP/dt = rP(1 \u2212 P/K), the constant K represents:",
+   "imageRef": null,
+   "options": [
+    "the population at which growth is fastest",
+    "the carrying capacity",
+    "the initial population",
+    "the growth rate"
+   ],
+   "correctIndex": 1,
+   "explanation": "As P approaches K, the factor 1 \u2212 P/K approaches 0 and growth stops, so K is the long-term limiting population. Growth is fastest at P = K/2, and r is the growth-rate constant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0004",
+   "topicId": "spec-differential-equations",
+   "stem": "In the slope field for dy/dx = x, the line segments:",
+   "imageRef": null,
+   "options": [
+    "have equal gradients along each horizontal line",
+    "are horizontal along the x-axis",
+    "have the same gradient everywhere",
+    "have equal gradients along each vertical line"
+   ],
+   "correctIndex": 3,
+   "explanation": "The gradient depends only on x, so it is the same at every point with the same x-coordinate. The segments are horizontal along the y-axis, where x = 0, not along the x-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0005",
+   "topicId": "spec-differential-equations",
+   "stem": "In Euler\u2019s method with step size h, the next estimate of y is:",
+   "imageRef": null,
+   "options": [
+    "the current y plus h times the gradient at the next point",
+    "the current y plus h times the gradient at the current point",
+    "the current y plus the gradient at the current point",
+    "the current y times h times the gradient at the current point"
+   ],
+   "correctIndex": 1,
+   "explanation": "Euler\u2019s method follows the tangent for a horizontal distance h, so the rise is h \u00d7 (gradient at the current point). The gradient at the next point is unknown until that point has been found.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0006",
+   "topicId": "spec-differential-equations",
+   "stem": "For dy/dx = 2x with y(1) = 3, one step of Euler\u2019s method with h = 0.5 estimates y(1.5) as:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "4.25",
+    "3.5",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The gradient at x = 1 is 2, so the estimate is 3 + 0.5 \u00d7 2 = 4. The exact value from y = x\u00b2 + 2 is 4.25; the difference is the error of following the tangent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0007",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = 1/(1 + x\u00b2) with y(0) = 1 is:",
+   "imageRef": null,
+   "options": [
+    "y = tan\u207b\u00b9(x) + \u03c0/4",
+    "y = tan\u207b\u00b9(x) + 1",
+    "y = tan\u207b\u00b9(x)",
+    "y = ln(1 + x\u00b2) + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiating gives y = tan\u207b\u00b9(x) + c, and y(0) = 1 gives c = 1. Leaving out the constant ignores the initial condition, and ln(1 + x\u00b2) is an anti-derivative of 2x/(1 + x\u00b2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0008",
+   "topicId": "spec-differential-equations",
+   "stem": "For dP/dt = 0.5P(1 \u2212 P/800) with P(0) = 100, as t \u2192 \u221e the population P approaches:",
+   "imageRef": null,
+   "options": [
+    "\u221e",
+    "100",
+    "800",
+    "400"
+   ],
+   "correctIndex": 2,
+   "explanation": "A logistic population starting between 0 and the carrying capacity rises towards that capacity, here 800. The value 400 is K/2, where growth is fastest, not the limit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0009",
+   "topicId": "spec-differential-equations",
+   "stem": "The function y = Ae^(kx) satisfies dy/dx = \u22122y and y(0) = 5. The values of A and k are:",
+   "imageRef": null,
+   "options": [
+    "A = 1/5, k = \u22122",
+    "A = 5, k = \u22122",
+    "A = \u22122, k = 5",
+    "A = 5, k = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = kAe^(kx) = ky, so k = \u22122, and y(0) = A = 5. A positive k would describe growth, not the decay given by \u22122y.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0010",
+   "topicId": "spec-differential-equations",
+   "stem": "A substance decomposes at a rate proportional to the square of the mass m present. Which equation models this, with k > 0?",
+   "imageRef": null,
+   "options": [
+    "dm/dt = \u22122km",
+    "dm/dt = \u2212k\u221am",
+    "dm/dt = \u2212km\u00b2",
+    "dm/dt = km\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mass is decreasing, so dm/dt is negative, and the rate is a constant times m\u00b2. The form \u22122km comes from differentiating m\u00b2 instead of writing it down.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0011",
+   "topicId": "spec-differential-equations",
+   "stem": "Halving the step size in Euler\u2019s method generally:",
+   "imageRef": null,
+   "options": [
+    "doubles the error in the estimate",
+    "makes the estimate exact",
+    "halves the number of steps needed",
+    "reduces the error in the estimate"
+   ],
+   "correctIndex": 3,
+   "explanation": "Smaller steps follow the curve more closely, so the error shrinks. The method is still an approximation, and reaching the same x with half the step size needs twice as many steps.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0012",
+   "topicId": "spec-differential-equations",
+   "stem": "Which differential equation is of the form dy/dx = f(x), so it can be solved by direct anti-differentiation?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = y\u00b2",
+    "dy/dx = xe^x",
+    "dy/dx = ye^x",
+    "dy/dx = xy"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = xe^x has a right side involving x only, so y is an anti-derivative of xe^x. The others involve y and need separation of variables.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0013",
+   "topicId": "spec-differential-equations",
+   "stem": "Which function is a solution of d\u00b2y/dx\u00b2 + 4y = 0?",
+   "imageRef": null,
+   "options": [
+    "y = sin(2x)",
+    "y = sin(4x)",
+    "y = e^(2x)",
+    "y = cos(x/2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For y = sin(2x), d\u00b2y/dx\u00b2 = \u22124sin(2x), so d\u00b2y/dx\u00b2 + 4y = 0. For sin(4x) the second derivative is \u221216sin(4x), and e^(2x) gives 4e^(2x) + 4e^(2x), which is not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0014",
+   "topicId": "spec-differential-equations",
+   "stem": "A cup of coffee cools at a rate proportional to the difference between its temperature T \u00b0C and the room temperature of 20 \u00b0C. With k > 0, the model is:",
+   "imageRef": null,
+   "options": [
+    "dT/dt = k(T \u2212 20)",
+    "dT/dt = \u2212k(20 \u2212 T)",
+    "dT/dt = \u2212k(T \u2212 20)",
+    "dT/dt = \u2212kT + 20"
+   ],
+   "correctIndex": 2,
+   "explanation": "While T > 20 the coffee cools, so dT/dt must be negative when T \u2212 20 is positive. Both k(T \u2212 20) and \u2212k(20 \u2212 T) are positive then, which would make the coffee heat up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0015",
+   "topicId": "spec-differential-equations",
+   "stem": "For dP/dt = 0.2P(1 \u2212 P/1000), the population grows fastest when P equals:",
+   "imageRef": null,
+   "options": [
+    "1000",
+    "200",
+    "100",
+    "500"
+   ],
+   "correctIndex": 3,
+   "explanation": "The rate 0.2P(1 \u2212 P/1000) is a quadratic in P with zeros at 0 and 1000, so it is greatest halfway, at P = 500. At P = 1000 growth has stopped.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0016",
+   "topicId": "spec-differential-equations",
+   "stem": "A slope field has horizontal segments along the x-axis, positive gradients above it, negative below, and equal gradients along each horizontal line. It could be for:",
+   "imageRef": null,
+   "options": [
+    "dy/dx = xy",
+    "dy/dx = y",
+    "dy/dx = x",
+    "dy/dx = \u2212y"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equal gradients along horizontal lines mean the gradient depends on y only, and its sign matches y. For dy/dx = xy the gradient changes along a horizontal line and is also zero on the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0017",
+   "topicId": "spec-differential-equations",
+   "stem": "For dy/dx = x + y with y(0) = 1, Euler\u2019s method with step size 0.1 estimates y(0.2) as:",
+   "imageRef": null,
+   "options": [
+    "1.11",
+    "1.22",
+    "1.2",
+    "1.24"
+   ],
+   "correctIndex": 1,
+   "explanation": "Step 1: y = 1 + 0.1 \u00d7 (0 + 1) = 1.1. Step 2: y = 1.1 + 0.1 \u00d7 (0.1 + 1.1) = 1.22. Reusing the first gradient gives 1.2, and using the gradient at the next point gives 1.24.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0018",
+   "topicId": "spec-differential-equations",
+   "stem": "Euler\u2019s method is applied along a solution curve that is concave up throughout. The estimates are:",
+   "imageRef": null,
+   "options": [
+    "exact values",
+    "alternately too high and too low",
+    "underestimates",
+    "overestimates"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each step follows a tangent, and the tangents to a concave up curve lie below it, so the estimates fall below the true values. For a concave down curve they would be overestimates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0019",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = y\u00b2 with y(0) = 1 is:",
+   "imageRef": null,
+   "options": [
+    "y = 1 \u2212 x",
+    "y = x\u00b3/3 + 1",
+    "y = 1/(1 \u2212 x)",
+    "y = 1/(1 + x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating: the integral of y\u207b\u00b2 dy equals the integral of dx, so \u22121/y = x + c, and y(0) = 1 gives c = \u22121. Then y = 1/(1 \u2212 x). The answer x\u00b3/3 + 1 anti-differentiates y\u00b2 as if it were x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0020",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = e^(\u2212y) with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = ln(x + 1)",
+    "y = \u2212ln(x + 1)",
+    "y = ln(x) + 1",
+    "y = e^(\u2212x) \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating gives the integral of e^y dy = the integral of dx, so e^y = x + c, and y(0) = 0 gives c = 1. Then y = ln(x + 1). Checking: dy/dx = 1/(x + 1) = e^(\u2212y).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0021",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = xy with y(0) = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(x\u00b2/2) + 1",
+    "y = 2e^(x\u00b2)",
+    "y = 2 + x\u00b2/2",
+    "y = 2e^(x\u00b2/2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating: ln(y) = x\u00b2/2 + c, so y = Ae^(x\u00b2/2), and y(0) = 2 gives A = 2. The constant of integration becomes a multiplying factor; adding 1 after exponentiating does not satisfy the equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0022",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of d\u00b2y/dx\u00b2 = cos(x) with y(0) = 0 and dy/dx = 0 at x = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = cos(x) \u2212 1",
+    "y = x \u2212 cos(x)",
+    "y = 1 \u2212 cos(x)",
+    "y = \u2212cos(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Anti-differentiating once: dy/dx = sin(x) + c, and the condition gives c = 0. Again: y = \u2212cos(x) + d, and y(0) = 0 gives d = 1. The function \u2212cos(x) fails y(0) = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0023",
+   "topicId": "spec-differential-equations",
+   "stem": "A 100 L tank holds water with 10 kg of dissolved salt. Pure water flows in at 5 L/min and the mixture flows out at 5 L/min. If Q kg is the salt in the tank, then:",
+   "imageRef": null,
+   "options": [
+    "dQ/dt = 5 \u2212 Q/20",
+    "dQ/dt = \u2212Q/20",
+    "dQ/dt = \u22125Q",
+    "dQ/dt = \u2212Q/(100 + 5t)"
+   ],
+   "correctIndex": 1,
+   "explanation": "No salt comes in. The volume stays 100 L, so the concentration is Q/100 kg/L and salt leaves at 5 \u00d7 Q/100 = Q/20 kg/min. The volume changes only when the in and out rates differ.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0024",
+   "topicId": "spec-differential-equations",
+   "stem": "A rumour spreads through a school of 1200 students at a rate proportional to both the number N who have heard it and the number who have not. With k > 0:",
+   "imageRef": null,
+   "options": [
+    "dN/dt = kN + (1200 \u2212 N)",
+    "dN/dt = kN(1200 \u2212 N)",
+    "dN/dt = kN",
+    "dN/dt = k(1200 \u2212 N)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Proportional to both quantities means proportional to their product, N(1200 \u2212 N), which is a logistic model with carrying capacity 1200. A sum is not a proportionality.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0025",
+   "topicId": "spec-differential-equations",
+   "stem": "The constant solutions of dy/dx = y(y \u2212 3) are:",
+   "imageRef": null,
+   "options": [
+    "y = 3 only",
+    "x = 0 and x = 3",
+    "y = 0 and y = \u22123",
+    "y = 0 and y = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A constant solution has dy/dx = 0 for all x, so y(y \u2212 3) = 0, giving y = 0 or y = 3. These are horizontal lines, so writing them as x = 0 and x = 3 confuses the variables.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0026",
+   "topicId": "spec-differential-equations",
+   "stem": "Which function is a solution of dP/dt = P(1 \u2212 P/100)?",
+   "imageRef": null,
+   "options": [
+    "P = 100/(1 + 9e^(\u2212t))",
+    "P = 100/(1 + 9e^t)",
+    "P = 100e^(\u2212t)",
+    "P = 100(1 \u2212 e^(\u2212t))"
+   ],
+   "correctIndex": 0,
+   "explanation": "The logistic solution is P = K/(1 + Ae^(\u2212rt)) with K = 100 and r = 1. With e^t in place of e^(\u2212t), the function decreases towards 0 and solves dP/dt = \u2212P(1 \u2212 P/100) instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0027",
+   "topicId": "spec-differential-equations",
+   "stem": "In the slope field for dy/dx = x/y, the segments at (2, 1) and (\u22122, \u22121) have gradients:",
+   "imageRef": null,
+   "options": [
+    "2 and 2",
+    "2 and \u22122",
+    "1/2 and 1/2",
+    "1/2 and \u22121/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "At (2, 1) the gradient is 2/1 = 2, and at (\u22122, \u22121) it is \u22122/\u22121 = 2. Dividing y by x gives 1/2, the reciprocal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0028",
+   "topicId": "spec-differential-equations",
+   "stem": "In the slope field for dy/dx = x \u2212 y, the segments are horizontal along:",
+   "imageRef": null,
+   "options": [
+    "the line y = \u2212x",
+    "the x-axis",
+    "the y-axis",
+    "the line y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Segments are horizontal where the gradient is zero, which is where x \u2212 y = 0, the line y = x. On the x-axis the gradient is x, which is zero only at the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0029",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = 1 + y\u00b2 with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = x + x\u00b3/3",
+    "y = tan\u207b\u00b9(x)",
+    "y = sin(x)",
+    "y = tan(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating: the integral of 1/(1 + y\u00b2) dy equals the integral of dx, so tan\u207b\u00b9(y) = x + c, with c = 0. Then y = tan(x). The answer tan\u207b\u00b9(x) solves dy/dx = 1/(1 + x\u00b2) instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0030",
+   "topicId": "spec-differential-equations",
+   "stem": "An investment earns interest continuously at 4% per year of its current value A, and $1500 per year is withdrawn continuously. The model is:",
+   "imageRef": null,
+   "options": [
+    "dA/dt = 0.04(A \u2212 1500)",
+    "dA/dt = 1.04A \u2212 1500",
+    "dA/dt = 0.04A \u2212 1500t",
+    "dA/dt = 0.04A \u2212 1500"
+   ],
+   "correctIndex": 3,
+   "explanation": "The rate of change is the interest rate 0.04A minus the withdrawal rate of 1500 per year. The factor 1.04 belongs to a discrete yearly model, and 1500t is the total withdrawn, not a rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0031",
+   "topicId": "spec-differential-equations",
+   "stem": "A radioactive mass satisfies dm/dt = \u22120.1m, with t in years. Its half-life is:",
+   "imageRef": null,
+   "options": [
+    "10 ln(2) years",
+    "(ln 2)/10 years",
+    "5 years",
+    "20 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "The solution is m = m\u2080e^(\u22120.1t). Setting e^(\u22120.1t) = 1/2 gives 0.1t = ln 2, so t = 10 ln 2 \u2248 6.9 years. Dividing ln 2 by 10 instead of by 0.1 gives the wrong answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0032",
+   "topicId": "spec-differential-equations",
+   "stem": "The solution of dy/dx = (x + 1)/y with y(0) = 2, y > 0, is:",
+   "imageRef": null,
+   "options": [
+    "y = \u221a(x\u00b2 + 2x) + 2",
+    "y = (x\u00b2 + 2x + 4)/2",
+    "y = \u221a(x\u00b2 + x + 4)",
+    "y = \u221a(x\u00b2 + 2x + 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating: y\u00b2/2 = x\u00b2/2 + x + c, and y(0) = 2 gives c = 2, so y\u00b2 = x\u00b2 + 2x + 4. The constant must be found before taking the square root; adding 2 afterwards does not satisfy the equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0033",
+   "topicId": "spec-differential-equations",
+   "stem": "A tank holds 100 L of water. Brine with 0.2 kg of salt per litre flows in at 3 L/min, and the mixture flows out at 2 L/min. If Q kg is the salt in the tank:",
+   "imageRef": null,
+   "options": [
+    "dQ/dt = 0.6 \u2212 2Q/100",
+    "dQ/dt = 0.6 \u2212 3Q/(100 + t)",
+    "dQ/dt = 0.2 \u2212 2Q/(100 + t)",
+    "dQ/dt = 0.6 \u2212 2Q/(100 + t)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Salt enters at 0.2 \u00d7 3 = 0.6 kg/min. The volume grows by 1 L/min, so it is 100 + t, and salt leaves at 2 \u00d7 Q/(100 + t). Using 100 forgets that the volume changes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0034",
+   "topicId": "spec-differential-equations",
+   "stem": "Coffee at 90 \u00b0C cools in a 20 \u00b0C room according to dT/dt = \u2212k(T \u2212 20). After 10 minutes it is at 55 \u00b0C. What is k?",
+   "imageRef": null,
+   "options": [
+    "(ln 2)/10",
+    "10 ln(2)",
+    "(ln 2)/35",
+    "(1/10)ln(90/55)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The solution is T = 20 + 70e^(\u2212kt). Then 70e^(\u221210k) = 35, so e^(\u221210k) = 1/2 and k = (ln 2)/10. The answer (1/10)ln(90/55) ignores the room temperature and treats T itself as decaying.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0035",
+   "topicId": "spec-differential-equations",
+   "stem": "An account earns interest continuously at 5% per year, and $2000 per year is withdrawn continuously. For which balance does the balance stay constant?",
+   "imageRef": null,
+   "options": [
+    "$100",
+    "$2000",
+    "$4000",
+    "$40 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "The model is dA/dt = 0.05A \u2212 2000, which is zero when A = 2000/0.05 = 40 000. Below this the balance falls, and above it the balance grows. Multiplying 2000 by 0.05 gives $100, and writing 5% as 0.5 gives $4000.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0036",
+   "topicId": "spec-differential-equations",
+   "stem": "For dy/dx = cos(x) with y(0) = 0, Euler\u2019s method with step size \u03c0/4 estimates y(\u03c0/2) as:",
+   "imageRef": null,
+   "options": [
+    "\u03c0(2 + \u221a2)/8",
+    "\u03c0/2",
+    "1",
+    "\u03c0\u221a2/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Step 1: y = 0 + (\u03c0/4)cos(0) = \u03c0/4. Step 2: y = \u03c0/4 + (\u03c0/4)cos(\u03c0/4) = \u03c0/4 + \u03c0\u221a2/8 = \u03c0(2 + \u221a2)/8 \u2248 1.34. The exact value is sin(\u03c0/2) = 1, so the estimate is too high.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0037",
+   "topicId": "spec-differential-equations",
+   "stem": "The function y = xe^x is a solution of which differential equation?",
+   "imageRef": null,
+   "options": [
+    "d\u00b2y/dx\u00b2 \u2212 2dy/dx + y = 0",
+    "d\u00b2y/dx\u00b2 + 2dy/dx + y = 0",
+    "d\u00b2y/dx\u00b2 \u2212 y = 0",
+    "dy/dx \u2212 y = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = (x + 1)e^x and d\u00b2y/dx\u00b2 = (x + 2)e^x. Then (x + 2) \u2212 2(x + 1) + x = 0, so the first equation holds. For dy/dx \u2212 y the result is e^x, not 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0038",
+   "topicId": "spec-differential-equations",
+   "stem": "A solution curve of dy/dx = \u2212x/y passes through (3, 4). The curve is part of:",
+   "imageRef": null,
+   "options": [
+    "the circle x\u00b2 + y\u00b2 = 7",
+    "the circle x\u00b2 + y\u00b2 = 25",
+    "the line y = \u22123x/4 + 25/4",
+    "the hyperbola y\u00b2 \u2212 x\u00b2 = 7"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating: the integral of y dy = \u2212(integral of x dx), so x\u00b2 + y\u00b2 = c, and (3, 4) gives c = 25. The line is only the tangent at (3, 4), and y\u00b2 \u2212 x\u00b2 = 7 solves dy/dx = x/y.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0039",
+   "topicId": "spec-differential-equations",
+   "stem": "For dP/dt = 0.4P(1 \u2212 P/K), the greatest rate of growth is 20 per year. What is K?",
+   "imageRef": null,
+   "options": [
+    "200",
+    "100",
+    "50",
+    "400"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rate is greatest at P = K/2, where it equals 0.4 \u00d7 (K/2) \u00d7 (1/2) = 0.1K. Setting 0.1K = 20 gives K = 200. Taking P = K/2 as the answer gives 100.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0040",
+   "topicId": "spec-differential-equations",
+   "stem": "For dy/dx = y(3 \u2212 y), what happens to the solution with y(0) = 4 as x increases?",
+   "imageRef": null,
+   "options": [
+    "It increases towards 3",
+    "It decreases towards 3",
+    "It increases without bound",
+    "It decreases towards 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "At y = 4, dy/dx = 4 \u00d7 (\u22121) = \u22124 < 0, so y decreases. It cannot cross the constant solution y = 3, so it approaches 3 from above. A solution starting at 4 cannot increase towards 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0041",
+   "topicId": "spec-differential-equations",
+   "stem": "A population is modelled by P = 1000/(1 + 9e^(\u22120.5t)), t in years. When does the population reach 500?",
+   "imageRef": null,
+   "options": [
+    "t = 4 ln(9)",
+    "t = 4 ln(3)",
+    "t = ln(3)",
+    "t = 2 ln(3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "P = 500 when 1 + 9e^(\u22120.5t) = 2, so e^(\u22120.5t) = 1/9 and 0.5t = ln 9 = 2 ln 3, giving t = 4 ln 3 \u2248 4.4. Forgetting to divide by 0.5 gives 2 ln 3. This is the time of fastest growth, since 500 = K/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-differential-equations-0042",
+   "topicId": "spec-differential-equations",
+   "stem": "For which values of k is y = e^(kx) a solution of d\u00b2y/dx\u00b2 \u2212 dy/dx \u2212 6y = 0?",
+   "imageRef": null,
+   "options": [
+    "k = 6 or k = \u22121",
+    "k = 3 only",
+    "k = 3 or k = \u22122",
+    "k = \u22123 or k = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substituting gives (k\u00b2 \u2212 k \u2212 6)e^(kx) = 0, and e^(kx) is never zero, so (k \u2212 3)(k + 2) = 0. Both roots work. Swapping the signs of the factors gives \u22123 and 2, which do not satisfy the equation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-differential-equations-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

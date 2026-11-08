@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-counting-probability",
+ "questions": [
+  {
+   "id": "meth-counting-probability-0001",
+   "topicId": "meth-counting-probability",
+   "stem": "What is the sample space of a random experiment?",
+   "imageRef": null,
+   "options": [
+    "The results recorded in a simulation",
+    "The single most likely outcome",
+    "The set of all possible outcomes",
+    "The outcomes that count as a success"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sample space lists every outcome that could occur, and every event is a subset of it. Recorded results are a sample drawn from it, not the sample space itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0002",
+   "topicId": "meth-counting-probability",
+   "stem": "A coin is tossed and a six-sided die is rolled. How many outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "12",
+    "8",
+    "36"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each of the 2 coin results can pair with each of the 6 die results, giving 2 \u00d7 6 = 12 outcomes. Adding instead gives 8, which undercounts the pairs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0003",
+   "topicId": "meth-counting-probability",
+   "stem": "A random variable is best described as:",
+   "imageRef": null,
+   "options": [
+    "the number of times a random experiment is repeated",
+    "the probability that a random event will occur",
+    "a rule giving a number to each outcome of a random experiment",
+    "a variable whose value is chosen by the experimenter"
+   ],
+   "correctIndex": 2,
+   "explanation": "For two coin tosses, X = the number of heads gives HH the value 2, HT and TH the value 1, and TT the value 0. A random variable is a number attached to outcomes, not a probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0004",
+   "topicId": "meth-counting-probability",
+   "stem": "The outcomes of an experiment are a, b, c and d, with probabilities 0.1, 0.3, 0.4 and p. What is the value of p?",
+   "imageRef": null,
+   "options": [
+    "0.2",
+    "0.8",
+    "0.25",
+    "0.3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The probabilities over a sample space must add to 1, so p = 1 \u2212 (0.1 + 0.3 + 0.4) = 0.2. The value 0.25 assumes all four outcomes are equally likely.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0005",
+   "topicId": "meth-counting-probability",
+   "stem": "Which list could be the probabilities of the three outcomes of an experiment?",
+   "imageRef": null,
+   "options": [
+    "0.6, 0.5, \u22120.1",
+    "0.4, 0.4, 0.4",
+    "0.25, 0.25, 0.25",
+    "0.5, 0.3, 0.2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Probabilities must be non-negative and must add to 1. The list 0.6, 0.5, \u22120.1 adds to 1 but contains a negative value, and the other two lists add to 1.2 and 0.75.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0006",
+   "topicId": "meth-counting-probability",
+   "stem": "A fair die is rolled. Which event is a compound event?",
+   "imageRef": null,
+   "options": [
+    "Rolling an even number",
+    "Rolling a number greater than 5",
+    "Rolling a 4",
+    "Rolling a 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "A compound event contains more than one outcome; rolling an even number is 2, 4 or 6. Rolling a number greater than 5 sounds broader but contains only the outcome 6, so it is elementary.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0007",
+   "topicId": "meth-counting-probability",
+   "stem": "Pr(A) = 0.35. What is Pr(A\u2032), the probability that A does not occur?",
+   "imageRef": null,
+   "options": [
+    "1.35",
+    "0.5",
+    "0.65",
+    "0.35"
+   ],
+   "correctIndex": 2,
+   "explanation": "A and its complement A\u2032 together make up the whole sample space, so Pr(A\u2032) = 1 \u2212 0.35 = 0.65. A value of 1.35 adds instead of subtracting, and no probability can exceed 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0008",
+   "topicId": "meth-counting-probability",
+   "stem": "Two coins are tossed and X is the number of heads. What is Pr(X = 1)?",
+   "imageRef": null,
+   "options": [
+    "2/3",
+    "1/2",
+    "1/3",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The four equally likely outcomes are HH, HT, TH and TT, and two of them have exactly one head, so Pr(X = 1) = 2/4 = 1/2. The value 1/3 treats the three values 0, 1 and 2 as equally likely, which they are not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0009",
+   "topicId": "meth-counting-probability",
+   "stem": "Two fair dice are rolled. What is the probability that the sum is 7?",
+   "imageRef": null,
+   "options": [
+    "1/11",
+    "1/6",
+    "7/36",
+    "1/12"
+   ],
+   "correctIndex": 1,
+   "explanation": "A 6 \u00d7 6 grid has 36 equally likely outcomes, and six of them sum to 7: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1). The answer 1/11 treats the eleven possible sums as equally likely.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0010",
+   "topicId": "meth-counting-probability",
+   "stem": "Two fair dice are rolled. What is the probability that the product of the numbers is even?",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "1/2",
+    "1/4",
+    "2/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The product is odd only when both numbers are odd, with probability 3/6 \u00d7 3/6 = 1/4, so Pr(even) = 1 \u2212 1/4 = 3/4. The answer 1/4 is the probability of an odd product.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0011",
+   "topicId": "meth-counting-probability",
+   "stem": "Two fair dice are rolled. What is the probability that the two numbers differ by 2?",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "2/9",
+    "1/9",
+    "1/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The pairs are (1, 3), (2, 4), (3, 5), (4, 6) and the same four reversed, giving 8 of the 36 outcomes, so 8/36 = 2/9. Counting each pair only once gives 1/9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0012",
+   "topicId": "meth-counting-probability",
+   "stem": "The larger of the two numbers shown on two fair dice is recorded. What is the probability that it is 2?",
+   "imageRef": null,
+   "options": [
+    "1/18",
+    "1/6",
+    "1/12",
+    "1/36"
+   ],
+   "correctIndex": 2,
+   "explanation": "The outcomes with largest number 2 are (1, 2), (2, 1) and (2, 2), which is 3 of 36, or 1/12. Leaving out (2, 2) gives 2/36 = 1/18.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0013",
+   "topicId": "meth-counting-probability",
+   "stem": "Spinner A shows 1, 2 or 3 and spinner B shows 1 or 2, each with equally likely outcomes. Both are spun. What is the probability that the sum is 3?",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "1/6",
+    "1/4",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 3 \u00d7 2 = 6 outcomes are equally likely, and two of them, (1, 2) and (2, 1), sum to 3, giving 2/6 = 1/3. The answer 1/4 treats the four possible sums 2 to 5 as equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0014",
+   "topicId": "meth-counting-probability",
+   "stem": "In a class of 30, 18 students play sport, 12 play music and 5 do both. How many students do neither?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "0",
+    "10",
+    "25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Students in at least one group: 18 + 12 \u2212 5 = 25, because the 5 in both were counted twice. So 30 \u2212 25 = 5 do neither. Forgetting the overlap gives 30 in at least one group and 0 left over.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0015",
+   "topicId": "meth-counting-probability",
+   "stem": "In a group of 40, 25 like tea, 20 like coffee and 8 like neither. One person is chosen at random. What is the probability they like both?",
+   "imageRef": null,
+   "options": [
+    "13/40",
+    "1/5",
+    "5/8",
+    "3/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "32 people like at least one, so the overlap is 25 + 20 \u2212 32 = 13 and the probability is 13/40. The value 1/5 is 8/40, the probability of liking neither.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0016",
+   "topicId": "meth-counting-probability",
+   "stem": "A fair coin is tossed three times. What is the probability of at least one head?",
+   "imageRef": null,
+   "options": [
+    "1/8",
+    "1/2",
+    "7/8",
+    "3/8"
+   ],
+   "correctIndex": 2,
+   "explanation": "The only outcome with no head is TTT, with probability 1/8, so Pr(at least one head) = 1 \u2212 1/8 = 7/8. The value 3/8 is the probability of exactly one head.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0017",
+   "topicId": "meth-counting-probability",
+   "stem": "A fair die is rolled four times. What is the probability of at least one six?",
+   "imageRef": null,
+   "options": [
+    "625/1296",
+    "671/1296",
+    "2/3",
+    "1/1296"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(no six in four rolls) = (5/6)\u2074 = 625/1296, so Pr(at least one six) = 1 \u2212 625/1296 = 671/1296, about 0.52. Adding 1/6 four times to get 2/3 counts outcomes with several sixes more than once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0018",
+   "topicId": "meth-counting-probability",
+   "stem": "A spinner is spun 200 times and lands on red 46 times. What is the estimate of Pr(red) from these results?",
+   "imageRef": null,
+   "options": [
+    "0.77",
+    "0.23",
+    "0.46",
+    "0.25"
+   ],
+   "correctIndex": 1,
+   "explanation": "The relative frequency is 46/200 = 0.23. The value 0.46 divides by 100 instead of 200, and 0.77 is the estimate for not red.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0019",
+   "topicId": "meth-counting-probability",
+   "stem": "A fair die is rolled 60 times. How many fives would you expect?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "12",
+    "6",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expected number = number of trials \u00d7 probability = 60 \u00d7 1/6 = 10. The actual count will vary from one set of 60 rolls to another.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0020",
+   "topicId": "meth-counting-probability",
+   "stem": "A random number generator gives the digits 0 to 9 with equal probability. Which rule simulates an event with probability 0.3?",
+   "imageRef": null,
+   "options": [
+    "The digits 0, 1, 2 and 3 represent the event",
+    "The digit 3 alone represents the event",
+    "The digits 3 and 0 represent the event",
+    "The digits 0, 1 and 2 represent the event"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each digit has probability 0.1, so three digits give 0.3. Using 0 to 3 is four digits, which is 0.4, a common counting slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0021",
+   "topicId": "meth-counting-probability",
+   "stem": "Two students each toss a fair coin 20 times. One gets 13 heads and the other gets 8. What is the best conclusion?",
+   "imageRef": null,
+   "options": [
+    "Results vary between samples, and both fit a fair coin",
+    "The first coin must be biased towards heads",
+    "The second coin must be biased towards tails",
+    "At least one student tossed the coin incorrectly"
+   ],
+   "correctIndex": 0,
+   "explanation": "With only 20 tosses, counts some way from 10 are common for a fair coin, so neither result is evidence of bias. Variation between samples is expected and shrinks, as a proportion, in larger samples.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0022",
+   "topicId": "meth-counting-probability",
+   "stem": "As the number of trials in a simulation increases, the proportion of successes:",
+   "imageRef": null,
+   "options": [
+    "alternates evenly between successes and failures",
+    "tends to settle closer to the true probability",
+    "always equals the true probability after 100 trials",
+    "becomes more and more variable from trial to trial"
+   ],
+   "correctIndex": 1,
+   "explanation": "Larger samples give relative frequencies that are less variable and cluster around the true probability. No number of trials guarantees an exact match.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0023",
+   "topicId": "meth-counting-probability",
+   "stem": "A caf\u00e9 offers 4 mains and 3 desserts. How many different meals of one main and one dessert are there?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "24",
+    "64",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the multiplication principle, each of the 4 mains can go with each of the 3 desserts: 4 \u00d7 3 = 12. Adding to get 7 counts the choice of a single dish, not a pair.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0024",
+   "topicId": "meth-counting-probability",
+   "stem": "A student chooses one elective, either from 5 arts subjects or from 4 technology subjects. How many choices are there?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "18",
+    "4",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The choices are alternatives that do not overlap, so by the addition principle there are 5 + 4 = 9. Multiplying to get 20 would count choosing one of each.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0025",
+   "topicId": "meth-counting-probability",
+   "stem": "In how many ways can 5 people line up in a row?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "120",
+    "25",
+    "3125"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 5 choices for the first place, 4 for the second, and so on: 5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120. The answer 3125 = 5\u2075 allows the same person to stand in more than one place.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0026",
+   "topicId": "meth-counting-probability",
+   "stem": "How many 4-digit numbers can be formed from the digits 1 to 6 if no digit is repeated?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "24",
+    "360",
+    "1296"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are 6 choices for the first digit, then 5, 4 and 3: 6 \u00d7 5 \u00d7 4 \u00d7 3 = 360. The answer 1296 = 6\u2074 allows repeated digits, and 15 counts selections without order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0027",
+   "topicId": "meth-counting-probability",
+   "stem": "A number plate has 3 letters followed by 3 digits, and repetition is allowed. How many plates are possible?",
+   "imageRef": null,
+   "options": [
+    "17 576 000",
+    "11 232 000",
+    "78 000",
+    "46 656"
+   ],
+   "correctIndex": 0,
+   "explanation": "With repetition, each letter has 26 choices and each digit has 10: 26\u00b3 \u00d7 10\u00b3 = 17 576 \u00d7 1000 = 17 576 000. The figure 11 232 000 is 26 \u00d7 25 \u00d7 24 \u00d7 10 \u00d7 9 \u00d7 8, the count with no repetition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0028",
+   "topicId": "meth-counting-probability",
+   "stem": "How many 3-digit even numbers can be made from the digits 1, 2, 3, 4 and 5 if no digit is repeated?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "24",
+    "60",
+    "30"
+   ],
+   "correctIndex": 1,
+   "explanation": "Fill the restricted place first: the last digit must be 2 or 4 (2 ways), then the first digit has 4 choices and the middle has 3. So 2 \u00d7 4 \u00d7 3 = 24. The answer 60 ignores the even condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0029",
+   "topicId": "meth-counting-probability",
+   "stem": "Four people, including Ana and Ben, sit in a row in random order. What is the probability that Ana and Ben sit next to each other?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/2",
+    "1/4",
+    "1/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 4! = 24 orders in all. Treat Ana and Ben as one block: 3! = 6 orders of the block and the others, times 2 for the order within the block, gives 12. So 12/24 = 1/2. Forgetting the factor of 2 gives 1/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0030",
+   "topicId": "meth-counting-probability",
+   "stem": "In counting, what is a combination?",
+   "imageRef": null,
+   "options": [
+    "A selection in which order does not matter",
+    "An arrangement in which order matters",
+    "A selection in which items may be repeated",
+    "A list of every outcome of an experiment"
+   ],
+   "correctIndex": 0,
+   "explanation": "A combination counts which items are chosen, so choosing A then B is the same selection as B then A. When order matters the count is of arrangements, which is larger.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0031",
+   "topicId": "meth-counting-probability",
+   "stem": "Evaluate \u2075C\u2082.",
+   "imageRef": null,
+   "options": [
+    "5",
+    "25",
+    "10",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2075C\u2082 = 5!/(2! \u00d7 3!) = (5 \u00d7 4)/2 = 10. The value 20 = 5 \u00d7 4 counts ordered pairs, so it counts each selection twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0032",
+   "topicId": "meth-counting-probability",
+   "stem": "In how many ways can a committee of 3 be chosen from 8 people?",
+   "imageRef": null,
+   "options": [
+    "56",
+    "336",
+    "24",
+    "512"
+   ],
+   "correctIndex": 0,
+   "explanation": "The order of choosing does not matter, so the count is \u2078C\u2083 = (8 \u00d7 7 \u00d7 6)/(3 \u00d7 2 \u00d7 1) = 56. The value 336 = 8 \u00d7 7 \u00d7 6 counts ordered choices and has not been divided by 3! = 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0033",
+   "topicId": "meth-counting-probability",
+   "stem": "Ten people meet and each pair shakes hands once. How many handshakes are there?",
+   "imageRef": null,
+   "options": [
+    "90",
+    "100",
+    "20",
+    "45"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each handshake is a selection of 2 people, so the count is \u00b9\u2070C\u2082 = (10 \u00d7 9)/2 = 45. The value 90 = 10 \u00d7 9 counts every handshake twice, once from each person.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0034",
+   "topicId": "meth-counting-probability",
+   "stem": "Why is \u00b9\u2070C\u2083 equal to \u00b9\u2070C\u2087?",
+   "imageRef": null,
+   "options": [
+    "Order does not matter, so 3 and 7 swap freely",
+    "Every number in Pascal\u2019s triangle appears twice",
+    "Choosing 3 items to take leaves 7 items behind",
+    "Both are equal to 10 \u00d7 3 \u00d7 7 divided by 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each selection of 3 items to include matches exactly one selection of 7 to leave out, so the counts are equal; in general, choosing r from n matches choosing n \u2212 r. The symmetry of Pascal's triangle is a consequence of this fact, not its reason, and not every number in it appears exactly twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0035",
+   "topicId": "meth-counting-probability",
+   "stem": "Which expression is equal to \u2076C\u2082?",
+   "imageRef": null,
+   "options": [
+    "\u2076C\u2081 + \u2076C\u2083",
+    "\u2075C\u2081 + \u2075C\u2082",
+    "\u2075C\u2082 + \u2075C\u2083",
+    "\u2075C\u2081 \u00d7 \u2075C\u2082"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pascal's rule gives \u2076C\u2082 = \u2075C\u2081 + \u2075C\u2082 = 5 + 10 = 15: each pair from 6 items either includes a particular item (5 ways) or does not (10 ways). The sum \u2075C\u2082 + \u2075C\u2083 is 20, which is \u2076C\u2083.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0036",
+   "topicId": "meth-counting-probability",
+   "stem": "A lottery draws 3 different numbers from 1 to 10, and order does not matter. What is the probability that one ticket matches all three?",
+   "imageRef": null,
+   "options": [
+    "1/120",
+    "1/720",
+    "3/10",
+    "1/1000"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are \u00b9\u2070C\u2083 = 120 equally likely selections, and one ticket matches exactly one of them. The value 1/720 counts ordered draws, which would only apply if the order had to match.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0037",
+   "topicId": "meth-counting-probability",
+   "stem": "A team of 3 is chosen from 4 Year 11 and 5 Year 12 students. How many teams have exactly 2 Year 12 students?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "84",
+    "14",
+    "20"
+   ],
+   "correctIndex": 0,
+   "explanation": "Choose the two Year 12 students in \u2075C\u2082 = 10 ways and the one Year 11 student in \u2074C\u2081 = 4 ways, then multiply: 10 \u00d7 4 = 40. Adding to get 14 treats the two choices as alternatives, and 84 = \u2079C\u2083 ignores the condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0038",
+   "topicId": "meth-counting-probability",
+   "stem": "From 6 boys and 4 girls, a group of 3 is chosen. How many groups contain at least one girl?",
+   "imageRef": null,
+   "options": [
+    "84",
+    "100",
+    "144",
+    "20"
+   ],
+   "correctIndex": 1,
+   "explanation": "Count the complement: all groups \u00b9\u2070C\u2083 = 120, minus the all-boy groups \u2076C\u2083 = 20, gives 100. Choosing one girl first and then any 2 of the other 9 gives 4 \u00d7 36 = 144, which counts groups with two or more girls more than once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0039",
+   "topicId": "meth-counting-probability",
+   "stem": "Two cards are drawn at random, without replacement, from a standard 52-card pack. What is the probability that both are hearts?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "1/17",
+    "1/16",
+    "4/17"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr = \u00b9\u00b3C\u2082/\u2075\u00b2C\u2082 = 78/1326 = 1/17. The value 1/16 = 1/4 \u00d7 1/4 treats the draws as independent, as if the first card were replaced, and 4/17 = 12/51 is the chance the second card is a heart given the first one was.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-counting-probability-0040",
+   "topicId": "meth-counting-probability",
+   "stem": "A pizza can have any selection of 5 available toppings, including no toppings. How many different pizzas are possible?",
+   "imageRef": null,
+   "options": [
+    "32",
+    "31",
+    "120",
+    "25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each topping is either on or off, so by the multiplication principle there are 2\u2075 = 32 selections; equivalently \u2075C\u2080 + \u2075C\u2081 + \u2026 + \u2075C\u2085 = 32. The answer 31 leaves out the plain pizza, which the question includes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-counting-probability-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

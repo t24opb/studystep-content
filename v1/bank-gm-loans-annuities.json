@@ -1,0 +1,784 @@
+{
+ "topicId": "gm-loans-annuities",
+ "questions": [
+  {
+   "id": "gm-loans-annuities-0001",
+   "topicId": "gm-loans-annuities",
+   "stem": "A reducing balance loan with interest rate factor R and a regular repayment d is modelled by:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = R \u00d7 V(n) \u2212 d",
+    "V(n + 1) = R \u00d7 V(n) + d",
+    "V(n + 1) = V(n) \u2212 d",
+    "V(n + 1) = R \u00d7 (V(n) + d)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each period interest is added (multiply by R) and then the repayment is subtracted. Adding d instead models an annuity investment, where money is deposited.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0002",
+   "topicId": "gm-loans-annuities",
+   "stem": "An annuity investment, where an initial amount earns compound interest and a regular deposit d is added each period, is modelled by:",
+   "imageRef": null,
+   "options": [
+    "V(n + 1) = R \u00d7 V(n) + d",
+    "V(n + 1) = R \u00d7 V(n) \u2212 d",
+    "V(n + 1) = V(n) + d",
+    "V(n + 1) = R \u00d7 V(n)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The balance grows by the interest (multiply by R) and by the deposit (add d). Without the + d, the recurrence is a plain compound interest investment.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0003",
+   "topicId": "gm-loans-annuities",
+   "stem": "An interest-only loan is one in which each repayment:",
+   "imageRef": null,
+   "options": [
+    "pays off an equal share of the principal each period",
+    "equals the interest charged, so the balance does not change",
+    "repays the principal first, then the interest charged",
+    "is less than the interest, so the balance slowly grows"
+   ],
+   "correctIndex": 1,
+   "explanation": "With interest-only repayments, the interest added each period is exactly cancelled by the repayment, so the principal is still owed in full at the end of the term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0004",
+   "topicId": "gm-loans-annuities",
+   "stem": "In one row of a loan amortisation table, the reduction in the principal is calculated as:",
+   "imageRef": null,
+   "options": [
+    "interest \u2212 repayment",
+    "repayment \u2212 interest",
+    "repayment + interest",
+    "balance \u2212 interest"
+   ],
+   "correctIndex": 1,
+   "explanation": "Part of each repayment covers the interest for the period, and the rest reduces the principal. Subtracting the interest from the balance gives no meaningful quantity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0005",
+   "topicId": "gm-loans-annuities",
+   "stem": "An annuity is best described as:",
+   "imageRef": null,
+   "options": [
+    "an investment that provides regular payments that last forever",
+    "a loan whose balance stays the same while payments are made",
+    "an investment that only grows because regular deposits are made",
+    "an investment that provides regular payments until it is used up"
+   ],
+   "correctIndex": 3,
+   "explanation": "An annuity pays out regular amounts, with interest earned on the remaining balance, until the balance reaches zero. One that lasts forever is the special case called a perpetuity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0006",
+   "topicId": "gm-loans-annuities",
+   "stem": "Over the life of a reducing balance loan with equal repayments, the interest part of each repayment:",
+   "imageRef": null,
+   "options": [
+    "decreases",
+    "increases",
+    "stays the same",
+    "is always half"
+   ],
+   "correctIndex": 0,
+   "explanation": "Interest is charged on the balance, which falls over time, so the interest part shrinks and more of each repayment reduces the principal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0007",
+   "topicId": "gm-loans-annuities",
+   "stem": "The total interest paid on a reducing balance loan is:",
+   "imageRef": null,
+   "options": [
+    "the interest rate multiplied by the amount borrowed",
+    "the amount borrowed divided by the number of repayments",
+    "the first interest charge multiplied by the number of repayments",
+    "the total of all repayments minus the amount borrowed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Everything paid beyond the amount borrowed is interest. Multiplying the first interest charge by the number of repayments overstates it, because the interest falls as the balance falls.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0008",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan is repaid fortnightly over 20 years. In a finance solver, the number of payments, N, is:",
+   "imageRef": null,
+   "options": [
+    "240",
+    "480",
+    "20",
+    "520"
+   ],
+   "correctIndex": 3,
+   "explanation": "There are 26 fortnights in a year, so N = 20 \u00d7 26 = 520. 240 would be monthly repayments, and 480 assumes two payments each month.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0009",
+   "topicId": "gm-loans-annuities",
+   "stem": "In a finance (TVM) solver, a reducing balance loan that is fully repaid is entered with:",
+   "imageRef": null,
+   "options": [
+    "PV = 0, PMT negative and FV positive",
+    "PV positive, PMT negative and FV = 0",
+    "PV negative, PMT positive and FV = 0",
+    "PV positive, PMT positive and FV = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "From the borrower\u2019s view, the loan amount is money received (positive), each repayment is money paid out (negative), and the balance at the end is zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0010",
+   "topicId": "gm-loans-annuities",
+   "stem": "A simple perpetuity can provide regular payments forever because:",
+   "imageRef": null,
+   "options": [
+    "each payment is less than the interest, so the principal keeps growing",
+    "the interest rate on a perpetuity increases as the balance falls",
+    "each payment is a fixed share of the principal that will run out",
+    "each payment equals the interest earned, so the principal never falls"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a perpetuity only the interest is withdrawn, so the balance stays the same and the same interest is earned every period. A payment above the interest would make it an annuity that runs out.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0011",
+   "topicId": "gm-loans-annuities",
+   "stem": "Plotted against time, the balance of an annuity paying regular amounts:",
+   "imageRef": null,
+   "options": [
+    "increases steadily",
+    "stays constant",
+    "decreases, then increases",
+    "decreases to zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each payment is larger than the interest earned, so the balance falls until it is used up. A constant balance would be a perpetuity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0012",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan of $180 000 is charged interest at 5.4% per annum, compounding monthly. The interest charged in the first month is:",
+   "imageRef": null,
+   "options": [
+    "$972",
+    "$81",
+    "$810",
+    "$9720"
+   ],
+   "correctIndex": 2,
+   "explanation": "The monthly rate is 5.4 \u00f7 12 = 0.45%, and 0.45% of 180 000 = $810. $9720 is a full year of interest at 5.4%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0013",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan of $240 000 is charged interest at 4.8% per annum, compounding monthly, and repaid at $1500 per month. The balance after the first repayment is:",
+   "imageRef": null,
+   "options": [
+    "$239 460",
+    "$238 500",
+    "$240 960",
+    "$238 540"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add one month\u2019s interest, 0.4% of 240 000 = $960, then subtract the repayment: 240 000 + 960 \u2212 1500 = $239 460. $238 500 ignores the interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0014",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan of $20 000 is charged interest at 9% per annum, compounding monthly, with repayments of $500 per month. If V(n) is the balance after n months, the recurrence relation is:",
+   "imageRef": null,
+   "options": [
+    "V(0) = 20 000, V(n + 1) = 1.0075 \u00d7 V(n) + 500",
+    "V(0) = 20 000, V(n + 1) = 0.9925 \u00d7 V(n) \u2212 500",
+    "V(0) = 20 000, V(n + 1) = 1.0075 \u00d7 V(n) \u2212 500",
+    "V(0) = 20 000, V(n + 1) = 1.09 \u00d7 V(n) \u2212 500"
+   ],
+   "correctIndex": 2,
+   "explanation": "The monthly rate is 9 \u00f7 12 = 0.75%, so R = 1.0075, and the repayment is subtracted. 1.09 applies the annual rate every month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0015",
+   "topicId": "gm-loans-annuities",
+   "stem": "In a loan amortisation table, the balance is $15 000, the interest rate is 0.5% per month and the repayment is $400. The reduction in the principal for that month is:",
+   "imageRef": null,
+   "options": [
+    "$325",
+    "$400",
+    "$75",
+    "$475"
+   ],
+   "correctIndex": 0,
+   "explanation": "Interest = 0.5% of 15 000 = $75, so the principal falls by 400 \u2212 75 = $325. $75 is the interest part of the repayment, not the principal part.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0016",
+   "topicId": "gm-loans-annuities",
+   "stem": "The sum of $500 000 is invested in a perpetuity at 4.2% per annum, compounding monthly. The monthly payment it provides is:",
+   "imageRef": null,
+   "options": [
+    "$2100",
+    "$1190",
+    "$1750",
+    "$21 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The monthly rate is 4.2 \u00f7 12 = 0.35%, and 0.35% of 500 000 = $1750. $21 000 is the yearly amount, not the monthly payment.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0017",
+   "topicId": "gm-loans-annuities",
+   "stem": "An investment starts at $10 000, earns 6% per annum compounding monthly, and $200 is added at the end of each month. The balance after 2 months is:",
+   "imageRef": null,
+   "options": [
+    "$10 250.00",
+    "$10 501.25",
+    "$10 400.00",
+    "$10 500.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "Month 1: 10 000 \u00d7 1.005 + 200 = 10 250. Month 2: 10 250 \u00d7 1.005 + 200 = 10 501.25. $10 250 is the balance after one month only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0018",
+   "topicId": "gm-loans-annuities",
+   "stem": "An annuity of $400 000 earns 5.4% per annum, compounding monthly, and pays $3000 at the end of each month. The balance after the first payment is:",
+   "imageRef": null,
+   "options": [
+    "$397 000",
+    "$401 800",
+    "$418 600",
+    "$398 800"
+   ],
+   "correctIndex": 3,
+   "explanation": "The monthly rate is 0.45%, so the interest is $1800 and the balance is 400 000 + 1800 \u2212 3000 = $398 800. $397 000 leaves out the interest earned.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0019",
+   "topicId": "gm-loans-annuities",
+   "stem": "An interest-only loan of $420 000 is charged 6% per annum, compounding monthly. The monthly repayment is:",
+   "imageRef": null,
+   "options": [
+    "$2520",
+    "$2100",
+    "$25 200",
+    "$1750"
+   ],
+   "correctIndex": 1,
+   "explanation": "Interest-only repayments equal the monthly interest: 0.5% of 420 000 = $2100. $25 200 is the interest for a whole year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0020",
+   "topicId": "gm-loans-annuities",
+   "stem": "A personal loan of $15 000 is repaid with 60 monthly repayments of $311.38. The total interest paid is:",
+   "imageRef": null,
+   "options": [
+    "$1350.00",
+    "$3682.80",
+    "$311.38",
+    "$18 682.80"
+   ],
+   "correctIndex": 1,
+   "explanation": "Total repaid = 60 \u00d7 311.38 = $18 682.80, and the interest is 18 682.80 \u2212 15 000 = $3682.80. $18 682.80 is the total cost of the loan, not the interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0021",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan is modelled by V(0) = 25 000, V(n + 1) = 1.006 \u00d7 V(n) \u2212 600, where n is in months. This describes a loan of $25 000 with:",
+   "imageRef": null,
+   "options": [
+    "interest at 7.2% p.a. compounding monthly and repayments of $600 per month",
+    "interest at 0.6% p.a. compounding monthly and repayments of $600 per month",
+    "interest at 6% p.a. compounding monthly and repayments of $600 per month",
+    "interest at 7.2% p.a. compounding monthly and deposits of $600 per month"
+   ],
+   "correctIndex": 0,
+   "explanation": "R = 1.006 means 0.6% per month, which is 12 \u00d7 0.6 = 7.2% per annum. The \u2212 600 shows a repayment; a deposit would be added.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0022",
+   "topicId": "gm-loans-annuities",
+   "stem": "An investment is modelled by V(n + 1) = 1.0125 \u00d7 V(n) + 300, where n is in quarters. The investment earns:",
+   "imageRef": null,
+   "options": [
+    "5% p.a. compounding quarterly, with $300 withdrawn each quarter",
+    "5% p.a. compounding quarterly, with $300 added each quarter",
+    "1.25% p.a. compounding quarterly, with $300 added each quarter",
+    "12.5% p.a. compounding quarterly, with $300 added each quarter"
+   ],
+   "correctIndex": 1,
+   "explanation": "R = 1.0125 is 1.25% per quarter, and 4 \u00d7 1.25% = 5% per annum. The + 300 is a deposit, so this is an annuity investment.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0023",
+   "topicId": "gm-loans-annuities",
+   "stem": "An annuity investment has a balance of $52 000. It earns 0.5% interest per month, and $500 is deposited at the end of the month. The new balance is:",
+   "imageRef": null,
+   "options": [
+    "$52 260",
+    "$52 762.50",
+    "$52 760",
+    "$52 500"
+   ],
+   "correctIndex": 2,
+   "explanation": "Interest = 0.5% of 52 000 = $260, so the balance becomes 52 000 + 260 + 500 = $52 760. $52 762.50 wrongly earns interest on the deposit made at the end of the month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0024",
+   "topicId": "gm-loans-annuities",
+   "stem": "One month, a loan balance of $50 000 is charged $250 interest. If interest compounds monthly, the annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "5%",
+    "3%",
+    "6%",
+    "0.5%"
+   ],
+   "correctIndex": 2,
+   "explanation": "The monthly rate is 250 \u00f7 50 000 = 0.5%, so the nominal annual rate is 12 \u00d7 0.5% = 6%. 0.5% is the rate for one month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0025",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan of $10 000 is charged 1% interest per month and repaid at $500 per month. The balance after two repayments is:",
+   "imageRef": null,
+   "options": [
+    "$9196",
+    "$9000",
+    "$9200",
+    "$9600"
+   ],
+   "correctIndex": 0,
+   "explanation": "After one month: 10 000 \u00d7 1.01 \u2212 500 = 9600. After two: 9600 \u00d7 1.01 \u2212 500 = 9196. $9000 ignores interest, and $9600 is the balance after one repayment.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0026",
+   "topicId": "gm-loans-annuities",
+   "stem": "An investment is modelled by V(0) = 200 000, V(n + 1) = 1.004 \u00d7 V(n) \u2212 800. The balance:",
+   "imageRef": null,
+   "options": [
+    "falls by $800 each month until it reaches zero",
+    "rises by $800 each month, because interest is added",
+    "falls each month, more slowly as the balance falls",
+    "stays at $200 000, because the payment equals the interest"
+   ],
+   "correctIndex": 3,
+   "explanation": "The interest each period is 0.4% of 200 000 = $800, exactly the payment, so the balance never changes. This is a perpetuity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0027",
+   "topicId": "gm-loans-annuities",
+   "stem": "A $400 000 mortgage at 6% per annum, compounding monthly, is repaid over 30 years at $2398.20 per month. The total interest paid is:",
+   "imageRef": null,
+   "options": [
+    "$28 778",
+    "$463 352",
+    "$863 352",
+    "$720 000"
+   ],
+   "correctIndex": 1,
+   "explanation": "Total repaid = 360 \u00d7 2398.20 = $863 352, so interest = 863 352 \u2212 400 000 = $463 352. $720 000 is simple interest at 6% for 30 years, which ignores the falling balance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0028",
+   "topicId": "gm-loans-annuities",
+   "stem": "Partway through a reducing balance loan, the interest rate rises but the repayment stays the same. Compared with before, the loan will:",
+   "imageRef": null,
+   "options": [
+    "be repaid sooner, because more interest is charged",
+    "take the same time to repay, with less total interest",
+    "take longer to repay, with less total interest",
+    "take longer to repay and cost more in total interest"
+   ],
+   "correctIndex": 3,
+   "explanation": "A higher rate means more of each repayment goes to interest and less to principal, so the balance falls more slowly. The loan runs longer and more interest is paid overall.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0029",
+   "topicId": "gm-loans-annuities",
+   "stem": "A borrower makes a one-off extra payment of $10 000 off a reducing balance loan and keeps the same regular repayments. The effect is to:",
+   "imageRef": null,
+   "options": [
+    "increase the interest charged in later months",
+    "leave the total interest paid unchanged",
+    "reduce the time to repay and the total interest",
+    "reduce the regular repayment, but not the time"
+   ],
+   "correctIndex": 2,
+   "explanation": "A lower balance attracts less interest, so more of each later repayment reduces the principal and the loan finishes sooner with less total interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0030",
+   "topicId": "gm-loans-annuities",
+   "stem": "A perpetuity pays $2400 per month. If the interest rate on the perpetuity halves, the monthly payment it can provide becomes:",
+   "imageRef": null,
+   "options": [
+    "$2400",
+    "$600",
+    "$1200",
+    "$4800"
+   ],
+   "correctIndex": 2,
+   "explanation": "A perpetuity pays exactly the interest, which is the rate times the fixed principal. Halving the rate halves the interest, so the payment becomes $1200.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0031",
+   "topicId": "gm-loans-annuities",
+   "stem": "A retiree wants a perpetuity that pays $2000 per month. Interest is 4.8% per annum, compounding monthly. The amount that must be invested is:",
+   "imageRef": null,
+   "options": [
+    "$41 667",
+    "$480 000",
+    "$96 000",
+    "$500 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "The monthly rate is 0.4%, and the principal P must satisfy 0.004 \u00d7 P = 2000, so P = 2000 \u00f7 0.004 = $500 000. $41 667 divides by the annual rate, 0.048, instead of the monthly rate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0032",
+   "topicId": "gm-loans-annuities",
+   "stem": "A perpetuity of $360 000 is to pay $1500 per month, with interest compounding monthly. The annual interest rate needed is:",
+   "imageRef": null,
+   "options": [
+    "6%",
+    "5%",
+    "0.42%",
+    "4.17%"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is 1500 \u00f7 360 000 \u2248 0.4167%, and 12 \u00d7 0.4167% = 5% per annum. 0.42% is the monthly rate, not the annual rate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0033",
+   "topicId": "gm-loans-annuities",
+   "stem": "Before the final repayment of a loan, the balance is $280. Interest is 0.5% per month and the usual repayment is $400. To clear the loan exactly, the final repayment must be:",
+   "imageRef": null,
+   "options": [
+    "$280.00",
+    "$400.00",
+    "$121.40",
+    "$281.40"
+   ],
+   "correctIndex": 3,
+   "explanation": "One more month\u2019s interest is added first: 280 \u00d7 1.005 = $281.40, which is the final payment. Paying the usual $400 would overpay by $118.60.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0034",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan is modelled by V(0) = 20 000, V(n + 1) = 1.01 \u00d7 V(n) \u2212 150. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The balance stays at $20 000, because the payment equals the interest.",
+    "The balance increases, because the $150 payment is less than the $200 interest.",
+    "The balance falls by $150 each month, because interest is not charged.",
+    "The balance falls by $50 each month, because $200 interest is less than $150."
+   ],
+   "correctIndex": 1,
+   "explanation": "The first month\u2019s interest is 1% of 20 000 = $200, and paying only $150 leaves the balance $50 higher. The balance keeps rising, so the loan is never repaid.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0035",
+   "topicId": "gm-loans-annuities",
+   "stem": "Plotted against time, the balance of a reducing balance loan with equal repayments:",
+   "imageRef": null,
+   "options": [
+    "rises at first, then falls quickly towards the end",
+    "falls slowly at first, then more quickly towards the end",
+    "falls quickly at first, then more slowly towards the end",
+    "falls by the same amount after every single repayment"
+   ],
+   "correctIndex": 1,
+   "explanation": "Early on, most of each repayment covers interest, so the principal falls slowly; later, less interest leaves more to reduce the principal. The points lie on a curve that steepens.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0036",
+   "topicId": "gm-loans-annuities",
+   "stem": "An investment of $60 000 earns 0.4% interest per month, with $1000 added at the end of each month. Correct to the nearest cent, the balance after 3 months is:",
+   "imageRef": null,
+   "options": [
+    "$63 734.90",
+    "$63 720.00",
+    "$63 000.00",
+    "$62 484.96"
+   ],
+   "correctIndex": 0,
+   "explanation": "Month 1: 60 000 \u00d7 1.004 + 1000 = 61 240. Month 2: 62 484.96. Month 3: 62 484.96 \u00d7 1.004 + 1000 \u2248 63 734.90. $62 484.96 stops a month early.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0037",
+   "topicId": "gm-loans-annuities",
+   "stem": "A $300 000 loan at 6% per annum, compounding monthly, costs $1932.90 per month over 25 years or $2149.29 per month over 20 years. Choosing 20 years saves interest of about:",
+   "imageRef": null,
+   "options": [
+    "$279 870",
+    "$64 040",
+    "$216",
+    "$51 934"
+   ],
+   "correctIndex": 1,
+   "explanation": "Total interest is 300 \u00d7 1932.90 \u2212 300 000 = $279 870 over 25 years and 240 \u00d7 2149.29 \u2212 300 000 = $215 829.60 over 20 years, a saving of about $64 040. $216 is only the difference in monthly repayment.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0038",
+   "topicId": "gm-loans-annuities",
+   "stem": "An annuity of $600 000 earns 3.6% per annum, compounding monthly, and pays $1800 per month. The annuity will:",
+   "imageRef": null,
+   "options": [
+    "last indefinitely, because $1800 equals the monthly interest",
+    "run out after about 27.8 years, because 600 000 \u00f7 21 600 \u2248 27.8",
+    "run out sooner than 27.8 years, because interest is charged",
+    "grow each month, because the interest exceeds the payment"
+   ],
+   "correctIndex": 0,
+   "explanation": "The monthly interest is 0.3% of 600 000 = $1800, the same as the payment, so the balance never falls and it acts as a perpetuity. Dividing the balance by the yearly payments ignores the interest earned.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0039",
+   "topicId": "gm-loans-annuities",
+   "stem": "A loan balance is $250 000 when the interest rate rises from 6% to 7.2% per annum, compounding monthly. The interest charged in the next month increases by:",
+   "imageRef": null,
+   "options": [
+    "$1250",
+    "$1500",
+    "$250",
+    "$3000"
+   ],
+   "correctIndex": 2,
+   "explanation": "At 6% the monthly interest is 0.5% of 250 000 = $1250; at 7.2% it is 0.6% = $1500. The increase is $250. $3000 is the yearly increase, 1.2% of the balance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0040",
+   "topicId": "gm-loans-annuities",
+   "stem": "An investment with regular monthly deposits and a reducing balance loan both earn or charge 0.5% per month. A recurrence V(n + 1) = R \u00d7 V(n) + d with R = 1.005 and d = \u2212800 must describe:",
+   "imageRef": null,
+   "options": [
+    "the loan, because $800 is subtracted each month",
+    "the investment, because R is greater than 1",
+    "the investment, because $800 is added each month",
+    "either one, because R is the same for both"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both models have R = 1.005, so R cannot tell them apart; the sign of d does. A subtracted regular amount is a repayment, while an investment with regular deposits adds them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-loans-annuities-0041",
+   "topicId": "gm-loans-annuities",
+   "stem": "A row of an amortisation table for an annuity shows: balance $80 000, payment $1200, interest $400. The new balance is:",
+   "imageRef": null,
+   "options": [
+    "$81 600",
+    "$79 200",
+    "$80 800",
+    "$78 800"
+   ],
+   "correctIndex": 1,
+   "explanation": "The interest earned is added and the payment withdrawn: 80 000 + 400 \u2212 1200 = $79 200. $80 800 subtracts the interest and adds the payment, the reverse of what happens.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-loans-annuities-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

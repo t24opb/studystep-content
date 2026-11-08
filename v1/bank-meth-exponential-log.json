@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-exponential-log",
+ "questions": [
+  {
+   "id": "meth-exponential-log-0001",
+   "topicId": "meth-exponential-log",
+   "stem": "What are the y-intercept and the asymptote of the graph of y = 2^x?",
+   "imageRef": null,
+   "options": [
+    "y-intercept 2, asymptote y = 0",
+    "y-intercept 1, asymptote x = 0",
+    "y-intercept 1, asymptote y = 0",
+    "y-intercept 0, asymptote y = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Any non-zero number to the power 0 is 1, so the graph passes through (0, 1). As x \u2192 \u2212\u221e, 2^x approaches 0 without reaching it, giving the horizontal asymptote y = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0002",
+   "topicId": "meth-exponential-log",
+   "stem": "What are the asymptote and y-intercept of y = 3 \u00d7 2^x \u2212 4?",
+   "imageRef": null,
+   "options": [
+    "Asymptote y = \u22124, y-intercept 3",
+    "Asymptote y = 0, y-intercept \u22121",
+    "Asymptote y = 3, y-intercept \u22121",
+    "Asymptote y = \u22124, y-intercept \u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "The \u22124 translates the graph down, moving the asymptote from y = 0 to y = \u22124. At x = 0, y = 3 \u00d7 1 \u2212 4 = \u22121. Leaving off the \u22124 gives the intercept 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0003",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the range of y = 5 \u2212 2^x?",
+   "imageRef": null,
+   "options": [
+    "R",
+    "(\u2212\u221e, 5)",
+    "(5, \u221e)",
+    "(\u2212\u221e, \u22125)"
+   ],
+   "correctIndex": 1,
+   "explanation": "2^x takes every positive value, so 5 \u2212 2^x takes every value less than 5 and never reaches it. The reflection in the x-axis is what turns the range below the asymptote y = 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0004",
+   "topicId": "meth-exponential-log",
+   "stem": "Which of these functions is decreasing for all x?",
+   "imageRef": null,
+   "options": [
+    "y = 10^x",
+    "y = (1/2)^x",
+    "y = 2^x",
+    "y = 1.5^x"
+   ],
+   "correctIndex": 1,
+   "explanation": "An exponential function a^x decreases when 0 < a < 1 and increases when a > 1. Of the four bases, only 1/2 lies between 0 and 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0005",
+   "topicId": "meth-exponential-log",
+   "stem": "The function y = 2^(\u2212x) can also be written as:",
+   "imageRef": null,
+   "options": [
+    "y = \u22122^x",
+    "y = 1/(2x)",
+    "y = 2^(1/x)",
+    "y = (1/2)^x"
+   ],
+   "correctIndex": 3,
+   "explanation": "2^(\u2212x) = 1/2^x = (1/2)^x, the reflection of y = 2^x in the y-axis. Writing \u22122^x reflects in the x-axis instead and gives negative values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0006",
+   "topicId": "meth-exponential-log",
+   "stem": "Which transformations map y = 2^x to y = 2^(x \u2212 3) + 1?",
+   "imageRef": null,
+   "options": [
+    "Translation 3 units right and 1 unit up",
+    "Translation 3 units left and 1 unit up",
+    "Translation 1 unit right and 3 units up",
+    "Dilation by factor 3 and translation 1 up"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replacing x with x \u2212 3 moves the graph 3 units right, and adding 1 moves it 1 unit up, so the asymptote becomes y = 1. Reading x \u2212 3 as a move left is the common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0007",
+   "topicId": "meth-exponential-log",
+   "stem": "The graph of y = A \u00d7 3^(kx) passes through (0, 5) and (1, 45). What are A and k?",
+   "imageRef": null,
+   "options": [
+    "A = 5, k = 9",
+    "A = 45, k = 1",
+    "A = 5, k = 3",
+    "A = 5, k = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "At x = 0, y = A \u00d7 1, so A = 5. Then 5 \u00d7 3^k = 45 gives 3^k = 9 = 3\u00b2, so k = 2. Writing k = 9 stops at 3^k = 9 without taking the index.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0008",
+   "topicId": "meth-exponential-log",
+   "stem": "Which table of values suggests an exponential model?",
+   "imageRef": null,
+   "options": [
+    "y = 3, 6, 3, 6 at x = 0, 1, 2, 3",
+    "y = 3, 6, 12, 24 at x = 0, 1, 2, 3",
+    "y = 3, 6, 9, 12 at x = 0, 1, 2, 3",
+    "y = 3, 4, 7, 12 at x = 0, 1, 2, 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Exponential data have a constant ratio between successive values for equal steps in x; here each value doubles. A constant difference, as in 3, 6, 9, 12, suggests a linear model instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0009",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the value of log\u2082 8?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1/3",
+    "6",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "log\u2082 8 asks what power of 2 gives 8, and 2\u00b3 = 8. The answer 4 comes from dividing 8 by 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0010",
+   "topicId": "meth-exponential-log",
+   "stem": "Write log\u2085 125 = 3 in index form.",
+   "imageRef": null,
+   "options": [
+    "3\u2075 = 125",
+    "125\u00b3 = 5",
+    "5\u00b9\u00b2\u2075 = 3",
+    "5\u00b3 = 125"
+   ],
+   "correctIndex": 3,
+   "explanation": "log_a y = x means a^x = y: the base stays the base and the logarithm is the index. So log\u2085 125 = 3 means 5\u00b3 = 125.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0011",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the value of log\u2087 1?",
+   "imageRef": null,
+   "options": [
+    "1/7",
+    "0",
+    "1",
+    "7"
+   ],
+   "correctIndex": 1,
+   "explanation": "7\u2070 = 1, so log\u2087 1 = 0, and the same holds in every base. The value 1 is log\u2087 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0012",
+   "topicId": "meth-exponential-log",
+   "stem": "What is log\u2081\u2080 0.001?",
+   "imageRef": null,
+   "options": [
+    "\u22121/3",
+    "\u22124",
+    "\u22123",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "0.001 = 1/1000 = 10\u207b\u00b3, so log\u2081\u2080 0.001 = \u22123. A number between 0 and 1 has a negative logarithm in base 10.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0013",
+   "topicId": "meth-exponential-log",
+   "stem": "Simplify log\u2085(5^(3x)).",
+   "imageRef": null,
+   "options": [
+    "x\u00b3",
+    "3x",
+    "5^(3x)",
+    "15x"
+   ],
+   "correctIndex": 1,
+   "explanation": "log\u2085 and 5^x are inverse functions, so log\u2085(5^y) = y for every real y; here y = 3x. Multiplying the base by the index to get 15x has no basis in the definition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0014",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the value of 2^(log\u2082 7)?",
+   "imageRef": null,
+   "options": [
+    "128",
+    "49",
+    "7",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "a^(log_a x) = x because the exponential undoes the logarithm, so 2^(log\u2082 7) = 7. The value 128 = 2\u2077 treats log\u2082 7 as if it were 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0015",
+   "topicId": "meth-exponential-log",
+   "stem": "Which statement describes the graph of y = log\u2082 x?",
+   "imageRef": null,
+   "options": [
+    "Domain (1, \u221e), x-intercept 2, asymptote x = 1",
+    "Domain (0, \u221e), x-intercept 1, asymptote x = 0",
+    "Domain R, y-intercept 1, asymptote y = 0",
+    "Domain (0, \u221e), x-intercept 0, asymptote y = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = log\u2082 x is the reflection of y = 2^x in y = x, so the intercept (0, 1) becomes (1, 0) and the asymptote y = 0 becomes x = 0. The description with domain R belongs to y = 2^x itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0016",
+   "topicId": "meth-exponential-log",
+   "stem": "Which point lies on the graph of y = log\u2083 x?",
+   "imageRef": null,
+   "options": [
+    "(3, 0)",
+    "(0, 1)",
+    "(1/3, \u22121)",
+    "(\u22121, 1/3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "log\u2083(1/3) = \u22121 because 3\u207b\u00b9 = 1/3. The point (\u22121, 1/3) lies on y = 3^x instead, and log\u2083 3 = 1, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0017",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the inverse function of f(x) = 3^x + 1?",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = log\u2083(x \u2212 1)",
+    "f\u207b\u00b9(x) = log\u2083(x) \u2212 1",
+    "f\u207b\u00b9(x) = log\u2083(x + 1)",
+    "f\u207b\u00b9(x) = 3^(x \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Swap to x = 3^y + 1, so 3^y = x \u2212 1 and y = log\u2083(x \u2212 1). The asymptote y = 1 of f becomes the asymptote x = 1 of the inverse. Writing log\u2083(x) \u2212 1 subtracts after the logarithm instead of before it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0018",
+   "topicId": "meth-exponential-log",
+   "stem": "Where does the graph of y = log\u2082(x \u2212 3) + 1 cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "x = 3.5",
+    "x = 5",
+    "x = 4",
+    "x = 2.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Set y = 0: log\u2082(x \u2212 3) = \u22121, so x \u2212 3 = 2\u207b\u00b9 = 1/2 and x = 3.5. The answer x = 5 comes from solving log\u2082(x \u2212 3) = +1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0019",
+   "topicId": "meth-exponential-log",
+   "stem": "The graph of y = log\u2082(4x) is the graph of y = log\u2082 x:",
+   "imageRef": null,
+   "options": [
+    "dilated by factor 4 from the x-axis",
+    "translated 2 units up",
+    "translated 4 units up",
+    "translated 4 units left"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the product law, log\u2082(4x) = log\u2082 4 + log\u2082 x = 2 + log\u2082 x, a translation of 2 units up. It is also a dilation by factor 1/4 from the y-axis, but never a dilation by 4 from the x-axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0020",
+   "topicId": "meth-exponential-log",
+   "stem": "Evaluate 8^(2/3) \u00d7 4^(\u22121/2).",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "4",
+    "2",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "8^(2/3) = (cube root of 8)\u00b2 = 2\u00b2 = 4, and 4^(\u22121/2) = 1/\u221a4 = 1/2, so the product is 2. Ignoring the negative index gives 4 \u00d7 2 = 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0021",
+   "topicId": "meth-exponential-log",
+   "stem": "Simplify (3^(x + 2) \u2212 3^x)/(8 \u00d7 3^x).",
+   "imageRef": null,
+   "options": [
+    "3^x",
+    "1/8",
+    "1",
+    "9/8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorise the numerator: 3^x(3\u00b2 \u2212 1) = 8 \u00d7 3^x, which cancels with the denominator to give 1. Ignoring the \u22123^x leaves 9 \u00d7 3^x over 8 \u00d7 3^x, which is 9/8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0022",
+   "topicId": "meth-exponential-log",
+   "stem": "Evaluate log\u2082 12 \u2212 log\u2082 3.",
+   "imageRef": null,
+   "options": [
+    "log\u2082 9",
+    "4",
+    "1",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The quotient law gives log\u2082(12/3) = log\u2082 4 = 2. Subtracting the numbers inside, 12 \u2212 3 = 9, confuses the law with ordinary subtraction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0023",
+   "topicId": "meth-exponential-log",
+   "stem": "Evaluate 3 log\u2082 4 \u2212 log\u2082 8.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "6",
+    "2",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "3 log\u2082 4 = log\u2082 4\u00b3 = log\u2082 64, and log\u2082 64 \u2212 log\u2082 8 = log\u2082 8 = 3. Equivalently 3 \u00d7 2 \u2212 3 = 3. The answer 1 forgets to multiply log\u2082 4 by 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0024",
+   "topicId": "meth-exponential-log",
+   "stem": "Write log\u2081\u2080 a + 2 log\u2081\u2080 b as a single logarithm.",
+   "imageRef": null,
+   "options": [
+    "log\u2081\u2080(a + b\u00b2)",
+    "log\u2081\u2080(2ab)",
+    "2 log\u2081\u2080(ab)",
+    "log\u2081\u2080(ab\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The power law turns 2 log\u2081\u2080 b into log\u2081\u2080 b\u00b2, and the product law combines the sum: log\u2081\u2080(ab\u00b2). A sum of logarithms is the logarithm of a product, never of a sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0025",
+   "topicId": "meth-exponential-log",
+   "stem": "Which statement is true for all x > 0 and y > 0?",
+   "imageRef": null,
+   "options": [
+    "log\u2081\u2080(x/y) = log\u2081\u2080 x \u00f7 log\u2081\u2080 y",
+    "log\u2081\u2080(x\u00b2) = (log\u2081\u2080 x)\u00b2",
+    "log\u2081\u2080(xy) = log\u2081\u2080 x + log\u2081\u2080 y",
+    "log\u2081\u2080(x + y) = log\u2081\u2080 x \u00d7 log\u2081\u2080 y"
+   ],
+   "correctIndex": 2,
+   "explanation": "Logarithms are indices, so multiplying numbers adds their logarithms, just as multiplying powers adds indices. The power law gives log\u2081\u2080(x\u00b2) = 2 log\u2081\u2080 x, not the square of the logarithm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0026",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve log\u2083(x + 1) = 2.",
+   "imageRef": null,
+   "options": [
+    "x = 7",
+    "x = 8",
+    "x = 5",
+    "x = 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Change to index form: x + 1 = 3\u00b2 = 9, so x = 8. The answer 5 comes from treating the logarithm as multiplication, 3 \u00d7 2 = 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0027",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve 4^x = 8.",
+   "imageRef": null,
+   "options": [
+    "x = 3/2",
+    "x = 2",
+    "x = 2/3",
+    "x = 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write both sides as powers of 2: 2^(2x) = 2\u00b3, so 2x = 3 and x = 3/2. The answer 2/3 comes from dividing the wrong way, 2 \u00f7 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0028",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve 3^(2x \u2212 1) = 27.",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = 1",
+    "x = 4",
+    "x = 3/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "27 = 3\u00b3, so 2x \u2212 1 = 3 and x = 2. Check: 3^(4 \u2212 1) = 27. The answer 4 forgets to divide by 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0029",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve 5^x = 12, giving an exact answer.",
+   "imageRef": null,
+   "options": [
+    "x = 12^(1/5)",
+    "x = log\u2085 12",
+    "x = log\u2081\u2082 5",
+    "x = 12/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Take logarithms base 5 of both sides: x = log\u2085 12, about 1.54. The base of the logarithm is the base of the power, so log\u2081\u2082 5 has them swapped.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0030",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve 3 \u00d7 2^x \u2212 4 = 20.",
+   "imageRef": null,
+   "options": [
+    "x = log\u2082(16/3)",
+    "x = 3",
+    "x = 8",
+    "x = log\u2082 24"
+   ],
+   "correctIndex": 1,
+   "explanation": "Undo the transformations in reverse order: 3 \u00d7 2^x = 24, then 2^x = 8, so x = 3. The answer 8 stops at the value of 2^x, and log\u2082 24 forgets to divide by 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0031",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve 2^(2x) \u2212 6 \u00d7 2^x + 8 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 3 or x = 8",
+    "x = 1 or x = 2",
+    "x = 2 or x = 4",
+    "x = 1 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "Let u = 2^x, so u\u00b2 \u2212 6u + 8 = 0 and (u \u2212 2)(u \u2212 4) = 0. Then 2^x = 2 or 2^x = 4, giving x = 1 or x = 2. Stopping at u = 2 or 4 gives the values of 2^x, not of x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0032",
+   "topicId": "meth-exponential-log",
+   "stem": "Solve log\u2082(x) + log\u2082(x \u2212 2) = 3.",
+   "imageRef": null,
+   "options": [
+    "x = 5",
+    "x = 4",
+    "x = 4 or x = \u22122",
+    "x = \u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "Combine: log\u2082(x(x \u2212 2)) = 3, so x\u00b2 \u2212 2x = 8 and (x \u2212 4)(x + 2) = 0. x = \u22122 must be rejected, because log\u2082(\u22122) is undefined. The answer 5 adds the arguments, x + x \u2212 2 = 8, which misuses the product law.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0033",
+   "topicId": "meth-exponential-log",
+   "stem": "What is the half-life of a decaying quantity?",
+   "imageRef": null,
+   "options": [
+    "The time taken for the rate of decay to double",
+    "The time taken for the quantity to fall to half its value",
+    "Half the time taken for the quantity to decay completely",
+    "The quantity left over after half of the time has passed"
+   ],
+   "correctIndex": 1,
+   "explanation": "In exponential decay the same time is needed to halve the quantity whatever its starting amount, and that time is the half-life. Exponential decay never reaches zero, so complete decay has no finite time to halve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0034",
+   "topicId": "meth-exponential-log",
+   "stem": "A sample's mass is M(t) = 80 \u00d7 2^(\u2212t/5) grams after t years. What is the half-life?",
+   "imageRef": null,
+   "options": [
+    "5 years",
+    "40 years",
+    "1/5 of a year",
+    "10 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "M halves when 2^(\u2212t/5) = 1/2 = 2\u207b\u00b9, so t/5 = 1 and t = 5 years. The value 40 is the mass remaining after one half-life, not a time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0035",
+   "topicId": "meth-exponential-log",
+   "stem": "A sample's mass is M(t) = 80 \u00d7 2^(\u2212t/5) grams after t years. What mass remains after 15 years?",
+   "imageRef": null,
+   "options": [
+    "16 g",
+    "10 g",
+    "20 g",
+    "40 g"
+   ],
+   "correctIndex": 1,
+   "explanation": "15 years is three half-lives, so M = 80 \u00d7 2\u207b\u00b3 = 80/8 = 10 g. The answer 20 g stops after two halvings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0036",
+   "topicId": "meth-exponential-log",
+   "stem": "A population is P(t) = 200 \u00d7 4^t after t hours. What is its doubling time?",
+   "imageRef": null,
+   "options": [
+    "1/2 hour",
+    "2 hours",
+    "1/4 hour",
+    "4 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "Doubling needs 4^t = 2, and since 4^(1/2) = 2, t = 1/2 hour. The population quadruples each hour, so it doubles in less than an hour, which rules out 2 hours.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0037",
+   "topicId": "meth-exponential-log",
+   "stem": "An investment grows according to N(t) = 1500 \u00d7 1.04^t after t years. What does 1.04 tell you?",
+   "imageRef": null,
+   "options": [
+    "It grows by $1.04 each year",
+    "It grows by 0.04% each year",
+    "It grows by 4% each year",
+    "It grows by 104% each year"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by 1.04 each year adds 4% of the current value. Growth of 104% would multiply the value by 2.04 each year.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0038",
+   "topicId": "meth-exponential-log",
+   "stem": "A cup of coffee cools according to T(t) = 22 + 68 \u00d7 0.9^t \u00b0C after t minutes. What is its initial temperature?",
+   "imageRef": null,
+   "options": [
+    "68 \u00b0C",
+    "22 \u00b0C",
+    "83.2 \u00b0C",
+    "90 \u00b0C"
+   ],
+   "correctIndex": 3,
+   "explanation": "At t = 0, 0.9\u2070 = 1, so T(0) = 22 + 68 = 90 \u00b0C. The value 83.2 \u00b0C is the temperature after one minute.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0039",
+   "topicId": "meth-exponential-log",
+   "stem": "A cup of coffee cools according to T(t) = 22 + 68 \u00d7 0.9^t \u00b0C. What temperature does the model predict in the long run?",
+   "imageRef": null,
+   "options": [
+    "22 \u00b0C",
+    "0 \u00b0C",
+    "90 \u00b0C",
+    "68 \u00b0C"
+   ],
+   "correctIndex": 0,
+   "explanation": "As t grows, 0.9^t approaches 0, so T approaches 22 \u00b0C, the room temperature and the horizontal asymptote. The model never predicts 0 \u00b0C, because the 22 is added on.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-exponential-log-0040",
+   "topicId": "meth-exponential-log",
+   "stem": "A quantity decays according to N(t) = 1000e^(\u22120.2t). At what time does N equal 500?",
+   "imageRef": null,
+   "options": [
+    "t = (ln 2)/5",
+    "t = 2.5",
+    "t = 5 ln 2",
+    "t = \u22125 ln 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "e^(\u22120.2t) = 1/2 gives \u22120.2t = ln(1/2) = \u2212ln 2, so t = ln 2/0.2 = 5 ln 2, about 3.47. Dividing by 5 instead of multiplying comes from treating 0.2 as 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-exponential-log-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

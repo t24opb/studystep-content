@@ -1,0 +1,860 @@
+{
+ "topicId": "chem-analysis",
+ "questions": [
+  {
+   "id": "chem-analysis-0001",
+   "topicId": "chem-analysis",
+   "stem": "0.50 mol of sodium chloride is dissolved in water to make 250 mL of solution. What is its concentration?",
+   "imageRef": null,
+   "options": [
+    "0.0020 mol L\u207b\u00b9",
+    "2.0 mol L\u207b\u00b9",
+    "0.125 mol L\u207b\u00b9",
+    "125 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "c = n \u00f7 V, with V in litres: 0.50 \u00f7 0.250 = 2.0 mol L\u207b\u00b9. Dividing by 250 without converting millilitres to litres gives 0.0020, and multiplying instead of dividing gives 0.125 or 125.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0002",
+   "topicId": "chem-analysis",
+   "stem": "A solution contains 5.85 g of sodium chloride in 500 mL. What is its concentration in mol L\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "0.200 mol L\u207b\u00b9",
+    "0.0500 mol L\u207b\u00b9",
+    "11.7 mol L\u207b\u00b9",
+    "0.100 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "n(NaCl) = 5.85 \u00f7 58.5 = 0.100 mol, and c = 0.100 \u00f7 0.500 = 0.200 mol L\u207b\u00b9. 0.100 is the amount in mol, not the concentration, and 11.7 is the concentration in g L\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0003",
+   "topicId": "chem-analysis",
+   "stem": "A 2.0 kg sample of bore water contains 0.0060 g of nitrate ions. What is the nitrate concentration in ppm?",
+   "imageRef": null,
+   "options": [
+    "3.0 ppm",
+    "0.0030 ppm",
+    "6.0 ppm",
+    "3000 ppm"
+   ],
+   "correctIndex": 0,
+   "explanation": "ppm is the mass of solute per million parts by mass of solution, which is the same as mg per kg. 0.0060 g is 6.0 mg, and 6.0 mg \u00f7 2.0 kg = 3.0 mg kg\u207b\u00b9 = 3.0 ppm. 6.0 ppm forgets to divide by the mass of the sample.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0004",
+   "topicId": "chem-analysis",
+   "stem": "A hand sanitiser is labelled 70% (v/v) ethanol. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "Every 100 mL of the sanitiser contains 70 mL of ethanol",
+    "Every 100 g of the sanitiser contains 70 g of ethanol",
+    "Every 100 mL of water has had 70 mL of ethanol added to it",
+    "Every 100 mL of the sanitiser contains 70 g of ethanol"
+   ],
+   "correctIndex": 0,
+   "explanation": "%(v/v) is the volume of solute in every 100 mL of the solution, not of the solvent. Mass in 100 g would be %(m/m), and mass in 100 mL would be %(m/v).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0005",
+   "topicId": "chem-analysis",
+   "stem": "What mass of glucose is needed to make 250 mL of a 5.0% (m/v) glucose solution?",
+   "imageRef": null,
+   "options": [
+    "50 g",
+    "1.25 g",
+    "12.5 g",
+    "5.0 g"
+   ],
+   "correctIndex": 2,
+   "explanation": "5.0% (m/v) means 5.0 g of solute in every 100 mL of solution. For 250 mL, 5.0 \u00d7 250 \u00f7 100 = 12.5 g. 5.0 g would make only 100 mL of this solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0006",
+   "topicId": "chem-analysis",
+   "stem": "A sodium hydroxide solution has a concentration of 0.250 mol L\u207b\u00b9. What is its concentration in g L\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "10.0 g L\u207b\u00b9",
+    "160 g L\u207b\u00b9",
+    "0.00625 g L\u207b\u00b9",
+    "2.50 g L\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "M(NaOH) = 23.0 + 16.0 + 1.0 = 40.0 g mol\u207b\u00b9, so each litre holds 0.250 \u00d7 40.0 = 10.0 g. Dividing the molar mass by the concentration gives 160, and dividing the concentration by the molar mass gives 0.00625.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0007",
+   "topicId": "chem-analysis",
+   "stem": "A dilute solution contains 0.0010 mol L\u207b\u00b9 of Cu2+ ions. Taking 1 L of this solution as having a mass of 1 kg, what is the Cu2+ concentration in ppm?",
+   "imageRef": null,
+   "options": [
+    "0.0635 ppm",
+    "1.0 ppm",
+    "6.35 \u00d7 10\u2074 ppm",
+    "63.5 ppm"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each litre holds 0.0010 \u00d7 63.5 = 0.0635 g = 63.5 mg of Cu2+. In 1 kg of solution, 63.5 mg kg\u207b\u00b9 is 63.5 ppm. 0.0635 is the concentration in g L\u207b\u00b9, not mg kg\u207b\u00b9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0008",
+   "topicId": "chem-analysis",
+   "stem": "How does raising the temperature of water generally affect the solubility of a gas such as oxygen in it?",
+   "imageRef": null,
+   "options": [
+    "Solubility decreases only for gases that react with the water",
+    "Solubility decreases, so warm water holds less dissolved oxygen",
+    "Solubility increases, so warm water holds more dissolved oxygen",
+    "Solubility increases for gases but decreases for all solids"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gas molecules have more kinetic energy at higher temperatures and escape from solution more easily, so gases become less soluble as water warms. This is why warm water can hold too little oxygen for fish. Most solids become more soluble as temperature rises, not less.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0009",
+   "topicId": "chem-analysis",
+   "stem": "The solubility of potassium nitrate at 40 \u00b0C is 64 g per 100 g of water. A solution of 50 g of potassium nitrate in 100 g of water at 40 \u00b0C is:",
+   "imageRef": null,
+   "options": [
+    "unsaturated, because more potassium nitrate could still dissolve",
+    "saturated, because it has reached the solubility at this temperature",
+    "supersaturated, because the mass dissolved is above the solubility",
+    "saturated, because some solid will crystallise out at 40 \u00b0C"
+   ],
+   "correctIndex": 0,
+   "explanation": "A saturated solution holds the maximum amount of solute at that temperature, here 64 g per 100 g of water. With only 50 g dissolved, another 14 g could still dissolve, so the solution is unsaturated and no crystals form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0010",
+   "topicId": "chem-analysis",
+   "stem": "Potassium nitrate has a solubility of 64 g per 100 g of water at 40 \u00b0C and 32 g per 100 g of water at 20 \u00b0C. A saturated solution in 200 g of water at 40 \u00b0C is cooled to 20 \u00b0C. What mass of crystals forms?",
+   "imageRef": null,
+   "options": [
+    "32 g",
+    "128 g",
+    "96 g",
+    "64 g"
+   ],
+   "correctIndex": 3,
+   "explanation": "200 g of water holds 2 \u00d7 64 = 128 g at 40 \u00b0C but only 2 \u00d7 32 = 64 g at 20 \u00b0C, so 128 \u2212 64 = 64 g crystallises. 32 g is the answer for only 100 g of water, and 128 g is the total dissolved at 40 \u00b0C, not the mass that comes out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0011",
+   "topicId": "chem-analysis",
+   "stem": "Using the usual solubility rules, which compound is insoluble in water?",
+   "imageRef": null,
+   "options": [
+    "Ammonium chloride, NH\u2084Cl",
+    "Barium sulfate, BaSO\u2084",
+    "Sodium sulfate, Na\u2082SO\u2084",
+    "Potassium nitrate, KNO\u2083"
+   ],
+   "correctIndex": 1,
+   "explanation": "All sodium, potassium and ammonium compounds and all nitrates are soluble. Most sulfates are soluble too, but barium sulfate is one of the exceptions, which is why it is used to detect and measure sulfate ions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0012",
+   "topicId": "chem-analysis",
+   "stem": "Phosphate ions can be removed from waste water by adding iron(III) chloride. Which ionic equation shows this?",
+   "imageRef": null,
+   "options": [
+    "Fe3+(aq) + PO\u20843\u2212(aq) \u2192 FePO\u2084(aq)",
+    "Fe3+(aq) + PO\u20843\u2212(aq) \u2192 FePO\u2084(s)",
+    "3Fe3+(aq) + PO\u20843\u2212(aq) \u2192 Fe\u2083PO\u2084(s)",
+    "Fe3+(aq) + 3Cl\u2212(aq) \u2192 FeCl\u2083(s)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Iron(III) phosphate is insoluble, so Fe3+ and PO\u20843\u2212 ions combine in a 1 : 1 ratio, which balances the +3 and \u22123 charges, and the solid can be settled and filtered out. Fe\u2083PO\u2084 would have a charge of +6. Iron(III) chloride is soluble, which is why it can be added as a solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0013",
+   "topicId": "chem-analysis",
+   "stem": "Why does adding a suitable precipitating agent remove heavy metal ions such as Pb2+ from water?",
+   "imageRef": null,
+   "options": [
+    "The ions are changed into a different, non-toxic element",
+    "The ions are made more soluble, so they are diluted away",
+    "The ions form an insoluble solid that can be settled and filtered out",
+    "The ions are changed into a gas that bubbles out of the water"
+   ],
+   "correctIndex": 2,
+   "explanation": "A precipitating agent supplies anions that form an insoluble compound with the metal ions, such as lead(II) hydroxide or lead(II) sulfide, and the solid is then removed. A chemical reaction cannot change one element into another.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0014",
+   "topicId": "chem-analysis",
+   "stem": "What is a standard solution?",
+   "imageRef": null,
+   "options": [
+    "A solution made by diluting an acid with distilled water",
+    "A solution that changes colour at the equivalence point",
+    "A solution whose concentration is accurately known",
+    "A solution with a concentration of exactly 1.0 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "A standard solution is one whose concentration is known accurately, usually made by dissolving an accurately weighed mass of a pure substance in a volumetric flask. Its concentration can be any value, not only 1.0 mol L\u207b\u00b9. A substance that changes colour is an indicator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0015",
+   "topicId": "chem-analysis",
+   "stem": "Solid sodium hydroxide is not used to make a standard solution by weighing. Why?",
+   "imageRef": null,
+   "options": [
+    "Its molar mass is too large for small amounts of it to be weighed accurately",
+    "It reacts too slowly with acids for a sharp end point to be seen in a titration",
+    "It absorbs water and carbon dioxide from the air, so its measured mass is not reliable",
+    "It is a strong base that ionises completely, so its solutions are too concentrated"
+   ],
+   "correctIndex": 2,
+   "explanation": "To make a standard solution the mass weighed must be all the pure compound. Sodium hydroxide takes up water and reacts with CO\u2082 from the air, so a weighed sample is not pure NaOH. Its molar mass, 40.0 g mol\u207b\u00b9, is small, and it reacts rapidly with acids.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0016",
+   "topicId": "chem-analysis",
+   "stem": "What volume of 2.00 mol L\u207b\u00b9 hydrochloric acid is needed to make 500 mL of 0.100 mol L\u207b\u00b9 hydrochloric acid?",
+   "imageRef": null,
+   "options": [
+    "10.0 mL",
+    "100 mL",
+    "250 mL",
+    "25.0 mL"
+   ],
+   "correctIndex": 3,
+   "explanation": "The amount of HCl does not change on dilution, so c\u2081V\u2081 = c\u2082V\u2082: V\u2081 = 0.100 \u00d7 500 \u00f7 2.00 = 25.0 mL. That 25.0 mL is made up to 500 mL with water in a volumetric flask.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0017",
+   "topicId": "chem-analysis",
+   "stem": "A 25.00 mL aliquot of sodium hydroxide solution is titrated with 0.100 mol L\u207b\u00b9 hydrochloric acid. The average titre is 20.00 mL. What is the concentration of the sodium hydroxide?",
+   "imageRef": null,
+   "options": [
+    "0.0500 mol L\u207b\u00b9",
+    "0.0800 mol L\u207b\u00b9",
+    "0.125 mol L\u207b\u00b9",
+    "0.100 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "n(HCl) = 0.100 \u00d7 0.02000 = 0.00200 mol, and the ratio is 1 : 1, so n(NaOH) = 0.00200 mol. c(NaOH) = 0.00200 \u00f7 0.02500 = 0.0800 mol L\u207b\u00b9. 0.125 comes from swapping the two volumes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0018",
+   "topicId": "chem-analysis",
+   "stem": "A 20.00 mL aliquot of sulfuric acid is titrated with 0.150 mol L\u207b\u00b9 sodium hydroxide, and the titre is 24.00 mL. What is the concentration of the sulfuric acid?",
+   "imageRef": null,
+   "options": [
+    "0.180 mol L\u207b\u00b9",
+    "0.0450 mol L\u207b\u00b9",
+    "0.125 mol L\u207b\u00b9",
+    "0.0900 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "n(NaOH) = 0.150 \u00d7 0.02400 = 0.00360 mol. From H\u2082SO\u2084 + 2NaOH \u2192 Na\u2082SO\u2084 + 2H\u2082O, n(H\u2082SO\u2084) = 0.00360 \u00f7 2 = 0.00180 mol, so c = 0.00180 \u00f7 0.02000 = 0.0900 mol L\u207b\u00b9. 0.180 forgets that sulfuric acid is diprotic.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0019",
+   "topicId": "chem-analysis",
+   "stem": "10.00 mL of vinegar was diluted to 100.0 mL. A 25.00 mL aliquot of the diluted solution needed 21.00 mL of 0.100 mol L\u207b\u00b9 NaOH. What is the ethanoic acid concentration of the original vinegar?",
+   "imageRef": null,
+   "options": [
+    "8.40 mol L\u207b\u00b9",
+    "0.840 mol L\u207b\u00b9",
+    "0.0840 mol L\u207b\u00b9",
+    "0.210 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "n(NaOH) = 0.100 \u00d7 0.02100 = 0.00210 mol = n(CH\u2083COOH) in the aliquot, so the diluted solution is 0.00210 \u00f7 0.02500 = 0.0840 mol L\u207b\u00b9. The vinegar was diluted tenfold, so the original is 0.840 mol L\u207b\u00b9. 0.0840 is the diluted concentration.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0020",
+   "topicId": "chem-analysis",
+   "stem": "Before a titration, the burette should be rinsed with:",
+   "imageRef": null,
+   "options": [
+    "distilled water only, and then filled while it is still wet",
+    "a small volume of the solution that is in the conical flask",
+    "ethanol, so that it dries quickly before it is filled",
+    "a small volume of the solution it is about to be filled with"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rinsing with the solution it will deliver removes water and other residues that would dilute that solution and change its concentration. Leaving the burette wet with distilled water would dilute the titrant, so a larger titre would be needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0021",
+   "topicId": "chem-analysis",
+   "stem": "Why is an indicator added to the conical flask in an acid-base titration?",
+   "imageRef": null,
+   "options": [
+    "It neutralises any excess acid or base left over at the end of the titration",
+    "It makes the solution conduct, so the end point can be detected by a meter",
+    "Its colour change shows the end point, which should match the equivalence point",
+    "It speeds up the reaction between the acid and the base in the flask"
+   ],
+   "correctIndex": 2,
+   "explanation": "An indicator is a weak acid or base whose two forms have different colours, so it changes colour over a small pH range. A suitable indicator changes colour, at the end point, very close to the equivalence point, when the reactants are in their mole ratio. It is used in tiny amounts and is not a catalyst.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0022",
+   "topicId": "chem-analysis",
+   "stem": "A student rinsed the pipette with distilled water before using it to deliver the aliquot of acid being analysed. How will this affect the calculated concentration of the acid?",
+   "imageRef": null,
+   "options": [
+    "It will be too low, because the water reacts with some of the acid in the aliquot",
+    "It will be too low, because the diluted aliquot contained fewer moles of acid",
+    "It will be too high, because the extra water in the aliquot adds to its volume",
+    "It will be unchanged, because water does not react with the base in the burette"
+   ],
+   "correctIndex": 1,
+   "explanation": "Water left in the pipette dilutes the acid, so the 20.00 mL or 25.00 mL delivered contains less acid than it should. A smaller titre is needed, and the calculation, which assumes the full aliquot volume of undiluted acid, gives a concentration that is too low. The water does not react; it simply dilutes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0023",
+   "topicId": "chem-analysis",
+   "stem": "CO\u2082, CH\u2084 and H\u2082O contribute to the greenhouse effect because they:",
+   "imageRef": null,
+   "options": [
+    "react with oxygen and release heat into the air",
+    "absorb infrared radiation emitted by Earth's surface",
+    "absorb ultraviolet radiation and break down ozone",
+    "reflect visible sunlight back towards space"
+   ],
+   "correctIndex": 1,
+   "explanation": "Earth's surface emits infrared radiation, and these gases absorb it and re-emit it in all directions, including back towards the surface, which warms the lower atmosphere. Reflecting sunlight to space would cool Earth, and ozone breakdown is a separate issue involving ultraviolet light.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0024",
+   "topicId": "chem-analysis",
+   "stem": "What is the enhanced greenhouse effect?",
+   "imageRef": null,
+   "options": [
+    "The natural warming of Earth by water vapour alone, without any carbon dioxide",
+    "The cooling of Earth that happens when greenhouse gas levels fall below normal",
+    "The extra warming caused by human-driven increases in greenhouse gas concentrations",
+    "The warming caused by gases that absorb ultraviolet radiation in the upper atmosphere"
+   ],
+   "correctIndex": 2,
+   "explanation": "The natural greenhouse effect keeps Earth warm enough for life. Human activities such as burning fossil fuels and agriculture have raised the concentrations of CO\u2082 and CH\u2084, so more infrared radiation is absorbed and extra warming results. Greenhouse gases act by absorbing infrared, not ultraviolet, radiation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0025",
+   "topicId": "chem-analysis",
+   "stem": "What are standard laboratory conditions (SLC)?",
+   "imageRef": null,
+   "options": [
+    "0 \u00b0C and 101.3 kPa",
+    "25 \u00b0C and 101.3 kPa",
+    "0 \u00b0C and 100 kPa",
+    "25 \u00b0C and 100 kPa"
+   ],
+   "correctIndex": 3,
+   "explanation": "SLC are 25 \u00b0C (298 K) and 100 kPa, and under these conditions one mole of any gas occupies 24.8 L. 101.3 kPa is one atmosphere, which is not part of the definition of SLC.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0026",
+   "topicId": "chem-analysis",
+   "stem": "Gas pressure is caused by:",
+   "imageRef": null,
+   "options": [
+    "the weight of the container pressing down on the gas",
+    "gas particles reacting chemically with the container walls",
+    "gas particles colliding with the walls of their container",
+    "gas particles attracting each other strongly as they move"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pressure is force per unit area. Gas particles move rapidly and randomly and exert a force each time they strike a surface, so more frequent or more energetic collisions mean higher pressure. Attractions between gas particles are very weak.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0027",
+   "topicId": "chem-analysis",
+   "stem": "A gas has a pressure of 1.50 atm. What is this pressure in kPa?",
+   "imageRef": null,
+   "options": [
+    "150 kPa",
+    "152 kPa",
+    "1.52 kPa",
+    "67.5 kPa"
+   ],
+   "correctIndex": 1,
+   "explanation": "1 atm = 101.3 kPa, so 1.50 \u00d7 101.3 = 152 kPa. 150 kPa wrongly takes 1 atm as 100 kPa, and 67.5 kPa divides instead of multiplying.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0028",
+   "topicId": "chem-analysis",
+   "stem": "What amount of gas occupies 2.00 L at 100 kPa and 27 \u00b0C?",
+   "imageRef": null,
+   "options": [
+    "0.0802 mol",
+    "0.891 mol",
+    "80.2 mol",
+    "0.0241 mol"
+   ],
+   "correctIndex": 0,
+   "explanation": "n = pV \u00f7 RT, with T = 27 + 273 = 300 K: n = (100 \u00d7 2.00) \u00f7 (8.31 \u00d7 300) = 200 \u00f7 2493 = 0.0802 mol. Using 27 instead of 300 K gives 0.891 mol, and using pressure in Pa with volume in L gives 80.2 mol.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0029",
+   "topicId": "chem-analysis",
+   "stem": "What volume does 0.500 mol of nitrogen gas occupy at 200 kPa and 127 \u00b0C?",
+   "imageRef": null,
+   "options": [
+    "2.64 L",
+    "8310 L",
+    "4.16 L",
+    "8.31 L"
+   ],
+   "correctIndex": 3,
+   "explanation": "V = nRT \u00f7 p, with T = 127 + 273 = 400 K: V = (0.500 \u00d7 8.31 \u00d7 400) \u00f7 200 = 8.31 L. Using 127 instead of 400 K gives 2.64 L, and 8310 confuses litres with millilitres.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0030",
+   "topicId": "chem-analysis",
+   "stem": "Calcium carbonate reacts with excess hydrochloric acid: CaCO\u2083(s) + 2HCl(aq) \u2192 CaCl\u2082(aq) + H\u2082O(l) + CO\u2082(g). What volume of CO\u2082 at SLC is produced from 0.200 mol of CaCO\u2083?",
+   "imageRef": null,
+   "options": [
+    "24.8 L",
+    "9.92 L",
+    "0.00806 L",
+    "4.96 L"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mole ratio CaCO\u2083 : CO\u2082 is 1 : 1, so 0.200 mol of CO\u2082 forms, and V = n \u00d7 Vm = 0.200 \u00d7 24.8 = 4.96 L. 9.92 L wrongly uses the 2 from the HCl, and 24.8 L is the volume of one whole mole.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0031",
+   "topicId": "chem-analysis",
+   "stem": "Magnesium reacts with excess hydrochloric acid: Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g). What mass of magnesium produces 2.48 L of hydrogen gas at SLC?",
+   "imageRef": null,
+   "options": [
+    "2.43 g",
+    "4.86 g",
+    "1.22 g",
+    "60.3 g"
+   ],
+   "correctIndex": 0,
+   "explanation": "n(H\u2082) = 2.48 \u00f7 24.8 = 0.100 mol. The ratio Mg : H\u2082 is 1 : 1, so n(Mg) = 0.100 mol and m = 0.100 \u00d7 24.3 = 2.43 g. 4.86 g doubles the amount using the coefficient of HCl, and 60.3 g multiplies the volume by the molar mass.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0032",
+   "topicId": "chem-analysis",
+   "stem": "Methane burns according to CH\u2084(g) + 2O\u2082(g) \u2192 CO\u2082(g) + 2H\u2082O(g). What volume of oxygen is needed to burn 5.0 L of methane, with both gases at the same temperature and pressure?",
+   "imageRef": null,
+   "options": [
+    "2.5 L",
+    "15 L",
+    "10 L",
+    "5.0 L"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the same temperature and pressure, equal volumes of gases contain equal amounts in mol, so volumes react in the same ratio as the coefficients. Two volumes of oxygen are needed for each volume of methane: 2 \u00d7 5.0 = 10 L. 2.5 L inverts the ratio.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0033",
+   "topicId": "chem-analysis",
+   "stem": "A reaction produced 0.00400 mol of gas, which occupied 99.2 mL at SLC. What molar volume does this result give?",
+   "imageRef": null,
+   "options": [
+    "0.0403 L mol\u207b\u00b9",
+    "0.397 L mol\u207b\u00b9",
+    "24 800 L mol\u207b\u00b9",
+    "24.8 L mol\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Molar volume = V \u00f7 n = 0.0992 L \u00f7 0.00400 mol = 24.8 L mol\u207b\u00b9, which agrees with the value at SLC. Leaving the volume in millilitres gives 24 800, and dividing n by V gives 0.0403.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0034",
+   "topicId": "chem-analysis",
+   "stem": "A 0.640 g sample of an unknown gas occupies 496 mL at SLC. What is its molar mass?",
+   "imageRef": null,
+   "options": [
+    "0.0313 g mol\u207b\u00b9",
+    "16.0 g mol\u207b\u00b9",
+    "12.8 g mol\u207b\u00b9",
+    "32.0 g mol\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "n = 0.496 \u00f7 24.8 = 0.0200 mol, and M = m \u00f7 n = 0.640 \u00f7 0.0200 = 32.0 g mol\u207b\u00b9, which fits oxygen gas, O\u2082. 0.0313 comes from dividing the amount by the mass, and 16.0 is half the correct value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0035",
+   "topicId": "chem-analysis",
+   "stem": "Why can electrical conductivity be used to estimate the salinity of a water sample?",
+   "imageRef": null,
+   "options": [
+    "Dissolved salts release ions, and more ions make the water conduct better",
+    "Salt molecules carry delocalised electrons that move through the water",
+    "Pure water conducts strongly, and dissolved salt reduces how well it conducts",
+    "Dissolved salt lowers the pH, and the conductivity meter detects the pH"
+   ],
+   "correctIndex": 0,
+   "explanation": "Salts dissociate into ions in water, and these mobile ions carry the current, so conductivity rises with the concentration of dissolved salts. Pure water conducts very poorly. Ionic compounds release ions, not delocalised electrons, and a conductivity meter does not measure pH.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0036",
+   "topicId": "chem-analysis",
+   "stem": "Which is a likely source of heavy metal ions, such as lead and cadmium, in soil or water?",
+   "imageRef": null,
+   "options": [
+    "Carbon dioxide dissolving from the air",
+    "Leaves decomposing on the forest floor",
+    "Rain falling on clean quartz sand",
+    "Run-off from mine sites and industrial waste"
+   ],
+   "correctIndex": 3,
+   "explanation": "Heavy metals are released when ores are mined and processed and when industrial wastes are discharged, and they can then leach into soil and waterways. Carbon dioxide and decomposing leaves contain no heavy metals, and quartz is silicon dioxide.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0037",
+   "topicId": "chem-analysis",
+   "stem": "A 2.50 g sample of hydrated copper(II) sulfate, CuSO\u2084.xH\u2082O, is heated to constant mass, leaving 1.60 g of anhydrous CuSO\u2084. What is the value of x?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "5",
+    "3",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Mass of water lost = 2.50 \u2212 1.60 = 0.90 g, so n(H\u2082O) = 0.90 \u00f7 18.0 = 0.050 mol. n(CuSO\u2084) = 1.60 \u00f7 159.6 = 0.0100 mol, and 0.050 \u00f7 0.0100 = 5, so the formula is CuSO\u2084.5H\u2082O. Using the hydrated mass, 2.50 g, as if it were all CuSO\u2084 gives about 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0038",
+   "topicId": "chem-analysis",
+   "stem": "When finding the water of hydration of a salt, why is the sample heated to constant mass?",
+   "imageRef": null,
+   "options": [
+    "To let the sample cool evenly before it is weighed each time",
+    "To make sure all of the water of crystallisation has been driven off",
+    "To make the salt react with oxygen so that its mass increases",
+    "To decompose the salt completely into the elements it contains"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each heating drives off more water, so the mass keeps falling until no water is left. Two equal masses in a row show that all the water has gone, so the mass lost is all water. If water remained, x would come out too small.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0039",
+   "topicId": "chem-analysis",
+   "stem": "Excess silver nitrate solution is added to a solution containing 0.0500 mol of sodium chloride. What mass of silver chloride precipitates?",
+   "imageRef": null,
+   "options": [
+    "2.93 g",
+    "14.3 g",
+    "8.49 g",
+    "7.17 g"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ag+(aq) + Cl\u2212(aq) \u2192 AgCl(s), so 0.0500 mol of chloride gives 0.0500 mol of AgCl. M(AgCl) = 107.9 + 35.5 = 143.4 g mol\u207b\u00b9, and 0.0500 \u00d7 143.4 = 7.17 g. 2.93 g is the mass of the sodium chloride, not the precipitate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0040",
+   "topicId": "chem-analysis",
+   "stem": "The sulfate in a 50.0 mL water sample is precipitated as barium sulfate, and 0.233 g of dry BaSO\u2084 is collected. What was the sulfate concentration in mol L\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "2.00 \u00d7 10\u207b\u2075 mol L\u207b\u00b9",
+    "0.0200 mol L\u207b\u00b9",
+    "0.00100 mol L\u207b\u00b9",
+    "0.0485 mol L\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "M(BaSO\u2084) = 137.3 + 32.1 + 4 \u00d7 16.0 = 233.4 g mol\u207b\u00b9, so n = 0.233 \u00f7 233.4 = 0.00100 mol, which is also the amount of sulfate. c = 0.00100 \u00f7 0.0500 = 0.0200 mol L\u207b\u00b9. 0.00100 is the amount in mol, and 0.0485 uses the molar mass of sulfate instead of barium sulfate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0041",
+   "topicId": "chem-analysis",
+   "stem": "Calcium carbonate decomposes on heating: CaCO\u2083(s) \u2192 CaO(s) + CO\u2082(g). What mass of carbon dioxide is produced from 10.0 g of calcium carbonate?",
+   "imageRef": null,
+   "options": [
+    "5.60 g",
+    "2.20 g",
+    "4.40 g",
+    "10.0 g"
+   ],
+   "correctIndex": 2,
+   "explanation": "M(CaCO\u2083) = 40.1 + 12.0 + 48.0 = 100.1 g mol\u207b\u00b9, so n = 10.0 \u00f7 100.1 = 0.0999 mol. One mol of CO\u2082 forms per mol of CaCO\u2083, so m = 0.0999 \u00d7 44.0 = 4.40 g. 5.60 g is the mass of calcium oxide left behind.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0042",
+   "topicId": "chem-analysis",
+   "stem": "In colorimetry, why is a calibration curve prepared?",
+   "imageRef": null,
+   "options": [
+    "To remove any impurities from the unknown sample before it is measured",
+    "To relate absorbance to concentration using standards of known concentration",
+    "To find the wavelength at which the solvent itself absorbs most strongly",
+    "To compare the colour of the unknown sample with the standards by eye"
+   ],
+   "correctIndex": 1,
+   "explanation": "Standards of known concentration are measured and their absorbances plotted against concentration. The unknown's absorbance is then read off this line to find its concentration. The instrument measures absorbance, so no judgement of colour by eye is needed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0043",
+   "topicId": "chem-analysis",
+   "stem": "Iron standards of 0, 2.0, 4.0 and 6.0 mg L\u207b\u00b9 gave absorbances of 0.00, 0.15, 0.30 and 0.45. A water sample, treated in the same way, had an absorbance of 0.24. What is its iron concentration?",
+   "imageRef": null,
+   "options": [
+    "3.2 mg L\u207b\u00b9",
+    "2.4 mg L\u207b\u00b9",
+    "4.8 mg L\u207b\u00b9",
+    "1.8 mg L\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The absorbance rises by 0.075 for each 1.0 mg L\u207b\u00b9, so 0.24 \u00f7 0.075 = 3.2 mg L\u207b\u00b9. This lies between the 2.0 and 4.0 mg L\u207b\u00b9 standards, as its absorbance lies between 0.15 and 0.30.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0044",
+   "topicId": "chem-analysis",
+   "stem": "The absorbance of a sample is higher than that of the most concentrated standard on the calibration curve. What should the analyst do?",
+   "imageRef": null,
+   "options": [
+    "Report the concentration of the most concentrated standard as the result",
+    "Dilute the sample by a known factor so that its absorbance falls within the standards",
+    "Extend the calibration line beyond the standards and read the concentration from it",
+    "Change to a wavelength at which the coloured species absorbs more strongly"
+   ],
+   "correctIndex": 1,
+   "explanation": "A calibration curve is reliable only over the range of the standards, and the relationship may not stay linear beyond it. Diluting by a known factor brings the absorbance into range, and the result is multiplied by that factor. A wavelength of stronger absorption would raise the absorbance further.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-analysis-0045",
+   "topicId": "chem-analysis",
+   "stem": "In UV-visible spectroscopy, why is the analysis done at the wavelength that the coloured species absorbs most strongly?",
+   "imageRef": null,
+   "options": [
+    "It is the wavelength that the solution transmits most, so the detector reads it easily",
+    "It is the colour that the solution appears to the eye, so it matches the visible colour",
+    "At that wavelength the absorbance stays the same whatever the concentration",
+    "Absorbance changes most with concentration there, so the measurement is most sensitive"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the absorption maximum each change in concentration gives the largest change in absorbance, so small differences can be detected. A solution appears the colour it transmits, which is roughly the complement of the colour it absorbs most.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-analysis-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

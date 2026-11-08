@@ -1,0 +1,860 @@
+{
+ "topicId": "gm-regression-time-series",
+ "questions": [
+  {
+   "id": "gm-regression-time-series-0001",
+   "topicId": "gm-regression-time-series",
+   "stem": "For the least squares line y = a + bx, the slope b can be calculated as:",
+   "imageRef": null,
+   "options": [
+    "b = r\u00b2 \u00d7 s(y) \u00f7 s(x)",
+    "b = r \u00d7 s(y) \u00f7 s(x)",
+    "b = r \u00d7 s(x) \u00f7 s(y)",
+    "b = s(y) \u00f7 s(x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The slope is r multiplied by the ratio of the standard deviations, with the response variable\u2019s on top. Inverting the ratio uses s(x) \u00f7 s(y), which is the slope of a different line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0002",
+   "topicId": "gm-regression-time-series",
+   "stem": "A residual is calculated as:",
+   "imageRef": null,
+   "options": [
+    "predicted value \u2212 mean value",
+    "actual value \u2212 predicted value",
+    "predicted value \u2212 actual value",
+    "actual value \u00f7 predicted value"
+   ],
+   "correctIndex": 1,
+   "explanation": "Residual = actual \u2212 predicted, so a point above the least squares line has a positive residual. Subtracting the other way round reverses every sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0003",
+   "topicId": "gm-regression-time-series",
+   "stem": "Using a least squares line to make a prediction outside the range of the data is called:",
+   "imageRef": null,
+   "options": [
+    "smoothing",
+    "extrapolation",
+    "interpolation",
+    "standardisation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Extrapolation predicts beyond the data, where the linear pattern may not continue, so it is less reliable. Interpolation predicts within the range of the data.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0004",
+   "topicId": "gm-regression-time-series",
+   "stem": "The coefficient of determination, r\u00b2, gives:",
+   "imageRef": null,
+   "options": [
+    "the proportion of the data points that lie exactly on the least squares line",
+    "the strength and direction of the linear association between the variables",
+    "the average size of the residuals as a proportion of the response variable",
+    "the proportion of variation in the response variable explained by the explanatory variable"
+   ],
+   "correctIndex": 3,
+   "explanation": "r\u00b2 tells us how much of the variation in the response variable is explained by the variation in the explanatory variable. The direction of the association comes from r, not r\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0005",
+   "topicId": "gm-regression-time-series",
+   "stem": "A residual plot shows the residuals scattered randomly about zero with no clear pattern. This indicates that:",
+   "imageRef": null,
+   "options": [
+    "a data transformation is needed for the data",
+    "there is no association between the variables",
+    "the correlation coefficient must be close to 1",
+    "a linear model is appropriate for the data"
+   ],
+   "correctIndex": 3,
+   "explanation": "Random scatter in the residual plot supports the assumption of linearity. A clear curved pattern would suggest the data are non-linear and need a transformation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0006",
+   "topicId": "gm-regression-time-series",
+   "stem": "In a time series, seasonality refers to:",
+   "imageRef": null,
+   "options": [
+    "unsystematic, short-term fluctuations in the data",
+    "a sudden change in the level of the series",
+    "systematic movements that repeat with the calendar",
+    "the long-term increase or decrease in the data"
+   ],
+   "correctIndex": 2,
+   "explanation": "Seasonality is a regular, calendar-related pattern, such as higher sales every December. The long-term direction is the trend, and unpredictable short-term changes are irregular fluctuations.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0007",
+   "topicId": "gm-regression-time-series",
+   "stem": "A sudden, lasting jump in the level of a time series, such as after a new road opens, is a sign of:",
+   "imageRef": null,
+   "options": [
+    "seasonality",
+    "an irregular fluctuation",
+    "a positive trend",
+    "structural change"
+   ],
+   "correctIndex": 3,
+   "explanation": "A structural change is a discontinuity: the series shifts to a new level and stays there. An irregular fluctuation is short-term and does not persist.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0008",
+   "topicId": "gm-regression-time-series",
+   "stem": "A seasonal index of 1.2 for summer means that summer figures are typically:",
+   "imageRef": null,
+   "options": [
+    "20% below the average for a season",
+    "120% above the average for a season",
+    "20% above the average for a season",
+    "1.2% above the average for a season"
+   ],
+   "correctIndex": 2,
+   "explanation": "A seasonal index compares a season with the average season, where 1 is average. An index of 1.2 is 1.2 times the average, which is 20% above it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0009",
+   "topicId": "gm-regression-time-series",
+   "stem": "For quarterly data, the four seasonal indices must add to:",
+   "imageRef": null,
+   "options": [
+    "100",
+    "0",
+    "4",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The seasonal indices average 1, so for four seasons they add to 4. For monthly data they would add to 12.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0010",
+   "topicId": "gm-regression-time-series",
+   "stem": "Deseasonalised figures are calculated using:",
+   "imageRef": null,
+   "options": [
+    "actual figure \u00d7 seasonal index",
+    "actual figure \u2212 seasonal index",
+    "seasonal index \u00f7 actual figure",
+    "actual figure \u00f7 seasonal index"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dividing by the seasonal index removes the seasonal effect. Multiplying by the seasonal index is the reverse step, used to re-seasonalise a forecast.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0011",
+   "topicId": "gm-regression-time-series",
+   "stem": "Moving median smoothing of a time series plot uses:",
+   "imageRef": null,
+   "options": [
+    "an even number of points",
+    "exactly four points",
+    "every point in the series",
+    "an odd number of points"
+   ],
+   "correctIndex": 3,
+   "explanation": "Moving medians are found graphically and use an odd number of points, such as 3 or 5, so a middle point always exists. Moving means can use an even number of points with centring.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0012",
+   "topicId": "gm-regression-time-series",
+   "stem": "When a least squares line is fitted to a time series, the explanatory variable is:",
+   "imageRef": null,
+   "options": [
+    "the residual",
+    "time",
+    "the seasonal index",
+    "the moving mean"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a time series the variable of interest is modelled against time, so time goes on the horizontal axis as the explanatory variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0013",
+   "topicId": "gm-regression-time-series",
+   "stem": "For two variables, r = 0.8, s(x) = 5 and s(y) = 12. The slope of the least squares line of y on x is:",
+   "imageRef": null,
+   "options": [
+    "0.33",
+    "2.40",
+    "0.80",
+    "1.92"
+   ],
+   "correctIndex": 3,
+   "explanation": "b = r \u00d7 s(y) \u00f7 s(x) = 0.8 \u00d7 12 \u00f7 5 = 1.92. Inverting the standard deviations gives 0.8 \u00d7 5 \u00f7 12 \u2248 0.33, and 2.40 forgets to multiply by r.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0014",
+   "topicId": "gm-regression-time-series",
+   "stem": "The least squares line for the weight of a puppy is weight = 2.5 + 0.35 \u00d7 age, with weight in kilograms and age in weeks. The slope means that:",
+   "imageRef": null,
+   "options": [
+    "on average, weight increases by 2.5 kg for each extra week of age",
+    "on average, weight increases by 0.35 kg for each extra week of age",
+    "on average, age increases by 0.35 weeks for each extra kilogram",
+    "a puppy aged 0 weeks has a predicted weight of 0.35 kg"
+   ],
+   "correctIndex": 1,
+   "explanation": "The slope is the average change in the response variable (weight) for each one-unit increase in the explanatory variable (age). 2.5 kg is the intercept, the predicted weight at age 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0015",
+   "topicId": "gm-regression-time-series",
+   "stem": "The least squares line for the price of a used car is price = 21 000 \u2212 1500 \u00d7 age, with age in years. The intercept means that:",
+   "imageRef": null,
+   "options": [
+    "a car aged 1 year has a predicted price of $21 000",
+    "a new car (age 0) has a predicted price of $21 000",
+    "the price falls by $21 000 for each year of age",
+    "a car is predicted to be worth $0 at 21 years"
+   ],
+   "correctIndex": 1,
+   "explanation": "The intercept is the predicted response when the explanatory variable is zero, here a car of age 0. A car aged 1 year has a predicted price of 21 000 \u2212 1500 = $19 500.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0016",
+   "topicId": "gm-regression-time-series",
+   "stem": "The value of a phone is modelled by value = 900 \u2212 160 \u00d7 age, with age in years. The predicted value of a phone aged 2.5 years is:",
+   "imageRef": null,
+   "options": [
+    "$740",
+    "$2150",
+    "$500",
+    "$400"
+   ],
+   "correctIndex": 2,
+   "explanation": "value = 900 \u2212 160 \u00d7 2.5 = 900 \u2212 400 = $500. The value $400 is the depreciation over 2.5 years, not the remaining value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0017",
+   "topicId": "gm-regression-time-series",
+   "stem": "A model predicts that a house will sell for $620 000. It sells for $645 000. The residual is:",
+   "imageRef": null,
+   "options": [
+    "+$1 265 000",
+    "+$25 000",
+    "\u2212$25 000",
+    "$645 000"
+   ],
+   "correctIndex": 1,
+   "explanation": "Residual = actual \u2212 predicted = 645 000 \u2212 620 000 = +$25 000. The positive value shows the actual price lies above the least squares line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0018",
+   "topicId": "gm-regression-time-series",
+   "stem": "For the association between temperature and electricity use, r = \u22120.9. The percentage of the variation in electricity use explained by the variation in temperature is:",
+   "imageRef": null,
+   "options": [
+    "81%",
+    "90%",
+    "\u221281%",
+    "19%"
+   ],
+   "correctIndex": 0,
+   "explanation": "r\u00b2 = (\u22120.9)\u00b2 = 0.81, so 81% of the variation is explained. A proportion of variation cannot be negative, and 19% is the variation not explained.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0019",
+   "topicId": "gm-regression-time-series",
+   "stem": "The least squares line y = 12 + 3x is fitted to data in which the mean of the x values is 5. The mean of the y values is:",
+   "imageRef": null,
+   "options": [
+    "17",
+    "15",
+    "36",
+    "27"
+   ],
+   "correctIndex": 3,
+   "explanation": "The least squares line always passes through the point (mean of x, mean of y), so the mean of y is 12 + 3 \u00d7 5 = 27. Adding 5 to 12 to get 17 forgets the slope.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0020",
+   "topicId": "gm-regression-time-series",
+   "stem": "A residual plot from a linear model shows a clear curved (U-shaped) pattern. The best conclusion is that:",
+   "imageRef": null,
+   "options": [
+    "there is no association between the variables at all",
+    "the association is non-linear, so a transformation should be tried",
+    "the association is linear, so the model is appropriate",
+    "the association is non-linear, so r\u00b2 must be close to 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "A pattern in the residuals means the linear model is consistently missing in a systematic way, so the data are non-linear. r\u00b2 can still be high for curved data, which is why the residual plot is checked.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0021",
+   "topicId": "gm-regression-time-series",
+   "stem": "A scatterplot shows y increasing with x but levelling off (concave down). A transformation that could linearise the data is:",
+   "imageRef": null,
+   "options": [
+    "a log transformation applied to x",
+    "a squared transformation applied to x",
+    "a log transformation applied to y",
+    "a reciprocal transformation applied to y"
+   ],
+   "correctIndex": 0,
+   "explanation": "Data that rise and flatten out need the larger x values compressed, which log x (or 1/x) does. Squaring x, or taking log y or 1/y, makes this curve bend further from a straight line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0022",
+   "topicId": "gm-regression-time-series",
+   "stem": "A scatterplot shows y increasing with x at an increasing rate (concave up). A transformation that could linearise the data is:",
+   "imageRef": null,
+   "options": [
+    "a reciprocal transformation applied to x",
+    "a squared transformation applied to y",
+    "a squared transformation applied to x",
+    "a log transformation applied to x"
+   ],
+   "correctIndex": 2,
+   "explanation": "For an increasing, concave-up pattern, x\u00b2 stretches the larger x values so the points straighten (log y or 1/y would also work). log x, 1/x and y\u00b2 all suit the opposite curvature.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0023",
+   "topicId": "gm-regression-time-series",
+   "stem": "After a log transformation, the least squares line is y = 2.1 + 3.5 \u00d7 log(x), using log base 10. When x = 100, the predicted value of y is:",
+   "imageRef": null,
+   "options": [
+    "5.6",
+    "7.0",
+    "9.1",
+    "352.1"
+   ],
+   "correctIndex": 2,
+   "explanation": "log(100) = 2, so y = 2.1 + 3.5 \u00d7 2 = 9.1. Substituting 100 directly, without taking the log, gives 352.1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0024",
+   "topicId": "gm-regression-time-series",
+   "stem": "After a reciprocal transformation, the least squares line is time = 5 + 120 \u00d7 (1/speed). For a speed of 40, the predicted time is:",
+   "imageRef": null,
+   "options": [
+    "5.3",
+    "8",
+    "4805",
+    "125"
+   ],
+   "correctIndex": 1,
+   "explanation": "1/speed = 1/40 = 0.025, so time = 5 + 120 \u00d7 0.025 = 5 + 3 = 8. Multiplying 120 by 40 instead of by 1/40 gives 4805.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0025",
+   "topicId": "gm-regression-time-series",
+   "stem": "The equation y\u00b2 = 4 + 3x is fitted to transformed data, and y is positive. When x = 20, the predicted value of y is:",
+   "imageRef": null,
+   "options": [
+    "32",
+    "\u221a20",
+    "8",
+    "64"
+   ],
+   "correctIndex": 2,
+   "explanation": "y\u00b2 = 4 + 3 \u00d7 20 = 64, and y is positive, so y = \u221a64 = 8. Stopping at 64 forgets that the equation predicts y\u00b2, not y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0026",
+   "topicId": "gm-regression-time-series",
+   "stem": "Weekly sales for four weeks are 12, 15, 21 and 18. The three-point moving mean for the second week is:",
+   "imageRef": null,
+   "options": [
+    "15",
+    "14",
+    "16",
+    "18"
+   ],
+   "correctIndex": 2,
+   "explanation": "The three-point moving mean for week 2 averages weeks 1, 2 and 3: (12 + 15 + 21) \u00f7 3 = 16. Averaging weeks 2, 3 and 4 gives 18, which belongs to week 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0027",
+   "topicId": "gm-regression-time-series",
+   "stem": "Five consecutive monthly values are 14, 18, 11, 20 and 22. The five-point moving mean centred on the third month is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "16.4",
+    "17",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "The five-point moving mean averages all five values centred on month 3: (14 + 18 + 11 + 20 + 22) \u00f7 5 = 85 \u00f7 5 = 17. 20 is the five-point median, not the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0028",
+   "topicId": "gm-regression-time-series",
+   "stem": "Five consecutive values are 7, 12, 9, 15 and 10. The five-point moving median centred on the third value is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "10.6",
+    "12",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "In order the values are 7, 9, 10, 12, 15, and the middle one is 10. 9 is the third value in time order rather than the median, and 10.6 is the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0029",
+   "topicId": "gm-regression-time-series",
+   "stem": "Quarterly sales in one year were 80, 100, 140 and 80. The seasonal index for the third quarter, using that year, is:",
+   "imageRef": null,
+   "options": [
+    "1.75",
+    "1.4",
+    "0.4",
+    "1.0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The yearly mean is (80 + 100 + 140 + 80) \u00f7 4 = 100, so the index is 140 \u00f7 100 = 1.4. Dividing 140 by the first-quarter value, 80, gives 1.75.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0030",
+   "topicId": "gm-regression-time-series",
+   "stem": "A surf shop sold $1560 of wetsuits in summer. The summer seasonal index is 1.2. The deseasonalised sales figure is:",
+   "imageRef": null,
+   "options": [
+    "$1248",
+    "$1300",
+    "$1872",
+    "$1559"
+   ],
+   "correctIndex": 1,
+   "explanation": "Deseasonalised figure = actual \u00f7 seasonal index = 1560 \u00f7 1.2 = $1300. Multiplying by 1.2 gives $1872, which adds the seasonal effect a second time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0031",
+   "topicId": "gm-regression-time-series",
+   "stem": "A trend line gives a deseasonalised forecast of 500 visitors for winter. The winter seasonal index is 0.8. The re-seasonalised forecast is:",
+   "imageRef": null,
+   "options": [
+    "420",
+    "400",
+    "625",
+    "500"
+   ],
+   "correctIndex": 1,
+   "explanation": "To re-seasonalise, multiply by the seasonal index: 500 \u00d7 0.8 = 400. Dividing by 0.8 gives 625, which is the step used to deseasonalise.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0032",
+   "topicId": "gm-regression-time-series",
+   "stem": "The seasonal indices for the first three quarters of a year are 0.9, 1.1 and 1.25. The seasonal index for the fourth quarter is:",
+   "imageRef": null,
+   "options": [
+    "1.08",
+    "0.75",
+    "1.0",
+    "0.25"
+   ],
+   "correctIndex": 1,
+   "explanation": "Quarterly indices add to 4, so the fourth is 4 \u2212 (0.9 + 1.1 + 1.25) = 4 \u2212 3.25 = 0.75. Assuming the remaining index is 1.0 would leave a total of 4.25.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0033",
+   "topicId": "gm-regression-time-series",
+   "stem": "A linear trend is used to forecast a town\u2019s water use 15 years beyond the data. The main limitation of this forecast is that:",
+   "imageRef": null,
+   "options": [
+    "the trend may not continue so far into the future",
+    "a linear trend cannot be used with time series data",
+    "water use is measured on a categorical scale",
+    "the forecast would need to be multiplied by r\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "A forecast far beyond the data is extrapolation, and factors such as population growth or water restrictions could change the trend. Linear trend lines are a standard model for time series data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0034",
+   "topicId": "gm-regression-time-series",
+   "stem": "For a least squares line, r\u00b2 = 0.64 and the slope is negative. The correlation coefficient r is:",
+   "imageRef": null,
+   "options": [
+    "0.8",
+    "\u22120.64",
+    "\u22120.41",
+    "\u22120.8"
+   ],
+   "correctIndex": 3,
+   "explanation": "r = \u00b1\u221a0.64 = \u00b10.8, and r takes the sign of the slope, so r = \u22120.8. Writing \u22120.64 forgets to take the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0035",
+   "topicId": "gm-regression-time-series",
+   "stem": "In a study of hours of screen time (x) and hours of sleep (y), the least squares line is y = 9.2 \u2212 0.4x. Which statement is a correct interpretation?",
+   "imageRef": null,
+   "options": [
+    "On average, sleep decreases by 9.2 hours for each extra hour of screen time.",
+    "On average, sleep decreases by 0.4 hours for each extra hour of screen time.",
+    "On average, screen time decreases by 0.4 hours for each extra hour of sleep.",
+    "Each extra hour of screen time causes 0.4 hours less sleep for every person."
+   ],
+   "correctIndex": 1,
+   "explanation": "The slope gives the average change in sleep per hour of screen time. The line describes an association from observed data, so it does not show that screen time causes the change.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0036",
+   "topicId": "gm-regression-time-series",
+   "stem": "For two variables, r = 0.6, s(x) = 4, s(y) = 10, the mean of x is 15 and the mean of y is 40. The intercept of the least squares line of y on x is:",
+   "imageRef": null,
+   "options": [
+    "31",
+    "22.5",
+    "17.5",
+    "62.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "First b = 0.6 \u00d7 10 \u00f7 4 = 1.5, then a = (mean of y) \u2212 b \u00d7 (mean of x) = 40 \u2212 1.5 \u00d7 15 = 17.5. Adding instead of subtracting gives 62.5, and 22.5 is b \u00d7 (mean of x) on its own.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0037",
+   "topicId": "gm-regression-time-series",
+   "stem": "For the association between age (x) and reaction time (y), r\u00b2 = 0.49. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "49% of the variation in reaction time is explained by the variation in age.",
+    "49% of the variation in age is explained by the variation in reaction time.",
+    "70% of the variation in reaction time is explained by the variation in age.",
+    "49% of people have a reaction time that is caused by their age."
+   ],
+   "correctIndex": 0,
+   "explanation": "r\u00b2 describes the variation in the response variable (reaction time) explained by the explanatory variable (age). 70% is r = 0.7, which is not a percentage of variation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0038",
+   "topicId": "gm-regression-time-series",
+   "stem": "After a log transformation, the least squares line is log(y) = 1.2 + 0.3x, using log base 10. When x = 6, the predicted value of y is:",
+   "imageRef": null,
+   "options": [
+    "30",
+    "100",
+    "1000",
+    "3.0"
+   ],
+   "correctIndex": 2,
+   "explanation": "log(y) = 1.2 + 0.3 \u00d7 6 = 3.0, so y = 10\u00b3 = 1000. Stopping at 3.0 gives log(y), not y itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0039",
+   "topicId": "gm-regression-time-series",
+   "stem": "Quarterly values are 20, 28, 36, 24 and 22. The four-point moving mean with centring, for the third quarter, is:",
+   "imageRef": null,
+   "options": [
+    "27",
+    "27.5",
+    "29.33",
+    "27.25"
+   ],
+   "correctIndex": 3,
+   "explanation": "The four-point means are (20 + 28 + 36 + 24) \u00f7 4 = 27 and (28 + 36 + 24 + 22) \u00f7 4 = 27.5, which fall between quarters. Averaging them centres the result on the third quarter: 27.25.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0040",
+   "topicId": "gm-regression-time-series",
+   "stem": "The winter seasonal index for a business is 0.85. To correct winter figures for seasonality, they must be:",
+   "imageRef": null,
+   "options": [
+    "increased by about 18%",
+    "increased by 15%",
+    "decreased by 15%",
+    "increased by 85%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Deseasonalising divides by 0.85, and 1 \u00f7 0.85 \u2248 1.18, an increase of about 18%. Adding 15% would give 0.85 \u00d7 1.15 \u2248 0.98 of the original, not 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0041",
+   "topicId": "gm-regression-time-series",
+   "stem": "Deseasonalised quarterly sales follow the trend line sales = 220 + 15t, where t = 1 is the first quarter. Quarter t = 13 has seasonal index 1.2. The forecast actual sales are:",
+   "imageRef": null,
+   "options": [
+    "498",
+    "415",
+    "346",
+    "427"
+   ],
+   "correctIndex": 0,
+   "explanation": "The trend gives 220 + 15 \u00d7 13 = 415, which is deseasonalised, so multiply by 1.2 to re-seasonalise: 415 \u00d7 1.2 = 498. Dividing by 1.2 gives about 346.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0042",
+   "topicId": "gm-regression-time-series",
+   "stem": "A least squares line relating shoe size to height has r\u00b2 = 0.92. A student says this proves that larger feet cause people to be taller. This is incorrect because:",
+   "imageRef": null,
+   "options": [
+    "a strong association does not establish cause and effect",
+    "r\u00b2 = 0.92 indicates only a weak linear association",
+    "height must be the explanatory variable in any model",
+    "r\u00b2 cannot be calculated for a linear association"
+   ],
+   "correctIndex": 0,
+   "explanation": "r\u00b2 shows how well the line fits, but in observational data both variables can depend on other factors, such as overall body size. r\u00b2 = 0.92 is very high, so the association is strong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0043",
+   "topicId": "gm-regression-time-series",
+   "stem": "A model of exam mark (y) against study hours (x) uses data from 2 to 20 hours. Which prediction is most reliable?",
+   "imageRef": null,
+   "options": [
+    "The mark for a student who studied 12 hours",
+    "The mark for a student who studied 30 hours",
+    "The mark for a student who studied 0 hours",
+    "The mark for a student who studied 45 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "12 hours lies within the range of the data, so the prediction is an interpolation. The others lie outside the range and are extrapolations, where the linear pattern may not hold.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0044",
+   "topicId": "gm-regression-time-series",
+   "stem": "A time series of a store\u2019s monthly ice-cream sales rises each summer and falls each winter, while the summer peaks grow higher each year. The plot shows:",
+   "imageRef": null,
+   "options": [
+    "seasonality with no trend",
+    "an increasing trend with no seasonality",
+    "structural change and irregular fluctuations",
+    "seasonality and an increasing trend"
+   ],
+   "correctIndex": 3,
+   "explanation": "The regular summer and winter pattern is seasonality, and rising peaks show the long-term direction is upward, an increasing trend. Structural change would be a sudden lasting shift in level.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-regression-time-series-0045",
+   "topicId": "gm-regression-time-series",
+   "stem": "Before fitting a trend line to quarterly sales with strong seasonality, the data should be deseasonalised because:",
+   "imageRef": null,
+   "options": [
+    "deseasonalising removes the long-term trend",
+    "a trend line needs seasonal indices above 1",
+    "the seasonal pattern would distort the fitted trend",
+    "seasonal data cannot be plotted against time"
+   ],
+   "correctIndex": 2,
+   "explanation": "Seasonal peaks and troughs can pull the least squares line, so removing them lets the line show the underlying trend. Deseasonalising removes the seasonal effect, not the trend.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-regression-time-series-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "topicId": "phys-music",
+ "questions": [
+  {
+   "id": "phys-music-0001",
+   "topicId": "phys-music",
+   "stem": "Which statement describes sound travelling through air?",
+   "imageRef": null,
+   "options": [
+    "It is an electromagnetic wave that travels through the air at the speed of light",
+    "It is a longitudinal wave of compressions and rarefactions that transfers energy",
+    "It is a transverse wave in which air particles move at right angles to the wave",
+    "It is a stream of air particles carried all the way from the source to the ear"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sound is a mechanical, longitudinal pressure wave: the air is alternately compressed and rarefied as energy passes through it. The air particles themselves only vibrate about their positions; they do not travel from source to ear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0002",
+   "topicId": "phys-music",
+   "stem": "As a sound wave passes through air, what do the air particles do?",
+   "imageRef": null,
+   "options": [
+    "They travel along with the wave, carried from the source all the way to the listener",
+    "They vibrate up and down at right angles to the direction of the wave",
+    "They stay perfectly still while the changes in pressure move through them",
+    "They vibrate back and forth about fixed positions, parallel to the wave\u2019s direction"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a longitudinal wave the particles oscillate along the direction of travel, about their average positions, creating compressions and rarefactions. Energy moves through the air, but the air itself does not flow from the source.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0003",
+   "topicId": "phys-music",
+   "stem": "Which statement correctly distinguishes sound intensity from sound intensity level?",
+   "imageRef": null,
+   "options": [
+    "Intensity is power per unit area, in W m\u207b\u00b2; intensity level is a logarithmic comparison, in dB",
+    "Intensity is a logarithmic comparison, in dB; intensity level is power per unit area, in W m\u207b\u00b2",
+    "Both are the power per unit area, but intensity level is the value at the threshold of hearing",
+    "Intensity is the frequency of a sound in Hz; intensity level is its amplitude in W m\u207b\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sound intensity, I, is the power passing through each square metre, in W m\u207b\u00b2. Sound intensity level, L = 10 log(I/I\u2080), compares that intensity with the threshold of hearing on a logarithmic scale, in decibels.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0004",
+   "topicId": "phys-music",
+   "stem": "The threshold of hearing is I\u2080 = 1.0 \u00d7 10\u207b\u00b9\u00b2 W m\u207b\u00b2. What is the sound intensity level of a sound with exactly this intensity?",
+   "imageRef": null,
+   "options": [
+    "\u221212 dB",
+    "0 dB",
+    "1 dB",
+    "10 dB"
+   ],
+   "correctIndex": 1,
+   "explanation": "L = 10 log(I/I\u2080) = 10 log(1) = 0 dB. A level of 0 dB does not mean no sound; it is the faintest intensity the average ear can detect.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0005",
+   "topicId": "phys-music",
+   "stem": "Using L = 10 log(I/I\u2080) with I\u2080 = 1.0 \u00d7 10\u207b\u00b9\u00b2 W m\u207b\u00b2, what is the sound intensity level of a sound of intensity 1.0 \u00d7 10\u207b\u2075 W m\u207b\u00b2?",
+   "imageRef": null,
+   "options": [
+    "\u221270 dB",
+    "50 dB",
+    "70 dB",
+    "7 dB"
+   ],
+   "correctIndex": 2,
+   "explanation": "I/I\u2080 = 10\u207b\u2075 \u00f7 10\u207b\u00b9\u00b2 = 10\u2077, and 10 log(10\u2077) = 10 \u00d7 7 = 70 dB. Forgetting the factor of 10 gives 7 dB, and inverting the ratio gives \u221270 dB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0006",
+   "topicId": "phys-music",
+   "stem": "The intensity of a sound increases by a factor of 100. By how much does its sound intensity level change?",
+   "imageRef": null,
+   "options": [
+    "It rises by 10 dB",
+    "It rises by 20 dB",
+    "It rises by 100 dB",
+    "It rises by 2 dB"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each factor of 10 in intensity adds 10 dB, so a factor of 100 = 10\u00b2 adds 20 dB. The decibel scale is logarithmic, so it does not rise by the same factor as the intensity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0007",
+   "topicId": "phys-music",
+   "stem": "A rock concert has a sound intensity level of 110 dB and a conversation 60 dB. How many times more intense is the sound at the concert?",
+   "imageRef": null,
+   "options": [
+    "5.0 \u00d7 10\u00b2 times",
+    "1.0 \u00d7 10\u2075 times",
+    "50 times",
+    "1.8 times"
+   ],
+   "correctIndex": 1,
+   "explanation": "The difference is 50 dB, and every 10 dB is a factor of 10 in intensity, so the ratio is 10\u2075, or 100 000. Treating decibels as a linear scale gives 50 times or 1.8 times.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0008",
+   "topicId": "phys-music",
+   "stem": "One speaker produces a sound intensity level of 80 dB at a point. A second, identical speaker is added so that the intensity at the point doubles. What is the new sound intensity level?",
+   "imageRef": null,
+   "options": [
+    "About 80 dB",
+    "About 90 dB",
+    "About 83 dB",
+    "About 160 dB"
+   ],
+   "correctIndex": 2,
+   "explanation": "Doubling the intensity adds 10 log(2) \u2248 3 dB, giving about 83 dB. Adding the two levels to get 160 dB treats decibels as if they add like intensities. A rise of 10 dB would need ten times the intensity.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0009",
+   "topicId": "phys-music",
+   "stem": "At 2.0 m from a small source, the sound intensity is 8.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2. Ignoring reflections, what is the intensity at 4.0 m?",
+   "imageRef": null,
+   "options": [
+    "4.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2",
+    "1.6 \u00d7 10\u207b\u00b2 W m\u207b\u00b2",
+    "3.2 \u00d7 10\u207b\u00b2 W m\u207b\u00b2",
+    "2.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the inverse square law, I \u221d 1/r\u00b2, so doubling the distance divides the intensity by 2\u00b2 = 4: 8.0 \u00d7 10\u207b\u00b3 \u00f7 4 = 2.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2. Halving it would be an inverse, not inverse square, relationship.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0010",
+   "topicId": "phys-music",
+   "stem": "A small source gives a sound intensity level of 90 dB at 1.0 m. Ignoring reflections and absorption, what is the level at 10 m?",
+   "imageRef": null,
+   "options": [
+    "9 dB",
+    "80 dB",
+    "0.9 dB",
+    "70 dB"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ten times the distance gives 1/10\u00b2 = 1/100 of the intensity, and a factor of 100 is 20 dB, so the level falls to 90 \u2212 20 = 70 dB. Dividing 90 dB by 10 treats decibels as proportional to intensity.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0011",
+   "topicId": "phys-music",
+   "stem": "A small source radiates 0.40 W of sound power equally in all directions. Using I = P/(4\u03c0r\u00b2), what is the intensity 2.0 m away?",
+   "imageRef": null,
+   "options": [
+    "1.6 \u00d7 10\u207b\u00b2 W m\u207b\u00b2",
+    "3.2 \u00d7 10\u207b\u00b2 W m\u207b\u00b2",
+    "8.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2",
+    "0.10 W m\u207b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The power spreads over a sphere of area 4\u03c0r\u00b2 = 4\u03c0 \u00d7 2.0\u00b2 \u2248 50 m\u00b2, so I = 0.40 \u00f7 50 \u2248 8.0 \u00d7 10\u207b\u00b3 W m\u207b\u00b2. Using r instead of r\u00b2 gives 1.6 \u00d7 10\u207b\u00b2, and leaving out the 4\u03c0 gives 0.10.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0012",
+   "topicId": "phys-music",
+   "stem": "Middle C on a piano is about 262 Hz. Taking the speed of sound as 340 m s\u207b\u00b9, what is its wavelength in air?",
+   "imageRef": null,
+   "options": [
+    "1.3 m",
+    "0.77 m",
+    "8.9 \u00d7 10\u2074 m",
+    "602 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03bb = v/f = 340 \u00f7 262 \u2248 1.3 m. Dividing f by v gives 0.77, and multiplying them gives an impossibly long wavelength.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0013",
+   "topicId": "phys-music",
+   "stem": "When does resonance occur?",
+   "imageRef": null,
+   "options": [
+    "When a sound reflects from a wall and returns to its source as an echo",
+    "When an object is driven at its natural frequency, so its amplitude becomes large",
+    "When an object vibrates at twice the frequency of the force driving it",
+    "When two sounds of slightly different frequency cancel each other out completely"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every object has natural frequencies at which it vibrates most readily. A periodic force at one of these frequencies adds energy in step with the motion, so the amplitude builds up. That is resonance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0014",
+   "topicId": "phys-music",
+   "stem": "A singer shatters a wine glass by holding a particular note. Which is the best explanation?",
+   "imageRef": null,
+   "options": [
+    "The note\u2019s high frequency makes sound travel much faster through the glass than the air",
+    "The note cancels out the glass\u2019s own vibration, so the glass collapses inward",
+    "The note\u2019s pressure wave heats the glass steadily until it cracks from the heat",
+    "The note matches the glass\u2019s natural frequency, so its vibrations build up until it breaks"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the glass\u2019s natural frequency, each pressure push arrives in step with its vibration, so energy accumulates and the amplitude grows until the glass fractures. A note slightly off that frequency does not build up the same way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0015",
+   "topicId": "phys-music",
+   "stem": "A violin and a flute play the same note, at the same loudness. Why do they still sound different?",
+   "imageRef": null,
+   "options": [
+    "Each produces only its fundamental frequency, but the two sounds reach the ear at different speeds",
+    "Each produces a different mix of harmonic strengths, which gives each its own timbre",
+    "The violin\u2019s fundamental frequency for the note is higher than the flute\u2019s fundamental for it",
+    "The sound from the violin travels through the air faster than the sound from the flute"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both instruments have the same fundamental for the same note, but each instrument\u2019s resonances strengthen a different set of higher harmonics. The ear hears that mixture as timbre, or tone colour. All sounds travel through air at the same speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0016",
+   "topicId": "phys-music",
+   "stem": "Which change raises the natural frequency of a guitar string?",
+   "imageRef": null,
+   "options": [
+    "Increasing the tension in the string",
+    "Making the vibrating length longer",
+    "Fitting a thicker, heavier string",
+    "Plucking the string much harder"
+   ],
+   "correctIndex": 0,
+   "explanation": "Greater tension increases the wave speed on the string, and with the same length, and so the same wavelength, the frequency rises. A longer or heavier string lowers the frequency. Plucking harder raises the amplitude and loudness, not the pitch.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0017",
+   "topicId": "phys-music",
+   "stem": "Two bells are made of the same metal and the same shape, but one is much larger. Why does the larger bell sound a lower note?",
+   "imageRef": null,
+   "options": [
+    "Its sound travels more slowly through the air, which lowers the note heard",
+    "Its larger surface absorbs the high frequencies, leaving only the low ones",
+    "Its larger, more massive vibrating parts give it a lower natural frequency",
+    "Its larger size gives it a higher natural frequency, which the ear hears as low"
+   ],
+   "correctIndex": 2,
+   "explanation": "Natural frequency depends on the size, shape and material of an object. A larger bell has longer, heavier vibrating sections, so it vibrates more slowly at a lower natural frequency. Pitch rises with frequency, so a higher frequency would sound higher, not lower.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0018",
+   "topicId": "phys-music",
+   "stem": "A drummer tightens the skin of a drum. What happens to its sound?",
+   "imageRef": null,
+   "options": [
+    "It becomes louder, but its pitch stays exactly the same",
+    "The speed of sound in the air inside the drum increases",
+    "Its natural frequency rises, so it sounds a higher pitch",
+    "Its natural frequency falls, so it sounds a lower pitch"
+   ],
+   "correctIndex": 2,
+   "explanation": "A tighter skin is stiffer, so waves travel across it faster and it vibrates at higher natural frequencies. The drum\u2019s pitch rises. Tension changes the skin, not the speed of sound in the air.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0019",
+   "topicId": "phys-music",
+   "stem": "In a brass instrument such as a trumpet, what starts the vibration?",
+   "imageRef": null,
+   "options": [
+    "A thin cane reed vibrating against the mouthpiece",
+    "Air blown across a sharp edge at the mouthpiece",
+    "A stretched string that is bowed or plucked by the player",
+    "The player\u2019s lips buzzing into a cup-shaped mouthpiece"
+   ],
+   "correctIndex": 3,
+   "explanation": "Brass players buzz their lips, which drive the air column in the tube to resonate. A reed starts the vibration in a clarinet or saxophone, air across an edge does it in a flute, and strings are bowed or plucked.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0020",
+   "topicId": "phys-music",
+   "stem": "In a clarinet, what vibrates first to set up the sound?",
+   "imageRef": null,
+   "options": [
+    "The metal keys along the side of the tube",
+    "The flared bell at the far end of the tube",
+    "A single cane reed against the mouthpiece",
+    "The player\u2019s lips inside a cup mouthpiece"
+   ],
+   "correctIndex": 2,
+   "explanation": "The clarinet is a reed woodwind: a single reed vibrates against the mouthpiece and drives the air column in the tube. The keys change the effective length of the air column, and so the note, but they do not create the vibration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0021",
+   "topicId": "phys-music",
+   "stem": "How is the human voice like a wind instrument?",
+   "imageRef": null,
+   "options": [
+    "Vibrating vocal folds set the air vibrating, and the throat, mouth and nose act as resonators",
+    "The lungs vibrate like the skin of a drum, and the ribs act like the strings of a guitar",
+    "The tongue vibrates like a reed, and the front teeth set the pitch of every note",
+    "Sound starts in the nose, and the vocal folds then amplify it like the bell of a trumpet"
+   ],
+   "correctIndex": 0,
+   "explanation": "Air from the lungs makes the vocal folds vibrate, like a reed or a brass player\u2019s lips. The throat, mouth and nasal cavities form resonating chambers that strengthen some harmonics, shaping the timbre of the voice and the vowel sounds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0022",
+   "topicId": "phys-music",
+   "stem": "What does the hollow wooden body of an acoustic guitar do?",
+   "imageRef": null,
+   "options": [
+    "It resonates with the strings, moving much more air so the sound is louder",
+    "It raises the pitch of every string by exactly one octave",
+    "It produces the original vibration, which the strings then shape into notes",
+    "It slows down the sound, so that each note lasts much longer"
+   ],
+   "correctIndex": 0,
+   "explanation": "A thin string moves very little air on its own. The body and the air inside it resonate with the string\u2019s vibrations, and their large surface pushes on much more air, so the sound is louder. The strings set the pitch.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0023",
+   "topicId": "phys-music",
+   "stem": "Pressing a guitar string against a fret shortens its vibrating length. What happens to the note?",
+   "imageRef": null,
+   "options": [
+    "The fundamental wavelength is shorter, so the frequency rises",
+    "The wave speed on the string falls, so the frequency falls",
+    "The fundamental wavelength is longer, so the frequency rises",
+    "The tension in the string drops, so the frequency falls"
+   ],
+   "correctIndex": 0,
+   "explanation": "The fundamental wavelength of a string is twice its vibrating length. A shorter length gives a shorter wavelength, and with the same tension, and so the same wave speed, f = v/\u03bb is higher.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0024",
+   "topicId": "phys-music",
+   "stem": "For a string fixed at both ends, how does the wavelength of the fundamental compare with the length of the string?",
+   "imageRef": null,
+   "options": [
+    "It is twice the length",
+    "It equals the length",
+    "It is four times the length",
+    "It is half the length"
+   ],
+   "correctIndex": 0,
+   "explanation": "The fundamental has a node at each fixed end and one antinode in the middle, so the string holds half a wavelength: \u03bb = 2L. Four times the length applies to the fundamental of a tube closed at one end.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0025",
+   "topicId": "phys-music",
+   "stem": "A guitar string has a vibrating length of 0.65 m, and waves travel along it at 286 m s\u207b\u00b9. What is its fundamental frequency?",
+   "imageRef": null,
+   "options": [
+    "186 Hz",
+    "220 Hz",
+    "440 Hz",
+    "110 Hz"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fundamental wavelength is 2L = 1.3 m, so f = v/\u03bb = 286 \u00f7 1.3 = 220 Hz. Taking the wavelength as L gives 440 Hz, and 4L gives 110 Hz.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0026",
+   "topicId": "phys-music",
+   "stem": "A string has a fundamental frequency of 200 Hz. What are the frequencies of its next two harmonics?",
+   "imageRef": null,
+   "options": [
+    "300 Hz and 400 Hz",
+    "400 Hz and 800 Hz",
+    "400 Hz and 600 Hz",
+    "600 Hz and 1000 Hz"
+   ],
+   "correctIndex": 2,
+   "explanation": "A string fixed at both ends has all whole-number harmonics, f, 2f, 3f, \u2026, so after 200 Hz come 400 Hz and 600 Hz. Only odd harmonics, 600 Hz and 1000 Hz, would apply to a tube closed at one end.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0027",
+   "topicId": "phys-music",
+   "stem": "A string 0.80 m long is vibrating in its third harmonic. What is the wavelength of the standing wave?",
+   "imageRef": null,
+   "options": [
+    "0.27 m",
+    "0.53 m",
+    "1.6 m",
+    "2.4 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "For the nth harmonic of a string, \u03bb = 2L/n = 2 \u00d7 0.80 \u00f7 3 \u2248 0.53 m. 1.6 m is the fundamental\u2019s wavelength, and 0.27 m divides the length by 3 without the factor of 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0028",
+   "topicId": "phys-music",
+   "stem": "For a tube closed at one end, how does the wavelength of the fundamental compare with the length of the tube?",
+   "imageRef": null,
+   "options": [
+    "It equals the length",
+    "It is half the length",
+    "It is four times the length",
+    "It is twice the length"
+   ],
+   "correctIndex": 2,
+   "explanation": "The closed end is a displacement node and the open end an antinode, so the tube holds a quarter of a wavelength: \u03bb = 4L. A tube open at both ends, like a string, holds half a wavelength.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0029",
+   "topicId": "phys-music",
+   "stem": "In a resonating air column, what is found at a closed end and at an open end?",
+   "imageRef": null,
+   "options": [
+    "A displacement antinode at a closed end and a displacement node at an open end",
+    "Displacement antinodes at both a closed end and an open end of the tube",
+    "Displacement nodes at both a closed end and an open end of the tube",
+    "A displacement node at a closed end and a displacement antinode at an open end"
+   ],
+   "correctIndex": 3,
+   "explanation": "Air cannot move into a closed end, so the displacement there is zero: a node. At an open end the air is free to move, giving a displacement antinode. These conditions decide which wavelengths fit in the tube.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0030",
+   "topicId": "phys-music",
+   "stem": "Which harmonics can a tube closed at one end produce?",
+   "imageRef": null,
+   "options": [
+    "All harmonics: f, 2f, 3f, \u2026",
+    "Only even harmonics: 2f, 4f, 6f, \u2026",
+    "Only the fundamental, f, with no others",
+    "Only odd harmonics: f, 3f, 5f, \u2026"
+   ],
+   "correctIndex": 3,
+   "explanation": "With a node at the closed end and an antinode at the open end, the tube can hold 1/4, 3/4, 5/4, \u2026 of a wavelength, so only odd multiples of the fundamental fit. Tubes open at both ends and strings produce all harmonics.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0031",
+   "topicId": "phys-music",
+   "stem": "An organ pipe open at both ends is 0.85 m long. Taking the speed of sound as 340 m s\u207b\u00b9, what is its fundamental frequency?",
+   "imageRef": null,
+   "options": [
+    "289 Hz",
+    "200 Hz",
+    "100 Hz",
+    "400 Hz"
+   ],
+   "correctIndex": 1,
+   "explanation": "An open pipe\u2019s fundamental has \u03bb = 2L = 1.7 m, so f = 340 \u00f7 1.7 = 200 Hz. 100 Hz uses \u03bb = 4L, which is for a pipe closed at one end, and 400 Hz uses \u03bb = L.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0032",
+   "topicId": "phys-music",
+   "stem": "A tube closed at one end is 0.25 m long. Taking the speed of sound as 340 m s\u207b\u00b9, what are its two lowest resonant frequencies?",
+   "imageRef": null,
+   "options": [
+    "340 Hz and 680 Hz",
+    "680 Hz and 1360 Hz",
+    "85 Hz and 255 Hz",
+    "340 Hz and 1020 Hz"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fundamental has \u03bb = 4L = 1.0 m, so f = 340 Hz. Only odd harmonics occur, so the next is 3 \u00d7 340 = 1020 Hz. 680 Hz would be the second harmonic, which a closed tube cannot produce, and 680 Hz and 1360 Hz are the open-tube values.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0033",
+   "topicId": "phys-music",
+   "stem": "A tube resonates at 150 Hz, 450 Hz and 750 Hz, but not at 300 Hz or 600 Hz. What kind of tube is it, and what is its fundamental?",
+   "imageRef": null,
+   "options": [
+    "Closed at one end, with a fundamental of 150 Hz",
+    "Open at both ends, with a fundamental of 150 Hz",
+    "Open at both ends, with a fundamental of 300 Hz",
+    "Closed at one end, with a fundamental of 300 Hz"
+   ],
+   "correctIndex": 0,
+   "explanation": "The resonances are 1, 3 and 5 times 150 Hz, with the even multiples missing, which is the pattern of a tube closed at one end. An open tube with a 150 Hz fundamental would also resonate at 300 Hz and 600 Hz.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0034",
+   "topicId": "phys-music",
+   "stem": "On a hot day the speed of sound in air increases. What happens to the fundamental frequency of an organ pipe open at both ends?",
+   "imageRef": null,
+   "options": [
+    "It rises, as the wavelength is fixed by the pipe\u2019s length while the speed increases",
+    "It stays the same, as the pipe\u2019s length alone sets the frequency of the note",
+    "It rises, as the wavelength of the fundamental in the pipe becomes shorter",
+    "It falls, as the faster sound waves spend less time inside the pipe on each trip along it"
+   ],
+   "correctIndex": 0,
+   "explanation": "The pipe\u2019s length fixes the wavelength of its fundamental at 2L. Since f = v/\u03bb, a higher speed of sound with the same wavelength gives a higher frequency, so wind instruments go sharp as they warm up. The wavelength does not change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0035",
+   "topicId": "phys-music",
+   "stem": "A clarinet behaves roughly like a tube closed at one end, and a flute like a tube open at both ends. For instruments of about the same length, how do their lowest notes compare?",
+   "imageRef": null,
+   "options": [
+    "The two lowest notes have about the same frequency as each other",
+    "The clarinet\u2019s lowest note has about three times the flute\u2019s frequency",
+    "The clarinet\u2019s lowest note has about half the frequency of the flute\u2019s",
+    "The flute\u2019s lowest note has about half the frequency of the clarinet\u2019s"
+   ],
+   "correctIndex": 2,
+   "explanation": "A closed tube\u2019s fundamental has \u03bb = 4L, while an open tube\u2019s has \u03bb = 2L. With twice the wavelength, the clarinet\u2019s lowest note is at about half the frequency, an octave lower. The factor of three relates a closed tube\u2019s fundamental to its next harmonic.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0036",
+   "topicId": "phys-music",
+   "stem": "An advertisement claims a pair of headphones is \u2018safe for your hearing at any volume\u2019. Which response is best supported by physics?",
+   "imageRef": null,
+   "options": [
+    "Hearing damage depends on intensity level and exposure time, so no headphones are safe at every volume",
+    "The claim is valid, because headphones produce sound at frequencies too low to harm the ear",
+    "The claim is valid, because expensive and well-reviewed headphones cannot damage hearing",
+    "The claim is valid, because sound inside the ear canal has no intensity in W m\u207b\u00b2 at all"
+   ],
+   "correctIndex": 0,
+   "explanation": "Damage to the hair cells of the inner ear depends on how intense the sound is and for how long it lasts. High intensity levels for long periods cause permanent hearing loss, whatever produces the sound. Price and reviews are not evidence about the physics.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-music-0037",
+   "topicId": "phys-music",
+   "stem": "The model of a tube closed at one end is used to predict the notes of a real clarinet. What is a limitation of this model?",
+   "imageRef": null,
+   "options": [
+    "The real instrument\u2019s bell, finger holes and mouthpiece make its resonances only approximate",
+    "The model predicts no harmonics at all, but real clarinets do produce some harmonics",
+    "The model only applies to string instruments, so it cannot describe any air column",
+    "The model treats sound as a transverse wave, but sound in air is longitudinal"
+   ],
+   "correctIndex": 0,
+   "explanation": "A real clarinet is not a perfect cylinder closed at one end: the flared bell, tone holes and mouthpiece shift its resonances, and some even harmonics appear weakly. The model gives a good first approximation. It predicts the odd harmonics, and it treats sound as longitudinal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-music-20261106",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}
