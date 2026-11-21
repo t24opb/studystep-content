@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-qce-vectors-3d",
+ "questions": [
+  {
+   "id": "spec-qce-vectors-3d-0001",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The magnitude of the vector 2i \u2212 3j + 6k is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "5",
+    "49",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "|2i \u2212 3j + 6k| = \u221a(2\u00b2 + (\u22123)\u00b2 + 6\u00b2) = \u221a(4 + 9 + 36) = \u221a49 = 7. Adding the components gives 5, and 49 forgets the square root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0002",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The unit vector in the direction of 2i \u2212 j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)(2i \u2212 j + 2k)",
+    "(1/9)(2i \u2212 j + 2k)",
+    "(1/\u221a3)(2i \u2212 j + 2k)",
+    "(1/5)(2i \u2212 j + 2k)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The magnitude is \u221a(4 + 1 + 4) = 3, and a unit vector is the vector divided by its magnitude. Dividing by 9 uses the square of the magnitude.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0003",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "For the points A(1, 2, \u22121) and B(4, 0, 3), the vector AB is:",
+   "imageRef": null,
+   "options": [
+    "\u22123i + 2j \u2212 4k",
+    "5i + 2j + 2k",
+    "3i + 2j + 4k",
+    "3i \u2212 2j + 4k"
+   ],
+   "correctIndex": 3,
+   "explanation": "AB = OB \u2212 OA = (4 \u2212 1)i + (0 \u2212 2)j + (3 \u2212 (\u22121))k = 3i \u2212 2j + 4k. Subtracting the other way round gives BA, and adding the position vectors gives 5i + 2j + 2k.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0004",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The midpoint of the segment joining A(2, \u22121, 4) and B(6, 3, \u22122) is:",
+   "imageRef": null,
+   "options": [
+    "(8, 2, 2)",
+    "(4, 2, 3)",
+    "(4, 1, 1)",
+    "(2, 2, \u22123)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint has position vector (a + b)/2 = ((2 + 6)/2, (\u22121 + 3)/2, (4 \u2212 2)/2) = (4, 1, 1). Halving the difference gives (2, 2, \u22123), which is half the vector AB, not the midpoint.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0005",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The point P divides the segment AB internally in the ratio 2 : 1, where A is (1, 4, \u22122) and B is (7, 1, 4). The coordinates of P are:",
+   "imageRef": null,
+   "options": [
+    "(13, \u22122, 10)",
+    "(5, 2, 2)",
+    "(3, 3, 0)",
+    "(4, 2.5, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "OP = OA + (2/3)AB, and AB = 6i \u2212 3j + 6k, so OP = (1 + 4, 4 \u2212 2, \u22122 + 4) = (5, 2, 2). The point (3, 3, 0) is one third of the way from A, which is the ratio 1 : 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0006",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "Forces 2i \u2212 j + 3k and i + 3j \u2212 k newtons act on a particle. The magnitude of the resultant force is:",
+   "imageRef": null,
+   "options": [
+    "\u221a25 N",
+    "\u221a7 N",
+    "\u221a17 N",
+    "17 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "The resultant is (2 + 1)i + (\u22121 + 3)j + (3 \u2212 1)k = 3i + 2j + 2k, with magnitude \u221a(9 + 4 + 4) = \u221a17 N. The magnitude 17 forgets the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0007",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "Drone A has velocity 2i + 3j + k m/s and drone B has velocity 5i \u2212 j + k m/s. The velocity of B relative to A is:",
+   "imageRef": null,
+   "options": [
+    "7i + 2j + 2k m/s",
+    "3i + 4j m/s",
+    "3i \u2212 4j m/s",
+    "\u22123i + 4j m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "The velocity of B relative to A is v_B \u2212 v_A = (5 \u2212 2)i + (\u22121 \u2212 3)j + (1 \u2212 1)k = 3i \u2212 4j m/s. The vector \u22123i + 4j is the velocity of A relative to B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0008",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The scalar product (i + 2j \u2212 3k) \u00b7 (4i \u2212 j + 2k) is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "\u221212",
+    "\u22124",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply matching components and add: 1 \u00d7 4 + 2 \u00d7 (\u22121) + (\u22123) \u00d7 2 = 4 \u2212 2 \u2212 6 = \u22124. A negative scalar product means the angle between the vectors is obtuse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0009",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "Which vector is perpendicular to 2i \u2212 j + 3k?",
+   "imageRef": null,
+   "options": [
+    "2i + j + k",
+    "i + j \u2212 k",
+    "3i + j \u2212 2k",
+    "i + 5j + k"
+   ],
+   "correctIndex": 3,
+   "explanation": "Two non-zero vectors are perpendicular when their scalar product is 0: (2)(1) + (\u22121)(5) + (3)(1) = 2 \u2212 5 + 3 = 0. For 2i + j + k the product is 4 \u2212 1 + 3 = 6, so those vectors are not perpendicular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0010",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "For which value of m are the vectors 2i + mj + 6k and \u2212i + 2j \u2212 3k parallel?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "1",
+    "\u22124",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parallel vectors are scalar multiples: 2i + mj + 6k = \u22122(\u2212i + 2j \u2212 3k) = 2i \u2212 4j + 6k, so m = \u22124. The value 4 ignores the negative scalar, which would make the i and k components fail to match.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0011",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The angle between the vectors i + j and j + k is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "\u03c0/4",
+    "\u03c0/6",
+    "\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos \u03b8 = (a \u00b7 b)/(|a||b|) = (0 + 1 + 0)/(\u221a2 \u00d7 \u221a2) = 1/2, so \u03b8 = \u03c0/3. The vectors share only their j component, so they are not perpendicular.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0012",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The scalar projection of a = 4i + j + 3k on b = i + 2j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "12/\u221a26",
+    "4",
+    "12",
+    "4/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The scalar projection of a on b is a \u00b7 b\u0302 = (a \u00b7 b)/|b| = (4 + 2 + 6)/3 = 4. Dividing by b \u00b7 b = 9 gives 4/3, which is the multiple of b in the vector projection, not the scalar projection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0013",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The vector projection of a = 4i + j + 3k on b = i + 2j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)(i + 2j + 2k)",
+    "(4/3)(i + 2j + 2k)",
+    "4(i + 2j + 2k)",
+    "(6/13)(4i + j + 3k)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vector projection is ((a \u00b7 b)/(b \u00b7 b)) b = (12/9)(i + 2j + 2k) = (4/3)(i + 2j + 2k). Its length is 4, the scalar projection. Projecting b onto a instead gives a multiple of a.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0014",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "In triangle OAB, OA = a and OB = b. M and N are the midpoints of OA and OB. Which statement about MN does a vector proof give?",
+   "imageRef": null,
+   "options": [
+    "MN = (1/2)(a + b), so MN is parallel to AB and half its length",
+    "MN = b \u2212 a, so MN is parallel to AB and the same length",
+    "MN = (1/2)(a \u2212 b), so MN is perpendicular to AB",
+    "MN = (1/2)(b \u2212 a), so MN is parallel to AB and half its length"
+   ],
+   "correctIndex": 3,
+   "explanation": "MN = ON \u2212 OM = (1/2)b \u2212 (1/2)a = (1/2)(b \u2212 a), and AB = b \u2212 a. So MN is a positive multiple of AB: parallel to it and half as long. (1/2)(a + b) is the position vector of the midpoint of AB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0015",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "To prove that |a + b|\u00b2 = |a|\u00b2 + |b|\u00b2 when a and b are perpendicular, the key step is:",
+   "imageRef": null,
+   "options": [
+    "(a + b) \u00b7 (a + b) = a \u00b7 a + b \u00b7 b for any vectors a and b",
+    "|a + b| = |a| + |b|, and then both sides are squared",
+    "(a + b) \u00d7 (a + b) = a \u00d7 a + b \u00d7 b, and a \u00d7 b = 0",
+    "(a + b) \u00b7 (a + b) = a \u00b7 a + 2a \u00b7 b + b \u00b7 b, and a \u00b7 b = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding the scalar product gives |a|\u00b2 + 2a \u00b7 b + |b|\u00b2, and perpendicular vectors have a \u00b7 b = 0. The cross term is not zero for general vectors, and |a + b| = |a| + |b| holds only when a and b point the same way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0016",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A cube has edges of length 1 along i, j and k from the origin. The acute angle between two of its main diagonals, such as i + j + k and i + j \u2212 k, is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "cos\u207b\u00b9(1/3)",
+    "cos\u207b\u00b9(2/3)",
+    "cos\u207b\u00b9(1/\u221a3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "(i + j + k) \u00b7 (i + j \u2212 k) = 1 + 1 \u2212 1 = 1, and each diagonal has length \u221a3, so cos \u03b8 = 1/(\u221a3 \u00d7 \u221a3) = 1/3. The angle cos\u207b\u00b9(1/\u221a3) is between a main diagonal and an edge.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0017",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "Triangle ABC has vertices with position vectors a, b and c. The point two thirds of the way from A to the midpoint of BC has position vector:",
+   "imageRef": null,
+   "options": [
+    "(2a + b + c)/3",
+    "(a + 2b + 2c)/3",
+    "(a + b + c)/3",
+    "(a + b + c)/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint of BC is (b + c)/2, so the point is a + (2/3)((b + c)/2 \u2212 a) = a/3 + (b + c)/3 = (a + b + c)/3. This expression is symmetric in a, b and c, which proves that the three medians meet at one point, the centroid.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0018",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The sphere (x \u2212 1)\u00b2 + (y + 2)\u00b2 + z\u00b2 = 9 has:",
+   "imageRef": null,
+   "options": [
+    "centre (\u22121, 2, 0) and radius 3",
+    "centre (1, \u22122, 0) and radius 9",
+    "centre (1, 2, 0) and radius 3",
+    "centre (1, \u22122, 0) and radius 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Compare with (x \u2212 h)\u00b2 + (y \u2212 k)\u00b2 + (z \u2212 l)\u00b2 = r\u00b2: h = 1, k = \u22122, l = 0 and r\u00b2 = 9, so r = 3. Reversing the signs of the centre is the most common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0019",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The sphere x\u00b2 + y\u00b2 + z\u00b2 \u2212 4x + 6z = 3 has:",
+   "imageRef": null,
+   "options": [
+    "centre (2, 0, \u22123) and radius \u221a3",
+    "centre (2, \u22123, 0) and radius 4",
+    "centre (2, 0, \u22123) and radius 4",
+    "centre (\u22122, 0, 3) and radius 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Completing the squares: (x \u2212 2)\u00b2 \u2212 4 + y\u00b2 + (z + 3)\u00b2 \u2212 9 = 3, so (x \u2212 2)\u00b2 + y\u00b2 + (z + 3)\u00b2 = 16. The centre is (2, 0, \u22123) and the radius is 4. Taking \u221a3 as the radius forgets the constants added in completing the square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0020",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A sphere has centre (1, \u22122, 3) and passes through (3, \u22121, 5). Its equation is:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)\u00b2 + (y + 2)\u00b2 + (z \u2212 3)\u00b2 = 3",
+    "(x + 1)\u00b2 + (y \u2212 2)\u00b2 + (z + 3)\u00b2 = 9",
+    "(x \u2212 3)\u00b2 + (y + 1)\u00b2 + (z \u2212 5)\u00b2 = 9",
+    "(x \u2212 1)\u00b2 + (y + 2)\u00b2 + (z \u2212 3)\u00b2 = 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The radius is the distance between the points: \u221a(2\u00b2 + 1\u00b2 + 2\u00b2) = \u221a9 = 3, so r\u00b2 = 9. Writing 3 on the right side uses r instead of r\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0021",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A curve has vector equation r(t) = (t + 1)i + (t\u00b2 \u2212 2)j. Its Cartesian equation is:",
+   "imageRef": null,
+   "options": [
+    "y = (x \u2212 1)\u00b2 + 2",
+    "y = (x \u2212 1)\u00b2 \u2212 2",
+    "y = (x + 1)\u00b2 \u2212 2",
+    "y = x\u00b2 \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "From x = t + 1, t = x \u2212 1. Substituting into y = t\u00b2 \u2212 2 gives y = (x \u2212 1)\u00b2 \u2212 2. Substituting t = x + 1 reverses the rearrangement.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0022",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A curve has vector equation r(t) = 2 cos(t) i + 5 sin(t) j. Its Cartesian equation is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/25 + y\u00b2/4 = 1",
+    "x\u00b2 + y\u00b2 = 29",
+    "x\u00b2/2 + y\u00b2/5 = 1",
+    "x\u00b2/4 + y\u00b2/25 = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos t = x/2 and sin t = y/5, and cos\u00b2t + sin\u00b2t = 1 gives x\u00b2/4 + y\u00b2/25 = 1, an ellipse. Dividing by 2 and 5 rather than their squares gives x\u00b2/2 + y\u00b2/5 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0023",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A curve has vector equation r(t) = sec(t) i + 3 tan(t) j. Its Cartesian equation is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 y\u00b2/9 = 1",
+    "x\u00b2 + y\u00b2/9 = 1",
+    "y\u00b2/9 \u2212 x\u00b2 = 1",
+    "x\u00b2 \u2212 9y\u00b2 = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "sec t = x and tan t = y/3, and 1 + tan\u00b2t = sec\u00b2t gives 1 + y\u00b2/9 = x\u00b2, so x\u00b2 \u2212 y\u00b2/9 = 1, a hyperbola. Using sec\u00b2t + tan\u00b2t = 1 would give an ellipse, but that identity is false.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0024",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A vector equation of the line through A(1, 0, 2) parallel to 3i \u2212 j + 4k is:",
+   "imageRef": null,
+   "options": [
+    "r = 3i \u2212 j + 4k + t(i + 2k)",
+    "r = (1 + 3t)i \u2212 tj + (4 + 2t)k",
+    "r = i + 2k + 3i \u2212 j + 4k",
+    "r = i + 2k + t(3i \u2212 j + 4k)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The form r = a + td uses the position vector of a point on the line, a = i + 2k, and a direction vector d = 3i \u2212 j + 4k. Swapping them gives a line through (3, \u22121, 4) in the direction of i + 2k, which is a different line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0025",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A vector equation of the line through A(2, \u22121, 3) and B(4, 3, 2) is:",
+   "imageRef": null,
+   "options": [
+    "r = 4i + 3j + 2k + t(2i \u2212 j + 3k)",
+    "r = 2i \u2212 j + 3k + t(2i + 2j \u2212 k)",
+    "r = 2i \u2212 j + 3k + t(2i + 4j \u2212 k)",
+    "r = 2i \u2212 j + 3k + t(6i + 2j + 5k)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A direction vector is AB = (4 \u2212 2)i + (3 \u2212 (\u22121))j + (2 \u2212 3)k = 2i + 4j \u2212 k, and A is a point on the line. Adding the position vectors gives 6i + 2j + 5k, which is not a direction along the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0026",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The line x = 1 + 2t, y = \u22123 + t, z = 4 \u2212 3t has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)/2 = (y + 3)/3 = (z \u2212 4)/3",
+    "(x \u2212 1)/2 = y + 3 = (z \u2212 4)/(\u22123)",
+    "(x + 1)/2 = y \u2212 3 = (z + 4)/(\u22123)",
+    "(x \u2212 2)/1 = (y \u2212 1)/(\u22123) = (z + 3)/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Solving each equation for t: t = (x \u2212 1)/2, t = y + 3 and t = (z \u2212 4)/(\u22123). Setting these equal gives the Cartesian form. Changing the signs inside the brackets uses the point (\u22121, 3, \u22124), which is not on the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0027",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "Which point lies on the line r = i \u2212 3j + 4k + t(2i + j \u2212 3k)?",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22124, 6)",
+    "(5, \u22121, \u22122)",
+    "(3, \u22122, 2)",
+    "(5, \u22121, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "With t = 2: x = 1 + 4 = 5, y = \u22123 + 2 = \u22121 and z = 4 \u2212 6 = \u22122. For (3, \u22122, 2), the x and y coordinates need t = 1 but then z = 1, not 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0028",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The lines r = i + 2j + 3k + s(i \u2212 k) and r = 4j + k + t(2i \u2212 2j + k) intersect at the point:",
+   "imageRef": null,
+   "options": [
+    "(3, 2, 1)",
+    "(2, 2, 2)",
+    "(1, 2, 3)",
+    "(0, 4, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equating components: 1 + s = 2t, 2 = 4 \u2212 2t and 3 \u2212 s = 1 + t. The second gives t = 1, then the first gives s = 1, and the third checks: 3 \u2212 1 = 2 = 1 + 1. The point is (2, 2, 2). The points (1, 2, 3) and (0, 4, 1) are only the given points on each line.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0029",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The vector product b \u00d7 a is equal to:",
+   "imageRef": null,
+   "options": [
+    "a \u00b7 b",
+    "|a||b|",
+    "\u2212(a \u00d7 b)",
+    "a \u00d7 b"
+   ],
+   "correctIndex": 2,
+   "explanation": "The cross product is anticommutative: swapping the order reverses the direction, so b \u00d7 a = \u2212(a \u00d7 b). The magnitude stays the same, |a||b| sin \u03b8, but a cross product is a vector, not a number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0030",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The magnitude |a \u00d7 b| is equal to the area of:",
+   "imageRef": null,
+   "options": [
+    "the parallelogram with diagonals a and b",
+    "the parallelogram with adjacent sides a and b",
+    "the triangle with two sides a and b",
+    "the rectangle with sides |a| and |b|"
+   ],
+   "correctIndex": 1,
+   "explanation": "|a \u00d7 b| = |a||b| sin \u03b8, which is base \u00d7 height for the parallelogram with sides a and b. The triangle with sides a and b has half this area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0031",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A normal vector to the plane 2x \u2212 y + 5z = 7 is:",
+   "imageRef": null,
+   "options": [
+    "2i \u2212 j + 5k + 7",
+    "7i + 7j + 7k",
+    "i + j + k",
+    "2i \u2212 j + 5k"
+   ],
+   "correctIndex": 3,
+   "explanation": "In the Cartesian form ax + by + cz + d = 0, the vector ai + bj + ck is normal to the plane. Here that is 2i \u2212 j + 5k. The constant 7 only fixes the position of the plane, not its direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0032",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The Cartesian equation of the plane through (1, 2, 3) with normal vector i + j + k is:",
+   "imageRef": null,
+   "options": [
+    "x + 2y + 3z = 6",
+    "x + y + z = 3",
+    "x + 2y + 3z = 14",
+    "x + y + z = 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The plane is r \u00b7 n = a \u00b7 n: x + y + z = 1 + 2 + 3 = 6. The equation x + 2y + 3z = 14 swaps the roles of the point and the normal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0033",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The cross product (i + 2j) \u00d7 (j + 3k) is:",
+   "imageRef": null,
+   "options": [
+    "6i \u2212 3j + k",
+    "6i + 3j + k",
+    "\u22126i + 3j \u2212 k",
+    "2i + 6k"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using (a\u2082b\u2083 \u2212 a\u2083b\u2082, a\u2083b\u2081 \u2212 a\u2081b\u2083, a\u2081b\u2082 \u2212 a\u2082b\u2081) with a = (1, 2, 0) and b = (0, 1, 3): (6 \u2212 0, 0 \u2212 3, 1 \u2212 0) = (6, \u22123, 1). The vector \u22126i + 3j \u2212 k is (j + 3k) \u00d7 (i + 2j), the product in the reverse order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0034",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The area of the triangle with vertices O(0, 0, 0), A(1, 2, 0) and B(0, 1, 3) is:",
+   "imageRef": null,
+   "options": [
+    "\u221a46/2",
+    "\u221a46",
+    "23",
+    "\u221a10"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is (1/2)|OA \u00d7 OB|. OA \u00d7 OB = 6i \u2212 3j + k, with magnitude \u221a(36 + 9 + 1) = \u221a46, so the area is \u221a46/2. The value \u221a46 is the area of the parallelogram.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0035",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The plane through A(2, 0, 0), B(0, 4, 0) and C(0, 0, 1) has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "2x + 4y + z = 4",
+    "2x + 4y + z = 1",
+    "4x + 2y + z = 4",
+    "2x + y + 4z = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "AB \u00d7 AC = (\u22122i + 4j) \u00d7 (\u22122i + k) = 4i + 2j + 8k, a multiple of 2i + j + 4k, and A gives 2(2) = 4. Check: B gives 4 and C gives 4. Using the intercepts themselves as the normal, 2x + 4y + z, fails at B, giving 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0036",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The vector equation of the plane through (2, \u22121, 1) with normal vector 3i \u2212 2k is:",
+   "imageRef": null,
+   "options": [
+    "r \u00b7 (3i \u2212 2k) = 4",
+    "r \u00b7 (3i \u2212 2k) = 8",
+    "r \u00b7 (2i \u2212 j + k) = 4",
+    "r \u00b7 (3i \u2212 2k) = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The plane is r \u00b7 n = a \u00b7 n, and a \u00b7 n = (2)(3) + (\u22121)(0) + (1)(\u22122) = 4. Equating to 0 gives the parallel plane through the origin instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0037",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The line r = i + 2j + t(i \u2212 j + 2k) meets the plane x + y + z = 7 at the point:",
+   "imageRef": null,
+   "options": [
+    "(1, 2, 0)",
+    "(3, 0, 4)",
+    "(2, 1, 2)",
+    "(4, \u22121, 6)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substitute x = 1 + t, y = 2 \u2212 t, z = 2t: 1 + t + 2 \u2212 t + 2t = 3 + 2t = 7, so t = 2, giving (3, 0, 4). Check: 3 + 0 + 4 = 7. The point (2, 1, 2) has t = 1, which does not satisfy the plane's equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0038",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "For which value of m is the line r = i + 2k + t(2i + mj + k) parallel to the plane x + 2y \u2212 4z = 5?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "1",
+    "\u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "A line is parallel to a plane when its direction is perpendicular to the normal: (2)(1) + (m)(2) + (1)(\u22124) = 2m \u2212 2 = 0, so m = 1. Setting the direction parallel to the normal would make the line perpendicular to the plane instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0039",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "The plane containing the points A(1, 1, 0), B(2, 0, 1) and C(0, 2, 2) has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "x + y = 0",
+    "x + y = 2",
+    "x \u2212 y = 0",
+    "x + y + z = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "AB = i \u2212 j + k and AC = \u2212i + j + 2k, so AB \u00d7 AC = \u22123i \u2212 3j, giving the normal i + j. With A, x + y = 2. Check: B gives 2 + 0 = 2 and C gives 0 + 2 = 2. The plane x + y + z = 2 fails at B, which gives 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-3d-0040",
+   "topicId": "spec-qce-vectors-3d",
+   "stem": "A unit vector perpendicular to both i + 2j + 2k and 2i \u2212 2j + k is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)(2i + j \u2212 2k)",
+    "(1/3)(2i \u2212 j \u2212 2k)",
+    "(1/3)(\u22122i + j \u2212 2k)",
+    "(1/9)(2i + j \u2212 2k)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cross product is (2 \u00d7 1 \u2212 2 \u00d7 (\u22122))i + (2 \u00d7 2 \u2212 1 \u00d7 1)j + (1 \u00d7 (\u22122) \u2212 2 \u00d7 2)k = 6i + 3j \u2212 6k, of magnitude 9, giving (1/3)(2i + j \u2212 2k). Dividing 2i + j \u2212 2k by 9 instead of 3 does not give a unit vector, since |2i + j \u2212 2k| is already 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-3d-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

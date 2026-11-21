@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-hsc-vector-lines",
+ "questions": [
+  {
+   "id": "spec-hsc-vector-lines-0001",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A direction vector of the line through P(1, 2, \u22121) and Q(4, 0, 3) is:",
+   "imageRef": null,
+   "options": [
+    "5i + 2j + 2k",
+    "i + 2j \u2212 k",
+    "\u22123i + 2j + 4k",
+    "3i \u2212 2j + 4k"
+   ],
+   "correctIndex": 3,
+   "explanation": "PQ = OQ \u2212 OP = (4 \u2212 1)i + (0 \u2212 2)j + (3 + 1)k = 3i \u2212 2j + 4k, and any non-zero multiple would also do. Adding the position vectors gives 5i + 2j + 2k, which is not a direction along the line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0002",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A straight line in two dimensions has gradient m. A direction vector for it is:",
+   "imageRef": null,
+   "options": [
+    "i \u2212 mj",
+    "i + mj",
+    "mi + j",
+    "mi \u2212 j"
+   ],
+   "correctIndex": 1,
+   "explanation": "Moving 1 unit in x along a line of gradient m means moving m units in y, so i + mj points along the line. The vector mi + j has gradient 1/m instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0003",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "In the vector equation of a line r = a + \u03bbb:",
+   "imageRef": null,
+   "options": [
+    "a is the normal to the line and b is a point on it",
+    "a locates a point on the line and b gives its direction",
+    "a gives the direction and b locates a point on the line",
+    "a and b both locate points on the line"
+   ],
+   "correctIndex": 1,
+   "explanation": "a is the position vector of a particular point on the line, and adding every multiple \u03bbb moves along the direction b. A different choice of a or a multiple of b gives another equation for the same line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0004",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For the line r = p + \u03bb(q \u2212 p) through P and Q, the point given by \u03bb = 1/2 is:",
+   "imageRef": null,
+   "options": [
+    "the midpoint of PQ",
+    "the point P",
+    "the point Q",
+    "a point beyond Q"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03bb = 0 gives P and \u03bb = 1 gives Q, so \u03bb = 1/2 gives p + (1/2)(q \u2212 p) = (p + q)/2, the midpoint. Values of \u03bb between 0 and 1 give the points between P and Q.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0005",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For the line r = p + \u03bb(q \u2212 p), points beyond Q, on the side away from P, have:",
+   "imageRef": null,
+   "options": [
+    "\u03bb = \u22121 only",
+    "\u03bb > 1",
+    "\u03bb < 0",
+    "0 < \u03bb < 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03bb measures movement from P towards Q in units of PQ. \u03bb = 1 reaches Q, so going further in the same direction needs \u03bb > 1. Negative \u03bb gives points on the other side of P.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0006",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For the same value of \u03bb, the vector equation r = p + \u03bb(q \u2212 p) is equivalent to:",
+   "imageRef": null,
+   "options": [
+    "r = \u03bbp + (1 \u2212 \u03bb)q",
+    "r = p + \u03bbq",
+    "r = (1 \u2212 \u03bb)q + p",
+    "r = \u03bbq + (1 \u2212 \u03bb)p"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding, p + \u03bbq \u2212 \u03bbp = \u03bbq + (1 \u2212 \u03bb)p. The form \u03bbp + (1 \u2212 \u03bb)q describes the same line but gives Q, not P, when \u03bb = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0007",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A vector equation of the line y = 2x + 3 is:",
+   "imageRef": null,
+   "options": [
+    "r = 3j + \u03bb(2i + j)",
+    "r = 3i + \u03bb(i + 2j)",
+    "r = 2j + \u03bb(i + 3j)",
+    "r = 3j + \u03bb(i + 2j)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The line passes through (0, 3), with position vector 3j, and gradient 2 gives direction i + 2j. Using 3i places the point at (3, 0), which is not on the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0008",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The line r = (1 + 2\u03bb)i + (4 \u2212 6\u03bb)j has Cartesian equation:",
+   "imageRef": null,
+   "options": [
+    "y = \u22123x + 7",
+    "y = 3x + 1",
+    "y = \u2212x/3 + 13/3",
+    "y = \u22123x + 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The direction 2i \u2212 6j has gradient \u22126/2 = \u22123, and \u03bb = 0 gives the point (1, 4). So y \u2212 4 = \u22123(x \u2212 1), giving y = \u22123x + 7. Dividing 2 by \u22126 gives the wrong gradient \u22121/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0009",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "Does the point (5, \u22121, 7) lie on the line r = i + j + k + \u03bb(2i \u2212 j + 3k)?",
+   "imageRef": null,
+   "options": [
+    "No, the components need different values of \u03bb",
+    "Yes, with \u03bb = 4",
+    "Yes, with \u03bb = \u22122",
+    "Yes, with \u03bb = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Solve each component: 1 + 2\u03bb = 5, 1 \u2212 \u03bb = \u22121 and 1 + 3\u03bb = 7 all give \u03bb = 2. The point is on the line only because one value of \u03bb works for every component.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0010",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "Which line is parallel to r = 2i \u2212 j + \u03bb(3i + j \u2212 2k)?",
+   "imageRef": null,
+   "options": [
+    "r = \u03bc(3i \u2212 j + 2k)",
+    "r = i + \u03bc(6i + 2j + 4k)",
+    "r = i + \u03bc(\u22126i \u2212 2j + 4k)",
+    "r = 3i + j \u2212 2k + \u03bc(2i \u2212 j)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Lines are parallel when their direction vectors are multiples: \u22126i \u2212 2j + 4k = \u22122(3i + j \u2212 2k). In the second option, 3i + j \u2212 2k is only a point on the line; its direction is 2i \u2212 j.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0011",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The points A(1, 2, 3), B(3, 5, 4) and C(7, 11, c) are collinear when c equals:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "5",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "AB = 2i + 3j + k and AC = 6i + 9j + (c \u2212 3)k. Collinear points need AC = 3AB, so c \u2212 3 = 3 and c = 6. Matching only the first two components already forces the multiple 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0012",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The lines r = (i + 2j) + \u03bb(i + j) and r = 5i + \u03bc(\u2212i + 2j) intersect at the point:",
+   "imageRef": null,
+   "options": [
+    "(3, 4)",
+    "(2, 3)",
+    "(4, 5)",
+    "(3, 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equate components: 1 + \u03bb = 5 \u2212 \u03bc and 2 + \u03bb = 2\u03bc. Then \u03bb = 4 \u2212 \u03bc, so 6 \u2212 \u03bc = 2\u03bc, giving \u03bc = 2 and \u03bb = 2. Either line then gives (3, 4).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0013",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "Skew lines are lines in three dimensions that:",
+   "imageRef": null,
+   "options": [
+    "intersect at right angles",
+    "lie in the same plane but never meet",
+    "are not parallel and do not intersect",
+    "are parallel but do not intersect"
+   ],
+   "correctIndex": 2,
+   "explanation": "Skew lines are neither parallel nor intersecting, which is only possible in three dimensions. Two lines in the same plane that never meet are parallel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0014",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The lines r = i + 2k + \u03bbj and r = 3j + k + \u03bc(i \u2212 j + k) intersect at the point:",
+   "imageRef": null,
+   "options": [
+    "nowhere, as they are skew",
+    "(1, 2, 2)",
+    "(1, 3, 2)",
+    "(2, 1, 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equate components: 1 = \u03bc, \u03bb = 3 \u2212 \u03bc and 2 = 1 + \u03bc. The first and third both give \u03bc = 1, so \u03bb = 2, and the point is (1, 2, 2). All three equations must hold together, and here they do.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0015",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The lines r = i + \u03bb(i + j) and r = 2k + \u03bc(\u2212i + j) are:",
+   "imageRef": null,
+   "options": [
+    "skew, since the k components can never match",
+    "parallel, since neither direction has a k component",
+    "intersecting, since their directions are perpendicular",
+    "the same line, written in two ways"
+   ],
+   "correctIndex": 0,
+   "explanation": "The directions i + j and \u2212i + j are not multiples, so the lines are not parallel. Every point on the first has z = 0 and every point on the second has z = 2, so they never meet: they are skew. Perpendicular directions do not mean the lines intersect.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0016",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "In two dimensions, the lines r = (i + 3j) + \u03bb(2i \u2212 4j) and r = 5j + \u03bc(\u2212i + 2j) are:",
+   "imageRef": null,
+   "options": [
+    "the same line",
+    "parallel and distinct",
+    "intersecting at a single point",
+    "skew"
+   ],
+   "correctIndex": 0,
+   "explanation": "The directions are parallel, since 2i \u2212 4j = \u22122(\u2212i + 2j). The point (0, 5) is on the first line, with \u03bb = \u22121/2, so the lines coincide. Skew lines cannot occur in two dimensions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0017",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "In two dimensions, |r \u2212 c| = 5 with c = 2i \u2212 j is:",
+   "imageRef": null,
+   "options": [
+    "the circle with centre (2, \u22121) and radius 5",
+    "the circle with centre (\u22122, 1) and radius 5",
+    "the circle with centre (2, \u22121) and radius 25",
+    "the circle with centre (2, \u22121) and radius \u221a5"
+   ],
+   "correctIndex": 0,
+   "explanation": "|r \u2212 c| is the distance from the point r to the point C, so the equation says every point is 5 units from (2, \u22121). The radius is 5 itself; 25 is its square.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0018",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A vector equation of the parabola y = x\u00b2 \u2212 1 is:",
+   "imageRef": null,
+   "options": [
+    "r = (t\u00b2 \u2212 1)i + tj",
+    "r = ti + (t \u2212 1)\u00b2j",
+    "r = t\u00b2i + (t \u2212 1)j",
+    "r = ti + (t\u00b2 \u2212 1)j"
+   ],
+   "correctIndex": 3,
+   "explanation": "Taking x = t gives y = t\u00b2 \u2212 1, so r = ti + (t\u00b2 \u2212 1)j. Swapping the components gives the parabola x = y\u00b2 \u2212 1, which opens sideways.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0019",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The vector equation r = (cos t)i + (sin t)j + tk describes:",
+   "imageRef": null,
+   "options": [
+    "a parabola in the xz-plane",
+    "a helix winding around the z-axis",
+    "a circle in the xy-plane",
+    "a straight line through the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "The i and j components trace a unit circle while the k component increases steadily, so the curve spirals upward around the z-axis. Without the tk term it would be a circle in the xy-plane.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0020",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A curve has vector equation r = (2sin t \u2212 1)i + (2cos t + 3)j. Its Cartesian equation is:",
+   "imageRef": null,
+   "options": [
+    "(x + 1)\u00b2 + (y \u2212 3)\u00b2 = 4",
+    "(x \u2212 1)\u00b2 + (y + 3)\u00b2 = 4",
+    "(x + 1)\u00b2 + (y \u2212 3)\u00b2 = 2",
+    "(x + 1)\u00b2/4 + (y \u2212 3)\u00b2 = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "x + 1 = 2sin t and y \u2212 3 = 2cos t, so (x + 1)\u00b2 + (y \u2212 3)\u00b2 = 4(sin\u00b2 t + cos\u00b2 t) = 4: a circle with centre (\u22121, 3) and radius 2. Moving the constants with the wrong sign gives centre (1, \u22123).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0021",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The curve r = (3cos \u03b8 + 1)i + (3sin \u03b8 \u2212 2)j can also be written as:",
+   "imageRef": null,
+   "options": [
+    "|r \u2212 (i \u2212 2j)| = 9",
+    "|r \u2212 3(i \u2212 2j)| = 1",
+    "|r \u2212 (i \u2212 2j)| = 3",
+    "|r + (i \u2212 2j)| = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "r \u2212 (i \u2212 2j) = 3cos \u03b8 i + 3sin \u03b8 j, which has magnitude 3. So the curve is the circle with centre (1, \u22122) and radius 3. The form |r + (i \u2212 2j)| = 3 has centre (\u22121, 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0022",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The curve r = (1 + cos t)i + (sin t)j, for 0 \u2264 t \u2264 \u03c0, is:",
+   "imageRef": null,
+   "options": [
+    "the lower half of the circle with centre (1, 0) and radius 1",
+    "the upper half of the circle with centre (0, 1) and radius 1",
+    "the upper half of the circle with centre (1, 0) and radius 1",
+    "the whole circle with centre (1, 0) and radius 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "(x \u2212 1)\u00b2 + y\u00b2 = 1 is a circle with centre (1, 0) and radius 1. For 0 \u2264 t \u2264 \u03c0, y = sin t \u2265 0, so only the upper half is traced, from (2, 0) to (0, 0).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0023",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "Which point lies on the sphere |r \u2212 (i + 2j \u2212 2k)| = 3?",
+   "imageRef": null,
+   "options": [
+    "(4, 5, \u22122)",
+    "(3, 3, 0)",
+    "(2, 3, \u22121)",
+    "(3, 3, \u22122)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The point must be 3 units from the centre (1, 2, \u22122). For (3, 3, 0), the difference is 2i + j + 2k, with magnitude \u221a(4 + 1 + 4) = 3. The other points are \u221a3, \u221a5 and \u221a18 from the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0024",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The sphere S has equation |r \u2212 (2i \u2212 3j + 3k)| = 15. The point P(1, \u22121, 2):",
+   "imageRef": null,
+   "options": [
+    "lies outside S",
+    "is the centre of S",
+    "lies inside S",
+    "lies on S"
+   ],
+   "correctIndex": 2,
+   "explanation": "The distance from P to the centre (2, \u22123, 3) is |\u2212i + 2j \u2212 k| = \u221a(1 + 4 + 1) = \u221a6, which is less than the radius 15, so P is inside. A point on the sphere would be exactly 15 from the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0025",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The value of i.i + j.k is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "2",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "i, j and k are perpendicular unit vectors, so i.i = 1 and j.k = 0, giving 1. Treating i.i as 0 confuses it with i.j.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0026",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The Cauchy-Schwarz inequality for vectors a and b states that:",
+   "imageRef": null,
+   "options": [
+    "|a + b| \u2265 |a| + |b|",
+    "a.b \u2264 |a| + |b|",
+    "|a.b| \u2264 |a||b|",
+    "|a.b| \u2265 |a||b|"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since a.b = |a||b|cos \u03b8 and |cos \u03b8| \u2264 1, the size of the scalar product is at most |a||b|. The statement |a + b| \u2265 |a| + |b| reverses the triangle inequality and is false.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0027",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For non-zero vectors, equality holds in the Cauchy-Schwarz inequality |a.b| \u2264 |a||b| exactly when:",
+   "imageRef": null,
+   "options": [
+    "|a| = |b|",
+    "a.b = 0",
+    "a and b are parallel",
+    "a and b are perpendicular"
+   ],
+   "correctIndex": 2,
+   "explanation": "|a.b| = |a||b| means |cos \u03b8| = 1, so \u03b8 = 0\u00b0 or 180\u00b0 and the vectors are parallel. Perpendicular vectors give a.b = 0, the opposite extreme.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0028",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "Real numbers x, y and z satisfy x + 2y + 2z = 9. Using Cauchy-Schwarz with a = i + 2j + 2k and r = xi + yj + zk, the least possible value of x\u00b2 + y\u00b2 + z\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "81",
+    "27",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "a.r = 9 and |a| = 3, so 9 \u2264 3|r| and |r| \u2265 3, giving x\u00b2 + y\u00b2 + z\u00b2 = |r|\u00b2 \u2265 9. Equality holds when r is parallel to a, at (1, 2, 2). The value 3 is the least |r|, not |r|\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0029",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For any vectors a and b, (a + b).(a \u2212 b) equals:",
+   "imageRef": null,
+   "options": [
+    "|a|\u00b2 \u2212 2a.b + |b|\u00b2",
+    "0",
+    "|a|\u00b2 \u2212 |b|\u00b2",
+    "|a \u2212 b|\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding with distributivity, a.a \u2212 a.b + b.a \u2212 b.b, and since a.b = b.a the middle terms cancel, leaving |a|\u00b2 \u2212 |b|\u00b2. It is 0 only when |a| = |b|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0030",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A median of a triangle is the line segment joining:",
+   "imageRef": null,
+   "options": [
+    "a vertex to the opposite side, meeting it at right angles",
+    "the midpoints of two sides of the triangle",
+    "a vertex to the opposite side, halving the angle at the vertex",
+    "a vertex to the midpoint of the opposite side"
+   ],
+   "correctIndex": 3,
+   "explanation": "A median goes from a vertex to the midpoint of the opposite side. The perpendicular one is an altitude, and the one halving the angle is an angle bisector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0031",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The medians of a triangle with vertices at position vectors a, b and c meet at the point with position vector:",
+   "imageRef": null,
+   "options": [
+    "(a + b)/2 + c",
+    "(a + b + c)/3",
+    "(a + b + c)/2",
+    "a + b + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "The centroid lies two-thirds of the way along each median. From A to the midpoint (b + c)/2, that is a + (2/3)((b + c)/2 \u2212 a) = (a + b + c)/3. Dividing by 2 does not give a point on every median.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0032",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "In triangle ABC, the altitude from C meets AB at D. Which condition holds?",
+   "imageRef": null,
+   "options": [
+    "CD.AB = 0",
+    "CD.CA = 0",
+    "AD = DB",
+    "CD.CD = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "An altitude is perpendicular to the opposite side, so CD.AB = 0. The condition AD = DB describes a midpoint, which belongs to a median or the perpendicular bisector.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0033",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A vector along the bisector of the angle between non-zero vectors a and b is:",
+   "imageRef": null,
+   "options": [
+    "(a + b)/2",
+    "a/|a| \u2212 b/|b|",
+    "a/|a| + b/|b|",
+    "a + b"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding two unit vectors gives the diagonal of a rhombus, which bisects the angle between them. The sum a + b bisects the angle only when |a| = |b|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0034",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "In rhombus OABC, OA = a and OC = c, with |a| = |c|. The diagonals OB and AC are perpendicular because (a + c).(c \u2212 a) equals:",
+   "imageRef": null,
+   "options": [
+    "|c|\u00b2 \u2212 |a|\u00b2 = 0",
+    "|c|\u00b2 + |a|\u00b2 \u2260 0",
+    "2a.c = 0",
+    "|c \u2212 a|\u00b2 = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "OB = a + c and AC = c \u2212 a. Their scalar product is c.c \u2212 a.a = |c|\u00b2 \u2212 |a|\u00b2, which is 0 because the sides of a rhombus are equal. It does not need a.c = 0, which would make the rhombus a square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0035",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "A and B are the ends of a diameter of a circle with centre O, with OA = a and OB = \u2212a. P is on the circle, with OP = p. Then AP.BP equals:",
+   "imageRef": null,
+   "options": [
+    "2p.a",
+    "|p \u2212 a|\u00b2",
+    "|p|\u00b2 \u2212 |a|\u00b2 = 0",
+    "|p|\u00b2 + |a|\u00b2 = 2|a|\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "AP = p \u2212 a and BP = p + a, so AP.BP = |p|\u00b2 \u2212 |a|\u00b2. Both are radii, so this is 0 and the angle APB is a right angle: the angle in a semicircle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0036",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "P lies on the perpendicular bisector of AB exactly when |p \u2212 a| = |p \u2212 b|. This condition simplifies to:",
+   "imageRef": null,
+   "options": [
+    "(p \u2212 a).(p \u2212 b) = 0",
+    "(p \u2212 (a + b)/2).(b \u2212 a) = 0",
+    "(p \u2212 (a + b)/2).(b + a) = 0",
+    "p.(b \u2212 a) = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Squaring and expanding gives 2p.(b \u2212 a) = |b|\u00b2 \u2212 |a|\u00b2 = (b \u2212 a).(b + a), so (2p \u2212 a \u2212 b).(b \u2212 a) = 0: the line from the midpoint to P is perpendicular to AB. The condition (p \u2212 a).(p \u2212 b) = 0 describes the circle on diameter AB.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0037",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "The point on the line r = \u03bb(i + j + k) closest to P(1, 2, 3) is:",
+   "imageRef": null,
+   "options": [
+    "(1, 1, 1)",
+    "(6, 6, 6)",
+    "(3, 3, 3)",
+    "(2, 2, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The closest point Q makes PQ perpendicular to the direction: (\u03bb \u2212 1) + (\u03bb \u2212 2) + (\u03bb \u2212 3) = 0, so \u03bb = 2. Equivalently, it is the projection of OP onto i + j + k, (6/3)(i + j + k). Forgetting to divide by |i + j + k|\u00b2 = 3 gives (6, 6, 6).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vector-lines-0038",
+   "topicId": "spec-hsc-vector-lines",
+   "stem": "For P(1, 1, 0) and Q(4, 7, 3), the point on r = p + \u03bb(q \u2212 p) with \u03bb = 2/3 is:",
+   "imageRef": null,
+   "options": [
+    "(2, 3, 1)",
+    "(8/3, 14/3, 2)",
+    "(7, 13, 6)",
+    "(3, 5, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "q \u2212 p = 3i + 6j + 3k, so r = (1, 1, 0) + (2/3)(3, 6, 3) = (3, 5, 2), two-thirds of the way from P to Q. The point (2, 3, 1) is \u03bb = 1/3, and (8/3, 14/3, 2) is just (2/3)q.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vector-lines-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

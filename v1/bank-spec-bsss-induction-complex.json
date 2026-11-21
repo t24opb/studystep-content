@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-bsss-induction-complex",
+ "questions": [
+  {
+   "id": "spec-bsss-induction-complex-0001",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In a proof by mathematical induction that a statement P(n) holds for every positive integer n, what is the initial statement?",
+   "imageRef": null,
+   "options": [
+    "Showing that P(n) is true for n = 1, 2 and 3",
+    "Showing that P(k + 1) implies P(k)",
+    "Showing that P(1) is true",
+    "Assuming that P(k) is true for some k"
+   ],
+   "correctIndex": 2,
+   "explanation": "The initial statement establishes the first case, P(1). Checking a few cases is not a proof, and the inductive step goes from P(k) to P(k + 1), not backwards.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0002",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In the inductive step of a proof by mathematical induction, you:",
+   "imageRef": null,
+   "options": [
+    "assume P(k + 1) is true and use it to prove P(k)",
+    "check that P(k) and P(k + 1) give the same value",
+    "assume P(k) is true and use it to prove P(k + 1)",
+    "prove P(k) directly for every positive integer k"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inductive step shows that whenever the statement holds for one integer k, it also holds for k + 1. With the initial statement, this makes it true for 1, 2, 3 and so on.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0003",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "P(1) has been shown to be true, and P(k) \u21d2 P(k + 1) has been proved for every positive integer k. What is the conclusion?",
+   "imageRef": null,
+   "options": [
+    "P(n) is true for all positive integers n",
+    "P(n) is true only for n = 1 and n = 2",
+    "P(n) is true for all real numbers n",
+    "P(n) is true for all integers, positive or negative"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(1) is true, so P(2) is true, so P(3) is true, and so on through every positive integer. Induction says nothing about non-integers or negative integers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0004",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "P(n) is the statement 1 + 2 + ... + n = n(n + 1)/2. What must be proved in the inductive step?",
+   "imageRef": null,
+   "options": [
+    "1 + 2 + ... + (k + 1) = k(k + 1)/2 + 1",
+    "1 + 2 + ... + (k + 1) = (k + 1)k/2",
+    "1 + 2 + ... + (k + 1) = (k + 1)(k + 2)/2",
+    "1 + 2 + ... + k = k(k + 1)/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(k + 1) is found by replacing n with k + 1 throughout, giving (k + 1)(k + 2)/2 on the right. The statement for k is the assumption, not what is to be proved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0005",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In a proof that 1\u00b2 + 2\u00b2 + ... + n\u00b2 = n(n + 1)(2n + 1)/6, the initial statement is checked. Which working does this?",
+   "imageRef": null,
+   "options": [
+    "Left side 1, right side 1 \u00d7 2 \u00d7 3/6 = 1",
+    "Left side 1, right side 1 \u00d7 2 \u00d7 2/6 = 2/3",
+    "Left side 1 + 4 = 5, right side 2 \u00d7 3 \u00d7 5/6 = 5",
+    "Left side 0, right side 0 \u00d7 1 \u00d7 1/6 = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first case is n = 1, where the sum is just 1\u00b2 = 1 and the formula gives 1 \u00d7 2 \u00d7 3/6 = 1. Checking n = 2 is also true, but it is not the initial statement for positive integers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0006",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "To prove 1 + 3 + 5 + ... + (2n \u2212 1) = n\u00b2 by induction, assume the result for n = k. What is added to k\u00b2 in the inductive step, and what does it give?",
+   "imageRef": null,
+   "options": [
+    "2k + 3, giving (k + 2)\u00b2",
+    "2k + 1, giving (k + 1)\u00b2",
+    "2k \u2212 1, giving (k + 1)\u00b2",
+    "2k + 1, giving k\u00b2 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The (k + 1)th odd number is 2(k + 1) \u2212 1 = 2k + 1, and k\u00b2 + 2k + 1 = (k + 1)\u00b2. Adding 2k \u2212 1 repeats the kth term instead of adding the next one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0007",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "To prove 1 \u00d7 2 + 2 \u00d7 3 + ... + n(n + 1) = n(n + 1)(n + 2)/3, the inductive step adds the next term to k(k + 1)(k + 2)/3. What is that term, and how is the sum then factorised?",
+   "imageRef": null,
+   "options": [
+    "k(k + 1), giving (k + 1)(k + 2)(k + 3)/3",
+    "(k + 1)(k + 2), giving k(k + 1)(k + 2)(k + 3)/3",
+    "(k + 2)(k + 3), giving (k + 1)(k + 2)(k + 3)/3",
+    "(k + 1)(k + 2), giving (k + 1)(k + 2)(k + 3)/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The (k + 1)th term is (k + 1)(k + 2). Taking out the common factor (k + 1)(k + 2) leaves k/3 + 1 = (k + 3)/3, so the sum is (k + 1)(k + 2)(k + 3)/3, which is the formula with n = k + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0008",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "To prove 2 + 6 + 18 + ... + 2 \u00d7 3\u207f\u207b\u00b9 = 3\u207f \u2212 1, assume the result for n = k. Which line completes the inductive step?",
+   "imageRef": null,
+   "options": [
+    "3\u1d4f \u2212 1 + 2 \u00d7 3\u1d4f = 2 \u00d7 3\u1d4f\u207a\u00b9 \u2212 1",
+    "3\u1d4f \u2212 1 + 3\u1d4f\u207a\u00b9 = 3\u1d4f\u207a\u00b9 \u2212 1",
+    "3\u1d4f \u2212 1 + 2 \u00d7 3\u1d4f = 3 \u00d7 3\u1d4f \u2212 1 = 3\u1d4f\u207a\u00b9 \u2212 1",
+    "3\u1d4f \u2212 1 + 2 \u00d7 3\u1d4f\u207b\u00b9 = 3\u1d4f\u207a\u00b9 \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The (k + 1)th term is 2 \u00d7 3\u1d4f, and 3\u1d4f + 2 \u00d7 3\u1d4f = 3 \u00d7 3\u1d4f = 3\u1d4f\u207a\u00b9. Adding 2 \u00d7 3\u1d4f\u207b\u00b9 repeats the kth term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0009",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In a proof by induction that 7\u207f \u2212 1 is divisible by 6 for every positive integer n, what is the initial statement?",
+   "imageRef": null,
+   "options": [
+    "7\u2070 \u2212 1 = 0, which is divisible by 6",
+    "7\u00b2 \u2212 1 = 48, which is divisible by 6",
+    "7 \u2212 6 = 1, which divides 6",
+    "7\u00b9 \u2212 1 = 6, which is divisible by 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "For positive integers the first case is n = 1, and 7 \u2212 1 = 6 = 6 \u00d7 1. The case n = 0 is not a positive integer, and checking n = 2 is not the initial statement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0010",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "To prove 6\u207f \u2212 1 is divisible by 5, assume 6\u1d4f \u2212 1 = 5m for some integer m. Which working completes the inductive step?",
+   "imageRef": null,
+   "options": [
+    "6\u1d4f\u207a\u00b9 \u2212 1 = 6(5m) \u2212 1 = 30m \u2212 1",
+    "6\u1d4f\u207a\u00b9 \u2212 1 = 5m + 6 \u2212 1 = 5(m + 1)",
+    "6\u1d4f\u207a\u00b9 \u2212 1 = 6(5m \u2212 1) \u2212 1 = 5(6m \u2212 1) \u2212 2",
+    "6\u1d4f\u207a\u00b9 \u2212 1 = 6(5m + 1) \u2212 1 = 5(6m + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "From the assumption, 6\u1d4f = 5m + 1, so 6\u1d4f\u207a\u00b9 \u2212 1 = 30m + 6 \u2212 1 = 30m + 5 = 5(6m + 1), a multiple of 5. Writing 6\u1d4f\u207a\u00b9 as 6\u1d4f + 6 confuses multiplying by 6 with adding 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0011",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "To prove 5\u207f + 3 is divisible by 4, assume 5\u1d4f + 3 = 4m for some integer m. Which expression for 5\u1d4f\u207a\u00b9 + 3 shows that it is divisible by 4?",
+   "imageRef": null,
+   "options": [
+    "4(m + 1)",
+    "4(5m) + 3",
+    "4(5m \u2212 3)",
+    "4(5m + 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "5\u1d4f = 4m \u2212 3, so 5\u1d4f\u207a\u00b9 + 3 = 5(4m \u2212 3) + 3 = 20m \u2212 12 = 4(5m \u2212 3). Taking 5\u1d4f = 4m + 3 gets the sign of the 3 wrong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0012",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In a proof that n\u00b3 + 2n is divisible by 3, the inductive step expands (k + 1)\u00b3 + 2(k + 1). Which rearrangement completes the step?",
+   "imageRef": null,
+   "options": [
+    "3(k\u00b3 + 2k) + 3",
+    "(k\u00b3 + 2k) + 3(k\u00b2 + k + 1)",
+    "(k\u00b3 + 2k) + 3k\u00b2 + 3k + 1",
+    "(k\u00b3 + 2k) + (k + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expanding gives k\u00b3 + 3k\u00b2 + 3k + 1 + 2k + 2 = (k\u00b3 + 2k) + 3k\u00b2 + 3k + 3 = (k\u00b3 + 2k) + 3(k\u00b2 + k + 1). The first bracket is a multiple of 3 by assumption, and so is the second.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0013",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "For P(n): \"n\u00b2 + n is odd\", it is true that if k\u00b2 + k is odd then (k + 1)\u00b2 + (k + 1) = k\u00b2 + k + 2(k + 1) is odd. Why is P(n) still not proved for all positive integers?",
+   "imageRef": null,
+   "options": [
+    "The initial statement fails: 1\u00b2 + 1 = 2 is even",
+    "The inductive step is invalid because 2(k + 1) is even",
+    "Induction cannot be used for statements about odd numbers",
+    "The inductive step must be checked for k = 1, 2 and 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inductive step is valid, but it only passes truth along; with no true starting case, nothing is proved. In fact n\u00b2 + n = n(n + 1) is always even, so P(n) is false for every n.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0014",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "The imaginary number i is defined so that:",
+   "imageRef": null,
+   "options": [
+    "i\u00b2 = \u22121, so i is a root of x\u00b2 \u2212 1 = 0",
+    "i\u00b2 = \u22121, so i is a root of x\u00b2 + 1 = 0",
+    "i\u00b2 = 1, so i is a root of x\u00b2 \u2212 1 = 0",
+    "i = \u22121, so i is a root of x + 1 = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "i is defined as a number whose square is \u22121, so it solves x\u00b2 + 1 = 0, which has no real solutions. The equation x\u00b2 \u2212 1 = 0 has the real roots \u00b11.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0015",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "What are the real and imaginary parts of z = 3 \u2212 4i?",
+   "imageRef": null,
+   "options": [
+    "Re(z) = 3, Im(z) = \u22124i",
+    "Re(z) = 3, Im(z) = 4",
+    "Re(z) = \u22124, Im(z) = 3",
+    "Re(z) = 3, Im(z) = \u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "For z = a + bi, Re(z) = a and Im(z) = b, both real numbers. Here a = 3 and b = \u22124; the imaginary part does not include i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0016",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify i\u2077.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u2212i",
+    "i",
+    "\u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since i\u2074 = 1, i\u2077 = i\u2074 \u00d7 i\u00b3 = i\u00b3 = i\u00b2 \u00d7 i = \u2212i. Powers of i repeat in the cycle i, \u22121, \u2212i, 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0017",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify (2 + 3i) + (5 \u2212 7i).",
+   "imageRef": null,
+   "options": [
+    "7 \u2212 4i",
+    "7 + 10i",
+    "\u22123 + 10i",
+    "7 \u2212 21i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add the real parts and the imaginary parts separately: (2 + 5) + (3 \u2212 7)i = 7 \u2212 4i. Writing 10i adds 3 and 7 without the sign of \u22127.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0018",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify (3 \u2212 2i) \u2212 (\u22121 + 4i).",
+   "imageRef": null,
+   "options": [
+    "2 + 2i",
+    "4 + 2i",
+    "2 \u2212 6i",
+    "4 \u2212 6i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract each part: (3 \u2212 (\u22121)) + (\u22122 \u2212 4)i = 4 \u2212 6i. Forgetting to subtract the whole bracket gives 2 + 2i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0019",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify (2 + 3i)(4 \u2212 i).",
+   "imageRef": null,
+   "options": [
+    "11 + 10i",
+    "5 + 10i",
+    "8 \u2212 3i",
+    "11 + 14i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expanding, 8 \u2212 2i + 12i \u2212 3i\u00b2 = 8 + 10i + 3 = 11 + 10i, since i\u00b2 = \u22121. Treating \u22123i\u00b2 as \u22123 gives 5 + 10i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0020",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify (1 + i)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "2i",
+    "2",
+    "1 + i\u00b2",
+    "2 + 2i"
+   ],
+   "correctIndex": 0,
+   "explanation": "(1 + i)\u00b2 = 1 + 2i + i\u00b2 = 1 + 2i \u2212 1 = 2i. Squaring each part separately gives 1 + i\u00b2 = 0, which misses the middle term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0021",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "What is the complex conjugate of \u22125 + 2i?",
+   "imageRef": null,
+   "options": [
+    "5 + 2i",
+    "2 \u2212 5i",
+    "\u22125 \u2212 2i",
+    "5 \u2212 2i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The conjugate changes the sign of the imaginary part only, so the conjugate of \u22125 + 2i is \u22125 \u2212 2i. Changing both signs gives \u2212z, not the conjugate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0022",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "z = 3 + 4i, and z\u0304 is its conjugate. What is z \u00d7 z\u0304?",
+   "imageRef": null,
+   "options": [
+    "7 + 24i",
+    "\u22127",
+    "9 + 16i",
+    "25"
+   ],
+   "correctIndex": 3,
+   "explanation": "z \u00d7 z\u0304 = (3 + 4i)(3 \u2212 4i) = 9 \u2212 16i\u00b2 = 9 + 16 = 25, a real number. Treating i\u00b2 as 1 gives 9 \u2212 16 = \u22127, and 7 + 24i is z\u00b2, not z \u00d7 z\u0304.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0023",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "For any complex number z = a + bi with conjugate z\u0304, what is z + z\u0304?",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 + b\u00b2, a real number",
+    "0",
+    "2a, a real number",
+    "2bi, an imaginary number"
+   ],
+   "correctIndex": 2,
+   "explanation": "z + z\u0304 = (a + bi) + (a \u2212 bi) = 2a, so the sum of a number and its conjugate is twice its real part. The product z \u00d7 z\u0304, not the sum, equals a\u00b2 + b\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0024",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Express (5 + i)/(2 \u2212 3i) in the form a + bi.",
+   "imageRef": null,
+   "options": [
+    "7/13 + (17/13)i",
+    "17/13 + (7/13)i",
+    "7/5 + (17/5)i",
+    "5/2 \u2212 (1/3)i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply top and bottom by the conjugate 2 + 3i: (5 + i)(2 + 3i) = 10 + 17i + 3i\u00b2 = 7 + 17i, and (2 \u2212 3i)(2 + 3i) = 13. Dividing part by part, as in 5/2 \u2212 (1/3)i, is not valid.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0025",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Simplify 1/i.",
+   "imageRef": null,
+   "options": [
+    "\u2212i",
+    "i",
+    "1",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying top and bottom by i gives i/i\u00b2 = i/(\u22121) = \u2212i. Check: i \u00d7 (\u2212i) = \u2212i\u00b2 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0026",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Real numbers a and b satisfy a + (b \u2212 1)i = (3 \u2212 i)(2 + i). What are a and b?",
+   "imageRef": null,
+   "options": [
+    "a = 6, b = 0",
+    "a = 7, b = 2",
+    "a = 5, b = 2",
+    "a = 7, b = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "(3 \u2212 i)(2 + i) = 6 + 3i \u2212 2i \u2212 i\u00b2 = 7 + i. Equating real parts gives a = 7, and imaginary parts gives b \u2212 1 = 1, so b = 2. Treating \u2212i\u00b2 as \u22121 gives 5 + i and a = 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0027",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "z = x + yi, with x and y real, satisfies z + 2z\u0304 = 6 \u2212 4i. What is z?",
+   "imageRef": null,
+   "options": [
+    "2 \u2212 4i",
+    "6 + 4i",
+    "2 \u2212 (4/3)i",
+    "2 + 4i"
+   ],
+   "correctIndex": 3,
+   "explanation": "z + 2z\u0304 = (x + yi) + 2(x \u2212 yi) = 3x \u2212 yi. Equating parts, 3x = 6 and \u2212y = \u22124, so z = 2 + 4i. Forgetting that the conjugate changes the sign of y gives 2 \u2212 (4/3)i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0028",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In the complex plane (Argand diagram), which point represents \u22122 + 3i?",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 3i)",
+    "(\u22122, 3)",
+    "(3, \u22122)",
+    "(2, \u22123)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The real part is the horizontal coordinate and the imaginary part is the vertical coordinate, so \u22122 + 3i is the point (\u22122, 3). Both coordinates are real numbers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0029",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In the complex plane, how is the conjugate z\u0304 positioned relative to z?",
+   "imageRef": null,
+   "options": [
+    "It is the reflection of z in the imaginary axis",
+    "It is the rotation of z by 90\u00b0 about the origin",
+    "It is the reflection of z in the origin",
+    "It is the reflection of z in the real axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "Changing the sign of the imaginary part flips the point vertically, so z\u0304 is the mirror image of z in the real axis. Reflecting in the origin gives \u2212z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0030",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "z = 1 + 2i and w = 3 \u2212 i. In the complex plane, how is z + w found geometrically?",
+   "imageRef": null,
+   "options": [
+    "By adding the vectors for z and w, giving the point 4 + 3i",
+    "By joining z to w and taking the midpoint, 2 + 0.5i",
+    "By reflecting z in the real axis and adding w, giving 4 \u2212 3i",
+    "By adding the vectors for z and w, giving the point 4 + i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Complex addition adds the real and imaginary parts, just as vectors add component by component, so z + w = 4 + i. The point 4 + 3i ignores the sign of \u2212i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0031",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "z and w are non-zero complex numbers, not on the same line through the origin. In the complex plane, the points 0, z, z + w and w form:",
+   "imageRef": null,
+   "options": [
+    "a trapezium with only one pair of parallel sides",
+    "a parallelogram",
+    "a right-angled triangle and a point",
+    "a rhombus in every case"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vector from 0 to z equals the vector from w to z + w, and likewise for w, so opposite sides are equal and parallel: this is the parallelogram rule for adding vectors. It is a rhombus only when z and w have equal lengths.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0032",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "In the complex plane, which vector represents z \u2212 w?",
+   "imageRef": null,
+   "options": [
+    "The vector from the point z to the point \u2212w",
+    "The vector from the point w to the point z",
+    "The vector from the point z to the point w",
+    "The vector from the origin to the midpoint of z and w"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since w + (z \u2212 w) = z, the number z \u2212 w is the displacement that takes w to z. The vector from z to w represents w \u2212 z, its negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0033",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "What are the solutions of x\u00b2 + 9 = 0?",
+   "imageRef": null,
+   "options": [
+    "x = 9i and x = \u22129i",
+    "x = \u22123 only",
+    "x = 3i and x = \u22123i",
+    "x = 3 and x = \u22123"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b2 = \u22129 gives x = \u00b1\u221a(\u22129) = \u00b13i. The real numbers \u00b13 solve x\u00b2 = 9, not x\u00b2 = \u22129.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0034",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "A real quadratic equation has a negative discriminant. What are its roots?",
+   "imageRef": null,
+   "options": [
+    "One real root and one non-real root",
+    "Two non-real roots that are complex conjugates",
+    "Two equal real roots",
+    "Two distinct real roots that are negatives of each other"
+   ],
+   "correctIndex": 1,
+   "explanation": "With b\u00b2 \u2212 4ac < 0, the quadratic formula gives (\u2212b \u00b1 i\u221a(4ac \u2212 b\u00b2))/(2a), a pair of conjugates. A real quadratic cannot have exactly one non-real root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0035",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Solve x\u00b2 \u2212 4x + 13 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 2 \u00b1 3i",
+    "x = \u22122 \u00b1 3i",
+    "x = 2 \u00b1 6i",
+    "x = 4 \u00b1 3i"
+   ],
+   "correctIndex": 0,
+   "explanation": "The discriminant is 16 \u2212 52 = \u221236, so x = (4 \u00b1 6i)/2 = 2 \u00b1 3i. The answer 2 \u00b1 6i forgets to divide the \u221a(\u221236) part by 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0036",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Solve 2x\u00b2 + 2x + 5 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = (\u22121 \u00b1 3i)/2",
+    "x = (\u22121 \u00b1 3i)/4",
+    "x = \u22121 \u00b1 3i",
+    "x = (1 \u00b1 3i)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The discriminant is 4 \u2212 40 = \u221236, so x = (\u22122 \u00b1 6i)/4 = (\u22121 \u00b1 3i)/2. Using 2a = 2 instead of 4 gives \u22121 \u00b1 3i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0037",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "Which is the factorisation of x\u00b2 + 6x + 10 into linear factors?",
+   "imageRef": null,
+   "options": [
+    "(x + 3 \u2212 i)(x + 3 + i)",
+    "(x \u2212 3 \u2212 i)(x \u2212 3 + i)",
+    "(x + 3 \u2212 10i)(x + 3 + 10i)",
+    "(x + 5)(x + 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Completing the square, x\u00b2 + 6x + 10 = (x + 3)\u00b2 + 1 = (x + 3)\u00b2 \u2212 i\u00b2 = (x + 3 \u2212 i)(x + 3 + i). The roots are \u22123 \u00b1 i, so the factors are x \u2212 (\u22123 \u00b1 i).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0038",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "A quadratic with real coefficients and leading coefficient 1 has 3 \u2212 2i as a root. What is the quadratic?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 6x + 9",
+    "x\u00b2 \u2212 6x + 13",
+    "x\u00b2 + 6x + 13",
+    "x\u00b2 \u2212 6x + 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The other root is the conjugate 3 + 2i. The sum of the roots is 6 and the product is 9 + 4 = 13, so the quadratic is x\u00b2 \u2212 6x + 13. A product of 9 \u2212 4 = 5 treats i\u00b2 as 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-induction-complex-0039",
+   "topicId": "spec-bsss-induction-complex",
+   "stem": "For which real values of k does x\u00b2 + 2x + k = 0 have two non-real roots?",
+   "imageRef": null,
+   "options": [
+    "k > 0",
+    "k = 1",
+    "k > 1",
+    "k < 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Non-real roots need a negative discriminant: 4 \u2212 4k < 0, so k > 1. When k = 1 there is one repeated real root, x = \u22121.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-induction-complex-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

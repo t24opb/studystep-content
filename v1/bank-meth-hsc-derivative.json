@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-hsc-derivative",
+ "questions": [
+  {
+   "id": "meth-hsc-derivative-0001",
+   "topicId": "meth-hsc-derivative",
+   "stem": "What is the average rate of change of f(x) = x\u00b2 from x = 1 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "15",
+    "8",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Average rate of change = (f(4) \u2212 f(1))/(4 \u2212 1) = (16 \u2212 1)/3 = 5, the gradient of the secant. The value 15 is the change in f without dividing by the change in x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0002",
+   "topicId": "meth-hsc-derivative",
+   "stem": "From a distance-time graph, the instantaneous speed at t = 2 is estimated by:",
+   "imageRef": null,
+   "options": [
+    "the area under the graph up to t = 2",
+    "the gradient of the tangent at t = 2",
+    "the gradient of the chord from t = 0 to t = 2",
+    "the distance at t = 2 divided by 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Instantaneous speed is the gradient of the tangent at that instant. The chord from 0 to 2 gives the average speed over the first two seconds, which equals the distance divided by 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0003",
+   "topicId": "meth-hsc-derivative",
+   "stem": "For f(x) = 3x\u00b2 \u2212 x and h \u2260 0, the expression (f(x + h) \u2212 f(x))/h simplifies to:",
+   "imageRef": null,
+   "options": [
+    "6x + 3h",
+    "3x + 3h \u2212 1",
+    "6x + 3h \u2212 1",
+    "6x \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(x + h) \u2212 f(x) = 3(2xh + h\u00b2) \u2212 h = 6xh + 3h\u00b2 \u2212 h, and dividing by h gives 6x + 3h \u2212 1. Its limit as h \u2192 0 is f\u2032(x) = 6x \u2212 1, but for h \u2260 0 the 3h is still there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0004",
+   "topicId": "meth-hsc-derivative",
+   "stem": "If V(t) is the volume of water in a tank in litres after t minutes, what does V\u2032(5) = \u22122 mean?",
+   "imageRef": null,
+   "options": [
+    "Over the first 5 minutes the volume fell by 2 L per minute",
+    "At t = 5 the volume is falling at 2 L per minute",
+    "After 5 minutes the tank holds 2 L less than at the start",
+    "At t = 5 the tank holds \u22122 L of water"
+   ],
+   "correctIndex": 1,
+   "explanation": "V\u2032(5) is the instantaneous rate of change of V at t = 5, and the negative sign means the volume is decreasing. An average over the first five minutes would come from the secant, not the derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0005",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate f(t) = \u221at.",
+   "imageRef": null,
+   "options": [
+    "f\u2032(t) = 2\u221at",
+    "f\u2032(t) = \u221at/2",
+    "f\u2032(t) = 1/\u221at",
+    "f\u2032(t) = 1/(2\u221at)"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(t) = t^(1/2), so f\u2032(t) = (1/2)t^(\u22121/2) = 1/(2\u221at). Writing the derivative as \u221at/2 multiplies by 1/2 but forgets to subtract 1 from the index.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0006",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate g(x) = 1/x\u00b3.",
+   "imageRef": null,
+   "options": [
+    "g\u2032(x) = \u22123/x\u00b2",
+    "g\u2032(x) = 3/x\u2074",
+    "g\u2032(x) = \u22121/(3x\u00b2)",
+    "g\u2032(x) = \u22123/x\u2074"
+   ],
+   "correctIndex": 3,
+   "explanation": "g(x) = x\u207b\u00b3, so g\u2032(x) = \u22123x\u207b\u2074 = \u22123/x\u2074. Subtracting 1 from \u22123 gives \u22124, not \u22122, which is the usual slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0007",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = 4x\u00b3 \u2212 2/x + 5.",
+   "imageRef": null,
+   "options": [
+    "12x\u00b2 + 2/x\u00b2 + 5",
+    "12x\u00b2 \u2212 2x",
+    "12x\u00b2 + 2/x\u00b2",
+    "12x\u00b2 \u2212 2/x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write \u22122/x as \u22122x\u207b\u00b9, whose derivative is 2x\u207b\u00b2 = 2/x\u00b2. The derivative of the constant 5 is 0. Losing the sign from the index gives \u22122/x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0008",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = (x\u00b2 + 1)/x.",
+   "imageRef": null,
+   "options": [
+    "2x \u2212 1/x\u00b2",
+    "1 \u2212 1/x\u00b2",
+    "2x",
+    "1 + 1/x\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide first: y = x + x\u207b\u00b9, so y\u2032 = 1 \u2212 x\u207b\u00b2 = 1 \u2212 1/x\u00b2. Differentiating the numerator and denominator separately to get 2x/1 is not a valid rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0009",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate f(x) = 6x^(2/3).",
+   "imageRef": null,
+   "options": [
+    "4x^(1/3)",
+    "9x^(\u22121/3)",
+    "4x^(\u22122/3)",
+    "4x^(\u22121/3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 6 \u00d7 (2/3)x^(2/3 \u2212 1) = 4x^(\u22121/3). Dividing 6 by 2/3 instead of multiplying gives 9, and 2/3 \u2212 1 is \u22121/3, not 1/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0010",
+   "topicId": "meth-hsc-derivative",
+   "stem": "What is the equation of the tangent to y = x\u00b3 \u2212 2x at x = 1?",
+   "imageRef": null,
+   "options": [
+    "y = x \u2212 2",
+    "y = x + 2",
+    "y = \u2212x",
+    "y = 3x \u2212 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "At x = 1, y = \u22121 and dy/dx = 3x\u00b2 \u2212 2 = 1, so y + 1 = 1(x \u2212 1), giving y = x \u2212 2. Using only 3x\u00b2 for the gradient gives 3 and the line y = 3x \u2212 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0011",
+   "topicId": "meth-hsc-derivative",
+   "stem": "What is the equation of the normal to y = x\u00b2 at (2, 4)?",
+   "imageRef": null,
+   "options": [
+    "x + 4y \u2212 18 = 0",
+    "4x \u2212 y \u2212 4 = 0",
+    "x \u2212 4y + 14 = 0",
+    "4x + y \u2212 12 = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The tangent gradient is 2x = 4, so the normal gradient is \u22121/4 and y \u2212 4 = \u2212(1/4)(x \u2212 2), giving x + 4y \u2212 18 = 0. The line 4x \u2212 y \u2212 4 = 0 is the tangent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0012",
+   "topicId": "meth-hsc-derivative",
+   "stem": "At which points on y = x\u00b3 \u2212 3x\u00b2 is the tangent parallel to the line y = 9x?",
+   "imageRef": null,
+   "options": [
+    "(3, 0) and (\u22121, 4)",
+    "(3, 0) and (\u22121, \u22124)",
+    "(\u22123, \u221254) and (1, \u22122)",
+    "(3, 0) only"
+   ],
+   "correctIndex": 1,
+   "explanation": "Set dy/dx = 3x\u00b2 \u2212 6x = 9, so x\u00b2 \u2212 2x \u2212 3 = 0 and x = 3 or x = \u22121. Then y = 27 \u2212 27 = 0 and y = \u22121 \u2212 3 = \u22124.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0013",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A line has an angle of inclination of 60\u00b0 to the positive x-axis. What is its gradient?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u221a3",
+    "1/\u221a3",
+    "\u221a3/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient is m = tan \u03b8 = tan 60\u00b0 = \u221a3. The value \u221a3/2 is sin 60\u00b0, not tan 60\u00b0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0014",
+   "topicId": "meth-hsc-derivative",
+   "stem": "What is the angle of inclination of the tangent to y = 2x \u2212 x\u00b2 at x = 1.5?",
+   "imageRef": null,
+   "options": [
+    "120\u00b0",
+    "135\u00b0",
+    "45\u00b0",
+    "60\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 2 \u2212 2x = \u22121 at x = 1.5, so tan \u03b8 = \u22121. With 0\u00b0 \u2264 \u03b8 < 180\u00b0, \u03b8 = 135\u00b0. A gradient of +1 would give 45\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0015",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = (3x \u2212 2)\u2075.",
+   "imageRef": null,
+   "options": [
+    "5(3x \u2212 2)\u2074",
+    "15(3x \u2212 2)\u2075",
+    "5(3x)\u2074",
+    "15(3x \u2212 2)\u2074"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the chain rule, dy/dx = 5(3x \u2212 2)\u2074 \u00d7 3 = 15(3x \u2212 2)\u2074. Leaving out the derivative of the inside, 3, gives 5(3x \u2212 2)\u2074.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0016",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = x\u00b2e\u02e3.",
+   "imageRef": null,
+   "options": [
+    "e\u02e3(x\u00b2 + 2)",
+    "xe\u02e3(x + 2)",
+    "2xe\u02e3",
+    "x\u00b2e\u02e3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Product rule: y\u2032 = 2x \u00d7 e\u02e3 + x\u00b2 \u00d7 e\u02e3 = xe\u02e3(x + 2). Multiplying the two derivatives, 2x \u00d7 e\u02e3, is not the product rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0017",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = x/(x + 1).",
+   "imageRef": null,
+   "options": [
+    "\u22121/(x + 1)\u00b2",
+    "(2x + 1)/(x + 1)\u00b2",
+    "1",
+    "1/(x + 1)\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Quotient rule: y\u2032 = ((x + 1)(1) \u2212 x(1))/(x + 1)\u00b2 = 1/(x + 1)\u00b2. Reversing the order of the terms in the numerator gives the negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0018",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = (2x \u2212 1)/(x\u00b2 + 1).",
+   "imageRef": null,
+   "options": [
+    "(2x\u00b2 \u2212 2x \u2212 2)/(x\u00b2 + 1)\u00b2",
+    "(6x\u00b2 \u2212 2x + 2)/(x\u00b2 + 1)\u00b2",
+    "2/(2x)",
+    "(2 + 2x \u2212 2x\u00b2)/(x\u00b2 + 1)\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "y\u2032 = (2(x\u00b2 + 1) \u2212 (2x \u2212 1)(2x))/(x\u00b2 + 1)\u00b2 = (2x\u00b2 + 2 \u2212 4x\u00b2 + 2x)/(x\u00b2 + 1)\u00b2 = (2 + 2x \u2212 2x\u00b2)/(x\u00b2 + 1)\u00b2. Adding the two products instead of subtracting gives 6x\u00b2 \u2212 2x + 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0019",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = \u221a(1 \u2212 x\u00b2).",
+   "imageRef": null,
+   "options": [
+    "\u2212x/\u221a(1 \u2212 x\u00b2)",
+    "1/(2\u221a(1 \u2212 x\u00b2))",
+    "\u22122x\u221a(1 \u2212 x\u00b2)",
+    "x/\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = (1 \u2212 x\u00b2)^(1/2), so y\u2032 = (1/2)(1 \u2212 x\u00b2)^(\u22121/2) \u00d7 (\u22122x) = \u2212x/\u221a(1 \u2212 x\u00b2). Forgetting the inner derivative \u22122x gives 1/(2\u221a(1 \u2212 x\u00b2)).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0020",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = 1/(2x + 3)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "\u22124/(2x + 3)",
+    "\u22124/(2x + 3)\u00b3",
+    "\u22122/(2x + 3)\u00b3",
+    "4/(2x + 3)\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = (2x + 3)\u207b\u00b2, so y\u2032 = \u22122(2x + 3)\u207b\u00b3 \u00d7 2 = \u22124/(2x + 3)\u00b3. Leaving out the factor 2 from the chain rule gives \u22122/(2x + 3)\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0021",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = x(1 \u2212 2x)\u00b3 and factorise.",
+   "imageRef": null,
+   "options": [
+    "(1 \u2212 2x)\u00b2(1 \u2212 8x)",
+    "(1 \u2212 2x)\u00b2(1 + x)",
+    "(1 \u2212 2x)\u00b2(1 + 4x)",
+    "\u22126x(1 \u2212 2x)\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "y\u2032 = (1 \u2212 2x)\u00b3 + x \u00d7 3(1 \u2212 2x)\u00b2 \u00d7 (\u22122) = (1 \u2212 2x)\u00b2(1 \u2212 2x \u2212 6x) = (1 \u2212 2x)\u00b2(1 \u2212 8x). Forgetting the \u22122 from the chain rule gives (1 \u2212 2x)\u00b2(1 + x).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0022",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = e^(x\u00b2).",
+   "imageRef": null,
+   "options": [
+    "x\u00b2e^(x\u00b2 \u2212 1)",
+    "2e^(x\u00b2)",
+    "2xe^(x\u00b2)",
+    "e^(x\u00b2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the chain rule with u = x\u00b2, dy/dx = e^u \u00d7 du/dx = 2xe^(x\u00b2). Treating e^(x\u00b2) like a power of x, with the power rule, gives x\u00b2e^(x\u00b2 \u2212 1), which is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0023",
+   "topicId": "meth-hsc-derivative",
+   "stem": "f(x) = g(x)h(x), where g(2) = 3, g\u2032(2) = \u22121, h(2) = 4 and h\u2032(2) = 5. What is f\u2032(2)?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "11",
+    "\u22125",
+    "19"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(2) = g(2)h\u2032(2) + g\u2032(2)h(2) = 3 \u00d7 5 + (\u22121) \u00d7 4 = 15 \u2212 4 = 11. Multiplying the derivatives, \u22121 \u00d7 5, gives \u22125.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0024",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Euler's number e is the unique number for which:",
+   "imageRef": null,
+   "options": [
+    "the tangent to y = e\u02e3 at x = 1 has gradient 1",
+    "the graph of y = e\u02e3 passes through (1, 1)",
+    "the tangent to y = e\u02e3 at x = 0 has gradient 0",
+    "the tangent to y = e\u02e3 at x = 0 has gradient 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "For y = a\u02e3 the gradient at the y-intercept depends on a, and e \u2248 2.718 is the base that makes it exactly 1. This is why d/dx(e\u02e3) = e\u02e3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0025",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Differentiate y = 3e\u02e3 \u2212 x\u00b2.",
+   "imageRef": null,
+   "options": [
+    "3e\u02e3 \u2212 2x",
+    "3xe^(x \u2212 1) \u2212 2x",
+    "3e\u02e3 \u2212 x",
+    "3e\u02e3 \u2212 2x\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "e\u02e3 is its own derivative, so d/dx(3e\u02e3) = 3e\u02e3, and d/dx(x\u00b2) = 2x. Applying the power rule to e\u02e3 gives xe^(x \u2212 1), which treats e as the variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0026",
+   "topicId": "meth-hsc-derivative",
+   "stem": "What is the equation of the tangent to y = e\u02e3 at x = 0?",
+   "imageRef": null,
+   "options": [
+    "y = x \u2212 1",
+    "y = x + 1",
+    "y = x",
+    "y = ex"
+   ],
+   "correctIndex": 1,
+   "explanation": "At x = 0, y = e\u2070 = 1, and the gradient is also e\u2070 = 1, so the tangent is y \u2212 1 = x, or y = x + 1. The line y = x passes through the origin, not (0, 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0027",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A function f is decreasing at x = c when:",
+   "imageRef": null,
+   "options": [
+    "f(c) < 0",
+    "f\u2032(c) = 0",
+    "f(c) > f\u2032(c)",
+    "f\u2032(c) < 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The derivative is the gradient of the tangent, and a negative gradient means the function is decreasing there. A negative value f(c) only says the graph is below the x-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0028",
+   "topicId": "meth-hsc-derivative",
+   "stem": "Find the stationary points of f(x) = x\u00b3 \u2212 3x.",
+   "imageRef": null,
+   "options": [
+    "(1, \u22122) and (\u22121, 2)",
+    "(1, 2) and (\u22121, \u22122)",
+    "(\u221a3, 0) and (\u2212\u221a3, 0)",
+    "(0, 0) only"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032(x) = 3x\u00b2 \u2212 3 = 0 gives x = \u00b11, with f(1) = \u22122 and f(\u22121) = 2. The points (\u00b1\u221a3, 0) are x-intercepts, where f(x) = 0 rather than f\u2032(x) = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0029",
+   "topicId": "meth-hsc-derivative",
+   "stem": "For f(x) = x\u00b3 \u2212 6x\u00b2 + 9x + 1, which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Local maximum at (1, 5), local minimum at (3, 5)",
+    "Horizontal inflection at (1, 5), local minimum at (3, 1)",
+    "Local maximum at (1, 5), local minimum at (3, 1)",
+    "Local minimum at (1, 5), local maximum at (3, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032(x) = 3(x \u2212 1)(x \u2212 3), which is positive, then negative, then positive across x = 1 and x = 3. So (1, 5) is a local maximum and (3, 1) a local minimum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0030",
+   "topicId": "meth-hsc-derivative",
+   "stem": "For which values of x is f(x) = x\u00b3 \u2212 6x\u00b2 + 9x + 1 decreasing?",
+   "imageRef": null,
+   "options": [
+    "x > 3",
+    "x < 1",
+    "1 < x < 3",
+    "x < 1 or x > 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032(x) = 3(x \u2212 1)(x \u2212 3) is a concave-up parabola, negative between its roots, so f is decreasing for 1 < x < 3. Outside that interval f\u2032(x) > 0 and f is increasing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0031",
+   "topicId": "meth-hsc-derivative",
+   "stem": "The curve y = x\u00b3 \u2212 3x\u00b2 + 3x has:",
+   "imageRef": null,
+   "options": [
+    "a horizontal point of inflection at (1, 1)",
+    "a local minimum at (1, 1)",
+    "a local maximum at (1, 1)",
+    "no stationary points"
+   ],
+   "correctIndex": 0,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 6x + 3 = 3(x \u2212 1)\u00b2, which is zero at x = 1 and positive on both sides. The curve keeps increasing through (1, 1), so it is a horizontal inflection, not a turning point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0032",
+   "topicId": "meth-hsc-derivative",
+   "stem": "y = f(x) is a concave-up parabola with its vertex at x = 2. Which describes the graph of y = f\u2032(x)?",
+   "imageRef": null,
+   "options": [
+    "A parabola with its vertex at x = 2",
+    "A horizontal line at y = 2",
+    "A line with positive gradient, cutting the x-axis at x = 2",
+    "A line with negative gradient, cutting the x-axis at x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient of the parabola is negative left of the vertex, zero at it and positive to the right, and the derivative of a quadratic is linear. So f\u2032 is an increasing line through (2, 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0033",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A cubic y = f(x) has a local maximum at x = \u22121 and a local minimum at x = 3. For which x is f\u2032(x) < 0?",
+   "imageRef": null,
+   "options": [
+    "x > 3",
+    "\u22121 < x < 3",
+    "x < \u22121 or x > 3",
+    "x < \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curve rises to the maximum, falls to the minimum, then rises again, so it is decreasing between the turning points. There f\u2032(x) < 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0034",
+   "topicId": "meth-hsc-derivative",
+   "stem": "How does displacement differ from distance travelled?",
+   "imageRef": null,
+   "options": [
+    "Displacement is measured along the path taken",
+    "Displacement includes direction and can be negative",
+    "Displacement is always the larger of the two",
+    "Displacement ignores where the particle started"
+   ],
+   "correctIndex": 1,
+   "explanation": "Displacement is the position relative to a fixed point, with a sign for direction. Distance is the total length travelled along the path, which is never negative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0035",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres after t seconds. What is its velocity at t = 2?",
+   "imageRef": null,
+   "options": [
+    "3 m/s",
+    "2 m/s",
+    "0 m/s",
+    "\u22123 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "v = dx/dt = 3t\u00b2 \u2212 12t + 9, so at t = 2, v = 12 \u2212 24 + 9 = \u22123 m/s. The value 2 is the displacement x(2), not the velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0036",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres after t seconds. When is it at rest?",
+   "imageRef": null,
+   "options": [
+    "t = 0 and t = 3",
+    "t = 2 only",
+    "t = 3 only",
+    "t = 1 and t = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "At rest means v = 0: 3t\u00b2 \u2212 12t + 9 = 3(t \u2212 1)(t \u2212 3) = 0, so t = 1 or t = 3. The times t = 0 and t = 3 are when the displacement is zero, at the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0037",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A particle has velocity \u22123 m/s at t = 2. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Its speed is 3 m/s and it moves in the positive direction",
+    "Its speed is 3 m/s and it is slowing to rest",
+    "Its speed is 3 m/s and it moves in the negative direction",
+    "Its speed is \u22123 m/s and it moves in the negative direction"
+   ],
+   "correctIndex": 2,
+   "explanation": "Speed is the magnitude of velocity, so it is 3 m/s and never negative. The negative sign of the velocity gives the direction of motion. Nothing in a single velocity value says whether it is slowing down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-derivative-0038",
+   "topicId": "meth-hsc-derivative",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres. What distance does it travel from t = 0 to t = 3?",
+   "imageRef": null,
+   "options": [
+    "0 m",
+    "4 m",
+    "12 m",
+    "8 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "It is at rest at t = 1 and turns around: x goes from 0 to x(1) = 4, then back to x(3) = 0. The distance is 4 + 4 = 8 m. The displacement x(3) \u2212 x(0) = 0 m ignores the change of direction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-derivative-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

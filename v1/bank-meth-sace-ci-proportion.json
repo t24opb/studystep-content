@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-sace-ci-proportion",
+ "questions": [
+  {
+   "id": "meth-sace-ci-proportion-0001",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a town, 0.12 of all residents are left-handed. What does the population proportion p = 0.12 also represent?",
+   "imageRef": null,
+   "options": [
+    "The probability that a sample contains a left-hander",
+    "The probability that a randomly chosen resident is left-handed",
+    "The number of left-handed residents in the town",
+    "The proportion of left-handers in any sample of residents"
+   ],
+   "correctIndex": 1,
+   "explanation": "A population proportion is the probability that one randomly chosen member has the characteristic. A particular sample will usually have a proportion a little different from p.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0002",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 150 voters, 63 support a proposal. What is the sample proportion p\u0302?",
+   "imageRef": null,
+   "options": [
+    "0.087",
+    "0.42",
+    "0.63",
+    "0.58"
+   ],
+   "correctIndex": 1,
+   "explanation": "p\u0302 = X/n = 63/150 = 0.42. The value 0.58 is the proportion who do not support it, and 0.63 treats the count 63 as a proportion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0003",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Why is the sample proportion p\u0302 a discrete random variable?",
+   "imageRef": null,
+   "options": [
+    "It can only take the values 0, 1/n, 2/n, ..., 1",
+    "It is always a whole number",
+    "It always equals the population proportion",
+    "It can take any value between 0 and 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "p\u0302 = X/n, and the count X is a whole number from 0 to n, so p\u0302 takes only the values 0, 1/n, 2/n, ..., 1. It is a fraction, not a whole number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0004",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "For random samples of size 10, which of these is NOT a possible value of the sample proportion?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0.6",
+    "0",
+    "0.55"
+   ],
+   "correctIndex": 3,
+   "explanation": "With n = 10, p\u0302 = X/10 for a whole number X, so p\u0302 can be 0.5 or 0.6 but not 0.55, which would need 5.5 successes. A sample with no successes gives p\u0302 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0005",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Random samples of size n are taken from a population with proportion p. What is the mean of the distribution of p\u0302?",
+   "imageRef": null,
+   "options": [
+    "p(1 \u2212 p)",
+    "p",
+    "np",
+    "p/n"
+   ],
+   "correctIndex": 1,
+   "explanation": "The count X is binomial with mean np, and p\u0302 = X/n, so p\u0302 has mean np/n = p. The value np is the mean of the count, not the proportion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0006",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "The standard deviation of p\u0302 for samples of size n from a population with proportion p is:",
+   "imageRef": null,
+   "options": [
+    "\u221a(np(1 \u2212 p))",
+    "p(1 \u2212 p)/n",
+    "\u221a(p(1 \u2212 p))/n",
+    "\u221a(p(1 \u2212 p)/n)"
+   ],
+   "correctIndex": 3,
+   "explanation": "X has standard deviation \u221a(np(1 \u2212 p)), and dividing by n gives \u221a(p(1 \u2212 p)/n). The expression \u221a(np(1 \u2212 p)) is for the count X, and p(1 \u2212 p)/n is the variance, before the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0007",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a population, 30% of people have a certain gene. For random samples of 84 people, what is the standard deviation of the sample proportion?",
+   "imageRef": null,
+   "options": [
+    "4.2",
+    "0.21",
+    "0.05",
+    "0.0025"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u221a(0.3 \u00d7 0.7/84) = \u221a0.0025 = 0.05. The value 0.0025 is the variance, and 4.2 is the standard deviation of the count, \u221a(84 \u00d7 0.21).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0008",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a population, 20% of households own a dog. For random samples of 400 households, what are the mean and standard deviation of p\u0302?",
+   "imageRef": null,
+   "options": [
+    "Mean 0.2, standard deviation 0.4",
+    "Mean 0.2, standard deviation 0.02",
+    "Mean 80, standard deviation 8",
+    "Mean 0.2, standard deviation 0.0004"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean is p = 0.2 and the standard deviation is \u221a(0.2 \u00d7 0.8/400) = \u221a0.0004 = 0.02. The values 80 and 8 describe the count of dog owners, not the proportion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0009",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "What happens to the distribution of p\u0302 as the sample size increases?",
+   "imageRef": null,
+   "options": [
+    "It becomes more spread out",
+    "Its mean moves further from p",
+    "It becomes more skewed",
+    "It becomes more like a normal distribution"
+   ],
+   "correctIndex": 3,
+   "explanation": "For large samples the distribution of p\u0302 is approximately normal, centred at p, with a standard deviation that shrinks as n grows. This is what makes the confidence interval formula work.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0010",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a population, 40% of people prefer tea. For random samples of 150 people, find the approximate probability that the sample proportion is more than 0.48.",
+   "imageRef": null,
+   "options": [
+    "0.977",
+    "0.023",
+    "0.435",
+    "0.159"
+   ],
+   "correctIndex": 1,
+   "explanation": "p\u0302 is approximately normal with mean 0.4 and standard deviation \u221a(0.4 \u00d7 0.6/150) = 0.04, so Pr(p\u0302 > 0.48) \u2248 Pr(Z > 2) \u2248 0.023. Using \u221a(0.4 \u00d7 0.6) without n gives about 0.435.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0011",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "For samples of size n, the standard deviation of p\u0302 is largest when the population proportion p is:",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0",
+    "1",
+    "0.25"
+   ],
+   "correctIndex": 0,
+   "explanation": "p(1 \u2212 p) is a parabola with its maximum at p = 0.5, where it equals 0.25. When p is 0 or 1 every sample gives the same p\u0302, so the standard deviation is 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0012",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A fair coin is tossed 10 times and p\u0302 is the proportion of heads. Find Pr(p\u0302 = 0.5), to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.500",
+    "0.091",
+    "0.000",
+    "0.246"
+   ],
+   "correctIndex": 3,
+   "explanation": "p\u0302 = 0.5 means exactly 5 heads, so the probability is C(10, 5) \u00d7 0.5\u00b9\u2070 = 252/1024 \u2248 0.246. Because p\u0302 is discrete, a single value has a non-zero probability, unlike a continuous variable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0013",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a population, 20% of people walk to work. For random samples of 400, about 95% of sample proportions lie between which values?",
+   "imageRef": null,
+   "options": [
+    "0.16 and 0.24",
+    "0.18 and 0.22",
+    "0.12 and 0.28",
+    "0.19 and 0.21"
+   ],
+   "correctIndex": 0,
+   "explanation": "The standard deviation of p\u0302 is \u221a(0.2 \u00d7 0.8/400) = 0.02, and about 95% of values lie within two standard deviations of 0.2. The interval 0.18 to 0.22 is only one standard deviation either side, about 68%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0014",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Which expression gives a confidence interval for a population proportion p?",
+   "imageRef": null,
+   "options": [
+    "p\u0302 \u00b1 z p\u0302(1 \u2212 p\u0302)/n",
+    "p \u00b1 z\u221a(p(1 \u2212 p)/n)",
+    "p\u0302 \u00b1 z\u221a(p\u0302(1 \u2212 p\u0302)/n)",
+    "p\u0302 \u00b1 z\u221a(p\u0302(1 \u2212 p\u0302))"
+   ],
+   "correctIndex": 2,
+   "explanation": "The interval is centred at the sample proportion and uses p\u0302 in the standard deviation, because p is unknown. Leaving out n or the square root gives the wrong width.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0015",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 150 voters, 63 support a proposal. Find the 95% confidence interval for the population proportion, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.501 \u2264 p \u2264 0.659",
+    "0.341 \u2264 p \u2264 0.499",
+    "0.354 \u2264 p \u2264 0.486",
+    "0.417 \u2264 p \u2264 0.423"
+   ],
+   "correctIndex": 1,
+   "explanation": "p\u0302 = 0.42 and the margin is 1.96 \u00d7 \u221a(0.42 \u00d7 0.58/150) \u2248 0.079, giving 0.341 to 0.499. Using z = 1.645 gives the 90% interval, and leaving out the square root gives the far too narrow 0.417 to 0.423.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0016",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 400 shoppers, 240 paid by card. Find the 90% confidence interval for the proportion of all shoppers who pay by card, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.560 \u2264 p \u2264 0.640",
+    "0.552 \u2264 p \u2264 0.648",
+    "0.360 \u2264 p \u2264 0.440",
+    "0.420 \u2264 p \u2264 0.780"
+   ],
+   "correctIndex": 0,
+   "explanation": "p\u0302 = 240/400 = 0.6, and the margin is 1.645 \u00d7 \u221a(0.6 \u00d7 0.4/400) \u2248 0.040. Using z = 1.96 gives the 95% interval, and 0.36 to 0.44 is centred on the proportion who did not pay by card.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0017",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 300 households, 75 had solar panels. Find the 98% confidence interval for the population proportion, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.201 \u2264 p \u2264 0.299",
+    "0.199 \u2264 p \u2264 0.301",
+    "0.250 \u2264 p \u2264 0.308",
+    "0.192 \u2264 p \u2264 0.308"
+   ],
+   "correctIndex": 3,
+   "explanation": "p\u0302 = 0.25 and the margin is 2.326 \u00d7 \u221a(0.25 \u00d7 0.75/300) = 2.326 \u00d7 0.025 \u2248 0.058. The interval 0.201 to 0.299 uses z = 1.96, and 0.199 to 0.301 uses the slip z = 2.054.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0018",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 100, 50 people say yes. Find the margin of error for a 95% confidence interval for p, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.980",
+    "0.082",
+    "0.098",
+    "0.049"
+   ],
+   "correctIndex": 2,
+   "explanation": "The margin is 1.96 \u00d7 \u221a(0.5 \u00d7 0.5/100) = 1.96 \u00d7 0.05 = 0.098. Halving it gives 0.049, which is the margin for a sample of 400, and 0.082 uses z = 1.645.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0019",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A confidence interval for a population proportion is 0.31 \u2264 p \u2264 0.39. What are the sample proportion and the margin of error?",
+   "imageRef": null,
+   "options": [
+    "p\u0302 = 0.35, margin 0.04",
+    "p\u0302 = 0.35, margin 0.08",
+    "p\u0302 = 0.31, margin 0.08",
+    "p\u0302 = 0.39, margin 0.04"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample proportion is the midpoint, (0.31 + 0.39)/2 = 0.35, and the margin is half the width, 0.08/2 = 0.04.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0020",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A 95% confidence interval for a proportion is 0.31 \u2264 p \u2264 0.39. About how large was the sample?",
+   "imageRef": null,
+   "options": [
+    "546",
+    "385",
+    "142",
+    "23"
+   ],
+   "correctIndex": 0,
+   "explanation": "p\u0302 = 0.35 and the margin 0.04, so 1.96\u221a(0.35 \u00d7 0.65/n) = 0.04 and n = 0.2275 \u00d7 (1.96/0.04)\u00b2 \u2248 546. Using z = 1.645 gives about 385, the size for a 90% interval of that width.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0021",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A pollster wants a 95% confidence interval for p with a margin of error of at most 0.03 and has no estimate of p, so uses p\u0302 = 0.5. What is the smallest sample size needed?",
+   "imageRef": null,
+   "options": [
+    "1068",
+    "1067",
+    "752",
+    "33"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve 1.96\u221a(0.25/n) \u2264 0.03: n \u2265 0.25 \u00d7 (1.96/0.03)\u00b2 \u2248 1067.1, so n = 1068 after rounding up. Using z = 1.645 gives 752, the size for 90% confidence.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0022",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 500 people, 90 are vegetarian. Find the 95% confidence interval for the population proportion, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.146 \u2264 p \u2264 0.214",
+    "0.180 \u2264 p \u2264 0.214",
+    "0.152 \u2264 p \u2264 0.208",
+    "0.112 \u2264 p \u2264 0.248"
+   ],
+   "correctIndex": 0,
+   "explanation": "p\u0302 = 90/500 = 0.18 and the margin is 1.96 \u00d7 \u221a(0.18 \u00d7 0.82/500) \u2248 0.034, giving 0.146 to 0.214. An interval starting at 0.18 uses the sample proportion as an end point instead of the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0023",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A 95% confidence interval for a proportion, 0.146 \u2264 p \u2264 0.214, came from a sample of 500 people. How many people in the sample had the characteristic?",
+   "imageRef": null,
+   "options": [
+    "107",
+    "18",
+    "90",
+    "73"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sample proportion is the midpoint, (0.146 + 0.214)/2 = 0.18, and 0.18 \u00d7 500 = 90. Using an end point instead gives 73 or 107, and 18 reads 0.18 as a count out of 100 instead of 500.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0024",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "With the same sample, the confidence level for p is changed from 95% to 90%. The interval becomes:",
+   "imageRef": null,
+   "options": [
+    "the same width but shifted",
+    "centred on a different sample proportion",
+    "narrower",
+    "wider"
+   ],
+   "correctIndex": 2,
+   "explanation": "A lower confidence level uses a smaller z (1.645 instead of 1.96), so the margin of error shrinks. The interval is still centred on the same p\u0302.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0025",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "With the same p\u0302 and confidence level, how does multiplying the sample size by 4 change the margin of error for p?",
+   "imageRef": null,
+   "options": [
+    "It is unchanged",
+    "It halves",
+    "It quarters",
+    "It doubles"
+   ],
+   "correctIndex": 1,
+   "explanation": "The margin z\u221a(p\u0302(1 \u2212 p\u0302)/n) contains \u221an in the denominator, and \u221a(4n) = 2\u221an, so the margin halves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0026",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Two samples of 100 give 95% confidence intervals for p. Sample A has p\u0302 = 0.5 and sample B has p\u0302 = 0.1. Which interval is wider?",
+   "imageRef": null,
+   "options": [
+    "A, with margin 0.098",
+    "B, with margin 0.098",
+    "A, with margin 0.059",
+    "Both have the same width"
+   ],
+   "correctIndex": 0,
+   "explanation": "A has margin 1.96\u221a(0.25/100) = 0.098 and B has 1.96\u221a(0.09/100) \u2248 0.059. p\u0302(1 \u2212 p\u0302) is largest at p\u0302 = 0.5, so that sample gives the widest interval for a given n.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0027",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A 95% confidence interval for p has margin of error 0.03. Using the same sample, what is the margin for a 90% interval, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "0.030",
+    "0.025",
+    "0.036",
+    "0.027"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation estimate is 0.03/1.96, so the 90% margin is 1.645 \u00d7 0.03/1.96 \u2248 0.025. Multiplying by 1.96/1.645 instead gives the larger 0.036, which would be wider than the 95% margin.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0028",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "What does a 90% confidence level mean for an interval for a population proportion?",
+   "imageRef": null,
+   "options": [
+    "About 90% of intervals built this way from repeated samples contain p",
+    "p lies in this particular interval 90% of the time",
+    "90% of the population have the characteristic",
+    "90% of sample proportions equal p"
+   ],
+   "correctIndex": 0,
+   "explanation": "The confidence level describes how often the method captures the fixed value p across many samples. A single calculated interval either contains p or does not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0029",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Which statement about confidence intervals for a proportion is correct?",
+   "imageRef": null,
+   "options": [
+    "Every 98% confidence interval contains p",
+    "The interval always contains p\u0302 and p at its centre",
+    "A wider interval always misses p",
+    "Not every confidence interval contains the population proportion"
+   ],
+   "correctIndex": 3,
+   "explanation": "Some samples give a p\u0302 far enough from p that the interval misses it, whatever the confidence level. The interval is centred on p\u0302, which usually differs from p.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0030",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Fifty researchers each take a random sample and calculate a 98% confidence interval for the same proportion. About how many intervals would be expected to miss p?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "49",
+    "0",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "About 2% of 98% intervals miss p, and 2% of 50 is 1. The value 49 is the number expected to contain p.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0031",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A council claims that half of its residents support a new park. A random sample of 1000 gives the 95% interval 0.419 \u2264 p \u2264 0.481. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "The claim is doubtful, but the interval does not prove it false",
+    "The claim is definitely false",
+    "The claim is supported, since 0.481 rounds to 0.5",
+    "The claim is definitely true"
+   ],
+   "correctIndex": 0,
+   "explanation": "0.5 lies outside the interval, so the sample suggests support is below half. A confidence interval is only a guide, so a definite statement about p is not possible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0032",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "A company claims 15% of its products are returned. A 90% confidence interval from a sample is 0.12 \u2264 p \u2264 0.19. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "The claim has been proved false by the sample",
+    "The true proportion is exactly 0.155",
+    "The data are consistent with the claim, but do not prove it",
+    "The claim has been proved true by the sample"
+   ],
+   "correctIndex": 2,
+   "explanation": "The claimed 0.15 lies inside the interval, so the sample gives no reason to doubt it. Other values in the interval fit the data equally well, so the claim is not proved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0033",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "In a random sample of 400, p\u0302 = 0.45. The 90% interval is 0.409 \u2264 p \u2264 0.491 and the 98% interval is 0.392 \u2264 p \u2264 0.508. How do they relate to a claim that p = 0.5?",
+   "imageRef": null,
+   "options": [
+    "0.5 is outside both intervals",
+    "0.5 is inside the 90% interval but outside the 98% interval",
+    "0.5 is outside the 90% interval but inside the 98% interval",
+    "0.5 is inside both intervals"
+   ],
+   "correctIndex": 2,
+   "explanation": "The claim sits above 0.491 but below 0.508. The 90% interval casts doubt on it and the 98% interval does not, which is why conclusions from intervals are a guide, not a proof.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0034",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Why is p\u0302, not p, used inside the square root when calculating a confidence interval for a proportion?",
+   "imageRef": null,
+   "options": [
+    "p is unknown, so p\u0302 from the sample estimates it",
+    "p\u0302 is always larger than p, giving a safer interval",
+    "Using p would give an interval of zero width",
+    "p\u0302 is the population value and p the sample value"
+   ],
+   "correctIndex": 0,
+   "explanation": "The aim is to estimate the unknown p, so the standard deviation \u221a(p(1 \u2212 p)/n) has to be estimated by \u221a(p\u0302(1 \u2212 p\u0302)/n). For large samples this estimate is close enough.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0035",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "Two polls estimate the proportion of voters who favour a candidate. Poll A has n = 400 and p\u0302 = 0.52; poll B has n = 1600 and p\u0302 = 0.49. Which statement is correct about their 95% intervals?",
+   "imageRef": null,
+   "options": [
+    "The intervals cannot overlap because the p\u0302 values differ",
+    "Both intervals contain 0.5, so neither clearly shows a majority",
+    "Poll A shows a majority because 0.52 is above 0.5",
+    "Poll B proves the candidate has less than half the votes"
+   ],
+   "correctIndex": 1,
+   "explanation": "Poll A gives about 0.52 \u00b1 0.049 and poll B about 0.49 \u00b1 0.024, and both include 0.5. A sample proportion above 0.5 is not enough on its own to conclude that p is above 0.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-proportion-0036",
+   "topicId": "meth-sace-ci-proportion",
+   "stem": "The margin of error for a 95% interval for p is 0.04. If the sample size is doubled with the same p\u0302, the new margin is about:",
+   "imageRef": null,
+   "options": [
+    "0.057",
+    "0.028",
+    "0.020",
+    "0.080"
+   ],
+   "correctIndex": 1,
+   "explanation": "Doubling n divides the margin by \u221a2: 0.04/1.414 \u2248 0.028. Halving the margin to 0.020 would require four times the sample size.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-proportion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

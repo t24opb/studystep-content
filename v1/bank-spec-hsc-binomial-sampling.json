@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-hsc-binomial-sampling",
+ "questions": [
+  {
+   "id": "spec-hsc-binomial-sampling-0001",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A Bernoulli random variable models:",
+   "imageRef": null,
+   "options": [
+    "a fixed number of trials, counting the total number of successes",
+    "the number of trials needed until the first success occurs",
+    "a single trial with any number of equally likely outcomes",
+    "a single trial with two outcomes, success (X = 1) and failure (X = 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A Bernoulli trial has just two outcomes, coded X = 1 for success with probability p and X = 0 for failure with probability q = 1 \u2212 p. Counting successes over n such trials gives a binomial variable instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0002",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A Bernoulli random variable has P(X = 1) = 0.3. Its mean and variance are:",
+   "imageRef": null,
+   "options": [
+    "E(X) = 0.3, Var(X) = 0.21",
+    "E(X) = 0.3, Var(X) = 0.09",
+    "E(X) = 0.7, Var(X) = 0.21",
+    "E(X) = 0.3, Var(X) = 0.3"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a Bernoulli variable, E(X) = p = 0.3 and Var(X) = p(1 \u2212 p) = 0.3 \u00d7 0.7 = 0.21. Squaring p gives 0.09, which is E(X)\u00b2, not the variance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0003",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A basketballer scores each free throw with probability 0.8. X = 1 if she scores her next free throw and X = 0 if not. The standard deviation of X is:",
+   "imageRef": null,
+   "options": [
+    "0.4",
+    "0.16",
+    "0.8",
+    "0.2"
+   ],
+   "correctIndex": 0,
+   "explanation": "X is Bernoulli with p = 0.8, so Var(X) = 0.8 \u00d7 0.2 = 0.16 and the standard deviation is \u221a0.16 = 0.4. The value 0.16 is the variance, not the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0004",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "The variance p(1 \u2212 p) of a Bernoulli random variable is greatest when p equals:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1/2",
+    "1",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "p(1 \u2212 p) = p \u2212 p\u00b2 is a parabola with zeros at p = 0 and p = 1, so its maximum is halfway, at p = 1/2, where the variance is 1/4. At p = 0 or 1 the outcome is certain and the variance is 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0005",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A Bernoulli random variable has variance 0.24, and its probability of success p is less than 0.5. The value of p is:",
+   "imageRef": null,
+   "options": [
+    "0.6",
+    "0.24",
+    "0.2",
+    "0.4"
+   ],
+   "correctIndex": 3,
+   "explanation": "p(1 \u2212 p) = 0.24 gives p\u00b2 \u2212 p + 0.24 = 0, so (p \u2212 0.4)(p \u2212 0.6) = 0. Since p < 0.5, p = 0.4. The value 0.6 also gives variance 0.24 but breaks the condition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0006",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Which situation can be modelled by a binomial distribution?",
+   "imageRef": null,
+   "options": [
+    "Drawing 5 cards from a deck without replacement and counting the hearts",
+    "Rolling a die until a six appears and counting the rolls needed",
+    "Rolling 5 dice and adding up the numbers shown on them",
+    "Drawing 5 cards from a deck with replacement and counting the hearts"
+   ],
+   "correctIndex": 3,
+   "explanation": "A binomial variable counts successes in a fixed number of independent trials with the same probability of success. With replacement, each draw has P(heart) = 1/4. Without replacement the probability changes from draw to draw, so the trials are not independent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0007",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Three balls are drawn without replacement from a bag of 5 red and 5 blue balls, and X is the number of red balls. Why is X not binomial?",
+   "imageRef": null,
+   "options": [
+    "The probability of red is exactly 1/2, so the outcome is certain",
+    "The probability of red changes from draw to draw, so the trials are not independent",
+    "There are more than two possible colours that could be drawn from the bag",
+    "The number of draws is not fixed in advance, so n is unknown"
+   ],
+   "correctIndex": 1,
+   "explanation": "After a red ball is removed, P(red) on the next draw is 4/9, not 5/10, so the trials are dependent and p is not constant. There are only two colours and n = 3 is fixed, so those conditions are met.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0008",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "In X ~ Bin(n, p), the factor C(n, r) in P(X = r) counts:",
+   "imageRef": null,
+   "options": [
+    "the number of trials needed to obtain r successes",
+    "the number of failures that occur among the n trials",
+    "the number of orders in which r successes can occur in n trials",
+    "the probability that the first r trials are all successes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each particular sequence of r successes and n \u2212 r failures has probability p^r(1 \u2212 p)^(n \u2212 r). There are C(n, r) ways to choose which r trials are the successes, so the probabilities are multiplied by C(n, r).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0009",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(10, 0.35), then P(X = 4) is:",
+   "imageRef": null,
+   "options": [
+    "C(10, 4)(0.35)\u2076(0.65)\u2074",
+    "C(10, 4)(0.35)\u2074",
+    "C(10, 4)(0.35)\u2074(0.65)\u2076",
+    "(0.35)\u2074(0.65)\u2076"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(X = r) = C(n, r)p^r(1 \u2212 p)^(n \u2212 r) with n = 10, r = 4 and p = 0.35. Leaving out C(10, 4) gives the probability of just one particular order, and the failures (0.65)\u2076 must be included.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0010",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(12, 0.25), then E(X) equals:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "2.25",
+    "3",
+    "0.25"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X) = np = 12 \u00d7 0.25 = 3. The value 2.25 is the variance, np(1 \u2212 p) = 3 \u00d7 0.75.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0011",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(20, 0.4), then Var(X) equals:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "2.19",
+    "4.8",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Var(X) = np(1 \u2212 p) = 20 \u00d7 0.4 \u00d7 0.6 = 4.8. The value 8 is the mean np, and about 2.19 is the standard deviation \u221a4.8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0012",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(10, 0.1), then P(X = 0) is:",
+   "imageRef": null,
+   "options": [
+    "0.9\u00b9\u2070",
+    "0.1\u00b9\u2070",
+    "1 \u2212 0.9\u00b9\u2070",
+    "10 \u00d7 0.1 \u00d7 0.9\u2079"
+   ],
+   "correctIndex": 0,
+   "explanation": "X = 0 means every one of the 10 trials is a failure, each with probability 0.9, so P(X = 0) = 0.9\u00b9\u2070. The expression 10 \u00d7 0.1 \u00d7 0.9\u2079 is P(X = 1), and 1 \u2212 0.9\u00b9\u2070 is P(X \u2265 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0013",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(4, 1/3), then P(X = 2) is:",
+   "imageRef": null,
+   "options": [
+    "4/81",
+    "16/81",
+    "2/9",
+    "8/27"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(X = 2) = C(4, 2)(1/3)\u00b2(2/3)\u00b2 = 6 \u00d7 1/9 \u00d7 4/9 = 24/81 = 8/27. Without the factor C(4, 2) = 6 you get 4/81, and 16/81 is P(X = 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0014",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If X ~ Bin(5, 0.2), then P(X \u2265 1) is:",
+   "imageRef": null,
+   "options": [
+    "5 \u00d7 0.2 \u00d7 0.8\u2074",
+    "0.8\u2075",
+    "1 \u2212 0.8\u2075",
+    "1 \u2212 0.2\u2075"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(X \u2265 1) = 1 \u2212 P(X = 0) = 1 \u2212 0.8\u2075. The value 0.8\u2075 is P(X = 0) itself, and 5 \u00d7 0.2 \u00d7 0.8\u2074 is only P(X = 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0015",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A fair coin is tossed 6 times. The probability of at most one head is:",
+   "imageRef": null,
+   "options": [
+    "7/64",
+    "3/32",
+    "1/64",
+    "1/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "X ~ Bin(6, 1/2), so P(X \u2264 1) = P(X = 0) + P(X = 1) = (1 + 6)/64 = 7/64. Counting only exactly one head gives 6/64 = 3/32.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0016",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Three fair coins are tossed and the number of heads is recorded. This is repeated 80 times. The expected number of times exactly 2 heads are obtained is:",
+   "imageRef": null,
+   "options": [
+    "30",
+    "40",
+    "20",
+    "60"
+   ],
+   "correctIndex": 0,
+   "explanation": "For X ~ Bin(3, 1/2), P(X = 2) = 3/8. The expected frequency is 80 \u00d7 3/8 = 30. Taking P(X = 2) as 1/2 gives 40.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0017",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A student guesses every answer in a 20-question test with 4 options per question. The mean and variance of the number correct are:",
+   "imageRef": null,
+   "options": [
+    "mean 5, variance 1.25",
+    "mean 5, variance 3.75",
+    "mean 5, variance 15",
+    "mean 4, variance 3.2"
+   ],
+   "correctIndex": 1,
+   "explanation": "X ~ Bin(20, 1/4), so E(X) = 20 \u00d7 1/4 = 5 and Var(X) = 20 \u00d7 1/4 \u00d7 3/4 = 3.75. Using 1 \u2212 p in place of p(1 \u2212 p) gives 15.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0018",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "4% of the items from a machine are faulty. For a random sample of 25 items, the standard deviation of the number of faulty items is:",
+   "imageRef": null,
+   "options": [
+    "\u221a24",
+    "\u221a0.96",
+    "0.96",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "X ~ Bin(25, 0.04), so Var(X) = 25 \u00d7 0.04 \u00d7 0.96 = 0.96 and the standard deviation is \u221a0.96, a little under 1. The mean is 1, which is np, not the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0019",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A binomial random variable X has mean 6 and variance 4.2. Its parameters are:",
+   "imageRef": null,
+   "options": [
+    "n = 20, p = 0.3",
+    "n = 30, p = 0.2",
+    "n = 10, p = 0.6",
+    "n = 20, p = 0.7"
+   ],
+   "correctIndex": 0,
+   "explanation": "np = 6 and np(1 \u2212 p) = 4.2, so dividing gives 1 \u2212 p = 0.7 and p = 0.3, then n = 6/0.3 = 20. Taking p = 0.7 confuses p with 1 \u2212 p and gives a mean of 14.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0020",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Each trial has success probability 0.2. What is the smallest number of independent trials for the probability of at least one success to exceed 0.9?",
+   "imageRef": null,
+   "options": [
+    "11",
+    "10",
+    "5",
+    "45"
+   ],
+   "correctIndex": 0,
+   "explanation": "We need 1 \u2212 0.8\u207f > 0.9, so 0.8\u207f < 0.1. 0.8\u00b9\u2070 \u2248 0.107, which is still too big, and 0.8\u00b9\u00b9 \u2248 0.086, so n = 11. Five trials only make the expected number of successes 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0021",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "X ~ Bin(7, p) with 0 < p < 1, and P(X = 3) = P(X = 4). The value of p is:",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "1/2",
+    "3/7",
+    "4/7"
+   ],
+   "correctIndex": 1,
+   "explanation": "C(7, 3)p\u00b3(1 \u2212 p)\u2074 = C(7, 4)p\u2074(1 \u2212 p)\u00b3, and C(7, 3) = C(7, 4) = 35, so 1 \u2212 p = p and p = 1/2. The distribution of Bin(7, 1/2) is symmetric about 3.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0022",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "In statistics, a population is:",
+   "imageRef": null,
+   "options": [
+    "the number of people who respond to a survey question",
+    "the group of people who live in a particular region",
+    "the entire group of people or objects about which information is sought",
+    "a selection of people or objects drawn from a larger group"
+   ],
+   "correctIndex": 2,
+   "explanation": "The population is the whole group being studied. A sample is a selection drawn from it, used because measuring the whole population is often impractical.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0023",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A statistic from a sample is usually a good approximation to the population value when the sample is random and:",
+   "imageRef": null,
+   "options": [
+    "it is taken from a single location",
+    "its size is exactly 10% of the population",
+    "it includes only typical members",
+    "its size is large enough, typically n \u2265 30"
+   ],
+   "correctIndex": 3,
+   "explanation": "Random selection avoids bias, and a large enough sample, typically n \u2265 30, reduces the effect of chance variation. Choosing only typical members would bias the sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0024",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "For a sample X\u2081, X\u2082, ..., X\u2099, the sample mean X\u0304 is:",
+   "imageRef": null,
+   "options": [
+    "(X\u2081 + X\u2082 + ... + X\u2099)/(n \u2212 1)",
+    "the middle value of X\u2081, X\u2082, ..., X\u2099",
+    "(X\u2099 \u2212 X\u2081)/n",
+    "(X\u2081 + X\u2082 + ... + X\u2099)/n"
+   ],
+   "correctIndex": 3,
+   "explanation": "X\u0304 = (1/n) \u00d7 \u03a3X\u1d62, the sum of the sample values divided by the sample size. The middle value is the median, a different statistic.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0025",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Two random samples of the same size are taken from a population and have different sample means. This shows that:",
+   "imageRef": null,
+   "options": [
+    "the samples were too large to give the same mean as each other",
+    "sample means vary from sample to sample, so X\u0304 is a random variable",
+    "at least one of the two samples must have been chosen incorrectly",
+    "the population mean must have changed between the two samples"
+   ],
+   "correctIndex": 1,
+   "explanation": "Different random samples contain different individuals, so their means usually differ. That variation is why X\u0304 has a distribution of its own, the sampling distribution of the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0026",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "For a given sample size n, the sampling distribution of the mean is:",
+   "imageRef": null,
+   "options": [
+    "the distribution of the whole population being sampled",
+    "the list of sample sizes needed to estimate the mean",
+    "the distribution of the means of all possible samples of size n",
+    "the distribution of the values within one sample of size n"
+   ],
+   "correctIndex": 2,
+   "explanation": "Take every possible sample of size n, find each one's mean, and look at how those means are distributed. That is different from the spread of values within a single sample.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0027",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A random sample of 200 values is taken from a strongly right-skewed population. A histogram of the 200 sample values is most likely to be:",
+   "imageRef": null,
+   "options": [
+    "symmetric, because the sample is large",
+    "left-skewed, to balance the population",
+    "right-skewed, like the population",
+    "approximately normal, by the central limit theorem"
+   ],
+   "correctIndex": 2,
+   "explanation": "A large random sample tends to resemble the population it came from, so its values are right-skewed. The central limit theorem is about the distribution of sample means, not the values within one sample.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0028",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A farm's pumpkins have weights normally distributed with mean 13.5 kg and standard deviation 3 kg. For random samples of 15 pumpkins, the sample mean has:",
+   "imageRef": null,
+   "options": [
+    "mean 13.5 kg and variance 9 kg\u00b2",
+    "mean 13.5 kg and variance 0.2 kg\u00b2",
+    "mean 0.9 kg and variance 0.6 kg\u00b2",
+    "mean 13.5 kg and variance 0.6 kg\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "E(X\u0304) = \u03bc = 13.5 and Var(X\u0304) = \u03c3\u00b2/n = 9/15 = 0.6. Dividing \u03c3 rather than \u03c3\u00b2 by n gives 0.2, and 9 is the variance of a single pumpkin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0029",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A population has standard deviation 10. For samples of size 25, the standard deviation of the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "2",
+    "4",
+    "0.4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Var(X\u0304) = \u03c3\u00b2/n = 100/25 = 4, so the standard deviation is \u221a4 = 2, which equals \u03c3/\u221an. The value 4 is the variance, and 0.4 divides \u03c3 by n instead of \u221an.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0030",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "If the sample size is multiplied by 4, the standard deviation of the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "unchanged",
+    "halved",
+    "quartered",
+    "doubled"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of X\u0304 is \u03c3/\u221an, and \u221a(4n) = 2\u221an, so it is halved. The variance \u03c3\u00b2/n is the quantity that is quartered.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0031",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A population has standard deviation 12. What sample size makes the standard deviation of the sample mean equal to 1.5?",
+   "imageRef": null,
+   "options": [
+    "64",
+    "8",
+    "16",
+    "96"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03c3/\u221an = 1.5 gives \u221an = 12/1.5 = 8, so n = 64. Stopping at \u221an = 8 gives 8, which forgets to square.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0032",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "The central limit theorem states that, for large enough n, the sample mean X\u0304 from a population with mean \u03bc and variance \u03c3\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "exactly N(\u03bc/n, \u03c3\u00b2/n), whatever the population's distribution",
+    "approximately N(\u03bc, \u03c3\u00b2/n), whatever the population's distribution",
+    "approximately N(\u03bc, \u03c3\u00b2), whatever the population's distribution",
+    "approximately N(\u03bc, \u03c3\u00b2/n), but only if the population is normal"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sample mean is centred on \u03bc with variance \u03c3\u00b2/n, and its distribution approaches a normal shape as n grows, even when the population is not normal. That last point is what makes the theorem so useful.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0033",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Waiting times at a clinic have a strongly right-skewed distribution. For random samples of 50 waiting times, the distribution of the sample mean is:",
+   "imageRef": null,
+   "options": [
+    "approximately normal",
+    "strongly right-skewed, like the population",
+    "approximately uniform",
+    "left-skewed, to balance the population"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the central limit theorem, with n = 50 the sample mean is approximately normal regardless of the population's shape. The skewness of the population shows up in individual values, not in the sampling distribution of the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0034",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A population has mean 200 and standard deviation 30. For random samples of 36, about 95% of sample means lie between:",
+   "imageRef": null,
+   "options": [
+    "198.3 and 201.7",
+    "190 and 210",
+    "140 and 260",
+    "195 and 205"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of X\u0304 is 30/\u221a36 = 5, and about 95% of a normal distribution lies within 2 standard deviations of the mean: 200 \u00b1 10. Using \u03c3 = 30 itself gives 140 to 260.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0035",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Year 12 students' nightly sleep has mean 7.4 hours and standard deviation 2.4 hours. A random sample of 144 students is taken. Given P(Z < 2) \u2248 0.9772, the probability that the sample mean is under 7 hours is about:",
+   "imageRef": null,
+   "options": [
+    "0.0456",
+    "0.0228",
+    "0.9772",
+    "0.4772"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of X\u0304 is 2.4/\u221a144 = 0.2, so z = (7 \u2212 7.4)/0.2 = \u22122. P(Z < \u22122) = 1 \u2212 0.9772 = 0.0228. The value 0.0456 is the probability of being more than 2 standard deviations away on either side.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0036",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "A population has mean 50 and standard deviation 8. A random sample of 64 is taken. Given P(Z < 1) \u2248 0.8413, the probability that the sample mean lies between 49 and 51 is about:",
+   "imageRef": null,
+   "options": [
+    "0.8413",
+    "0.3413",
+    "0.1587",
+    "0.6826"
+   ],
+   "correctIndex": 3,
+   "explanation": "The standard deviation of X\u0304 is 8/\u221a64 = 1, so 49 and 51 correspond to z = \u22121 and z = 1. P(\u22121 < Z < 1) = 0.8413 \u2212 0.1587 = 0.6826. The value 0.3413 covers only one side of the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-binomial-sampling-0037",
+   "topicId": "spec-hsc-binomial-sampling",
+   "stem": "Each trial is a Bernoulli trial with p = 0.3. For samples of 84 trials, the sample mean (the proportion of successes) is approximately normal with mean 0.3 and standard deviation:",
+   "imageRef": null,
+   "options": [
+    "0.0025",
+    "0.21",
+    "0.458",
+    "0.05"
+   ],
+   "correctIndex": 3,
+   "explanation": "The population is Bernoulli, with \u03bc = 0.3 and \u03c3\u00b2 = 0.3 \u00d7 0.7 = 0.21. Then Var(X\u0304) = 0.21/84 = 0.0025, and the standard deviation is \u221a0.0025 = 0.05. The value 0.0025 is the variance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-binomial-sampling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

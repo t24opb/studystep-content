@@ -1,0 +1,689 @@
+{
+ "topicId": "spec-qce-transformations",
+ "questions": [
+  {
+   "id": "spec-qce-transformations-0001",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (1, 5) is translated by the column vector with entries 3 and \u22122. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(4, 3)",
+    "(\u22122, 7)",
+    "(3, \u221210)",
+    "(4, 7)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A translation adds the vector to the coordinates: (1 + 3, 5 \u2212 2) = (4, 3). Subtracting the vector gives (\u22122, 7), the reverse translation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0002",
+   "topicId": "spec-qce-transformations",
+   "stem": "The translation that maps (2, \u22121) to (\u22121, 4) is represented by the column vector with entries:",
+   "imageRef": null,
+   "options": [
+    "\u22122 and \u22124",
+    "\u22123 and 5",
+    "3 and \u22125",
+    "1 and 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The translation vector is image minus original: (\u22121 \u2212 2, 4 \u2212 (\u22121)) = (\u22123, 5). Subtracting the other way gives (3, \u22125), which maps the image back to the original.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0003",
+   "topicId": "spec-qce-transformations",
+   "stem": "A translation cannot be written as multiplication by a 2 \u00d7 2 matrix because:",
+   "imageRef": null,
+   "options": [
+    "multiplying the origin by any 2 \u00d7 2 matrix gives the origin, but a translation moves it",
+    "a translation changes the area of every shape that it is applied to",
+    "a translation always reverses the orientation of the shapes it moves",
+    "the determinant of a translation is 0, so it has no matrix form"
+   ],
+   "correctIndex": 0,
+   "explanation": "Any matrix times the zero vector is the zero vector, so linear transformations fix the origin, while a non-zero translation moves it. Translations preserve area and orientation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0004",
+   "topicId": "spec-qce-transformations",
+   "stem": "The matrix of the dilation (x, y) \u2192 (3x, y/2) has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, 0) and (0, 1/2)",
+    "(1/2, 0) and (0, 3)",
+    "(3, 1/2) and (0, 0)",
+    "(0, 3) and (1/2, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A dilation of factor a parallel to the x-axis and b parallel to the y-axis has matrix rows (a, 0) and (0, b). Swapping the factors gives the dilation (x, y) \u2192 (x/2, 3y).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0005",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (4, \u22126) is dilated by factor 2 parallel to the x-axis and factor 1/3 parallel to the y-axis. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(8, \u221218)",
+    "(4/3, \u221212)",
+    "(8, \u22122)",
+    "(2, \u221218)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply x by 2 and y by 1/3: (8, \u22122). Applying the factors to the wrong coordinates gives (4/3, \u221212) or (2, \u221218).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0006",
+   "topicId": "spec-qce-transformations",
+   "stem": "The inverse of the dilation (x, y) \u2192 (2x, 3y) has matrix rows:",
+   "imageRef": null,
+   "options": [
+    "(1/3, 0) and (0, 1/2)",
+    "(1/2, 0) and (0, 1/3)",
+    "(\u22122, 0) and (0, \u22123)",
+    "(3, 0) and (0, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Undoing a dilation divides by each factor, so the inverse is (x, y) \u2192 (x/2, y/3); this is also the matrix inverse of rows (2, 0) and (0, 3). Negating the factors would reflect the shape instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0007",
+   "topicId": "spec-qce-transformations",
+   "stem": "The triangle with vertices (0, 0), (2, 0) and (0, 2) is transformed by the dilation (x, y) \u2192 (3x, y). The area of the image is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "18",
+    "12",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The original area is (1/2) \u00d7 2 \u00d7 2 = 2, and the dilation matrix rows (3, 0) and (0, 1) has determinant 3, so the image has area 6. The value 18 dilates in both directions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0008",
+   "topicId": "spec-qce-transformations",
+   "stem": "The matrix of the rotation by angle \u03b8 anticlockwise about the origin has first row (cos \u03b8, \u2212sin \u03b8) and second row:",
+   "imageRef": null,
+   "options": [
+    "(sin \u03b8, cos \u03b8)",
+    "(\u2212sin \u03b8, cos \u03b8)",
+    "(cos \u03b8, sin \u03b8)",
+    "(sin \u03b8, \u2212cos \u03b8)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rotation matrix has rows (cos \u03b8, \u2212sin \u03b8) and (sin \u03b8, cos \u03b8). A second row of (sin \u03b8, \u2212cos \u03b8) belongs to a reflection matrix, not a rotation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0009",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (2, 5) is rotated by 90\u00b0 anticlockwise about the origin. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(5, \u22122)",
+    "(\u22122, \u22125)",
+    "(5, 2)",
+    "(\u22125, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 90\u00b0 anticlockwise rotation has rows (0, \u22121) and (1, 0), so (x, y) \u2192 (\u2212y, x) = (\u22125, 2). The point (5, \u22122) is the result of a 90\u00b0 clockwise rotation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0010",
+   "topicId": "spec-qce-transformations",
+   "stem": "The matrix of the rotation by 180\u00b0 about the origin has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, 0) and (0, \u22121)",
+    "(0, \u22121) and (\u22121, 0)",
+    "(\u22121, 0) and (0, 1)",
+    "(\u22121, 0) and (0, \u22121)"
+   ],
+   "correctIndex": 3,
+   "explanation": "With \u03b8 = 180\u00b0, cos \u03b8 = \u22121 and sin \u03b8 = 0, so the matrix is \u2212I and (x, y) \u2192 (\u2212x, \u2212y). Rows (1, 0) and (0, \u22121) give a reflection in the x-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0011",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (4, 0) is rotated by 60\u00b0 anticlockwise about the origin. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(4, 2\u221a3)",
+    "(2, 2\u221a3)",
+    "(2\u221a3, 2)",
+    "(2, \u22122\u221a3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The image is (4 cos 60\u00b0, 4 sin 60\u00b0) = (2, 2\u221a3). Swapping sine and cosine gives (2\u221a3, 2), which is a 30\u00b0 rotation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0012",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (2, 2) is rotated by 45\u00b0 clockwise about the origin. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(2, \u22122)",
+    "(\u221a2, \u2212\u221a2)",
+    "(2\u221a2, 0)",
+    "(0, 2\u221a2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A clockwise rotation uses \u03b8 = \u221245\u00b0, with rows (cos 45\u00b0, sin 45\u00b0) and (\u2212sin 45\u00b0, cos 45\u00b0): (\u221a2 + \u221a2, \u2212\u221a2 + \u221a2) = (2\u221a2, 0). Rotating anticlockwise instead gives (0, 2\u221a2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0013",
+   "topicId": "spec-qce-transformations",
+   "stem": "The matrix with rows (3/5, \u22124/5) and (4/5, 3/5) represents an anticlockwise rotation about the origin through an angle of approximately:",
+   "imageRef": null,
+   "options": [
+    "126.9\u00b0",
+    "233.1\u00b0",
+    "53.1\u00b0",
+    "36.9\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "It has the form of a rotation matrix with cos \u03b8 = 3/5 and sin \u03b8 = 4/5, both positive, so \u03b8 = 53.1\u00b0. The angle 36.9\u00b0 has cos \u03b8 = 4/5 instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0014",
+   "topicId": "spec-qce-transformations",
+   "stem": "The inverse of the rotation by \u03b8 anticlockwise about the origin is the rotation with matrix rows:",
+   "imageRef": null,
+   "options": [
+    "(cos \u03b8, sin \u03b8) and (\u2212sin \u03b8, cos \u03b8)",
+    "(cos \u03b8, \u2212sin \u03b8) and (sin \u03b8, cos \u03b8)",
+    "(\u2212cos \u03b8, sin \u03b8) and (\u2212sin \u03b8, \u2212cos \u03b8)",
+    "(sin \u03b8, cos \u03b8) and (cos \u03b8, \u2212sin \u03b8)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inverse rotation turns back through \u03b8, a rotation by \u2212\u03b8, and cos(\u2212\u03b8) = cos \u03b8 while sin(\u2212\u03b8) = \u2212sin \u03b8. The second option is the original rotation itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0015",
+   "topicId": "spec-qce-transformations",
+   "stem": "The matrix of the reflection in the line y = x tan \u03b8 has rows:",
+   "imageRef": null,
+   "options": [
+    "(cos 2\u03b8, sin 2\u03b8) and (sin 2\u03b8, \u2212cos 2\u03b8)",
+    "(cos \u03b8, sin \u03b8) and (sin \u03b8, \u2212cos \u03b8)",
+    "(cos 2\u03b8, \u2212sin 2\u03b8) and (sin 2\u03b8, cos 2\u03b8)",
+    "(cos 2\u03b8, sin 2\u03b8) and (\u2212sin 2\u03b8, cos 2\u03b8)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The reflection matrix uses the double angle 2\u03b8 and has \u2212cos 2\u03b8 in the bottom right. Rows (cos 2\u03b8, \u2212sin 2\u03b8) and (sin 2\u03b8, cos 2\u03b8) are a rotation by 2\u03b8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0016",
+   "topicId": "spec-qce-transformations",
+   "stem": "The transformation with matrix rows (1, 0) and (0, \u22121) is:",
+   "imageRef": null,
+   "options": [
+    "the reflection in the line y = x",
+    "the reflection in the x-axis",
+    "the reflection in the y-axis",
+    "the rotation by 180\u00b0 about the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "It maps (x, y) to (x, \u2212y), keeping x and changing the sign of y, which reflects in the x-axis. The reflection in the y-axis changes the sign of x instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0017",
+   "topicId": "spec-qce-transformations",
+   "stem": "Using \u03b8 = 90\u00b0 in the reflection matrix, the reflection in the y-axis has rows:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 0) and (0, \u22121)",
+    "(\u22121, 0) and (0, 1)",
+    "(1, 0) and (0, \u22121)",
+    "(0, 1) and (1, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "With 2\u03b8 = 180\u00b0, cos 2\u03b8 = \u22121 and sin 2\u03b8 = 0, giving rows (\u22121, 0) and (0, 1), so (x, y) \u2192 (\u2212x, y). Rows (1, 0) and (0, \u22121) reflect in the x-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0018",
+   "topicId": "spec-qce-transformations",
+   "stem": "Under the reflection in the line y = x, the point (a, b) is mapped to:",
+   "imageRef": null,
+   "options": [
+    "(\u2212a, b)",
+    "(a, \u2212b)",
+    "(b, a)",
+    "(\u2212b, \u2212a)"
+   ],
+   "correctIndex": 2,
+   "explanation": "With \u03b8 = 45\u00b0, 2\u03b8 = 90\u00b0 and the matrix has rows (0, 1) and (1, 0), which swaps the coordinates. The point (\u2212b, \u2212a) is the image under reflection in y = \u2212x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0019",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (3, 1) is reflected in the line y = \u2212x. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(1, 3)",
+    "(\u22123, 1)",
+    "(3, \u22121)",
+    "(\u22121, \u22123)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The line y = \u2212x has \u03b8 = 135\u00b0, so 2\u03b8 = 270\u00b0 and the matrix has rows (0, \u22121) and (\u22121, 0): (x, y) \u2192 (\u2212y, \u2212x) = (\u22121, \u22123). Swapping without changing signs gives (1, 3), the reflection in y = x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0020",
+   "topicId": "spec-qce-transformations",
+   "stem": "The point (2, 0) is reflected in the line y = x/\u221a3, which makes an angle of 30\u00b0 with the x-axis. Its image is:",
+   "imageRef": null,
+   "options": [
+    "(1, \u221a3)",
+    "(\u221a3, 1)",
+    "(1, \u2212\u221a3)",
+    "(\u22121, \u221a3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "With \u03b8 = 30\u00b0, 2\u03b8 = 60\u00b0, so the first column of the matrix is (cos 60\u00b0, sin 60\u00b0) = (1/2, \u221a3/2), and (2, 0) maps to (1, \u221a3). Using \u03b8 instead of 2\u03b8 gives (\u221a3, 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0021",
+   "topicId": "spec-qce-transformations",
+   "stem": "The inverse of any reflection in a line through the origin is:",
+   "imageRef": null,
+   "options": [
+    "the identity transformation",
+    "the same reflection",
+    "the reflection in the perpendicular line",
+    "a rotation by 180\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reflecting twice in the same line returns every point to where it started, so the reflection matrix M satisfies M\u00b2 = I and M\u207b\u00b9 = M. The identity is the product, not the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0022",
+   "topicId": "spec-qce-transformations",
+   "stem": "The identity matrix, as a transformation of the plane:",
+   "imageRef": null,
+   "options": [
+    "reflects every point in the line y = x",
+    "rotates every point by 90\u00b0",
+    "maps every point to the origin",
+    "leaves every point where it is"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying any position vector by I gives the same vector, so nothing moves. Mapping every point to the origin is the zero matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0023",
+   "topicId": "spec-qce-transformations",
+   "stem": "The triangle with vertices (1, 0), (0, 1) and (1, 1) is reflected in the y-axis. The vertices of the image are:",
+   "imageRef": null,
+   "options": [
+    "(0, 1), (1, 0) and (1, 1)",
+    "(\u22121, 0), (0, \u22121) and (\u22121, \u22121)",
+    "(\u22121, 0), (0, 1) and (\u22121, 1)",
+    "(1, 0), (0, \u22121) and (1, \u22121)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Reflection in the y-axis maps (x, y) to (\u2212x, y), so each x-coordinate changes sign. Changing the y-coordinates gives the reflection in the x-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0024",
+   "topicId": "spec-qce-transformations",
+   "stem": "The square with vertices (\u00b11, \u00b11) is transformed by the matrix with rows (2, 0) and (0, 3). The area of the image is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "10",
+    "4",
+    "24"
+   ],
+   "correctIndex": 3,
+   "explanation": "The square has area 4 and the determinant is 2 \u00d7 3 = 6, so the image is a 4 by 6 rectangle with area 4 \u00d7 6 = 24. The value 6 is the area factor, not the area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0025",
+   "topicId": "spec-qce-transformations",
+   "stem": "A triangle of area 5 cm\u00b2 is transformed by the matrix with rows (3, 1) and (2, 4). The area of its image is:",
+   "imageRef": null,
+   "options": [
+    "10 cm\u00b2",
+    "14 cm\u00b2",
+    "70 cm\u00b2",
+    "50 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Areas are multiplied by |det| = |3 \u00d7 4 \u2212 1 \u00d7 2| = 10, so the image has area 50 cm\u00b2. Using 3 \u00d7 4 + 1 \u00d7 2 = 14 adds the products in the determinant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0026",
+   "topicId": "spec-qce-transformations",
+   "stem": "The determinant of every rotation matrix is 1. This shows that a rotation:",
+   "imageRef": null,
+   "options": [
+    "preserves area and orientation",
+    "preserves area but reverses orientation",
+    "doubles every area",
+    "reduces every area to zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "det = cos\u00b2\u03b8 + sin\u00b2\u03b8 = 1, so areas are unchanged and, being positive, orientation is kept. A determinant of \u22121, as for a reflection, keeps area but reverses orientation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0027",
+   "topicId": "spec-qce-transformations",
+   "stem": "A shape of area 4 is transformed by the matrix with rows (1, 3) and (2, 1). Which statement describes the image?",
+   "imageRef": null,
+   "options": [
+    "Its area is 28, and its orientation is reversed",
+    "Its area is 20, and its orientation is reversed",
+    "Its area is \u221220, which is impossible, so the matrix has no effect",
+    "Its area is 20, and its orientation is unchanged"
+   ],
+   "correctIndex": 1,
+   "explanation": "det = 1 \u2212 6 = \u22125. The area scales by |\u22125| = 5, giving 20, and the negative sign shows the orientation is reversed, as in a reflection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0028",
+   "topicId": "spec-qce-transformations",
+   "stem": "The unit square is rotated by 30\u00b0 about the origin and then dilated by (x, y) \u2192 (3x, 2y). The area of the final image is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "5",
+    "3",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rotation has determinant 1 and the dilation has determinant 6, so the composite multiplies area by 1 \u00d7 6 = 6. The rotation angle does not affect the area.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0029",
+   "topicId": "spec-qce-transformations",
+   "stem": "A 2 \u00d7 2 matrix maps (1, 0) to its first column and (0, 1) to its second column. The matrix mapping (1, 0) to (0, 1) and (0, 1) to (\u22121, 0) represents:",
+   "imageRef": null,
+   "options": [
+    "the reflection in the line y = x",
+    "the reflection in the line y = \u2212x",
+    "the rotation by 90\u00b0 anticlockwise",
+    "the rotation by 90\u00b0 clockwise"
+   ],
+   "correctIndex": 2,
+   "explanation": "The columns give the matrix rows (0, \u22121) and (1, 0), which turns the x-axis direction onto the y-axis direction: a 90\u00b0 anticlockwise rotation. The reflection in y = x would send (0, 1) to (1, 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0030",
+   "topicId": "spec-qce-transformations",
+   "stem": "Transformation A is applied to a point, followed by transformation B. The composite transformation has matrix:",
+   "imageRef": null,
+   "options": [
+    "A\u207b\u00b9B",
+    "BA",
+    "AB",
+    "A + B"
+   ],
+   "correctIndex": 1,
+   "explanation": "The point X first becomes AX, then B(AX) = (BA)X, so the matrix applied first is on the right. Matrix multiplication is not commutative, so AB is generally different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0031",
+   "topicId": "spec-qce-transformations",
+   "stem": "A point is dilated by factor 2 in both directions and then rotated by 90\u00b0 anticlockwise about the origin. The image of (1, 3) is:",
+   "imageRef": null,
+   "options": [
+    "(\u22126, 2)",
+    "(6, \u22122)",
+    "(\u22123, 1)",
+    "(2, 6)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The combined matrix is rows (0, \u22121), (1, 0) times 2I = rows (0, \u22122) and (2, 0), so (1, 3) \u2192 (\u22126, 2). Leaving out the dilation gives (\u22123, 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0032",
+   "topicId": "spec-qce-transformations",
+   "stem": "A point is reflected in the x-axis and then rotated by 90\u00b0 anticlockwise about the origin. The single transformation with the same effect is:",
+   "imageRef": null,
+   "options": [
+    "reflection in the line y = \u2212x",
+    "rotation by 90\u00b0 clockwise",
+    "rotation by 270\u00b0 anticlockwise",
+    "reflection in the line y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "The product rows (0, \u22121), (1, 0) times rows (1, 0), (0, \u22121) is rows (0, 1) and (1, 0), the reflection in y = x. A reflection followed by a rotation has determinant \u22121, so it cannot be a rotation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0033",
+   "topicId": "spec-qce-transformations",
+   "stem": "A point is reflected in the x-axis and then reflected in the line y = x. The single transformation with the same effect is:",
+   "imageRef": null,
+   "options": [
+    "rotation by 90\u00b0 anticlockwise about the origin",
+    "rotation by 90\u00b0 clockwise about the origin",
+    "rotation by 180\u00b0 about the origin",
+    "reflection in the line y = \u2212x"
+   ],
+   "correctIndex": 0,
+   "explanation": "The product rows (0, 1), (1, 0) times rows (1, 0), (0, \u22121) is rows (0, \u22121) and (1, 0), the 90\u00b0 anticlockwise rotation. Two reflections have determinant (\u22121)(\u22121) = 1, so the result is a rotation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0034",
+   "topicId": "spec-qce-transformations",
+   "stem": "Reflection in the line through the origin at angle \u03b1, followed by reflection in the line at angle \u03b2, is equivalent to:",
+   "imageRef": null,
+   "options": [
+    "a reflection in the line at angle \u03b1 + \u03b2",
+    "a rotation by 2(\u03b1 + \u03b2) about the origin",
+    "a rotation by 2(\u03b2 \u2212 \u03b1) about the origin",
+    "a rotation by \u03b2 \u2212 \u03b1 about the origin"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying the reflection matrices for \u03b2 and \u03b1 gives the rotation matrix for 2\u03b2 \u2212 2\u03b1. For the x-axis (\u03b1 = 0) and y = x (\u03b2 = 45\u00b0) this gives the 90\u00b0 rotation found by direct multiplication.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0035",
+   "topicId": "spec-qce-transformations",
+   "stem": "Under the transformation with matrix rows (2, 0) and (1, 3), the image of a point P is (6, 3). The point P is:",
+   "imageRef": null,
+   "options": [
+    "(3, 0)",
+    "(12, 15)",
+    "(3, 1)",
+    "(2, 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply by the inverse, (1/6) \u00d7 rows (3, 0) and (\u22121, 2): P = (18/6, (\u22126 + 6)/6) = (3, 0). Check: 2 \u00d7 3 = 6 and 3 + 0 = 3. The point (12, 15) applies the matrix again instead of undoing it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-transformations-0036",
+   "topicId": "spec-qce-transformations",
+   "stem": "If R is the matrix of the rotation by 120\u00b0 anticlockwise about the origin, then R\u00b3 equals:",
+   "imageRef": null,
+   "options": [
+    "the rotation by 120\u00b0 clockwise",
+    "the zero matrix",
+    "the identity matrix I",
+    "R"
+   ],
+   "correctIndex": 2,
+   "explanation": "R\u00b3 is three successive rotations by 120\u00b0, a total of 360\u00b0, which returns every point to its start, so R\u00b3 = I. Composing rotations adds their angles.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-transformations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-sace-counting-statistics",
+ "questions": [
+  {
+   "id": "meth-sace-counting-statistics-0001",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "A menu has 4 entrees, 5 mains and 3 desserts. How many different three-course meals (one of each) can be chosen?",
+   "imageRef": null,
+   "options": [
+    "60",
+    "12",
+    "20",
+    "15"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the multiplication principle, the choices multiply: 4 \u00d7 5 \u00d7 3 = 60. Adding them, 4 + 5 + 3 = 12, counts single dishes, not meals.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0002",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Evaluate 5!.",
+   "imageRef": null,
+   "options": [
+    "120",
+    "15",
+    "25",
+    "60"
+   ],
+   "correctIndex": 0,
+   "explanation": "5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120. Adding 5 + 4 + 3 + 2 + 1 gives 15.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0003",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "What is the value of 0!?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "Undefined",
+    "10"
+   ],
+   "correctIndex": 0,
+   "explanation": "0! is defined to be 1, so that formulas such as nPn = n!/0! = n! work. It counts the single way of arranging no objects.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0004",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Evaluate 8!/6!.",
+   "imageRef": null,
+   "options": [
+    "48",
+    "56",
+    "2",
+    "4/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "8!/6! = 8 \u00d7 7 \u00d7 6!/6! = 8 \u00d7 7 = 56. Cancelling to 8/6 treats the factorials as ordinary numbers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0005",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "In how many different orders can five candidates be listed on a ballot paper?",
+   "imageRef": null,
+   "options": [
+    "3125",
+    "120",
+    "25",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 5 choices for first place, 4 for second, and so on: 5! = 120. The value 5\u2075 = 3125 allows a candidate to be listed more than once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0006",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Evaluate \u2077P\u2083, the number of arrangements of 3 objects chosen from 7.",
+   "imageRef": null,
+   "options": [
+    "35",
+    "21",
+    "343",
+    "210"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u2077P\u2083 = 7 \u00d7 6 \u00d7 5 = 210. The value 35 is \u2077C\u2083, which ignores order, and 343 = 7\u00b3 allows repetition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0007",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Which expression gives nPr, the number of permutations of r objects from n distinct objects?",
+   "imageRef": null,
+   "options": [
+    "n^r",
+    "n!/(n \u2212 r)!",
+    "n!/(r!(n \u2212 r)!)",
+    "n!/r!"
+   ],
+   "correctIndex": 1,
+   "explanation": "nPr = n(n \u2212 1)...(n \u2212 r + 1) = n!/(n \u2212 r)!. Dividing also by r! gives the number of combinations, where order does not matter.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0008",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Number plates have 3 letters followed by 3 digits, and letters and digits may repeat. How many plates are possible?",
+   "imageRef": null,
+   "options": [
+    "1 757 600",
+    "216",
+    "17 576 000",
+    "11 232 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The multiplication principle gives 26 \u00d7 26 \u00d7 26 \u00d7 10 \u00d7 10 \u00d7 10 = 17 576 000. Not allowing repeats gives 11 232 000.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0009",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Number plates have 3 letters followed by 3 digits, with no letter or digit repeated. How many plates are possible?",
+   "imageRef": null,
+   "options": [
+    "17 576 000",
+    "1 965 600",
+    "2 600 000",
+    "11 232 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Without repetition there are 26 \u00d7 25 \u00d7 24 choices for the letters and 10 \u00d7 9 \u00d7 8 for the digits, giving 15 600 \u00d7 720 = 11 232 000. Allowing repeats gives 17 576 000.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0010",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "How many arrangements of the letters of the word MATHS begin with M?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "96",
+    "24",
+    "120"
+   ],
+   "correctIndex": 2,
+   "explanation": "With M fixed first, the other 4 letters can be arranged in 4! = 24 ways. The value 120 = 5! counts all arrangements, and 96 counts those that do not begin with M.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0011",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "How many four-digit codes can be made from the digits 1 to 9, with no digit repeated, if the code must be even?",
+   "imageRef": null,
+   "options": [
+    "3024",
+    "1680",
+    "2688",
+    "1344"
+   ],
+   "correctIndex": 3,
+   "explanation": "The last digit must be 2, 4, 6 or 8 (4 choices); then the other places have 8, 7 and 6 choices: 4 \u00d7 8 \u00d7 7 \u00d7 6 = 1344. The value 3024 = \u2079P\u2084 ignores the even condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0012",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "There are \u2075P\u2083 = 60 ordered arrangements of 3 students chosen from 5. How many unordered teams of 3 can be chosen?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "180",
+    "10",
+    "60"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each team of 3 can be arranged in 3! = 6 orders, so the number of teams is 60/6 = 10. This is how \u2075C\u2083 = \u2075P\u2083/3! links arrangements and selections.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0013",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "At a meeting of 10 people, everyone shakes hands once with everyone else. How many handshakes are there?",
+   "imageRef": null,
+   "options": [
+    "100",
+    "20",
+    "45",
+    "90"
+   ],
+   "correctIndex": 2,
+   "explanation": "A handshake is an unordered pair, so the count is \u00b9\u2070C\u2082 = (10 \u00d7 9)/2 = 45. Counting ordered pairs, 10 \u00d7 9 = 90, counts each handshake twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0014",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Six people stand in a row for a photo. In how many arrangements do two particular friends stand next to each other?",
+   "imageRef": null,
+   "options": [
+    "480",
+    "240",
+    "120",
+    "720"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat the friends as one unit: 5 units can be arranged in 5! = 120 ways, and the friends can swap places in 2 ways, giving 240. Forgetting the swap gives 120.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0015",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Which of these variables is continuous?",
+   "imageRef": null,
+   "options": [
+    "The mass of a bag of potatoes",
+    "The number of eggs in a carton",
+    "The number of teeth a person has",
+    "The number of cars in a car park"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mass can take any value within a range, so it is continuous. The others are counts, which take only whole-number values and are discrete.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0016",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "A student's height is measured with a ruler marked only in whole centimetres. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Height becomes discrete because the ruler shows whole centimetres",
+    "Height is discrete because it is a count of centimetres",
+    "Height is neither continuous nor discrete",
+    "Height is continuous, even though it is recorded as if discrete"
+   ],
+   "correctIndex": 3,
+   "explanation": "Height can take any value; a low-resolution instrument only makes the recorded values look discrete. The variable itself stays continuous.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0017",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Find the mean, median and mode of the data 3, 7, 7, 8, 10, 13.",
+   "imageRef": null,
+   "options": [
+    "Mean 8, median 7.5, mode 13",
+    "Mean 8, median 7.5, mode 7",
+    "Mean 7.5, median 8, mode 7",
+    "Mean 8, median 7, mode 7"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean is 48/6 = 8. With six values the median is the average of the 3rd and 4th, (7 + 8)/2 = 7.5. The mode, 7, occurs most often.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0018",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "The annual salaries at a small business are mostly between $55 000 and $70 000, but the owner earns $400 000. Which measure best describes a typical salary?",
+   "imageRef": null,
+   "options": [
+    "The mode, because it is always the middle value",
+    "The median, because it is not affected by the extreme value",
+    "The mean, because it uses every salary",
+    "The range, because it shows the spread"
+   ],
+   "correctIndex": 1,
+   "explanation": "The single very large salary pulls the mean upwards, but the median depends only on the middle values. The range measures spread, not a typical value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0019",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Using the median of each half, find the range and interquartile range of 2, 4, 5, 7, 8, 10, 12, 15.",
+   "imageRef": null,
+   "options": [
+    "Range 6.5, IQR 13",
+    "Range 13, IQR 6.5",
+    "Range 13, IQR 6",
+    "Range 15, IQR 6.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The range is 15 \u2212 2 = 13. The lower half 2, 4, 5, 7 has median Q1 = 4.5 and the upper half 8, 10, 12, 15 has Q3 = 11, so the IQR is 11 \u2212 4.5 = 6.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0020",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Using s = \u221a(\u03a3(x \u2212 x\u0304)\u00b2/(n \u2212 1)), find the sample standard deviation of 2, 4, 4, 6, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "1.63",
+    "1.41",
+    "2.67",
+    "2.00"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean is 4, and the squared deviations are 4, 0, 0 and 4, totalling 8. Then s = \u221a(8/3) \u2248 1.63. Dividing by n = 4 gives \u221a2 \u2248 1.41, and 2.67 is s\u00b2, before the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0021",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Find the sample standard deviation of 5, 7, 9, 11, 13, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "10.00",
+    "8.00",
+    "3.16",
+    "2.83"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mean is 9; the squared deviations 16, 4, 0, 4, 16 total 40. Then s = \u221a(40/4) = \u221a10 \u2248 3.16. Dividing by 5 gives \u221a8 \u2248 2.83, and 10 is the variance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0022",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "The masses of some parcels are measured in kilograms. In what units is their standard deviation?",
+   "imageRef": null,
+   "options": [
+    "Kilograms per parcel",
+    "Kilograms",
+    "Square kilograms",
+    "It has no units"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation is the square root of an average squared deviation, so it has the same units as the data. Square kilograms are the units of the variance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0023",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Every value in a data set is increased by 10. What happens to the mean and the standard deviation?",
+   "imageRef": null,
+   "options": [
+    "The mean increases by 10; the standard deviation is unchanged",
+    "Both increase by 10",
+    "The mean is unchanged; the standard deviation increases by 10",
+    "The mean increases by 10; the standard deviation increases by \u221a10"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adding 10 shifts every value and the centre by 10, but the distances from the mean stay the same, so the spread is unchanged.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0024",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Set P is 10, 10, 10, 10, 10 and set Q is 6, 8, 10, 12, 14. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Q has the larger mean and standard deviation",
+    "P has the larger standard deviation",
+    "Both have mean 10; Q has the larger standard deviation",
+    "Both have mean 10 and the same standard deviation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both sets have mean 10, but every value of P equals the mean, so its standard deviation is 0. The values of Q spread out from 10, so its standard deviation is positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0025",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Why is the interquartile range often preferred to the range for describing spread?",
+   "imageRef": null,
+   "options": [
+    "It has different units from the data",
+    "It is not affected by a few extreme values",
+    "It uses every value in the data",
+    "It is always larger than the range"
+   ],
+   "correctIndex": 1,
+   "explanation": "The IQR covers the middle 50% of the data, so one unusually large or small value barely changes it. The range depends only on the two most extreme values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0026",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Which description is true of any normal distribution, whatever its mean and standard deviation?",
+   "imageRef": null,
+   "options": [
+    "It is skewed, with a long tail to the right",
+    "Its mean is always greater than its median",
+    "It is flat across its whole range",
+    "It is bell-shaped and symmetric about its mean"
+   ],
+   "correctIndex": 3,
+   "explanation": "A normal distribution is bell-shaped and symmetric, so its mean, median and mode coincide at the centre. A long tail to one side describes a skewed distribution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0027",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Adult heights are approximately normally distributed. About what percentage of heights lie within one standard deviation of the mean?",
+   "imageRef": null,
+   "options": [
+    "99.7%",
+    "50%",
+    "68%",
+    "95%"
+   ],
+   "correctIndex": 2,
+   "explanation": "About 68% lie within one standard deviation, 95% within two and 99.7% within three. 50% lie on each side of the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0028",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Why are many quantities, such as the volume of a can of soft drink, approximately normally distributed?",
+   "imageRef": null,
+   "options": [
+    "Every possible volume is equally likely",
+    "The volumes are counted, so they are discrete",
+    "Each value is the combined effect of many small random errors",
+    "The machine always fills to exactly the same volume"
+   ],
+   "correctIndex": 2,
+   "explanation": "When many small, independent random effects add together, the result tends to have a bell-shaped distribution. Equal likelihood for every volume would give a flat distribution instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0029",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Cans hold volumes that are normally distributed with mean 375 mL and standard deviation 3 mL. About what percentage of cans hold between 369 mL and 381 mL?",
+   "imageRef": null,
+   "options": [
+    "47.5%",
+    "95%",
+    "68%",
+    "99.7%"
+   ],
+   "correctIndex": 1,
+   "explanation": "369 and 381 are each 6 mL, or two standard deviations, from the mean, and about 95% of values lie within two standard deviations. 47.5% is only the half from 375 to 381.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0030",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Battery lifetimes are normally distributed with mean 40 hours and standard deviation 5 hours. About what percentage last more than 50 hours?",
+   "imageRef": null,
+   "options": [
+    "0.15%",
+    "2.5%",
+    "5%",
+    "16%"
+   ],
+   "correctIndex": 1,
+   "explanation": "50 hours is two standard deviations above the mean. About 95% lie within two standard deviations, leaving 5% in the two tails, so 2.5% lie above 50. Taking all 5% forgets that half of it is in the lower tail.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0031",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "Battery lifetimes are normally distributed with mean 40 hours and standard deviation 5 hours. About what percentage last between 35 and 50 hours?",
+   "imageRef": null,
+   "options": [
+    "81.5%",
+    "95%",
+    "68%",
+    "84%"
+   ],
+   "correctIndex": 0,
+   "explanation": "From 35 to 40 is one standard deviation below the mean (34%), and from 40 to 50 is two above (47.5%), so the total is 81.5%. The interval is not symmetric, so neither 68% nor 95% applies.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0032",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "A machine fills 1000 bags of rice with masses normally distributed, with mean 1.02 kg and standard deviation 0.01 kg. About how many bags weigh less than 1.00 kg?",
+   "imageRef": null,
+   "options": [
+    "160",
+    "3",
+    "25",
+    "50"
+   ],
+   "correctIndex": 2,
+   "explanation": "1.00 kg is two standard deviations below the mean, so about 2.5% of bags are lighter: 2.5% of 1000 = 25. Using all 5% outside two standard deviations gives 50.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0033",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "For a normal distribution, about what percentage of values are more than three standard deviations above the mean?",
+   "imageRef": null,
+   "options": [
+    "0.5%",
+    "0.15%",
+    "0.3%",
+    "2.5%"
+   ],
+   "correctIndex": 1,
+   "explanation": "About 99.7% lie within three standard deviations, leaving 0.3% split equally between the two tails, so 0.15% lie above. The value 0.3% counts both tails.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0034",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "What is special about the points one standard deviation either side of the mean on a normal curve?",
+   "imageRef": null,
+   "options": [
+    "Half of all values lie between them",
+    "The curve changes from concave down to concave up there",
+    "The curve reaches its maximum height there",
+    "The curve meets the horizontal axis there"
+   ],
+   "correctIndex": 1,
+   "explanation": "At one standard deviation from the mean the bell curve changes the way it bends, from curving down near the peak to curving up in the tails. About 68%, not half, lies between these points.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0035",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "In a normally distributed set of test scores, about 16% of scores are above 72 and about 16% are below 48. What are the mean and standard deviation?",
+   "imageRef": null,
+   "options": [
+    "Mean 60, standard deviation 6",
+    "Mean 50, standard deviation 12",
+    "Mean 60, standard deviation 12",
+    "Mean 60, standard deviation 24"
+   ],
+   "correctIndex": 2,
+   "explanation": "The symmetry puts the mean midway, at 60. About 68% lie between 48 and 72, so these are one standard deviation either side: 72 \u2212 60 = 12. The width 24 spans two standard deviations.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-counting-statistics-0036",
+   "topicId": "meth-sace-counting-statistics",
+   "stem": "A normal distribution has mean 60 and standard deviation 12. What value lies two standard deviations below the mean?",
+   "imageRef": null,
+   "options": [
+    "48",
+    "58",
+    "24",
+    "36"
+   ],
+   "correctIndex": 3,
+   "explanation": "Two standard deviations is 2 \u00d7 12 = 24, and 60 \u2212 24 = 36. The value 48 is only one standard deviation below, and 24 is the distance, not the value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-counting-statistics-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

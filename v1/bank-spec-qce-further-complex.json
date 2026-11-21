@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-qce-further-complex",
+ "questions": [
+  {
+   "id": "spec-qce-further-complex-0001",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If z = 3 \u2212 4i, then z z\u0304 equals:",
+   "imageRef": null,
+   "options": [
+    "\u22127 \u2212 24i",
+    "25",
+    "5",
+    "\u22127"
+   ],
+   "correctIndex": 1,
+   "explanation": "z z\u0304 = (3 \u2212 4i)(3 + 4i) = 9 + 16 = 25, which is |z|\u00b2. The value 5 is |z| itself, and \u22127 comes from 9 \u2212 16, forgetting that \u221216i\u00b2 = +16.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0002",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Complex numbers z\u2081 and z\u2082 have |z\u2081| = 3 and |z\u2082| = 4. The value of |z\u2081z\u2082| is:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "5",
+    "1",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The modulus of a product is the product of the moduli: |z\u2081z\u2082| = |z\u2081||z\u2082| = 3 \u00d7 4 = 12. Adding the moduli gives 7, which confuses the product rule with addition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0003",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If arg(z\u2081) = \u03c0/3 and arg(z\u2082) = \u03c0/4, then arg(z\u2081z\u2082) equals:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/12",
+    "\u03c0\u00b2/12",
+    "7\u03c0/24",
+    "7\u03c0/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The argument of a product is the sum of the arguments: \u03c0/3 + \u03c0/4 = 4\u03c0/12 + 3\u03c0/12 = 7\u03c0/12. Subtracting gives \u03c0/12, which is the rule for a quotient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0004",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The conjugate of r cis \u03b8, where r > 0, is:",
+   "imageRef": null,
+   "options": [
+    "\u2212r cis \u03b8",
+    "r cis(\u03c0 \u2212 \u03b8)",
+    "(1/r) cis(\u2212\u03b8)",
+    "r cis(\u2212\u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "r cis \u03b8 = r cos \u03b8 + i r sin \u03b8, and its conjugate is r cos \u03b8 \u2212 i r sin \u03b8 = r cos(\u2212\u03b8) + i r sin(\u2212\u03b8) = r cis(\u2212\u03b8). The number (1/r) cis(\u2212\u03b8) is the reciprocal, not the conjugate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0005",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If z = 2 cis(\u03c0/5), then 1/z equals:",
+   "imageRef": null,
+   "options": [
+    "\u22122 cis(\u03c0/5)",
+    "(1/2) cis(\u2212\u03c0/5)",
+    "2 cis(\u2212\u03c0/5)",
+    "(1/2) cis(\u03c0/5)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write 1 = 1 cis 0 and divide: the modulus is 1 \u00f7 2 = 1/2 and the argument is 0 \u2212 \u03c0/5 = \u2212\u03c0/5. Keeping the modulus as 2 gives the conjugate instead of the reciprocal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0006",
+   "topicId": "spec-qce-further-complex",
+   "stem": "To prove that z z\u0304 = |z|\u00b2 for z = x + yi, where x and y are real, the key step is:",
+   "imageRef": null,
+   "options": [
+    "(x + yi)(x \u2212 yi) = x\u00b2 \u2212 y\u00b2, which is |z|\u00b2",
+    "(x + yi)\u00b2 = x\u00b2 + y\u00b2, which is |z|\u00b2",
+    "(x + yi) + (x \u2212 yi) = 2x, which is |z|\u00b2",
+    "(x + yi)(x \u2212 yi) = x\u00b2 + y\u00b2, which is |z|\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives x\u00b2 \u2212 xyi + xyi \u2212 y\u00b2i\u00b2 = x\u00b2 + y\u00b2, and |z| = \u221a(x\u00b2 + y\u00b2), so the product is |z|\u00b2. Writing x\u00b2 \u2212 y\u00b2 forgets that i\u00b2 = \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0007",
+   "topicId": "spec-qce-further-complex",
+   "stem": "In proving arg(z\u2081z\u2082) = arg(z\u2081) + arg(z\u2082) with z\u2081 = r\u2081 cis \u03b1 and z\u2082 = r\u2082 cis \u03b2, the product is expanded and simplified using:",
+   "imageRef": null,
+   "options": [
+    "the double angle formulas for cos(2\u03b1) and sin(2\u03b1)",
+    "the Pythagorean identity cos\u00b2\u03b1 + sin\u00b2\u03b1 = 1 alone",
+    "the cosine rule in the triangle with vertices 0, z\u2081 and z\u2082",
+    "the compound angle formulas for cos(\u03b1 + \u03b2) and sin(\u03b1 + \u03b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "cis \u03b1 cis \u03b2 = (cos \u03b1 cos \u03b2 \u2212 sin \u03b1 sin \u03b2) + i(sin \u03b1 cos \u03b2 + cos \u03b1 sin \u03b2), and the compound angle formulas turn this into cos(\u03b1 + \u03b2) + i sin(\u03b1 + \u03b2) = cis(\u03b1 + \u03b2). Double angle formulas only apply when the two angles are equal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0008",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If |w| = 3, then |w\u2074 \u00f7 w\u0304| equals:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "9",
+    "27",
+    "81"
+   ],
+   "correctIndex": 2,
+   "explanation": "|w\u2074| = 3\u2074 = 81 and |w\u0304| = |w| = 3, so the modulus of the quotient is 81 \u00f7 3 = 27. Giving 81 ignores the division, because a conjugate has the same modulus as the number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0009",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If arg(z) = 2\u03c0/3 and arg(w) = \u03c0/4, then the principal argument of z\u0304w is:",
+   "imageRef": null,
+   "options": [
+    "5\u03c0/12",
+    "\u221211\u03c0/12",
+    "\u22125\u03c0/12",
+    "11\u03c0/12"
+   ],
+   "correctIndex": 2,
+   "explanation": "arg(z\u0304) = \u22122\u03c0/3, so arg(z\u0304w) = \u22122\u03c0/3 + \u03c0/4 = \u22128\u03c0/12 + 3\u03c0/12 = \u22125\u03c0/12, which is already in (\u2212\u03c0, \u03c0]. Using 2\u03c0/3 instead of its negative gives 11\u03c0/12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0010",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Using De Moivre's theorem, (2 cis(\u03c0/8))\u2074 equals:",
+   "imageRef": null,
+   "options": [
+    "16 cis(\u03c0/32)",
+    "16i",
+    "8i",
+    "16"
+   ],
+   "correctIndex": 1,
+   "explanation": "(2 cis(\u03c0/8))\u2074 = 2\u2074 cis(4 \u00d7 \u03c0/8) = 16 cis(\u03c0/2) = 16i. Multiplying the modulus by 4 gives 8i, and dividing the argument by 4 reverses the theorem.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0011",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The value of (1 \u2212 i)\u2076 is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "\u22128",
+    "8i",
+    "\u22128i"
+   ],
+   "correctIndex": 2,
+   "explanation": "1 \u2212 i = \u221a2 cis(\u2212\u03c0/4), so (1 \u2212 i)\u2076 = (\u221a2)\u2076 cis(\u22123\u03c0/2) = 8 cis(\u03c0/2) = 8i. As a check, (1 \u2212 i)\u00b2 = \u22122i and (\u22122i)\u00b3 = \u22128i\u00b3 = 8i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0012",
+   "topicId": "spec-qce-further-complex",
+   "stem": "In Cartesian form, (\u221a3 + i)\u2075 equals:",
+   "imageRef": null,
+   "options": [
+    "\u221216\u221a3 \u2212 16i",
+    "\u221216\u221a3 + 16i",
+    "16\u221a3 + 16i",
+    "\u221216 + 16\u221a3 i"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u221a3 + i = 2 cis(\u03c0/6), so the fifth power is 32 cis(5\u03c0/6) = 32(\u2212\u221a3/2 + i/2) = \u221216\u221a3 + 16i. The angle 5\u03c0/6 is in the second quadrant, so the real part is negative and the imaginary part positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0013",
+   "topicId": "spec-qce-further-complex",
+   "stem": "In Cartesian form, (cis(\u03c0/9))\u207b\u00b3 equals:",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2 \u2212 (1/2)i",
+    "1/2 \u2212 (\u221a3/2)i",
+    "1/2 + (\u221a3/2)i",
+    "\u22121/2 \u2212 (\u221a3/2)i"
+   ],
+   "correctIndex": 1,
+   "explanation": "De Moivre's theorem holds for negative integers: (cis(\u03c0/9))\u207b\u00b3 = cis(\u2212\u03c0/3) = 1/2 \u2212 (\u221a3/2)i. Dropping the negative sign of the power gives cis(\u03c0/3) = 1/2 + (\u221a3/2)i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0014",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The smallest positive integer n for which (1 + i)\u207f is a negative real number is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "2",
+    "8",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "1 + i = \u221a2 cis(\u03c0/4), so (1 + i)\u207f has argument n\u03c0/4, which must equal \u03c0 (plus a multiple of 2\u03c0) for a negative real. The smallest n is 4, giving (1 + i)\u2074 = \u22124. n = 8 gives the positive real 16, and n = 2 gives 2i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0015",
+   "topicId": "spec-qce-further-complex",
+   "stem": "In the complex plane, the solutions of z\u2078 = 1 are the vertices of:",
+   "imageRef": null,
+   "options": [
+    "a regular octagon inscribed in the unit circle",
+    "a regular octagon inscribed in a circle of radius 8",
+    "a regular hexagon inscribed in the unit circle",
+    "a square inscribed in the unit circle"
+   ],
+   "correctIndex": 0,
+   "explanation": "The eighth roots of unity are cis(2k\u03c0/8) for k = 0, 1, ..., 7. Each has modulus 1, and they are spaced \u03c0/4 apart, so they form a regular octagon on the unit circle. The radius is 8^0 = 1 because the modulus of each root is the eighth root of 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0016",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The number of distinct solutions over C of z\u2075 = 32i is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "5",
+    "1",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A non-zero complex number has exactly n distinct nth roots, so z\u2075 = 32i has five solutions, equally spaced on a circle of radius 2. One of them is 2i, since (2i)\u2075 = 32i\u2075 = 32i, and the other four are just as valid.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0017",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The sum of the five fifth roots of unity is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "5",
+    "\u22121",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The roots are the solutions of z\u2075 \u2212 1 = 0. The sum of the roots is minus the coefficient of z\u2074, which is 0, so they sum to 0. Geometrically, the roots are symmetrically placed around the unit circle and their vectors cancel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0018",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The solutions of z\u2074 = \u221216 are:",
+   "imageRef": null,
+   "options": [
+    "\u00b11 \u00b1 \u221a3 i",
+    "\u00b1\u221a2 \u00b1 \u221a2 i",
+    "\u00b12 and \u00b12i",
+    "\u00b12 \u00b1 2i"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u221216 = 16 cis \u03c0, so z = 2 cis(\u03c0/4 + k\u03c0/2): 2 cis(\u00b1\u03c0/4) and 2 cis(\u00b13\u03c0/4), which are \u00b1\u221a2 \u00b1 \u221a2 i. The numbers \u00b12 and \u00b12i are the solutions of z\u2074 = 16, and (2 + 2i)\u2074 = \u221264.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0019",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Which of these is one of the cube roots of 8i?",
+   "imageRef": null,
+   "options": [
+    "2 cis(\u03c0/3)",
+    "8 cis(\u03c0/6)",
+    "\u22122i",
+    "2i"
+   ],
+   "correctIndex": 2,
+   "explanation": "8i = 8 cis(\u03c0/2), so the cube roots are 2 cis(\u03c0/6 + 2k\u03c0/3): 2 cis(\u03c0/6), 2 cis(5\u03c0/6) and 2 cis(\u2212\u03c0/2) = \u22122i. Check: (\u22122i)\u00b3 = \u22128i\u00b3 = 8i, while (2i)\u00b3 = \u22128i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0020",
+   "topicId": "spec-qce-further-complex",
+   "stem": "One solution of z\u00b3 = w is 2 cis(\u03c0/9). The other two solutions are:",
+   "imageRef": null,
+   "options": [
+    "4 cis(7\u03c0/9) and 4 cis(13\u03c0/9)",
+    "2 cis(7\u03c0/9) and 2 cis(\u22125\u03c0/9)",
+    "2 cis(4\u03c0/9) and 2 cis(7\u03c0/9)",
+    "2 cis(\u2212\u03c0/9) and \u22122 cis(\u03c0/9)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The three cube roots have the same modulus and are spaced 2\u03c0/3 apart: \u03c0/9 + 2\u03c0/3 = 7\u03c0/9 and \u03c0/9 + 4\u03c0/3 = 13\u03c0/9, which is \u22125\u03c0/9 as a principal argument. Spacing them \u03c0/3 apart is the pattern for sixth roots.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0021",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Given that 1 + i is a solution of z\u2074 = u, the value of u is:",
+   "imageRef": null,
+   "options": [
+    "2i",
+    "\u22124",
+    "4",
+    "\u22124i"
+   ],
+   "correctIndex": 1,
+   "explanation": "(1 + i)\u00b2 = 1 + 2i \u2212 1 = 2i, and (2i)\u00b2 = \u22124, so u = \u22124. The value 2i is (1 + i)\u00b2, which squares only once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0022",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The fourth roots of 16 are joined in order to form a polygon in the complex plane. Its area is:",
+   "imageRef": null,
+   "options": [
+    "16",
+    "4",
+    "32",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The roots are 2, 2i, \u22122 and \u22122i, the vertices of a square with diagonals of length 4. The area of a square is half the product of its diagonals: (4 \u00d7 4)/2 = 8. Taking 4 as the side length gives 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0023",
+   "topicId": "spec-qce-further-complex",
+   "stem": "If \u03c9 is a non-real cube root of unity, then (1 + \u03c9)(1 + \u03c9\u00b2) equals:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22121",
+    "2",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives 1 + \u03c9 + \u03c9\u00b2 + \u03c9\u00b3. Since \u03c9\u00b3 = 1 and 1 + \u03c9 + \u03c9\u00b2 = 0, the product is 0 + 1 = 1. Stopping at 1 + \u03c9 + \u03c9\u00b2 = 0 forgets the \u03c9\u00b3 term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0024",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Which of these is a solution of z\u00b3 = 4\u221a2 + 4\u221a2 i?",
+   "imageRef": null,
+   "options": [
+    "2 cis(\u03c0/6)",
+    "8 cis(\u03c0/12)",
+    "2 cis(3\u03c0/4)",
+    "2 cis(\u03c0/4)"
+   ],
+   "correctIndex": 2,
+   "explanation": "4\u221a2 + 4\u221a2 i = 8 cis(\u03c0/4), so z = 2 cis(\u03c0/12 + 2k\u03c0/3), giving 2 cis(\u03c0/12), 2 cis(3\u03c0/4) and 2 cis(\u22127\u03c0/12). The number 2 cis(\u03c0/4) cubes to 8 cis(3\u03c0/4), because the argument must be divided by 3, not kept.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0025",
+   "topicId": "spec-qce-further-complex",
+   "stem": "By the factor theorem, (z \u2212 a) is a factor of the polynomial P(z) if and only if:",
+   "imageRef": null,
+   "options": [
+    "P(\u2212a) = 0",
+    "P(0) = a",
+    "P(a) = a",
+    "P(a) = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The remainder when P(z) is divided by z \u2212 a is P(a), so z \u2212 a is a factor exactly when P(a) = 0. Testing P(\u2212a) checks the factor z + a instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0026",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The remainder when P(z) = z\u00b3 \u2212 2z\u00b2 + 4 is divided by z \u2212 3 is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "13",
+    "\u221241",
+    "49"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the remainder theorem the remainder is P(3) = 27 \u2212 18 + 4 = 13. Substituting z = \u22123 gives \u221241, which is the remainder for division by z + 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0027",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The remainder when P(z) = z\u00b3 + 2z + 5 is divided by z \u2212 i is:",
+   "imageRef": null,
+   "options": [
+    "5 \u2212 i",
+    "5 \u2212 3i",
+    "5 + i",
+    "5 + 3i"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(i) = i\u00b3 + 2i + 5 = \u2212i + 2i + 5 = 5 + i. Taking i\u00b3 as i instead of \u2212i gives 5 + 3i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0028",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Given that z \u2212 2 is a factor of z\u00b3 + kz\u00b2 + 3z \u2212 10, the value of k is:",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "1",
+    "6",
+    "\u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the factor theorem, P(2) = 8 + 4k + 6 \u2212 10 = 4 + 4k = 0, so k = \u22121. Substituting z = \u22122 instead gives \u22128 + 4k \u2212 6 \u2212 10 = 0 and k = 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0029",
+   "topicId": "spec-qce-further-complex",
+   "stem": "A polynomial P(z) leaves remainder 5 when divided by z \u2212 1 and remainder \u22121 when divided by z + 2. The remainder when P(z) is divided by (z \u2212 1)(z + 2) is:",
+   "imageRef": null,
+   "options": [
+    "2z \u2212 3",
+    "2z + 3",
+    "3z + 2",
+    "\u22122z + 7"
+   ],
+   "correctIndex": 1,
+   "explanation": "The remainder has the form az + b. By the remainder theorem P(1) = a + b = 5 and P(\u22122) = \u22122a + b = \u22121. Subtracting gives 3a = 6, so a = 2 and b = 3, giving 2z + 3. The remainder 3z + 2 also gives 5 at z = 1 but gives \u22124 at z = \u22122.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0030",
+   "topicId": "spec-qce-further-complex",
+   "stem": "A polynomial with real coefficients has \u22121 + 2i as a root. Which number must also be a root?",
+   "imageRef": null,
+   "options": [
+    "2 \u2212 i",
+    "\u22121 \u2212 2i",
+    "1 \u2212 2i",
+    "1 + 2i"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the conjugate root theorem, non-real roots of a polynomial with real coefficients occur in conjugate pairs. The conjugate changes only the sign of the imaginary part, so \u22121 \u2212 2i is a root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0031",
+   "topicId": "spec-qce-further-complex",
+   "stem": "A polynomial with real coefficients has roots 3 + i and 3 \u2212 i. Which quadratic factor does it have?",
+   "imageRef": null,
+   "options": [
+    "z\u00b2 \u2212 6z + 8",
+    "z\u00b2 \u2212 3z + 10",
+    "z\u00b2 \u2212 6z + 10",
+    "z\u00b2 + 6z + 10"
+   ],
+   "correctIndex": 2,
+   "explanation": "The roots sum to 6 and multiply to (3 + i)(3 \u2212 i) = 9 + 1 = 10, so the factor is z\u00b2 \u2212 6z + 10. Using 9 \u2212 1 = 8 for the product forgets that \u2212i\u00b2 = +1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0032",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Given that z + 1 is a factor of z\u00b3 \u2212 3z\u00b2 + 9z + 13, the other two roots of z\u00b3 \u2212 3z\u00b2 + 9z + 13 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "4 \u00b1 3i",
+    "2 \u00b1 3i",
+    "\u22122 \u00b1 3i",
+    "2 \u00b1 \u221a5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dividing gives z\u00b3 \u2212 3z\u00b2 + 9z + 13 = (z + 1)(z\u00b2 \u2212 4z + 13). The quadratic formula gives z = (4 \u00b1 \u221a(16 \u2212 52))/2 = (4 \u00b1 6i)/2 = 2 \u00b1 3i. Taking \u221a(16 + 4) gives 2 \u00b1 \u221a5 by misreading the discriminant's sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0033",
+   "topicId": "spec-qce-further-complex",
+   "stem": "Given that 1 + 2i is a root of P(z) = z\u00b3 \u2212 z\u00b2 + 3z + 5, the real root of P(z) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "\u22125",
+    "\u22121",
+    "1",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The coefficients are real, so 1 \u2212 2i is also a root, and the factor (z \u2212 1 \u2212 2i)(z \u2212 1 + 2i) is z\u00b2 \u2212 2z + 5. Then P(z) = (z\u00b2 \u2212 2z + 5)(z + 1), so the real root is \u22121. Check: P(\u22121) = \u22121 \u2212 1 \u2212 3 + 5 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0034",
+   "topicId": "spec-qce-further-complex",
+   "stem": "A monic cubic with real coefficients has 2 and i as two of its roots. The cubic is:",
+   "imageRef": null,
+   "options": [
+    "z\u00b3 \u2212 2z\u00b2 \u2212 z + 2",
+    "z\u00b3 + 2z\u00b2 + z + 2",
+    "z\u00b3 \u2212 2z\u00b2 + z + 2",
+    "z\u00b3 \u2212 2z\u00b2 + z \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "With real coefficients, \u2212i is also a root, so the cubic is (z \u2212 2)(z \u2212 i)(z + i) = (z \u2212 2)(z\u00b2 + 1) = z\u00b3 \u2212 2z\u00b2 + z \u2212 2. Using z\u00b2 \u2212 1 for (z \u2212 i)(z + i) gives z\u00b3 \u2212 2z\u00b2 \u2212 z + 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0035",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The polynomial P(z) = z\u00b2 \u2212 (1 + i)z + i has z = i as a root. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The other root is 1, since the coefficients are not all real",
+    "The other root is \u2212i, by the conjugate root theorem",
+    "The other root is \u22121, since the roots multiply to \u22121",
+    "The other root is 1 + i, since the roots sum to 1 + i"
+   ],
+   "correctIndex": 0,
+   "explanation": "The roots sum to 1 + i and multiply to i, so the other root is (1 + i) \u2212 i = 1. The conjugate root theorem needs real coefficients, and here the coefficients \u2212(1 + i) and i are not real, so \u2212i need not be a root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0036",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The solutions over C of z\u2074 + z\u00b3 \u2212 z\u00b2 + z \u2212 2 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "1, 2, i and \u2212i",
+    "1, \u22122, i and \u2212i",
+    "\u22121, 2, i and \u2212i",
+    "1, \u22122, 1 + i and 1 \u2212 i"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(1) = 1 + 1 \u2212 1 + 1 \u2212 2 = 0 and P(\u22122) = 16 \u2212 8 \u2212 4 \u2212 2 \u2212 2 = 0, so z \u2212 1 and z + 2 are factors. Dividing by z\u00b2 + z \u2212 2 leaves z\u00b2 + 1, whose roots are \u00b1i. Testing \u22121 and 2 gives P(\u22121) = \u22124 and P(2) = 20, so those are not roots.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0037",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The solutions over C of z\u00b3 \u2212 2iz\u00b2 + z \u2212 2i = 0 are:",
+   "imageRef": null,
+   "options": [
+    "2i, 1 + i and 1 \u2212 i",
+    "i, \u2212i and 2i",
+    "i, \u2212i and \u22122i",
+    "1, \u22121 and 2i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Grouping gives z\u00b2(z \u2212 2i) + (z \u2212 2i) = (z \u2212 2i)(z\u00b2 + 1), so the solutions are 2i, i and \u2212i. Factorising z\u00b2 + 1 as (z \u2212 1)(z + 1) gives 1 and \u22121, which are the roots of z\u00b2 \u2212 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0038",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The solutions of z\u00b2 \u2212 3iz \u2212 2 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "3i and \u22121",
+    "i and 2i",
+    "\u2212i and \u22122i",
+    "1 and 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The discriminant is (\u22123i)\u00b2 \u2212 4(1)(\u22122) = \u22129 + 8 = \u22121, so z = (3i \u00b1 i)/2, giving 2i and i. Check: i\u00b2 \u2212 3i(i) \u2212 2 = \u22121 + 3 \u2212 2 = 0. The negatives \u2212i and \u22122i solve z\u00b2 + 3iz \u2212 2 = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-further-complex-0039",
+   "topicId": "spec-qce-further-complex",
+   "stem": "The solutions of z\u00b2 \u2212 (3 + 2i)z + 5 + 5i = 0 are:",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2212 3i and \u22122 + i",
+    "3 + i and 2i",
+    "1 + 3i and 2 \u2212 i",
+    "1 \u2212 3i and 2 + i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The roots must sum to 3 + 2i and multiply to 5 + 5i. For 1 + 3i and 2 \u2212 i, the sum is 3 + 2i and the product is 2 \u2212 i + 6i + 3 = 5 + 5i. The conjugates 1 \u2212 3i and 2 + i sum to 3 \u2212 2i, so they solve a different equation; the conjugate root theorem does not apply because the coefficients are not real.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-further-complex-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

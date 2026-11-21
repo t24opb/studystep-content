@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-hsc-rates-motion",
+ "questions": [
+  {
+   "id": "meth-hsc-rates-motion-0001",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A quantity Q has dQ/dt > 0 and d\u00b2Q/dt\u00b2 < 0 over an interval. Over that interval Q is:",
+   "imageRef": null,
+   "options": [
+    "decreasing at an increasing rate",
+    "increasing at a decreasing rate",
+    "increasing at an increasing rate",
+    "decreasing at a decreasing rate"
+   ],
+   "correctIndex": 1,
+   "explanation": "dQ/dt > 0 means Q is increasing. d\u00b2Q/dt\u00b2 < 0 means the rate dQ/dt is itself falling, so the increase is slowing. The graph of Q against t rises but is concave down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0002",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "The volume Q of water in a dam has dQ/dt < 0 and d\u00b2Q/dt\u00b2 > 0. Which statement describes the volume?",
+   "imageRef": null,
+   "options": [
+    "It is decreasing, and the rate of decrease is slowing",
+    "It is decreasing, and the rate of decrease is speeding up",
+    "It is increasing, and the rate of increase is slowing",
+    "It is increasing, and the rate of increase is speeding up"
+   ],
+   "correctIndex": 0,
+   "explanation": "dQ/dt < 0 means the dam is losing water. d\u00b2Q/dt\u00b2 > 0 means dQ/dt is rising towards 0, so it is becoming less negative and the loss is slowing. A rising negative rate is the easy part to misread.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0003",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A valve is opened so the flow rate is R = kt cubic metres per second, where k = 1.3 m\u00b3/s\u00b2. What volume flows through in the first 10 seconds?",
+   "imageRef": null,
+   "options": [
+    "6.5 m\u00b3",
+    "65 m\u00b3",
+    "13 m\u00b3",
+    "130 m\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The volume is the integral of 1.3t from 0 to 10, which is [0.65t\u00b2] = 65 m\u00b3. The value 13 is the flow rate at t = 10, not the total, and 130 forgets the 1/2 in the primitive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0004",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A plant grows at a rate of dh/dt = 4/\u221at cm per week for t > 0. By how much does its height increase from t = 1 to t = 9?",
+   "imageRef": null,
+   "options": [
+    "32 cm",
+    "16 cm",
+    "24 cm",
+    "8 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The increase is the integral of 4t^(\u22121/2) from 1 to 9, which is [8\u221at] = 8 \u00d7 3 \u2212 8 \u00d7 1 = 16 cm. Using 0 as the lower limit gives 24 cm, the growth since t = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0005",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A quantity has d\u00b2Q/dt\u00b2 = 6. When t = 0, dQ/dt = 2 and Q = 1. What is Q when t = 1?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "4",
+    "6",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrate once: dQ/dt = 6t + 2. Integrate again: Q = 3t\u00b2 + 2t + 1, using each initial condition for its constant. At t = 1, Q = 3 + 2 + 1 = 6. Leaving out both constants gives 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0006",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A positive quantity satisfies dQ/dt = kQ with k < 0. This means Q is:",
+   "imageRef": null,
+   "options": [
+    "decreasing at a constant rate",
+    "increasing at a constant rate",
+    "decreasing at a rate proportional to Q",
+    "increasing at a rate proportional to Q"
+   ],
+   "correctIndex": 2,
+   "explanation": "With Q > 0 and k < 0, dQ/dt is negative, so Q decreases, and its rate is a fixed multiple of its current size. A constant rate would mean dQ/dt = k, a linear change, not exponential decay.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0007",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "In the model Q = Ae^(kt), what does A represent?",
+   "imageRef": null,
+   "options": [
+    "The time taken for Q to double",
+    "The value of Q when t = 0",
+    "The rate at which Q grows",
+    "The limiting value of Q"
+   ],
+   "correctIndex": 1,
+   "explanation": "At t = 0, e\u2070 = 1, so Q = A: the initial value. The growth or decay rate is set by k, not A.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0008",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "Which function satisfies dQ/dt = 3Q?",
+   "imageRef": null,
+   "options": [
+    "Q = 3e^(5t)",
+    "Q = e^(3t) + 5",
+    "Q = 5t\u00b3",
+    "Q = 5e^(3t)"
+   ],
+   "correctIndex": 3,
+   "explanation": "For Q = 5e^(3t), dQ/dt = 15e^(3t) = 3Q. For e^(3t) + 5 the derivative is 3e^(3t), which is not 3(e^(3t) + 5), because the added constant has no derivative to match.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0009",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "If Q = Ae^(kt), then dQ/dt equals:",
+   "imageRef": null,
+   "options": [
+    "kQ",
+    "Q/k",
+    "AQ",
+    "ktQ"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the chain rule, dQ/dt = kAe^(kt), and Ae^(kt) is Q, so dQ/dt = kQ. This verifies by substitution that Q = Ae^(kt) solves the growth and decay equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0010",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "What is the horizontal asymptote of Q = 200e^(\u22120.5t)?",
+   "imageRef": null,
+   "options": [
+    "Q = 200",
+    "t = 0",
+    "Q = \u22120.5",
+    "Q = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "As t \u2192 \u221e, e^(\u22120.5t) \u2192 0, so Q decays towards 0 but never reaches it. The value 200 is the starting value, where the graph meets the Q-axis, and t = 0 is that axis itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0011",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "For A > 0 and k > 0, the graph of Q = Ae^(kt) is:",
+   "imageRef": null,
+   "options": [
+    "increasing and concave up",
+    "decreasing and concave up",
+    "increasing and concave down",
+    "decreasing and concave down"
+   ],
+   "correctIndex": 0,
+   "explanation": "dQ/dt = kAe^(kt) > 0, so Q increases, and d\u00b2Q/dt\u00b2 = k\u00b2Ae^(kt) > 0, so it is concave up. The graph gets steeper as Q grows, because the rate is proportional to Q.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0012",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "For t \u2265 0, which describes the graph of Q = \u221210e^(\u2212t)?",
+   "imageRef": null,
+   "options": [
+    "Decreasing without bound",
+    "Increasing towards the asymptote Q = 0",
+    "Decreasing towards the asymptote Q = 0",
+    "Increasing without bound"
+   ],
+   "correctIndex": 1,
+   "explanation": "It starts at Q = \u221210. dQ/dt = 10e^(\u2212t) > 0, so Q increases, and since e^(\u2212t) \u2192 0, Q rises towards 0 from below. With A < 0 the graph is the reflection of 10e^(\u2212t) in the t-axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0013",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "When the rate of change of a positive quantity Q is proportional to Q with k > 0, what happens to its graph as Q gets larger?",
+   "imageRef": null,
+   "options": [
+    "Its gradient stays constant",
+    "It levels off at a maximum",
+    "It gets steeper",
+    "It gets flatter"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient is dQ/dt = kQ, so a larger Q means a larger gradient and the curve gets steeper. Levelling off would need the rate to fall as Q grows, which is not proportional growth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0014",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A bacteria population is Q = 500e^(0.4t), t hours after counting began. What is the population after 5 hours?",
+   "imageRef": null,
+   "options": [
+    "2500e^(0.4)",
+    "500e^(0.08)",
+    "1000e",
+    "500e\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute t = 5: 0.4 \u00d7 5 = 2, so Q = 500e\u00b2 \u2248 3695. The expression 500e^(0.08) divides 0.4 by 5 instead of multiplying.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0015",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A quantity grows according to Q = Ae^(kt) and doubles every 3 hours. What is k (per hour)?",
+   "imageRef": null,
+   "options": [
+    "3 ln 2",
+    "(ln 3)/2",
+    "ln(2/3)",
+    "(ln 2)/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Doubling means e^(3k) = 2, so 3k = ln 2 and k = (ln 2)/3 \u2248 0.23. The value ln(2/3) is negative, which would describe decay.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0016",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A sample decays according to Q = 40e^(kt) grams, t in years, and Q = 20 when t = 5. What is k?",
+   "imageRef": null,
+   "options": [
+    "\u2212(ln 2)/5",
+    "(ln 2)/5",
+    "\u22125 ln 2",
+    "\u2212(ln 5)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "e^(5k) = 20/40 = 1/2, so 5k = ln(1/2) = \u2212ln 2 and k = \u2212(ln 2)/5. The constant must be negative for decay; the positive value would make the sample grow.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0017",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A substance decays with Q = 80e^(\u22120.05t) grams, t in years. How long does it take for half of it to decay?",
+   "imageRef": null,
+   "options": [
+    "40 ln 2 years",
+    "10 years",
+    "20 ln 2 years",
+    "0.05 ln 2 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set e^(\u22120.05t) = 1/2: \u22120.05t = \u2212ln 2, so t = ln 2/0.05 = 20 ln 2 \u2248 13.9 years. Multiplying by 0.05 instead of dividing gives 0.05 ln 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0018",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A substance decays with Q = 80e^(\u22120.05t) grams, t in years. At what rate is it decaying when t = 0?",
+   "imageRef": null,
+   "options": [
+    "0.05 grams per year",
+    "80 grams per year",
+    "40 grams per year",
+    "4 grams per year"
+   ],
+   "correctIndex": 3,
+   "explanation": "dQ/dt = \u22120.05 \u00d7 80e^(\u22120.05t), which is \u22124 at t = 0, so the substance is decaying at 4 grams per year. The value 0.05 is the constant k, a proportion, not the rate in grams.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0019",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A population follows Q = Ae^(kt). It is 1000 at t = 0 and 1440 at t = 2. What is k?",
+   "imageRef": null,
+   "options": [
+    "1.2",
+    "ln 1.2",
+    "ln 1.44",
+    "0.22"
+   ],
+   "correctIndex": 1,
+   "explanation": "e^(2k) = 1.44, so 2k = ln 1.44 and k = (ln 1.44)/2 = ln \u221a1.44 = ln 1.2 \u2248 0.18. Stopping at ln 1.44 forgets to divide by 2, and 0.22 treats the 44% rise as linear.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0020",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A colony grows exponentially from 2000 to 4000 in 5 years. How long after the start will it reach 16 000?",
+   "imageRef": null,
+   "options": [
+    "40 years",
+    "10 years",
+    "15 years",
+    "35 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "Exponential growth has a fixed doubling time, here 5 years, and 2000 to 16 000 is three doublings: 15 years. Adding 2000 every 5 years, which is linear growth, would take 35 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0021",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A radioactive sample decays exponentially from 60 g to 15 g in 10 years. How much remained after 5 years?",
+   "imageRef": null,
+   "options": [
+    "7.5 g",
+    "30 g",
+    "37.5 g",
+    "45 g"
+   ],
+   "correctIndex": 1,
+   "explanation": "15/60 = 1/4, which is two halvings in 10 years, so the half-life is 5 years and 30 g remained after 5 years. The value 37.5 g is halfway between 60 and 15, which assumes linear decay.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0022",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = t\u00b2 \u2212 4t metres at time t seconds. What is its velocity?",
+   "imageRef": null,
+   "options": [
+    "v = t \u2212 4",
+    "v = 2",
+    "v = 2t \u2212 4",
+    "v = 2t"
+   ],
+   "correctIndex": 2,
+   "explanation": "Velocity is the derivative of displacement: dx/dt = 2t \u2212 4 m/s. The value 2 is the second derivative, the acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0023",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "For a particle with displacement x at time t, which gives its acceleration?",
+   "imageRef": null,
+   "options": [
+    "d\u00b2x/dt\u00b2",
+    "dx/dt",
+    "(dx/dt)\u00b2",
+    "the integral of x with respect to t"
+   ],
+   "correctIndex": 0,
+   "explanation": "Acceleration is the rate of change of velocity, and velocity is dx/dt, so acceleration is d\u00b2x/dt\u00b2. Squaring dx/dt is not the same as differentiating it twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0024",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle moving in a straight line is at rest when its:",
+   "imageRef": null,
+   "options": [
+    "velocity is 0",
+    "acceleration is 0",
+    "displacement is 0",
+    "velocity is constant"
+   ],
+   "correctIndex": 0,
+   "explanation": "At rest means not moving at that instant, so v = 0. Displacement 0 only says the particle is at the origin, and it may be moving fast as it passes through.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0025",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "Integrating a particle's velocity with respect to time gives its:",
+   "imageRef": null,
+   "options": [
+    "acceleration",
+    "speed",
+    "total distance travelled",
+    "displacement"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiation goes displacement, velocity, acceleration, so integration runs back the other way: from velocity to displacement, with a constant found from an initial condition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0026",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle's velocity is \u22123 m/s, with the positive direction to the right. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Its speed is 3 m/s and it is moving right",
+    "Its speed is \u22123 m/s and it is slowing down",
+    "Its speed is 3 m/s and it is moving left",
+    "Its speed is \u22123 m/s and it is moving left"
+   ],
+   "correctIndex": 2,
+   "explanation": "Speed is the size of the velocity, so it is 3 m/s and never negative. The negative sign gives the direction of motion: the negative direction, to the left.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0027",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = t\u00b2 \u2212 6t + 5 metres at time t seconds. What is its initial velocity?",
+   "imageRef": null,
+   "options": [
+    "\u22126 m/s",
+    "5 m/s",
+    "2 m/s",
+    "0 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = 2t \u2212 6, and initially means t = 0, so v = \u22126 m/s. The value 5 is the initial displacement, and 2 is the acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0028",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres for t \u2265 0. When is it at rest?",
+   "imageRef": null,
+   "options": [
+    "t = 3 only",
+    "t = 1 and t = 3",
+    "t = 0 and t = 3",
+    "t = 2 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = 3t\u00b2 \u2212 12t + 9 = 3(t \u2212 1)(t \u2212 3), which is 0 at t = 1 and t = 3. The times t = 0 and 3 are where x = 0, and t = 2 is where the acceleration is 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0029",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres. What is its acceleration at t = 2?",
+   "imageRef": null,
+   "options": [
+    "6 m/s\u00b2",
+    "0 m/s\u00b2",
+    "\u22123 m/s\u00b2",
+    "2 m/s\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "a = d\u00b2x/dt\u00b2 = 6t \u2212 12, which is 0 at t = 2. The value \u22123 is the velocity at t = 2 and 2 is the displacement.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0030",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has velocity v = 3t\u00b2 \u2212 2 m/s and is at x = 1 when t = 0. What is its displacement?",
+   "imageRef": null,
+   "options": [
+    "x = t\u00b3 \u2212 2t",
+    "x = 6t + 1",
+    "x = t\u00b3 \u2212 2t \u2212 1",
+    "x = t\u00b3 \u2212 2t + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Integrate: x = t\u00b3 \u2212 2t + C, and x = 1 at t = 0 gives C = 1. Differentiating instead of integrating gives 6t, which is the acceleration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0031",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = 5 + 2e^(\u2212t) metres. What happens as t \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "It moves past x = 5 and its speed increases",
+    "It approaches x = 5 and its velocity approaches 0",
+    "It approaches x = 7 and its velocity approaches 0",
+    "It approaches x = 0 and its velocity approaches 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "As t \u2192 \u221e, e^(\u2212t) \u2192 0, so x \u2192 5, and v = \u22122e^(\u2212t) \u2192 0. The particle starts at x = 7 (at t = 0) and slows as it approaches 5 without reaching it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0032",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle's velocity is positive and decreasing. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "It moves in the negative direction and is slowing down",
+    "It moves in the positive direction and is speeding up",
+    "It moves in the negative direction and is speeding up",
+    "It moves in the positive direction and is slowing down"
+   ],
+   "correctIndex": 3,
+   "explanation": "Positive velocity means motion in the positive direction. A decreasing velocity means negative acceleration, which opposes that motion, so the particle is slowing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0033",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "At t = 3 a particle has velocity \u22124 m/s and acceleration \u22122 m/s\u00b2. At that instant the particle is:",
+   "imageRef": null,
+   "options": [
+    "at rest",
+    "changing direction",
+    "speeding up",
+    "slowing down"
+   ],
+   "correctIndex": 2,
+   "explanation": "Velocity and acceleration have the same sign, so the acceleration acts in the direction of motion and the speed increases. A negative acceleration slows a particle only when its velocity is positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0034",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has velocity v = 2t \u2212 4 m/s for 0 \u2264 t \u2264 4. What distance does it travel?",
+   "imageRef": null,
+   "options": [
+    "4 m",
+    "16 m",
+    "8 m",
+    "0 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The particle moves backwards for 0 < t < 2, covering 4 m, then forwards for 2 < t < 4, covering 4 m: 8 m in all. The integral from 0 to 4 is 0, which is the displacement, not the distance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0035",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A ball is thrown upwards with x = 20t \u2212 5t\u00b2 metres, where x is the height after t seconds. What is its maximum height?",
+   "imageRef": null,
+   "options": [
+    "40 m",
+    "2 m",
+    "10 m",
+    "20 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The ball is highest when v = 20 \u2212 10t = 0, at t = 2, and x(2) = 40 \u2212 20 = 20 m. The value 2 is the time, not the height, and 40 m forgets to subtract 5t\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0036",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle has displacement x = 4cos(2t). Which equation does it satisfy?",
+   "imageRef": null,
+   "options": [
+    "d\u00b2x/dt\u00b2 = 4x",
+    "d\u00b2x/dt\u00b2 = \u221216x",
+    "d\u00b2x/dt\u00b2 = \u22122x",
+    "d\u00b2x/dt\u00b2 = \u22124x"
+   ],
+   "correctIndex": 3,
+   "explanation": "v = \u22128sin(2t) and a = \u221216cos(2t) = \u22124 \u00d7 4cos(2t) = \u22124x. The value \u221216x comes from forgetting that 4cos(2t) is x itself, so the 4 must be taken out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-rates-motion-0037",
+   "topicId": "meth-hsc-rates-motion",
+   "stem": "A particle starts from rest with acceleration a = e^(\u2212t) m/s\u00b2. What value does its velocity approach as t \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "\u22121 m/s",
+    "1 m/s",
+    "0 m/s",
+    "e m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = \u2212e^(\u2212t) + C, and v = 0 at t = 0 gives C = 1, so v = 1 \u2212 e^(\u2212t), which approaches 1 m/s. The acceleration approaches 0, but that only means the velocity levels off, not that it returns to 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-rates-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

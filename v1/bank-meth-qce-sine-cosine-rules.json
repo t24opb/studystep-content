@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-qce-sine-cosine-rules",
+ "questions": [
+  {
+   "id": "meth-qce-sine-cosine-rules-0001",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, the sides a, b and c are opposite the angles A, B and C. Which statement is the sine rule?",
+   "imageRef": null,
+   "options": [
+    "a/sin(B) = b/sin(C) = c/sin(A)",
+    "a sin(A) = b sin(B) = c sin(C)",
+    "sin(A)/b = sin(B)/c = sin(C)/a",
+    "a/sin(A) = b/sin(B) = c/sin(C)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sine rule pairs each side with the sine of the angle opposite it: a/sin(A) = b/sin(B) = c/sin(C). Multiplying each side by the sine of its opposite angle gives products that are not equal in general.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0002",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, with sides a, b and c opposite A, B and C, which statement is the cosine rule?",
+   "imageRef": null,
+   "options": [
+    "c\u00b2 = a\u00b2 + b\u00b2 \u2212 ab cos(C)",
+    "c\u00b2 = a\u00b2 + b\u00b2 \u2212 2ab cos(C)",
+    "c\u00b2 = a\u00b2 + b\u00b2 + 2ab cos(C)",
+    "c\u00b2 = a\u00b2 + b\u00b2 \u2212 2ab cos(A)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The angle in the cosine rule is the one between sides a and b, which is C, opposite side c. Both signs reduce to Pythagoras' theorem when C = 90\u00b0, so test with an obtuse C: then cos(C) < 0, and only the minus sign makes c longer, as the side opposite an obtuse angle must be.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0003",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "Which formula gives the area of triangle ABC, where b and c are the sides that meet at angle A?",
+   "imageRef": null,
+   "options": [
+    "(1/2)ab sin(A)",
+    "(1/2)bc sin(A)",
+    "(1/2)bc cos(A)",
+    "bc sin(A)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The area is half the product of two sides times the sine of the angle between them. The angle between b and c is A; sides a and b meet at C, so (1/2)ab sin(A) pairs the wrong angle with them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0004",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "Two sides of a triangle and the angle between them are known. Which rule finds the third side directly?",
+   "imageRef": null,
+   "options": [
+    "The sine rule",
+    "The area formula",
+    "Pythagoras' theorem",
+    "The cosine rule"
+   ],
+   "correctIndex": 3,
+   "explanation": "With two sides and the included angle, no side is paired with its opposite angle, so the sine rule cannot start; the cosine rule gives the third side directly. Pythagoras' theorem only applies when the angle is 90\u00b0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0005",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "All three sides a, b and c of a triangle are known. Which formula gives angle C?",
+   "imageRef": null,
+   "options": [
+    "cos(C) = (a\u00b2 + b\u00b2 + c\u00b2)/(2ab)",
+    "cos(C) = (c\u00b2 \u2212 a\u00b2 \u2212 b\u00b2)/(2ab)",
+    "cos(C) = (a\u00b2 + c\u00b2 \u2212 b\u00b2)/(2ac)",
+    "cos(C) = (a\u00b2 + b\u00b2 \u2212 c\u00b2)/(2ab)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearranging c\u00b2 = a\u00b2 + b\u00b2 \u2212 2ab cos(C) gives cos(C) = (a\u00b2 + b\u00b2 \u2212 c\u00b2)/(2ab). The formula with (a\u00b2 + c\u00b2 \u2212 b\u00b2)/(2ac) is correct for angle B, not C.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0006",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, a\u00b2 > b\u00b2 + c\u00b2. What can be concluded about angle A?",
+   "imageRef": null,
+   "options": [
+    "It is a right angle",
+    "It is the smallest angle",
+    "It is obtuse",
+    "It is acute"
+   ],
+   "correctIndex": 2,
+   "explanation": "From the cosine rule, cos(A) = (b\u00b2 + c\u00b2 \u2212 a\u00b2)/(2bc), which is negative when a\u00b2 > b\u00b2 + c\u00b2, so A is between 90\u00b0 and 180\u00b0. If a\u00b2 were equal to b\u00b2 + c\u00b2, A would be a right angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0007",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, A = 30\u00b0, B = 45\u00b0 and a = 10 cm. What is b?",
+   "imageRef": null,
+   "options": [
+    "10\u221a2 cm",
+    "5\u221a2 cm",
+    "20\u221a2 cm",
+    "10\u221a3 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the sine rule b = a sin(B)/sin(A) = 10 \u00d7 (\u221a2/2)/(1/2) = 10\u221a2 cm. Inverting the ratio gives 10 \u00d7 (1/2)/(\u221a2/2) = 5\u221a2 cm, which is shorter than a even though B is larger than A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0008",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, A = 60\u00b0, B = 75\u00b0 and c = 10 cm. What is a?",
+   "imageRef": null,
+   "options": [
+    "5\u221a6 cm",
+    "10\u221a6/3 cm",
+    "10\u221a3 cm",
+    "5\u221a2 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "First C = 180\u00b0 \u2212 60\u00b0 \u2212 75\u00b0 = 45\u00b0. Then a = c sin(A)/sin(C) = 10 \u00d7 (\u221a3/2)/(\u221a2/2) = 10\u221a3/\u221a2 = 5\u221a6 cm. Inverting the ratio gives 10\u221a6/3 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0009",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, sin(A) : sin(B) = 3 : 4 and a = 6 cm. What is b?",
+   "imageRef": null,
+   "options": [
+    "10 cm",
+    "8 cm",
+    "4.5 cm",
+    "24 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sine rule says a/b = sin(A)/sin(B) = 3/4, so b = 6 \u00d7 4/3 = 8 cm. The value 4.5 cm uses the ratio upside down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0010",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle PQR, P = 30\u00b0, p = 5 and q = 8, where p and q are opposite P and Q. What is sin(Q)?",
+   "imageRef": null,
+   "options": [
+    "4/5",
+    "5/16",
+    "16/5",
+    "3/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sine rule gives sin(Q) = q sin(P)/p = 8 \u00d7 (1/2)/5 = 4/5. The value 16/5 inverts the ratio, and it cannot be a sine because it is greater than 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0011",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, A = 45\u00b0, a = 6 cm and b = 3\u221a2 cm. What is angle B?",
+   "imageRef": null,
+   "options": [
+    "60\u00b0",
+    "30\u00b0",
+    "150\u00b0",
+    "30\u00b0 or 150\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(B) = 3\u221a2 \u00d7 (\u221a2/2)/6 = 1/2, so B could be 30\u00b0 or 150\u00b0. But 150\u00b0 + 45\u00b0 > 180\u00b0, so only 30\u00b0 works; also b < a, so B must be smaller than A.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0012",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "The ambiguous case of the sine rule can arise when the given information is:",
+   "imageRef": null,
+   "options": [
+    "two sides and a non-included angle",
+    "two sides and the included angle",
+    "all three sides of the triangle",
+    "two angles and the side between them"
+   ],
+   "correctIndex": 0,
+   "explanation": "When the known angle is opposite one of the two known sides, the unknown angle is found from its sine, and an acute and an obtuse angle can share that sine. Two sides with the included angle, or three sides, always fix a single triangle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0013",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In the ambiguous case, the sine rule gives two possible values for an angle. How are these two values related?",
+   "imageRef": null,
+   "options": [
+    "They are both acute",
+    "They add to 180\u00b0",
+    "They add to 90\u00b0",
+    "They differ by 90\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(\u03b8) = sin(180\u00b0 \u2212 \u03b8), so the two angles with the same sine are \u03b8 and 180\u00b0 \u2212 \u03b8, which add to 180\u00b0. Angles adding to 90\u00b0 have equal sine and cosine the other way round, not equal sines.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0014",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, A = 30\u00b0, a = 10 cm and b = 10\u221a2 cm. What are the possible values of angle B?",
+   "imageRef": null,
+   "options": [
+    "60\u00b0 or 120\u00b0",
+    "45\u00b0 or 135\u00b0",
+    "45\u00b0 only",
+    "135\u00b0 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(B) = 10\u221a2 \u00d7 (1/2)/10 = \u221a2/2, so B = 45\u00b0 or 135\u00b0. Both work, since 135\u00b0 + 30\u00b0 < 180\u00b0, and b > a allows B > A. Giving 45\u00b0 only misses the obtuse triangle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0015",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle is to have A = 30\u00b0, b = 10 cm and a = 8 cm. How many different triangles fit these measurements?",
+   "imageRef": null,
+   "options": [
+    "One",
+    "None",
+    "Infinitely many",
+    "Two"
+   ],
+   "correctIndex": 3,
+   "explanation": "The least possible length for a is b sin(A) = 10 \u00d7 1/2 = 5 cm. Since 5 < 8 < 10, side a can meet the third line in two places, giving an acute and an obtuse angle B. With a \u2265 10 there would be only one triangle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0016",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle is to have A = 30\u00b0, b = 10 cm and a = 4 cm. How many different triangles fit these measurements?",
+   "imageRef": null,
+   "options": [
+    "Infinitely many",
+    "None",
+    "One",
+    "Two"
+   ],
+   "correctIndex": 1,
+   "explanation": "The shortest distance from C to the other arm of angle A is b sin(A) = 5 cm, so a side of 4 cm cannot reach it. The sine rule confirms this: sin(B) = 10 \u00d7 (1/2)/4 = 1.25, which is impossible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0017",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, a = 4 cm, b = 6 cm and C = 60\u00b0. What is c?",
+   "imageRef": null,
+   "options": [
+    "2\u221a7 cm",
+    "2\u221a19 cm",
+    "2\u221a13 cm",
+    "28 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "c\u00b2 = 16 + 36 \u2212 2 \u00d7 4 \u00d7 6 \u00d7 (1/2) = 28, so c = \u221a28 = 2\u221a7 cm. Adding the last term gives 76 and 2\u221a19 cm, and 2\u221a13 cm treats the triangle as right-angled.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0018",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, a = 3 cm, b = 5 cm and C = 120\u00b0. What is c?",
+   "imageRef": null,
+   "options": [
+    "\u221a19 cm",
+    "\u221a34 cm",
+    "8 cm",
+    "7 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "c\u00b2 = 9 + 25 \u2212 2 \u00d7 3 \u00d7 5 \u00d7 cos(120\u00b0) = 34 + 15 = 49, so c = 7 cm. Because cos(120\u00b0) = \u22121/2, the last term is added; treating it as + 1/2 gives 19 and \u221a19 cm, which is shorter than the side of 5 cm opposite a smaller angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0019",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle has sides 7 cm, 8 cm and 13 cm. What is the angle opposite the 13 cm side?",
+   "imageRef": null,
+   "options": [
+    "150\u00b0",
+    "30\u00b0",
+    "120\u00b0",
+    "60\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos(\u03b8) = (7\u00b2 + 8\u00b2 \u2212 13\u00b2)/(2 \u00d7 7 \u00d7 8) = (49 + 64 \u2212 169)/112 = \u22121/2, so \u03b8 = 120\u00b0. Dropping the negative sign gives 60\u00b0, but the side opposite is the longest by far, so the angle must be obtuse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0020",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle has sides 5 cm, 7 cm and 8 cm. What is the angle opposite the 7 cm side?",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "60\u00b0",
+    "120\u00b0",
+    "30\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos(\u03b8) = (5\u00b2 + 8\u00b2 \u2212 7\u00b2)/(2 \u00d7 5 \u00d7 8) = 40/80 = 1/2, so \u03b8 = 60\u00b0. The side of 7 cm is not the longest, so its opposite angle cannot be the obtuse 120\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0021",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle has sides 4, 5 and 6 units. What is the cosine of its largest angle?",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "9/16",
+    "\u22121/8",
+    "1/8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The largest angle is opposite the longest side, 6, so cos(\u03b8) = (16 + 25 \u2212 36)/(2 \u00d7 4 \u00d7 5) = 5/40 = 1/8. The value 3/4 is the cosine of the smallest angle, opposite the side of 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0022",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, b = 6 cm, c = 10 cm and A = 30\u00b0. What is its area?",
+   "imageRef": null,
+   "options": [
+    "30 cm\u00b2",
+    "15\u221a3 cm\u00b2",
+    "60 cm\u00b2",
+    "15 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Area = (1/2) \u00d7 6 \u00d7 10 \u00d7 sin(30\u00b0) = 30 \u00d7 1/2 = 15 cm\u00b2. Leaving out the 1/2 gives 30 cm\u00b2, and using cos(30\u00b0) instead of sin(30\u00b0) gives 15\u221a3 cm\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0023",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, b = 4 m, c = 6 m and A = 120\u00b0. What is its area?",
+   "imageRef": null,
+   "options": [
+    "6\u221a3 m\u00b2",
+    "12\u221a3 m\u00b2",
+    "6 m\u00b2",
+    "12 m\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Area = (1/2) \u00d7 4 \u00d7 6 \u00d7 sin(120\u00b0) = 12 \u00d7 \u221a3/2 = 6\u221a3 m\u00b2. Using sin(30\u00b0) = 1/2 by mistake gives 6 m\u00b2; the sine of 120\u00b0 equals the sine of 60\u00b0, not of 30\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0024",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In triangle ABC, b = 6 cm, c = 8 cm, the area is 12 cm\u00b2 and angle A is obtuse. What is A?",
+   "imageRef": null,
+   "options": [
+    "135\u00b0",
+    "150\u00b0",
+    "30\u00b0",
+    "120\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "12 = (1/2) \u00d7 6 \u00d7 8 \u00d7 sin(A) gives sin(A) = 1/2, so A = 30\u00b0 or 150\u00b0. Since A is obtuse, A = 150\u00b0. The value 30\u00b0 is the other solution, which the condition rules out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0025",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A triangle has sides 5 cm, 7 cm and 8 cm. What is its area?",
+   "imageRef": null,
+   "options": [
+    "20\u221a3 cm\u00b2",
+    "10 cm\u00b2",
+    "20 cm\u00b2",
+    "10\u221a3 cm\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The cosine rule gives the angle between the sides 5 and 8: cos(\u03b8) = (25 + 64 \u2212 49)/80 = 1/2, so \u03b8 = 60\u00b0. The area is (1/2) \u00d7 5 \u00d7 8 \u00d7 sin(60\u00b0) = 10\u221a3 cm\u00b2. Leaving out the 1/2 gives 20\u221a3 cm\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0026",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A parallelogram has sides 6 cm and 8 cm with an angle of 30\u00b0 between them. What is its area?",
+   "imageRef": null,
+   "options": [
+    "24 cm\u00b2",
+    "12 cm\u00b2",
+    "48 cm\u00b2",
+    "24\u221a3 cm\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "A diagonal splits the parallelogram into two equal triangles, each with area (1/2) \u00d7 6 \u00d7 8 \u00d7 sin(30\u00b0) = 12 cm\u00b2, so the area is 24 cm\u00b2. The value 12 cm\u00b2 is just one of the triangles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0027",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "The true bearing of B from A is 070\u00b0. What is the true bearing of A from B?",
+   "imageRef": null,
+   "options": [
+    "160\u00b0",
+    "250\u00b0",
+    "110\u00b0",
+    "290\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The reverse bearing differs by 180\u00b0, so it is 070\u00b0 + 180\u00b0 = 250\u00b0. The value 110\u00b0 is 180\u00b0 \u2212 70\u00b0, which gives a direction in the wrong quadrant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0028",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "From a port P, ship A is 10 km away on a bearing of 040\u00b0 and ship B is 10 km away on a bearing of 100\u00b0. How far apart are the ships?",
+   "imageRef": null,
+   "options": [
+    "20 km",
+    "10\u221a2 km",
+    "10 km",
+    "10\u221a3 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "The angle APB is 100\u00b0 \u2212 40\u00b0 = 60\u00b0, and PA = PB = 10 km, so the triangle is equilateral and AB = 10 km. The cosine rule agrees: AB\u00b2 = 100 + 100 \u2212 200 cos(60\u00b0) = 100.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0029",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A lighthouse L is on a bearing of 030\u00b0 from a ship at A. The ship sails 10 km due east to B, from where L is on a bearing of 300\u00b0. How far is B from L?",
+   "imageRef": null,
+   "options": [
+    "5\u221a3 km",
+    "5 km",
+    "10\u221a3 km",
+    "10 km"
+   ],
+   "correctIndex": 0,
+   "explanation": "In triangle ABL, angle LAB = 90\u00b0 \u2212 30\u00b0 = 60\u00b0 and angle LBA = 300\u00b0 \u2212 270\u00b0 = 30\u00b0, so angle ALB = 90\u00b0. The sine rule gives BL = 10 sin(60\u00b0)/sin(90\u00b0) = 5\u221a3 km. The value 5 km is AL, the side opposite the 30\u00b0 angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0030",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A ship sails 8 km on a bearing of 060\u00b0, then 5 km on a bearing of 120\u00b0. How far is it from its starting point?",
+   "imageRef": null,
+   "options": [
+    "13 km",
+    "\u221a129 km",
+    "\u221a89 km",
+    "7 km"
+   ],
+   "correctIndex": 1,
+   "explanation": "At the turning point the bearing back to the start is 240\u00b0 and the new course is 120\u00b0, so the angle between the legs is 120\u00b0. Then d\u00b2 = 64 + 25 \u2212 80 cos(120\u00b0) = 129. Taking the angle as 60\u00b0 gives 49 and 7 km.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0031",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A plane flies 300 km on a bearing of 030\u00b0, then 400 km on a bearing of 150\u00b0. How far is it from its starting point?",
+   "imageRef": null,
+   "options": [
+    "500 km",
+    "700 km",
+    "100\u221a13 km",
+    "100\u221a37 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the turn the bearing back to the start is 210\u00b0 and the new course is 150\u00b0, so the angle between the legs is 60\u00b0. Then d\u00b2 = 90000 + 160000 \u2212 240000 \u00d7 (1/2) = 130000, giving 100\u221a13 \u2248 361 km. Taking the angle as 120\u00b0 gives 100\u221a37 km.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0032",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "Town B is 6 km due east of town A. Town C is north of the line AB, 6 km from both A and B. What is the true bearing of C from A?",
+   "imageRef": null,
+   "options": [
+    "060\u00b0",
+    "330\u00b0",
+    "300\u00b0",
+    "030\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Triangle ABC is equilateral, so angle CAB = 60\u00b0, measured from east towards north. A bearing is measured clockwise from north, so it is 90\u00b0 \u2212 60\u00b0 = 030\u00b0. The value 060\u00b0 measures the 60\u00b0 from north instead of from east.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0033",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "The angle of elevation of the top of a tower from a point P on level ground is the angle between:",
+   "imageRef": null,
+   "options": [
+    "the vertical at P and the line of sight to the top",
+    "the line of sight and the side of the tower",
+    "the ground and the side of the tower",
+    "the horizontal at P and the line of sight to the top"
+   ],
+   "correctIndex": 3,
+   "explanation": "Angles of elevation and depression are always measured from the horizontal. The angle from the vertical is the complement of the angle of elevation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0034",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "From the top of a cliff, the angle of depression of a boat is 25\u00b0. What is the angle of elevation of the top of the cliff from the boat?",
+   "imageRef": null,
+   "options": [
+    "155\u00b0",
+    "50\u00b0",
+    "25\u00b0",
+    "65\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The horizontal through the cliff top is parallel to the water, so the angle of depression and the angle of elevation are alternate angles and are equal. The value 65\u00b0 is the angle measured from the vertical.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0035",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "From a point A on level ground, the angle of elevation of the top of a tower is 30\u00b0. From a point B, 20 m closer to the tower, it is 60\u00b0. What is the height of the tower?",
+   "imageRef": null,
+   "options": [
+    "20 m",
+    "10\u221a3 m",
+    "20\u221a3 m",
+    "10 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "In triangle ABT, with T the top, the angle at A is 30\u00b0 and the angle at B is 120\u00b0, so the angle at T is 30\u00b0 and BT = AB = 20 m. The height is BT sin(60\u00b0) = 10\u221a3 \u2248 17.3 m. The value 20 m is the slant distance BT, not the height.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0036",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "From A, the angle of elevation of the top of a tree is 30\u00b0. From B, 100 m closer to the tree on the same level line, it is 45\u00b0. What is the height of the tree?",
+   "imageRef": null,
+   "options": [
+    "50\u221a3 m",
+    "50(\u221a3 + 1) m",
+    "50(\u221a3 \u2212 1) m",
+    "100\u221a3 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "If the height is h, then B is h metres from the tree (45\u00b0) and A is h\u221a3 metres away (30\u00b0). So h\u221a3 \u2212 h = 100 and h = 100/(\u221a3 \u2212 1) = 50(\u221a3 + 1) \u2248 137 m. The value 50(\u221a3 \u2212 1) m comes from adding the two distances instead of subtracting them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0037",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "A vertical mast stands at Q on level ground. From A, due south of Q, the angle of elevation of its top is 45\u00b0; from B, due east of Q, it is 30\u00b0. A and B are 100 m apart. How tall is the mast?",
+   "imageRef": null,
+   "options": [
+    "50 m",
+    "100 m",
+    "50\u221a2 m",
+    "100/\u221a3 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "If the height is h, then AQ = h and BQ = h\u221a3. Since south and east are at right angles, angle AQB = 90\u00b0 and h\u00b2 + 3h\u00b2 = 100\u00b2, so h = 50 m. The value 100 m is the distance AB, not the height, and 50\u221a2 m wrongly takes AQ and BQ as equal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-sine-cosine-rules-0038",
+   "topicId": "meth-qce-sine-cosine-rules",
+   "stem": "In a cube with edges of 2 cm, two diagonals of different faces are drawn from the same corner, and the line joining their other ends is a third face diagonal. What is the angle between the first two diagonals?",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "120\u00b0",
+    "60\u00b0",
+    "90\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each face diagonal is 2\u221a2 cm, so the three diagonals form a triangle with all sides 2\u221a2 cm. The cosine rule gives cos(\u03b8) = (8 + 8 \u2212 8)/(2 \u00d7 8) = 1/2, so \u03b8 = 60\u00b0. The faces meet at 90\u00b0, but the diagonals within them do not.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-sine-cosine-rules-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "spec-hsc-further-trig",
+ "questions": [
+  {
+   "id": "spec-hsc-further-trig-0001",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A rectangular box measures 4 cm by 3 cm by 12 cm. How long is its space diagonal?",
+   "imageRef": null,
+   "options": [
+    "5 cm",
+    "13 cm",
+    "19 cm",
+    "\u221a153 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The base diagonal is \u221a(4\u00b2 + 3\u00b2) = 5 cm, and the space diagonal is \u221a(5\u00b2 + 12\u00b2) = 13 cm. The value 5 cm is the base diagonal only.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0002",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A rectangular box has a base 4 cm by 3 cm and height 12 cm. To the nearest degree, what angle does a space diagonal make with the base?",
+   "imageRef": null,
+   "options": [
+    "72\u00b0",
+    "76\u00b0",
+    "67\u00b0",
+    "23\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The diagonal's projection on the base is the base diagonal, 5 cm, so tan \u03b8 = 12/5 and \u03b8 \u2248 67\u00b0. Using a base edge, 4 or 3, instead of the base diagonal gives 72\u00b0 or 76\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0003",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A tower 50 m tall stands on level ground. From A, due south of it, the angle of elevation of the top is 30\u00b0. From B, due east of it, the angle is 45\u00b0. How far apart are A and B?",
+   "imageRef": null,
+   "options": [
+    "100 m",
+    "50\u221a2 m",
+    "50(\u221a3 + 1) m",
+    "50\u221a3 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "A is 50/tan 30\u00b0 = 50\u221a3 m from the base and B is 50 m from it, at right angles. So AB = \u221a(7500 + 2500) = 100 m. Adding the two distances ignores the right angle between the directions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0004",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A square pyramid has base side 10 m, with its apex 12 m directly above the centre of the base. To the nearest degree, what angle does a slant edge make with the base?",
+   "imageRef": null,
+   "options": [
+    "50\u00b0",
+    "59\u00b0",
+    "67\u00b0",
+    "31\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The slant edge projects onto half a base diagonal, 5\u221a2 \u2248 7.07 m, so tan \u03b8 = 12/(5\u221a2) and \u03b8 \u2248 59\u00b0. The angle 67\u00b0 uses 5 m, the distance to the middle of a side, which gives the angle of a sloping face.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0005",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A vertical flagpole 12 m tall stands at one corner of a horizontal rectangular field 9 m by 12 m. To the nearest degree, what is the angle of elevation of the top of the pole from the opposite corner?",
+   "imageRef": null,
+   "options": [
+    "39\u00b0",
+    "45\u00b0",
+    "53\u00b0",
+    "51\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The diagonal of the field is \u221a(9\u00b2 + 12\u00b2) = 15 m, so tan \u03b8 = 12/15 and \u03b8 \u2248 39\u00b0. Using a side of the field instead of the diagonal gives 53\u00b0 or 45\u00b0, and inverting the ratio gives 51\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0006",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Which is the expansion of sin(A + B)?",
+   "imageRef": null,
+   "options": [
+    "sin A cos B \u2212 cos A sin B",
+    "cos A cos B \u2212 sin A sin B",
+    "sin A + sin B",
+    "sin A cos B + cos A sin B"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin(A \u00b1 B) = sin A cos B \u00b1 cos A sin B, keeping the same sign. The expression cos A cos B \u2212 sin A sin B is cos(A + B). Sine does not split over a sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0007",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Which is the expansion of cos(A \u2212 B)?",
+   "imageRef": null,
+   "options": [
+    "cos A cos B \u2212 sin A sin B",
+    "sin A cos B \u2212 cos A sin B",
+    "cos A \u2212 cos B",
+    "cos A cos B + sin A sin B"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(A \u2212 B) = cos A cos B + sin A sin B, while cos(A + B) = cos A cos B \u2212 sin A sin B: the sign between the products is the opposite of the sign between the angles.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0008",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "What is the exact value of sin 75\u00b0?",
+   "imageRef": null,
+   "options": [
+    "(\u221a6 + \u221a2)/4",
+    "(\u221a6 \u2212 \u221a2)/4",
+    "(\u221a3 + 1)/2",
+    "(\u221a2 + \u221a3)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin(45\u00b0 + 30\u00b0) = sin 45\u00b0 cos 30\u00b0 + cos 45\u00b0 sin 30\u00b0 = (\u221a2/2)(\u221a3/2) + (\u221a2/2)(1/2) = (\u221a6 + \u221a2)/4. The value (\u221a6 \u2212 \u221a2)/4 is sin 15\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0009",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "What is the exact value of tan 15\u00b0?",
+   "imageRef": null,
+   "options": [
+    "\u221a3 \u2212 1",
+    "(\u221a3 \u2212 1)/2",
+    "2 \u2212 \u221a3",
+    "2 + \u221a3"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan(45\u00b0 \u2212 30\u00b0) = (1 \u2212 1/\u221a3)/(1 + 1/\u221a3) = (\u221a3 \u2212 1)/(\u221a3 + 1), and rationalising gives (4 \u2212 2\u221a3)/2 = 2 \u2212 \u221a3. The value 2 + \u221a3 is tan 75\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0010",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A and B are acute angles with tan A = 1/2 and tan B = 1/3. What is A + B?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "\u03c0/3",
+    "\u03c0/6",
+    "5\u03c0/12"
+   ],
+   "correctIndex": 0,
+   "explanation": "tan(A + B) = (1/2 + 1/3)/(1 \u2212 1/6) = (5/6)/(5/6) = 1. Since A + B lies between 0 and \u03c0, A + B = \u03c0/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0011",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "If tan A = 3 and tan B = 1/2, what is tan(A \u2212 B)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22127",
+    "5/2",
+    "2/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "tan(A \u2212 B) = (tan A \u2212 tan B)/(1 + tan A tan B) = (5/2)/(5/2) = 1. Using the signs of the sum formula gives (7/2)/(\u22121/2) = \u22127.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0012",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Simplify sin 3x cos x \u2212 cos 3x sin x.",
+   "imageRef": null,
+   "options": [
+    "cos 4x",
+    "sin 2x",
+    "sin 4x",
+    "cos 2x"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is the expansion of sin(3x \u2212 x) = sin 2x. Reading it as sin(3x + x) gives sin 4x, but the minus sign marks a difference.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0013",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A and B are acute, with sin A = 3/5 and cos B = 5/13. What is cos(A + B)?",
+   "imageRef": null,
+   "options": [
+    "\u221216/65",
+    "56/65",
+    "16/65",
+    "63/65"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos A = 4/5 and sin B = 12/13, so cos(A + B) = (4/5)(5/13) \u2212 (3/5)(12/13) = 20/65 \u2212 36/65 = \u221216/65. Adding the products gives 56/65, which is cos(A \u2212 B).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0014",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Expand cos(x + \u03c0/3).",
+   "imageRef": null,
+   "options": [
+    "(\u221a3/2)cos x \u2212 (1/2)sin x",
+    "cos x + 1/2",
+    "(1/2)cos x \u2212 (\u221a3/2)sin x",
+    "(1/2)cos x + (\u221a3/2)sin x"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos(x + \u03c0/3) = cos x cos(\u03c0/3) \u2212 sin x sin(\u03c0/3) = (1/2)cos x \u2212 (\u221a3/2)sin x. Swapping the values of cos(\u03c0/3) and sin(\u03c0/3) gives the third option.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0015",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Which is equal to cos 2A?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 2sin\u00b2A",
+    "2sin\u00b2A \u2212 1",
+    "1 \u2212 2cos\u00b2A",
+    "2cos A"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos 2A = cos\u00b2A \u2212 sin\u00b2A = 2cos\u00b2A \u2212 1 = 1 \u2212 2sin\u00b2A. The forms 2sin\u00b2A \u2212 1 and 1 \u2212 2cos\u00b2A are both \u2212cos 2A.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0016",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Simplify 2sin 15\u00b0 cos 15\u00b0.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/2",
+    "\u221a3/2",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "2sin A cos A = sin 2A, so the expression is sin 30\u00b0 = 1/2. Without the factor 2, sin 15\u00b0 cos 15\u00b0 = (1/2)sin 30\u00b0 = 1/4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0017",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "A is acute and sin A = 1/3. What is sin 2A?",
+   "imageRef": null,
+   "options": [
+    "4\u221a2/9",
+    "2/3",
+    "2\u221a2/9",
+    "7/9"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos A = \u221a(1 \u2212 1/9) = 2\u221a2/3, so sin 2A = 2 \u00d7 (1/3) \u00d7 (2\u221a2/3) = 4\u221a2/9. Doubling sin A to get 2/3 is not the double angle formula, and 7/9 is cos 2A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0018",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "If tan A = 2, what is tan 2A?",
+   "imageRef": null,
+   "options": [
+    "\u22124/5",
+    "\u22124/3",
+    "4/3",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "tan 2A = 2tan A/(1 \u2212 tan\u00b2A) = 4/(1 \u2212 4) = \u22124/3. Using 1 + tan\u00b2A in the denominator gives 4/5, and leaving out the denominator gives 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0019",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "What is the exact value of cos\u00b2(\u03c0/8) \u2212 sin\u00b2(\u03c0/8)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/2",
+    "\u221a3/2",
+    "1/\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos\u00b2A \u2212 sin\u00b2A = cos 2A, so the expression is cos(\u03c0/4) = 1/\u221a2. Confusing it with cos\u00b2A + sin\u00b2A gives 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0020",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Which expresses cos\u00b2x in terms of cos 2x?",
+   "imageRef": null,
+   "options": [
+    "2cos 2x \u2212 1",
+    "(1 + cos 2x)/2",
+    "(1 \u2212 cos 2x)/2",
+    "(cos 2x \u2212 1)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "From cos 2x = 2cos\u00b2x \u2212 1, rearranging gives cos\u00b2x = (1 + cos 2x)/2. The form (1 \u2212 cos 2x)/2 equals sin\u00b2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0021",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Simplify (1 \u2212 cos 2x)/sin 2x.",
+   "imageRef": null,
+   "options": [
+    "cot x",
+    "sin x",
+    "1/2",
+    "tan x"
+   ],
+   "correctIndex": 3,
+   "explanation": "1 \u2212 cos 2x = 2sin\u00b2x and sin 2x = 2sin x cos x, so the quotient is sin x/cos x = tan x. Using 1 \u2212 cos 2x = 2cos\u00b2x by mistake gives cot x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0022",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Using sin 3x = sin(2x + x), sin 3x can be written in terms of sin x as:",
+   "imageRef": null,
+   "options": [
+    "4sin\u00b3x \u2212 3sin x",
+    "3sin x + 4sin\u00b3x",
+    "3sin x \u2212 sin\u00b3x",
+    "3sin x \u2212 4sin\u00b3x"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin 3x = sin 2x cos x + cos 2x sin x = 2sin x cos\u00b2x + (1 \u2212 2sin\u00b2x)sin x. Replacing cos\u00b2x by 1 \u2212 sin\u00b2x gives 2sin x \u2212 2sin\u00b3x + sin x \u2212 2sin\u00b3x = 3sin x \u2212 4sin\u00b3x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0023",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve sin 2x = sin x for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3, 5\u03c0/3 only",
+    "x = 0, \u03c0, 2\u03c0 only",
+    "x = 0, \u03c0/6, \u03c0, 5\u03c0/6, 2\u03c0",
+    "x = 0, \u03c0/3, \u03c0, 5\u03c0/3, 2\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "2sin x cos x \u2212 sin x = 0 factorises to sin x(2cos x \u2212 1) = 0, so sin x = 0 (0, \u03c0, 2\u03c0) or cos x = 1/2 (\u03c0/3, 5\u03c0/3). Dividing both sides by sin x loses the first three.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0024",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve cos 2x + cos x = 0 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0 only",
+    "x = \u03c0/3, \u03c0, 5\u03c0/3",
+    "x = \u03c0/3, 5\u03c0/3 only",
+    "x = 0, 2\u03c0/3, 4\u03c0/3, 2\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Use cos 2x = 2cos\u00b2x \u2212 1: 2cos\u00b2x + cos x \u2212 1 = (2cos x \u2212 1)(cos x + 1) = 0. So cos x = 1/2 or cos x = \u22121. Swapping the signs in the factors gives the third option.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0025",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve 2sin x cos x = cos x for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/2, 3\u03c0/2 only",
+    "x = \u03c0/3, \u03c0/2, 2\u03c0/3, 3\u03c0/2",
+    "x = \u03c0/6, \u03c0/2, 5\u03c0/6, 3\u03c0/2",
+    "x = \u03c0/6, 5\u03c0/6 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorise: cos x(2sin x \u2212 1) = 0, so cos x = 0 (\u03c0/2, 3\u03c0/2) or sin x = 1/2 (\u03c0/6, 5\u03c0/6). Dividing by cos x loses the solutions where cos x = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0026",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve tan 2x = \u221a3 for 0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3 or 4\u03c0/3",
+    "x = \u03c0/6 or 7\u03c0/6",
+    "x = \u03c0/6 or 2\u03c0/3",
+    "x = \u03c0/6 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "2x lies in [0, 2\u03c0], where tan 2x = \u221a3 at 2x = \u03c0/3 and 4\u03c0/3. Halving gives \u03c0/6 and 2\u03c0/3. The values \u03c0/3 and 4\u03c0/3 are the angles for 2x, not x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0027",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve sin(x + \u03c0/6) = cos x for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 or 7\u03c0/6",
+    "x = \u03c0/3 or 4\u03c0/3",
+    "x = \u03c0/6 or 5\u03c0/6",
+    "x = \u03c0/6 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expand: (\u221a3/2)sin x + (1/2)cos x = cos x, so (\u221a3/2)sin x = (1/2)cos x and tan x = 1/\u221a3. Tangent is positive in the first and third quadrants, giving \u03c0/6 and 7\u03c0/6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0028",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "If a cos x + b sin x = R cos(x \u2212 \u03b1) with a, b > 0 and R > 0, then:",
+   "imageRef": null,
+   "options": [
+    "R = \u221a(a\u00b2 + b\u00b2) and tan \u03b1 = a/b",
+    "R = a + b and tan \u03b1 = b/a",
+    "R = a\u00b2 + b\u00b2 and tan \u03b1 = b/a",
+    "R = \u221a(a\u00b2 + b\u00b2) and tan \u03b1 = b/a"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding, R cos(x \u2212 \u03b1) = R cos \u03b1 cos x + R sin \u03b1 sin x, so R cos \u03b1 = a and R sin \u03b1 = b. Squaring and adding gives R\u00b2 = a\u00b2 + b\u00b2, and dividing gives tan \u03b1 = b/a.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0029",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Express \u221a3 cos x + sin x in the form R cos(x \u2212 \u03b1).",
+   "imageRef": null,
+   "options": [
+    "2cos(x + \u03c0/6)",
+    "2cos(x \u2212 \u03c0/3)",
+    "4cos(x \u2212 \u03c0/6)",
+    "2cos(x \u2212 \u03c0/6)"
+   ],
+   "correctIndex": 3,
+   "explanation": "R = \u221a(3 + 1) = 2, and R cos \u03b1 = \u221a3, R sin \u03b1 = 1 give tan \u03b1 = 1/\u221a3, so \u03b1 = \u03c0/6. Using tan \u03b1 = a/b = \u221a3 gives \u03c0/3, and forgetting the square root gives R = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0030",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "What is the maximum value of 3sin x + 4cos x?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "25",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "3sin x + 4cos x = 5sin(x + \u03b1) for some \u03b1, where 5 = \u221a(3\u00b2 + 4\u00b2), so the maximum is 5. Adding the coefficients to get 7 assumes both terms peak at the same x, which they do not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0031",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Express 3sin x \u2212 4cos x in the form R sin(x \u2212 \u03b1), with \u03b1 in degrees to one decimal place.",
+   "imageRef": null,
+   "options": [
+    "5sin(x \u2212 53.1\u00b0)",
+    "5sin(x \u2212 36.9\u00b0)",
+    "5sin(x + 53.1\u00b0)",
+    "7sin(x \u2212 53.1\u00b0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "R sin(x \u2212 \u03b1) = R sin x cos \u03b1 \u2212 R cos x sin \u03b1, so R cos \u03b1 = 3 and R sin \u03b1 = 4. Then R = 5 and tan \u03b1 = 4/3, giving \u03b1 \u2248 53.1\u00b0. Using tan \u03b1 = 3/4 gives 36.9\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0032",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve \u221a3 cos x + sin x = \u221a2 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = 5\u03c0/12 or 19\u03c0/12",
+    "x = \u03c0/12 or 5\u03c0/12",
+    "x = 5\u03c0/12 only",
+    "x = 5\u03c0/12 or 23\u03c0/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The equation is 2cos(x \u2212 \u03c0/6) = \u221a2, so cos(x \u2212 \u03c0/6) = 1/\u221a2 and x \u2212 \u03c0/6 = \u03c0/4 or 7\u03c0/4 (equivalently \u2212\u03c0/4). This gives x = 5\u03c0/12 or 23\u03c0/12.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0033",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "What is the range of y = 3sin x + 4cos x + 2?",
+   "imageRef": null,
+   "options": [
+    "[\u22125, 5]",
+    "[\u22125, 9]",
+    "[2, 7]",
+    "[\u22123, 7]"
+   ],
+   "correctIndex": 3,
+   "explanation": "3sin x + 4cos x has range [\u22125, 5], since R = 5, and adding 2 gives [\u22123, 7]. Using 3 + 4 = 7 as the amplitude gives [\u22125, 9], and [\u22125, 5] ignores the +2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0034",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "How many solutions does 3sin x + 4cos x = 6 have?",
+   "imageRef": null,
+   "options": [
+    "Two in each period of 2\u03c0",
+    "One in each period of 2\u03c0",
+    "Exactly one, at x = \u03c0/2",
+    "None, since the maximum value is 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The left-hand side equals 5sin(x + \u03b1), which never exceeds 5, so it can never equal 6. Checking the range first saves solving an impossible equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0035",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "Solve cos x \u2212 sin x = 1 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = 0 or 2\u03c0 only",
+    "x = \u03c0/2 or 2\u03c0",
+    "x = 3\u03c0/2 only",
+    "x = 0, 3\u03c0/2 or 2\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos x \u2212 sin x = \u221a2 cos(x + \u03c0/4), so cos(x + \u03c0/4) = 1/\u221a2, with x + \u03c0/4 in [\u03c0/4, 9\u03c0/4]. Then x + \u03c0/4 = \u03c0/4, 7\u03c0/4 or 9\u03c0/4, giving x = 0, 3\u03c0/2 or 2\u03c0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-trig-0036",
+   "topicId": "spec-hsc-further-trig",
+   "stem": "The current in a circuit is I = sin t + \u221a3 cos t amperes after t seconds. What are the maximum current and the earliest time t \u2265 0 it occurs?",
+   "imageRef": null,
+   "options": [
+    "Maximum (1 + \u221a3) A at t = 0",
+    "Maximum 2 A at t = 5\u03c0/6",
+    "Maximum 2 A at t = \u03c0/6",
+    "Maximum 2 A at t = \u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "I = 2sin(t + \u03c0/3), since R = \u221a(1 + 3) = 2 and tan \u03b1 = \u221a3/1. The maximum 2 occurs when t + \u03c0/3 = \u03c0/2, so t = \u03c0/6. Adding the coefficients, 1 + \u221a3, overstates the maximum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

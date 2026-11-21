@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-qce-antidifferentiation",
+ "questions": [
+  {
+   "id": "meth-qce-antidifferentiation-0001",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Anti-differentiation is best described as:",
+   "imageRef": null,
+   "options": [
+    "finding the gradient of a tangent",
+    "finding where a function is zero",
+    "the reverse of differentiation",
+    "differentiating a function twice"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative of f is a function whose derivative is f, so anti-differentiation undoes differentiation. Finding the gradient of a tangent is differentiation itself, the process being reversed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0002",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "The notation \u222b f(x) dx stands for:",
+   "imageRef": null,
+   "options": [
+    "the inverse function of f(x)",
+    "the value of f(x) when x = 0",
+    "the family of all anti-derivatives of f(x)",
+    "the gradient function of f(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The indefinite integral \u222b f(x) dx is the general anti-derivative F(x) + c, a whole family of functions differing by constants. The gradient function is the derivative f\u2032(x), which goes the opposite way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0003",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "If F\u2032(x) = f(x), then \u222b f(x) dx equals:",
+   "imageRef": null,
+   "options": [
+    "f\u2032(x) + c",
+    "x f(x) + c",
+    "f(x)F(x) + c",
+    "F(x) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "F is an anti-derivative of f because its derivative is f, so the indefinite integral is F(x) + c. Differentiating x f(x) + c or f(x)F(x) + c does not give f(x), and f\u2032(x) + c goes the wrong way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0004",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Which of these is NOT an anti-derivative of 2x?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + 5",
+    "x\u00b2 \u2212 \u03c0",
+    "x\u00b2 + 2x",
+    "x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The derivative of x\u00b2 + 2x is 2x + 2, not 2x. Adding any constant, even \u03c0, does not change the derivative, which is why each of the others is an anti-derivative and why an indefinite integral carries + c.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0005",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b 5x\u2074 dx.",
+   "imageRef": null,
+   "options": [
+    "x\u2075/5 + c",
+    "x\u2075 + c",
+    "20x\u00b3 + c",
+    "5x\u2075 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise the index by 1 and divide by the new index: 5x\u2075/5 = x\u2075, so the integral is x\u2075 + c. The answer 20x\u00b3 + c is the derivative, the opposite process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0006",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b (e^x + 2) dx.",
+   "imageRef": null,
+   "options": [
+    "xe^(x \u2212 1) + 2x + c",
+    "e^x + 2 + c",
+    "e^x + 2x + c",
+    "e^x + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "e^x is its own anti-derivative and the constant 2 integrates to 2x. Writing xe^(x \u2212 1) applies the power rule to e^x, which fails because the variable is in the index.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0007",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "For x > 0, find \u222b 3/x dx.",
+   "imageRef": null,
+   "options": [
+    "3 ln(x) + c",
+    "ln(3x) + c",
+    "\u22123/x\u00b2 + c",
+    "3x ln(x) + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "By linearity \u222b 3/x dx = 3\u222b 1/x dx = 3 ln(x) + c. Differentiating ln(3x) gives 3/(3x) = 1/x, not 3/x, so it is missing the factor 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0008",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b (cos(x) \u2212 2x) dx.",
+   "imageRef": null,
+   "options": [
+    "\u2212sin(x) \u2212 2x\u00b2 + c",
+    "sin(x) \u2212 x\u00b2 + c",
+    "\u2212sin(x) \u2212 x\u00b2 + c",
+    "sin(x) \u2212 2 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Integrate term by term: the anti-derivative of cos(x) is sin(x) and that of 2x is x\u00b2. The negative sign belongs to the anti-derivative of sin(x), which is \u2212cos(x), not to that of cos(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0009",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b (2e^x \u2212 sin(x)) dx.",
+   "imageRef": null,
+   "options": [
+    "2xe^x + cos(x) + c",
+    "2e^x + sin(x) + c",
+    "2e^x + cos(x) + c",
+    "2e^x \u2212 cos(x) + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "The anti-derivative of sin(x) is \u2212cos(x), so subtracting it gives +cos(x); and \u222b 2e^x dx = 2e^x. Writing \u2212cos(x) forgets that two negatives combine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0010",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given that \u222b f(x) dx = F(x) + c, which of these equals \u222b 4f(x) dx?",
+   "imageRef": null,
+   "options": [
+    "F(x)/4 + c",
+    "4x F(x) + c",
+    "4F(x) + c",
+    "F(4x) + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "A constant factor can be taken outside the integral: \u222b 4f(x) dx = 4\u222b f(x) dx = 4F(x) + c. F(4x) would come from a change inside the function, which is a different thing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0011",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "For x \u2260 0, find \u222b 1/x\u00b2 dx.",
+   "imageRef": null,
+   "options": [
+    "ln(x\u00b2) + c",
+    "\u22121/x + c",
+    "1/x + c",
+    "\u22122/x\u00b3 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write 1/x\u00b2 as x\u207b\u00b2, raise the index to \u22121 and divide by \u22121 to get \u2212x\u207b\u00b9 = \u22121/x. The expression \u22122/x\u00b3 is the derivative of 1/x\u00b2, not an anti-derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0012",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "For x > 0, find \u222b x^(\u22121/2) dx.",
+   "imageRef": null,
+   "options": [
+    "\u22122\u221ax + c",
+    "2\u221ax + c",
+    "\u221ax/2 + c",
+    "\u2212(1/2)x^(\u22123/2) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding 1 to the index gives 1/2, and dividing by 1/2 doubles the coefficient, so the result is 2x^(1/2) = 2\u221ax. The expression \u2212(1/2)x^(\u22123/2) lowers the index, which is differentiating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0013",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "For x > 0, find \u222b (x\u00b2 \u2212 4)/x dx.",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/2 + 4/x\u00b2 + c",
+    "x\u00b2/2 \u2212 4 ln(x) + c",
+    "x\u00b2/2 \u2212 4x + c",
+    "(x\u00b3/3 \u2212 4x)/(x\u00b2/2) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Split the fraction first: (x\u00b2 \u2212 4)/x = x \u2212 4/x, which integrates to x\u00b2/2 \u2212 4 ln(x). Integrating the numerator and denominator separately is never valid for a quotient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0014",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b (3x \u2212 1)\u2074 dx.",
+   "imageRef": null,
+   "options": [
+    "3(3x \u2212 1)\u2075/5 + c",
+    "12(3x \u2212 1)\u00b3 + c",
+    "(3x \u2212 1)\u2075/15 + c",
+    "(3x \u2212 1)\u2075/5 + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "Raise the index to 5, divide by 5 and also divide by the coefficient of x, 3. Check: differentiating (3x \u2212 1)\u2075/15 gives 5 \u00d7 3(3x \u2212 1)\u2074/15 = (3x \u2212 1)\u2074. Leaving out the division by 3 gives (3x \u2212 1)\u2075/5, whose derivative is 3(3x \u2212 1)\u2074.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0015",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b e^(4x \u2212 1) dx.",
+   "imageRef": null,
+   "options": [
+    "e^(4x)/4 + c",
+    "e^(4x \u2212 1)/4 + c",
+    "4e^(4x \u2212 1) + c",
+    "e^(4x \u2212 1) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiating e^(4x \u2212 1) brings out a factor 4, so the anti-derivative must divide by 4. Multiplying by 4 instead is the most common slip; the \u22121 in the index stays where it is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0016",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b sin(2x + 1) dx.",
+   "imageRef": null,
+   "options": [
+    "\u2212(1/2)cos(2x + 1) + c",
+    "(1/2)cos(2x + 1) + c",
+    "\u22122cos(2x + 1) + c",
+    "2cos(2x + 1) + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "The anti-derivative of sin is \u2212cos, and dividing by the coefficient 2 gives \u2212(1/2)cos(2x + 1). Check: its derivative is \u2212(1/2) \u00d7 \u2212sin(2x + 1) \u00d7 2 = sin(2x + 1). Multiplying by 2 instead gives an answer four times too big.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0017",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b cos(x/3) dx.",
+   "imageRef": null,
+   "options": [
+    "(1/3)sin(x/3) + c",
+    "\u22123 sin(x/3) + c",
+    "\u2212(1/3)sin(x/3) + c",
+    "3 sin(x/3) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here the coefficient of x is 1/3, and dividing by 1/3 multiplies by 3, giving 3 sin(x/3). The answer (1/3)sin(x/3) multiplies by the coefficient instead; its derivative is (1/9)cos(x/3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0018",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "For x > \u22125/2, find \u222b 4/(2x + 5) dx.",
+   "imageRef": null,
+   "options": [
+    "ln(2x + 5)/8 + c",
+    "2 ln(2x + 5) + c",
+    "8 ln(2x + 5) + c",
+    "4 ln(2x + 5) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "The anti-derivative of 1/(2x + 5) is (1/2)ln(2x + 5), so 4/(2x + 5) gives 4 \u00d7 (1/2)ln(2x + 5) = 2 ln(2x + 5). Writing 4 ln(2x + 5) forgets to divide by the coefficient 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0019",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b e^(\u2212x) dx.",
+   "imageRef": null,
+   "options": [
+    "e^(\u2212x) + c",
+    "e^(1 \u2212 x)/(1 \u2212 x) + c",
+    "\u2212xe^(\u2212x \u2212 1) + c",
+    "\u2212e^(\u2212x) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "The coefficient of x is \u22121, and dividing by \u22121 changes the sign: \u2212e^(\u2212x). Check: the derivative of \u2212e^(\u2212x) is e^(\u2212x). The power rule, which gives the forms with 1 \u2212 x or \u2212x \u2212 1, does not apply when x is in the index.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0020",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Find \u222b (1 \u2212 2x)\u00b3 dx.",
+   "imageRef": null,
+   "options": [
+    "(1 \u2212 2x)\u2074/8 + c",
+    "\u2212(1 \u2212 2x)\u2074/2 + c",
+    "(1 \u2212 2x)\u2074/4 + c",
+    "\u2212(1 \u2212 2x)\u2074/8 + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Raise the index to 4, divide by 4 and divide by the coefficient of x, which is \u22122: (1 \u2212 2x)\u2074/(4 \u00d7 \u22122) = \u2212(1 \u2212 2x)\u2074/8. Dropping the negative sign of the coefficient gives a function whose derivative is \u2212(1 \u2212 2x)\u00b3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0021",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given that \u222b (ax + 1)\u00b3 dx = (ax + 1)\u2074/8 + c, where a is a constant, what is a?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1/2",
+    "2",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "The general result is (ax + 1)\u2074/(4a) + c, so 4a = 8 and a = 2. Choosing 8 matches the denominator directly without allowing for the division by the new index 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0022",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given f\u2032(x) = e^x and f(0) = 5, find f(x).",
+   "imageRef": null,
+   "options": [
+    "f(x) = e^x + 5",
+    "f(x) = 5e^x",
+    "f(x) = e^x + 6",
+    "f(x) = e^x + 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(x) = e^x + c, and f(0) = e\u2070 + c = 1 + c = 5, so c = 4. Writing e^x + 5 treats e\u2070 as 0; and 5e^x satisfies f(0) = 5 but has derivative 5e^x, not e^x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0023",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given f\u2032(x) = cos(x) and f(\u03c0/2) = 3, find f(0).",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "4",
+    "0"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = sin(x) + c, and sin(\u03c0/2) = 1, so 1 + c = 3 and c = 2. Then f(0) = sin(0) + 2 = 2. The value 3 assumes the constant equals the given value without subtracting sin(\u03c0/2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0024",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A curve has gradient function dy/dx = 6x \u2212 4 and passes through (2, 7). What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = 3x\u00b2 \u2212 4x + 3",
+    "y = 3x\u00b2 \u2212 4x + 7",
+    "y = 6x\u00b2 \u2212 4x \u2212 9",
+    "y = 3x\u00b2 \u2212 4x \u2212 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating gives y = 3x\u00b2 \u2212 4x + c. Substituting (2, 7): 12 \u2212 8 + c = 7, so c = 3. Writing 6x\u00b2 forgets to divide by the new index, and then the constant comes out as \u22129.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0025",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given f\u2032(x) = 2/x for x > 0 and f(1) = 4, find f(e\u00b2).",
+   "imageRef": null,
+   "options": [
+    "6",
+    "2e\u00b2 + 2",
+    "6 \u2212 2/e\u00b2",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(x) = 2 ln(x) + c, and ln(1) = 0, so c = 4. Then f(e\u00b2) = 2 \u00d7 2 + 4 = 8. The value 6 drops the factor 2, and 2e\u00b2 + 2 comes from integrating 2/x as if it were 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0026",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Given f\u2032\u2032(x) = 12x, f\u2032(0) = \u22123 and f(1) = 2, find f(x).",
+   "imageRef": null,
+   "options": [
+    "f(x) = 6x\u00b3 \u2212 3x \u2212 1",
+    "f(x) = 2x\u00b3 + 3",
+    "f(x) = 2x\u00b3 \u2212 3x + 3",
+    "f(x) = 2x\u00b3 \u2212 3x + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Anti-differentiating once gives f\u2032(x) = 6x\u00b2 + k with k = \u22123; again gives f(x) = 2x\u00b3 \u2212 3x + c. Then f(1) = 2 \u2212 3 + c = 2, so c = 3. Using the second constant directly as f(1) gives 2x\u00b3 \u2212 3x + 2, which has f(1) = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0027",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle moves in a straight line with velocity v(t). Its displacement x(t) is found by:",
+   "imageRef": null,
+   "options": [
+    "anti-differentiating v(t) with respect to t",
+    "differentiating v(t) with respect to t",
+    "multiplying v(t) by the time t",
+    "dividing v(t) by the time t"
+   ],
+   "correctIndex": 0,
+   "explanation": "Velocity is the derivative of displacement, so displacement is an anti-derivative of velocity, with the constant fixed by the initial displacement. Multiplying by t only works when the velocity is constant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0028",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle moves in a straight line with velocity v(t) = 3t\u00b2 \u2212 4t m/s. At t = 0 its displacement is 2 m. What is its displacement at t = 3?",
+   "imageRef": null,
+   "options": [
+    "11 m",
+    "9 m",
+    "15 m",
+    "17 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "x(t) = t\u00b3 \u2212 2t\u00b2 + c, and x(0) = 2 gives c = 2. So x(3) = 27 \u2212 18 + 2 = 11 m. The answer 9 m leaves out the initial displacement, and 15 is the velocity at t = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0029",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle has velocity v(t) = 4cos(2t) m/s and its displacement at t = 0 is 1 m. Which rule gives its displacement x(t)?",
+   "imageRef": null,
+   "options": [
+    "x(t) = \u22122sin(2t) + 1",
+    "x(t) = 2sin(2t)",
+    "x(t) = 2sin(2t) + 1",
+    "x(t) = 8sin(2t) + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The anti-derivative of 4cos(2t) is (4/2)sin(2t) = 2sin(2t), and x(0) = 0 + c = 1 gives c = 1. Multiplying by 2 instead of dividing gives 8sin(2t), whose derivative is 16cos(2t).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0030",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle has velocity v(t) = 6e^(2t) m/s and its displacement at t = 0 is 1 m. Which rule gives its displacement x(t)?",
+   "imageRef": null,
+   "options": [
+    "x(t) = 12e^(2t) \u2212 11",
+    "x(t) = 6e^(2t) \u2212 5",
+    "x(t) = 3e^(2t) \u2212 2",
+    "x(t) = 3e^(2t) + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "x(t) = 3e^(2t) + c, and x(0) = 3 + c = 1 gives c = \u22122. Writing 3e^(2t) + 1 forgets that e\u2070 = 1, so the constant must absorb the 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0031",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle has acceleration a(t) = 6t m/s\u00b2. At t = 0 its velocity is 2 m/s and its displacement is 0 m. What is its displacement at t = 2?",
+   "imageRef": null,
+   "options": [
+    "8 m",
+    "14 m",
+    "10 m",
+    "12 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "v(t) = 3t\u00b2 + 2 using v(0) = 2, then x(t) = t\u00b3 + 2t using x(0) = 0, so x(2) = 8 + 4 = 12 m. The value 14 is the velocity at t = 2, and 10 comes from adding the initial velocity as a constant to x instead of to v.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0032",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A ball is thrown vertically upwards at 20 m/s from a point 5 m above the ground. Taking its acceleration as \u221210 m/s\u00b2, which rule gives its height h metres after t seconds?",
+   "imageRef": null,
+   "options": [
+    "h = 5 + 20t + 5t\u00b2",
+    "h = 5 + 20t \u2212 5t\u00b2",
+    "h = 5 + 20t \u2212 10t\u00b2",
+    "h = 20t \u2212 5t\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = 20 \u2212 10t using v(0) = 20, and h = 20t \u2212 5t\u00b2 + 5 using h(0) = 5. Writing \u221210t\u00b2 forgets to divide by the new index 2 when anti-differentiating \u221210t.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0033",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A particle has acceleration a(t) = \u2212sin(t) m/s\u00b2. At t = 0 its velocity is 1 m/s and its displacement is 0 m. Which rule gives its displacement x(t)?",
+   "imageRef": null,
+   "options": [
+    "x(t) = sin(t) + t",
+    "x(t) = 2t \u2212 sin(t)",
+    "x(t) = 1 \u2212 cos(t)",
+    "x(t) = sin(t)"
+   ],
+   "correctIndex": 3,
+   "explanation": "v(t) = cos(t) + k, and v(0) = 1 + k = 1 gives k = 0, so v(t) = cos(t) and x(t) = sin(t) + c with c = 0. Taking k = 1 without evaluating cos(0) gives sin(t) + t, whose initial velocity is 2 m/s.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0034",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A ball is thrown vertically upwards at 20 m/s from 5 m above the ground, with acceleration \u221210 m/s\u00b2. How many seconds after it is thrown does it reach the ground?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "2 + \u221a5",
+    "4",
+    "2 + \u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The height is h = 5 + 20t \u2212 5t\u00b2. Setting h = 0 gives t\u00b2 \u2212 4t \u2212 1 = 0, so t = 2 + \u221a5 (the negative root is rejected). The time 4 s is when it returns to the height of 5 m it started from, and 2 s is when it reaches its highest point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0035",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "A bacterial population grows at a rate dN/dt = 200e^(0.5t) bacteria per hour, and N = 500 when t = 0. Which rule gives N?",
+   "imageRef": null,
+   "options": [
+    "N = 100e^(0.5t) + 400",
+    "N = 400e^(0.5t) + 500",
+    "N = 200e^(0.5t) + 300",
+    "N = 400e^(0.5t) + 100"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dividing by the coefficient 0.5 doubles 200, so N = 400e^(0.5t) + c, and 400 + c = 500 gives c = 100. Multiplying by 0.5 instead gives 100e^(0.5t), whose derivative is only 50e^(0.5t).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0036",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "The marginal cost of making x items is C\u2032(x) = 20 \u2212 0.02x dollars per item, and the fixed cost is $500. What is the total cost of making 100 items?",
+   "imageRef": null,
+   "options": [
+    "$2300",
+    "$2500",
+    "$2400",
+    "$1900"
+   ],
+   "correctIndex": 2,
+   "explanation": "C(x) = 20x \u2212 0.01x\u00b2 + c, with c = 500 because C(0) is the fixed cost. So C(100) = 2000 \u2212 100 + 500 = $2400. The value $1900 leaves out the fixed cost, and $2300 forgets to halve 0.02 when anti-differentiating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-antidifferentiation-0037",
+   "topicId": "meth-qce-antidifferentiation",
+   "stem": "Water drains from a tank at a rate dV/dt = \u2212(40 \u2212 2t) litres per minute for 0 \u2264 t \u2264 20. The tank holds 500 L at t = 0. How much does it hold at t = 10?",
+   "imageRef": null,
+   "options": [
+    "480 L",
+    "0 L",
+    "200 L",
+    "300 L"
+   ],
+   "correctIndex": 2,
+   "explanation": "V(t) = \u221240t + t\u00b2 + c, with c = 500 from V(0). So V(10) = \u2212400 + 100 + 500 = 200 L. The value 300 L is the amount that has drained out, not the amount left; 480 L uses the rate at t = 10 as if it were the total change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-antidifferentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

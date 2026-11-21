@@ -1,0 +1,214 @@
+{
+ "topicId": "meth-sace-first-principles",
+ "questions": [
+  {
+   "id": "meth-sace-first-principles-0001",
+   "topicId": "meth-sace-first-principles",
+   "stem": "Which expression defines the derivative of f(x) from first principles?",
+   "imageRef": null,
+   "options": [
+    "f\u2032(x) = the limit as h \u2192 0 of (f(x + h) + f(x))/h",
+    "f\u2032(x) = the limit as h \u2192 \u221e of (f(x + h) \u2212 f(x))/h",
+    "f\u2032(x) = the limit as h \u2192 0 of (f(x + h) \u2212 f(x))/h",
+    "f\u2032(x) = the limit as h \u2192 0 of (f(x + h) \u2212 f(x))"
+   ],
+   "correctIndex": 2,
+   "explanation": "The difference quotient (f(x + h) \u2212 f(x))/h is the gradient of the chord from x to x + h. As h approaches zero the chord approaches the tangent, and the limit is the instantaneous rate of change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0002",
+   "topicId": "meth-sace-first-principles",
+   "stem": "In the definition f\u2032(a) = the limit as h \u2192 0 of (f(a + h) \u2212 f(a))/h, what does the quotient (f(a + h) \u2212 f(a))/h represent?",
+   "imageRef": null,
+   "options": [
+    "The change in the function value from x = a to x = a + h",
+    "The area under the curve from x = a to x = a + h",
+    "The gradient of the chord from (a, f(a)) to (a + h, f(a + h))",
+    "The gradient of the tangent at the point (a + h, f(a + h))"
+   ],
+   "correctIndex": 2,
+   "explanation": "It is the rise f(a + h) \u2212 f(a) divided by the run h, which is the average rate of change, or chord gradient, over the interval. Only in the limit as h \u2192 0 does it become the gradient of the tangent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0003",
+   "topicId": "meth-sace-first-principles",
+   "stem": "For f(x) = x\u00b2, what does (f(3 + h) \u2212 f(3))/h simplify to, for h \u2260 0?",
+   "imageRef": null,
+   "options": [
+    "9 + h",
+    "h + 6h\u00b2",
+    "6 + h",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "(3 + h)\u00b2 \u2212 9 = 6h + h\u00b2, and dividing by h gives 6 + h. The value 6 is what this approaches as h \u2192 0, which is f\u2032(3); it is not the simplified quotient itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0004",
+   "topicId": "meth-sace-first-principles",
+   "stem": "Why can h = 0 not be substituted straight into (f(x + h) \u2212 f(x))/h?",
+   "imageRef": null,
+   "options": [
+    "It gives 1, because the numerator and denominator are always equal",
+    "It gives 0/0, which is undefined, so the h must first be cancelled",
+    "It gives f(x)/0, which is infinite, so the limit does not exist",
+    "It gives zero, so every function would have a derivative of zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "When h = 0 both the numerator f(x) \u2212 f(x) and the denominator are zero. Expanding and simplifying first removes the factor of h, and then letting h approach zero gives the limit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0005",
+   "topicId": "meth-sace-first-principles",
+   "stem": "For f(x) = x\u00b2 \u2212 6x, what does (f(x + h) \u2212 f(x))/h simplify to, for h \u2260 0?",
+   "imageRef": null,
+   "options": [
+    "2x + h \u2212 6",
+    "2x \u2212 6",
+    "2x + h",
+    "x\u00b2 + 2xh + h\u00b2 \u2212 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x + h) \u2212 f(x) = x\u00b2 + 2xh + h\u00b2 \u2212 6x \u2212 6h \u2212 x\u00b2 + 6x = 2xh + h\u00b2 \u2212 6h, and dividing by h gives 2x + h \u2212 6. Its limit as h \u2192 0 is the derivative, 2x \u2212 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0006",
+   "topicId": "meth-sace-first-principles",
+   "stem": "Using first principles, what is the derivative of f(x) = 5x \u2212 2x\u00b2 at x = 1?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "5",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(1 + h) = 5 + 5h \u2212 2(1 + 2h + h\u00b2) = 3 + h \u2212 2h\u00b2, and f(1) = 3, so the quotient is (h \u2212 2h\u00b2)/h = 1 \u2212 2h, which approaches 1. The value 3 is f(1), not the gradient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0007",
+   "topicId": "meth-sace-first-principles",
+   "stem": "For f(x) = x\u00b3, what does (f(x + h) \u2212 f(x))/h simplify to, for h \u2260 0?",
+   "imageRef": null,
+   "options": [
+    "3x + 3h + h\u00b2",
+    "3x\u00b2 + 3xh + h\u00b2",
+    "3x\u00b2",
+    "3x\u00b2 + h\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "(x + h)\u00b3 \u2212 x\u00b3 = 3x\u00b2h + 3xh\u00b2 + h\u00b3, and dividing by h gives 3x\u00b2 + 3xh + h\u00b2. As h \u2192 0 this approaches 3x\u00b2, which agrees with the rule d/dx(x\u207f) = nx\u207f\u207b\u00b9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0008",
+   "topicId": "meth-sace-first-principles",
+   "stem": "Using first principles, what is the derivative of f(x) = 1/x for x \u2260 0?",
+   "imageRef": null,
+   "options": [
+    "1/x\u00b2",
+    "\u22121/x",
+    "ln(x)",
+    "\u22121/x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "1/(x + h) \u2212 1/x = \u2212h/(x(x + h)), so the quotient is \u22121/(x(x + h)), which approaches \u22121/x\u00b2 as h \u2192 0. This matches d/dx(x\u207b\u00b9) = \u2212x\u207b\u00b2, showing the power rule holds for negative integer powers.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0009",
+   "topicId": "meth-sace-first-principles",
+   "stem": "The limit as h \u2192 0 of ((2 + h)\u2074 \u2212 16)/h is the derivative of which function at which point, and what is its value?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u2074 at x = 16, value 32",
+    "f(x) = x\u2074 at x = 2, value 32",
+    "f(x) = x\u2074 at x = 2, value 16",
+    "f(x) = x\u00b2 at x = 4, value 8"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is (f(2 + h) \u2212 f(2))/h with f(x) = x\u2074, since f(2) = 16. Its limit is f\u2032(2) = 4 \u00d7 2\u00b3 = 32. The value 16 is f(2), not the derivative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0010",
+   "topicId": "meth-sace-first-principles",
+   "stem": "For a function f, the quotient (f(2 + h) \u2212 f(2))/h takes the values 4.1, 4.01 and 4.001 when h = 0.1, 0.01 and 0.001. What is the best estimate of f\u2032(2)?",
+   "imageRef": null,
+   "options": [
+    "4.001",
+    "4",
+    "4.1",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "As h gets smaller, the chord gradients approach 4, so the instantaneous rate of change at x = 2 is estimated to be 4. Each listed value is only the gradient of a chord over a short interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-first-principles-0011",
+   "topicId": "meth-sace-first-principles",
+   "stem": "Which notation means the same as f\u2032(x) when y = f(x)?",
+   "imageRef": null,
+   "options": [
+    "y/x",
+    "f(x)/x",
+    "dy/dx",
+    "\u0394y"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx is the alternative notation for the derivative of y with respect to x. \u0394y is the change in y over an interval, and y/x is the gradient from the origin, not the rate of change at a point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-first-principles-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

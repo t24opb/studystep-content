@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-hsc-normal",
+ "questions": [
+  {
+   "id": "meth-hsc-normal-0001",
+   "topicId": "meth-hsc-normal",
+   "stem": "For a normal distribution, which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The median is the midpoint of the range",
+    "The mean, median and mode are equal",
+    "The mean is greater than the median",
+    "The mode is less than the mean"
+   ],
+   "correctIndex": 1,
+   "explanation": "The normal curve is symmetrical about its mean, and its peak is at the centre, so mean, median and mode coincide. Its tails go on forever, so it has no finite range to take a midpoint of.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0002",
+   "topicId": "meth-hsc-normal",
+   "stem": "Which of these is most likely to be well modelled by a normal distribution?",
+   "imageRef": null,
+   "options": [
+    "The waiting times between bus arrivals",
+    "The heights of adult women in a city",
+    "The number of heads in three coin tosses",
+    "The incomes of Australian households"
+   ],
+   "correctIndex": 1,
+   "explanation": "Heights cluster symmetrically around a typical value, which suits a bell-shaped curve. Household incomes are strongly skewed by a few very high values, and the number of heads in three tosses is discrete.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0003",
+   "topicId": "meth-hsc-normal",
+   "stem": "Which statement about the normal curve is correct?",
+   "imageRef": null,
+   "options": [
+    "It approaches the horizontal axis but never touches it",
+    "It touches the horizontal axis at \u03bc \u00b1 3\u03c3",
+    "It has a sharp point at its maximum",
+    "It is symmetrical about the line x = \u03c3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The tails extend to \u00b1\u221e, getting ever closer to the axis, so probabilities like P(X > a) are areas stretching out to infinity. About 99.7% of values lie within 3\u03c3, but the curve does not end there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0004",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(50, 16). What is the standard deviation of X?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "16",
+    "8",
+    "256"
+   ],
+   "correctIndex": 0,
+   "explanation": "In X ~ N(\u03bc, \u03c3\u00b2) the second number is the variance \u03c3\u00b2, so \u03c3\u00b2 = 16 and \u03c3 = 4. Taking 16 as the standard deviation is the usual misreading.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0005",
+   "topicId": "meth-hsc-normal",
+   "stem": "X is normally distributed with mean \u03bc. What is P(X > \u03bc)?",
+   "imageRef": null,
+   "options": [
+    "0.34",
+    "0.5",
+    "0.68",
+    "0.95"
+   ],
+   "correctIndex": 1,
+   "explanation": "The normal curve is symmetrical about \u03bc, so half of the area lies on each side. The value 0.68 is the probability of being within one standard deviation of the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0006",
+   "topicId": "meth-hsc-normal",
+   "stem": "For X ~ N(\u03bc, \u03c3\u00b2), P(X < a) is represented by:",
+   "imageRef": null,
+   "options": [
+    "the gradient of the normal curve at x = a",
+    "the area under the normal curve to the left of x = a",
+    "the height of the normal curve at x = a",
+    "the area under the normal curve to the right of x = a"
+   ],
+   "correctIndex": 1,
+   "explanation": "Probabilities for a continuous random variable are areas under the PDF. P(X < a) is the area from \u2212\u221e up to a. The height of the curve at a is a density, not a probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0007",
+   "topicId": "meth-hsc-normal",
+   "stem": "Where is the global maximum of the normal curve for X ~ N(\u03bc, \u03c3\u00b2)?",
+   "imageRef": null,
+   "options": [
+    "At x = 0",
+    "At x = \u03bc",
+    "At x = \u03c3",
+    "At x = \u03bc + \u03c3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curve peaks at its centre of symmetry, the mean \u03bc, which is also the mode. The curve has its maximum at x = 0 only for the standard normal distribution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0008",
+   "topicId": "meth-hsc-normal",
+   "stem": "Where are the points of inflection of the normal curve for X ~ N(\u03bc, \u03c3\u00b2)?",
+   "imageRef": null,
+   "options": [
+    "At x = \u03bc \u2212 2\u03c3 and x = \u03bc + 2\u03c3",
+    "At x = \u03bc \u2212 3\u03c3 and x = \u03bc + 3\u03c3",
+    "At x = \u03bc \u2212 \u03c3 and x = \u03bc + \u03c3",
+    "At x = \u03bc only"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curve is concave down between \u03bc \u2212 \u03c3 and \u03bc + \u03c3 and concave up outside, so the concavity changes one standard deviation either side of the mean. At x = \u03bc there is the maximum, not an inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0009",
+   "topicId": "meth-hsc-normal",
+   "stem": "Which function is the probability density function of the standard normal distribution?",
+   "imageRef": null,
+   "options": [
+    "f(x) = (1/(2\u03c0))e^(\u2212x\u00b2/2)",
+    "f(x) = \u221a(2\u03c0)e^(\u2212x\u00b2/2)",
+    "f(x) = (1/\u221a(2\u03c0))e^(\u2212x\u00b2/2)",
+    "f(x) = (1/\u221a(2\u03c0))e^(x\u00b2/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "With \u03bc = 0 and \u03c3 = 1, the general PDF (1/(\u03c3\u221a(2\u03c0)))e^(\u2212(x \u2212 \u03bc)\u00b2/(2\u03c3\u00b2)) becomes (1/\u221a(2\u03c0))e^(\u2212x\u00b2/2). Without the negative index the curve would grow without bound instead of tailing off.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0010",
+   "topicId": "meth-hsc-normal",
+   "stem": "Two normal distributions have the same mean, but the second has a larger standard deviation. Compared with the first, the second curve is:",
+   "imageRef": null,
+   "options": [
+    "wider, with a lower maximum",
+    "wider, with a higher maximum",
+    "narrower, with a lower maximum",
+    "the same shape, shifted to the right"
+   ],
+   "correctIndex": 0,
+   "explanation": "A larger \u03c3 spreads the values out, so the curve is wider. The total area must stay 1, so a wider curve has to be lower. Shifting to the right is what a larger mean does.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0011",
+   "topicId": "meth-hsc-normal",
+   "stem": "For a normal distribution, approximately what percentage of values lie within one standard deviation of the mean?",
+   "imageRef": null,
+   "options": [
+    "95%",
+    "99.7%",
+    "50%",
+    "68%"
+   ],
+   "correctIndex": 3,
+   "explanation": "The empirical rule gives approximately 68%, 95% and 99.7% within one, two and three standard deviations of the mean. The value 50% is the proportion above the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0012",
+   "topicId": "meth-hsc-normal",
+   "stem": "For a normal distribution, approximately what percentage of values lie within three standard deviations of the mean?",
+   "imageRef": null,
+   "options": [
+    "99.7%",
+    "95%",
+    "68%",
+    "100%"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the empirical rule, about 99.7% of values lie within 3\u03c3 of the mean. It is not 100%, because the tails never end; about 0.3% of values lie further out.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0013",
+   "topicId": "meth-hsc-normal",
+   "stem": "Heights are normally distributed with mean 170 cm and standard deviation 6 cm. Approximately what percentage of heights are greater than 182 cm?",
+   "imageRef": null,
+   "options": [
+    "16%",
+    "0.15%",
+    "2.5%",
+    "5%"
+   ],
+   "correctIndex": 2,
+   "explanation": "182 is two standard deviations above the mean. About 95% lie within 2\u03c3, leaving 5% split equally between the two tails, so 2.5% lie above 182. The value 5% forgets to halve.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0014",
+   "topicId": "meth-hsc-normal",
+   "stem": "Heights are normally distributed with mean 170 cm and standard deviation 6 cm. Between which heights do approximately the middle 95% lie?",
+   "imageRef": null,
+   "options": [
+    "164 cm and 176 cm",
+    "152 cm and 188 cm",
+    "165 cm and 175 cm",
+    "158 cm and 182 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "The middle 95% lies within two standard deviations: 170 \u00b1 12, from 158 to 182 cm. The interval 164 to 176 cm is \u03bc \u00b1 \u03c3, which holds about 68%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0015",
+   "topicId": "meth-hsc-normal",
+   "stem": "Heights are normally distributed with mean 170 cm and standard deviation 6 cm. Approximately what percentage of heights lie between 158 cm and 176 cm?",
+   "imageRef": null,
+   "options": [
+    "47.5%",
+    "81.5%",
+    "68%",
+    "95%"
+   ],
+   "correctIndex": 1,
+   "explanation": "From 158 (\u03bc \u2212 2\u03c3) to 170 is half of 95%, which is 47.5%, and from 170 to 176 (\u03bc + \u03c3) is half of 68%, which is 34%. Together they make 81.5%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0016",
+   "topicId": "meth-hsc-normal",
+   "stem": "Test scores of 1000 students are normally distributed with mean 60 and standard deviation 10. Approximately how many students scored above 80?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "50",
+    "160",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "80 is two standard deviations above the mean, and about 2.5% of scores lie above that: 2.5% of 1000 is 25. Using 5%, both tails together, gives 50.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0017",
+   "topicId": "meth-hsc-normal",
+   "stem": "For a normal distribution, approximately what percentage of values lie below \u03bc \u2212 \u03c3?",
+   "imageRef": null,
+   "options": [
+    "32%",
+    "34%",
+    "2.5%",
+    "16%"
+   ],
+   "correctIndex": 3,
+   "explanation": "About 68% lie within one standard deviation, leaving 32% outside, split equally between the tails: 16% below \u03bc \u2212 \u03c3. The value 34% is the area from \u03bc \u2212 \u03c3 to \u03bc.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0018",
+   "topicId": "meth-hsc-normal",
+   "stem": "For a normal distribution, approximately what percentage of values lie between \u03bc and \u03bc + 2\u03c3?",
+   "imageRef": null,
+   "options": [
+    "49.85%",
+    "47.5%",
+    "95%",
+    "34%"
+   ],
+   "correctIndex": 1,
+   "explanation": "About 95% lie within two standard deviations either side of the mean, and by symmetry half of that, 47.5%, lies on one side. The value 49.85% is half of 99.7%, which goes out to 3\u03c3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0019",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(\u03bc, \u03c3\u00b2). About 16% of values are below 40 and about 2.5% are above 70. Using the empirical rule, what are \u03bc and \u03c3?",
+   "imageRef": null,
+   "options": [
+    "\u03bc = 60, \u03c3 = 10",
+    "\u03bc = 50, \u03c3 = 10",
+    "\u03bc = 55, \u03c3 = 15",
+    "\u03bc = 55, \u03c3 = 7.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "16% below means 40 = \u03bc \u2212 \u03c3, and 2.5% above means 70 = \u03bc + 2\u03c3. Subtracting gives 3\u03c3 = 30, so \u03c3 = 10 and \u03bc = 50. Taking 40 and 70 as equally far from the mean gives \u03bc = 55.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0020",
+   "topicId": "meth-hsc-normal",
+   "stem": "A variable has standard deviation 5, and about 2.5% of its values are above 90. Assuming it is normally distributed, what is the mean?",
+   "imageRef": null,
+   "options": [
+    "85",
+    "87.5",
+    "75",
+    "80"
+   ],
+   "correctIndex": 3,
+   "explanation": "About 2.5% lie more than two standard deviations above the mean, so 90 = \u03bc + 2 \u00d7 5 and \u03bc = 80. Using only one standard deviation gives 85.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0021",
+   "topicId": "meth-hsc-normal",
+   "stem": "A score of 82 comes from a distribution with mean 70 and standard deviation 8. What is its z-score?",
+   "imageRef": null,
+   "options": [
+    "\u22121.5",
+    "0.67",
+    "1.5",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "z = (x \u2212 \u03bc)/\u03c3 = (82 \u2212 70)/8 = 1.5, so the score is 1.5 standard deviations above the mean. The value 12 is the raw difference before dividing by \u03c3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0022",
+   "topicId": "meth-hsc-normal",
+   "stem": "A score has a z-score of \u22122. This means it is:",
+   "imageRef": null,
+   "options": [
+    "2 standard deviations below the mean",
+    "2 standard deviations above the mean",
+    "2 marks below the mean",
+    "in the lowest 2% of scores"
+   ],
+   "correctIndex": 0,
+   "explanation": "A z-score counts standard deviations from the mean, and the sign gives the side: negative means below. It is not a count of marks, and by the empirical rule about 2.5% of normal values lie below z = \u22122.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0023",
+   "topicId": "meth-hsc-normal",
+   "stem": "The standard normal distribution has:",
+   "imageRef": null,
+   "options": [
+    "mean 0 and standard deviation 0",
+    "mean 1 and standard deviation 1",
+    "mean 0 and standard deviation 1",
+    "mean 1 and standard deviation 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard normal Z ~ N(0, 1) has \u03bc = 0 and \u03c3 = 1. Any normal variable can be converted to it with z-scores. A standard deviation of 0 would mean no spread at all.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0024",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(40, 9). Which expression converts X into the standard normal variable Z?",
+   "imageRef": null,
+   "options": [
+    "Z = (X \u2212 40)/3",
+    "Z = (X \u2212 40)/9",
+    "Z = (X \u2212 3)/40",
+    "Z = (40 \u2212 X)/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract the mean and divide by the standard deviation, which is \u221a9 = 3. Dividing by 9 uses the variance. Writing 40 \u2212 X reverses the sign, so scores above the mean would get negative z-scores.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0025",
+   "topicId": "meth-hsc-normal",
+   "stem": "A score has z-score \u22121.5 in a distribution with mean 70 and standard deviation 8. What is the score?",
+   "imageRef": null,
+   "options": [
+    "62",
+    "58",
+    "82",
+    "68.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearranging z = (x \u2212 \u03bc)/\u03c3 gives x = \u03bc + z\u03c3 = 70 + (\u22121.5)(8) = 58. The score 82 uses +1.5, and 68.5 subtracts 1.5 marks rather than 1.5 standard deviations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0026",
+   "topicId": "meth-hsc-normal",
+   "stem": "Mia scored 78 in Maths (mean 70, standard deviation 4) and 85 in English (mean 75, standard deviation 10). Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "English was her better result relative to her class",
+    "Both results were equally good relative to her class",
+    "English was better because 85 is a higher mark",
+    "Maths was her better result relative to her class"
+   ],
+   "correctIndex": 3,
+   "explanation": "Her Maths z-score is (78 \u2212 70)/4 = 2 and her English z-score is (85 \u2212 75)/10 = 1. She is further above the mean in Maths, so it is the better relative result even though the raw mark is lower.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0027",
+   "topicId": "meth-hsc-normal",
+   "stem": "In a class test, a mark of 66 has z-score 1.8 and a mark of 68 has z-score 2.2. What is the standard deviation of the marks?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "0.4",
+    "2",
+    "2.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 2-mark difference corresponds to 2.2 \u2212 1.8 = 0.4 standard deviations, so \u03c3 = 2/0.4 = 5. Then the mean is 66 \u2212 1.8 \u00d7 5 = 57. The value 0.4 is the change in z, not \u03c3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0028",
+   "topicId": "meth-hsc-normal",
+   "stem": "A company says its packets have masses normally distributed with mean 500 g and standard deviation 4 g. A packet weighs 485 g. What is the best conclusion?",
+   "imageRef": null,
+   "options": [
+    "Its z-score is \u22123.75, so about 3.75% of packets are this light",
+    "Its z-score is \u221215, so the packet must have been weighed wrongly",
+    "Its z-score is \u22120.03, so the mass is close to typical",
+    "Its z-score is \u22123.75, so this is very unlikely if the claim is true"
+   ],
+   "correctIndex": 3,
+   "explanation": "z = (485 \u2212 500)/4 = \u22123.75, further below the mean than 3 standard deviations, and fewer than 0.15% of values lie below \u03bc \u2212 3\u03c3. Such a light packet casts doubt on the claim. A z-score is not a percentage.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0029",
+   "topicId": "meth-hsc-normal",
+   "stem": "Given P(Z < 1.2) = 0.8849, what is P(Z > 1.2)?",
+   "imageRef": null,
+   "options": [
+    "0.1151",
+    "0.8849",
+    "0.3849",
+    "0.6151"
+   ],
+   "correctIndex": 0,
+   "explanation": "The total area is 1, so P(Z > 1.2) = 1 \u2212 0.8849 = 0.1151. The value 0.3849 is the area between 0 and 1.2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0030",
+   "topicId": "meth-hsc-normal",
+   "stem": "Given P(Z < 0.5) = 0.6915, what is P(Z < \u22120.5)?",
+   "imageRef": null,
+   "options": [
+    "0.6915",
+    "\u22120.6915",
+    "0.1915",
+    "0.3085"
+   ],
+   "correctIndex": 3,
+   "explanation": "By symmetry, the area below \u22120.5 equals the area above 0.5, which is 1 \u2212 0.6915 = 0.3085. A probability can never be negative, and 0.1915 is the area between 0 and 0.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0031",
+   "topicId": "meth-hsc-normal",
+   "stem": "IQ scores are normally distributed with mean 100 and standard deviation 15. Given P(Z < 1.2) = 0.8849, what is the probability that a person has an IQ below 118?",
+   "imageRef": null,
+   "options": [
+    "0.3849",
+    "0.9849",
+    "0.8849",
+    "0.1151"
+   ],
+   "correctIndex": 2,
+   "explanation": "z = (118 \u2212 100)/15 = 1.2, so P(X < 118) = P(Z < 1.2) = 0.8849. The value 0.1151 is the probability of scoring above 118.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0032",
+   "topicId": "meth-hsc-normal",
+   "stem": "Sam's exam mark has a z-score of 1.5 and the marks are normally distributed. Given P(Z < 1.5) = 0.9332, approximately what percentage of students scored lower than Sam?",
+   "imageRef": null,
+   "options": [
+    "93.3%",
+    "6.7%",
+    "43.3%",
+    "86.6%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The proportion below z = 1.5 is P(Z < 1.5) = 0.9332, about 93.3%. The value 6.7% is the proportion who scored higher, and 43.3% is the area between the mean and Sam's mark.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0033",
+   "topicId": "meth-hsc-normal",
+   "stem": "Given P(Z < 1) = 0.8413 and P(Z < 1.5) = 0.9332, what is P(\u22121 < Z < 1.5)?",
+   "imageRef": null,
+   "options": [
+    "0.7745",
+    "0.0919",
+    "1.7745",
+    "0.9332"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(Z < \u22121) = 1 \u2212 0.8413 = 0.1587 by symmetry, so P(\u22121 < Z < 1.5) = 0.9332 \u2212 0.1587 = 0.7745. Subtracting 0.8413 directly gives 0.0919, which is P(1 < Z < 1.5).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0034",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(50, \u03c3\u00b2) and P(X > 62) = 0.0228. Given P(Z < 2) = 0.9772, what is \u03c3?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "24",
+    "3",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(X > 62) = 0.0228 = 1 \u2212 0.9772, so 62 has z-score 2. Then (62 \u2212 50)/\u03c3 = 2 gives \u03c3 = 6. The value 12 is the distance from the mean, not the standard deviation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0035",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(\u03bc, 4\u00b2) and P(X < 30) = 0.8413. Given P(Z < 1) = 0.8413, what is \u03bc?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "26",
+    "34",
+    "29"
+   ],
+   "correctIndex": 1,
+   "explanation": "The z-score of 30 is 1, so (30 \u2212 \u03bc)/4 = 1 and \u03bc = 26. The mean must be below 30, since more than half the values are below 30; the answer 34 puts it above.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0036",
+   "topicId": "meth-hsc-normal",
+   "stem": "X ~ N(50, 8\u00b2). Given P(Z < 0.5) = 0.6915, find a such that P(X < a) = 0.3085.",
+   "imageRef": null,
+   "options": [
+    "54",
+    "49.5",
+    "42",
+    "46"
+   ],
+   "correctIndex": 3,
+   "explanation": "0.3085 = 1 \u2212 0.6915, so by symmetry a has z-score \u22120.5, and a = 50 \u2212 0.5 \u00d7 8 = 46. The value 54 uses z = +0.5, but a probability below 0.5 means a is below the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-normal-0037",
+   "topicId": "meth-hsc-normal",
+   "stem": "Scores are normally distributed with mean 65 and standard deviation 10. Given P(Z < 1.28) \u2248 0.90, what is the lowest score in the top 10%?",
+   "imageRef": null,
+   "options": [
+    "About 66.3",
+    "About 75.0",
+    "About 77.8",
+    "About 52.2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The top 10% starts where 90% lie below, at z = 1.28, so the score is 65 + 1.28 \u00d7 10 = 77.8. The value 52.2 uses z = \u22121.28, the cut-off for the bottom 10%.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-normal-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

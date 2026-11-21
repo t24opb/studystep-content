@@ -1,0 +1,518 @@
+{
+ "topicId": "spec-wace-paths-systems",
+ "questions": [
+  {
+   "id": "spec-wace-paths-systems-0001",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Two particles move with position vectors r_A(t) and r_B(t). What is the difference between their paths crossing and the particles meeting?",
+   "imageRef": null,
+   "options": [
+    "meeting needs the same point at the same time; crossing needs only the same point",
+    "crossing needs the same point at the same time; meeting needs only the same point",
+    "meeting needs equal velocities at some time; crossing needs equal positions",
+    "crossing needs parallel paths; meeting needs perpendicular paths"
+   ],
+   "correctIndex": 0,
+   "explanation": "Particles meet (collide) when r_A(t) = r_B(t) for one value of t. Their paths cross when some point lies on both paths, possibly reached at different times.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0002",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "To decide whether two particles collide, the equation r_A(t) = r_B(t) is set up. What must be true for a collision?",
+   "imageRef": null,
+   "options": [
+    "one value of t satisfies every component equation",
+    "each component equation has a solution, with possibly different t values",
+    "the two position vectors are parallel for some t",
+    "the two velocity vectors are equal for some t"
+   ],
+   "correctIndex": 0,
+   "explanation": "A collision needs the particles at the same place at the same moment, so a single t must make the i, j and k components all equal. Different t values for different components mean no collision.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0003",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "To test whether the paths of two particles cross, a student writes the paths as r_A(s) and r_B(u) with different parameters. Why?",
+   "imageRef": null,
+   "options": [
+    "the particles may reach a common point at different times",
+    "the two paths must always be described at different speeds",
+    "using one parameter would make the paths parallel",
+    "the paths can only cross if the parameters are unequal"
+   ],
+   "correctIndex": 0,
+   "explanation": "A crossing point only needs to lie on both paths, and each particle may pass it at its own time. Using the same t would test for a collision instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0004",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A has r_A(t) = 2t i + (t + 1) j + (3 \u2212 t) k and particle B has r_B(t) = (t + 2) i + (3t \u2212 3) j + (3 \u2212 t) k. When and where do they meet?",
+   "imageRef": null,
+   "options": [
+    "at t = 2, at the point (4, 3, 5)",
+    "at t = 1, at the point (2, 2, 2)",
+    "they never meet",
+    "at t = 2, at the point (4, 3, 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The i components give 2t = t + 2, so t = 2. Then the j components are 3 and 3, and the k components are 1 and 1, so both are at (4, 3, 1) when t = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0005",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A has r_A(t) = (1 + 2t) i + (3 \u2212 t) j and particle B has r_B(t) = (4 \u2212 t) i + t j, for t \u2265 0. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "their paths do not cross, as the paths are parallel",
+    "the particles meet at (1, 3) when t = 0",
+    "their paths cross at (1, 3), but the particles do not meet",
+    "the particles meet at the point (3, 2) when t = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "For a meeting, the i components give t = 1 but the j components give t = 1.5, so they never meet. With separate parameters, 1 + 2s = 4 \u2212 u and 3 \u2212 s = u give s = 0, u = 3, so the paths cross at (1, 3) at different times.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0006",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A moves on the path (t, 1 + t, 2t) and particle B on the path (1, s, 1 \u2212 s). How are the paths related?",
+   "imageRef": null,
+   "options": [
+    "they are skew lines",
+    "they cross once, at the point (1, 2, 2)",
+    "they are parallel lines that never cross",
+    "they lie along the very same line"
+   ],
+   "correctIndex": 0,
+   "explanation": "Matching x gives t = 1, then y gives s = 2, but z gives 2 = \u22121, a contradiction, so the paths never cross. The directions (1, 1, 2) and (0, 1, \u22121) are not parallel, so the paths are skew.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0007",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A has r_A(t) = 2t i + (t + 3) j and particle B has r_B(t) = (t + 4) i + (at \u2212 1) j. For which value of a do the particles collide?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "3/2",
+    "7/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The i components give 2t = t + 4, so t = 4. The j components must then agree: 4 + 3 = 4a \u2212 1, so a = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0008",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Two ships leave at the same time. Their positions in kilometres after t hours are P(t) = 3t i + 4t j and Q(t) = (18 \u2212 t) i + (4 + 2t) j. How long after P does Q reach the point where their paths cross?",
+   "imageRef": null,
+   "options": [
+    "6 hours",
+    "4.5 hours",
+    "2 hours",
+    "4 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 3s = 18 \u2212 u and 4s = 4 + 2u: s = 4 and u = 6, so the paths cross at (12, 16). P is there after 4 hours and Q after 6 hours, so Q arrives 2 hours later.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0009",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A has r_A(t) = (1 + 2t) i + 3t j and particle B has r_B(t) = 4t i + (1 + 6t) j. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "the paths lie along the same line",
+    "the particles meet when t = 1/4",
+    "the paths are parallel and never cross",
+    "the paths cross at exactly one point"
+   ],
+   "correctIndex": 2,
+   "explanation": "The direction vectors 2i + 3j and 4i + 6j are parallel. A passes through (1, 0) at t = 0, but B reaches x = 1 at t = 1/4 with y = 2.5, so the lines are distinct and never cross.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0010",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particle A has r_A(t) = t i + 2t j and particle B has r_B(t) = (3 \u2212 t) i + (6 \u2212 2t) j. Their paths both lie on y = 2x. Do they meet?",
+   "imageRef": null,
+   "options": [
+    "yes, at t = 1.5 at the point (1.5, 3)",
+    "no, because their paths are parallel",
+    "yes, at t = 3 at the point (3, 6)",
+    "no, because they move in opposite directions"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equating components: t = 3 \u2212 t gives t = 1.5, and 2t = 6 \u2212 2t also gives t = 1.5. So they meet at (1.5, 3). Moving towards each other along the same line is exactly how they collide.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0011",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Particles A and B have r_A(t) = t i + 2t j and r_B(t) = 3 i + (t + 1) j. What is the smallest distance between them?",
+   "imageRef": null,
+   "options": [
+    "\u221a10",
+    "0",
+    "\u221a2",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "r_B \u2212 r_A = (3 \u2212 t) i + (1 \u2212 t) j, so the distance squared is (3 \u2212 t)\u00b2 + (1 \u2212 t)\u00b2 = 2t\u00b2 \u2212 8t + 10 = 2(t \u2212 2)\u00b2 + 2. The minimum is at t = 2, giving \u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0012",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "A system of linear equations that has no solution is called:",
+   "imageRef": null,
+   "options": [
+    "inconsistent",
+    "consistent",
+    "homogeneous",
+    "independent"
+   ],
+   "correctIndex": 0,
+   "explanation": "A consistent system has at least one solution, and an inconsistent system has none. A homogeneous system has all constants zero, so it always has the solution x = y = z = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0013",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Which values of x, y and z satisfy all three of x + y + z = 6, x \u2212 y + z = 2 and 2x + y \u2212 z = 1?",
+   "imageRef": null,
+   "options": [
+    "x = 1, y = 2, z = 3",
+    "x = 1, y = 3, z = 2",
+    "x = 2, y = 1, z = 3",
+    "x = 3, y = 2, z = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtracting the second equation from the first gives 2y = 4, so y = 2. Then x + z = 4 and 2x \u2212 z = \u22121, which add to 3x = 3, so x = 1 and z = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0014",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Solve x + 2y \u2212 z = 3, y + 3z = 7 and 2z = 4 by back substitution.",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 1, z = 2",
+    "x = \u22121, y = 1, z = 2",
+    "x = 3, y = 13, z = 2",
+    "x = 1, y = 1, z = 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = 2, then y = 7 \u2212 6 = 1, then x = 3 \u2212 2y + z = 3 \u2212 2 + 2 = 3. Writing x = 3 \u2212 2 \u2212 2 forgets that subtracting \u2212z adds z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0015",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "In the system x + 2y + z = 4 and 3x + y \u2212 2z = 1, the second equation is replaced by (second) \u2212 3 \u00d7 (first). What is the new equation?",
+   "imageRef": null,
+   "options": [
+    "\u22125y + z = \u221211",
+    "7y + z = 13",
+    "\u22125y \u2212 5z = \u221211",
+    "\u22125y \u2212 5z = 13"
+   ],
+   "correctIndex": 2,
+   "explanation": "3x \u2212 3x = 0, y \u2212 6y = \u22125y, \u22122z \u2212 3z = \u22125z and 1 \u2212 12 = \u221211. Subtracting 3z from \u22122z, rather than adding, is a common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0016",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Adults pay $20, children $10 and concessions $15. Ticket sales were 100 tickets for $1650, with twice as many child tickets as concession tickets. How many adult tickets were sold?",
+   "imageRef": null,
+   "options": [
+    "58",
+    "28",
+    "14",
+    "64"
+   ],
+   "correctIndex": 0,
+   "explanation": "With a + c + s = 100, 20a + 10c + 15s = 1650 and c = 2s: a = 100 \u2212 3s, so 20(100 \u2212 3s) + 35s = 1650 and s = 14. Then c = 28 and a = 58.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0017",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "What does a single linear equation in x, y and z represent geometrically?",
+   "imageRef": null,
+   "options": [
+    "a point",
+    "a plane",
+    "a line",
+    "a sphere"
+   ],
+   "correctIndex": 1,
+   "explanation": "An equation ax + by + cz = d describes a plane with normal vector (a, b, c). A line in three dimensions needs two equations, or a vector equation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0018",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "A system of three linear equations in x, y and z has a unique solution. What does this mean geometrically?",
+   "imageRef": null,
+   "options": [
+    "two of the three planes coincide",
+    "the three planes meet at a single point",
+    "the three planes meet in a common line",
+    "the three planes are parallel"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each equation is a plane, and a unique solution is a single point lying on all three. A common line would give infinitely many solutions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0019",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "During elimination on a system of three equations, one equation becomes 0x + 0y + 0z = 5. What does this show?",
+   "imageRef": null,
+   "options": [
+    "the system has the solution x = y = z = 0",
+    "the system has exactly one solution",
+    "the system has no solution",
+    "the system has infinitely many solutions"
+   ],
+   "correctIndex": 2,
+   "explanation": "No values of x, y and z make 0 equal 5, so the system is inconsistent. A row reducing to 0 = 0 would instead allow infinitely many solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0020",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "During elimination, one equation of a three-variable system becomes 0 = 0, and the other two are consistent and not multiples of each other. How many solutions are there?",
+   "imageRef": null,
+   "options": [
+    "infinitely many, along a line",
+    "none, as 0 = 0 is a contradiction",
+    "exactly one, by back substitution",
+    "exactly two, one for each equation"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 0 = 0 row gives no information, leaving two independent equations in three unknowns. One variable is free, so the solutions form a line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0021",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Three planes, no two of which are parallel, have no point in common. How are they arranged?",
+   "imageRef": null,
+   "options": [
+    "two of the planes coincide and the third crosses them",
+    "each pair meets in a line, and the three lines are parallel",
+    "all three meet in a single common line",
+    "all three meet at a single common point"
+   ],
+   "correctIndex": 1,
+   "explanation": "With no parallel planes, each pair intersects in a line. No common point means these three lines never meet, so they are parallel, forming a triangular prism shape.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0022",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Three distinct planes have infinitely many points in common. How are they arranged?",
+   "imageRef": null,
+   "options": [
+    "they all pass through one common line",
+    "they are all parallel to each other",
+    "they meet at exactly one point",
+    "they form a triangular prism"
+   ],
+   "correctIndex": 0,
+   "explanation": "Distinct planes cannot share more than a line, so infinitely many common points means a common line, like the pages of a book along the spine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0023",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "A system contains 2x \u2212 y + 3z = 4 and 4x \u2212 2y + 6z = 5. What can be said about the system?",
+   "imageRef": null,
+   "options": [
+    "it has a unique solution, because the coefficients are different",
+    "it has no solution, because the planes are perpendicular",
+    "it has no solution, because these planes are parallel and distinct",
+    "it has infinitely many solutions, because the planes coincide"
+   ],
+   "correctIndex": 2,
+   "explanation": "The second equation has the same left side as twice the first, but 5 \u2260 8, so the planes are parallel and do not coincide. No point lies on both, whatever the other equations are.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0024",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "Consider just the two equations x + y \u2212 z = 1 and 2x \u2212 y + z = 5. What is their solution set?",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = t + 1, z = t for any real t",
+    "the single point (2, \u22121, 0)",
+    "there are no solutions",
+    "x = 2, y = t \u2212 1, z = t for any real t"
+   ],
+   "correctIndex": 3,
+   "explanation": "Adding gives 3x = 6, so x = 2, and then y \u2212 z = \u22121. Letting z = t gives y = t \u2212 1, a line of solutions; (2, \u22121, 0) is just one point on it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0025",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "For which value of k does the system x + y + z = 2, x + 2y + 3z = 5, 2x + 3y + kz = 8 have no solution?",
+   "imageRef": null,
+   "options": [
+    "k = 4",
+    "k = 2",
+    "k = 3",
+    "k = \u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "Eliminating x gives y + 2z = 3 and y + (k \u2212 2)z = 4, so (k \u2212 4)z = 1. When k = 4 this reads 0 = 1, so there is no solution; any other k gives a unique solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0026",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "For which value of c does the system x + y + z = 2, x + 2y + 3z = 5, 2x + 3y + 4z = c have infinitely many solutions?",
+   "imageRef": null,
+   "options": [
+    "c = 9",
+    "c = 7",
+    "c = 8",
+    "c = 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Eliminating x gives y + 2z = 3 and y + 2z = c \u2212 4. These agree only when c \u2212 4 = 3, so c = 7; any other c makes the system inconsistent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-paths-systems-0027",
+   "topicId": "spec-wace-paths-systems",
+   "stem": "With c = 7, the system x + y + z = 2, x + 2y + 3z = 5, 2x + 3y + 4z = 7 has infinitely many solutions. Which is a general solution?",
+   "imageRef": null,
+   "options": [
+    "x = 1 \u2212 t, y = 3 \u2212 2t, z = t",
+    "x = t \u2212 1, y = 3 + 2t, z = t",
+    "x = t + 1, y = 3 \u2212 2t, z = t",
+    "x = t \u2212 1, y = 3 \u2212 2t, z = t"
+   ],
+   "correctIndex": 3,
+   "explanation": "From y + 2z = 3, with z = t, y = 3 \u2212 2t. Then x = 2 \u2212 y \u2212 z = 2 \u2212 3 + 2t \u2212 t = t \u2212 1. Substituting each other option into x + y + z = 2 fails.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-paths-systems-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

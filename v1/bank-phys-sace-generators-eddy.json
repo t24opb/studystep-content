@@ -1,0 +1,309 @@
+{
+ "topicId": "phys-sace-generators-eddy",
+ "questions": [
+  {
+   "id": "phys-sace-generators-eddy-0001",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "In a simple AC generator of the kind with a fixed magnet, what rotates?",
+   "imageRef": null,
+   "options": [
+    "The magnet, turning inside a fixed coil of wire wound around it",
+    "The brushes, turning around the outside of a fixed set of slip rings",
+    "The magnetic field lines, turning while the coil and magnet stay still",
+    "A coil of wire, turning in the field between the magnet's poles"
+   ],
+   "correctIndex": 3,
+   "explanation": "In this design the magnet is fixed and the conducting loops rotate in its field, so the flux through them keeps changing. Some large generators rotate the magnet instead, but that is not the design described here.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0002",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "What is the purpose of the slip rings in an AC generator?",
+   "imageRef": null,
+   "options": [
+    "To keep each end of the coil connected to the same external terminal as it rotates",
+    "To reverse the connections to the coil every half turn, giving a steady direct current",
+    "To increase the strength of the magnetic field passing through the rotating coil",
+    "To stop the induced current flowing when the coil passes through the field"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each end of the coil joins its own ring, and a brush presses on each ring, so the external circuit sees the coil's emf directly, which alternates. Reversing connections every half turn is what a split-ring commutator does in a DC generator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0003",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "Why does a coil rotating steadily in a uniform magnetic field produce an alternating emf?",
+   "imageRef": null,
+   "options": [
+    "The magnetic field reverses direction every half turn as the coil passes the poles",
+    "The coil's resistance changes as it turns, so the current rises and falls",
+    "The brushes lose contact with the coil twice in every complete turn",
+    "The flux through it rises and falls, and its change reverses every half turn"
+   ],
+   "correctIndex": 3,
+   "explanation": "As the coil turns, the flux through it changes from a maximum in one direction to zero to a maximum in the other. By Faraday's and Lenz's laws the induced emf depends on the rate and direction of that change, so it reverses each half turn.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0004",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "At which position of a rotating generator coil is the induced emf greatest?",
+   "imageRef": null,
+   "options": [
+    "The emf is the same at every position as the coil turns",
+    "When the plane of the coil is parallel to the magnetic field",
+    "When the plane of the coil is perpendicular to the magnetic field",
+    "When the plane of the coil is at 45\u00b0 to the magnetic field"
+   ],
+   "correctIndex": 1,
+   "explanation": "With the coil's plane parallel to the field, the flux through it is zero but changing fastest, because its sides cut straight across the field lines. When the plane is perpendicular, the flux is greatest but momentarily not changing, so the emf is zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0005",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A generator's coil is made to turn twice as fast. How does its output change?",
+   "imageRef": null,
+   "options": [
+    "The peak emf quadruples and the frequency doubles",
+    "The peak emf doubles and the frequency doubles",
+    "The peak emf doubles and the frequency stays the same",
+    "The peak emf stays the same and the frequency doubles"
+   ],
+   "correctIndex": 1,
+   "explanation": "Turning twice as fast makes the flux change twice as quickly, doubling the peak emf by Faraday's law, and completes twice as many cycles each second. Many students miss that both change together.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0006",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "The coil of a simple generator turns at 3000 revolutions per minute. What is the frequency of its alternating output?",
+   "imageRef": null,
+   "options": [
+    "100 Hz",
+    "25 Hz",
+    "50 Hz",
+    "3000 Hz"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each revolution produces one complete cycle of emf, and 3000 revolutions per minute is 3000/60 = 50 revolutions per second, so 50 Hz. The emf changes direction twice per cycle, which is where the tempting 100 comes from.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0007",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A 100-turn generator coil of area 0.020 m\u00b2 turns in a 0.50 T field from a position perpendicular to the field to one parallel to it in 0.0050 s. What is the average emf during this quarter turn?",
+   "imageRef": null,
+   "options": [
+    "200 V",
+    "2.0 V",
+    "400 V",
+    "1.0 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "The flux falls from BA = 0.50 \u00d7 0.020 = 0.010 Wb to zero, so the average emf = N\u0394\u03a6/\u0394t = 100 \u00d7 0.010 / 0.0050 = 200 V. Leaving out the 100 turns gives 2.0 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0008",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "How does a generator compare with an electric motor?",
+   "imageRef": null,
+   "options": [
+    "They have the same basic parts, but a generator turns electrical energy into mechanical energy",
+    "A generator needs a permanent magnet, but a motor can work with no magnetic field",
+    "A generator works by Lenz's law alone, while a motor works by Faraday's law alone",
+    "They have the same basic parts, but a generator turns mechanical energy into electrical energy"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both have a coil that can rotate in a magnetic field. In a motor a current in the coil produces a turning force; in a generator turning the coil induces an emf, converting mechanical work into electrical energy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0009",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A hand-turned generator is easy to turn when nothing is connected, but harder to turn when it lights a globe. Why?",
+   "imageRef": null,
+   "options": [
+    "The open circuit has more resistance, so it lets the coil spin freely",
+    "The globe's heat expands the coil, so it rubs against the magnet's poles",
+    "The induced current produces a force that opposes the rotation, so work must be done",
+    "The globe adds extra magnetic flux, which makes the coil heavier to turn"
+   ],
+   "correctIndex": 2,
+   "explanation": "With a load connected, a current flows and, by Lenz's law, the forces on it oppose the motion causing it. The extra work done turning the handle is the electrical energy delivered to the globe, as conservation of energy requires.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0010",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "What are eddy currents?",
+   "imageRef": null,
+   "options": [
+    "Currents that leak from a generator's coil into its iron core when it overheats",
+    "Steady currents that flow in a conductor whenever it is near a fixed magnet",
+    "Loops of current induced inside a piece of conductor by a changing magnetic flux",
+    "Currents that flow along the surface of an insulator in a very strong magnetic field"
+   ],
+   "correctIndex": 2,
+   "explanation": "When the flux through part of a solid conductor changes, an emf is induced and currents circulate within the metal. By Lenz's law they flow so as to oppose the change in flux that produces them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0011",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A strong magnet is dropped down a vertical copper pipe and falls much more slowly than it would in air. Why?",
+   "imageRef": null,
+   "options": [
+    "Eddy currents in the pipe make magnetic fields that oppose the magnet's motion",
+    "The magnet is attracted to the copper, which holds it back as it falls",
+    "Air trapped below the magnet in the pipe pushes up on it, slowing it as it falls",
+    "The copper pipe shields the magnet from the Earth's gravitational field"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the magnet falls, the flux through each section of pipe changes, inducing eddy currents. By Lenz's law their fields oppose the change, pushing up on the magnet. Copper is not magnetic, so plain attraction is not the cause.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0012",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "Why do eddy-current brakes on a train become less effective as the train slows down?",
+   "imageRef": null,
+   "options": [
+    "The brakes overheat at low speed, so the metal stops conducting electricity",
+    "The magnets lose strength as the train's kinetic energy is used up",
+    "Eddy currents only flow when the train is above a certain threshold speed",
+    "The flux changes more slowly, so smaller eddy currents and braking forces are induced"
+   ],
+   "correctIndex": 3,
+   "explanation": "The induced emf depends on the rate of change of flux, which falls with speed. Smaller eddy currents give a smaller opposing force, so these brakes cannot by themselves bring the train fully to rest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0013",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "An induction cooktop heats a steel saucepan but leaves a glass saucepan cold. Why?",
+   "imageRef": null,
+   "options": [
+    "The magnetic field attracts the steel, and the friction of the movement heats it",
+    "The changing magnetic field induces eddy currents in the conducting steel, which heat it",
+    "The cooktop's glass surface heats up and passes its heat only to metal objects",
+    "The steel saucepan absorbs infrared radiation from the coil, but the glass one reflects it"
+   ],
+   "correctIndex": 1,
+   "explanation": "An alternating current in a coil under the cooktop makes a changing magnetic field. This induces eddy currents in the base of a conducting pan, and the pan's resistance turns their energy into heat. Glass is an insulator, so no current flows in it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0014",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A solid aluminium plate swings like a pendulum between the poles of a magnet and stops quickly. A plate with deep slots cut into it swings for much longer. Why?",
+   "imageRef": null,
+   "options": [
+    "The slots make the plate lighter, so the magnet attracts it with less force",
+    "The slots stop the plate being magnetised, so it is not held by the poles",
+    "The slots break up the paths of the eddy currents, so the opposing force is much smaller",
+    "The slots let air through the plate, so there is much less air resistance on it"
+   ],
+   "correctIndex": 2,
+   "explanation": "In the solid plate, large eddy currents circulate and by Lenz's law oppose the motion, damping the swing. Slots force the currents into small loops with much less current, so the braking force is much weaker. Aluminium is not attracted to magnets.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0015",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "Why is the iron core of a transformer made from thin insulated sheets rather than a solid block?",
+   "imageRef": null,
+   "options": [
+    "To increase eddy currents in the core, which strengthen the magnetic field",
+    "To make the core lighter, which lets the magnetic flux change faster",
+    "To stop the core conducting the primary current to the secondary",
+    "To reduce eddy currents in the core, which waste energy as heat"
+   ],
+   "correctIndex": 3,
+   "explanation": "The changing flux in the core induces eddy currents, which heat it and waste energy. Thin insulated laminations break up the current paths, greatly reducing this loss.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-sace-generators-eddy-0016",
+   "topicId": "phys-sace-generators-eddy",
+   "stem": "A coil carrying alternating current is buried in a road at traffic lights. How does it detect a car stopped above it?",
+   "imageRef": null,
+   "options": [
+    "The car's tyres build up charge, which flows into the coil when the car stops",
+    "Its field induces eddy currents in the car's metal, whose fields alter the coil's current",
+    "The car's weight presses down on the coil, changing its resistance and so its current",
+    "The car's engine sends out a radio signal that the buried coil picks up from above"
+   ],
+   "correctIndex": 1,
+   "explanation": "The coil's alternating magnetic field induces eddy currents in the metal of the car. These currents make their own changing field, which affects the coil's circuit, and the change is detected. Metal detectors work on the same principle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-sace-generators-eddy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

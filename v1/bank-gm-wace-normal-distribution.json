@@ -1,0 +1,727 @@
+{
+ "topicId": "gm-wace-normal-distribution",
+ "questions": [
+  {
+   "id": "gm-wace-normal-distribution-0001",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "A standard score (z-score) tells you:",
+   "imageRef": null,
+   "options": [
+    "how many standard deviations a value lies from the mean",
+    "the percentage of values that lie below a given value",
+    "how far a value lies from the median, in the units of the data",
+    "the number of values that lie within one standard deviation"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = (x \u2212 mean) \u00f7 standard deviation, so it counts standard deviations from the mean, with a sign showing above or below. The percentage below a value is a percentile, which is a different measure.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0002",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Adult male heights are normally distributed with mean 176 cm and standard deviation 8 cm. What is the standard score of a height of 192 cm?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "\u22122",
+    "0.5",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "z = (192 \u2212 176) \u00f7 8 = 16 \u00f7 8 = 2. The value 16 is the distance in centimetres before dividing by the standard deviation, and 0.5 divides the wrong way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0003",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "In any normally distributed data set, a value equal to the mean has a standard score of:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0.5",
+    "50",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "z = (x \u2212 mean) \u00f7 s, and x \u2212 mean = 0, so z = 0. Half the data lie below the mean, but that is a percentage (50%), not a standard score.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0004",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Test scores have mean 60 and standard deviation 5. What is the standard score of a mark of 52?",
+   "imageRef": null,
+   "options": [
+    "\u22120.625",
+    "\u22121.6",
+    "1.6",
+    "\u22128"
+   ],
+   "correctIndex": 1,
+   "explanation": "z = (52 \u2212 60) \u00f7 5 = \u22128 \u00f7 5 = \u22121.6. The sign is negative because the mark is below the mean; \u22128 is the raw difference before dividing by 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0005",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Mia scored 74 in Maths (mean 65, standard deviation 6) and 80 in English (mean 72, standard deviation 8). Relative to each class, in which subject did she do better?",
+   "imageRef": null,
+   "options": [
+    "English, with z = 1.0 against z = 0.7",
+    "English, because 80 is higher than 74",
+    "Equally well, as both are above the mean",
+    "Maths, with z = 1.5 against z = 1.0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Maths: z = (74 \u2212 65) \u00f7 6 = 1.5. English: z = (80 \u2212 72) \u00f7 8 = 1.0. The higher standard score shows the better relative result, even though the raw English mark is higher.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0006",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "A data set is normally distributed with mean 50 and standard deviation 4. Which value has a standard score of \u22122.5?",
+   "imageRef": null,
+   "options": [
+    "60",
+    "47.5",
+    "52.5",
+    "40"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = mean + z \u00d7 s = 50 + (\u22122.5)(4) = 50 \u2212 10 = 40. The value 60 uses +2.5, and 47.5 subtracts 2.5 without multiplying by the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0007",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "A brand of battery lasts a mean of 40 hours. One battery has a standard score of \u22121.5. This means the battery:",
+   "imageRef": null,
+   "options": [
+    "lasted 1.5 standard deviations less than the mean",
+    "lasted 1.5 hours less than the mean",
+    "lasted longer than 15% of all batteries tested",
+    "lasted 1.5 standard deviations more than the mean"
+   ],
+   "correctIndex": 0,
+   "explanation": "A negative standard score is below the mean, and its size counts standard deviations, not hours. To get hours you would need the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0008",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Ava's score had a standard score of 0.8 in a test with mean 70 and standard deviation 10. Ben scored 78 in a different test with mean 72 and standard deviation 4. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Both scored 78, but Ben did better relative to his group",
+    "Ava scored 78 and did better relative to her group",
+    "Ava scored 78.8, so she did better than Ben",
+    "Ben's standard score is 0.6, so Ava did better"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ava: x = 70 + 0.8 \u00d7 10 = 78. Ben: z = (78 \u2212 72) \u00f7 4 = 1.5. Both raw scores are 78, but Ben's standard score of 1.5 beats Ava's 0.8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0009",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Bottles are filled with a mean of 500 mL and standard deviation 4 mL, normally distributed. About what percentage of bottles hold between 492 mL and 508 mL?",
+   "imageRef": null,
+   "options": [
+    "95%",
+    "68%",
+    "99.7%",
+    "47.5%"
+   ],
+   "correctIndex": 0,
+   "explanation": "492 and 508 are each 8 mL, or two standard deviations, from the mean, and about 95% of normal data lie within two standard deviations. One standard deviation either side would give 68%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0010",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "For normally distributed data, about what percentage of values lie more than one standard deviation above the mean?",
+   "imageRef": null,
+   "options": [
+    "34%",
+    "2.5%",
+    "16%",
+    "32%"
+   ],
+   "correctIndex": 2,
+   "explanation": "68% lie within one standard deviation, so 32% lie outside, split equally: 16% above and 16% below. The value 34% is the share between the mean and one standard deviation above it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0011",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "For normally distributed data, about what percentage of values lie more than two standard deviations below the mean?",
+   "imageRef": null,
+   "options": [
+    "2.5%",
+    "5%",
+    "16%",
+    "0.15%"
+   ],
+   "correctIndex": 0,
+   "explanation": "95% lie within two standard deviations, leaving 5% in the two tails, so 2.5% lie below. The value 5% counts both tails, and 0.15% is the tail beyond three standard deviations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0012",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Egg masses are normally distributed with mean 60 g and standard deviation 4 g. In a batch of 2000 eggs, about how many weigh more than 68 g?",
+   "imageRef": null,
+   "options": [
+    "50",
+    "100",
+    "320",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "68 g is two standard deviations above the mean, and about 2.5% of values lie beyond that: 0.025 \u00d7 2000 = 50. The value 100 uses 5%, which counts both tails.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0013",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Using the 68-95-99.7 rule for normally distributed data, what percentage of values lie between three standard deviations below the mean and one standard deviation above it?",
+   "imageRef": null,
+   "options": [
+    "99.7%",
+    "97.35%",
+    "83.85%",
+    "81.5%"
+   ],
+   "correctIndex": 2,
+   "explanation": "From \u22123 to 0 is half of 99.7%, which is 49.85%, and from 0 to +1 is half of 68%, which is 34%. The total is 83.85%. The value 81.5% is the share from \u22121 to +2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0014",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Why can't the 68%, 95%, 99.7% rule be used to find the proportion of values more than 1.3 standard deviations above the mean?",
+   "imageRef": null,
+   "options": [
+    "It only applies to discrete numerical data",
+    "It only gives proportions for whole numbers of standard deviations",
+    "It only applies to data with a mean of zero",
+    "It only works for values that lie below the mean"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rule gives the proportions within one, two and three standard deviations. For 1.3 standard deviations you need technology or a table of standard normal values. The rule applies to any normal distribution, whatever its mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0015",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Heights are normally distributed with mean 170 cm and standard deviation 8 cm. Given P(Z < 1.25) = 0.8944, what is the probability that a person is shorter than 180 cm?",
+   "imageRef": null,
+   "options": [
+    "0.8944",
+    "0.1056",
+    "0.8413",
+    "0.3944"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = (180 \u2212 170) \u00f7 8 = 1.25, so P(X < 180) = P(Z < 1.25) = 0.8944. The value 0.1056 is the probability of being taller, and 0.3944 is only the area between the mean and 180 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0016",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Heights are normally distributed with mean 170 cm and standard deviation 8 cm. Given P(Z < 1.25) = 0.8944, what is the probability that a person is taller than 180 cm?",
+   "imageRef": null,
+   "options": [
+    "0.1056",
+    "0.8944",
+    "0.3944",
+    "0.6056"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = 1.25, and P(Z > 1.25) = 1 \u2212 0.8944 = 0.1056. The value 0.8944 is the area to the left, and 0.6056 subtracts 0.3944 from 1, mixing up two different areas.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0017",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Given P(Z < 1.5) = 0.9332, what is P(Z < \u22121.5)?",
+   "imageRef": null,
+   "options": [
+    "\u22120.9332",
+    "0.0668",
+    "0.9332",
+    "0.4332"
+   ],
+   "correctIndex": 1,
+   "explanation": "The normal curve is symmetric, so P(Z < \u22121.5) = P(Z > 1.5) = 1 \u2212 0.9332 = 0.0668. A probability can never be negative, and 0.4332 is the area between 0 and 1.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0018",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "For any normal distribution, what is the probability that a randomly chosen value is greater than the mean?",
+   "imageRef": null,
+   "options": [
+    "0.34",
+    "1",
+    "0.5",
+    "0.68"
+   ],
+   "correctIndex": 2,
+   "explanation": "The normal curve is symmetric about the mean, so half the area lies above it. The value 0.68 is the area within one standard deviation, and 0.34 is the area from the mean to one standard deviation above.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0019",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Times to finish a puzzle are normally distributed with mean 60 s and standard deviation 4 s. Given P(Z < 0.5) = 0.6915 and P(Z < 1.5) = 0.9332, what is P(58 < X < 66)?",
+   "imageRef": null,
+   "options": [
+    "0.3085",
+    "0.9332",
+    "0.6247",
+    "0.2417"
+   ],
+   "correctIndex": 2,
+   "explanation": "z = (58 \u2212 60) \u00f7 4 = \u22120.5 and z = (66 \u2212 60) \u00f7 4 = 1.5. P(Z < \u22120.5) = 1 \u2212 0.6915 = 0.3085, so the probability is 0.9332 \u2212 0.3085 = 0.6247. Subtracting 0.6915 directly gives 0.2417, which treats \u22120.5 as +0.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0020",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Flight times are normally distributed with mean 95 min and standard deviation 5 min. Given P(Z < 2) = 0.9772, about how many of 400 flights take longer than 105 min?",
+   "imageRef": null,
+   "options": [
+    "391",
+    "20",
+    "2",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "z = (105 \u2212 95) \u00f7 5 = 2, so P(X > 105) = 1 \u2212 0.9772 = 0.0228, and 0.0228 \u00d7 400 \u2248 9. The value 391 counts the flights under 105 minutes, and 20 uses 5%, which counts both tails.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0021",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Packets labelled 500 g have masses normally distributed with mean 505 g and standard deviation 2.5 g. Given P(Z < 2) = 0.9772, what proportion are underweight (less than 500 g)?",
+   "imageRef": null,
+   "options": [
+    "0.9772",
+    "0.4772",
+    "0.05",
+    "0.0228"
+   ],
+   "correctIndex": 3,
+   "explanation": "z = (500 \u2212 505) \u00f7 2.5 = \u22122, and by symmetry P(Z < \u22122) = 1 \u2212 0.9772 = 0.0228. The value 0.4772 is the area between \u22122 and the mean, and 0.05 counts both tails.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0022",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "A machine fills packets with a normally distributed mass. Which change would reduce the proportion of packets under the labelled mass, which is below the mean?",
+   "imageRef": null,
+   "options": [
+    "Increase both the mean fill and the standard deviation",
+    "Decrease the mean fill and reduce the standard deviation",
+    "Increase the mean fill or reduce the standard deviation",
+    "Decrease the mean fill or increase the standard deviation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both changes make the labelled mass more standard deviations below the mean, so the tail below it shrinks. A larger standard deviation spreads more packets into the low tail.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0023",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Scores are normally distributed with mean 70 and standard deviation 10. Given P(Z < 0.4) = 0.6554 and P(Z < 1) = 0.8413, what is the probability of a score between 74 and 80?",
+   "imageRef": null,
+   "options": [
+    "0.6554",
+    "0.1859",
+    "0.4967",
+    "0.8413"
+   ],
+   "correctIndex": 1,
+   "explanation": "z = (74 \u2212 70) \u00f7 10 = 0.4 and z = (80 \u2212 70) \u00f7 10 = 1, so the probability is 0.8413 \u2212 0.6554 = 0.1859. The value 0.4967 adds the two values and subtracts 1, which is not the area between them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0024",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "For a set of normally distributed data, the 90th percentile is the value:",
+   "imageRef": null,
+   "options": [
+    "that is 0.9 standard deviations above the mean",
+    "below which 90% of the data lie",
+    "above which 90% of the data lie",
+    "that is 90% of the way from the minimum"
+   ],
+   "correctIndex": 1,
+   "explanation": "A quantile or percentile is a cut-off: 90% of values are below the 90th percentile and 10% above. It is not 0.9 standard deviations above the mean; that value is only about the 82nd percentile.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0025",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "For any normal distribution, the 50th percentile is equal to the:",
+   "imageRef": null,
+   "options": [
+    "upper quartile",
+    "mean plus one standard deviation",
+    "mean",
+    "standard deviation"
+   ],
+   "correctIndex": 2,
+   "explanation": "A normal distribution is symmetric, so half the values lie below the mean: the median and the mean coincide. The upper quartile is the 75th percentile.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0026",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Heights have mean 170 cm and standard deviation 8 cm, normally distributed. The 90th percentile of the standard normal distribution is z = 1.28. What is the 90th percentile height, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "159.8 cm",
+    "178.0 cm",
+    "180.2 cm",
+    "171.3 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "x = mean + z \u00d7 s = 170 + 1.28 \u00d7 8 = 170 + 10.24 = 180.2 cm. The value 159.8 cm uses \u22121.28, which is the 10th percentile, and 171.3 cm adds 1.28 without multiplying by 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0027",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Exam marks are normally distributed with mean 62 and standard deviation 10. The top 5% receive an award. Given the standard normal value z = 1.645 has 5% above it, what is the lowest mark for an award, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "45.6",
+    "63.6",
+    "82.0",
+    "78.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cut-off = 62 + 1.645 \u00d7 10 = 78.45, or 78.5. The value 45.6 subtracts, giving the bottom 5%, and 82.0 uses the 95% rule's two standard deviations, which leaves only 2.5% above.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0028",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Battery life is normally distributed with mean 40 h and standard deviation 3 h. A maker will replace the worst 10%. Given z = \u22121.28 has 10% below it, what is the warranty cut-off, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "43.8 h",
+    "38.7 h",
+    "30.0 h",
+    "36.2 h"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cut-off = 40 + (\u22121.28)(3) = 40 \u2212 3.84 = 36.16, or 36.2 h. The value 43.8 h is the 90th percentile, which marks the best 10% instead of the worst.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0029",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "IQ scores are normally distributed with mean 100 and standard deviation 15. The quartiles of the standard normal distribution are z = \u00b10.674. What is the interquartile range, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "30.0",
+    "15.0",
+    "20.2",
+    "10.1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q1 = 100 \u2212 0.674 \u00d7 15 = 89.9 and Q3 = 100 + 0.674 \u00d7 15 = 110.1, so the IQR is 110.1 \u2212 89.9 = 20.2. The value 10.1 is only the distance from the mean to one quartile.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0030",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Rainfall totals are normally distributed with mean 12 mm and standard deviation 1.5 mm. Using the 68%, 95%, 99.7% rule, which total has about 2.5% of values above it?",
+   "imageRef": null,
+   "options": [
+    "15 mm",
+    "13.5 mm",
+    "16.5 mm",
+    "9 mm"
+   ],
+   "correctIndex": 0,
+   "explanation": "About 2.5% of values lie more than two standard deviations above the mean: 12 + 2 \u00d7 1.5 = 15 mm. The value 13.5 mm has about 16% above it, and 9 mm has 2.5% below it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0031",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Given P(Z < 0.84) = 0.80, what is the standard score of the 20th percentile of a normal distribution?",
+   "imageRef": null,
+   "options": [
+    "0.84",
+    "0.20",
+    "\u22120.20",
+    "\u22120.84"
+   ],
+   "correctIndex": 3,
+   "explanation": "By symmetry, 20% of the area lies below \u22120.84 because 20% lies above 0.84. The 20th percentile is below the mean, so its standard score must be negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0032",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Which order of steps describes the statistical investigation process?",
+   "imageRef": null,
+   "options": [
+    "Pose a question, analyse data, collect data, then interpret it",
+    "Pose a question, collect data, analyse data, interpret and communicate",
+    "Collect data, pose a question, interpret, then analyse the data",
+    "Analyse data, pose a question, collect data, communicate results"
+   ],
+   "correctIndex": 1,
+   "explanation": "An investigation starts by identifying a problem and posing a statistical question, then collecting or obtaining data, analysing it, and finally interpreting and communicating the results. Data cannot be analysed before it is collected.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0033",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Which of these is a statistical question?",
+   "imageRef": null,
+   "options": [
+    "How long do Year 11 students at our school usually sleep?",
+    "How many hours did I sleep on Tuesday night?",
+    "What time does the school bus leave each day?",
+    "How many students are enrolled in Year 11?"
+   ],
+   "correctIndex": 0,
+   "explanation": "A statistical question anticipates variability in the data and is answered by collecting and analysing many values. The others each have one fixed answer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0034",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "In the statistical investigation process, drawing a histogram and calculating the mean and standard deviation belong to which step?",
+   "imageRef": null,
+   "options": [
+    "Analysing the data",
+    "Posing the question",
+    "Collecting the data",
+    "Communicating the results"
+   ],
+   "correctIndex": 0,
+   "explanation": "Displays and summary statistics are how the data are analysed. Communicating comes after, when the results are interpreted and reported in the context of the original question.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0035",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "Before using normal distribution calculations on a data set, you should check that its distribution is:",
+   "imageRef": null,
+   "options": [
+    "made up of categorical data only",
+    "unimodal, symmetric and bell-shaped",
+    "positively skewed with one long tail",
+    "bimodal with two clear peaks"
+   ],
+   "correctIndex": 1,
+   "explanation": "Normal calculations assume a single-peaked, symmetric bell shape. For skewed or bimodal data the percentages they give, such as 68% within one standard deviation, can be badly wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0036",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "In a large data set, 30% of values lie more than one standard deviation above the mean. What does this suggest?",
+   "imageRef": null,
+   "options": [
+    "The 68%, 95%, 99.7% rule has been misremembered",
+    "The data are probably not normally distributed",
+    "The data are normal with a large mean",
+    "The data are normal with a small standard deviation"
+   ],
+   "correctIndex": 1,
+   "explanation": "For normal data only about 16% of values lie more than one standard deviation above the mean, whatever the mean and standard deviation. Nearly twice that suggests a skewed or otherwise non-normal shape.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0037",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "A runner's time has a standard score of 3.4 in a normally distributed set of race times. How should this time be described?",
+   "imageRef": null,
+   "options": [
+    "About 3.4 seconds slower than the mean time",
+    "Very unusual, beyond where 99.7% of times lie",
+    "Typical, as most times lie within four standard deviations",
+    "In the top 34% of times, as z is above 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "About 99.7% of normal data lie within three standard deviations, so a standard score of 3.4 is very rare and worth checking as a possible outlier. A standard score counts standard deviations, not seconds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-wace-normal-distribution-0038",
+   "topicId": "gm-wace-normal-distribution",
+   "stem": "An investigation asked whether a new bread mix gives taller loaves. The final step should:",
+   "imageRef": null,
+   "options": [
+    "list the raw data without any interpretation",
+    "answer the question in context, using the analysis",
+    "pose a new question about a different bread mix",
+    "repeat the calculations with a different formula"
+   ],
+   "correctIndex": 1,
+   "explanation": "Interpreting and communicating means stating what the analysis shows about the original question, in context, and noting any limitations. Listing raw data leaves the question unanswered.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-wace-normal-distribution-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

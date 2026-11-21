@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-hsc-mechanics",
+ "questions": [
+  {
+   "id": "spec-hsc-mechanics-0001",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "For a particle whose velocity v is a function of its displacement x, the acceleration can be written as:",
+   "imageRef": null,
+   "options": [
+    "dx/dv",
+    "v(dv/dx)",
+    "dv/dx",
+    "v\u00b2/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, dv/dt = (dv/dx)(dx/dt) = v(dv/dx), which also equals d/dx(v\u00b2/2). The derivative dv/dx alone has the wrong units for acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0002",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "Integrating v(dv/dx) = a, where a is constant and v = u when x = 0, gives:",
+   "imageRef": null,
+   "options": [
+    "x = ut + at\u00b2/2",
+    "v\u00b2 = u\u00b2 + 2ax",
+    "v = u + ax",
+    "v\u00b2 = u\u00b2 + ax"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, v dv = a dx, so v\u00b2/2 = ax + c, and c = u\u00b2/2. Doubling gives v\u00b2 = u\u00b2 + 2ax. Forgetting to double the right side gives u\u00b2 + ax.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0003",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves in a straight line so that v\u00b2 = 4 + 6x \u2212 x\u00b2. Its acceleration in terms of x is:",
+   "imageRef": null,
+   "options": [
+    "\u2212x",
+    "3 \u2212 x",
+    "6 \u2212 2x",
+    "(3 \u2212 x)/v"
+   ],
+   "correctIndex": 1,
+   "explanation": "a = d/dx(v\u00b2/2) = d/dx(2 + 3x \u2212 x\u00b2/2) = 3 \u2212 x. Differentiating v\u00b2 without halving gives 6 \u2212 2x, which is twice the acceleration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0004",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves in a straight line with acceleration a = 2x, and v = 2 when x = 1. Its speed when x = 3 is:",
+   "imageRef": null,
+   "options": [
+    "\u221a10",
+    "6",
+    "20",
+    "2\u221a5"
+   ],
+   "correctIndex": 3,
+   "explanation": "v(dv/dx) = 2x gives v\u00b2/2 = x\u00b2 + c. At x = 1, 2 = 1 + c, so c = 1 and v\u00b2 = 2x\u00b2 + 2. At x = 3, v\u00b2 = 20, so the speed is \u221a20 = 2\u221a5. The value 20 is v\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0005",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves in a straight line with dv/dt = \u2212(1 + v\u00b2), starting with v = 1. How long does it take to come to rest?",
+   "imageRef": null,
+   "options": [
+    "ln 2",
+    "\u03c0/4",
+    "\u03c0/2",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, dt = \u2212dv/(1 + v\u00b2), so the time is the integral of 1/(1 + v\u00b2) from v = 0 to v = 1, which is tan\u207b\u00b9(1) \u2212 tan\u207b\u00b9(0) = \u03c0/4. The value ln 2 would come from integrating 2v/(1 + v\u00b2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0006",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A net force of 12 N acts on a 3 kg mass. Its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "36 m/s\u00b2",
+    "0.25 m/s\u00b2",
+    "15 m/s\u00b2",
+    "4 m/s\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Newton's second law, F = ma, gives a = F/m = 12/3 = 4 m/s\u00b2. Multiplying gives 36, and dividing the other way gives 0.25.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0007",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "By Newton's third law, the two forces in an action-reaction pair:",
+   "imageRef": null,
+   "options": [
+    "are equal and opposite and act on different bodies",
+    "are equal and opposite and act on the same body",
+    "always cancel, so neither body accelerates",
+    "differ in size when one body is heavier"
+   ],
+   "correctIndex": 0,
+   "explanation": "When A pushes on B, B pushes back on A with an equal and opposite force. Because they act on different bodies, they never cancel each other, and their sizes do not depend on the masses.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0008",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A force of 20 N acts at 30\u00b0 above the horizontal. Its horizontal component is:",
+   "imageRef": null,
+   "options": [
+    "40/\u221a3 N",
+    "10\u221a3 N",
+    "10 N",
+    "20\u221a3 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "The horizontal component is 20cos 30\u00b0 = 20 \u00d7 \u221a3/2 = 10\u221a3 N. The value 10 N is the vertical component, 20sin 30\u00b0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0009",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A force F = 3i + 4j + 12k newtons acts on a body. The part of F acting in the direction of d = 2i \u2212 j + 2k has magnitude:",
+   "imageRef": null,
+   "options": [
+    "26 N",
+    "13 N",
+    "26/9 N",
+    "26/3 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "The scalar projection is F.d/|d| = (6 \u2212 4 + 24)/3 = 26/3 N, since |d| = 3. The value 13 N is |F| itself, and 26/9 divides by |d|\u00b2 instead of |d|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0010",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle is in simple harmonic motion when its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "proportional to its velocity, and directed against the motion",
+    "proportional to its displacement from the centre, and directed towards the centre",
+    "proportional to its displacement from the centre, and directed away from the centre",
+    "constant in size and always directed towards the centre of motion"
+   ],
+   "correctIndex": 1,
+   "explanation": "SHM is defined by d\u00b2x/dt\u00b2 = \u2212n\u00b2(x \u2212 c): the acceleration is proportional to the displacement x \u2212 c, and the minus sign makes it point back towards the centre c. Acceleration against the velocity describes resisted motion, not SHM.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0011",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that d\u00b2x/dt\u00b2 = \u22129(x \u2212 2). Its period and centre of motion are:",
+   "imageRef": null,
+   "options": [
+    "period 2\u03c0/9, centre x = 2",
+    "period 2\u03c0/3, centre x = \u22122",
+    "period 6\u03c0, centre x = 2",
+    "period 2\u03c0/3, centre x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Comparing with d\u00b2x/dt\u00b2 = \u2212n\u00b2(x \u2212 c), n\u00b2 = 9 so n = 3, and c = 2. The period is 2\u03c0/n = 2\u03c0/3. Using n\u00b2 = 9 in the period formula gives 2\u03c0/9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0012",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "At the extreme points of its path, a particle in simple harmonic motion has:",
+   "imageRef": null,
+   "options": [
+    "zero velocity and zero acceleration",
+    "greatest speed and greatest acceleration",
+    "zero velocity and acceleration of greatest magnitude",
+    "greatest speed and zero acceleration"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the ends of the path the particle momentarily stops, so v = 0, and it is furthest from the centre, so |d\u00b2x/dt\u00b2| = n\u00b2A is greatest. At the centre the opposite holds: greatest speed, zero acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0013",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that x = 3cos(2t). Its velocity is:",
+   "imageRef": null,
+   "options": [
+    "v = \u22123sin(2t)",
+    "v = \u221212cos(2t)",
+    "v = \u22126sin(2t)",
+    "v = 6sin(2t)"
+   ],
+   "correctIndex": 2,
+   "explanation": "v = dx/dt = 3 \u00d7 (\u2212sin(2t)) \u00d7 2 = \u22126sin(2t). Forgetting the chain rule factor 2 gives \u22123sin(2t), and \u221212cos(2t) is the acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0014",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that x = 3sin(2t + \u03c0/4) + 1. It oscillates between:",
+   "imageRef": null,
+   "options": [
+    "x = 1 and x = 4",
+    "x = \u22121 and x = 5",
+    "x = \u22122 and x = 4",
+    "x = \u22123 and x = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The centre is x = 1 and the amplitude is 3, so the particle moves between 1 \u2212 3 = \u22122 and 1 + 3 = 4. The phase \u03c0/4 shifts the timing, not the extremes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0015",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that x = 5cos(3t) + 2. Its greatest speed, and where it occurs, are:",
+   "imageRef": null,
+   "options": [
+    "15, at x = 7",
+    "5, at x = 2",
+    "45, at x = 2",
+    "15, at x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "v = \u221215sin(3t), so the greatest speed is An = 5 \u00d7 3 = 15, reached at the centre x = 2. At x = 7, an extreme, the particle is at rest. The value 45 is the greatest acceleration, An\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0016",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle in simple harmonic motion has n = 2, amplitude 5 and centre x = 0. Its speed when x = 3 is:",
+   "imageRef": null,
+   "options": [
+    "16",
+    "64",
+    "8",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "v\u00b2 = n\u00b2(A\u00b2 \u2212 x\u00b2) = 4(25 \u2212 9) = 64, so the speed is 8. Forgetting the factor n\u00b2 gives 4, and 64 is v\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0017",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that v\u00b2 = 36 \u2212 4x\u00b2. Its amplitude and period are:",
+   "imageRef": null,
+   "options": [
+    "amplitude 9, period \u03c0/2",
+    "amplitude 3, period \u03c0",
+    "amplitude 6, period \u03c0",
+    "amplitude 3, period 2\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "v\u00b2 = 4(9 \u2212 x\u00b2) matches v\u00b2 = n\u00b2(A\u00b2 \u2212 x\u00b2) with n = 2 and A = 3, so the period is 2\u03c0/2 = \u03c0. Reading A\u00b2 as 36 ignores the factor n\u00b2 = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0018",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that x = 2sin(3t) + 2\u221a3cos(3t) \u2212 1. This is simple harmonic motion with:",
+   "imageRef": null,
+   "options": [
+    "centre x = \u22121, amplitude 2 + 2\u221a3, period 2\u03c0/3",
+    "centre x = 1, amplitude 4, period 2\u03c0/3",
+    "centre x = \u22121, amplitude 4, period 2\u03c0/9",
+    "centre x = \u22121, amplitude 4, period 2\u03c0/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "d\u00b2x/dt\u00b2 = \u22129(x + 1), so the centre is x = \u22121 and n = 3, giving period 2\u03c0/3. The amplitude is \u221a(2\u00b2 + (2\u221a3)\u00b2) = \u221a16 = 4. Adding the coefficients gives 2 + 2\u221a3, which is too big.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0019",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle in simple harmonic motion with n = \u03c0 and centre x = 2 starts from rest at x = 6. Its displacement is:",
+   "imageRef": null,
+   "options": [
+    "x = 4sin(\u03c0t) + 2",
+    "x = 4cos(\u03c0t) \u2212 2",
+    "x = 4cos(\u03c0t) + 2",
+    "x = 6cos(\u03c0t) + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Starting at rest at an extreme suits the form x = Acos(nt) + c. The amplitude is the distance from the centre, 6 \u2212 2 = 4, so x = 4cos(\u03c0t) + 2. The sine form would start at the centre with greatest speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0020",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves so that x = 4cos(\u03c0t) + 2, with t in seconds. How long after t = 0 does it first reach x = 4?",
+   "imageRef": null,
+   "options": [
+    "1/6 s",
+    "2/3 s",
+    "1/3 s",
+    "1/2 s"
+   ],
+   "correctIndex": 2,
+   "explanation": "4cos(\u03c0t) + 2 = 4 gives cos(\u03c0t) = 1/2, so \u03c0t = \u03c0/3 and t = 1/3 s. The centre is reached at t = 1/2 s, but halfway in distance is not halfway in time: the particle starts slowly, then speeds up.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0021",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A 2 kg mass moves so that d\u00b2x/dt\u00b2 = \u221216x, with x in metres. When x = 0.5, the force on it is:",
+   "imageRef": null,
+   "options": [
+    "32 N towards the centre",
+    "16 N towards the centre",
+    "8 N towards the centre",
+    "16 N away from the centre"
+   ],
+   "correctIndex": 1,
+   "explanation": "The acceleration is \u221216 \u00d7 0.5 = \u22128 m/s\u00b2, so F = ma = 2 \u00d7 (\u22128) = \u221216 N: 16 N directed towards the centre, a restoring force. Leaving out the mass gives 8 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0022",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle slides from rest down a smooth plane inclined at \u03b8 to the horizontal. Its acceleration down the plane is:",
+   "imageRef": null,
+   "options": [
+    "g tan \u03b8",
+    "g",
+    "g sin \u03b8",
+    "g cos \u03b8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Resolving the weight mg, the component along the plane is mg sin \u03b8, and the normal reaction balances mg cos \u03b8. So the acceleration is g sin \u03b8. The component g cos \u03b8 acts into the plane.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0023",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A 5 kg block rests on a smooth plane inclined at 30\u00b0. Take g = 10 m/s\u00b2. The normal reaction force on the block is:",
+   "imageRef": null,
+   "options": [
+    "50\u221a3 N",
+    "25\u221a3 N",
+    "25 N",
+    "50 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "Perpendicular to the plane there is no acceleration, so N = mg cos 30\u00b0 = 50 \u00d7 \u221a3/2 = 25\u221a3 N. The value 25 N is mg sin 30\u00b0, the component along the plane.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0024",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle is projected up a smooth plane inclined at 30\u00b0 with speed 10 m/s. Take g = 10 m/s\u00b2. How far up the plane does it travel before stopping?",
+   "imageRef": null,
+   "options": [
+    "10\u221a3 m",
+    "10 m",
+    "5 m",
+    "20 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The deceleration along the plane is g sin 30\u00b0 = 5 m/s\u00b2. From v\u00b2 = u\u00b2 \u2212 2as, 0 = 100 \u2212 10s, so s = 10 m. Using the full g gives 5 m, the vertical-throw answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0025",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A 3 kg block on a smooth horizontal table is joined by a light string over a smooth pulley to a 2 kg mass hanging freely. Take g = 10 m/s\u00b2. The acceleration and the tension are:",
+   "imageRef": null,
+   "options": [
+    "a = 2 m/s\u00b2, T = 6 N",
+    "a = 4 m/s\u00b2, T = 12 N",
+    "a = 4 m/s\u00b2, T = 20 N",
+    "a = 20/3 m/s\u00b2, T = 20 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "For the hanging mass, 20 \u2212 T = 2a; for the block, T = 3a. Adding, 20 = 5a, so a = 4 m/s\u00b2 and T = 12 N. The tension is less than the 20 N weight because the hanging mass is accelerating downwards.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0026",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A 4 kg block on a smooth plane inclined at 30\u00b0 is joined by a string over a smooth pulley at the top to a 6 kg mass hanging freely. Take g = 10 m/s\u00b2. The acceleration of the system is:",
+   "imageRef": null,
+   "options": [
+    "6 m/s\u00b2, with the hanging mass descending",
+    "4 m/s\u00b2, with the hanging mass rising",
+    "2 m/s\u00b2, with the hanging mass descending",
+    "4 m/s\u00b2, with the hanging mass descending"
+   ],
+   "correctIndex": 3,
+   "explanation": "The hanging weight is 60 N, and the block's weight component down the plane is 40 sin 30\u00b0 = 20 N. The net force is 40 N on a total mass of 10 kg, so a = 4 m/s\u00b2, with the 6 kg mass moving down.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0027",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle moves horizontally, slowed only by a resistance of mkv newtons, where m is its mass, v its velocity and k > 0. Its equation of motion is:",
+   "imageRef": null,
+   "options": [
+    "dv/dt = \u2212kx",
+    "dv/dt = \u2212kv",
+    "dv/dt = kv",
+    "dv/dt = \u2212g \u2212 kv"
+   ],
+   "correctIndex": 1,
+   "explanation": "Newton's second law gives m(dv/dt) = \u2212mkv, the minus sign because the resistance opposes the motion. Gravity acts vertically, so it does not appear in horizontal motion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0028",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle has dv/dt = \u2212kv and initial velocity u. Its velocity at time t is:",
+   "imageRef": null,
+   "options": [
+    "v = ue^(kt)",
+    "v = u/(1 + ukt)",
+    "v = ue^(\u2212kt)",
+    "v = u \u2212 kt"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating, the integral of dv/v = \u2212k dt gives ln(v/u) = \u2212kt, so v = ue^(\u2212kt). The form u/(1 + ukt) belongs to resistance proportional to v\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0029",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle has dv/dt = \u2212kv and initial velocity u at x = 0. Its velocity as a function of displacement is:",
+   "imageRef": null,
+   "options": [
+    "v = \u221a(u\u00b2 \u2212 2kx)",
+    "v = u \u2212 kx",
+    "v = ue^(\u2212kx)",
+    "v = u/(1 + ukx)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write the acceleration as v(dv/dx) = \u2212kv, so dv/dx = \u2212k and v = u \u2212 kx. The exponential form ue^(\u2212kx) is the result for resistance proportional to v\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0030",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A boat cuts its engine at speed u and is slowed by a resistance giving dv/dt = \u2212kv. How far does it travel after the engine is cut?",
+   "imageRef": null,
+   "options": [
+    "infinitely far, since v never reaches zero",
+    "at most u/k, approached but never reached",
+    "exactly u\u00b2/k, reached in finite time",
+    "exactly ku, reached when v = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = u \u2212 kx, and v > 0 for all t because v = ue^(\u2212kt). So x < u/k always, and x \u2192 u/k as t \u2192 \u221e. Although the boat never stops, the distance it covers stays bounded.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0031",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle has dv/dt = \u2212kv\u00b2 and initial velocity u at x = 0. Its velocity as a function of displacement is:",
+   "imageRef": null,
+   "options": [
+    "v = u/(1 + ukx)",
+    "v = ue^(\u2212kx\u00b2/2)",
+    "v = ue^(\u2212kx)",
+    "v = u \u2212 kx"
+   ],
+   "correctIndex": 2,
+   "explanation": "Writing v(dv/dx) = \u2212kv\u00b2 gives dv/dx = \u2212kv, so v = ue^(\u2212kx). The form u/(1 + ukt), with t instead of x, is the velocity as a function of time.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0032",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle falls from rest through a medium giving a resistance of mkv newtons. Taking downwards as positive, its equation of motion is:",
+   "imageRef": null,
+   "options": [
+    "dv/dt = g + kv",
+    "dv/dt = kv \u2212 g",
+    "dv/dt = g \u2212 kv",
+    "dv/dt = \u2212g \u2212 kv"
+   ],
+   "correctIndex": 2,
+   "explanation": "Gravity mg acts down, in the positive direction, and the resistance mkv acts up, against the motion. Dividing m(dv/dt) = mg \u2212 mkv by m gives g \u2212 kv. The form \u2212g \u2212 kv is for a particle moving upwards with up as positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0033",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle falls with dv/dt = g \u2212 kv\u00b2, downwards positive. Its terminal velocity is:",
+   "imageRef": null,
+   "options": [
+    "\u221a(g/k)",
+    "g/k",
+    "\u221a(k/g)",
+    "g/k\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Terminal velocity is reached when the acceleration is 0: g \u2212 kv\u00b2 = 0 gives v = \u221a(g/k). The value g/k is the terminal velocity for resistance proportional to v instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0034",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A skydiver falls with dv/dt = 10 \u2212 0.004v\u00b2, in m/s and seconds, downwards positive. Her terminal velocity is:",
+   "imageRef": null,
+   "options": [
+    "2500 m/s",
+    "25 m/s",
+    "250 m/s",
+    "50 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "Setting 10 \u2212 0.004v\u00b2 = 0 gives v\u00b2 = 2500, so v = 50 m/s. The value 2500 is v\u00b2 rather than v, and the other values come from slips with the decimal 0.004.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0035",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A ball is thrown vertically upwards and moves through air with resistance. Compared with its time to rise, its time to fall back to the launch point is:",
+   "imageRef": null,
+   "options": [
+    "longer, because it is slower at each height on the way down",
+    "shorter, because gravity and resistance both act downwards",
+    "the same, because the path up and the path down are the same length",
+    "the same, because gravity acts equally on both stages"
+   ],
+   "correctIndex": 0,
+   "explanation": "On the way up, gravity and resistance both slow the ball, so its deceleration exceeds g. On the way down, resistance opposes gravity, so it accelerates at less than g and is slower at every height. Covering the same distance more slowly takes longer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0036",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle is projected vertically upwards with speed u, with dv/dt = \u2212g \u2212 kv, upwards positive. The time it takes to reach its greatest height is:",
+   "imageRef": null,
+   "options": [
+    "(1/k)ln(g/(g + ku))",
+    "(1/k)ln(1 + ku/g)",
+    "u/g",
+    "(1/k)ln(1 \u2212 ku/g)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, t is the integral of dv/(g + kv) from v = 0 up to v = u, which is (1/k)ln((g + ku)/g) = (1/k)ln(1 + ku/g). The value u/g is the time with no resistance, and the last option is negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0037",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A particle is projected vertically upwards with speed u, with v(dv/dx) = \u2212(g + kv), upwards positive. Its greatest height is:",
+   "imageRef": null,
+   "options": [
+    "u\u00b2/(2g)",
+    "u/k + (g/k\u00b2)ln(1 + ku/g)",
+    "(g/k\u00b2)ln(1 + ku/g)",
+    "u/k \u2212 (g/k\u00b2)ln(1 + ku/g)"
+   ],
+   "correctIndex": 3,
+   "explanation": "x is the integral of v/(g + kv) from 0 to u. Writing v/(g + kv) = 1/k \u2212 (g/k)/(g + kv) gives u/k \u2212 (g/k\u00b2)ln(1 + ku/g). The value u\u00b2/(2g) is the height with no resistance, which is greater.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0038",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "Compared with the path of a projectile with no air resistance, the path of a projectile with resistance proportional to its speed:",
+   "imageRef": null,
+   "options": [
+    "is not symmetric: it rises more steeply than it descends, over a longer range",
+    "is not symmetric: it descends more steeply than it rises, over a shorter range",
+    "is symmetric about its highest point, but with a lower maximum height",
+    "is the same parabola, but the projectile takes longer to travel along it"
+   ],
+   "correctIndex": 1,
+   "explanation": "Without resistance the path is a symmetric parabola. Resistance continually reduces the horizontal velocity, so the projectile covers less ground on the way down than on the way up and falls more steeply, landing short of the resistance-free range.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-mechanics-0039",
+   "topicId": "spec-hsc-mechanics",
+   "stem": "A projectile is launched at speed V and angle \u03b8, with horizontal resistance giving d\u00b2x/dt\u00b2 = \u2212k(dx/dt). Its horizontal displacement at time t is:",
+   "imageRef": null,
+   "options": [
+    "x = Vt cos \u03b8",
+    "x = (V cos \u03b8/k)e^(\u2212kt)",
+    "x = (V cos \u03b8/k)(1 + e^(\u2212kt))",
+    "x = (V cos \u03b8/k)(1 \u2212 e^(\u2212kt))"
+   ],
+   "correctIndex": 3,
+   "explanation": "The horizontal velocity is V cos \u03b8 e^(\u2212kt). Integrating with x = 0 at t = 0 gives (V cos \u03b8/k)(1 \u2212 e^(\u2212kt)), which approaches V cos \u03b8/k but never reaches it. The form Vt cos \u03b8 ignores resistance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-mechanics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

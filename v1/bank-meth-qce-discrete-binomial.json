@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-qce-discrete-binomial",
+ "questions": [
+  {
+   "id": "meth-qce-discrete-binomial-0001",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "Which random variable is discrete?",
+   "imageRef": null,
+   "options": [
+    "The height of a student chosen at random",
+    "The number of cars passing a checkpoint in an hour",
+    "The time taken by a student to run 100 m",
+    "The mass of an apple chosen at random"
+   ],
+   "correctIndex": 1,
+   "explanation": "A discrete random variable takes countable values, such as 0, 1, 2 and so on, and a count of cars does this. Time, mass and height are measured on a continuous scale, so they are continuous random variables.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0002",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "Which conditions must a probability function P(X = x) of a discrete random variable satisfy?",
+   "imageRef": null,
+   "options": [
+    "Each P(X = x) is between 0 and 1, and they add to 1",
+    "Each P(X = x) is between 0 and 1, and they add to E(X)",
+    "Each P(X = x) is equal, and they add to 1",
+    "Each value x is between 0 and 1, and they add to 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every probability must lie from 0 to 1 and, because the values cover every outcome, the probabilities must sum to 1. Equal probabilities describe only the uniform case, not every probability function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0003",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A discrete random variable X takes the values 1, 2, 3 and 4 with probabilities 0.1, 0.4, k and 0.2. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "2.4",
+    "3",
+    "2.6",
+    "2.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The probabilities sum to 1, so k = 0.3. Then E(X) = 1(0.1) + 2(0.4) + 3(0.3) + 4(0.2) = 2.6. The value 2.5 is the plain average of the values, which ignores that they are not equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0004",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "P(X = x) = k(x + 1) for x = 0, 1, 2, 3. What is P(X \u2265 2)?",
+   "imageRef": null,
+   "options": [
+    "0.7",
+    "0.3",
+    "0.5",
+    "0.4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The probabilities are k, 2k, 3k and 4k, which sum to 10k = 1, so k = 0.1. Then P(X \u2265 2) = 0.3 + 0.4 = 0.7. The value 0.3 is P(X = 2) alone, and 0.4 is P(X = 3) alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0005",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A spinner is spun 200 times and lands on red 46 times. What is the point estimate of the probability of red?",
+   "imageRef": null,
+   "options": [
+    "0.25",
+    "0.77",
+    "0.23",
+    "0.46"
+   ],
+   "correctIndex": 2,
+   "explanation": "The relative frequency is 46/200 = 0.23, which is the point estimate of P(red). The value 0.46 divides by 100 instead of 200, and 0.77 is the estimate for not red.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0006",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A caf\u00e9 records the number of coffees bought by 50 customers: 30 bought one, 15 bought two and 5 bought three. Using relative frequencies, what is the estimated expected number of coffees per customer?",
+   "imageRef": null,
+   "options": [
+    "1.5",
+    "2",
+    "0.6",
+    "16.7"
+   ],
+   "correctIndex": 0,
+   "explanation": "The relative frequencies 0.6, 0.3 and 0.1 estimate the probabilities, so the estimate is 1(0.6) + 2(0.3) + 3(0.1) = 1.5. The value 2 is the middle of the three values, which ignores how often each occurred.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0007",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "In 400 plays of a game, a player scored 0 points 180 times, 1 point 140 times and 5 points 80 times. Using these results, what is the estimated expected score per play?",
+   "imageRef": null,
+   "options": [
+    "0.55",
+    "1.75",
+    "1.35",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The estimated probabilities are 180/400 = 0.45, 140/400 = 0.35 and 80/400 = 0.2, so the expected score is 0(0.45) + 1(0.35) + 5(0.2) = 1.35. The value 2 is the plain average of the scores 0, 1 and 5, and 0.55 is the estimated probability of scoring at least 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0008",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is uniformly distributed on the values 1, 2, 3, 4 and 5. What is P(X \u2265 4)?",
+   "imageRef": null,
+   "options": [
+    "3/5",
+    "4/5",
+    "2/5",
+    "1/5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each of the five values has probability 1/5, and two of them (4 and 5) are at least 4, so the answer is 2/5. Taking only the value 4 gives 1/5, which treats \"at least 4\" as \"exactly 4\".",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0009",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A fair eight-sided die is numbered 1 to 8. X is the number rolled. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "4.5",
+    "4",
+    "5",
+    "36"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a uniform distribution E(X) = (1 + 2 + ... + 8)/8 = 36/8 = 4.5. The total 36 forgets to multiply each value by its probability 1/8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0010",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is uniformly distributed on the values 1, 2 and 3. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "14/3",
+    "2/3",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mean is 2, so Var(X) = (1/3)(1 \u2212 2)\u00b2 + (1/3)(2 \u2212 2)\u00b2 + (1/3)(3 \u2212 2)\u00b2 = 2/3. The value 2 adds the squared deviations without multiplying by the probabilities, and 14/3 is the mean of x\u00b2, not the variance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0011",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "The standard deviation of a discrete random variable X is:",
+   "imageRef": null,
+   "options": [
+    "\u221aE(X)",
+    "\u221aVar(X)",
+    "(Var(X))\u00b2",
+    "Var(X)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation is the square root of the variance, which returns the spread to the units of X. Squaring the variance moves further away from those units, not back to them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0012",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X takes the values 0, 2 and 4 with probabilities 0.25, 0.5 and 0.25. What is the standard deviation of X?",
+   "imageRef": null,
+   "options": [
+    "\u221a2",
+    "2",
+    "4",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean is 2 by symmetry, so Var(X) = 0.25(4) + 0.5(0) + 0.25(4) = 2 and the standard deviation is \u221a2. The value 2 is the variance (and also the mean), not the standard deviation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0013",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X takes the values 1 and 3 with probabilities 0.6 and 0.4. Using Var(X) = \u03a3 p(x \u2212 \u03bc)\u00b2, what is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "4.2",
+    "1.8",
+    "0.96",
+    "2.08"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u03bc = 0.6 + 1.2 = 1.8, so Var(X) = 0.6(1 \u2212 1.8)\u00b2 + 0.4(3 \u2212 1.8)\u00b2 = 0.384 + 0.576 = 0.96. The value 2.08 adds the squared deviations without weighting them by the probabilities, and 1.8 is the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0014",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X takes the values \u22121, 0 and 2 with probabilities 0.3, 0.5 and 0.2. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "1.21",
+    "1.09",
+    "1.1",
+    "1.11"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03bc = \u22120.3 + 0 + 0.4 = 0.1. Then Var(X) = 0.3(\u22121.1)\u00b2 + 0.5(\u22120.1)\u00b2 + 0.2(1.9)\u00b2 = 0.363 + 0.005 + 0.722 = 1.09. The value 1.1 is \u03a3 p x\u00b2, which still needs the square of the mean, 0.01, taken away.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0015",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A player pays $k to roll a fair die. The player wins $12 for a six, $3 for a five and nothing otherwise. For the game to be fair (expected net gain zero), what is k?",
+   "imageRef": null,
+   "options": [
+    "$2.00",
+    "$7.50",
+    "$15.00",
+    "$2.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "The expected winnings are 12(1/6) + 3(1/6) = 2 + 0.5 = $2.50, so a fair price is $2.50. The value $7.50 averages the two prizes without weighting them by their probabilities.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0016",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A raffle sells 500 tickets at $2 each. There is one prize of $400 and two prizes of $100. What is the expected net gain for a person who buys one ticket?",
+   "imageRef": null,
+   "options": [
+    "$0.80",
+    "\u2212$0.80",
+    "$1.20",
+    "\u2212$1.20"
+   ],
+   "correctIndex": 1,
+   "explanation": "The expected winnings are (400 + 100 + 100)/500 = $1.20 per ticket, so the expected net gain is 1.20 \u2212 2 = \u2212$0.80. The value $1.20 forgets to subtract the cost of the ticket.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0017",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A discrete random variable X takes the values 0, 1 and 2. P(X = 0) = 0.2 and E(X) = 1.3. What is P(X = 2)?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "0.3",
+    "0.65",
+    "0.8"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let P(X = 1) = a and P(X = 2) = b. Then a + b = 0.8 and a + 2b = 1.3, so b = 0.5 and a = 0.3. The value 0.65 is 1.3/2, which ignores the contribution of X = 1 to the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0018",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "Which situation is best modelled by a Bernoulli random variable?",
+   "imageRef": null,
+   "options": [
+    "The height of a seedling after a week",
+    "Whether a single seed germinates",
+    "The number of seeds out of 20 that germinate",
+    "The time a seed takes to germinate"
+   ],
+   "correctIndex": 1,
+   "explanation": "A Bernoulli random variable models one trial with two outcomes, coded 1 for success and 0 for failure. The number of seeds out of 20 that germinate counts successes over many trials, which is binomial.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0019",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is a Bernoulli random variable with p = 0.3. What are E(X) and Var(X)?",
+   "imageRef": null,
+   "options": [
+    "0.7 and 0.21",
+    "0.3 and 0.7",
+    "0.3 and 0.21",
+    "0.3 and 0.09"
+   ],
+   "correctIndex": 2,
+   "explanation": "For a Bernoulli variable E(X) = p = 0.3 and Var(X) = p(1 \u2212 p) = 0.3 \u00d7 0.7 = 0.21. The value 0.09 is p\u00b2, which leaves out the factor 1 \u2212 p.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0020",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X = 1 if a randomly chosen voter supports a policy and X = 0 otherwise, where P(X = 1) = 0.55. What is the standard deviation of X, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "0.450",
+    "0.497",
+    "0.248",
+    "0.550"
+   ],
+   "correctIndex": 1,
+   "explanation": "X is Bernoulli with p = 0.55, so Var(X) = 0.55 \u00d7 0.45 = 0.2475 and the standard deviation is \u221a0.2475 \u2248 0.497. The value 0.248 is the variance rounded, not its square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0021",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A Bernoulli random variable has variance 0.16. Which of these could be its parameter p?",
+   "imageRef": null,
+   "options": [
+    "0.16",
+    "0.84",
+    "0.2",
+    "0.4"
+   ],
+   "correctIndex": 2,
+   "explanation": "p(1 \u2212 p) = 0.16 gives p\u00b2 \u2212 p + 0.16 = 0, so p = 0.2 or p = 0.8. The value 0.4 is \u221a0.16, which would be the standard deviation, not p.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0022",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A binomial random variable counts:",
+   "imageRef": null,
+   "options": [
+    "the successes in n trials whose probability of success changes each trial",
+    "the outcomes of one trial that has exactly two equally likely outcomes",
+    "the successes in n independent trials with the same probability of success",
+    "the trials needed until the first success occurs, with independent trials"
+   ],
+   "correctIndex": 2,
+   "explanation": "A binomial variable is the number of successes in a fixed number n of independent Bernoulli trials, each with the same probability p. Counting trials until the first success has no fixed n, so it is not binomial.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0023",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "Which of these can be modelled by a binomial distribution?",
+   "imageRef": null,
+   "options": [
+    "The number of red cards among 5 dealt without replacement from a 52-card pack",
+    "The total score when two fair six-sided dice are rolled together",
+    "The number of left-handers in a random sample of 20 people from a large city",
+    "The number of cards dealt from a shuffled pack until the first ace appears"
+   ],
+   "correctIndex": 2,
+   "explanation": "In a large city each person chosen is (almost exactly) independent, with the same chance of being left-handed, over a fixed 20 trials. Dealing without replacement from one pack changes the probability of red after each card, so the trials are not independent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0024",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 12 and p = 0.25. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "0.25",
+    "3",
+    "2.25",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean of a binomial distribution is np = 12 \u00d7 0.25 = 3. The value 2.25 is the variance np(1 \u2212 p), and 9 is n(1 \u2212 p), the expected number of failures.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0025",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 50 and p = 0.2. What is the standard deviation of X?",
+   "imageRef": null,
+   "options": [
+    "2\u221a2",
+    "8",
+    "10",
+    "\u221a10"
+   ],
+   "correctIndex": 0,
+   "explanation": "Var(X) = np(1 \u2212 p) = 50 \u00d7 0.2 \u00d7 0.8 = 8, so the standard deviation is \u221a8 = 2\u221a2 \u2248 2.83. The value 8 is the variance, and 10 is the mean np.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0026",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A binomial random variable has mean 8 and variance 4.8. What are n and p?",
+   "imageRef": null,
+   "options": [
+    "n = 20, p = 0.4",
+    "n = 20, p = 0.6",
+    "n = 10, p = 0.8",
+    "n = 40, p = 0.2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dividing the variance by the mean gives 1 \u2212 p = 4.8/8 = 0.6, so p = 0.4 and n = 8/0.4 = 20. Taking 0.6 as p mixes up the probability of success with the probability of failure.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0027",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 100, standard deviation 4 and p < 0.5. What is p?",
+   "imageRef": null,
+   "options": [
+    "0.16",
+    "0.4",
+    "0.2",
+    "0.04"
+   ],
+   "correctIndex": 2,
+   "explanation": "Var(X) = 16, so 100p(1 \u2212 p) = 16 and p(1 \u2212 p) = 0.16, giving p = 0.2 or 0.8; with p < 0.5, p = 0.2. The value 0.16 is p(1 \u2212 p), not p itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0028",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 8 and p = 0.4. Which expression equals P(X = 3)?",
+   "imageRef": null,
+   "options": [
+    "8C3 \u00d7 0.4\u2075 \u00d7 0.6\u00b3",
+    "0.4\u00b3 \u00d7 0.6\u2075",
+    "8C3 \u00d7 0.4\u00b3",
+    "8C3 \u00d7 0.4\u00b3 \u00d7 0.6\u2075"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(X = r) = nCr \u00d7 p^r \u00d7 (1 \u2212 p)^(n \u2212 r), so P(X = 3) = 8C3 \u00d7 0.4\u00b3 \u00d7 0.6\u2075. Leaving out 8C3 gives the probability of one particular order of 3 successes and 5 failures, not of all 56 orders.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0029",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A quiz has five multiple-choice questions, each with four options. A student guesses every answer. What is the probability, to four decimal places, that exactly two are correct?",
+   "imageRef": null,
+   "options": [
+    "0.0264",
+    "0.3955",
+    "0.4000",
+    "0.2637"
+   ],
+   "correctIndex": 3,
+   "explanation": "X is binomial with n = 5 and p = 0.25, so P(X = 2) = 5C2 \u00d7 0.25\u00b2 \u00d7 0.75\u00b3 = 10 \u00d7 0.0625 \u00d7 0.421875 \u2248 0.2637. The value 0.0264 leaves out the 10 possible orders, and 0.3955 is P(X = 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0030",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "Each day, independently, the probability of rain is 0.2. What is the probability, to four decimal places, that it rains on exactly 2 days of a week?",
+   "imageRef": null,
+   "options": [
+    "0.3670",
+    "0.2857",
+    "0.2753",
+    "0.0131"
+   ],
+   "correctIndex": 2,
+   "explanation": "X is binomial with n = 7 and p = 0.2, so P(X = 2) = 7C2 \u00d7 0.2\u00b2 \u00d7 0.8\u2075 = 21 \u00d7 0.04 \u00d7 0.32768 \u2248 0.2753. The value 0.0131 leaves out 7C2, and 0.3670 is P(X = 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0031",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 3 and P(X = 3) = 0.343. What is p?",
+   "imageRef": null,
+   "options": [
+    "0.49",
+    "0.114",
+    "0.7",
+    "0.3"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(X = 3) = p\u00b3 = 0.343, so p = 0.7. The value 0.3 is 1 \u2212 p, which would give P(X = 0) = 0.343 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0032",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "For a binomial random variable X, \"at most 3 successes\" is written:",
+   "imageRef": null,
+   "options": [
+    "P(X > 3)",
+    "P(X \u2264 3)",
+    "P(X < 3)",
+    "P(X \u2265 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "\"At most 3\" means 3 or fewer, so 3 itself is included: P(X \u2264 3). Writing P(X < 3) leaves out the value 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0033",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "For a binomial random variable X, \"no less than 2 successes\" is written:",
+   "imageRef": null,
+   "options": [
+    "P(X < 2)",
+    "P(X \u2265 2)",
+    "P(X \u2264 2)",
+    "P(X > 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "\"No less than 2\" means 2 or more, so it is P(X \u2265 2). It is easily misread as \"less than 2\", which is the complementary event P(X < 2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0034",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 3 and p = 0.2. What is the probability of no more than one success?",
+   "imageRef": null,
+   "options": [
+    "0.896",
+    "0.384",
+    "0.512",
+    "0.104"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(X \u2264 1) = P(X = 0) + P(X = 1) = 0.8\u00b3 + 3 \u00d7 0.2 \u00d7 0.8\u00b2 = 0.512 + 0.384 = 0.896. The value 0.384 is P(X = 1) alone, and 0.104 is P(X \u2265 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0035",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 4 and p = 0.5. What is P(1 < X < 4)?",
+   "imageRef": null,
+   "options": [
+    "3/8",
+    "5/8",
+    "7/8",
+    "15/16"
+   ],
+   "correctIndex": 1,
+   "explanation": "The strict inequalities leave X = 2 or 3, so the answer is 6/16 + 4/16 = 10/16 = 5/8. Including 1 as well gives 14/16 = 7/8, which would be \"between 1 and 3 inclusive\".",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0036",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A machine produces items of which 2% are defective, independently. For a sample of 10 items, what is the probability, to four decimal places, of at least one defective item?",
+   "imageRef": null,
+   "options": [
+    "0.1829",
+    "0.1667",
+    "0.2000",
+    "0.8171"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(X \u2265 1) = 1 \u2212 P(X = 0) = 1 \u2212 0.98\u00b9\u2070 \u2248 0.1829. The value 0.1667 is P(X = 1) only, and 0.2000 adds 0.02 ten times, which counts some outcomes more than once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0037",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A shooter hits a target with probability 0.6 on each shot, independently. In 3 shots, what is the probability of at least 2 hits?",
+   "imageRef": null,
+   "options": [
+    "0.216",
+    "0.648",
+    "0.432",
+    "0.352"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(X \u2265 2) = P(X = 2) + P(X = 3) = 3 \u00d7 0.6\u00b2 \u00d7 0.4 + 0.6\u00b3 = 0.432 + 0.216 = 0.648. The value 0.432 counts exactly two hits only, and 0.352 is the probability of at most one hit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0038",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 10 and p = 0.1. Which expression equals P(X \u2265 2)?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 10 \u00d7 0.1 \u00d7 0.9\u2079",
+    "10C2 \u00d7 0.1\u00b2 \u00d7 0.9\u2078",
+    "1 \u2212 0.9\u00b9\u2070 \u2212 10 \u00d7 0.1 \u00d7 0.9\u2079",
+    "1 \u2212 0.9\u00b9\u2070"
+   ],
+   "correctIndex": 2,
+   "explanation": "The complement of X \u2265 2 is X = 0 or X = 1, so P(X \u2265 2) = 1 \u2212 0.9\u00b9\u2070 \u2212 10 \u00d7 0.1 \u00d7 0.9\u2079. Subtracting only 0.9\u00b9\u2070 gives P(X \u2265 1), and 10C2 \u00d7 0.1\u00b2 \u00d7 0.9\u2078 is P(X = 2) alone.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0039",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "X is binomial with n = 5 and p = 0.5. What is P(X \u2265 4 given that X \u2265 3)?",
+   "imageRef": null,
+   "options": [
+    "3/8",
+    "3/16",
+    "1/2",
+    "5/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(X \u2265 4) = (5 + 1)/32 = 6/32 and P(X \u2265 3) = (10 + 5 + 1)/32 = 16/32, so the conditional probability is 6/16 = 3/8. The value 3/16 is P(X \u2265 4) alone, without dividing by P(X \u2265 3).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-discrete-binomial-0040",
+   "topicId": "meth-qce-discrete-binomial",
+   "stem": "A player wins a game with probability 0.3, independently each time. Given that 0.7\u2078 \u2248 0.058 and 0.7\u2079 \u2248 0.040, what is the least number of games for the probability of at least one win to exceed 0.95?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "9",
+    "8",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(at least one win) = 1 \u2212 0.7\u207f > 0.95 needs 0.7\u207f < 0.05. Since 0.7\u2078 \u2248 0.058 is too big and 0.7\u2079 \u2248 0.040 is small enough, n = 9. Choosing 8 gives a probability of about 0.942, just short of 0.95.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-discrete-binomial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

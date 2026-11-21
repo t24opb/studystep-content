@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-sace-continuous-rv",
+ "questions": [
+  {
+   "id": "meth-sace-continuous-rv-0001",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Which of these is a continuous random variable?",
+   "imageRef": null,
+   "options": [
+    "The number of goals scored in a netball match",
+    "The number of siblings a student has",
+    "The number of eggs in a carton bought at random",
+    "The time a student takes to run 100 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Time can take any value in an interval, so it is continuous. The others are counts, which take only whole-number values and so are discrete.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0002",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "The mass X grams of a randomly chosen apple is a continuous random variable with density f. What is Pr(X = 150)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "f(150)",
+    "0.5",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a continuous variable, probability is area under the density curve, and the area above a single point has zero width, so Pr(X = 150) = 0. The value f(150) is the height of the density there, not a probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0003",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X is a continuous random variable. How does Pr(1 \u2264 X \u2264 3) compare with Pr(1 < X < 3)?",
+   "imageRef": null,
+   "options": [
+    "The first is larger by Pr(X = 1)",
+    "The second is larger",
+    "They are equal",
+    "The first is larger by f(1) + f(3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each end point has probability 0, so including or excluding them changes nothing. Adding f(1) + f(3) treats heights of the density as probabilities.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0004",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "The lengths of 200 fish caught in a survey were recorded, and 46 of them were between 20 cm and 22 cm. Estimate the probability that a fish of this kind is between 20 cm and 22 cm long.",
+   "imageRef": null,
+   "options": [
+    "0.46",
+    "0.023",
+    "0.115",
+    "0.23"
+   ],
+   "correctIndex": 3,
+   "explanation": "The relative frequency 46/200 = 0.23 estimates the probability. Dividing by the class width of 2 gives 0.115, which is the height of the histogram bar for a density scale, not the probability.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0005",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "For a function f to be a probability density function on its domain, it must:",
+   "imageRef": null,
+   "options": [
+    "have total area 1 and pass through the origin",
+    "be non-negative and have total area 1 under it",
+    "have a maximum value of exactly 1",
+    "be increasing over the whole domain"
+   ],
+   "correctIndex": 1,
+   "explanation": "A density cannot be negative, and the total area under it over the domain must equal 1 because the variable is certain to take some value. Its height can exceed 1 as long as the area is 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0006",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "A probability density function has f(2) = 1.5. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "It means that Pr(X = 2) = 1.5",
+    "It means that Pr(X \u2264 2) = 1.5",
+    "This is possible, because probabilities are areas, not heights",
+    "This is impossible, because no probability exceeds 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The height of a density measures relative likelihood, and only areas under it are probabilities. A tall narrow density, such as f(x) = 2 on [0, 0.5], has heights above 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0007",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Which of these is a probability density function on the domain given?",
+   "imageRef": null,
+   "options": [
+    "f(x) = 1/2 for 0 \u2264 x \u2264 3",
+    "f(x) = x/2 for 0 \u2264 x \u2264 2",
+    "f(x) = x for 0 \u2264 x \u2264 2",
+    "f(x) = x \u2212 1 for 0 \u2264 x \u2264 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The area under x/2 from 0 to 2 is a triangle of area (1/2)(2)(1) = 1, and the function is never negative. Under x the area is 2, under 1/2 on [0, 3] it is 1.5, and x \u2212 1 is negative for x < 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0008",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X is uniformly distributed with f(x) = 1/10 for 0 \u2264 x \u2264 10. Find Pr(2 \u2264 X \u2264 5).",
+   "imageRef": null,
+   "options": [
+    "0.3",
+    "0.5",
+    "0.7",
+    "0.25"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is a rectangle of width 5 \u2212 2 = 3 and height 1/10, so the probability is 0.3. The value 0.5 uses the upper limit 5 alone, as if the interval started at 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0009",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "A histogram of a large set of measurements of a continuous variable is redrawn with narrower and narrower classes. What does its outline approach?",
+   "imageRef": null,
+   "options": [
+    "A set of separate points",
+    "A smooth density curve",
+    "A single tall bar at the mean",
+    "A straight horizontal line"
+   ],
+   "correctIndex": 1,
+   "explanation": "With more data and narrower classes, the tops of the bars trace out a smooth curve, which is modelled by a probability density function. A single bar or separate points describe a discrete variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0010",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = kx\u00b2 for 0 \u2264 x \u2264 3 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "1/9",
+    "1/3",
+    "1/27",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is k \u00d7 3\u00b3/3 = 9k, which must equal 1, so k = 1/9. Taking the area as 27k forgets to divide by 3 when anti-differentiating x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0011",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = k(4 \u2212 x) for 0 \u2264 x \u2264 4 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "1/8",
+    "1/16",
+    "1/4",
+    "1/12"
+   ],
+   "correctIndex": 0,
+   "explanation": "The graph forms a triangle with base 4 and height 4k, so its area is 8k = 1 and k = 1/8. Forgetting the half in the triangle area gives 16k = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0012",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = ke^(\u2212x) for 0 \u2264 x \u2264 1 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "e",
+    "1/(e \u2212 1)",
+    "e/(e \u2212 1)",
+    "1/(1 \u2212 e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area is k[\u2212e^(\u2212x)] from 0 to 1 = k(1 \u2212 e^(\u22121)), so k = 1/(1 \u2212 1/e) = e/(e \u2212 1). The value 1/(1 \u2212 e) is negative, and 1/(e \u2212 1) treats 1 \u2212 e^(\u22121) as e \u2212 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0013",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = k cos(2x) for 0 \u2264 x \u2264 \u03c0/4 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u03c0/4",
+    "2",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area is k[sin(2x)/2] from 0 to \u03c0/4 = k/2, so k = 2. Forgetting to divide by 2 when anti-differentiating cos(2x) gives k = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0014",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = kx for 1 \u2264 x \u2264 3 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/9",
+    "1/4",
+    "2/9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area is k(3\u00b2 \u2212 1\u00b2)/2 = 4k, so k = 1/4. Integrating from 0 instead of 1 gives 9k/2 = 1 and k = 2/9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0015",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Find k so that f(x) = kx(2 \u2212 x) for 0 \u2264 x \u2264 2 is a probability density function.",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "4/3",
+    "1/2",
+    "3/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is k \u222b from 0 to 2 of (2x \u2212 x\u00b2) dx = k(4 \u2212 8/3) = 4k/3, so k = 3/4. The reciprocal, 4/3, is the area for k = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0016",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = x/4 for 1 \u2264 x \u2264 3. Find Pr(X \u2264 2).",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/4",
+    "5/8",
+    "3/8"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pr(X \u2264 2) = \u222b from 1 to 2 of x/4 dx = (4 \u2212 1)/8 = 3/8. The density increases, so less than half the probability lies below the midpoint 2; 5/8 is Pr(X > 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0017",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = 2x for 0 \u2264 x \u2264 1. Find Pr(X > 0.5).",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "1",
+    "0.75",
+    "0.25"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(X > 0.5) = [x\u00b2] from 0.5 to 1 = 1 \u2212 0.25 = 0.75. The value 0.25 is Pr(X < 0.5), and 1 is the height of the density at x = 0.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0018",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = 3x\u00b2/8 for 0 \u2264 x \u2264 2. Find Pr(X > 1).",
+   "imageRef": null,
+   "options": [
+    "3/8",
+    "1/2",
+    "7/8",
+    "1/8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(X \u2264 1) = [x\u00b3/8] from 0 to 1 = 1/8, so Pr(X > 1) = 1 \u2212 1/8 = 7/8. The value 1/8 is the probability below 1, not above it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0019",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = cos(x) for 0 \u2264 x \u2264 \u03c0/2. Find Pr(X < \u03c0/6).",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "1 \u2212 \u221a3/2",
+    "\u03c0/6",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pr(X < \u03c0/6) = [sin(x)] from 0 to \u03c0/6 = 1/2. The value \u221a3/2 is cos(\u03c0/6), the height of the density, not an area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0020",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = (3/4)x(2 \u2212 x) for 0 \u2264 x \u2264 2. Find Pr(0.5 \u2264 X \u2264 1.5).",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "11/16",
+    "1/2",
+    "9/16"
+   ],
+   "correctIndex": 1,
+   "explanation": "An anti-derivative is (3/4)(x\u00b2 \u2212 x\u00b3/3). Evaluating from 0.5 to 1.5 gives (3/4)(1.125 \u2212 0.2083...) = 11/16. Assuming half the probability because the interval is half the domain ignores the peak in the middle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0021",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "The time in hours until a component fails has density f(t) = 2e^(\u22122t) for t \u2265 0. Find the probability that it lasts more than 1 hour.",
+   "imageRef": null,
+   "options": [
+    "e^(\u22121)",
+    "e^(\u22122)",
+    "1 \u2212 e^(\u22122)",
+    "2e^(\u22122)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(T > 1) = [\u2212e^(\u22122t)] from 1 to \u221e = 0 + e^(\u22122) = e^(\u22122) \u2248 0.135. The value 1 \u2212 e^(\u22122) is Pr(T < 1), and 2e^(\u22122) is the height of the density at t = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0022",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = x/8 for 0 \u2264 x \u2264 4. Find a such that Pr(X \u2264 a) = 1/4.",
+   "imageRef": null,
+   "options": [
+    "4/3",
+    "2",
+    "1",
+    "\u221a2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(X \u2264 a) = a\u00b2/16 = 1/4, so a\u00b2 = 4 and a = 2. Answering 1 assumes probability is spread evenly over [0, 4], which it is not for an increasing density.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0023",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Battery life in years has density f(t) = 0.5e^(\u22120.5t) for t \u2265 0. What proportion of batteries last less than 2 years, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "0.632",
+    "0.368",
+    "0.184",
+    "0.865"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pr(T < 2) = [\u2212e^(\u22120.5t)] from 0 to 2 = 1 \u2212 e^(\u22121) \u2248 0.632. The value 0.368 = e^(\u22121) is the proportion lasting more than 2 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0024",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "For a continuous random variable X, Pr(X < 2) = 0.3 and Pr(X > 5) = 0.1. Find Pr(2 \u2264 X \u2264 5).",
+   "imageRef": null,
+   "options": [
+    "0.2",
+    "0.7",
+    "0.6",
+    "0.4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The total probability is 1, so Pr(2 \u2264 X \u2264 5) = 1 \u2212 0.3 \u2212 0.1 = 0.6. The value 0.4 adds the two given probabilities instead of subtracting them from 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0025",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "For a probability density function f on a \u2264 x \u2264 b, the mean of X is:",
+   "imageRef": null,
+   "options": [
+    "\u222b from a to b of f(x) dx",
+    "(a + b)/2 for every density",
+    "the value of x where f(x) is largest",
+    "\u222b from a to b of x f(x) dx"
+   ],
+   "correctIndex": 3,
+   "explanation": "The mean weights each value of x by its density and integrates. The integral of f alone is the total area, 1, and (a + b)/2 is the mean only for a symmetric density.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0026",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "For a continuous random variable with mean \u03bc, the variance can be calculated as:",
+   "imageRef": null,
+   "options": [
+    "\u222b x\u00b2 f(x) dx \u2212 \u03bc\u00b2",
+    "\u222b x\u00b2 f(x) dx",
+    "(\u222b x f(x) dx)\u00b2",
+    "\u222b (x \u2212 \u03bc) f(x) dx"
+   ],
+   "correctIndex": 0,
+   "explanation": "The variance is \u222b (x \u2212 \u03bc)\u00b2 f(x) dx, which simplifies to \u222b x\u00b2 f(x) dx \u2212 \u03bc\u00b2; the standard deviation is its square root. \u222b (x \u2212 \u03bc) f(x) dx is always 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0027",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "The mean of a continuous random variable is best interpreted as:",
+   "imageRef": null,
+   "options": [
+    "the value that half of the observations exceed",
+    "the value at the centre of the domain",
+    "the long-run average of many observations",
+    "the most likely single value of the variable"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mean is the expected value: the average of a very large number of observations. The most likely value is where the density peaks, which need not be the mean.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0028",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = x/2 for 0 \u2264 x \u2264 2. Find the mean of X.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2/3",
+    "8/3",
+    "4/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03bc = \u222b from 0 to 2 of x\u00b2/2 dx = 8/6 = 4/3. The density increases, so the mean lies above the midpoint 1; 8/3 forgets to divide by the 3 from integrating x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0029",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = 3x\u00b2/8 for 0 \u2264 x \u2264 2. Find the mean of X.",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3/2",
+    "1",
+    "4/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03bc = \u222b from 0 to 2 of 3x\u00b3/8 dx = 3 \u00d7 16/32 = 3/2. The probability is concentrated near 2, so the mean is above the midpoint of the domain.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0030",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = x/4 for 1 \u2264 x \u2264 3. Find the mean of X.",
+   "imageRef": null,
+   "options": [
+    "13/12",
+    "13/6",
+    "2",
+    "9/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03bc = \u222b from 1 to 3 of x\u00b2/4 dx = (27 \u2212 1)/12 = 13/6 \u2248 2.17. Using 27/12 = 9/4 forgets the lower limit, and 2 is the midpoint, which ignores the increasing density.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0031",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = (3/4)x(2 \u2212 x) for 0 \u2264 x \u2264 2. What is the mean of X?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "3/4",
+    "4/3",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The graph is a parabola symmetric about x = 1, so the mean is 1; the integral \u222b from 0 to 2 of x f(x) dx confirms it. The value 3/4 is the density at x = 1, not the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0032",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = x/2 for 0 \u2264 x \u2264 2, with mean 4/3. Find the standard deviation of X.",
+   "imageRef": null,
+   "options": [
+    "\u221a2/3",
+    "2/9",
+    "\u221a2",
+    "2/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u222b from 0 to 2 of x\u00b3/2 dx = 2, so the variance is 2 \u2212 (4/3)\u00b2 = 2/9 and the standard deviation is \u221a(2/9) = \u221a2/3 \u2248 0.471. The value 2/9 is the variance, before taking the square root.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0033",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X is uniform with f(x) = 1/10 for 0 \u2264 x \u2264 10. Find the standard deviation of X, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "5.77",
+    "3.33",
+    "2.89",
+    "8.33"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u03bc = 5 and \u222b from 0 to 10 of x\u00b2/10 dx = 100/3, so the variance is 100/3 \u2212 25 = 25/3 and \u03c3 \u2248 2.89. The value 8.33 is the variance, and 5.77 is \u221a(100/3), which forgets to subtract \u03bc\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0034",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "For a continuous random variable, E(X) = 3 and \u222b x\u00b2 f(x) dx = 10. Find the standard deviation of X.",
+   "imageRef": null,
+   "options": [
+    "\u221a10",
+    "7",
+    "\u221a7",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The variance is 10 \u2212 3\u00b2 = 1, so the standard deviation is 1. Subtracting 3 instead of 3\u00b2 gives 7, and \u221a10 ignores the mean altogether.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0035",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X has density f(x) = cos(x) for 0 \u2264 x \u2264 \u03c0/2. Given that d/dx (x sin(x) + cos(x)) = x cos(x), find the mean of X.",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "1",
+    "\u03c0/2",
+    "\u03c0/2 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03bc = \u222b from 0 to \u03c0/2 of x cos(x) dx = [x sin(x) + cos(x)] from 0 to \u03c0/2 = \u03c0/2 \u2212 1 \u2248 0.571. The density is largest at x = 0, so the mean is below \u03c0/4, the midpoint.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0036",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "Two densities are defined on 0 \u2264 x \u2264 2: one is uniform, the other is a triangle peaking at x = 1. Both have mean 1. Which has the smaller standard deviation?",
+   "imageRef": null,
+   "options": [
+    "The triangular one",
+    "The uniform one",
+    "Both have the same",
+    "It depends on the sample size"
+   ],
+   "correctIndex": 0,
+   "explanation": "The triangle puts more probability near the mean, so its spread is smaller: its standard deviation is \u221a(1/6) \u2248 0.41 against about 0.58 for the uniform density.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0037",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "X is normally distributed with mean \u03bc. What is Pr(X > \u03bc)?",
+   "imageRef": null,
+   "options": [
+    "0.34",
+    "0",
+    "0.5",
+    "0.68"
+   ],
+   "correctIndex": 2,
+   "explanation": "The normal density is symmetric about \u03bc and its total area is 1, so exactly half the area lies above \u03bc. The value 0.68 is the area within one standard deviation of the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-continuous-rv-0038",
+   "topicId": "meth-sace-continuous-rv",
+   "stem": "At what values of x does the normal density with mean \u03bc and standard deviation \u03c3 have its points of inflection?",
+   "imageRef": null,
+   "options": [
+    "x = \u03bc",
+    "x = \u03bc \u00b1 2\u03c3",
+    "x = \u03bc \u00b1 \u03c3\u00b2",
+    "x = \u03bc \u00b1 \u03c3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Setting the second derivative of the normal density to zero gives x = \u03bc \u00b1 \u03c3, where the curve changes from concave down to concave up. At x = \u03bc the density has its maximum, not an inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-continuous-rv-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

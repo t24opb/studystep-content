@@ -1,0 +1,670 @@
+{
+ "topicId": "spec-qce-matrices",
+ "questions": [
+  {
+   "id": "spec-qce-matrices-0001",
+   "topicId": "spec-qce-matrices",
+   "stem": "Matrix A has 2 rows and 3 columns. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "A has order 2 \u00d7 3, and a\u2081\u2083 is in row 1, column 3",
+    "A has order 3 \u00d7 2, and a\u2081\u2083 is in row 1, column 3",
+    "A has order 2 \u00d7 3, and a\u2081\u2083 is in row 3, column 1",
+    "A has order 3 \u00d7 2, and a\u2081\u2083 is in row 3, column 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Order is rows \u00d7 columns, and the subscripts of an element give its row first, then its column. Both conventions put rows first.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0002",
+   "topicId": "spec-qce-matrices",
+   "stem": "The matrix 3A, where A has rows (1, \u22122) and (0, 4), has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, \u22126) and (3, 12)",
+    "(3, \u22126) and (0, 12)",
+    "(4, 1) and (3, 7)",
+    "(3, \u22122) and (0, 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Scalar multiplication multiplies every element by 3, including the 0, which stays 0. Adding 3 to each element gives (4, 1) and (3, 7).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0003",
+   "topicId": "spec-qce-matrices",
+   "stem": "The 2 \u00d7 2 multiplicative identity matrix I has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, 1) and (1, 1)",
+    "(0, 1) and (1, 0)",
+    "(0, 0) and (0, 0)",
+    "(1, 0) and (0, 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "I has 1s on the leading diagonal and 0s elsewhere, so AI = IA = A for every 2 \u00d7 2 matrix A. The all-zero matrix is the additive identity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0004",
+   "topicId": "spec-qce-matrices",
+   "stem": "A is a 2 \u00d7 3 matrix and B is a 3 \u00d7 2 matrix. The orders of AB and BA are:",
+   "imageRef": null,
+   "options": [
+    "AB is 2 \u00d7 2 and BA is 3 \u00d7 3",
+    "AB is 3 \u00d7 3 and BA is 2 \u00d7 2",
+    "both are 2 \u00d7 2",
+    "AB is 2 \u00d7 2 and BA is not defined"
+   ],
+   "correctIndex": 0,
+   "explanation": "AB takes the rows of A and the columns of B, 2 \u00d7 2; BA takes the rows of B and the columns of A, 3 \u00d7 3. Both are defined because the inner dimensions match each time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0005",
+   "topicId": "spec-qce-matrices",
+   "stem": "The product of the matrix with rows (2, \u22121) and (3, 0) and the matrix with rows (1, 4) and (2, 5) has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, \u22124) and (6, 0)",
+    "(14, \u22121) and (19, \u22122)",
+    "(0, 13) and (3, 12)",
+    "(0, 3) and (3, 12)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row 1 times the columns: 2 \u00d7 1 + (\u22121) \u00d7 2 = 0 and 2 \u00d7 4 + (\u22121) \u00d7 5 = 3; row 2: 3 \u00d7 1 + 0 = 3 and 3 \u00d7 4 + 0 = 12. Multiplying matching elements gives (2, \u22124) and (6, 0).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0006",
+   "topicId": "spec-qce-matrices",
+   "stem": "For A with rows (1, 2) and (3, 4), the matrix A\u00b2 has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, 4) and (9, 16)",
+    "(2, 4) and (6, 8)",
+    "(7, 15) and (10, 22)",
+    "(7, 10) and (15, 22)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A\u00b2 = AA: row 1 gives 1 + 6 = 7 and 2 + 8 = 10, row 2 gives 3 + 12 = 15 and 6 + 16 = 22. Squaring each element gives (1, 4) and (9, 16), which is not matrix multiplication.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0007",
+   "topicId": "spec-qce-matrices",
+   "stem": "The matrices with rows (a, 2) and (3, b) and with rows (1, \u22122) and (\u22123, 4) add to the 2 \u00d7 2 identity matrix. The values of a and b are:",
+   "imageRef": null,
+   "options": [
+    "a = 0 and b = \u22123",
+    "a = 1 and b = 1",
+    "a = 0 and b = 5",
+    "a = \u22121 and b = \u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "The diagonal sums must be 1, so a + 1 = 1 and b + 4 = 1, giving a = 0 and b = \u22123; the off-diagonal sums 2 \u2212 2 and 3 \u2212 3 are already 0. Taking a = 1 and b = 1 forgets the second matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0008",
+   "topicId": "spec-qce-matrices",
+   "stem": "Which of these properties does NOT hold for all 2 \u00d7 2 matrices A and B?",
+   "imageRef": null,
+   "options": [
+    "A + (\u2212A) = O, the zero matrix",
+    "AB = BA",
+    "A + B = B + A",
+    "AI = IA = A"
+   ],
+   "correctIndex": 1,
+   "explanation": "Matrix multiplication is not commutative in general, so AB and BA usually differ. Addition is commutative, I is a two-sided identity and \u2212A is the additive inverse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0009",
+   "topicId": "spec-qce-matrices",
+   "stem": "For A with rows (1, 2) and (0, 1) and B with rows (1, 0) and (3, 1), which statement is true?",
+   "imageRef": null,
+   "options": [
+    "AB has rows (1, 2) and (3, 7), but BA has rows (7, 2) and (3, 1)",
+    "AB has rows (7, 2) and (3, 1), but BA has rows (1, 2) and (3, 7)",
+    "AB and BA both have rows (7, 2) and (3, 1)",
+    "AB has rows (1, 0) and (3, 1), and BA has rows (1, 2) and (0, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Working out each product row by column shows AB and BA have different entries, so AB \u2260 BA. The products swap places in the last option, and the third option just repeats the original matrices.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0010",
+   "topicId": "spec-qce-matrices",
+   "stem": "The left distributive law for matrices states that:",
+   "imageRef": null,
+   "options": [
+    "A(B + C) = AB + C",
+    "A(B + C) = AB + AC",
+    "A(B + C) = BA + CA",
+    "(B + C)A = AB + AC"
+   ],
+   "correctIndex": 1,
+   "explanation": "A multiplies each of B and C from the left. Writing BA + CA moves A to the right, which is a different product because multiplication is not commutative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0011",
+   "topicId": "spec-qce-matrices",
+   "stem": "For square matrices A and B of the same order, (A + B)\u00b2 equals:",
+   "imageRef": null,
+   "options": [
+    "A\u00b2 + B\u00b2",
+    "A\u00b2 + 2BA + B\u00b2",
+    "A\u00b2 + AB + BA + B\u00b2",
+    "A\u00b2 + 2AB + B\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "(A + B)(A + B) = A\u00b2 + AB + BA + B\u00b2. The terms AB and BA combine into 2AB only when AB = BA, which is not true in general.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0012",
+   "topicId": "spec-qce-matrices",
+   "stem": "For square matrices A and B of the same order, (A + B)(A \u2212 B) equals:",
+   "imageRef": null,
+   "options": [
+    "A\u00b2 \u2212 AB + BA \u2212 B\u00b2",
+    "A\u00b2 \u2212 B\u00b2",
+    "A\u00b2 + AB \u2212 BA \u2212 B\u00b2",
+    "A\u00b2 \u2212 2AB \u2212 B\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expanding term by term with the order kept: A \u00d7 A \u2212 A \u00d7 B + B \u00d7 A \u2212 B \u00d7 B. The difference of squares A\u00b2 \u2212 B\u00b2 holds only if AB = BA.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0013",
+   "topicId": "spec-qce-matrices",
+   "stem": "If A and B are invertible 2 \u00d7 2 matrices, then (AB)\u207b\u00b9 equals:",
+   "imageRef": null,
+   "options": [
+    "A\u207b\u00b9 + B\u207b\u00b9",
+    "B\u207b\u00b9A\u207b\u00b9",
+    "A\u207b\u00b9B\u207b\u00b9",
+    "BA"
+   ],
+   "correctIndex": 1,
+   "explanation": "(AB)(B\u207b\u00b9A\u207b\u00b9) = A(BB\u207b\u00b9)A\u207b\u00b9 = AIA\u207b\u00b9 = I, so the inverse reverses the order. A\u207b\u00b9B\u207b\u00b9 would need AB = BA.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0014",
+   "topicId": "spec-qce-matrices",
+   "stem": "The determinant of the matrix with rows (3, 2) and (1, 4) is:",
+   "imageRef": null,
+   "options": [
+    "14",
+    "\u221210",
+    "5",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "det = ad \u2212 bc = 3 \u00d7 4 \u2212 2 \u00d7 1 = 12 \u2212 2 = 10. Adding the products gives 14, and bc \u2212 ad gives \u221210.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0015",
+   "topicId": "spec-qce-matrices",
+   "stem": "The determinant of the matrix with rows (5, 2) and (3, \u22121) is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "11",
+    "\u22121",
+    "\u221211"
+   ],
+   "correctIndex": 3,
+   "explanation": "ad \u2212 bc = 5 \u00d7 (\u22121) \u2212 2 \u00d7 3 = \u22125 \u2212 6 = \u221211. Treating 5 \u00d7 (\u22121) as +5 gives \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0016",
+   "topicId": "spec-qce-matrices",
+   "stem": "A 2 \u00d7 2 matrix has no inverse when:",
+   "imageRef": null,
+   "options": [
+    "its diagonal elements are equal",
+    "its determinant is 0",
+    "it has a zero element",
+    "its determinant is negative"
+   ],
+   "correctIndex": 1,
+   "explanation": "The inverse formula divides by det(A), so A is singular when det(A) = 0. A negative determinant is fine, and a zero element does not by itself make the determinant 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0017",
+   "topicId": "spec-qce-matrices",
+   "stem": "Which of these 2 \u00d7 2 matrices has no inverse?",
+   "imageRef": null,
+   "options": [
+    "Rows (2, 1) and (1, 2)",
+    "Rows (2, 6) and (1, 3)",
+    "Rows (2, 6) and (3, 1)",
+    "Rows (1, 0) and (0, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "For rows (2, 6) and (1, 3), det = 6 \u2212 6 = 0; the rows are multiples of each other. The others have determinants \u221216, 1 and 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0018",
+   "topicId": "spec-qce-matrices",
+   "stem": "The inverse of the matrix with rows (2, 1) and (5, 3) has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, \u22121) and (\u22125, 2)",
+    "(3, 1) and (5, 2)",
+    "(2, \u22121) and (\u22125, 3)",
+    "(\u22123, 1) and (5, \u22122)"
+   ],
+   "correctIndex": 0,
+   "explanation": "det = 6 \u2212 5 = 1, and the inverse swaps the diagonal and negates the other two elements: rows (3, \u22121) and (\u22125, 2). Negating the diagonal instead gives the last option, which is the negative of the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0019",
+   "topicId": "spec-qce-matrices",
+   "stem": "The inverse of the matrix with rows (3, 2) and (1, 4) is:",
+   "imageRef": null,
+   "options": [
+    "(1/14) \u00d7 the matrix with rows (4, \u22122) and (\u22121, 3)",
+    "(1/10) \u00d7 the matrix with rows (4, \u22122) and (\u22121, 3)",
+    "(1/10) \u00d7 the matrix with rows (3, \u22122) and (\u22121, 4)",
+    "10 \u00d7 the matrix with rows (4, \u22122) and (\u22121, 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "det = 12 \u2212 2 = 10, so A\u207b\u00b9 = (1/10) \u00d7 rows (4, \u22122) and (\u22121, 3): swap a and d, negate b and c. Using 14 adds the products in the determinant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0020",
+   "topicId": "spec-qce-matrices",
+   "stem": "The inverse of the matrix with rows (4, 3) and (2, 2) has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, \u22121.5) and (\u22121, 2)",
+    "(2, \u22123) and (\u22122, 4)",
+    "(0.5, \u22120.75) and (\u22121, 2)",
+    "(1, 1.5) and (1, 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "det = 8 \u2212 6 = 2, so the inverse is (1/2) \u00d7 rows (2, \u22123) and (\u22122, 4), giving rows (1, \u22121.5) and (\u22121, 2). The rows (2, \u22123) and (\u22122, 4) forget to divide by the determinant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0021",
+   "topicId": "spec-qce-matrices",
+   "stem": "The matrix with rows (k, 4) and (3, 6) is singular when k equals:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22122",
+    "8",
+    "4.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Singular means det = 6k \u2212 12 = 0, so k = 2. Setting 6k + 12 = 0 gives \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0022",
+   "topicId": "spec-qce-matrices",
+   "stem": "The matrix with rows (k, 2) and (8, k) has no inverse when:",
+   "imageRef": null,
+   "options": [
+    "k = 4 or k = \u22124",
+    "k = 4 only",
+    "k = 16 only",
+    "k = 2 or k = 8"
+   ],
+   "correctIndex": 0,
+   "explanation": "det = k\u00b2 \u2212 16 = 0 gives k = \u00b14. Taking only the positive square root misses k = \u22124.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0023",
+   "topicId": "spec-qce-matrices",
+   "stem": "If the matrix A with rows (0, 1) and (1, 0) satisfies A\u00b2 = I, then A\u207b\u00b9 is:",
+   "imageRef": null,
+   "options": [
+    "\u2212A",
+    "A itself",
+    "the identity I",
+    "the zero matrix"
+   ],
+   "correctIndex": 1,
+   "explanation": "A\u00b2 = AA = I means A times A gives the identity, so A is its own inverse. Checking det = \u22121 confirms the inverse exists.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0024",
+   "topicId": "spec-qce-matrices",
+   "stem": "For an invertible 2 \u00d7 2 matrix A, which equation is always true?",
+   "imageRef": null,
+   "options": [
+    "AA\u207b\u00b9 = O",
+    "A\u207b\u00b9 = \u2212A",
+    "AA\u207b\u00b9 = A",
+    "AA\u207b\u00b9 = A\u207b\u00b9A = I"
+   ],
+   "correctIndex": 3,
+   "explanation": "The multiplicative inverse undoes A from either side, giving the identity. A\u207b\u00b9 = \u2212A is the additive inverse idea, which is a different property.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0025",
+   "topicId": "spec-qce-matrices",
+   "stem": "To solve AX = B for X, where A is invertible, you calculate:",
+   "imageRef": null,
+   "options": [
+    "X = BA\u207b\u00b9",
+    "X = B/A",
+    "X = B \u2212 A",
+    "X = A\u207b\u00b9B"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply both sides on the left by A\u207b\u00b9: A\u207b\u00b9AX = A\u207b\u00b9B, so X = A\u207b\u00b9B. Multiplying on the right gives BA\u207b\u00b9, which is a different matrix because multiplication is not commutative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0026",
+   "topicId": "spec-qce-matrices",
+   "stem": "To solve XA = B for X, where A is invertible, you calculate:",
+   "imageRef": null,
+   "options": [
+    "X = A\u207b\u00b9B",
+    "X = AB\u207b\u00b9",
+    "X = B\u207b\u00b9A",
+    "X = BA\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply both sides on the right by A\u207b\u00b9: XAA\u207b\u00b9 = BA\u207b\u00b9, so X = BA\u207b\u00b9. The inverse must go on the same side as A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0027",
+   "topicId": "spec-qce-matrices",
+   "stem": "To solve AX + BX = C for X, where A + B is invertible, you calculate:",
+   "imageRef": null,
+   "options": [
+    "X = C(A + B)\u207b\u00b9",
+    "X = A\u207b\u00b9C + B\u207b\u00b9C",
+    "X = (A\u207b\u00b9 + B\u207b\u00b9)C",
+    "X = (A + B)\u207b\u00b9C"
+   ],
+   "correctIndex": 3,
+   "explanation": "Factor X out on the right: (A + B)X = C, then multiply on the left by (A + B)\u207b\u00b9. The inverse of a sum is not the sum of the inverses.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0028",
+   "topicId": "spec-qce-matrices",
+   "stem": "A has rows (2, 1) and (5, 3), and B is the column matrix with rows (4) and (11). The solution of AX = B is the column matrix with rows:",
+   "imageRef": null,
+   "options": [
+    "(1) and (2)",
+    "(2) and (1)",
+    "(23) and (53)",
+    "(\u22121) and (6)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u207b\u00b9 has rows (3, \u22121) and (\u22125, 2), so X = A\u207b\u00b9B gives 12 \u2212 11 = 1 and \u221220 + 22 = 2. Check: 2 \u00d7 1 + 1 \u00d7 2 = 4 and 5 \u00d7 1 + 3 \u00d7 2 = 11.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0029",
+   "topicId": "spec-qce-matrices",
+   "stem": "A has rows (2, 1) and (5, 3), and B has rows (4, 2) and (1, 1). The solution of XA = B has rows:",
+   "imageRef": null,
+   "options": [
+    "(11, 5) and (\u221218, \u22128)",
+    "(18, 10) and (7, 4)",
+    "(2, 0) and (\u22122, 1)",
+    "(2, \u22122) and (0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "X = BA\u207b\u00b9 = rows (4, 2), (1, 1) times rows (3, \u22121), (\u22125, 2), giving rows (2, 0) and (\u22122, 1). Check: (2, 0) times A gives (4, 2). Computing A\u207b\u00b9B instead gives (11, 5) and (\u221218, \u22128).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0030",
+   "topicId": "spec-qce-matrices",
+   "stem": "A has rows (1, 0) and (2, 1), B has rows (1, 1) and (0, 2), and C is the column with rows (5) and (7). The solution of AX + BX = C is the column with rows:",
+   "imageRef": null,
+   "options": [
+    "(1) and (2)",
+    "(8) and (4)",
+    "(5) and (7)",
+    "(2) and (1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A + B has rows (2, 1) and (2, 3), with determinant 4, so X = (1/4) \u00d7 rows (3, \u22121), (\u22122, 2) times C = (1/4)(8, 4) = (2, 1). The column (8, 4) forgets the factor 1/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0031",
+   "topicId": "spec-qce-matrices",
+   "stem": "The system 3x + 2y = 7 and x \u2212 y = 4 written as a matrix equation is:",
+   "imageRef": null,
+   "options": [
+    "rows (7, 4) times column (x, y) equals rows (3, 2), (1, \u22121)",
+    "rows (3, 2), (1, \u22121) times column (x, y) equals column (7, 4)",
+    "rows (3, 1), (2, \u22121) times column (x, y) equals column (7, 4)",
+    "rows (3, 2), (1, 1) times column (x, y) equals column (7, 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each row of the coefficient matrix holds the coefficients of one equation, in the order x then y. Writing the coefficients by columns gives the transpose, which is a different system.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0032",
+   "topicId": "spec-qce-matrices",
+   "stem": "Solving 3x + 2y = 7 and x \u2212 y = 4 with the inverse matrix gives:",
+   "imageRef": null,
+   "options": [
+    "x = 1 and y = 2",
+    "x = 3 and y = \u22121",
+    "x = \u22121 and y = 3",
+    "x = 3 and y = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "det = \u22123 \u2212 2 = \u22125, and X = (1/\u22125) \u00d7 rows (\u22121, \u22122), (\u22121, 3) times (7, 4) = (1/\u22125)(\u221215, 5) = (3, \u22121). Check: 9 \u2212 2 = 7 and 3 + 1 = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0033",
+   "topicId": "spec-qce-matrices",
+   "stem": "The coefficient matrix of the system 2x + 3y = 5 and 4x + 6y = 10 has determinant 0. This tells you that the system:",
+   "imageRef": null,
+   "options": [
+    "has exactly two solutions",
+    "has the solution x = 0, y = 0",
+    "does not have a unique solution",
+    "has the unique solution x = 1, y = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "With det = 12 \u2212 12 = 0 the matrix has no inverse, so there is no unique solution; here the second equation is twice the first, giving infinitely many. The point (1, 1) is one solution but not the only one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0034",
+   "topicId": "spec-qce-matrices",
+   "stem": "For which value of k does the system kx + 2y = 3 and 6x + 4y = 1 have no unique solution?",
+   "imageRef": null,
+   "options": [
+    "k = \u22123",
+    "k = 6",
+    "k = 3",
+    "k = 12"
+   ],
+   "correctIndex": 2,
+   "explanation": "No unique solution needs det = 4k \u2212 12 = 0, so k = 3. Then the lines 3x + 2y = 3 and 3x + 2y = 0.5 are parallel, with no solution at all.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-0035",
+   "topicId": "spec-qce-matrices",
+   "stem": "Two adult tickets and three child tickets cost $47, and one adult and two child tickets cost $28. Solving with matrices, an adult ticket costs:",
+   "imageRef": null,
+   "options": [
+    "$10",
+    "$9",
+    "$13",
+    "$7"
+   ],
+   "correctIndex": 0,
+   "explanation": "The system 2a + 3c = 47 and a + 2c = 28 has det = 4 \u2212 3 = 1, giving a = 2 \u00d7 47 \u2212 3 \u00d7 28 = 10 and c = \u221247 + 2 \u00d7 28 = 9. A child ticket costs $9, not an adult ticket.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

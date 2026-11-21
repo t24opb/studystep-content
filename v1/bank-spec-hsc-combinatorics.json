@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-hsc-combinatorics",
+ "questions": [
+  {
+   "id": "spec-hsc-combinatorics-0001",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Evaluate 10!/8!.",
+   "imageRef": null,
+   "options": [
+    "90",
+    "2",
+    "720",
+    "80"
+   ],
+   "correctIndex": 0,
+   "explanation": "10! = 10 \u00d7 9 \u00d7 8!, so 10!/8! = 10 \u00d7 9 = 90. Subtracting 8 from 10 to get 2 is not how factorials cancel, and 720 is 10 \u00d7 9 \u00d7 8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0002",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Simplify (n + 1)!/(n \u2212 1)!.",
+   "imageRef": null,
+   "options": [
+    "2",
+    "n(n + 1)",
+    "n + 1",
+    "(n + 1)(n \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "(n + 1)! = (n + 1) \u00d7 n \u00d7 (n \u2212 1)!, so the quotient is n(n + 1). Cancelling as if the factorials were ordinary numbers, (n + 1)/(n \u2212 1), is a common error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0003",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the value of 0! + 1!?",
+   "imageRef": null,
+   "options": [
+    "undefined",
+    "2",
+    "1",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "By convention 0! = 1, so that n! = n \u00d7 (n \u2212 1)! also holds for n = 1. So 0! + 1! = 1 + 1 = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0004",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "A student has 4 shirts, 3 pairs of trousers and 2 pairs of shoes. How many different outfits of one of each are possible?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "12",
+    "6",
+    "24"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the multiplication principle, 4 \u00d7 3 \u00d7 2 = 24. Adding, 4 + 3 + 2 = 9, counts single items rather than combined choices.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0005",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can gold, silver and bronze be awarded to 3 of 8 runners?",
+   "imageRef": null,
+   "options": [
+    "512",
+    "24",
+    "336",
+    "56"
+   ],
+   "correctIndex": 2,
+   "explanation": "The medals are different, so order matters: P(8, 3) = 8 \u00d7 7 \u00d7 6 = 336. The value 56 = C(8, 3) counts unordered groups of three, and 512 = 8\u00b3 allows one runner to win more than once.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0006",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Which formula gives P(n, r), the number of ordered selections of r objects from n distinct objects?",
+   "imageRef": null,
+   "options": [
+    "n!/(n \u2212 r)!",
+    "n!/(r!(n \u2212 r)!)",
+    "n!/r!",
+    "(n \u2212 r)!/n!"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(n, r) = n(n \u2212 1)...(n \u2212 r + 1), which is n!/(n \u2212 r)!. Dividing further by r! gives C(n, r), which ignores order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0007",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many different arrangements are there of the letters of BANANA?",
+   "imageRef": null,
+   "options": [
+    "120",
+    "360",
+    "60",
+    "720"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are 6 letters with A repeated 3 times and N twice, so 6!/(3! \u00d7 2!) = 720/12 = 60. Dividing by 3! alone gives 120, which still counts swaps of the two Ns.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0008",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many different arrangements are there of the letters of MISSISSIPPI?",
+   "imageRef": null,
+   "options": [
+    "69 300",
+    "39 916 800",
+    "831 600",
+    "34 650"
+   ],
+   "correctIndex": 3,
+   "explanation": "There are 11 letters: I four times, S four times and P twice, so 11!/(4! \u00d7 4! \u00d7 2!) = 34 650. Forgetting the repeated P gives 69 300.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0009",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can 5 people stand in a row if A and B must stand together?",
+   "imageRef": null,
+   "options": [
+    "120",
+    "48",
+    "24",
+    "72"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat A and B as one unit: 4 units in a row give 4! = 24 arrangements, and A and B can swap within the unit, so 2 \u00d7 24 = 48. Leaving out the swap gives 24.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0010",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can 5 people stand in a row if A and B must not stand together?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "72",
+    "48",
+    "96"
+   ],
+   "correctIndex": 1,
+   "explanation": "All arrangements number 5! = 120, and 48 have A and B together, so 120 \u2212 48 = 72. The value 48 counts the arrangements with them together.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0011",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many arrangements of the letters of NUMBER begin and end with a consonant?",
+   "imageRef": null,
+   "options": [
+    "720",
+    "576",
+    "288",
+    "144"
+   ],
+   "correctIndex": 2,
+   "explanation": "The consonants are N, M, B and R. Choose the first and last in 4 \u00d7 3 = 12 ways, then arrange the other 4 letters in 4! = 24 ways: 12 \u00d7 24 = 288.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0012",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many even four-digit numbers can be formed from the digits 1 to 7 if no digit is repeated?",
+   "imageRef": null,
+   "options": [
+    "840",
+    "420",
+    "480",
+    "360"
+   ],
+   "correctIndex": 3,
+   "explanation": "Fill the restricted place first: the last digit is 2, 4 or 6 (3 ways), then the other places take 6 \u00d7 5 \u00d7 4 = 120 ways, giving 360. The value 840 = P(7, 4) ignores the even condition.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0013",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many four-digit numbers greater than 5000 can be formed from the digits 1 to 6 if no digit is repeated?",
+   "imageRef": null,
+   "options": [
+    "240",
+    "60",
+    "120",
+    "360"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first digit must be 5 or 6 (2 ways), then the rest take 5 \u00d7 4 \u00d7 3 = 60 ways, so 2 \u00d7 60 = 120. The value 360 = P(6, 4) counts every four-digit number.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0014",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can 7 people be seated around a circular table?",
+   "imageRef": null,
+   "options": [
+    "120",
+    "360",
+    "720",
+    "5040"
+   ],
+   "correctIndex": 2,
+   "explanation": "Around a circle, arrangements that are rotations of each other are the same, so there are (7 \u2212 1)! = 6! = 720. The value 5040 = 7! counts arrangements in a row.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0015",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Why is the number of ways to arrange n distinct objects in a circle (n \u2212 1)!?",
+   "imageRef": null,
+   "options": [
+    "Each circular arrangement matches n rotations among the n! line orders",
+    "One object is left out of every circular arrangement",
+    "Clockwise and anticlockwise orders always count as the same",
+    "The first object in a circle can only go in one of n \u2212 1 places"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each circular arrangement corresponds to n different line arrangements, one starting from each person, so the count is n!/n = (n \u2212 1)!. Reflections are not identified unless the problem says so, as with a necklace.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0016",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can 8 people sit around a circular table if two particular people must sit together?",
+   "imageRef": null,
+   "options": [
+    "2880",
+    "1440",
+    "720",
+    "10 080"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat the pair as one unit: 7 units around a circle give 6! = 720 arrangements, and the pair can swap, so 2 \u00d7 720 = 1440. The value 10 080 = 2 \u00d7 7! treats the table as a row.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0017",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "In how many ways can 7 people sit around a circular table if A and B must not sit next to each other?",
+   "imageRef": null,
+   "options": [
+    "240",
+    "600",
+    "720",
+    "480"
+   ],
+   "correctIndex": 3,
+   "explanation": "All arrangements number 6! = 720. With A and B together there are 2 \u00d7 5! = 240. So 720 \u2212 240 = 480 have them apart.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0018",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Evaluate C(10, 3).",
+   "imageRef": null,
+   "options": [
+    "1000",
+    "120",
+    "720",
+    "30"
+   ],
+   "correctIndex": 1,
+   "explanation": "C(10, 3) = 10!/(3! \u00d7 7!) = (10 \u00d7 9 \u00d7 8)/(3 \u00d7 2 \u00d7 1) = 120. The value 720 = P(10, 3) counts ordered selections.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0019",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Which is equal to C(20, 17)?",
+   "imageRef": null,
+   "options": [
+    "P(20, 3)",
+    "C(20, 3)",
+    "C(17, 3)",
+    "C(20, 7)"
+   ],
+   "correctIndex": 1,
+   "explanation": "C(n, r) = C(n, n \u2212 r): choosing 17 to include is the same as choosing 3 to leave out. P(20, 3) is 3! times larger, since it counts order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0020",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Choosing r objects from n distinct objects to include is matched by choosing which objects to exclude. Which identity does this prove?",
+   "imageRef": null,
+   "options": [
+    "C(n, r) = C(n \u2212 1, r \u2212 1) + C(n \u2212 1, r)",
+    "P(n, r) = r! \u00d7 C(n, r)",
+    "C(n, n) = C(n, 0) = 1",
+    "C(n, r) = C(n, n \u2212 r)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each selection of r objects to include leaves exactly n \u2212 r to exclude, so the two counts are equal. The identity C(n, r) = C(n \u2212 1, r \u2212 1) + C(n \u2212 1, r) comes from splitting on whether one particular object is chosen.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0021",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Which is equal to C(9, 4) + C(9, 5)?",
+   "imageRef": null,
+   "options": [
+    "C(10, 5)",
+    "C(18, 9)",
+    "C(9, 9)",
+    "C(10, 9)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pascal's identity C(n, r) = C(n \u2212 1, r \u2212 1) + C(n \u2212 1, r), with n = 10 and r = 5, gives C(10, 5). Adding the top and bottom numbers to get C(18, 9) is not a valid rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0022",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "A committee of 3 men and 2 women is chosen from 6 men and 5 women. How many committees are possible?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "462",
+    "120",
+    "200"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choose the men in C(6, 3) = 20 ways and the women in C(5, 2) = 10 ways, and multiply: 200. Adding 20 and 10 gives 30, and C(11, 5) = 462 ignores the requirement of 3 men and 2 women.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0023",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "A committee of 4 is chosen from 5 men and 4 women. How many committees include at least one woman?",
+   "imageRef": null,
+   "options": [
+    "121",
+    "126",
+    "224",
+    "120"
+   ],
+   "correctIndex": 0,
+   "explanation": "All committees number C(9, 4) = 126, and those with no women number C(5, 4) = 5, so 126 \u2212 5 = 121. Choosing one woman first and then any 3 others, 4 \u00d7 C(8, 3) = 224, counts many committees more than once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0024",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "If C(n, 2) = 45, what is n?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "10",
+    "9",
+    "45"
+   ],
+   "correctIndex": 1,
+   "explanation": "C(n, 2) = n(n \u2212 1)/2 = 45, so n(n \u2212 1) = 90 = 10 \u00d7 9 and n = 10. Forgetting to divide by 2 leads to n(n \u2212 1) = 45, which has no whole-number solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0025",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many diagonals does a decagon (10 sides) have?",
+   "imageRef": null,
+   "options": [
+    "45",
+    "70",
+    "90",
+    "35"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any 2 of the 10 vertices form a segment, giving C(10, 2) = 45, but 10 of those are sides, leaving 35 diagonals. The value 90 = P(10, 2) counts each segment twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0026",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "A bag holds 4 red and 3 blue balls. In how many ways can 3 balls be chosen so that at least 2 are red?",
+   "imageRef": null,
+   "options": [
+    "22",
+    "18",
+    "35",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "Split into cases: exactly 2 red, C(4, 2) \u00d7 C(3, 1) = 18, plus exactly 3 red, C(4, 3) = 4, giving 22. Counting only the first case gives 18, and 35 = C(7, 3) counts every selection.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0027",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "The letters A, B, C, D and E are arranged in a row at random. What is the probability that A is first and B is last?",
+   "imageRef": null,
+   "options": [
+    "1/25",
+    "1/10",
+    "2/5",
+    "1/20"
+   ],
+   "correctIndex": 3,
+   "explanation": "With A and B fixed, the other 3 letters can be arranged in 3! = 6 ways, out of 5! = 120 in all, so P = 6/120 = 1/20. Allowing A and B to swap ends gives 1/10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0028",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "A committee of 3 is chosen at random from 5 boys and 4 girls. What is the probability that all three are girls?",
+   "imageRef": null,
+   "options": [
+    "64/729",
+    "1/21",
+    "4/9",
+    "1/84"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are C(4, 3) = 4 all-girl committees out of C(9, 3) = 84, so P = 4/84 = 1/21. The value 64/729 = (4/9)\u00b3 treats the choices as made with replacement.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0029",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What are the coefficients in the expansion of (x + y)\u2075?",
+   "imageRef": null,
+   "options": [
+    "1, 5, 10, 5, 1",
+    "1, 5, 15, 15, 5, 1",
+    "1, 5, 10, 10, 5, 1",
+    "1, 4, 6, 4, 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "They are row 5 of Pascal's triangle, C(5, 0) to C(5, 5): 1, 5, 10, 10, 5, 1. There are six terms, one more than the power. The row 1, 4, 6, 4, 1 belongs to (x + y)\u2074.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0030",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "How many terms are in the expansion of (a + b)\u00b9\u2070?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "11",
+    "10",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "The powers of b run from 0 to 10, giving 11 terms. The number of terms is always one more than the power.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0031",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the coefficient of x\u00b3y\u2075 in the expansion of (x + y)\u2078?",
+   "imageRef": null,
+   "options": [
+    "336",
+    "28",
+    "56",
+    "40"
+   ],
+   "correctIndex": 2,
+   "explanation": "The coefficient of x^(n \u2212 r)y^r is C(n, r), so here it is C(8, 5) = C(8, 3) = 56. The value 336 is P(8, 3), and 28 is C(8, 2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0032",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Expand (2x \u2212 1)\u2074.",
+   "imageRef": null,
+   "options": [
+    "2x\u2074 \u2212 8x\u00b3 + 12x\u00b2 \u2212 8x + 1",
+    "16x\u2074 \u2212 32x\u00b3 + 24x\u00b2 \u2212 8x \u2212 1",
+    "16x\u2074 \u2212 32x\u00b3 + 24x\u00b2 \u2212 8x + 1",
+    "16x\u2074 + 32x\u00b3 + 24x\u00b2 + 8x + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Using 1, 4, 6, 4, 1: (2x)\u2074 \u2212 4(2x)\u00b3 + 6(2x)\u00b2 \u2212 4(2x) + 1 = 16x\u2074 \u2212 32x\u00b3 + 24x\u00b2 \u2212 8x + 1. The signs alternate because of the \u22121, and (\u22121)\u2074 = +1 for the last term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0033",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the coefficient of x\u00b2 in the expansion of (1 + 3x)\u2075?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "45",
+    "90",
+    "10"
+   ],
+   "correctIndex": 2,
+   "explanation": "The x\u00b2 term is C(5, 2)(3x)\u00b2 = 10 \u00d7 9x\u00b2 = 90x\u00b2. Forgetting to square the 3 gives 30.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0034",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the term in x\u00b2 in the expansion of (x + 2)\u2075?",
+   "imageRef": null,
+   "options": [
+    "10x\u00b2",
+    "160x\u00b2",
+    "80x\u00b2",
+    "40x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The x\u00b2 term has x\u00b2 and 2\u00b3: C(5, 3)x\u00b2 \u00d7 2\u00b3 = 10 \u00d7 8x\u00b2 = 80x\u00b2. Pairing x\u00b2 with 2\u00b2 gives 40x\u00b2, but the powers must add to 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0035",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the term independent of x in the expansion of (x + 2/x)\u2076?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "120",
+    "240",
+    "160"
+   ],
+   "correctIndex": 3,
+   "explanation": "The general term is C(6, k)x^(6 \u2212 k)(2/x)\u1d4f = C(6, k)2\u1d4fx^(6 \u2212 2k), which is constant when k = 3: 20 \u00d7 8 = 160. Leaving out the factor 2\u00b3 gives 20.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0036",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the term independent of x in the expansion of (2x \u2212 1/x\u00b2)\u00b9\u00b2?",
+   "imageRef": null,
+   "options": [
+    "253 440",
+    "126 720",
+    "\u2212126 720",
+    "495"
+   ],
+   "correctIndex": 1,
+   "explanation": "The general term is C(12, k)(2x)^(12 \u2212 k)(\u22121)\u1d4fx^(\u22122k), with power 12 \u2212 3k, so k = 4. The term is C(12, 4) \u00d7 2\u2078 \u00d7 (\u22121)\u2074 = 495 \u00d7 256 = 126 720, positive because the power of \u22121 is even.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0037",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the value of C(8, 0) + C(8, 1) + C(8, 2) + ... + C(8, 8)?",
+   "imageRef": null,
+   "options": [
+    "36",
+    "256",
+    "128",
+    "64"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting x = 1 into (1 + x)\u2078 = C(8, 0) + C(8, 1)x + ... + C(8, 8)x\u2078 gives 2\u2078 = 256. Equivalently, it counts all subsets of a set of 8 objects.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0038",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "Substituting which value of x into the expansion of (1 + x)\u207f shows that C(n, 0) \u2212 C(n, 1) + C(n, 2) \u2212 ... + (\u22121)\u207fC(n, n) = 0?",
+   "imageRef": null,
+   "options": [
+    "x = 1",
+    "x = 0",
+    "x = 2",
+    "x = \u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "With x = \u22121 the left side is (1 \u2212 1)\u207f = 0 and the right side alternates in sign. Substituting x = 1 gives the sum of the coefficients, 2\u207f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0039",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "By comparing coefficients of x\u2074 in (1 + x)\u2074(1 + x)\u2079 = (1 + x)\u00b9\u00b3, the sum C(4, 0)C(9, 4) + C(4, 1)C(9, 3) + C(4, 2)C(9, 2) + C(4, 3)C(9, 1) + C(4, 4)C(9, 0) equals:",
+   "imageRef": null,
+   "options": [
+    "C(13, 4)",
+    "C(13, 5)",
+    "C(36, 4)",
+    "C(4, 4) \u00d7 C(9, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each product picks an x^k term from (1 + x)\u2074 and an x^(4 \u2212 k) term from (1 + x)\u2079, so together they give the x\u2074 coefficient of (1 + x)\u00b9\u00b3, which is C(13, 4). It also counts committees of 4 from 4 men and 9 women.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-combinatorics-0040",
+   "topicId": "spec-hsc-combinatorics",
+   "stem": "What is the value of C(5, 0)\u00b2 + C(5, 1)\u00b2 + C(5, 2)\u00b2 + C(5, 3)\u00b2 + C(5, 4)\u00b2 + C(5, 5)\u00b2?",
+   "imageRef": null,
+   "options": [
+    "1024",
+    "126",
+    "252",
+    "32"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since C(5, k) = C(5, 5 \u2212 k), the sum is \u03a3 C(5, k)C(5, 5 \u2212 k), the x\u2075 coefficient of (1 + x)\u2075(1 + x)\u2075 = (1 + x)\u00b9\u2070. That is C(10, 5) = 252. The value 32 = 2\u2075 is the plain sum of the coefficients.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

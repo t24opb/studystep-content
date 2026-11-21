@@ -1,0 +1,746 @@
+{
+ "topicId": "gm-bsss-time-series",
+ "questions": [
+  {
+   "id": "gm-bsss-time-series-0001",
+   "topicId": "gm-bsss-time-series",
+   "stem": "When monthly rainfall at Canberra Airport is drawn as a time series plot, how are the points shown?",
+   "imageRef": null,
+   "options": [
+    "In time order, with time on the horizontal axis and the points joined",
+    "In order of size, with rainfall on the horizontal axis and the points joined",
+    "In time order, with time on the vertical axis and the points left unjoined",
+    "In a column for each month, with the height showing how often it rained"
+   ],
+   "correctIndex": 0,
+   "explanation": "A time series plot puts time on the horizontal axis and the variable on the vertical axis, and joins the points in time order so patterns over time are easy to see. Ordering by size would destroy the time pattern.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0002",
+   "topicId": "gm-bsss-time-series",
+   "stem": "In time series analysis, the trend is best described as:",
+   "imageRef": null,
+   "options": [
+    "the pattern that repeats at the same time each year",
+    "the short, unpredictable ups and downs in the series",
+    "a single value far from the rest caused by a one-off event",
+    "the long-term direction in which the series is moving"
+   ],
+   "correctIndex": 3,
+   "explanation": "Trend is the long-term increase or decrease in a series. A pattern that repeats each calendar year is seasonality, and short unpredictable movements are irregular fluctuations.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0003",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Seasonality in a time series means:",
+   "imageRef": null,
+   "options": [
+    "a steady increase in the values over a period of many years",
+    "unsystematic short-term changes that cannot be predicted",
+    "a one-off value caused by an unexpected event such as a fire",
+    "systematic movements tied to the calendar, such as a rise every December"
+   ],
+   "correctIndex": 3,
+   "explanation": "Seasonality is a regular, calendar-related pattern that repeats over a fixed period, such as each year or each week. A steady long-term increase is trend.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0004",
+   "topicId": "gm-bsss-time-series",
+   "stem": "In a time series, the irregular fluctuations are:",
+   "imageRef": null,
+   "options": [
+    "unsystematic, short-term movements that follow no pattern",
+    "regular movements that repeat at the same time every year",
+    "the long-term upward or downward movement of the series",
+    "the values that remain after a moving average is applied"
+   ],
+   "correctIndex": 0,
+   "explanation": "Irregular fluctuations are the random, short-term variation left over once trend and seasonality are accounted for. They do not repeat on a calendar pattern, which is what distinguishes them from seasonality.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0005",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Weekly sales at a Belconnen garden centre were steady for two years except for one week when sales were about four times the usual level, the week after a heavy storm. That week is best described as:",
+   "imageRef": null,
+   "options": [
+    "part of the seasonal pattern",
+    "an irregular fluctuation each week",
+    "an outlier caused by a one-off event",
+    "evidence of an increasing trend"
+   ],
+   "correctIndex": 2,
+   "explanation": "A single value far from the rest, explained by an unanticipated event, is an outlier. One unusual week does not make a long-term trend, and it does not repeat each year, so it is not seasonal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0006",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Quarterly visitor numbers to a ski resort rise over several years, and every year the July to September quarter is far higher than the others. The plot shows:",
+   "imageRef": null,
+   "options": [
+    "an increasing trend with no seasonality",
+    "seasonality with no trend",
+    "irregular fluctuations only",
+    "an increasing trend with seasonality"
+   ],
+   "correctIndex": 3,
+   "explanation": "The rise over several years is an increasing trend, and the high third quarter every year is seasonality. Both features are present, so describing only one of them is incomplete.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0007",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Monthly sales at a Canberra bakery move up and down a little from month to month with no repeating pattern, and the overall level is the same at the end of five years as at the start. The best description is:",
+   "imageRef": null,
+   "options": [
+    "an increasing trend with irregular fluctuations",
+    "no trend, but strong seasonality each year",
+    "a decreasing trend with seasonality",
+    "no trend, no seasonality, irregular fluctuations only"
+   ],
+   "correctIndex": 3,
+   "explanation": "The level is the same after five years, so there is no trend, and nothing repeats on a calendar pattern, so there is no seasonality. What remains is irregular fluctuation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0008",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A time series of daily customers at a gym shows peaks every Monday and lows every Saturday, and the weekly totals fall slowly over a year. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The series is seasonal with a period of one week and has a decreasing trend",
+    "The series is seasonal with a period of one year and has a decreasing trend",
+    "The series has a decreasing trend and only irregular fluctuations each week",
+    "The series is seasonal with a period of one week and has no trend at all"
+   ],
+   "correctIndex": 0,
+   "explanation": "A pattern tied to the days of the week is seasonality with a period of one week. The slow fall in weekly totals is a decreasing trend, so the series shows both.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0009",
+   "topicId": "gm-bsss-time-series",
+   "stem": "The main purpose of smoothing a time series with a simple moving average is to:",
+   "imageRef": null,
+   "options": [
+    "remove the trend so the seasonal pattern is easier to see",
+    "make the series longer by adding values at each end",
+    "change every value to the same average of the whole series",
+    "reduce irregular fluctuations so the trend is easier to see"
+   ],
+   "correctIndex": 3,
+   "explanation": "Averaging neighbouring values evens out short-term ups and downs, leaving the underlying trend clearer. Smoothing removes values at the ends rather than adding them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0010",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Daily sales were 23, 31, 26, 35, 29, 41, 38. What is the 3-point moving average centred on the fourth value (35)?",
+   "imageRef": null,
+   "options": [
+    "35",
+    "31",
+    "33",
+    "30"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 3-point average centred on 35 uses 26, 35 and 29, giving 90/3 = 30. Using 31, 26 and 35 gives about 30.7, which is centred on the third value instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0011",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Daily sales were 23, 31, 26, 35, 29, 41, 38. What is the 5-point moving average centred on the third value (26)?",
+   "imageRef": null,
+   "options": [
+    "28.8",
+    "26.0",
+    "32.2",
+    "33.8"
+   ],
+   "correctIndex": 0,
+   "explanation": "The five values centred on the third are 23, 31, 26, 35 and 29, which add to 144, and 144/5 = 28.8. The value 33.8 uses the five values centred on the fifth value instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0012",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Daily sales were 23, 31, 26, 35, 29, 41, 38. What is the 3-point moving average centred on the sixth value (41)?",
+   "imageRef": null,
+   "options": [
+    "35",
+    "39",
+    "36",
+    "41"
+   ],
+   "correctIndex": 2,
+   "explanation": "The average centred on 41 uses 29, 41 and 38, which add to 108, and 108/3 = 36. The smoothed value is lower than 41 because the neighbours are lower.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0013",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A 3-point simple moving average is applied to 24 monthly values. How many smoothed values are produced?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "8",
+    "22",
+    "24"
+   ],
+   "correctIndex": 2,
+   "explanation": "A 3-point average cannot be centred on the first or last value, so one value is lost at each end: 24 \u2212 2 = 22. Dividing 24 by 3 to get 8 confuses a moving average with grouping into blocks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0014",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Monthly values are in cells B2 to B37 of a spreadsheet. Which formula in C6 gives the 5-point moving average centred on the value in B6?",
+   "imageRef": null,
+   "options": [
+    "=AVERAGE(B2:B6)",
+    "=SUM(B4:B8)",
+    "=AVERAGE(B4:B8)",
+    "=AVERAGE(B6:B10)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A 5-point average centred on B6 uses two values each side, B4 to B8. B6:B10 starts at B6 so it is centred on B8, and SUM gives the total rather than the average.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0015",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Compared with a 3-point moving average, a 7-point moving average of the same series:",
+   "imageRef": null,
+   "options": [
+    "is smoother but loses more values at each end",
+    "is rougher and loses fewer values at each end",
+    "is smoother and loses fewer values at each end",
+    "is rougher but loses more values at each end"
+   ],
+   "correctIndex": 0,
+   "explanation": "Averaging more points evens out more of the variation, so the result is smoother. A 7-point average loses three values at each end, against one for a 3-point average.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0016",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Quarterly values were 40, 52, 61, 47, 44. Two 4-point moving averages are found and then averaged to centre the result on the third quarter. What is the centred value?",
+   "imageRef": null,
+   "options": [
+    "61",
+    "50.5",
+    "50",
+    "51"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 4-point averages are (40 + 52 + 61 + 47)/4 = 50 and (52 + 61 + 47 + 44)/4 = 51. They sit between quarters, so averaging them, (50 + 51)/2 = 50.5, centres the value on the third quarter.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0017",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A shop wants to smooth quarterly sales so that the seasonal pattern is averaged out. Which choice of moving average is most suitable?",
+   "imageRef": null,
+   "options": [
+    "A 4-point average, centred",
+    "A 3-point average",
+    "A 5-point average",
+    "A 2-point average"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each 4-point average contains exactly one of each quarter, so the seasonal highs and lows cancel. A 3-point or 5-point average includes some quarters more than others, so the seasonal pattern partly remains.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0018",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A seasonal index of 1.25 for the December quarter means that December quarter sales are typically:",
+   "imageRef": null,
+   "options": [
+    "125% above the quarterly average",
+    "25% above the quarterly average",
+    "25% below the quarterly average",
+    "1.25% above the quarterly average"
+   ],
+   "correctIndex": 1,
+   "explanation": "A seasonal index compares a season with the average season, so 1.25 means 125% of the average, or 25% above it. An index of 0.75 would mean 25% below.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0019",
+   "topicId": "gm-bsss-time-series",
+   "stem": "For monthly data, the twelve seasonal indices must add to:",
+   "imageRef": null,
+   "options": [
+    "100",
+    "365",
+    "12",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each index is measured against an average month, so on average the indices equal 1 and the twelve of them add to 12. For quarterly data they add to 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0020",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Three quarterly seasonal indices for a caravan park are 0.85, 1.10 and 1.30. What is the fourth seasonal index?",
+   "imageRef": null,
+   "options": [
+    "0.75",
+    "0.85",
+    "1.25",
+    "0.25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Quarterly indices add to 4, so the fourth is 4 \u2212 (0.85 + 1.10 + 1.30) = 4 \u2212 3.25 = 0.75. The value 0.25 comes from subtracting from 3.5 instead of 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0021",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Eleven of the monthly seasonal indices for an ice-cream shop add to 11.30. What is the index for the remaining month?",
+   "imageRef": null,
+   "options": [
+    "0.30",
+    "1.00",
+    "0.70",
+    "1.30"
+   ],
+   "correctIndex": 2,
+   "explanation": "Monthly indices add to 12, so the missing index is 12 \u2212 11.30 = 0.70. Subtracting from 11.6 or assuming an average month of 1.00 ignores the total of 12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0022",
+   "topicId": "gm-bsss-time-series",
+   "stem": "In the average percentage method, what is done first with each year of quarterly data?",
+   "imageRef": null,
+   "options": [
+    "Find the mean of that year, then each quarter as a percentage of it",
+    "Find the mean of each quarter over all years, then divide by the total",
+    "Fit a least-squares line to that year and read off each quarter",
+    "Smooth that year with a 3-point moving average of the quarters"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each quarter is expressed as a percentage of its own year's mean, which removes the effect of the trend from year to year. These percentages are then averaged across the years for each quarter.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0023",
+   "topicId": "gm-bsss-time-series",
+   "stem": "In one year a business had quarterly sales of 30, 45, 60 and 25 (thousand dollars). In the average percentage method, what is the third quarter as a percentage of that year's quarterly mean?",
+   "imageRef": null,
+   "options": [
+    "150%",
+    "37.5%",
+    "120%",
+    "60%"
+   ],
+   "correctIndex": 0,
+   "explanation": "The quarterly mean is (30 + 45 + 60 + 25)/4 = 40, and 60/40 = 1.5, or 150%. The value 37.5% is 60 as a fraction of the yearly total of 160.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0024",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Quarterly sales were Year 1: 30, 45, 60, 25 and Year 2: 36, 54, 72, 38 (thousand dollars). Using the average percentage method, what is the seasonal index for the third quarter?",
+   "imageRef": null,
+   "options": [
+    "1.44",
+    "1.32",
+    "1.47",
+    "1.50"
+   ],
+   "correctIndex": 2,
+   "explanation": "The yearly means are 40 and 50, so the third quarter is 60/40 = 1.50 of the mean in Year 1 and 72/50 = 1.44 in Year 2. Averaging gives (1.50 + 1.44)/2 = 1.47.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0025",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Using the same data (Year 1: 30, 45, 60, 25; Year 2: 36, 54, 72, 38), what is the seasonal index for the first quarter?",
+   "imageRef": null,
+   "options": [
+    "0.720",
+    "0.660",
+    "0.735",
+    "0.750"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first quarter is 30/40 = 0.75 of the Year 1 mean and 36/50 = 0.72 of the Year 2 mean. Their average is 0.735. Using only one year gives 0.75 or 0.72.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0026",
+   "topicId": "gm-bsss-time-series",
+   "stem": "To deseasonalise a value in a time series, you:",
+   "imageRef": null,
+   "options": [
+    "subtract the seasonal index from the actual value",
+    "add the seasonal index to the actual value",
+    "divide the actual value by the seasonal index",
+    "multiply the actual value by the seasonal index"
+   ],
+   "correctIndex": 2,
+   "explanation": "Deseasonalised value = actual value / seasonal index. Multiplying by the index is the reverse step, used to turn a deseasonalised forecast back into an actual one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0027",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Winter sales at a Woden cafe were $52 000, and the winter seasonal index is 0.8. What are the deseasonalised winter sales?",
+   "imageRef": null,
+   "options": [
+    "$41 600",
+    "$52 800",
+    "$62 400",
+    "$65 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Deseasonalised sales = 52 000/0.8 = $65 000. Multiplying by 0.8 gives $41 600, which goes the wrong way: a below-average season must be raised to compare it fairly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0028",
+   "topicId": "gm-bsss-time-series",
+   "stem": "The seasonal index for summer at a pool supplies store is 1.25. To deseasonalise summer sales, the actual figures must be:",
+   "imageRef": null,
+   "options": [
+    "increased by 25%",
+    "increased by 20%",
+    "decreased by 20%",
+    "decreased by 25%"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing by 1.25 is the same as multiplying by 0.8, a decrease of 20%. A decrease of 25% would multiply by 0.75, which is not the inverse of a 25% increase.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0029",
+   "topicId": "gm-bsss-time-series",
+   "stem": "The seasonal index for winter at a beach kiosk is 0.8. To deseasonalise winter sales, the actual figures must be:",
+   "imageRef": null,
+   "options": [
+    "increased by 25%",
+    "increased by 20%",
+    "decreased by 20%",
+    "increased by 80%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dividing by 0.8 is the same as multiplying by 1.25, an increase of 25%. An increase of 20% would multiply by 1.2, which does not undo a 20% shortfall.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0030",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A store sold $48 000 in the fourth quarter (seasonal index 0.8) and $54 000 in the next first quarter (seasonal index 1.2). After deseasonalising, which is true?",
+   "imageRef": null,
+   "options": [
+    "The first quarter was stronger: $64 800 against $38 400",
+    "The first quarter was stronger: $54 000 against $48 000",
+    "The quarters were equal once seasonality is removed",
+    "The fourth quarter was stronger: $60 000 against $45 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Deseasonalised, the fourth quarter is 48 000/0.8 = $60 000 and the first quarter is 54 000/1.2 = $45 000. The raw figures suggest the opposite because the first quarter is normally a strong season.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0031",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Actual sales are in column B and the matching seasonal indices are in column C of a spreadsheet. Which formula in D2 gives the deseasonalised value for row 2?",
+   "imageRef": null,
+   "options": [
+    "=B2/C2",
+    "=B2*C2",
+    "=C2/B2",
+    "=B2-C2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Deseasonalised value = actual value / seasonal index, which is B2/C2. Filling the formula down the column applies it to every row.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0032",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Deseasonalised data are most useful because they:",
+   "imageRef": null,
+   "options": [
+    "show the seasonal pattern more clearly than the raw data",
+    "remove the long-term trend so the series is flat",
+    "make every value in the series exactly the same",
+    "let values from different seasons be compared fairly"
+   ],
+   "correctIndex": 3,
+   "explanation": "Removing the seasonal effect puts each value on an equal footing, so changes caused by trend or irregular movements can be seen. Deseasonalising keeps the trend; it removes the seasonal pattern rather than showing it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0033",
+   "topicId": "gm-bsss-time-series",
+   "stem": "When a least-squares line is fitted to a time series to model the trend, the explanatory variable is:",
+   "imageRef": null,
+   "options": [
+    "the response variable",
+    "time",
+    "the seasonal index",
+    "the moving average"
+   ],
+   "correctIndex": 1,
+   "explanation": "Time is placed on the horizontal axis and used to predict the value of the series. The series itself is the response variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0034",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Annual visitors (thousands) to a museum for years t = 1 to 5 were 12, 15, 15, 18 and 20. What is the least-squares trend line?",
+   "imageRef": null,
+   "options": [
+    "visitors = 16 + 1.9t",
+    "visitors = 10.3 + 1.9t",
+    "visitors = 12 + 2t",
+    "visitors = 10 + 2t"
+   ],
+   "correctIndex": 1,
+   "explanation": "The means are 3 for t and 16 for visitors. The slope is 19/10 = 1.9, and the intercept is 16 \u2212 1.9 \u00d7 3 = 10.3. The value 16 is the mean of visitors, not the intercept.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0035",
+   "topicId": "gm-bsss-time-series",
+   "stem": "The trend line visitors = 10.3 + 1.9t models annual museum visitors in thousands, where t is the year number. What does the slope tell you?",
+   "imageRef": null,
+   "options": [
+    "Visitors increase by about 1900 each year",
+    "Visitors increase by about 1.9 each year",
+    "About 10 300 visitors come in year 1",
+    "Visitors increase by about 19% each year"
+   ],
+   "correctIndex": 0,
+   "explanation": "The slope is 1.9 thousand visitors per year, or about 1900 extra visitors each year. The units are thousands, so 1.9 people is wrong, and the intercept, not the slope, relates to the starting level.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0036",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Deseasonalised quarterly sales follow the trend line sales = 85 + 2.4t (thousand dollars), where t = 1 is the first quarter of the data. The seasonal index for quarter t = 13 is 0.9. What is the forecast of actual sales for t = 13?",
+   "imageRef": null,
+   "options": [
+    "$87 160",
+    "$104 580",
+    "$116 200",
+    "$129 111"
+   ],
+   "correctIndex": 1,
+   "explanation": "The trend gives 85 + 2.4 \u00d7 13 = 116.2 thousand, which is deseasonalised. Re-seasonalising multiplies by the index: 116.2 \u00d7 0.9 = 104.58 thousand, or $104 580. Dividing by 0.9 gives about $129 111.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0037",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A trend line fitted to 3 years of monthly sales is used to forecast sales 6 years past the end of the data. The main concern with this forecast is that:",
+   "imageRef": null,
+   "options": [
+    "trend lines can only be used to forecast one month ahead",
+    "the seasonal indices must be recalculated for each new year",
+    "it is an extrapolation, and the trend may not continue that long",
+    "it is an interpolation, which is always less reliable than extrapolation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Predicting well beyond the data is extrapolation, which assumes the trend carries on unchanged. Interpolation, within the data range, is the more reliable of the two.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0038",
+   "topicId": "gm-bsss-time-series",
+   "stem": "A council asks, \"Has water use per household in Canberra fallen over the past decade?\" In the statistical investigation process, deseasonalising monthly data and fitting a trend line belong to which stage?",
+   "imageRef": null,
+   "options": [
+    "Posing the question",
+    "Collecting the data",
+    "Communicating the findings",
+    "Analysing the data"
+   ],
+   "correctIndex": 3,
+   "explanation": "Smoothing, deseasonalising and fitting a trend line are all ways of analysing the data. The question is posed first and the data collected before any of this, and the findings are interpreted and reported last.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-bsss-time-series-0039",
+   "topicId": "gm-bsss-time-series",
+   "stem": "Monthly electricity use by a household is plotted for four years. The deseasonalised series has a least-squares slope of \u22128 kWh per month. Which conclusion is best supported?",
+   "imageRef": null,
+   "options": [
+    "After removing seasonal effects, use has tended to fall by about 8 kWh each month",
+    "Use falls by exactly 8 kWh every month, in every season of the year",
+    "Use in winter is about 8 kWh lower than use in summer each year",
+    "The seasonal indices fall by about 8% each month over the period"
+   ],
+   "correctIndex": 0,
+   "explanation": "The slope of the trend line describes the long-term direction once the seasonal pattern is removed, so use tends to fall about 8 kWh per month. Actual values still fluctuate, so it is not exactly 8 kWh every month, and the slope says nothing about the gap between seasons.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-bsss-time-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

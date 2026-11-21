@@ -1,0 +1,670 @@
+{
+ "topicId": "spec-qce-circle-proofs",
+ "questions": [
+  {
+   "id": "spec-qce-circle-proofs-0001",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The angle at the centre of a circle subtended by an arc is:",
+   "imageRef": null,
+   "options": [
+    "half the angle at the circumference subtended by the same arc",
+    "supplementary to the angle at the circumference subtended by the same arc",
+    "twice the angle at the circumference subtended by the same arc",
+    "equal to the angle at the circumference subtended by the same arc"
+   ],
+   "correctIndex": 2,
+   "explanation": "The angle at the centre is double the angle at the circumference standing on the same arc. Equal angles at the circumference come from the same-arc theorem, not this one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0002",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Points A, B and C lie on a circle with centre O, and C is on the major arc. If \u2220AOB = 130\u00b0, then \u2220ACB is:",
+   "imageRef": null,
+   "options": [
+    "65\u00b0",
+    "130\u00b0",
+    "260\u00b0",
+    "50\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The angle at the circumference is half the angle at the centre on the same arc: 130\u00b0 \u00f7 2 = 65\u00b0. Doubling instead gives 260\u00b0, which reverses the theorem.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0003",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Points A, B and C lie on a circle with centre O, and C is on the major arc. If \u2220ACB = 38\u00b0, then \u2220AOB is:",
+   "imageRef": null,
+   "options": [
+    "38\u00b0",
+    "142\u00b0",
+    "76\u00b0",
+    "19\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The angle at the centre is twice the angle at the circumference: 2 \u00d7 38\u00b0 = 76\u00b0. Halving gives 19\u00b0, which reverses the theorem.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0004",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Points A, B and C lie on a circle with centre O, and C is on the minor arc AB, with \u2220ACB = 110\u00b0. The non-reflex angle \u2220AOB is:",
+   "imageRef": null,
+   "options": [
+    "55\u00b0",
+    "70\u00b0",
+    "140\u00b0",
+    "220\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2220ACB stands on the major arc, so the angle at the centre on that arc is the reflex angle 2 \u00d7 110\u00b0 = 220\u00b0. The non-reflex \u2220AOB is 360\u00b0 \u2212 220\u00b0 = 140\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0005",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "AB is a chord of a circle with centre O, and \u2220OAB = 25\u00b0. If C is a point on the major arc, then \u2220ACB is:",
+   "imageRef": null,
+   "options": [
+    "65\u00b0",
+    "130\u00b0",
+    "25\u00b0",
+    "50\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Triangle OAB is isosceles (OA = OB), so \u2220OBA = 25\u00b0 and \u2220AOB = 180\u00b0 \u2212 50\u00b0 = 130\u00b0. The angle at the circumference is half of that, 65\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0006",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "One proof of the angle-at-the-centre theorem draws the diameter through C and uses triangles OAC and OBC. The key facts used are that:",
+   "imageRef": null,
+   "options": [
+    "these triangles are right-angled, and Pythagoras' theorem holds in each of them",
+    "these triangles are equilateral, and each of their angles is 60\u00b0",
+    "these triangles are isosceles, and an exterior angle equals the sum of the two interior opposite angles",
+    "these triangles are congruent, and corresponding angles of congruent triangles are equal"
+   ],
+   "correctIndex": 2,
+   "explanation": "OA = OC = OB are radii, so each triangle has equal base angles, say x; the exterior angle at O is then 2x. Adding the two parts shows the angle at the centre is twice the angle at C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0007",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "An angle at the circumference subtended by a diameter (an angle in a semicircle) is:",
+   "imageRef": null,
+   "options": [
+    "180\u00b0",
+    "45\u00b0",
+    "60\u00b0",
+    "90\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The diameter subtends 180\u00b0 at the centre, and the angle at the circumference is half of that, 90\u00b0. The 180\u00b0 is the straight angle at the centre.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0008",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "AB is a diameter of a circle and C is a point on the circle. If \u2220CAB = 34\u00b0, then \u2220ABC is:",
+   "imageRef": null,
+   "options": [
+    "34\u00b0",
+    "146\u00b0",
+    "68\u00b0",
+    "56\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u2220ACB = 90\u00b0 because it is in a semicircle, so \u2220ABC = 180\u00b0 \u2212 90\u00b0 \u2212 34\u00b0 = 56\u00b0. The value 68\u00b0 doubles 34\u00b0 as if the angle-at-centre theorem applied.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0009",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "AB is a diameter of length 10 cm and C is on the circle with AC = 6 cm. The length of BC is:",
+   "imageRef": null,
+   "options": [
+    "4 cm",
+    "\u221a136 cm",
+    "16 cm",
+    "8 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u2220ACB = 90\u00b0, so by Pythagoras BC = \u221a(10\u00b2 \u2212 6\u00b2) = 8 cm. Adding the squares, \u221a136, treats AB as a shorter side rather than the hypotenuse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0010",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The angle-in-a-semicircle theorem follows from the angle-at-the-centre theorem because:",
+   "imageRef": null,
+   "options": [
+    "opposite angles of a cyclic quadrilateral add to 180\u00b0",
+    "the diameter subtends a straight angle of 180\u00b0 at the centre, and half of 180\u00b0 is 90\u00b0",
+    "the diameter is twice the radius, so the angle is doubled to 90\u00b0",
+    "every triangle inscribed in a circle is right-angled"
+   ],
+   "correctIndex": 1,
+   "explanation": "The angle at the centre standing on a diameter is a straight angle, 180\u00b0, so any angle at the circumference on that arc is 90\u00b0. Not every inscribed triangle is right-angled; only those with a side as a diameter.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0011",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Angles at the circumference of a circle subtended by the same arc, on the same side of the chord, are:",
+   "imageRef": null,
+   "options": [
+    "complementary",
+    "in the ratio 2 : 1",
+    "equal",
+    "supplementary"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each is half the angle at the centre on that arc, so they are all equal. Supplementary angles arise for points on opposite arcs, as in a cyclic quadrilateral.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0012",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Points A, B, C and D lie on a circle, with C and D on the same side of chord AB. If \u2220ACB = 41\u00b0, then \u2220ADB is:",
+   "imageRef": null,
+   "options": [
+    "139\u00b0",
+    "20.5\u00b0",
+    "41\u00b0",
+    "82\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both angles stand on arc AB from the same side, so they are equal: 41\u00b0. The value 139\u00b0 would apply if D were on the other side of AB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0013",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The opposite angles of a cyclic quadrilateral are:",
+   "imageRef": null,
+   "options": [
+    "complementary",
+    "in the ratio 2 : 1",
+    "supplementary",
+    "equal"
+   ],
+   "correctIndex": 2,
+   "explanation": "Opposite angles of a cyclic quadrilateral add to 180\u00b0. Equal opposite angles are a property of parallelograms, which are cyclic only when they are rectangles.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0014",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "ABCD is a cyclic quadrilateral with \u2220DAB = 72\u00b0. The angle \u2220BCD is:",
+   "imageRef": null,
+   "options": [
+    "144\u00b0",
+    "18\u00b0",
+    "108\u00b0",
+    "72\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: 180\u00b0 \u2212 72\u00b0 = 108\u00b0. Treating them as equal gives 72\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0015",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Which quadrilateral PQRS, with angles listed in order P, Q, R, S, must be cyclic?",
+   "imageRef": null,
+   "options": [
+    "90\u00b0, 80\u00b0, 100\u00b0, 90\u00b0",
+    "60\u00b0, 120\u00b0, 80\u00b0, 100\u00b0",
+    "70\u00b0, 105\u00b0, 110\u00b0, 75\u00b0",
+    "70\u00b0, 110\u00b0, 70\u00b0, 110\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the converse, a quadrilateral is cyclic when its opposite angles are supplementary: 70\u00b0 + 110\u00b0 = 180\u00b0 and 105\u00b0 + 75\u00b0 = 180\u00b0. In each of the others, the opposite pair P and R does not add to 180\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0016",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "ABCD is a cyclic quadrilateral, and side DC is extended to E. If \u2220BCE = 76\u00b0, then \u2220DAB is:",
+   "imageRef": null,
+   "options": [
+    "76\u00b0",
+    "104\u00b0",
+    "152\u00b0",
+    "14\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u2220BCD = 180\u00b0 \u2212 76\u00b0 = 104\u00b0 on the straight line, and the opposite angle \u2220DAB = 180\u00b0 \u2212 104\u00b0 = 76\u00b0. So an exterior angle of a cyclic quadrilateral equals the interior opposite angle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0017",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The cyclic quadrilateral theorem can be proved from the angle-at-the-centre theorem because:",
+   "imageRef": null,
+   "options": [
+    "the diagonals of a cyclic quadrilateral are diameters",
+    "each angle of a cyclic quadrilateral is 90\u00b0",
+    "the two angles at the centre on opposite arcs are equal, so their halves are equal",
+    "the two angles at the centre on opposite arcs add to 360\u00b0, so their halves add to 180\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Opposite angles of the quadrilateral stand on the two arcs that make up the whole circle; the angles at the centre on those arcs add to 360\u00b0, so the angles at the circumference add to 180\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0018",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The converse of \"the opposite angles of a cyclic quadrilateral are supplementary\" is:",
+   "imageRef": null,
+   "options": [
+    "if a quadrilateral is not cyclic, then its opposite angles are not supplementary",
+    "if a quadrilateral is cyclic, then its opposite angles are equal",
+    "if a quadrilateral's opposite angles are equal, then it is cyclic",
+    "if a quadrilateral's opposite angles are supplementary, then it is cyclic"
+   ],
+   "correctIndex": 3,
+   "explanation": "The converse swaps the hypothesis and conclusion. The second option is the inverse; it happens to be true here, but it is not the converse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0019",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A tangent to a circle and the radius drawn to the point of contact are:",
+   "imageRef": null,
+   "options": [
+    "perpendicular",
+    "parallel",
+    "equal in length",
+    "at an angle of 45\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The tangent meets the radius at right angles at the point of contact. The converse also holds: a line perpendicular to a radius at its end on the circle is a tangent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0020",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "P is outside a circle with centre O and radius 5 cm, and OP = 13 cm. The length of a tangent from P to the circle is:",
+   "imageRef": null,
+   "options": [
+    "8 cm",
+    "\u221a194 cm",
+    "18 cm",
+    "12 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "The tangent is perpendicular to the radius at the point of contact T, so PT = \u221a(13\u00b2 \u2212 5\u00b2) = 12 cm. Subtracting the lengths, 13 \u2212 5 = 8, gives the shortest distance from P to the circle instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0021",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Tangents from P touch a circle with centre O at A and B, and \u2220APB = 50\u00b0. The angle \u2220AOB is:",
+   "imageRef": null,
+   "options": [
+    "310\u00b0",
+    "130\u00b0",
+    "50\u00b0",
+    "100\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "In quadrilateral OAPB the angles at A and B are 90\u00b0, so \u2220AOB = 360\u00b0 \u2212 90\u00b0 \u2212 90\u00b0 \u2212 50\u00b0 = 130\u00b0. The value 100\u00b0 doubles 50\u00b0, as if the angle-at-centre theorem applied.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0022",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A tangent from P to a circle with centre O and radius 10 cm has length 24 cm. The shortest distance from P to the circle is:",
+   "imageRef": null,
+   "options": [
+    "16 cm",
+    "26 cm",
+    "14 cm",
+    "22 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "OP = \u221a(24\u00b2 + 10\u00b2) = 26 cm, and the nearest point of the circle lies on OP, so the shortest distance is 26 \u2212 10 = 16 cm. The value 26 cm is the distance to the centre.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0023",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The converse of the tangent-radius theorem states that:",
+   "imageRef": null,
+   "options": [
+    "every line that meets a circle at one point is perpendicular to a diameter",
+    "a line through a point on a circle, perpendicular to the radius there, is a tangent",
+    "a tangent to a circle is perpendicular to the radius at the point of contact",
+    "a line perpendicular to a tangent always passes through the point of contact"
+   ],
+   "correctIndex": 1,
+   "explanation": "The theorem says tangent \u21d2 perpendicular to the radius; the converse says perpendicular to the radius at a point on the circle \u21d2 tangent. The second option restates the original theorem.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0024",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "One proof that a tangent is perpendicular to the radius at the point of contact T is by contradiction. Assuming the radius OT is not perpendicular to the tangent leads to:",
+   "imageRef": null,
+   "options": [
+    "a radius of the circle that is longer than the diameter of the same circle",
+    "a triangle containing two right angles, one at T and one at the centre O",
+    "a point on the tangent closer to O than the radius, so the tangent would cross the circle twice",
+    "a second centre of the circle, lying somewhere on the tangent line itself"
+   ],
+   "correctIndex": 2,
+   "explanation": "If OT is not perpendicular, the foot N of the perpendicular from O lies on the tangent with ON < OT, so N is inside the circle and the line would meet the circle twice. That contradicts it being a tangent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0025",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "The alternate segment theorem states that the angle between a tangent and a chord at the point of contact is equal to:",
+   "imageRef": null,
+   "options": [
+    "the angle in the alternate segment subtended by that chord",
+    "the angle at the centre subtended by that chord",
+    "half the angle in the alternate segment",
+    "the angle between the chord and the radius"
+   ],
+   "correctIndex": 0,
+   "explanation": "The angle between the tangent and the chord equals any angle at the circumference standing on the chord in the opposite (alternate) segment. It is half the angle at the centre, not equal to it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0026",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A tangent touches a circle at A, and chord AB makes an angle of 58\u00b0 with the tangent. For a point C on the circle in the alternate segment, \u2220ACB is:",
+   "imageRef": null,
+   "options": [
+    "58\u00b0",
+    "122\u00b0",
+    "32\u00b0",
+    "116\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the alternate segment theorem, \u2220ACB equals the tangent-chord angle, 58\u00b0. Subtracting from 180\u00b0 gives 122\u00b0, which would be the angle in the same segment as the tangent angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0027",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A tangent at A makes an angle of 40\u00b0 with chord AB of a circle with centre O. The angle \u2220AOB is:",
+   "imageRef": null,
+   "options": [
+    "100\u00b0",
+    "80\u00b0",
+    "40\u00b0",
+    "140\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The angle in the alternate segment is 40\u00b0, and the angle at the centre on the same arc is twice that, 80\u00b0. Equivalently, \u2220OAB = 90\u00b0 \u2212 40\u00b0 = 50\u00b0 in isosceles triangle OAB, giving 180\u00b0 \u2212 100\u00b0 = 80\u00b0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0028",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A tangent touches a circle at T. Chord TA makes an angle of 70\u00b0 with the tangent, and B is on the circle in the alternate segment with \u2220ATB = 50\u00b0. The angle \u2220TAB is:",
+   "imageRef": null,
+   "options": [
+    "70\u00b0",
+    "50\u00b0",
+    "110\u00b0",
+    "60\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the alternate segment theorem, \u2220TBA = 70\u00b0. In triangle TAB, \u2220TAB = 180\u00b0 \u2212 70\u00b0 \u2212 50\u00b0 = 60\u00b0. The 70\u00b0 is the angle at B, not at A.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0029",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "In a vector proof, the square of the length of a vector a is written as:",
+   "imageRef": null,
+   "options": [
+    "2a",
+    "a \u00b7 1",
+    "a \u00b7 a",
+    "a + a"
+   ],
+   "correctIndex": 2,
+   "explanation": "a \u00b7 a = |a||a| cos 0\u00b0 = |a|\u00b2, which is how lengths enter vector proofs. The vector 2a has twice the length, not the square of it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0030",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A parallelogram has adjacent sides a and b, so its diagonals are a + b and a \u2212 b. When |a| = |b| (a rhombus), (a + b) \u00b7 (a \u2212 b) equals:",
+   "imageRef": null,
+   "options": [
+    "0, so the diagonals are parallel",
+    "0, so the diagonals are perpendicular",
+    "2|a|\u00b2, so the diagonals are equal in length",
+    "|a|\u00b2 + |b|\u00b2, so the diagonals bisect each other"
+   ],
+   "correctIndex": 1,
+   "explanation": "(a + b) \u00b7 (a \u2212 b) = a \u00b7 a \u2212 b \u00b7 b = |a|\u00b2 \u2212 |b|\u00b2 = 0 when the sides are equal, and a zero scalar product of non-zero vectors means perpendicular. Parallel vectors give a non-zero product.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0031",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "To prove the converse, that a parallelogram whose diagonals are perpendicular is a rhombus, you use the fact that (a + b) \u00b7 (a \u2212 b) = 0 implies:",
+   "imageRef": null,
+   "options": [
+    "a = b, so the sides are the same vector",
+    "a \u00b7 b = 0, so the adjacent sides are perpendicular",
+    "|a + b| = |a \u2212 b|, so the diagonals are equal",
+    "|a|\u00b2 = |b|\u00b2, so the adjacent sides are equal"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives |a|\u00b2 \u2212 |b|\u00b2 = 0, so |a| = |b| and all four sides are equal. It does not give a \u00b7 b = 0; that condition would make the parallelogram a rectangle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0032",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "Quadrilateral ABCD has position vectors a, b, c and d, and P, Q, R and S are the midpoints of AB, BC, CD and DA. The key step in proving PQRS is a parallelogram is:",
+   "imageRef": null,
+   "options": [
+    "PQ = QR, so adjacent sides are equal in length",
+    "PQ = SR = (c \u2212 a)/2, so one pair of opposite sides is parallel and equal",
+    "PQ = (a + b)/2 and SR = (c + d)/2, which are equal",
+    "PQ \u00b7 SR = 0, so the opposite sides are perpendicular"
+   ],
+   "correctIndex": 1,
+   "explanation": "PQ = (b + c)/2 \u2212 (a + b)/2 = (c \u2212 a)/2 and SR = (c + d)/2 \u2212 (d + a)/2 = (c \u2212 a)/2. Equal vectors mean the sides are parallel and equal, which makes a parallelogram.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0033",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "For a parallelogram with sides a and b, the result |a + b|\u00b2 + |a \u2212 b|\u00b2 = 2|a|\u00b2 + 2|b|\u00b2 shows that:",
+   "imageRef": null,
+   "options": [
+    "the diagonals of a parallelogram are always equal",
+    "the diagonals of a parallelogram are always perpendicular",
+    "the sum of the diagonals equals the perimeter",
+    "the squares of the diagonals add to the sum of the squares of the four sides"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding, the cross terms +2a \u00b7 b and \u22122a \u00b7 b cancel, leaving 2|a|\u00b2 + 2|b|\u00b2, the sum of the squares of all four sides. Neither equal nor perpendicular diagonals follow in general.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0034",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "A parallelogram has sides 5 cm and 7 cm, and one diagonal is 8 cm. The other diagonal is:",
+   "imageRef": null,
+   "options": [
+    "\u221a74 cm",
+    "2\u221a21 cm",
+    "\u221a10 cm",
+    "12 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the parallelogram law, d\u00b2 + 8\u00b2 = 2(5\u00b2) + 2(7\u00b2) = 148, so d\u00b2 = 84 and d = \u221a84 = 2\u221a21 cm. The value \u221a74 forgets to double the squares of the sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-circle-proofs-0035",
+   "topicId": "spec-qce-circle-proofs",
+   "stem": "To prove the angle in a semicircle is 90\u00b0 with vectors, let the centre be O, the diameter ends have position vectors a and \u2212a, and C have position vector c with |c| = |a|. The key result is:",
+   "imageRef": null,
+   "options": [
+    "(a + c) \u00b7 (a \u2212 c) = |a|\u00b2 + |c|\u00b2 \u2260 0",
+    "a \u00b7 c = 0, so OC is perpendicular to the diameter",
+    "(a \u2212 c) + (\u2212a \u2212 c) = \u22122c, which is a radius",
+    "(a \u2212 c) \u00b7 (\u2212a \u2212 c) = |c|\u00b2 \u2212 |a|\u00b2 = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "CA = a \u2212 c and CB = \u2212a \u2212 c, and their scalar product is \u2212|a|\u00b2 + |c|\u00b2 = 0 because both are radii. So CA \u22a5 CB. The statement a \u00b7 c = 0 is true only for one particular position of C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-circle-proofs-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

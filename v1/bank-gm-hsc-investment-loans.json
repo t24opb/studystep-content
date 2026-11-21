@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-hsc-investment-loans",
+ "questions": [
+  {
+   "id": "gm-hsc-investment-loans-0001",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "In the simple interest formula I = Prn, the letter n stands for:",
+   "imageRef": null,
+   "options": [
+    "the interest rate per period",
+    "the number of payments made",
+    "the final value of the loan",
+    "the number of time periods"
+   ],
+   "correctIndex": 3,
+   "explanation": "I = Prn multiplies the principal P by the rate per period r and the number of periods n. The rate and the number of periods must use the same time unit, such as years.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0002",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "What simple interest is earned on $5000 invested at 4% p.a. for 3 years?",
+   "imageRef": null,
+   "options": [
+    "$600",
+    "$624.32",
+    "$200",
+    "$60 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "I = Prn = 5000 \u00d7 0.04 \u00d7 3 = $600. $624.32 is the compound interest for the same investment, and $60 000 uses r = 4 instead of 0.04.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0003",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "What simple interest is earned on $8000 invested at 6% p.a. for 9 months?",
+   "imageRef": null,
+   "options": [
+    "$360",
+    "$4320",
+    "$480",
+    "$3600"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rate is per year, so n = 9/12 = 0.75 years: I = 8000 \u00d7 0.06 \u00d7 0.75 = $360. Using n = 9 treats the months as years and gives $4320.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0004",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "An investment of $3000 earns $450 simple interest over 5 years. What is the annual interest rate?",
+   "imageRef": null,
+   "options": [
+    "3%",
+    "15%",
+    "0.3%",
+    "6%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearrange I = Prn: r = I \u00f7 (Pn) = 450 \u00f7 (3000 \u00d7 5) = 0.03, or 3% p.a. 15% is 450 \u00f7 3000, which is the interest over all 5 years, not the rate per year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0005",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Graphs of the value of simple interest investments against time are:",
+   "imageRef": null,
+   "options": [
+    "straight lines, steeper for higher interest rates",
+    "curves that get steeper as time goes on",
+    "straight lines, all with the same gradient",
+    "curves that level off as time goes on"
+   ],
+   "correctIndex": 0,
+   "explanation": "Simple interest adds the same amount every period, so the value grows linearly. A higher rate adds more each period, so its line is steeper. Curves that get steeper describe compound interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0006",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "In the formula FV = PV(1 + r)\u207f, PV stands for:",
+   "imageRef": null,
+   "options": [
+    "the present value, the amount first invested",
+    "the periodic value added at the end of each period",
+    "the principal value after all the interest is added",
+    "the percentage value of the interest rate"
+   ],
+   "correctIndex": 0,
+   "explanation": "PV is the present value, the amount invested now; FV is the future value after n periods of compounding at rate r per period.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0007",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "$5000 is invested at 4% p.a. compounded annually. What is its value after 3 years?",
+   "imageRef": null,
+   "options": [
+    "$5624.32",
+    "$5600.00",
+    "$5849.29",
+    "$624.32"
+   ],
+   "correctIndex": 0,
+   "explanation": "FV = 5000 \u00d7 1.04\u00b3 = $5624.32. $5600 is the simple interest result, $5849.29 uses 4 years, and $624.32 is only the interest earned.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0008",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "$10 000 is invested at 6% p.a. compounded monthly. What is its value after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$40 489.35",
+    "$11 271.60",
+    "$11 236.00",
+    "$11 200.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is 0.06/12 = 0.005 and there are 24 months: FV = 10 000 \u00d7 1.005\u00b2\u2074 = $11 271.60. Compounding annually gives $11 236, and using r = 0.06 with n = 24 gives the far too large $40 489.35.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0009",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "How much must be invested now at 5% p.a. compounded annually to have $20 000 in 5 years?",
+   "imageRef": null,
+   "options": [
+    "$15 000.00",
+    "$25 525.63",
+    "$15 670.52",
+    "$16 000.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "PV = FV \u00f7 (1 + r)\u207f = 20 000 \u00f7 1.05\u2075 = $15 670.52. $16 000 uses simple interest (20 000 \u00f7 1.25), and $25 525.63 is the future value of $20 000, not the present value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0010",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A bag of groceries costs $80 today. If inflation averages 3% p.a., what will the same groceries cost in 4 years?",
+   "imageRef": null,
+   "options": [
+    "$82.40",
+    "$70.82",
+    "$90.04",
+    "$89.60"
+   ],
+   "correctIndex": 2,
+   "explanation": "Inflation compounds like interest: 80 \u00d7 1.03\u2074 = $90.04. $89.60 adds 3% of $80 four times (simple interest), and $70.82 reduces the price instead of increasing it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0011",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A house worth $650 000 appreciates at 5% p.a. What is its value after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$682 500",
+    "$586 625",
+    "$716 625",
+    "$715 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "Appreciation compounds: 650 000 \u00d7 1.05\u00b2 = $716 625. $715 000 adds 5% of the original value twice, and $682 500 is the value after only one year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0012",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Two accounts both pay 6% p.a. interest. One compounds monthly and the other compounds annually. After 5 years, the account compounding monthly will have:",
+   "imageRef": null,
+   "options": [
+    "the same amount, because both accounts pay the same annual rate",
+    "slightly less, because each monthly rate is only one twelfth of 6%",
+    "twelve times as much, because interest is added twelve times a year",
+    "slightly more, because interest is added and earns interest sooner"
+   ],
+   "correctIndex": 3,
+   "explanation": "With more frequent compounding, interest is added to the balance sooner and then earns interest itself, so the future value is a little higher. The monthly rate is smaller, but it is applied twelve times as often.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0013",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "On the same axes, the value of a compound interest investment against time is:",
+   "imageRef": null,
+   "options": [
+    "a curve that levels off, while simple interest gives a straight line",
+    "an exponential curve, while simple interest gives a straight line",
+    "a straight line, while simple interest gives an exponential curve",
+    "a straight line, the same as a simple interest investment's"
+   ],
+   "correctIndex": 1,
+   "explanation": "Compound interest multiplies the value by (1 + r) each period, which is exponential growth, so the curve gets steeper. Simple interest adds the same amount each period, giving a straight line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0014",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "In a spreadsheet, cell B2 holds the balance of an investment at the start of year 1. Interest is 4% p.a. compounded annually. Which formula in B3 gives the balance one year later?",
+   "imageRef": null,
+   "options": [
+    "=B2+1.04",
+    "=B2*1.04",
+    "=B2+0.04",
+    "=B2*0.04"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each year the balance is multiplied by 1 + 0.04 = 1.04. =B2*0.04 gives only the interest for the year, and =B2+0.04 adds four cents.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0015",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "An investor owns 2000 shares and the company pays a dividend of $0.45 per share. What is the total dividend?",
+   "imageRef": null,
+   "options": [
+    "$90",
+    "$2045",
+    "$900",
+    "$4444"
+   ],
+   "correctIndex": 2,
+   "explanation": "Total dividend = number of shares \u00d7 dividend per share = 2000 \u00d7 0.45 = $900. $4444 divides 2000 by 0.45 instead of multiplying.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0016",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A share priced at $12.50 pays an annual dividend of $0.60. What is the dividend yield?",
+   "imageRef": null,
+   "options": [
+    "4.8%",
+    "20.8%",
+    "0.48%",
+    "48%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dividend yield = dividend \u00f7 share price \u00d7 100% = 0.60 \u00f7 12.50 \u00d7 100% = 4.8%. 20.8% divides the price by the dividend instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0017",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "An investor buys 500 shares at $8.40 each. Brokerage is $19.95 or 0.1% of the value of the trade, whichever is greater. What is the total cost?",
+   "imageRef": null,
+   "options": [
+    "$4204.20",
+    "$4200.00",
+    "$4239.90",
+    "$4219.95"
+   ],
+   "correctIndex": 3,
+   "explanation": "The trade is worth 500 \u00d7 8.40 = $4200, and 0.1% of that is only $4.20, so the $19.95 minimum applies: 4200 + 19.95 = $4219.95. $4204.20 uses the smaller percentage fee.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0018",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A graph shows a share's price rising from $4.20 to $5.04 over a year. What is the percentage increase in its price?",
+   "imageRef": null,
+   "options": [
+    "84%",
+    "8.4%",
+    "20%",
+    "16.7%"
+   ],
+   "correctIndex": 2,
+   "explanation": "The increase is 5.04 \u2212 4.20 = $0.84, and 0.84 \u00f7 4.20 = 0.2, or 20%. 16.7% divides by the new price instead of the original price.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0019",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Which investment usually locks money away for a fixed time at an interest rate that is set when the money is deposited?",
+   "imageRef": null,
+   "options": [
+    "Shares in a company",
+    "An investment property",
+    "A term deposit",
+    "A savings account"
+   ],
+   "correctIndex": 2,
+   "explanation": "A term deposit pays a fixed rate for a fixed term, and there is often a penalty for withdrawing early. A savings account lets money be withdrawn at any time, and shares and property have no set rate of return.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0020",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A person is comparing buying property and buying shares as investments. Which is a correct comparison?",
+   "imageRef": null,
+   "options": [
+    "Shares pay a guaranteed dividend each year, while property values can rise or fall",
+    "Property usually needs a much larger amount to start and is harder to sell quickly",
+    "Shares usually need a much larger amount to start and are harder to sell quickly",
+    "Property pays a guaranteed fixed rate of return, while share prices can rise or fall"
+   ],
+   "correctIndex": 1,
+   "explanation": "Buying property needs a large deposit and costs such as stamp duty, and selling takes time. Shares can be bought in small amounts and sold quickly, but neither investment guarantees a return or a dividend.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0021",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A car bought for $36 000 depreciates by $4500 per year using the straight-line method. What is its salvage value after 5 years?",
+   "imageRef": null,
+   "options": [
+    "$13 500",
+    "$22 500",
+    "$31 500",
+    "$18 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "S = V\u2080 \u2212 Dn = 36 000 \u2212 4500 \u00d7 5 = $13 500. $22 500 is the total depreciation over 5 years, not the value left.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0022",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A machine bought for $24 000 has a salvage value of $6000 after 8 years, using straight-line depreciation. What is the depreciation per year?",
+   "imageRef": null,
+   "options": [
+    "$750",
+    "$3750",
+    "$2250",
+    "$3000"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearrange S = V\u2080 \u2212 Dn: D = (24 000 \u2212 6000) \u00f7 8 = 18 000 \u00f7 8 = $2250. $3000 divides the purchase price by 8, ignoring the salvage value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0023",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A car bought for $45 000 depreciates at 20% p.a. using the declining balance method. What is its value after 3 years?",
+   "imageRef": null,
+   "options": [
+    "$77 760",
+    "$23 040",
+    "$18 000",
+    "$21 960"
+   ],
+   "correctIndex": 1,
+   "explanation": "S = V\u2080(1 \u2212 r)\u207f = 45 000 \u00d7 0.8\u00b3 = $23 040. $18 000 takes 20% of the original price off each year (straight-line), and $21 960 is the total depreciation, not the value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0024",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A car bought for $45 000 depreciates at 20% p.a. by the declining balance method. A spreadsheet shows the depreciation each year. What is the depreciation in year 2?",
+   "imageRef": null,
+   "options": [
+    "$36 000",
+    "$7200",
+    "$9000",
+    "$28 800"
+   ],
+   "correctIndex": 1,
+   "explanation": "Year 1 depreciation is 0.2 \u00d7 45 000 = $9000, leaving $36 000. Year 2 depreciation is 0.2 \u00d7 36 000 = $7200. A constant $9000 a year would be straight-line depreciation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0025",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Compared with straight-line depreciation, the graph of value under declining balance depreciation:",
+   "imageRef": null,
+   "options": [
+    "is a curve that falls slowly at first and then falls faster",
+    "is a straight line that falls at a constant percentage each year",
+    "is a curve that falls fastest at first and never reaches zero",
+    "is a straight line that falls more steeply and reaches zero sooner"
+   ],
+   "correctIndex": 2,
+   "explanation": "Declining balance removes a fixed percentage of the current value, so the dollar drop is largest at the start and shrinks, and the value approaches zero without reaching it. Straight-line depreciation gives a straight line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0026",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Equipment bought for $30 000 depreciates at 25% p.a. by the declining balance method. After how many whole years is its value first below $15 000?",
+   "imageRef": null,
+   "options": [
+    "3 years",
+    "2 years",
+    "4 years",
+    "5 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "Values: after 2 years 30 000 \u00d7 0.75\u00b2 = $16 875, after 3 years 30 000 \u00d7 0.75\u00b3 = $12 656.25. Two years would be right only for straight-line depreciation of $7500 a year.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0027",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "$10 000 is borrowed at 12% p.a. with interest charged monthly, and $500 is repaid at the end of each month. What is the balance owing after 2 months?",
+   "imageRef": null,
+   "options": [
+    "$9000.00",
+    "$9200.00",
+    "$9600.00",
+    "$9196.00"
+   ],
+   "correctIndex": 3,
+   "explanation": "Month 1: interest 1% of 10 000 = $100, balance 10 000 + 100 \u2212 500 = $9600. Month 2: interest $96, balance 9600 + 96 \u2212 500 = $9196. $9200 charges $100 interest both months, ignoring the lower balance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0028",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "$10 000 is borrowed at 12% p.a. with interest charged monthly, and $500 is repaid at the end of each month. How much interest is charged in month 3?",
+   "imageRef": null,
+   "options": [
+    "$91.96",
+    "$96.00",
+    "$100.00",
+    "$87.88"
+   ],
+   "correctIndex": 0,
+   "explanation": "The balance after 2 months is $9196, so the month 3 interest is 1% of 9196 = $91.96. $96.00 is the month 2 interest. Interest falls each month because the balance falls.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0029",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A $15 000 loan is repaid with monthly repayments of $480 over 3 years. How much interest is paid altogether?",
+   "imageRef": null,
+   "options": [
+    "$1800",
+    "$2280",
+    "$17 280",
+    "$5760"
+   ],
+   "correctIndex": 1,
+   "explanation": "Total repaid = 480 \u00d7 36 = $17 280, so interest = 17 280 \u2212 15 000 = $2280. $17 280 is the total repaid, and $5760 is only one year of repayments.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0030",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Making extra repayments on a reducing balance loan:",
+   "imageRef": null,
+   "options": [
+    "keeps the term the same and reduces each repayment",
+    "lengthens the term and reduces the total interest paid",
+    "shortens the term and reduces the total interest paid",
+    "shortens the term but increases the total interest paid"
+   ],
+   "correctIndex": 2,
+   "explanation": "Extra repayments reduce the balance faster, so less interest is charged each period and the loan is paid off sooner. The regular repayment stays the same unless the loan is changed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0031",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A borrower switches from monthly repayments of $1000 to fortnightly repayments of $500. Why is the loan repaid sooner?",
+   "imageRef": null,
+   "options": [
+    "The interest is only charged every second fortnight on a fortnightly loan",
+    "24 fortnightly payments equal 12 monthly payments, so the interest is halved",
+    "26 fortnightly payments equal 13 monthly payments, so more is repaid each year",
+    "Fortnightly payments are charged a lower interest rate than monthly payments"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are 26 fortnights in a year, so 26 \u00d7 $500 = $13 000 is repaid each year instead of 12 \u00d7 $1000 = $12 000. The balance also falls more often, which reduces the interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0032",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A $480 purchase is paid with buy now, pay later in 4 fortnightly instalments with no interest. Two instalments are paid late and each late payment incurs a $10 fee. What is the total paid?",
+   "imageRef": null,
+   "options": [
+    "$500",
+    "$490",
+    "$480",
+    "$520"
+   ],
+   "correctIndex": 0,
+   "explanation": "The instalments total $480 and the two late fees add $20, so $500 is paid. Buy now, pay later charges no interest, but late fees can make it costly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0033",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Compared with a 3-year personal loan for the same amount at the same rate, a 5-year loan has:",
+   "imageRef": null,
+   "options": [
+    "larger repayments but less total interest",
+    "smaller repayments but more total interest",
+    "larger repayments and more total interest",
+    "smaller repayments and less total interest"
+   ],
+   "correctIndex": 1,
+   "explanation": "Spreading the loan over more months lowers each repayment, but the balance stays higher for longer, so more interest is charged overall.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0034",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A credit card is an example of a reducing balance loan because:",
+   "imageRef": null,
+   "options": [
+    "the same amount of interest is charged every month of the year",
+    "interest is charged on the balance owing, which payments reduce",
+    "interest is charged only on the original amount of each purchase",
+    "the interest rate falls each month as the balance is paid off"
+   ],
+   "correctIndex": 1,
+   "explanation": "Interest on a credit card is calculated on the amount still owed, and each payment reduces that balance. The rate itself does not fall.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0035",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "On a credit card, an interest-free period means:",
+   "imageRef": null,
+   "options": [
+    "no interest is charged on any balance for the first year the card is held",
+    "no interest is charged on cash advances taken from an ATM during that period",
+    "no interest is charged as long as at least the minimum payment is made on time",
+    "no interest is charged on purchases if the full balance is paid by the due date"
+   ],
+   "correctIndex": 3,
+   "explanation": "The interest-free period only applies if the whole closing balance is paid by the due date. Paying only the minimum means interest is charged, and cash advances usually attract interest from the day they are taken.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0036",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "Compared with the interest rate on a home loan, the interest rate on a credit card is usually:",
+   "imageRef": null,
+   "options": [
+    "the same, because both rates follow the bank's cash rate",
+    "lower, because purchases have an interest-free period",
+    "much higher, because the credit is unsecured and flexible",
+    "much lower, because the amounts borrowed are much smaller"
+   ],
+   "correctIndex": 2,
+   "explanation": "Credit cards are unsecured: nothing like a house backs the debt, so lenders charge much higher rates than on home loans, and usually higher than on personal loans. The interest-free period does not lower the rate charged on a balance that is carried over.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0037",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A credit card has a balance of $2000, and interest of 18.25% p.a. compounds daily. How much interest is charged over 30 days?",
+   "imageRef": null,
+   "options": [
+    "$365.00",
+    "$18.25",
+    "$30.22",
+    "$30.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "The daily rate is 0.1825 \u00f7 365 = 0.0005. Interest = 2000 \u00d7 1.0005\u00b3\u2070 \u2212 2000 = $30.22. $30.00 is simple interest for the 30 days, and $365.00 is a whole year of simple interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0038",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A credit card statement shows a closing balance of $1240. The minimum payment is 2% of the closing balance or $25, whichever is greater. What is the minimum payment?",
+   "imageRef": null,
+   "options": [
+    "$25.00",
+    "$24.80",
+    "$49.80",
+    "$248.00"
+   ],
+   "correctIndex": 0,
+   "explanation": "2% of $1240 is $24.80, which is less than $25, so the minimum payment is $25.00. $248.00 uses 20% instead of 2%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0039",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A cardholder pays only the minimum payment each month on a credit card balance and makes no new purchases. What is the main consequence?",
+   "imageRef": null,
+   "options": [
+    "The balance grows each month because no principal is ever repaid",
+    "The balance takes a long time to repay and much more interest is paid",
+    "The balance is cleared within the interest-free period at no extra cost",
+    "The interest rate is reduced because payments are made every month"
+   ],
+   "correctIndex": 1,
+   "explanation": "The minimum payment is only a little more than the interest charged, so the balance falls very slowly and interest is paid for years. It does reduce the principal slightly, so the balance does not grow if no new purchases are made.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-investment-loans-0040",
+   "topicId": "gm-hsc-investment-loans",
+   "stem": "A cardholder withdraws cash from an ATM using a credit card. Compared with a purchase, a cash advance usually:",
+   "imageRef": null,
+   "options": [
+    "has no fees, but interest begins after the statement date",
+    "is charged interest only if the minimum payment is missed",
+    "attracts a fee and interest from the day of the withdrawal",
+    "has a longer interest-free period than ordinary purchases"
+   ],
+   "correctIndex": 2,
+   "explanation": "Cash advances usually carry a cash advance fee and interest charged from the day the cash is taken, often at a higher rate, with no interest-free period.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-investment-loans-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

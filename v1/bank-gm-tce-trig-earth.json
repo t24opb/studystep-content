@@ -1,0 +1,670 @@
+{
+ "topicId": "gm-tce-trig-earth",
+ "questions": [
+  {
+   "id": "gm-tce-trig-earth-0001",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, with side a opposite angle A, b opposite B and c opposite C, the sine rule states:",
+   "imageRef": null,
+   "options": [
+    "a/sin B = b/sin C = c/sin A",
+    "sin A/b = sin B/c = sin C/a",
+    "a/sin A = b/sin B = c/sin C",
+    "a sin A = b sin B = c sin C"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each side divided by the sine of its opposite angle gives the same value. Pairing a side with a different angle breaks the rule, because the side must be opposite its angle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0002",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, A = 40\u00b0, B = 65\u00b0 and a = 12 cm. Correct to two decimal places, b is:",
+   "imageRef": null,
+   "options": [
+    "10.60 cm",
+    "16.92 cm",
+    "8.51 cm",
+    "14.25 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "b/sin 65\u00b0 = 12/sin 40\u00b0, so b = 12 sin 65\u00b0 \u00f7 sin 40\u00b0 = 16.92 cm. Swapping the sines gives 8.51 cm, which is too short to be opposite the larger angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0003",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, A = 50\u00b0, C = 70\u00b0 and c = 20 m. Correct to two decimal places, a is:",
+   "imageRef": null,
+   "options": [
+    "18.43 m",
+    "15.32 m",
+    "16.30 m",
+    "24.53 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = 20 sin 50\u00b0 \u00f7 sin 70\u00b0 = 16.30 m. Inverting the ratio gives 24.53 m, which would make side a longer than side c although 50\u00b0 is less than 70\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0004",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, a = 8 cm, b = 11 cm and B = 72\u00b0. Correct to one decimal place, angle A is:",
+   "imageRef": null,
+   "options": [
+    "43.8\u00b0",
+    "46.2\u00b0",
+    "34.2\u00b0",
+    "62.6\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin A = 8 sin 72\u00b0 \u00f7 11 = 0.6917, so A = 43.8\u00b0. A must be smaller than B because a is shorter than b, so there is no second possible angle here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0005",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, A = 35\u00b0, B = 75\u00b0 and the side c between them is 50 m. Correct to two decimal places, side a is:",
+   "imageRef": null,
+   "options": [
+    "29.69 m",
+    "51.40 m",
+    "87.17 m",
+    "30.52 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "First C = 180\u00b0 \u2212 35\u00b0 \u2212 75\u00b0 = 70\u00b0. Then a = 50 sin 35\u00b0 \u00f7 sin 70\u00b0 = 30.52 m. Using sin 75\u00b0 instead of the angle opposite c gives 29.69 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0006",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "To find the third side of a triangle given two sides and the angle between them, the rule to use is:",
+   "imageRef": null,
+   "options": [
+    "the cosine rule",
+    "the sine rule",
+    "Heron's rule",
+    "Pythagoras' theorem"
+   ],
+   "correctIndex": 0,
+   "explanation": "With two sides and the included angle, c\u00b2 = a\u00b2 + b\u00b2 \u2212 2ab cos C gives the third side directly. The sine rule needs a side and its opposite angle, which are not both known here.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0007",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, a = 7 cm, b = 9 cm and C = 60\u00b0. Correct to two decimal places, c is:",
+   "imageRef": null,
+   "options": [
+    "8.19 cm",
+    "13.89 cm",
+    "11.40 cm",
+    "4.00 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "c\u00b2 = 49 + 81 \u2212 2 \u00d7 7 \u00d7 9 \u00d7 cos 60\u00b0 = 130 \u2212 63 = 67, so c = 8.19 cm. Adding the 63 instead of subtracting gives 13.89 cm, and 11.40 cm ignores the angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0008",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A triangle has sides 5 cm, 7 cm and 9 cm. Correct to one decimal place, its largest angle is:",
+   "imageRef": null,
+   "options": [
+    "50.2\u00b0",
+    "95.7\u00b0",
+    "84.3\u00b0",
+    "33.6\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The largest angle is opposite the 9 cm side: cos C = (25 + 49 \u2212 81)/(2 \u00d7 5 \u00d7 7) = \u22120.1, so C = 95.7\u00b0. Dropping the negative sign gives 84.3\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0009",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A triangle has sides 6 m, 8 m and 11 m. Correct to one decimal place, the angle opposite the 6 m side is:",
+   "imageRef": null,
+   "options": [
+    "57.8\u00b0",
+    "32.2\u00b0",
+    "45.2\u00b0",
+    "102.6\u00b0"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos \u03b8 = (8\u00b2 + 11\u00b2 \u2212 6\u00b2)/(2 \u00d7 8 \u00d7 11) = 149/176 = 0.8466, so \u03b8 = 32.2\u00b0. The value 45.2\u00b0 is the angle opposite the 8 m side.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0010",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, a = 5 cm, b = 8 cm and the included angle C = 120\u00b0. Correct to two decimal places, c is:",
+   "imageRef": null,
+   "options": [
+    "7.00 cm",
+    "9.43 cm",
+    "6.24 cm",
+    "11.36 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos 120\u00b0 = \u22120.5, so c\u00b2 = 25 + 64 \u2212 2 \u00d7 5 \u00d7 8 \u00d7 (\u22120.5) = 89 + 40 = 129 and c = 11.36 cm. Treating cos 120\u00b0 as +0.5 gives 7.00 cm, too short for the side opposite an obtuse angle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0011",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A triangular block has two sides of 85 m and 60 m meeting at an angle of 72\u00b0. Correct to one decimal place, the length of the third side is:",
+   "imageRef": null,
+   "options": [
+    "119.7 m",
+    "75.2 m",
+    "87.6 m",
+    "104.0 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "c\u00b2 = 85\u00b2 + 60\u00b2 \u2212 2 \u00d7 85 \u00d7 60 \u00d7 cos 72\u00b0 = 10 825 \u2212 3152 = 7673, so c = 87.6 m. The value 104.0 m uses Pythagoras, which is only correct for a 90\u00b0 angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0012",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Heron's rule gives the area of a triangle with sides a, b and c as:",
+   "imageRef": null,
+   "options": [
+    "\u221a((s \u2212 a)(s \u2212 b)(s \u2212 c)), where s = (a + b + c)/2",
+    "\u221a(s(s \u2212 a)(s \u2212 b)(s \u2212 c)), where s = (a + b + c)/2",
+    "\u221a(s(s \u2212 a)(s \u2212 b)(s \u2212 c)), where s = a + b + c",
+    "s(s \u2212 a)(s \u2212 b)(s \u2212 c), where s = (a + b + c)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Heron's rule uses the semi-perimeter s, half the perimeter, and takes the square root of s(s \u2212 a)(s \u2212 b)(s \u2212 c). It needs no angles or heights.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0013",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Using Heron's rule, the area of a triangle with sides 13 cm, 14 cm and 15 cm is:",
+   "imageRef": null,
+   "options": [
+    "168 cm\u00b2",
+    "91 cm\u00b2",
+    "84 cm\u00b2",
+    "42 cm\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "s = (13 + 14 + 15)/2 = 21, so the area is \u221a(21 \u00d7 8 \u00d7 7 \u00d7 6) = \u221a7056 = 84 cm\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0014",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A triangular paddock has sides of 120 m, 150 m and 200 m. Using Heron's rule, its area to the nearest square metre is:",
+   "imageRef": null,
+   "options": [
+    "8967 m\u00b2",
+    "9000 m\u00b2",
+    "17 933 m\u00b2",
+    "4483 m\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "s = 470/2 = 235, so the area is \u221a(235 \u00d7 115 \u00d7 85 \u00d7 35) = \u221a80 399 375 \u2248 8967 m\u00b2. The value 9000 m\u00b2 is 1/2 \u00d7 120 \u00d7 150, which would need a right angle between those sides.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0015",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A triangle has sides 9 cm and 12 cm with an included angle of 135\u00b0. Correct to one decimal place, its area is:",
+   "imageRef": null,
+   "options": [
+    "19.1 cm\u00b2",
+    "38.2 cm\u00b2",
+    "76.4 cm\u00b2",
+    "54.0 cm\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Area = 1/2 \u00d7 9 \u00d7 12 \u00d7 sin 135\u00b0 = 54 \u00d7 0.7071 = 38.2 cm\u00b2. The sine of an obtuse angle is positive, so the rule works as usual; 76.4 cm\u00b2 forgets the 1/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0016",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In triangle ABC, a = 10 cm, B = 40\u00b0 and C = 60\u00b0. Correct to one decimal place, the area of the triangle is:",
+   "imageRef": null,
+   "options": [
+    "43.3 cm\u00b2",
+    "28.3 cm\u00b2",
+    "32.1 cm\u00b2",
+    "24.6 cm\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A = 80\u00b0, so b = 10 sin 40\u00b0 \u00f7 sin 80\u00b0 = 6.527 cm. Then the area is 1/2 \u00d7 a \u00d7 b \u00d7 sin C = 1/2 \u00d7 10 \u00d7 6.527 \u00d7 sin 60\u00b0 = 28.3 cm\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0017",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A ship sails 30 km on a bearing of 040\u00b0T and then 50 km on a bearing of 130\u00b0T. Correct to two decimal places, its distance from the start is:",
+   "imageRef": null,
+   "options": [
+    "40.00 km",
+    "43.59 km",
+    "58.31 km",
+    "80.00 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "The two legs differ in bearing by 90\u00b0, so they meet at a right angle and the distance is \u221a(30\u00b2 + 50\u00b2) = 58.31 km. The value 80 km is the total distance sailed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0018",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A boat travels 20 km on a bearing of 060\u00b0T and then 15 km due south. Correct to two decimal places, its distance from the start is:",
+   "imageRef": null,
+   "options": [
+    "30.41 km",
+    "25.00 km",
+    "35.00 km",
+    "18.03 km"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the turning point, the angle between the path back (bearing 240\u00b0) and due south (180\u00b0) is 60\u00b0. So d\u00b2 = 20\u00b2 + 15\u00b2 \u2212 2 \u00d7 20 \u00d7 15 \u00d7 cos 60\u00b0 = 325 and d = 18.03 km. Adding the last term gives 30.41 km.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0019",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Two ships leave port together. One sails at 12 km/h on a bearing of 030\u00b0T and the other at 16 km/h on a bearing of 100\u00b0T. Correct to one decimal place, how far apart are they after 2 hours?",
+   "imageRef": null,
+   "options": [
+    "40.0 km",
+    "32.8 km",
+    "16.4 km",
+    "46.1 km"
+   ],
+   "correctIndex": 1,
+   "explanation": "After 2 hours they are 24 km and 32 km from port, with 100\u00b0 \u2212 30\u00b0 = 70\u00b0 between their paths. d\u00b2 = 24\u00b2 + 32\u00b2 \u2212 2 \u00d7 24 \u00d7 32 \u00d7 cos 70\u00b0 = 1074.7, so d = 32.8 km. The value 16.4 km uses one hour of travel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0020",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Two observers stand 100 m apart on level ground in line with a tower. From the farther observer the angle of elevation of the top is 28\u00b0, and from the nearer one it is 42\u00b0. Correct to one decimal place, the height of the tower is:",
+   "imageRef": null,
+   "options": [
+    "129.9 m",
+    "194.1 m",
+    "100.0 m",
+    "86.9 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "In the triangle formed by the observers and the top, the angle at the top is 42\u00b0 \u2212 28\u00b0 = 14\u00b0. The sine rule gives the nearer line of sight as 100 sin 28\u00b0 \u00f7 sin 14\u00b0 = 194.1 m, and the height is 194.1 sin 42\u00b0 = 129.9 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0021",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "From the top of a 50 m building, the angles of depression of the top and the base of a shorter building across a level street are 20\u00b0 and 35\u00b0. Correct to one decimal place, the height of the shorter building is:",
+   "imageRef": null,
+   "options": [
+    "24.0 m",
+    "26.0 m",
+    "18.2 m",
+    "31.8 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The street is 50 \u00f7 tan 35\u00b0 = 71.4 m wide. The drop from the top of the tall building to the top of the shorter one is 71.4 \u00d7 tan 20\u00b0 = 26.0 m, so the shorter building is 50 \u2212 26.0 = 24.0 m high. The value 26.0 m is the drop, not the height.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0022",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A small circle on the Earth's surface is a circle:",
+   "imageRef": null,
+   "options": [
+    "whose centre is the centre of the Earth",
+    "that passes through both of the poles",
+    "with a radius of less than 1000 km",
+    "whose centre is not the centre of the Earth"
+   ],
+   "correctIndex": 3,
+   "explanation": "Great circles have the Earth's centre as their centre; every other circle on the surface is a small circle. Meridians pass through both poles and form great circles in pairs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0023",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Which of these is a small circle?",
+   "imageRef": null,
+   "options": [
+    "the meridian 147\u00b0E with 33\u00b0W",
+    "any circle through the North Pole and the South Pole",
+    "the parallel of latitude 40\u00b0S",
+    "the equator"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parallels of latitude other than the equator are small circles: their centres lie on the Earth's axis, not at the centre. The equator and any pair of opposite meridians are great circles.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0024",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "When using the spherical cosine rule cos \u03b8 = sin latP sin latQ + cos latP cos latQ cos \u0394long, latitudes south of the equator are entered:",
+   "imageRef": null,
+   "options": [
+    "as 180\u00b0 minus the latitude",
+    "as negative angles",
+    "as positive angles",
+    "as 90\u00b0 minus the latitude"
+   ],
+   "correctIndex": 1,
+   "explanation": "Latitudes are positive north of the equator and negative south of it. Entering a southern latitude as positive gives the wrong sign for its sine and a wrong distance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0025",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Two places are at (30\u00b0N, 20\u00b0E) and (30\u00b0N, 80\u00b0E). Using the spherical cosine rule, the angle \u03b8 at the centre of the Earth between them is 51.3\u00b0. Using 111.2 km per degree, the great circle distance is closest to:",
+   "imageRef": null,
+   "options": [
+    "5778 km",
+    "6672 km",
+    "3336 km",
+    "5705 km"
+   ],
+   "correctIndex": 3,
+   "explanation": "Distance = 51.3 \u00d7 111.2 = 5705 km. The value 5778 km is the distance along the parallel, 60 \u00d7 111.2 \u00d7 cos 30\u00b0, which is longer because a parallel is a small circle, not the shortest path.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0026",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Use the spherical cosine rule for the points (0\u00b0, 0\u00b0) and (45\u00b0N, 90\u00b0E), with 111.2 km per degree. The great circle distance between them is:",
+   "imageRef": null,
+   "options": [
+    "7076 km",
+    "15 012 km",
+    "10 008 km",
+    "5004 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos \u03b8 = sin 0\u00b0 sin 45\u00b0 + cos 0\u00b0 cos 45\u00b0 cos 90\u00b0 = 0 + 0 = 0, so \u03b8 = 90\u00b0 and the distance is 90 \u00d7 111.2 = 10 008 km. The value 5004 km uses only the 45\u00b0 change in latitude.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0027",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Taking Hobart as (43\u00b0S, 147\u00b0E) and Perth as (32\u00b0S, 116\u00b0E), the spherical cosine rule gives \u03b8 \u2248 26.7\u00b0. Entering 43\u00b0S as +43\u00b0 instead gives about 80.2\u00b0. The great circle distance, using 111.2 km per degree, is closest to:",
+   "imageRef": null,
+   "options": [
+    "2970 km",
+    "8918 km",
+    "3447 km",
+    "1223 km"
+   ],
+   "correctIndex": 0,
+   "explanation": "With both southern latitudes negative, \u03b8 \u2248 26.7\u00b0 and the distance is 26.7 \u00d7 111.2 \u2248 2970 km. Giving one latitude the wrong sign treats Hobart as if it were in the Northern Hemisphere, producing about 8918 km.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0028",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In January, Tasmania is on daylight saving time. Its time zone is then:",
+   "imageRef": null,
+   "options": [
+    "UTC+12",
+    "UTC+11",
+    "UTC+10",
+    "UTC+9.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tasmania uses Australian Eastern Standard Time, UTC+10, and moves to Australian Eastern Daylight Time, UTC+11, from the first Sunday in October to the first Sunday in April.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0029",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In July it is 3:00 pm in Hobart (UTC+10). The UTC time is:",
+   "imageRef": null,
+   "options": [
+    "5:00 pm the same day",
+    "5:00 am the same day",
+    "1:00 am the next day",
+    "1:00 am the same day"
+   ],
+   "correctIndex": 1,
+   "explanation": "Hobart is 10 hours ahead of UTC in July, so subtract 10 hours: 3:00 pm \u2212 10 h = 5:00 am the same day. Adding 10 hours gives 1:00 am the next day.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0030",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In January a Hobart student (UTC+11) joins an online class that starts at 9:00 am in Perth (UTC+8). The class starts in Hobart at:",
+   "imageRef": null,
+   "options": [
+    "6:00 am",
+    "10:00 am",
+    "12:00 noon",
+    "11:00 am"
+   ],
+   "correctIndex": 2,
+   "explanation": "Hobart is 11 \u2212 8 = 3 hours ahead of Perth in January, so 9:00 am in Perth is 12:00 noon in Hobart. The value 11:00 am uses the winter difference of 2 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0031",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In July a Hobart resident (UTC+10) phones a friend in Adelaide (UTC+9.5) at 7:00 pm Hobart time. The time in Adelaide is:",
+   "imageRef": null,
+   "options": [
+    "5:30 pm",
+    "6:00 pm",
+    "6:30 pm",
+    "7:30 pm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adelaide is half an hour behind Hobart in July, so it is 6:30 pm there. Adding the half hour gives 7:30 pm, which reverses the direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0032",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "In January a gamer in Hobart (UTC+11) wants to join a match that starts at 8:00 pm Saturday in London (UTC+0). In Hobart the match starts at:",
+   "imageRef": null,
+   "options": [
+    "9:00 am Sunday",
+    "7:00 am Sunday",
+    "9:00 am Saturday",
+    "7:00 pm Sunday"
+   ],
+   "correctIndex": 1,
+   "explanation": "Hobart is 11 hours ahead of London, and 8:00 pm Saturday + 11 h = 7:00 am Sunday. The value 9:00 am Saturday subtracts the 11 hours instead of adding them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0033",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A traveller leaves Hobart at 7:00 am Tuesday (UTC+11), flies 1 h 15 min to Melbourne (UTC+11), waits 2 hours, then flies 13 hours to Dubai (UTC+4). The local time of arrival in Dubai is:",
+   "imageRef": null,
+   "options": [
+    "2:15 pm Tuesday",
+    "4:15 pm Tuesday",
+    "11:15 pm Tuesday",
+    "4:15 am Wednesday"
+   ],
+   "correctIndex": 1,
+   "explanation": "She leaves Melbourne at 10:15 am Tuesday, which is 11:15 pm Monday UTC. Adding 13 hours gives 12:15 pm Tuesday UTC, which is 4:15 pm Tuesday in Dubai. The value 11:15 pm Tuesday ignores the time-zone change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0034",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "A flight leaves Auckland (UTC+13) at 8:00 pm on Saturday and flies 11 hours east across the International Date Line to Los Angeles (UTC\u22128). The local arrival time is:",
+   "imageRef": null,
+   "options": [
+    "3:00 pm Saturday",
+    "10:00 am Saturday",
+    "10:00 am Sunday",
+    "7:00 am Sunday"
+   ],
+   "correctIndex": 1,
+   "explanation": "Departure is 7:00 am Saturday UTC, and 11 hours later is 6:00 pm Saturday UTC, which is 10:00 am Saturday in Los Angeles. Crossing the date line eastward moves the calendar back a day, so the flight lands \"earlier\" than it left.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-trig-earth-0035",
+   "topicId": "gm-tce-trig-earth",
+   "stem": "Ignoring time-zone boundaries, places 15\u00b0 of longitude apart differ in local time by 1 hour. Hobart is near 147\u00b0E and Perth near 116\u00b0E. Using longitude alone, the time difference is about:",
+   "imageRef": null,
+   "options": [
+    "3 hours 6 minutes",
+    "1 hour 30 minutes",
+    "2 hours 40 minutes",
+    "2 hours 4 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The longitude difference is 147\u00b0 \u2212 116\u00b0 = 31\u00b0, and each degree is 4 minutes of time, so the difference is 124 minutes = 2 hours 4 minutes. The legal difference of 2 hours (in winter) comes from time-zone boundaries.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-trig-earth-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,670 @@
+{
+ "topicId": "gm-tce-series-recurrence",
+ "questions": [
+  {
+   "id": "gm-tce-series-recurrence-0001",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum of the first n terms of an arithmetic sequence with first term a and common difference d is:",
+   "imageRef": null,
+   "options": [
+    "S\u2099 = n/2(2a + (n \u2212 1)d)",
+    "S\u2099 = n(2a + (n \u2212 1)d)",
+    "S\u2099 = a + (n \u2212 1)d",
+    "S\u2099 = n/2(a + (n \u2212 1)d)"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = n/2(2a + (n \u2212 1)d), which is n/2 times the first term plus the last term. The rule a + (n \u2212 1)d gives only the nth term, not the sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0002",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum of the first 20 terms of the arithmetic sequence 5, 8, 11, 14, ... is:",
+   "imageRef": null,
+   "options": [
+    "635",
+    "670",
+    "62",
+    "1340"
+   ],
+   "correctIndex": 1,
+   "explanation": "a = 5, d = 3 and n = 20, so S\u2082\u2080 = 20/2 \u00d7 (10 + 19 \u00d7 3) = 10 \u00d7 67 = 670. The value 62 is the 20th term, and 1340 leaves out the division by 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0003",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "An arithmetic sequence has first term 12, last term 96 and 15 terms. Using S\u2099 = n/2(a + l), the sum of the terms is:",
+   "imageRef": null,
+   "options": [
+    "810",
+    "1620",
+    "756",
+    "54"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = 15/2 \u00d7 (12 + 96) = 7.5 \u00d7 108 = 810. Forgetting to halve gives 1620.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0004",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum 3 + 7 + 11 + ... + 79 has how many terms, and what is the sum?",
+   "imageRef": null,
+   "options": [
+    "20 terms, sum 820",
+    "19 terms, sum 779",
+    "20 terms, sum 1640",
+    "77 terms, sum 3157"
+   ],
+   "correctIndex": 0,
+   "explanation": "With d = 4, 79 = 3 + (n \u2212 1) \u00d7 4 gives n = 20. Then S\u2082\u2080 = 20/2 \u00d7 (3 + 79) = 820. Dividing 76 by 4 without adding 1 gives 19 terms, missing the first term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0005",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A theatre has 25 rows of seats. The first row has 18 seats and each row has 2 more seats than the row in front. The total number of seats is:",
+   "imageRef": null,
+   "options": [
+    "2100",
+    "1000",
+    "1050",
+    "66"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = 18, d = 2 and n = 25: S\u2082\u2085 = 25/2 \u00d7 (36 + 24 \u00d7 2) = 12.5 \u00d7 84 = 1050. The value 66 is the number of seats in the last row.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0006",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "Lena saves $50 in the first week and $10 more each week than the week before. Her total savings after 26 weeks are:",
+   "imageRef": null,
+   "options": [
+    "$4800",
+    "$9100",
+    "$4550",
+    "$300"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = 50, d = 10 and n = 26: S\u2082\u2086 = 13 \u00d7 (100 + 25 \u00d7 10) = 13 \u00d7 350 = $4550. The value $300 is the amount saved in week 26, and $9100 forgets to halve.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0007",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "What is the smallest number of terms of 4 + 9 + 14 + 19 + ... needed for the sum to exceed 500?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "14",
+    "13",
+    "100"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2099 = n/2(8 + 5(n \u2212 1)) = n(5n + 3)/2. For n = 13 the sum is 442, and for n = 14 it is 511, so 14 terms are needed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0008",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "For a geometric sequence with first term a and common ratio r \u2260 1, the sum of the first n terms is:",
+   "imageRef": null,
+   "options": [
+    "S\u2099 = ar\u207f\u207b\u00b9",
+    "S\u2099 = a/(1 \u2212 r)",
+    "S\u2099 = n/2(a + ar\u207f\u207b\u00b9)",
+    "S\u2099 = a(1 \u2212 r\u207f)/(1 \u2212 r)"
+   ],
+   "correctIndex": 3,
+   "explanation": "S\u2099 = a(1 \u2212 r\u207f)/(1 \u2212 r). The rule ar\u207f\u207b\u00b9 is the nth term only, and a/(1 \u2212 r) is the sum to infinity, which exists only when \u22121 < r < 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0009",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum of the first 6 terms of the geometric sequence 3, 6, 12, 24, ... is:",
+   "imageRef": null,
+   "options": [
+    "192",
+    "93",
+    "189",
+    "96"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = 3, r = 2, n = 6: S\u2086 = 3(1 \u2212 2\u2076)/(1 \u2212 2) = 3 \u00d7 63 = 189. The value 96 is the 6th term, and 93 is the sum of only five terms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0010",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum of the first 4 terms of a geometric sequence with first term 2 and common ratio 3 is:",
+   "imageRef": null,
+   "options": [
+    "80",
+    "54",
+    "162",
+    "26"
+   ],
+   "correctIndex": 0,
+   "explanation": "The terms are 2, 6, 18 and 54, which add to 80. Using the formula, 2(1 \u2212 3\u2074)/(1 \u2212 3) = 2 \u00d7 80/2 = 80. The value 54 is the 4th term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0011",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum of the first 5 terms of the geometric sequence 80, 40, 20, ... is:",
+   "imageRef": null,
+   "options": [
+    "160",
+    "5",
+    "150",
+    "155"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = 80 and r = 0.5: S\u2085 = 80(1 \u2212 0.5\u2075)/(1 \u2212 0.5) = 80 \u00d7 0.96875 \u00f7 0.5 = 155. The value 160 is the sum to infinity, which the partial sums approach but never reach.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0012",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A prize pays 1 cent on day 1, 2 cents on day 2, 4 cents on day 3, doubling each day for 15 days. The total paid is:",
+   "imageRef": null,
+   "options": [
+    "$655.35",
+    "$1.50",
+    "$327.67",
+    "$163.84"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2081\u2085 = 1(2\u00b9\u2075 \u2212 1)/(2 \u2212 1) = 32 767 cents = $327.67. The value $163.84 is the payment on day 15 alone, 2\u00b9\u2074 cents.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0013",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A company sells 2000 units in its first year, and sales rise by 5% each year. Its total sales over the first 10 years, to the nearest unit, are:",
+   "imageRef": null,
+   "options": [
+    "23 000",
+    "31 103",
+    "25 156",
+    "3258"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is a geometric series with a = 2000 and r = 1.05: S\u2081\u2080 = 2000(1.05\u00b9\u2070 \u2212 1)/(1.05 \u2212 1) = 25 156. The value 3258 is the sales in year 11, 2000 \u00d7 1.05\u00b9\u2070.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0014",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "An infinite geometric series with common ratio r has a finite sum S\u221e = a/(1 \u2212 r) only when:",
+   "imageRef": null,
+   "options": [
+    "r > 1",
+    "r > 0",
+    "r \u2260 1",
+    "\u22121 < r < 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The terms must shrink towards zero, which needs \u22121 < r < 1. For r > 1 the terms grow and the sum has no limit; r \u2260 1 is the condition for the finite-sum formula S\u2099, not for S\u221e.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0015",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum to infinity of 12 + 6 + 3 + 1.5 + ... is:",
+   "imageRef": null,
+   "options": [
+    "18",
+    "22.5",
+    "8",
+    "24"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = 12 and r = 0.5, so S\u221e = 12/(1 \u2212 0.5) = 24. The value 8 comes from 12/(1 + 0.5), which uses the wrong sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0016",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The sum to infinity of 45 \u2212 15 + 5 \u2212 5/3 + ... is:",
+   "imageRef": null,
+   "options": [
+    "33.75",
+    "67.5",
+    "30",
+    "35"
+   ],
+   "correctIndex": 0,
+   "explanation": "a = 45 and r = \u22121/3, so S\u221e = 45/(1 \u2212 (\u22121/3)) = 45 \u00f7 4/3 = 33.75. Ignoring the negative ratio gives 45 \u00f7 2/3 = 67.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0017",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "Which of these infinite geometric series has a finite sum?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 2 + 4 \u2212 8 + ...",
+    "5 + 5 + 5 + 5 + ...",
+    "8 + 4 + 2 + 1 + ...",
+    "2 + 4 + 8 + 16 + ..."
+   ],
+   "correctIndex": 2,
+   "explanation": "Only 8 + 4 + 2 + ... has \u22121 < r < 1 (r = 1/2), so its sum approaches 16. The others have r = 2, r = \u22122 and r = 1, so their partial sums do not settle on a limit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0018",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "An infinite geometric series has first term 15 and sum to infinity 60. Its common ratio is:",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "1/4",
+    "4",
+    "\u22123/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "60 = 15/(1 \u2212 r) gives 1 \u2212 r = 1/4, so r = 3/4. The value 1/4 is 1 \u2212 r, not r.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0019",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A tree grows 1.2 m in its first year. Each year after that it grows 80% as much as in the year before. What is the most it will ever grow in total?",
+   "imageRef": null,
+   "options": [
+    "6 m",
+    "1.5 m",
+    "9.6 m",
+    "2.16 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The growth forms a geometric series with a = 1.2 and r = 0.8, so S\u221e = 1.2/(1 \u2212 0.8) = 6 m. The value 1.5 m divides by 0.8 instead of 0.2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0020",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A ball is dropped from 10 m and each bounce reaches 60% of the height of the previous one. Modelling the bounces as going on forever, the total distance the ball travels is:",
+   "imageRef": null,
+   "options": [
+    "25 m",
+    "30 m",
+    "16 m",
+    "40 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The first fall is 10 m. After that the ball rises and falls 6 + 3.6 + ... each way, so the total is 10 + 2 \u00d7 6/(1 \u2212 0.6) = 10 + 30 = 40 m. The value 25 m treats the whole motion as one series 10/(1 \u2212 0.6).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0021",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A first-order linear recurrence relation has the form:",
+   "imageRef": null,
+   "options": [
+    "t\u2099\u208a\u2081 = rt\u2099 + d",
+    "t\u2099 = a + (n \u2212 1)d",
+    "t\u2099 = ar\u207f\u207b\u00b9",
+    "t\u2099\u208a\u2081 = t\u2099 + t\u2099\u208b\u2081"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each term is found from the one before it by multiplying by r and adding d. The rules a + (n \u2212 1)d and ar\u207f\u207b\u00b9 are explicit nth-term rules, and t\u2099 + t\u2099\u208b\u2081 uses two earlier terms, so it is not first-order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0022",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "For the recurrence relation t\u2099\u208a\u2081 = rt\u2099 + d, the sequence is arithmetic when:",
+   "imageRef": null,
+   "options": [
+    "d = 0",
+    "r = 0",
+    "d = 1",
+    "r = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "With r = 1 the rule is t\u2099\u208a\u2081 = t\u2099 + d, adding the same amount each time. With d = 0 the rule is t\u2099\u208a\u2081 = rt\u2099, which is geometric.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0023",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = 2t\u2099 \u2212 3, with t\u2081 = 4. The value of t\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "19",
+    "5",
+    "11",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u2082 = 2 \u00d7 4 \u2212 3 = 5, t\u2083 = 2 \u00d7 5 \u2212 3 = 7 and t\u2084 = 2 \u00d7 7 \u2212 3 = 11. The value 7 is t\u2083.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0024",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = 0.5t\u2099 + 10, with t\u2081 = 40. The value of t\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "15",
+    "22.5",
+    "25",
+    "30"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2082 = 20 + 10 = 30, t\u2083 = 15 + 10 = 25 and t\u2084 = 12.5 + 10 = 22.5. The terms are falling towards 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0025",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A fish farm holds 5000 fish. Each month 10% of the fish die and 800 new fish are added. Which recurrence relation models the number of fish F\u2099 after n months?",
+   "imageRef": null,
+   "options": [
+    "F\u2099\u208a\u2081 = 1.1F\u2099 + 800, F\u2080 = 5000",
+    "F\u2099\u208a\u2081 = 0.9F\u2099 \u2212 800, F\u2080 = 5000",
+    "F\u2099\u208a\u2081 = 0.1F\u2099 + 800, F\u2080 = 5000",
+    "F\u2099\u208a\u2081 = 0.9F\u2099 + 800, F\u2080 = 5000"
+   ],
+   "correctIndex": 3,
+   "explanation": "Keeping 90% of the fish multiplies by 0.9, and adding 800 gives + 800. Multiplying by 0.1 would keep only the 10% that die.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0026",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The fish farm is modelled by F\u2099\u208a\u2081 = 0.9F\u2099 + 800 with F\u2080 = 5000. The number of fish after 2 months is:",
+   "imageRef": null,
+   "options": [
+    "5570",
+    "5300",
+    "5600",
+    "5850"
+   ],
+   "correctIndex": 0,
+   "explanation": "F\u2081 = 0.9 \u00d7 5000 + 800 = 5300 and F\u2082 = 0.9 \u00d7 5300 + 800 = 5570. The value 5300 is after one month only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0027",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "In the long term, the number of fish modelled by F\u2099\u208a\u2081 = 0.9F\u2099 + 800 approaches:",
+   "imageRef": null,
+   "options": [
+    "7200",
+    "800",
+    "8000",
+    "889"
+   ],
+   "correctIndex": 2,
+   "explanation": "At a steady state F = 0.9F + 800, so 0.1F = 800 and F = 8000. The value 889 comes from dividing 800 by 0.9 instead of by 0.1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0028",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The steady-state value of the recurrence relation t\u2099\u208a\u2081 = 0.5t\u2099 + 10 is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "5",
+    "40",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Setting t = 0.5t + 10 gives 0.5t = 10, so t = 20. Starting from any value, the terms approach 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0029",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "Which recurrence relation produces a sequence whose terms all equal the first term?",
+   "imageRef": null,
+   "options": [
+    "t\u2099\u208a\u2081 = 0.5t\u2099 \u2212 30, t\u2081 = 60",
+    "t\u2099\u208a\u2081 = 0.5t\u2099 + 30, t\u2081 = 60",
+    "t\u2099\u208a\u2081 = 0.5t\u2099 + 30, t\u2081 = 30",
+    "t\u2099\u208a\u2081 = 2t\u2099 \u2212 30, t\u2081 = 60"
+   ],
+   "correctIndex": 1,
+   "explanation": "The steady state of t\u2099\u208a\u2081 = 0.5t\u2099 + 30 is t = 60, so starting at 60 gives 0.5 \u00d7 60 + 30 = 60 every time. Starting at 30 gives 45, and 2 \u00d7 60 \u2212 30 = 90.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0030",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = 0.8t\u2099 + 50, with t\u2081 = 100. In the long term the terms:",
+   "imageRef": null,
+   "options": [
+    "decrease and level off towards 50",
+    "increase without any limit",
+    "stay constant at 100",
+    "increase and level off towards 250"
+   ],
+   "correctIndex": 3,
+   "explanation": "The steady state is t = 50/(1 \u2212 0.8) = 250. Since 0 < r < 1 and t\u2081 is below 250, the terms rise (130, 154, 173.2, ...) and approach 250.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0031",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = 1.2t\u2099 \u2212 40, with t\u2081 = 100. In the long term the terms:",
+   "imageRef": null,
+   "options": [
+    "stay constant at 100",
+    "decrease without any limit",
+    "decrease and level off towards 200",
+    "increase and level off towards 200"
+   ],
+   "correctIndex": 1,
+   "explanation": "The steady state is 200, but with r > 1 the terms move away from it. Starting below 200 they fall faster and faster: 100, 80, 56, 27.2, \u22127.36, ...",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0032",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "The terms of t\u2099\u208a\u2081 = 0.6t\u2099 + 20, with t\u2081 = 10, are graphed against n. The points:",
+   "imageRef": null,
+   "options": [
+    "fall steadily and level off towards 20",
+    "rise more and more steeply without levelling off",
+    "rise steeply at first and then level off towards 50",
+    "lie on a straight line rising by 20 each step"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms are 10, 26, 35.6, 41.4, ... The increases shrink because r = 0.6 is between 0 and 1, and the points approach the steady state 20/(1 \u2212 0.6) = 50.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0033",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A lake holds 100 tonnes of a pollutant. Each year 20% of the pollutant is removed and 30 tonnes more flows in. In the long term, the amount of pollutant in the lake:",
+   "imageRef": null,
+   "options": [
+    "stays at 100 tonnes",
+    "increases towards 150 tonnes",
+    "decreases towards 30 tonnes",
+    "increases towards 130 tonnes"
+   ],
+   "correctIndex": 1,
+   "explanation": "The model is P\u2099\u208a\u2081 = 0.8P\u2099 + 30. The steady state is 30/0.2 = 150 tonnes, and since 100 is below 150 and r = 0.8, the amount rises towards 150 tonnes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0034",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A bird population of 2000 grows by 5% a year, but 150 birds are removed each year. Modelled by P\u2099\u208a\u2081 = 1.05P\u2099 \u2212 150, the population:",
+   "imageRef": null,
+   "options": [
+    "rises each year towards 3000",
+    "stays steady at 2000",
+    "falls each year and levels off near 1000",
+    "falls each year and eventually dies out"
+   ],
+   "correctIndex": 3,
+   "explanation": "The steady state is 150/0.05 = 3000. Starting below it with r > 1, the population moves away from 3000: 2000, 1950, 1897.5, ..., falling faster each year until none are left.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-tce-series-recurrence-0035",
+   "topicId": "gm-tce-series-recurrence",
+   "stem": "A loan of $10 000 is charged 1% interest per month and repaid at $500 per month. Modelled by B\u2099\u208a\u2081 = 1.01B\u2099 \u2212 500, the balance after 2 months is:",
+   "imageRef": null,
+   "options": [
+    "$9196",
+    "$9000",
+    "$9200",
+    "$9600"
+   ],
+   "correctIndex": 0,
+   "explanation": "B\u2081 = 1.01 \u00d7 10 000 \u2212 500 = $9600 and B\u2082 = 1.01 \u00d7 9600 \u2212 500 = $9196. The value $9000 ignores the interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-tce-series-recurrence-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

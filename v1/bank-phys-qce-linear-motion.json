@@ -1,0 +1,765 @@
+{
+ "topicId": "phys-qce-linear-motion",
+ "questions": [
+  {
+   "id": "phys-qce-linear-motion-0001",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "Which of these physical quantities is a scalar?",
+   "imageRef": null,
+   "options": [
+    "Momentum",
+    "Speed",
+    "Velocity",
+    "Acceleration"
+   ],
+   "correctIndex": 1,
+   "explanation": "A scalar has magnitude only, and speed tells you how fast without saying which way. Velocity, acceleration and momentum all have a direction as well as a size, so they are vectors.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0002",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "In printed physics texts, how is a vector quantity such as force usually shown, to distinguish it from its magnitude?",
+   "imageRef": null,
+   "options": [
+    "In bold type, or with an arrow or tilde above the symbol",
+    "In italic type, with a subscript showing its unit",
+    "In capital letters, with a plus or minus sign before it",
+    "In brackets, followed by the number of dimensions"
+   ],
+   "correctIndex": 0,
+   "explanation": "A vector is written in bold (F), with an arrow above it, or with a tilde, as handwriting usually does. A plain italic F stands for the magnitude only. Signs show direction in one dimension, but they are not the notation that marks a symbol as a vector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0003",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A passenger walks at 1.5 m s\u207b\u00b9 towards the back of a train that is moving east at 20 m s\u207b\u00b9. What is the passenger's velocity relative to the ground?",
+   "imageRef": null,
+   "options": [
+    "21.5 m s\u207b\u00b9 east",
+    "18.5 m s\u207b\u00b9 west",
+    "21.5 m s\u207b\u00b9 west",
+    "18.5 m s\u207b\u00b9 east"
+   ],
+   "correctIndex": 3,
+   "explanation": "Taking east as positive, the train's velocity is +20 m s\u207b\u00b9 and the passenger's velocity relative to the train is \u22121.5 m s\u207b\u00b9. The resultant is +20 + (\u22121.5) = +18.5 m s\u207b\u00b9, so 18.5 m s\u207b\u00b9 east. Adding the magnitudes gives 21.5 m s\u207b\u00b9, which would be walking towards the front.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0004",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A ball hits a wall travelling east at 12 m s\u207b\u00b9 and rebounds west at 8.0 m s\u207b\u00b9. What is its change in velocity?",
+   "imageRef": null,
+   "options": [
+    "4.0 m s\u207b\u00b9 east",
+    "20 m s\u207b\u00b9 east",
+    "20 m s\u207b\u00b9 west",
+    "4.0 m s\u207b\u00b9 west"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking east as positive, \u0394v = v \u2212 u = (\u22128.0) \u2212 (+12) = \u221220 m s\u207b\u00b9, which is 20 m s\u207b\u00b9 west. Subtracting the speeds without signs gives 4.0 m s\u207b\u00b9, which ignores the reversal of direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0005",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A person walks 60 m east and then 40 m west, taking 50 s in total. What are the average speed and the average velocity?",
+   "imageRef": null,
+   "options": [
+    "2.0 m s\u207b\u00b9, and 2.0 m s\u207b\u00b9 east",
+    "0.40 m s\u207b\u00b9, and 2.0 m s\u207b\u00b9 east",
+    "0.40 m s\u207b\u00b9, and 0.40 m s\u207b\u00b9 west",
+    "2.0 m s\u207b\u00b9, and 0.40 m s\u207b\u00b9 east"
+   ],
+   "correctIndex": 3,
+   "explanation": "Average speed is distance over time: 100 m / 50 s = 2.0 m s\u207b\u00b9. Average velocity is displacement over time: the person ends 20 m east of the start, so 20 m / 50 s = 0.40 m s\u207b\u00b9 east. Speed uses the whole path, velocity only the change in position.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0006",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "What is the difference between instantaneous velocity and average velocity?",
+   "imageRef": null,
+   "options": [
+    "Instantaneous is total displacement over total time; average is the velocity at one moment",
+    "Instantaneous is always the larger of the two, because it includes the top speed reached",
+    "Instantaneous includes direction, but average velocity has only a magnitude and no direction",
+    "Instantaneous is the velocity at one moment; average is total displacement over total time"
+   ],
+   "correctIndex": 3,
+   "explanation": "Instantaneous velocity is the velocity at a particular instant, found from the gradient of a displacement-time graph at that point. Average velocity is the total displacement divided by the total time taken. Both are vectors, and either can be larger depending on the motion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0007",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A displacement-time graph for a cyclist is a straight line from 0 m at t = 0 to 30 m at t = 6.0 s. What is the cyclist's velocity?",
+   "imageRef": null,
+   "options": [
+    "0.20 m s\u207b\u00b9",
+    "2.5 m s\u207b\u00b9",
+    "5.0 m s\u207b\u00b9",
+    "180 m s\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient of a displacement-time graph is velocity: 30 m / 6.0 s = 5.0 m s\u207b\u00b9. A straight line means the velocity is constant. Dividing time by displacement gives 0.20, and multiplying gives 180.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0008",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A displacement-time graph for a toy car is a straight horizontal line at s = 10 m. What does this show?",
+   "imageRef": null,
+   "options": [
+    "The car is accelerating uniformly at 10 m s\u207b\u00b2",
+    "The car has travelled 10 m since the timing began",
+    "The car is stationary, 10 m from the reference point",
+    "The car is moving at a constant velocity of 10 m s\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "A horizontal displacement-time line has zero gradient, so the velocity is zero and the car is not moving. The intercept of 10 m gives its position relative to the reference point. A constant velocity of 10 m s\u207b\u00b9 would be a sloping line on this graph.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0009",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "Data points on a displacement-time graph have uncertainty bars. Why does a student draw the steepest and least steep lines that still pass through all the bars?",
+   "imageRef": null,
+   "options": [
+    "To find the acceleration of the object from the two gradients",
+    "To identify which data points are outliers and should be removed",
+    "To find the total distance travelled over the whole interval",
+    "To find the uncertainty in the velocity found from the gradient"
+   ],
+   "correctIndex": 3,
+   "explanation": "The maximum and minimum lines of best fit give the largest and smallest gradients the data allow. Half their difference is the uncertainty in the gradient, which here is the velocity. They do not give acceleration, which comes from a velocity-time graph.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0010",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A velocity-time graph rises in a straight line from 4.0 m s\u207b\u00b9 at t = 0 to 10 m s\u207b\u00b9 at t = 6.0 s. How far does the object travel in this time?",
+   "imageRef": null,
+   "options": [
+    "24 m",
+    "36 m",
+    "42 m",
+    "60 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Displacement is the area under a velocity-time graph. The area is a trapezium: (4.0 + 10)/2 \u00d7 6.0 = 42 m. Using only the final velocity gives 60 m, and using only the initial velocity gives 24 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0011",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "An acceleration-time graph shows a constant 3.0 m s\u207b\u00b2 for 4.0 s. The object starts at 5.0 m s\u207b\u00b9 in the direction of the acceleration. What is its final velocity?",
+   "imageRef": null,
+   "options": [
+    "8.0 m s\u207b\u00b9",
+    "20 m s\u207b\u00b9",
+    "17 m s\u207b\u00b9",
+    "12 m s\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area under an acceleration-time graph is the change in velocity: 3.0 \u00d7 4.0 = 12 m s\u207b\u00b9. Adding this to the initial 5.0 m s\u207b\u00b9 gives 17 m s\u207b\u00b9. Giving 12 m s\u207b\u00b9 forgets that the object was already moving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0012",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A velocity-time graph is a straight line from +12 m s\u207b\u00b9 at t = 0 to \u221212 m s\u207b\u00b9 at t = 4.0 s. What are the displacement and the distance travelled over the 4.0 s?",
+   "imageRef": null,
+   "options": [
+    "Displacement 0 m, distance 48 m",
+    "Displacement 48 m, distance 0 m",
+    "Displacement 0 m, distance 24 m",
+    "Displacement 24 m, distance 24 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The line crosses zero at t = 2.0 s. The area above the axis is \u00bd \u00d7 2.0 \u00d7 12 = 12 m and the area below is \u221212 m, so the displacement is 0 m. Distance counts both areas as positive, 24 m. Multiplying 12 m s\u207b\u00b9 by 4.0 s gives 48 m, which treats the velocity as constant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0013",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A car starts from rest and accelerates uniformly at 2.5 m s\u207b\u00b2 for 8.0 s. How far does it travel?",
+   "imageRef": null,
+   "options": [
+    "160 m",
+    "20 m",
+    "40 m",
+    "80 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "With u = 0, s = ut + \u00bdat\u00b2 = \u00bd \u00d7 2.5 \u00d7 8.0\u00b2 = 80 m. Leaving out the \u00bd gives 160 m, and 20 m is the final velocity in m s\u207b\u00b9, not a distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0014",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A light plane starts from rest and accelerates uniformly at 3.0 m s\u207b\u00b2 until it reaches its take-off speed of 60 m s\u207b\u00b9. What is the minimum length of runway it needs?",
+   "imageRef": null,
+   "options": [
+    "600 m",
+    "1200 m",
+    "20 m",
+    "10 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using v\u00b2 = u\u00b2 + 2as with u = 0: s = v\u00b2/(2a) = 60\u00b2/(2 \u00d7 3.0) = 600 m. Forgetting the 2 gives 1200 m, and 20 is v/a, the time in seconds taken to reach take-off speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0015",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A driver travelling at 25 m s\u207b\u00b9 sees a hazard. After a reaction time of 0.80 s she brakes, decelerating uniformly at 5.0 m s\u207b\u00b2. What is the total stopping distance?",
+   "imageRef": null,
+   "options": [
+    "20 m",
+    "145 m",
+    "83 m",
+    "63 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "During the reaction time the car travels at constant speed: 25 \u00d7 0.80 = 20 m. Braking distance is v\u00b2/(2a) = 25\u00b2/(2 \u00d7 5.0) = 62.5 m. The total is 82.5 m, about 83 m. Leaving out the reaction distance gives 63 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0016",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A ball is thrown vertically upward at 19.6 m s\u207b\u00b9. Ignoring air resistance, how long is it in the air before it returns to the thrower's hand? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "1.0 s",
+    "8.0 s",
+    "4.0 s",
+    "2.0 s"
+   ],
+   "correctIndex": 2,
+   "explanation": "The ball takes u/g = 19.6/9.8 = 2.0 s to reach the top, where its velocity is zero, and the same time to fall back. The total is 4.0 s. Giving 2.0 s counts only the trip up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0017",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A ball thrown straight up reaches the top of its flight. Ignoring air resistance, what are its velocity and acceleration at that instant?",
+   "imageRef": null,
+   "options": [
+    "Velocity zero; acceleration zero",
+    "Velocity 9.8 m s\u207b\u00b9 downward; acceleration zero",
+    "Velocity zero; acceleration 9.8 m s\u207b\u00b2 upward",
+    "Velocity zero; acceleration 9.8 m s\u207b\u00b2 downward"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the top the ball is momentarily at rest, but gravity still acts, so its acceleration is 9.8 m s\u207b\u00b2 downward throughout the flight. If the acceleration were zero at the top, the ball would stay there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0018",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A student drops a ball from rest from several heights h and times each fall t. A graph of h against t\u00b2 is a straight line through the origin with a gradient of 4.85 m s\u207b\u00b2. What value of g do the results give?",
+   "imageRef": null,
+   "options": [
+    "2.43 m s\u207b\u00b2",
+    "19.4 m s\u207b\u00b2",
+    "9.70 m s\u207b\u00b2",
+    "4.85 m s\u207b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "For a fall from rest, h = \u00bdgt\u00b2, so a graph of h against t\u00b2 has gradient \u00bdg. Then g = 2 \u00d7 4.85 = 9.70 m s\u207b\u00b2. Taking the gradient as g itself gives 4.85 m s\u207b\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0019",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "Distance fallen from rest plotted against time gives a curve. Which graph should give a straight line through the origin?",
+   "imageRef": null,
+   "options": [
+    "Distance against the square root of time",
+    "Distance squared against time",
+    "Distance against one over time",
+    "Distance against time squared"
+   ],
+   "correctIndex": 3,
+   "explanation": "For uniform acceleration from rest, s = \u00bdat\u00b2, so s is proportional to t\u00b2. Plotting s against t\u00b2 linearises the data, and the gradient is \u00bda. The other graphs would still be curves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0020",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "When a bus brakes suddenly, standing passengers lurch forward. Which law best explains this?",
+   "imageRef": null,
+   "options": [
+    "Newton's second law: the acceleration equals the net force divided by the mass",
+    "Newton's third law: every force has an equal and opposite force on the other body",
+    "The law of conservation of energy: the passengers' kinetic energy is constant",
+    "Newton's first law: a body keeps its velocity unless a net force acts on it"
+   ],
+   "correctIndex": 3,
+   "explanation": "The passengers' bodies tend to keep moving forward at the bus's original velocity, because no net force has yet acted on them to slow them down. This tendency, inertia, is described by Newton's first law.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0021",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A swimmer pushes backward on the water with her hands. According to Newton's third law, what is the paired force?",
+   "imageRef": null,
+   "options": [
+    "The pool floor pushes upward on the water",
+    "The water pushes forward on the swimmer",
+    "The water pushes backward on the swimmer",
+    "Gravity pulls the swimmer down into the water"
+   ],
+   "correctIndex": 1,
+   "explanation": "Third law pairs act on two different bodies, are equal in size and are opposite in direction. If the swimmer pushes backward on the water, the water pushes forward on the swimmer, which propels her. Gravity and the pool floor are not part of this pair.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0022",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A box is pulled at constant velocity across a rough floor by a horizontal rope. Which free-body diagram is correct?",
+   "imageRef": null,
+   "options": [
+    "Weight, normal force, tension, friction and a separate forward force of motion",
+    "Weight, normal force, tension and friction, with tension equal in size to friction",
+    "Weight, normal force, tension and friction, with tension larger than friction",
+    "Weight, normal force and tension only, with tension balanced by the weight"
+   ],
+   "correctIndex": 1,
+   "explanation": "The box is acted on by its weight, the normal force from the floor, the tension in the rope and friction. At constant velocity the net force is zero, so tension equals friction. A larger tension would make the box accelerate, and there is no separate force of motion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0023",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A skydiver falls at a constant terminal velocity. What can be said about the forces acting on her?",
+   "imageRef": null,
+   "options": [
+    "The drag force is slightly smaller than her weight",
+    "The drag force is larger than her weight",
+    "Her weight is zero because she is in free fall",
+    "The drag force is equal in size to her weight"
+   ],
+   "correctIndex": 3,
+   "explanation": "At constant velocity the acceleration is zero, so by Newton's first and second laws the net force is zero. Upward drag balances downward weight. If drag were smaller than weight she would still be speeding up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0024",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A 600 kg boat's engine gives a forward thrust of 1500 N while water resistance acts backward at 300 N. What is the boat's acceleration?",
+   "imageRef": null,
+   "options": [
+    "0.50 m s\u207b\u00b2",
+    "2.0 m s\u207b\u00b2",
+    "2.5 m s\u207b\u00b2",
+    "3.0 m s\u207b\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The net force is 1500 \u2212 300 = 1200 N forward, so a = Fnet/m = 1200/600 = 2.0 m s\u207b\u00b2. Using the thrust alone gives 2.5 m s\u207b\u00b2, and adding the two forces gives 3.0 m s\u207b\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0025",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "An 800 kg lift is accelerating downward at 1.5 m s\u207b\u00b2. What is the tension in its supporting cable? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "6.6 \u00d7 10\u00b3 N",
+    "9.0 \u00d7 10\u00b3 N",
+    "7.8 \u00d7 10\u00b3 N",
+    "1.2 \u00d7 10\u00b3 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "Taking down as positive, mg \u2212 T = ma, so T = m(g \u2212 a) = 800 \u00d7 (9.8 \u2212 1.5) = 6640 N, about 6.6 \u00d7 10\u00b3 N. The tension is less than the weight (7.8 \u00d7 10\u00b3 N) because the net force is downward. Adding a to g gives 9.0 \u00d7 10\u00b3 N, which is the tension for upward acceleration.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0026",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "What is the momentum of a 0.50 kg ball moving west at 8.0 m s\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "4.0 N west",
+    "4.0 kg m s\u207b\u00b9 west",
+    "4.0 kg m s\u207b\u00b9 east",
+    "16 kg m s\u207b\u00b9 west"
+   ],
+   "correctIndex": 1,
+   "explanation": "Momentum is p = mv = 0.50 \u00d7 8.0 = 4.0 kg m s\u207b\u00b9, and as a vector it points the same way as the velocity, west. The newton is the unit of force, not momentum, and 16 comes from \u00bdmv\u00b2, which is kinetic energy in joules.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0027",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A force-time graph for a kick on a 0.40 kg ball at rest is a triangle with a peak force of 600 N and a duration of 0.040 s. What is the ball's speed as it leaves the foot?",
+   "imageRef": null,
+   "options": [
+    "30 m s\u207b\u00b9",
+    "60 m s\u207b\u00b9",
+    "4.8 m s\u207b\u00b9",
+    "9.6 m s\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The impulse is the area under the force-time graph: \u00bd \u00d7 600 \u00d7 0.040 = 12 N s. Impulse equals change in momentum, so v = 12/0.40 = 30 m s\u207b\u00b9. Using the full rectangle, 600 \u00d7 0.040, gives twice the impulse and 60 m s\u207b\u00b9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0028",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A car stops from the same speed in two crashes, once with crumple zones and once without. Which quantity is the same in both crashes?",
+   "imageRef": null,
+   "options": [
+    "The impulse on the car, equal to its change in momentum",
+    "The average force on the car during the collision",
+    "The time taken for the car to come to a stop",
+    "The maximum force felt by the car's occupants"
+   ],
+   "correctIndex": 0,
+   "explanation": "The car's change in momentum, from mv to zero, is fixed by its mass and speed, so the impulse is the same. Crumple zones lengthen the stopping time, so the same impulse is delivered by a smaller average force, F = \u0394p/\u0394t.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0029",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A 3.0 kg trolley moving at 4.0 m s\u207b\u00b9 collides head-on with a stationary 1.0 kg trolley. Afterwards the 1.0 kg trolley moves at 6.0 m s\u207b\u00b9 in the original direction. What is the velocity of the 3.0 kg trolley after the collision?",
+   "imageRef": null,
+   "options": [
+    "2.0 m s\u207b\u00b9 in the original direction",
+    "2.0 m s\u207b\u00b9 opposite to the original direction",
+    "3.0 m s\u207b\u00b9 in the original direction",
+    "6.0 m s\u207b\u00b9 in the original direction"
+   ],
+   "correctIndex": 0,
+   "explanation": "Momentum before is 3.0 \u00d7 4.0 = 12 kg m s\u207b\u00b9. After: 3.0v + 1.0 \u00d7 6.0 = 12, so v = 2.0 m s\u207b\u00b9, still in the original direction. A trolley that kept moving at 3.0 m s\u207b\u00b9 would give the system more momentum than it started with.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0030",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "In the collision where a 3.0 kg trolley at 4.0 m s\u207b\u00b9 hits a stationary 1.0 kg trolley, the trolleys move off at 2.0 m s\u207b\u00b9 and 6.0 m s\u207b\u00b9. How should the collision be classified?",
+   "imageRef": null,
+   "options": [
+    "Inelastic, because the trolleys move off at different velocities",
+    "Inelastic, because the total kinetic energy falls from 24 J to 18 J",
+    "Elastic, because the total momentum is the same before and after",
+    "Elastic, because the total kinetic energy is 24 J both before and after"
+   ],
+   "correctIndex": 3,
+   "explanation": "Kinetic energy before is \u00bd \u00d7 3.0 \u00d7 4.0\u00b2 = 24 J. After it is \u00bd \u00d7 3.0 \u00d7 2.0\u00b2 + \u00bd \u00d7 1.0 \u00d7 6.0\u00b2 = 6 + 18 = 24 J, so kinetic energy is conserved and the collision is elastic. Momentum is conserved in every collision, so it cannot decide the type.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0031",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A 0.010 kg bullet leaves a 4.0 kg rifle at 400 m s\u207b\u00b9. If the rifle is free to move, what is its recoil velocity?",
+   "imageRef": null,
+   "options": [
+    "1.0 m s\u207b\u00b9 forward",
+    "4.0 m s\u207b\u00b9 backward",
+    "0.25 m s\u207b\u00b9 backward",
+    "1.0 m s\u207b\u00b9 backward"
+   ],
+   "correctIndex": 3,
+   "explanation": "The total momentum is zero before firing, so afterwards 0.010 \u00d7 400 + 4.0v = 0, giving v = \u22121.0 m s\u207b\u00b9. The rifle moves backward at 1.0 m s\u207b\u00b9 while the bullet moves forward.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0032",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "Two trolleys at rest are pushed apart by a released spring. What happens to the system's total momentum and total kinetic energy?",
+   "imageRef": null,
+   "options": [
+    "Momentum increases, and kinetic energy stays zero",
+    "Both momentum and kinetic energy stay zero",
+    "Both momentum and kinetic energy increase",
+    "Momentum stays zero, and kinetic energy increases"
+   ],
+   "correctIndex": 3,
+   "explanation": "The trolleys move off with equal and opposite momenta, so the total stays zero. Kinetic energy is a scalar and cannot cancel, so it increases, supplied by energy stored in the spring. This makes an explosion a type of inelastic interaction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0033",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "In an inelastic collision, which is conserved?",
+   "imageRef": null,
+   "options": [
+    "Both total momentum and total kinetic energy",
+    "Neither total momentum nor kinetic energy",
+    "Total momentum, but not total kinetic energy",
+    "Total kinetic energy, but not total momentum"
+   ],
+   "correctIndex": 2,
+   "explanation": "Momentum is conserved in all collisions where no external net force acts. In an inelastic collision some kinetic energy is transformed into other forms, such as heat, sound and deformation, so kinetic energy is not conserved.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0034",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A student pushes a trolley with a force of 25 N for 8.0 m in the direction of the force. How much work does the student do?",
+   "imageRef": null,
+   "options": [
+    "3.1 J",
+    "33 J",
+    "100 J",
+    "200 J"
+   ],
+   "correctIndex": 3,
+   "explanation": "Work is W = Fs = 25 \u00d7 8.0 = 200 J when the force and displacement are in the same direction. Dividing the force by the distance gives 3.1, and adding them gives 33, neither of which is work.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0035",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A 1200 kg car travelling at 20 m s\u207b\u00b9 brakes to a stop over 40 m. What is the average braking force?",
+   "imageRef": null,
+   "options": [
+    "6.0 \u00d7 10\u00b3 N",
+    "1.2 \u00d7 10\u2074 N",
+    "6.0 \u00d7 10\u00b2 N",
+    "2.4 \u00d7 10\u2075 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "The work done by the brakes equals the loss of kinetic energy: \u00bd \u00d7 1200 \u00d7 20\u00b2 = 2.4 \u00d7 10\u2075 J. Then F = W/s = 2.4 \u00d7 10\u2075 / 40 = 6.0 \u00d7 10\u00b3 N. Leaving out the \u00bd gives 1.2 \u00d7 10\u2074 N, and 2.4 \u00d7 10\u2075 is the energy in joules, not the force.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0036",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A cyclist triples her speed. By what factor does her kinetic energy increase?",
+   "imageRef": null,
+   "options": [
+    "27",
+    "9",
+    "3",
+    "6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Kinetic energy is Ek = \u00bdmv\u00b2, so it depends on the square of the speed. Tripling v multiplies Ek by 3\u00b2 = 9. A factor of 3 would apply only if kinetic energy were proportional to speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0037",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A 55 kg hiker climbs a hill 400 m high. What is her gain in gravitational potential energy? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "2.2 \u00d7 10\u2074 J",
+    "5.4 \u00d7 10\u00b2 J",
+    "8.6 \u00d7 10\u2075 J",
+    "2.2 \u00d7 10\u2075 J"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u0394Ep = mg\u0394h = 55 \u00d7 9.8 \u00d7 400 \u2248 2.2 \u00d7 10\u2075 J. Leaving out g gives 2.2 \u00d7 10\u2074 J, and 5.4 \u00d7 10\u00b2 is mg alone, her weight in newtons, not an energy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0038",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "The force on a crate falls steadily from 30 N to 10 N as it moves 2.0 m in the direction of the force. How much work is done on the crate?",
+   "imageRef": null,
+   "options": [
+    "80 J",
+    "40 J",
+    "20 J",
+    "60 J"
+   ],
+   "correctIndex": 1,
+   "explanation": "Work is the area under a force-displacement graph. Here it is a trapezium: (30 + 10)/2 \u00d7 2.0 = 40 J. Using only the final force gives 20 J and only the starting force gives 60 J.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0039",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "A ball falls through air with significant air resistance. On an energy-time graph, what happens to its total mechanical energy, Ek + Ep?",
+   "imageRef": null,
+   "options": [
+    "It stays constant, because energy is always conserved",
+    "It increases, because the ball's kinetic energy keeps rising",
+    "It decreases to zero as soon as terminal velocity is reached",
+    "It decreases, as energy is transferred to the air as heat"
+   ],
+   "correctIndex": 3,
+   "explanation": "Drag does work against the ball, transferring energy to the surroundings as heat, so the mechanical energy falls. Total energy is conserved, but not the mechanical energy of the ball alone. At terminal velocity Ek is constant while Ep keeps falling, so the total still decreases rather than reaching zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-linear-motion-0040",
+   "topicId": "phys-qce-linear-motion",
+   "stem": "The mathematician and physicist \u00c9milie du Ch\u00e2telet is remembered in mechanics for which work?",
+   "imageRef": null,
+   "options": [
+    "Discovering that light travels at a finite speed through space",
+    "Building the first apparatus to measure the speed of sound in air",
+    "Translating Newton's Principia into French, with her own commentary",
+    "Measuring the acceleration due to gravity with a swinging pendulum"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u00c9milie du Ch\u00e2telet produced the French translation of Newton's Principia, with a commentary, which helped spread Newtonian mechanics in Europe. She also argued that a moving body's energy depends on the square of its speed, the idea behind \u00bdmv\u00b2.",
+   "difficulty": 1,
+   "tier": "extension",
+   "generationBatch": "sen-phys-qce-linear-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

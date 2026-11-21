@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-hsc-formulas",
+ "questions": [
+  {
+   "id": "gm-hsc-formulas-0001",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using v = u + at, what is v when u = 4, a = 3 and t = 5?",
+   "imageRef": null,
+   "options": [
+    "60",
+    "19",
+    "35",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply before adding: at = 3 \u00d7 5 = 15, so v = 4 + 15 = 19. 35 comes from adding 4 and 3 first and then multiplying by 5, which ignores the order of operations.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0002",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using E = 1/2 mv\u00b2, what is E when m = 4 and v = 6?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "288",
+    "72",
+    "144"
+   ],
+   "correctIndex": 2,
+   "explanation": "Square v first: v\u00b2 = 36, then E = 1/2 \u00d7 4 \u00d7 36 = 72. 144 leaves out the 1/2, and 12 forgets to square v.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0003",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using y = 3x\u00b2 \u2212 5, what is y when x = \u22122?",
+   "imageRef": null,
+   "options": [
+    "31",
+    "\u221211",
+    "7",
+    "\u221217"
+   ],
+   "correctIndex": 2,
+   "explanation": "(\u22122)\u00b2 = 4, so y = 3 \u00d7 4 \u2212 5 = 7. \u221217 treats (\u22122)\u00b2 as \u22124, and 31 squares 3x as a whole, (\u22126)\u00b2 = 36, instead of squaring only x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0004",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Body mass index is given by BMI = m/h\u00b2, where m is mass in kilograms and h is height in metres. What is the BMI of a person of mass 72 kg and height 1.8 m, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "20.0",
+    "233.3",
+    "22.2",
+    "40.0"
+   ],
+   "correctIndex": 2,
+   "explanation": "h\u00b2 = 1.8\u00b2 = 3.24, and 72 \u00f7 3.24 = 22.2. 40.0 divides by the height without squaring it, and 20.0 doubles the height instead of squaring it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0005",
+   "topicId": "gm-hsc-formulas",
+   "stem": "The area of a trapezium is A = 1/2 h(a + b). If A = 60, h = 8 and a = 6, what is b?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "1.5",
+    "15",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute: 60 = 1/2 \u00d7 8 \u00d7 (6 + b) = 4(6 + b), so 6 + b = 15 and b = 9. 15 is the value of a + b, before 6 is subtracted, and 1.5 leaves out the 1/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0006",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A spreadsheet has a distance in kilometres in cell A2 and a time in hours in cell B2. Which formula gives the average speed in km/h?",
+   "imageRef": null,
+   "options": [
+    "=A2*B2",
+    "=A2-B2",
+    "=A2/B2",
+    "=B2/A2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Speed = distance \u00f7 time, so the distance cell is divided by the time cell. =B2/A2 gives hours per kilometre, the reciprocal of the speed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0007",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A car travels 210 km in 2.5 hours. What is its average speed?",
+   "imageRef": null,
+   "options": [
+    "84 km/h",
+    "525 km/h",
+    "105 km/h",
+    "80 km/h"
+   ],
+   "correctIndex": 0,
+   "explanation": "Speed = distance \u00f7 time = 210 \u00f7 2.5 = 84 km/h. 525 km/h multiplies distance and time, and 105 km/h divides by 2 hours instead of 2.5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0008",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A cyclist rides at 15 m/s. What is this speed in km/h?",
+   "imageRef": null,
+   "options": [
+    "900 km/h",
+    "5.4 km/h",
+    "54 km/h",
+    "4.17 km/h"
+   ],
+   "correctIndex": 2,
+   "explanation": "15 m/s is 15 \u00d7 3600 = 54 000 m per hour, which is 54 km/h; the shortcut is to multiply by 3.6. 4.17 km/h divides by 3.6, which converts the wrong way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0009",
+   "topicId": "gm-hsc-formulas",
+   "stem": "How many minutes does it take to drive 18 km at an average speed of 72 km/h?",
+   "imageRef": null,
+   "options": [
+    "4 minutes",
+    "30 minutes",
+    "15 minutes",
+    "25 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Time = distance \u00f7 speed = 18 \u00f7 72 = 0.25 hours, and 0.25 \u00d7 60 = 15 minutes. 25 minutes reads 0.25 hours as if it were minutes, and 4 minutes divides speed by distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0010",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A driver travelling at 60 km/h has a reaction time of 1.5 seconds. What is the reaction distance?",
+   "imageRef": null,
+   "options": [
+    "40 m",
+    "16.7 m",
+    "25 m",
+    "90 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "60 km/h = 60 \u00f7 3.6 = 16.67 m/s, and 16.67 \u00d7 1.5 = 25 m. 90 m multiplies 60 by 1.5 without converting km/h to m/s, and 16.7 m is the distance covered in one second only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0011",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A car is travelling at 90 km/h. The driver's reaction time is 1.2 seconds and the braking distance is 48 m. What is the stopping distance?",
+   "imageRef": null,
+   "options": [
+    "156 m",
+    "73 m",
+    "30 m",
+    "78 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "90 km/h = 25 m/s, so the reaction distance is 25 \u00d7 1.2 = 30 m. Stopping distance = reaction distance + braking distance = 30 + 48 = 78 m. 30 m is the reaction distance alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0012",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A road safety model gives the braking distance as B = 0.01v\u00b2 metres, where v is the speed in km/h. A driver travelling at 80 km/h has a reaction time of 1.8 s. What is the stopping distance?",
+   "imageRef": null,
+   "options": [
+    "208 m",
+    "64 m",
+    "86 m",
+    "104 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reaction distance: 80 \u00f7 3.6 \u00d7 1.8 = 40 m. Braking distance: 0.01 \u00d7 80\u00b2 = 64 m. Stopping distance = 40 + 64 = 104 m. 208 m uses 80 \u00d7 1.8 = 144 m for the reaction distance without converting to m/s.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0013",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Which factor increases a driver's reaction distance but not the braking distance?",
+   "imageRef": null,
+   "options": [
+    "A wet road surface",
+    "Worn tyres on the car",
+    "Driving down a steep hill",
+    "The driver being tired"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reaction distance is covered before the brakes are applied, so it depends on the speed and the driver's reaction time, which tiredness lengthens. Wet roads, worn tyres and downhill slopes affect how far the car travels once braking starts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0014",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using BAC (male) = (10N \u2212 7.5H)/(6.8M), what is the estimated BAC of an 80 kg male who has 5 standard drinks over 3 hours, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "0.092",
+    "0.044",
+    "0.051",
+    "0.063"
+   ],
+   "correctIndex": 2,
+   "explanation": "BAC = (10 \u00d7 5 \u2212 7.5 \u00d7 3)/(6.8 \u00d7 80) = 27.5/544 = 0.051. 0.063 uses the female constant 5.5, and 0.092 leaves out the 7.5H term for the hours of drinking.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0015",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using BAC (female) = (10N \u2212 7.5H)/(5.5M), what is the estimated BAC of a 60 kg female who has 4 standard drinks over 2 hours, to three decimal places?",
+   "imageRef": null,
+   "options": [
+    "0.083",
+    "0.076",
+    "0.061",
+    "0.121"
+   ],
+   "correctIndex": 1,
+   "explanation": "BAC = (10 \u00d7 4 \u2212 7.5 \u00d7 2)/(5.5 \u00d7 60) = 25/330 = 0.076. 0.061 uses the male constant 6.8, and 0.121 ignores the 2 hours of drinking.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0016",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using Time = BAC/0.015, how long will it take for a BAC of 0.084 to fall to zero?",
+   "imageRef": null,
+   "options": [
+    "5 hours 36 minutes",
+    "5 hours 6 minutes",
+    "56 hours",
+    "1 hour 16 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "Time = 0.084 \u00f7 0.015 = 5.6 hours, and 0.6 \u00d7 60 = 36 minutes, so 5 hours 36 minutes. 5 hours 6 minutes reads 0.6 hours as 6 minutes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0017",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A 55 kg female has 3 standard drinks over 1 hour and then stops drinking. Using BAC (female) = (10N \u2212 7.5H)/(5.5M) and Time = BAC/0.015, about how long after she stops will her BAC reach zero?",
+   "imageRef": null,
+   "options": [
+    "About 7 hours",
+    "About 1 hour",
+    "About 5 hours",
+    "About 4 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "BAC = (30 \u2212 7.5)/(5.5 \u00d7 55) = 22.5/302.5 = 0.074, and 0.074 \u00f7 0.015 = 4.96, so about 5 hours. About 4 hours comes from the male constant 6.8, and about 7 hours from leaving out the hour of drinking.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0018",
+   "topicId": "gm-hsc-formulas",
+   "stem": "According to the BAC formulas, which change would lower a person's estimated BAC?",
+   "imageRef": null,
+   "options": [
+    "Having a lower body weight with the same drinks",
+    "Having one more standard drink in the same time",
+    "Drinking the same number of drinks over more hours",
+    "Being female rather than male, at the same weight"
+   ],
+   "correctIndex": 2,
+   "explanation": "A larger H makes 10N \u2212 7.5H smaller, so the BAC is lower. A female has the smaller constant 5.5 in the denominator, which gives a higher BAC, and a lower weight also shrinks the denominator.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0019",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Why can the BAC formula only estimate a person's actual blood alcohol content?",
+   "imageRef": null,
+   "options": [
+    "It always gives a value higher than the person's true BAC",
+    "It applies only to people who weigh more than 70 kilograms",
+    "It ignores the number of standard drinks the person has had",
+    "It ignores factors such as food eaten, health and metabolism"
+   ],
+   "correctIndex": 3,
+   "explanation": "The formula uses only the number of drinks, the hours of drinking, body weight and sex. Food, health, medication and how quickly each body processes alcohol also change BAC, so the result is an estimate that can be too high or too low.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0020",
+   "topicId": "gm-hsc-formulas",
+   "stem": "In a spreadsheet, a male's number of standard drinks is in B2, hours of drinking in C2 and weight in kilograms in D2. Which formula calculates his estimated BAC?",
+   "imageRef": null,
+   "options": [
+    "=10*B2-7.5*C2/(6.8*D2)",
+    "=(10*B2-7.5*C2)/6.8*D2",
+    "=(10*B2-7.5*C2)/(5.5*D2)",
+    "=(10*B2-7.5*C2)/(6.8*D2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The whole numerator and the whole denominator each need brackets. Without brackets around 6.8*D2 the spreadsheet divides by 6.8 and then multiplies by the weight, and 5.5 is the constant for females.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0021",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using Clark's formula, Dosage = (weight in kg \u00d7 adult dosage)/70, what dose should a 21 kg child receive if the adult dose is 500 mg?",
+   "imageRef": null,
+   "options": [
+    "238 mg",
+    "150 mg",
+    "70 mg",
+    "875 mg"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dosage = 21 \u00d7 500 \u00f7 70 = 150 mg. 70 mg divides by 150, the number in Fried's formula, instead of 70.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0022",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using Young's formula, Dosage = (age in years \u00d7 adult dosage)/(age in years + 12), what dose should a 6-year-old receive if the adult dose is 300 mg?",
+   "imageRef": null,
+   "options": [
+    "100 mg",
+    "150 mg",
+    "25 mg",
+    "12 mg"
+   ],
+   "correctIndex": 0,
+   "explanation": "Dosage = 6 \u00d7 300 \u00f7 (6 + 12) = 1800 \u00f7 18 = 100 mg. 150 mg divides by 12 instead of 6 + 12, and 25 mg multiplies the age by 12 in the denominator instead of adding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0023",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Using Fried's formula, Dosage = (age in months \u00d7 adult dosage)/150, what dose should an 18-month-old receive if the adult dose is 250 mg?",
+   "imageRef": null,
+   "options": [
+    "64 mg",
+    "30 mg",
+    "2.5 mg",
+    "375 mg"
+   ],
+   "correctIndex": 1,
+   "explanation": "The age must be in months: 18 \u00d7 250 \u00f7 150 = 30 mg. 2.5 mg substitutes the age in years, 1.5, which Fried's formula does not use.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0024",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A doctor needs a dose for a 15-month-old child and wants a formula that uses the age in months. Which formula is appropriate?",
+   "imageRef": null,
+   "options": [
+    "Fried's formula",
+    "Young's formula",
+    "Clark's formula",
+    "The BAC formula"
+   ],
+   "correctIndex": 0,
+   "explanation": "Fried's formula is for children aged 1 to 2 years and uses the age in months. Young's formula is for children aged 1 to 12 years using age in years, and Clark's formula uses weight rather than age.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0025",
+   "topicId": "gm-hsc-formulas",
+   "stem": "An 8-year-old weighs 35 kg and the adult dose of a medicine is 400 mg. How much larger is the dose from Clark's formula, (weight \u00d7 adult dosage)/70, than from Young's formula, (age \u00d7 adult dosage)/(age + 12)?",
+   "imageRef": null,
+   "options": [
+    "160 mg",
+    "67 mg",
+    "200 mg",
+    "40 mg"
+   ],
+   "correctIndex": 3,
+   "explanation": "Clark's: 35 \u00d7 400 \u00f7 70 = 200 mg. Young's: 8 \u00d7 400 \u00f7 20 = 160 mg. The difference is 40 mg. 67 mg compares with Young's formula done with a denominator of 12 instead of 8 + 12.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0026",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Which of these is v = u + at with a as the subject?",
+   "imageRef": null,
+   "options": [
+    "a = (v + u)/t",
+    "a = v/t \u2212 u",
+    "a = t/(v \u2212 u)",
+    "a = (v \u2212 u)/t"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract u from both sides to get at = v \u2212 u, then divide both sides by t. a = v/t \u2212 u divides only v by t, and a = (v + u)/t adds u instead of subtracting it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0027",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Which of these is y = ax\u00b2 + c rearranged to make x the subject, for x > 0?",
+   "imageRef": null,
+   "options": [
+    "x = (y \u2212 c)/(2a)",
+    "x = \u221a((y \u2212 c)/a)",
+    "x = \u221a(y/a) \u2212 c",
+    "x = \u221a((y + c)/a)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtract c, divide by a, then take the square root: x\u00b2 = (y \u2212 c)/a. Taking the root before subtracting c gives \u221a(y/a) \u2212 c, and dividing by 2a confuses squaring with doubling.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0028",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A circle has an area of 50 cm\u00b2, and A = \u03c0r\u00b2. What is the radius, to two decimal places?",
+   "imageRef": null,
+   "options": [
+    "15.92 cm",
+    "2.25 cm",
+    "7.98 cm",
+    "3.99 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "r\u00b2 = 50/\u03c0 = 15.92, so r = \u221a15.92 = 3.99 cm. 15.92 cm is r\u00b2, with the square root not yet taken, and 7.98 cm is the diameter.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0029",
+   "topicId": "gm-hsc-formulas",
+   "stem": "An object falls d = 4.9t\u00b2 metres in t seconds. Rearranging to find how long it takes to fall 80 m gives t\u00b2 = 80/4.9. Which answer fits the context?",
+   "imageRef": null,
+   "options": [
+    "t = 16.33 s only, as time cannot be negative",
+    "t = 16.33 s or t = 4.04 s, both valid",
+    "t = 4.04 s only, as time cannot be negative",
+    "t = 4.04 s or t = \u22124.04 s, both valid"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u00b2 = 16.33 gives t = \u00b14.04, but a negative time has no meaning here, so only 4.04 s is accepted. 16.33 is t\u00b2, not t.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0030",
+   "topicId": "gm-hsc-formulas",
+   "stem": "The sum of the interior angles of a polygon with n sides is S = 180(n \u2212 2). Which of these makes n the subject?",
+   "imageRef": null,
+   "options": [
+    "n = S/180 \u2212 2",
+    "n = (S \u2212 2)/180",
+    "n = S/180 + 2",
+    "n = (S + 2)/180"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide both sides by 180 to get S/180 = n \u2212 2, then add 2. Subtracting 2 undoes the step the wrong way, and (S + 2)/180 adds before dividing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0031",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Which of these is F = 9/5 C + 32 rearranged to make C the subject?",
+   "imageRef": null,
+   "options": [
+    "C = 5/9 F \u2212 32",
+    "C = 9/5 (F \u2212 32)",
+    "C = 5/9 (F + 32)",
+    "C = 5/9 (F \u2212 32)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract 32 first to get F \u2212 32 = 9/5 C, then multiply both sides by 5/9. C = 5/9 F \u2212 32 multiplies before subtracting, and 9/5 does not undo multiplying by 9/5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0032",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A plumber charges a $90 call-out fee plus $75 per hour. A bill comes to $390. How many hours did the plumber work?",
+   "imageRef": null,
+   "options": [
+    "5.2 hours",
+    "3 hours",
+    "4 hours",
+    "6.4 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "90 + 75h = 390, so 75h = 300 and h = 4. 5.2 hours divides the whole bill by 75 without taking off the call-out fee, and 6.4 hours adds the fee instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0033",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Mia has $120 and saves $35 each week. Which equation finds the number of weeks, w, until she has $400?",
+   "imageRef": null,
+   "options": [
+    "35w \u2212 120 = 400",
+    "120 \u2212 35w = 400",
+    "120 + 35w = 400",
+    "35 + 120w = 400"
+   ],
+   "correctIndex": 2,
+   "explanation": "Her savings start at 120 and grow by 35 each week, so after w weeks she has 120 + 35w, which is set equal to 400. Solving gives w = 8. 35 + 120w swaps the starting amount and the weekly amount.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0034",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A rectangle is 3 m longer than it is wide, and its perimeter is 34 m. What is its width?",
+   "imageRef": null,
+   "options": [
+    "8.5 m",
+    "10 m",
+    "15.5 m",
+    "7 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Width w and length w + 3: 2(w + w + 3) = 34, so 4w + 6 = 34 and w = 7 m. 10 m is the length, and 8.5 m divides the perimeter by 4 as if it were a square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0035",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Adult tickets cost $25 and child tickets cost $15. A group of 12 people paid $260 in total. How many children were in the group?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "10",
+    "4",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "With c children there are 12 \u2212 c adults: 25(12 \u2212 c) + 15c = 260, so 300 \u2212 10c = 260 and c = 4. 8 is the number of adults, found by giving the children's price to the adults.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0036",
+   "topicId": "gm-hsc-formulas",
+   "stem": "Each minibus carries 12 passengers and 70 people need transport. Solving 12n = 70 gives n = 5.83. How many minibuses are needed?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "5",
+    "5.83",
+    "7"
+   ],
+   "correctIndex": 0,
+   "explanation": "A part of a minibus cannot be booked, and 5 minibuses carry only 60 people, so the answer must round up to 6. Rounding to the nearest whole number, 5, would leave 10 people behind.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-formulas-0037",
+   "topicId": "gm-hsc-formulas",
+   "stem": "A taxi charges $4.20 flagfall plus $2.30 per kilometre. A fare is $36.40. How far was the trip?",
+   "imageRef": null,
+   "options": [
+    "7.7 km",
+    "14 km",
+    "15.8 km",
+    "17.7 km"
+   ],
+   "correctIndex": 1,
+   "explanation": "4.20 + 2.30d = 36.40, so 2.30d = 32.20 and d = 14 km. 15.8 km divides the whole fare by 2.30 without taking off the flagfall, and 17.7 km adds the flagfall instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-formulas-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

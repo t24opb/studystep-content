@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-hsc-inequalities-induction",
+ "questions": [
+  {
+   "id": "spec-hsc-inequalities-induction-0001",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "By definition, to prove that a > b for real numbers a and b, it is enough to show that:",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 > b\u00b2",
+    "b \u2212 a > 0",
+    "a \u2212 b > 0",
+    "a/b > 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "For real numbers, a > b if and only if a \u2212 b > 0. The test a/b > 1 fails when b is negative, and a\u00b2 > b\u00b2 compares sizes, not order: \u22123 has a larger square than 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0002",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Expanding (a + b)\u00b2 \u2265 0 proves which inequality for all real a and b?",
+   "imageRef": null,
+   "options": [
+    "a + b \u2265 2\u221a(ab)",
+    "a\u00b2 + b\u00b2 \u2265 \u22122ab",
+    "a\u00b2 + b\u00b2 \u2265 2ab",
+    "a\u00b2 + b\u00b2 \u2264 2ab"
+   ],
+   "correctIndex": 1,
+   "explanation": "(a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 \u2265 0 rearranges to a\u00b2 + b\u00b2 \u2265 \u22122ab. The inequality a\u00b2 + b\u00b2 \u2265 2ab comes from (a \u2212 b)\u00b2 \u2265 0 instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0003",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "If a > b and c < 0, then:",
+   "imageRef": null,
+   "options": [
+    "ac > bc",
+    "a + c < b + c",
+    "a/c > b/c",
+    "ac < bc"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying both sides of an inequality by a negative number reverses it, so ac < bc. Dividing by c also reverses it, giving a/c < b/c. Adding c to both sides keeps the order, so a + c > b + c.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0004",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "If a > b > 0, then:",
+   "imageRef": null,
+   "options": [
+    "1/a > 1/b > 0",
+    "1/a > 0 > 1/b",
+    "\u2212a > \u2212b",
+    "1/b > 1/a > 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "For positive numbers, taking reciprocals reverses the order: the larger number has the smaller reciprocal, so 1/b > 1/a, and both are positive. Multiplying by \u22121 also reverses the order, giving \u2212a < \u2212b.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0005",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For real numbers a and b, |a| > |b| is equivalent to:",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 > b\u00b2",
+    "a > b",
+    "a > |b|",
+    "a \u2212 b > 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both sides of |a| > |b| are non-negative, so squaring keeps the order, giving a\u00b2 > b\u00b2, and the steps reverse. The statement a > b is different: \u22125 < 1 but |\u22125| > |1|.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0006",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Given a > b and c > d, which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "a \u2212 c > b \u2212 d",
+    "a/c > b/d",
+    "a + c > b + d",
+    "ac > bd"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding the inequalities gives a + c > b + d. Multiplying is not safe with negatives: a = 1, b = 0, c = \u22121, d = \u22122 gives ac = \u22121 < bd = 0. Subtracting fails too: 1 > 0 and 5 > 0, but 1 \u2212 5 < 0 \u2212 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0007",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "A student claims that a > b implies a\u00b2 > b\u00b2. Which values give a counter-example?",
+   "imageRef": null,
+   "options": [
+    "a = 1, b = \u22122",
+    "a = 3, b = 2",
+    "a = 2, b = 1",
+    "a = 5, b = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "With a = 1 and b = \u22122, a > b is true but a\u00b2 = 1 < b\u00b2 = 4, so the claim fails. The other pairs have both numbers non-negative, where squaring does keep the order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0008",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "If x < y < 0, which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 < y\u00b2",
+    "1/x < 1/y",
+    "\u2212x < \u2212y",
+    "x\u00b2 > y\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both numbers are negative and x is further from 0, so |x| > |y| and x\u00b2 > y\u00b2. For example x = \u22123, y = \u22121: 9 > 1. Then 1/x = \u22121/3 > 1/y = \u22121, and \u2212x = 3 > \u2212y = 1, so the other two fail.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0009",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For a, b \u2265 0, the inequality (a + b)/2 \u2265 \u221a(ab) becomes an equality when:",
+   "imageRef": null,
+   "options": [
+    "ab = 1",
+    "a = b",
+    "a = 0",
+    "a = \u2212b"
+   ],
+   "correctIndex": 1,
+   "explanation": "(a + b)/2 \u2212 \u221a(ab) = (1/2)(\u221aa \u2212 \u221ab)\u00b2, which is zero exactly when \u221aa = \u221ab, that is a = b. With a = 0 and b > 0 the left side is b/2 and the right side is 0, so they are not equal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0010",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "The AM-GM inequality (a + b)/2 \u2265 \u221a(ab), for a, b \u2265 0, follows from expanding:",
+   "imageRef": null,
+   "options": [
+    "(\u221aa \u2212 \u221ab)\u00b2 \u2265 0",
+    "(\u221aa + \u221ab)\u00b2 \u2265 0",
+    "(a + b)\u00b2 \u2265 0",
+    "a\u00b2 + b\u00b2 \u2265 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "(\u221aa \u2212 \u221ab)\u00b2 = a \u2212 2\u221a(ab) + b \u2265 0 rearranges to a + b \u2265 2\u221a(ab). Expanding (\u221aa + \u221ab)\u00b2 \u2265 0 only gives a + b \u2265 \u22122\u221a(ab), which is too weak.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0011",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For x > 0, the minimum value of x + 9/x is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "10",
+    "6",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "By AM-GM, x + 9/x \u2265 2\u221a(x \u00d7 9/x) = 2\u221a9 = 6, with equality when x = 9/x, that is x = 3. The value 3 is where the minimum occurs, not the minimum itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0012",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Of all rectangles with perimeter 20 cm, the greatest possible area is:",
+   "imageRef": null,
+   "options": [
+    "20 cm\u00b2",
+    "24 cm\u00b2",
+    "25 cm\u00b2",
+    "100 cm\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sides x and y satisfy x + y = 10. By AM-GM, \u221a(xy) \u2264 (x + y)/2 = 5, so xy \u2264 25, with equality for the 5 cm square. A 4 by 6 rectangle gives only 24 cm\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0013",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Adding a\u00b2 + b\u00b2 \u2265 2ab, b\u00b2 + c\u00b2 \u2265 2bc and c\u00b2 + a\u00b2 \u2265 2ca, then halving, proves that:",
+   "imageRef": null,
+   "options": [
+    "(a + b + c)\u00b2 \u2265 2(ab + bc + ca)",
+    "a + b + c \u2265 ab + bc + ca",
+    "a\u00b2 + b\u00b2 + c\u00b2 \u2265 ab + bc + ca",
+    "a\u00b2 + b\u00b2 + c\u00b2 \u2265 2(ab + bc + ca)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sum is 2(a\u00b2 + b\u00b2 + c\u00b2) \u2265 2(ab + bc + ca), and halving gives a\u00b2 + b\u00b2 + c\u00b2 \u2265 ab + bc + ca. Forgetting to halve the left side gives the false 2(ab + bc + ca) on the right.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0014",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For a, b > 0, the inequality 1/a + 1/b \u2265 4/(a + b) is proved by multiplying both sides by ab(a + b) and reducing it to:",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 + b\u00b2 \u2265 0",
+    "ab \u2265 0",
+    "(a \u2212 b)\u00b2 \u2265 0",
+    "(a + b)\u00b2 \u2265 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by the positive ab(a + b) gives (a + b)\u00b2 \u2265 4ab, which is a\u00b2 \u2212 2ab + b\u00b2 \u2265 0, or (a \u2212 b)\u00b2 \u2265 0, true for all real a and b. Because ab(a + b) > 0, the direction of the inequality is kept.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0015",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Geometrically, the triangle inequality |a + b| \u2264 |a| + |b| says that:",
+   "imageRef": null,
+   "options": [
+    "the angles of a triangle add up to exactly 180\u00b0",
+    "the longest side is opposite the largest angle",
+    "one side of a triangle is at most the sum of the other two",
+    "one side of a triangle is at least the sum of the other two"
+   ],
+   "correctIndex": 2,
+   "explanation": "Placing a and b head to tail, a + b is the third side of the triangle they form, and going directly is never longer than going via the other two sides. Equality occurs only when the triangle collapses to a line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0016",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For real numbers a and b, |a + b| = |a| + |b| exactly when:",
+   "imageRef": null,
+   "options": [
+    "ab \u2264 0",
+    "a = b",
+    "a + b = 0",
+    "ab \u2265 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Squaring, |a + b|\u00b2 = a\u00b2 + 2ab + b\u00b2 and (|a| + |b|)\u00b2 = a\u00b2 + 2|ab| + b\u00b2, so equality needs ab = |ab|, that is ab \u2265 0: a and b have the same sign or one is zero. When ab < 0 the terms partly cancel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0017",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Two sides of a triangle are 7 cm and 4 cm. The third side, x cm, must satisfy:",
+   "imageRef": null,
+   "options": [
+    "4 < x < 7",
+    "0 < x < 11",
+    "3 < x < 7",
+    "3 < x < 11"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the triangle inequality, x < 7 + 4 = 11, and also 7 < 4 + x, so x > 3. The third side can be longer than 7, up to 11, so the upper bound is not 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0018",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Using the triangle inequality, the minimum value of |x \u2212 3| + |x + 5| for real x is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "3",
+    "8",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "|x \u2212 3| + |x + 5| = |3 \u2212 x| + |x + 5| \u2265 |(3 \u2212 x) + (x + 5)| = 8, with equality for \u22125 \u2264 x \u2264 3. It is the distance between 3 and \u22125 on the number line. Combining |x \u2212 3| and |x + 5| as written gives |2x + 2|, which is not constant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0019",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "A right-angled triangle has legs a and b and hypotenuse c. Using a\u00b2 + b\u00b2 \u2265 2ab, it follows that:",
+   "imageRef": null,
+   "options": [
+    "its area is at most c\u00b2/4",
+    "its area is at least c\u00b2/4",
+    "a + b \u2264 c",
+    "its area is at most c\u00b2/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "a\u00b2 + b\u00b2 = c\u00b2, so 2ab \u2264 c\u00b2 and the area ab/2 \u2264 c\u00b2/4, with equality for the isosceles right triangle. By the triangle inequality a + b > c, so a + b \u2264 c is false.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0020",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "The squeeze theorem says that if f(x) \u2264 g(x) \u2264 h(x) for x near k, and f(x) and h(x) both tend to L as x \u2192 k, then:",
+   "imageRef": null,
+   "options": [
+    "g(x) has no limit as x \u2192 k",
+    "g(x) also tends to L as x \u2192 k",
+    "g(k) must equal L exactly",
+    "g(x) tends to 2L as x \u2192 k"
+   ],
+   "correctIndex": 1,
+   "explanation": "g is trapped between two functions that approach the same value, so it must approach that value too. The theorem says nothing about g(k) itself, which need not exist.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0021",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Using \u2212x\u00b2 \u2264 x\u00b2 sin(1/x) \u2264 x\u00b2 for x \u2260 0, the limit of x\u00b2 sin(1/x) as x \u2192 0 is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "undefined, since sin(1/x) oscillates",
+    "x\u00b2",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both \u2212x\u00b2 and x\u00b2 tend to 0 as x \u2192 0, so by the squeeze theorem x\u00b2 sin(1/x) \u2192 0. Although sin(1/x) oscillates, the factor x\u00b2 forces the product to 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0022",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For 0 < |x| < \u03c0/2, cos x \u2264 (sin x)/x \u2264 1. Hence the limit of (sin x)/x as x \u2192 0 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "undefined, since it is 0/0 at x = 0",
+    "1",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "As x \u2192 0, cos x \u2192 1, and the upper bound is the constant 1, so by the squeeze theorem (sin x)/x \u2192 1. The expression is undefined at x = 0 itself, but the limit still exists.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0023",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "To prove e\u02e3 \u2265 1 + x for all real x, let f(x) = e\u02e3 \u2212 1 \u2212 x. Which fact completes the proof?",
+   "imageRef": null,
+   "options": [
+    "f has a global minimum value of 0 at x = 0",
+    "f is increasing for all real x",
+    "f(0) = 0 and f\u2032(0) = 0, so f is always zero",
+    "f\u2032\u2032(x) < 0 for all real x"
+   ],
+   "correctIndex": 0,
+   "explanation": "f\u2032(x) = e\u02e3 \u2212 1 is negative for x < 0 and positive for x > 0, so f has a global minimum at x = 0, where f(0) = 0. Hence f(x) \u2265 0 everywhere. f is not increasing for x < 0, and f\u2032\u2032(x) = e\u02e3 > 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0024",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Let f(x) = x \u2212 sin x. Then f(0) = 0 and f\u2032(x) = 1 \u2212 cos x \u2265 0, with equality only at isolated points. This proves:",
+   "imageRef": null,
+   "options": [
+    "cos x < x for all x > 0",
+    "sin x < x for all real x",
+    "sin x < x for all x > 0",
+    "sin x > x for all x > 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "f is increasing and starts at 0, so f(x) > 0 for x > 0, that is sin x < x. For negative x the inequality reverses, so it is not true for all real x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0025",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "The graph of y = ln x is concave down and touches its tangent y = x \u2212 1 at (1, 0). This shows that:",
+   "imageRef": null,
+   "options": [
+    "ln x \u2264 x \u2212 1 for all x > 0",
+    "ln x \u2265 x \u2212 1 for all x > 0",
+    "ln x \u2264 x \u2212 1 only for x \u2265 1",
+    "e\u02e3 \u2264 x + 1 for all real x"
+   ],
+   "correctIndex": 0,
+   "explanation": "A concave down curve lies below each of its tangents, so ln x \u2264 x \u2212 1 for every x > 0, with equality only at x = 1. The reverse statement e\u02e3 \u2265 x + 1 is the matching result for the exponential.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0026",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "To prove x/(1 + x) < ln(1 + x) for x > 0, let g(x) = ln(1 + x) \u2212 x/(1 + x). For x > 0, g\u2032(x) equals:",
+   "imageRef": null,
+   "options": [
+    "\u2212x/(1 + x)\u00b2",
+    "1/(1 + x)\u00b2",
+    "x/(1 + x)",
+    "x/(1 + x)\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "g\u2032(x) = 1/(1 + x) \u2212 1/(1 + x)\u00b2 = ((1 + x) \u2212 1)/(1 + x)\u00b2 = x/(1 + x)\u00b2, which is positive for x > 0. With g(0) = 0, g is increasing, so g(x) > 0 for x > 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0027",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "A recursive formula, or recurrence relation, is a formula that:",
+   "imageRef": null,
+   "options": [
+    "defines a sequence that never repeats a value",
+    "defines each term of a sequence using a preceding term",
+    "gives each term directly from its position n",
+    "adds up the first n terms of a sequence"
+   ],
+   "correctIndex": 1,
+   "explanation": "A recurrence such as a\u2099\u208a\u2081 = 2a\u2099 + 1 builds each term from the one before. A formula in n alone, such as a\u2099 = 2\u207f \u2212 1, is called a closed form, and induction is often used to prove that the two agree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0028",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "A sequence has a\u2081 = 1 and a\u2099\u208a\u2081 = 2a\u2099 + 1. Which closed form could be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "a\u2099 = 2\u207f \u2212 1",
+    "a\u2099 = 2n \u2212 1",
+    "a\u2099 = 2\u207f + 1",
+    "a\u2099 = 2^(n \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The terms are 1, 3, 7, 15, ..., one less than powers of 2, so a\u2099 = 2\u207f \u2212 1. The formula 2n \u2212 1 fits the first two terms but gives 5 for the third.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0029",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "To prove a\u2099 = 2\u207f \u2212 1 for the recurrence a\u2099\u208a\u2081 = 2a\u2099 + 1, the inductive step assumes a\u2096 = 2\u1d4f \u2212 1 and shows:",
+   "imageRef": null,
+   "options": [
+    "a\u2096\u208a\u2081 = 2\u1d4f \u2212 1 + 1 = 2\u1d4f",
+    "a\u2096\u208a\u2081 = 2(2\u1d4f \u2212 1) = 2\u1d4f\u207a\u00b9 \u2212 2",
+    "a\u2096 = 2(2\u1d4f\u207b\u00b9 \u2212 1) + 1",
+    "a\u2096\u208a\u2081 = 2(2\u1d4f \u2212 1) + 1 = 2\u1d4f\u207a\u00b9 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute the assumption into the recurrence: a\u2096\u208a\u2081 = 2a\u2096 + 1 = 2\u1d4f\u207a\u00b9 \u2212 2 + 1 = 2\u1d4f\u207a\u00b9 \u2212 1, which is the formula with n = k + 1. The recurrence must be applied in full, including the + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0030",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "To prove n! > 2\u207f for all integers n \u2265 4 by induction, the base case checks:",
+   "imageRef": null,
+   "options": [
+    "n = 0: 1 > 1",
+    "n = 3: 6 > 8",
+    "n = 4: 24 > 16",
+    "n = 1: 1 > 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The base case is the first value claimed, n = 4, where 4! = 24 > 2\u2074 = 16. The statement is false for n = 1, 2 and 3, which is why it starts at 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0031",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "To prove 3\u207f > 2n + 1 for integers n \u2265 2 by induction, a student writes 3\u1d4f\u207a\u00b9 = 3 \u00d7 3\u1d4f > 3(2k + 1). What remains to be shown?",
+   "imageRef": null,
+   "options": [
+    "3\u1d4f\u207a\u00b9 = 2(k + 1) + 1 for k \u2265 2",
+    "3(2k + 1) > 3\u1d4f for k \u2265 2",
+    "6k + 3 \u2265 2(k + 1) + 1 for k \u2265 2",
+    "6k + 3 \u2264 2(k + 1) + 1 for k \u2265 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "We have 3\u1d4f\u207a\u00b9 > 6k + 3, so it is enough that 6k + 3 \u2265 2k + 3, which holds since 4k > 0. Chaining the two gives 3\u1d4f\u207a\u00b9 > 2(k + 1) + 1. Showing 6k + 3 \u2264 2k + 3 would point the wrong way.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0032",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "In the inductive step of proving 1 + 1/2\u00b2 + 1/3\u00b2 + ... + 1/n\u00b2 \u2264 2 \u2212 1/n, after assuming the result for n = k, it is enough to show:",
+   "imageRef": null,
+   "options": [
+    "1/(k + 1)\u00b2 \u2264 1/k \u2212 1/(k + 1)",
+    "1/(k + 1)\u00b2 \u2265 1/k \u2212 1/(k + 1)",
+    "1/k\u00b2 \u2264 1/k \u2212 1/(k + 1)",
+    "1/(k + 1)\u00b2 \u2264 1/(k + 1) \u2212 1/k"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adding 1/(k + 1)\u00b2 to both sides of the assumption, we need 2 \u2212 1/k + 1/(k + 1)\u00b2 \u2264 2 \u2212 1/(k + 1), which rearranges to 1/(k + 1)\u00b2 \u2264 1/k \u2212 1/(k + 1) = 1/(k(k + 1)). This is true because (k + 1)\u00b2 > k(k + 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0033",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Which formula for the nth derivative of xe\u02e3 can be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "nxe\u02e3",
+    "(x \u2212 n)e\u02e3",
+    "(x + 1)\u207fe\u02e3",
+    "(x + n)e\u02e3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The first derivative is (x + 1)e\u02e3. If the kth derivative is (x + k)e\u02e3, differentiating gives e\u02e3 + (x + k)e\u02e3 = (x + k + 1)e\u02e3, completing the inductive step.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0034",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "Which formula for the nth derivative of ln x, x > 0, can be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "(\u22121)^(n \u2212 1)(n \u2212 1)!/x^(n \u2212 1)",
+    "(\u22121)^(n \u2212 1)(n \u2212 1)!/x\u207f",
+    "(\u22121)\u207f n!/x\u207f",
+    "(n \u2212 1)!/x\u207f"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivatives are 1/x, \u22121/x\u00b2, 2/x\u00b3, \u22126/x\u2074, ..., which match (\u22121)^(n \u2212 1)(n \u2212 1)!/x\u207f. Differentiating this gives (\u22121)\u207f n!/x^(n + 1), the formula for n + 1. The signs alternate, starting positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0035",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "For sin x \u2260 0, which identity for cos x \u00d7 cos 2x \u00d7 cos 4x \u00d7 ... \u00d7 cos(2^(n \u2212 1)x) can be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "sin(2\u207fx)/(2 sin x)",
+    "sin(nx)/(n sin x)",
+    "cos(2\u207fx)/(2\u207f cos x)",
+    "sin(2\u207fx)/(2\u207f sin x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "For n = 1, sin 2x/(2sin x) = cos x. In the inductive step, multiplying by cos(2\u1d4fx) and using 2sin(2\u1d4fx)cos(2\u1d4fx) = sin(2\u1d4f\u207a\u00b9x) doubles both the angle and the denominator, so the denominator grows as 2\u207f.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0036",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "When proving the binomial theorem by induction, which identity combines the terms in the inductive step?",
+   "imageRef": null,
+   "options": [
+    "C(k, r \u2212 1) + C(k, r) = C(k + 1, r)",
+    "C(k, r) = C(k, k \u2212 r)",
+    "C(k, 0) = C(k, k) = 1",
+    "C(k + 1, r) = (k + 1)C(k, r)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying the expansion of (x + y)\u1d4f by (x + y) produces two terms with each power, with coefficients C(k, r \u2212 1) and C(k, r). Pascal's identity adds these to C(k + 1, r).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0037",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "In proving by induction that a convex polygon with n sides has interior angle sum (n \u2212 2) \u00d7 180\u00b0, the inductive step cuts a convex (k + 1)-gon into:",
+   "imageRef": null,
+   "options": [
+    "a convex k-gon and a triangle",
+    "k triangles meeting at one vertex",
+    "a convex k-gon and a quadrilateral",
+    "two convex polygons of k sides each"
+   ],
+   "correctIndex": 0,
+   "explanation": "A diagonal joining two vertices that are two apart cuts off one triangle and leaves a convex k-gon. Their angle sums add: (k \u2212 2) \u00d7 180\u00b0 + 180\u00b0 = (k \u2212 1) \u00d7 180\u00b0, the formula for k + 1 sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inequalities-induction-0038",
+   "topicId": "spec-hsc-inequalities-induction",
+   "stem": "A convex k-gon has k(k \u2212 3)/2 diagonals. Adding one vertex to make a convex (k + 1)-gon increases the number of diagonals by:",
+   "imageRef": null,
+   "options": [
+    "k \u2212 1",
+    "k",
+    "k \u2212 2",
+    "k \u2212 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "(k + 1)(k \u2212 2)/2 \u2212 k(k \u2212 3)/2 = (2k \u2212 2)/2 = k \u2212 1. The new vertex joins k \u2212 2 non-adjacent vertices, and the old side between its two neighbours becomes a diagonal, giving k \u2212 1 in total.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inequalities-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

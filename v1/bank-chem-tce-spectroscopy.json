@@ -1,0 +1,670 @@
+{
+ "topicId": "chem-tce-spectroscopy",
+ "questions": [
+  {
+   "id": "chem-tce-spectroscopy-0001",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "What does the x-axis of a mass spectrum, labelled m/z, show?",
+   "imageRef": null,
+   "options": [
+    "The time each molecule takes to reach the detector",
+    "The mass-to-charge ratio of each detected ion",
+    "The number of ions with each mass detected",
+    "The wavenumber of radiation absorbed by the ion"
+   ],
+   "correctIndex": 1,
+   "explanation": "m/z is the mass of an ion divided by its charge. Most ions formed carry a 1+ charge, so m/z is usually just the ion's mass. The number of ions of each kind is shown on the y-axis as relative abundance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0002",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "In the mass spectrum of an organic compound, what information does the molecular ion peak give?",
+   "imageRef": null,
+   "options": [
+    "The most stable fragment of the compound",
+    "The relative molecular mass of the compound",
+    "The number of carbon atoms in the compound",
+    "The functional groups present in the compound"
+   ],
+   "correctIndex": 1,
+   "explanation": "The molecular ion, M\u207a, is the whole molecule with one electron removed, so its m/z equals the relative molecular mass. Functional groups are identified more directly from an infra-red spectrum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0003",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A mass spectrum is described as having its base peak at m/z 43. What is meant by the base peak?",
+   "imageRef": null,
+   "options": [
+    "The peak used to calibrate the m/z scale at zero",
+    "The tallest peak, given a relative abundance of 100%",
+    "The peak with the highest m/z, from the molecular ion",
+    "The peak with the lowest m/z, from the smallest fragment"
+   ],
+   "correctIndex": 1,
+   "explanation": "The base peak comes from the most abundant ion, and every other peak is measured relative to it. It is often a stable fragment rather than the molecular ion, so the tallest peak does not necessarily give the relative molecular mass.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0004",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An organic compound gives a molecular ion peak at m/z 46. Which compound could it be?",
+   "imageRef": null,
+   "options": [
+    "Ethanoic acid, CH\u2083COOH",
+    "Propane, C\u2083H\u2088",
+    "Ethanol, C\u2082H\u2085OH",
+    "Methanol, CH\u2083OH"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ethanol has Mr = 2(12.0) + 6(1.0) + 16.0 = 46. Methanol is 32, ethanoic acid is 60 and propane is 44, so their molecular ions would appear at those m/z values instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0005",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A fragment peak at m/z 15 appears in the mass spectra of many organic compounds. Which ion is most likely responsible?",
+   "imageRef": null,
+   "options": [
+    "C\u2082H\u2085\u207a",
+    "CHO\u207a",
+    "CH\u2083\u207a",
+    "OH\u207a"
+   ],
+   "correctIndex": 2,
+   "explanation": "A methyl ion has mass 12 + 3(1) = 15. OH\u207a would be at 17, and C\u2082H\u2085\u207a and CHO\u207a both appear at 29.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0006",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A compound has its molecular ion at m/z 74 and a strong fragment peak at m/z 59. Which neutral fragment was lost to form that peak?",
+   "imageRef": null,
+   "options": [
+    "CH\u2083",
+    "OH",
+    "C\u2082H\u2085",
+    "H\u2082O"
+   ],
+   "correctIndex": 0,
+   "explanation": "The difference is 74 \u2212 59 = 15, the mass of a methyl group. Losing OH would leave m/z 57, H\u2082O would leave 56, and C\u2082H\u2085 would leave 45.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0007",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "When a molecular ion breaks into two pieces, only one of the pieces appears in the mass spectrum. Why?",
+   "imageRef": null,
+   "options": [
+    "Only the positively charged piece is detected; the neutral piece is not",
+    "The lighter piece always moves too fast for the detector to record",
+    "The heavier piece always recombines with an electron before detection",
+    "Both pieces are detected, but they always appear at the same m/z value"
+   ],
+   "correctIndex": 0,
+   "explanation": "When M\u207a fragments, one piece keeps the positive charge and the other is a neutral radical or molecule. Only ions are separated and detected, so the neutral piece is invisible, though its mass can be worked out from the gap between peaks.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0008",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Butanone, CH\u2083COCH\u2082CH\u2083 (Mr 72), has a strong peak at m/z 43. Which ion gives this peak?",
+   "imageRef": null,
+   "options": [
+    "C\u2082H\u2085CO\u207a",
+    "CH\u2083CO\u207a",
+    "C\u2082H\u2085\u207a",
+    "CH\u2083\u207a"
+   ],
+   "correctIndex": 1,
+   "explanation": "Breaking the bond between the carbonyl carbon and the ethyl group gives CH\u2083CO\u207a, with mass 12 + 3 + 12 + 16 = 43. C\u2082H\u2085\u207a is 29, CH\u2083\u207a is 15 and C\u2082H\u2085CO\u207a is 57; all are possible fragments of butanone, but at other m/z values.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0009",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "In the mass spectrum of butane, CH\u2083CH\u2082CH\u2082CH\u2083 (Mr 58), which species gives the peak at m/z 43?",
+   "imageRef": null,
+   "options": [
+    "C\u2083H\u2087, uncharged",
+    "C\u2083H\u2087\u207a",
+    "C\u2082H\u2085\u207a",
+    "C\u2084H\u2081\u2080\u207a"
+   ],
+   "correctIndex": 1,
+   "explanation": "Losing a methyl group (15) from the molecular ion leaves C\u2083H\u2087\u207a, at 58 \u2212 15 = 43. A species is only detected if it is charged, so the uncharged C\u2083H\u2087 could not give a peak. C\u2084H\u2081\u2080\u207a is the molecular ion at 58.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0010",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An alcohol with formula C\u2083H\u2088O has its base peak at m/z 31, which is due to CH\u2082OH\u207a. Which alcohol is it, and why?",
+   "imageRef": null,
+   "options": [
+    "Propan-1-ol, because its -OH is on an end carbon joined to CH\u2082",
+    "Propan-2-ol, because its -OH is on the middle carbon of the chain",
+    "Propan-2-ol, because it has two methyl groups to lose as fragments",
+    "Propan-1-ol, because it has a larger relative molecular mass"
+   ],
+   "correctIndex": 0,
+   "explanation": "In propan-1-ol, CH\u2083CH\u2082CH\u2082OH, breaking the C-C bond next to the -CH\u2082OH group releases CH\u2082OH\u207a at 12 + 2 + 16 + 1 = 31. Propan-2-ol has its -OH on a CH carbon, so its corresponding fragment is CH\u2083CHOH\u207a at 45. The two isomers have the same Mr of 60.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0011",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Butane and 2-methylpropane both give molecular ion peaks at m/z 58. How can mass spectrometry still tell them apart?",
+   "imageRef": null,
+   "options": [
+    "Their different structures give different fragmentation patterns",
+    "2-methylpropane gives its molecular ion at a higher m/z value",
+    "Only butane forms a molecular ion that reaches the detector",
+    "Only 2-methylpropane contains C-H bonds that can be broken"
+   ],
+   "correctIndex": 0,
+   "explanation": "Isomers have the same relative molecular mass, so their molecular ions coincide. But they break apart in different ways because their atoms are arranged differently, giving different sets and heights of fragment peaks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0012",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A compound's mass spectrum has two molecular ion peaks, at m/z 64 and 66, with heights in the ratio 3:1. What does this suggest about the compound?",
+   "imageRef": null,
+   "options": [
+    "It contains one chlorine atom",
+    "It contains one bromine atom",
+    "It contains two chlorine atoms",
+    "It is a mixture of two different compounds"
+   ],
+   "correctIndex": 0,
+   "explanation": "Chlorine is about 75% chlorine-35 and 25% chlorine-37, so a molecule with one Cl gives M and M+2 peaks in a 3:1 ratio; chloroethane, C\u2082H\u2085Cl, fits m/z 64 and 66. Bromine-79 and bromine-81 are about equally abundant, giving a 1:1 pair, and two chlorines give three peaks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0013",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A sample of an element is analysed by mass spectroscopy. What does the spectrum show?",
+   "imageRef": null,
+   "options": [
+    "The masses of its isotopes and their relative abundances",
+    "The number of electrons in each of its energy levels",
+    "The wavelengths of light the element absorbs",
+    "The arrangement of its atoms in a solid crystal"
+   ],
+   "correctIndex": 0,
+   "explanation": "The element is ionised and its ions are separated by mass, so each isotope gives a peak at its own m/z with a height proportional to its abundance. From these the relative atomic mass can be calculated.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0014",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "The mass spectrum of element X shows two peaks: m/z 69 with 60.0% abundance and m/z 71 with 40.0%. What is the relative atomic mass of X?",
+   "imageRef": null,
+   "options": [
+    "70.0",
+    "70.2",
+    "69.4",
+    "69.8"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ar = (69 \u00d7 60.0 + 71 \u00d7 40.0)/100 = 69.8. A simple average gives 70.0, which ignores abundance, and 70.2 comes from swapping the two abundances.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0015",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Boron has two isotopes, boron-10 and boron-11, and a relative atomic mass of 10.8. What is the percentage abundance of boron-11?",
+   "imageRef": null,
+   "options": [
+    "92%",
+    "80%",
+    "20%",
+    "50%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Let x be the fraction of boron-11: 11x + 10(1 \u2212 x) = 10.8, so x = 0.80, or 80%. 20% is the abundance of boron-10. A 50% mixture would give 10.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0016",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "What information does an infra-red spectrum mainly give about an organic molecule?",
+   "imageRef": null,
+   "options": [
+    "The isotopes of carbon it contains",
+    "The types of bonds and functional groups present",
+    "The relative molecular mass of the molecule",
+    "The positions of its atoms in a crystal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each type of bond absorbs infra-red radiation in a characteristic range of wavenumbers, so absorption bands reveal bonds such as O-H and C=O. The relative molecular mass comes from a mass spectrum, and atom positions from X-ray crystallography.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0017",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Why do different covalent bonds absorb infra-red radiation at different wavenumbers?",
+   "imageRef": null,
+   "options": [
+    "Each bond loses an electron at its own energy, forming a different ion",
+    "Each bond breaks at its own energy, forming different fragments",
+    "Each bond diffracts the radiation through its own characteristic angle",
+    "Each bond vibrates at its own natural frequency, set by its strength and atoms"
+   ],
+   "correctIndex": 3,
+   "explanation": "A bond absorbs infra-red radiation whose frequency matches one of its vibrations (stretching or bending). Stronger bonds and lighter atoms vibrate faster, so O-H, C=O and C-H absorb in different regions. Infra-red radiation does not ionise or break bonds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0018",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An infra-red spectrum has a strong, broad absorption band centred near 3300 cm\u207b\u00b9. Which bond does this most likely indicate?",
+   "imageRef": null,
+   "options": [
+    "O-H in an alcohol",
+    "C=O in a ketone",
+    "C-Cl in an alkyl halide",
+    "C=C in an alkene"
+   ],
+   "correctIndex": 0,
+   "explanation": "Hydrogen-bonded O-H groups in alcohols absorb strongly across roughly 3200-3600 cm\u207b\u00b9, giving a broad band. C=O absorbs near 1700 cm\u207b\u00b9, C=C near 1650 cm\u207b\u00b9 and C-Cl at much lower wavenumbers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0019",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Which compound would show a strong infra-red absorption near 1715 cm\u207b\u00b9 but no broad absorption above 2500 cm\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "Propane",
+    "Propanone",
+    "Propan-2-ol",
+    "Propanoic acid"
+   ],
+   "correctIndex": 1,
+   "explanation": "The band near 1715 cm\u207b\u00b9 shows a C=O group, and the missing broad band rules out O-H. Propanone has C=O but no O-H. Propanoic acid has both, propan-2-ol has O-H but no C=O, and propane has neither.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0020",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Which infra-red evidence would distinguish a sample of ethanoic acid from a sample of ethanol?",
+   "imageRef": null,
+   "options": [
+    "Only ethanoic acid absorbs strongly near 1700 cm\u207b\u00b9, from its C=O bond",
+    "Only ethanol absorbs near 3000 cm\u207b\u00b9, from its C-H bonds",
+    "Only ethanoic acid absorbs below 1500 cm\u207b\u00b9, in the fingerprint region",
+    "Only ethanol shows a broad absorption from an O-H bond"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both compounds contain O-H and C-H bonds, so both show broad O-H and C-H absorptions, but only the acid has a C=O group. Both also have absorptions below 1500 cm\u207b\u00b9, though the patterns differ.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0021",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Propan-1-ol is oxidised and the product distilled off. The product's infra-red spectrum shows a strong band near 1730 cm\u207b\u00b9 and no broad band anywhere between 2500 and 3600 cm\u207b\u00b9. What is the product?",
+   "imageRef": null,
+   "options": [
+    "Propanal",
+    "Propanoic acid",
+    "Unreacted propan-1-ol",
+    "Propene"
+   ],
+   "correctIndex": 0,
+   "explanation": "The C=O band shows a carbonyl compound, and the lack of any broad O-H band rules out both the acid and the starting alcohol. Oxidising a primary alcohol with the product distilled off gives the aldehyde. Propene has a C=C, not a C=O.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0022",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "1-bromobutane is heated with aqueous sodium hydroxide. Which change in the infra-red spectrum would show that butan-1-ol had formed?",
+   "imageRef": null,
+   "options": [
+    "All absorptions near 3000 cm\u207b\u00b9 from C-H bonds disappear",
+    "A C=C absorption appears near 1650 cm\u207b\u00b9",
+    "A broad O-H absorption appears near 3300 cm\u207b\u00b9",
+    "A strong C=O absorption appears near 1700 cm\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitution replaces the bromine with an -OH group, so the product shows the broad O-H band that the alkyl halide lacked. The C-H bonds remain, and no C=O or C=C forms in this reaction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0023",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Infra-red spectroscopy is used to tell cyclohexane from cyclohexene. Which feature is present only in the spectrum of cyclohexene?",
+   "imageRef": null,
+   "options": [
+    "An absorption near 3300 cm\u207b\u00b9 from an O-H bond",
+    "An absorption near 1715 cm\u207b\u00b9 from a C=O bond",
+    "An absorption near 2900 cm\u207b\u00b9 from its C-H bonds",
+    "An absorption near 1650 cm\u207b\u00b9 from its C=C bond"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cyclohexene has a carbon-carbon double bond, which absorbs near 1650 cm\u207b\u00b9; cyclohexane has only single bonds. Both are hydrocarbons, so both show C-H absorptions near 2900-3000 cm\u207b\u00b9 and neither has O-H or C=O.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0024",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "What is the main use of the fingerprint region, below about 1500 cm\u207b\u00b9, of an infra-red spectrum?",
+   "imageRef": null,
+   "options": [
+    "Counting the carbon atoms in the longest chain",
+    "Identifying the isotopes of each element present",
+    "Matching it to a reference spectrum to confirm a particular compound",
+    "Reading off the relative molecular mass of the compound"
+   ],
+   "correctIndex": 2,
+   "explanation": "The fingerprint region contains many overlapping absorptions that form a pattern unique to each compound, so it is compared with a database of known spectra. It is hard to assign individual bands there, and it gives no molecular mass.",
+   "difficulty": 2,
+   "tier": "extension",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0025",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "What does X-ray crystallography reveal about a molecule?",
+   "imageRef": null,
+   "options": [
+    "The isotopic composition of each element in the molecule",
+    "The three-dimensional arrangement of its atoms, with bond lengths and angles",
+    "The relative molecular mass of the molecule and its fragments",
+    "The functional groups present, from the radiation they absorb"
+   ],
+   "correctIndex": 1,
+   "explanation": "X-rays diffracted by a crystal produce a pattern from which the positions of atoms can be worked out, giving the molecule's shape, bond lengths and bond angles. Mass comes from mass spectroscopy and functional groups from infra-red spectroscopy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0026",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Why must a sample be crystalline for X-ray crystallography?",
+   "imageRef": null,
+   "options": [
+    "Only crystals absorb X-rays strongly enough to produce a colour",
+    "Molecules break into fragments unless held firmly in a crystal",
+    "A regular repeating arrangement diffracts X-rays into an interpretable pattern",
+    "X-rays cannot pass through liquids, gases or amorphous solids"
+   ],
+   "correctIndex": 2,
+   "explanation": "Diffraction from millions of identically arranged molecules adds together into a clear pattern of spots. Randomly arranged molecules scatter X-rays in all directions without producing a pattern that can be interpreted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0027",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Analysis of an X-ray diffraction pattern produces a map from which the positions of atoms are found. What does this map show?",
+   "imageRef": null,
+   "options": [
+    "Electron density throughout the crystal",
+    "The fragmentation pattern of the molecule",
+    "Infra-red absorption at each wavenumber",
+    "The distribution of isotopes in the sample"
+   ],
+   "correctIndex": 0,
+   "explanation": "X-rays are scattered by electrons, so the diffraction pattern is converted into an electron density map. Atoms appear where electron density is concentrated, and the map is used to build a model of the molecule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0028",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "In X-ray crystallography, which atoms in an organic molecule are hardest to locate accurately?",
+   "imageRef": null,
+   "options": [
+    "Chlorine atoms",
+    "Hydrogen atoms",
+    "Carbon atoms",
+    "Oxygen atoms"
+   ],
+   "correctIndex": 1,
+   "explanation": "X-rays are scattered by electrons, and a hydrogen atom has only one, so it shows up very weakly in the electron density map. Atoms with more electrons, such as chlorine, scatter more strongly and are easiest to locate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0029",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Which evidence about the structure of benzene comes from X-ray crystallography?",
+   "imageRef": null,
+   "options": [
+    "The relative molecular mass of benzene is 78",
+    "Benzene absorbs infra-red radiation near 3030 cm\u207b\u00b9",
+    "Benzene burns with a smoky, sooty flame in air",
+    "All six carbon-carbon bonds in the ring are the same length"
+   ],
+   "correctIndex": 3,
+   "explanation": "X-ray crystallography measures bond lengths directly and shows a flat ring with all carbon-carbon bonds equal, between single and double bond lengths. The relative molecular mass comes from mass spectroscopy, and infra-red absorptions identify bonds, not lengths.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0030",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "X-ray diffraction images of DNA fibres provided key evidence for which feature of DNA?",
+   "imageRef": null,
+   "options": [
+    "Its role in heredity",
+    "Its helical shape",
+    "Its sequence of bases",
+    "Its relative molecular mass"
+   ],
+   "correctIndex": 1,
+   "explanation": "X-ray diffraction patterns of DNA showed the regular repeating spacing of a helix, which helped establish the double helix model. The base sequence and DNA's role in heredity were found by other methods.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0031",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "A chemist has made a new crystalline drug and needs to know the bond angles and three-dimensional shape of its molecule. Which technique is most suitable?",
+   "imageRef": null,
+   "options": [
+    "Acid-base titration",
+    "X-ray crystallography",
+    "Mass spectroscopy",
+    "Infra-red spectroscopy"
+   ],
+   "correctIndex": 1,
+   "explanation": "Only X-ray crystallography locates atoms in space, giving bond lengths, bond angles and overall shape. Mass spectroscopy gives the relative molecular mass and fragments, and infra-red spectroscopy identifies functional groups but not their arrangement in three dimensions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0032",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "Why is the structure of an unknown organic compound usually worked out from more than one technique?",
+   "imageRef": null,
+   "options": [
+    "Different techniques must agree before the compound is safe to handle",
+    "Each technique gives different information, and none gives the whole structure alone",
+    "Each technique must be repeated with another to calibrate its instrument",
+    "Using one technique alone always destroys the sample before it is measured"
+   ],
+   "correctIndex": 1,
+   "explanation": "A mass spectrum gives the relative molecular mass and fragments, an infra-red spectrum the functional groups, and X-ray crystallography the arrangement of atoms. Putting the evidence together narrows the possibilities to one structure.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0033",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An unknown compound has a molecular ion at m/z 60. Its infra-red spectrum shows a very broad band from 2500 to 3300 cm\u207b\u00b9 and a strong band near 1710 cm\u207b\u00b9. What is the compound?",
+   "imageRef": null,
+   "options": [
+    "Methyl methanoate, HCOOCH\u2083",
+    "Propanal, CH\u2083CH\u2082CHO",
+    "Ethanoic acid, CH\u2083COOH",
+    "Propan-1-ol, CH\u2083CH\u2082CH\u2082OH"
+   ],
+   "correctIndex": 2,
+   "explanation": "The very broad band shows a carboxylic acid O-H and the 1710 cm\u207b\u00b9 band a C=O, and ethanoic acid has Mr 60. Propan-1-ol (60) has no C=O, methyl methanoate (60) has no O-H, and propanal has Mr 58.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0034",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An unknown compound has a molecular ion at m/z 58 and a base peak at m/z 43. Its infra-red spectrum has a strong band near 1715 cm\u207b\u00b9 and no broad band above 3000 cm\u207b\u00b9. What is the compound?",
+   "imageRef": null,
+   "options": [
+    "Propanone, CH\u2083COCH\u2083",
+    "Propan-2-ol, CH\u2083CH(OH)CH\u2083",
+    "Butane, C\u2084H\u2081\u2080",
+    "Ethanoic acid, CH\u2083COOH"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mr 58 with a C=O band and no O-H fits propanone, whose loss of a methyl group gives CH\u2083CO\u207a at 43. Butane also has Mr 58 but no C=O, and propan-2-ol and ethanoic acid have Mr 60 and contain O-H.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "chem-tce-spectroscopy-0035",
+   "topicId": "chem-tce-spectroscopy",
+   "stem": "An unknown compound has a molecular ion at m/z 74. Its infra-red spectrum shows a strong band near 1740 cm\u207b\u00b9 and no broad band between 2500 and 3600 cm\u207b\u00b9, and it has a fruity smell. Which class of compound is it most likely to be?",
+   "imageRef": null,
+   "options": [
+    "A carboxylic acid",
+    "An alcohol",
+    "An alkane",
+    "An ester"
+   ],
+   "correctIndex": 3,
+   "explanation": "A C=O band with no O-H band and a fruity smell points to an ester, such as methyl ethanoate (Mr 74). A carboxylic acid such as propanoic acid (also 74) would show a very broad O-H band, an alcohol has no C=O, and an alkane has neither.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-chem-tce-spectroscopy-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

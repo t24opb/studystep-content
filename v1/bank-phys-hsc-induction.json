@@ -1,0 +1,708 @@
+{
+ "topicId": "phys-hsc-induction",
+ "questions": [
+  {
+   "id": "phys-hsc-induction-0001",
+   "topicId": "phys-hsc-induction",
+   "stem": "Magnetic flux through a loop is best described as:",
+   "imageRef": null,
+   "options": [
+    "the current induced in the loop by a nearby magnet",
+    "the total magnetic field passing through the area of the loop",
+    "the strength of the magnetic field at the centre of the loop",
+    "the rate at which the magnetic field through the loop is changing"
+   ],
+   "correctIndex": 1,
+   "explanation": "Flux, \u03a6 = BA cos \u03b8, measures how much magnetic field passes through an area, so it depends on the field strength, the area and the loop's orientation. Field strength alone, B, is measured in tesla, while flux is measured in webers. The rate of change of flux is what induces an emf.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0002",
+   "topicId": "phys-hsc-induction",
+   "stem": "A loop of area 0.050 m\u00b2 sits in a uniform 0.20 T field, with the field parallel to the loop's normal (area vector). What is the flux through it?",
+   "imageRef": null,
+   "options": [
+    "0.25 Wb",
+    "4.0 Wb",
+    "0 Wb",
+    "0.010 Wb"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03a6 = BA cos \u03b8 = 0.20 \u00d7 0.050 \u00d7 cos 0\u00b0 = 0.010 Wb. With the field along the normal, the field passes straight through the loop and the flux is greatest. Zero flux would be the case if the field were parallel to the plane of the loop.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0003",
+   "topicId": "phys-hsc-induction",
+   "stem": "The same loop (0.050 m\u00b2 in a 0.20 T field) is turned so that its normal is at 60\u00b0 to the field. What is the flux through it now?",
+   "imageRef": null,
+   "options": [
+    "0.020 Wb",
+    "0.0050 Wb",
+    "0.0087 Wb",
+    "0.010 Wb"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03a6 = BA cos \u03b8, where \u03b8 is the angle between the field and the normal: 0.20 \u00d7 0.050 \u00d7 cos 60\u00b0 = 0.0050 Wb. Using sin 60\u00b0 gives 0.0087 Wb, which would be right only if 60\u00b0 were the angle between the field and the plane of the loop.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0004",
+   "topicId": "phys-hsc-induction",
+   "stem": "A flat coil lies in a uniform magnetic field. In which orientation is the magnetic flux through it zero?",
+   "imageRef": null,
+   "options": [
+    "When the coil's normal is parallel to the field lines",
+    "When the coil's normal is at 45\u00b0 to the field lines",
+    "When the plane of the coil is parallel to the field lines",
+    "When the plane of the coil is perpendicular to the field lines"
+   ],
+   "correctIndex": 2,
+   "explanation": "If the field lines run along the plane of the coil, none pass through it, so \u03a6 = BA cos 90\u00b0 = 0. When the plane is perpendicular to the field, the normal is parallel to it and the flux is greatest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0005",
+   "topicId": "phys-hsc-induction",
+   "stem": "According to Faraday's law of electromagnetic induction, the emf induced in a coil is proportional to:",
+   "imageRef": null,
+   "options": [
+    "the rate of change of current multiplied by the coil's area",
+    "the number of turns multiplied by the rate of change of magnetic flux",
+    "the number of turns multiplied by the magnetic flux through the coil",
+    "the magnetic field strength multiplied by the coil's resistance"
+   ],
+   "correctIndex": 1,
+   "explanation": "|\u03b5| = N|\u0394\u03a6/\u0394t|: an emf is induced only when the flux through the coil changes, and it is larger for more turns and faster changes. A large but steady flux induces no emf at all.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0006",
+   "topicId": "phys-hsc-induction",
+   "stem": "A coil of 200 turns has a flux of 0.030 Wb through it. The flux falls steadily to zero in 0.10 s. What is the size of the induced emf?",
+   "imageRef": null,
+   "options": [
+    "60 V",
+    "0.30 V",
+    "6.0 V",
+    "0.60 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "|\u03b5| = N|\u0394\u03a6/\u0394t| = 200 \u00d7 0.030/0.10 = 60 V. Leaving out the number of turns gives 0.30 V, and multiplying by the time instead of dividing gives 0.60 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0007",
+   "topicId": "phys-hsc-induction",
+   "stem": "A square coil of 100 turns, 0.10 m on each side, lies perpendicular to a magnetic field that rises steadily from 0 to 0.50 T in 0.25 s. What is the induced emf?",
+   "imageRef": null,
+   "options": [
+    "2.0 V",
+    "20 V",
+    "0.020 V",
+    "200 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is 0.10\u00b2 = 0.010 m\u00b2, so \u0394\u03a6 = 0.50 \u00d7 0.010 = 0.0050 Wb. Then |\u03b5| = 100 \u00d7 0.0050/0.25 = 2.0 V. Using the side length 0.10 m as the area gives 20 V, and leaving out the turns gives 0.020 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0008",
+   "topicId": "phys-hsc-induction",
+   "stem": "A magnet is held at rest inside a coil connected to a galvanometer. What does the galvanometer show?",
+   "imageRef": null,
+   "options": [
+    "A current that grows larger the longer the magnet is left there",
+    "An alternating current, because the magnet's field has two poles",
+    "No current, because the flux through the coil is not changing",
+    "A steady current, because there is flux through the coil"
+   ],
+   "correctIndex": 2,
+   "explanation": "An emf is induced only when the flux through the coil changes. A stationary magnet gives a constant flux, so \u0394\u03a6/\u0394t = 0 and no current flows. Moving the magnet in or out would make the needle move.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0009",
+   "topicId": "phys-hsc-induction",
+   "stem": "Which change would increase the emf induced in a coil when a magnet is pushed into it?",
+   "imageRef": null,
+   "options": [
+    "Pushing the magnet in faster",
+    "Using a coil with fewer turns",
+    "Using a weaker magnet",
+    "Pushing it in more slowly"
+   ],
+   "correctIndex": 0,
+   "explanation": "|\u03b5| = N|\u0394\u03a6/\u0394t|. Pushing faster makes the same flux change in less time, increasing the emf. More turns or a stronger magnet would also increase it, so fewer turns and a weaker magnet would reduce it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0010",
+   "topicId": "phys-hsc-induction",
+   "stem": "The north pole of a magnet is pushed towards one end of a coil. What is the direction of the induced current, according to Lenz's law?",
+   "imageRef": null,
+   "options": [
+    "It makes that end of the coil a north pole, which repels the approaching magnet",
+    "It makes that end of the coil a south pole, which attracts the approaching magnet",
+    "It flows only once the magnet has stopped moving inside the coil",
+    "It makes that end of the coil a north pole, which pulls the magnet in faster"
+   ],
+   "correctIndex": 0,
+   "explanation": "Lenz's law says the induced current opposes the change that causes it. The flux into the coil is increasing, so the current sets up a north pole facing the magnet, repelling it. If it attracted the magnet, the magnet would speed up and gain energy from nowhere.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0011",
+   "topicId": "phys-hsc-induction",
+   "stem": "Why must the induced current always oppose the change in flux that produces it?",
+   "imageRef": null,
+   "options": [
+    "The electrons in the coil are negative, so they always move against the external field",
+    "If it helped the change, energy would be created from nothing, breaking conservation of energy",
+    "If it helped the change, the coil's resistance would fall to zero and the current would stop",
+    "Opposing currents are needed to keep the magnetic flux through the coil at zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "Because the current opposes the motion, work must be done against a resisting force to move the magnet, and that work becomes electrical energy in the circuit. A current that aided the change would accelerate the magnet and produce more current, gaining energy without any input.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0012",
+   "topicId": "phys-hsc-induction",
+   "stem": "A metal rod 0.50 m long slides at 4.0 m s\u207b\u00b9 along rails at right angles to a uniform 0.30 T field, forming a circuit. Using Faraday's law, what emf is induced across the rod?",
+   "imageRef": null,
+   "options": [
+    "6.7 V",
+    "1.2 V",
+    "0.15 V",
+    "0.60 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each second the rod sweeps out an area of 0.50 \u00d7 4.0 = 2.0 m\u00b2, so \u0394\u03a6/\u0394t = BLv = 0.30 \u00d7 2.0 = 0.60 Wb s\u207b\u00b9, giving an emf of 0.60 V. The value 0.15 V leaves out the speed, 1.2 V leaves out the rod's length, and 6.7 V divides by the field instead of multiplying.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0013",
+   "topicId": "phys-hsc-induction",
+   "stem": "Eddy currents are:",
+   "imageRef": null,
+   "options": [
+    "circulating currents induced in a conductor by a changing magnetic flux",
+    "currents that flow only in superconductors cooled to very low temperatures",
+    "currents in the coil of a motor that reverse their direction every half turn",
+    "currents produced in an insulating material when it is placed in a magnet"
+   ],
+   "correctIndex": 0,
+   "explanation": "When the flux through a solid conductor such as a metal plate changes, emfs are induced around loops inside the metal and currents swirl in closed paths. By Lenz's law these eddy currents oppose the change, which heats the metal and can produce a braking force. Insulators have no free charges to carry them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0014",
+   "topicId": "phys-hsc-induction",
+   "stem": "A strong magnet is dropped down a vertical copper pipe and falls much more slowly than through a plastic pipe. Why?",
+   "imageRef": null,
+   "options": [
+    "Eddy currents induced in the copper make a magnetic field that opposes the motion",
+    "The magnet is attracted to the copper, which is magnetic and pulls it towards the walls",
+    "Air trapped in the copper pipe slows the magnet, but escapes freely from the plastic pipe",
+    "The copper pipe insulates the magnet from Earth's gravity, reducing its weight"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the magnet falls, the flux through each ring of copper changes and eddy currents are induced. By Lenz's law they produce fields that oppose the motion, giving an upward force. Copper is not attracted to magnets, and the plastic has no free charges, so no currents form there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0015",
+   "topicId": "phys-hsc-induction",
+   "stem": "A swinging copper plate between the poles of a magnet stops quickly, but a plate with slots cut in it keeps swinging much longer. Why?",
+   "imageRef": null,
+   "options": [
+    "The slots let air through, which removes the air resistance on the plate",
+    "The slots break up the eddy current paths, so the opposing force is much smaller",
+    "The slots let the magnetic field pass straight through, so no flux reaches the plate",
+    "The slots make the plate lighter, so it has less momentum to lose as it swings"
+   ],
+   "correctIndex": 1,
+   "explanation": "Eddy currents need large closed loops in the metal. Slots interrupt these loops, so the currents and the braking force they produce are much smaller. The same idea is used when transformer cores are laminated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0016",
+   "topicId": "phys-hsc-induction",
+   "stem": "How does the structure of a step-up transformer relate to its function?",
+   "imageRef": null,
+   "options": [
+    "The secondary coil has more turns than the primary, so the output voltage is higher",
+    "The primary coil has more turns than the secondary, so the output voltage is higher",
+    "The secondary coil has more turns than the primary, so the output current is higher",
+    "Both coils have equal turns, but the iron core increases the output voltage"
+   ],
+   "correctIndex": 0,
+   "explanation": "For an ideal transformer, Vp/Vs = Np/Ns, so a secondary with more turns gives a higher secondary voltage. By conservation of energy the secondary current is then lower than the primary current.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0017",
+   "topicId": "phys-hsc-induction",
+   "stem": "Why must the primary coil of a transformer be supplied with AC rather than steady DC?",
+   "imageRef": null,
+   "options": [
+    "DC flows only through the primary, so it can never pass across to the secondary",
+    "Only a changing current gives the changing flux needed to induce an emf in the secondary",
+    "A steady DC current would overheat the primary coil and melt the insulation on it",
+    "The iron core can only be magnetised by alternating current, not by direct current"
+   ],
+   "correctIndex": 1,
+   "explanation": "The secondary is linked to the primary only by magnetic flux in the core. An alternating primary current makes the flux change continually, inducing an alternating emf in the secondary. Steady DC gives constant flux and induces no emf, apart from brief pulses when it is switched on or off.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0018",
+   "topicId": "phys-hsc-induction",
+   "stem": "A transformer steps 240 V down to 12 V. Its primary coil has 2000 turns. How many turns does the secondary coil have?",
+   "imageRef": null,
+   "options": [
+    "40 000",
+    "167",
+    "1000",
+    "100"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ns = Np \u00d7 Vs/Vp = 2000 \u00d7 12/240 = 100 turns. Inverting the ratio gives 40 000 turns, which would be for a step-up transformer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0019",
+   "topicId": "phys-hsc-induction",
+   "stem": "An ideal transformer supplies 5.0 A at 12 V from a 240 V mains supply. What current is drawn from the mains?",
+   "imageRef": null,
+   "options": [
+    "100 A",
+    "5.0 A",
+    "2.5 A",
+    "0.25 A"
+   ],
+   "correctIndex": 3,
+   "explanation": "For an ideal transformer, power in equals power out: VpIp = VsIs. The output power is 12 \u00d7 5.0 = 60 W, so Ip = 60/240 = 0.25 A. Getting 100 A applies the voltage ratio the wrong way round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0020",
+   "topicId": "phys-hsc-induction",
+   "stem": "In a step-up transformer, compared with the primary coil, the secondary coil has:",
+   "imageRef": null,
+   "options": [
+    "a higher voltage and a larger current",
+    "a lower voltage and a larger current",
+    "the same voltage and a smaller current",
+    "a higher voltage and a smaller current"
+   ],
+   "correctIndex": 3,
+   "explanation": "The voltage rises in proportion to the turns ratio, and because VpIp = VsIs for an ideal transformer, the current falls by the same ratio. A transformer cannot raise both voltage and current, because that would increase the power.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0021",
+   "topicId": "phys-hsc-induction",
+   "stem": "A real transformer takes 100 W from its supply and delivers 92 W to its load. Which pair of losses would explain the missing 8 W?",
+   "imageRef": null,
+   "options": [
+    "Energy stored in the iron core and energy lost by its magnetism wearing out",
+    "Resistive heating in the coils and eddy currents in the core",
+    "Friction in the moving core and charge stored on the coils",
+    "Too much flux linking the coils and too much current in the core"
+   ],
+   "correctIndex": 1,
+   "explanation": "Real transformers lose energy as heat in the resistance of the windings (I\u00b2R losses) and to eddy currents circulating in the iron core. Incomplete flux linkage, where some primary flux misses the secondary, also lowers the output. Laminated cores and thick copper windings reduce these losses.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0022",
+   "topicId": "phys-hsc-induction",
+   "stem": "Why is the iron core of a transformer made of thin insulated layers (laminations)?",
+   "imageRef": null,
+   "options": [
+    "To stop the magnetic flux from passing between the two coils",
+    "To make the core lighter, so it is cheaper to transport",
+    "To reduce eddy currents in the core, which waste energy as heat",
+    "To increase the resistance of the coils, which steps up the voltage"
+   ],
+   "correctIndex": 2,
+   "explanation": "A solid iron core would carry large eddy currents as the flux changes, heating it. Insulated laminations break up the eddy current paths while still letting the flux link the two coils. Blocking the flux would stop the transformer working.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0023",
+   "topicId": "phys-hsc-induction",
+   "stem": "In an AC induction motor, how is a torque produced on the rotor?",
+   "imageRef": null,
+   "options": [
+    "The stator's rotating field induces currents in the rotor bars, and these feel a force",
+    "Brushes carry current from the supply to the rotor coils through a split-ring commutator",
+    "Permanent magnets on the rotor are attracted to fixed magnets on the outside casing",
+    "The rotor bars are made of iron, so the stator's steady field pulls them round"
+   ],
+   "correctIndex": 0,
+   "explanation": "AC in the stator coils creates a magnetic field that rotates. Relative to the rotor, the flux keeps changing, inducing currents in the conducting bars of the squirrel-cage rotor, and the motor effect on these currents drags the rotor round after the field. No electrical connection to the rotor is needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0024",
+   "topicId": "phys-hsc-induction",
+   "stem": "Why does the rotor of an AC induction motor always turn slightly slower than the rotating magnetic field of the stator?",
+   "imageRef": null,
+   "options": [
+    "The laminations in the rotor slow the rotating field down so the two can never move together",
+    "At the same rate, the flux through the rotor would not change, so no current or torque would arise",
+    "The rotor has much more inertia than the field, so it always lags behind it by a fixed time",
+    "Friction in the bearings would stop the rotor if it ever matched the speed of the field"
+   ],
+   "correctIndex": 1,
+   "explanation": "Induction needs relative motion between the field and the rotor bars. A rotor turning in step with the field would see no change in flux, so no current and no torque. The rotor therefore runs a little slower than the field, and the difference grows with the load.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0025",
+   "topicId": "phys-hsc-induction",
+   "stem": "What is the main design difference between a brushless DC motor and a simple brushed DC motor?",
+   "imageRef": null,
+   "options": [
+    "Slip rings replace the split-ring commutator so the current never reverses",
+    "Permanent magnets are replaced by an iron core that turns with the coil",
+    "The coil is made of aluminium bars instead of copper windings",
+    "Electronic switching of the coils replaces the brushes and commutator"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a brushless DC motor, a controller switches the current in the stationary coils in sequence, making a magnetic field that rotates and drags the rotor round. With no brushes or commutator there is no sliding contact to wear out or spark.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0026",
+   "topicId": "phys-hsc-induction",
+   "stem": "How does electromagnetic braking slow a train whose wheels or metal discs pass through a strong magnetic field?",
+   "imageRef": null,
+   "options": [
+    "The magnetic field attracts the steel wheels to the rails, increasing the friction on them",
+    "The magnet absorbs the train's kinetic energy and stores it as magnetic potential energy",
+    "The field magnetises the wheels so they repel each other and stop turning",
+    "Eddy currents induced in the metal oppose the motion, turning kinetic energy into heat"
+   ],
+   "correctIndex": 3,
+   "explanation": "The moving metal experiences a changing flux, so eddy currents are induced. By Lenz's law the force on these currents opposes the motion, and the kinetic energy is dissipated as heat in the metal. The braking force shrinks as the train slows, so friction brakes are still needed to stop completely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0027",
+   "topicId": "phys-hsc-induction",
+   "stem": "How do a motor and a generator differ in terms of energy transformation?",
+   "imageRef": null,
+   "options": [
+    "A motor turns electrical energy into kinetic energy; a generator turns kinetic energy into electrical energy",
+    "A motor turns kinetic energy into electrical energy; a generator turns electrical energy into kinetic energy",
+    "A motor turns electrical energy into heat; a generator turns heat into kinetic energy",
+    "Both turn electrical energy into kinetic energy, but a generator works at higher voltages"
+   ],
+   "correctIndex": 0,
+   "explanation": "A motor uses the motor effect on a current in a magnetic field to produce rotation. A generator uses electromagnetic induction in a coil turned in a magnetic field to produce an emf. The two have similar structures, and many machines can act as either.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0028",
+   "topicId": "phys-hsc-induction",
+   "stem": "Why is a back emf produced in a simple DC motor while it is running?",
+   "imageRef": null,
+   "options": [
+    "The flux through the spinning coil changes, so an emf opposing the supply is induced",
+    "The commutator reverses the supply voltage every half turn, which pushes current backwards",
+    "The coil's resistance rises as it heats up, which produces a voltage opposing the supply",
+    "The brushes store charge as the coil turns, which then flows back towards the supply"
+   ],
+   "correctIndex": 0,
+   "explanation": "A spinning motor coil is also a generator: the flux through it changes, so an emf is induced. By Lenz's law this emf opposes the supply voltage that drives the current, which is why it is called a back emf. It grows as the motor speeds up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0029",
+   "topicId": "phys-hsc-induction",
+   "stem": "A DC motor runs from a 24 V supply and its coil has a resistance of 2.0 \u03a9. At full speed the back emf is 20 V. What current flows at full speed, and when the motor is just starting?",
+   "imageRef": null,
+   "options": [
+    "10 A at full speed and 12 A at the start",
+    "2.0 A at full speed and 2.0 A at the start",
+    "2.0 A at full speed and 12 A at the start",
+    "12 A at full speed and 2.0 A at the start"
+   ],
+   "correctIndex": 2,
+   "explanation": "At full speed the net voltage across the coil's resistance is 24 \u2212 20 = 4 V, so I = 4/2.0 = 2.0 A. At the start the coil is not turning, so there is no back emf and I = 24/2.0 = 12 A. That large starting current is why motors can overheat if they are stalled.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0030",
+   "topicId": "phys-hsc-induction",
+   "stem": "A DC motor is given a heavier load and slows down. What happens to its back emf and the current through it?",
+   "imageRef": null,
+   "options": [
+    "The back emf decreases, so the current decreases",
+    "Both stay the same, because the supply voltage is fixed",
+    "The back emf decreases, so the current increases",
+    "The back emf increases, so the current decreases"
+   ],
+   "correctIndex": 2,
+   "explanation": "The back emf is proportional to the rate of change of flux, so it falls when the coil turns more slowly. The net voltage driving current through the coil rises, so the current increases. This supplies the extra torque needed for the heavier load.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0031",
+   "topicId": "phys-hsc-induction",
+   "stem": "In a simple AC generator, what do the slip rings do?",
+   "imageRef": null,
+   "options": [
+    "Slow the rotor down so that the output frequency stays constant",
+    "Keep each end of the rotating coil connected to the same external terminal",
+    "Reverse the connections to the coil every half turn to give one-way current",
+    "Produce the magnetic field in which the rotor coil turns"
+   ],
+   "correctIndex": 1,
+   "explanation": "Slip rings are two separate rings, one for each end of the coil, so the external circuit receives the coil's emf as it is, which alternates each half turn. Reversing the connections each half turn is what a split-ring commutator does in a DC generator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0032",
+   "topicId": "phys-hsc-induction",
+   "stem": "How does the output of a simple DC generator, with a split-ring commutator, differ from that of a simple AC generator?",
+   "imageRef": null,
+   "options": [
+    "It is twice as large at every instant, because the commutator adds the two halves",
+    "It flows in one direction but rises and falls to zero twice each turn",
+    "It is steady and never changes in size as the coil rotates",
+    "It reverses direction twice each turn, just like the AC output"
+   ],
+   "correctIndex": 1,
+   "explanation": "The commutator reverses the coil's connections each half turn, at the moment the emf in the coil changes sign, so the output always has the same polarity. Its size still varies from zero to a maximum, giving a pulsating DC rather than a steady one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0033",
+   "topicId": "phys-hsc-induction",
+   "stem": "The coil of an AC generator turns at a steady rate in a uniform field. At what position is the induced emf greatest?",
+   "imageRef": null,
+   "options": [
+    "When the coil's plane is parallel to the field, so the flux is zero but changing fastest",
+    "When the plane of the coil is perpendicular to the field, so the flux through it is greatest",
+    "When the coil is at 45\u00b0 to the field, where the flux is half its maximum value",
+    "The emf is the same at all positions, because the coil turns at a steady rate"
+   ],
+   "correctIndex": 0,
+   "explanation": "The emf depends on the rate of change of flux, not the flux itself. As the coil passes through the position where its plane is parallel to the field, the flux is zero but changing most rapidly, so the emf is greatest. When the plane is perpendicular to the field, the flux is greatest but momentarily not changing, so the emf is zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0034",
+   "topicId": "phys-hsc-induction",
+   "stem": "The coil of an AC generator is made to turn twice as fast. What happens to its output?",
+   "imageRef": null,
+   "options": [
+    "The frequency doubles but the peak emf is unchanged",
+    "The peak emf and frequency both halve",
+    "The peak emf and the frequency both double",
+    "The peak emf doubles but the frequency is unchanged"
+   ],
+   "correctIndex": 2,
+   "explanation": "Turning twice as fast makes the flux change twice as quickly, so by Faraday's law the peak emf doubles. The coil also completes twice as many turns per second, so the frequency of the alternating output doubles too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0035",
+   "topicId": "phys-hsc-induction",
+   "stem": "What is the SI unit of magnetic flux?",
+   "imageRef": null,
+   "options": [
+    "The tesla (T)",
+    "The henry (H)",
+    "The volt (V)",
+    "The weber (Wb)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Flux is measured in webers, where 1 Wb = 1 T m\u00b2. The tesla is the unit of magnetic field strength (flux density), and the volt is the unit of emf, which equals a rate of change of flux in Wb s\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0036",
+   "topicId": "phys-hsc-induction",
+   "stem": "In a generator, which energy transformation takes place?",
+   "imageRef": null,
+   "options": [
+    "Kinetic energy to electrical energy",
+    "Electrical energy to kinetic energy",
+    "Electrical energy to magnetic energy",
+    "Magnetic energy to kinetic energy"
+   ],
+   "correctIndex": 0,
+   "explanation": "Work done turning the coil against the opposing force of the induced current becomes electrical energy. A motor does the reverse, turning electrical energy into kinetic energy. The magnetic field is not used up in either case.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-induction-0037",
+   "topicId": "phys-hsc-induction",
+   "stem": "A transformer has 500 turns on its primary and 2500 turns on its secondary. The primary is connected to 48 V AC. What is the secondary voltage, if the transformer is ideal?",
+   "imageRef": null,
+   "options": [
+    "2.6 \u00d7 10\u2074 V",
+    "240 V",
+    "9.6 V",
+    "48 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "Vs = Vp \u00d7 Ns/Np = 48 \u00d7 2500/500 = 240 V, so this is a step-up transformer. Inverting the turns ratio gives 9.6 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

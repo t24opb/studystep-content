@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-sace-trig-identities",
+ "questions": [
+  {
+   "id": "spec-sace-trig-identities-0001",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "For every real x, sin(\u2212x) and cos(\u2212x) are equal to:",
+   "imageRef": null,
+   "options": [
+    "\u2212sin x and cos x",
+    "sin x and \u2212cos x",
+    "\u2212sin x and \u2212cos x",
+    "sin x and cos x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Reflecting a point on the unit circle in the x-axis changes the sign of its y-coordinate (sine) but not its x-coordinate (cosine). So sine is an odd function and cosine is even.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0002",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Dividing both sides of sin\u00b2x + cos\u00b2x = 1 by sin\u00b2x gives:",
+   "imageRef": null,
+   "options": [
+    "1 + tan\u00b2x = sec\u00b2x",
+    "1 + cot\u00b2x = sec\u00b2x",
+    "tan\u00b2x + 1 = cosec\u00b2x",
+    "1 + cot\u00b2x = cosec\u00b2x"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u00b2x/sin\u00b2x = 1, cos\u00b2x/sin\u00b2x = cot\u00b2x and 1/sin\u00b2x = cosec\u00b2x. Dividing by cos\u00b2x instead gives 1 + tan\u00b2x = sec\u00b2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0003",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "The expansion of cos(A \u2212 B) is:",
+   "imageRef": null,
+   "options": [
+    "cos A cos B + sin A sin B",
+    "cos A cos B \u2212 sin A sin B",
+    "sin A cos B \u2212 cos A sin B",
+    "cos A \u2212 cos B"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos(A \u2212 B) = cos A cos B + sin A sin B: the cosine formulas pair cosines with cosines and sines with sines, with the sign opposite to the one in the bracket. cos(A \u2212 B) does not equal cos A \u2212 cos B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0004",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "The expansion of sin(A + B) is:",
+   "imageRef": null,
+   "options": [
+    "sin A sin B + cos A cos B",
+    "sin A cos B \u2212 cos A sin B",
+    "sin A + sin B",
+    "sin A cos B + cos A sin B"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sine formulas mix sine and cosine and keep the sign of the bracket: sin(A + B) = sin A cos B + cos A sin B. The difference form has a minus sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0005",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "On the unit circle, P = (cos A, sin A) and Q = (cos B, sin B). Using the distance formula and sin\u00b2 + cos\u00b2 = 1, PQ\u00b2 equals:",
+   "imageRef": null,
+   "options": [
+    "2 + 2(cos A cos B + sin A sin B)",
+    "2 \u2212 2(cos A cos B \u2212 sin A sin B)",
+    "1 \u2212 (cos A cos B + sin A sin B)",
+    "2 \u2212 2(cos A cos B + sin A sin B)"
+   ],
+   "correctIndex": 3,
+   "explanation": "PQ\u00b2 = (cos A \u2212 cos B)\u00b2 + (sin A \u2212 sin B)\u00b2 = 2 \u2212 2(cos A cos B + sin A sin B). The cosine rule in triangle OPQ gives PQ\u00b2 = 2 \u2212 2cos(A \u2212 B), so cos(A \u2212 B) = cos A cos B + sin A sin B.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0006",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "cos(A + B) can be obtained from the formula for cos(A \u2212 B) by:",
+   "imageRef": null,
+   "options": [
+    "replacing B with \u2212B and using cos(\u2212B) = cos B and sin(\u2212B) = \u2212sin B",
+    "replacing A with \u2212A and using cos(\u2212A) = \u2212cos A and sin(\u2212A) = sin A",
+    "replacing B with \u03c0/2 \u2212 B and using cos(\u03c0/2 \u2212 B) = sin B",
+    "swapping A and B and using cos(B \u2212 A) = \u2212cos(A \u2212 B)"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos(A + B) = cos(A \u2212 (\u2212B)) = cos A cos(\u2212B) + sin A sin(\u2212B) = cos A cos B \u2212 sin A sin B. Cosine is even, so cos(\u2212A) = cos A, and cos(B \u2212 A) = cos(A \u2212 B).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0007",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "To derive sin(A + B), write sin(A + B) = cos(\u03c0/2 \u2212 (A + B)) = cos((\u03c0/2 \u2212 A) \u2212 B) and expand. Which facts complete the derivation?",
+   "imageRef": null,
+   "options": [
+    "cos(\u2212A) = cos A and sin(\u2212A) = \u2212sin A",
+    "sin\u00b2A + cos\u00b2A = 1 and sin\u00b2B + cos\u00b2B = 1",
+    "cos(\u03c0 \u2212 A) = \u2212cos A and sin(\u03c0 \u2212 A) = sin A",
+    "cos(\u03c0/2 \u2212 A) = sin A and sin(\u03c0/2 \u2212 A) = cos A"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos((\u03c0/2 \u2212 A) \u2212 B) = cos(\u03c0/2 \u2212 A) cos B + sin(\u03c0/2 \u2212 A) sin B = sin A cos B + cos A sin B. The complementary-angle results turn the cosine expansion into the sine formula.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0008",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Using an angle-difference formula, the exact value of cos 15\u00b0 is:",
+   "imageRef": null,
+   "options": [
+    "(\u221a2 + 1)/4",
+    "(\u221a6 + \u221a2)/4",
+    "(\u221a6 \u2212 \u221a2)/4",
+    "(\u221a3 \u2212 1)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos(45\u00b0 \u2212 30\u00b0) = cos 45\u00b0 cos 30\u00b0 + sin 45\u00b0 sin 30\u00b0 = (\u221a2/2)(\u221a3/2) + (\u221a2/2)(1/2) = (\u221a6 + \u221a2)/4. The value (\u221a6 \u2212 \u221a2)/4 is sin 15\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0009",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "The exact value of cos(7\u03c0/12) is:",
+   "imageRef": null,
+   "options": [
+    "(\u221a6 \u2212 \u221a2)/4",
+    "(\u221a6 + \u221a2)/4",
+    "\u2212(\u221a6 + \u221a2)/4",
+    "(\u221a2 \u2212 \u221a6)/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(\u03c0/3 + \u03c0/4) = cos(\u03c0/3)cos(\u03c0/4) \u2212 sin(\u03c0/3)sin(\u03c0/4) = \u221a2/4 \u2212 \u221a6/4 = (\u221a2 \u2212 \u221a6)/4. It is negative, as 7\u03c0/12 is in the second quadrant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0010",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "cos 50\u00b0 cos 10\u00b0 \u2212 sin 50\u00b0 sin 10\u00b0 is equal to:",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "cos 40\u00b0",
+    "sin 40\u00b0",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is the expansion of cos(50\u00b0 + 10\u00b0) = cos 60\u00b0 = 1/2. Reading it as cos(50\u00b0 \u2212 10\u00b0) ignores the minus sign, which belongs to the sum formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0011",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "sin 3x cos x \u2212 cos 3x sin x simplifies to:",
+   "imageRef": null,
+   "options": [
+    "cos 2x",
+    "cos 4x",
+    "sin 2x",
+    "sin 4x"
+   ],
+   "correctIndex": 2,
+   "explanation": "The pattern sin A cos B \u2212 cos A sin B matches sin(A \u2212 B), so the expression is sin(3x \u2212 x) = sin 2x. A plus sign would give sin 4x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0012",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "cos(\u03c0 \u2212 x) simplifies to:",
+   "imageRef": null,
+   "options": [
+    "\u2212sin x",
+    "\u2212cos x",
+    "cos x",
+    "sin x"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos(\u03c0 \u2212 x) = cos \u03c0 cos x + sin \u03c0 sin x = \u2212cos x + 0 = \u2212cos x. On the unit circle, \u03c0 \u2212 x is the reflection of x in the y-axis, which changes the sign of the x-coordinate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0013",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "The double-angle formula for sin 2x is:",
+   "imageRef": null,
+   "options": [
+    "sin x cos x",
+    "2 sin x cos x",
+    "2 sin x",
+    "sin\u00b2x \u2212 cos\u00b2x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Put A = B = x in sin(A + B): sin 2x = sin x cos x + cos x sin x = 2 sin x cos x. sin 2x is not 2 sin x; for example, sin(\u03c0) = 0 while 2 sin(\u03c0/2) = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0014",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Which expression is NOT equal to cos 2x?",
+   "imageRef": null,
+   "options": [
+    "cos\u00b2x \u2212 sin\u00b2x",
+    "2cos\u00b2x \u2212 1",
+    "1 \u2212 2sin\u00b2x",
+    "2 sin\u00b2x \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos 2x = cos\u00b2x \u2212 sin\u00b2x, and using sin\u00b2x + cos\u00b2x = 1 gives 2cos\u00b2x \u2212 1 and 1 \u2212 2sin\u00b2x. The expression 2 sin\u00b2x \u2212 1 is the negative of cos 2x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0015",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Rearranging a double-angle formula, sin\u00b2x equals:",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 cos 2x",
+    "(1 \u2212 cos 2x)/2",
+    "(1 + cos 2x)/2",
+    "(cos 2x \u2212 1)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "From cos 2x = 1 \u2212 2sin\u00b2x, 2sin\u00b2x = 1 \u2212 cos 2x and sin\u00b2x = (1 \u2212 cos 2x)/2. The form with + cos 2x gives cos\u00b2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0016",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Rearranging a double-angle formula, cos\u00b2x equals:",
+   "imageRef": null,
+   "options": [
+    "(1 \u2212 cos 2x)/2",
+    "(cos 2x \u2212 1)/2",
+    "2cos 2x \u2212 1",
+    "(1 + cos 2x)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "From cos 2x = 2cos\u00b2x \u2212 1, cos\u00b2x = (1 + cos 2x)/2. Check at x = 0: cos\u00b20 = 1 and (1 + 1)/2 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0017",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "If sin x = 3/5 and \u03c0/2 < x < \u03c0, then sin 2x equals:",
+   "imageRef": null,
+   "options": [
+    "\u221212/25",
+    "\u221224/25",
+    "24/25",
+    "6/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "In the second quadrant cos x = \u22124/5, so sin 2x = 2 \u00d7 (3/5) \u00d7 (\u22124/5) = \u221224/25. Taking cos x positive gives 24/25.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0018",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "If sin x = 3/5, then cos 2x equals:",
+   "imageRef": null,
+   "options": [
+    "16/25",
+    "1/5",
+    "7/25",
+    "\u22127/25"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos 2x = 1 \u2212 2sin\u00b2x = 1 \u2212 2 \u00d7 9/25 = 7/25. This form needs only sin x, so the quadrant does not matter. The value 16/25 is cos\u00b2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0019",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "If cos x = \u22125/13 and \u03c0 < x < 3\u03c0/2, then sin 2x equals:",
+   "imageRef": null,
+   "options": [
+    "120/169",
+    "\u2212120/169",
+    "119/169",
+    "\u2212119/169"
+   ],
+   "correctIndex": 0,
+   "explanation": "In the third quadrant sin x = \u221212/13, so sin 2x = 2 \u00d7 (\u221212/13) \u00d7 (\u22125/13) = 120/169. Both factors are negative, so the product is positive. The value \u2212119/169 is cos 2x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0020",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "(sin x + cos x)\u00b2 simplifies to:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1 + cos 2x",
+    "1 + 2 sin x",
+    "1 + sin 2x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives sin\u00b2x + 2 sin x cos x + cos\u00b2x = 1 + 2 sin x cos x = 1 + sin 2x. Forgetting the middle term of the square gives 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0021",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "(1 \u2212 cos 2x)/sin 2x simplifies to:",
+   "imageRef": null,
+   "options": [
+    "cot x",
+    "sin x",
+    "2 tan x",
+    "tan x"
+   ],
+   "correctIndex": 3,
+   "explanation": "1 \u2212 cos 2x = 2sin\u00b2x and sin 2x = 2 sin x cos x, so the quotient is sin x/cos x = tan x. Using 1 + cos 2x on top would give cot x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0022",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "cos\u2074x \u2212 sin\u2074x simplifies to:",
+   "imageRef": null,
+   "options": [
+    "cos\u00b22x",
+    "1 \u2212 sin 2x",
+    "cos 2x",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorise as a difference of squares: (cos\u00b2x \u2212 sin\u00b2x)(cos\u00b2x + sin\u00b2x) = cos 2x \u00d7 1 = cos 2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0023",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "To prove cos 3x = 4cos\u00b3x \u2212 3cos x, the first step writes cos 3x as:",
+   "imageRef": null,
+   "options": [
+    "cos x cos x cos x \u2212 3 sin x",
+    "cos 2x cos x \u2212 sin 2x sin x",
+    "cos 2x cos x + sin 2x sin x",
+    "3 cos x \u2212 4 sin\u00b2x cos x"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos 3x = cos(2x + x) = cos 2x cos x \u2212 sin 2x sin x. Then cos 2x = 2cos\u00b2x \u2212 1, sin 2x = 2 sin x cos x and sin\u00b2x = 1 \u2212 cos\u00b2x reduce it to 4cos\u00b3x \u2212 3cos x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0024",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "In proving cos 3x = 4cos\u00b3x \u2212 3cos x, the expression (2cos\u00b2x \u2212 1)cos x \u2212 2 sin\u00b2x cos x is reached. Which substitution finishes the proof?",
+   "imageRef": null,
+   "options": [
+    "sin\u00b2x = 1 + cos\u00b2x, giving 2cos\u00b3x \u2212 cos x \u2212 2cos x \u2212 2cos\u00b3x",
+    "cos\u00b2x = 1 \u2212 sin\u00b2x, giving 2cos x \u2212 3 sin\u00b2x cos x",
+    "sin\u00b2x = (1 + cos 2x)/2, giving 2cos\u00b3x \u2212 cos x \u2212 cos x cos 2x",
+    "sin\u00b2x = 1 \u2212 cos\u00b2x, giving 2cos\u00b3x \u2212 cos x \u2212 2cos x + 2cos\u00b3x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Replacing sin\u00b2x by 1 \u2212 cos\u00b2x gives 2cos\u00b3x \u2212 cos x \u2212 2cos x + 2cos\u00b3x = 4cos\u00b3x \u2212 3cos x. The aim is an expression in cos x only, so the sine terms are the ones replaced.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0025",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Given cos 3x = 4cos\u00b3x \u2212 3cos x, if cos x = 1/3 then cos 3x equals:",
+   "imageRef": null,
+   "options": [
+    "\u22125/9",
+    "\u22121",
+    "\u221223/27",
+    "23/27"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos 3x = 4 \u00d7 (1/27) \u2212 3 \u00d7 (1/3) = 4/27 \u2212 1 = \u221223/27. Cubing 1/3 is the step most often slipped: (1/3)\u00b3 = 1/27.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0026",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Expanding sin(2x + x) and using cos\u00b2x = 1 \u2212 sin\u00b2x gives sin 3x as:",
+   "imageRef": null,
+   "options": [
+    "3 sin x \u2212 4 sin\u00b3x",
+    "4 sin\u00b3x \u2212 3 sin x",
+    "3 sin x + 4 sin\u00b3x",
+    "3 sin x \u2212 4 cos\u00b3x"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin 2x cos x + cos 2x sin x = 2 sin x cos\u00b2x + (1 \u2212 2sin\u00b2x) sin x = 2 sin x(1 \u2212 sin\u00b2x) + sin x \u2212 2sin\u00b3x = 3 sin x \u2212 4 sin\u00b3x. Check at x = \u03c0/2: sin(3\u03c0/2) = \u22121 = 3 \u2212 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0027",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "When \u221a3 sin x + cos x is written as k sin(x + \u03b1) with k > 0, the value of k is:",
+   "imageRef": null,
+   "options": [
+    "\u221a2",
+    "2",
+    "4",
+    "\u221a3 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "k = \u221a(A\u00b2 + B\u00b2) = \u221a(3 + 1) = 2. Adding the coefficients gives \u221a3 + 1, but k is the length of the vector (A, B), not their sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0028",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "When \u221a3 sin x + cos x is written as 2 sin(x + \u03b1), with 0 < \u03b1 < \u03c0/2, the value of \u03b1 is:",
+   "imageRef": null,
+   "options": [
+    "5\u03c0/6",
+    "\u03c0/6",
+    "\u03c0/3",
+    "\u2212\u03c0/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expanding 2 sin(x + \u03b1) = 2 cos \u03b1 sin x + 2 sin \u03b1 cos x gives 2 cos \u03b1 = \u221a3 and 2 sin \u03b1 = 1, so \u03b1 = \u03c0/6. Swapping the roles of sine and cosine gives \u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0029",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "What is the largest value that 3 sin x + 4 cos x can take?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "3 sin x + 4 cos x = 5 sin(x + \u03b1) with k = \u221a(9 + 16) = 5, and the sine factor is at most 1. Adding the coefficients gives 7, but sin x and cos x cannot both equal 1 at once.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0030",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Written in the form k sin(x + \u03b1), with k > 0, sin x \u2212 cos x equals:",
+   "imageRef": null,
+   "options": [
+    "2 sin(x \u2212 \u03c0/4)",
+    "\u221a2 sin(x \u2212 \u03c0/4)",
+    "\u221a2 sin(x + \u03c0/4)",
+    "sin(x \u2212 \u03c0/4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "k = \u221a(1 + 1) = \u221a2, with k cos \u03b1 = 1 and k sin \u03b1 = \u22121, so \u03b1 = \u2212\u03c0/4. Expanding \u221a2 sin(x \u2212 \u03c0/4) = sin x \u2212 cos x confirms it. The + \u03c0/4 version gives sin x + cos x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0031",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "3 sin x + 4 cos x = 5 sin(x + \u03b1), where \u03b1 \u2248 0.927. The smallest positive x at which 3 sin x + 4 cos x reaches its maximum is closest to:",
+   "imageRef": null,
+   "options": [
+    "0.644",
+    "0.927",
+    "2.214",
+    "1.571"
+   ],
+   "correctIndex": 0,
+   "explanation": "The maximum occurs when x + \u03b1 = \u03c0/2, so x = \u03c0/2 \u2212 0.927 \u2248 0.644. The value 2.214 is \u03c0 \u2212 \u03b1, and 1.571 is \u03c0/2 without the shift.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0032",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Using sin x + \u221a3 cos x = 2 sin(x + \u03c0/3), the solutions of sin x + \u221a3 cos x = 1 for 0 \u2264 x \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u2212\u03c0/6 and x = \u03c0/2",
+    "x = \u03c0/2 and x = 11\u03c0/6",
+    "x = \u03c0/6 and x = 5\u03c0/6",
+    "x = \u03c0/2 and x = 7\u03c0/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(x + \u03c0/3) = 1/2 with x + \u03c0/3 between \u03c0/3 and 7\u03c0/3 gives x + \u03c0/3 = 5\u03c0/6 or 13\u03c0/6, so x = \u03c0/2 or 11\u03c0/6. \u2212\u03c0/6 is equivalent to 11\u03c0/6 but lies outside the interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0033",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Which line gives the correct definitions of sec x, cosec x and cot x?",
+   "imageRef": null,
+   "options": [
+    "sec x = 1/sin x, cosec x = 1/cos x, cot x = cos x/sin x",
+    "sec x = 1/cos x, cosec x = 1/sin x, cot x = cos x/sin x",
+    "sec x = 1/sin x, cosec x = 1/cos x, cot x = sin x/cos x",
+    "sec x = 1/cos x, cosec x = 1/sin x, cot x = sin x/cos x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each 'co' function pairs with the other 'co': cosec goes with sine and sec with cosine, and cot = 1/tan = cos x/sin x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0034",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "Evaluate cosec(4\u03c0/3) exactly.",
+   "imageRef": null,
+   "options": [
+    "2/\u221a3",
+    "\u2212\u221a3/2",
+    "\u22122",
+    "\u22122/\u221a3"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin(4\u03c0/3) = \u2212\u221a3/2 in the third quadrant, so cosec(4\u03c0/3) = 1/(\u2212\u221a3/2) = \u22122/\u221a3. The value \u2212\u221a3/2 is the sine itself, not its reciprocal, and \u22122 is sec(4\u03c0/3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0035",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "For 0 \u2264 x \u2264 2\u03c0, the graph of y = sec x has vertical asymptotes at:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/4 and x = 3\u03c0/4",
+    "x = \u03c0/2 and x = 3\u03c0/2",
+    "x = 0, x = \u03c0 and x = 2\u03c0",
+    "x = \u03c0 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "sec x = 1/cos x is undefined where cos x = 0, at \u03c0/2 and 3\u03c0/2. At 0, \u03c0 and 2\u03c0, cos x = \u00b11, so sec x has its turning points there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0036",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "What is the range of the function y = cosec x?",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2264 y \u2264 1",
+    "all real y",
+    "y \u2265 1",
+    "y \u2264 \u22121 or y \u2265 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin x takes values between \u22121 and 1, so its reciprocal has size at least 1: y \u2264 \u22121 or y \u2265 1. All real values is the range of cot x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0037",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "For 0 < x < \u03c0, the graph of y = cot x crosses the x-axis at:",
+   "imageRef": null,
+   "options": [
+    "nowhere",
+    "x = \u03c0/2",
+    "x = \u03c0/4",
+    "x = 0 and x = \u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "cot x = cos x/sin x is zero when cos x = 0, at x = \u03c0/2. At 0 and \u03c0, sin x = 0, so the graph has vertical asymptotes there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0038",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "The range of y = 2 sec x + 1 is:",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2264 y \u2264 3",
+    "y \u2264 \u22123 or y \u2265 1",
+    "y \u2264 \u22121 or y \u2265 3",
+    "y \u2264 \u22122 or y \u2265 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "sec x \u2264 \u22121 or sec x \u2265 1, so 2 sec x \u2264 \u22122 or \u2265 2, and adding 1 gives y \u2264 \u22121 or y \u2265 3. The values \u22121 \u2264 y \u2264 3 are exactly the gap the graph never enters.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-trig-identities-0039",
+   "topicId": "spec-sace-trig-identities",
+   "stem": "For 0 \u2264 x \u2264 \u03c0, the graph of y = cosec(2x) has vertical asymptotes at:",
+   "imageRef": null,
+   "options": [
+    "x = 0, x = \u03c0/2 and x = \u03c0",
+    "x = \u03c0/4 and x = 3\u03c0/4",
+    "x = 0 and x = \u03c0 only",
+    "x = \u03c0/2 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "cosec(2x) is undefined where sin(2x) = 0, that is 2x = 0, \u03c0, 2\u03c0, so x = 0, \u03c0/2, \u03c0. At \u03c0/4 and 3\u03c0/4 the graph has turning points, where sin(2x) = \u00b11.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-trig-identities-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

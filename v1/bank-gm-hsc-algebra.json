@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-hsc-algebra",
+ "questions": [
+  {
+   "id": "gm-hsc-algebra-0001",
+   "topicId": "gm-hsc-algebra",
+   "stem": "On a graph of two linear equations, the point where the lines intersect gives:",
+   "imageRef": null,
+   "options": [
+    "the x and y values that satisfy both equations at once",
+    "the y-intercept shared by the two linear equations",
+    "the x value where both lines have the same gradient",
+    "the point where one of the equations equals zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every point on a line satisfies that line's equation, so the only point on both lines satisfies both equations. The lines need not share a y-intercept, and two lines with the same gradient are parallel and never meet.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0002",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Solve the simultaneous equations y = 2x + 1 and y = \u2212x + 7.",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 4",
+    "x = 2, y = 5",
+    "x = 5, y = 2",
+    "x = \u22122, y = \u22123"
+   ],
+   "correctIndex": 1,
+   "explanation": "Set the right-hand sides equal: 2x + 1 = \u2212x + 7, so 3x = 6 and x = 2. Then y = 2(2) + 1 = 5. Swapping the values gives x = 5, y = 2, which does not satisfy either equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0003",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Solve the simultaneous equations 3x + 2y = 16 and x \u2212 2y = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 4, y = 2",
+    "x = 2, y = 4",
+    "x = 4, y = \u22122",
+    "x = 8, y = 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adding the equations eliminates y: 4x = 16, so x = 4. Substituting into x \u2212 2y = 0 gives 2y = 4, so y = 2. Check: 3(4) + 2(2) = 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0004",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The lines y = 3x + 2 and y = 3x \u2212 5 are graphed on the same axes. How many solutions does this pair of simultaneous equations have?",
+   "imageRef": null,
+   "options": [
+    "One, at the point where x = 0 on both of the lines",
+    "Two, one at each of the lines' y-intercepts",
+    "Infinitely many, because the gradients are equal",
+    "None, because the lines are parallel and never meet"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both lines have gradient 3 but different y-intercepts, so they are parallel and never intersect, giving no solution. Infinitely many solutions happen only when the two equations describe the same line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0005",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A school sold 120 tickets to a concert. Adult tickets cost $15 and child tickets cost $8, and ticket sales totalled $1450. If a is the number of adult tickets and c the number of child tickets, which pair of equations models this?",
+   "imageRef": null,
+   "options": [
+    "a + c = 1450 and 15a + 8c = 120",
+    "a + c = 120 and 8a + 15c = 1450",
+    "15a + c = 120 and a + 8c = 1450",
+    "a + c = 120 and 15a + 8c = 1450"
+   ],
+   "correctIndex": 3,
+   "explanation": "One equation counts tickets (a + c = 120) and the other counts money: each adult ticket brings $15 and each child ticket $8, so 15a + 8c = 1450. Swapping the prices attaches $8 to the adults.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0006",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A school sold 120 concert tickets: adults paid $15 and children paid $8. Ticket sales totalled $1450. How many child tickets were sold?",
+   "imageRef": null,
+   "options": [
+    "50",
+    "70",
+    "60",
+    "40"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substitute a = 120 \u2212 c into 15a + 8c = 1450: 1800 \u2212 15c + 8c = 1450, so 7c = 350 and c = 50. Then a = 70, which is the number of adult tickets, not child tickets.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0007",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Phone plan A costs $30 per month plus $4 per GB of data. Plan B costs $54 per month plus $1 per GB. For how many GB of data do the two plans cost the same?",
+   "imageRef": null,
+   "options": [
+    "8 GB",
+    "6 GB",
+    "24 GB",
+    "4.8 GB"
+   ],
+   "correctIndex": 0,
+   "explanation": "Set 30 + 4g = 54 + g, so 3g = 24 and g = 8. Both plans then cost $62. Dividing 24 by 4 ignores plan B's charge per GB, and dividing by 5 adds the rates instead of subtracting them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0008",
+   "topicId": "gm-hsc-algebra",
+   "stem": "For a business, the break-even point is where:",
+   "imageRef": null,
+   "options": [
+    "revenue is greatest and the cost is smallest",
+    "the fixed costs have all been paid by the profit",
+    "the cost line crosses the vertical axis",
+    "revenue equals cost, so the profit is zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "At break-even, the money coming in equals the money going out, so there is neither profit nor loss. Graphically it is where the cost and revenue lines intersect, not where the cost line meets the vertical axis (that is the fixed cost).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0009",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A business has costs C = 4000 + 12x and revenue R = 28x, where x is the number of items sold. How many items must be sold to break even?",
+   "imageRef": null,
+   "options": [
+    "143",
+    "333",
+    "100",
+    "250"
+   ],
+   "correctIndex": 3,
+   "explanation": "Break-even is where R = C: 28x = 4000 + 12x, so 16x = 4000 and x = 250. Dividing 4000 by 28 ignores the cost of each item, and dividing by 12 uses only the cost per item.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0010",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A business has costs C = 4000 + 12x and revenue R = 28x, where x is the number of items sold. What profit is made when 400 items are sold?",
+   "imageRef": null,
+   "options": [
+    "$7200",
+    "$11 200",
+    "$2400",
+    "$6400"
+   ],
+   "correctIndex": 2,
+   "explanation": "Profit = R \u2212 C = 28(400) \u2212 (4000 + 12(400)) = 11 200 \u2212 8800 = $2400. Leaving out the fixed cost of $4000 gives $6400, and $11 200 is the revenue alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0011",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A business has costs C = 4000 + 12x and revenue R = 28x, where x is the number of items sold. What is the revenue at the break-even point?",
+   "imageRef": null,
+   "options": [
+    "$7000",
+    "$4000",
+    "$3000",
+    "$11 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "Break-even is at x = 250, where R = 28 \u00d7 250 = $7000, which also equals C = 4000 + 12 \u00d7 250. $4000 is only the fixed cost and $3000 is only the variable cost at 250 items.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0012",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The cost and revenue lines for a small business intersect at (150, 2700), where x is the number of items sold. The revenue line is steeper than the cost line. If 120 items are sold, the business makes:",
+   "imageRef": null,
+   "options": [
+    "a loss, because the cost line is above the revenue line there",
+    "a profit, because fewer items sold means lower total costs",
+    "a profit of $2700, the value at the point of intersection",
+    "neither a profit nor a loss, because both lines are rising"
+   ],
+   "correctIndex": 0,
+   "explanation": "Before the intersection the steeper revenue line is still below the cost line, so costs exceed revenue and the business makes a loss. Profit only begins after 150 items, where revenue overtakes cost.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0013",
+   "topicId": "gm-hsc-algebra",
+   "stem": "In a spreadsheet, column A holds the number of items sold, column B the cost (=500+6*A2) and column C the revenue (=15*A2). Which formula in D2 calculates the profit?",
+   "imageRef": null,
+   "options": [
+    "=15*A2-6*A2",
+    "=C2-B2",
+    "=B2-C2",
+    "=C2+B2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Profit is revenue minus cost, so D2 = C2 \u2212 B2. Reversing the order gives the negative of the profit, and =15*A2-6*A2 leaves out the fixed cost of $500.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0014",
+   "topicId": "gm-hsc-algebra",
+   "stem": "For an exponential model y = k \u00d7 a\u02e3, the y-intercept of its graph is:",
+   "imageRef": null,
+   "options": [
+    "a",
+    "1",
+    "k \u00d7 a",
+    "k"
+   ],
+   "correctIndex": 3,
+   "explanation": "When x = 0, a\u2070 = 1, so y = k \u00d7 1 = k. The graph of y = a\u02e3 on its own passes through (0, 1), which is why 1 is tempting.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0015",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Which statement describes the graph of y = 2\u207b\u02e3?",
+   "imageRef": null,
+   "options": [
+    "It increases, passes through (0, 1) and approaches the x-axis",
+    "It decreases, passes through (0, 2) and crosses the x-axis",
+    "It decreases in a straight line through the point (0, 1)",
+    "It decreases, passes through (0, 1) and approaches the x-axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = 2\u207b\u02e3 = (1/2)\u02e3 halves each time x increases by 1, so it decreases. At x = 0 it equals 1, and it gets closer to the x-axis without ever reaching it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0016",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A table of values gives x = 0, 1, 2, 3 and y = 5, 2.5, 1.25, 0.625. Which equation fits the table?",
+   "imageRef": null,
+   "options": [
+    "y = 5 \u00d7 2\u207b\u02e3",
+    "y = 5 \u00d7 2\u02e3",
+    "y = 2 \u00d7 5\u207b\u02e3",
+    "y = 5 \u2212 2.5x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each y value is half the one before, and y = 5 when x = 0, so y = 5 \u00d7 (1/2)\u02e3 = 5 \u00d7 2\u207b\u02e3. The linear rule 5 \u2212 2.5x gives 0 when x = 2, not 1.25.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0017",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A town's population is modelled by P = 2400 \u00d7 1.05\u1d57, where t is the number of years after 2020. What does the number 2400 represent?",
+   "imageRef": null,
+   "options": [
+    "The population in 2020",
+    "The yearly increase in population",
+    "The population after one year",
+    "The largest population possible"
+   ],
+   "correctIndex": 0,
+   "explanation": "At t = 0, 1.05\u2070 = 1, so P = 2400: the population at the start, in 2020. The growth each year is 5% of the current population, not a fixed number of people.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0018",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A town's population is modelled by P = 2400 \u00d7 1.05\u1d57, where t is in years. To the nearest whole number, what is the population after 3 years?",
+   "imageRef": null,
+   "options": [
+    "2760",
+    "2520",
+    "3600",
+    "2778"
+   ],
+   "correctIndex": 3,
+   "explanation": "P = 2400 \u00d7 1.05\u00b3 = 2400 \u00d7 1.157625 = 2778.3, so about 2778 people. 2760 adds 5% of 2400 three times, which treats the growth as linear rather than compounding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0019",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A colony of 50 bacteria doubles every hour. How many bacteria are there after 6 hours?",
+   "imageRef": null,
+   "options": [
+    "600",
+    "1600",
+    "6400",
+    "3200"
+   ],
+   "correctIndex": 3,
+   "explanation": "The model is N = 50 \u00d7 2\u1d57, so N = 50 \u00d7 2\u2076 = 50 \u00d7 64 = 3200. 600 multiplies 50 by 2 \u00d7 6, treating the doubling as adding a fixed amount, and 1600 uses only 5 doublings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0020",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The amount of a medicine in a patient's blood is modelled by A = 400 \u00d7 0.8\u1d57 mg, where t is in hours. How much medicine remains after 2 hours?",
+   "imageRef": null,
+   "options": [
+    "320 mg",
+    "160 mg",
+    "256 mg",
+    "240 mg"
+   ],
+   "correctIndex": 2,
+   "explanation": "A = 400 \u00d7 0.8\u00b2 = 400 \u00d7 0.64 = 256 mg. Taking 20% of 400 off twice gives 240 mg, but each hour 20% of the remaining amount is lost, not 20% of the original.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0021",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The amount of a medicine in the blood is modelled by A = 400 \u00d7 0.8\u1d57 mg, where t is in hours. After how many whole hours is the amount first below 200 mg?",
+   "imageRef": null,
+   "options": [
+    "3 hours",
+    "2.5 hours",
+    "5 hours",
+    "4 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "After 3 hours A = 400 \u00d7 0.512 = 204.8 mg, still above 200, and after 4 hours A = 163.84 mg. A loss of 80 mg each hour would give 2.5 hours, but the decay slows as the amount falls.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0022",
+   "topicId": "gm-hsc-algebra",
+   "stem": "An exponential model y = k \u00d7 a\u02e3 passes through the points (0, 200) and (1, 240). What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = 200 \u00d7 0.2\u02e3",
+    "y = 200 \u00d7 40\u02e3",
+    "y = 200 \u00d7 1.2\u02e3",
+    "y = 240 \u00d7 1.2\u02e3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The point (0, 200) gives k = 200. Then 240 = 200 \u00d7 a, so a = 1.2. Using 0.2 takes only the increase of 20% as the base, which would make the values decrease.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0023",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The value of a painting is modelled by V = 1500 \u00d7 1.08\u02e3, where x is the number of years since it was bought. In this context, the vertical intercept $1500 is:",
+   "imageRef": null,
+   "options": [
+    "the value of the painting after one year",
+    "the value when the painting is sold",
+    "the price paid for the painting",
+    "the increase in value each year"
+   ],
+   "correctIndex": 2,
+   "explanation": "The intercept is the value at x = 0, the moment the painting was bought. The value after one year is 1500 \u00d7 1.08 = $1620.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0024",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A population of rabbits is modelled by P = 300 \u00d7 1.4\u1d57. Which is the main limitation of this model for large values of t?",
+   "imageRef": null,
+   "options": [
+    "It cannot give the population at the start, when t is equal to zero",
+    "It predicts the same increase in rabbits each year, which is unrealistic",
+    "It predicts unlimited growth, but food and space limit a real population",
+    "It predicts the population will fall to zero, which cannot happen"
+   ],
+   "correctIndex": 2,
+   "explanation": "Exponential growth never levels off, so for large t the model predicts impossibly large numbers. Real populations are limited by food, space and predators. The model gives P = 300 at t = 0, and its yearly increase grows rather than staying the same.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0025",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The graph of y = ax\u00b2 + bx + c with a negative value of a is a parabola that:",
+   "imageRef": null,
+   "options": [
+    "has no axis of symmetry, because a is negative",
+    "opens downward, with its vertex as a maximum point",
+    "opens upward, with its vertex as a minimum point",
+    "opens downward, with its vertex on the y-axis always"
+   ],
+   "correctIndex": 1,
+   "explanation": "A negative coefficient of x\u00b2 turns the parabola upside down, so the vertex is the highest point. Every parabola has a vertical axis of symmetry through its vertex, and the vertex is on the y-axis only when b = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0026",
+   "topicId": "gm-hsc-algebra",
+   "stem": "What is the y-intercept of the graph of y = 2x\u00b2 \u2212 3x + 7?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22123",
+    "3.5",
+    "7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting x = 0 gives y = 7, so the y-intercept is the constant term c. The numbers 2 and \u22123 are the coefficients of x\u00b2 and x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0027",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A parabola crosses the x-axis at x = \u22121 and x = 5. What is the equation of its axis of symmetry?",
+   "imageRef": null,
+   "options": [
+    "x = 6",
+    "x = 2",
+    "x = 3",
+    "x = \u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "The axis of symmetry passes through the midpoint of the x-intercepts: (\u22121 + 5)/2 = 2. Halving the distance between the intercepts gives 3, which is how far each intercept is from the axis, not where the axis is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0028",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The graph of y = x\u00b2 \u2212 4x \u2212 5 crosses the x-axis at x = \u22121 and x = 5. What are the coordinates of its vertex?",
+   "imageRef": null,
+   "options": [
+    "(2, \u22129)",
+    "(2, \u22125)",
+    "(\u22122, 7)",
+    "(3, \u22128)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vertex lies on the axis of symmetry, x = (\u22121 + 5)/2 = 2. Then y = 4 \u2212 8 \u2212 5 = \u22129. (2, \u22125) uses the y-intercept as the height of the vertex, and (\u22122, 7) takes the wrong sign for the axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0029",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A table of values for a quadratic relationship gives x = 0, 1, 2, 3, 4 and y = 3, 0, \u22121, 0, 3. What is the vertex of the parabola?",
+   "imageRef": null,
+   "options": [
+    "(2, \u22121)",
+    "(0, 3)",
+    "(1, 0)",
+    "(\u22121, 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The y values are symmetric about x = 2, where y reaches its lowest value of \u22121, so the vertex is (2, \u22121). (1, 0) is one of the x-intercepts, and (0, 3) is the y-intercept.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0030",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A ball is thrown upward and its height is h = \u22125t\u00b2 + 20t metres after t seconds. The graph crosses the t-axis at t = 0 and t = 4. What is the maximum height of the ball?",
+   "imageRef": null,
+   "options": [
+    "20 m",
+    "15 m",
+    "40 m",
+    "4 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The maximum is at the midpoint of the intercepts, t = 2: h = \u22125(4) + 20(2) = \u221220 + 40 = 20 m. 15 m is the height at t = 1 or t = 3, and 4 is the time the ball lands, not a height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0031",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A ball's height is h = \u22125t\u00b2 + 20t metres after t seconds, and it lands at t = 4. For which values of t is this model valid?",
+   "imageRef": null,
+   "options": [
+    "all values of t",
+    "0 \u2264 t \u2264 4",
+    "t \u2265 0",
+    "0 \u2264 t \u2264 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ball is in the air from t = 0 until it lands at t = 4. Outside this interval the model gives negative heights or negative times, which have no meaning here. Stopping at t = 2 covers only the upward part of the flight.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0032",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A shop's weekly profit is P = \u22122x\u00b2 + 80x \u2212 600 dollars when an item is priced at $x. The graph crosses the x-axis at x = 10 and x = 30. What is the maximum weekly profit?",
+   "imageRef": null,
+   "options": [
+    "$20",
+    "$800",
+    "$200",
+    "$600"
+   ],
+   "correctIndex": 2,
+   "explanation": "The maximum occurs midway between the intercepts, at x = 20: P = \u22122(400) + 1600 \u2212 600 = 200 dollars. $20 is the best price rather than the profit, and $800 forgets the \u2212600.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0033",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A shop's weekly profit is P = \u22122x\u00b2 + 80x \u2212 600 dollars when an item is priced at $x. The graph crosses the x-axis at x = 10 and x = 30. In this context, the x-intercepts are:",
+   "imageRef": null,
+   "options": [
+    "the shop's fixed costs at the lowest and highest prices",
+    "the prices at which the shop makes a loss of $600",
+    "the prices at which the shop makes zero profit",
+    "the prices that give the greatest weekly profit"
+   ],
+   "correctIndex": 2,
+   "explanation": "At an x-intercept P = 0, so these are the break-even prices; between them the shop makes a profit. The greatest profit is at the vertex, x = 20, and the \u2212600 is the y-intercept, not an x-intercept.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0034",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The arch of a bridge is modelled by y = \u22120.04x\u00b2 + 1.6x, where x and y are in metres. The arch meets the ground at x = 0 and x = 40. How high is the top of the arch?",
+   "imageRef": null,
+   "options": [
+    "12 m",
+    "16 m",
+    "40 m",
+    "20 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The top is on the axis of symmetry, x = (0 + 40)/2 = 20: y = \u22120.04(400) + 1.6(20) = \u221216 + 32 = 16 m. 20 m is the horizontal position of the top, not its height, and 12 m is the height at x = 10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0035",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The graph of a reciprocal relationship y = k/x, where k is positive, is:",
+   "imageRef": null,
+   "options": [
+    "a hyperbola that never touches either axis",
+    "a parabola with its vertex at the origin",
+    "a straight line through the origin with gradient k",
+    "an exponential curve passing through (0, k)"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = k/x is undefined at x = 0 and never equals 0, so its two branches approach the axes without touching them: a hyperbola. A straight line through the origin is direct variation, y = kx.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0036",
+   "topicId": "gm-hsc-algebra",
+   "stem": "y varies inversely with x, and y = 6 when x = 4. What is y when x = 8?",
+   "imageRef": null,
+   "options": [
+    "0.75",
+    "48",
+    "3",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = k/x with k = 6 \u00d7 4 = 24, so y = 24/8 = 3. Doubling x halves y. 12 treats the relationship as direct variation, where doubling x would double y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0037",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Which table of values shows inverse variation?",
+   "imageRef": null,
+   "options": [
+    "x: 1, 2, 3, 6 and y: 12, 6, 4, 2",
+    "x: 1, 2, 3, 6 and y: 2, 4, 6, 12",
+    "x: 1, 2, 3, 6 and y: 12, 10, 8, 2",
+    "x: 1, 2, 3, 6 and y: 1, 4, 9, 36"
+   ],
+   "correctIndex": 0,
+   "explanation": "In inverse variation the product x \u00d7 y is constant: here it is 12 every time, so y = 12/x. The table with y = 2, 4, 6, 12 is direct variation (y = 2x), and 1, 4, 9, 36 is y = x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0038",
+   "topicId": "gm-hsc-algebra",
+   "stem": "Six workers take 10 days to build a fence. Assuming all work at the same rate, how many days would 15 workers take?",
+   "imageRef": null,
+   "options": [
+    "9 days",
+    "4 days",
+    "25 days",
+    "2.5 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number of days varies inversely with the number of workers: d = k/w with k = 6 \u00d7 10 = 60, so d = 60/15 = 4 days. 25 days comes from multiplying by 15/6, as if more workers took longer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0039",
+   "topicId": "gm-hsc-algebra",
+   "stem": "A bus costs $1200 to hire, shared equally among n people, so each pays C = 1200/n dollars. With 25 people each pays $48. How many people are needed for each to pay $30?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "16",
+    "40",
+    "43"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 30 = 1200/n: n = 1200/30 = 40. Adding 18 people because the cost fell by $18 treats the relationship as linear, and 16 comes from 25 \u00d7 30/48, which scales the wrong way.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-algebra-0040",
+   "topicId": "gm-hsc-algebra",
+   "stem": "The time to drive 240 km is modelled by t = 240/s, where s is the average speed in km/h. Which is a limitation of this model?",
+   "imageRef": null,
+   "options": [
+    "It predicts the time increases steadily as the average speed increases",
+    "It cannot give the time for an average speed of exactly 80 km/h",
+    "It gives a time that varies directly with the distance of 240 km",
+    "It predicts the time can be made as small as wanted by raising the speed"
+   ],
+   "correctIndex": 3,
+   "explanation": "The model gives t approaching 0 as s grows without limit, but real speeds are capped by speed limits and the vehicle. The model does give t = 3 hours at 80 km/h, and time falls, not rises, as speed increases.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-algebra-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

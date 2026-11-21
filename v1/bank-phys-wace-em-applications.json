@@ -1,0 +1,461 @@
+{
+ "topicId": "phys-wace-em-applications",
+ "questions": [
+  {
+   "id": "phys-wace-em-applications-0001",
+   "topicId": "phys-wace-em-applications",
+   "stem": "What is the back emf in a DC electric motor?",
+   "imageRef": null,
+   "options": [
+    "An emf produced by the brushes when the commutator reverses the current",
+    "An emf induced in the rotating coil that opposes the supply voltage",
+    "An emf from the supply that drives current backwards through the coil",
+    "An emf induced in the magnets that adds to the supply voltage"
+   ],
+   "correctIndex": 1,
+   "explanation": "As the coil rotates in the magnetic field it cuts flux, so it acts as a generator and an emf is induced in it. By Lenz's law this emf opposes the change that causes it, so it acts against the supply voltage. It is induced in the coil, not the magnets, and it is present whenever the coil turns.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0002",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Which law explains why the back emf in a motor opposes the supply voltage rather than adding to it?",
+   "imageRef": null,
+   "options": [
+    "Ohm's law, which relates the current to the resistance",
+    "Coulomb's law, which describes the force between charges",
+    "Newton's third law, which pairs the forces on the coil",
+    "Lenz's law, which follows from conservation of energy"
+   ],
+   "correctIndex": 3,
+   "explanation": "Lenz's law says an induced emf drives a current whose effects oppose the change producing it. If the back emf added to the supply, the motor would speed up without limit and create energy from nothing, which conservation of energy forbids. Ohm's law is used with the back emf, but it does not set its direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0003",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A DC motor is switched on from rest. How do its back emf and current change as it speeds up to its running speed?",
+   "imageRef": null,
+   "options": [
+    "The back emf rises and the current falls",
+    "The back emf falls and the current rises",
+    "Both the back emf and the current rise",
+    "Both stay constant once it is switched on"
+   ],
+   "correctIndex": 0,
+   "explanation": "The back emf is proportional to how fast the coil cuts flux, so it starts at zero and grows as the motor speeds up. The net emf driving current is the supply voltage minus the back emf, so the current is largest at switch-on and falls as the motor reaches speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0004",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A 12 V DC motor has a coil resistance of 2.0 \u03a9. When running at full speed it draws 1.5 A. What is the back emf?",
+   "imageRef": null,
+   "options": [
+    "3.0 V",
+    "15 V",
+    "9.0 V",
+    "12 V"
+   ],
+   "correctIndex": 2,
+   "explanation": "The net emf across the coil's resistance is V \u2212 \u03b5 = IR, so \u03b5 = 12 \u2212 1.5 \u00d7 2.0 = 9.0 V. The 3.0 V answer is the voltage drop across the resistance, not the back emf, and 15 V adds the drop instead of subtracting it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0005",
+   "topicId": "phys-wace-em-applications",
+   "stem": "The 12 V motor with a coil resistance of 2.0 \u03a9 is switched on. What current flows at the instant it starts, before the coil has begun to turn?",
+   "imageRef": null,
+   "options": [
+    "24 A",
+    "6.0 A",
+    "1.5 A",
+    "4.5 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "At rest the coil is not cutting flux, so there is no back emf and the full 12 V drives current through the 2.0 \u03a9 coil: I = 12/2.0 = 6.0 A. This is four times the running current of 1.5 A, which is why motors draw a surge of current at switch-on.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0006",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A 240 V motor with a coil resistance of 4.0 \u03a9 draws 5.0 A when running. At what rate is it doing mechanical work, ignoring friction?",
+   "imageRef": null,
+   "options": [
+    "0.10 kW",
+    "14 kW",
+    "1.1 kW",
+    "1.2 kW"
+   ],
+   "correctIndex": 2,
+   "explanation": "The back emf is 240 \u2212 5.0 \u00d7 4.0 = 220 V, and the rate of mechanical work is the back emf times the current: 220 \u00d7 5.0 = 1.1 kW. The input power is 240 \u00d7 5.0 = 1.2 kW, and the other 0.10 kW, I\u00b2R, heats the coil. 14 kW comes from V\u00b2/R, which wrongly treats the whole 240 V as across the resistance.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0007",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A 12 V motor with a coil resistance of 0.60 \u03a9 produces a back emf of 10.8 V when running freely. What current does it draw?",
+   "imageRef": null,
+   "options": [
+    "20 A",
+    "18 A",
+    "0.90 A",
+    "2.0 A"
+   ],
+   "correctIndex": 3,
+   "explanation": "The net emf driving current is 12 \u2212 10.8 = 1.2 V, so I = 1.2/0.60 = 2.0 A. Using the full 12 V gives 20 A, the starting current, and using only the back emf gives 18 A. A small net emf is why a free-running motor draws little current.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0008",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A food processor's motor slows down when the blades meet a thick mixture. What happens to the current in the motor and why?",
+   "imageRef": null,
+   "options": [
+    "It decreases, because the slower coil cuts flux less often",
+    "It stays the same, because the supply voltage is unchanged",
+    "It decreases, because the extra load raises the coil's resistance",
+    "It increases, because the slower coil produces less back emf"
+   ],
+   "correctIndex": 3,
+   "explanation": "Slower rotation means the coil cuts flux more slowly, so the back emf falls. The net emf, supply voltage minus back emf, rises, and so does the current, giving more torque to drive the load. The coil's resistance is unaffected by the load.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0009",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A drill motor jams and stops turning while still switched on. Why is it in danger of burning out?",
+   "imageRef": null,
+   "options": [
+    "With no rotation, the commutator stops reversing the current",
+    "With no back emf, the supply voltage across the coil doubles",
+    "With no rotation, the coil's resistance drops to almost zero",
+    "With no back emf, a large current flows and heats the coil"
+   ],
+   "correctIndex": 3,
+   "explanation": "A stalled coil cuts no flux, so there is no back emf and the full supply voltage drives a large current through the low resistance of the coil. The heating, I\u00b2R, is then many times its normal value. The supply voltage itself does not change, and the resistance only rises slightly as the coil heats.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0010",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Large motors are often started with a resistor in series with the coil, which is switched out as the motor speeds up. What is the purpose of this resistor?",
+   "imageRef": null,
+   "options": [
+    "To limit the large starting current while the back emf is small",
+    "To increase the back emf so that the motor starts more quickly",
+    "To reverse the current in the coil every half turn of the motor",
+    "To store energy so the motor can keep turning if the supply fails"
+   ],
+   "correctIndex": 0,
+   "explanation": "At start-up there is little back emf to oppose the supply, so the current could be large enough to damage the coil or the supply. A series resistor limits it until the back emf has built up. The resistor does not create back emf, and current reversal is the commutator's job.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0011",
+   "topicId": "phys-wace-em-applications",
+   "stem": "In an electric or hybrid car, what happens during regenerative braking?",
+   "imageRef": null,
+   "options": [
+    "The motor acts as a generator, converting kinetic energy to electrical energy",
+    "The brakes heat up and the heat is stored and later turned into electricity",
+    "The battery supplies current to the motor in reverse to push the car back",
+    "The motor is disconnected so the car slows by air resistance alone"
+   ],
+   "correctIndex": 0,
+   "explanation": "When the driver brakes, the wheels turn the motor's coil, which then acts as a generator. The induced current charges the battery, so some of the car's kinetic energy is stored instead of being lost as heat in friction brakes. No energy is drawn from the battery to slow the car.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0012",
+   "topicId": "phys-wace-em-applications",
+   "stem": "During regenerative braking, why does the generated current slow the car down?",
+   "imageRef": null,
+   "options": [
+    "By Lenz's law, the induced current produces a force opposing the motion",
+    "The induced current increases the friction between the tyres and road",
+    "The battery's chemical energy is used to push against the wheels",
+    "The induced current heats the coil, and the heat resists the motion"
+   ],
+   "correctIndex": 0,
+   "explanation": "The induced current flows through the coil in the magnetic field, so the coil experiences a force. By Lenz's law that force opposes the rotation that produced the current, so the wheels are slowed. This is the same electromagnetic effect that makes a generator harder to turn when it supplies current.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0013",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A 1500 kg electric car slows from 20 m s\u207b\u00b9 to rest, and regenerative braking stores 60% of its kinetic energy in the battery. How much energy is stored?",
+   "imageRef": null,
+   "options": [
+    "1.8 \u00d7 10\u2075 J",
+    "3.0 \u00d7 10\u2075 J",
+    "1.2 \u00d7 10\u2075 J",
+    "3.6 \u00d7 10\u2075 J"
+   ],
+   "correctIndex": 0,
+   "explanation": "The kinetic energy is \u00bd \u00d7 1500 \u00d7 20\u00b2 = 3.0 \u00d7 10\u2075 J, and 60% of that is 1.8 \u00d7 10\u2075 J. The 1.2 \u00d7 10\u2075 J answer is the 40% that is not recovered, and 3.6 \u00d7 10\u2075 J comes from using mv\u00b2 without the \u00bd.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0014",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A 1500 kg hybrid car slows from 25 m s\u207b\u00b9 to 10 m s\u207b\u00b9, and 70% of the lost kinetic energy is stored by regenerative braking. How much energy is stored?",
+   "imageRef": null,
+   "options": [
+    "3.9 \u00d7 10\u2075 J",
+    "1.2 \u00d7 10\u2075 J",
+    "3.3 \u00d7 10\u2075 J",
+    "2.8 \u00d7 10\u2075 J"
+   ],
+   "correctIndex": 3,
+   "explanation": "The kinetic energy lost is \u00bd \u00d7 1500 \u00d7 (25\u00b2 \u2212 10\u00b2) \u2248 3.9 \u00d7 10\u2075 J, and 70% of that is about 2.8 \u00d7 10\u2075 J. Using the change in speed, 70% of \u00bd \u00d7 1500 \u00d7 15\u00b2, gives 1.2 \u00d7 10\u2075 J, which is wrong because kinetic energy depends on v\u00b2, not on \u0394v. The 3.9 \u00d7 10\u2075 J answer is the total lost before taking 70%.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0015",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Why do electric cars still need friction brakes in addition to regenerative braking?",
+   "imageRef": null,
+   "options": [
+    "Regenerative braking can only be used when travelling uphill",
+    "The induced current flows the wrong way when the car slows down",
+    "The induced emf, and so the braking force, falls as the car slows",
+    "Regenerative braking only works while the car's battery is empty"
+   ],
+   "correctIndex": 2,
+   "explanation": "The induced emf depends on how fast the coil turns, so at low speeds the induced current and braking force become small and cannot hold the car still. Friction brakes are also needed for emergency stops and when the battery is full and cannot accept more charge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0016",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Which statement best explains why regenerative braking improves an electric car's driving range in city traffic?",
+   "imageRef": null,
+   "options": [
+    "Energy that friction brakes would waste as heat is returned to the battery",
+    "The motor uses less current to accelerate because the battery is cooler",
+    "The induced current increases the motor's back emf when it accelerates",
+    "The car's mass is reduced because it needs smaller friction brakes"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each time a car stops, friction brakes turn its kinetic energy into heat that is lost. Regenerative braking returns part of that energy to the battery, to be used again for acceleration. Stop-start city driving involves many such stops, so the gain is largest there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0017",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A car's motor is used as a generator for regenerative braking. Which change would increase the braking force at a given speed, if the coil and field are unchanged?",
+   "imageRef": null,
+   "options": [
+    "Drawing a larger current from the coil into the battery",
+    "Disconnecting the coil from the battery completely",
+    "Reducing the speed at which the wheels turn the coil",
+    "Reversing the direction in which the magnets are mounted"
+   ],
+   "correctIndex": 0,
+   "explanation": "The braking force comes from the force on the current-carrying coil in the field, F = IlB, so a larger induced current gives a larger opposing force. With the coil disconnected there is an emf but no current, and so no braking force. Reversing the magnets reverses the current too, so the force still opposes the motion.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0018",
+   "topicId": "phys-wace-em-applications",
+   "stem": "How does an induction hotplate heat a saucepan?",
+   "imageRef": null,
+   "options": [
+    "A changing magnetic field induces eddy currents in the pan's base, which heat it",
+    "A hot coil under the glass top conducts heat up through the glass to the pan",
+    "Microwaves from the coil are absorbed by the water molecules in the food",
+    "A steady magnetic field magnetises the pan, and the magnetism produces heat"
+   ],
+   "correctIndex": 0,
+   "explanation": "Alternating current in a coil under the glass makes a rapidly changing magnetic field. The changing flux through the pan's base induces eddy currents in it (Faraday's law), and the resistance of the metal converts their energy into heat (I\u00b2R). The coil itself does not get hot like a conventional element.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0019",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Why must the current in an induction hotplate's coil be alternating rather than direct?",
+   "imageRef": null,
+   "options": [
+    "A direct current would magnetise the pan and pull it onto the glass",
+    "A direct current would heat the coil instead of the pan",
+    "A direct current cannot produce any magnetic field at all",
+    "A direct current gives a steady flux, which induces no emf in the pan"
+   ],
+   "correctIndex": 3,
+   "explanation": "Faraday's law says an emf is induced only when the flux changes. A direct current makes a steady field, so the flux through the pan does not change and no eddy currents flow. A direct current does produce a magnetic field; it just does not induce anything in a stationary pan.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0020",
+   "topicId": "phys-wace-em-applications",
+   "stem": "During cooking on an induction hotplate, the glass top stays much cooler than the pan. Why?",
+   "imageRef": null,
+   "options": [
+    "Glass has a high specific heat capacity, so its temperature never rises",
+    "Glass is an electrical insulator, so no eddy currents flow in it",
+    "Glass reflects the magnetic field upward, away from its surface",
+    "Glass is a magnetic material, so it absorbs the changing field"
+   ],
+   "correctIndex": 1,
+   "explanation": "Eddy currents need a conductor. The glass-ceramic top does not conduct, so no current is induced in it and it is warmed only by contact with the hot pan. Glass is not magnetic and does not block or reflect the field, which passes through it to the pan.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0021",
+   "topicId": "phys-wace-em-applications",
+   "stem": "A cook finds that a cast-iron pan heats well on an induction hotplate but a glass pan does not heat at all. What is the reason?",
+   "imageRef": null,
+   "options": [
+    "Glass is transparent, so it cannot absorb the energy from the coil",
+    "No eddy currents can be induced in glass, which does not conduct electricity",
+    "Glass is too thick for the magnetic field to reach the food inside",
+    "Glass has a higher melting point, so it absorbs the heat from the coil"
+   ],
+   "correctIndex": 1,
+   "explanation": "The pan is heated by currents induced in it, so it must conduct electricity. Glass does not, so no current flows and no heat is produced. Cast iron is a conductor and is also ferromagnetic, which concentrates the field in the base and makes heating effective.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0022",
+   "topicId": "phys-wace-em-applications",
+   "stem": "In an induction hotplate, the field through a loop in a pan's base changes by 0.010 T in 5.0 \u00b5s. The loop has an area of 0.015 m\u00b2. What average emf is induced around it?",
+   "imageRef": null,
+   "options": [
+    "7.5 \u00d7 10\u207b\u2074 V",
+    "1.5 \u00d7 10\u207b\u2074 V",
+    "30 V",
+    "3.0 \u00d7 10\u207b\u2075 V"
+   ],
+   "correctIndex": 2,
+   "explanation": "Faraday's law gives \u03b5 = \u0394\u03a6/\u0394t = \u0394B \u00d7 A/\u0394t = 0.010 \u00d7 0.015/(5.0 \u00d7 10\u207b\u2076) = 30 V. The 1.5 \u00d7 10\u207b\u2074 V answer is the change in flux, which still needs dividing by the time. A rapid change in flux is why even a small field induces large eddy currents.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0023",
+   "topicId": "phys-wace-em-applications",
+   "stem": "The frequency of the alternating current in an induction hotplate's coil is increased, with the peak field unchanged. How does this affect the heating of the pan?",
+   "imageRef": null,
+   "options": [
+    "Heating increases, because the faster-changing flux induces a larger emf",
+    "Heating decreases, because the field has less time to build up each cycle",
+    "Heating is unchanged, because the peak field strength is the same",
+    "Heating decreases, because eddy currents can only flow at low frequency"
+   ],
+   "correctIndex": 0,
+   "explanation": "By Faraday's law the induced emf depends on the rate of change of flux. With the same peak field, a higher frequency means the flux changes faster, so larger eddy currents flow and more heat is produced. This is why induction hotplates use frequencies far above the 50 Hz mains supply.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-em-applications-0024",
+   "topicId": "phys-wace-em-applications",
+   "stem": "Which is an advantage of an induction hotplate over a conventional electric element?",
+   "imageRef": null,
+   "options": [
+    "The heat is produced in the pan itself, so less energy is lost to the surroundings",
+    "The coil reaches a higher temperature than a conventional element, cooking faster",
+    "It needs no electrical supply, because the pan generates its own current",
+    "It heats any material placed on it, including glass and ceramic dishes"
+   ],
+   "correctIndex": 0,
+   "explanation": "In an induction hotplate the eddy currents heat the pan directly, so little energy goes into heating the cooktop and the air around it. A conventional element must first heat itself and then the pan. The induction coil stays relatively cool, and the hotplate only heats conducting pans.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-em-applications-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

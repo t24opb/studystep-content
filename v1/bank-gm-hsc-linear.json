@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-hsc-linear",
+ "questions": [
+  {
+   "id": "gm-hsc-linear-0001",
+   "topicId": "gm-hsc-linear",
+   "stem": "A straight line crosses the y-axis at (0, 3) and passes through (2, 11). What is its gradient?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1/4",
+    "5.5",
+    "8"
+   ],
+   "correctIndex": 0,
+   "explanation": "Gradient = rise \u00f7 run = (11 \u2212 3) \u00f7 (2 \u2212 0) = 8 \u00f7 2 = 4. 5.5 divides 11 by 2 without subtracting the y-intercept, and 1/4 is run over rise.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0002",
+   "topicId": "gm-hsc-linear",
+   "stem": "A straight line passes through (0, \u22122) and (4, 0). What are its y-intercept and gradient?",
+   "imageRef": null,
+   "options": [
+    "y-intercept \u22122, gradient 1/2",
+    "y-intercept 4, gradient 1/2",
+    "y-intercept \u22122, gradient 2",
+    "y-intercept 4, gradient \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "The line meets the y-axis at (0, \u22122), so the y-intercept is \u22122. The gradient is (0 \u2212 (\u22122)) \u00f7 (4 \u2212 0) = 2/4 = 1/2. 4 is the x-intercept, and 2 is run over rise.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0003",
+   "topicId": "gm-hsc-linear",
+   "stem": "A straight line passes through (\u22121, 7) and (3, \u22121). What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = \u22122x + 9",
+    "y = \u22121/2x + 6.5",
+    "y = \u22122x + 5",
+    "y = 2x + 9"
+   ],
+   "correctIndex": 2,
+   "explanation": "m = (\u22121 \u2212 7) \u00f7 (3 \u2212 (\u22121)) = \u22128 \u00f7 4 = \u22122. Substituting (3, \u22121): \u22121 = \u22126 + c, so c = 5. y = \u22122x + 9 uses the point (\u22121, 7) with the wrong sign, 7 = 2 + c.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0004",
+   "topicId": "gm-hsc-linear",
+   "stem": "What are the gradient and y-intercept of y = 5 \u2212 3x?",
+   "imageRef": null,
+   "options": [
+    "Gradient \u22123, y-intercept \u22125",
+    "Gradient \u22123, y-intercept 5",
+    "Gradient 5, y-intercept \u22123",
+    "Gradient 3, y-intercept 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Written as y = \u22123x + 5, the coefficient of x is the gradient, \u22123, and the constant is the y-intercept, 5. The order of the terms does not change which number is the gradient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0005",
+   "topicId": "gm-hsc-linear",
+   "stem": "What are the gradient and y-intercept of the line 2y = 6x \u2212 8?",
+   "imageRef": null,
+   "options": [
+    "Gradient 3, y-intercept \u22124",
+    "Gradient 6, y-intercept \u22128",
+    "Gradient 3, y-intercept \u22128",
+    "Gradient 6, y-intercept \u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "Divide every term by 2 to get y = 3x \u2212 4 before reading off m and c. Reading 6 and \u22128 straight from 2y = 6x \u2212 8 skips making y the subject.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0006",
+   "topicId": "gm-hsc-linear",
+   "stem": "What are the gradient and y-intercept of the line x + 2y = 10?",
+   "imageRef": null,
+   "options": [
+    "Gradient \u22122, y-intercept 5",
+    "Gradient \u22121/2, y-intercept 5",
+    "Gradient \u22121, y-intercept 10",
+    "Gradient 1/2, y-intercept 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtract x and divide by 2: y = \u22121/2 x + 5. Moving x across makes it negative, so a gradient of +1/2 has lost the sign, and \u22122 inverts the coefficient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0007",
+   "topicId": "gm-hsc-linear",
+   "stem": "What is the equation of the straight line with gradient 4 and y-intercept \u22123?",
+   "imageRef": null,
+   "options": [
+    "y = 4x \u2212 3",
+    "y = \u22123x + 4",
+    "y = 4x + 3",
+    "y = 3x \u2212 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "In y = mx + c, m is the gradient and c is the y-intercept, so m = 4 and c = \u22123. y = \u22123x + 4 swaps the two values.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0008",
+   "topicId": "gm-hsc-linear",
+   "stem": "Which point lies on the line y = 2x \u2212 7?",
+   "imageRef": null,
+   "options": [
+    "(2, 3)",
+    "(\u22121, \u22125)",
+    "(5, 3)",
+    "(3, 5)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute x = 5: y = 2 \u00d7 5 \u2212 7 = 3, which matches. For (3, 5), y = 6 \u2212 7 = \u22121, not 5; that point has x and y swapped.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0009",
+   "topicId": "gm-hsc-linear",
+   "stem": "Which table of values is correct for y = 3x + 1, for x = 0, 1 and 2?",
+   "imageRef": null,
+   "options": [
+    "y = 1, 4, 7",
+    "y = 3, 4, 5",
+    "y = 0, 3, 6",
+    "y = 1, 3, 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = 0 gives 1, x = 1 gives 4 and x = 2 gives 7; y goes up by the gradient, 3, each time. 3, 4, 5 swaps the roles of the gradient and the intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0010",
+   "topicId": "gm-hsc-linear",
+   "stem": "To sketch y = 2x \u2212 6 using its intercepts, where does the line cross the x-axis?",
+   "imageRef": null,
+   "options": [
+    "(0, \u22126)",
+    "(6, 0)",
+    "(3, 0)",
+    "(\u22123, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "On the x-axis y = 0, so 2x \u2212 6 = 0 and x = 3. (0, \u22126) is the y-intercept, and (\u22123, 0) comes from a sign error when solving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0011",
+   "topicId": "gm-hsc-linear",
+   "stem": "A business charges $100 to set up and pack up a picnic, plus $80 per hour of hire, so the cost is C = 100 + 80h dollars for h hours. What does the 80 represent?",
+   "imageRef": null,
+   "options": [
+    "The total cost for one hour",
+    "The number of hours of hire",
+    "The cost per hour of hire",
+    "The set-up and pack-up charge"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient is the rate of change: the cost rises by $80 for each extra hour. The $100 is the vertical intercept, the cost before any hours are added, so one hour costs $180 in total.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0012",
+   "topicId": "gm-hsc-linear",
+   "stem": "A business charges $100 to set up and pack up a picnic, plus $80 per hour of hire, so the cost is C = 100 + 80h dollars for h hours. What is the cost for 3.5 hours of hire?",
+   "imageRef": null,
+   "options": [
+    "$450",
+    "$380",
+    "$630",
+    "$280"
+   ],
+   "correctIndex": 1,
+   "explanation": "C = 100 + 80 \u00d7 3.5 = 100 + 280 = $380. $630 adds 100 and 80 before multiplying, and $280 leaves out the fixed charge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0013",
+   "topicId": "gm-hsc-linear",
+   "stem": "A full tank holds 2400 L and is drained at a steady 150 L per hour, so the volume after t hours is V = 2400 \u2212 150t litres. What do the gradient and its sign tell you?",
+   "imageRef": null,
+   "options": [
+    "The volume rises by 150 L each hour",
+    "The tank empties after 150 hours",
+    "The volume falls by 2400 L each hour",
+    "The volume falls by 150 L each hour"
+   ],
+   "correctIndex": 3,
+   "explanation": "The gradient is \u2212150, the rate of change of volume: each hour the volume decreases by 150 L. 2400 is the vertical intercept, the starting volume.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0014",
+   "topicId": "gm-hsc-linear",
+   "stem": "A full tank holds 2400 L and is drained at a steady 150 L per hour, so the volume after t hours is V = 2400 \u2212 150t litres. How long does it take to empty the tank?",
+   "imageRef": null,
+   "options": [
+    "150 hours",
+    "2250 hours",
+    "24 hours",
+    "16 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "The tank is empty when V = 0: 2400 \u2212 150t = 0, so t = 2400 \u00f7 150 = 16 hours. This is where the line meets the horizontal axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0015",
+   "topicId": "gm-hsc-linear",
+   "stem": "A hire company charges $95 for 2 hours and $155 for 5 hours, using a fixed fee plus an hourly rate. Which model gives the cost C for h hours?",
+   "imageRef": null,
+   "options": [
+    "C = 47.5h",
+    "C = 65 + 30h",
+    "C = 55 + 20h",
+    "C = 20 + 55h"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rate is (155 \u2212 95) \u00f7 (5 \u2212 2) = 60 \u00f7 3 = $20 per hour. Then 95 = c + 20 \u00d7 2, so the fixed fee is $55. C = 47.5h assumes no fixed fee, which would not give $155 for 5 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0016",
+   "topicId": "gm-hsc-linear",
+   "stem": "The free storage on a phone, in GB, is recorded at months 0, 2, 4 and 6 as 300, 260, 220 and 180. Which linear model fits, where m is the number of months?",
+   "imageRef": null,
+   "options": [
+    "S = 300 \u2212 40m",
+    "S = 180 + 20m",
+    "S = 300 + 20m",
+    "S = 300 \u2212 20m"
+   ],
+   "correctIndex": 3,
+   "explanation": "The data fall by 40 GB every 2 months, which is 20 GB per month, so the gradient is \u221220, and the value at month 0 is 300. \u221240 is the change per step of the table, not per month.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0017",
+   "topicId": "gm-hsc-linear",
+   "stem": "A phone battery's charge is modelled by B = 100 \u2212 8t percent, where t is the time in hours. What does the 100 represent?",
+   "imageRef": null,
+   "options": [
+    "The charge when t = 0",
+    "The hours until the battery is flat",
+    "The charge used each hour",
+    "The charge after one hour"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vertical intercept is the value of B when t = 0, the starting charge of 100%. The charge used each hour is the gradient, 8 percentage points, and the charge after an hour is 92%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0018",
+   "topicId": "gm-hsc-linear",
+   "stem": "In a linear model of a real situation, what does the gradient represent?",
+   "imageRef": null,
+   "options": [
+    "The value of the horizontal variable when the other is 0",
+    "The rate of change of one variable against the other",
+    "The value of the vertical variable when the other is 0",
+    "The largest value the model can sensibly predict"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient is the change in the vertical variable for each one-unit increase in the horizontal variable, such as dollars per hour. The value when the horizontal variable is 0 is the vertical intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0019",
+   "topicId": "gm-hsc-linear",
+   "stem": "What is interpolation?",
+   "imageRef": null,
+   "options": [
+    "Predicting a value outside the range of the data",
+    "Finding the gradient of a line from two points",
+    "Finding where a line crosses the vertical axis",
+    "Predicting a value within the range of the data"
+   ],
+   "correctIndex": 3,
+   "explanation": "Interpolation estimates a value between the smallest and largest data values used to build the model. Predicting beyond that range is extrapolation, which is less reliable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0020",
+   "topicId": "gm-hsc-linear",
+   "stem": "From data on children aged 1 to 10 years, a model gives height as H = 75 + 6a centimetres, where a is the age in years. What height does it predict for a 6-year-old, and what kind of prediction is it?",
+   "imageRef": null,
+   "options": [
+    "81 cm, interpolation",
+    "111 cm, interpolation",
+    "111 cm, extrapolation",
+    "117 cm, interpolation"
+   ],
+   "correctIndex": 1,
+   "explanation": "H = 75 + 6 \u00d7 6 = 111 cm. Age 6 lies inside the ages 1 to 10 used for the model, so this is interpolation. 81 cm is the prediction for age 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0021",
+   "topicId": "gm-hsc-linear",
+   "stem": "From data on children aged 1 to 10 years, a model gives height as H = 75 + 6a centimetres, where a is the age in years. It predicts 315 cm for a 40-year-old. Why should this prediction be rejected?",
+   "imageRef": null,
+   "options": [
+    "It extrapolates far beyond the data, and people stop growing",
+    "It interpolates within the data, so the rate of growth must change",
+    "The gradient of 6 is too small to fit an adult's growth",
+    "The model's y-intercept means it starts at an age of 75"
+   ],
+   "correctIndex": 0,
+   "explanation": "Age 40 is far outside ages 1 to 10, so it is extrapolation, and the model assumes growth continues at 6 cm a year forever, which is false. Age 40 is outside the data, so it is not interpolation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0022",
+   "topicId": "gm-hsc-linear",
+   "stem": "A full tank holds 2400 L and is drained at a steady 150 L per hour, so the volume after t hours is V = 2400 \u2212 150t litres. What does the model give for t = 20, and why is it not sensible?",
+   "imageRef": null,
+   "options": [
+    "\u2212600 L, a volume cannot be negative",
+    "600 L, the tank was refilled",
+    "\u2212600 L, the tank is draining faster",
+    "0 L, the tank stays empty"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = 2400 \u2212 150 \u00d7 20 = \u2212600 L. A tank cannot hold a negative volume, so the model only applies for 0 \u2264 t \u2264 16. Real models usually have a limited domain like this.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0023",
+   "topicId": "gm-hsc-linear",
+   "stem": "A linear model was built from data with x-values between 10 and 50. Which prediction is likely to be most reliable?",
+   "imageRef": null,
+   "options": [
+    "A prediction at x = 60",
+    "A prediction at x = 100",
+    "A prediction at x = 0",
+    "A prediction at x = 30"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = 30 lies inside the data, so it is interpolation. The other three are extrapolation, and x = 0 and x = 100 lie far outside the range, where the pattern may not continue.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0024",
+   "topicId": "gm-hsc-linear",
+   "stem": "Two shops sell rice by the kilogram. Shop A's graph of cost against mass is a straight line through (0, 0) and (2, 9). Shop B uses C = 4.2m. How do the prices compare?",
+   "imageRef": null,
+   "options": [
+    "Both shops charge $4.50 per kg",
+    "Shop B is cheaper by 30 cents per kg",
+    "Shop A is cheaper by 30 cents per kg",
+    "Shop B is cheaper by $4.80 per kg"
+   ],
+   "correctIndex": 1,
+   "explanation": "Shop A's gradient is 9 \u00f7 2 = $4.50 per kg, and Shop B's gradient is $4.20 per kg, so Shop B is cheaper by 4.50 \u2212 4.20 = $0.30 per kg. $4.80 per kg compares 9 with 4.2 without finding Shop A's rate per kilogram.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0025",
+   "topicId": "gm-hsc-linear",
+   "stem": "From data on children aged 1 to 10 years, a model gives height as H = 75 + 6a centimetres, where a is the age in years. At age 0 it gives 75 cm, but newborn babies are typically about 50 cm long. What does this show?",
+   "imageRef": null,
+   "options": [
+    "The model should not be used outside the ages it was built from",
+    "The model's gradient is wrong for every age from 1 to 10 years",
+    "Interpolation is less reliable than extrapolation for this model",
+    "The vertical intercept of a model is always a real data value"
+   ],
+   "correctIndex": 0,
+   "explanation": "Age 0 lies outside the ages 1 to 10, so using the model there is extrapolation, and the result does not match reality. This is a limitation of the model; it says nothing about how well the line fits the ages it was built from.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0026",
+   "topicId": "gm-hsc-linear",
+   "stem": "A business charges $100 to set up and pack up a picnic, plus $80 per hour of hire, so the cost is C = 100 + 80h dollars for h hours. In a spreadsheet, the hours are in cell A2. Which formula gives the cost?",
+   "imageRef": null,
+   "options": [
+    "=(100+80)*A2",
+    "=100*A2+80",
+    "=180*A2",
+    "=100+80*A2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fixed $100 is added once and the $80 is multiplied by the hours. =(100+80)*A2 multiplies the fixed charge by the hours as well, which overcharges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0027",
+   "topicId": "gm-hsc-linear",
+   "stem": "A spreadsheet lists the cost of hiring a jumping castle for 1, 2, 3 and 4 hours as $180, $260, $340 and $420. If the linear model is extended, what is the cost for 0 hours, the fixed fee?",
+   "imageRef": null,
+   "options": [
+    "$80",
+    "$0",
+    "$100",
+    "$180"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each extra hour adds $80, so 0 hours costs 180 \u2212 80 = $100. This is the vertical intercept of the model. $180 is the cost for 1 hour, which includes one hour of hire.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0028",
+   "topicId": "gm-hsc-linear",
+   "stem": "What does the graph of a direct variation y = kx look like, for k > 0?",
+   "imageRef": null,
+   "options": [
+    "A straight line crossing the y-axis at k",
+    "A curve through the origin that gets steeper",
+    "A straight line through the origin with gradient 1/k",
+    "A straight line through the origin with gradient k"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = kx is y = mx + c with c = 0, so it passes through (0, 0) and its gradient is the constant of variation k. A line crossing the y-axis at k is y = x + k, which is not direct variation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0029",
+   "topicId": "gm-hsc-linear",
+   "stem": "Which situation is a direct variation?",
+   "imageRef": null,
+   "options": [
+    "A taxi fare made of a flagfall plus a rate per km",
+    "A phone plan with a monthly fee plus a cost per GB",
+    "The temperature of a cup of coffee as it cools",
+    "The cost of apples at $4.50 per kilogram"
+   ],
+   "correctIndex": 3,
+   "explanation": "The cost of apples is $4.50 \u00d7 mass: zero mass costs $0 and doubling the mass doubles the cost, so C = 4.5m. A flagfall or monthly fee adds a fixed amount, so those graphs do not pass through the origin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0030",
+   "topicId": "gm-hsc-linear",
+   "stem": "y varies directly with x, and y = 18 when x = 4. What is the constant of variation k?",
+   "imageRef": null,
+   "options": [
+    "72",
+    "14",
+    "4.5",
+    "0.22"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = kx, so 18 = 4k and k = 18 \u00f7 4 = 4.5. 0.22 is 4 \u00f7 18, which divides the wrong way round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0031",
+   "topicId": "gm-hsc-linear",
+   "stem": "The cost of fuel varies directly with the number of litres bought. 45 L costs $90.45. What do 60 L cost?",
+   "imageRef": null,
+   "options": [
+    "$135.68",
+    "$120.60",
+    "$105.45",
+    "$67.84"
+   ],
+   "correctIndex": 1,
+   "explanation": "k = 90.45 \u00f7 45 = 2.01, the price per litre, so 60 L costs 2.01 \u00d7 60 = $120.60. $105.45 adds 15 to the cost instead of adding 15 litres' worth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0032",
+   "topicId": "gm-hsc-linear",
+   "stem": "At a constant speed, distance varies directly with time. A truck covers 210 km in 2.5 hours. How long does it take to cover 294 km?",
+   "imageRef": null,
+   "options": [
+    "2.9 hours",
+    "4.2 hours",
+    "3.5 hours",
+    "3.4 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "k = 210 \u00f7 2.5 = 84 km/h, so t = 294 \u00f7 84 = 3.5 hours. Each hour adds 84 km, and 294 = 84 \u00d7 3.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0033",
+   "topicId": "gm-hsc-linear",
+   "stem": "The mass of an aluminium block varies directly with its volume. A 50 cm\u00b3 block has a mass of 135 g. What volume of aluminium has a mass of 405 g?",
+   "imageRef": null,
+   "options": [
+    "16.7 cm\u00b3",
+    "150 cm\u00b3",
+    "1093.5 cm\u00b3",
+    "390 cm\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "k = 135 \u00f7 50 = 2.7 g per cm\u00b3, so V = 405 \u00f7 2.7 = 150 cm\u00b3. 1093.5 multiplies 405 by 2.7 instead of dividing, which finds a mass rather than a volume.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0034",
+   "topicId": "gm-hsc-linear",
+   "stem": "For x = 2, 5 and 8, which set of y-values shows that y varies directly with x?",
+   "imageRef": null,
+   "options": [
+    "y = 7, 16, 25",
+    "y = 7, 10, 13",
+    "y = 7, 12.5, 18",
+    "y = 7, 17.5, 28"
+   ],
+   "correctIndex": 3,
+   "explanation": "In direct variation y \u00f7 x is constant: 7/2 = 17.5/5 = 28/8 = 3.5. The set 7, 16, 25 is linear (y = 3x + 1) but its ratio is not constant, so its line misses the origin.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0035",
+   "topicId": "gm-hsc-linear",
+   "stem": "The graph of a direct variation passes through (6, 15). What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = 6x",
+    "y = 2.5x",
+    "y = 0.4x",
+    "y = x + 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = kx with 15 = 6k gives k = 2.5. y = x + 9 also passes through (6, 15), but it has a y-intercept of 9, so it is not direct variation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0036",
+   "topicId": "gm-hsc-linear",
+   "stem": "Pay varies directly with hours worked. Sam's pay graph is a straight line through the origin and (8, 236). Lee is paid $25 per hour. How much more does Sam earn than Lee for 30 hours?",
+   "imageRef": null,
+   "options": [
+    "$4.50",
+    "$750",
+    "$135",
+    "$885"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sam's rate is k = 236 \u00f7 8 = $29.50 per hour, so 30 hours earns $885; Lee earns 25 \u00d7 30 = $750. The difference is $135. $4.50 is the difference per hour, not over 30 hours.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-linear-0037",
+   "topicId": "gm-hsc-linear",
+   "stem": "y varies directly with x. What happens to y when x is tripled?",
+   "imageRef": null,
+   "options": [
+    "y is multiplied by 9",
+    "y increases by 3",
+    "y is tripled",
+    "y is divided by 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "With y = kx, replacing x by 3x gives k(3x) = 3y. Dividing by 3 describes inverse variation, and multiplying by 9 would need y to vary with x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-linear-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

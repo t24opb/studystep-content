@@ -10,10 +10,10 @@
     "voicing: /b/ is voiced and /p/ is voiceless",
     "place of articulation: /b/ is made at the alveolar ridge",
     "manner of articulation: /b/ is a fricative and /p/ is a stop",
-    "vowel height: /b/ is produced with the tongue held higher"
+    "aspiration: /b/ is aspirated at the start of a word and /p/ is not"
    ],
    "correctIndex": 0,
-   "explanation": "Both sounds close the lips completely and release them, so place and manner are the same; only the vibration of the vocal folds differs. Vowel height is used to describe vowels, not consonants.",
+   "explanation": "Both sounds close the lips completely and release them, so place and manner are the same; only the vibration of the vocal folds differs. Aspiration runs the other way: word-initial /p/, not /b/, is released with a puff of air.",
    "difficulty": 1,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -104,11 +104,11 @@
    "options": [
     "voicing, place of articulation and manner of articulation",
     "pitch, stress, volume and tempo across an utterance",
-    "the number of letters used to spell them in English",
+    "lip shape alone, as either rounded or spread",
     "tongue height, tongue backness and lip roundedness"
    ],
    "correctIndex": 3,
-   "explanation": "Vowels are made with an open vocal tract, so they are classified by how high and how far back the tongue is and whether the lips are rounded. Voicing, place and manner describe consonants.",
+   "explanation": "Vowels are made with an open vocal tract, so they are classified by how high and how far back the tongue is and whether the lips are rounded. Voicing, place and manner describe consonants, and lip rounding is only one of the three vowel dimensions.",
    "difficulty": 1,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -276,10 +276,10 @@
     "vowel reduction, which removes the second syllable from the noun",
     "stress, which falls on a different syllable for each word class",
     "voicing, because the first consonant is voiced only in the verb",
-    "tempo, because the verb is always spoken more quickly than the noun"
+    "intonation, because pitch rises at the end of the verb but not the noun"
    ],
    "correctIndex": 1,
-   "explanation": "In many English noun-verb pairs, the noun is stressed on the first syllable and the verb on the second. The consonants are the same in both, and the noun keeps both syllables.",
+   "explanation": "In many English noun-verb pairs, the noun is stressed on the first syllable and the verb on the second. The consonants are the same in both, the noun keeps both syllables, and intonation is pitch movement across an utterance rather than a fixed property of a word.",
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -293,7 +293,7 @@
    "imageRef": null,
    "options": [
     "signals that Kim is quoting someone else",
-    "shows that Kim is whispering to the listener",
+    "signals sarcasm that contradicts the words",
     "turns a declarative sentence into a question",
     "marks the end of Kim's turn as a closing"
    ],
@@ -352,10 +352,10 @@
     "the smallest unit of meaning or grammatical function in a language",
     "the smallest unit of sound that distinguishes one word from another",
     "a group of words that function together as a unit within a clause",
-    "a word that has been borrowed into English from another language"
+    "the base form of a word before any prefixes or suffixes are added"
    ],
    "correctIndex": 0,
-   "explanation": "Morphemes are the building blocks of words: 'dogs' has two, 'dog' and plural -s. The smallest distinctive unit of sound is a phoneme.",
+   "explanation": "Morphemes are the building blocks of words: 'dogs' has two, 'dog' and plural -s. Affixes are morphemes too, so the term is wider than a word's base. The smallest distinctive unit of sound is a phoneme.",
    "difficulty": 1,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -463,13 +463,13 @@
    "stem": "A three-year-old says 'I goed to the park and saw two mouses'. These forms are examples of:",
    "imageRef": null,
    "options": [
-    "code switching",
+    "phonological simplification",
     "morphological over-generalisation",
     "semantic narrowing",
     "backformation"
    ],
    "correctIndex": 1,
-   "explanation": "The child applies the regular -ed and -s rules to irregular words, showing they have learned the rules. 'Goed' and 'mouses' are over-generalisations, not semantic changes.",
+   "explanation": "The child applies the regular -ed and -s rules to irregular words, showing they have learned the rules. 'Goed' and 'mouses' are over-generalisations of word endings, not semantic changes or simplified pronunciations.",
    "difficulty": 1,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -541,8 +541,8 @@
    "options": [
     "'Qantas' and 'ANZAC' are acronyms; 'ABC' is an initialism",
     "'Qantas' and 'ANZAC' are initialisms; 'ABC' is an acronym",
-    "All three are blends formed from parts of longer words",
-    "All three are clippings formed by shortening one word"
+    "'Qantas' is a blend; 'ANZAC' and 'ABC' are initialisms",
+    "'Qantas' and 'ABC' are acronyms; 'ANZAC' is a blend"
    ],
    "correctIndex": 0,
    "explanation": "Both acronyms and initialisms are formed from initial letters; acronyms are spoken as words and initialisms as letters. Qantas comes from Queensland and Northern Territory Aerial Services.",
@@ -577,13 +577,13 @@
    "stem": "In 'You might want to check those figures again', the word 'might' is:",
    "imageRef": null,
    "options": [
-    "a noun meaning strength or power",
+    "a modal auxiliary that strengthens the directive",
     "a modal auxiliary verb that softens the directive",
     "a main verb that carries the meaning of the clause",
     "an adverb that modifies the verb 'check'"
    ],
    "correctIndex": 1,
-   "explanation": "'Might' is a modal auxiliary expressing possibility, and using it turns an instruction into a polite suggestion. 'Want' is the main verb of the clause.",
+   "explanation": "'Might' is a modal auxiliary expressing possibility, and using it turns an instruction into a polite suggestion. It softens rather than strengthens the instruction, and 'want' is the main verb of the clause.",
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -599,10 +599,10 @@
     "an adverb in the first and an adjective in the second",
     "an adjective in the first and an adverb in the second",
     "an adverb in both, as it describes speed each time",
-    "a verb in the first and a noun in the second"
+    "an adjective in both, since neither form takes -ly"
    ],
    "correctIndex": 0,
-   "explanation": "Modifying the verb 'ran', 'fast' is an adverb; modifying the noun 'car', it is an adjective. Word class depends on function in the sentence, not on the form alone.",
+   "explanation": "Modifying the verb 'ran', 'fast' is an adverb; modifying the noun 'car', it is an adjective. Word class depends on function in the sentence, not on the form alone, and 'fast' is one of the adverbs that never takes -ly.",
    "difficulty": 3,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -653,13 +653,13 @@
    "stem": "Rewriting 'The council decided to expand the library' as 'The council's decision to expand the library' involves:",
    "imageRef": null,
    "options": [
-    "blending of 'decide' and 'expand'",
+    "inflection of 'council' as a plural",
     "nominalisation of the verb 'decided'",
     "conversion of the noun 'council'",
-    "backformation from the noun 'library'"
+    "conversion of the verb 'decided'"
    ],
    "correctIndex": 1,
-   "explanation": "The verb 'decided' becomes the noun 'decision', which is nominalisation. The resulting noun phrase can then act as a subject or object in a larger sentence.",
+   "explanation": "The verb 'decided' becomes the noun 'decision', which is nominalisation; it is not conversion, because the form changes. The 's on 'council' marks possession, not plural. The resulting noun phrase can then act as a subject or object in a larger sentence.",
    "difficulty": 2,
    "tier": "core",
    "generationBatch": "sen-el-sounds-words-20261106",
@@ -673,9 +673,9 @@
    "imageRef": null,
    "options": [
     "a borrowing, adopted from another language",
-    "a contraction of 'the' and another word",
+    "jargon, a technical term of the legal profession",
     "an archaism, deliberately kept for its ritual effect",
-    "a neologism, newly coined for the ceremony"
+    "a euphemism, softening a sensitive subject"
    ],
    "correctIndex": 2,
    "explanation": "'Thee' has disappeared from everyday English, but it survives in ritual and formal language, where its old-fashioned sound adds solemnity. Using an obsolete form on purpose like this is archaism.",

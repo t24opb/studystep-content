@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-qce-binomial-cubics",
+ "questions": [
+  {
+   "id": "meth-qce-binomial-cubics-0001",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "A combination of r objects from n distinct objects is:",
+   "imageRef": null,
+   "options": [
+    "an arrangement of all n objects in a row",
+    "a selection in which objects may repeat",
+    "an unordered selection of r of the objects",
+    "an ordered arrangement of r of the objects"
+   ],
+   "correctIndex": 2,
+   "explanation": "In a combination only which objects are chosen matters, not their order. An ordered arrangement is a permutation, which counts each selection several times.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0002",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The value of \u2075C\u2082 is:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "3",
+    "10",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2075C\u2082 = 5!/(2! 3!) = (5 \u00d7 4)/2 = 10. The value 20 is 5 \u00d7 4 without dividing by 2!, which counts ordered pairs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0003",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "A committee of 3 is chosen from 8 students. The number of possible committees is:",
+   "imageRef": null,
+   "options": [
+    "56",
+    "336",
+    "24",
+    "512"
+   ],
+   "correctIndex": 0,
+   "explanation": "Order does not matter, so the count is \u2078C\u2083 = (8 \u00d7 7 \u00d7 6)/(3 \u00d7 2 \u00d7 1) = 56. The value 336 counts ordered selections, and 512 = 8\u00b3 allows the same student to be chosen repeatedly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0004",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Starting with row 0 as 1, row 5 of Pascal's triangle is:",
+   "imageRef": null,
+   "options": [
+    "1, 5, 10, 10, 5, 1",
+    "1, 4, 6, 4, 1",
+    "1, 5, 10, 5, 1",
+    "1, 6, 15, 20, 15, 6, 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row n lists C(n, 0), C(n, 1), ..., C(n, n), so row 5 is 1, 5, 10, 10, 5, 1. The list 1, 4, 6, 4, 1 is row 4, and 1, 6, 15, 20, 15, 6, 1 is row 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0005",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "In Pascal's triangle, each entry is the sum of the two entries above it. So \u2076C\u2082 + \u2076C\u2083 equals:",
+   "imageRef": null,
+   "options": [
+    "\u00b9\u00b2C\u2085 = 792",
+    "\u2077C\u2082 = 21",
+    "\u2077C\u2083 = 35",
+    "\u2076C\u2085 = 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The two neighbours C(6, 2) = 15 and C(6, 3) = 20 sit above C(7, 3), and 15 + 20 = 35. The value C(7, 2) = 21 is the entry to the left of the correct one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0006",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Which value is equal to \u2079C\u2082?",
+   "imageRef": null,
+   "options": [
+    "\u2079C\u2083",
+    "\u2077C\u2082",
+    "\u00b2C\u2089",
+    "\u2079C\u2087"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choosing 2 objects to take is the same as choosing 7 to leave, so C(9, 2) = C(9, 7) = 36; Pascal's triangle is symmetric. \u2079C\u2083 = 84 is the next entry along.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0007",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The entries in row 7 of Pascal's triangle (starting from row 0) add to:",
+   "imageRef": null,
+   "options": [
+    "64",
+    "128",
+    "49",
+    "14"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row n sums to 2\u207f, because the entries count every possible subset of n objects, so row 7 sums to 2\u2077 = 128. The value 64 is the sum of row 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0008",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The expansion of (x + y)\u2076 has how many terms?",
+   "imageRef": null,
+   "options": [
+    "64",
+    "7",
+    "6",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "The powers of y run from 0 to 6, giving 7 terms, matching the 7 entries of row 6 of Pascal's triangle. The value 64 is the sum of that row, 2\u2076.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0009",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Expand (x + 4)\u00b3.",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 + 4x\u00b2 + 16x + 64",
+    "x\u00b3 + 12x\u00b2 + 48x + 64",
+    "x\u00b3 + 64",
+    "x\u00b3 + 12x\u00b2 + 12x + 64"
+   ],
+   "correctIndex": 1,
+   "explanation": "Using coefficients 1, 3, 3, 1: x\u00b3 + 3x\u00b2(4) + 3x(4\u00b2) + 4\u00b3 = x\u00b3 + 12x\u00b2 + 48x + 64. Writing x\u00b3 + 64 cubes each term and loses the middle terms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0010",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Expand (1 \u2212 x)\u2074.",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 4x + 6x\u00b2 \u2212 4x\u00b3 \u2212 x\u2074",
+    "1 \u2212 4x + 6x\u00b2 \u2212 4x\u00b3 + x\u2074",
+    "1 + 4x + 6x\u00b2 + 4x\u00b3 + x\u2074",
+    "1 \u2212 x\u2074"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row 4 gives 1, 4, 6, 4, 1, and the powers of (\u2212x) alternate in sign: odd powers negative, even powers positive. The last term is (\u2212x)\u2074 = +x\u2074.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0011",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Expand (2x \u2212 1)\u00b3.",
+   "imageRef": null,
+   "options": [
+    "2x\u00b3 \u2212 6x\u00b2 + 6x \u2212 1",
+    "8x\u00b3 + 12x\u00b2 + 6x + 1",
+    "8x\u00b3 \u2212 12x\u00b2 + 6x \u2212 1",
+    "8x\u00b3 \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "(2x)\u00b3 + 3(2x)\u00b2(\u22121) + 3(2x)(\u22121)\u00b2 + (\u22121)\u00b3 = 8x\u00b3 \u2212 12x\u00b2 + 6x \u2212 1. Writing 2x\u00b3 forgets to cube the 2 in 2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0012",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "In the expansion of (a + b)\u2074, the middle term is:",
+   "imageRef": null,
+   "options": [
+    "6a\u00b3b",
+    "6a\u00b2b\u00b2",
+    "4a\u00b2b\u00b2",
+    "a\u00b2b\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The terms use row 4 of Pascal's triangle, 1, 4, 6, 4, 1, and the middle term is C(4, 2)a\u00b2b\u00b2 = 6a\u00b2b\u00b2. The coefficient 4 belongs to a\u00b3b and ab\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0013",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The coefficient of x\u00b2 in the expansion of (x + 3)\u2075 is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "270",
+    "90",
+    "30"
+   ],
+   "correctIndex": 1,
+   "explanation": "The x\u00b2 term needs x to the power 5 \u2212 r = 2, so r = 3: C(5, 3) \u00d7 3\u00b3 = 10 \u00d7 27 = 270. Using 3\u00b2 instead of 3\u00b3 gives 90, a mismatch of the powers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0014",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The coefficient of x\u00b3 in the expansion of (2x \u2212 1)\u2075 is:",
+   "imageRef": null,
+   "options": [
+    "\u221280",
+    "40",
+    "10",
+    "80"
+   ],
+   "correctIndex": 3,
+   "explanation": "The term is C(5, 2)(2x)\u00b3(\u22121)\u00b2 = 10 \u00d7 8x\u00b3 \u00d7 1 = 80x\u00b3. The sign is positive because (\u22121) is squared, and forgetting to cube the 2 gives 10.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0015",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The term independent of x in the expansion of (x + 2/x)\u2074 is:",
+   "imageRef": null,
+   "options": [
+    "16",
+    "8",
+    "24",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The general term C(4, r)x^(4 \u2212 r)(2/x)^r has power 4 \u2212 2r, which is 0 when r = 2: C(4, 2) \u00d7 2\u00b2 = 6 \u00d7 4 = 24. Forgetting the 2\u00b2 gives 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0016",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The polynomial 4x\u00b3 \u2212 2x\u2075 + x \u2212 7 has degree and leading coefficient:",
+   "imageRef": null,
+   "options": [
+    "degree 5, leading coefficient \u22122",
+    "degree 3, leading coefficient 4",
+    "degree 5, leading coefficient 2",
+    "degree 4, leading coefficient \u22127"
+   ],
+   "correctIndex": 0,
+   "explanation": "The degree is the highest power, 5, and the leading coefficient multiplies it, \u22122 including its sign. The first term written is not necessarily the leading term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0017",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "In 3x\u00b3 \u2212 5x\u00b2 + x \u2212 9, the coefficient of x\u00b2 and the constant term are:",
+   "imageRef": null,
+   "options": [
+    "\u22125 and \u22129",
+    "5 and 9",
+    "\u22125 and 3",
+    "2 and \u22129"
+   ],
+   "correctIndex": 0,
+   "explanation": "The coefficient of x\u00b2 is the number multiplying it, \u22125, sign included, and the constant term is \u22129. The value 2 is the power, not the coefficient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0018",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "Expanding (x \u2212 2)(x + 3)(x \u2212 1) gives:",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 \u2212 7x + 6",
+    "x\u00b3 + 7x \u2212 6",
+    "x\u00b3 \u2212 7x \u2212 6",
+    "x\u00b3 + 2x\u00b2 \u2212 5x + 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "(x \u2212 2)(x + 3) = x\u00b2 + x \u2212 6, and (x\u00b2 + x \u2212 6)(x \u2212 1) = x\u00b3 \u2212 x\u00b2 + x\u00b2 \u2212 x \u2212 6x + 6 = x\u00b3 \u2212 7x + 6. A check at x = 1, where the product is 0, rules out the others.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0019",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The graph of y = x\u00b3:",
+   "imageRef": null,
+   "options": [
+    "falls from left to right with a stationary point of inflection at the origin",
+    "has a maximum turning point at the origin",
+    "rises from left to right with a stationary point of inflection at the origin",
+    "has a minimum turning point at the origin"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = x\u00b3 is always increasing, flattening out at (0, 0) where it changes concavity: a stationary point of inflection. A minimum at the origin describes y = x\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0020",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The graph of y = 2(x \u2212 1)\u00b3 + 4 has a stationary point of inflection at:",
+   "imageRef": null,
+   "options": [
+    "(1, 4)",
+    "(\u22121, 4)",
+    "(1, \u22124)",
+    "(2, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "In y = a(x \u2212 h)\u00b3 + k, the point of inflection is (h, k) = (1, 4). Reading x \u2212 1 as h = \u22121 gives (\u22121, 4).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0021",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The graph of y = \u2212(x + 2)\u00b3 \u2212 1 has a point of inflection at (\u22122, \u22121) and, as x \u2192 \u221e:",
+   "imageRef": null,
+   "options": [
+    "y \u2192 \u22122",
+    "y \u2192 \u2212\u221e",
+    "y \u2192 \u221e",
+    "y \u2192 \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "The leading coefficient is negative, so for large positive x, \u2212(x + 2)\u00b3 is a large negative number and y \u2192 \u2212\u221e. The graph is a reflection of y = x\u00b3 in the x-axis, shifted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0022",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The y-intercept of y = 2(x \u2212 1)\u00b3 + 4 is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "4",
+    "\u22124",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "At x = 0, y = 2(\u22121)\u00b3 + 4 = \u22122 + 4 = 2. Treating (\u22121)\u00b3 as +1 gives 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0023",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The x-intercept of y = (x \u2212 2)\u00b3 \u2212 8 is:",
+   "imageRef": null,
+   "options": [
+    "x = 0",
+    "x = 10",
+    "x = \u22126",
+    "x = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set y = 0: (x \u2212 2)\u00b3 = 8, so x \u2212 2 = 2 and x = 4. Adding 8 and 2 without taking the cube root gives 10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0024",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The x-intercept of y = 2(x + 1)\u00b3 \u2212 54 is:",
+   "imageRef": null,
+   "options": [
+    "x = 4",
+    "x = \u22124",
+    "x = 2",
+    "x = 26"
+   ],
+   "correctIndex": 2,
+   "explanation": "2(x + 1)\u00b3 = 54 gives (x + 1)\u00b3 = 27, so x + 1 = 3 and x = 2. Forgetting the cube root gives x + 1 = 27 and x = 26.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0025",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The x-intercepts of y = (x + 1)(x \u2212 2)(x \u2212 5) are:",
+   "imageRef": null,
+   "options": [
+    "x = 10 only",
+    "x = \u22121, 2 and 5",
+    "x = 1, \u22122 and \u22125",
+    "x = \u22121, \u22122 and \u22125"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each factor gives a zero: x + 1 = 0, x \u2212 2 = 0 and x \u2212 5 = 0. Reading the numbers in the brackets with their signs reverses each one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0026",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The y-intercept of y = (x + 1)(x \u2212 2)(x \u2212 5) is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "10",
+    "\u221210",
+    "8"
+   ],
+   "correctIndex": 1,
+   "explanation": "At x = 0, y = (1)(\u22122)(\u22125) = 10. Losing one negative sign gives \u221210.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0027",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "For y = \u22122x\u00b3 + 5x \u2212 1, which describes the behaviour of the graph at the extremes?",
+   "imageRef": null,
+   "options": [
+    "As x \u2192 \u221e, y \u2192 \u2212\u221e, and as x \u2192 \u2212\u221e, y \u2192 \u221e",
+    "As x \u2192 \u221e, y \u2192 \u221e, and as x \u2192 \u2212\u221e, y \u2192 \u2212\u221e",
+    "As x \u2192 \u221e, y \u2192 \u2212\u221e, and as x \u2192 \u2212\u221e, y \u2192 \u2212\u221e",
+    "As x \u2192 \u221e, y \u2192 \u221e, and as x \u2192 \u2212\u221e, y \u2192 \u221e"
+   ],
+   "correctIndex": 0,
+   "explanation": "For large |x| the leading term \u22122x\u00b3 dominates, and it is negative for large positive x and positive for large negative x. Both ends pointing the same way is the behaviour of an even-degree polynomial.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0028",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The graph of y = (x \u2212 1)\u00b2(x + 3):",
+   "imageRef": null,
+   "options": [
+    "crosses the x-axis at x = 1 and touches it at x = \u22123",
+    "crosses the x-axis at x = \u22121, 1 and 3",
+    "touches the x-axis at x = \u22121 and crosses it at x = 3",
+    "touches the x-axis at x = 1 and crosses it at x = \u22123"
+   ],
+   "correctIndex": 3,
+   "explanation": "The repeated factor (x \u2212 1)\u00b2 does not change sign, so the graph touches the axis there and turns; the single factor (x + 3) gives a crossing. The zeros are 1 and \u22123, not \u00b11 or 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0029",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "For y = (x + 1)(x \u2212 2)(x \u2212 5), the values of x for which y > 0 are:",
+   "imageRef": null,
+   "options": [
+    "x > 5 only",
+    "\u22121 < x < 2 or x > 5",
+    "x < \u22121 or 2 < x < 5",
+    "\u22121 < x < 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The leading coefficient is positive, so y > 0 for large x and the sign alternates at each zero: positive on x > 5, negative on 2 < x < 5, positive on \u22121 < x < 2 and negative for x < \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0030",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "A cubic has x-intercepts \u22122, 1 and 3 and y-intercept 12. Its rule is:",
+   "imageRef": null,
+   "options": [
+    "y = 2(x + 2)(x \u2212 1)(x \u2212 3)",
+    "y = 2(x \u2212 2)(x + 1)(x + 3)",
+    "y = (x + 2)(x \u2212 1)(x \u2212 3)",
+    "y = \u22122(x + 2)(x \u2212 1)(x \u2212 3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write y = a(x + 2)(x \u2212 1)(x \u2212 3); at x = 0, y = a(2)(\u22121)(\u22123) = 6a = 12, so a = 2. With a = 1 the y-intercept would be 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0031",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "A graph of the form y = a(x \u2212 h)\u00b3 + k has its point of inflection at (2, \u22121) and passes through (3, 2). The value of a is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22123",
+    "3",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = a(x \u2212 2)\u00b3 \u2212 1; at x = 3, 2 = a(1)\u00b3 \u2212 1, so a = 3. Forgetting the \u22121 gives a = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0032",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The solutions of x(x \u2212 4)(2x + 1) = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 4 and \u22121/2 only",
+    "x = 0, \u22124 and 1/2",
+    "x = 0, 4 and \u22121",
+    "x = 0, 4 and \u22121/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each factor can be zero: x = 0, x \u2212 4 = 0 gives 4, and 2x + 1 = 0 gives \u22121/2. Leaving out the factor x loses the solution x = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0033",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The solutions of (x \u2212 3)\u00b2(x + 2) = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 9 and x = \u22122",
+    "x = 3 and x = \u22122",
+    "x = 3 only",
+    "x = \u22123 and x = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Either (x \u2212 3)\u00b2 = 0, giving x = 3 (a repeated root), or x + 2 = 0, giving x = \u22122. The square does not change the root to 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0034",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The solutions of x\u00b3 \u2212 9x = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 0 and 9 only",
+    "x = 0, 3 and \u22123",
+    "x = 3 and \u22123 only",
+    "x = 0 and 3 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b3 \u2212 9x = x(x\u00b2 \u2212 9) = x(x \u2212 3)(x + 3), giving 0, 3 and \u22123. Dividing both sides by x loses the solution x = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0035",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "The solutions of x\u00b3 = 4x\u00b2 are:",
+   "imageRef": null,
+   "options": [
+    "x = 0 and x = 2",
+    "x = 2 and x = \u22122",
+    "x = 0 and x = 4",
+    "x = 4 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearrange to x\u00b3 \u2212 4x\u00b2 = 0, so x\u00b2(x \u2212 4) = 0, giving x = 0 or x = 4. Dividing by x\u00b2 discards x = 0, which is a genuine solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0036",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "An open box is made from a 12 cm by 12 cm sheet by cutting a square of side x cm from each corner and folding up. Its volume is V = x(12 \u2212 2x)\u00b2. The domain of the model is:",
+   "imageRef": null,
+   "options": [
+    "0 < x < 6",
+    "0 < x < 12",
+    "x > 0",
+    "\u22126 < x < 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cut x must be positive, and the base side 12 \u2212 2x must also be positive, so x < 6. Allowing x up to 12 would give a negative base length.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-binomial-cubics-0037",
+   "topicId": "meth-qce-binomial-cubics",
+   "stem": "For the same box, V = x(12 \u2212 2x)\u00b2, the volume when x = 3 cm is:",
+   "imageRef": null,
+   "options": [
+    "36 cm\u00b3",
+    "18 cm\u00b3",
+    "108 cm\u00b3",
+    "324 cm\u00b3"
+   ],
+   "correctIndex": 2,
+   "explanation": "V = 3 \u00d7 (12 \u2212 6)\u00b2 = 3 \u00d7 36 = 108 cm\u00b3. Squaring before subtracting, 3 \u00d7 (144 \u2212 36), gives 324.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-binomial-cubics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

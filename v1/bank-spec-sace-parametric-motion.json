@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-sace-parametric-motion",
+ "questions": [
+  {
+   "id": "spec-sace-parametric-motion-0001",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x(t) = 2 + 3t and y(t) = 1 \u2212 4t. What is its speed?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22121",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The velocity is [x\u2032(t), y\u2032(t)] = [3, \u22124], so the speed is \u221a(3\u00b2 + (\u22124)\u00b2) = 5. Adding the components gives 7, which is not the magnitude of a vector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0002",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x(t) = 2 + 3t and y(t) = 1 \u2212 4t. What is the Cartesian equation of its path?",
+   "imageRef": null,
+   "options": [
+    "3x + 4y = 10",
+    "4x \u2212 3y = 5",
+    "4x + 3y = 5",
+    "4x + 3y = 11"
+   ],
+   "correctIndex": 3,
+   "explanation": "From x = 2 + 3t, t = (x \u2212 2)/3, so y = 1 \u2212 4(x \u2212 2)/3, giving 3y = 11 \u2212 4x, or 4x + 3y = 11. Check: t = 1 gives (5, \u22123) and 20 \u2212 9 = 11.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0003",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point starts at (1, 2) and moves with constant velocity [2, 5]. Where is it at t = 3?",
+   "imageRef": null,
+   "options": [
+    "(7, 17)",
+    "(6, 15)",
+    "(3, 7)",
+    "(9, 11)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Uniform motion gives (x(t), y(t)) = (1 + 2t, 2 + 5t), so at t = 3 the point is (7, 17). The value (6, 15) is the displacement 3[2, 5] without the starting position.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0004",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "Particle A has position (1 + 2t, 3 + t) and particle B has position (10 \u2212 t, \u22123 + 3t), for t \u2265 0. Do they collide?",
+   "imageRef": null,
+   "options": [
+    "No, their paths cross but at different times",
+    "Yes, at t = 2, at the point (5, 5)",
+    "No, their paths are parallel and never meet",
+    "Yes, at t = 3, at the point (7, 6)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Setting 1 + 2t = 10 \u2212 t gives t = 3, and then both y-coordinates are 6, so both particles are at (7, 6) at the same time. At t = 2, A is at (5, 5) but B is at (8, 3).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0005",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "Particle A has position (t, 2t) and particle B has position (4 \u2212 t, t), for t \u2265 0. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "They collide at (2, 4) when t = 2",
+    "Their paths are parallel lines, so they never meet",
+    "Their paths cross at (4/3, 8/3), but they reach it at different times",
+    "They collide at (4/3, 8/3) when t = 4/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The paths are y = 2x and y = 4 \u2212 x, which cross at (4/3, 8/3). A is there when t = 4/3, but B is there when t = 8/3, so they do not collide. At t = 2, B is at (2, 2), not (2, 4).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0006",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is hit from ground level on flat ground and its position after t seconds is x = 15t, y = 20t \u2212 4.9t\u00b2, in metres. What is its initial speed?",
+   "imageRef": null,
+   "options": [
+    "25 m s\u207b\u00b9",
+    "35 m s\u207b\u00b9",
+    "20 m s\u207b\u00b9",
+    "15 m s\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The initial velocity is [x\u2032(0), y\u2032(0)] = [15, 20], whose magnitude is \u221a(15\u00b2 + 20\u00b2) = 25 m s\u207b\u00b9. Adding the components gives 35, and 20 is only the vertical component.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0007",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is hit from ground level on flat ground and its position after t seconds is x = 15t, y = 20t \u2212 4.9t\u00b2, in metres. When does it land?",
+   "imageRef": null,
+   "options": [
+    "After about 4.08 s",
+    "After about 2.04 s",
+    "After about 3.06 s",
+    "After about 1.53 s"
+   ],
+   "correctIndex": 0,
+   "explanation": "It lands when y = 0: t(20 \u2212 4.9t) = 0, so t = 20/4.9 \u2248 4.08 s. The value 2.04 s is when it reaches its highest point, halfway through the flight.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0008",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is hit from ground level on flat ground and its position after t seconds is x = 15t, y = 20t \u2212 4.9t\u00b2, in metres. What is its greatest height?",
+   "imageRef": null,
+   "options": [
+    "About 61.2 m",
+    "About 10.2 m",
+    "About 20.4 m",
+    "About 40.8 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The height is greatest when y\u2032(t) = 20 \u2212 9.8t = 0, at t \u2248 2.04 s, giving y = 20 \u00d7 2.04 \u2212 4.9 \u00d7 2.04\u00b2 \u2248 20.4 m. The value 61.2 m is the horizontal range.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0009",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is hit from ground level on flat ground and its position after t seconds is x = 15t, y = 20t \u2212 4.9t\u00b2, in metres. What is its speed at t = 1?",
+   "imageRef": null,
+   "options": [
+    "About 25.2 m s\u207b\u00b9",
+    "About 10.2 m s\u207b\u00b9",
+    "About 25.0 m s\u207b\u00b9",
+    "About 18.1 m s\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocity is [15, 20 \u2212 9.8t], which is [15, 10.2] at t = 1, so the speed is \u221a(15\u00b2 + 10.2\u00b2) \u2248 18.1 m s\u207b\u00b9. Adding the components gives 25.2, and 25.0 is the launch speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0010",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is hit from ground level on flat ground and its position after t seconds is x = 15t, y = 20t \u2212 4.9t\u00b2, in metres. What is the Cartesian equation of its path?",
+   "imageRef": null,
+   "options": [
+    "y = (3/4)x \u2212 4.9x\u00b2/400",
+    "y = (4/3)x \u2212 4.9x\u00b2/15",
+    "y = 20x \u2212 4.9x\u00b2",
+    "y = (4/3)x \u2212 4.9x\u00b2/225"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting t = x/15 gives y = 20(x/15) \u2212 4.9(x/15)\u00b2 = (4/3)x \u2212 4.9x\u00b2/225, a parabola. Dividing x\u00b2 by 15 instead of 15\u00b2 gives the third form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0011",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A ball is thrown from the point (0, 2) with initial velocity [8, 6] m s\u207b\u00b9, so x = 8t and y = 2 + 6t \u2212 4.9t\u00b2. How high is it when it has travelled 4 m horizontally?",
+   "imageRef": null,
+   "options": [
+    "About 5.00 m",
+    "About 1.78 m",
+    "About 2.55 m",
+    "About 3.78 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = 4 when t = 0.5, so y = 2 + 3 \u2212 4.9 \u00d7 0.25 \u2248 3.78 m. Leaving out the starting height gives 1.78 m, and ignoring gravity gives 5.00 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0012",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x = t\u00b2 and y = 2t, for all real t. What is the Cartesian equation of its path?",
+   "imageRef": null,
+   "options": [
+    "y = 2x\u00b2",
+    "y\u00b2 = 2x",
+    "y\u00b2 = 4x",
+    "x\u00b2 = 4y"
+   ],
+   "correctIndex": 2,
+   "explanation": "From y = 2t, t = y/2, so x = (y/2)\u00b2 = y\u00b2/4, giving y\u00b2 = 4x. This is a parabola opening to the right; swapping the roles of x and y gives x\u00b2 = 4y.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0013",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x = t + 1 and y = t\u00b2 \u2212 3. What is the Cartesian equation of its path?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2 + 2x \u2212 2",
+    "y = x\u00b2 \u2212 4",
+    "y = x\u00b2 \u2212 2x \u2212 3",
+    "y = x\u00b2 \u2212 2x \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "t = x \u2212 1, so y = (x \u2212 1)\u00b2 \u2212 3 = x\u00b2 \u2212 2x + 1 \u2212 3 = x\u00b2 \u2212 2x \u2212 2. Using t = x + 1 by mistake gives x\u00b2 + 2x \u2212 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0014",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x = e\u1d57 and y = e\u00b2\u1d57, for all real t. Which describes its path?",
+   "imageRef": null,
+   "options": [
+    "The part of the line y = 2x for which x > 0",
+    "The part of y = x\u00b2 for which x < 0",
+    "The part of y = x\u00b2 for which x > 0",
+    "The whole parabola y = x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = (e\u1d57)\u00b2 = x\u00b2, but x = e\u1d57 is always positive, so only the right half of the parabola is traced. Eliminating t without checking the possible values of x wrongly gives the whole parabola.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0015",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves so that x = 4cos(t) and y = 3sin(t). What is the Cartesian equation of its path?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/4 + y\u00b2/3 = 1",
+    "x\u00b2 + y\u00b2 = 25",
+    "x\u00b2/9 + y\u00b2/16 = 1",
+    "x\u00b2/16 + y\u00b2/9 = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(t) = x/4 and sin(t) = y/3, and cos\u00b2(t) + sin\u00b2(t) = 1 gives x\u00b2/16 + y\u00b2/9 = 1, an ellipse. Forgetting to square the 4 and the 3 gives the second form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0016",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves along a curve. How is its velocity vector [x\u2032(t), y\u2032(t)] related to the curve?",
+   "imageRef": null,
+   "options": [
+    "It points towards the centre of the curve's bend",
+    "It is tangent to the curve at the point's position",
+    "It is perpendicular to the curve at the point's position",
+    "It points from the origin to the point's position"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, dy/dx = y\u2032(t)/x\u2032(t), which is the gradient of the curve, so the velocity vector always lies along the tangent. The vector from the origin is the position vector, not the velocity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0017",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point has position (t\u00b2, t\u00b3). What is its velocity vector?",
+   "imageRef": null,
+   "options": [
+    "[2, 6t]",
+    "[t\u00b3/3, t\u2074/4]",
+    "[2t, 3t]",
+    "[2t, 3t\u00b2]"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocity is the vector of derivatives, [x\u2032(t), y\u2032(t)] = [2t, 3t\u00b2]. The vector [2, 6t] is the second derivative, which is the acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0018",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point has position (t\u00b3 \u2212 t, t\u00b2 + 1). What is its velocity at t = 1?",
+   "imageRef": null,
+   "options": [
+    "[6, 2]",
+    "[2, 2]",
+    "[0, 2]",
+    "[3, 2]"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u2032(t) = 3t\u00b2 \u2212 1 and y\u2032(t) = 2t, so at t = 1 the velocity is [2, 2]. The pair [0, 2] is the position at t = 1, not the velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0019",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A curve is given by x = 2t + 1 and y = t\u00b3 \u2212 3t. What is the gradient dy/dx at t = 2?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "6",
+    "9/2",
+    "2/9"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = y\u2032(t)/x\u2032(t) = (3t\u00b2 \u2212 3)/2, which is 9/2 at t = 2. Dividing the other way gives 2/9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0020",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A curve is given by x = t\u00b2 and y = t\u00b3. What is the equation of its tangent at t = 1?",
+   "imageRef": null,
+   "options": [
+    "y = (3x + 1)/2",
+    "y = (3x \u2212 1)/2",
+    "y = (2x + 1)/3",
+    "y = 3x \u2212 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "At t = 1 the point is (1, 1) and dy/dx = 3t\u00b2/(2t) = 3/2, so y \u2212 1 = (3/2)(x \u2212 1), giving y = (3x \u2212 1)/2. Using y\u2032(t) = 3 alone as the gradient gives y = 3x \u2212 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0021",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A curve is given by x = t\u00b2 \u2212 2t and y = t\u00b3. At which point is its tangent vertical?",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 1)",
+    "(0, 0)",
+    "(1, 1)",
+    "(0, 8)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The tangent is vertical where x\u2032(t) = 0 and y\u2032(t) \u2260 0. x\u2032(t) = 2t \u2212 2 = 0 at t = 1, where y\u2032 = 3 \u2260 0, giving the point (\u22121, 1). At (0, 0), where t = 0, y\u2032 = 0 and the tangent is horizontal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0022",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A particle has position (t\u00b2 \u2212 4t, t\u00b3 \u2212 12t) for t \u2265 0. When and where is it momentarily at rest?",
+   "imageRef": null,
+   "options": [
+    "It is never at rest for t \u2265 0",
+    "At t = 2, at the point (\u22124, \u221216)",
+    "At t = 0, at the point (0, 0)",
+    "At t = 4, at the point (0, 16)"
+   ],
+   "correctIndex": 1,
+   "explanation": "At rest means the velocity [2t \u2212 4, 3t\u00b2 \u2212 12] is the zero vector, and both components are zero at t = 2. The position then is (4 \u2212 8, 8 \u2212 24) = (\u22124, \u221216).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0023",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "How is the speed of a point moving with position (x(t), y(t)) found?",
+   "imageRef": null,
+   "options": [
+    "y\u2032(t)/x\u2032(t)",
+    "\u221a(x\u2032(t)\u00b2 + y\u2032(t)\u00b2)",
+    "x\u2032(t) + y\u2032(t)",
+    "\u221a(x(t)\u00b2 + y(t)\u00b2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Speed is the magnitude of the velocity vector [x\u2032(t), y\u2032(t)]. The expression \u221a(x(t)\u00b2 + y(t)\u00b2) is the distance from the origin, and y\u2032(t)/x\u2032(t) is the gradient dy/dx.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0024",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point has position (t\u00b2, 2t). What is its speed at t = 2?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "2\u221a5",
+    "6",
+    "4\u221a2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The velocity is [2t, 2] = [4, 2] at t = 2, so the speed is \u221a(16 + 4) = \u221a20 = 2\u221a5. The value 4\u221a2 is the distance of the position (4, 4) from the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0025",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point has position (2t, t\u00b2 \u2212 4t). What is its least speed, and when does it occur?",
+   "imageRef": null,
+   "options": [
+    "0, when t = 2",
+    "2, when t = 0",
+    "4, when t = 2",
+    "2, when t = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocity is [2, 2t \u2212 4], so the speed is \u221a(4 + (2t \u2212 4)\u00b2), least when 2t \u2212 4 = 0, at t = 2, where it is 2. The speed is never 0 because the x-component is always 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0026",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point in 3D has position (t, t\u00b2, t\u00b3). What is its speed at t = 1?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "\u221a14",
+    "\u221a3",
+    "6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The velocity is [1, 2t, 3t\u00b2] = [1, 2, 3] at t = 1, so the speed is \u221a(1 + 4 + 9) = \u221a14. The value \u221a3 is the distance of the position (1, 1, 1) from the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0027",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves along a curve from t = a to t = b. Which integral gives the length of the path?",
+   "imageRef": null,
+   "options": [
+    "\u222b from a to b of \u221a(x\u2032(t)\u00b2 + y\u2032(t)\u00b2) dt",
+    "\u222b from a to b of (x\u2032(t) + y\u2032(t)) dt",
+    "\u222b from a to b of \u221a(x(t)\u00b2 + y(t)\u00b2) dt",
+    "\u222b from a to b of (x\u2032(t)\u00b2 + y\u2032(t)\u00b2) dt"
+   ],
+   "correctIndex": 0,
+   "explanation": "The arc length is the integral of the speed, \u221a(v \u00b7 v), over the time interval. Leaving out the square root integrates the square of the speed, which is not a length.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0028",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves with x = 1 + 3t and y = 2 + 4t. How far does it travel from t = 0 to t = 2?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "5",
+    "7",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "The speed is constant at \u221a(3\u00b2 + 4\u00b2) = 5, so the length of the path is the integral of 5 from 0 to 2, which is 10. The value 14 comes from adding the components instead of finding the magnitude.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0029",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "What is the length of the curve x = 3t\u00b2, y = 2t\u00b3 from t = 0 to t = 1?",
+   "imageRef": null,
+   "options": [
+    "4\u221a2",
+    "2\u221a2",
+    "\u221a2 \u2212 1",
+    "4\u221a2 \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The speed is \u221a(36t\u00b2 + 36t\u2074) = 6t\u221a(1 + t\u00b2). Its antiderivative is 2(1 + t\u00b2)^(3/2), so the length is 2(2\u221a2) \u2212 2(1) = 4\u221a2 \u2212 2. Forgetting to subtract the value at t = 0 gives 4\u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0030",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A curve has x = t\u00b2/2 and y = (1/3)(2t + 1)^(3/2). What is its length from t = 0 to t = 2?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "4",
+    "2",
+    "6"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u2032(t) = t and y\u2032(t) = (2t + 1)^(1/2), so the speed is \u221a(t\u00b2 + 2t + 1) = t + 1. The integral of t + 1 from 0 to 2 is 2 + 2 = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0031",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves around a circle of radius R with position [R cos(t), R sin(t)]. Which calculation confirms the circumference of the circle?",
+   "imageRef": null,
+   "options": [
+    "\u222b from 0 to \u03c0 of R dt = \u03c0R",
+    "\u222b from 0 to 2\u03c0 of 1 dt = 2\u03c0",
+    "\u222b from 0 to 2\u03c0 of R dt = 2\u03c0R",
+    "\u222b from 0 to 2\u03c0 of R\u00b2 dt = 2\u03c0R\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The velocity is [\u2212R sin(t), R cos(t)], whose magnitude is \u221a(R\u00b2(sin\u00b2(t) + cos\u00b2(t))) = R. One full revolution takes t from 0 to 2\u03c0, so the length is 2\u03c0R. Integrating from 0 to \u03c0 covers only half the circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0032",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point in 3D moves along the helix (4cos(t), 4sin(t), 3t). How far does it travel from t = 0 to t = 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "8\u03c0",
+    "14\u03c0",
+    "5\u03c0",
+    "10\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocity is [\u22124sin(t), 4cos(t), 3], whose magnitude is \u221a(16 + 9) = 5 at all times, so the length is 5 \u00d7 2\u03c0 = 10\u03c0. The value 8\u03c0 is the circumference of the circle the helix winds around, ignoring the climb.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0033",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point has position P(t) = [cos(t), sin(t)] for t \u2265 0. Which describes its motion?",
+   "imageRef": null,
+   "options": [
+    "Around the unit circle anticlockwise from (1, 0), at speed 1",
+    "Around the unit circle clockwise from (1, 0), at speed 1",
+    "Around the unit circle anticlockwise from (0, 1), at speed 2\u03c0",
+    "Along the line y = x from the origin, at speed 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "At t = 0 the point is at (1, 0), and as t increases the angle increases, so it moves anticlockwise. The velocity [\u2212sin(t), cos(t)] has magnitude 1, so the speed is constant at 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0034",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves with position [3cos(2t), 3sin(2t)]. What is its speed?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "2",
+    "12"
+   ],
+   "correctIndex": 0,
+   "explanation": "The velocity is [\u22126sin(2t), 6cos(2t)], with magnitude 6. In general, [R cos(\u03c9t), R sin(\u03c9t)] has speed R\u03c9. The value 12 is the size of the acceleration, R\u03c9\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0035",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves with position P(t) = [R cos(\u03c9t), R sin(\u03c9t)]. What is its acceleration?",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c9P(t), directed towards the centre with magnitude R\u03c9",
+    "Zero, because the point moves at a constant speed",
+    "\u2212\u03c9\u00b2P(t), directed towards the centre with magnitude R\u03c9\u00b2",
+    "\u03c9\u00b2P(t), directed away from the centre with magnitude R\u03c9\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiating twice gives [\u2212R\u03c9\u00b2 cos(\u03c9t), \u2212R\u03c9\u00b2 sin(\u03c9t)] = \u2212\u03c9\u00b2P(t), which points back towards the centre: centripetal acceleration of size R\u03c9\u00b2. The speed is constant, but the direction of the velocity keeps changing, so the acceleration is not zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0036",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves with position [3cos(2t), 3sin(2t)]. How long does it take to go once around its circle?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u03c0",
+    "2\u03c0",
+    "4\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "One revolution needs the angle 2t to increase by 2\u03c0, so t increases by \u03c0. The value 2\u03c0 would be the period for [3cos(t), 3sin(t)].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0037",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A particle has position (3cos(t), 2sin(2t)). What is its speed at t = \u03c0/2?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u221a13",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The velocity is [\u22123sin(t), 4cos(2t)], which at t = \u03c0/2 is [\u22123, 4cos(\u03c0)] = [\u22123, \u22124], with magnitude 5. Adding the sizes of the components gives 7.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-parametric-motion-0038",
+   "topicId": "spec-sace-parametric-motion",
+   "stem": "A point moves with position [2sin(t), 2cos(t)] for t \u2265 0. Where does it start, and which way does it go around the circle?",
+   "imageRef": null,
+   "options": [
+    "At (2, 0), moving anticlockwise",
+    "At (2, 0), moving clockwise",
+    "At (0, 2), moving clockwise",
+    "At (0, 2), moving anticlockwise"
+   ],
+   "correctIndex": 2,
+   "explanation": "At t = 0 the position is (2sin(0), 2cos(0)) = (0, 2). The velocity there is [2cos(0), \u22122sin(0)] = [2, 0], pointing right from the top of the circle, so the motion is clockwise.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-parametric-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

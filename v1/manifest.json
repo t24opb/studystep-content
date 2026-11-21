@@ -1,7 +1,7 @@
 {
- "version": 6,
- "generated": "2026-11-11T02:37:24Z",
- "minimumAppBuild": 15,
+ "version": 7,
+ "generated": "2026-11-21T00:11:14Z",
+ "minimumAppBuild": 16,
  "files": {
   "bank-acc-balance-day.json": {
    "sha256": "9b6966d893ceb1f28395a5e84ba68bcd71c7c52126fe5b86e1cd410431d6cb2c",
@@ -22,6 +22,38 @@
   "bank-acc-non-current-assets.json": {
    "sha256": "a09f6e1579e0bfe81da8b96ef7a1a00e65bfe8651a00e17a975e74942976d957",
    "bytes": 34833
+  },
+  "bank-acc-qce-adjustments-reversing.json": {
+   "sha256": "c8b0b3296694f04882240fd70d2fe7165c50ca8246fafa38f447ef59a5cb43ef",
+   "bytes": 37882
+  },
+  "bank-acc-qce-cash-management.json": {
+   "sha256": "62979acf1991ec27c52fa02e2a24762045e6653a37c60608b24bd4a18d398913",
+   "bytes": 30391
+  },
+  "bank-acc-qce-company-analysis.json": {
+   "sha256": "b5dca075b43c2e590a3cfc35eed80f27208e26542f4df55b6e8eff05da754a64",
+   "bytes": 32456
+  },
+  "bank-acc-qce-data-controls.json": {
+   "sha256": "0112218705f60fc48439d6b3f7554c1190edfa129d509da42c4e60c678e9ee50",
+   "bytes": 31525
+  },
+  "bank-acc-qce-end-of-period.json": {
+   "sha256": "e72150b8bfc70df8cf01a28584263278eb5dc0b16d38ce627281bd56d4829da6",
+   "bytes": 23645
+  },
+  "bank-acc-qce-intro-accounting.json": {
+   "sha256": "42f5cacdd8aedef93dfe713839003614762cff974cd4ae8656b7aab4138b0684",
+   "bytes": 25399
+  },
+  "bank-acc-qce-recording-transactions.json": {
+   "sha256": "696ccad1e47dcec20ba330f2b70a9e861db2bf7d896c34542ae499bfd32f25c5",
+   "bytes": 29207
+  },
+  "bank-acc-qce-sole-trader-analysis.json": {
+   "sha256": "d6645fc1c9c71197a75ab534a64939f799538672e73fa1a2100b461b33c99011",
+   "bytes": 26674
   },
   "bank-acc-receivables-payables.json": {
    "sha256": "38ccb53543fb7fdb41c02b9c78ef5897fdd97347c61bc0d263bc60b043917ac5",
@@ -55,6 +87,26 @@
    "sha256": "5dfd3bd53425594e8ab4b14df4990cd6154d2b2707728cc6a6e1b9fa0367a93a",
    "bytes": 42326
   },
+  "bank-bio-bsss-biodiversity.json": {
+   "sha256": "9ce09400c3ad35521205173d526fce711d03315dab143a71e2c89a0993d9a63a",
+   "bytes": 34885
+  },
+  "bank-bio-bsss-cell-division.json": {
+   "sha256": "ddd22411101e215104ae11d741f2bde5ed7c023ac4cc64c4619a82b7f8a99f1e",
+   "bytes": 33631
+  },
+  "bank-bio-bsss-ecosystem-dynamics.json": {
+   "sha256": "7e0ea4bd73314d9fb037aa80b5e527e176b72b911be94965535f630a9a1658cc",
+   "bytes": 35943
+  },
+  "bank-bio-bsss-homeostasis.json": {
+   "sha256": "1b04c3ac196fb5644f955a20af118d749577e52d417e7c47bd7e5e1ab30059ba",
+   "bytes": 36132
+  },
+  "bank-bio-bsss-multicellular.json": {
+   "sha256": "1072afa94ecb2b1f8c6f37d09c53805f7b8b706381453d75ceae1f1fbdea7a0d",
+   "bytes": 34377
+  },
   "bank-bio-cell-function.json": {
    "sha256": "002be49c64ed2babdfb79d3687a67dd0d2ae0827e9a3ae4c236e40e9a6abfc1d",
    "bytes": 39930
@@ -62,6 +114,78 @@
   "bank-bio-evolution.json": {
    "sha256": "4da7fd65f0438eac8189a98548a163708a74a61c73bd4e7c53a21bf4af9c85f4",
    "bytes": 41869
+  },
+  "bank-bio-hsc-biochemical-processes.json": {
+   "sha256": "5aa7cc46c7f89332bf2b25cf2093ab0643919f74c6942d64d5ad4f3382289b5b",
+   "bytes": 36576
+  },
+  "bank-bio-hsc-biotech-agriculture.json": {
+   "sha256": "151eae2600a6f9edec8aa31e4c23e6cc5a9791f92a72e6a95207747a4e19baf5",
+   "bytes": 35429
+  },
+  "bank-bio-hsc-biotech-health.json": {
+   "sha256": "7665422be319804b0d93cb9b1f2bda57c20215e0fc333642d7890e4ca39efeb0",
+   "bytes": 37023
+  },
+  "bank-bio-hsc-blood-circulation.json": {
+   "sha256": "20deca307123ca756f68c8c87c45ff9e64cf139ec5034328b018710c5e2e0ef1",
+   "bytes": 38732
+  },
+  "bank-bio-hsc-cell-division.json": {
+   "sha256": "90246152c3b8a2a9db2863976641d3c7691c49e9a90c07f6ac9ee947457f295d",
+   "bytes": 32881
+  },
+  "bank-bio-hsc-cell-organisation.json": {
+   "sha256": "6e3c3e1d47e26af2f9200d318f879ad3a3e7af387a472b5a121194935ee1209d",
+   "bytes": 33441
+  },
+  "bank-bio-hsc-cell-structure.json": {
+   "sha256": "00982ab8fd02934faffebc946e2d22b1b93a5e781495ebeac0e0f03c42d28a5c",
+   "bytes": 39277
+  },
+  "bank-bio-hsc-changing-ecosystems.json": {
+   "sha256": "bf13f232b8062b12e0178f5357d1ce76c3cab0a8911097976f22a8c9a807a451",
+   "bytes": 37372
+  },
+  "bank-bio-hsc-ecosystem-dynamics.json": {
+   "sha256": "87c0e2faaf538295383212127825622ecf06f68e88b3f9112e7a7b1bf6b3a5b7",
+   "bytes": 37917
+  },
+  "bank-bio-hsc-evolution-evidence.json": {
+   "sha256": "0bf98276b015bdc0516e0e8e58b643cee92f4621da8d737f340720cd589311dd",
+   "bytes": 37132
+  },
+  "bank-bio-hsc-genetic-variants.json": {
+   "sha256": "9344ac39ccffcae7e51669dcf077a7559facca9533be08e11011fa39849e2891",
+   "bytes": 34497
+  },
+  "bank-bio-hsc-infectious-disease.json": {
+   "sha256": "5f799bbe212cc460c50fca035dba0d15c4daca190963aa75879ff5f633a03274",
+   "bytes": 36381
+  },
+  "bank-bio-hsc-inheritance.json": {
+   "sha256": "168c2e738e248dcf7f694ef0043f7e65727925fd4b63de6ee0b1034d39a6e07f",
+   "bytes": 30520
+  },
+  "bank-bio-hsc-natural-selection.json": {
+   "sha256": "123a6aad63d4c88591fc91431a2c311a9790ae014f0f26a0c8339877d143d6b5",
+   "bytes": 40184
+  },
+  "bank-bio-hsc-non-infectious-disease.json": {
+   "sha256": "fe511b37f01d3c02bfec1f088527dad0dc9b9993caaa2bd48f2d1a80c18b075f",
+   "bytes": 37502
+  },
+  "bank-bio-hsc-polypeptide-synthesis.json": {
+   "sha256": "7bebbe7798a21831075b31afd0a3642ac9105f981e0bca7584a0a9cd120b5e3c",
+   "bytes": 36263
+  },
+  "bank-bio-hsc-sustainable-ecosystems.json": {
+   "sha256": "25aa4d4fcc8036c792d6549c3b18e601a21e89b75b9e9dcd196499f95620b115",
+   "bytes": 37036
+  },
+  "bank-bio-hsc-working-scientifically.json": {
+   "sha256": "2f69bf520a629b243463f94b18080826692fd5caf5e2e0cd04d96b66dd2bfb3f",
+   "bytes": 40261
   },
   "bank-bio-immunity.json": {
    "sha256": "ed19a6a5d04e6bc045702521933142a7e807c700b425cc3cb638c115876812ab",
@@ -79,9 +203,193 @@
    "sha256": "2c22aaa7fce5f9b06cfb306a25a03deed7e9388da5b3c85605f8ad3c3985005c",
    "bytes": 41609
   },
+  "bank-bio-qce-biodiversity.json": {
+   "sha256": "470ee90a5117962c078d1a92ca6126df1007e39568f13a4c180856c5447c3e17",
+   "bytes": 36433
+  },
+  "bank-bio-qce-cells.json": {
+   "sha256": "aaa74dac8c0fb817b098ce6644b24773b34e74295ff7bd10c483d49733bc26a1",
+   "bytes": 34376
+  },
+  "bank-bio-qce-cellular-energy.json": {
+   "sha256": "4cf1652160852625856d28b4e98b8e27b11ecb8cb83185ebbda5b7cb357e9e27",
+   "bytes": 34057
+  },
+  "bank-bio-qce-ecosystems.json": {
+   "sha256": "1f3ff55749a3c0072755c18425a26d04c4b96a8f6ce429cdfd3a034dd72ba7d2",
+   "bytes": 38510
+  },
+  "bank-bio-qce-evolution.json": {
+   "sha256": "018c9c4e0492aa415f0521ab435c4e5b5d8c466902aa6da6dbf09c8918e99729",
+   "bytes": 37133
+  },
+  "bank-bio-qce-exchange.json": {
+   "sha256": "e7f5aefc60329cb54c15262836bf6697062e1cb1a1ee58572cd556ad653bec98",
+   "bytes": 33417
+  },
+  "bank-bio-qce-gene-expression.json": {
+   "sha256": "b6edcf50fb62e048340827934b844643503abfbef0baef7932d8eb36699d966e",
+   "bytes": 35921
+  },
+  "bank-bio-qce-homeostasis.json": {
+   "sha256": "3c150b670f83ba353603880e5f32c68a60ec165f66018872d57ca53f3d9e5271",
+   "bytes": 38241
+  },
+  "bank-bio-qce-infectious-disease.json": {
+   "sha256": "e7b57ab025e40e37d81f30fce043768830103f39c4206da635b40833eff2afe7",
+   "bytes": 37548
+  },
+  "bank-bio-qce-inheritance.json": {
+   "sha256": "7718befc611d7594d8ee15b2c28d6dfa1313499fd9dab0a51ed3483b90be5687",
+   "bytes": 35807
+  },
+  "bank-bio-qce-inquiry-skills.json": {
+   "sha256": "fc97f3d1ada9be67435371d095ebd449161a09705462928c134eba76d0170794",
+   "bytes": 36900
+  },
+  "bank-bio-sace-cell-division.json": {
+   "sha256": "246da47eeaffdc1c017cd237566521993661e1d9a26ba1e5996d1b087840def7",
+   "bytes": 31609
+  },
+  "bank-bio-sace-cell-energy.json": {
+   "sha256": "860642c29f1dbde3d2b17f5d8751b5ce49784c29e2c87b03dd981c5da840841b",
+   "bytes": 31987
+  },
+  "bank-bio-sace-cell-structure.json": {
+   "sha256": "99df4de9650c287c559e96e35f223ef1679e296c756d9b11c68d9010e4b21baa",
+   "bytes": 32721
+  },
+  "bank-bio-sace-cells.json": {
+   "sha256": "be9ab9d7bb9c2a7505cf6eff33ccce9be8103a150919a7a95ff6902fa071d9b6",
+   "bytes": 32153
+  },
+  "bank-bio-sace-classification.json": {
+   "sha256": "fc9ebcf908ac2f30c320307177ffd66667bb0fbfb622d42f8b5f4d03ae6c70b8",
+   "bytes": 33166
+  },
+  "bank-bio-sace-dna-proteins.json": {
+   "sha256": "f48763cee4140fa3a7afe310be76351bb302776d962467eaeda82863897e2073",
+   "bytes": 36001
+  },
+  "bank-bio-sace-dna-technologies.json": {
+   "sha256": "bb9a9724aa724a899fbfdb684f4b359b42fcac68035bb016c0d09e121bd7e7fc",
+   "bytes": 34765
+  },
+  "bank-bio-sace-ecosystem-change.json": {
+   "sha256": "8072c4776548d75b9e76079206a858d9e68c178e3ab8829df5915deaa35e555d",
+   "bytes": 35678
+  },
+  "bank-bio-sace-evolution-relatedness.json": {
+   "sha256": "938c293070fabd3ed3de1b17b5891957012870863da7d0f77596409b4e19feb4",
+   "bytes": 41160
+  },
+  "bank-bio-sace-homeostasis.json": {
+   "sha256": "5ccd3f703e46e815eab16191fd11e83f2d2c57409cf982129a7b20072f9ae829",
+   "bytes": 32267
+  },
+  "bank-bio-sace-microorganisms.json": {
+   "sha256": "8479d9ff624e75870bc29b9857c0d9e9125c8ebe8064e4258b79af60baff2b4c",
+   "bytes": 32242
+  },
+  "bank-bio-sace-multicellular.json": {
+   "sha256": "a0a91087d755c443c7fea2750ff48108d9a62335cf46de8bb377febda0eebd6d",
+   "bytes": 33204
+  },
+  "bank-bio-sace-succession-extinction.json": {
+   "sha256": "a9b1e6e03f80071a1c7233f5259aba30fede6518ab56bcdf4011e7b4a77f8c01",
+   "bytes": 38848
+  },
   "bank-bio-science-skills.json": {
    "sha256": "2f3f266f29cc45da1aa6392dd100f2f447f3d30a4ba7e0eb65c83f9ecb80d3c9",
    "bytes": 36883
+  },
+  "bank-bio-tce-body-systems.json": {
+   "sha256": "0c5d417b39a7a02ef673f933e47da5f155ee8e5d36f5f05ca8cb21d7584eed80",
+   "bytes": 30641
+  },
+  "bank-bio-tce-cell-cycle.json": {
+   "sha256": "f6c0e9391363411e756444a396d7d3d1d412fe0be8a7e09bb61af6eb23a19d43",
+   "bytes": 21587
+  },
+  "bank-bio-tce-cells.json": {
+   "sha256": "3284480d8ff5d625c55af48d57efb5d7834783b07548bbb383e5d45ce9005f45",
+   "bytes": 31304
+  },
+  "bank-bio-tce-classification.json": {
+   "sha256": "e4ec6e6764c246d5c9aa666ffebd8ee13394be5ddb1fa13ee789b87869d6f673",
+   "bytes": 22303
+  },
+  "bank-bio-tce-dna-protein-synthesis.json": {
+   "sha256": "cc02c530fa41f7a9bd9c352a3f7252e058869f55ac72dd391a6f1d7a2fdf9217",
+   "bytes": 30971
+  },
+  "bank-bio-tce-ecosystems.json": {
+   "sha256": "6bc6d9b2e7206ad913a629c1b83b452ef13f257d665e30498541675807b1a095",
+   "bytes": 31674
+  },
+  "bank-bio-tce-enzymes-energy.json": {
+   "sha256": "601e9106bf9316cb00649fb6d959417fbf627d8de844a3a6b0031214ef8004fa",
+   "bytes": 33287
+  },
+  "bank-bio-tce-homeostasis.json": {
+   "sha256": "8fdc3040082738028abac7ca45c744b92bb5b29b1973d94c025dfae2444c4c08",
+   "bytes": 31798
+  },
+  "bank-bio-tce-immunity.json": {
+   "sha256": "7dde03f30ef7b4f7a8285c4a830d9077c0f523728ee725720b49a5d4df3cd52c",
+   "bytes": 35444
+  },
+  "bank-bio-tce-inquiry-tools.json": {
+   "sha256": "c02d2a00da5225410951479b5b2782abc022d9441a4f58d8c89858903ca7bf88",
+   "bytes": 25025
+  },
+  "bank-bio-tce-natural-selection.json": {
+   "sha256": "a324c6a6432e8a2d5ed1d58db69084133d0b63699078a571c5448c547b18f0d4",
+   "bytes": 36642
+  },
+  "bank-bio-tce-reproduction.json": {
+   "sha256": "c3ac9f2e854871962c057f64348d99d78597e8979dd14e71227b6958b6413133",
+   "bytes": 30108
+  },
+  "bank-bio-wace-classification.json": {
+   "sha256": "37244566f574d191b49a88ba31374a83640837fadd789c662e77fa81a0b9ef92",
+   "bytes": 28711
+  },
+  "bank-bio-wace-dna-genes.json": {
+   "sha256": "fecfda45f184f409eaa9b8418da97596d8e3740579d296763fda0cf783062491",
+   "bytes": 31988
+  },
+  "bank-bio-wace-dna-technologies.json": {
+   "sha256": "1b9eb85601ab2f627c14391f113f22e97e6d497b6c63d773fbd853134c64e087",
+   "bytes": 33737
+  },
+  "bank-bio-wace-energy-cycles.json": {
+   "sha256": "7799564e0f511c7ab0debf5c5cffcc4106cf020e0c0c4edf43ae6c3ad0cc8057",
+   "bytes": 34472
+  },
+  "bank-bio-wace-evolution.json": {
+   "sha256": "37b2112501fdf04fc3f171eb8846675e50b2ec8201118a53f5fc3eb5b706ed89",
+   "bytes": 34618
+  },
+  "bank-bio-wace-exchange-transport.json": {
+   "sha256": "3924a230768e896ca6db1a0f22ffadf262e5e67ba78d9cfaeb3ba250c1c73a12",
+   "bytes": 33057
+  },
+  "bank-bio-wace-homeostasis.json": {
+   "sha256": "f4fc470a9160dd7c4a06e56eb75500f9ae485c4bd682d5f7451a5c9fcf418de2",
+   "bytes": 33791
+  },
+  "bank-bio-wace-human-impacts.json": {
+   "sha256": "5980d4a94606027e1692250ac0db7124f6806f675c8b405a9703412dc4d8e036",
+   "bytes": 32811
+  },
+  "bank-bio-wace-infectious-disease.json": {
+   "sha256": "5db1fc6cf6f82afe19967093baa31934c0b3c593690cbad8e17995131d7db71c",
+   "bytes": 34202
+  },
+  "bank-bio-wace-metabolism.json": {
+   "sha256": "55823cc2a86ce6f754a9803deec3d45a3eeed3a2f669e51131373bde9eb922c2",
+   "bytes": 30522
   },
   "bank-bm-business-foundations.json": {
    "sha256": "b17532f465bc2b94153fa9584e57d021551d9a660bb0ff08f7abcb8b6832872d",
@@ -94,6 +402,54 @@
   "bank-bm-external-environment.json": {
    "sha256": "46beb76e06f054aa9124c20c725b7aa11c69b3f24b8b9caa0fa5fadae2aa715f",
    "bytes": 41934
+  },
+  "bank-bm-hsc-finance-analysis.json": {
+   "sha256": "89ba8dd575042af193b145f9ca162e33491a1b35e4d599d1c0f5e30b452d5eb1",
+   "bytes": 33399
+  },
+  "bank-bm-hsc-finance-sourcing.json": {
+   "sha256": "baa3fade4c065619b7bf965aacc94fcea3f72591faa483dc5fa7d6f05528da2d",
+   "bytes": 36510
+  },
+  "bank-bm-hsc-hr-recruitment.json": {
+   "sha256": "bce4f6e278d5e60bf4b02350b0f039b33a62fed62c0e771fa2fa045ba0e23ec1",
+   "bytes": 33984
+  },
+  "bank-bm-hsc-hr-rewards-law.json": {
+   "sha256": "cbd040887a63dc06f3b61cc3607169348d8375b9320a3705185923b67c247548",
+   "bytes": 37029
+  },
+  "bank-bm-hsc-idea-market.json": {
+   "sha256": "276ce2644282f1ec16f60d3caa37a794630088aea49a5bb014a7dfa6f028cca3",
+   "bytes": 34725
+  },
+  "bank-bm-hsc-intro-business.json": {
+   "sha256": "17a8b0a6eb8efd6eb3d66173fbf0d1283a9541b3e12707c869083587ed000776",
+   "bytes": 31504
+  },
+  "bank-bm-hsc-management-life-cycle.json": {
+   "sha256": "969af9c65659a69cd6d1e6e96bb70807d3e1bdb744f4fd8655a43d3d632a884c",
+   "bytes": 35848
+  },
+  "bank-bm-hsc-marketing.json": {
+   "sha256": "91b23fd7b4594171d115516272566ad9307684de38eeaf77281de5be29d5c52e",
+   "bytes": 36218
+  },
+  "bank-bm-hsc-operations-planning.json": {
+   "sha256": "23df4f6234ef7e33c721bcf613fe943271606d5b2c8404ca50f3ca521f6a629a",
+   "bytes": 33872
+  },
+  "bank-bm-hsc-registering-resourcing.json": {
+   "sha256": "ebbbecfb041910a2b08db618f4345d73868672362f653d75cef3783f2085c531",
+   "bytes": 35225
+  },
+  "bank-bm-hsc-statements-strategy.json": {
+   "sha256": "eef12d23a89524b0d8fbf9b0eac21621490cba8adf0c33c2d7b93dae4179b595",
+   "bytes": 35556
+  },
+  "bank-bm-hsc-supply-chain.json": {
+   "sha256": "37265f586acbd0da7a450ff0e245737b084d1b6a9f9512e2a03347a9abda6e9f",
+   "bytes": 33922
   },
   "bank-bm-human-resources.json": {
    "sha256": "8336bcc0a541c0b7250ffda2de36016a9cb851deacfe87cc882f3a9b1eb6eba8",
@@ -119,6 +475,38 @@
    "sha256": "e8b39d99db729306e1eb9fe8cdd685054aadf177b6267499d9ebf729e739e2f2",
    "bytes": 35305
   },
+  "bank-bm-qce-business-ideas.json": {
+   "sha256": "6a17fbe03afeb211f67e7495293be5a470fb5f4fc478ab65757c4e97036477e0",
+   "bytes": 28501
+  },
+  "bank-bm-qce-entering-markets.json": {
+   "sha256": "571b80282d9155bbcae427fdcfd15492c2d5b5254cf0a2a5be4a2c0aabfb4cc4",
+   "bytes": 28056
+  },
+  "bank-bm-qce-establishment.json": {
+   "sha256": "e4a63e0b234d154430e273ee1e5cd1877a6beb7a0f843a281763e4291a9be753",
+   "bytes": 28436
+  },
+  "bank-bm-qce-fundamentals.json": {
+   "sha256": "c48551236ca457b6ee7f684df0391ca6e16c21171e6eb457919d0c0c87c5dad3",
+   "bytes": 30103
+  },
+  "bank-bm-qce-global-expansion.json": {
+   "sha256": "9b33951e93a9b203f9b85806969220d0ab1725f4924ca92618148dda0ed0860f",
+   "bytes": 36862
+  },
+  "bank-bm-qce-hostile-markets.json": {
+   "sha256": "9d2fb5add41ed481b93be12dd713dd7e0a18d53975d651ae97af0222bcb6bbe7",
+   "bytes": 34102
+  },
+  "bank-bm-qce-repositioning.json": {
+   "sha256": "b09288c265614936bd05d429a1ebd50d7254889dadfcf18dd182183d42b69d2f",
+   "bytes": 34509
+  },
+  "bank-bm-qce-transformation.json": {
+   "sha256": "fae3b04a64d0f5d2e1ba22ecdd3eaa89ee31f2d3bfb6f2da2ac8594e1ff04ca7",
+   "bytes": 24906
+  },
   "bank-bm-reviewing-performance.json": {
    "sha256": "9a0b9b3c97a024282eca416145c64670ed300ec9ad488b86cf31da0528ab9ffe",
    "bytes": 34507
@@ -139,9 +527,109 @@
    "sha256": "6cd5a373401ddc9c09c0da030ea6eb23f6366a6b112eb7e474dae4f3cc4bbd1c",
    "bytes": 38306
   },
+  "bank-chem-bsss-acids-bases.json": {
+   "sha256": "45fa106b002ab1c676d6272ca8fcf078c62e9c65b46f66cf76f93c752d13769a",
+   "bytes": 33741
+  },
+  "bank-chem-bsss-aqueous.json": {
+   "sha256": "5b6ff43e170538843aa38632a3e5d91da69088d4a08c22add7a7a7ae91a13cd7",
+   "bytes": 30556
+  },
+  "bank-chem-bsss-atoms.json": {
+   "sha256": "9f19d4087297a3b984b965e64c971633a0195a57ca0be73a399551e46b5996a0",
+   "bytes": 30595
+  },
+  "bank-chem-bsss-equilibrium.json": {
+   "sha256": "6de5ec5f7e625c8a7f65542db6b0a0908b2b6491788bee977993c7ce7d4e2908",
+   "bytes": 36679
+  },
+  "bank-chem-bsss-fuels.json": {
+   "sha256": "3aed350891b589d265b1183e3605fb641751e4214b4765016f698abc3a40ee8e",
+   "bytes": 33604
+  },
+  "bank-chem-bsss-hydrogen-nanotech.json": {
+   "sha256": "6e8c2f3bcfa02e9c842c9de35f3b4a64991a314bc77960a479615cc708ec21af",
+   "bytes": 23367
+  },
+  "bank-chem-bsss-imf-gases.json": {
+   "sha256": "a10cdf7cb6b697df129e98a0b1271ec824dd3b279e00381cfbd2d30aa399dae1",
+   "bytes": 35126
+  },
+  "bank-chem-bsss-organic.json": {
+   "sha256": "075ff5132ca1fc5d158353693dade843c1e2a6fa0d129d8b7dfd74fdaa760a72",
+   "bytes": 34400
+  },
+  "bank-chem-bsss-redox.json": {
+   "sha256": "086baac3e2a7adc0fee5c6cfd504a6a234c097c6e459a253e0b34458a64130d4",
+   "bytes": 34969
+  },
   "bank-chem-fuels-cells.json": {
    "sha256": "4601409577c9cd81c0799b3b5b5f9dc71f10145d0d214b987d90704638dec346",
    "bytes": 42009
+  },
+  "bank-chem-hsc-acids-bases.json": {
+   "sha256": "1a9d09f045c396503d4ee0f28310632936abe0f98ea33a5c014cd5924a78f9a0",
+   "bytes": 34940
+  },
+  "bank-chem-hsc-alcohols-esters.json": {
+   "sha256": "2091662403a4dd83f6c4c66be88ce7f2dcef552f3a1a8efe56885c4ea0ed5855",
+   "bytes": 35588
+  },
+  "bank-chem-hsc-bonding.json": {
+   "sha256": "3460f483b35b21372c4fec164b8268dba75f6b0fb69bfeb31a4c4a09db68ba05",
+   "bytes": 34869
+  },
+  "bank-chem-hsc-concentration-gases.json": {
+   "sha256": "298ae5bba086e751721f6b0413fc61a3fbe5fb7f837b0be13f8f9d59b344d9fc",
+   "bytes": 30679
+  },
+  "bank-chem-hsc-electron-configuration.json": {
+   "sha256": "bf5b7c10eb2bbbe6a2104c81e005628e93a05e06bbfd7f7846e54e4a65d249ae",
+   "bytes": 33095
+  },
+  "bank-chem-hsc-equilibrium.json": {
+   "sha256": "9dbf9e07e3c41c3c0a65df17edb52c32f61a9a43520bac8d9f4d0907dc89ad86",
+   "bytes": 38693
+  },
+  "bank-chem-hsc-hydrocarbons.json": {
+   "sha256": "5123d5fcf74e6c638f0c8a5d069d9cc9771dddebab41989e2b08365b3f14258f",
+   "bytes": 31966
+  },
+  "bank-chem-hsc-inorganic-analysis.json": {
+   "sha256": "9e1f1aaa4e0e701e64307e49fb6712eeeb9532b9906e0b145d59ce569c444261",
+   "bytes": 34069
+  },
+  "bank-chem-hsc-ksp.json": {
+   "sha256": "92eb1674df37e9aa6e352668dc89a4ff67367e9ea67f477f60bb65c323b7c352",
+   "bytes": 32637
+  },
+  "bank-chem-hsc-mixtures-atoms.json": {
+   "sha256": "64bb6755fec4d7f8034808a2aeb7b424f5a72dfe8bd6b3d38d06dbe1494ffe52",
+   "bytes": 35616
+  },
+  "bank-chem-hsc-mole.json": {
+   "sha256": "49d5584ddf0b04366121575ec27c867024b7528fb88c100df0df4d9644674bc1",
+   "bytes": 30328
+  },
+  "bank-chem-hsc-organic-analysis.json": {
+   "sha256": "57d955bf8a7abb346f94353d9ee045984eee204f0324bef50bd22c50ba13af87",
+   "bytes": 33947
+  },
+  "bank-chem-hsc-rates-energy.json": {
+   "sha256": "7fd357513ddf863327299bc65320374a77f56d486a8d73d4e11f1a78a8a42e10",
+   "bytes": 34207
+  },
+  "bank-chem-hsc-reactions.json": {
+   "sha256": "0ee9985ac1bbeb03ae6bde3a723427f985a08f15e712dd6ecb1592770d852d6a",
+   "bytes": 29277
+  },
+  "bank-chem-hsc-titration.json": {
+   "sha256": "baa528038c596e0af8b625528d5dceb5456fe0c3fcd5eb349e8c93da9b4cde4d",
+   "bytes": 35238
+  },
+  "bank-chem-hsc-working-scientifically.json": {
+   "sha256": "ed7f8812210c20536fd5caf2c60b1e6d267ff02e614dbd565b29be03326af59e",
+   "bytes": 33520
   },
   "bank-chem-moles-organic.json": {
    "sha256": "8bb9cf47516f486b70104ac972de50e502e3343f9022a222e1f387fca77b4d74",
@@ -155,9 +643,121 @@
    "sha256": "df6841c1849fb9d4aeab6001ff1e87c7279dd1687643d2abad3e823149676987",
    "bytes": 37501
   },
+  "bank-chem-qce-acids-bases.json": {
+   "sha256": "c5ebe2b342fb7aba5f45d79f947be22223f9917074b9169df9da14a313609ac7",
+   "bytes": 33380
+  },
+  "bank-chem-qce-aqueous-acidity.json": {
+   "sha256": "3400b633f88eed78e12f4c0dcaa535edda173fe883d9c3cfe9df533389208aa4",
+   "bytes": 35040
+  },
+  "bank-chem-qce-atoms.json": {
+   "sha256": "74c9f96fcefe51cfe2bf15422f81b09d78865f57b3b0200a3fa4767ddefc72fc",
+   "bytes": 33225
+  },
+  "bank-chem-qce-equilibrium.json": {
+   "sha256": "d3ce2904d7b8ab585c1f7ce7b476020e07d57efa302f5d525f5aaee858358229",
+   "bytes": 38612
+  },
+  "bank-chem-qce-imf-gases.json": {
+   "sha256": "a978a21331114095a69750764c95cbe03e06f989dc17d67723114e7aaeb90aa3",
+   "bytes": 35334
+  },
+  "bank-chem-qce-inquiry-skills.json": {
+   "sha256": "5012667bdefe5fc064d3ce5af7db1bc13c432833bca4fa8993b9655bc7a7a795",
+   "bytes": 34487
+  },
+  "bank-chem-qce-materials.json": {
+   "sha256": "e342bd85395bd38a07c408d5393fedcf08d2f4e92a03d1ba6e7594668e60761c",
+   "bytes": 34174
+  },
+  "bank-chem-qce-organic-materials.json": {
+   "sha256": "cf35efd62c5e15873c6e618e51dd12f067a5a89732c4e8d9d6c9f53a60302f2a",
+   "bytes": 35263
+  },
+  "bank-chem-qce-rates.json": {
+   "sha256": "21bf45bea2c3f34f88b568e6a871bdd6b54fb8918a59e53ebd47e01b00b22dd3",
+   "bytes": 35764
+  },
+  "bank-chem-qce-reactions-energy.json": {
+   "sha256": "7fdfbe2669973f590b66d18f8a8f9885e35f96d6f12378ec01d11775a1ba1a69",
+   "bytes": 33170
+  },
+  "bank-chem-qce-redox-cells.json": {
+   "sha256": "6b157ef898dddfc304a6d4fcb23157ce270ddccfaa7e072b313d94bfe3f53732",
+   "bytes": 36126
+  },
+  "bank-chem-qce-synthesis-design.json": {
+   "sha256": "b4c32a7557bb801544e45546cefff0d268e924a80d6386172f241ffa108c9d94",
+   "bytes": 36336
+  },
   "bank-chem-rate-yield.json": {
    "sha256": "5069934ea4a99062221652f09c4f13eda0413a610854549b66ccbd1445e7d8cc",
    "bytes": 43132
+  },
+  "bank-chem-sace-acids-bases.json": {
+   "sha256": "8c900fff487d995340a9a8ffb7a7f6d01528e56a3a980acc70d73bfd99470fa9",
+   "bytes": 32461
+  },
+  "bank-chem-sace-alcohols-carbonyls.json": {
+   "sha256": "8aaed45496d20eb94a1fecb21f16ba65b6acf74c7899290648601bcf1a50d297",
+   "bytes": 32746
+  },
+  "bank-chem-sace-amines-esters-amides.json": {
+   "sha256": "17167bb29e6b574556d55f927fa08039ff1813885408310b2455ae7a7c9c9185",
+   "bytes": 31225
+  },
+  "bank-chem-sace-atmosphere-oceans.json": {
+   "sha256": "b178afa98997c15326fb7ba57472419c31b2761b53d1892f7c8192cae6cafeda",
+   "bytes": 32926
+  },
+  "bank-chem-sace-atoms-periodic-table.json": {
+   "sha256": "dae182f2737ee35efff87a90cf388e8bf3c7b3fc0e03dc2ceb4be3c049ce36d0",
+   "bytes": 35933
+  },
+  "bank-chem-sace-biomolecules.json": {
+   "sha256": "8ebe867985545a59e954769cd28835d28ec28559af53a466c7adcbbd94490e08",
+   "bytes": 33538
+  },
+  "bank-chem-sace-chromatography-aas.json": {
+   "sha256": "9a767f5fce62631e4eaeff11e7d83e991fa922fb605d86b3005f239de58b1ef3",
+   "bytes": 33048
+  },
+  "bank-chem-sace-energy-fuels.json": {
+   "sha256": "77a6ed94205ed8e9217950309525093eae946f3389dcf93fd6de7f3bc42c7182",
+   "bytes": 34885
+  },
+  "bank-chem-sace-galvanic-cells.json": {
+   "sha256": "b73547faa2a1bf02ccc9d74ba2593141714962da25240092d4caa66a9e241c6e",
+   "bytes": 32689
+  },
+  "bank-chem-sace-hydrocarbons-polymers.json": {
+   "sha256": "384257a115f2823f4f195ef02f3f5db0d1c73769b7f0f5b08bbe7fbefa1efc5d",
+   "bytes": 34676
+  },
+  "bank-chem-sace-inquiry-skills.json": {
+   "sha256": "513cdd26263850d86225cec224465d4a87a33853f7c9a358f8774356e66f2e66",
+   "bytes": 37592
+  },
+  "bank-chem-sace-materials.json": {
+   "sha256": "4a32c169d40d08ed516dbd592401b18b5340361d0f36ae718d1ccf531db934dc",
+   "bytes": 34066
+  },
+  "bank-chem-sace-rates-production.json": {
+   "sha256": "b0c41b1c649c9e753e90478ee8f51008ab7fee5a51fd646f97c5a71de212fe1b",
+   "bytes": 35225
+  },
+  "bank-chem-sace-solutions.json": {
+   "sha256": "cd84fbd713cd9f48b8c4fc89987bcefd355a67e85630faa56364f5d896e19ee7",
+   "bytes": 31726
+  },
+  "bank-chem-sace-volumetric-analysis.json": {
+   "sha256": "1c6563abac96a320cb56a4e0fec9e7ae49aa65f6e456597cdfe5364226f9f0e2",
+   "bytes": 33256
+  },
+  "bank-chem-sace-water-soil.json": {
+   "sha256": "1a0613584c0f0c996ff576fa216943acfd025d8f20015eceb8674ea65889916f",
+   "bytes": 33329
   },
   "bank-chem-science-skills.json": {
    "sha256": "e8abb103c8323340210ecb7bac7b658ee0e94beaaadf7fa760226c519cea729a",
@@ -166,6 +766,102 @@
   "bank-chem-structure-bonding.json": {
    "sha256": "6f84462ef53286a4f0950452987b8aba1d7a8a1162d015489eb87ff931b32ddd",
    "bytes": 42612
+  },
+  "bank-chem-tce-acid-base-equilibria.json": {
+   "sha256": "6df6f84732df159261103903f9e5c1f91f42c96b870d3e927d0b50cba8af0668",
+   "bytes": 29371
+  },
+  "bank-chem-tce-acids-bases.json": {
+   "sha256": "f166a0325c3cd72be84a1e562c42f94ad5c301eb3f2d04a0805cd77f78cbce8e",
+   "bytes": 29337
+  },
+  "bank-chem-tce-atomic-structure.json": {
+   "sha256": "a24cfa8acd2ab416d2f424441638c0f824fa47a1f0ab9824c33e994205b1c27a",
+   "bytes": 30988
+  },
+  "bank-chem-tce-bonding.json": {
+   "sha256": "982b086c91cafd5c8554b9c35f4374ad091b0c2348f6cd8e546162eaa423159e",
+   "bytes": 30251
+  },
+  "bank-chem-tce-electrolysis-corrosion.json": {
+   "sha256": "73ca184a720a567f87dfe3581c5650749d88a5f757efca307f065c6e636ebf10",
+   "bytes": 34795
+  },
+  "bank-chem-tce-electron-configuration.json": {
+   "sha256": "b05632a84c1e5327397d048a78868740380371ace925323526f7530abc22eb79",
+   "bytes": 32861
+  },
+  "bank-chem-tce-gases.json": {
+   "sha256": "d69cceebec73c3dbe7bb32315daf67e3e902a6e8092174f56014a6c9e5c43f13",
+   "bytes": 32367
+  },
+  "bank-chem-tce-hydrocarbons.json": {
+   "sha256": "f20fa78552d6247b251a4252b19c554946f5ab69e65260c04fcda0b2a8ac842a",
+   "bytes": 28938
+  },
+  "bank-chem-tce-mole.json": {
+   "sha256": "3b66b09d017ed8958c5dd711a432a5fc95bf476ecbab9bd0c3d9680dce616647",
+   "bytes": 26884
+  },
+  "bank-chem-tce-organic-reactions.json": {
+   "sha256": "60c55df416a20292de5a3dd17e343fd06e930117f9429bcae9a1f56aa1f3f336",
+   "bytes": 35362
+  },
+  "bank-chem-tce-quantitative-analysis.json": {
+   "sha256": "9c65af59d544eaae59ed20ff0d5b09625f9fa8062c2c50d3f70eac4168a85e38",
+   "bytes": 33464
+  },
+  "bank-chem-tce-rates-equilibrium.json": {
+   "sha256": "22b18ad34e82f0163f8744be19527ccba4855d58401c3889a60affd799566c64",
+   "bytes": 31487
+  },
+  "bank-chem-tce-spectroscopy.json": {
+   "sha256": "0531fd36559228a8c93a208b9e725ca128d24da1a1006550144171b2ef14a42e",
+   "bytes": 30443
+  },
+  "bank-chem-tce-thermochemistry.json": {
+   "sha256": "c524af6c414c6eba4f30fdc6fdc9461ae3fff069703f16f5cc01dc11b284c806",
+   "bytes": 32092
+  },
+  "bank-chem-wace-acids-bases.json": {
+   "sha256": "af44da98e03f2dfbf08a9297adac9e66f54139bf0390a5ba54cee3177c7d8ed2",
+   "bytes": 35941
+  },
+  "bank-chem-wace-atoms.json": {
+   "sha256": "0720f7971f384c0b30b14e7e431239f758553512a31df2a66ba7ebf1d45e9e49",
+   "bytes": 31997
+  },
+  "bank-chem-wace-chromatography-gases.json": {
+   "sha256": "b42c80557a7eb60295fde920a3cffa04b3cf1cf8ec51b9c375f2a6056deeda4d",
+   "bytes": 33340
+  },
+  "bank-chem-wace-equilibrium.json": {
+   "sha256": "145dcc8be468303dc2e7a4ce17d2cbd986371ef2291427a9f7469325555cbff0",
+   "bytes": 38252
+  },
+  "bank-chem-wace-fuels-mole.json": {
+   "sha256": "8489b922cc7cd7edb621e8fa2246a311992382e81eab400b66751f302ea9d713",
+   "bytes": 29747
+  },
+  "bank-chem-wace-organic.json": {
+   "sha256": "09a473d006c214b246970534c06e6b971525f3e40868b66d6ffd376cdf284551",
+   "bytes": 31515
+  },
+  "bank-chem-wace-polymers-proteins.json": {
+   "sha256": "0ef09d37dd76cdc0acd183e76b181cb63ce58e23258cf230538cbeea02d0f225",
+   "bytes": 32860
+  },
+  "bank-chem-wace-redox.json": {
+   "sha256": "8227ad22b4271b1716bab172590f2c2e49e4ccb6a82ff3d781bf500af8fd763f",
+   "bytes": 34902
+  },
+  "bank-chem-wace-solution-reactions.json": {
+   "sha256": "6157e934c04599fc8c70d95d24ee2708dca681377e5565824e79bf5a2c8f0ae0",
+   "bytes": 30528
+  },
+  "bank-chem-wace-synthesis.json": {
+   "sha256": "834750d7b4798139a4189af60578bd85d3ab94bc20b04ae0c323178f91b0f9d3",
+   "bytes": 36465
   },
   "bank-chem-water-acids-redox.json": {
    "sha256": "b07515b509e9bfc65ef7b96551668dad3757c52492a13e76aaa2be46c198ff83",
@@ -178,6 +874,50 @@
   "bank-classification.json": {
    "sha256": "d0dcd75a266b9ca5edf3fc6844a50422e1a0c1eceae1bbd4550b3928ccea5674",
    "bytes": 75892
+  },
+  "bank-de-hsc-grammar.json": {
+   "sha256": "9660537be3961b78d8532e2cb18692090ea6014b27529d424152fd3920954b96",
+   "bytes": 28113
+  },
+  "bank-de-hsc-leisure-health.json": {
+   "sha256": "ca60520ddceb16ce0d17cada797df857baef6ac834f1d47b421fbc9b248e8d79",
+   "bytes": 26225
+  },
+  "bank-de-hsc-text-types.json": {
+   "sha256": "08b144a095d3bf3fc3444938219c2cf95573809713a3ed5befb18103a37ada41",
+   "bytes": 27983
+  },
+  "bank-de-hsc-youth-issues.json": {
+   "sha256": "c4a9542c700d02f1536d206d297eb2b9ad73cf0be7d830b73a683971d8839561",
+   "bytes": 28597
+  },
+  "bank-de-qce-end-of-school.json": {
+   "sha256": "04908019fc81479a7976137dae1e5dc128b4a790ca2a36d903cd0f9c71f038e1",
+   "bytes": 27677
+  },
+  "bank-de-qce-family-school.json": {
+   "sha256": "a507f4ec456923925baa6c2928c41779aa4113c217d5a778b3ac95e492b0a413",
+   "bytes": 29919
+  },
+  "bank-de-qce-lifestyles-arts.json": {
+   "sha256": "baf4e0ae765eb2197143936ceb83addd86ed36566e8b080df0930598dc0e188e",
+   "bytes": 31238
+  },
+  "bank-de-qce-responses.json": {
+   "sha256": "17a11de0ef35cc81b392a35a4c0d47eb86d3e8265a6b078bcfbe570d8d3d1af0",
+   "bytes": 27043
+  },
+  "bank-de-qce-travel-customs.json": {
+   "sha256": "df0027c229142abe8507394f02eecaa12e3e055b5b08e5c32032a1964d4fd67f",
+   "bytes": 28827
+  },
+  "bank-de-qce-verbs-y11.json": {
+   "sha256": "22bd51eb8b6f432ce348f9a6d13c68682493f899f70d3cea0c3a4af45a49628a",
+   "bytes": 19837
+  },
+  "bank-de-qce-verbs-y12.json": {
+   "sha256": "baf21cdc357022a82ce443c2713051723f5026043e8380d3fbc5690c52e4257f",
+   "bytes": 21953
   },
   "bank-de11-cases.json": {
    "sha256": "26d1a0a3810dc2397d974aeeb6a63a402064d34200e9de367f86d9cc30dc7b25",
@@ -267,6 +1007,66 @@
    "sha256": "b85713ac6157463a6c97a66717a05da133adac56f7c865320703779ec3d0722d",
    "bytes": 34875
   },
+  "bank-eco-hsc-circular-flow-business-cycle.json": {
+   "sha256": "3c49871a3647b0875d49c155704553a4151505e23d7815b6ecf4f0dbb8cdd442",
+   "bytes": 34581
+  },
+  "bank-eco-hsc-development-global-impacts.json": {
+   "sha256": "283d3223857de219669fd11f0001284babcff105ab6c7fa83b9dcc2eb9206a39",
+   "bytes": 35255
+  },
+  "bank-eco-hsc-economic-growth.json": {
+   "sha256": "f8c26ad6b7ead31368e615e7347e579e4488118a8547e6e9a08410295cb407d8",
+   "bytes": 32164
+  },
+  "bank-eco-hsc-elasticity.json": {
+   "sha256": "b15c0d522f325941f031e93c916fdc7ddf8a8ec3ebbc6e527639406819b33ecc",
+   "bytes": 31586
+  },
+  "bank-eco-hsc-environmental-sustainability.json": {
+   "sha256": "3adfc5606d8ec8e46966594897f98457aead039233e6d9f2ca640a19a88e2bed",
+   "bytes": 35586
+  },
+  "bank-eco-hsc-exchange-rates-investment.json": {
+   "sha256": "38fb77ade37fc1e97e919de07f5d501335cfaba2c4985e47921adcb17901d16a",
+   "bytes": 35150
+  },
+  "bank-eco-hsc-financial-sector.json": {
+   "sha256": "cb8541afe13251f2fa8d154b59f094edafe1940e43b15fc00c2223cde71cf9a7",
+   "bytes": 31453
+  },
+  "bank-eco-hsc-global-trade.json": {
+   "sha256": "33661f4043060b4f4bb4a3badff00b748bf904f2ee02ddb2ea96f0346c92c873",
+   "bytes": 33113
+  },
+  "bank-eco-hsc-government-sector.json": {
+   "sha256": "039a328d0e321edc4f26f5f0ae0ac42323cf6871a61ca0432442b1f1c3515ba6",
+   "bytes": 31445
+  },
+  "bank-eco-hsc-households-businesses.json": {
+   "sha256": "fba8a4a9061aca0dd463c3aa1633eb7a28d0ccfae35104588a8077a91ee7bad4",
+   "bytes": 31426
+  },
+  "bank-eco-hsc-inequality.json": {
+   "sha256": "f87200b61b9798157e43ec2b559cf2b7f0fb265725ec36edc3ddc8f61367a67c",
+   "bytes": 33552
+  },
+  "bank-eco-hsc-international-sector.json": {
+   "sha256": "bbbc951375ebca1ba9a423c5d40ac514a8fdeff2f7aea3106d71bfeb4908af31",
+   "bytes": 31615
+  },
+  "bank-eco-hsc-labour-market-policy.json": {
+   "sha256": "e0c2ff27ca6377064d7dd99b0fbc3af1f5ed7c3ab0d51795b9051073c607f8ad",
+   "bytes": 33254
+  },
+  "bank-eco-hsc-market-failure.json": {
+   "sha256": "063937cf9bec0864e012024488d4e531c5af912f269537eba48cb3666cc1cb27",
+   "bytes": 31968
+  },
+  "bank-eco-hsc-objectives-policy-mix.json": {
+   "sha256": "3d837e35ed36794dcbf5e38fa013876508c97ff1a8cc0ffaeb3b2e3f1d7b0f3e",
+   "bytes": 33924
+  },
   "bank-eco-international-economy.json": {
    "sha256": "cee194d1aa689f523eee8d4e1409d28cb556f214c666d2eecf35818da70edbc5",
    "bytes": 39491
@@ -291,6 +1091,50 @@
    "sha256": "3b8759cd94b0aa270842ffb481718d67eac151f767f981f692a20fcfe1210394",
    "bytes": 34193
   },
+  "bank-eco-qce-economic-flows.json": {
+   "sha256": "a2032c53675edf5c13552254aebf249fbfe29e4d1787be24bfe287375926e5ab",
+   "bytes": 31853
+  },
+  "bank-eco-qce-economic-problem.json": {
+   "sha256": "18cdea3327215ce8f52f518f2b206ea49bb80638ce3271e40259d4e4c94026d2",
+   "bytes": 34061
+  },
+  "bank-eco-qce-elasticity.json": {
+   "sha256": "908a7d1a6be92d5149fc81f2d008ee0d0f1237c1db766b9ebef1b2b519f6b8b0",
+   "bytes": 29694
+  },
+  "bank-eco-qce-environmental-economics.json": {
+   "sha256": "dbb6801ec3bfb32f7f47872ca085db687fbaff0459e1909563854cf650f78e66",
+   "bytes": 32103
+  },
+  "bank-eco-qce-global-issues.json": {
+   "sha256": "b6df12a45440024d8c9410c677554e86873c8919efb7d7f403c6138cc3ea04ed",
+   "bytes": 35243
+  },
+  "bank-eco-qce-inequality.json": {
+   "sha256": "fbef5471722d4dc8ddcfe9c5f86a3e5fd4edaa8f4e32e9c8f3629d9e9e24e94b",
+   "bytes": 32004
+  },
+  "bank-eco-qce-market-concentration.json": {
+   "sha256": "0e960033a06d9e890e3652f2f476132b3d8f1e1da0f82ed7294a07a16200b260",
+   "bytes": 30363
+  },
+  "bank-eco-qce-markets-efficiency.json": {
+   "sha256": "2b7d5f175f14e303458628cc220c0336d21fce911bd6a0f6ce41dd831eba0197",
+   "bytes": 30438
+  },
+  "bank-eco-qce-multiplier-indicators.json": {
+   "sha256": "b1dd7babc59c8208470092877e7d0a69ff5b9697e84f0c01cdaa013525a39472",
+   "bytes": 30569
+  },
+  "bank-eco-qce-supply-side-policies.json": {
+   "sha256": "f4d041a6124a111afb939fc336d0643b48c46fce21f1775795b6322e641f58ac",
+   "bytes": 33270
+  },
+  "bank-eco-qce-trade-theories.json": {
+   "sha256": "f14a9ba244551192fbbdb0f90af6ea346114060d95c97e89c0d9e88dac25b533",
+   "bytes": 34530
+  },
   "bank-eco-supply-policies.json": {
    "sha256": "5c3df0f205ff892384ef872f61998df414ab5f7bae12df0b8dbf4db5af228dd5",
    "bytes": 37625
@@ -300,72 +1144,240 @@
    "bytes": 42077
   },
   "bank-el-acquisition.json": {
-   "sha256": "61627f426b92ca23ee9316b3c6351b2aa4d2cf12a3aefdaadcb48c53778f05a0",
-   "bytes": 36235
+   "sha256": "18a10c7958eae8187aa1fa19c22bc71630dc76410799b49fd51064ff2ceeaca6",
+   "bytes": 36296
   },
   "bank-el-australian-english.json": {
-   "sha256": "12a059a9e3ed6d38e7c673bf4ea8c814970b57cb069bd1d96eaa225853f7bee5",
-   "bytes": 40581
+   "sha256": "65bfb69ae145340c37f6bc75ae092b66fc5a38bd764f12ce6c5ebe2ac6b19ceb",
+   "bytes": 41727
   },
   "bank-el-english-across-time.json": {
-   "sha256": "103cb997abbc2cdd1f421adf8d6bc620a72be9d1ccc6b472aab77af14b5ad410",
-   "bytes": 35825
+   "sha256": "07f063be39b7a054cfd35843be303cff7b4cca86e9bc68675b39c058f68e446b",
+   "bytes": 35954
   },
   "bank-el-englishes-in-contact.json": {
-   "sha256": "61a1cfd8feedc65d3a5a6416b615dfefb1d8869a2c2776f1f271a87fdb59a3e7",
-   "bytes": 36604
+   "sha256": "bc3f39ab753f1c337eee9a152c078bf31d93b5895f3c9d6cf9f5992f6a883107",
+   "bytes": 36835
   },
   "bank-el-formality.json": {
-   "sha256": "0ac14d4caf17f136748b52d06da8bc3c7d1d0de4edcd60adbd0b00361c21bb3d",
-   "bytes": 40537
+   "sha256": "51ac560b0d603b7b1598ddf29a5b31f0b353735f407e7eaae9c95de1ba89c738",
+   "bytes": 42000
   },
   "bank-el-identities.json": {
-   "sha256": "bb8f6d28e959e932ab0a2cd97919b8fc3b6a81c70ad48463b31559d86e89ac07",
-   "bytes": 39362
+   "sha256": "1c572b89af1ff822fbdd7d5741c6bd3bcaa1042cec36677ba6480510f7401d75",
+   "bytes": 39259
   },
   "bank-el-informality.json": {
-   "sha256": "e14c86c211685aaf793479a2661cd7c980e8c9287ec976ec2916b4e31c20a35a",
-   "bytes": 42067
+   "sha256": "edfc286f4ee4051fe16ac7cdeb33b5a801b09de24246c470368c26b6ba35d132",
+   "bytes": 42962
   },
   "bank-el-nature-functions.json": {
-   "sha256": "601de253a3a64fc8c66856206ce339568bb67179abee2a0292f2f5fccb722f4d",
-   "bytes": 35760
+   "sha256": "20e32756beb7726f6bb8f9dff8a58197996f81812e90787ffc0aff6bc9f60b82",
+   "bytes": 35827
   },
   "bank-el-sounds-words.json": {
-   "sha256": "3a2ee93af81115bc4ae33bfce368b4a091ff2bb76b49183a9be8b5ea94d3f831",
-   "bytes": 32926
+   "sha256": "e6c18fb65bc9907f450987c65b705277c86270d497018cd192ba5d3977b7bfdd",
+   "bytes": 33474
   },
   "bank-el-syntax.json": {
-   "sha256": "dc6021e18a28651b66d0bf55098082cb048b478a98c33060731b5c527d124a6c",
-   "bytes": 29335
+   "sha256": "4acffca7642ffb88a2bc49de74fe331a91d0e5eaca432b76e9edeca1976d571d",
+   "bytes": 29372
   },
   "bank-eng-analysing-argument.json": {
-   "sha256": "8d08079e7d5d8e8f924aae1215be913ad0f46640ab9710fa2fb576c089ec420d",
-   "bytes": 39513
+   "sha256": "c6758a3a9299bf9ee6bfb06520529d3b00f202bc60c3e5a7ffe5f6fc4dcd03e6",
+   "bytes": 40826
   },
   "bank-eng-crafting-texts.json": {
-   "sha256": "9933c447bb0ddddc2c6388c59383f744e6ee29e476bdd165f42b2def1e8ada16",
-   "bytes": 36459
+   "sha256": "f80e16c020473add8d00107f5388ace4bd32235bf3fb38f048e28b029fe6d52a",
+   "bytes": 36524
   },
   "bank-eng-creating-texts.json": {
-   "sha256": "a9c66ea212d31b9eb5bf6468bdd105ebf4e0ee335483489af34df1082a34b82b",
-   "bytes": 36975
+   "sha256": "c4f186b3496c82c0c9657cf356766a89e060f16b4cdce62b0cb807cf7d2b6e86",
+   "bytes": 38016
   },
   "bank-eng-exploring-argument.json": {
-   "sha256": "c78339450ab4e78381fe97e0afe03f77af15b6c7e7710eacf8d2daf758cfc072",
-   "bytes": 36323
+   "sha256": "36973d91546dbce626cc14310ddfa458d5a5961edbbf36210647f15fd9950db9",
+   "bytes": 37159
+  },
+  "bank-eng-hsc-contemporary-possibilities.json": {
+   "sha256": "9f6a8e75d3165d38d6b198f7afd2890c1cbfd9138d3291b465045618c3897f04",
+   "bytes": 39984
+  },
+  "bank-eng-hsc-critical-perspectives.json": {
+   "sha256": "26cca7734d3d8a6f40dc888ae4a6c697006aefc862c9b7af8fea12120feffd26",
+   "bytes": 37316
+  },
+  "bank-eng-hsc-critical-study-y11.json": {
+   "sha256": "185674fd06d629e7c035e80502df1fdeb9b0f3e5e876d0c5a0befcd1e37c76cd",
+   "bytes": 24509
+  },
+  "bank-eng-hsc-language-identity-culture.json": {
+   "sha256": "23eb01015fd7e10b959cb436d3b4eed6976eab7f8803e454901c23225118a6d3",
+   "bytes": 36875
+  },
+  "bank-eng-hsc-narratives-shape-world.json": {
+   "sha256": "4ea60da2e96a844d8d1f1bb8bb259b0c52ff9681882a9aef9e08515411c03331",
+   "bytes": 35802
+  },
+  "bank-eng-hsc-reading-to-write.json": {
+   "sha256": "c82bd2fdd41a2250855678ec455faa2e4e0075d22ef9c2fe188c424b50e522f2",
+   "bytes": 23720
+  },
+  "bank-eng-hsc-texts-human-experiences.json": {
+   "sha256": "2c0de80262238f61c29152d24e35be9d9859254c2ad9b2a0d610dbc9548a009a",
+   "bytes": 41219
+  },
+  "bank-eng-hsc-textual-conversations.json": {
+   "sha256": "79e92d3ff08757db7c10a7d2ba7a6e7c3cb3351c321a22fac776ddfc8f463374",
+   "bytes": 39823
+  },
+  "bank-eng-qce-creating-texts.json": {
+   "sha256": "743289621b95391dd23ee241aac9624d8d91ee107170fd26104e9c8f220dc8de",
+   "bytes": 28530
+  },
+  "bank-eng-qce-creative-responses.json": {
+   "sha256": "a4eaee1ac418d6f76241ddaebb1e479041589f9d04f7f1b03fb8fe7cab2c5e79",
+   "bytes": 31101
+  },
+  "bank-eng-qce-eal-language.json": {
+   "sha256": "10145c10b0fd80e63c5db51f9d16e1c2bfe70427879e821c48786cbff4565eb9",
+   "bytes": 33598
+  },
+  "bank-eng-qce-public-conversations.json": {
+   "sha256": "caa54b84a619b46dfce78afca11c16e9e1b7cbd66e72c3429ae6a1f8864943dd",
+   "bytes": 34167
+  },
+  "bank-eng-qce-texts-culture.json": {
+   "sha256": "920247879df1001a5807540d3e4e324495f3e651deb537af9424a40531135ccf",
+   "bytes": 33385
   },
   "bank-eng-reading-exploring.json": {
-   "sha256": "4a35d9210c7378347197225235673b3cef01844190cdfce3aff5e8335fd58673",
-   "bytes": 38217
+   "sha256": "643713962ba7125e2053ade44cee2f1fbb59d1a4e4fb812c6447fd31c3a8c5aa",
+   "bytes": 38601
   },
   "bank-eng-reading-responding.json": {
-   "sha256": "07bfe3b39902a24874cb0d3aa771136d2ac084c30aaa2b9b7fe622c1c2137dac",
-   "bytes": 38160
+   "sha256": "74063b96926ac79b071bd08ddf8583d16692f38404485c41948c16642bcaff5c",
+   "bytes": 38303
+  },
+  "bank-eng-text-all-the-light-we-cannot-see.json": {
+   "sha256": "c108a81f1bbff9b7f0dac48e5000a707b1f6f519ec547c441898cc234da9e720",
+   "bytes": 37195
+  },
+  "bank-eng-text-away.json": {
+   "sha256": "f7429dc630bc8f72ad23228fb7b66b72e4c364eac2047b86677ecf4cb53a38b4",
+   "bytes": 32182
+  },
+  "bank-eng-text-chronicle-of-a-death-foretold.json": {
+   "sha256": "c7f72362bb399b53561718eda2e73895ba17951d13b8f184fad69f1b78ecab37",
+   "bytes": 33760
+  },
+  "bank-eng-text-edenglassie.json": {
+   "sha256": "9d70a6a71552fb2dd42e1cde71d9224f9521c314314dcfc221b2c7c3e86e63e5",
+   "bytes": 30688
+  },
+  "bank-eng-text-educated.json": {
+   "sha256": "e0c3749fa6e999cbe6fa0e6248f9b9f74a23b99b2b490a55aa66fc9cffdcf74c",
+   "bytes": 28851
+  },
+  "bank-eng-text-frankenstein.json": {
+   "sha256": "8824ce8503de35d01705b6436ed035852dda7cc6bb95d41ed001e981ab29bd31",
+   "bytes": 36288
+  },
+  "bank-eng-text-ghost-wall.json": {
+   "sha256": "b02284e3429156e4d6d6fa4695fe53e4f7ef3a58567e62a6183578a1b7cb1f9c",
+   "bytes": 28612
+  },
+  "bank-eng-text-gurrumul.json": {
+   "sha256": "c450c1a9a21e20ad9cc37ef734c10498495c47ce7f3e8a504f0b4ad4e87bdf10",
+   "bytes": 28928
+  },
+  "bank-eng-text-hamlet.json": {
+   "sha256": "2667fd4a07a2df50ecc927872ca74f352235cffe22f2b7de2a8d0adfcd738ec6",
+   "bytes": 35181
+  },
+  "bank-eng-text-jane-eyre.json": {
+   "sha256": "390ef88d28aab00432ae4cc3d4d52c3112c9040e08a8412f94a7434ba78c3545",
+   "bytes": 34898
+  },
+  "bank-eng-text-langston-hughes-poems.json": {
+   "sha256": "d57aa49f2a466ea38adc924464d337338b9c4dc3c49e6245c4ec49fa763ebd95",
+   "bytes": 33259
+  },
+  "bank-eng-text-malouf-complete-stories.json": {
+   "sha256": "aa6c5c095fc566000482e8f1028b3a8a7cd88e53eb9cf2c7cce81282d589f21e",
+   "bytes": 33806
+  },
+  "bank-eng-text-mary-oliver-poems.json": {
+   "sha256": "102b73b4d8d268660c970dcdb5734b42981a0e8c2bb458198cb7e48d9a0daec9",
+   "bytes": 29989
+  },
+  "bank-eng-text-my-brilliant-career.json": {
+   "sha256": "fafc2c9acfd652bc5ad0543ac4fa283159fe41f736e1ef352c7f3103b3dbfe9d",
+   "bytes": 34268
+  },
+  "bank-eng-text-oedipus-the-king.json": {
+   "sha256": "ee520e8cc0ea972e313e633bbcba7d5bd24316bf9e3ba4c755c843e46da06f9c",
+   "bytes": 33934
+  },
+  "bank-eng-text-orbital.json": {
+   "sha256": "36ace8df7e38d482b5fe70559440db4a8265aec2ad4db2d920bd529a9686e667",
+   "bytes": 28208
+  },
+  "bank-eng-text-othello.json": {
+   "sha256": "d91a2fe2eeeee3dccd15805e6694584834aa77c8f559f3ed7a8f0d117a2be478",
+   "bytes": 34000
+  },
+  "bank-eng-text-persuasion.json": {
+   "sha256": "de7191a55a51345719738de780486178ca62594d8b1042cd252a3857981d3714",
+   "bytes": 33322
+  },
+  "bank-eng-text-picnic-at-hanging-rock.json": {
+   "sha256": "659a200ef054ddbe8173457cc3d51e37d8932cc1d5572b412fe0c04ba2455dcb",
+   "bytes": 36175
+  },
+  "bank-eng-text-pride-and-prejudice.json": {
+   "sha256": "89c159b3a3e99f2d4f34191f0ea84746a7ab4d7d35c1cd6f9b69263f405675d5",
+   "bytes": 34195
+  },
+  "bank-eng-text-regeneration.json": {
+   "sha256": "d52c3cbc5800cb11e06b7459e91fd7adc183ffcf37b253cb293b8543ea615e8b",
+   "bytes": 31204
   },
   "bank-eng-text-sunset-boulevard.json": {
-   "sha256": "2e7f766125c208f436cd1999415f8669f63ac1db5b5c8c53f74bce5274030ca1",
-   "bytes": 34897
+   "sha256": "e8f176231498858bb9b6bedb3ae39010ae332a85eee90abd437d92408b116412",
+   "bytes": 34834
+  },
+  "bank-eng-text-the-dry.json": {
+   "sha256": "700af01996b1e3df23936e2f2f4a212b23de91baeaf2e6d4dff76a1336ff4c61",
+   "bytes": 33134
+  },
+  "bank-eng-text-the-holdovers.json": {
+   "sha256": "84aa460360e9f31b27b6fb572a4f6f1ea7886bbdad4d89d9f41bf4a844668c38",
+   "bytes": 33089
+  },
+  "bank-eng-text-the-lottery-and-other-stories.json": {
+   "sha256": "b8c372bff79317fbe0f53c254a8ee677b5b9d05c0b1af0c1cf99ef0d6b0b50ac",
+   "bytes": 37071
+  },
+  "bank-eng-text-the-memory-police.json": {
+   "sha256": "2604fbf5739c3edee9e8c26cb43c4fb76c76edbf1b3558b33202a25bf91d48c1",
+   "bytes": 32115
+  },
+  "bank-eng-text-the-namesake.json": {
+   "sha256": "56928edac8b0f1cc8034abc54ad6eeef523c6e9351403702ba556beaed0e4684",
+   "bytes": 32334
+  },
+  "bank-eng-text-the-one-day-of-the-year.json": {
+   "sha256": "666d83c1ac8112b628c49b72489e4fc4a12cd9cd6b668aa048db6580e453a6f3",
+   "bytes": 33874
+  },
+  "bank-eng-text-twelfth-night.json": {
+   "sha256": "b63a3315de3acf5f6d0e94258ded07d540715b3b57114d4499269b31346342bd",
+   "bytes": 34722
+  },
+  "bank-eng-text-we-come-with-this-place.json": {
+   "sha256": "dc02d8d3d70a6e6fdf36bb01133914c5293a60c997363b505adfbc83fc3093de",
+   "bytes": 30482
   },
   "bank-english-genre.json": {
    "sha256": "9c2d0d16a7074328eb3fea909098dbdd390b04032a30bffdf9932f36791c0233",
@@ -406,6 +1418,10 @@
   "bank-english-narrative.json": {
    "sha256": "053db96c78808cf4a51c2b3727d949e0d4f5fd99f2d90027ddeedb3f32c26828",
    "bytes": 24309
+  },
+  "bank-english-paragraphs.json": {
+   "sha256": "77178c53f8759c8b26cffb2b4c0733282985733227c833a88539cdb74077e7a3",
+   "bytes": 28453
   },
   "bank-english-persuasive.json": {
    "sha256": "5736dca923e434aab69c8fe46a7330203e2fb8322a11283912fb5776b3ccb5dd",
@@ -459,6 +1475,26 @@
    "sha256": "07c34305ae1ae0ddf225cd98fe0dd9052bf3876a2eae4f0882b16d79d89b146c",
    "bytes": 42156
   },
+  "bank-envs-bsss-climate-change.json": {
+   "sha256": "006f2824097efb64975b529286896e88bebc8a6f91f7c1516df10b90c224a8c2",
+   "bytes": 35260
+  },
+  "bank-envs-bsss-earth-energy-flows.json": {
+   "sha256": "ee1a9f0f397aa917cf10dc9fc124fdd9700252169caa8bba94347f6c1a45e6ba",
+   "bytes": 34251
+  },
+  "bank-envs-bsss-earth-hazards.json": {
+   "sha256": "51336e86965cde1e54c5a96160736b3e3dc3a16d435873d9bc1539e6cd493194",
+   "bytes": 35812
+  },
+  "bank-envs-bsss-nonrenewable-resources.json": {
+   "sha256": "e00a0b02a562530f3aba54de262cc5214436046ccbd697960cca41895a92bc30",
+   "bytes": 37551
+  },
+  "bank-envs-bsss-renewable-resources.json": {
+   "sha256": "897bc1f21600ba9799dfd23fdbaa46e248bb8753d1e87ac336b57b8951777ad7",
+   "bytes": 35065
+  },
   "bank-envs-climate-change.json": {
    "sha256": "15a2b9d211eec4bd93b8eee2de8102ba21d2d851765ae3d2e0e94d19db4c7c97",
    "bytes": 39238
@@ -479,9 +1515,125 @@
    "sha256": "2cdcbfa87b1cea37644480f4d6f66b7d03497395923a90038bddfaaec7b4fa50",
    "bytes": 38144
   },
+  "bank-envs-hsc-earth-formation.json": {
+   "sha256": "397b15571cae11750b952e114c1541262b4d3fac1c11f505f4af4066c3260f1b",
+   "bytes": 38136
+  },
+  "bank-envs-hsc-energy-resources.json": {
+   "sha256": "9be2f4c290f21caf974246d4a4c02ba82297f0f7f212097d8b8dd98749a2a3f4",
+   "bytes": 37343
+  },
+  "bank-envs-hsc-introduced-species.json": {
+   "sha256": "fd26e2029a683ac05af3161547eecb1b2052172aaa803bb468475575a936fff9",
+   "bytes": 39110
+  },
+  "bank-envs-hsc-plate-tectonics.json": {
+   "sha256": "110b6b43f587a84c1524f96c28878c498bfda05f1d255fd4d98940114d40d4bd",
+   "bytes": 37695
+  },
+  "bank-envs-hsc-rocks-mining.json": {
+   "sha256": "54ab7795f8546dcda0224613f4db97375108871ae3402cc00de15b775a63b2a7",
+   "bytes": 39766
+  },
+  "bank-envs-hsc-soil-salinity.json": {
+   "sha256": "9979cdb9cb7aa6eca1e07c1d5dab092322c40c48aa3b3c39756095273bfd9e65",
+   "bytes": 35390
+  },
+  "bank-envs-hsc-water-processes.json": {
+   "sha256": "6a5ee7f761019715cd15c2ce6e77fb960f1fffa2917a6e05eb58cbcbe403724a",
+   "bytes": 37730
+  },
+  "bank-envs-hsc-working-scientifically.json": {
+   "sha256": "ba087137d4b3004269acf920ca54985ff38c6649dcb4449d83e00b3100345575",
+   "bytes": 37260
+  },
   "bank-envs-pollution.json": {
    "sha256": "4bcc41733abc317f8f2d66b5def65f49918649d0a135a85151f56ce813ce6c36",
    "bytes": 38432
+  },
+  "bank-envs-qce-atmosphere-hydrosphere.json": {
+   "sha256": "e3f0807418d0bf76ea74403bd0a4e6c849d47c715b4c2fa84d25500645d091b7",
+   "bytes": 35934
+  },
+  "bank-envs-qce-biogeochemical.json": {
+   "sha256": "7c50d426ddd841111c03ab290a83455c9127559d68549c9a4db453bc7c33c4e9",
+   "bytes": 34519
+  },
+  "bank-envs-qce-biosphere.json": {
+   "sha256": "2f64594842e838a49c43d85d2e1171c64a4d42dda298a09be4e0f8b004335bee",
+   "bytes": 37510
+  },
+  "bank-envs-qce-circulation-climate.json": {
+   "sha256": "a23bc83404f194e8d2cfb30b50223755cdbae6b9ec50fc226d5803c774eb9cfa",
+   "bytes": 36696
+  },
+  "bank-envs-qce-earth-energy.json": {
+   "sha256": "100f9339f53468979b1d6908e63914e933b44379955fa2adf2e49369bbfe2691",
+   "bytes": 35849
+  },
+  "bank-envs-qce-earth-systems-models.json": {
+   "sha256": "ca0687e71a5b311d5403ef4efc70f9fb7f57e9cddda65f6800a36d0e917bf83d",
+   "bytes": 36492
+  },
+  "bank-envs-qce-geological-time.json": {
+   "sha256": "6a96bcb11effa3a4688e32cca1e7be8e2767b0264a6db61920cc2cd1ab65c014",
+   "bytes": 39040
+  },
+  "bank-envs-qce-greenhouse.json": {
+   "sha256": "42926e5c9b2f4d2a45b62a0a67f8a4d0c92df052631220aeb7417ad11c034c5b",
+   "bytes": 34956
+  },
+  "bank-envs-qce-rocks-soils.json": {
+   "sha256": "cd44e2eb5d99e3841c9767ded58bc74ad2ff69147dcc53e238193c1b418cff12",
+   "bytes": 34577
+  },
+  "bank-envs-qce-science-skills.json": {
+   "sha256": "d7ac56ffcc79a30a8c268882914ae51644a2222b9f2144ce8286731a68136fa5",
+   "bytes": 36003
+  },
+  "bank-envs-sace-circulation.json": {
+   "sha256": "770a48dc736b89896981cf93bf06ae024c821d720cd6e84c9b8cd302d60645c2",
+   "bytes": 36342
+  },
+  "bank-envs-sace-climate-change.json": {
+   "sha256": "5a38ae9e1b086ca161f978475650844a9f836a8a038a4e6d0faa533f5d1e5e73",
+   "bytes": 39182
+  },
+  "bank-envs-sace-climate-drivers.json": {
+   "sha256": "720f566e1f373664b5265aeb580c04b1c6a66a9694f47af422d6885a5eca04b7",
+   "bytes": 38847
+  },
+  "bank-envs-sace-earth-hazards.json": {
+   "sha256": "f43daa64bd8e76418cc712accb915be2d0d3c02866bb508ef4644223bb79e885",
+   "bytes": 39143
+  },
+  "bank-envs-sace-earth-systems.json": {
+   "sha256": "ae6a95348a88b1eff7342085f285a3dee297f938c6c846a9a1ac1148c4afc153",
+   "bytes": 35656
+  },
+  "bank-envs-sace-eukaryotes-services.json": {
+   "sha256": "d4324c2e48cc31d9fc08a103d2320b0c4787859c8579bb9669497e31758eae88",
+   "bytes": 37785
+  },
+  "bank-envs-sace-minerals-dating.json": {
+   "sha256": "ca1248d5555c35e05d107797ae2eefcaa069d78d8f8c5e41712b0023644e5aa2",
+   "bytes": 33805
+  },
+  "bank-envs-sace-renewable-energy.json": {
+   "sha256": "4d4737508d00c9067ef617271dbac8eb3b3afa7d14833179f7412a6d88a28595",
+   "bytes": 35181
+  },
+  "bank-envs-sace-resource-extraction.json": {
+   "sha256": "c7452a9821649ecd60a8496b5c2ada46689c3d27d9bbb21ae823cacb0d1af60c",
+   "bytes": 36617
+  },
+  "bank-envs-sace-resource-formation.json": {
+   "sha256": "cd47bbfaa468fa0f3a3f56f748fab8fc10ddf29be301a985e752945d2e868aff",
+   "bytes": 37141
+  },
+  "bank-envs-sace-water-soil.json": {
+   "sha256": "275802f5fd68707d3e7ad9257eafd3f0ce7ce1611a822dac3f5ece07dd094c5a",
+   "bytes": 34852
   },
   "bank-envs-science-skills.json": {
    "sha256": "7251da1da2fd4b6767852aa7131c097e53700f2a3bbdefcecd8d00196b46432a",
@@ -491,6 +1643,94 @@
    "sha256": "91bac4c51fa2026063320f9cbea7caa0007676f663b7a66d291757473bfc8672",
    "bytes": 40151
   },
+  "bank-envs-tce-conservation-law.json": {
+   "sha256": "d886568cf0125c552ebe53aab6b7b1037995211908dad74c94674353b9f20463",
+   "bytes": 42338
+  },
+  "bank-envs-tce-eia-emp.json": {
+   "sha256": "d8d0298b1ab10bddba7e9aa3ef465e1e4ab361bd08140839aada705cce00fa36",
+   "bytes": 34811
+  },
+  "bank-envs-tce-energy-nutrients.json": {
+   "sha256": "77783c03fec7cd1c4ea350847e7e775dcfab0b019fad6b19ee06eb2bc1d854c6",
+   "bytes": 34177
+  },
+  "bank-envs-tce-esd.json": {
+   "sha256": "208e4b6d2eb6fb7d2e0700b7f3e6031bd30fb1a665146905d2be761b429a855e",
+   "bytes": 33080
+  },
+  "bank-envs-tce-inquiry-skills.json": {
+   "sha256": "51f09b670dabf4dd3e1dd5e2d563eaaf242583d70332570b8eaedf19929b8634",
+   "bytes": 36290
+  },
+  "bank-envs-tce-introduced-biodiversity.json": {
+   "sha256": "95300eac99b096ea9dadb4b1a85876cf45e43f0f3d40b0c3071d99cf44079de5",
+   "bytes": 41618
+  },
+  "bank-envs-tce-natural-cycles-climate.json": {
+   "sha256": "bfe970c0f3aa49078fb3bf5782ba36facdc44198089e1eadf38ac19e113cc97e",
+   "bytes": 37143
+  },
+  "bank-envs-tce-pollution-resource-use.json": {
+   "sha256": "be0d05f398418db2f23c502e715f96d9ebd8cc1d3967a4f16d0998e2f3506edb",
+   "bytes": 38497
+  },
+  "bank-envs-tce-resource-strategies.json": {
+   "sha256": "d151943cb05d7ae12fe7100ecdcc697c2bc7d9b5f14526512d4900dd78a44766",
+   "bytes": 36091
+  },
+  "bank-envs-tce-services-footprint.json": {
+   "sha256": "c8b9173634119317fb24452da3f6030cd5aeb3c4ce3287167f14486aeba03588",
+   "bytes": 37081
+  },
+  "bank-envs-tce-species-populations.json": {
+   "sha256": "c088e1b9af4e56da70c7aff593afca8e4c5a5bab04e9f264d8192d0dd675e8de",
+   "bytes": 33758
+  },
+  "bank-envs-tce-tasmanian-ecosystems.json": {
+   "sha256": "28c3479113735d6401087a9d9e708a2619480ec9bae9620e9a8f1bf3ea5c0e86",
+   "bytes": 43977
+  },
+  "bank-envs-wace-atmosphere-hydrosphere.json": {
+   "sha256": "e1719065c01c6989d1a2827525ea2eb8e97946468ea0a121af4780c8f6ea63b6",
+   "bytes": 29892
+  },
+  "bank-envs-wace-climate-change.json": {
+   "sha256": "1a93cbd3f4cb95a9745d72933565bfd43a3cd939e446df42efa2a940a2daca82",
+   "bytes": 38906
+  },
+  "bank-envs-wace-earth-hazards.json": {
+   "sha256": "e4a3d6e1805c42d75ec7c377db1858ccc7f128237f277c259fd627be0da8024c",
+   "bytes": 39688
+  },
+  "bank-envs-wace-earth-materials.json": {
+   "sha256": "fe73bb9725c0fc6348c91879dc39f3629789c5ff8109b4a38f7eef1f3c544f31",
+   "bytes": 36141
+  },
+  "bank-envs-wace-field-skills.json": {
+   "sha256": "031ddce448d09ec444f80a760278cc9d4267f827d74e9c20720c5c12ef2eaa2e",
+   "bytes": 33413
+  },
+  "bank-envs-wace-fresh-water.json": {
+   "sha256": "c2a9a7ebfbc40d6582c50e61773534e4691dccc9791e363251dae7eb3bb85dc2",
+   "bytes": 38162
+  },
+  "bank-envs-wace-igneous-rocks.json": {
+   "sha256": "d8a6b47c19d5f14a62758f66de6150c0755fb4b4083aa1a05d1ddc50d3e1a1f1",
+   "bytes": 22129
+  },
+  "bank-envs-wace-nonrenewable-resources.json": {
+   "sha256": "d2e7a78e3433d59f8c7f33c8a6b3b45cbd4d7c40502d39307855af5ad17d19b6",
+   "bytes": 41299
+  },
+  "bank-envs-wace-renewable-resources.json": {
+   "sha256": "e885e9ddfa425c0208480f60af79bc6af854e8df0ff0b7e12b2e41f9240804d2",
+   "bytes": 36131
+  },
+  "bank-envs-wace-solar-ocean-atmosphere.json": {
+   "sha256": "98f742090fc72778914a19318cf8bd2b4ff1a207c3c637ba81b5f842cdc86f62",
+   "bytes": 36613
+  },
   "bank-food-webs.json": {
    "sha256": "a1d5b8b59a02fa0751e893e976609e7ddf105f5bb8ba23b5b418b71499b10a33",
    "bytes": 67609
@@ -498,6 +1738,54 @@
   "bank-forces-energy.json": {
    "sha256": "67a8789eada20ee67eb25006d1b10f173cf9c71b35d45aa2f544f2f16b47b5db",
    "bytes": 92695
+  },
+  "bank-fr-hsc-current-issues.json": {
+   "sha256": "0af83b15c7f0b5ad1787ebb5ca8a7d4186b69a8fd968221a04a1f114a70fe948",
+   "bytes": 19346
+  },
+  "bank-fr-hsc-daily-life-arts.json": {
+   "sha256": "5a6e557f3b76cf12e78123154cba682e4dd23da787cb9d08604e3d600da7dda4",
+   "bytes": 20590
+  },
+  "bank-fr-hsc-leisure-travel.json": {
+   "sha256": "17bc41506dabb02078b4be3e962254244b8f063e766fbccf995f2d862c3fb4d8",
+   "bytes": 25300
+  },
+  "bank-fr-hsc-lifestyles-arts.json": {
+   "sha256": "69430aa36a6c9438e8a3a20775a4151eb44d6bd76d2bebd3a88f9cfd77dc0e1b",
+   "bytes": 28820
+  },
+  "bank-fr-hsc-text-types.json": {
+   "sha256": "5e2d464d1b0aa02bef9098efcd875569dbb40f655abc7d37662dad5a0926c7f6",
+   "bytes": 22220
+  },
+  "bank-fr-hsc-verbs.json": {
+   "sha256": "85a6febed5cf149162d3f89c587e51111f9cac258eb14568a7a1ae5890fb0d71",
+   "bytes": 20253
+  },
+  "bank-fr-qce-exploration.json": {
+   "sha256": "847b4165898aac6dd02979db276bbd023589402f67cfbd4af05d386cd6ff92d9",
+   "bytes": 27579
+  },
+  "bank-fr-qce-ma-vie.json": {
+   "sha256": "b5723ef0f0ced03e441926324af72a94483746f2c5e75f1f81f4821eddcb6ac4",
+   "bytes": 26184
+  },
+  "bank-fr-qce-notre-societe.json": {
+   "sha256": "d4d5e15ea801ad25e9e2f68a5b680379666473a12ed443ac86ff36febe63fa34",
+   "bytes": 29037
+  },
+  "bank-fr-qce-present.json": {
+   "sha256": "cb45d46bca537cdc8bf8f9981736698f7140c0591908bc8ed217b36d307c81c9",
+   "bytes": 25430
+  },
+  "bank-fr-qce-responses.json": {
+   "sha256": "9cea241d1cdda8d858075a7e06ebd9ba0940239d89226a64ca8532033b24457f",
+   "bytes": 25752
+  },
+  "bank-fr-qce-verbs.json": {
+   "sha256": "bcc643ff88052030dc8eb56ffcf19013828cdb600e441cc064ec381a8dcf7567",
+   "bytes": 23625
   },
   "bank-fr11-francophone.json": {
    "sha256": "351201a2f1dc311b3cecfbc6f301065abe9ef7a204524b754557cb08da09152e",
@@ -615,6 +1903,54 @@
    "sha256": "9f46c4904449e84dd4842582e23db0a5fbdaad202b4130dfb46ed41603adc19c",
    "bytes": 39059
   },
+  "bank-geo-hsc-contemporary-hazard.json": {
+   "sha256": "a70e81fdd71f8cebe1276a86e6c6f91beab0a756ef170f7d29af83f6f563ee14",
+   "bytes": 31598
+  },
+  "bank-geo-hsc-ecosystems-biodiversity.json": {
+   "sha256": "0a6aeff1d932727115fdfe2b9da52d1365b9e25584cfaa00d7f6c14cc7ea8b42",
+   "bytes": 34054
+  },
+  "bank-geo-hsc-geographical-investigation.json": {
+   "sha256": "2a2eddce61f4b4a29738d089a7e3601e95bcf69f01ba44c3cb7975593807bc6b",
+   "bytes": 29171
+  },
+  "bank-geo-hsc-geographical-tools.json": {
+   "sha256": "6449b39b2b82dd9a319c9424b6e41869698de91f6bbee5fe5ea602ec1eb31213",
+   "bytes": 32277
+  },
+  "bank-geo-hsc-global-sustainability.json": {
+   "sha256": "59cbb5209a47fcb6eade8e323900ed9101b5513747298bf18d40adc611fa7106",
+   "bytes": 37629
+  },
+  "bank-geo-hsc-human-induced-change.json": {
+   "sha256": "4c31abb1e1b86dad85cc5cbf128719082c6837926df0503df1eb1a65da8c0b8f",
+   "bytes": 32108
+  },
+  "bank-geo-hsc-large-city.json": {
+   "sha256": "f439fa69475907e11e81b5ca0fb304462a29d783a977d381dcd76fee502b7f98",
+   "bytes": 33243
+  },
+  "bank-geo-hsc-natural-systems.json": {
+   "sha256": "2f63185d30aa6bc653e6c896ef54c56bfa764d7dd55966f7474731caeed5b3e5",
+   "bytes": 29899
+  },
+  "bank-geo-hsc-people-places-study.json": {
+   "sha256": "b92603a618546b3719a9ab01eebba5696c566aa506061f2e5e691a1f2068ffba",
+   "bytes": 40367
+  },
+  "bank-geo-hsc-population-resources.json": {
+   "sha256": "f8794e88ceefbfd7e4d5eb1a69102eba6ec374626f8c80a82ca858f4042ae5ac",
+   "bytes": 31001
+  },
+  "bank-geo-hsc-region-climate-study.json": {
+   "sha256": "b598edb4a6bd47d4b621312861eeb97bfad1ce671bc686ce82bc187074e14ff5",
+   "bytes": 32846
+  },
+  "bank-geo-hsc-rural-urban-places.json": {
+   "sha256": "5dabf04526ce19c7c4f529090efa1815be86f8530914fc6c37c601fa86709df2",
+   "bytes": 33944
+  },
   "bank-geo-land-cover-change.json": {
    "sha256": "183601aa8dd3ac01befcd67d92cfc1e571a9f1818670bfa0914037bb2e30752d",
    "bytes": 42460
@@ -630,6 +1966,30 @@
   "bank-geo-population-issues.json": {
    "sha256": "4f35a41193d6c832b9a764efa0a6865fb0749f3cf9f2362d6fd13947919f5045",
    "bytes": 41944
+  },
+  "bank-geo-qce-climate-systems.json": {
+   "sha256": "403e1ddccbed10f4e410b0c7a31a460545e9dd920d9ef5aae8a4f42370dd355a",
+   "bytes": 41180
+  },
+  "bank-geo-qce-ecological-hazards.json": {
+   "sha256": "0279fbc9b6beff6778b5eda5b53d5804eebb648f6d192acc1c8507e94e656bd3",
+   "bytes": 30892
+  },
+  "bank-geo-qce-land-cover-transformations.json": {
+   "sha256": "ea0c3960508dd102903ab07bd091f78713b365efcae9bd14b3efeda7f462f401",
+   "bytes": 33142
+  },
+  "bank-geo-qce-local-land-cover.json": {
+   "sha256": "efca19b46b1f9e5686f9cb69d1d55401db99ae8d972d82c3331ff88e60fa71c4",
+   "bytes": 31802
+  },
+  "bank-geo-qce-megacities.json": {
+   "sha256": "b4e7f0f010e5178ec0353e6d9c74d0e0e0f2ef28842612133f2e0fd7341b1bb5",
+   "bytes": 29788
+  },
+  "bank-geo-qce-places-australia.json": {
+   "sha256": "804092f81e3395cfcc9569478299406dde99df6082fa1b561edacb55c6ce868a",
+   "bytes": 29455
   },
   "bank-geo-tourism-impacts.json": {
    "sha256": "ef44fea030adc2c1ae888967db8c62f9cb81581a8c1576ada08c4ce67fa96092",
@@ -687,6 +2047,10 @@
    "sha256": "8ed68f7e8d96e0096badc43c1261811c7974e72112094cc91a340f94a62532f1",
    "bytes": 95976
   },
+  "bank-gm-bsss-time-series.json": {
+   "sha256": "56e1d67f7e6f06b6956c18dd8ff01a1d96dec603bd5723a68b0c9ba2d6a90d26",
+   "bytes": 30818
+  },
   "bank-gm-data-distributions.json": {
    "sha256": "8e0691591b18661d3597ed04617f7b4836ad49892d9f64ac7a150ccc33a6b874",
    "bytes": 31242
@@ -702,6 +2066,78 @@
   "bank-gm-graphs-networks.json": {
    "sha256": "0a3e017e825ae65a4b459a776b69ac0fdb5ca7aa649315b6711211dd82237935",
    "bytes": 27466
+  },
+  "bank-gm-hsc-algebra.json": {
+   "sha256": "9e089837e754d64075587b0ac4820c0a73e005ed7762f84f143d18d2a56676f3",
+   "bytes": 30201
+  },
+  "bank-gm-hsc-annuities.json": {
+   "sha256": "03d91f52ba239823aed53eb439210b6b1e2e564360199162e54f6aa04945cfb4",
+   "bytes": 30702
+  },
+  "bank-gm-hsc-bivariate.json": {
+   "sha256": "0e8e480abe4c9fe18e68a56f322399e89d36edb9f9143cb78f0b4ee00902eb63",
+   "bytes": 27582
+  },
+  "bank-gm-hsc-data-display.json": {
+   "sha256": "eb3284e1cf358cbe004fb858978431a46f771501f9f00b45fa4ba16c706581f0",
+   "bytes": 31287
+  },
+  "bank-gm-hsc-data-investigation.json": {
+   "sha256": "747fdf2b7c250e99f650e241db83a73961e3fb4e25ba6ead345ed00cba1e103d",
+   "bytes": 32152
+  },
+  "bank-gm-hsc-earning.json": {
+   "sha256": "ead0375d060ef6e80a1d15f7bb4638d23cabbf6d0ae20e633699b84af27ef769",
+   "bytes": 25530
+  },
+  "bank-gm-hsc-flow-critical-path.json": {
+   "sha256": "7b2a1adfa357ae7ad51ae2aecde3fb25abe9b126a67aa6ca14148641d1a6575e",
+   "bytes": 29482
+  },
+  "bank-gm-hsc-formulas.json": {
+   "sha256": "8de8270cbcbeba1c28897cb7e262aba8762bb827e34c28f7173190d9ab537d54",
+   "bytes": 25735
+  },
+  "bank-gm-hsc-investment-loans.json": {
+   "sha256": "154806ef9cecc1941b31ade48aac00909ee064b11696638373cfb1a441b5c5be",
+   "bytes": 30937
+  },
+  "bank-gm-hsc-linear.json": {
+   "sha256": "778ed83bff4065f88c71b3b54446ff3b70108de33744c4b4416e99e617962486",
+   "bytes": 27063
+  },
+  "bank-gm-hsc-managing-money.json": {
+   "sha256": "12febc4d17ca1a916be7f27920f55728a7a28f44ba8aef33ae102e2502783754",
+   "bytes": 26767
+  },
+  "bank-gm-hsc-measurement.json": {
+   "sha256": "85d983a2c1bf6fd4de3f0950d3a6e19b1548a1b93f8d80b3a447f41eac567796",
+   "bytes": 26614
+  },
+  "bank-gm-hsc-networks-trees.json": {
+   "sha256": "37dfdf0da2016916135a61589b56d31948dbf1d32c58bf889d2d3fa67ede5995",
+   "bytes": 28892
+  },
+  "bank-gm-hsc-normal.json": {
+   "sha256": "39e57804565fe00b5697a93b3cfa2a25fb7f8c0a51dd6fc99c2f4d48898d9972",
+   "bytes": 25637
+  },
+  "bank-gm-hsc-probability.json": {
+   "sha256": "6096ba909365549319fe7393081dd00be7e3ef0363992a627a0323483484975a",
+   "bytes": 24498
+  },
+  "bank-gm-hsc-ratios-rates.json": {
+   "sha256": "6e37049d4a84e2d655d54ea4822bfccc9f06ebbea674b7348a5b3f40d8cf5f4e",
+   "bytes": 25086
+  },
+  "bank-gm-hsc-time-location.json": {
+   "sha256": "24491446d39ae827cd24dfd331fa68bca100c229202f1272c26311ed1986b49a",
+   "bytes": 25714
+  },
+  "bank-gm-hsc-trigonometry.json": {
+   "sha256": "65dc1f0d35cebc10c7cb56a0df31a0c673a40134fe6b63cd0559d6bb71e2735f",
+   "bytes": 26463
   },
   "bank-gm-linear-models.json": {
    "sha256": "d59d616e5ed77454b47e383fb25ef1ff7b50a17637e57416f55b08df8ca75485",
@@ -727,13 +2163,129 @@
    "sha256": "6382447a6f86d0e0e1bb8e3eab357918b1036df58ccde42ea0229d8023b836b3",
    "bytes": 32589
   },
+  "bank-gm-qce-algebra-formulas.json": {
+   "sha256": "7044c9a733e7cd72d13b182c57703050235a22a6a4c974fb2a1808568fa36a53",
+   "bytes": 24269
+  },
+  "bank-gm-qce-bivariate-data.json": {
+   "sha256": "a3cec2f63d065cb40dbadc540a484486553cba8d348d0ccecf3b155be593657e",
+   "bytes": 34175
+  },
+  "bank-gm-qce-compound-annuities.json": {
+   "sha256": "cb60c4510277ad6c96446ded2cfcca08bba55832aceef79e04aa9f86d3ed9234",
+   "bytes": 31327
+  },
+  "bank-gm-qce-consumer-arithmetic.json": {
+   "sha256": "51a487a010fa75057f1bd1043657132d833b3ece269548bb4a57845f3ee5cadb",
+   "bytes": 28496
+  },
+  "bank-gm-qce-earth-geometry.json": {
+   "sha256": "9f5c34c6e3c2dcef7c6e15dc69331773719377d1aa442cbe2b56af71311686d3",
+   "bytes": 28212
+  },
+  "bank-gm-qce-graphs-networks.json": {
+   "sha256": "40e040715162eec67d385f79399a8fd262bdf709279a90a3da7e85e98c645aa4",
+   "bytes": 30631
+  },
+  "bank-gm-qce-growth-decay.json": {
+   "sha256": "b0ce5cade48cec4a2adbba03870ef5e2e815a4c38c700e106d3a3f0966bf55b3",
+   "bytes": 27729
+  },
+  "bank-gm-qce-matrices.json": {
+   "sha256": "3ea6e940a8c4e29ab0b90dba5dd122ce952a6322990995cee8331761baf00f2e",
+   "bytes": 26409
+  },
+  "bank-gm-qce-measurement-scale.json": {
+   "sha256": "3c1aa301514d35210c47c7325a414e8e37af70a080d7de7c9b4a3af2486c8a76",
+   "bytes": 27151
+  },
+  "bank-gm-qce-networks-decisions.json": {
+   "sha256": "93b4cdede79a1d54e8084510ba9615ab9e4cb290616c593f81d0389cc80ac80f",
+   "bytes": 32807
+  },
+  "bank-gm-qce-time-series.json": {
+   "sha256": "12baa4ed2e2295656a407f73dd13905be8650cdaf8e01844f99b5cd5bbe771a4",
+   "bytes": 29647
+  },
+  "bank-gm-qce-trigonometry.json": {
+   "sha256": "b496a3fb03f6d62ba7545a824c89d4329b829c1f2945ad3ad8db1339d15b937e",
+   "bytes": 26615
+  },
+  "bank-gm-qce-univariate-data.json": {
+   "sha256": "d2fa1bffaa6a994b446d761851dcbc681913208788d9851c76b1357bab91a9b0",
+   "bytes": 27040
+  },
   "bank-gm-regression-time-series.json": {
    "sha256": "17f63bae694f91ceccd2cc743ffca414f420ba737585b3c3a0ecfbd41b70f585",
    "bytes": 34319
   },
+  "bank-gm-sace-accuracy-rates.json": {
+   "sha256": "99ec88b853aff0bff58810d5f98b84524daa65f146cb57c87b97864aa41b39de",
+   "bytes": 26546
+  },
+  "bank-gm-sace-assignment.json": {
+   "sha256": "d8cbafdb75eebd637b5175f9a2cb199e7de09f01e6e76f22f334674753241a00",
+   "bytes": 30551
+  },
+  "bank-gm-sace-borrowing.json": {
+   "sha256": "ef7b75b4642a8d8936643b8d2e554608673e4532b2441108e78a8dded4ce4361",
+   "bytes": 30325
+  },
+  "bank-gm-sace-critical-path.json": {
+   "sha256": "d62192f5374cef2fed6d742611fff8039dd8faec38281ef17d6f3f9db6afb2a6",
+   "bytes": 29555
+  },
+  "bank-gm-sace-exponential-functions.json": {
+   "sha256": "91cfdbf233ee06c629154217ce185fe2f92bf18518f524e29e2e643d53efb4c4",
+   "bytes": 27605
+  },
+  "bank-gm-sace-investing-borrowing.json": {
+   "sha256": "1c2df712ad1d2852cfce4ab5eab350638f90d04e8ef622f32b9a88607fe44979",
+   "bytes": 29657
+  },
+  "bank-gm-sace-linear-programming.json": {
+   "sha256": "d189ce2cf713b05d1b4809be5bd5089e4c84eb7e8533896affb41f4da62918da",
+   "bytes": 34510
+  },
+  "bank-gm-sace-matrix-costing.json": {
+   "sha256": "83e979020f48f2e69a6b58b8660323469d8871ae8fb1f2c94be339be94703a4f",
+   "bytes": 30689
+  },
+  "bank-gm-sace-matrix-modelling.json": {
+   "sha256": "93fcc5c09ca04e9aa7f579ab61bdafbc4046764d83bd30c899cca973fc8250d6",
+   "bytes": 34301
+  },
+  "bank-gm-sace-residuals-normal.json": {
+   "sha256": "f30e3b0f43994260c7e1a0907747a4fac7b33f8fcbb07e506a2b062632fb1e6c",
+   "bytes": 30834
+  },
+  "bank-gm-sace-saving.json": {
+   "sha256": "f215adc90d004cd872d36bc40c7fea9d24a83be3d085e5ac03e811bc26d898f4",
+   "bytes": 30298
+  },
+  "bank-gm-sace-simultaneous-equations.json": {
+   "sha256": "63a3ea6c4fed54034863aa7634b87c1c6076c63e87ee6868eea5626da436f284",
+   "bytes": 29610
+  },
   "bank-gm-sequences-finance.json": {
    "sha256": "c5a7ce5a55d6fbed74de1a49f0db3369f8024852dea6543b973780226385a645",
    "bytes": 29587
+  },
+  "bank-gm-tce-ratio-interest.json": {
+   "sha256": "632382b0eee8ef89febcedcadaac45dbb34bee7a0427fcc409a6b0eab5b4c40b",
+   "bytes": 24663
+  },
+  "bank-gm-tce-right-trig.json": {
+   "sha256": "c359e2333f79f85aceb113a36c6e3d59ad2b2585c91419b5c868f5f68e357411",
+   "bytes": 27202
+  },
+  "bank-gm-tce-series-recurrence.json": {
+   "sha256": "d0198e456e5afe8a81e710ddf8f09d05a632d2078a81b2ceaa9f6cf7b848f93f",
+   "bytes": 24785
+  },
+  "bank-gm-tce-trig-earth.json": {
+   "sha256": "9691d62bddeeaedb6d10c8a43c873a046a84abed092d7d34632e143040ff54a2",
+   "bytes": 26184
   },
   "bank-gm-two-variable-data.json": {
    "sha256": "0948861a9bb5dcd984fb484057cfd41852b7dfdf93e0e69ca752d4038df6380f",
@@ -742,6 +2294,106 @@
   "bank-gm-variation.json": {
    "sha256": "3193890ffd8d2d1cc1eab8f4b8d41c439d65669ff3047836311bd455ba7daa4e",
    "bytes": 25518
+  },
+  "bank-gm-wace-formulas-interest.json": {
+   "sha256": "1d954f221e361720f1db1849daefbd4f467bec12208e6f1c80f70feff525d51b",
+   "bytes": 26173
+  },
+  "bank-gm-wace-normal-distribution.json": {
+   "sha256": "7f192160005724b0b4b7d0e2e61c1bbe3659dde30eaeaf7bb60d0bcc30ac661c",
+   "bytes": 30137
+  },
+  "bank-gm-wace-tables-residuals-recurrence.json": {
+   "sha256": "1fc9950e3149567d5ed424b8f6ec46172bd3131c3fe52162942ec0705dac9d95",
+   "bytes": 32814
+  },
+  "bank-hbio-wace-cell-division.json": {
+   "sha256": "ee83f5bea645ac84fce54b8d6c9fda57689d64820619fe1769b29c8593dc4ac5",
+   "bytes": 31473
+  },
+  "bank-hbio-wace-cells-tissues.json": {
+   "sha256": "1c4488df5c1dc8bba7269260942d368ed59f8ea6cd2ab0486c3ad4ff1b211ffa",
+   "bytes": 31693
+  },
+  "bank-hbio-wace-digestion-excretion.json": {
+   "sha256": "d5d74fa45672725a424138c7328d60811d6f11d8df0d8b2ec8e05797f69a50c0",
+   "bytes": 32046
+  },
+  "bank-hbio-wace-dna-proteins.json": {
+   "sha256": "d7c8ac02fb17455e2baa27588981686b54442f59ed9b7790343f1b6236e65563",
+   "bytes": 31966
+  },
+  "bank-hbio-wace-endocrine.json": {
+   "sha256": "8a12a3ba6c258e7015340436dae18f8791ba126852b1bbe58aa2d36c88341687",
+   "bytes": 34274
+  },
+  "bank-hbio-wace-evolution-evidence.json": {
+   "sha256": "b7fe618ae534b8fa5c07c8ca2d27bfc1008d1d7a368303fe4305163ce932e809",
+   "bytes": 35628
+  },
+  "bank-hbio-wace-gene-pools.json": {
+   "sha256": "3a399cf3220410100ce3d97333b2183f2bb31fc7488937004fa5e2189a450a37",
+   "bytes": 35423
+  },
+  "bank-hbio-wace-great-apes.json": {
+   "sha256": "44cb477bc38eef94e934a7c067bf0815ddc2fc7930e2d8059abf4df76a1a84a2",
+   "bytes": 32844
+  },
+  "bank-hbio-wace-homeostasis.json": {
+   "sha256": "e6eb16be89efe23639b575e85b855f62e8e74cac3833057d2014c64fee16b3a3",
+   "bytes": 34113
+  },
+  "bank-hbio-wace-hominins.json": {
+   "sha256": "712d6058c6a72f65fa2f1f6d112fc13a2954a56c6e335a4b988b8c9f40edce06",
+   "bytes": 32414
+  },
+  "bank-hbio-wace-immunity.json": {
+   "sha256": "bf320df7cdb6649b3e30039e454b84fb714ff1030c751b6d108b312761aacf99",
+   "bytes": 34255
+  },
+  "bank-hbio-wace-infection.json": {
+   "sha256": "855969ef6acb40b1c7e296f7539c02738780ccf53ca592476de65f69c07d6ff8",
+   "bytes": 33475
+  },
+  "bank-hbio-wace-inheritance.json": {
+   "sha256": "3da6b598ed31dfca49285c11379aa74716e6940b7c564759c66bbeedbefb6889",
+   "bytes": 31026
+  },
+  "bank-hbio-wace-inquiry-skills.json": {
+   "sha256": "976194e6d80bec07f7db055a63450e2eea38b3d1eadbea255b8c796509bf8cc7",
+   "bytes": 32215
+  },
+  "bank-hbio-wace-metabolism.json": {
+   "sha256": "687c55ba82f67689bfecadfb7be3cf16623c858bb59cc9deb370f0d7e301615f",
+   "bytes": 31423
+  },
+  "bank-hbio-wace-musculoskeletal.json": {
+   "sha256": "c1a9c697d8c658ce563158e94a9115c99ddcb7d26c0cac5d64e34920d45d048a",
+   "bytes": 31532
+  },
+  "bank-hbio-wace-mutations.json": {
+   "sha256": "f17e1fbb6dfad3a4cc78f9d28fdf0125aadf4a24d20271dcd4f72beaa91a5285",
+   "bytes": 34185
+  },
+  "bank-hbio-wace-nerve-impulses.json": {
+   "sha256": "fb692e6eba9fa01e17069b755bb3586db7d0f61140370d0ce0f2cf56347447f2",
+   "bytes": 35554
+  },
+  "bank-hbio-wace-nervous-system.json": {
+   "sha256": "f6f2e09e02f0e7742f1324dfa3fa16b3ea882e1cf03348ff1bdf3a4f3924304e",
+   "bytes": 33835
+  },
+  "bank-hbio-wace-reproduction.json": {
+   "sha256": "ccfc38e2aab9d0d95ab7d9a3e73e0d48a2cc80ce47345785afb1039e35b998a7",
+   "bytes": 31323
+  },
+  "bank-hbio-wace-reproductive-health.json": {
+   "sha256": "a2ea4bd1679f1c243e3b6f8bb548fd5ad9aa6ae0c1201c9f3b3e9cfd3f8ceaf8",
+   "bytes": 34753
+  },
+  "bank-hbio-wace-respiratory-circulatory.json": {
+   "sha256": "57fdf6f3e974385f9d0d6aecb334eebf6d6231c45d72b87304c0e276fe5aaaeb",
+   "bytes": 33909
   },
   "bank-hist-anc-egypt-amarna.json": {
    "sha256": "65c6e4e34543f2650c52334c5f7c9058c22d04d551459e1e3c4af54806afd176",
@@ -831,6 +2483,190 @@
    "sha256": "ffd2864a5c36f9514e7acd1bfa2b40eb75fc36abafc1d0133a20949b9886b8e5",
    "bytes": 41871
   },
+  "bank-hist-hsc-agrippina.json": {
+   "sha256": "f0d7717b968059f8fc22e9489d4cbb162135356d4f1384aa44c99e19dfdf150b",
+   "bytes": 32310
+  },
+  "bank-hist-hsc-alexander.json": {
+   "sha256": "3607500234ab64eb5f22f311a44cae71a3232dc880c50e9ab24dffa181a1fcff",
+   "bytes": 33878
+  },
+  "bank-hist-hsc-anti-apartheid.json": {
+   "sha256": "364642ea666ceeb558aa50882f7870b2110d290839e7b2a3afb210fe32474383",
+   "bytes": 38969
+  },
+  "bank-hist-hsc-arab-israeli-origins.json": {
+   "sha256": "df4696cb568e271e357105d85af56a608205575ca3f430ff824ffc2c5624e845",
+   "bytes": 40871
+  },
+  "bank-hist-hsc-athens.json": {
+   "sha256": "7202ffe534f4c4d1fb1b6a5674a48b3eb6459814ebc48c97d3481ab88525d151",
+   "bytes": 36848
+  },
+  "bank-hist-hsc-australia-1918-1949.json": {
+   "sha256": "f524b804c9a2a414bd52c3266b72931bf7d6398b327f18f165578c11eccba066",
+   "bytes": 38456
+  },
+  "bank-hist-hsc-boudicca.json": {
+   "sha256": "fe69e986e7f7b8eacefcf924810c867c2516c740e28bd2bc38ab88b70c5727c5",
+   "bytes": 34118
+  },
+  "bank-hist-hsc-china-1927-1949.json": {
+   "sha256": "80fee7ebc1430bded8ab281bf9960af7a7cdd3b6c0074899fe5f89592ad033ab",
+   "bytes": 38166
+  },
+  "bank-hist-hsc-civil-rights-1945-1972.json": {
+   "sha256": "6b02dcbbbbced3eb4005ef32cc8b19be24809960b1fe1bb8be6482b179ab1db9",
+   "bytes": 39740
+  },
+  "bank-hist-hsc-cold-war-1945-1991.json": {
+   "sha256": "977cdd54cc8b313047abb7f9813bb861a0478213870a829ce9a08c7894abc78b",
+   "bytes": 37950
+  },
+  "bank-hist-hsc-cultural-revolution-tiananmen.json": {
+   "sha256": "02cc913735185d03a57e00105ee49b1903bb0f5873fffd8f27dc4a7211d75cb5",
+   "bytes": 39256
+  },
+  "bank-hist-hsc-decolonisation.json": {
+   "sha256": "ce458efe7981431ea59d8867f665f9554bc75934c7b44047f93a8f767b461cc0",
+   "bytes": 39576
+  },
+  "bank-hist-hsc-deir-el-medina.json": {
+   "sha256": "e6df2f897aac60a82bcac37c518accba78f82cdf3580b304003a36bb3db651dc",
+   "bytes": 31068
+  },
+  "bank-hist-hsc-europe-1935-1945.json": {
+   "sha256": "97f2d605f0fd870db132323ccf4166359a239a03fa1ef4129a8a0db8a7f786f7",
+   "bytes": 40434
+  },
+  "bank-hist-hsc-features-ancient-societies.json": {
+   "sha256": "3b3d7f836c3a6156579381ad0bb7e60beb9584bf70d3a3c3f6f75078afbf625e",
+   "bytes": 40269
+  },
+  "bank-hist-hsc-first-world-war.json": {
+   "sha256": "4c50e5cd86d99813972d41da928b8d19a4b7ad06be35afd2ab1635e39bbb7c73",
+   "bytes": 38987
+  },
+  "bank-hist-hsc-french-revolution-napoleon.json": {
+   "sha256": "410a3db9b40c67dc1848002dddbc8955af0a76353da0b81d09cd039b86a46d64",
+   "bytes": 28423
+  },
+  "bank-hist-hsc-han-society.json": {
+   "sha256": "49e782ea52fb133453e14407803e40daf15b050154eedd7549b13bf7b9acd009",
+   "bytes": 36144
+  },
+  "bank-hist-hsc-hatshepsut.json": {
+   "sha256": "2bf018e2d96ce8d4c69778e1746ff3e16060829884bdd3b8e469e6ff6794d195",
+   "bytes": 33309
+  },
+  "bank-hist-hsc-industrial-age.json": {
+   "sha256": "38627747fc55c2481cc78d832a945272f228b92602cd0b888a84146cadc878dd",
+   "bytes": 37065
+  },
+  "bank-hist-hsc-interwar-dictatorships.json": {
+   "sha256": "6aef6a653c22b0b79465d6b02de91aa1136d6471608cab48a28eb43d8d7cf262",
+   "bytes": 39779
+  },
+  "bank-hist-hsc-japan-1904-1937.json": {
+   "sha256": "423669a2913104ae75daf011aafbaaa963ffeb4268a912ac6612c707a3cc34dd",
+   "bytes": 41586
+  },
+  "bank-hist-hsc-julius-caesar.json": {
+   "sha256": "8ebe77e7f700df2ca8ef800a9a446a1770c62721200d847b8d0ba1751ea9328f",
+   "bytes": 31262
+  },
+  "bank-hist-hsc-meiji-restoration.json": {
+   "sha256": "f4c0aa2156c374694335dd37ca4bec1c6ddc14f5449f54d740a9ffe3cd949f10",
+   "bytes": 39855
+  },
+  "bank-hist-hsc-nature-of-ancient-history.json": {
+   "sha256": "7de15eaf9a18a0e9884a15f16ae8adcd6bded2a0ffbd6bdb121865acde050916",
+   "bytes": 39628
+  },
+  "bank-hist-hsc-nature-of-modern-history.json": {
+   "sha256": "9f90eecaf88486cfc52f6565f1d24f0a896158dedb43522a673e4e3d6131f1b7",
+   "bytes": 39132
+  },
+  "bank-hist-hsc-nazi-regime.json": {
+   "sha256": "481c473ffc38baaede1065d8e6e39d952bbb9ab5f63235509a0acaffd4444ede",
+   "bytes": 38564
+  },
+  "bank-hist-hsc-new-kingdom-society.json": {
+   "sha256": "191e996b7a4e5577999d89bf3be33e2cff9bd5f0a5086925b8bbe96141d64409",
+   "bytes": 37184
+  },
+  "bank-hist-hsc-nineveh.json": {
+   "sha256": "695fb31e6f99d5267ceac7ab524d6a887276d02f0f779fd2a9673337c9672ea3",
+   "bytes": 29170
+  },
+  "bank-hist-hsc-pacific-1937-1951.json": {
+   "sha256": "3602de14e18e5847ce9fa9145cebe7f7915078b221d838f1c1c0dd03f2ddfe88",
+   "bytes": 39489
+  },
+  "bank-hist-hsc-pericles.json": {
+   "sha256": "bf02ed6a05a79786e9c72ceb93098007cb1b1509ae68f58d89e9105d1b50d016",
+   "bytes": 32992
+  },
+  "bank-hist-hsc-qin-shi-huangdi.json": {
+   "sha256": "886a27e7c6edc4deb12d3e24f65e64ad4448ea07eeac631d1d3b873ffdaf42f3",
+   "bytes": 33588
+  },
+  "bank-hist-hsc-river-civilisations.json": {
+   "sha256": "0d4ad8b0f060954726bda85ce0f787317191b7fa1105d84dc90600e4c99580c6",
+   "bytes": 33510
+  },
+  "bank-hist-hsc-roman-games.json": {
+   "sha256": "4915a9ae86219e0e5f9c7a85a630e49be31377105f41be3b95ffd9d8b7ba45c6",
+   "bytes": 36687
+  },
+  "bank-hist-hsc-romanovs.json": {
+   "sha256": "ee9008083600a5a17b4a8c5651b5fc6d5d03f73d3ffa0b9d12d81b3b1d6643a8",
+   "bytes": 32817
+  },
+  "bank-hist-hsc-shang.json": {
+   "sha256": "6e790995cfbf0855e4c4abc45d0b492a5e9d8e90434f86fdf506f575f304535f",
+   "bytes": 29100
+  },
+  "bank-hist-hsc-soviet-union-1917-1941.json": {
+   "sha256": "4bed07c48e79ba27569340a1dd3097d69a3008937a327d074e3bce690a23bacc",
+   "bytes": 40486
+  },
+  "bank-hist-hsc-sparta.json": {
+   "sha256": "9529d5a587e993aea42ea0d3700bd0e533e39700092dd8bab2d002b054117041",
+   "bytes": 36967
+  },
+  "bank-hist-hsc-thera.json": {
+   "sha256": "fd4262f0165daafc147dd1be58ca1e00caf6ead8711a8ba740a77958ea2ae372",
+   "bytes": 33409
+  },
+  "bank-hist-hsc-troy.json": {
+   "sha256": "ae6772469eb0e6e3fabdab575c5b68b45c0c6f9d2e1d5bab172be5f094988e4b",
+   "bytes": 32732
+  },
+  "bank-hist-hsc-tutankhamun.json": {
+   "sha256": "39a389bffacb6751fe3499cf454e2d351cafaf20a3b90f05521f545a92554193",
+   "bytes": 36388
+  },
+  "bank-hist-hsc-usa-1919-1941.json": {
+   "sha256": "665dcc93c0e63608181031df334817169f4cf2aef33f782921ae1d423a55384a",
+   "bytes": 38416
+  },
+  "bank-hist-hsc-vesuvius.json": {
+   "sha256": "ccecce5ff75fcdd2fd6ac6bc5752bfba0a363863f1c8f1ed1252dd5963b9dd0b",
+   "bytes": 38631
+  },
+  "bank-hist-hsc-vietnam-1954-1976.json": {
+   "sha256": "0edd76a3cef2548af57dc151d1f535e2c561d885ea7dfc5e66582fe6cc5c69b7",
+   "bytes": 40647
+  },
+  "bank-hist-hsc-womens-movements.json": {
+   "sha256": "29385e2821706489e49868c7bf41bf3baf4bf432bfb0c59a59cd9fdf7ac11693",
+   "bytes": 39598
+  },
+  "bank-hist-hsc-xerxes.json": {
+   "sha256": "730b7f033444613b498a3ab5d5e3792681396195ccf5d64c7536135238703614",
+   "bytes": 32588
+  },
   "bank-hist-mod-challenge-change.json": {
    "sha256": "a9cc70947a0015ee864fcdaf1ac9a1de59aa96d09f18b8acc111d661068f06fb",
    "bytes": 39284
@@ -846,6 +2682,54 @@
   "bank-hist-mod-social-cultural.json": {
    "sha256": "4c6a131929ba75b141ad618385fdeb96919f2b7835186ebc743d825406e6bb9e",
    "bytes": 39995
+  },
+  "bank-hist-qce-asian-migration.json": {
+   "sha256": "84112633540199d119c882f700e2f643caf32c3f2f1b3fdc9b5585139b6104ba",
+   "bytes": 38178
+  },
+  "bank-hist-qce-civil-rights-legacy.json": {
+   "sha256": "ed4085a6fb43dad1666ef174cf74237368b5916e8540a5698e789d92ff0636cb",
+   "bytes": 29573
+  },
+  "bank-hist-qce-cleopatra.json": {
+   "sha256": "54e97cb6cc4a3dff5e4fe627e7fb0822584882eca96e931b5b1db08d0801f606",
+   "bytes": 38938
+  },
+  "bank-hist-qce-french-directory.json": {
+   "sha256": "c47d3fd9d4e1fbcdc2041a1bd66e0fd38a29099480f06920578806c38a643a43",
+   "bytes": 33936
+  },
+  "bank-hist-qce-genocides.json": {
+   "sha256": "5c3cffc9cf8c2b223c79013fdaf51176c9adb7e6a2c104504b275ad09d6dbbfb",
+   "bytes": 36252
+  },
+  "bank-hist-qce-germany.json": {
+   "sha256": "804cc2de8a730d840bd933564600590a92a33f22815da055c2059fe579d332cb",
+   "bytes": 33466
+  },
+  "bank-hist-qce-julius-caesar.json": {
+   "sha256": "a6eba863988961550e3877e32a497a8da432e6f6528b6d63ef213747b318f01b",
+   "bytes": 38906
+  },
+  "bank-hist-qce-middle-east-peace.json": {
+   "sha256": "774c5f6ce9d9f7f2affa395de1af84d5c0bbf677a956c9cb6c141d0f13e17c1d",
+   "bytes": 35898
+  },
+  "bank-hist-qce-soviet-collapse.json": {
+   "sha256": "d6ff2b154b3dd94f5059539ca149d3c1f9d7b5f6413287948d73eb9191088ae0",
+   "bytes": 40197
+  },
+  "bank-hist-qce-soviet-war.json": {
+   "sha256": "f667b44ebcec80848bc2d0ab0125df43b9b73d78161201b905b43d1c0ec5b5c2",
+   "bytes": 29267
+  },
+  "bank-hist-qce-usa-1917-1945.json": {
+   "sha256": "a5fd403237ad260099228f8f464f6bf290811cc57cf83c06b0cb3e86197cc9bb",
+   "bytes": 31094
+  },
+  "bank-hist-qce-womens-movement.json": {
+   "sha256": "3ec6e5c18e91bffcea1686cd2d5b92307e6b22dfe52eb8640daa8bcb353488f3",
+   "bytes": 35159
   },
   "bank-hist-rev-america-causes.json": {
    "sha256": "6638e4a9e982a78dc9d2dd470d33854d454ed26744d285ccda0556a9501425e3",
@@ -1003,6 +2887,58 @@
    "sha256": "96ad90964f0abbf19e2ff9ce8cf41dbed236ee5260f2006349fc3ef21f16ea43",
    "bytes": 17794
   },
+  "bank-ja-hsc-grammar.json": {
+   "sha256": "f3cba2dbb8289892fedf87fd1ce4c74db1f62ac50ad61a4f1cc4550fad885a65",
+   "bytes": 27976
+  },
+  "bank-ja-hsc-kanji-compounds.json": {
+   "sha256": "44ab7df9a86fb28f7c07f18b180d59e4c4d8111e011cfb632d0add835c9039a9",
+   "bytes": 31629
+  },
+  "bank-ja-hsc-kanji-readings.json": {
+   "sha256": "cb5638900d8999cf781120d67b057bd74ea5221b91fed0be27a4a4a6f13e6ecc",
+   "bytes": 26007
+  },
+  "bank-ja-hsc-leisure-home.json": {
+   "sha256": "e0f8a6f3929cc8f46accd536f14da81e2fe7076b60a35b9779a6ffe412a37580",
+   "bytes": 33225
+  },
+  "bank-ja-hsc-text-types.json": {
+   "sha256": "e02b17d92e4313e22f30d5ab6188b3854b6bc78801b9dc747421f2baf9f74ca7",
+   "bytes": 28192
+  },
+  "bank-ja-hsc-travel-living.json": {
+   "sha256": "06b69301a5e92d1c781d6a2553c6b1c38b0b0e72d961012dd8cbea1fd55c0a1c",
+   "bytes": 37486
+  },
+  "bank-ja-qce-family-school.json": {
+   "sha256": "7a03dc20a14f22f08c179886ed2b9bcf3cb4d4513f2fe5aab59d6fd1d5a3f863",
+   "bytes": 37888
+  },
+  "bank-ja-qce-graduation-volunteering.json": {
+   "sha256": "1cebd98a221295017bb299f0106b151ab9a228d5343cb3f2b9f396ceec747704",
+   "bytes": 39654
+  },
+  "bank-ja-qce-grammar.json": {
+   "sha256": "b2e4004f346e12d7c455f2d64b819b8adbbd6212f226d3a6b40f03078f7b4d2e",
+   "bytes": 33488
+  },
+  "bank-ja-qce-kanji-u1-u2.json": {
+   "sha256": "514f592dbf592bfa85060ecc3c518038b290adfb10bdf742a1c0661b4060d8b8",
+   "bytes": 25257
+  },
+  "bank-ja-qce-kanji-u3-u4.json": {
+   "sha256": "bf8dbe9fa7cefd55ab694a5e68a2fa310598b1978aa476006d9f5eb237fef547",
+   "bytes": 28869
+  },
+  "bank-ja-qce-lifestyles-arts.json": {
+   "sha256": "40af1288b30e66a303a368c412f82d8439a525ae3ab03db3485ebffc4f63a0f0",
+   "bytes": 36443
+  },
+  "bank-ja-qce-responses.json": {
+   "sha256": "bcba87ed98582ceb8b3d7e8e8b54120a1843bb98b2d77f80ad58c949f3253e01",
+   "bytes": 33503
+  },
   "bank-ja11-communities.json": {
    "sha256": "b8fcdce1f29980b156d6906f22841379d5cb9b1d18b18126131cd35540f00754",
    "bytes": 31241
@@ -1143,6 +3079,70 @@
    "sha256": "2600f44cf943758bb14000fbfe58a80955a42ccb92a3ca13364603c820842faa",
    "bytes": 38392
   },
+  "bank-legal-hsc-civil-procedures.json": {
+   "sha256": "5cbc6fd27f0d3bc8f1fbc8898fc27cc411f9728b8e3d689cf6159ee16fcc9176",
+   "bytes": 29867
+  },
+  "bank-legal-hsc-constitution.json": {
+   "sha256": "20a08e320589b08cad6d5822d1f8794cb2ff343f67179a01a83bb0f942e2f2a3",
+   "bytes": 35690
+  },
+  "bank-legal-hsc-consumer.json": {
+   "sha256": "fc40c32121c0fa7f3eb6e16633338f7b6bc945451fcf958c2c8ca45883459ef4",
+   "bytes": 44170
+  },
+  "bank-legal-hsc-crime-pretrial.json": {
+   "sha256": "14091d4315834311783702a0faf7081a22206f1522ccc95d5a5818fd85d68bbf",
+   "bytes": 39694
+  },
+  "bank-legal-hsc-criminal-law.json": {
+   "sha256": "5bddba0a3b2cbdc49d4f23102cd4237f0051b3ad4bec52b5655f04b90305243c",
+   "bytes": 36535
+  },
+  "bank-legal-hsc-disputes-with-state.json": {
+   "sha256": "caf01014ebcd7aaf5a56c9d204e0d44f1f407326b4baebac5850592506ad4604",
+   "bytes": 40377
+  },
+  "bank-legal-hsc-family.json": {
+   "sha256": "25844fd02c51634d824b00c82342811ccc9442a2be3349852d0431f1ba62b0a1",
+   "bytes": 35783
+  },
+  "bank-legal-hsc-foundations.json": {
+   "sha256": "ff42b31e348af4bf9b65b332f7029bdb2f28d2df971c5f2a8e9d4b75e3a61765",
+   "bytes": 39614
+  },
+  "bank-legal-hsc-global-legal-system.json": {
+   "sha256": "2a8ac5bb633c1615207c37a766405525c244b245dc521333093722ee26fec2f7",
+   "bytes": 41761
+  },
+  "bank-legal-hsc-housing.json": {
+   "sha256": "ce1bbc5fa499240022ff6debfb6a59cd37b3626942c973b7521092b0d916ff3c",
+   "bytes": 34401
+  },
+  "bank-legal-hsc-human-rights.json": {
+   "sha256": "14542a8fc4cca31105227fecaf3c86b62f6e36b944337e57ed90e621aa8f5766",
+   "bytes": 36520
+  },
+  "bank-legal-hsc-law-reform.json": {
+   "sha256": "d2c1032d54c385393a1c532cab4fdcc32edf2b6d12e052ff4b2af4dbac6c2174",
+   "bytes": 35891
+  },
+  "bank-legal-hsc-peace-conflict.json": {
+   "sha256": "ffcbf761387a20c513ec8c22261a29bcd2d77bda961519d628b5408864d25aeb",
+   "bytes": 45648
+  },
+  "bank-legal-hsc-trial-sentencing.json": {
+   "sha256": "ebf75c930ba22f3ac506f1741124d5c6eaf2d1b6413b35a306229941f6ff2d54",
+   "bytes": 40618
+  },
+  "bank-legal-hsc-workplace.json": {
+   "sha256": "03bf4c0a506b98dca4e8d636a5c39dd55dc96f0dd28d9e770e489cf333b8ed80",
+   "bytes": 42819
+  },
+  "bank-legal-hsc-young-people.json": {
+   "sha256": "1bb3002a48fe392f6d928a4d0251398aac1fdd1360a7cb5d59bc98f1bbbb1f90",
+   "bytes": 33638
+  },
   "bank-legal-human-rights.json": {
    "sha256": "02440835200a77638e8df4a3c766a2cb9e648689c776ad3b8f105b994b9c0351",
    "bytes": 37721
@@ -1159,6 +3159,54 @@
    "sha256": "16d60a49fe88961a76c45d698ec8533f3ba5bbaf62b566e061096e170bc4ec2c",
    "bytes": 35133
   },
+  "bank-legal-qce-civil-foundations.json": {
+   "sha256": "3dd0dccb56c132f19a3da87ea8df4b638dd0c339f7ed796bf639e429eca0605f",
+   "bytes": 37920
+  },
+  "bank-legal-qce-contract.json": {
+   "sha256": "350d1911319bb49aee903829239b6080d22a98f264a964f5528da75014a86cd3",
+   "bytes": 38013
+  },
+  "bank-legal-qce-criminal-trial.json": {
+   "sha256": "e6b3b7ba68b190e9aa1c17ac071dba0ec3cf8881a1815a5a93843428eb62ef99",
+   "bytes": 42454
+  },
+  "bank-legal-qce-foundations.json": {
+   "sha256": "459b9fe169b99ffffb16ffa982d594d657d72bbd81f9c598f0e1e5093ea3e79a",
+   "bytes": 37469
+  },
+  "bank-legal-qce-governance.json": {
+   "sha256": "5c2c9c48b09ece927c09254f0ed6b9d16e1bcb6d13fd4ad0c3a8e504e484b709",
+   "bytes": 39916
+  },
+  "bank-legal-qce-human-rights-law.json": {
+   "sha256": "b0c392dbac474aff4d6391a74f683d3a9a94e7d617afd40d572fb0a05bf3ee5b",
+   "bytes": 40137
+  },
+  "bank-legal-qce-intl-response.json": {
+   "sha256": "7f2287e11674e814c65659d9a08ff6b6ff8dbd5f7376a75c29bf0cc4b1e9159d",
+   "bytes": 39987
+  },
+  "bank-legal-qce-investigation.json": {
+   "sha256": "366b890dc21824796d731b77631a8d6e85ca5a7d3dfb7bebaa5b8147b564e75b",
+   "bytes": 42523
+  },
+  "bank-legal-qce-law-reform.json": {
+   "sha256": "af0b2f2b717b07b3e8011ea96c649e71847e967ebb1d34727e0607541b059896",
+   "bytes": 37713
+  },
+  "bank-legal-qce-negligence.json": {
+   "sha256": "c81f6c440be5ce356ea2f37ef928dbde3e32eadb504e166452c5f9ed3d32f00a",
+   "bytes": 40634
+  },
+  "bank-legal-qce-rights-qld.json": {
+   "sha256": "0ded606d2fe2f93cceea8bbd3f26795775c847c5f8de032f83c52cc21d31f8f4",
+   "bytes": 41009
+  },
+  "bank-legal-qce-sentencing.json": {
+   "sha256": "519dec2b282c0afc3b1b0cfe514816971f0b29f4ef3abf24a4d8c054ae5b1981",
+   "bytes": 40978
+  },
   "bank-legal-remedies.json": {
    "sha256": "aee380ce62546af9eba77581b5e093f185406cff97ed3ce7730683e0754800d5",
    "bytes": 35049
@@ -1168,32 +3216,48 @@
    "bytes": 36044
   },
   "bank-lit-adaptations.json": {
-   "sha256": "16f30f08df8edc3e6b07d911a2325d0ef118e65d75e50fb7574d2b77c335400b",
-   "bytes": 37028
+   "sha256": "7795dda15cc951a3149830a0363a2b9eee201f6c2851dc0191909b6a53a4fe06",
+   "bytes": 37945
   },
   "bank-lit-close-analysis.json": {
-   "sha256": "cbdb132b291e0f23b9bd4ec87e2e97b018694ae5652a75a6e735e1d4e168e90d",
-   "bytes": 34621
+   "sha256": "eb6d2d71d251878d469d6291f2dbc86e0b9c4695051f6fc111d68436b484f77b",
+   "bytes": 34869
   },
   "bank-lit-creative-responses.json": {
-   "sha256": "e453d6bdbf2fa7cb35ac5c8fdcabcaf53ceadb5bd09e0490709692df796106ce",
-   "bytes": 36792
+   "sha256": "1e37ebe5bc45a57bfc07083cd5b738a5172ef1dd5d6ae582e04bb4f4dd30b4d3",
+   "bytes": 36920
   },
   "bank-lit-interpretations.json": {
-   "sha256": "c0540fb2b8d64a225288d1bc5d12e45e41a27459f837d0dd80429bd983448789",
-   "bytes": 38695
+   "sha256": "26f7a72d315751001b66530f0e2439fcac095ca2443e90a7bc82925814b344fe",
+   "bytes": 38665
   },
   "bank-lit-movements-genres.json": {
-   "sha256": "06d4dc073764702237db4f62f4b1dbabf97e69f865969211d870eb324c66d5f2",
-   "bytes": 37718
+   "sha256": "d481972143290c0416c250198f18a756f8e995441ef68777e9a959d7dd7fd741",
+   "bytes": 38095
+  },
+  "bank-lit-qce-analytical-imaginative.json": {
+   "sha256": "2591321a8c43035028b93a512a20610aa7e88c2c422353be784ae80c6863b2de",
+   "bytes": 27407
+  },
+  "bank-lit-qce-intertextuality.json": {
+   "sha256": "464dce2d8ff1668ecc68f4048e831b634d4941ff04c8e44c0f04f9e4b9b4911f",
+   "bytes": 32477
+  },
+  "bank-lit-qce-literature-identity.json": {
+   "sha256": "f26803609ab94db09bfe9d5930c39ce96277fa8868f7ce50a18e8f6ac3df4bff",
+   "bytes": 36173
+  },
+  "bank-lit-qce-original-imaginative-text.json": {
+   "sha256": "c489473bce9784ba8afde1e746dbfd76eaa9e10af0da0b454d68fb72f81e5b03",
+   "bytes": 34095
   },
   "bank-lit-reading-practices.json": {
-   "sha256": "42b47b7ec9e75f680b87ed6f8339e2c9fa423f2619590f9c4bba12a2450fae7c",
-   "bytes": 36532
+   "sha256": "abd8d7ff6f0d5af7dacd395b9eb5b6a2ee43112b4c4c7426b2eae545c9fa82be",
+   "bytes": 36530
   },
   "bank-lit-text-context.json": {
-   "sha256": "5635648b68aef1029b7940e0bd723ed435adb04fff87dbadb28ae502584b0a96",
-   "bytes": 38461
+   "sha256": "312680f7f4eda32c9572566105bfedfd0ad811ce93ab852a921cac0aa885e426",
+   "bytes": 38357
   },
   "bank-maths-algebra-y10.json": {
    "sha256": "b40e0d457d06d2351f4a05f1ce31dd4216f373ade1c4452137f3c26acacc2ebf",
@@ -1303,6 +3367,34 @@
    "sha256": "c038dd8618f279a573f340123fca64f4ce57d6c04fb93c81a5d9c4df87f1c194",
    "bytes": 29946
   },
+  "bank-meth-bsss-antiderivatives-motion.json": {
+   "sha256": "f00ce5b9f8a9f5d04b3ac43f6116bca48f260e9b77c1316db4a7db7304bf6585",
+   "bytes": 26328
+  },
+  "bank-meth-bsss-definite-integrals.json": {
+   "sha256": "8d57eef772bd2bd7fb1a5624165b440335c1c2e3ca610cb0d3404aaf2677da21",
+   "bytes": 26808
+  },
+  "bank-meth-bsss-events-sets.json": {
+   "sha256": "0f89b607f7e175fd7f97d70b8ea0d8fe1e7542b8f849db2f9f5fa475005b4dc5",
+   "bytes": 25692
+  },
+  "bank-meth-bsss-exponential-functions.json": {
+   "sha256": "2c99cb2982aa889451a42e2059c33147cead69a1fdef860c11e5643bbe3fa3e9",
+   "bytes": 26235
+  },
+  "bank-meth-bsss-functions-graphs.json": {
+   "sha256": "fa0747d46b1fbdb6ce7695a65d6f0a22f2daa5da511198b9eeda86e4f75540a8",
+   "bytes": 28813
+  },
+  "bank-meth-bsss-logarithms.json": {
+   "sha256": "8fb86e4bb3e93f1407c23e6cea747346652eb580907d53ad672f29dd9ff50e27",
+   "bytes": 27007
+  },
+  "bank-meth-bsss-sequences-series.json": {
+   "sha256": "91367c9a61e21b84c386616d47979e37c97b153adec7221475695a3d55c9eb59",
+   "bytes": 26108
+  },
   "bank-meth-circular-functions.json": {
    "sha256": "1c7d39c8ccdb20b1e8efd8f6aaf2a50c98ff2e2a10f6245e11fcd84063b83545",
    "bytes": 29132
@@ -1335,6 +3427,62 @@
    "sha256": "5703b743e74f137a2157e744a3400117b88025b7a3d8b31e59cdfb0926461dad",
    "bytes": 29012
   },
+  "bank-meth-hsc-algebra-quadratics.json": {
+   "sha256": "4e08e5932b14884725f056c76f5deded8b98d3b5a3b1297a89289ce2f5319895",
+   "bytes": 29312
+  },
+  "bank-meth-hsc-derivative.json": {
+   "sha256": "bb0ef1cc962fedd7b3d192e1a5c51ed8b0427952650533e5a08d57a2bb0d144e",
+   "bytes": 26773
+  },
+  "bank-meth-hsc-financial.json": {
+   "sha256": "2d67690f4ba6b0dbf1ac8f1d3c884190772156e815c46ae9767f525715220e0e",
+   "bytes": 28694
+  },
+  "bank-meth-hsc-functions.json": {
+   "sha256": "f3af58dc3cd0cb1cb8de9cc911349bd1c7eec94f2420de296fa62f2b3093dd66",
+   "bytes": 27114
+  },
+  "bank-meth-hsc-graph-transformations.json": {
+   "sha256": "fcb24408751a29b5d75b041be433bd41d5290c08372fdd1e544adbdbac8403cf",
+   "bytes": 27995
+  },
+  "bank-meth-hsc-integration.json": {
+   "sha256": "115ae731a40c7824cd622b7b1ccc021eb4cc9c83c1552575a7c5583a63987ee4",
+   "bytes": 28277
+  },
+  "bank-meth-hsc-normal.json": {
+   "sha256": "08795b5e3f328f10c57f2f2dff0fab86fdfc976c676570aece3f0d204c93f94f",
+   "bytes": 26335
+  },
+  "bank-meth-hsc-random-variables.json": {
+   "sha256": "23303b978c4311a13a66b7645a494c322af906e76f9106af9dbccacf8e5c2cd4",
+   "bytes": 25502
+  },
+  "bank-meth-hsc-rates-motion.json": {
+   "sha256": "fcf7b08ec8afe9ec5ff4d9125101432471ad3fa29e3a37530aead12f9db1bcfb",
+   "bytes": 26313
+  },
+  "bank-meth-hsc-series.json": {
+   "sha256": "3bf03cd53968f9300a8392e33fa9ca0999fa7b205114a2ab102e9b2b301f9e8a",
+   "bytes": 26033
+  },
+  "bank-meth-hsc-sets-data.json": {
+   "sha256": "2d276837ecc3b16b6ac9754cdc74934e182f8a2add82bab501c8f7275bdf97e1",
+   "bytes": 23708
+  },
+  "bank-meth-hsc-trig-identities.json": {
+   "sha256": "988c3245fdc1047b4aac81d69c5be1ad23459410e1f2418131f0a6bfe0557f7f",
+   "bytes": 26357
+  },
+  "bank-meth-hsc-trig-modelling.json": {
+   "sha256": "532a6d9cbcc044a69534d28171200a8d8c3d86991ddaab683671f8cab642344d",
+   "bytes": 29987
+  },
+  "bank-meth-hsc-trigonometry.json": {
+   "sha256": "28f5f6a06bc90555dc3323eace08f03dd51a6fe2c6736e2d298722d17304b837",
+   "bytes": 27375
+  },
   "bank-meth-integration.json": {
    "sha256": "897781dd70239552238282c05badc852e4997380da127d3cb7c1eac81544676a",
    "bytes": 28524
@@ -1351,13 +3499,137 @@
    "sha256": "9d1d28a32ebfab2ecf69e30fdd940b4c59665910dc266d447ea66f027d1d767f",
    "bytes": 31947
   },
+  "bank-meth-qce-antidifferentiation.json": {
+   "sha256": "2a8ca9a4e8d9dd9b6b0d86ef046d5060c33f4be02872acca6f761b472fd2d993",
+   "bytes": 27617
+  },
+  "bank-meth-qce-binomial-cubics.json": {
+   "sha256": "c3b0f3f3f64887057494b9d44f30e04ac2a2d5cc28735c312ba2a2cbd8728aad",
+   "bytes": 25442
+  },
+  "bank-meth-qce-definite-integrals.json": {
+   "sha256": "703a7514d30af58c35ffe1a03f3f4b9f829f6442e35e8511df74b43fd214af05",
+   "bytes": 28944
+  },
+  "bank-meth-qce-differentiation-rules.json": {
+   "sha256": "dbdd733de364efb1321aaf6853033b0d7d79ba1101e90ee1c625f780c59f60a6",
+   "bytes": 26237
+  },
+  "bank-meth-qce-differentiation.json": {
+   "sha256": "281d9c80f725e9ce59d1729984a926345df29f26eb24446096308ec0f602836f",
+   "bytes": 25056
+  },
+  "bank-meth-qce-discrete-binomial.json": {
+   "sha256": "980342f867eecc36f65db1848f0b3cc6eba4edbcfb876ffcbaf105a1f7eabc7f",
+   "bytes": 29433
+  },
+  "bank-meth-qce-functions-relations.json": {
+   "sha256": "94bf4597235206771e0d595564bef72d7ab87d0aae972164ed536d3e15b4d313",
+   "bytes": 26936
+  },
+  "bank-meth-qce-sine-cosine-rules.json": {
+   "sha256": "aad7a0a81805fbc7bced6aacd82062a997c4d37a75d9cc663b943334bd3237f2",
+   "bytes": 29555
+  },
+  "bank-meth-qce-surds-quadratics.json": {
+   "sha256": "8b8c86e525f49d5f5c16712e66ba3429d33a947e2a5a91d2f7c54db410d893f2",
+   "bytes": 25749
+  },
   "bank-meth-rates-of-change.json": {
    "sha256": "6b5d5d25044209d327454bb9e1711315ec695f11ff05bef66b1c2fe435784b11",
    "bytes": 30518
   },
+  "bank-meth-sace-ci-mean.json": {
+   "sha256": "19b1c73cbc28118030f520bc8078fcf392f2c4342502929d8ab11b87a97ef526",
+   "bytes": 27484
+  },
+  "bank-meth-sace-ci-proportion.json": {
+   "sha256": "08b15a6ae82d2b650abf4897799be8925be2289c78f58e854450ea1a1b6e3f69",
+   "bytes": 28084
+  },
+  "bank-meth-sace-continuous-rv.json": {
+   "sha256": "6ba4683d7fe7f781362e17df9c26af555234730565a6a5cfb851cc01131025d6",
+   "bytes": 26875
+  },
+  "bank-meth-sace-counting-statistics.json": {
+   "sha256": "335d5fc6f981c7c9ca2ebcceab38432f6bc681eb06093b3c0702fda4cd4464ce",
+   "bytes": 26115
+  },
+  "bank-meth-sace-definite-integrals.json": {
+   "sha256": "06ac328d1f8f737dd3a40b305f077594172c4d053dbbefe354e1a02625ed7029",
+   "bytes": 30257
+  },
+  "bank-meth-sace-first-principles.json": {
+   "sha256": "85893568026a68d9db15e7929f97a43bfbb8b5c0c3d9037fa278e4478d8acbc7",
+   "bytes": 8754
+  },
+  "bank-meth-sace-functions-relations.json": {
+   "sha256": "843d7157c7003a3a5ef5f3c1502cc993bea93a1347ff6a12516b04c42bdb987d",
+   "bytes": 27397
+  },
+  "bank-meth-sace-growth-decay.json": {
+   "sha256": "b1863b4d4ff13402bcbd9f2fa6d2264ad6f8a010d50b2c52713257d001ee2d40",
+   "bytes": 26291
+  },
+  "bank-meth-sace-log-functions.json": {
+   "sha256": "2cf95e7d4bae09aaac7b8fdea2b06989791e8951e6d1c649772404f84f05f575",
+   "bytes": 26502
+  },
+  "bank-meth-sace-polynomial-zeros.json": {
+   "sha256": "ff1d725ec1610184d454b1263fe64ae4f2d1201bdfac5e66acd0953ab23da282",
+   "bytes": 26888
+  },
+  "bank-meth-sace-sampling.json": {
+   "sha256": "11005131dc4b4a9c69884056b77e38330181631ed0849ffe882c954df3904531",
+   "bytes": 28991
+  },
+  "bank-meth-tce-circular-functions.json": {
+   "sha256": "c105b2c6d0218fb106fa8cf0a5a413ef184f090a26c56eee0f23184d965d67ff",
+   "bytes": 27654
+  },
+  "bank-meth-tce-exponential-log.json": {
+   "sha256": "7df40190fb3ca773bbc8d40d162594d1c008e063fe22cf3b87cb0fa041508536",
+   "bytes": 25370
+  },
+  "bank-meth-tce-factor-derivatives.json": {
+   "sha256": "fbad175061fbc48323332f8fe2a1a394745870c2a5ca469b072674f36287474c",
+   "bytes": 25665
+  },
+  "bank-meth-tce-functions-equations.json": {
+   "sha256": "a24667bc177461d86787b72e47c0d32832916e8b82e618e73593480d4b95a305",
+   "bytes": 24825
+  },
+  "bank-meth-tce-integrals-intervals.json": {
+   "sha256": "6652c21ca66277d41bf87e3e848250ebbb48404de8220308a05969dc48a525a7",
+   "bytes": 26694
+  },
+  "bank-meth-tce-lines-transformations.json": {
+   "sha256": "e21c2c36213ddc9c0a11f0dd1305744e283400daf3184c9c6e283ccf9f12782a",
+   "bytes": 25652
+  },
   "bank-meth-transformations.json": {
    "sha256": "cf13e2f96207615d92f2358c6da041ed2872776308e6dff21343caada10a6321",
    "bytes": 30255
+  },
+  "bank-meth-wace-exponentials-first-principles.json": {
+   "sha256": "b3036ce97e35a89b899409859f296b97582c4c035d767f793088df45a1e90457",
+   "bytes": 29396
+  },
+  "bank-meth-wace-functions-relations.json": {
+   "sha256": "da5d5bb5dc742d3e9e0bbdd36f6af4cd18e2b39f18794bd9c79746701d09ca2c",
+   "bytes": 28732
+  },
+  "bank-meth-wace-logarithms.json": {
+   "sha256": "c2b406cfa6a7bef003ed63e1dc8c9d09668cf76cb43b2a79c23a99ad83b724b1",
+   "bytes": 26429
+  },
+  "bank-meth-wace-sequences-series.json": {
+   "sha256": "5f89e1abab55ddb318d1cfbe2eec1f27c2d81981b6a9ec336392413c5f633540",
+   "bytes": 27947
+  },
+  "bank-meth-wace-sets-angle-sums.json": {
+   "sha256": "632b7b1e1afcf43614761383f01d5f84b70c60f2f8be57ed4de84db8518c8b48",
+   "bytes": 28723
   },
   "bank-mixtures.json": {
    "sha256": "7a10da307d43362c0f0591b19c676bdd92dc97020497490a5c258141183cc25b",
@@ -1431,6 +3703,18 @@
    "sha256": "019b659eb3df834bace9125503ebf25d097b0ca2d6b5712ccc391e7b66d8e8d6",
    "bytes": 73211
   },
+  "bank-phys-bsss-banked-tracks.json": {
+   "sha256": "6fb8f6d3f94c2b81b1cf8efe1a6f4a75c2856a7e41ba8f9b802bf95983c760c1",
+   "bytes": 33863
+  },
+  "bank-phys-bsss-generators-motors.json": {
+   "sha256": "18840303cc11f71c6e69e2def145c89cc9f1ac2f9d732c8da4ffb3d7bc88c339",
+   "bytes": 36251
+  },
+  "bank-phys-bsss-symmetry-big-bang.json": {
+   "sha256": "5399c809b6ba41d119d4b9886a346273e7c53212661b1fd39739977ae0ec8cf6",
+   "bytes": 38406
+  },
   "bank-phys-electricity.json": {
    "sha256": "10865f76f6984a3b6844bd6a8ae61636d5a9cd4961b042cff2aabecfd0a5d2d7",
    "bytes": 38284
@@ -1446,6 +3730,82 @@
   "bank-phys-generation.json": {
    "sha256": "b0694734952ff5d2466cfd62a3d2bdc5867f37d35c0c3e838a964556747286a8",
    "bytes": 33674
+  },
+  "bank-phys-hsc-astrophysics.json": {
+   "sha256": "1fb7b45aecf2a14087b1bb8b3ddd848bcc6095b6da9297627a38ae817109ee24",
+   "bytes": 35258
+  },
+  "bank-phys-hsc-atom.json": {
+   "sha256": "cc9543b72cc06cdd9452d81209cae55f994a94ec586ebb273b8739736c288eee",
+   "bytes": 35613
+  },
+  "bank-phys-hsc-charged-particles.json": {
+   "sha256": "b5b4534fe78d2177413c9aecac410d78cc12b3518e69f18291923e3d5e7c5f13",
+   "bytes": 36407
+  },
+  "bank-phys-hsc-circuits.json": {
+   "sha256": "c6a170cc72fb27738f09cbd9d54b58494777af186db2cbb3c8563d085350b34f",
+   "bytes": 32777
+  },
+  "bank-phys-hsc-electrostatics.json": {
+   "sha256": "3df0ab0bf7fc9d2df79a68905d2a27fe1c69299ba57b3c497af1ac015e4bc95d",
+   "bytes": 34665
+  },
+  "bank-phys-hsc-em-waves.json": {
+   "sha256": "99780ce61480f36926cd0c78c1726f3ca2ab8ee3e3cd699107533370a8cefc47",
+   "bytes": 32584
+  },
+  "bank-phys-hsc-forces-inclines.json": {
+   "sha256": "15b883a93cd66ae1121962312def3e2338c1fbca6f4180d1d7986297090a1b49",
+   "bytes": 34436
+  },
+  "bank-phys-hsc-gravitational-motion.json": {
+   "sha256": "083abd4d4a330f7d97264a70f71310b65581c740eca4a155ebf5a1637562a3fa",
+   "bytes": 36720
+  },
+  "bank-phys-hsc-induction.json": {
+   "sha256": "c97b77c395c4cf8107231d12a4e3f32b9f9d9fc3ef00e73091962c6b6a648556",
+   "bytes": 34409
+  },
+  "bank-phys-hsc-kinematics.json": {
+   "sha256": "bf61afb8a2d6286ad9289cded81486fc5497dd4bf0e7dbe5a34e078349ec72f0",
+   "bytes": 36307
+  },
+  "bank-phys-hsc-magnetism.json": {
+   "sha256": "38c3ba5c1f01dd4bd90a85c3812c7b660f5bcd38842bd02b1ec358b029f89935",
+   "bytes": 33189
+  },
+  "bank-phys-hsc-momentum-energy.json": {
+   "sha256": "096114124b5f145a8dd07c3f55e4a00ab138abba846cdd1be67e67d678461f2d",
+   "bytes": 34568
+  },
+  "bank-phys-hsc-nuclear.json": {
+   "sha256": "8d27a5a9124f470cf9145f985622e81225557d7c8534124af72fe29c0959009f",
+   "bytes": 35160
+  },
+  "bank-phys-hsc-projectile-circular.json": {
+   "sha256": "f301555018bb9bfe6e9ebef1c1786f4157d6dbc8da685dc141944efb2e131f3a",
+   "bytes": 36507
+  },
+  "bank-phys-hsc-quantum-light.json": {
+   "sha256": "fd5dcaa2b11b05a5ebb0ef6d52d4ffb6034d4fe2db20b963ff088b13824c0229",
+   "bytes": 35399
+  },
+  "bank-phys-hsc-relativity.json": {
+   "sha256": "9c28954f970547bbce72d300555821d964fe7f55e0e577071cda02c9a187e885",
+   "bytes": 33200
+  },
+  "bank-phys-hsc-wave-behaviour.json": {
+   "sha256": "6f966cb01347724fc1b01219ca199f432eb1838d7a4d8291c07a55bc3401785c",
+   "bytes": 34984
+  },
+  "bank-phys-hsc-waves-sound-light.json": {
+   "sha256": "503c58445427693a2b7a57c087496c1db4b9eb241f259891f07f6abe1c73abec",
+   "bytes": 35153
+  },
+  "bank-phys-hsc-working-scientifically.json": {
+   "sha256": "8c763cda93c258eef0557ebec457b4a9bd3a7db1cff167b4299cc798d4e63c63",
+   "bytes": 38133
   },
   "bank-phys-light-heat.json": {
    "sha256": "fa86874e547388e856ae6afee0d6b8ea7cb8d3e3db16337fab7813fbdca57691",
@@ -1471,9 +3831,109 @@
    "sha256": "0ebfb462ec7cd6e10ac9e32451e331947da0b562666971f30d24c5c1bcf35c9c",
    "bytes": 37714
   },
+  "bank-phys-qce-circuits.json": {
+   "sha256": "24abf057075b349e043bd4e5424c7ac4edb5ecc007abca35e4a5d5e4785d986c",
+   "bytes": 30999
+  },
+  "bank-phys-qce-electrostatics-magnetism.json": {
+   "sha256": "96ea7fd5b840e038f8deafd4453fc33c2eb060c57785b1d1b0b3b17548ba8f74",
+   "bytes": 35533
+  },
+  "bank-phys-qce-gravity-motion.json": {
+   "sha256": "71272ce026eefe6209b028cdd90aeeab55209632ff43d212a4d952c282705678",
+   "bytes": 38017
+  },
+  "bank-phys-qce-heating.json": {
+   "sha256": "80cc0d321bb3831e82dc9b06213325173d5564c0be9470873119750486760d01",
+   "bytes": 37216
+  },
+  "bank-phys-qce-induction.json": {
+   "sha256": "29afcf339d89a961b447bb9ac328fa5b83572951cab659d8f2bce026c9e8e644",
+   "bytes": 35128
+  },
+  "bank-phys-qce-light.json": {
+   "sha256": "db3371b73fbe3d53ecf1643b361ed833b5e60994386a4471e91aaf5e01e98d21",
+   "bytes": 33039
+  },
+  "bank-phys-qce-linear-motion.json": {
+   "sha256": "f2c3b5bdb1ec97ea0195d2ffa05adcccafdb4debe1b953d3644d2c87121ee6d4",
+   "bytes": 35507
+  },
+  "bank-phys-qce-nuclear.json": {
+   "sha256": "78deba9b5d36ce1ea0dbe02251f22fe5bdc6a66d7191d2ab40833cbb49402c70",
+   "bytes": 34966
+  },
+  "bank-phys-qce-quantum-theory.json": {
+   "sha256": "9ca9a41983a8641879bbc603e823666f461c9ecf20de2323d73f2243b7337e1d",
+   "bytes": 36700
+  },
+  "bank-phys-qce-science-skills.json": {
+   "sha256": "632a8e69cd2dc35dd5c163e0420ce56b336dab3559f561029a01af5efb1893d9",
+   "bytes": 33788
+  },
+  "bank-phys-qce-special-relativity.json": {
+   "sha256": "f55ebe0f5b854f370e6b6ee34e021e179437d0162323b1fad4ba1cdd5975068d",
+   "bytes": 37326
+  },
+  "bank-phys-qce-standard-model.json": {
+   "sha256": "31b77abb000879a9b2a4ca395d6a8cdeb1fb812ae0d2fd4b8a3d83d25daa30a3",
+   "bytes": 32776
+  },
+  "bank-phys-qce-waves-sound.json": {
+   "sha256": "7d716f813d30e72d782585aa75b5032156b31cd82436620cca14e7ef5b3d90ca",
+   "bytes": 33724
+  },
   "bank-phys-relativity.json": {
    "sha256": "a91f93a96f4ebddb3cb8fa45814ff1b8130563516679a1fd07eeee40178457bb",
    "bytes": 34578
+  },
+  "bank-phys-sace-atom-lasers.json": {
+   "sha256": "3361c85269ffe2d34de4ef8255171ae181073f0a3bc77cd308a767869d7d02ee",
+   "bytes": 35203
+  },
+  "bank-phys-sace-charge-safety.json": {
+   "sha256": "7ad014dc8fa8bdf120d96575f3be2570ea25a959211450495aa640fba0e317a4",
+   "bytes": 31340
+  },
+  "bank-phys-sace-charged-particles.json": {
+   "sha256": "0c6038e4d2777db9243b80e5f595dffcc5f99c66149ec1181e24768804fbda5b",
+   "bytes": 37985
+  },
+  "bank-phys-sace-circular-gravitation.json": {
+   "sha256": "d17fceda130ba5ed9d27eb4fe2ad3571cc6a681c93a8551fed05d3ee237a1612",
+   "bytes": 34288
+  },
+  "bank-phys-sace-fission-reactors.json": {
+   "sha256": "a3043a65045f9a0eb7a7521ad5aa7786ba9d1174b8011f9e5f6a8944aef422cf",
+   "bytes": 34522
+  },
+  "bank-phys-sace-generators-eddy.json": {
+   "sha256": "3afca76c88a8b678d15da092f5c2786e02fad8c8d2f260a7a97091de1dedf741",
+   "bytes": 15539
+  },
+  "bank-phys-sace-heat.json": {
+   "sha256": "7fecd66e93a9604e5a7c6e34f8c8155644db654de3a961e9156707eb3e53af70",
+   "bytes": 34381
+  },
+  "bank-phys-sace-light.json": {
+   "sha256": "373fcff8fa3c4931912874a685f8be62eef15762d388ca4d51f73bbb58a1e973",
+   "bytes": 31986
+  },
+  "bank-phys-sace-photons-xrays.json": {
+   "sha256": "1448b36bbbcd0a7dd10bc3c8aa6243cdc4ed787cfab1d3802ce1eceecfbcb574",
+   "bytes": 38313
+  },
+  "bank-phys-sace-projectiles-momentum.json": {
+   "sha256": "570c6ecb38cff6428d514cb467fde48b90e80f351d33dd06a1f070e489a57894",
+   "bytes": 35355
+  },
+  "bank-phys-sace-wave-light.json": {
+   "sha256": "d103e97e32516ea9fb9aaed48502e51bd2a9c265e3a02fe1f8c5966e359b98a9",
+   "bytes": 31025
+  },
+  "bank-phys-sace-weight-spacecraft-power.json": {
+   "sha256": "d47f31bb4cf3ee88330331cfc44801a3203d735eefa8d7df7cd294694e2768a5",
+   "bytes": 32700
   },
   "bank-phys-science-skills.json": {
    "sha256": "4737801076f6bf2e7d5cc638a7b866041f88e280183992d2885e4083560759b3",
@@ -1482,6 +3942,90 @@
   "bank-phys-structures.json": {
    "sha256": "51c09ba380681fd119226ecfcbd4f1d6c5f0e1f2a8ac93fdb5f3a15d42d23867",
    "bytes": 34582
+  },
+  "bank-phys-tce-circuits.json": {
+   "sha256": "721c5ad1a373e81755dfa9c2492a34e35d335b4d008db34d29dae5da55b9794c",
+   "bytes": 30368
+  },
+  "bank-phys-tce-electric-fields.json": {
+   "sha256": "f2f4574ffa1f87e13574c1fa18a691e12f753a32f918a7fac915cd631938b8d6",
+   "bytes": 36726
+  },
+  "bank-phys-tce-induction.json": {
+   "sha256": "067afb78964830503ad6c64392154da612f90ac4d955796868b0aec7015b4c5f",
+   "bytes": 33989
+  },
+  "bank-phys-tce-magnetic-forces.json": {
+   "sha256": "1a5ec3baaef72948829c851bd1e13f6a307274de3677534b691bc702158d2d38",
+   "bytes": 34839
+  },
+  "bank-phys-tce-momentum-energy.json": {
+   "sha256": "cd9052cfe5819dc9bc1974a75b7307c25d8fab4d89f66adc4e3d37b0aaa5a085",
+   "bytes": 31071
+  },
+  "bank-phys-tce-momentum-gravity.json": {
+   "sha256": "6ffd428b5eef263cce77e14b32a766e5df9c8dcd56302d81f94b8b3b2907133d",
+   "bytes": 30355
+  },
+  "bank-phys-tce-motion-force.json": {
+   "sha256": "e2b2ac8e3857c843c07cac717962e724e09d2ba7ac2c55ad12a1b70fca2e6399",
+   "bytes": 32112
+  },
+  "bank-phys-tce-nuclear.json": {
+   "sha256": "f0986bfabf50b6bd6cde92f1f021ddcdec92e62cf1376188ee99af07cf02655c",
+   "bytes": 23493
+  },
+  "bank-phys-tce-radioactivity.json": {
+   "sha256": "5de324a2da6279a0c9bfd9a6067650377f10c3bb3a49e9dcff77041959613c36",
+   "bytes": 31056
+  },
+  "bank-phys-tce-relativity.json": {
+   "sha256": "af22556da30cfd315c02023e2d2bcbfe1418dd48e73eccd2462e32709cef1c1d",
+   "bytes": 33095
+  },
+  "bank-phys-tce-standing-waves.json": {
+   "sha256": "a76ee935796b3d1c88c1e949c1ec10e141bf55416ba5f0c1a118a941c6359ca0",
+   "bytes": 31479
+  },
+  "bank-phys-tce-wave-properties.json": {
+   "sha256": "33794d054758a0cdeeec074d802c725f89595bf8aa2017e8b5536617903f7aef",
+   "bytes": 32855
+  },
+  "bank-phys-tce-x-rays.json": {
+   "sha256": "232878d659333935a929fd728e8e42e506d4360342485ec9f4940e37d72789db",
+   "bytes": 27448
+  },
+  "bank-phys-wace-beats-ultrasound.json": {
+   "sha256": "cc3370098cec9da0981167d9a0915852520ad3ef983e4ad04c111a858ab23ae4",
+   "bytes": 19471
+  },
+  "bank-phys-wace-circular-motion.json": {
+   "sha256": "201768d44defd045a0a95b8fdc9745500e31136e274cf9a12eaa4c392f11a0da",
+   "bytes": 27734
+  },
+  "bank-phys-wace-cosmology.json": {
+   "sha256": "79cd2b4a2c9848f17c7c098ac2fcd0ec61b96fe966bf2fb3ee05cd1547ae5de9",
+   "bytes": 35067
+  },
+  "bank-phys-wace-em-applications.json": {
+   "sha256": "db7653f86fa6134e2b1c53a0accda5e73143251848d1473e96a51e2a1b890c90",
+   "bytes": 23749
+  },
+  "bank-phys-wace-heating.json": {
+   "sha256": "de548720f40cbec09e9630db9539bfce63b7eca68fe8e807c4591bb3a070a426",
+   "bytes": 37900
+  },
+  "bank-phys-wace-quantum.json": {
+   "sha256": "1de5424d7ba6f67a77865599d9f84f3421363ae6497b4a108825f651c3d9b5be",
+   "bytes": 39700
+  },
+  "bank-phys-wace-quarks.json": {
+   "sha256": "21c74a1e824b28bf32e3ce2df3e0077752338071fc62b55a721b31f8e2844ee2",
+   "bytes": 28708
+  },
+  "bank-phys-wace-static-equilibrium.json": {
+   "sha256": "a307ba7b0085ac62ff5a12f1f6e2e1a52ed5a0455328ff9be0343af310337500",
+   "bytes": 36189
   },
   "bank-pol-australia-indo-pacific.json": {
    "sha256": "1deb899488afd792de5fe91927d273756b73fa3307dcf437fa9efdf437b2cdf3",
@@ -1519,6 +4063,30 @@
    "sha256": "231e04a2e872a81b87fbad3fba0904f748128b8345d8fb82d5d9ce1014ae8c42",
    "bytes": 39903
   },
+  "bank-psych-bsss-cognition.json": {
+   "sha256": "b7cef01fd0bf974514be53e186f5f407baf797f89b7dd92f0faa1f5121efeb93",
+   "bytes": 37926
+  },
+  "bank-psych-bsss-emotion.json": {
+   "sha256": "c64b62168b2106778848a302ed85081ba6296dbfc618609184ce86de67f526bf",
+   "bytes": 37184
+  },
+  "bank-psych-bsss-groups.json": {
+   "sha256": "75cf19fbfbc72d83cedc91a247c5d5035c108d9c2798226de89b4f777518c8cc",
+   "bytes": 35842
+  },
+  "bank-psych-bsss-inquiry.json": {
+   "sha256": "d58767f1bac7498a04067f0533c16a088c16c3058c9ec770c6a30760465ea4b8",
+   "bytes": 34078
+  },
+  "bank-psych-bsss-normality.json": {
+   "sha256": "202e58c953adf33517b9f98b3a5a7c95f4d9d5c8bd175f73a495358fef93cc76",
+   "bytes": 39191
+  },
+  "bank-psych-bsss-self-identity.json": {
+   "sha256": "dad1f90d88646372526d1d443e6b38d864c3fc8522b933e7395bd46da3953ae5",
+   "bytes": 38917
+  },
   "bank-psych-development.json": {
    "sha256": "f8ceb3e0792f3c0672650b692ae16024aabe3370707e759c96190f7424cd9866",
    "bytes": 41758
@@ -1539,6 +4107,98 @@
    "sha256": "d6b175c7ecc503db371037feed2e1df0b92d6fd7c06741199c6122e0a5085126",
    "bytes": 40500
   },
+  "bank-psych-qce-brain.json": {
+   "sha256": "76a3af0efa7a0a7396686549a6db7e73909e740581bd768083218a38fa5cb131",
+   "bytes": 34269
+  },
+  "bank-psych-qce-cognitive-development.json": {
+   "sha256": "3eac3704eddf89f2d0b26df2ddc6ccfaf6f92c2f562e8ebdaa32cc6e968316b8",
+   "bytes": 36481
+  },
+  "bank-psych-qce-consciousness-sleep.json": {
+   "sha256": "e73f88d7d48ddbde421abaf3f7d1b7633e5f87ee91b36435fedf72e8c29048f2",
+   "bytes": 35487
+  },
+  "bank-psych-qce-diagnosis.json": {
+   "sha256": "8fa0da96e3373fe793ae5a1aa9ae3c80659a6827b8fef43485d8778084332241",
+   "bytes": 36796
+  },
+  "bank-psych-qce-disorders-treatments.json": {
+   "sha256": "022be468bb342efca83f2e357eb42629b3fc170424ef640efc1d0e875cb6b181",
+   "bytes": 39358
+  },
+  "bank-psych-qce-emotion-motivation.json": {
+   "sha256": "7e1e1b887010ce2d4f9ed29a66e4719fde75a5743db1c929289671cd468bc19b",
+   "bytes": 38377
+  },
+  "bank-psych-qce-intelligence.json": {
+   "sha256": "d1b7ed4a7fa5af3874c9715c775b40f90e445a495ccaf7a742f9fa8b7f126571",
+   "bytes": 37379
+  },
+  "bank-psych-qce-science-skills.json": {
+   "sha256": "75d47f1d636e7a71efecc5e3581a4fefbbcbf360b8e43f5de1defcbc513e0fd7",
+   "bytes": 36897
+  },
+  "bank-psych-sace-attitudes-prejudice.json": {
+   "sha256": "3b6afd17e841620887bf0d9d5681a7fb72c8818f2eab46983cec38b1bc0bcb00",
+   "bytes": 33970
+  },
+  "bank-psych-sace-emotion.json": {
+   "sha256": "c8eb11b09773c96f63894f43921cdfb370ff9c88b1097a13b2e513630255192e",
+   "bytes": 37587
+  },
+  "bank-psych-sace-inquiry-skills.json": {
+   "sha256": "d83fc0dde521151a808dd3285edfb02685ecf4465c1912b9a743789762cbfcdb",
+   "bytes": 38174
+  },
+  "bank-psych-sace-learning.json": {
+   "sha256": "7c0b3f93249081611e5c0c3e874fc129586084d269de1710b6bf919744efb029",
+   "bytes": 38290
+  },
+  "bank-psych-sace-lifespan-research.json": {
+   "sha256": "39fe49ecc99916c62b38b5a56a6ca3a33b5d21ecf5aa7ead3cdc2da2eb252afa",
+   "bytes": 27437
+  },
+  "bank-psych-sace-memory.json": {
+   "sha256": "9145d277ff12cb19f09551b1d347c6ede656ba2d20c2213aab50e147b1ff224f",
+   "bytes": 32025
+  },
+  "bank-psych-sace-mental-health-culture.json": {
+   "sha256": "33122c7bda2bace2c99b1ad74c775dc43e1e3bd7e2dc37df200fd3bc5b5f1d7f",
+   "bytes": 34215
+  },
+  "bank-psych-sace-neuropsychology.json": {
+   "sha256": "add684f43ae3155ba3a57be3b31571d5d29f26680466ce0c2395ae4649e7d178",
+   "bytes": 30494
+  },
+  "bank-psych-sace-obedience-conformity.json": {
+   "sha256": "fe8aa284c386e3ba4516108f165b5a1a7e33fb1a60f90d9ad0401d1d54211e52",
+   "bytes": 34374
+  },
+  "bank-psych-sace-org-individuals.json": {
+   "sha256": "80c534225944f9593aee42a5f3d6a2199ea03cbd615e291d1c6d1b67033f679c",
+   "bytes": 31927
+  },
+  "bank-psych-sace-org-teams.json": {
+   "sha256": "afc91dd4b82adee8dafeb8ba7fbf0fee9d754e8c1303cc6db696ec7545c7687e",
+   "bytes": 30270
+  },
+  "bank-psych-sace-personality.json": {
+   "sha256": "9b63273211f7638eb69aa1e5a6fcb838abb63f8e32c90db6f6cf672e160b7b2a",
+   "bytes": 32336
+  },
+  "bank-psych-sace-sleep-stress.json": {
+   "sha256": "f672c34fdd4b89eb08e0e1986fb3ff92b273d4e2a97ddd10eac6cbf556e45ace",
+   "bytes": 31312
+  },
+  "bank-psych-sace-treatment-resilience.json": {
+   "sha256": "9f14fea9b1342f0fd45fc97fb232fa309cffced01cd1a430067830387de6f306",
+   "bytes": 33071
+  },
+  "bank-psych-sace-wellbeing.json": {
+   "sha256": "57137f33db9ae5f95a94d1b6c2c91774c7418d1b711e30c6b0a03b2cf5771ff0",
+   "bytes": 36709
+  },
   "bank-psych-science-skills.json": {
    "sha256": "ed46c8d4ee647e02caedaaab6bea3635b73323e7fb589a58d1503f3bb25e5d14",
    "bytes": 41662
@@ -1550,6 +4210,122 @@
   "bank-psych-social-cognition.json": {
    "sha256": "85f92d32402c00573b178a926a4697d851f7471ea9334a237a5218d0bd61f426",
    "bytes": 42010
+  },
+  "bank-psych-tce-communication.json": {
+   "sha256": "61cc52359da45ce82db5a6fa4e859c2ab4807a0575f36229bfb40f4ed28fc4ec",
+   "bytes": 29201
+  },
+  "bank-psych-tce-consciousness-sleep.json": {
+   "sha256": "3372a7d5b9aacc6a0aebb83e0ac625313c6f2fdfbac020454c834d637d130c36",
+   "bytes": 30700
+  },
+  "bank-psych-tce-forensic.json": {
+   "sha256": "9185cfc3a767ce705f27de669b7026e2bf6e5bcedc57c063e703c9c724ea28b4",
+   "bytes": 34634
+  },
+  "bank-psych-tce-gender.json": {
+   "sha256": "95c85ab61a9349f64f274997421a41fb346c22676a871920aa731f86a2cd390c",
+   "bytes": 30724
+  },
+  "bank-psych-tce-intelligence.json": {
+   "sha256": "21458f5c8ff50d8f0e34a0bda0332d64dd6896e6fd59643e0a1db06b90d7bc64",
+   "bytes": 32559
+  },
+  "bank-psych-tce-learning.json": {
+   "sha256": "e69c69e946f3a52c2310efdd68fde25540e151ee0f42968ddf9a98833e32067a",
+   "bytes": 29980
+  },
+  "bank-psych-tce-lifespan.json": {
+   "sha256": "c837046e82cb4e234907a175939c3947eabc83d35195759bf7b00ea3f033f9d1",
+   "bytes": 28485
+  },
+  "bank-psych-tce-memory.json": {
+   "sha256": "5fc17fa9167efe55fc76d1d6f959217841919cf1da5235f0b67643ad503b6265",
+   "bytes": 31187
+  },
+  "bank-psych-tce-personality.json": {
+   "sha256": "f55ee26d355993ec8e09b1b05772d24fe463bc46976a3aa79f5f5c52ba9d2df9",
+   "bytes": 30393
+  },
+  "bank-psych-tce-prosocial-antisocial.json": {
+   "sha256": "e114f84b2b0b8184e31554ec692efac99c4003a888fac386d573ecfd6911e3ff",
+   "bytes": 32698
+  },
+  "bank-psych-tce-research-ethics.json": {
+   "sha256": "c2490a795fa25b994b65ba0ebd50af508fe342128f8257729458515d1c48fa68",
+   "bytes": 28558
+  },
+  "bank-psych-tce-research.json": {
+   "sha256": "fad0983a1110c35a432f6f833d96a719681e3592acebca7fcd692424a66f8f91",
+   "bytes": 33658
+  },
+  "bank-psych-tce-visual-perception.json": {
+   "sha256": "c6abec17128747ee5dd5cf50f4b52d9763fb36ce3b44ea5aa660a0296d3816c6",
+   "bytes": 30246
+  },
+  "bank-psych-tce-what-is-psychology.json": {
+   "sha256": "4f17cdda66ec44f74e3965a4aaf029a06db63eece4a7fc8e1d9f6f53f986694a",
+   "bytes": 28872
+  },
+  "bank-psych-wace-attachment.json": {
+   "sha256": "f5193be82e31650afa9cbf2ba9f8d57e45d7eeae1dcf6cee67f6975f4e3593d2",
+   "bytes": 34378
+  },
+  "bank-psych-wace-attitudes.json": {
+   "sha256": "826bdc313d0623834245b2a9f2b22d9855dabb6093dd13e08241fb75a1425e2f",
+   "bytes": 30645
+  },
+  "bank-psych-wace-brain.json": {
+   "sha256": "544fab06c8997282602499652459e01d54e02e85f071296cf123467a197f69ee",
+   "bytes": 33546
+  },
+  "bank-psych-wace-forgetting.json": {
+   "sha256": "902e80e987666750a566a2d31a86bacb9af38f80f48376cc65bf1593a4feb6cd",
+   "bytes": 29815
+  },
+  "bank-psych-wace-inquiry.json": {
+   "sha256": "d8a9b9a2cff111c2fc8bc2f9c7dbdf66b9dee9a8e44addb78886fd1217326620",
+   "bytes": 30139
+  },
+  "bank-psych-wace-learning.json": {
+   "sha256": "caf099afbd1851f0d0c78cfe28cf70842d81bb302c1c38dfbc5ecb2ce412ece2",
+   "bytes": 31919
+  },
+  "bank-psych-wace-lifespan.json": {
+   "sha256": "378eecd7009775db9f2ba3eaf05a82033c08b87be0583fcc82c7ddeb57afe06a",
+   "bytes": 32134
+  },
+  "bank-psych-wace-memory.json": {
+   "sha256": "3968090b8deccf51b4911270bc9e1ca96c4002cec997ad59da87faa22aea32e3",
+   "bytes": 32033
+  },
+  "bank-psych-wace-motivation.json": {
+   "sha256": "85820bd112238ce666bbdf2a46ebe72a7323e70c46dd254c0760d320b207148d",
+   "bytes": 28771
+  },
+  "bank-psych-wace-nervous-system.json": {
+   "sha256": "58fedf4043f03be65fd0ded9d662e5f412a89a6316e490dcfbd2df836c67c9b5",
+   "bytes": 33701
+  },
+  "bank-psych-wace-prejudice.json": {
+   "sha256": "b892a0a1622b2415b3df10eec063f3928e963946d24c92eed671781df399df36",
+   "bytes": 32046
+  },
+  "bank-psych-wace-prosocial-antisocial.json": {
+   "sha256": "65dbefbe5be5e564028012675e88344b1ae1ca2fbf0eb4be804adc0a7e758c02",
+   "bytes": 32734
+  },
+  "bank-psych-wace-sleep.json": {
+   "sha256": "d8096bd2981dd73e73e234432eb38f8cb96134ee13d0c2b0d7bd8f5e3dff98fc",
+   "bytes": 27588
+  },
+  "bank-psych-wace-social-influence.json": {
+   "sha256": "1e7a8a285c614ed1e65318690a7f55cd6b6efc21f00f4f8c25f01e7969e6b6bc",
+   "bytes": 32885
+  },
+  "bank-psych-wace-stress.json": {
+   "sha256": "0c0bc5054a9459c26f1d0783663557c9e806e1a41290542d0c67cd105c6f9d7f",
+   "bytes": 28231
   },
   "bank-reactions.json": {
    "sha256": "fae1480d0b936c849190141e24deb95dcd7f7c2a4fb955104a33c9f419cb730e",
@@ -1635,6 +4411,18 @@
    "sha256": "02de7c0be65f2442d8148afa5d0d4d1dfe3d5f3224665306925e90ab420796a8",
    "bytes": 79358
   },
+  "bank-spec-bsss-chord-tangent-lengths.json": {
+   "sha256": "816c32e870c4c749faba42d7be82952e0cf227f990f95ee13a00362ecf74dd88",
+   "bytes": 28509
+  },
+  "bank-spec-bsss-induction-complex.json": {
+   "sha256": "f89efabb112feb1d45aeadb665abd145177a89ff91513fef8a1b4e75adf3b6c0",
+   "bytes": 29791
+  },
+  "bank-spec-bsss-systems-paths.json": {
+   "sha256": "ebbd19f4a8ea7e9fc0231214183b61782af554b6eeff73f5418bc3392c93d102",
+   "bytes": 30173
+  },
   "bank-spec-calculus.json": {
    "sha256": "16b7edbd24af3b3b8ad9d428f23517372080707b4210a9e3a3e3af0f2283ff7d",
    "bytes": 31074
@@ -1659,6 +4447,58 @@
    "sha256": "8514aff43be449dfb172eea8c37d79bc34181882f03244c57fb90e005fa2b676",
    "bytes": 28934
   },
+  "bank-spec-hsc-binomial-sampling.json": {
+   "sha256": "d3c7f28cd5c0ab2c0d774d0bdfe07258f03446417a8f479b76b44a217910ecaf",
+   "bytes": 28615
+  },
+  "bank-spec-hsc-combinatorics.json": {
+   "sha256": "d25c4fe04b8a817ea21cabcb7fd1df885ff9448eef8623410cadaaddd8f2d8f4",
+   "bytes": 26538
+  },
+  "bank-spec-hsc-differential-equations.json": {
+   "sha256": "ec349b60fd74b56b13393b46b5a487f601c944cb988d19fc6928befce16b40a2",
+   "bytes": 28706
+  },
+  "bank-spec-hsc-further-calculus.json": {
+   "sha256": "776a5b4833423dfadeb70ea2472b20524130503747b754d811e0fa5b8ce3fd07",
+   "bytes": 30392
+  },
+  "bank-spec-hsc-further-functions.json": {
+   "sha256": "03fac3b8d8a54279ae3e3dd351b7972652117e35f66981b3bfc6ea4b6cceed66",
+   "bytes": 28444
+  },
+  "bank-spec-hsc-further-integration.json": {
+   "sha256": "623b9e453aec88a49562a43b67e412025788219541b881981ebd1260263747fb",
+   "bytes": 29292
+  },
+  "bank-spec-hsc-further-trig.json": {
+   "sha256": "4bfbd48de91850402fc8728f3526ddbd9e50f86ab10e426fbe62f4655ae0a54d",
+   "bytes": 25214
+  },
+  "bank-spec-hsc-inequalities-induction.json": {
+   "sha256": "d9f6f85afc22017fbbfa9b87a41b5e997d47edbac64224e29a94f2f5869b1c4c",
+   "bytes": 30486
+  },
+  "bank-spec-hsc-inverse-trig.json": {
+   "sha256": "6e50e16e8cfcefb88724a68fde78406bd59af00f0aa3e3ab48f5ec5f596496e7",
+   "bytes": 30644
+  },
+  "bank-spec-hsc-mechanics.json": {
+   "sha256": "c4f9bbb9fcadef3cdcf290c9464d221ad83936be5561bcd05116af03fa7422f5",
+   "bytes": 29862
+  },
+  "bank-spec-hsc-polynomials.json": {
+   "sha256": "f2314e2e8dc6cba0cbf0d9af38918895ed0b65bf2f4d00eaebaf1d7b5810f1a1",
+   "bytes": 26390
+  },
+  "bank-spec-hsc-vector-lines.json": {
+   "sha256": "e7852bab59c7baa64aee89308bdcb713827a8228a57c5e7a9fdf3b7c802cb620",
+   "bytes": 28211
+  },
+  "bank-spec-hsc-vectors.json": {
+   "sha256": "d00879b487e8ae00ce048a62ef5bf291d22cd3d97ed3384ebfaee231287e45da",
+   "bytes": 28726
+  },
   "bank-spec-kinematics.json": {
    "sha256": "0d92dc24dac7d2731bbb37d51c409535115f3af1ffc6bca279d6c059d9f95173",
    "bytes": 26777
@@ -1671,6 +4511,70 @@
    "sha256": "a19e779918aae9612dae67c9e3c2eb5b9dbeb9433265b1b7e1c6343de0d5c58f",
    "bytes": 31441
   },
+  "bank-spec-qce-circle-proofs.json": {
+   "sha256": "1f82dea0faf36aeeda83933cb398e50fd0f929950cd7625761755f35a8be8dca",
+   "bytes": 28173
+  },
+  "bank-spec-qce-combinatorics.json": {
+   "sha256": "08ec675b6599f91c20cc56674b011ff36aa101f7618ed1749f9f893d18fd42de",
+   "bytes": 24262
+  },
+  "bank-spec-qce-forces-dynamics.json": {
+   "sha256": "aa53be75594f478ebf72931dc3d796ce42d99610fe62620e8f41b9e8cd56275f",
+   "bytes": 27514
+  },
+  "bank-spec-qce-further-complex.json": {
+   "sha256": "9354e57581bf68a8bde03103fd16f11c27fa5f3ae1657a1494b02c919b899fb5",
+   "bytes": 29481
+  },
+  "bank-spec-qce-induction.json": {
+   "sha256": "16957c9ea51df42a9b919894f3ae0c7132db7fd540c13a0cdf2aa0b7c3679049",
+   "bytes": 32104
+  },
+  "bank-spec-qce-integration-applications.json": {
+   "sha256": "075a1decd140cd3e58eb99b560ef444943664cebe6ebff8444349cd8ff495963",
+   "bytes": 29030
+  },
+  "bank-spec-qce-integration-techniques.json": {
+   "sha256": "d239b134eee7db51f0fe8b835fa8b790cffa73cf6ebb5cd4d007dcb42dd965c7",
+   "bytes": 30886
+  },
+  "bank-spec-qce-matrices-systems.json": {
+   "sha256": "257725579bbbe178d2fefa3f1336bbecac8bca0564e7e9c2afd1d98f78ecf54e",
+   "bytes": 31201
+  },
+  "bank-spec-qce-matrices.json": {
+   "sha256": "6924316689a8d78d3edcae72cbcc0938582a2f74ac62d9e9c1e34e223ce32c3f",
+   "bytes": 24820
+  },
+  "bank-spec-qce-proof.json": {
+   "sha256": "46747d8256e47f1e5760afcf563dca37540282a23147f9b8483b3ed6e4ac6d22",
+   "bytes": 26507
+  },
+  "bank-spec-qce-rates-diff-equations.json": {
+   "sha256": "6669169f56f2c767307e46b98e83d310ae684bf76943f6bc7fe232170e21d579",
+   "bytes": 27441
+  },
+  "bank-spec-qce-sample-means.json": {
+   "sha256": "eea40bcf7e749b094de029747bd9ee5ec2d3fd0c2ce7faab08da4d37d69e914c",
+   "bytes": 29106
+  },
+  "bank-spec-qce-transformations.json": {
+   "sha256": "33f364efb443a1500afcce34593f8e7c01b08a59e82532b693adf700b624d0be",
+   "bytes": 27760
+  },
+  "bank-spec-qce-trig-identities.json": {
+   "sha256": "67d995bc19a4175adfc93265b705422ff119cb6c9d3404b50be0a640be9ebc57",
+   "bytes": 26431
+  },
+  "bank-spec-qce-vectors-3d.json": {
+   "sha256": "925b6f89394647a0b13640135d70e871ca3dba687b111deda70ba164117c2e3f",
+   "bytes": 29883
+  },
+  "bank-spec-qce-vectors-plane.json": {
+   "sha256": "50a73363dac9cb5546bd7735c901bc66fc695a3737fd2bdffe02e700bc0e9cb8",
+   "bytes": 27853
+  },
   "bank-spec-rational-functions.json": {
    "sha256": "682181a082d544effd65643c3df5b54d18754389659f3907b84424e8f6d4e202",
    "bytes": 30647
@@ -1678,6 +4582,50 @@
   "bank-spec-relations-graphs.json": {
    "sha256": "1dc41083bf4855ffeaa6ae0e092aad11e0e83700f66d7ded993b1849dc6910a6",
    "bytes": 29653
+  },
+  "bank-spec-sace-areas-volumes.json": {
+   "sha256": "985163e16b715c97d24f7c2e7089eab9726a38f8e625887abe5f547928eb0c70",
+   "bytes": 28770
+  },
+  "bank-spec-sace-complex-numbers-intro.json": {
+   "sha256": "ae7fe37d0637b6a08e7abc4f227bb807a39711aba002f3979653364fb8a4d67e",
+   "bytes": 25651
+  },
+  "bank-spec-sace-functions-graphs.json": {
+   "sha256": "97ff17d64d486e4d6f5c9153195117a1432822e03ec6dd60710089d4d91563b9",
+   "bytes": 29671
+  },
+  "bank-spec-sace-induction-further.json": {
+   "sha256": "be2fdc0d0bb2766d7409edf6a07f8963a686e62f612424a6c74e8bc85e6e21c5",
+   "bytes": 31962
+  },
+  "bank-spec-sace-intersecting-chords.json": {
+   "sha256": "982fe9b1ef654fd15c338090e74dfa9ff4ae732224ee2060697fb5e9ee83f9dc",
+   "bytes": 32646
+  },
+  "bank-spec-sace-intervals-induction.json": {
+   "sha256": "3e4060efcc97c3b6ea54afa860db35a3894b00bd86a221e413e8f6fcd116091d",
+   "bytes": 28029
+  },
+  "bank-spec-sace-linear-systems.json": {
+   "sha256": "082391630b087e50e3bdeb79f097f9d2a13d437c8a9e47635638f23eb494ca31",
+   "bytes": 29329
+  },
+  "bank-spec-sace-parametric-motion.json": {
+   "sha256": "816338e8bab3183d6eb1106f7bcab219572bd07b16e1e87d4cb091362d30a639",
+   "bytes": 29447
+  },
+  "bank-spec-sace-sequences-series.json": {
+   "sha256": "256e1a9ecec9bc95bb219f1e4ffe4716e4c3ae1acfd7b99d4fa9fa73edd4c271",
+   "bytes": 28734
+  },
+  "bank-spec-sace-sinusoidal-functions.json": {
+   "sha256": "cfcde8ad3943f67af6665f73a0c12173132b0a64726c56f42d986d5ed5d35d92",
+   "bytes": 28240
+  },
+  "bank-spec-sace-trig-identities.json": {
+   "sha256": "8a30b624747a0341322f42d52b7ac8430bf23991f4e78714ce487c1da4c8cadb",
+   "bytes": 28368
   },
   "bank-spec-sequences-series.json": {
    "sha256": "29a2017cb3941818fdaa042cf8912d11dd160ded62f6e0d7aa3ed73e237897e8",
@@ -1691,6 +4639,22 @@
    "sha256": "52243c7ac09c78f6472039e3ee02543170ae6cc1d4e9039c7fd785c1192fca8c",
    "bytes": 32440
   },
+  "bank-spec-tce-calculus-techniques.json": {
+   "sha256": "7b5e272dbbe32e281301ab0f30d86ddad8104de4b3e90f0db28e7096016be82a",
+   "bytes": 24651
+  },
+  "bank-spec-tce-differential-equations.json": {
+   "sha256": "68c3f6deeb26206660a18d6ccf455112d0603af730c72e68a01f5e367199a5b6",
+   "bytes": 26028
+  },
+  "bank-spec-tce-matrices.json": {
+   "sha256": "e6f580c9c46a92a3b67d4249568c43bf075a27301576bfd8ea9f75d838fe920e",
+   "bytes": 28858
+  },
+  "bank-spec-tce-sequences-induction.json": {
+   "sha256": "9cec727ad108ffee7c4554868954b3dfba260ee1080e47dd781210c26860bfda",
+   "bytes": 28437
+  },
   "bank-spec-transformations-vectors.json": {
    "sha256": "3647941d643bcc59c24216e4af7d387c24edad8625cd506ad939226b84ea7bd9",
    "bytes": 30786
@@ -1703,9 +4667,33 @@
    "sha256": "15b09569f8b5783213c2ef5bd59112ca3c5040b1e235f429d31bd0356927212d",
    "bytes": 30996
   },
+  "bank-spec-wace-chords-tangents.json": {
+   "sha256": "5bb3a9ce0a8bc9d0c2ef85136ccf6cd3e80eb3c333c406bcf7edd8819bd48df4",
+   "bytes": 21084
+  },
+  "bank-spec-wace-complex-cartesian.json": {
+   "sha256": "c3800ca5262ef69d825ba27bb7fac8ad80a91775e1e0f65b1ada983ae3da5fc6",
+   "bytes": 25970
+  },
+  "bank-spec-wace-functions-graphs.json": {
+   "sha256": "90c2577befb8e7995e2d0f5869532ee4d2b2dbab9ecdf621255b6ec54ff92c10",
+   "bytes": 27951
+  },
+  "bank-spec-wace-induction.json": {
+   "sha256": "7b06945d785f11eb003762c7b9f1410179e8a6c1d40da81ae8ec30067c2cc885",
+   "bytes": 21295
+  },
+  "bank-spec-wace-integration.json": {
+   "sha256": "9f106ff7feb96ebc14dfa5138e4b13aa7322a62101b94023ccec3461f4efd567",
+   "bytes": 27587
+  },
+  "bank-spec-wace-paths-systems.json": {
+   "sha256": "3d997e0dff2b0531c9417c7a198eba792c502dc3fce84e791b147cf20962afed",
+   "bytes": 21306
+  },
   "curriculum.json": {
-   "sha256": "255e239a30033d2b5bdb439e96f2485898d60eb00f6be8b37cffa153aff407b9",
-   "bytes": 189960
+   "sha256": "67284de77dc16b54c9697499d5ef59e442f8e4ffc7d413f1221926020dc9f864",
+   "bytes": 603427
   }
  }
 }

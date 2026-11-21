@@ -1,0 +1,727 @@
+{
+ "topicId": "gm-qce-growth-decay",
+ "questions": [
+  {
+   "id": "gm-qce-growth-decay-0001",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An arithmetic sequence is one in which:",
+   "imageRef": null,
+   "options": [
+    "each term is the sum of the two terms that come before it",
+    "the terms increase by a larger amount each time they grow",
+    "the same number is added to each term to get the next term",
+    "each term is multiplied by the same number to get the next"
+   ],
+   "correctIndex": 2,
+   "explanation": "An arithmetic sequence has a common difference d added at every step, so it grows or decays by a constant amount. Multiplying by the same number each time gives a geometric sequence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0002",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "For the arithmetic sequence 7, 11, 15, 19, ..., the common difference is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "1.57",
+    "4",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The common difference is any term minus the term before it: 11 \u2212 7 = 4. Dividing 11 by 7 gives about 1.57, which would be a common ratio, and this sequence does not have one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0003",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = t\u2099 \u2212 6, t\u2081 = 50. The value of t\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "44",
+    "32",
+    "26",
+    "38"
+   ],
+   "correctIndex": 1,
+   "explanation": "Applying the rule three times: t\u2082 = 44, t\u2083 = 38, t\u2084 = 32. Subtracting 6 four times gives 26, which is t\u2085, an off-by-one slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0004",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "The rule for the nth term of an arithmetic sequence with first term t\u2081 and common difference d is:",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = t\u2081 + (n \u2212 1)d",
+    "t\u2099 = t\u2081 + nd",
+    "t\u2099 = t\u2081 \u00d7 d\u207f\u207b\u00b9",
+    "t\u2099 = (t\u2081 + d)n"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first term has had no differences added, the second one, and the nth term has had n \u2212 1 of them, so t\u2099 = t\u2081 + (n \u2212 1)d. t\u2099 = t\u2081d\u207f\u207b\u00b9 is the shape of the geometric rule.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0005",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "For the arithmetic sequence 7, 11, 15, 19, ..., the 10th term is:",
+   "imageRef": null,
+   "options": [
+    "47",
+    "40",
+    "39",
+    "43"
+   ],
+   "correctIndex": 3,
+   "explanation": "t\u2081\u2080 = 7 + (10 \u2212 1) \u00d7 4 = 7 + 36 = 43. Using n instead of n \u2212 1 gives 7 + 40 = 47, one difference too many.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0006",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "The nth-term rule for the arithmetic sequence 20, 17, 14, 11, ... is:",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = 20 \u2212 3(n \u2212 1)",
+    "t\u2099 = 20 \u2212 3n",
+    "t\u2099 = 20 + 3(n \u2212 1)",
+    "t\u2099 = 17 \u2212 3(n \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Here t\u2081 = 20 and d = \u22123, so t\u2099 = 20 + (n \u2212 1)(\u22123) = 20 \u2212 3(n \u2212 1). The rule t\u2099 = 20 \u2212 3n gives t\u2081 = 17, so it starts one term too late.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0007",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An arithmetic sequence has t\u2081 = 5 and t\u2088 = 40. The common difference is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "5",
+    "4.375",
+    "35"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2088 = t\u2081 + 7d, so 40 = 5 + 7d, giving 7d = 35 and d = 5. Dividing 35 by 8 instead of 7 gives 4.375, which miscounts the number of steps.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0008",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "In the arithmetic sequence 3, 7, 11, 15, ..., which term is equal to 99?",
+   "imageRef": null,
+   "options": [
+    "the 33rd term",
+    "the 26th term",
+    "the 25th term",
+    "the 24th term"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 3 + (n \u2212 1) \u00d7 4 = 99: (n \u2212 1) \u00d7 4 = 96, so n \u2212 1 = 24 and n = 25. Stopping at n \u2212 1 = 24 gives the 24th term, which is 95.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0009",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An arithmetic sequence has t\u2083 = 17 and t\u2087 = 33. The first term, t\u2081, is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "13",
+    "5",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "From t\u2083 to t\u2087 is 4 steps, so 4d = 33 \u2212 17 = 16 and d = 4. Then t\u2081 = t\u2083 \u2212 2d = 17 \u2212 8 = 9. Subtracting only one difference from t\u2083 gives 13, which is t\u2082.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0010",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "When the terms of an arithmetic sequence are graphed against the term number, the points:",
+   "imageRef": null,
+   "options": [
+    "lie on a curve that gets steeper and steeper",
+    "lie on a curve that flattens towards zero",
+    "lie on a straight line through the origin",
+    "lie on a straight line and are not joined"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each step changes the value by the same amount, so the points lie in a straight line, which is linear growth or decay. They are discrete points, one per term, so they are not joined; the line need not pass through the origin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0011",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A taxi fare is a flag fall of $3.20 plus $2.10 per kilometre. The fare for a 12 km trip is:",
+   "imageRef": null,
+   "options": [
+    "$28.40",
+    "$26.30",
+    "$25.20",
+    "$64.60"
+   ],
+   "correctIndex": 0,
+   "explanation": "Fare = 3.20 + 12 \u00d7 2.10 = 3.20 + 25.20 = $28.40. Using only 11 kilometres of charges gives $26.30, and leaving out the flag fall gives $25.20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0012",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A taxi charges a flag fall of $3.20 plus $2.10 per kilometre. The longest whole-kilometre trip a passenger can afford with $40 is:",
+   "imageRef": null,
+   "options": [
+    "19 km",
+    "16 km",
+    "17 km",
+    "18 km"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 3.20 + 2.10n \u2264 40: 2.10n \u2264 36.80, so n \u2264 17.5. A 17 km trip costs $38.90 and an 18 km trip costs $41.00, which is more than $40.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0013",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "$8000 is invested at 4.5% per annum simple interest. The interest earned each year is:",
+   "imageRef": null,
+   "options": [
+    "$8360",
+    "$360",
+    "$36",
+    "$3600"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simple interest is the same every year: 8000 \u00d7 0.045 = $360. This constant amount is the common difference of the arithmetic sequence of balances.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0014",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "$8000 is invested at 4.5% per annum simple interest. Its value after 5 years is:",
+   "imageRef": null,
+   "options": [
+    "$9440",
+    "$8360",
+    "$9800",
+    "$9969.46"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each year adds 8000 \u00d7 0.045 = $360, so after 5 years the value is 8000 + 5 \u00d7 360 = $9800. $9969.46 is what compound interest would give, which is a geometric model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0015",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A simple interest investment is modelled by the sequence 5000, 5225, 5450, 5675, ... (balance at the start of each year). The annual interest rate is:",
+   "imageRef": null,
+   "options": [
+    "5.25%",
+    "22.5%",
+    "4.5%",
+    "2.25%"
+   ],
+   "correctIndex": 2,
+   "explanation": "The common difference is 5225 \u2212 5000 = $225 per year, and 225 \u00f7 5000 = 0.045, which is 4.5%. With simple interest the yearly interest is always a percentage of the original principal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0016",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "Straight-line depreciation is modelled by an arithmetic sequence because the asset's value:",
+   "imageRef": null,
+   "options": [
+    "decreases by the same percentage each year",
+    "increases by the same amount each year",
+    "decreases by a larger amount each year",
+    "decreases by the same amount each year"
+   ],
+   "correctIndex": 3,
+   "explanation": "With the straight-line method the value falls by a fixed dollar amount each year, so the values form an arithmetic sequence with a negative common difference. A fixed percentage decrease is the diminishing-value method.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0017",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A car bought for $30 000 depreciates by $2500 per year using the straight-line method. If t\u2081 = 30 000 is the purchase price, the term that gives its value after 4 years, and that value, are:",
+   "imageRef": null,
+   "options": [
+    "t\u2084 = $22 500",
+    "t\u2084 = $20 000",
+    "t\u2085 = $17 500",
+    "t\u2085 = $20 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "With t\u2081 as the purchase price, the value after n years is t\u2099\u208a\u2081. After 4 years: t\u2085 = 30 000 + 4 \u00d7 (\u22122500) = $20 000. t\u2084 is the value after only 3 years, $22 500.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0018",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A machine bought for $30 000 depreciates by $2500 per year using the straight-line method. After how many years will its value be $5000?",
+   "imageRef": null,
+   "options": [
+    "11 years",
+    "8 years",
+    "10 years",
+    "12 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "The value must fall by 30 000 \u2212 5000 = $25 000, and 25 000 \u00f7 2500 = 10 years. 12 years would be the time to reach zero, which is 30 000 \u00f7 2500.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0019",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A machine was bought for $18 000. Using straight-line depreciation, its value after 6 years is $6000. The annual depreciation is:",
+   "imageRef": null,
+   "options": [
+    "$1000",
+    "$4000",
+    "$2000",
+    "$3000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The value fell by 18 000 \u2212 6000 = $12 000 over 6 years, which is $2000 per year. Dividing the final value of $6000 by 6 gives $1000, which is not the yearly loss.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0020",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A geometric sequence is one in which:",
+   "imageRef": null,
+   "options": [
+    "the same number is added to each term to get the next term",
+    "each term is the sum of the two terms that come before it",
+    "the terms always increase by the same amount each time",
+    "each term is multiplied by the same number to get the next term"
+   ],
+   "correctIndex": 3,
+   "explanation": "A geometric sequence has a common ratio r, so each term is r times the one before it. Adding the same number each time gives an arithmetic sequence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0021",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "The common ratio of the geometric sequence 3, 6, 12, 24, ... is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "0.5",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The common ratio is any term divided by the term before it: 6 \u00f7 3 = 2. Dividing the other way gives 0.5, and 3 is the common difference between the first two terms only.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0022",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "The rule for the nth term of a geometric sequence with first term t\u2081 and common ratio r is:",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = t\u2081 + (n \u2212 1)r",
+    "t\u2099 = (t\u2081r)\u207f\u207b\u00b9",
+    "t\u2099 = t\u2081r\u207f\u207b\u00b9",
+    "t\u2099 = t\u2081r\u207f"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first term has not been multiplied by r, the second has been multiplied once, and the nth term n \u2212 1 times, so t\u2099 = t\u2081r\u207f\u207b\u00b9. Using r\u207f gives one multiplication too many.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0023",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "For the geometric sequence 3, 6, 12, 24, ..., the 8th term is:",
+   "imageRef": null,
+   "options": [
+    "768",
+    "48",
+    "192",
+    "384"
+   ],
+   "correctIndex": 3,
+   "explanation": "t\u2088 = 3 \u00d7 2\u2078\u207b\u00b9 = 3 \u00d7 128 = 384. Using 2\u2078 gives 768, one doubling too many.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0024",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A sequence is defined by t\u2099\u208a\u2081 = 0.8t\u2099, t\u2081 = 500. The value of t\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "256",
+    "204.8",
+    "320",
+    "260"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2082 = 400, t\u2083 = 320, t\u2084 = 256 (or 500 \u00d7 0.8\u00b3 = 256). Applying 0.8 four times gives 204.8, which is t\u2085; subtracting 80 each time gives 260, an arithmetic slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0025",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "Which of these is a geometric sequence?",
+   "imageRef": null,
+   "options": [
+    "2, 4, 8, 14, ...",
+    "2, 5, 9, 14, ...",
+    "2, 6, 18, 54, ...",
+    "2, 6, 10, 14, ..."
+   ],
+   "correctIndex": 2,
+   "explanation": "In 2, 6, 18, 54 each term is 3 times the one before, so the ratio is constant. 2, 6, 10, 14 has a common difference of 4 and is arithmetic; the other two have neither.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0026",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "Which recursive definition generates the same sequence as t\u2099 = 5 \u00d7 2\u207f\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "t\u2099\u208a\u2081 = 2t\u2099, t\u2081 = 5",
+    "t\u2099\u208a\u2081 = 5t\u2099, t\u2081 = 2",
+    "t\u2099\u208a\u2081 = t\u2099 + 2, t\u2081 = 5",
+    "t\u2099\u208a\u2081 = 2t\u2099, t\u2081 = 10"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rule t\u2099 = 5 \u00d7 2\u207f\u207b\u00b9 has first term 5 and common ratio 2, so each term is twice the last, starting at 5. Starting at 10 would make every term double what it should be.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0027",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A geometric sequence has t\u2082 = 6 and t\u2085 = 162. The first term is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "18",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "From t\u2082 to t\u2085 is 3 multiplications, so r\u00b3 = 162 \u00f7 6 = 27 and r = 3. Then t\u2081 = t\u2082 \u00f7 r = 6 \u00f7 3 = 2. Multiplying t\u2082 by r instead of dividing gives 18, which is t\u2083.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0028",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "When the terms of a geometric sequence with common ratio 1.5 are graphed against the term number, the points:",
+   "imageRef": null,
+   "options": [
+    "rise by the same amount each time, showing linear growth",
+    "fall more and more slowly, showing exponential decay",
+    "lie on a straight line that passes through the origin",
+    "rise more and more steeply, showing exponential growth"
+   ],
+   "correctIndex": 3,
+   "explanation": "With r greater than 1 each term grows by a larger amount than the last, so the points curve upwards, which is exponential growth. A ratio between 0 and 1 would give decay that flattens out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0029",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An item loses 12% of its value each year. In the recursion t\u2099\u208a\u2081 = rt\u2099, the value of r is:",
+   "imageRef": null,
+   "options": [
+    "1.12",
+    "88",
+    "0.88",
+    "0.12"
+   ],
+   "correctIndex": 2,
+   "explanation": "Losing 12% leaves 100% \u2212 12% = 88% of the value each year, so r = 0.88. Using 0.12 would keep only the amount lost, and 1.12 would model 12% growth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0030",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A bacterial population doubles every hour. It starts with 200 bacteria. How many are there after 6 hours?",
+   "imageRef": null,
+   "options": [
+    "2400",
+    "12 800",
+    "6400",
+    "1400"
+   ],
+   "correctIndex": 1,
+   "explanation": "After 6 doublings the population is 200 \u00d7 2\u2076 = 12 800. With t\u2081 = 200 at the start, this is t\u2087; using t\u2086 gives 6400, which is after only 5 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0031",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A $40 000 car depreciates by 15% per year using the diminishing-value method. Its value after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$22 000",
+    "$28 900",
+    "$34 000",
+    "$24 565"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each year the value is multiplied by 0.85, so after 3 years it is 40 000 \u00d7 0.85\u00b3 = $24 565. Taking 45% off the original price gives $22 000, which treats the depreciation as straight-line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0032",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A $40 000 car depreciates by 15% per year using the diminishing-value method. After how many whole years is its value first below $20 000?",
+   "imageRef": null,
+   "options": [
+    "6 years",
+    "5 years",
+    "4 years",
+    "3 years"
+   ],
+   "correctIndex": 1,
+   "explanation": "The values at the end of each year are $34 000, $28 900, $24 565, $20 880.25 and $17 748.21. After 4 years it is still just above $20 000, so it first drops below after 5 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0033",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A town's population of 12 000 grows by 5% each year. Its population after 3 years, to the nearest whole number, is:",
+   "imageRef": null,
+   "options": [
+    "12 600",
+    "13 892",
+    "13 800",
+    "13 230"
+   ],
+   "correctIndex": 1,
+   "explanation": "Geometric growth multiplies by 1.05 each year: 12 000 \u00d7 1.05\u00b3 = 13 891.5, which rounds to 13 892. Adding 5% of 12 000 each year gives 13 800, which is linear growth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0034",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A $20 000 machine can be depreciated by $3000 per year (straight-line) or by 20% per year (diminishing-value). Which is correct?",
+   "imageRef": null,
+   "options": [
+    "After 2 years the straight-line value is higher; after 5 years the diminishing-value value is higher",
+    "After 2 years the diminishing-value value is higher; after 5 years the straight-line value is higher",
+    "The straight-line value is higher after both 2 years and 5 years, because $3000 is less than 20%",
+    "The diminishing-value value is higher after both 2 years and 5 years, because it never reaches zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "After 2 years: straight-line $14 000, diminishing-value 20 000 \u00d7 0.8\u00b2 = $12 800. After 5 years: straight-line $5000, diminishing-value 20 000 \u00d7 0.8\u2075 = $6553.60. The diminishing-value loss shrinks each year, so the curve eventually stays above the straight line.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0035",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An asset worth $50 000 is worth $40 000 one year later and $32 000 the year after. Which model fits these values, and what is the value after 3 years?",
+   "imageRef": null,
+   "options": [
+    "Arithmetic with d = \u22128000; $24 000",
+    "Geometric with r = 0.8; $25 600",
+    "Arithmetic with d = \u22129000; $23 000",
+    "Geometric with r = 0.8; $20 480"
+   ],
+   "correctIndex": 1,
+   "explanation": "The changes are \u221210 000 then \u22128000, so the difference is not constant, but 40 000 \u00f7 50 000 = 32 000 \u00f7 40 000 = 0.8, so the model is geometric. After 3 years the value is 32 000 \u00d7 0.8 = $25 600; $20 480 is one more year on.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0036",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "A table of values starts at 64 and each value is 1.5 times the one before. The 4th value in the table is:",
+   "imageRef": null,
+   "options": [
+    "96",
+    "216",
+    "144",
+    "324"
+   ],
+   "correctIndex": 1,
+   "explanation": "The values are 64, 96, 144, 216, or t\u2084 = 64 \u00d7 1.5\u00b3 = 216. 144 is the third value and 324 is the fifth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0037",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "Simple interest growth and diminishing-value depreciation are modelled, in that order, by:",
+   "imageRef": null,
+   "options": [
+    "a geometric sequence and another geometric one",
+    "an arithmetic sequence and a geometric sequence",
+    "a geometric sequence and an arithmetic sequence",
+    "an arithmetic sequence and another arithmetic one"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simple interest adds the same dollar amount each period, which is arithmetic (linear) growth. Diminishing-value depreciation removes the same percentage each period, which is geometric (exponential) decay.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-growth-decay-0038",
+   "topicId": "gm-qce-growth-decay",
+   "stem": "An item's value at the start of each year is $12 000, $10 800, $9720, ... The depreciation method and rate are:",
+   "imageRef": null,
+   "options": [
+    "straight line at $1080 per year",
+    "diminishing value at 10% per year",
+    "straight line at $1200 per year",
+    "diminishing value at 90% per year"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ratios 10 800 \u00f7 12 000 and 9720 \u00f7 10 800 both equal 0.9, so the value keeps 90% and loses 10% each year. The drops are $1200 then $1080, which are not equal, so it is not straight-line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-growth-decay-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

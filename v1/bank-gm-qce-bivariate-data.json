@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-qce-bivariate-data",
+ "questions": [
+  {
+   "id": "gm-qce-bivariate-data-0001",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Bivariate data are data that:",
+   "imageRef": null,
+   "options": [
+    "record two variables for each individual or object",
+    "record one variable for two separate groups of people",
+    "contain exactly two possible values for each variable",
+    "are collected on two different occasions from one group"
+   ],
+   "correctIndex": 0,
+   "explanation": "Bivariate data pair two variables measured on the same individual, such as height and arm span for each student. Comparing one variable across two groups is still univariate data, just split by group.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0002",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A two-way frequency table is the appropriate way to display the association between:",
+   "imageRef": null,
+   "options": [
+    "two numerical variables",
+    "one numerical variable over time",
+    "a numerical variable and its mean",
+    "two categorical variables"
+   ],
+   "correctIndex": 3,
+   "explanation": "A two-way frequency table counts how often each combination of categories occurs, so both variables must be categorical. Two numerical variables are displayed on a scatterplot.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0003",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "In a survey, 90 people under 30 were asked their main news source: 72 said online and 18 said print. Of 110 people aged 30 and over, 44 said online and 66 said print. What percentage of the under-30 group chose online?",
+   "imageRef": null,
+   "options": [
+    "62%",
+    "65%",
+    "80%",
+    "36%"
+   ],
+   "correctIndex": 2,
+   "explanation": "Percentage within the under-30 group: 72 \u00f7 90 \u00d7 100 = 80%. Dividing by the grand total of 200 gives 36%, which is not the percentage of that age group.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0004",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For the same survey (under 30: 72 online, 18 print; 30 and over: 44 online, 66 print), which statement best describes the association?",
+   "imageRef": null,
+   "options": [
+    "No: the two age groups contain different numbers of people in total",
+    "Yes: 80% of under-30s chose online compared with 40% of those 30 and over",
+    "Yes: more people aged 30 and over were surveyed, so they prefer print",
+    "No: online was chosen by 116 people and print by only 84 people overall"
+   ],
+   "correctIndex": 1,
+   "explanation": "An association is shown by a clear difference in percentages across categories of the explanatory variable: 80% versus 40% (44 \u00f7 110). Overall totals alone cannot show an association, and unequal group sizes are why we compare percentages rather than counts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0005",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "To investigate whether age group (explanatory) affects preferred news source (response), the two-way table should be percentaged:",
+   "imageRef": null,
+   "options": [
+    "against the grand total, so the whole table totals 100%",
+    "within the largest cell, so that cell totals 100%",
+    "within each age group, so each age group totals 100%",
+    "within each news source, so each source totals 100%"
+   ],
+   "correctIndex": 2,
+   "explanation": "Percentages are calculated within each category of the explanatory variable, then compared across those categories. Percentaging within the response categories answers a different question about who uses each source.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0006",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A school records how 120 students travel and whether they were late at least once this term. Walk: 35 never late, 15 late. Bus: 25 never late, 45 late. What is the total number of students who travel by bus?",
+   "imageRef": null,
+   "options": [
+    "70",
+    "60",
+    "45",
+    "50"
+   ],
+   "correctIndex": 0,
+   "explanation": "The row sum for bus is 25 + 45 = 70. The column sum for late students is 15 + 45 = 60, which mixes the two travel groups.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0007",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Using the same table (walk: 35 never late, 15 late; bus: 25 never late, 45 late), which conclusion is supported?",
+   "imageRef": null,
+   "options": [
+    "There is no association, because the same number of students (60) were late as were never late",
+    "Late arrival is associated with travel mode, which proves catching the bus causes students to be late",
+    "Late arrival is associated with travel mode: 30% of walkers and about 64% of bus travellers were late",
+    "Late arrival is associated with travel mode: 15 walkers and 45 bus travellers were late, so 3 times as many"
+   ],
+   "correctIndex": 2,
+   "explanation": "Comparing percentages within each travel group, 15 \u00f7 50 = 30% of walkers and 45 \u00f7 70 \u2248 64% of bus travellers were late, so there is an association. Comparing raw counts ignores the different group sizes, and an association alone cannot prove causation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0008",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Of 160 cyclists who wore helmets in a crash study, 12 suffered head injuries. Of 40 who did not wear helmets, 10 suffered head injuries. What percentages of each group suffered head injuries?",
+   "imageRef": null,
+   "options": [
+    "7.5% with helmets and 25% without",
+    "6% with helmets and 5% without",
+    "12% with helmets and 10% without",
+    "54.5% with helmets and 45.5% without"
+   ],
+   "correctIndex": 0,
+   "explanation": "Within each group: 12 \u00f7 160 = 7.5% and 10 \u00f7 40 = 25%. Dividing by the total of 200 cyclists gives 6% and 5%, which hides the difference between the groups; 54.5% and 45.5% split the 22 injured cyclists instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0009",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A researcher investigates whether the daily maximum temperature helps explain the number of ice creams a kiosk sells. The response variable is:",
+   "imageRef": null,
+   "options": [
+    "the price of each ice cream",
+    "the number of ice creams sold",
+    "the daily maximum temperature",
+    "the day of the week"
+   ],
+   "correctIndex": 1,
+   "explanation": "The response variable is the one we expect to respond to changes in the other, here ice cream sales. Temperature is the explanatory variable, which goes on the horizontal axis of a scatterplot.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0010",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "When constructing a scatterplot, the explanatory variable is placed on:",
+   "imageRef": null,
+   "options": [
+    "the horizontal axis",
+    "the vertical axis",
+    "both axes",
+    "the axis with the larger values"
+   ],
+   "correctIndex": 0,
+   "explanation": "By convention the explanatory variable is on the horizontal (x) axis and the response variable on the vertical (y) axis. Swapping them changes the least-squares line that is fitted.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0011",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "When describing an association between two numerical variables from a scatterplot, the three features to describe are:",
+   "imageRef": null,
+   "options": [
+    "centre, spread and shape",
+    "trend, seasonality and irregularity",
+    "mean, median and outliers",
+    "direction, form and strength"
+   ],
+   "correctIndex": 3,
+   "explanation": "Bivariate associations are described by direction (positive or negative), form (linear or non-linear) and strength (strong, moderate or weak). Centre, spread and shape describe univariate distributions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0012",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "On a scatterplot, the points rise from left to right and lie close to a straight line. The association is best described as:",
+   "imageRef": null,
+   "options": [
+    "weak, negative and linear",
+    "strong, positive and linear",
+    "strong, negative and linear",
+    "weak, positive and non-linear"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rising from left to right means positive, lying close to a straight line means strong and linear. A negative association would fall from left to right.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0013",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A scatterplot of car age (years) against resale value ($) shows the values falling steeply at first and then levelling off. The form of this association is:",
+   "imageRef": null,
+   "options": [
+    "linear",
+    "positive",
+    "seasonal",
+    "non-linear"
+   ],
+   "correctIndex": 3,
+   "explanation": "A pattern that falls steeply and then flattens follows a curve, so its form is non-linear. Its direction is negative, but direction is a separate feature from form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0014",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Pearson's correlation coefficient, r, measures:",
+   "imageRef": null,
+   "options": [
+    "the percentage of points on the least-squares line",
+    "the strength and direction of a linear association",
+    "the strength of any association, linear or curved",
+    "the slope of the least-squares line through the data"
+   ],
+   "correctIndex": 1,
+   "explanation": "r measures how closely the points follow a straight line and whether the association is positive or negative. It should not be used for clearly non-linear data, and it is not the slope.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0015",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "The value of Pearson's correlation coefficient, r, always lies:",
+   "imageRef": null,
+   "options": [
+    "between \u22121 and 1 inclusive",
+    "between 0 and 1 inclusive",
+    "between 0 and 100 inclusive",
+    "between \u2212100 and 100 inclusive"
+   ],
+   "correctIndex": 0,
+   "explanation": "r ranges from \u22121 (perfect negative linear association) to 1 (perfect positive linear association). It is the coefficient of determination R\u00b2 that lies between 0 and 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0016",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Four data sets have these correlation coefficients. Which shows the strongest linear association?",
+   "imageRef": null,
+   "options": [
+    "r = 0.15",
+    "r = \u22120.93",
+    "r = 0.81",
+    "r = \u22120.42"
+   ],
+   "correctIndex": 1,
+   "explanation": "Strength depends on how close r is to \u22121 or 1, so the sign is ignored when comparing strength. \u22120.93 is closest to \u22121, so it is stronger than 0.81, even though it is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0017",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "The coefficient of determination, R\u00b2, tells us:",
+   "imageRef": null,
+   "options": [
+    "the percentage change in the response variable for a one-unit increase in the explanatory",
+    "the percentage chance that the explanatory variable causes the change in the response",
+    "the percentage of variation in the response variable explained by the explanatory variable",
+    "the percentage of the data points that lie very close to the fitted least-squares line"
+   ],
+   "correctIndex": 2,
+   "explanation": "R\u00b2 measures the proportion of the variation in the response variable that is explained by the variation in the explanatory variable. It says nothing about causation, and the rate of change is the slope.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0018",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For a set of bivariate data, r = 0.9. The value of the coefficient of determination, R\u00b2, is:",
+   "imageRef": null,
+   "options": [
+    "0.09",
+    "0.81",
+    "0.95",
+    "1.8"
+   ],
+   "correctIndex": 1,
+   "explanation": "R\u00b2 = r\u00b2 = 0.9\u00b2 = 0.81. Taking the square root instead gives about 0.95, which would be the correct step only when going from R\u00b2 back to r.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0019",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A least-squares line has a negative slope and R\u00b2 = 0.64. The value of Pearson's r is:",
+   "imageRef": null,
+   "options": [
+    "0.8",
+    "\u22120.64",
+    "\u22120.4096",
+    "\u22120.8"
+   ],
+   "correctIndex": 3,
+   "explanation": "r = \u00b1\u221a0.64 = \u00b10.8, and r takes the sign of the slope, so r = \u22120.8. Forgetting the sign gives 0.8, and squaring R\u00b2 again gives 0.4096.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0020",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For data on hours of sleep (explanatory) and reaction time (response), R\u00b2 = 0.72. The correct interpretation is:",
+   "imageRef": null,
+   "options": [
+    "72% of the variation in hours of sleep is explained by the variation in reaction time",
+    "reaction time falls by 72% for each additional hour of sleep a person has on average",
+    "72% of the people in the sample have their reaction time predicted exactly by the line",
+    "72% of the variation in reaction time is explained by the variation in hours of sleep"
+   ],
+   "correctIndex": 3,
+   "explanation": "R\u00b2 is interpreted in terms of the response variable's variation being explained by the explanatory variable's variation. Reversing the roles of the variables is the most common error.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0021",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A data set has r = \u22120.85. Which statement about this data set is correct?",
+   "imageRef": null,
+   "options": [
+    "About 72% of the variation in the response variable is explained by the explanatory variable",
+    "About 85% of the variation in the response variable is explained by the explanatory variable",
+    "About 15% of the variation in the response variable is explained by the explanatory variable",
+    "About 28% of the variation in the response variable is explained by the explanatory variable"
+   ],
+   "correctIndex": 0,
+   "explanation": "R\u00b2 = (\u22120.85)\u00b2 = 0.7225, so about 72% of the variation is explained. Using r directly gives 85%, and 28% is the unexplained variation, 1 \u2212 0.7225.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0022",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For the least-squares line y = mx + c, the slope can be found using:",
+   "imageRef": null,
+   "options": [
+    "m = s(y) \u00f7 s(x)",
+    "m = r\u00b2 \u00d7 s(y) \u00f7 s(x)",
+    "m = r \u00d7 s(y) \u00f7 s(x)",
+    "m = r \u00d7 s(x) \u00f7 s(y)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The slope is r multiplied by the standard deviation of the y values divided by the standard deviation of the x values. Inverting the ratio, or using r\u00b2 instead of r, gives the wrong slope.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0023",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Given the slope m, the y-intercept of the least-squares line y = mx + c is found using:",
+   "imageRef": null,
+   "options": [
+    "c = x\u0304 \u2212 m y\u0304",
+    "c = y\u0304 + m x\u0304",
+    "c = m x\u0304 \u2212 y\u0304",
+    "c = y\u0304 \u2212 m x\u0304"
+   ],
+   "correctIndex": 3,
+   "explanation": "The least-squares line always passes through the point (x\u0304, y\u0304), so y\u0304 = m x\u0304 + c, which rearranges to c = y\u0304 \u2212 m x\u0304. Adding m x\u0304 is a sign slip in that rearrangement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0024",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For a data set, r = 0.75, s(x) = 2.4 and s(y) = 6. The slope of the least-squares line is:",
+   "imageRef": null,
+   "options": [
+    "2.5",
+    "1.40625",
+    "1.875",
+    "0.3"
+   ],
+   "correctIndex": 2,
+   "explanation": "m = r \u00d7 s(y) \u00f7 s(x) = 0.75 \u00d7 6 \u00f7 2.4 = 1.875. Inverting the ratio gives 0.3, leaving out r gives 2.5, and using r\u00b2 gives about 1.41.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0025",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A least-squares line has slope m = 1.875. The means are x\u0304 = 8 and y\u0304 = 30. The y-intercept, c, is:",
+   "imageRef": null,
+   "options": [
+    "\u221248.25",
+    "22",
+    "15",
+    "45"
+   ],
+   "correctIndex": 2,
+   "explanation": "c = y\u0304 \u2212 m x\u0304 = 30 \u2212 1.875 \u00d7 8 = 30 \u2212 15 = 15. Adding instead of subtracting gives 45, and swapping the means gives \u221248.25.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0026",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For a data set, r = \u22120.6, s(x) = 5, s(y) = 12, x\u0304 = 20 and y\u0304 = 70. The equation of the least-squares line is:",
+   "imageRef": null,
+   "options": [
+    "y = \u22121.44x + 41.2",
+    "y = \u22120.25x + 75",
+    "y = 1.44x + 41.2",
+    "y = \u22121.44x + 98.8"
+   ],
+   "correctIndex": 3,
+   "explanation": "m = \u22120.6 \u00d7 12 \u00f7 5 = \u22121.44, then c = 70 \u2212 (\u22121.44)(20) = 70 + 28.8 = 98.8. Subtracting 28.8 instead of adding gives 41.2, a sign slip with the negative slope.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0027",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "The least-squares line y = 2.5x + 14 models a plant's height (cm) against the weeks since planting, x. The predicted height after 6 weeks is:",
+   "imageRef": null,
+   "options": [
+    "84 cm",
+    "20.5 cm",
+    "29 cm",
+    "35 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute x = 6: y = 2.5 \u00d7 6 + 14 = 15 + 14 = 29 cm. Multiplying the whole of 2.5 + 14 by 6 gives 84, which ignores the order of operations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0028",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Using y = 2.5x + 14, a plant measured at 6 weeks is actually 33 cm tall. Its residual is:",
+   "imageRef": null,
+   "options": [
+    "\u22124 cm",
+    "33 cm",
+    "19 cm",
+    "4 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "Residual = actual \u2212 predicted = 33 \u2212 29 = 4 cm. Subtracting the other way gives \u22124; a positive residual means the point lies above the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0029",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "The least-squares line y = \u22121.8x + 95 models a test score, y, against the number of hours of television watched per week, x. The slope tells us that:",
+   "imageRef": null,
+   "options": [
+    "on average, the score decreases by 95 marks for each extra hour of television",
+    "on average, the hours of television decrease by 1.8 for each extra mark scored",
+    "a student who watches no television is predicted to score 1.8 marks fewer",
+    "on average, the score decreases by 1.8 marks for each extra hour of television"
+   ],
+   "correctIndex": 3,
+   "explanation": "The slope is the average change in the response variable for each one-unit increase in the explanatory variable. Here the score falls by 1.8 marks per extra hour; 95 is the y-intercept, not the rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0030",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "For y = \u22121.8x + 95 (test score against hours of television per week), the y-intercept tells us that:",
+   "imageRef": null,
+   "options": [
+    "a student must watch 95 hours of television to score zero",
+    "the highest possible score in the test is 95 marks overall",
+    "a student who watches no television is predicted to score 95",
+    "the score falls by 95 marks for each extra hour of television"
+   ],
+   "correctIndex": 2,
+   "explanation": "The y-intercept is the predicted value of the response variable when the explanatory variable is zero. The slope, not the intercept, gives the change per hour.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0031",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A data set has r = 0.8, s(x) = 3, s(y) = 9, x\u0304 = 10 and y\u0304 = 50. A data point has x = 12 and y = 51. Its residual from the least-squares line is closest to:",
+   "imageRef": null,
+   "options": [
+    "4.8",
+    "\u22123.8",
+    "3.8",
+    "\u22121.0"
+   ],
+   "correctIndex": 1,
+   "explanation": "m = 0.8 \u00d7 9 \u00f7 3 = 2.4 and c = 50 \u2212 2.4 \u00d7 10 = 26, so the predicted y is 26 + 2.4 \u00d7 12 = 54.8. Residual = 51 \u2212 54.8 = \u22123.8; reversing the subtraction gives 3.8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0032",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A residual plot shows the residuals scattered randomly above and below zero, with no clear pattern. This suggests that:",
+   "imageRef": null,
+   "options": [
+    "a linear model is not appropriate for the data",
+    "the correlation coefficient must equal zero",
+    "every data point lies exactly on the line",
+    "a linear model is appropriate for the data"
+   ],
+   "correctIndex": 3,
+   "explanation": "Random scatter about zero means the line has captured the pattern, so a linear model is appropriate. A clear pattern, such as a curve, would mean the relationship is non-linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0033",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "After fitting a least-squares line, the residual plot shows a clear U-shaped curve. The best conclusion is that:",
+   "imageRef": null,
+   "options": [
+    "the association is non-linear, so a linear model is not appropriate",
+    "the association is strong and linear, so the line fits the data well",
+    "the association is negative, so the slope of the line must be negative",
+    "the data contain an outlier, so the largest residual should be removed"
+   ],
+   "correctIndex": 0,
+   "explanation": "A curved pattern in the residuals shows a systematic error the line cannot remove, which means the underlying relationship is non-linear. A high r can still occur with curved data, so the residual plot is the better check.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0034",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Using a least-squares line to make a prediction within the range of the data is called:",
+   "imageRef": null,
+   "options": [
+    "extrapolation",
+    "residual analysis",
+    "deseasonalising",
+    "interpolation"
+   ],
+   "correctIndex": 3,
+   "explanation": "Interpolation predicts inside the range of the observed explanatory values and is generally reliable when the association is strong. Predicting outside that range is extrapolation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0035",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A line was fitted to data on children aged 2 to 10 years, giving height = 6x + 80 (cm) for age x in years. Using it to predict the height of a 40-year-old is unreliable because:",
+   "imageRef": null,
+   "options": [
+    "it is interpolation, and predictions inside the data range are always inaccurate",
+    "the slope is positive, so the line can only be used for children's heights",
+    "the intercept is 80 cm, so the line can only be used for heights above 80 cm",
+    "it is extrapolation, and growth does not continue at the same rate in adulthood"
+   ],
+   "correctIndex": 3,
+   "explanation": "Age 40 is far outside the 2 to 10 year range, so this is extrapolation, and the linear pattern does not continue (it would predict 320 cm). The danger of extrapolation is assuming the trend carries on beyond the data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0036",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A strong association between two variables shows that:",
+   "imageRef": null,
+   "options": [
+    "the variables are related, but not necessarily that one causes the other",
+    "a change in the explanatory variable causes a change in the response",
+    "a change in the response variable causes a change in the explanatory",
+    "both variables must be caused by the same third, hidden variable"
+   ],
+   "correctIndex": 0,
+   "explanation": "An observed association, however strong, does not by itself establish causation. A third variable or coincidence could explain it; it also need not be a hidden variable in every case.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0037",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Across Queensland beaches over a summer, daily ice cream sales and the number of marine stinger stings are strongly positively associated. The most likely explanation is:",
+   "imageRef": null,
+   "options": [
+    "another variable: hotter days bring more people to the beach and into the water",
+    "causation: eating ice cream makes swimmers more likely to be stung by stingers",
+    "causation: being stung makes beachgoers more likely to go and buy ice cream",
+    "coincidence: the association is too strong to have any explanation at all"
+   ],
+   "correctIndex": 0,
+   "explanation": "Hot weather increases both ice cream sales and the number of swimmers who can be stung, so a third variable explains the association. Neither variable causes the other.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0038",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "Over 10 years, the number of streaming subscriptions in a town and the number of its residents over 80 both increased steadily, giving r = 0.94. The best explanation for this association is:",
+   "imageRef": null,
+   "options": [
+    "measurement error: an r value this high cannot occur between unrelated data",
+    "coincidence: both happened to increase over the same period for unrelated reasons",
+    "causation: streaming subscriptions are making the town's residents live longer",
+    "causation: older residents are the only ones buying streaming subscriptions"
+   ],
+   "correctIndex": 1,
+   "explanation": "Two quantities that both trend upward over time will be strongly correlated even if they have nothing to do with each other. This is a coincidental, non-causal association, and a high r does not rule it out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0039",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A study finds students who eat breakfast have higher average exam results. Which conclusion is best supported?",
+   "imageRef": null,
+   "options": [
+    "There is no association, because some students who skip breakfast also achieve high results",
+    "There is an association, but a variable such as family routine may explain both, so causation is not shown",
+    "Eating breakfast causes higher exam results, because the association was found in a large study",
+    "Higher exam results cause students to eat breakfast, because results came after the study began"
+   ],
+   "correctIndex": 1,
+   "explanation": "An observational study can show an association but not causation, since other variables such as sleep or family routine may influence both. Individual exceptions do not remove an association, which describes a general tendency.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-bivariate-data-0040",
+   "topicId": "gm-qce-bivariate-data",
+   "stem": "A council finds that suburbs with more fast food outlets have higher rates of heart disease (r = 0.7). Which is the most valid statement?",
+   "imageRef": null,
+   "options": [
+    "About 49% of the variation in heart disease rates is explained by the number of outlets, but this does not prove causation",
+    "About 70% of the variation in heart disease rates is explained by the number of outlets, so the outlets cause it",
+    "About 49% of suburbs with fast food outlets have heart disease, so closing outlets would reduce the rate",
+    "About 70% of the variation in the number of outlets is explained by heart disease rates, so this is reversed"
+   ],
+   "correctIndex": 0,
+   "explanation": "R\u00b2 = 0.7\u00b2 = 0.49, so about 49% of the variation in heart disease rates is explained, assuming a linear association. Factors such as income or age could influence both variables, so the data cannot show that outlets cause heart disease.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-bivariate-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

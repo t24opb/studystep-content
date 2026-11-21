@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-matrix-modelling",
+ "questions": [
+  {
+   "id": "gm-sace-matrix-modelling-0001",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a connectivity matrix, the element in row A, column B is 1. What does this show?",
+   "imageRef": null,
+   "options": [
+    "There is a direct one-step connection from A to B",
+    "There is a direct one-step connection from B to A",
+    "There is exactly one two-step connection from A to B",
+    "A and B are the only vertices joined in the network"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rows give the starting vertex and columns the finishing vertex, so a 1 in row A, column B means an arc from A to B. In a directed network that does not mean there is an arc back from B to A.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0002",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Why are the elements on the leading diagonal of a connectivity matrix usually 0?",
+   "imageRef": null,
+   "options": [
+    "No vertex has a direct connection to itself",
+    "Every vertex connects to all the other vertices",
+    "The diagonal stores the total of each row",
+    "The network has no connections in either direction"
+   ],
+   "correctIndex": 0,
+   "explanation": "The diagonal element in row A, column A would record an arc from A back to A. Networks such as roads between towns or people sending messages have no such loops, so these are 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0003",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. In the connectivity matrix with rows and columns in the order A, B, C, D, what is the row for D?",
+   "imageRef": null,
+   "options": [
+    "(0, 0, 1, 0)",
+    "(0, 1, 1, 0)",
+    "(1, 1, 0, 1)",
+    "(1, 1, 0, 0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row D records the arcs leaving D: D\u2192A and D\u2192B, so it is (1, 1, 0, 0). (0, 0, 1, 0) is column D read as a row, which records the arc arriving at D from C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0004",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. How many 1s does its connectivity matrix contain?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "16",
+    "6",
+    "12"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each one-way road gives exactly one 1, in the row of its start and the column of its end, so there are 6. Twelve would count each road in both directions, as in an undirected network.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0005",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "For a connectivity matrix M, what does the element in row i, column j of M\u00b2 count?",
+   "imageRef": null,
+   "options": [
+    "The number of paths of any length from vertex i to j",
+    "The square of the distance from vertex i to vertex j",
+    "The number of two-step paths from vertex i to vertex j",
+    "The number of one-step paths from vertex i to vertex j"
+   ],
+   "correctIndex": 2,
+   "explanation": "Squaring M multiplies and adds pairs of arcs i\u2192k and k\u2192j, so each product of 1s is a route through one intermediate vertex. Higher powers count longer paths, and M itself counts one-step paths.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0006",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). The element in row D, column C of M\u00b2 is 2. Which routes does it count?",
+   "imageRef": null,
+   "options": [
+    "D\u2192A\u2192B and D\u2192B\u2192C",
+    "D\u2192A\u2192C and D\u2192B\u2192C",
+    "D\u2192A\u2192C and D\u2192C\u2192B",
+    "D\u2192B\u2192C and D\u2192C\u2192A"
+   ],
+   "correctIndex": 1,
+   "explanation": "Two-step routes from D to C go D\u2192A\u2192C (both arcs exist) and D\u2192B\u2192C (both arcs exist). There is no arc D\u2192C, and D\u2192A\u2192B ends at B, not C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0007",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). M\u00b2 has rows (0, 0, 1, 1), (0, 0, 0, 1), (1, 1, 0, 0), (0, 1, 2, 0). How many two-step paths are there from A to D?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "1",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Read row A, column D of M\u00b2: 1. The single route is A\u2192C\u2192D. A\u2192B\u2192D does not exist because there is no arc B\u2192D.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0008",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). M\u00b2 has rows (0, 0, 1, 1), (0, 0, 0, 1), (1, 1, 0, 0), (0, 1, 2, 0). Which statement about travel from B to D is correct?",
+   "imageRef": null,
+   "options": [
+    "There is no direct road, but there are two two-step routes",
+    "There is no direct road, but there is one two-step route",
+    "There is a direct road and also one two-step route",
+    "There is no direct road and no two-step route"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row B, column D of M is 0, so there is no direct road; row B, column D of M\u00b2 is 1, the route B\u2192C\u2192D. Sums of powers combine this information.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0009",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0), and M\u00b3 has 1 in row A, column A. What does this show?",
+   "imageRef": null,
+   "options": [
+    "There are three different roads that leave town A",
+    "A three-step route leaves A and returns to it, A\u2192C\u2192D\u2192A",
+    "There is a road from A to itself that is three units long",
+    "A can reach every other town in exactly three steps"
+   ],
+   "correctIndex": 1,
+   "explanation": "M\u00b3 counts three-step paths, and A\u2192C\u2192D\u2192A starts and ends at A. Such circuits are a limitation of higher powers: they are counted even though a traveller would rarely want them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0010",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "What is a limitation of using a high power of a connectivity matrix such as M\u2074?",
+   "imageRef": null,
+   "options": [
+    "It removes the direct one-step connections from the network",
+    "It counts paths without showing them, including inefficient ones",
+    "It can only be calculated for networks with four or fewer vertices",
+    "It gives the length in kilometres of each path in the network"
+   ],
+   "correctIndex": 1,
+   "explanation": "M\u2074 gives how many four-step paths there are, not which vertices they pass through. Some, such as A\u2192B\u2192A\u2192B\u2192C, revisit vertices and would never be used when shorter routes exist.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0011",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). The matrix M + M\u00b2 has rows (0, 1, 2, 1), (0, 0, 1, 1), (1, 1, 0, 1), (1, 2, 2, 0). What does the 0 in row B, column A show?",
+   "imageRef": null,
+   "options": [
+    "A and B are joined by exactly two roads",
+    "B cannot reach A in two or fewer steps",
+    "B cannot reach A in any number of steps",
+    "A cannot reach B in two or fewer steps"
+   ],
+   "correctIndex": 1,
+   "explanation": "M + M\u00b2 counts all paths of one or two steps, and it holds 0 in row B, column A, so there is no such path from B to A. B can still reach A in three steps, B\u2192C\u2192D\u2192A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0012",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). What is the smallest n for which M + M\u00b2 + ... + M\u207f has no zero entries off the leading diagonal?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "M + M\u00b2 still has zeros, for example B to A. Adding M\u00b3 supplies B\u2192C\u2192D\u2192A and fills every off-diagonal entry, so every town can reach every other within 3 steps. This minimum number of steps is a measure of how well the network is connected.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0013",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "One-way roads join four towns: A\u2192B, A\u2192C, B\u2192C, C\u2192D, D\u2192A and D\u2192B. The connectivity matrix M for towns A, B, C, D (in that order) has rows (0, 1, 1, 0), (0, 0, 1, 0), (0, 0, 0, 1), (1, 1, 0, 0). Every town can reach every other within 3 steps. A new one-way road B\u2192A is built. What is the new minimum number of steps?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "4",
+    "2",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "With B\u2192A added, M + M\u00b2 has no zero entries off the diagonal (for example C\u2192D\u2192A and C\u2192D\u2192B, and B\u2192A\u2192C), so every pair is joined within 2 steps. Adding arcs can only keep or reduce this measure.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0014",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Sums of powers of a connectivity matrix, such as M + M\u00b2 + M\u00b3, are used to:",
+   "imageRef": null,
+   "options": [
+    "measure how well connected, or redundant, a network is",
+    "find the shortest distance in kilometres between towns",
+    "find the cheapest set of arcs that connects every vertex",
+    "measure how much traffic each arc can carry at once"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sums count all routes of up to a given number of steps, showing how many alternatives (redundancy) each connection has. Distances, costs and capacities are not recorded in a connectivity matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0015",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "A connectivity matrix for a road network has a 1 for each direct road. Which information does it NOT record?",
+   "imageRef": null,
+   "options": [
+    "The direction in which each road can be used",
+    "How many roads leave each of the towns",
+    "How long or how busy each road is",
+    "Which towns have a direct road between them"
+   ],
+   "correctIndex": 2,
+   "explanation": "The elements only show whether a connection exists. Direction is recorded by row and column, and row sums give roads leaving a town, but length, capacity or traffic are not in the matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0016",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a dominance matrix for a round-robin tournament, what do the row sums give?",
+   "imageRef": null,
+   "options": [
+    "Each player's number of two-step dominances",
+    "The number of matches each player has still to play",
+    "Each player's number of direct (one-step) wins",
+    "Each player's number of losses in the tournament"
+   ],
+   "correctIndex": 2,
+   "explanation": "A 1 in row i, column j means i beat j, so adding a row counts that player's wins. Column sums count losses, and two-step dominances come from the square of the matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0017",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a round-robin, A beat D, B beat A, C beat A and B, and D beat B and C. Which players are tied on number of wins?",
+   "imageRef": null,
+   "options": [
+    "A and B only",
+    "C and D, and also A and B",
+    "A and D, and also B and C",
+    "C and D only"
+   ],
+   "correctIndex": 1,
+   "explanation": "C and D won 2 matches each, and A and B won 1 each. Ties like these are why two-step dominances are used to separate players.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0018",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a round-robin, A beat D, B beat A, C beat A and B, and D beat B and C. How many two-step dominances does D have?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "5",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "D beat B and C. B beat A, giving D\u2192B\u2192A; C beat A and B, giving D\u2192C\u2192A and D\u2192C\u2192B. That is 3 two-step dominances. Five adds D's 2 direct wins to them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0019",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a round-robin, A beat D, B beat A, C beat A and B, and D beat B and C. Players are ranked by the row sums of D + 0.5D\u00b2, where D is the dominance matrix. What is the ranking, from first to last?",
+   "imageRef": null,
+   "options": [
+    "C, D, A, B",
+    "D, C, B, A",
+    "C, D, B, A",
+    "D, C, A, B"
+   ],
+   "correctIndex": 3,
+   "explanation": "Direct wins are A 1, B 1, C 2, D 2 and two-step dominances are A 2, B 1, C 2, D 3. Weighted totals are A 2, B 1.5, C 3, D 3.5, so the order is D, C, A, B.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0020",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a dominance ranking such as D + 0.5D\u00b2, why are the two-step dominances given a weighting of 0.5?",
+   "imageRef": null,
+   "options": [
+    "An indirect win is treated as less significant than a direct win",
+    "Each two-step dominance is counted twice in the matrix D\u00b2",
+    "Half of the matches in a round-robin are never actually played",
+    "The weighting makes every row sum a whole number of wins"
+   ],
+   "correctIndex": 0,
+   "explanation": "Beating someone who beat a third player says less than beating that player directly, so it carries less weight. The weighting is a judgement, and a different choice could change the ranking.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0021",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a tournament that is not yet complete, what can weighted sums of a dominance matrix be used for?",
+   "imageRef": null,
+   "options": [
+    "Predicting the likely result of an unplayed match",
+    "Working out the exact score of every match played",
+    "Proving which player will win the final match",
+    "Counting the matches that still have to be played"
+   ],
+   "correctIndex": 0,
+   "explanation": "The higher-ranked player by weighted dominance is predicted to win, which is a prediction, not a certainty. The matrix records only wins, not scores.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0022",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a round-robin, A beat D, B beat A, C beat A and B, and D beat B and C. Why should powers of the dominance matrix higher than 2 be treated with care?",
+   "imageRef": null,
+   "options": [
+    "Higher powers remove the direct wins from each player's score",
+    "Cycles such as A\u2192D\u2192B\u2192A make players appear to dominate themselves",
+    "Higher powers always give every player the same total score",
+    "Higher powers can only be calculated for eight or more players"
+   ],
+   "correctIndex": 1,
+   "explanation": "A beat D, D beat B and B beat A, so D\u00b3 has a non-zero element on its main diagonal for A. A player dominating itself has no meaning, so these cycles need careful handling.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0023",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Two analysts rank the same round-robin, one using D + 0.5D\u00b2 and one using D + D\u00b2. What should they recognise?",
+   "imageRef": null,
+   "options": [
+    "Both weightings must give exactly the same ranking",
+    "Only the weighting of 1 gives a valid ranking",
+    "Weightings only matter when there are no ties",
+    "Different weightings can give different rankings"
+   ],
+   "correctIndex": 3,
+   "explanation": "The weighting is a modelling choice, and changing it changes the totals and can reorder players. Its reasonableness should be considered in context, alongside the model's limitations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0024",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In a transition matrix whose rows are the current states, why must each row add to 1?",
+   "imageRef": null,
+   "options": [
+    "The matrix must be square for it to be multiplied by itself",
+    "The steady state is always reached after exactly one step",
+    "Everyone in a state must go to some state, including staying",
+    "Each column records the same total number of customers"
+   ],
+   "correctIndex": 2,
+   "explanation": "A row lists the proportions of one group moving to each state next time, staying included, so together they account for the whole group: 100%, or 1 as a decimal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0025",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "In the transition matrix T with rows (0.8, 0.2) and (0.3, 0.7), where rows are this week and columns next week in the order X, Y, what does 0.3 mean?",
+   "imageRef": null,
+   "options": [
+    "30% of Y's buyers switch to X the next week",
+    "30% of X's buyers switch to Y the next week",
+    "30% of Y's buyers stay with Y the next week",
+    "30% of all buyers choose X in the long run"
+   ],
+   "correctIndex": 0,
+   "explanation": "0.3 sits in row Y (this week) and column X (next week), so it is the proportion of Y buyers who move to X. The proportion of X buyers moving to Y is 0.2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0026",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). This week 500 people buy X and 500 buy Y, so R = (500, 500). What is R \u00d7 T, the prediction for next week?",
+   "imageRef": null,
+   "options": [
+    "(450, 550)",
+    "(500, 500)",
+    "(400, 600)",
+    "(550, 450)"
+   ],
+   "correctIndex": 3,
+   "explanation": "X next week = 500 \u00d7 0.8 + 500 \u00d7 0.3 = 550, and Y = 500 \u00d7 0.2 + 500 \u00d7 0.7 = 450. The answer (450, 550) has the two brands the wrong way round: X gains buyers because more switch from Y to X than from X to Y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0027",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). Starting from R = (500, 500), what is R \u00d7 T\u00b2, the prediction for two weeks later?",
+   "imageRef": null,
+   "options": [
+    "(600, 400)",
+    "(605, 395)",
+    "(575, 425)",
+    "(550, 450)"
+   ],
+   "correctIndex": 2,
+   "explanation": "After one week the state is (550, 450). Then X = 550 \u00d7 0.8 + 450 \u00d7 0.3 = 575 and Y = 550 \u00d7 0.2 + 450 \u00d7 0.7 = 425. (600, 400) is the long-run steady state, not the state after two weeks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0028",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "With R a 1 \u00d7 2 row matrix of customer numbers and T a 2 \u00d7 2 transition matrix, why is the next state found as R \u00d7 T and not T \u00d7 R?",
+   "imageRef": null,
+   "options": [
+    "T \u00d7 R gives the state for the previous week instead",
+    "R \u00d7 T is the only product that keeps the rows adding to 1",
+    "T \u00d7 R is not defined, but R \u00d7 T gives a 1 \u00d7 2 row matrix",
+    "R \u00d7 T and T \u00d7 R always give exactly the same answer"
+   ],
+   "correctIndex": 2,
+   "explanation": "For T \u00d7 R the 2 columns of T would have to match the 1 row of R, so it cannot be calculated. R \u00d7 T matches R's 2 columns to T's 2 rows and gives the new 1 \u00d7 2 state.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0029",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). High powers of T have both rows equal to (0.6, 0.4). For a fixed market of 1000 buyers, what is the steady state?",
+   "imageRef": null,
+   "options": [
+    "600 buy X and 400 buy Y",
+    "800 buy X and 200 buy Y",
+    "500 buy X and 500 buy Y",
+    "700 buy X and 300 buy Y"
+   ],
+   "correctIndex": 0,
+   "explanation": "When the rows of T\u207f become identical, each row gives the long-run proportions: 60% buy X and 40% buy Y, so 600 and 400 of 1000. (800, 200) uses X's retention rate as if it were the market share.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0030",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). One analyst starts with R = (500, 500) and another with R = (1000, 0). What happens in the long run?",
+   "imageRef": null,
+   "options": [
+    "The analyst who starts with more X buyers ends with more",
+    "Neither settles, because the shares keep alternating",
+    "Both reach the same steady state of 600 and 400",
+    "The first reaches 500 each and the second 1000 and 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The steady state depends only on the proportions in T, not on the starting distribution in R. Any starting split of the same 1000 buyers converges to 600 buying X and 400 buying Y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0031",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). The market has reached its steady state of 600 buying X and 400 buying Y. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The model stops applying once the steady state has been reached",
+    "120 buyers still switch each way every week, so the totals stay put",
+    "No buyers switch brands any more, so the totals stay the same",
+    "Buyers switch only from Y to X, and the X total keeps growing"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each week 600 \u00d7 0.2 = 120 move from X to Y and 400 \u00d7 0.3 = 120 move from Y to X, so the numbers balance. Individuals keep switching even though the market shares no longer change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0032",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Each week, 80% of brand X buyers buy X again and 20% switch to Y; 30% of brand Y buyers switch to X and 70% stay with Y. In the transition matrix T, rows are this week and columns next week, in the order X, Y, so T has rows (0.8, 0.2) and (0.3, 0.7). After an advertising campaign, 80% of Y buyers stay with Y and 20% switch to X; X's figures are unchanged. What is the new long-run share for Y?",
+   "imageRef": null,
+   "options": [
+    "80%",
+    "60%",
+    "50%",
+    "40%"
+   ],
+   "correctIndex": 2,
+   "explanation": "T becomes rows (0.8, 0.2) and (0.2, 0.8). The flows balance when 0.2 \u00d7 X = 0.2 \u00d7 Y, so the shares become 50% each, up from 40% for Y. Changing the transition proportions changes the steady state, whatever the starting numbers.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0033",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Three phone companies P, Q and R have a transition matrix with rows (0.7, 0.2, 0.1), (0.1, 0.8, 0.1) and (0.2, 0.2, 0.6), rows being this year and columns next year in the order P, Q, R. This year the numbers of customers are R = (300, 300, 400). What is the prediction for next year?",
+   "imageRef": null,
+   "options": [
+    "(320, 300, 380)",
+    "(320, 380, 300)",
+    "(300, 300, 400)",
+    "(330, 370, 300)"
+   ],
+   "correctIndex": 1,
+   "explanation": "P = 300 \u00d7 0.7 + 300 \u00d7 0.1 + 400 \u00d7 0.2 = 320, Q = 300 \u00d7 0.2 + 300 \u00d7 0.8 + 400 \u00d7 0.2 = 380, and R = 300 \u00d7 0.1 + 300 \u00d7 0.1 + 400 \u00d7 0.6 = 300. The total stays 1000 because the system is closed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0034",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Three phone companies P, Q and R have a transition matrix with rows (0.7, 0.2, 0.1), (0.1, 0.8, 0.1) and (0.2, 0.2, 0.6), rows being this year and columns next year in the order P, Q, R. The steady state proportions are 0.3, 0.5 and 0.2. How can you confirm this is the steady state?",
+   "imageRef": null,
+   "options": [
+    "(0.3, 0.5, 0.2) \u00d7 T gives (0.5, 0.3, 0.2) instead",
+    "(0.3, 0.5, 0.2) \u00d7 T gives (0.3, 0.5, 0.2) again",
+    "The three proportions in the row add to 1 exactly",
+    "Each proportion is smaller than its retention rate"
+   ],
+   "correctIndex": 1,
+   "explanation": "A steady state is unchanged by one more transition: 0.3 \u00d7 0.7 + 0.5 \u00d7 0.1 + 0.2 \u00d7 0.2 = 0.3, and similarly 0.5 and 0.2. Any set of proportions adds to 1, so that alone proves nothing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0035",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Using technology, how can the steady state of a transition matrix T be found?",
+   "imageRef": null,
+   "options": [
+    "Raise T to a high power until its rows are identical",
+    "Add all the elements of T and divide by the order",
+    "Multiply T by itself once and read the leading diagonal",
+    "Find the row of T with the largest retention rate"
+   ],
+   "correctIndex": 0,
+   "explanation": "As n increases the rows of T\u207f converge to the same row, which gives the steady-state proportions. One squaring is rarely enough for the rows to settle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0036",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "Which is an assumption of the transition matrix model of market share?",
+   "imageRef": null,
+   "options": [
+    "The same customers buy in every period, at fixed proportions",
+    "New customers join the market at a steady rate each period",
+    "The proportions switching change each period with prices",
+    "Customers who switch brands never switch back again"
+   ],
+   "correctIndex": 0,
+   "explanation": "The model assumes a closed system, that every customer buys each period, and that the transition proportions stay fixed. New customers or changing proportions break those assumptions, which limits its accuracy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-modelling-0037",
+   "topicId": "gm-sace-matrix-modelling",
+   "stem": "A transition model predicts that a cafe will hold 45% of a town's coffee buyers in the long run. Why might this prediction be unreliable?",
+   "imageRef": null,
+   "options": [
+    "Buying patterns and the population of buyers can change over time",
+    "The steady state depends on how many buyers there were at the start",
+    "Transition matrices can only be used for exactly two businesses",
+    "The model ignores the buyers who stay with the same caf\u00e9 each time"
+   ],
+   "correctIndex": 0,
+   "explanation": "Reaching the steady state assumes the proportions stay fixed and the same buyers keep buying, which is often unrealistic. The starting numbers do not affect the steady state, and buyers who stay are included in T.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-modelling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

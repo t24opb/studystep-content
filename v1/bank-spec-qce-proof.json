@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-qce-proof",
+ "questions": [
+  {
+   "id": "spec-qce-proof-0001",
+   "topicId": "spec-qce-proof",
+   "stem": "The converse of the implication \"if P, then Q\" is:",
+   "imageRef": null,
+   "options": [
+    "if Q, then P",
+    "if not P, then not Q",
+    "if not Q, then not P",
+    "P and not Q"
+   ],
+   "correctIndex": 0,
+   "explanation": "The converse swaps the hypothesis and conclusion. \"If not Q, then not P\" is the contrapositive, which is a different statement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0002",
+   "topicId": "spec-qce-proof",
+   "stem": "The contrapositive of the implication \"if P, then Q\" is:",
+   "imageRef": null,
+   "options": [
+    "if Q, then P",
+    "if not P, then not Q",
+    "not P or not Q",
+    "if not Q, then not P"
+   ],
+   "correctIndex": 3,
+   "explanation": "The contrapositive swaps and negates both parts. \"If not P, then not Q\" negates without swapping; it is the inverse and is not equivalent to the original.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0003",
+   "topicId": "spec-qce-proof",
+   "stem": "An implication and its contrapositive:",
+   "imageRef": null,
+   "options": [
+    "have truth values with no fixed relationship",
+    "are always both true or both false",
+    "always have opposite truth values",
+    "are both true only when the converse is true"
+   ],
+   "correctIndex": 1,
+   "explanation": "An implication is logically equivalent to its contrapositive, which is why proving the contrapositive proves the original. The converse can differ in truth value.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0004",
+   "topicId": "spec-qce-proof",
+   "stem": "Consider the true statement \"if an integer is divisible by 6, then it is divisible by 3\". Its converse is:",
+   "imageRef": null,
+   "options": [
+    "true, because 6 is a multiple of 3",
+    "false, shown by the counterexample 12",
+    "true, because it is the contrapositive",
+    "false, shown by the counterexample 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The converse is \"if an integer is divisible by 3, then it is divisible by 6\", and 9 is divisible by 3 but not by 6. The number 12 is divisible by both, so it does not disprove anything.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0005",
+   "topicId": "spec-qce-proof",
+   "stem": "The contrapositive of \"if an integer is divisible by 6, then it is divisible by 3\" is:",
+   "imageRef": null,
+   "options": [
+    "if an integer is not divisible by 3, then it is not divisible by 6",
+    "if an integer is divisible by 3, then it is divisible by 6",
+    "if an integer is not divisible by 6, then it is not divisible by 3",
+    "an integer is divisible by 6 and not divisible by 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Swap and negate both parts: not divisible by 3 implies not divisible by 6, which is true. The third option negates without swapping and is false, for example for 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0006",
+   "topicId": "spec-qce-proof",
+   "stem": "In logic, P \u21d4 Q means that:",
+   "imageRef": null,
+   "options": [
+    "P \u21d2 Q and Q \u21d2 P are both true",
+    "P \u21d2 Q is true but Q \u21d2 P may be false",
+    "P and Q are both true statements",
+    "P and Q cannot both be true"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equivalence (if and only if) means each statement implies the other. P \u21d2 Q alone is a one-way implication.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0007",
+   "topicId": "spec-qce-proof",
+   "stem": "For an integer n, which of these is a true equivalence?",
+   "imageRef": null,
+   "options": [
+    "n > 1 \u21d4 n\u00b2 > 1",
+    "n is prime \u21d4 n is odd",
+    "n is even \u21d4 n\u00b2 is even",
+    "n\u00b2 = 4 \u21d4 n = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "An even n has an even square, and an odd n has an odd square, so both directions hold. The others fail one way: n = \u22122 has n\u00b2 = 4 and n\u00b2 > 1, and 2 is prime but even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0008",
+   "topicId": "spec-qce-proof",
+   "stem": "Which use of the implication symbol is correct for real x?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 = 9 \u21d2 x = 3",
+    "x\u00b2 = 9 \u21d4 x = 3",
+    "x\u00b2 > 9 \u21d2 x > 3",
+    "x = 3 \u21d2 x\u00b2 = 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "If x = 3 then certainly x\u00b2 = 9. The reverse fails because x = \u22123 also gives x\u00b2 = 9, and x = \u22124 satisfies x\u00b2 > 9 without x > 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0009",
+   "topicId": "spec-qce-proof",
+   "stem": "Which statement correctly uses the equivalence symbol for real x?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 = 4 \u21d4 x = 2",
+    "x > 2 \u21d4 x\u00b2 > 4",
+    "x = 2 \u21d4 x \u2265 2",
+    "x + 3 = 5 \u21d4 x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtracting 3 and adding 3 are reversible, so x + 3 = 5 and x = 2 imply each other. In each of the others, one direction fails, for example x = \u22122 satisfies x\u00b2 = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0010",
+   "topicId": "spec-qce-proof",
+   "stem": "In mathematical statements, the symbols \u2200 and \u2203 mean:",
+   "imageRef": null,
+   "options": [
+    "\"is an element of\" and \"is not an element of\"",
+    "\"implies\" and \"is equivalent to\"",
+    "\"for all\" and \"there exists\"",
+    "\"there exists\" and \"for all\""
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2200 is the universal quantifier, \"for all\", and \u2203 is the existential quantifier, \"there exists\". The symbol \u2208 means \"is an element of\".",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0011",
+   "topicId": "spec-qce-proof",
+   "stem": "The negation of \"all of the swans on the lake are white\" is:",
+   "imageRef": null,
+   "options": [
+    "some swans on the lake are white",
+    "at least one swan on the lake is not white",
+    "no swan on the lake is white",
+    "every one of the swans on the lake is black"
+   ],
+   "correctIndex": 1,
+   "explanation": "To deny that every swan is white, one non-white swan is enough. \"No swan is white\" claims far more than the negation needs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0012",
+   "topicId": "spec-qce-proof",
+   "stem": "The negation of \"\u2200x \u2208 \u211d, x\u00b2 \u2265 0\" is:",
+   "imageRef": null,
+   "options": [
+    "\u2203x \u2208 \u211d such that x\u00b2 \u2265 0",
+    "\u2200x \u2208 \u211d, x\u00b2 \u2264 0",
+    "\u2203x \u2208 \u211d such that x\u00b2 < 0",
+    "\u2200x \u2208 \u211d, x\u00b2 < 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Negating \"for all\" gives \"there exists\", and the negation of x\u00b2 \u2265 0 is x\u00b2 < 0. Keeping \u2200 gives a much stronger claim than the negation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0013",
+   "topicId": "spec-qce-proof",
+   "stem": "The negation of \"there exists an integer n such that n\u00b2 = 2\" is:",
+   "imageRef": null,
+   "options": [
+    "there is no integer n such that n\u00b2 \u2260 2",
+    "for all integers n, n\u00b2 \u2260 2",
+    "there exists an integer n such that n\u00b2 \u2260 2",
+    "for all integers n, n\u00b2 = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Negating \"there exists\" gives \"for all\", with the condition negated. \"There exists n with n\u00b2 \u2260 2\" is true but is not the negation; both it and the original could be true together.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0014",
+   "topicId": "spec-qce-proof",
+   "stem": "The negation of \"if it rains, then the match is cancelled\" is:",
+   "imageRef": null,
+   "options": [
+    "it does not rain and the match is cancelled",
+    "it rains and the match is not cancelled",
+    "if it does not rain, then the match is not cancelled",
+    "if it rains, then the match is not cancelled"
+   ],
+   "correctIndex": 1,
+   "explanation": "The implication is false only when the hypothesis holds and the conclusion fails, so its negation is \"rain and not cancelled\". The negation of an implication is not another implication.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0015",
+   "topicId": "spec-qce-proof",
+   "stem": "Which of these statements is true?",
+   "imageRef": null,
+   "options": [
+    "\u2203x \u2208 \u211d such that x\u00b2 = \u22121",
+    "\u2200n \u2208 \u2124, n\u00b2 > n",
+    "\u2200x \u2208 \u211d, x\u00b2 \u2265 0",
+    "\u2200x \u2208 \u211d, x\u00b2 > 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every real square is non-negative. The second fails at x = 0, the third has no real solution, and the fourth fails at n = 0 and n = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0016",
+   "topicId": "spec-qce-proof",
+   "stem": "Which of these statements is correct?",
+   "imageRef": null,
+   "options": [
+    "\u221a2 \u2209 \u211d",
+    "\u221a2 \u2208 \u211a\u2032",
+    "\u221a2 \u2208 \u211a",
+    "\u221a2 \u2208 \u2124"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u221a2 is irrational, so it belongs to \u211a\u2032, the irrational numbers. It is real but not rational, so it is not in \u211a or \u2124.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0017",
+   "topicId": "spec-qce-proof",
+   "stem": "Which of these statements is FALSE?",
+   "imageRef": null,
+   "options": [
+    "\u03c0 \u2208 \u211d",
+    "0 \u2208 \u2124\u207a",
+    "\u22123 \u2208 \u2124",
+    "0.75 \u2208 \u211a"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u2124\u207a is the positive integers 1, 2, 3, ..., and 0 is neither positive nor negative. \u22123 is an integer, 0.75 = 3/4 is rational and \u03c0 is real.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0018",
+   "topicId": "spec-qce-proof",
+   "stem": "Which of these numbers is irrational?",
+   "imageRef": null,
+   "options": [
+    "0.272727... (27 repeating)",
+    "22/7",
+    "\u221a8",
+    "\u221a(16/9)"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u221a8 = 2\u221a2, which is irrational. \u221a(16/9) = 4/3, the recurring decimal equals 3/11 and 22/7 is a fraction, so all three are rational.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0019",
+   "topicId": "spec-qce-proof",
+   "stem": "Which fraction has a terminating decimal expansion?",
+   "imageRef": null,
+   "options": [
+    "7/40",
+    "1/3",
+    "5/12",
+    "2/7"
+   ],
+   "correctIndex": 0,
+   "explanation": "In lowest terms, a fraction terminates exactly when its denominator has no prime factors other than 2 and 5; 40 = 2\u00b3 \u00d7 5, and 7/40 = 0.175. The denominators 3, 12 and 7 contain other primes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0020",
+   "topicId": "spec-qce-proof",
+   "stem": "As a fraction in lowest terms, 0.444... (4 repeating) equals:",
+   "imageRef": null,
+   "options": [
+    "4/9",
+    "4/10",
+    "4/99",
+    "11/25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let x = 0.444...; then 10x = 4.444..., so 9x = 4 and x = 4/9. The value 4/10 = 0.4 terminates, so it is not equal to the recurring decimal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0021",
+   "topicId": "spec-qce-proof",
+   "stem": "As a fraction in lowest terms, 0.272727... (27 repeating) equals:",
+   "imageRef": null,
+   "options": [
+    "27/90",
+    "9/37",
+    "3/11",
+    "27/100"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let x = 0.2727...; then 100x = 27.2727..., so 99x = 27 and x = 27/99 = 3/11. Multiplying by 10 instead of 100 does not line up the repeating blocks.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0022",
+   "topicId": "spec-qce-proof",
+   "stem": "As a fraction in lowest terms, 0.1666... (only the 6 repeating) equals:",
+   "imageRef": null,
+   "options": [
+    "16/99",
+    "3/20",
+    "1/6",
+    "1/9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let x = 0.1666...; then 100x = 16.666... and 10x = 1.666..., so 90x = 15 and x = 15/90 = 1/6. Treating 16 as the repeating block gives 16/99.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0023",
+   "topicId": "spec-qce-proof",
+   "stem": "As a fraction, 1.2353535... (with only 35 repeating) equals:",
+   "imageRef": null,
+   "options": [
+    "1235/999",
+    "1223/999",
+    "1235/990",
+    "1223/990"
+   ],
+   "correctIndex": 3,
+   "explanation": "Let x = 1.23535...; then 1000x = 1235.3535... and 10x = 12.3535..., so 990x = 1223 and x = 1223/990. Using 999 assumes all three decimal digits repeat.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0024",
+   "topicId": "spec-qce-proof",
+   "stem": "A counterexample to a general statement is:",
+   "imageRef": null,
+   "options": [
+    "a proof that the converse of the statement is true",
+    "a list of many cases that support the statement",
+    "a single case for which the statement is false",
+    "a case for which the statement is true"
+   ],
+   "correctIndex": 2,
+   "explanation": "One case where the statement fails is enough to show that a \"for all\" statement is false. Any number of cases that support it can never prove it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0025",
+   "topicId": "spec-qce-proof",
+   "stem": "Which value of x is a counterexample to \"for all real x, x\u00b2 > x\"?",
+   "imageRef": null,
+   "options": [
+    "x = 3",
+    "x = 1/2",
+    "x = 2",
+    "x = \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "At x = 1/2, x\u00b2 = 1/4, which is less than 1/2, so the statement fails. At x = \u22121, x\u00b2 = 1 > \u22121, so the statement holds there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0026",
+   "topicId": "spec-qce-proof",
+   "stem": "Which value of n is a counterexample to \"n\u00b2 + n + 41 is prime for every positive integer n\"?",
+   "imageRef": null,
+   "options": [
+    "n = 40",
+    "n = 1",
+    "n = 10",
+    "n = 39"
+   ],
+   "correctIndex": 0,
+   "explanation": "At n = 40, n\u00b2 + n + 41 = 1681 = 41\u00b2, which is not prime. The values at n = 1, 10 and 39 are 43, 151 and 1601, all prime.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0027",
+   "topicId": "spec-qce-proof",
+   "stem": "Which pair is a counterexample to \"for all real a and b, if a\u00b2 = b\u00b2, then a = b\"?",
+   "imageRef": null,
+   "options": [
+    "a = 2 and b = \u22122",
+    "a = 2 and b = 2",
+    "a = 0 and b = 0",
+    "a = 3 and b = 9"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a = 2 and b = \u22122, a\u00b2 = b\u00b2 = 4 but a \u2260 b. The pair 3 and 9 does not satisfy the hypothesis a\u00b2 = b\u00b2, so it cannot be a counterexample.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0028",
+   "topicId": "spec-qce-proof",
+   "stem": "In a proof about integers, an arbitrary odd integer is best written as:",
+   "imageRef": null,
+   "options": [
+    "3, 5 or 7",
+    "2k, where k \u2208 \u2124",
+    "k + 1, where k \u2208 \u2124",
+    "2k + 1, where k \u2208 \u2124"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every odd integer is one more than an even integer 2k, so 2k + 1 with k an integer covers them all. Particular examples such as 3, 5 and 7 cannot prove a general result.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0029",
+   "topicId": "spec-qce-proof",
+   "stem": "To prove that the sum of two odd integers is even, write them as 2a + 1 and 2b + 1. Their sum is:",
+   "imageRef": null,
+   "options": [
+    "2(a + b) + 1, which is odd",
+    "2a + 2b, which is even",
+    "(2a + 1)(2b + 1), which is odd",
+    "2(a + b + 1), which is even"
+   ],
+   "correctIndex": 3,
+   "explanation": "(2a + 1) + (2b + 1) = 2a + 2b + 2 = 2(a + b + 1), a multiple of 2. Dropping the two 1s gives 2a + 2b, which is an arithmetic error even though it is also even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0030",
+   "topicId": "spec-qce-proof",
+   "stem": "To prove that the product of two consecutive odd numbers is odd, write them as 2k \u2212 1 and 2k + 1. Their product is:",
+   "imageRef": null,
+   "options": [
+    "4k\u00b2 \u2212 4k \u2212 1",
+    "2k\u00b2 \u2212 1",
+    "4k\u00b2 \u2212 1 = 2(2k\u00b2 \u2212 1) + 1",
+    "4k\u00b2 + 1 = 2(2k\u00b2) + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "(2k \u2212 1)(2k + 1) = 4k\u00b2 \u2212 1, a difference of squares, and 4k\u00b2 \u2212 1 = 2(2k\u00b2 \u2212 1) + 1 has the form of an odd number. The middle terms cancel, so 4k\u00b2 + 1 is a sign error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0031",
+   "topicId": "spec-qce-proof",
+   "stem": "In proving that 5n\u00b2 + 3n + 6 is even for all n \u2208 \u2124, one approach writes it as (4n\u00b2 + 2n + 6) + (n\u00b2 + n). The key step is that:",
+   "imageRef": null,
+   "options": [
+    "n\u00b2 + n is even because n is always even",
+    "n\u00b2 + n = n(n + 1) is a product of consecutive integers, so it is even",
+    "n\u00b2 + n is even because n\u00b2 is always even",
+    "5n\u00b2 + 3n is always an odd number, so adding the even number 6 makes the total even"
+   ],
+   "correctIndex": 1,
+   "explanation": "One of n and n + 1 is even, so n(n + 1) is even, and 4n\u00b2 + 2n + 6 = 2(2n\u00b2 + n + 3) is even, so the sum is even. n\u00b2 is odd when n is odd, so that claim is false.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0032",
+   "topicId": "spec-qce-proof",
+   "stem": "To prove \"for n \u2208 \u2124, if n\u00b2 is even then n is even\" using the contrapositive, you would:",
+   "imageRef": null,
+   "options": [
+    "assume n\u00b2 is odd and show that n is odd",
+    "assume n is odd and show that n\u00b2 is odd",
+    "assume n\u00b2 is even and show that n is even",
+    "assume n is even and show that n\u00b2 is even"
+   ],
+   "correctIndex": 1,
+   "explanation": "The contrapositive is \"if n is not even, then n\u00b2 is not even\", so assume n = 2k + 1 and show n\u00b2 = 2(2k\u00b2 + 2k) + 1 is odd. Assuming n even proves the converse instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0033",
+   "topicId": "spec-qce-proof",
+   "stem": "A proof by contradiction begins by:",
+   "imageRef": null,
+   "options": [
+    "checking the statement for several examples",
+    "assuming that the statement to be proved is false",
+    "assuming that the statement to be proved is true",
+    "proving the converse of the statement"
+   ],
+   "correctIndex": 1,
+   "explanation": "You assume the negation and deduce something impossible, so the negation must be false and the statement true. Assuming the statement itself would be circular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0034",
+   "topicId": "spec-qce-proof",
+   "stem": "In the proof that \u221a2 is irrational, you assume \u221a2 = a/b with a and b integers having no common factor, and show a\u00b2 = 2b\u00b2. The contradiction reached is that:",
+   "imageRef": null,
+   "options": [
+    "a must be odd while b is even",
+    "b must be zero, which is not allowed",
+    "a and b are both even, so they have a common factor 2",
+    "a must be odd, because a\u00b2 = 2b\u00b2 is twice a perfect square"
+   ],
+   "correctIndex": 2,
+   "explanation": "From a\u00b2 = 2b\u00b2, a\u00b2 is even, so a is even; writing a = 2k gives b\u00b2 = 2k\u00b2, so b is even too. Then a and b share the factor 2, contradicting the assumption that a/b is in lowest terms; a is even, not odd.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0035",
+   "topicId": "spec-qce-proof",
+   "stem": "In the proof that \u221a3 is irrational, you assume \u221a3 = a/b in lowest terms and reach a\u00b2 = 3b\u00b2. The next step is that:",
+   "imageRef": null,
+   "options": [
+    "3 divides a\u00b2, and since 3 is prime, 3 divides a",
+    "a\u00b2 is even, so a is even",
+    "b\u00b2 = 3a\u00b2 follows, so b must also be a multiple of 3",
+    "a = 3b, so a is a multiple of b"
+   ],
+   "correctIndex": 0,
+   "explanation": "Since a\u00b2 = 3b\u00b2, 3 divides a\u00b2, and because 3 is prime it must divide a. Writing a = 3k then gives b\u00b2 = 3k\u00b2, so 3 divides b as well, the contradiction. The equation is a\u00b2 = 3b\u00b2, not b\u00b2 = 3a\u00b2, and the parity argument used for \u221a2 does not apply.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0036",
+   "topicId": "spec-qce-proof",
+   "stem": "Which of these statements about real numbers is always true?",
+   "imageRef": null,
+   "options": [
+    "An irrational number times an irrational number is irrational",
+    "A rational number times an irrational number is irrational",
+    "A rational number plus an irrational number is irrational",
+    "An irrational number plus an irrational number is irrational"
+   ],
+   "correctIndex": 2,
+   "explanation": "If r + x = q with r and q rational, then x = q \u2212 r would be rational, a contradiction. The others have counterexamples: \u221a2 + (\u2212\u221a2) = 0, \u221a2 \u00d7 \u221a2 = 2 and 0 \u00d7 \u221a2 = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-proof-0037",
+   "topicId": "spec-qce-proof",
+   "stem": "To prove by contradiction that no integers m and n satisfy 6m + 3n = 1, you assume such integers exist. The contradiction is that:",
+   "imageRef": null,
+   "options": [
+    "m and n would both have to be negative",
+    "the left side is always an even number, but 1 is odd",
+    "m would have to equal n",
+    "the left side is a multiple of 3, but 1 is not"
+   ],
+   "correctIndex": 3,
+   "explanation": "6m + 3n = 3(2m + n), a multiple of 3 for any integers m and n, but 1 is not a multiple of 3. The left side is not always even: m = 0 and n = 1 give 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-proof-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

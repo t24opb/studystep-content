@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-sace-sampling",
+ "questions": [
+  {
+   "id": "meth-sace-sampling-0001",
+   "topicId": "meth-sace-sampling",
+   "stem": "For n independent observations X\u2081, X\u2082, ..., X\u2099 of a random variable X, the random variable S\u2099 is defined as:",
+   "imageRef": null,
+   "options": [
+    "(X\u2081 + X\u2082 + ... + X\u2099)/n",
+    "n \u00d7 X\u2081",
+    "the largest of X\u2081, X\u2082, ..., X\u2099",
+    "X\u2081 + X\u2082 + ... + X\u2099"
+   ],
+   "correctIndex": 3,
+   "explanation": "S\u2099 is the sum of the n observations. Dividing the sum by n gives the sample mean X\u0304\u2099, a different random variable. n \u00d7 X\u2081 repeats one observation instead of adding n independent ones.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0002",
+   "topicId": "meth-sace-sampling",
+   "stem": "X has mean \u03bc. What is the mean of the sum S\u2099 of n independent observations of X?",
+   "imageRef": null,
+   "options": [
+    "\u03bc",
+    "\u03bc/n",
+    "\u03bc\u221an",
+    "n\u03bc"
+   ],
+   "correctIndex": 3,
+   "explanation": "Means add, so the mean of X\u2081 + X\u2082 + ... + X\u2099 is \u03bc + \u03bc + ... + \u03bc = n\u03bc. The mean \u03bc belongs to the sample mean X\u0304\u2099, not the sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0003",
+   "topicId": "meth-sace-sampling",
+   "stem": "X has standard deviation 3. What is the standard deviation of the sum of 16 independent observations of X?",
+   "imageRef": null,
+   "options": [
+    "48",
+    "0.75",
+    "3",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The standard deviation of S\u2099 is \u03c3\u221an = 3 \u00d7 \u221a16 = 12. Multiplying by n to get 48 adds standard deviations, which is wrong; for independent observations it is the variances that add.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0004",
+   "topicId": "meth-sace-sampling",
+   "stem": "Why is the standard deviation of the sum of n independent observations \u03c3\u221an rather than n\u03c3?",
+   "imageRef": null,
+   "options": [
+    "The sum is always normally distributed for every n",
+    "The variances add, giving n\u03c3\u00b2, and its square root is \u03c3\u221an",
+    "The standard deviations add, but are then divided by \u221an",
+    "High and low values never occur in the same sample"
+   ],
+   "correctIndex": 1,
+   "explanation": "For independent observations, Var(S\u2099) = \u03c3\u00b2 + \u03c3\u00b2 + ... + \u03c3\u00b2 = n\u03c3\u00b2, so the standard deviation is \u221a(n\u03c3\u00b2) = \u03c3\u221an. Some high and low values partly offset, so the spread grows more slowly than n\u03c3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0005",
+   "topicId": "meth-sace-sampling",
+   "stem": "Two fair six-sided dice are rolled and S\u2082 is the sum of the two faces. Find Pr(S\u2082 = 7).",
+   "imageRef": null,
+   "options": [
+    "7/36",
+    "1/11",
+    "1/6",
+    "1/12"
+   ],
+   "correctIndex": 2,
+   "explanation": "Six of the 36 equally likely outcomes give 7: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2) and (6, 1), so the probability is 6/36 = 1/6. The value 1/11 treats the 11 possible sums as equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0006",
+   "topicId": "meth-sace-sampling",
+   "stem": "Two fair six-sided dice are rolled and S\u2082 is the sum of the two faces. Find Pr(S\u2082 = 4).",
+   "imageRef": null,
+   "options": [
+    "1/12",
+    "1/18",
+    "1/11",
+    "1/9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The outcomes (1, 3), (2, 2) and (3, 1) give 4, so the probability is 3/36 = 1/12. Counting (1, 3) and (3, 1) as one outcome gives 2/36 = 1/18.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0007",
+   "topicId": "meth-sace-sampling",
+   "stem": "One roll of a fair die has mean 3.5 and variance 35/12. Find the standard deviation of the sum of two rolls, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "5.83",
+    "1.71",
+    "2.42",
+    "3.42"
+   ],
+   "correctIndex": 2,
+   "explanation": "The variance of the sum is 2 \u00d7 35/12 = 35/6, so the standard deviation is \u221a(35/6) \u2248 2.42. Doubling the standard deviation of one roll, 1.71, gives 3.42, which adds standard deviations instead of variances.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0008",
+   "topicId": "meth-sace-sampling",
+   "stem": "X is normally distributed with mean \u03bc and standard deviation \u03c3. For n = 3, the sum S\u2083 of three independent observations is:",
+   "imageRef": null,
+   "options": [
+    "normal, with mean 3\u03bc and standard deviation \u03c3\u221a3",
+    "normal, with mean 3\u03bc and standard deviation 3\u03c3",
+    "approximately normal only if n is at least 30",
+    "normal, with mean \u03bc and standard deviation \u03c3/\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "When X is normal, the sum of any number of independent observations is exactly normal, with mean n\u03bc and standard deviation \u03c3\u221an. No large-n condition is needed; \u03c3/\u221a3 belongs to the sample mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0009",
+   "topicId": "meth-sace-sampling",
+   "stem": "Adult masses are normally distributed with mean 80 kg and standard deviation 12 kg. A lift is loaded with 10 randomly chosen adults. Find the probability that their total mass exceeds 850 kg, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.338",
+    "0.000",
+    "0.906",
+    "0.094"
+   ],
+   "correctIndex": 3,
+   "explanation": "S\u2081\u2080 is normal with mean 800 and standard deviation 12\u221a10 \u2248 37.95, so Pr(S\u2081\u2080 > 850) = Pr(Z > 1.318) \u2248 0.094. Using 10 \u00d7 12 = 120 for the standard deviation gives 0.338, and 0.906 is the probability of a total below 850 kg.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0010",
+   "topicId": "meth-sace-sampling",
+   "stem": "Packets have masses normally distributed with mean 250 g and standard deviation 4 g. A carton holds 25 packets. Find the probability that the total mass of a carton is less than 6220 g, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.023",
+    "0.067",
+    "0.382",
+    "0.933"
+   ],
+   "correctIndex": 1,
+   "explanation": "The total has mean 25 \u00d7 250 = 6250 g and standard deviation 4\u221a25 = 20 g, so Pr(S < 6220) = Pr(Z < \u22121.5) \u2248 0.067. Using 25 \u00d7 4 = 100 g gives 0.382, and 0.933 is the probability above 6220 g.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0011",
+   "topicId": "meth-sace-sampling",
+   "stem": "A binomial variable X with n trials and probability of success p can be thought of as:",
+   "imageRef": null,
+   "options": [
+    "the mean of n independent normal variables",
+    "n times a single Bernoulli variable",
+    "the product of n independent Bernoulli variables",
+    "the sum of n independent Bernoulli variables"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each trial is a Bernoulli variable worth 1 for a success and 0 for a failure, so adding n of them counts the successes. Multiplying one Bernoulli variable by n would give only 0 or n.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0012",
+   "topicId": "meth-sace-sampling",
+   "stem": "A Bernoulli variable has mean p and standard deviation \u221a(p(1 \u2212 p)). Using the result for sums, what is the standard deviation of the number of successes in 100 trials with p = 0.2?",
+   "imageRef": null,
+   "options": [
+    "40",
+    "0.4",
+    "4",
+    "16"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation of the sum is \u221a100 \u00d7 \u221a(0.2 \u00d7 0.8) = 10 \u00d7 0.4 = 4, which matches \u221a(np(1 \u2212 p)). The value 16 is the variance, and 40 multiplies 0.4 by n instead of \u221an.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0013",
+   "topicId": "meth-sace-sampling",
+   "stem": "X is the number of heads in 400 tosses of a fair coin. Using a normal approximation, the probability that X is more than 220 is approximately:",
+   "imageRef": null,
+   "options": [
+    "0.159",
+    "0.477",
+    "0.001",
+    "0.023"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the central limit theorem X is approximately normal with mean 200 and standard deviation \u221a(400 \u00d7 0.5 \u00d7 0.5) = 10, so Pr(X > 220) \u2248 Pr(Z > 2) \u2248 0.023. The value 0.159 uses z = 1, as if the standard deviation were 20.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0014",
+   "topicId": "meth-sace-sampling",
+   "stem": "How is the sample mean X\u0304\u2099 of n independent observations related to their sum S\u2099?",
+   "imageRef": null,
+   "options": [
+    "X\u0304\u2099 = S\u2099 \u2212 n",
+    "X\u0304\u2099 = S\u2099/n",
+    "X\u0304\u2099 = n \u00d7 S\u2099",
+    "X\u0304\u2099 = S\u2099/\u221an"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sample mean is the sum divided by n. That is why its mean is n\u03bc/n = \u03bc and its standard deviation is \u03c3\u221an/n = \u03c3/\u221an.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0015",
+   "topicId": "meth-sace-sampling",
+   "stem": "X has mean 40 and standard deviation 15. For samples of 9 independent observations, find the mean and standard deviation of X\u0304\u2089.",
+   "imageRef": null,
+   "options": [
+    "Mean 40, standard deviation 15",
+    "Mean 40, standard deviation 1.67",
+    "Mean 40, standard deviation 5",
+    "Mean 360, standard deviation 45"
+   ],
+   "correctIndex": 2,
+   "explanation": "X\u0304\u2099 has mean \u03bc = 40 and standard deviation \u03c3/\u221an = 15/3 = 5. Dividing by n = 9 instead of \u221a9 gives 1.67, and 360 and 45 are the mean and standard deviation of the sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0016",
+   "topicId": "meth-sace-sampling",
+   "stem": "The sum of 25 independent observations of X has standard deviation 20. What is the standard deviation of their sample mean?",
+   "imageRef": null,
+   "options": [
+    "0.8",
+    "4",
+    "20",
+    "100"
+   ],
+   "correctIndex": 0,
+   "explanation": "X\u0304\u2099 = S\u2099/n, so its standard deviation is 20/25 = 0.8. Equivalently \u03c3\u221a25 = 20 gives \u03c3 = 4 and \u03c3/\u221a25 = 0.8. The value 4 is \u03c3 itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0017",
+   "topicId": "meth-sace-sampling",
+   "stem": "X is normally distributed. For random samples of size 4, the distribution of the sample mean X\u0304\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "exactly normal",
+    "approximately normal only for n \u2265 30",
+    "uniform",
+    "skewed, because n is small"
+   ],
+   "correctIndex": 0,
+   "explanation": "If X is normal, the sample mean is normal for every sample size, even n = 4. The large-n condition of the central limit theorem matters only when X is not normal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0018",
+   "topicId": "meth-sace-sampling",
+   "stem": "Cans labelled 375 mL contain volumes normally distributed with mean 377 mL and standard deviation 2 mL. Find the probability that a six-pack has a mean volume below 375 mL, to three decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.023",
+    "0.000",
+    "0.007",
+    "0.159"
+   ],
+   "correctIndex": 2,
+   "explanation": "X\u0304\u2086 is normal with mean 377 and standard deviation 2/\u221a6 \u2248 0.816, so Pr(X\u0304\u2086 < 375) = Pr(Z < \u22122.449) \u2248 0.007. The value 0.159 is the probability for a single can, Pr(Z < \u22121).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0019",
+   "topicId": "meth-sace-sampling",
+   "stem": "A single can is much more likely to hold less than its labelled volume than a six-pack is to have a mean below that volume. Why?",
+   "imageRef": null,
+   "options": [
+    "Averaging reduces variability, so X\u0304\u2086 has a smaller standard deviation",
+    "The six cans come from a population with a higher mean",
+    "The sample mean is normal but a single can is not",
+    "A six-pack is a larger population than a single can"
+   ],
+   "correctIndex": 0,
+   "explanation": "The mean of six cans has the same mean as one can but standard deviation \u03c3/\u221a6, so values far below the mean are much rarer. The population mean is unchanged.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0020",
+   "topicId": "meth-sace-sampling",
+   "stem": "X has mean 60 and standard deviation 10. For random samples of 25, use the 68:95:99.7% rule to estimate Pr(56 < X\u0304\u2082\u2085 < 64).",
+   "imageRef": null,
+   "options": [
+    "0.31",
+    "0.997",
+    "0.95",
+    "0.68"
+   ],
+   "correctIndex": 2,
+   "explanation": "X\u0304\u2082\u2085 is approximately normal with mean 60 and standard deviation 10/\u221a25 = 2, so 56 to 64 is within two standard deviations: about 0.95. Using \u03c3 = 10 instead gives a z of 0.4 and roughly 0.31.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0021",
+   "topicId": "meth-sace-sampling",
+   "stem": "The sample size is increased from 25 to 100. What happens to the standard deviation of the sample mean?",
+   "imageRef": null,
+   "options": [
+    "It is unchanged",
+    "It halves",
+    "It quarters",
+    "It doubles"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03c3/\u221an with n four times as large divides by \u221a4 = 2, so the standard deviation halves. Quartering would need the standard deviation to depend on n rather than \u221an.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0022",
+   "topicId": "meth-sace-sampling",
+   "stem": "The central limit theorem says that, when X is not normally distributed and n is large enough, the sample mean X\u0304\u2099 is:",
+   "imageRef": null,
+   "options": [
+    "exactly normal with mean \u03bc and standard deviation \u03c3",
+    "distributed with the same shape as X",
+    "approximately normal with mean n\u03bc and standard deviation \u03c3/\u221an",
+    "approximately normal with mean \u03bc and standard deviation \u03c3/\u221an"
+   ],
+   "correctIndex": 3,
+   "explanation": "For large n the sampling distribution of X\u0304\u2099 is close to normal whatever the shape of X, with mean \u03bc and standard deviation \u03c3/\u221an. Its shape is not the same as the population unless the population is itself normal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0023",
+   "topicId": "meth-sace-sampling",
+   "stem": "A population is strongly right-skewed. For samples of size 3, which describes the distribution of the sample mean?",
+   "imageRef": null,
+   "options": [
+    "It is likely to be noticeably skewed still",
+    "It is exactly normal",
+    "It is approximately normal with standard deviation \u03c3",
+    "It is uniform"
+   ],
+   "correctIndex": 0,
+   "explanation": "The central limit theorem needs n large enough, and with n = 3 a strongly skewed population still gives skewed sample means. Normality improves as n grows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0024",
+   "topicId": "meth-sace-sampling",
+   "stem": "How large must n be for the central limit theorem to give a good normal approximation for X\u0304\u2099?",
+   "imageRef": null,
+   "options": [
+    "Always exactly 30, whatever the population",
+    "Any n, because sample means are always normal",
+    "At least half the population size",
+    "It depends on how far the distribution of X is from normal"
+   ],
+   "correctIndex": 3,
+   "explanation": "A roughly symmetric population needs only a small n, while a strongly skewed one needs a much larger n. No single cut-off works for every population.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0025",
+   "topicId": "meth-sace-sampling",
+   "stem": "Waiting times at a counter are strongly right-skewed with mean 4 minutes and standard deviation 4 minutes. For a random sample of 64 waiting times, the probability that the sample mean exceeds 5 minutes is approximately:",
+   "imageRef": null,
+   "options": [
+    "0.309",
+    "0.023",
+    "0.401",
+    "0.159"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the central limit theorem X\u0304\u2086\u2084 is approximately normal with mean 4 and standard deviation 4/\u221a64 = 0.5, so Pr(X\u0304 > 5) \u2248 Pr(Z > 2) \u2248 0.023. Using \u03c3 = 4 gives Pr(Z > 0.25) \u2248 0.401.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0026",
+   "topicId": "meth-sace-sampling",
+   "stem": "X is not normally distributed. For large n, the sum S\u2099 of n independent observations is:",
+   "imageRef": null,
+   "options": [
+    "approximately normal with mean \u03bc and standard deviation \u03c3/\u221an",
+    "exactly normal with mean n\u03bc and standard deviation n\u03c3",
+    "distributed with the same shape as X",
+    "approximately normal with mean n\u03bc and standard deviation \u03c3\u221an"
+   ],
+   "correctIndex": 3,
+   "explanation": "The central limit theorem applies to the sum as well as the mean, since X\u0304\u2099 = S\u2099/n. The sum has mean n\u03bc and standard deviation \u03c3\u221an; \u03c3/\u221an belongs to the sample mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0027",
+   "topicId": "meth-sace-sampling",
+   "stem": "A fair die is rolled 100 times. One roll has mean 3.5 and variance 35/12. Find the approximate probability that the total of the 100 rolls exceeds 375, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "0.24",
+    "0.02",
+    "0.07",
+    "0.44"
+   ],
+   "correctIndex": 2,
+   "explanation": "The total has mean 350 and standard deviation \u221a(100 \u00d7 35/12) \u2248 17.08, so Pr(S > 375) \u2248 Pr(Z > 1.464) \u2248 0.07. Using 100 \u00d7 1.71 as the standard deviation gives Pr(Z > 0.146) \u2248 0.44.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0028",
+   "topicId": "meth-sace-sampling",
+   "stem": "A simple random sample of size n is chosen so that:",
+   "imageRef": null,
+   "options": [
+    "the people who are easiest to reach are chosen first",
+    "every possible sample of size n has an equal chance of being selected",
+    "every member of the sample has the same value of the variable",
+    "the sample contains exactly half of the population"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is the definition of a simple random sample. Choosing the easiest people to reach is convenience sampling, which can be biased.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0029",
+   "topicId": "meth-sace-sampling",
+   "stem": "A school wants a simple random sample of 30 of its 600 students. Which method gives one?",
+   "imageRef": null,
+   "options": [
+    "Survey the first 30 students through the gate one morning",
+    "Ask for 30 volunteers at an assembly",
+    "Survey every student in one class of 30",
+    "Draw 30 student numbers at random from a list of all 600"
+   ],
+   "correctIndex": 3,
+   "explanation": "Drawing at random from a complete list gives every group of 30 the same chance of selection. Early arrivals, volunteers and a single class are not representative of every possible group.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0030",
+   "topicId": "meth-sace-sampling",
+   "stem": "When a simple random sample is drawn without replacement, the results for sums and sample means of independent observations still apply approximately provided:",
+   "imageRef": null,
+   "options": [
+    "every member of the population has the same value",
+    "the sample size is small compared with the population size",
+    "the sample size is larger than the population size",
+    "the population is exactly normally distributed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sampling without replacement changes the population slightly after each draw. When n is small compared with N, sampling with and without replacement behave almost the same, so the observations are close to independent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0031",
+   "topicId": "meth-sace-sampling",
+   "stem": "A random sample of 150 students is drawn without replacement from a school of 200 to estimate mean travel time. Why is \u03c3/\u221an a poor description of the spread of the sample mean here?",
+   "imageRef": null,
+   "options": [
+    "The sample mean of travel times always equals \u03bc",
+    "The sample is not small compared with the population",
+    "A sample of 150 is too small for the central limit theorem",
+    "Travel times cannot be modelled by a random variable"
+   ],
+   "correctIndex": 1,
+   "explanation": "With 150 of 200 students sampled without replacement, the observations are far from independent, and the sample mean varies less than \u03c3/\u221an suggests. A sample of 150 is plenty large for the central limit theorem.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0032",
+   "topicId": "meth-sace-sampling",
+   "stem": "A single simple random sample of 50 people gives a sample mean height of x\u0304 = 171.2 cm. How is x\u0304 related to the random variable X\u0304\u2085\u2080?",
+   "imageRef": null,
+   "options": [
+    "x\u0304 is one observed value of X\u0304\u2085\u2080",
+    "x\u0304 is the mean of the distribution of X\u0304\u2085\u2080",
+    "x\u0304 equals the population mean \u03bc",
+    "x\u0304 is the standard deviation of X\u0304\u2085\u2080"
+   ],
+   "correctIndex": 0,
+   "explanation": "X\u0304\u2085\u2080 describes the sample means of all possible samples of 50, and one sample gives one value of it. The mean of the distribution of X\u0304\u2085\u2080 is \u03bc, which this single x\u0304 only estimates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0033",
+   "topicId": "meth-sace-sampling",
+   "stem": "The probability distribution of the sample mean X\u0304\u2099 over all possible samples is called its:",
+   "imageRef": null,
+   "options": [
+    "relative frequency",
+    "confidence interval",
+    "sampling distribution",
+    "population distribution"
+   ],
+   "correctIndex": 2,
+   "explanation": "The distribution of a statistic such as S\u2099 or X\u0304\u2099 across repeated samples is its sampling distribution. The population distribution describes single values of X.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0034",
+   "topicId": "meth-sace-sampling",
+   "stem": "When a single member of a finite population is chosen at random and the value of X recorded, the distribution of X:",
+   "imageRef": null,
+   "options": [
+    "is always normal",
+    "has a smaller spread than the population",
+    "is the sampling distribution of X\u0304\u2099",
+    "corresponds to the population histogram"
+   ],
+   "correctIndex": 3,
+   "explanation": "One observation is equally likely to be any member of the population, so its distribution matches the population histogram. Sampling distributions of means come from samples of several observations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0035",
+   "topicId": "meth-sace-sampling",
+   "stem": "For samples of n independent observations of X, the sum has standard deviation 40 and the sample mean has standard deviation 2. Find n.",
+   "imageRef": null,
+   "options": [
+    "\u221a20",
+    "80",
+    "20",
+    "400"
+   ],
+   "correctIndex": 2,
+   "explanation": "The ratio is \u03c3\u221an \u00f7 (\u03c3/\u221an) = n, so n = 40/2 = 20. Then \u03c3 = 40/\u221a20 \u2248 8.94. Squaring the ratio gives 400, which would be the case if both standard deviations involved only \u221an.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-sampling-0036",
+   "topicId": "meth-sace-sampling",
+   "stem": "X has mean 12. Five independent observations are taken. What are the means of S\u2085 and X\u0304\u2085?",
+   "imageRef": null,
+   "options": [
+    "12 and 60",
+    "60 and 2.4",
+    "12 and 12",
+    "60 and 12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sum has mean n\u03bc = 5 \u00d7 12 = 60, and the sample mean has mean \u03bc = 12. Dividing \u03bc by n to get 2.4 confuses the mean of X\u0304\u2085 with a standard deviation formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-sampling-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

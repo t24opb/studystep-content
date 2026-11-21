@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-sace-ci-mean",
+ "questions": [
+  {
+   "id": "meth-sace-ci-mean-0001",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Several classes each take a random sample of 40 students from the same school and calculate the mean height of their sample. Why do their sample means differ?",
+   "imageRef": null,
+   "options": [
+    "Different samples contain different students, so sample means vary",
+    "Some of the classes must have measured incorrectly",
+    "The population mean changes each time a sample is taken",
+    "Sample means can only take whole-number values"
+   ],
+   "correctIndex": 0,
+   "explanation": "A sample mean depends on which individuals are chosen, so it varies from sample to sample: it is a random variable. The population mean stays fixed; only the estimates of it change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0002",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "What kind of random variable is the sample mean of a measured quantity such as mass?",
+   "imageRef": null,
+   "options": [
+    "A fixed number, not a random variable",
+    "A continuous random variable",
+    "A discrete random variable",
+    "A Bernoulli random variable"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sample means of measurements can take any value in an interval, so they are treated as continuous random variables. They are not fixed numbers, because they change from sample to sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0003",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A population has standard deviation 18. For random samples of size 81, the sample means are approximately normal with mean \u03bc and standard deviation:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "2",
+    "18",
+    "0.22"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of the sample mean is \u03c3/\u221an = 18/\u221a81 = 18/9 = 2. Dividing by n = 81 instead of \u221a81 gives about 0.22, and 18 is the spread of single values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0004",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A population has standard deviation 18. For random samples of 81, about 95% of sample means lie within what distance of the population mean?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "36",
+    "2",
+    "0.44"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample means have standard deviation 18/\u221a81 = 2, and about 95% lie within two standard deviations, that is within 4 of \u03bc. The value 36 uses \u03c3 instead of \u03c3/\u221an.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0005",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Why can a single sample mean x\u0304 not tell us the exact value of the population mean \u03bc?",
+   "imageRef": null,
+   "options": [
+    "The sample mean is always smaller than \u03bc",
+    "\u03bc can only be found from a sample of size 30",
+    "x\u0304 measures spread, not centre",
+    "Another sample would give a different value of x\u0304"
+   ],
+   "correctIndex": 3,
+   "explanation": "Because x\u0304 varies from sample to sample, it is only a guide to \u03bc. An interval estimate around x\u0304 expresses how far from \u03bc it might be.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0006",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Which value of z is used for a 95% confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "1.645",
+    "2.326",
+    "1.000",
+    "1.960"
+   ],
+   "correctIndex": 3,
+   "explanation": "For 95% confidence, Pr(\u2212z \u2264 Z \u2264 z) = 0.95, so Pr(Z \u2264 z) = 0.975 and z \u2248 1.960. The value 1.645 is for 90%, and 2.326 for 98%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0007",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Which value of z gives a 90% confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "1.960",
+    "0.900",
+    "1.645",
+    "1.282"
+   ],
+   "correctIndex": 2,
+   "explanation": "The middle 90% leaves 5% in each tail, so z satisfies Pr(Z \u2264 z) = 0.95, giving z \u2248 1.645. Using Pr(Z \u2264 z) = 0.90 gives 1.282, which puts all 10% in one tail.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0008",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Which value of z gives a 98% confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "1.960",
+    "2.576",
+    "2.326",
+    "2.054"
+   ],
+   "correctIndex": 2,
+   "explanation": "The middle 98% leaves 1% in each tail, so Pr(Z \u2264 z) = 0.99 and z \u2248 2.326. Solving Pr(Z \u2264 z) = 0.98 gives 2.054, a slip that leaves 2% in one tail; 2.576 is for 99%.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0009",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "An approximate 68% confidence interval for \u03bc uses which value of z?",
+   "imageRef": null,
+   "options": [
+    "0.68",
+    "3",
+    "1",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "About 68% of a normal distribution lies within one standard deviation of the mean, so z = 1 gives an approximate 68% interval. About 95% lies within two standard deviations.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0010",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 100 has x\u0304 = 52.4, from a population with \u03c3 = 8. Find the 95% confidence interval for \u03bc, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "36.72 \u2264 \u03bc \u2264 68.08",
+    "51.08 \u2264 \u03bc \u2264 53.72",
+    "52.24 \u2264 \u03bc \u2264 52.56",
+    "50.83 \u2264 \u03bc \u2264 53.97"
+   ],
+   "correctIndex": 3,
+   "explanation": "The margin is 1.96 \u00d7 8/\u221a100 = 1.568, giving 50.83 \u2264 \u03bc \u2264 53.97. Leaving out \u221an gives the far wider 36.72 to 68.08, and z = 1.645 gives the 90% interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0011",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 36 bags has mean mass 18.5 kg and standard deviation 4.2 kg. Using s for \u03c3, find the 90% confidence interval for \u03bc, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "17.13 \u2264 \u03bc \u2264 19.87",
+    "15.68 \u2264 \u03bc \u2264 21.32",
+    "16.87 \u2264 \u03bc \u2264 20.13",
+    "17.35 \u2264 \u03bc \u2264 19.65"
+   ],
+   "correctIndex": 3,
+   "explanation": "The margin is 1.645 \u00d7 4.2/\u221a36 = 1.645 \u00d7 0.7 \u2248 1.15, giving 17.35 to 19.65. Using z = 1.96 gives the 95% interval, z = 2.326 gives the 98% interval, and 15.68 to 21.32 divides s by \u221a6 instead of \u221a36.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0012",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 225 apples has mean diameter 6.8 cm and standard deviation 1.5 cm. Using s for \u03c3, find the 98% confidence interval for \u03bc, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "6.59 \u2264 \u03bc \u2264 7.01",
+    "5.90 \u2264 \u03bc \u2264 7.70",
+    "6.57 \u2264 \u03bc \u2264 7.03",
+    "6.60 \u2264 \u03bc \u2264 7.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u03c3/\u221an = 1.5/15 = 0.1 and the margin is 2.326 \u00d7 0.1 \u2248 0.23, giving 6.57 to 7.03. The interval 6.60 to 7.00 uses z = 1.96 (95%), and 6.59 to 7.01 uses the slip z = 2.054.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0013",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 64 has s = 12. Find the margin of error for a 95% confidence interval for \u03bc.",
+   "imageRef": null,
+   "options": [
+    "2.47",
+    "0.37",
+    "23.52",
+    "2.94"
+   ],
+   "correctIndex": 3,
+   "explanation": "The margin of error is z \u00d7 s/\u221an = 1.96 \u00d7 12/8 = 2.94. Using z = 1.645 gives the 90% margin 2.47, and dividing by n = 64 gives 0.37.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0014",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A confidence interval for \u03bc is 41.3 \u2264 \u03bc \u2264 44.7. What are the sample mean and the margin of error?",
+   "imageRef": null,
+   "options": [
+    "x\u0304 = 44.7, margin 1.7",
+    "x\u0304 = 43.0, margin 1.7",
+    "x\u0304 = 43.0, margin 3.4",
+    "x\u0304 = 41.3, margin 3.4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sample mean is the midpoint, (41.3 + 44.7)/2 = 43.0, and the margin is half the width, 3.4/2 = 1.7. The full width, 3.4, is twice the margin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0015",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A 95% confidence interval for \u03bc from a sample of 49 is 41.3 \u2264 \u03bc \u2264 44.7. Find the sample standard deviation used, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "6.07",
+    "7.23",
+    "12.14",
+    "42.50"
+   ],
+   "correctIndex": 0,
+   "explanation": "The margin is 1.7, so 1.96 \u00d7 s/7 = 1.7 and s = 1.7 \u00d7 7/1.96 \u2248 6.07. Using z = 1.645 gives 7.23, and using the full width 3.4 instead of the margin gives 12.14.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0016",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A researcher wants a 95% confidence interval for \u03bc with a margin of error of at most 0.5, and estimates \u03c3 as 4. What is the smallest sample size needed?",
+   "imageRef": null,
+   "options": [
+    "245",
+    "16",
+    "174",
+    "246"
+   ],
+   "correctIndex": 3,
+   "explanation": "Solve 1.96 \u00d7 4/\u221an \u2264 0.5: \u221an \u2265 15.68, so n \u2265 245.86, and n must be rounded up to 246. Rounding down to 245 gives a margin just above 0.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0017",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "What is the smallest sample size giving a 90% confidence interval for \u03bc with margin of error at most 2, if \u03c3 = 15?",
+   "imageRef": null,
+   "options": [
+    "153",
+    "152",
+    "217",
+    "13"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve 1.645 \u00d7 15/\u221an \u2264 2: n \u2265 (1.645 \u00d7 15/2)\u00b2 \u2248 152.2, so n = 153. Using z = 1.96 gives 217, which is the 95% requirement.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0018",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "With \u03c3 = 10 and n = 25, what is the width of the 95% confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "7.84",
+    "3.92",
+    "39.2",
+    "0.78"
+   ],
+   "correctIndex": 0,
+   "explanation": "The margin is 1.96 \u00d7 10/5 = 3.92, and the interval runs from x\u0304 \u2212 3.92 to x\u0304 + 3.92, so its width is 7.84. The margin alone is half the width.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0019",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 36 has x\u0304 = 30, from a population with \u03c3 = 6. Find an approximate 68% confidence interval for \u03bc.",
+   "imageRef": null,
+   "options": [
+    "29.83 \u2264 \u03bc \u2264 30.17",
+    "29 \u2264 \u03bc \u2264 31",
+    "24 \u2264 \u03bc \u2264 36",
+    "28 \u2264 \u03bc \u2264 32"
+   ],
+   "correctIndex": 1,
+   "explanation": "With z = 1, the interval is 30 \u00b1 6/\u221a36 = 30 \u00b1 1. Using \u03c3 instead of \u03c3/\u221an gives 24 to 36, and 28 to 32 uses z = 2, the approximate 95% interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0020",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A 95% confidence interval for \u03bc is 20.0 \u2264 \u03bc \u2264 24.0. Using the same sample, find the 90% confidence interval, to two decimal places.",
+   "imageRef": null,
+   "options": [
+    "20.36 \u2264 \u03bc \u2264 23.64",
+    "20.32 \u2264 \u03bc \u2264 23.68",
+    "18.71 \u2264 \u03bc \u2264 25.29",
+    "19.63 \u2264 \u03bc \u2264 24.37"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 95% margin is 2, so \u03c3/\u221an = 2/1.96 \u2248 1.020. The 90% margin is 1.645 \u00d7 1.020 \u2248 1.68, giving 20.32 to 23.68. Taking \u03c3/\u221an as 2 gives 18.71 to 25.29, wider than the 95% interval, which cannot be right; 19.63 to 24.37 uses z = 2.326, the 98% value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0021",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 36 has x\u0304 = 12 and s = 3. Using z = 2, find an approximate 95% confidence interval for \u03bc.",
+   "imageRef": null,
+   "options": [
+    "10 \u2264 \u03bc \u2264 14",
+    "11 \u2264 \u03bc \u2264 13",
+    "6 \u2264 \u03bc \u2264 18",
+    "11.5 \u2264 \u03bc \u2264 12.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "s/\u221an = 3/6 = 0.5, and 2 \u00d7 0.5 = 1, giving 11 to 13. Using s alone gives 6 to 18, and 11.5 to 12.5 forgets to multiply by z.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0022",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "If the confidence level is raised from 90% to 98% with the same sample, the confidence interval becomes:",
+   "imageRef": null,
+   "options": [
+    "the same width but shifted",
+    "centred on a different sample mean",
+    "wider",
+    "narrower"
+   ],
+   "correctIndex": 2,
+   "explanation": "A higher confidence level needs a larger z (2.326 instead of 1.645), so the margin of error grows. The centre stays at the same x\u0304.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0023",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "With the same s and confidence level, how does multiplying the sample size by 4 change the margin of error?",
+   "imageRef": null,
+   "options": [
+    "It quarters",
+    "It doubles",
+    "It is unchanged",
+    "It halves"
+   ],
+   "correctIndex": 3,
+   "explanation": "The margin is z \u00d7 s/\u221an, and \u221a(4n) = 2\u221an, so the margin halves. To quarter it, the sample size would need to be 16 times larger.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0024",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A survey of 50 people gave a margin of error E. With the same s and confidence level, how many people are needed for a margin of error of E/2?",
+   "imageRef": null,
+   "options": [
+    "2500",
+    "200",
+    "100",
+    "25"
+   ],
+   "correctIndex": 1,
+   "explanation": "Halving the margin needs \u221an to double, so n must be multiplied by 4: 4 \u00d7 50 = 200. Doubling n to 100 reduces the margin only by a factor of \u221a2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0025",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Two samples of the same size give 95% confidence intervals for \u03bc. Sample A has s = 5 and sample B has s = 9. Which is true?",
+   "imageRef": null,
+   "options": [
+    "Both intervals have the same width",
+    "B gives the narrower interval because its spread is larger",
+    "B gives the wider interval",
+    "A gives the wider interval"
+   ],
+   "correctIndex": 2,
+   "explanation": "The margin z \u00d7 s/\u221an is proportional to s, so the sample with more variation gives a wider interval. Sample size and confidence level are the same, so only s differs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0026",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Sample A has n = 100 and s = 20. Sample B has n = 400 and s = 30. Which gives the narrower 95% confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "B, with margin 5.88",
+    "B, with margin 2.94",
+    "A, with margin 3.92",
+    "A, with margin 0.392"
+   ],
+   "correctIndex": 1,
+   "explanation": "A has margin 1.96 \u00d7 20/10 = 3.92 and B has 1.96 \u00d7 30/20 = 2.94, so sample B gives the narrower interval despite its larger s. The larger sample more than makes up for the extra spread.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0027",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "From one sample, a 90% and a 98% confidence interval for \u03bc are calculated. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The two intervals have different centres",
+    "The 98% interval contains the 90% interval",
+    "The 90% interval contains the 98% interval",
+    "The two intervals do not overlap"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both are centred on the same x\u0304, and the 98% interval has the larger margin, so it contains the 90% interval. Only the value of z differs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0028",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A researcher wants a narrower confidence interval for \u03bc but cannot collect any more data. What could be changed, and at what cost?",
+   "imageRef": null,
+   "options": [
+    "Use \u03c3/n in place of \u03c3/\u221an, so the interval is narrower",
+    "Use a z value of 0, so the interval has no width",
+    "Lower the confidence level, so fewer such intervals contain \u03bc",
+    "Raise the confidence level, so more such intervals contain \u03bc"
+   ],
+   "correctIndex": 2,
+   "explanation": "A lower confidence level uses a smaller z and so a narrower interval, but a smaller proportion of such intervals capture \u03bc. Changing the formula would give a wrong interval, not a better one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0029",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "What does \"95% confidence\" mean for a confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "About 95% of intervals built this way from repeated samples contain \u03bc",
+    "\u03bc lies in this particular interval 95% of the time",
+    "95% of the population values lie in the interval",
+    "95% of sample means equal \u03bc"
+   ],
+   "correctIndex": 0,
+   "explanation": "The confidence level describes the method: across many samples, about 95% of the intervals capture the fixed \u03bc. Any one calculated interval either contains \u03bc or does not.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0030",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A researcher calculates the 95% confidence interval 50.8 \u2264 \u03bc \u2264 54.0. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "95% of individual values are between 50.8 and 54.0",
+    "This interval either contains \u03bc or it does not",
+    "There is a 95% probability that \u03bc is between 50.8 and 54.0",
+    "\u03bc is certainly between 50.8 and 54.0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Once the interval is calculated, \u03bc is a fixed number that is inside it or not; the 95% refers to how often the method succeeds. The interval estimates \u03bc, not the spread of individual values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0031",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Forty different random samples are used to calculate forty 90% confidence intervals for the same \u03bc. How many of them would be expected NOT to contain \u03bc?",
+   "imageRef": null,
+   "options": [
+    "36",
+    "0",
+    "9",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "About 90% of such intervals contain \u03bc, so about 10% of 40, that is 4, would miss it. The value 36 is the number expected to contain \u03bc.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0032",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "Which statement about confidence intervals for \u03bc is correct?",
+   "imageRef": null,
+   "options": [
+    "Not every confidence interval contains \u03bc",
+    "Every 95% confidence interval contains \u03bc",
+    "A confidence interval always contains every sample mean",
+    "A 98% interval never misses \u03bc"
+   ],
+   "correctIndex": 0,
+   "explanation": "However high the confidence level, some samples give an interval that misses \u03bc. A 98% interval misses \u03bc for about 2% of samples.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0033",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A manufacturer claims its batteries last 55 hours on average. A 95% confidence interval from a sample is 50.8 \u2264 \u03bc \u2264 54.0. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "The claim is supported because 55 is close to 54.0",
+    "The claim is doubtful, but the interval does not prove it false",
+    "The claim is definitely false",
+    "The claim is definitely true"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since 55 is outside the interval, the sample suggests the mean is lower than claimed. A confidence interval is only a guide, so a definite statement is not possible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0034",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A school claims its students sleep 8.5 hours a night on average. A 90% confidence interval from a sample is 8.1 \u2264 \u03bc \u2264 8.7. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "The claim is proved true, since 8.5 is in the interval",
+    "The claim is proved false, since 8.5 is not the midpoint",
+    "The true mean must be exactly 8.4, the interval midpoint",
+    "The data are consistent with the claim, but do not prove it"
+   ],
+   "correctIndex": 3,
+   "explanation": "The claimed value lies inside the interval, so the sample gives no reason to doubt it. Other values in the interval are equally consistent with the data, so the claim is not proved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0035",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "A random sample of 100 has x\u0304 = 100 and s = 10. The 90% interval is 98.36 \u2264 \u03bc \u2264 101.64 and the 98% interval is 97.67 \u2264 \u03bc \u2264 102.33. How do the intervals relate to a claim that \u03bc = 98?",
+   "imageRef": null,
+   "options": [
+    "98 is inside the 90% interval but outside the 98% interval",
+    "98 is outside the 90% interval but inside the 98% interval",
+    "98 is inside both intervals",
+    "98 is outside both intervals"
+   ],
+   "correctIndex": 1,
+   "explanation": "The claimed value lies below 98.36 but above 97.67. So the 90% interval casts doubt on the claim while the 98% interval does not, which shows why conclusions are a guide only.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-ci-mean-0036",
+   "topicId": "meth-sace-ci-mean",
+   "stem": "When is it reasonable to use the sample standard deviation s in place of \u03c3 in a confidence interval for \u03bc?",
+   "imageRef": null,
+   "options": [
+    "Whenever the population is exactly normal",
+    "When \u03c3 is unknown and the sample is sufficiently large",
+    "Only when the sample size is less than 10",
+    "Only when s is larger than \u03c3"
+   ],
+   "correctIndex": 1,
+   "explanation": "If \u03c3 is unknown, s from a sufficiently large sample is a good approximation to it. Small samples give unreliable values of s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-ci-mean-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

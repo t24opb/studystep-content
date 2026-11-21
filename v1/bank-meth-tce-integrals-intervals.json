@@ -1,0 +1,670 @@
+{
+ "topicId": "meth-tce-integrals-intervals",
+ "questions": [
+  {
+   "id": "meth-tce-integrals-intervals-0001",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The Fundamental Theorem of Calculus states that, if F is an anti-derivative of f, then the definite integral of f(x) from x = a to x = b equals:",
+   "imageRef": null,
+   "options": [
+    "F(b) + F(a)",
+    "F(b) \u2212 F(a)",
+    "F(a) \u2212 F(b)",
+    "(b \u2212 a)F(b)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The definite integral is the change in an anti-derivative from a to b: F(b) \u2212 F(a). Reversing the order, F(a) \u2212 F(b), gives the negative of the integral.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0002",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The definite integral of a positive function f from x = a to x = b can be thought of as:",
+   "imageRef": null,
+   "options": [
+    "the average of the values f(a) and f(b), multiplied by b",
+    "the largest value of f(x) on the interval from a to b",
+    "the limit of a sum of rectangle areas as their widths shrink to zero",
+    "the gradient of the chord joining the points at x = a and x = b"
+   ],
+   "correctIndex": 2,
+   "explanation": "Splitting [a, b] into thin strips and adding the rectangle areas gives an estimate; the limit as the widths shrink to zero is the exact area. The chord gradient is an average rate of change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0003",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The area under y = x\u00b2 from x = 0 to x = 2 is estimated with four rectangles of width 0.5, using the right endpoint of each strip for the height. The estimate is:",
+   "imageRef": null,
+   "options": [
+    "2.67",
+    "7.5",
+    "3.75",
+    "1.75"
+   ],
+   "correctIndex": 2,
+   "explanation": "The heights are f(0.5), f(1), f(1.5) and f(2): 0.25 + 1 + 2.25 + 4 = 7.5, and 7.5 \u00d7 0.5 = 3.75. Using left endpoints gives 1.75; the exact area is 8/3 \u2248 2.67.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0004",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "For a function that is increasing on [a, b], rectangles whose heights use the left endpoint of each strip give an estimate of the area that is:",
+   "imageRef": null,
+   "options": [
+    "an underestimate",
+    "an overestimate",
+    "always exact",
+    "always negative"
+   ],
+   "correctIndex": 0,
+   "explanation": "For an increasing function the left endpoint is the lowest point of each strip, so each rectangle sits under the curve and the total is too small.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0005",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of (2x + 1) from x = 1 to x = 3 is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "8",
+    "10",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is x\u00b2 + x, so the integral is (9 + 3) \u2212 (1 + 1) = 12 \u2212 2 = 10. The value 12 forgets to subtract F(1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0006",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of (3x\u00b2 \u2212 4x) from x = 0 to x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "0",
+    "4",
+    "\u22128"
+   ],
+   "correctIndex": 1,
+   "explanation": "An anti-derivative is x\u00b3 \u2212 2x\u00b2, which is 8 \u2212 8 = 0 at x = 2 and 0 at x = 0. The integral is 0 because equal areas lie above and below the x-axis, not because there is no area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0007",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of cos x from x = 0 to x = \u03c0/2 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22121",
+    "\u03c0/2",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative is sin x, so the integral is sin(\u03c0/2) \u2212 sin 0 = 1 \u2212 0 = 1. Using \u2212sin x as the anti-derivative gives \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0008",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of e^(2x) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "(e\u00b2 \u2212 2)/2",
+    "(e\u00b2 \u2212 1)/2",
+    "e\u00b2 \u2212 1",
+    "2e\u00b2 \u2212 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "An anti-derivative is e^(2x)/2, so the integral is e\u00b2/2 \u2212 1/2 = (e\u00b2 \u2212 1)/2. Forgetting to divide by 2 gives e\u00b2 \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0009",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of \u221ax from x = 1 to x = 4 is:",
+   "imageRef": null,
+   "options": [
+    "14/3",
+    "16/3",
+    "7/3",
+    "3/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "An anti-derivative is (2/3)x^(3/2). At x = 4 this is (2/3) \u00d7 8 = 16/3, and at x = 1 it is 2/3, so the integral is 14/3. The value 16/3 forgets the lower limit.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0010",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The value of the definite integral of (2x + 1)\u00b3 from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "20",
+    "40",
+    "80",
+    "10"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative is (2x + 1)\u2074/8. The integral is (81 \u2212 1)/8 = 10. Dividing by 4 only, and not by the 2 from the inner function, gives 20.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0011",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The area enclosed between y = 4 \u2212 x\u00b2 and the x-axis is:",
+   "imageRef": null,
+   "options": [
+    "32/3 square units",
+    "16/3 square units",
+    "8 square units",
+    "64/3 square units"
+   ],
+   "correctIndex": 0,
+   "explanation": "The curve meets the x-axis at x = \u00b12, so the area is the integral of (4 \u2212 x\u00b2) from \u22122 to 2: [4x \u2212 x\u00b3/3] = 16/3 \u2212 (\u221216/3) = 32/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0012",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The area enclosed between y = x\u00b2 \u2212 4x and the x-axis is:",
+   "imageRef": null,
+   "options": [
+    "16/3 square units",
+    "32/3 square units",
+    "\u221232/3 square units",
+    "64/3 square units"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curve is below the axis between x = 0 and x = 4, and the integral there is 64/3 \u2212 32 = \u221232/3. An area is positive, so it is 32/3 square units.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0013",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The total area between y = x\u00b3 and the x-axis from x = \u22121 to x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "9/2 square units",
+    "17/4 square units",
+    "15/4 square units",
+    "4 square units"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curve is below the axis on [\u22121, 0], with integral \u22121/4, and above it on [0, 2], with integral 4. The area is 1/4 + 4 = 17/4. Integrating straight across gives 15/4, which subtracts the part below the axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0014",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The area of the region enclosed between y = x and y = x\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "5/6 square units",
+    "1/6 square units",
+    "1/2 square units",
+    "1/3 square units"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet at x = 0 and x = 1, and y = x is above y = x\u00b2 between them. The area is the integral of (x \u2212 x\u00b2) from 0 to 1 = 1/2 \u2212 1/3 = 1/6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0015",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The area of the region enclosed between y = x + 2 and y = x\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "27/2 square units",
+    "9/2 square units",
+    "10/3 square units",
+    "7/6 square units"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b2 = x + 2 gives x = \u22121 and x = 2. The area is the integral of (x + 2 \u2212 x\u00b2) from \u22121 to 2: (2 + 4 \u2212 8/3) \u2212 (1/2 \u2212 2 + 1/3) = 10/3 + 7/6 = 9/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0016",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Given that the integral of f(x) from 0 to 3 is 5 and the integral of f(x) from 3 to 7 is 2, the integral of 2f(x) from 0 to 7 is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "14",
+    "7",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integrals over adjoining intervals add: the integral from 0 to 7 is 5 + 2 = 7. A constant multiple comes outside, so the integral of 2f(x) is 2 \u00d7 7 = 14.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0017",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "A particle has velocity v = 3t\u00b2 \u2212 6t m/s for 0 \u2264 t \u2264 3. Its displacement and the distance it travels over this time are:",
+   "imageRef": null,
+   "options": [
+    "0 m and 8 m",
+    "0 m and 0 m",
+    "8 m and 8 m",
+    "4 m and 8 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral of v from 0 to 3 is [t\u00b3 \u2212 3t\u00b2] = 0, so the displacement is 0. But v < 0 for 0 < t < 2, giving 4 m backwards, then 4 m forwards from t = 2 to t = 3, so the distance is 8 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0018",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "A curve has gradient function f\u2032(x) = 6x \u2212 2, and its tangent at x = 1 is y = 4x + 1. The rule for f(x) is:",
+   "imageRef": null,
+   "options": [
+    "f(x) = 3x\u00b2 \u2212 2x + 1",
+    "f(x) = 3x\u00b2 \u2212 2x + 5",
+    "f(x) = 6x\u00b2 \u2212 2x + 1",
+    "f(x) = 3x\u00b2 \u2212 2x + 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Anti-differentiating, f(x) = 3x\u00b2 \u2212 2x + c. The tangent touches the curve at x = 1, where y = 4 + 1 = 5, so 3 \u2212 2 + c = 5 and c = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0019",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "In a survey, the proportion p of all Tasmanian voters who support a policy is estimated by the proportion p\u0302 in a random sample. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "p is a population parameter and p\u0302 is a sample statistic",
+    "p is a sample statistic and p\u0302 is a population parameter",
+    "p and p\u0302 are both sample statistics",
+    "p and p\u0302 are always equal for a random sample"
+   ],
+   "correctIndex": 0,
+   "explanation": "A parameter describes the whole population and is usually unknown; a statistic is calculated from a sample and is used to estimate it. Different samples give different values of p\u0302.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0020",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "In a random sample of 400 voters, 136 support a policy. The sample proportion p\u0302 is:",
+   "imageRef": null,
+   "options": [
+    "0.66",
+    "0.34",
+    "0.136",
+    "2.94"
+   ],
+   "correctIndex": 1,
+   "explanation": "p\u0302 = X/n = 136/400 = 0.34. The value 0.66 is the proportion who do not support the policy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0021",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Why is the sample proportion p\u0302 treated as a random variable?",
+   "imageRef": null,
+   "options": [
+    "It can take any real value, including negatives",
+    "It is calculated from the whole population",
+    "Its value varies from one random sample to another",
+    "It always equals the population proportion p"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each random sample contains different individuals, so p\u0302 changes from sample to sample. It lies between 0 and 1 and only estimates p.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0022",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "For large random samples of size n from a population with proportion p, the distribution of p\u0302 is approximately:",
+   "imageRef": null,
+   "options": [
+    "binomial, with mean p and standard deviation p(1 \u2212 p)/n",
+    "uniform, with mean p and standard deviation \u221a(p/n)",
+    "normal, with mean p and standard deviation \u221a(p(1 \u2212 p)/n)",
+    "normal, with mean np and standard deviation \u221a(np(1 \u2212 p))"
+   ],
+   "correctIndex": 2,
+   "explanation": "p\u0302 = X/n where X is binomial, so dividing by n gives mean p and standard deviation \u221a(p(1 \u2212 p)/n), and for large n the shape is close to normal. Mean np and standard deviation \u221a(np(1 \u2212 p)) belong to X itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0023",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Samples of size 100 are taken from a population with p = 0.3. The standard deviation of p\u0302, correct to four decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "0.4583",
+    "0.0030",
+    "0.0458",
+    "0.0021"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u221a(p(1 \u2212 p)/n) = \u221a(0.3 \u00d7 0.7/100) = \u221a0.0021 = 0.0458. The value 0.0021 is the variance, before taking the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0024",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "If the sample size is multiplied by 4, the standard deviation of p\u0302:",
+   "imageRef": null,
+   "options": [
+    "is doubled",
+    "stays the same",
+    "is halved",
+    "is quartered"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation is \u221a(p(1 \u2212 p)/n), so multiplying n by 4 divides it by \u221a4 = 2. It decreases with the square root of n, not with n itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0025",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Samples of 150 are taken from a population with p = 0.4, so p\u0302 has standard deviation 0.04. Using the 68-95-99.7 rule, the probability that p\u0302 is greater than 0.48 is approximately:",
+   "imageRef": null,
+   "options": [
+    "0.16",
+    "0.0015",
+    "0.025",
+    "0.05"
+   ],
+   "correctIndex": 2,
+   "explanation": "0.48 is 2 standard deviations above the mean of 0.4. About 95% of values lie within 2 standard deviations, leaving 5% split between the two tails, so 2.5% lie above.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0026",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "A computer simulation takes many random samples of size 500 from a population with p = 0.2 and graphs the values of p\u0302. The histogram is approximately:",
+   "imageRef": null,
+   "options": [
+    "bell-shaped and centred near 0.2",
+    "bell-shaped and centred near 100",
+    "uniform from 0 to 1",
+    "strongly skewed and centred near 0.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "For large samples p\u0302 is approximately normal with mean p = 0.2. The value 100 is the expected number of successes, np, not the proportion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0027",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "An approximate 95% confidence interval for a population proportion, from a large sample with proportion p\u0302, is:",
+   "imageRef": null,
+   "options": [
+    "p\u0302 \u00b1 1.645\u221a(p\u0302(1 \u2212 p\u0302)/n)",
+    "p\u0302 \u00b1 1.96\u221a(n p\u0302(1 \u2212 p\u0302))",
+    "p\u0302 \u00b1 1.96\u221a(p\u0302(1 \u2212 p\u0302)/n)",
+    "p\u0302 \u00b1 1.96 p\u0302(1 \u2212 p\u0302)/n"
+   ],
+   "correctIndex": 2,
+   "explanation": "The interval is p\u0302 plus or minus z times the estimated standard deviation of p\u0302, with z \u2248 1.96 for 95%. The value 1.645 is used for a 90% interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0028",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "In a random sample of 400 voters, p\u0302 = 0.34. An approximate 95% confidence interval for p, to three decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "(0.294, 0.386)",
+    "(0.316, 0.364)",
+    "(0.301, 0.379)",
+    "(0.247, 0.433)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The standard deviation estimate is \u221a(0.34 \u00d7 0.66/400) = 0.0237, and 1.96 \u00d7 0.0237 = 0.046. So the interval is 0.34 \u00b1 0.046 = (0.294, 0.386). The narrower (0.316, 0.364) leaves out the 1.96.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0029",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "The z values used for approximate 90%, 95% and 99% confidence intervals are about:",
+   "imageRef": null,
+   "options": [
+    "1, 2 and 3",
+    "1.28, 1.645 and 1.96",
+    "1.96, 2.576 and 3.29",
+    "1.645, 1.96 and 2.576"
+   ],
+   "correctIndex": 3,
+   "explanation": "These are the standard normal quantiles that leave 5%, 2.5% and 0.5% in each tail. The values 1, 2 and 3 come from the 68-95-99.7 rule, which is only approximate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0030",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "In a random sample of 100, p\u0302 = 0.5. An approximate 99% confidence interval for p, to three decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "(0.474, 0.526)",
+    "(0.371, 0.629)",
+    "(0.402, 0.598)",
+    "(0.418, 0.582)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation estimate is \u221a(0.5 \u00d7 0.5/100) = 0.05, and 2.576 \u00d7 0.05 = 0.129, giving (0.371, 0.629). Using 1.96 gives the narrower 95% interval (0.402, 0.598).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0031",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "A 95% confidence interval for a population proportion is (0.42, 0.50). The sample proportion and the margin of error are:",
+   "imageRef": null,
+   "options": [
+    "p\u0302 = 0.46 and margin of error 0.04",
+    "p\u0302 = 0.46 and margin of error 0.08",
+    "p\u0302 = 0.42 and margin of error 0.08",
+    "p\u0302 = 0.50 and margin of error 0.04"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interval is centred on p\u0302, so p\u0302 = (0.42 + 0.50)/2 = 0.46. The margin of error is half the width: (0.50 \u2212 0.42)/2 = 0.04.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0032",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Which statement correctly interprets a 95% confidence interval for p?",
+   "imageRef": null,
+   "options": [
+    "About 95% of intervals made this way from repeated samples contain p",
+    "There is a 95% chance that p\u0302 lies inside this particular interval",
+    "About 95% of the population have values inside the interval",
+    "The value of p is exactly at the centre of this interval"
+   ],
+   "correctIndex": 0,
+   "explanation": "The method captures p in about 95% of repeated samples. The sample proportion p\u0302 is always at the centre of its own interval, so a 95% chance for p\u0302 makes no sense.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0033",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "Compared with a 95% confidence interval from the same sample, a 99% confidence interval for p is:",
+   "imageRef": null,
+   "options": [
+    "wider, because it uses a larger sample",
+    "wider, because it uses a larger z value",
+    "narrower, because it is more confident",
+    "the same width, but centred elsewhere"
+   ],
+   "correctIndex": 1,
+   "explanation": "Higher confidence needs a larger z (2.576 instead of 1.96), which widens the interval around the same p\u0302. Only a larger sample would make the interval narrower.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0034",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "A company claims that 60% of customers prefer its brand. A large random sample gives a 95% confidence interval for p of (0.52, 0.58). Which conclusion is best supported?",
+   "imageRef": null,
+   "options": [
+    "The claim of 60% looks too high, since 0.6 is outside the interval",
+    "The claim is supported, since 0.6 is close to the interval",
+    "The claim is proved false, since p\u0302 is not 0.6",
+    "Nothing can be said without the population proportion"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interval gives the plausible values of p, and 0.6 lies above it, so the sample is evidence against the claim. It does not prove the claim false with certainty.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-integrals-intervals-0035",
+   "topicId": "meth-tce-integrals-intervals",
+   "stem": "In a random sample of 400, p\u0302 = 0.2. An approximate 95% confidence interval for p, to three decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "(0.167, 0.233)",
+    "(0.161, 0.239)",
+    "(0.180, 0.220)",
+    "(0.122, 0.278)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation estimate is \u221a(0.2 \u00d7 0.8/400) = 0.02, and 1.96 \u00d7 0.02 = 0.039, giving (0.161, 0.239). Using 1.645 gives (0.167, 0.233), a 90% interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-integrals-intervals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

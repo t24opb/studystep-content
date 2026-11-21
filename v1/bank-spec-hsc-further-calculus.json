@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-hsc-further-calculus",
+ "questions": [
+  {
+   "id": "spec-hsc-further-calculus-0001",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A curve is given parametrically by x = t\u00b2 and y = 2t, t \u2260 0. Then dy/dx equals:",
+   "imageRef": null,
+   "options": [
+    "4t",
+    "1/t",
+    "t",
+    "2/t"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = (dy/dt) \u00f7 (dx/dt) = 2 \u00f7 2t = 1/t. Multiplying the two derivatives gives 4t, and dividing the other way round gives t, which is dx/dy.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0002",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A curve is given by x = 3cos \u03b8 and y = 3sin \u03b8. The gradient of the curve at \u03b8 = \u03c0/3 is:",
+   "imageRef": null,
+   "options": [
+    "\u221a3",
+    "\u22121/\u221a3",
+    "\u2212\u221a3",
+    "1/\u221a3"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = (3cos \u03b8)/(\u22123sin \u03b8) = \u2212cot \u03b8. At \u03b8 = \u03c0/3, cot \u03b8 = 1/\u221a3, so the gradient is \u22121/\u221a3. Dividing dx/d\u03b8 by dy/d\u03b8 instead gives \u2212tan \u03b8 = \u2212\u221a3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0003",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The tangent to the curve x = t + 1, y = t\u00b3 at the point where t = 1 has equation:",
+   "imageRef": null,
+   "options": [
+    "y = x \u2212 1",
+    "y = 3x \u2212 5",
+    "y = 3x \u2212 2",
+    "y = 3x + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "At t = 1 the point is (2, 1) and dy/dx = 3t\u00b2 \u00f7 1 = 3. The tangent is y \u2212 1 = 3(x \u2212 2), so y = 3x \u2212 5. Using the parameter value 1 as the x-coordinate instead of x = 2 gives y = 3x \u2212 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0004",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "If f has an inverse function f\u207b\u00b9, then the derivative of f\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/f\u2032(f\u207b\u00b9(x))",
+    "f\u2032(f\u207b\u00b9(x))",
+    "1/f\u2032(f\u207b\u00b9(x))",
+    "1/f\u2032(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiating f(f\u207b\u00b9(x)) = x with the chain rule gives f\u2032(f\u207b\u00b9(x)) \u00d7 (f\u207b\u00b9)\u2032(x) = 1. The derivative of f must be evaluated at f\u207b\u00b9(x), not at x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0005",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "For f(x) = x\u00b3 + x + 1, the point (3, 1) lies on the graph of y = f\u207b\u00b9(x). The gradient of y = f\u207b\u00b9(x) at this point is:",
+   "imageRef": null,
+   "options": [
+    "28",
+    "1/4",
+    "4",
+    "1/28"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(1) = 3, so f\u207b\u00b9(3) = 1, and f\u2032(x) = 3x\u00b2 + 1 gives f\u2032(1) = 4. The gradient of the inverse is 1/f\u2032(1) = 1/4. Evaluating f\u2032 at 3 instead of at 1 gives 1/28.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0006",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The tangent to y = f(x) at (2, 3) has gradient 2. The tangent to y = f\u207b\u00b9(x) at (3, 2) has gradient:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22121/2",
+    "1/3",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reflecting in y = x swaps rise and run, so the gradient of the inverse at the reflected point is the reciprocal, 1/2. The negative reciprocal \u22121/2 would be the gradient of a perpendicular line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0007",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "For \u22121 < x < 1, the derivative of cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/\u221a(1 \u2212 x\u00b2)",
+    "1/\u221a(1 \u2212 x\u00b2)",
+    "\u22121/(1 + x\u00b2)",
+    "\u2212\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "d/dx cos\u207b\u00b9(x) = \u22121/\u221a(1 \u2212 x\u00b2), the negative of the derivative of sin\u207b\u00b9(x), since the two add to the constant \u03c0/2. The form 1/(1 + x\u00b2) belongs to tan\u207b\u00b9(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0008",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The derivative of sin\u207b\u00b9(3x) is:",
+   "imageRef": null,
+   "options": [
+    "3/\u221a(1 \u2212 9x\u00b2)",
+    "1/\u221a(1 \u2212 9x\u00b2)",
+    "3/\u221a(1 \u2212 3x\u00b2)",
+    "3/\u221a(9 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the chain rule, d/dx sin\u207b\u00b9(f(x)) = f\u2032(x)/\u221a(1 \u2212 (f(x))\u00b2) with f(x) = 3x, giving 3/\u221a(1 \u2212 9x\u00b2). Leaving out f\u2032(x) gives 1/\u221a(1 \u2212 9x\u00b2), and not squaring the 3 gives 1 \u2212 3x\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0009",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The derivative of tan\u207b\u00b9(e\u02e3) is:",
+   "imageRef": null,
+   "options": [
+    "e\u02e3/(1 + e^(2x))",
+    "1/(1 + e^(2x))",
+    "e\u02e3/(1 + e\u02e3)",
+    "e\u02e3/(1 + e^(x\u00b2))"
+   ],
+   "correctIndex": 0,
+   "explanation": "d/dx tan\u207b\u00b9(f(x)) = f\u2032(x)/(1 + (f(x))\u00b2). With f(x) = e\u02e3, (e\u02e3)\u00b2 = e^(2x), so the derivative is e\u02e3/(1 + e^(2x)). Squaring the exponent gives e^(x\u00b2), which is not (e\u02e3)\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0010",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The derivative of x sin\u207b\u00b9(x), for \u22121 < x < 1, is:",
+   "imageRef": null,
+   "options": [
+    "x/\u221a(1 \u2212 x\u00b2)",
+    "sin\u207b\u00b9(x) + 1/\u221a(1 \u2212 x\u00b2)",
+    "1/\u221a(1 \u2212 x\u00b2)",
+    "sin\u207b\u00b9(x) + x/\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the product rule, d/dx[x sin\u207b\u00b9(x)] = 1 \u00d7 sin\u207b\u00b9(x) + x \u00d7 1/\u221a(1 \u2212 x\u00b2). Differentiating each factor and multiplying gives only 1/\u221a(1 \u2212 x\u00b2), which is not the product rule.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0011",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The tangent to y = tan\u207b\u00b9(x\u00b2) at the point where x = 1 has equation:",
+   "imageRef": null,
+   "options": [
+    "y = x/2 \u2212 1/2 + \u03c0/4",
+    "y = x + \u03c0/4",
+    "y = x \u2212 1 + \u03c0/4",
+    "y = 2x \u2212 2 + \u03c0/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "At x = 1, y = tan\u207b\u00b9(1) = \u03c0/4. dy/dx = 2x/(1 + x\u2074), which is 2/2 = 1 at x = 1, so y \u2212 \u03c0/4 = x \u2212 1. Leaving out the denominator gives a gradient of 2, and forgetting the chain rule factor 2x gives 1/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0012",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "For x > 1, the derivative of cos\u207b\u00b9(1/x) is:",
+   "imageRef": null,
+   "options": [
+    "1/\u221a(x\u00b2 \u2212 1)",
+    "\u22121/(x\u00b2\u221a(1 \u2212 x\u00b2))",
+    "1/(x\u221a(x\u00b2 \u2212 1))",
+    "\u22121/(x\u221a(x\u00b2 \u2212 1))"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the chain rule, the derivative is \u2212(\u22121/x\u00b2)/\u221a(1 \u2212 1/x\u00b2) = 1/(x\u00b2\u221a((x\u00b2 \u2212 1)/x\u00b2)) = 1/(x\u221a(x\u00b2 \u2212 1)) for x > 1. The two negatives cancel, so the result is positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0013",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "An anti-derivative of 3/(9 + x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "3tan\u207b\u00b9(x/3)",
+    "(1/3)tan\u207b\u00b9(x/3)",
+    "tan\u207b\u00b9(3x)",
+    "tan\u207b\u00b9(x/3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The standard integral of a/(a\u00b2 + x\u00b2) is tan\u207b\u00b9(x/a) + c. Here a = 3, so the answer is tan\u207b\u00b9(x/3). The 3 on top is already the a in the formula, so no extra factor is needed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0014",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "An anti-derivative of 1/\u221a(1 \u2212 9x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "(1/3)sin\u207b\u00b9(x/3)",
+    "(1/3)sin\u207b\u00b9(3x)",
+    "sin\u207b\u00b9(3x)",
+    "3sin\u207b\u00b9(3x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "d/dx sin\u207b\u00b9(3x) = 3/\u221a(1 \u2212 9x\u00b2), so dividing by 3 gives the anti-derivative (1/3)sin\u207b\u00b9(3x). Multiplying by 3 instead is the usual slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0015",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "An anti-derivative of x\u00b2/(x\u00b2 + 4) is:",
+   "imageRef": null,
+   "options": [
+    "x \u2212 2tan\u207b\u00b9(x/2)",
+    "x \u2212 4tan\u207b\u00b9(x/2)",
+    "x \u2212 (1/2)tan\u207b\u00b9(x/2)",
+    "x + 2tan\u207b\u00b9(x/2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write x\u00b2/(x\u00b2 + 4) = 1 \u2212 4/(x\u00b2 + 4). The integral of 4/(x\u00b2 + 4) is 4 \u00d7 (1/2)tan\u207b\u00b9(x/2) = 2tan\u207b\u00b9(x/2), so the answer is x \u2212 2tan\u207b\u00b9(x/2) + c. Forgetting the 1/2 from the standard integral gives 4tan\u207b\u00b9(x/2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0016",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The exact value of the integral of 1/(1 + x\u00b2) from x = 0 to x = \u221a3 is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0/3",
+    "ln 4",
+    "\u03c0/3",
+    "\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral is tan\u207b\u00b9(\u221a3) \u2212 tan\u207b\u00b9(0) = \u03c0/3 \u2212 0 = \u03c0/3. The value ln 4 comes from integrating 2x/(1 + x\u00b2) instead, which is a logarithm.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0017",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The exact value of the integral of 1/\u221a(9 \u2212 x\u00b2) from x = 0 to x = 3/2 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "\u03c0/18",
+    "1/2",
+    "\u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The anti-derivative is sin\u207b\u00b9(x/3), so the integral is sin\u207b\u00b9(1/2) \u2212 sin\u207b\u00b9(0) = \u03c0/6. Including an extra factor of 1/3 gives \u03c0/18, which is wrong because the 1/a factor appears only in the tan\u207b\u00b9 form.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0018",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Using the substitution u = \u221ax + 1, an anti-derivative of e^(\u221ax + 1)/\u221ax is:",
+   "imageRef": null,
+   "options": [
+    "(1/2)e^(\u221ax + 1)",
+    "2\u221ax e^(\u221ax + 1)",
+    "2e^(\u221ax + 1)",
+    "e^(\u221ax + 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "du/dx = 1/(2\u221ax), so dx/\u221ax = 2 du and the integral becomes the integral of 2e^u du = 2e^u + c = 2e^(\u221ax + 1) + c. Halving instead of doubling gives (1/2)e^(\u221ax + 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0019",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "In the integral of 1/\u221a(4 \u2212 x\u00b2) from x = 0 to x = 1, the substitution x = 2sin \u03b8 is used. The new limits for \u03b8 are:",
+   "imageRef": null,
+   "options": [
+    "0 and \u03c0/2",
+    "0 and 1/2",
+    "0 and \u03c0/3",
+    "0 and \u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "When x = 1, sin \u03b8 = 1/2, so \u03b8 = \u03c0/6; when x = 0, \u03b8 = 0. The value 1/2 is sin \u03b8, not \u03b8 itself, and \u03c0/3 would need sin \u03b8 = \u221a3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0020",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Using the substitution x = tan \u03b8, the integral of 1/(1 + x\u00b2)^(3/2) from x = 0 to x = 1 equals:",
+   "imageRef": null,
+   "options": [
+    "1/\u221a2",
+    "\u03c0/4",
+    "1",
+    "\u221a2 \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "dx = sec\u00b2 \u03b8 d\u03b8 and (1 + tan\u00b2 \u03b8)^(3/2) = sec\u00b3 \u03b8, so the integrand becomes cos \u03b8, with limits 0 to \u03c0/4. The integral is sin(\u03c0/4) \u2212 sin 0 = 1/\u221a2. The value \u03c0/4 is just the new upper limit.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0021",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Using the substitution u = x \u2212 1, the integral of x\u221a(x \u2212 1) from x = 1 to x = 2 equals:",
+   "imageRef": null,
+   "options": [
+    "2/3",
+    "4/15",
+    "16/15",
+    "2/5"
+   ],
+   "correctIndex": 2,
+   "explanation": "With x = u + 1, the integral becomes the integral of (u + 1)\u221au = u^(3/2) + u^(1/2) from u = 0 to 1, which is 2/5 + 2/3 = 16/15. Subtracting the two parts gives 4/15, and replacing x by u alone gives only 2/5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0022",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Which identity is used to integrate sin\u00b2(nx)?",
+   "imageRef": null,
+   "options": [
+    "sin\u00b2(nx) = (1/2)(1 + cos(2nx))",
+    "sin\u00b2(nx) = (1/2)(1 \u2212 cos(nx))",
+    "sin\u00b2(nx) = 1 \u2212 cos(2nx)",
+    "sin\u00b2(nx) = (1/2)(1 \u2212 cos(2nx))"
+   ],
+   "correctIndex": 3,
+   "explanation": "From cos(2A) = 1 \u2212 2sin\u00b2 A, sin\u00b2 A = (1/2)(1 \u2212 cos 2A). With A = nx this gives (1/2)(1 \u2212 cos(2nx)). The plus sign belongs to cos\u00b2(nx).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0023",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "An anti-derivative of cos\u00b2(3x) is:",
+   "imageRef": null,
+   "options": [
+    "x/2 + sin(6x)/12",
+    "x/2 \u2212 sin(6x)/12",
+    "x/2 + sin(6x)/6",
+    "cos\u00b3(3x)/9"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos\u00b2(3x) = (1/2)(1 + cos(6x)), which integrates to x/2 + (1/2)(sin(6x)/6) = x/2 + sin(6x)/12. Forgetting the 1/2 in front of cos(6x) gives sin(6x)/6, and treating cos\u00b2 like a power of x gives cos\u00b3(3x)/9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0024",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The exact value of the integral of sin\u00b2 x from x = 0 to x = \u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1",
+    "\u03c0/2",
+    "\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of (1/2)(1 \u2212 cos 2x) from 0 to \u03c0 is [x/2 \u2212 sin(2x)/4] = \u03c0/2 \u2212 0 = \u03c0/2. The answer 0 confuses sin\u00b2 x, which is never negative, with sin x over a full period.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0025",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "\u03b1 is a zero of the polynomial P(x) with multiplicity 3. Then \u03b1 is a zero of P\u2032(x) with multiplicity:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "If P(x) = (x \u2212 \u03b1)\u00b3Q(x) with Q(\u03b1) \u2260 0, the product rule gives P\u2032(x) = (x \u2212 \u03b1)\u00b2[3Q(x) + (x \u2212 \u03b1)Q\u2032(x)], and the bracket is non-zero at \u03b1. So the multiplicity drops by exactly one, to 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0026",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "At a zero \u03b1 of P(x) with even multiplicity m > 1, the graph of y = P(x):",
+   "imageRef": null,
+   "options": [
+    "has a horizontal point of inflection there",
+    "has a vertical tangent at the x-axis",
+    "touches the x-axis and does not cross it",
+    "crosses the x-axis at an acute or obtuse angle"
+   ],
+   "correctIndex": 2,
+   "explanation": "Even multiplicity means (x \u2212 \u03b1)^m does not change sign, so the curve stays on one side and is tangent to the axis. A single zero crosses at an angle, and an odd multiplicity greater than 1 gives a horizontal inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0027",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Which describes the graph of P(x) = (x + 1)\u00b2(2 \u2212 x)\u00b3?",
+   "imageRef": null,
+   "options": [
+    "It crosses the x-axis at an angle at both x = \u22121 and x = 2",
+    "It touches the x-axis at both x = \u22121 and x = 2 without crossing",
+    "It touches the x-axis at x = \u22121 and has a horizontal inflection at x = 2",
+    "It has a horizontal inflection at x = \u22121 and touches the x-axis at x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "x = \u22121 is a double zero (even multiplicity), so the graph touches the axis there. x = 2 is a triple zero (odd, greater than 1), so the graph flattens and crosses with a horizontal inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0028",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "For P(x) = (x + 1)\u00b2(2 \u2212 x)\u00b3, as x \u2192 \u2212\u221e:",
+   "imageRef": null,
+   "options": [
+    "P(x) \u2192 0",
+    "P(x) \u2192 8",
+    "P(x) \u2192 \u221e",
+    "P(x) \u2192 \u2212\u221e"
+   ],
+   "correctIndex": 2,
+   "explanation": "The leading term is x\u00b2 \u00d7 (\u2212x)\u00b3 = \u2212x\u2075. For large negative x, x\u2075 is large and negative, so \u2212x\u2075 is large and positive. Reading the leading coefficient as +1 gives the wrong direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0029",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "P(x) = x\u00b3 + ax\u00b2 + bx \u2212 4 has a double zero at x = 2. The values of a and b are:",
+   "imageRef": null,
+   "options": [
+    "a = \u22124, b = 4",
+    "a = \u22125, b = 8",
+    "a = 5, b = \u22128",
+    "a = \u22123, b = 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "A double zero means P(2) = 0 and P\u2032(2) = 0: 4a + 2b = \u22124 and 12 + 4a + b = 0. Solving gives a = \u22125 and b = 8, so P(x) = (x \u2212 2)\u00b2(x \u2212 1). Using only P(2) = 0 cannot fix both values.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0030",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A cube's side length x increases at 0.5 cm/s. Its surface area is S = 6x\u00b2. How fast is S increasing when x = 4 cm?",
+   "imageRef": null,
+   "options": [
+    "96 cm\u00b2/s",
+    "24 cm\u00b2/s",
+    "48 cm\u00b2/s",
+    "12 cm\u00b2/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "dS/dt = (dS/dx)(dx/dt) = 12x \u00d7 0.5 = 12 \u00d7 4 \u00d7 0.5 = 24 cm\u00b2/s. Leaving out dx/dt gives 48 cm\u00b2/s, and 96 is the area itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0031",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A spherical balloon's volume V = (4/3)\u03c0r\u00b3 increases at 10 cm\u00b3/s. How fast is the radius increasing when r = 5 cm?",
+   "imageRef": null,
+   "options": [
+    "3/(10\u03c0) cm/s",
+    "10\u03c0 cm/s",
+    "1/(10\u03c0) cm/s",
+    "2/(5\u03c0) cm/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "dV/dt = 4\u03c0r\u00b2(dr/dt), so 10 = 4\u03c0(25)(dr/dt) and dr/dt = 10/(100\u03c0) = 1/(10\u03c0) cm/s. Leaving the 4/3 in the derivative gives 3/(10\u03c0), and dividing the wrong way gives 10\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0032",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Water fills an inverted cone so that the volume is V = \u03c0h\u00b3/12 when the depth is h cm. Water flows in at 2 cm\u00b3/s. How fast is the depth rising when h = 4 cm?",
+   "imageRef": null,
+   "options": [
+    "1/(8\u03c0) cm/s",
+    "8\u03c0 cm/s",
+    "1/(2\u03c0) cm/s",
+    "3/(2\u03c0) cm/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "dV/dh = \u03c0h\u00b2/4 = 4\u03c0 at h = 4. Then dh/dt = (dV/dt) \u00f7 (dV/dh) = 2/(4\u03c0) = 1/(2\u03c0) cm/s. Forgetting to multiply by 3 when differentiating h\u00b3 gives \u03c0h\u00b2/12 and the answer 3/(2\u03c0).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0033",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Which function satisfies dQ/dt = k(Q \u2212 P), where k, P and A are constants?",
+   "imageRef": null,
+   "options": [
+    "Q = Ae^(kt) \u2212 P",
+    "Q = P + Ae^(\u2212kt)",
+    "Q = Pe^(kt) + A",
+    "Q = P + Ae^(kt)"
+   ],
+   "correctIndex": 3,
+   "explanation": "If Q = P + Ae^(kt), then dQ/dt = kAe^(kt) = k(Q \u2212 P), since Q \u2212 P = Ae^(kt). With Ae^(\u2212kt) the derivative is \u2212k(Q \u2212 P), the wrong sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0034",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A quantity is modelled by Q = 50 \u2212 30e^(\u22120.2t) for t \u2265 0. Its graph:",
+   "imageRef": null,
+   "options": [
+    "decreases from 80 towards 50",
+    "increases from 20 towards 50",
+    "decreases from 50 towards 20",
+    "increases from 20 without bound"
+   ],
+   "correctIndex": 1,
+   "explanation": "At t = 0, Q = 50 \u2212 30 = 20. As t \u2192 \u221e, e^(\u22120.2t) \u2192 0, so Q rises towards the horizontal asymptote Q = 50. Because A = \u221230 is negative, Q is below 50 and climbs towards it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0035",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "Tea at 90 \u00b0C cools in a 22 \u00b0C room according to T = 22 + 68e^(kt), with t in minutes. After 5 minutes it is at 56 \u00b0C. Its temperature after 10 minutes is:",
+   "imageRef": null,
+   "options": [
+    "28 \u00b0C",
+    "22 \u00b0C",
+    "30.5 \u00b0C",
+    "39 \u00b0C"
+   ],
+   "correctIndex": 3,
+   "explanation": "At t = 5, 68e^(5k) = 34, so e^(5k) = 1/2. After 10 minutes, 68e^(10k) = 68 \u00d7 1/4 = 17, so T = 39 \u00b0C. It is the excess over room temperature that halves every 5 minutes, not the temperature itself, so 28 \u00b0C is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0036",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "A quantity is modelled by Q = 50 \u2212 30e^(\u22120.2t). When does Q first reach 35?",
+   "imageRef": null,
+   "options": [
+    "t = \u22125 ln 2",
+    "t = (ln 2)/5",
+    "t = 5 ln(7/6)",
+    "t = 5 ln 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "50 \u2212 30e^(\u22120.2t) = 35 gives e^(\u22120.2t) = 1/2, so \u22120.2t = \u2212ln 2 and t = ln 2/0.2 = 5 ln 2. Multiplying by 0.2 instead of dividing gives (ln 2)/5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0037",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The area of the region enclosed by y = x\u00b2 and y = 2x is:",
+   "imageRef": null,
+   "options": [
+    "20/3",
+    "4/3",
+    "8/3",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet at x = 0 and x = 2, with the line above the parabola between them. Area = integral of (2x \u2212 x\u00b2) from 0 to 2 = 4 \u2212 8/3 = 4/3. The value 8/3 is only the area under the parabola.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0038",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The region under y = \u221ax from x = 0 to x = 4 is rotated about the x-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "16\u03c0/3",
+    "8\u03c0",
+    "16\u03c0",
+    "4\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = \u03c0 times the integral of (\u221ax)\u00b2 = \u03c0 times the integral of x from 0 to 4 = \u03c0 \u00d7 8 = 8\u03c0. Integrating \u221ax without squaring gives 16\u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0039",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The region bounded by y = x\u00b2, the y-axis and the line y = 9, with x \u2265 0, is rotated about the y-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "18\u03c0",
+    "9\u03c0",
+    "81\u03c0/2",
+    "81\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "About the y-axis, V = \u03c0 times the integral of x\u00b2 dy. Here x\u00b2 = y, so V = \u03c0 times the integral of y from 0 to 9 = 81\u03c0/2. Using x = \u221ay without squaring gives 18\u03c0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-calculus-0040",
+   "topicId": "spec-hsc-further-calculus",
+   "stem": "The region between y = x and y = x\u00b2, for 0 \u2264 x \u2264 1, is rotated about the x-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/30",
+    "\u03c0/6",
+    "8\u03c0/15",
+    "2\u03c0/15"
+   ],
+   "correctIndex": 3,
+   "explanation": "The solid is a washer: V = \u03c0 times the integral of (x\u00b2 \u2212 x\u2074) from 0 to 1 = \u03c0(1/3 \u2212 1/5) = 2\u03c0/15. Squaring the difference (x \u2212 x\u00b2)\u00b2 instead gives \u03c0/30, which is the common error.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-calculus-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

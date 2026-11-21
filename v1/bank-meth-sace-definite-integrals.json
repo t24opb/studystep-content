@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-sace-definite-integrals",
+ "questions": [
+  {
+   "id": "meth-sace-definite-integrals-0001",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "For a function that is increasing and non-negative on a \u2264 x \u2264 b, the lower sum with rectangles of equal width uses the height of the function at:",
+   "imageRef": null,
+   "options": [
+    "the highest point of the whole graph",
+    "the left end of each interval",
+    "the right end of each interval",
+    "the midpoint of each interval"
+   ],
+   "correctIndex": 1,
+   "explanation": "On an increasing function the smallest value on each interval is at its left end, so the lower sum uses left-end heights. Right-end heights are the largest on each interval and give the upper sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0002",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The area under y = x\u00b2 from x = 0 to x = 2 is estimated with four rectangles of width 0.5. What is the lower sum?",
+   "imageRef": null,
+   "options": [
+    "3.75",
+    "2.75",
+    "3.5",
+    "1.75"
+   ],
+   "correctIndex": 3,
+   "explanation": "The function is increasing, so use the left ends 0, 0.5, 1 and 1.5: 0.5 \u00d7 (0 + 0.25 + 1 + 2.25) = 1.75. Using the right ends gives the upper sum, 3.75; 3.5 forgets to multiply the heights by the width.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0003",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The area under y = 4 \u2212 x\u00b2 from x = 0 to x = 2 is estimated with four rectangles of width 0.5. What is the upper sum?",
+   "imageRef": null,
+   "options": [
+    "12.5",
+    "6.25",
+    "4.25",
+    "5.25"
+   ],
+   "correctIndex": 1,
+   "explanation": "The function is decreasing here, so the greatest height on each interval is at its left end: 0.5 \u00d7 (4 + 3.75 + 3 + 1.75) = 6.25. The right ends give the lower sum, 4.25; 12.5 forgets to multiply by the width.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0004",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The area under y = 4 \u2212 x\u00b2 from x = \u22121 to x = 2 is estimated with three rectangles of width 1. What is the upper sum?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "11",
+    "10"
+   ],
+   "correctIndex": 2,
+   "explanation": "The turning point at x = 0 lies inside the domain, so take the greatest value on each interval: 4 on [\u22121, 0], 4 on [0, 1] and 3 on [1, 2], giving 11. Using left ends throughout gives 3 + 4 + 3 = 10, which misses the maximum on the first interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0005",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "For f(x) = x\u00b2 on 0 \u2264 x \u2264 2 with rectangles of width 0.5, by how much does the upper sum exceed the lower sum?",
+   "imageRef": null,
+   "options": [
+    "0.5",
+    "2",
+    "4",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "For an increasing function the difference is (f(2) \u2212 f(0)) \u00d7 width = 4 \u00d7 0.5 = 2, which matches 3.75 \u2212 1.75. Halving the width would halve this gap, which is why narrower rectangles give a better estimate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0006",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "What happens when the width of the rectangles in the upper and lower sums is made smaller?",
+   "imageRef": null,
+   "options": [
+    "The upper sum becomes smaller than the lower sum",
+    "Both sums move further from the exact area",
+    "Fewer rectangles are needed to span the domain",
+    "The sums move closer to the exact area"
+   ],
+   "correctIndex": 3,
+   "explanation": "Narrower rectangles fit the curve more closely, so the upper sum decreases and the lower sum increases towards the exact area. The cost is that more rectangles are needed, not fewer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0007",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The exact area under a curve, where f(x) \u2265 0, can be described as:",
+   "imageRef": null,
+   "options": [
+    "the upper sum calculated with the largest possible rectangles",
+    "the number between the upper and lower sums as the width approaches zero",
+    "the average of the upper and lower sums for any width of rectangle",
+    "the lower sum calculated with a width of exactly one unit"
+   ],
+   "correctIndex": 1,
+   "explanation": "As the width approaches zero the upper and lower sums close in on one unique number, and that number is the exact area. The average of the two sums is only an estimate unless the width tends to zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0008",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "A car speeds up steadily. Its velocity at t = 0, 1, 2 and 3 seconds is 0, 4, 6 and 7 m/s. What are the lower and upper estimates of the distance travelled from t = 0 to t = 3?",
+   "imageRef": null,
+   "options": [
+    "7 m and 17 m",
+    "10 m and 13.5 m",
+    "10 m and 17 m",
+    "17 m and 10 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Distance is the area under the velocity graph. With 1-second rectangles, the lower sum uses 0, 4 and 6 (10 m) and the upper sum uses 4, 6 and 7 (17 m). An average of the two, 13.5 m, is an estimate, not a bound.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0009",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "When f(x) \u2265 0 for a \u2264 x \u2264 b, the definite integral \u222b from a to b of f(x) dx gives:",
+   "imageRef": null,
+   "options": [
+    "the exact area between y = f(x) and the x-axis from a to b",
+    "the gradient of y = f(x) between x = a and x = b",
+    "the average of the values f(a) and f(b)",
+    "the length of the curve y = f(x) from a to b"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a non-negative function the definite integral is the exact area of the region bounded by the curve, the x-axis and the lines x = a and x = b. The gradient between two points comes from differentiation, not integration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0010",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Without anti-differentiating, find \u222b from 0 to 4 of (x/2 + 1) dx.",
+   "imageRef": null,
+   "options": [
+    "12",
+    "4",
+    "8",
+    "16"
+   ],
+   "correctIndex": 2,
+   "explanation": "The region under the line is a trapezium with parallel sides f(0) = 1 and f(4) = 3 and width 4, so its area is (1 + 3)/2 \u00d7 4 = 8. Rectangles of height 1 and 3 give the bounds 4 and 12, and 16 forgets to halve the sum of the parallel sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0011",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The curve y = \u221a(9 \u2212 x\u00b2) is the upper half of a circle centred at the origin. Find \u222b from \u22123 to 3 of \u221a(9 \u2212 x\u00b2) dx.",
+   "imageRef": null,
+   "options": [
+    "9\u03c0/2",
+    "9\u03c0",
+    "3\u03c0",
+    "6\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The region is a semicircle of radius 3, so its area is (1/2) \u00d7 \u03c0 \u00d7 3\u00b2 = 9\u03c0/2. The full circle would be 9\u03c0, and 3\u03c0 and 6\u03c0 use the radius or diameter in place of the radius squared.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0012",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "The fundamental theorem of calculus states that, if F\u2032(x) = f(x), then \u222b from a to b of f(x) dx equals:",
+   "imageRef": null,
+   "options": [
+    "F(b) \u00d7 F(a)",
+    "F(b) \u2212 F(a)",
+    "F(a) \u2212 F(b)",
+    "F\u2032(b) \u2212 F\u2032(a)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Evaluate an anti-derivative at the upper limit and subtract its value at the lower limit. Subtracting values of F\u2032, which is just f, skips the anti-differentiation step.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0013",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 1 to 3 of (3x\u00b2 \u2212 2x) dx.",
+   "imageRef": null,
+   "options": [
+    "10",
+    "12",
+    "18",
+    "\u221218"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is x\u00b3 \u2212 x\u00b2, so the integral is (27 \u2212 9) \u2212 (1 \u2212 1) = 18. Subtracting in the wrong order gives \u221218, and integrating 2x as 2x\u00b2 (without dividing by the new index) gives 10.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0014",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 0 to \u03c0/2 of cos(x) dx.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22121",
+    "0",
+    "\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "An anti-derivative of cos(x) is sin(x), so the integral is sin(\u03c0/2) \u2212 sin(0) = 1 \u2212 0 = 1. Taking \u2212sin(x) as the anti-derivative gives \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0015",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 0 to 1 of e^(2x) dx.",
+   "imageRef": null,
+   "options": [
+    "(e\u00b2 \u2212 1)/2",
+    "e\u00b2 \u2212 1",
+    "2(e\u00b2 \u2212 1)",
+    "e\u00b2/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "An anti-derivative of e^(2x) is e^(2x)/2, so the value is e\u00b2/2 \u2212 e\u2070/2 = (e\u00b2 \u2212 1)/2. Writing e\u00b2/2 forgets that e\u2070 = 1, not 0, and 2(e\u00b2 \u2212 1) multiplies by 2 instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0016",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 0 to \u03c0 of sin(x) dx.",
+   "imageRef": null,
+   "options": [
+    "\u22122",
+    "1",
+    "2",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative of sin(x) is \u2212cos(x), so the value is \u2212cos(\u03c0) \u2212 (\u2212cos(0)) = 1 + 1 = 2. Using cos(x) as the anti-derivative gives \u22122, and 0 comes from treating cos(\u03c0) and cos(0) as equal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0017",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 1 to 4 of 2/\u221ax dx.",
+   "imageRef": null,
+   "options": [
+    "4",
+    "8",
+    "2",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write 2/\u221ax as 2x^(\u22121/2); an anti-derivative is 4x^(1/2) = 4\u221ax. The value is 4\u221a4 \u2212 4\u221a1 = 8 \u2212 4 = 4. Stopping at 4\u221a4 = 8 forgets to subtract the value at the lower limit, and 2\u221ax or \u221ax as the anti-derivative gives 2 or 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0018",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 0 to 2 of (3x \u2212 1)\u00b2 dx.",
+   "imageRef": null,
+   "options": [
+    "42",
+    "126",
+    "124/9",
+    "14"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reversing the chain rule, an anti-derivative is (3x \u2212 1)\u00b3/9. The value is (125 \u2212 (\u22121))/9 = 126/9 = 14. Forgetting to divide by the 3 from the inner function gives 126/3 = 42, and taking (\u22121)\u00b3 as 1 gives 124/9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0019",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Evaluate \u222b from 0 to \u03c0/6 of sin(3x) dx.",
+   "imageRef": null,
+   "options": [
+    "3",
+    "\u22121/3",
+    "1/3",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is \u2212cos(3x)/3, so the value is (\u2212cos(\u03c0/2) + cos(0))/3 = (0 + 1)/3 = 1/3. Leaving out the division by 3 gives 1, and multiplying by 3 gives 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0020",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "For any function f, the value of \u222b from a to a of f(x) dx is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "a \u00d7 f(a)",
+    "0",
+    "f(a)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the fundamental theorem the value is F(a) \u2212 F(a) = 0: a region of zero width has zero area. The value f(a) is the height of the curve at that point, not an area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0021",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Given \u222b from 1 to 3 of f(x) dx = 5 and \u222b from 3 to 7 of f(x) dx = \u22122, find \u222b from 1 to 7 of f(x) dx.",
+   "imageRef": null,
+   "options": [
+    "\u221210",
+    "3",
+    "7",
+    "\u22123"
+   ],
+   "correctIndex": 1,
+   "explanation": "Integrals over adjoining intervals add: 5 + (\u22122) = 3. Getting 7 ignores the sign of the second integral, which is negative because f is mostly below the axis on that interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0022",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Given \u222b from 2 to 5 of f(x) dx = 4, find \u222b from 5 to 2 of f(x) dx.",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1/4",
+    "\u22121/4",
+    "\u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reversing the limits changes the sign: F(2) \u2212 F(5) = \u2212(F(5) \u2212 F(2)) = \u22124. The reciprocal values confuse reversing the limits with inverting the number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0023",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Given \u222b from 0 to 4 of f(x) dx = 6, find \u222b from 0 to 4 of (3f(x) \u2212 2) dx.",
+   "imageRef": null,
+   "options": [
+    "18",
+    "4",
+    "10",
+    "16"
+   ],
+   "correctIndex": 2,
+   "explanation": "Split the integral: 3 \u00d7 6 \u2212 \u222b from 0 to 4 of 2 dx = 18 \u2212 8 = 10. Subtracting just 2 instead of 2 \u00d7 4 gives 16; 18 drops the constant term altogether.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0024",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Given \u222b from 1 to 4 of f(x) dx = 10 and \u222b from 1 to 2 of f(x) dx = 3, find \u222b from 4 to 2 of f(x) dx.",
+   "imageRef": null,
+   "options": [
+    "7",
+    "\u221213",
+    "13",
+    "\u22127"
+   ],
+   "correctIndex": 3,
+   "explanation": "First \u222b from 2 to 4 of f(x) dx = 10 \u2212 3 = 7. Reversing the limits changes the sign, so the answer is \u22127. Adding 10 and 3 gives the wrong interval, and 7 forgets the reversal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0025",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find d/dx of \u222b from 1 to x of (t\u00b2 + 1) dt.",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + 1",
+    "x\u00b3/3 + x \u2212 4/3",
+    "2x",
+    "x\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Differentiating an integral with a variable upper limit returns the integrand at x, so the answer is x\u00b2 + 1. The expression x\u00b3/3 + x \u2212 4/3 is the integral itself, before it is differentiated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0026",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Let F(x) = \u222b from 0 to x of e^(\u2212t\u00b2) dt. Find F\u2032(1).",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22122e^(\u22121)",
+    "1 \u2212 e^(\u22121)",
+    "e^(\u22121)"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the fundamental theorem, F\u2032(x) = e^(\u2212x\u00b2), so F\u2032(1) = e^(\u22121). No anti-derivative of e^(\u2212t\u00b2) is needed; \u22122e^(\u22121) differentiates the integrand by mistake.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0027",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "If f(x) \u2264 0 for a \u2264 x \u2264 b, the area between y = f(x) and the x-axis over that interval is:",
+   "imageRef": null,
+   "options": [
+    "f(b) \u2212 f(a)",
+    "\u2212\u222b from a to b of f(x) dx",
+    "\u222b from a to b of f(x) dx",
+    "\u222b from b to a of \u2212f(x) dx"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integral of a function below the axis is negative, so its negative gives the positive area. Reversing the limits and negating f together cancel out, leaving the original negative integral.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0028",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the area between y = x\u00b2 \u2212 4 and the x-axis from x = 0 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "32/3",
+    "16/3",
+    "\u221216/3",
+    "8/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integral is [x\u00b3/3 \u2212 4x] from 0 to 2 = 8/3 \u2212 8 = \u221216/3. The curve is below the axis on this interval, so the area is 16/3; an area is never negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0029",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the total area between y = x\u00b2 \u2212 2x and the x-axis from x = 0 to x = 3.",
+   "imageRef": null,
+   "options": [
+    "0",
+    "4/3",
+    "\u22124/3",
+    "8/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve is below the axis on [0, 2] (integral \u22124/3) and above it on [2, 3] (integral 4/3). The total area is 4/3 + 4/3 = 8/3. Integrating straight from 0 to 3 gives 0 because the signed areas cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0030",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Why does \u222b from 0 to 2\u03c0 of sin(x) dx equal 0 when the curve clearly encloses some area with the x-axis?",
+   "imageRef": null,
+   "options": [
+    "Equal areas above and below the axis cancel",
+    "The sine curve touches the axis at both limits",
+    "The integral of a periodic function is always zero",
+    "The area of a curved region cannot be found exactly"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral counts area below the axis as negative. On [0, \u03c0] the area is 2 and on [\u03c0, 2\u03c0] the integral is \u22122, so the total is 0 while the actual area is 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0031",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "A function f is above the x-axis on [0, 2], where it encloses an area of 7, and below the axis on [2, 5]. If \u222b from 0 to 5 of f(x) dx = 3, what is the total area enclosed between f and the axis on [0, 5]?",
+   "imageRef": null,
+   "options": [
+    "11",
+    "10",
+    "3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral on [2, 5] is 3 \u2212 7 = \u22124, so the area there is 4, and the total area is 7 + 4 = 11. The value 3 is the signed integral, and 4 is only the part below the axis.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0032",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "If f(x) \u2265 g(x) for a \u2264 x \u2264 b, the area between the curves over that interval is:",
+   "imageRef": null,
+   "options": [
+    "\u222b from a to b of (f(x) \u2212 g(x)) dx",
+    "\u222b from a to b of (g(x) \u2212 f(x)) dx",
+    "\u222b from a to b of f(x) \u00d7 g(x) dx",
+    "\u222b from a to b of (f(x) + g(x)) dx"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract the lower curve from the upper curve and integrate; this works wherever the curves sit relative to the x-axis. Taking g \u2212 f gives the negative of the area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0033",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the area enclosed between y = x and y = x\u00b2.",
+   "imageRef": null,
+   "options": [
+    "5/6",
+    "1/6",
+    "1/2",
+    "1/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet at x = 0 and x = 1, and y = x is the upper curve there. The area is \u222b from 0 to 1 of (x \u2212 x\u00b2) dx = 1/2 \u2212 1/3 = 1/6. The values 1/2 and 1/3 are the areas under each curve separately.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0034",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the area enclosed between y = 4 \u2212 x\u00b2 and y = x + 2.",
+   "imageRef": null,
+   "options": [
+    "7/6",
+    "9",
+    "\u22129/2",
+    "9/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curves meet where x\u00b2 + x \u2212 2 = 0, at x = \u22122 and x = 1. The area is \u222b from \u22122 to 1 of (2 \u2212 x \u2212 x\u00b2) dx = 7/6 \u2212 (\u221210/3) = 9/2. The value 9 is the area under the parabola alone, and integrating the lower curve minus the upper one gives \u22129/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0035",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the total area enclosed between y = x\u00b3 and y = x from x = \u22121 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "1",
+    "1/2",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = x\u00b3 is above y = x on [\u22121, 0] and below it on [0, 1], with area 1/4 each, so the total is 1/2. Integrating x\u00b3 \u2212 x straight from \u22121 to 1 gives 0, because the two parts cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0036",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Find the area between y = e^x and the line y = 1 from x = 0 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "e \u2212 1",
+    "e",
+    "2 \u2212 e",
+    "e \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here e^x \u2265 1, so the area is \u222b from 0 to 1 of (e^x \u2212 1) dx = (e \u2212 1) \u2212 (1 \u2212 0) = e \u2212 2. The value e \u2212 1 is the area under y = e^x alone, and 2 \u2212 e subtracts the curves the wrong way round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0037",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Water flows into a tank at a rate r(t) litres per minute. What does the area under the graph of r against t from t = 2 to t = 10 represent?",
+   "imageRef": null,
+   "options": [
+    "The change in the rate of flow over the eight minutes",
+    "The average rate of flow at t = 6",
+    "The volume of water added from t = 2 to t = 10",
+    "The rate of flow at t = 10"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area under a rate graph is the change in the quantity: litres per minute multiplied by minutes gives litres. The change in the rate itself would come from the graph of r, not the area under it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0038",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "Water flows into a tank at r(t) = 6t \u2212 t\u00b2 litres per minute for 0 \u2264 t \u2264 6. How much water flows in over these six minutes?",
+   "imageRef": null,
+   "options": [
+    "36 L",
+    "9 L",
+    "108 L",
+    "72 L"
+   ],
+   "correctIndex": 0,
+   "explanation": "The volume is \u222b from 0 to 6 of (6t \u2212 t\u00b2) dt = [3t\u00b2 \u2212 t\u00b3/3] = 108 \u2212 72 = 36 L. The value 9 is the greatest flow rate (at t = 3), not a volume.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0039",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "A particle moves with velocity v(t) = 3t\u00b2 \u2212 12 m/s for 0 \u2264 t \u2264 3. What total distance does it travel?",
+   "imageRef": null,
+   "options": [
+    "23 m",
+    "9 m",
+    "16 m",
+    "7 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "v changes sign at t = 2. The integral from 0 to 2 is \u221216 and from 2 to 3 is 7, so the distance is 16 + 7 = 23 m. The single integral from 0 to 3 is \u22129, the displacement, which lets the two parts cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-definite-integrals-0040",
+   "topicId": "meth-sace-definite-integrals",
+   "stem": "A particle moves with velocity v(t) = t\u00b2 \u2212 4t + 3 m/s for 0 \u2264 t \u2264 3. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Displacement 0 m, distance 4/3 m",
+    "Displacement 0 m, distance 8/3 m",
+    "Displacement 8/3 m, distance 0 m",
+    "Displacement 4/3 m, distance 4/3 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = (t \u2212 1)(t \u2212 3) is positive on [0, 1] (integral 4/3) and negative on [1, 3] (integral \u22124/3). The displacement is 4/3 \u2212 4/3 = 0, but the distance is 4/3 + 4/3 = 8/3 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

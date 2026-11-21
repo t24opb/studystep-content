@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-sace-log-functions",
+ "questions": [
+  {
+   "id": "meth-sace-log-functions-0001",
+   "topicId": "meth-sace-log-functions",
+   "stem": "If y = e^x, then x expressed in terms of y is:",
+   "imageRef": null,
+   "options": [
+    "x = 1/e^y",
+    "x = y/e",
+    "x = log\u2081\u2080(y)",
+    "x = ln(y)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The natural logarithm is the logarithm to base e, so e^x = y means x = ln(y). A base-10 logarithm undoes 10^x, not e^x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0002",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Simplify e^(2 ln 3).",
+   "imageRef": null,
+   "options": [
+    "e\u2076",
+    "9",
+    "6",
+    "3e\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the power law, 2 ln 3 = ln(3\u00b2) = ln 9, and e^(ln 9) = 9 because e^x and ln x undo each other. Multiplying 2 by 3 to get 6 ignores the power law.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0003",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Write ln 12 \u2212 ln 3 + ln 2 as a single logarithm.",
+   "imageRef": null,
+   "options": [
+    "ln 11",
+    "ln 2",
+    "ln 18",
+    "ln 8"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtracting logarithms divides and adding multiplies: ln(12/3 \u00d7 2) = ln 8. Treating the laws as ln 12 \u2212 ln 3 + ln 2 = ln(12 \u2212 3 + 2) gives ln 11, which is not a log law.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0004",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Simplify 3 ln 2 \u2212 ln 4.",
+   "imageRef": null,
+   "options": [
+    "ln(1/2)",
+    "ln 2",
+    "ln 4",
+    "ln(3/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "3 ln 2 = ln 8, and ln 8 \u2212 ln 4 = ln(8/4) = ln 2. Treating 3 ln 2 as ln 6 instead of ln 2\u00b3 gives ln(6/4) = ln(3/2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0005",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Solve e^(2x) \u2212 5e^x + 6 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = ln 2 or x = ln 3",
+    "x = 2 or x = 3",
+    "x = ln 5 or x = ln 6",
+    "x = \u2212ln 2 or x = \u2212ln 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let u = e^x to get u\u00b2 \u2212 5u + 6 = 0, so u = 2 or u = 3. Then e^x = 2 or 3 gives x = ln 2 or ln 3. Stopping at u = 2 or 3 forgets to undo the substitution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0006",
+   "topicId": "meth-sace-log-functions",
+   "stem": "A colony grows according to P = 200e^(0.05t), where t is in days. How long does it take to reach 600, to two decimal places?",
+   "imageRef": null,
+   "options": [
+    "2.20 days",
+    "21.97 days",
+    "9.54 days",
+    "60.00 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "Solve e^(0.05t) = 3, so 0.05t = ln 3 and t = 20 ln 3 \u2248 21.97 days. Using log\u2081\u2080 3 in place of ln 3 gives 9.54, and 60 treats the growth as linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0007",
+   "topicId": "meth-sace-log-functions",
+   "stem": "At which x-value does the curve y = e^(2x) have a tangent with gradient 6?",
+   "imageRef": null,
+   "options": [
+    "x = ln 3",
+    "x = (ln 6)/2",
+    "x = ln 6",
+    "x = (ln 3)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "dy/dx = 2e^(2x) = 6 gives e^(2x) = 3, so 2x = ln 3 and x = (ln 3)/2. Writing (ln 6)/2 sets e^(2x) = 6 and forgets the factor 2 from the derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0008",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the gradient of the normal to y = e^x at the point where x = ln 2.",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "2",
+    "\u22121/2",
+    "\u22122"
+   ],
+   "correctIndex": 2,
+   "explanation": "The tangent gradient is e^(ln 2) = 2, and the normal is perpendicular, so its gradient is \u22121/2. The value 2 is the tangent gradient itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0009",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the minimum value of f(x) = e^(2x) \u2212 6e^x.",
+   "imageRef": null,
+   "options": [
+    "\u22125",
+    "ln 3",
+    "\u22126",
+    "\u22129"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u2032(x) = 2e^(2x) \u2212 6e^x = 2e^x(e^x \u2212 3) = 0 when e^x = 3, so x = ln 3 and f(ln 3) = 9 \u2212 18 = \u22129. The value ln 3 is where the minimum occurs, not the minimum value.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0010",
+   "topicId": "meth-sace-log-functions",
+   "stem": "The displacement of an object is x(t) = 5e^(\u22120.2t) metres. At what time is its velocity \u22120.5 m/s?",
+   "imageRef": null,
+   "options": [
+    "t = ln 2 s",
+    "t = 5 ln 2 s",
+    "t = 5 ln 10 s",
+    "t = 0.2 ln 2 s"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = \u2212e^(\u22120.2t). Setting \u2212e^(\u22120.2t) = \u22120.5 gives \u22120.2t = ln(0.5), so t = 5 ln 2 \u2248 3.47 s. Solving 5e^(\u22120.2t) = 0.5 instead uses the displacement and gives 5 ln 10.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0011",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For which values of x is f(x) = e^(2x) \u2212 4x decreasing?",
+   "imageRef": null,
+   "options": [
+    "x < ln 2",
+    "x < (ln 4)/2",
+    "x < (ln 2)/2",
+    "x > (ln 2)/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032(x) = 2e^(2x) \u2212 4 < 0 when e^(2x) < 2, that is x < (ln 2)/2. Solving e^(2x) < 4 forgets the 2 in the derivative, and the function is increasing for x > (ln 2)/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0012",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Which statement about the graph of y = ln(x) is correct?",
+   "imageRef": null,
+   "options": [
+    "It passes through (0, 0) and has asymptote x = 1",
+    "It passes through (e, 0) and has asymptote x = 0",
+    "It passes through (1, 0) and has asymptote x = 0",
+    "It passes through (0, 1) and has asymptote y = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "ln(1) = 0, so the x-intercept is at (1, 0), and the graph approaches the y-axis, x = 0, without reaching it. The point (0, 1) and asymptote y = 0 belong to y = e^x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0013",
+   "topicId": "meth-sace-log-functions",
+   "stem": "The graph of y = ln(x) is:",
+   "imageRef": null,
+   "options": [
+    "always decreasing",
+    "increasing, then decreasing",
+    "decreasing, then increasing",
+    "always increasing"
+   ],
+   "correctIndex": 3,
+   "explanation": "The derivative 1/x is positive for every x > 0, so the graph rises continuously, though ever more slowly. It has no turning point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0014",
+   "topicId": "meth-sace-log-functions",
+   "stem": "The graph of y = ln(x \u2212 2) has:",
+   "imageRef": null,
+   "options": [
+    "asymptote x = 2 and x-intercept 3",
+    "asymptote x = \u22122 and x-intercept \u22121",
+    "asymptote x = 2 and x-intercept 1",
+    "asymptote x = 0 and x-intercept 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replacing x by x \u2212 2 translates y = ln(x) 2 units right: the asymptote moves to x = 2 and the intercept from 1 to 3. Translating left would give asymptote x = \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0015",
+   "topicId": "meth-sace-log-functions",
+   "stem": "How is the graph of y = 3 ln(x) obtained from the graph of y = ln(x)?",
+   "imageRef": null,
+   "options": [
+    "Dilation by factor 3 from the x-axis",
+    "Dilation by factor 3 from the y-axis",
+    "Translation 3 units up",
+    "Dilation by factor 1/3 from the x-axis"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying the function by 3 stretches every y-value by 3, a dilation from the x-axis; the asymptote and x-intercept stay put. A translation up would add 3 to ln(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0016",
+   "topicId": "meth-sace-log-functions",
+   "stem": "How is the graph of y = ln(2x) obtained from the graph of y = ln(x)?",
+   "imageRef": null,
+   "options": [
+    "Dilation by factor 2 from the x-axis",
+    "Translation 2 units right",
+    "Dilation by factor 1/2 from the y-axis",
+    "Dilation by factor 2 from the y-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "Replacing x by 2x halves every x-value, a dilation by factor 1/2 from the y-axis; the x-intercept moves to 1/2. Since ln(2x) = ln 2 + ln x, it is also a translation up by ln 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0017",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the domain and x-intercept of y = 2 ln(3(x \u2212 1)).",
+   "imageRef": null,
+   "options": [
+    "x > 1/3, intercept 2/3",
+    "x > 1, intercept 4/3",
+    "x > 1, intercept 2",
+    "x > 3, intercept 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The logarithm needs 3(x \u2212 1) > 0, so x > 1. The graph crosses the axis where 3(x \u2212 1) = 1, that is x = 4/3. Setting x \u2212 1 = 1 forgets the factor 3 and gives 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0018",
+   "topicId": "meth-sace-log-functions",
+   "stem": "How are the graphs of y = e^x and y = ln(x) related?",
+   "imageRef": null,
+   "options": [
+    "Each is the reflection of the other in the x-axis",
+    "Each is the reflection of the other in the y-axis",
+    "One is the other translated one unit right",
+    "Each is the reflection of the other in y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "e^x and ln(x) are inverse functions, so swapping x and y maps one graph to the other: a reflection in y = x. The intercept (0, 1) on y = e^x becomes (1, 0) on y = ln(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0019",
+   "topicId": "meth-sace-log-functions",
+   "stem": "The point (2, e\u00b2) lies on y = e^x. Which point must lie on y = ln(x)?",
+   "imageRef": null,
+   "options": [
+    "(e\u00b2, \u22122)",
+    "(e\u00b2, 2)",
+    "(2, ln 2)",
+    "(\u22122, e\u00b2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reflecting in y = x swaps the coordinates, giving (e\u00b2, 2); check: ln(e\u00b2) = 2. The point (2, ln 2) is on y = ln(x) too, but it is not the image of (2, e\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0020",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Which description fits the graph of y = \u2212ln(x + 1)?",
+   "imageRef": null,
+   "options": [
+    "Decreasing, through (1, 0), asymptote x = 0",
+    "Decreasing, through (0, 0), asymptote x = 1",
+    "Decreasing, through (0, 0), asymptote x = \u22121",
+    "Increasing, through (0, 0), asymptote x = \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "Translating y = ln(x) one unit left moves the intercept to (0, 0) and the asymptote to x = \u22121, and the minus sign reflects it in the x-axis, so it decreases. Without the reflection it would increase.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0021",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the x-intercept of y = ln(x) + 2.",
+   "imageRef": null,
+   "options": [
+    "\u22122",
+    "ln 2",
+    "e^(\u22122)",
+    "e\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set ln(x) = \u22122, so x = e^(\u22122) \u2248 0.135. The graph of ln(x) shifted up 2 crosses the axis to the left of x = 1. Solving ln(x) = 2 gives e\u00b2, the wrong sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0022",
+   "topicId": "meth-sace-log-functions",
+   "stem": "A graph of the form y = k ln(x \u2212 c) has asymptote x = 2 and passes through (2 + e, 4). What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 4 ln(x + 2)",
+    "y = 2 ln(x \u2212 2)",
+    "y = e ln(x \u2212 2)",
+    "y = 4 ln(x \u2212 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The asymptote gives c = 2. At x = 2 + e, ln(e) = 1, so y = k = 4. An asymptote at x = 2 needs x \u2212 2 in the logarithm, not x + 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0023",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 0, d/dx ln(x) equals:",
+   "imageRef": null,
+   "options": [
+    "1/x",
+    "ln(x)/x",
+    "e^x",
+    "\u22121/x\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The derivative of ln(x) is 1/x, which is positive for all x > 0, so the graph always increases. The expression \u22121/x\u00b2 is the derivative of 1/x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0024",
+   "topicId": "meth-sace-log-functions",
+   "stem": "If y = ln(f(x)), then dy/dx equals:",
+   "imageRef": null,
+   "options": [
+    "1/f\u2032(x)",
+    "ln(f\u2032(x))",
+    "f\u2032(x)/f(x)",
+    "f(x)/f\u2032(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the chain rule, dy/dx = (1/f(x)) \u00d7 f\u2032(x) = f\u2032(x)/f(x). Inverting the fraction is a common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0025",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 0, find d/dx ln(3/x).",
+   "imageRef": null,
+   "options": [
+    "x/3",
+    "1/x",
+    "\u22121/x",
+    "\u22123/x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "ln(3/x) = ln 3 \u2212 ln x, and ln 3 is a constant, so the derivative is \u22121/x. Writing 1/x misses the minus sign that comes from dividing by x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0026",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For \u22122 < x < 2, find d/dx ln(4 \u2212 x\u00b2).",
+   "imageRef": null,
+   "options": [
+    "2x/(4 \u2212 x\u00b2)",
+    "\u22122x ln(4 \u2212 x\u00b2)",
+    "\u22122x/(4 \u2212 x\u00b2)",
+    "1/(4 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Use f\u2032(x)/f(x) with f(x) = 4 \u2212 x\u00b2 and f\u2032(x) = \u22122x. Leaving out the chain-rule factor gives 1/(4 \u2212 x\u00b2), and dropping the sign of \u22122x gives 2x/(4 \u2212 x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0027",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 2/5, find d/dx ln(5x \u2212 2).",
+   "imageRef": null,
+   "options": [
+    "1/(5x \u2212 2)",
+    "5 ln(5x \u2212 2)",
+    "1/(5x)",
+    "5/(5x \u2212 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The inner function 5x \u2212 2 has derivative 5, so dy/dx = 5/(5x \u2212 2). Forgetting the chain rule gives 1/(5x \u2212 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0028",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 0, find d/dx (x\u00b2 ln(x)).",
+   "imageRef": null,
+   "options": [
+    "2x ln(x) + 1",
+    "2x ln(x) + x",
+    "2x ln(x)",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the product rule, 2x \u00d7 ln(x) + x\u00b2 \u00d7 (1/x) = 2x ln(x) + x. Differentiating only the first factor gives 2x ln(x), and 2 multiplies the two derivatives, 2x \u00d7 1/x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0029",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 0, \u222b 1/x dx equals:",
+   "imageRef": null,
+   "options": [
+    "x\u2070/0 + c",
+    "\u22121/x\u00b2 + c",
+    "e^x + c",
+    "ln(x) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since d/dx ln(x) = 1/x, the anti-derivative is ln(x) + c. The power rule fails here: raising the index \u22121 to 0 would mean dividing by 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0030",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > \u22121/2, \u222b 1/(2x + 1) dx equals:",
+   "imageRef": null,
+   "options": [
+    "(1/2) ln(2x + 1) + c",
+    "2 ln(2x + 1) + c",
+    "ln(2x + 1) + c",
+    "ln(x\u00b2 + x) + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using \u222b 1/(ax + b) dx = (1/a) ln(ax + b) + c with a = 2 gives (1/2) ln(2x + 1) + c. Multiplying by 2 instead of dividing gives 2 ln(2x + 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0031",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Evaluate \u222b from 1 to e of 1/x dx.",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1",
+    "e \u2212 1",
+    "1/e"
+   ],
+   "correctIndex": 1,
+   "explanation": "The value is ln(e) \u2212 ln(1) = 1 \u2212 0 = 1. The value e \u2212 1 integrates 1/x as if it were the constant 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0032",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Evaluate \u222b from 0 to 2 of 3/(3x + 2) dx.",
+   "imageRef": null,
+   "options": [
+    "3 ln 4",
+    "(1/3) ln 4",
+    "ln 4",
+    "ln 8"
+   ],
+   "correctIndex": 2,
+   "explanation": "Here 3 is the derivative of 3x + 2, so an anti-derivative is ln(3x + 2), and the value is ln 8 \u2212 ln 2 = ln 4. Taking ln 8 alone forgets the lower limit, where ln 2 \u2260 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0033",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Evaluate \u222b from 1 to 4 of 2/x dx.",
+   "imageRef": null,
+   "options": [
+    "ln 8",
+    "ln 6",
+    "2 ln 3",
+    "ln 16"
+   ],
+   "correctIndex": 3,
+   "explanation": "The value is 2(ln 4 \u2212 ln 1) = 2 ln 4 = ln 16. Writing 2 ln 4 as ln 8 multiplies inside the logarithm instead of raising to a power.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0034",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Given that d/dx ln(x\u00b2 + 1) = 2x/(x\u00b2 + 1), evaluate \u222b from 0 to 1 of 2x/(x\u00b2 + 1) dx.",
+   "imageRef": null,
+   "options": [
+    "2 ln 2",
+    "ln 2",
+    "1",
+    "ln(1/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "An anti-derivative is ln(x\u00b2 + 1), so the value is ln 2 \u2212 ln 1 = ln 2. Evaluating the integrand at the limits instead gives 1 \u2212 0 = 1, and ln(1/2) subtracts in the wrong order.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0035",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For a > 1, the area under y = 1/x from x = 1 to x = a is 2. Find a.",
+   "imageRef": null,
+   "options": [
+    "3",
+    "e\u00b2",
+    "2e",
+    "ln 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The area is ln(a) \u2212 ln(1) = ln(a), so ln(a) = 2 and a = e\u00b2. The answer ln 2 swaps the roles of the logarithm and the exponential.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0036",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the equation of the tangent to y = ln(x) at the point where x = e.",
+   "imageRef": null,
+   "options": [
+    "y = x/e + 1",
+    "y = x \u2212 e + 1",
+    "y = x/e",
+    "y = ex \u2212 e\u00b2 + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient is 1/e and the point is (e, 1). Then y \u2212 1 = (1/e)(x \u2212 e) gives y = x/e. Using gradient 1 gives y = x \u2212 e + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0037",
+   "topicId": "meth-sace-log-functions",
+   "stem": "Find the minimum value of y = x \u2212 ln(x) for x > 0.",
+   "imageRef": null,
+   "options": [
+    "e \u2212 1",
+    "2",
+    "1",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 1 \u2212 1/x = 0 at x = 1, where y = 1 \u2212 0 = 1; the derivative is negative before x = 1 and positive after, so this is a minimum. The value 0 is ln(1), not y.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0038",
+   "topicId": "meth-sace-log-functions",
+   "stem": "For x > 0, the function f(x) = ln(x)/x has its maximum at:",
+   "imageRef": null,
+   "options": [
+    "x = 1",
+    "x = 1/e",
+    "x = e\u00b2",
+    "x = e"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the quotient rule f\u2032(x) = (1 \u2212 ln x)/x\u00b2, which is zero when ln x = 1, that is x = e. At x = 1 the function is zero, not a maximum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0039",
+   "topicId": "meth-sace-log-functions",
+   "stem": "An object has displacement s(t) = ln(t + 1) metres for t \u2265 0. What is its velocity at t = 3?",
+   "imageRef": null,
+   "options": [
+    "0.33 m/s",
+    "1 m/s",
+    "0.25 m/s",
+    "ln 4 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "v = 1/(t + 1), so at t = 3 the velocity is 1/4 = 0.25 m/s. The value ln 4 is the displacement at t = 3, and 1/3 forgets the + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-log-functions-0040",
+   "topicId": "meth-sace-log-functions",
+   "stem": "A student's test score after t weeks of practice is modelled by S(t) = 20 + 15 ln(t + 1). At what rate is the score increasing at t = 4?",
+   "imageRef": null,
+   "options": [
+    "3 marks per week",
+    "15 marks per week",
+    "3.75 marks per week",
+    "24.1 marks per week"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2032(t) = 15/(t + 1), so S\u2032(4) = 15/5 = 3 marks per week. Using 15/4 forgets the + 1, and 24.1 is the value of 15 ln 5, not a rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-log-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

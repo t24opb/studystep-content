@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-qce-graphs-networks",
+ "questions": [
+  {
+   "id": "gm-qce-graphs-networks-0001",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A simple graph is a graph that has:",
+   "imageRef": null,
+   "options": [
+    "every vertex joined to every other vertex by exactly one edge",
+    "only one route between each pair of vertices and no cycles",
+    "no loops and no multiple edges between the same pair of vertices",
+    "no vertices of odd degree and no edges that cross each other"
+   ],
+   "correctIndex": 2,
+   "explanation": "A simple graph has at most one edge between any two vertices and no loops. A graph with every pair of vertices joined is a complete graph, which is one special kind of simple graph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0002",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A complete graph is a simple graph in which:",
+   "imageRef": null,
+   "options": [
+    "every vertex has an even degree and the graph is connected",
+    "every edge has a weight such as a distance, time or cost",
+    "every vertex can be reached from every other vertex by some walk",
+    "every vertex is joined to every other vertex by an edge"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a complete graph each pair of distinct vertices is joined by exactly one edge. Being reachable by some walk only makes a graph connected, which is a much weaker condition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0003",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A bipartite graph is a graph in which:",
+   "imageRef": null,
+   "options": [
+    "the vertices split into two groups and every edge joins two vertices that are in the same group",
+    "the edges split into two groups, one with weights on its edges and one without weights",
+    "there are exactly two vertices of odd degree and all of the other vertices have even degree",
+    "the vertices split into two groups and every edge joins a vertex in one group to a vertex in the other"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a bipartite graph no edge joins two vertices in the same group. A graph joining workers to jobs is a typical example, since workers are only ever joined to jobs.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0004",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A weighted graph is a graph in which:",
+   "imageRef": null,
+   "options": [
+    "each pair of vertices is joined by at least one edge of the graph",
+    "each edge has a number attached, such as a distance, time or cost",
+    "each vertex has a number attached showing how many edges meet there",
+    "each edge has an arrow showing the one direction it can be travelled"
+   ],
+   "correctIndex": 1,
+   "explanation": "The numbers on the edges of a weighted graph give a quantity such as kilometres or minutes. The number of edges meeting at a vertex is its degree, which every graph has.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0005",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A town map shows intersections as vertices and streets as edges. Several streets are one-way. The most suitable graph is:",
+   "imageRef": null,
+   "options": [
+    "a directed graph",
+    "a bipartite graph",
+    "a complete graph",
+    "a planar subgraph"
+   ],
+   "correctIndex": 0,
+   "explanation": "A directed graph (digraph) has arrows on its edges, so it can show that a one-way street can only be travelled in one direction. A bipartite graph splits the vertices into two groups, which does not fit a street map.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0006",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A subgraph of a graph G is:",
+   "imageRef": null,
+   "options": [
+    "a graph made by adding new edges between vertices of G",
+    "a graph with the same number of vertices and edges as G",
+    "a graph made by adding one new vertex and its edges to G",
+    "a graph whose vertices and edges all belong to G"
+   ],
+   "correctIndex": 3,
+   "explanation": "A subgraph is part of the original graph: every one of its vertices and edges is also in G. Adding new edges or vertices makes a larger graph, not a subgraph.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0007",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges AB, BC, CD, DB and a loop at D. The degree of vertex D is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "2",
+    "5",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Vertex D is on edges CD and DB, giving 2, and a loop adds 2 to the degree because both of its ends meet the vertex. So the degree of D is 4. Counting the loop once gives 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0008",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Seven teams play a round-robin competition, in which each team plays every other team once. The number of matches is:",
+   "imageRef": null,
+   "options": [
+    "42",
+    "14",
+    "28",
+    "21"
+   ],
+   "correctIndex": 3,
+   "explanation": "The competition is the complete graph on 7 vertices, with n(n \u2212 1)/2 = 7 \u00d7 6 \u00f7 2 = 21 edges. Using 7 \u00d7 6 = 42 counts each match twice, once for each team.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0009",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has five vertices with degrees 4, 3, 3, 2 and 2. The number of edges is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "7",
+    "14",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The degrees add to 4 + 3 + 3 + 2 + 2 = 14, and the sum of the degrees is twice the number of edges, so there are 14 \u00f7 2 = 7 edges. Giving 14 forgets to halve the total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0010",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Which list of vertex degrees is impossible for any graph?",
+   "imageRef": null,
+   "options": [
+    "5, 1, 1, 1, 1, 1",
+    "3, 2, 2, 1, 1, 2",
+    "3, 3, 2, 2, 1, 1",
+    "4, 2, 2, 2, 1, 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum of the degrees must be even, because it equals twice the number of edges. The list 3, 2, 2, 1, 1, 2 adds to 11, which is odd, so no graph can have it. The other lists add to 12, 12 and 10.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0011",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Workers Jo, Kim and Lee can each do some of the jobs painting, tiling and wiring. Edges join each worker to every job they can do. This graph is:",
+   "imageRef": null,
+   "options": [
+    "complete, because every worker is joined to every job",
+    "directed, because each worker chooses a job to do",
+    "planar, because no worker is joined to another worker",
+    "bipartite, because edges only join a worker to a job"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vertices form two groups, workers and jobs, and every edge joins one group to the other, so the graph is bipartite. It need not be complete, because a worker may not be able to do every job.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0012",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has vertices A, B, C and D and adjacency matrix [0 1 1 0; 1 0 1 0; 1 1 0 1; 0 0 1 0], with rows in the order A, B, C, D separated by semicolons. The degree of vertex C is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The degree of a vertex in a graph with no loops is the sum of its row. Row C is 1, 1, 0, 1, so C has degree 3. Vertex C is joined to A, B and D.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0013",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "For the graph with adjacency matrix [0 1 1 0; 1 0 1 0; 1 1 0 1; 0 0 1 0] (rows A, B, C, D), the number of edges is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "8",
+    "3",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The entries add to 8, and in an undirected graph each edge appears twice, once in each of its two vertices' rows. So there are 8 \u00f7 2 = 4 edges: AB, AC, BC and CD.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0014",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has vertices P, Q and R, two edges joining Q and R, and one edge joining P and Q. Its adjacency matrix, with rows and columns in the order P, Q, R, is:",
+   "imageRef": null,
+   "options": [
+    "[1 1 0; 1 1 2; 0 2 1]",
+    "[0 1 0; 1 0 2; 0 2 0]",
+    "[0 1 0; 1 0 1; 0 1 0]",
+    "[0 2 0; 2 0 1; 0 1 0]"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two edges between Q and R give a 2 in row Q, column R and in row R, column Q. The matrix of an undirected graph is symmetric, and with no loops its main diagonal is all zeros.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0015",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Results of a round-robin are shown by a digraph with an arrow from each winner to the team it beat. A beat B, C and D; B beat C; D beat B and C. Using rows for winners, in the order A, B, C, D, the row for D is:",
+   "imageRef": null,
+   "options": [
+    "[1 1 1 0]",
+    "[0 1 1 0]",
+    "[1 0 0 0]",
+    "[0 1 1 1]"
+   ],
+   "correctIndex": 1,
+   "explanation": "With rows for winners, row D has a 1 in each column of a team D beat, which are B and C. The entry for A is 0 because A beat D, so that arrow runs from A to D and appears in row A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0016",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A digraph has adjacency matrix [0 1 0; 0 0 1; 1 1 0], rows and columns in the order X, Y, Z, where the entry in row i, column j counts the arrows from i to j. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "Every vertex has exactly one arrow leaving it and one arriving",
+    "Z has arrows to both X and Y, but only Y has an arrow to Z",
+    "X has arrows to both Y and Z, but only Z has an arrow to X",
+    "Y has arrows to both X and Z, and both of them have arrows to Y"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row Z is 1, 1, 0, so there are arrows from Z to X and from Z to Y. Column Z is 0, 1, 0, so only Y has an arrow to Z. The matrix is not symmetric, as expected for a digraph.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0017",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A planar graph is a graph that:",
+   "imageRef": null,
+   "options": [
+    "has every vertex joined to every other vertex once",
+    "can be drawn in the plane so that no two edges cross",
+    "has been drawn in the plane with all of its edges straight",
+    "has at least one face that is fully enclosed by edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "A graph is planar if it can be redrawn so that its edges meet only at vertices. A drawing with crossings can still be of a planar graph if some other drawing has none.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0018",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "For a connected planar graph, Euler's formula is:",
+   "imageRef": null,
+   "options": [
+    "v + e \u2212 f = 2",
+    "v \u2212 f + e = 2",
+    "v + f + e = 2",
+    "v + f \u2212 e = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "With v vertices, f faces and e edges, v + f \u2212 e = 2. A cube, for example, has 8 vertices, 6 faces and 12 edges, and 8 + 6 \u2212 12 = 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0019",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "When counting the faces of a planar graph for Euler's formula:",
+   "imageRef": null,
+   "options": [
+    "only the regions completely enclosed by edges are counted",
+    "each enclosed region is counted once for every edge around it",
+    "the outside region is counted only when the graph is a tree",
+    "the unbounded region outside the graph counts as one face"
+   ],
+   "correctIndex": 3,
+   "explanation": "Faces are the regions the edges divide the plane into, and the infinite outside region is always one of them. A tree, for example, has just one face: the outside region.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0020",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected planar graph has 7 vertices and 11 edges. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "4",
+    "16",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "From v + f \u2212 e = 2, 7 + f \u2212 11 = 2, so f = 6. Forgetting the outside face would give 5, and adding instead of subtracting the edges gives other wrong values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0021",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected planar graph has 9 edges and divides the plane into 5 faces. The number of vertices is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "16",
+    "6",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "From v + f \u2212 e = 2, v + 5 \u2212 9 = 2, so v = 6. Mixing up the signs, as in v \u2212 f + e = 2, gives v = \u22122, which is impossible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0022",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A park map is a connected planar graph with 10 camp sites as vertices. The tracks divide the map into 7 regions, including the region outside all the tracks. The number of tracks is:",
+   "imageRef": null,
+   "options": [
+    "17",
+    "14",
+    "19",
+    "15"
+   ],
+   "correctIndex": 3,
+   "explanation": "The regions are the faces, so f = 7. From v + f \u2212 e = 2, 10 + 7 \u2212 e = 2, so e = 15. Leaving out the outside region would give f = 6 and e = 14.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0023",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected planar graph has 6 vertices, each of degree 4. The number of faces is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "12",
+    "4",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The degrees add to 6 \u00d7 4 = 24, so there are 24 \u00f7 2 = 12 edges. Then 6 + f \u2212 12 = 2 gives f = 8. Giving 12 confuses the number of edges with the number of faces.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0024",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph is drawn with two of its edges crossing. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "It must be planar, because only one pair of its edges is crossing",
+    "It cannot be connected, because crossing edges do not share a vertex",
+    "It may still be planar, if it can be redrawn with no crossing edges",
+    "It cannot be planar, because a planar graph never has crossing edges"
+   ],
+   "correctIndex": 2,
+   "explanation": "Planarity depends on whether some drawing exists with no crossings, not on one particular drawing. The complete graph on 4 vertices, for example, is often drawn with crossing diagonals but can be redrawn without them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0025",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "In graph theory, a trail is a walk in which:",
+   "imageRef": null,
+   "options": [
+    "no edge is repeated",
+    "no vertex is repeated",
+    "every edge is used",
+    "every vertex is used"
+   ],
+   "correctIndex": 0,
+   "explanation": "A trail may revisit a vertex but never uses the same edge twice. A walk with no repeated vertex is a path, which is a stricter condition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0026",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A closed trail is also called a:",
+   "imageRef": null,
+   "options": [
+    "circuit",
+    "cycle",
+    "bridge",
+    "subgraph"
+   ],
+   "correctIndex": 0,
+   "explanation": "A closed trail, which starts and finishes at the same vertex without repeating an edge, is a circuit. A cycle is a closed path, so it also has no repeated vertex apart from the start and finish.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0027",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected graph is one in which:",
+   "imageRef": null,
+   "options": [
+    "there is a path between every pair of vertices",
+    "every vertex is joined directly to every other vertex",
+    "every vertex has the same degree as every other vertex",
+    "every edge lies on at least one cycle of the graph"
+   ],
+   "correctIndex": 0,
+   "explanation": "Connected means you can get from any vertex to any other by following edges. Being joined directly to every other vertex makes a graph complete, which is much stronger.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0028",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges AB, BC, CD, DA and AC. The walk A-B-C-A-D is:",
+   "imageRef": null,
+   "options": [
+    "a closed trail (circuit)",
+    "a walk but not a trail",
+    "an open trail but not a path",
+    "an open path"
+   ],
+   "correctIndex": 2,
+   "explanation": "The walk uses four different edges, AB, BC, CA and AD, so it is a trail, and it starts at A and finishes at D, so it is open. Vertex A appears twice, so it is not a path.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0029",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges PQ, QR, RP, PS, ST and TP. The walk P-Q-R-P-S-T-P is:",
+   "imageRef": null,
+   "options": [
+    "a walk but not a trail",
+    "a circuit but not a cycle",
+    "a cycle",
+    "an open trail"
+   ],
+   "correctIndex": 1,
+   "explanation": "No edge is repeated and the walk returns to P, so it is a closed trail, which is a circuit. Vertex P is also visited in the middle of the walk, so it is not a closed path and therefore not a cycle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0030",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges PQ, QR, RS, SP, RT, TU, UV and VT. Which edge is a bridge?",
+   "imageRef": null,
+   "options": [
+    "QR",
+    "TU",
+    "SP",
+    "RT"
+   ],
+   "correctIndex": 3,
+   "explanation": "Removing RT separates P, Q, R, S from T, U, V, so RT is a bridge. Each of the other edges lies on a cycle, P-Q-R-S-P or T-U-V-T, so removing it leaves the graph connected.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0031",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Roads join towns: A-B 6 km, A-C 3 km, B-C 2 km, B-D 5 km, C-E 10 km, B-E 7 km, D-E 3 km, D-F 8 km and E-F 4 km. The shortest route from A to F is:",
+   "imageRef": null,
+   "options": [
+    "A-C-B-E-F",
+    "A-B-E-F",
+    "A-C-E-F",
+    "A-B-D-F"
+   ],
+   "correctIndex": 0,
+   "explanation": "A-C-B-E-F is 3 + 2 + 7 + 4 = 16 km. A-B-E-F and A-C-E-F are both 17 km, and A-B-D-F is 19 km. Going to B through C saves 1 km on the direct road from A to B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0032",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "Edges: S-P 4, S-Q 7, P-Q 2, P-R 9, Q-R 3, Q-T 10 and R-T 4 (minutes). The length of the shortest path from S to T is:",
+   "imageRef": null,
+   "options": [
+    "13 minutes",
+    "14 minutes",
+    "16 minutes",
+    "17 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "S-P-Q-R-T takes 4 + 2 + 3 + 4 = 13 minutes. Going straight from S to Q gives S-Q-R-T, 14 minutes, and using the edge Q-T gives S-P-Q-T, 16 minutes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0033",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected graph is Eulerian, meaning it has an Eulerian circuit, when:",
+   "imageRef": null,
+   "options": [
+    "every vertex has the same degree",
+    "every vertex has an even degree",
+    "exactly two vertices have an odd degree",
+    "every vertex has an odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "An Eulerian circuit uses every edge once and returns to the start, so each visit to a vertex uses an edge in and an edge out, which needs even degrees. Exactly two odd vertices gives a semi-Eulerian graph instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0034",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected graph has vertex degrees P 3, Q 2, R 3 and S 2. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It is Eulerian, with an Eulerian circuit starting at Q",
+    "It is semi-Eulerian, with an Eulerian trail from Q to S",
+    "It is neither Eulerian nor semi-Eulerian",
+    "It is semi-Eulerian, with an Eulerian trail from P to R"
+   ],
+   "correctIndex": 3,
+   "explanation": "Exactly two vertices, P and R, have odd degree, so the graph is semi-Eulerian. An Eulerian trail must start at one odd vertex and finish at the other, so it runs between P and R.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0035",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A road inspector must drive along every road in a district exactly once, starting at the depot and finishing back at the depot. In graph terms, the inspector needs:",
+   "imageRef": null,
+   "options": [
+    "a Hamiltonian cycle",
+    "an Eulerian trail that is open",
+    "a Hamiltonian path",
+    "an Eulerian circuit"
+   ],
+   "correctIndex": 3,
+   "explanation": "Travelling every edge exactly once and returning to the start is an Eulerian circuit. A Hamiltonian cycle visits every vertex once, which suits a route that must call at every town rather than cover every road.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0036",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A connected graph has exactly four vertices of odd degree. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It is semi-Eulerian but not Eulerian",
+    "It is Eulerian, because four is even",
+    "It is Eulerian once one edge is removed",
+    "It is neither Eulerian nor semi-Eulerian"
+   ],
+   "correctIndex": 3,
+   "explanation": "An Eulerian circuit needs no odd vertices and an Eulerian trail needs exactly two, so four odd vertices allows neither. The number of odd vertices is always even, but the condition is about how many there are.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0037",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A Hamiltonian path is a walk that:",
+   "imageRef": null,
+   "options": [
+    "returns to its starting vertex after using every edge",
+    "uses only the edges of lowest weight in the graph",
+    "visits every vertex of the graph exactly once",
+    "uses every edge of the graph exactly once"
+   ],
+   "correctIndex": 2,
+   "explanation": "A Hamiltonian path passes through each vertex once and need not use every edge. Using every edge exactly once describes an Eulerian trail.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0038",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges AB, BC, CD, DE, EA, AC, BE and CE. Which route is a Hamiltonian cycle?",
+   "imageRef": null,
+   "options": [
+    "A-C-D-E-C-B-A",
+    "A-C-D-E-B-A",
+    "A-B-C-E-D-A",
+    "A-C-E-B-A"
+   ],
+   "correctIndex": 1,
+   "explanation": "A-C-D-E-B-A uses edges AC, CD, DE, EB and BA, all in the graph, and visits each vertex once before returning to A. A-B-C-E-D-A needs edge DA, which is not in the graph, A-C-E-B-A misses D, and A-C-D-E-C-B-A visits C twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0039",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A graph has edges AB, BC, CD, DA and DE. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "It is Hamiltonian: the cycle E-D-A-B-C-E visits every vertex just once",
+    "It is neither, because vertex E is joined to only one other vertex",
+    "It is semi-Hamiltonian: it has a Hamiltonian path but no Hamiltonian cycle",
+    "It is Hamiltonian: the cycle A-B-C-D-A visits every vertex of the graph"
+   ],
+   "correctIndex": 2,
+   "explanation": "E has degree 1, so a cycle could not pass through it, and A-B-C-D-A misses E. But E-D-A-B-C is a Hamiltonian path, so the graph is semi-Hamiltonian. The route E-D-A-B-C-E would need an edge CE, which the graph does not have.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-graphs-networks-0040",
+   "topicId": "gm-qce-graphs-networks",
+   "stem": "A courier leaves depot D, visits towns A, B and C once each, and returns to D. Distances (km): D-A 12, D-B 15, D-C 9, A-B 7, A-C 11, B-C 8. By trial and error, the shortest such route is:",
+   "imageRef": null,
+   "options": [
+    "24 km",
+    "36 km",
+    "42 km",
+    "46 km"
+   ],
+   "correctIndex": 1,
+   "explanation": "The three possible cycles are D-A-B-C-D (12 + 7 + 8 + 9 = 36 km), D-A-C-B-D (46 km) and D-B-A-C-D (42 km); reversing a route gives the same length. The shortest Hamiltonian cycle is 36 km. 24 km leaves out the return to the depot.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-graphs-networks-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

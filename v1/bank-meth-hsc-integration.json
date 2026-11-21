@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-hsc-integration",
+ "questions": [
+  {
+   "id": "meth-hsc-integration-0001",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the primitive of f(x) = 4x\u00b3 + x\u00b2 \u2212 5x + 1?",
+   "imageRef": null,
+   "options": [
+    "x\u2074 + x\u00b3 \u2212 5x\u00b2/2 + x + C",
+    "x\u2074 + x\u00b3/3 \u2212 5x\u00b2/2 + x + C",
+    "x\u2074 + x\u00b3/3 \u2212 5x\u00b2 + x + C",
+    "12x\u00b2 + 2x \u2212 5 + C"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise each index by 1 and divide by the new index, term by term, and add C: 4x\u00b3 gives x\u2074, x\u00b2 gives x\u00b3/3, \u22125x gives \u22125x\u00b2/2 and 1 gives x. The expression 12x\u00b2 + 2x \u2212 5 is the derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0002",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the primitive of f(p) = 1/\u221ap?",
+   "imageRef": null,
+   "options": [
+    "\u22121/(2p\u221ap) + C",
+    "2\u221ap + C",
+    "(1/2)\u221ap + C",
+    "\u22122\u221ap + C"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write 1/\u221ap as p^(\u22121/2). Adding 1 to the index gives p^(1/2), and dividing by 1/2 doubles it: 2\u221ap + C. The expression \u22121/(2p\u221ap) is the derivative of 1/\u221ap.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0003",
+   "topicId": "meth-hsc-integration",
+   "stem": "A function F has F\u2032(x) = 0 for every real x. Then F must be:",
+   "imageRef": null,
+   "options": [
+    "an increasing function",
+    "a constant function",
+    "a linear function",
+    "the zero function"
+   ],
+   "correctIndex": 1,
+   "explanation": "A derivative that is everywhere zero means the graph is flat everywhere, so F(x) = C for some constant. It need not be the zero function: F(x) = 7 also has derivative 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0004",
+   "topicId": "meth-hsc-integration",
+   "stem": "If F(x) and G(x) are both primitives of f(x), then F(x) \u2212 G(x) is:",
+   "imageRef": null,
+   "options": [
+    "always zero",
+    "a constant",
+    "equal to f(x)",
+    "a multiple of x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both have derivative f(x), so F \u2212 G has derivative 0 and is a constant. That is why the general primitive is written F(x) + C. The difference need not be zero, since x\u00b2 and x\u00b2 + 3 are both primitives of 2x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0005",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the primitive of g(r) = (r\u2075 \u2212 2r\u00b3)/r\u00b2?",
+   "imageRef": null,
+   "options": [
+    "r\u2076/6 \u2212 r\u2074/2 + C",
+    "3r\u00b2 \u2212 2 + C",
+    "r\u2074/4 \u2212 r\u00b2 + C",
+    "r\u2074/4 \u2212 2r\u00b2 + C"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide first: g(r) = r\u00b3 \u2212 2r. Its primitive is r\u2074/4 \u2212 2r\u00b2/2 = r\u2074/4 \u2212 r\u00b2 + C. Integrating the top and bottom separately is not a valid rule, and 3r\u00b2 \u2212 2 is the derivative of r\u00b3 \u2212 2r.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0006",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the primitive of (5 \u2212 2x)\u00b3?",
+   "imageRef": null,
+   "options": [
+    "\u2212(5 \u2212 2x)\u2074/8 + C",
+    "(5 \u2212 2x)\u2074/8 + C",
+    "\u2212(5 \u2212 2x)\u2074/2 + C",
+    "\u22126(5 \u2212 2x)\u00b2 + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "For (ax + b)\u207f the primitive is (ax + b)\u207f\u207a\u00b9/(a(n + 1)). Here a = \u22122 and n + 1 = 4, so divide by \u22128. Dropping the negative sign of a gives (5 \u2212 2x)\u2074/8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0007",
+   "topicId": "meth-hsc-integration",
+   "stem": "Given f\u2032(x) = 3x\u00b2 \u2212 4x and f(2) = 5, find f(x).",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b3 \u2212 2x\u00b2 \u2212 3",
+    "f(x) = x\u00b3 \u2212 4x\u00b2 + 13",
+    "f(x) = x\u00b3 \u2212 2x\u00b2 + 5",
+    "f(x) = x\u00b3 \u2212 2x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The primitive is f(x) = x\u00b3 \u2212 2x\u00b2 + C, and f(2) = 8 \u2212 8 + C = 5 gives C = 5. Forgetting to halve the 4x term gives x\u00b3 \u2212 4x\u00b2, which then leads to C = 13.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0008",
+   "topicId": "meth-hsc-integration",
+   "stem": "A car's velocity is positive throughout a journey. The area under its velocity-time graph over an interval represents:",
+   "imageRef": null,
+   "options": [
+    "the final velocity",
+    "the distance travelled",
+    "the acceleration",
+    "the average velocity"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each thin strip has area v \u00d7 \u0394t, which is the distance covered in that small time. Adding the strips gives the total distance. Acceleration is the gradient of the velocity-time graph, not the area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0009",
+   "topicId": "meth-hsc-integration",
+   "stem": "If f(x) < 0 throughout a \u2264 x \u2264 b, where a < b, then the integral of f(x) from a to b is:",
+   "imageRef": null,
+   "options": [
+    "undefined",
+    "negative",
+    "positive",
+    "zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integral is the limit of sums of f(x)\u0394x, and every term is negative when f(x) < 0 and \u0394x > 0. The area of the region is still positive; it equals the negative of the integral.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0010",
+   "topicId": "meth-hsc-integration",
+   "stem": "Informally, a function is continuous on a \u2264 x \u2264 b if:",
+   "imageRef": null,
+   "options": [
+    "its values are positive throughout the interval",
+    "its graph can be drawn between the endpoints without lifting the pen",
+    "its graph has a turning point somewhere in the interval",
+    "its values at the two endpoints are equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is the informal definition the syllabus uses: no breaks, jumps or asymptotes between x = a and x = b. A continuous function can be negative, can have unequal endpoint values, and need not turn.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0011",
+   "topicId": "meth-hsc-integration",
+   "stem": "Using the area of a circle, what is the integral of \u221a(4 \u2212 x\u00b2) from x = 0 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u03c0",
+    "2\u03c0",
+    "4\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = \u221a(4 \u2212 x\u00b2) is the upper half of the circle x\u00b2 + y\u00b2 = 4, of radius 2. From 0 to 2 the region is a quarter circle, with area (1/4) \u00d7 \u03c0 \u00d7 2\u00b2 = \u03c0. The value 4\u03c0 is the whole circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0012",
+   "topicId": "meth-hsc-integration",
+   "stem": "Using areas of triangles, what is the integral of (x \u2212 1) from x = 0 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "5",
+    "3.5",
+    "\u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "The line is below the axis from 0 to 1 (a triangle of area 1/2) and above it from 1 to 4 (area 9/2). The integral counts the lower part as negative: 9/2 \u2212 1/2 = 4. Adding the two areas gives 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0013",
+   "topicId": "meth-hsc-integration",
+   "stem": "The values of f are f(0) = 3, f(1) = 5, f(2) = 6, f(3) = 4 and f(4) = 2. Use the Trapezoidal rule with four subintervals to estimate the integral of f from 0 to 4.",
+   "imageRef": null,
+   "options": [
+    "35",
+    "18",
+    "20",
+    "17.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "With h = 1, the estimate is (h/2)[f(0) + 2(f(1) + f(2) + f(3)) + f(4)] = (1/2)(3 + 30 + 2) = 17.5. Forgetting the factor h/2 gives 35. The value 18 is the left-endpoint rectangle sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0014",
+   "topicId": "meth-hsc-integration",
+   "stem": "Use the Trapezoidal rule with two subintervals to estimate the integral of 2\u02e3 from x = 0 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "9",
+    "6",
+    "3",
+    "4.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "With h = 1 and heights 1, 2 and 4, the estimate is (1/2)(1 + 2 \u00d7 2 + 4) = 4.5. The exact value is 3/ln 2 \u2248 4.33, so the estimate is high, as expected for a curve that is concave up. The values 6 and 3 are right and left rectangle sums.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0015",
+   "topicId": "meth-hsc-integration",
+   "stem": "Rectangle sums are used to estimate the area under y = x\u00b2 from x = 0 to x = 1. Which estimate is certain to be less than the exact area?",
+   "imageRef": null,
+   "options": [
+    "Every rectangle sum, whatever the heights",
+    "The left-endpoint rectangle sum",
+    "The right-endpoint rectangle sum",
+    "The Trapezoidal rule estimate"
+   ],
+   "correctIndex": 1,
+   "explanation": "y = x\u00b2 is increasing on [0, 1], so the left endpoint of each strip is its lowest point and every left rectangle fits under the curve. Right-endpoint rectangles stick out above it, and because the curve is concave up the trapezia overestimate too.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0016",
+   "topicId": "meth-hsc-integration",
+   "stem": "If A(x) is the integral of f(t) from t = 0 to t = x, then A\u2032(x) equals:",
+   "imageRef": null,
+   "options": [
+    "f(x)",
+    "f\u2032(x)",
+    "x \u00d7 f(x)",
+    "f(x) \u2212 f(0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A(x) is a primitive of f(x), which is the Fundamental Theorem of Calculus. Differentiating A therefore gives back f(x), not f\u2032(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0017",
+   "topicId": "meth-hsc-integration",
+   "stem": "For x \u2260 0, what is the integral of 1/x with respect to x?",
+   "imageRef": null,
+   "options": [
+    "ln|x| + C",
+    "ln x + C",
+    "\u22121/x\u00b2 + C",
+    "x ln|x| + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "For x > 0 the derivative of ln x is 1/x, and for x < 0 the derivative of ln(\u2212x) is also 1/x, so ln|x| covers both. Writing ln x is undefined for negative x. The power rule fails because it would divide by 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0018",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of 2\u02e3 with respect to x?",
+   "imageRef": null,
+   "options": [
+    "2\u02e3 ln 2 + C",
+    "2^(x + 1)/(x + 1) + C",
+    "x \u00d7 2^(x \u2212 1) + C",
+    "2\u02e3/ln 2 + C"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since d/dx(2\u02e3) = (ln 2)2\u02e3, dividing by ln 2 gives a primitive: 2\u02e3/ln 2 + C. The power rule does not apply because the variable is in the index, not the base.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0019",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of sec\u00b2x with respect to x?",
+   "imageRef": null,
+   "options": [
+    "tan x + C",
+    "sec x tan x + C",
+    "\u2212tan x + C",
+    "2sec x + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "d/dx(tan x) = sec\u00b2x, so the integral of sec\u00b2x is tan x + C. The expression sec x tan x is the derivative of sec x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0020",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of (4x + 8)(x\u00b2 + 4x \u2212 3)\u00b3 with respect to x.",
+   "imageRef": null,
+   "options": [
+    "(x\u00b2 + 4x \u2212 3)\u2074/2 + C",
+    "(x\u00b2 + 4x \u2212 3)\u2074/4 + C",
+    "2(x\u00b2 + 4x \u2212 3)\u2074 + C",
+    "(x\u00b2 + 4x \u2212 3)\u2074/8 + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "The derivative of u = x\u00b2 + 4x \u2212 3 is 2x + 4, and 4x + 8 = 2(2x + 4). So the integral is 2 \u00d7 u\u2074/4 = u\u2074/2 + C. Ignoring the factor 2 gives u\u2074/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0021",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of 3x\u00b2e^(x\u00b3) with respect to x.",
+   "imageRef": null,
+   "options": [
+    "e^(x\u00b3) + C",
+    "x\u00b3e^(x\u00b3) + C",
+    "3e^(x\u00b3) + C",
+    "e^(x\u00b3)/(3x\u00b2) + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "3x\u00b2 is the derivative of x\u00b3, so this has the form f\u2032(x)e^(f(x)), whose integral is e^(f(x)) + C. Check: d/dx(e^(x\u00b3)) = 3x\u00b2e^(x\u00b3). Dividing by 3x\u00b2 is not a valid rule, because x is not a constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0022",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of 2x/(x\u00b2 + 1) with respect to x.",
+   "imageRef": null,
+   "options": [
+    "ln(x\u00b2 + 1) + C",
+    "2ln(x\u00b2 + 1) + C",
+    "x\u00b2 ln(x\u00b2 + 1) + C",
+    "\u22121/(x\u00b2 + 1) + C"
+   ],
+   "correctIndex": 0,
+   "explanation": "The numerator 2x is the derivative of the denominator, so the integral of f\u2032(x)/f(x) is ln|f(x)| + C. As x\u00b2 + 1 > 0, the absolute value bars are not needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0023",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of 1/(2x + 5) with respect to x.",
+   "imageRef": null,
+   "options": [
+    "ln|2x + 5| + C",
+    "\u22122/(2x + 5)\u00b2 + C",
+    "(1/2)ln|2x + 5| + C",
+    "2ln|2x + 5| + C"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of 1/(ax + b) is (1/a)ln|ax + b| + C, here with a = 2. Multiplying by 2 instead of dividing is the common slip; check by differentiating, which brings out a factor 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0024",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of sin(2x \u2212 1) with respect to x.",
+   "imageRef": null,
+   "options": [
+    "(1/2)cos(2x \u2212 1) + C",
+    "\u22122cos(2x \u2212 1) + C",
+    "(1/2)sin(2x \u2212 1) + C",
+    "\u2212(1/2)cos(2x \u2212 1) + C"
+   ],
+   "correctIndex": 3,
+   "explanation": "The integral of sin x is \u2212cos x, and for sin(ax + b) divide by a = 2. Dropping the negative sign gives (1/2)cos(2x \u2212 1), whose derivative is \u2212sin(2x \u2212 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0025",
+   "topicId": "meth-hsc-integration",
+   "stem": "Find the integral of x cos(x\u00b2) with respect to x.",
+   "imageRef": null,
+   "options": [
+    "(x\u00b2/2)sin(x\u00b2) + C",
+    "(1/2)sin(x\u00b2) + C",
+    "2sin(x\u00b2) + C",
+    "sin(x\u00b2) + C"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of x\u00b2 is 2x, so x cos(x\u00b2) = (1/2) \u00d7 2x cos(x\u00b2), which has the form (1/2)f\u2032(x)cos f(x). Its integral is (1/2)sin(x\u00b2) + C. Check: d/dx((1/2)sin(x\u00b2)) = x cos(x\u00b2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0026",
+   "topicId": "meth-hsc-integration",
+   "stem": "Given that the integral of g(x) from x = 2 to x = 5 is \u22123, what is the integral of g(x) from x = 5 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "1/3",
+    "0",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swapping the limits changes the sign: the integral from b to a is minus the integral from a to b. So the answer is \u2212(\u22123) = 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0027",
+   "topicId": "meth-hsc-integration",
+   "stem": "The integral of f(x) from 0 to 2 is 3 and the integral of f(x) from 2 to 6 is \u22125. What is the integral of f(x) from 0 to 6?",
+   "imageRef": null,
+   "options": [
+    "\u22122",
+    "8",
+    "2",
+    "\u22128"
+   ],
+   "correctIndex": 0,
+   "explanation": "Integrals over adjoining intervals add: 3 + (\u22125) = \u22122. Adding the sizes, 3 + 5 = 8, would give a total area, not the integral.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0028",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of e^(2x) from x = 0 to x = ln 3?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "4",
+    "8",
+    "9/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The primitive is e^(2x)/2, so the value is (e^(2 ln 3) \u2212 e\u2070)/2 = (9 \u2212 1)/2 = 4. Leaving out the 1/2 gives 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0029",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of sec\u00b2x from x = 0 to x = \u03c0/4?",
+   "imageRef": null,
+   "options": [
+    "\u221a2",
+    "2",
+    "\u03c0/4",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The primitive is tan x, and tan(\u03c0/4) \u2212 tan 0 = 1 \u2212 0 = 1. The values \u221a2 and 2 are sec(\u03c0/4) and sec\u00b2(\u03c0/4), the integrand at the upper limit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0030",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of 3\u02e3 from x = 0 to x = 1?",
+   "imageRef": null,
+   "options": [
+    "2/ln 3",
+    "2 ln 3",
+    "3/ln 3",
+    "1/ln 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The primitive is 3\u02e3/ln 3, so the value is (3 \u2212 1)/ln 3 = 2/ln 3. The answer 3/ln 3 forgets that 3\u2070 = 1 must be subtracted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0031",
+   "topicId": "meth-hsc-integration",
+   "stem": "For k > 0, the integral of (2x + 1) from x = 0 to x = k equals 6. What is k?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "\u221a6",
+    "2",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral is k\u00b2 + k, so k\u00b2 + k \u2212 6 = (k + 3)(k \u2212 2) = 0. Since k > 0, k = 2. The root \u22123 is rejected by the condition, and \u221a6 ignores the + 1 in the integrand.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0032",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of sin x cos x from x = 0 to x = \u03c0/2?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1",
+    "0",
+    "\u22121/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos x is the derivative of sin x, so sin x cos x has primitive (sin\u00b2x)/2. The value is (1 \u2212 0)/2 = 1/2. Both factors are positive on the interval, so the answer cannot be 0 or negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0033",
+   "topicId": "meth-hsc-integration",
+   "stem": "A curve crosses the x-axis between x = a and x = b. Two regions above the axis have areas 5 and 2, and one region below has area 3. What is the integral of f from a to b?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "0",
+    "\u22124",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The integral is the area above the axis minus the area below: 5 + 2 \u2212 3 = 4. The total area enclosed, 10, adds all three regions as positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0034",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the area enclosed by y = x\u00b2 \u2212 2x, the x-axis and the lines x = 0 and x = 3?",
+   "imageRef": null,
+   "options": [
+    "8/3",
+    "0",
+    "4/3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The curve is below the axis on [0, 2], where the integral is \u22124/3, and above it on [2, 3], where the integral is 4/3. The area is 4/3 + 4/3 = 8/3. A single integral from 0 to 3 gives 0, because the parts cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0035",
+   "topicId": "meth-hsc-integration",
+   "stem": "For x \u2265 0, what is the area bounded by y = x\u00b2, the y-axis and the lines y = 1 and y = 4?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "7/3",
+    "16/3",
+    "14/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "With respect to the y-axis, x = \u221ay, so the area is the integral of \u221ay from y = 1 to y = 4: (2/3)(8 \u2212 1) = 14/3. Integrating x\u00b2 from x = 1 to x = 4 finds an area against the x-axis instead and gives 21.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0036",
+   "topicId": "meth-hsc-integration",
+   "stem": "y = ln x and y = e\u02e3 are reflections of each other in y = x. Using this, the integral of ln x from x = 1 to x = e is:",
+   "imageRef": null,
+   "options": [
+    "1/e",
+    "1",
+    "e \u2212 1",
+    "e"
+   ],
+   "correctIndex": 1,
+   "explanation": "The region under y = ln x from 1 to e is the e by 1 rectangle minus the region between y = ln x and the y-axis, which is the integral of e\u02b8 from 0 to 1, e \u2212 1. So the integral is e \u2212 (e \u2212 1) = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0037",
+   "topicId": "meth-hsc-integration",
+   "stem": "What is the integral of (x\u2075 \u2212 4x) from x = \u22123 to x = 3?",
+   "imageRef": null,
+   "options": [
+    "103.5",
+    "\u221236",
+    "0",
+    "207"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u2075 \u2212 4x is an odd function, so the signed areas on either side of the origin cancel exactly over the symmetric interval. Doubling the integral from 0 to 3, 103.5, to get 207 is the rule for even functions, not odd ones.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0038",
+   "topicId": "meth-hsc-integration",
+   "stem": "Using symmetry, what is the integral of (x\u00b2 + 1) from x = \u22122 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "16/3",
+    "28/3",
+    "0",
+    "14/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b2 + 1 is even, so the integral is twice the integral from 0 to 2: 2 \u00d7 (8/3 + 2) = 28/3. The answer 0 applies only to odd functions, and 14/3 is the half before doubling.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0039",
+   "topicId": "meth-hsc-integration",
+   "stem": "A Lorenz curve y = f(x) on 0 \u2264 x \u2264 1 has f(0) = 0, f(1) = 1 and f(x) \u2264 x. Which of these could be a Lorenz curve?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b2 + 1",
+    "f(x) = 2x \u2212 x\u00b2",
+    "f(x) = x\u00b3",
+    "f(x) = \u221ax"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b3 passes through (0, 0) and (1, 1) and lies on or below y = x on [0, 1]. Both \u221ax and 2x \u2212 x\u00b2 pass through those points but lie above y = x, and x\u00b2 + 1 has f(0) = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-integration-0040",
+   "topicId": "meth-hsc-integration",
+   "stem": "The Gini coefficient for a Lorenz curve y = f(x) is G = 2 \u00d7 (integral of (x \u2212 f(x)) from 0 to 1). What is G for f(x) = x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "2/3",
+    "1/2",
+    "1/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The integral of x \u2212 x\u00b2 from 0 to 1 is 1/2 \u2212 1/3 = 1/6, and doubling gives G = 1/3. Stopping at 1/6 leaves out the factor 2 in the definition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

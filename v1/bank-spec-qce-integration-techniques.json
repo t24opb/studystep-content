@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-qce-integration-techniques",
+ "questions": [
+  {
+   "id": "spec-qce-integration-techniques-0001",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of sec\u00b2(x) is:",
+   "imageRef": null,
+   "options": [
+    "sec(x) tan(x) + c",
+    "sec\u00b3(x)/3 + c",
+    "\u2212cot(x) + c",
+    "tan(x) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since d/dx tan(x) = sec\u00b2(x), the integral of sec\u00b2(x) is tan(x) + c. The expression sec(x) tan(x) is the derivative of sec(x), not an anti-derivative of sec\u00b2(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0002",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using sin\u00b2(x) = (1/2)(1 \u2212 cos(2x)), an anti-derivative of sin\u00b2(x) is:",
+   "imageRef": null,
+   "options": [
+    "x/2 \u2212 sin(2x)/4 + c",
+    "x/2 + sin(2x)/4 + c",
+    "sin\u00b3(x)/3 + c",
+    "x/2 \u2212 sin(2x)/2 + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral of (1/2)(1 \u2212 cos(2x)) is (1/2)(x \u2212 sin(2x)/2) = x/2 \u2212 sin(2x)/4 + c. Writing sin(2x)/2 forgets to divide by 2 for the inner function 2x, and sin\u00b3(x)/3 wrongly treats sin(x) as if it were x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0003",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using cos\u00b2(x) = (1/2)(1 + cos(2x)), an anti-derivative of cos\u00b2(4x) is:",
+   "imageRef": null,
+   "options": [
+    "x/2 + sin(4x)/8 + c",
+    "x/2 + sin(8x)/16 + c",
+    "x/2 + sin(8x)/8 + c",
+    "x/2 \u2212 sin(8x)/16 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos\u00b2(4x) = (1/2)(1 + cos(8x)), whose integral is x/2 + (1/2)(sin(8x)/8) = x/2 + sin(8x)/16 + c. The double angle of 4x is 8x, not 4x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0004",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using 1 + tan\u00b2(x) = sec\u00b2(x), an anti-derivative of tan\u00b2(x) is:",
+   "imageRef": null,
+   "options": [
+    "tan(x) + x + c",
+    "tan\u00b3(x)/3 + c",
+    "sec(x) \u2212 x + c",
+    "tan(x) \u2212 x + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "tan\u00b2(x) = sec\u00b2(x) \u2212 1, so the integral is tan(x) \u2212 x + c. Adding x comes from writing tan\u00b2(x) = sec\u00b2(x) + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0005",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using cot\u00b2(x) + 1 = cosec\u00b2(x), an anti-derivative of cot\u00b2(x) is:",
+   "imageRef": null,
+   "options": [
+    "cot(x) \u2212 x + c",
+    "\u2212cot(x) + x + c",
+    "cot\u00b3(x)/3 + c",
+    "\u2212cot(x) \u2212 x + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "cot\u00b2(x) = cosec\u00b2(x) \u2212 1, and d/dx cot(x) = \u2212cosec\u00b2(x), so the integral of cosec\u00b2(x) is \u2212cot(x). The result is \u2212cot(x) \u2212 x + c. Forgetting the negative in the derivative of cot(x) gives cot(x) \u2212 x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0006",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of sin\u00b2(x) from x = 0 to x = \u03c0/2 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "\u03c0/2",
+    "1/2",
+    "\u03c0/4 \u2212 1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "[x/2 \u2212 sin(2x)/4] from 0 to \u03c0/2 = (\u03c0/4 \u2212 sin(\u03c0)/4) \u2212 0 = \u03c0/4. The term \u22121/2 would come from evaluating sin(2x) as 1 at x = \u03c0/2, but sin(\u03c0) = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0007",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of sec\u00b2(x) from x = 0 to x = \u03c0/4 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "2",
+    "1",
+    "\u221a2"
+   ],
+   "correctIndex": 2,
+   "explanation": "[tan(x)] from 0 to \u03c0/4 = tan(\u03c0/4) \u2212 tan(0) = 1 \u2212 0 = 1. The value \u221a2 is sec(\u03c0/4), which comes from integrating to sec(x) by mistake.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0008",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For x \u2260 0, an anti-derivative of 1/x is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/x\u00b2 + c",
+    "x\u2070/0 + c",
+    "ln|x| + c",
+    "ln(x) + c, which also holds for x < 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx ln|x| = 1/x for both x > 0 and x < 0, so the anti-derivative is ln|x| + c. ln(x) is undefined for x < 0, and the power rule fails for x\u207b\u00b9 because it would divide by 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0009",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of 2x/(x\u00b2 + 5) is:",
+   "imageRef": null,
+   "options": [
+    "ln(x\u00b2 + 5) + c",
+    "2 ln(x\u00b2 + 5) + c",
+    "x\u00b2 ln(x\u00b2 + 5) + c",
+    "\u22121/(x\u00b2 + 5) + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "The numerator 2x is the derivative of the denominator x\u00b2 + 5, so the integral is ln|x\u00b2 + 5| + c, and x\u00b2 + 5 > 0 means the absolute value can be dropped. The factor 2 is already used as f\u2032(x), so there is no extra 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0010",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Writing tan(x) = sin(x)/cos(x), an anti-derivative of tan(x) is:",
+   "imageRef": null,
+   "options": [
+    "ln|cos(x)| + c",
+    "ln|sin(x)| + c",
+    "sec\u00b2(x) + c",
+    "\u2212ln|cos(x)| + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "The derivative of cos(x) is \u2212sin(x), so sin(x)/cos(x) = \u2212f\u2032(x)/f(x) with f(x) = cos(x). The integral is \u2212ln|cos(x)| + c. sec\u00b2(x) is the derivative of tan(x), not an anti-derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0011",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using the substitution u = x\u00b2 \u2212 3, an anti-derivative of x(x\u00b2 \u2212 3)\u2074 is:",
+   "imageRef": null,
+   "options": [
+    "2(x\u00b2 \u2212 3)\u2075/5 + c",
+    "(x\u00b2 \u2212 3)\u2075/10 + c",
+    "(x\u00b2 \u2212 3)\u2075/5 + c",
+    "x\u00b2(x\u00b2 \u2212 3)\u2075/10 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "du/dx = 2x, so x dx = du/2 and the integral becomes (1/2) \u222b u\u2074 du = u\u2075/10 + c = (x\u00b2 \u2212 3)\u2075/10 + c. Forgetting the factor 1/2 gives (x\u00b2 \u2212 3)\u2075/5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0012",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of sin(x) cos\u2074(x) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212sin\u2075(x)/5 + c",
+    "\u2212cos\u2075(x)/5 + c",
+    "cos\u2075(x)/5 + c",
+    "sin\u00b2(x) cos\u2075(x)/10 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "With u = cos(x), du/dx = \u2212sin(x), so the integral is \u2212\u222b u\u2074 du = \u2212u\u2075/5 + c = \u2212cos\u2075(x)/5 + c. The positive version forgets the negative sign in du = \u2212sin(x) dx.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0013",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of sec\u00b2(x) e^(tan(x)) is:",
+   "imageRef": null,
+   "options": [
+    "e^(tan(x)) + c",
+    "tan(x) e^(tan(x)) + c",
+    "e^(sec\u00b2(x)) + c",
+    "e^(tan(x)) sec\u00b2(x) + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "With u = tan(x), du/dx = sec\u00b2(x), so the integral is \u222b e^u du = e^u + c = e^(tan(x)) + c. The factor sec\u00b2(x) is used up as du/dx, so it does not appear in the answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0014",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using a substitution, the value of the integral of x\u221a(1 \u2212 x\u00b2) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/2",
+    "1/3",
+    "2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "With u = 1 \u2212 x\u00b2, du = \u22122x dx, and the bounds x = 0, 1 become u = 1, 0. The integral is (1/2) \u222b from 0 to 1 of \u221au du = (1/2)(2/3) = 1/3. Forgetting the factor 1/2 gives 2/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0015",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For x > 1, an anti-derivative of 1/(x ln(x)) is:",
+   "imageRef": null,
+   "options": [
+    "1/ln(x) + c",
+    "ln(x) ln(ln(x)) + c",
+    "ln(ln(x)) + c",
+    "ln(x)\u00b2/2 + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write it as (1/x)/ln(x): the numerator 1/x is the derivative of the denominator ln(x), so the integral is ln|ln(x)| + c, and ln(x) > 0 for x > 1. The expression ln(x)\u00b2/2 is the anti-derivative of ln(x)/x instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0016",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The range of the function y = cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "[\u22121, 1]",
+    "[0, \u03c0]",
+    "[\u2212\u03c0/2, \u03c0/2]",
+    "(\u2212\u03c0/2, \u03c0/2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos\u207b\u00b9 is the inverse of cos restricted to [0, \u03c0], so its outputs lie in [0, \u03c0]. The interval [\u2212\u03c0/2, \u03c0/2] is the range of sin\u207b\u00b9, and [\u22121, 1] is the domain of cos\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0017",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The domain and range of y = tan\u207b\u00b9(x) are:",
+   "imageRef": null,
+   "options": [
+    "domain [\u22121, 1] and range (\u2212\u03c0/2, \u03c0/2)",
+    "domain (\u2212\u03c0/2, \u03c0/2) and range \u211d",
+    "domain \u211d and range (\u2212\u03c0/2, \u03c0/2)",
+    "domain \u211d and range [\u2212\u03c0/2, \u03c0/2]"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan\u207b\u00b9 is defined for every real number, and its outputs approach but never reach \u00b1\u03c0/2, so the range is the open interval (\u2212\u03c0/2, \u03c0/2). Swapping the domain and range describes tan(x) on its restricted domain.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0018",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The exact value of sin\u207b\u00b9(\u2212\u221a3/2) is:",
+   "imageRef": null,
+   "options": [
+    "4\u03c0/3",
+    "5\u03c0/3",
+    "\u2212\u03c0/6",
+    "\u2212\u03c0/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9 gives the angle in [\u2212\u03c0/2, \u03c0/2] with the given sine: sin(\u2212\u03c0/3) = \u2212\u221a3/2. The angles 4\u03c0/3 and 5\u03c0/3 also have sine \u2212\u221a3/2, but they lie outside the range of sin\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0019",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The exact value of cos\u207b\u00b9(\u2212\u221a2/2) is:",
+   "imageRef": null,
+   "options": [
+    "3\u03c0/4",
+    "\u2212\u03c0/4",
+    "5\u03c0/4",
+    "\u03c0/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos\u207b\u00b9 gives the angle in [0, \u03c0] with the given cosine: cos(3\u03c0/4) = \u2212\u221a2/2. \u2212\u03c0/4 has cosine +\u221a2/2 and lies outside the range of cos\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0020",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The exact value of cos(sin\u207b\u00b9(5/13)) is:",
+   "imageRef": null,
+   "options": [
+    "\u221212/13",
+    "5/12",
+    "12/13",
+    "5/13"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let \u03b8 = sin\u207b\u00b9(5/13), so sin \u03b8 = 5/13 with \u03b8 in [\u2212\u03c0/2, \u03c0/2]. Then cos \u03b8 = \u221a(1 \u2212 25/169) = 12/13, positive because \u03b8 is in [\u2212\u03c0/2, \u03c0/2]. The value 5/12 is tan \u03b8, the opposite side over the adjacent side of the triangle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0021",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22121 \u2264 x \u2264 1, the derivative of sin\u207b\u00b9(x) + cos\u207b\u00b9(x) is 0. Hence sin\u207b\u00b9(x) + cos\u207b\u00b9(x) equals:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "1",
+    "\u03c0/2",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "A function with derivative 0 on an interval is constant. At x = 0 the sum is 0 + \u03c0/2 = \u03c0/2, so sin\u207b\u00b9(x) + cos\u207b\u00b9(x) = \u03c0/2 throughout. The derivatives 1/\u221a(1 \u2212 x\u00b2) and \u22121/\u221a(1 \u2212 x\u00b2) cancel, but that does not make the sum 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0022",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22124 < x < 4, the derivative of sin\u207b\u00b9(x/4) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "4/\u221a(16 \u2212 x\u00b2)",
+    "1/\u221a(4 \u2212 x\u00b2)",
+    "\u22121/\u221a(16 \u2212 x\u00b2)",
+    "1/\u221a(16 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "d/dx sin\u207b\u00b9(x/a) = 1/\u221a(a\u00b2 \u2212 x\u00b2), with a = 4, gives 1/\u221a(16 \u2212 x\u00b2). The negative version is the derivative of cos\u207b\u00b9(x/4).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0023",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The derivative of tan\u207b\u00b9(x/3) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "1/(9 + x\u00b2)",
+    "1/(3 + x\u00b2)",
+    "3/(1 + x\u00b2)",
+    "3/(9 + x\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "d/dx tan\u207b\u00b9(x/a) = a/(a\u00b2 + x\u00b2), with a = 3, gives 3/(9 + x\u00b2). Leaving out the a in the numerator gives 1/(9 + x\u00b2), which is out by a factor of 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0024",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22121/2 < x < 1/2, the derivative of cos\u207b\u00b9(2x) with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "\u22122/\u221a(1 \u2212 2x\u00b2)",
+    "\u22122/\u221a(1 \u2212 4x\u00b2)",
+    "\u22121/\u221a(1 \u2212 4x\u00b2)",
+    "2/\u221a(1 \u2212 4x\u00b2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the chain rule, d/dx cos\u207b\u00b9(u) = \u2212(1/\u221a(1 \u2212 u\u00b2)) du/dx with u = 2x, giving \u22122/\u221a(1 \u2212 4x\u00b2). Leaving out du/dx = 2 gives \u22121/\u221a(1 \u2212 4x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0025",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22125 < x < 5, an anti-derivative of 1/\u221a(25 \u2212 x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "sin\u207b\u00b9(x/25) + c",
+    "5 sin\u207b\u00b9(x/5) + c",
+    "tan\u207b\u00b9(x/5) + c",
+    "sin\u207b\u00b9(x/5) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u222b 1/\u221a(a\u00b2 \u2212 x\u00b2) dx = sin\u207b\u00b9(x/a) + c with a = 5. Dividing x by 25 uses a\u00b2 instead of a. The arctangent comes from a/(a\u00b2 + x\u00b2), which has no square root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0026",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of 6/(9 + x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "2 tan\u207b\u00b9(x/9) + c",
+    "2 tan\u207b\u00b9(x/3) + c",
+    "6 tan\u207b\u00b9(x/3) + c",
+    "(2/3) tan\u207b\u00b9(x/3) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "6/(9 + x\u00b2) = 2 \u00d7 3/(3\u00b2 + x\u00b2), and \u222b a/(a\u00b2 + x\u00b2) dx = tan\u207b\u00b9(x/a) + c, so the integral is 2 tan\u207b\u00b9(x/3) + c. Writing 6 tan\u207b\u00b9(x/3) treats the numerator as if the formula needed no a.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0027",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22122 < x < 2, an anti-derivative of \u22121/\u221a(4 \u2212 x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212cos\u207b\u00b9(x/2) + c",
+    "cos\u207b\u00b9(x/4) + c",
+    "cos\u207b\u00b9(x/2) + c",
+    "sin\u207b\u00b9(x/2) + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u222b \u22121/\u221a(a\u00b2 \u2212 x\u00b2) dx = cos\u207b\u00b9(x/a) + c with a = 2, since d/dx cos\u207b\u00b9(x/2) = \u22121/\u221a(4 \u2212 x\u00b2). The anti-derivative \u2212cos\u207b\u00b9(x/2) has derivative +1/\u221a(4 \u2212 x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0028",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of 1/\u221a(4 \u2212 x\u00b2) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u03c0/4",
+    "\u03c0/6",
+    "\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "[sin\u207b\u00b9(x/2)] from 0 to 1 = sin\u207b\u00b9(1/2) \u2212 sin\u207b\u00b9(0) = \u03c0/6. Using sin\u207b\u00b9(1) instead of sin\u207b\u00b9(1/2) forgets to divide by a = 2 and gives \u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0029",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of 1/(1 + x\u00b2) from x = 0 to x = \u221a3 is:",
+   "imageRef": null,
+   "options": [
+    "\u221a3",
+    "\u03c0/3",
+    "\u03c0/6",
+    "\u03c0/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "[tan\u207b\u00b9(x)] from 0 to \u221a3 = tan\u207b\u00b9(\u221a3) \u2212 0 = \u03c0/3. The value \u03c0/6 is tan\u207b\u00b9(1/\u221a3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0030",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For \u22121 < x < 1, an anti-derivative of x/\u221a(1 \u2212 x\u2074) is:",
+   "imageRef": null,
+   "options": [
+    "(1/2) sin\u207b\u00b9(x) + c",
+    "(1/2) sin\u207b\u00b9(x\u00b2) + c",
+    "sin\u207b\u00b9(x\u00b2) + c",
+    "2 sin\u207b\u00b9(x\u00b2) + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "With u = x\u00b2, du = 2x dx and \u221a(1 \u2212 x\u2074) = \u221a(1 \u2212 u\u00b2), so the integral is (1/2) \u222b 1/\u221a(1 \u2212 u\u00b2) du = (1/2) sin\u207b\u00b9(x\u00b2) + c. Forgetting the factor 1/2 from du = 2x dx gives sin\u207b\u00b9(x\u00b2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0031",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "In partial fractions, (2x \u2212 1)/((x + 1)(x \u2212 2)) equals:",
+   "imageRef": null,
+   "options": [
+    "1/(x + 1) + 1/(x \u2212 2)",
+    "1/(x + 1) \u2212 1/(x \u2212 2)",
+    "2/(x + 1) \u2212 1/(x \u2212 2)",
+    "\u22121/(x + 1) + 3/(x \u2212 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write A/(x + 1) + B/(x \u2212 2), so 2x \u2212 1 = A(x \u2212 2) + B(x + 1). At x = 2: 3 = 3B, so B = 1. At x = \u22121: \u22123 = \u22123A, so A = 1. Check: the numerators combine to (x \u2212 2) + (x + 1) = 2x \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0032",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "An anti-derivative of (2x \u2212 1)/((x + 1)(x \u2212 2)) is:",
+   "imageRef": null,
+   "options": [
+    "ln|x + 1| + ln|x \u2212 2| + c",
+    "ln|x + 1| \u2212 ln|x \u2212 2| + c",
+    "ln|(x + 1)(x \u2212 2)|/(2x \u2212 1) + c",
+    "2 ln|x + 1| + ln|x \u2212 2| + c"
+   ],
+   "correctIndex": 0,
+   "explanation": "The partial fractions are 1/(x + 1) + 1/(x \u2212 2), and each integrates to a logarithm. This equals ln|(x + 1)(x \u2212 2)| + c, which makes sense because the numerator 2x \u2212 1 is the derivative of x\u00b2 \u2212 x \u2212 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0033",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of 1/((x + 1)(x + 2)) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "ln(4/3)",
+    "ln(3/2)",
+    "ln(2/3)",
+    "ln(6)"
+   ],
+   "correctIndex": 0,
+   "explanation": "1/((x + 1)(x + 2)) = 1/(x + 1) \u2212 1/(x + 2), so the integral is [ln((x + 1)/(x + 2))] from 0 to 1 = ln(2/3) \u2212 ln(1/2) = ln(4/3). Stopping at the upper bound gives ln(2/3), which is negative, but the integrand is positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0034",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "For x > 2, an anti-derivative of 1/(x\u00b2 \u2212 4) is:",
+   "imageRef": null,
+   "options": [
+    "(1/2) ln((x \u2212 2)/(x + 2)) + c",
+    "ln((x \u2212 2)(x + 2)) + c",
+    "(1/4) ln((x \u2212 2)/(x + 2)) + c",
+    "(1/4) ln((x + 2)/(x \u2212 2)) + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "1/((x \u2212 2)(x + 2)) = (1/4)(1/(x \u2212 2) \u2212 1/(x + 2)). At x = 2, 1 = 4A gives A = 1/4, and at x = \u22122, 1 = \u22124B gives B = \u22121/4. Integrating gives (1/4)(ln(x \u2212 2) \u2212 ln(x + 2)) + c.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0035",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The integration by parts formula states that \u222b u (dv/dx) dx equals:",
+   "imageRef": null,
+   "options": [
+    "uv \u2212 \u222b v (du/dx) dx",
+    "uv + \u222b v (du/dx) dx",
+    "u (dv/dx) \u2212 \u222b v du",
+    "\u222b u dx \u00d7 \u222b (dv/dx) dx"
+   ],
+   "correctIndex": 0,
+   "explanation": "Integrating the product rule (uv)\u2032 = u\u2032v + uv\u2032 and rearranging gives \u222b uv\u2032 dx = uv \u2212 \u222b u\u2032v dx. The integral of a product is not the product of the integrals.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0036",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "To find \u222b x\u00b2 ln(x) dx by parts, the best choice is:",
+   "imageRef": null,
+   "options": [
+    "u = x\u00b2 and dv/dx = ln(x)",
+    "u = x\u00b2 ln(x) and dv/dx = 1",
+    "u = x and dv/dx = x ln(x)",
+    "u = ln(x) and dv/dx = x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choose u to be the factor that simplifies when differentiated and whose partner can be integrated: ln(x) differentiates to 1/x, and x\u00b2 integrates easily. Taking dv/dx = ln(x) needs the integral of ln(x), which is itself a parts problem.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0037",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using integration by parts, an anti-derivative of x sin(2x) is:",
+   "imageRef": null,
+   "options": [
+    "(x/2) cos(2x) \u2212 (1/4) sin(2x) + c",
+    "\u2212(x/2) cos(2x) \u2212 (1/4) sin(2x) + c",
+    "\u22122x cos(2x) + 4 sin(2x) + c",
+    "\u2212(x/2) cos(2x) + (1/4) sin(2x) + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "With u = x and v = \u2212cos(2x)/2: uv \u2212 \u222b v du = \u2212(x/2) cos(2x) + (1/2) \u222b cos(2x) dx = \u2212(x/2) cos(2x) + (1/4) sin(2x) + c. Multiplying by 2 instead of dividing gives \u22122x cos(2x) + 4 sin(2x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0038",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using integration by parts with u = ln(x) and dv/dx = 1, an anti-derivative of ln(x) for x > 0 is:",
+   "imageRef": null,
+   "options": [
+    "x ln(x) + x + c",
+    "1/x + c",
+    "(ln(x))\u00b2/2 + c",
+    "x ln(x) \u2212 x + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "uv \u2212 \u222b v du = x ln(x) \u2212 \u222b x \u00d7 (1/x) dx = x ln(x) \u2212 x + c. The function 1/x is the derivative of ln(x), and (ln(x))\u00b2/2 is an anti-derivative of ln(x)/x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0039",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "Using integration by parts, an anti-derivative of x e^(2x) is:",
+   "imageRef": null,
+   "options": [
+    "2x e^(2x) \u2212 4 e^(2x) + c",
+    "(x\u00b2/2) e^(2x) + c",
+    "(x/2) e^(2x) \u2212 (1/4) e^(2x) + c",
+    "(x/2) e^(2x) + (1/4) e^(2x) + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "With u = x and v = e^(2x)/2: (x/2) e^(2x) \u2212 \u222b (1/2) e^(2x) dx = (x/2) e^(2x) \u2212 (1/4) e^(2x) + c. Integrating each factor separately gives (x\u00b2/2) e^(2x), which is not how a product is integrated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-techniques-0040",
+   "topicId": "spec-qce-integration-techniques",
+   "stem": "The value of the integral of x ln(x) from x = 1 to x = e is:",
+   "imageRef": null,
+   "options": [
+    "e\u00b2/4",
+    "(e\u00b2 + 1)/2",
+    "(e\u00b2 + 1)/4",
+    "(e\u00b2 \u2212 1)/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "By parts with u = ln(x): (x\u00b2/2) ln(x) \u2212 \u222b x/2 dx = (x\u00b2/2) ln(x) \u2212 x\u00b2/4. From 1 to e: (e\u00b2/2 \u2212 e\u00b2/4) \u2212 (0 \u2212 1/4) = e\u00b2/4 + 1/4 = (e\u00b2 + 1)/4. Mishandling the \u22121/4 at the lower bound gives (e\u00b2 \u2212 1)/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-techniques-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-bsss-events-sets",
+ "questions": [
+  {
+   "id": "meth-bsss-events-sets-0001",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "In probability, an event is best described as:",
+   "imageRef": null,
+   "options": [
+    "a set of outcomes, which is a subset of the sample space",
+    "the list of every outcome the experiment could have",
+    "a single trial of the experiment and its recorded result",
+    "the number of times an outcome occurs in many trials"
+   ],
+   "correctIndex": 0,
+   "explanation": "An event is a collection of outcomes, so it is a subset of the sample space. The list of every possible outcome is the sample space itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0002",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A spinner numbered 1 to 5 is spun once. Which outcomes make up the event \"an odd number\"?",
+   "imageRef": null,
+   "options": [
+    "2 and 4",
+    "3 and 5",
+    "1, 3 and 5",
+    "1, 3, 5 and 7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sample space is 1, 2, 3, 4, 5, and the odd outcomes in it are 1, 3 and 5. The number 7 is not a possible outcome, so it cannot belong to any event.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0003",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Two coins are tossed. Which outcomes make up the event \"exactly one head\"?",
+   "imageRef": null,
+   "options": [
+    "HT only",
+    "HH, HT and TH",
+    "HH and TT",
+    "HT and TH"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sample space is HH, HT, TH, TT. Exactly one head occurs in HT and TH, which are different outcomes. Including HH would give \"at least one head\".",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0004",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Two fair dice are rolled. How many outcomes are in the event \"the sum is 10\"?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The outcomes are (4, 6), (5, 5) and (6, 4). Counting (4, 6) and (6, 4) as one outcome gives 2, but they are different results for the two dice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0005",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A family has three children, and each outcome lists the sexes in birth order, such as GBG. How many outcomes are in the event \"at least two girls\"?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "6",
+    "2",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sample space has 2\u00b3 = 8 outcomes. At least two girls means GGB, GBG, BGG or GGG, which is 4 outcomes. Leaving out GGG gives 3, which is \"exactly two girls\".",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0006",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Two students are chosen from Ali, Bree, Chen, Dev and Ella. How many outcomes are in the sample space, and how many in the event \"Ali is chosen\"?",
+   "imageRef": null,
+   "options": [
+    "10 and 4",
+    "20 and 8",
+    "10 and 5",
+    "25 and 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The order of choosing does not matter, so the sample space has \u2075C\u2082 = 10 pairs. Ali is in a pair with each of the other 4 students. The value 20 counts each pair twice, in both orders.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0007",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A card is drawn from a standard pack of 52. How many outcomes are in the event \"a heart that is a jack, queen or king\"?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "22",
+    "4",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The event needs both conditions, so the outcomes are the jack, queen and king of hearts: 3 cards. The value 12 counts all the picture cards, and 22 counts the cards that are hearts or picture cards, which is the union.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0008",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "For an event A in a sample space \u03be, the complement A\u2032 is:",
+   "imageRef": null,
+   "options": [
+    "every outcome in A that is also in \u03be",
+    "the outcomes in A that occur most often",
+    "the empty set, written \u2205",
+    "every outcome in \u03be that is not in A"
+   ],
+   "correctIndex": 3,
+   "explanation": "The complement A\u2032 (also written \u0100) contains every outcome in the sample space that is not in A. Together, A and A\u2032 make up the whole sample space.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0009",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "The event A \u2229 B contains the outcomes that are:",
+   "imageRef": null,
+   "options": [
+    "in A but not in B",
+    "in neither A nor B",
+    "in both A and B",
+    "in A or B or both"
+   ],
+   "correctIndex": 2,
+   "explanation": "The intersection A \u2229 B is the set of outcomes common to both events, read \"A and B\". The outcomes in A or B or both form the union A \u222a B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0010",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "The event A \u222a B contains the outcomes that are:",
+   "imageRef": null,
+   "options": [
+    "in neither A nor B",
+    "in A or B or both",
+    "in both A and B only",
+    "in exactly one of A and B"
+   ],
+   "correctIndex": 1,
+   "explanation": "The union A \u222a B, read \"A or B\", includes outcomes in either event, including those in both. Outcomes in exactly one of the events exclude the intersection.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0011",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Which notation means the same as A\u2032?",
+   "imageRef": null,
+   "options": [
+    "\u2205",
+    "\u0100",
+    "A \u2229 \u03be",
+    "A \u222a \u2205"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both A\u2032 and \u0100 denote the complement of A. The sets A \u2229 \u03be and A \u222a \u2205 are both just A itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0012",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled. A is \"an even number\" and B is \"a number greater than 3\". Which outcomes are in A \u2229 B?",
+   "imageRef": null,
+   "options": [
+    "2, 4, 5 and 6",
+    "5 only",
+    "2 only",
+    "4 and 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "A contains 2, 4, 6 and B contains 4, 5, 6, so the outcomes in both are 4 and 6. The list 2, 4, 5, 6 is the union.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0013",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled. A is \"an even number\" and B is \"a number greater than 3\". Which outcomes are in A \u222a B?",
+   "imageRef": null,
+   "options": [
+    "1, 2, 4, 5 and 6",
+    "2, 4, 4, 5, 6 and 6",
+    "2, 4, 5 and 6",
+    "4 and 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The union lists each outcome in A or B once: 2, 4, 5 and 6. Outcomes in both events are not repeated, and 1 is in neither event.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0014",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled. A is \"an even number\" and B is \"a number greater than 3\". Which outcomes are in A\u2032 \u2229 B?",
+   "imageRef": null,
+   "options": [
+    "4 and 6",
+    "1 and 3",
+    "5 only",
+    "1, 3 and 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2032 contains the odd numbers 1, 3, 5, and B contains 4, 5, 6, so A\u2032 \u2229 B is 5 only. The list 1, 3, 5 is A\u2032 on its own.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0015",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled. A is \"an even number\" and B is \"a number greater than 3\". Which outcomes are in (A \u222a B)\u2032?",
+   "imageRef": null,
+   "options": [
+    "1, 3 and 5",
+    "1, 2 and 3",
+    "5 only",
+    "1 and 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "A \u222a B contains 2, 4, 5 and 6, so its complement is 1 and 3. Including 5 forgets that 5 is in B and so in the union.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0016",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "R is the event \"it rains on Saturday\" and S is \"it rains on Sunday\". What does R\u2032 \u2229 S\u2032 describe?",
+   "imageRef": null,
+   "options": [
+    "It does not rain on either day",
+    "It rains on at least one of the days",
+    "It does not rain on both days",
+    "It rains on exactly one of the days"
+   ],
+   "correctIndex": 0,
+   "explanation": "R\u2032 \u2229 S\u2032 means \"not R and not S\", so it is dry on both days. \"Not raining on both days\" is (R \u2229 S)\u2032, which still allows rain on one day.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0017",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "R is the event \"it rains on Saturday\" and S is \"it rains on Sunday\". Which event is \"it rains on Saturday but not on Sunday\"?",
+   "imageRef": null,
+   "options": [
+    "R\u2032 \u2229 S",
+    "R \u2229 S",
+    "R \u2229 S\u2032",
+    "R \u222a S\u2032"
+   ],
+   "correctIndex": 2,
+   "explanation": "\"But\" joins two conditions that must both hold, so it is an intersection: rain on Saturday (R) and no rain on Sunday (S\u2032). R \u222a S\u2032 would also include days when it is dry both days.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0018",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "R is the event \"it rains on Saturday\" and S is \"it rains on Sunday\". Which event is \"it rains on at least one of the two days\"?",
+   "imageRef": null,
+   "options": [
+    "R \u222a S",
+    "R \u2229 S",
+    "R\u2032 \u222a S\u2032",
+    "R\u2032 \u2229 S\u2032"
+   ],
+   "correctIndex": 0,
+   "explanation": "At least one day means Saturday or Sunday or both, which is the union R \u222a S. R \u2229 S needs rain on both days.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0019",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "R is the event \"it rains on Saturday\" and S is \"it rains on Sunday\". Which event is \"it rains on exactly one of the two days\"?",
+   "imageRef": null,
+   "options": [
+    "(R \u2229 S\u2032) \u222a (R\u2032 \u2229 S)",
+    "(R \u222a S) \u2229 (R\u2032 \u222a S\u2032)\u2032",
+    "R \u222a S",
+    "(R \u2229 S)\u2032"
+   ],
+   "correctIndex": 0,
+   "explanation": "Exactly one day means rain Saturday and not Sunday, or rain Sunday and not Saturday. (R \u2229 S)\u2032 also includes the case of no rain at all, and R \u222a S also includes rain on both days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0020",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "For any events A and B, which set is always equal to (A \u222a B)\u2032?",
+   "imageRef": null,
+   "options": [
+    "A \u2229 B",
+    "(A \u2229 B)\u2032",
+    "A\u2032 \u2229 B\u2032",
+    "A\u2032 \u222a B\u2032"
+   ],
+   "correctIndex": 2,
+   "explanation": "An outcome is outside A \u222a B exactly when it is outside A and outside B, so (A \u222a B)\u2032 = A\u2032 \u2229 B\u2032. The set A\u2032 \u222a B\u2032 equals (A \u2229 B)\u2032, which is larger.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0021",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A is the event x > 2 and B is the event x \u2264 5, where x is a real number. What is A \u2229 B?",
+   "imageRef": null,
+   "options": [
+    "x \u2264 2 or x > 5",
+    "2 < x \u2264 5",
+    "2 \u2264 x < 5",
+    "All real numbers x"
+   ],
+   "correctIndex": 1,
+   "explanation": "The intersection is where both conditions hold: x greater than 2 and at most 5. The union of the two events is every real number, and x \u2264 2 or x > 5 is the complement of the intersection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0022",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Events A and B are mutually exclusive when:",
+   "imageRef": null,
+   "options": [
+    "A \u222a B = \u03be",
+    "A \u2229 B = A",
+    "A\u2032 = B\u2032",
+    "A \u2229 B = \u2205"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mutually exclusive events have no outcomes in common, so their intersection is the empty set. A \u222a B = \u03be means that together they cover the sample space, which is a different property.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0023",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled once. Which pair of events is mutually exclusive?",
+   "imageRef": null,
+   "options": [
+    "\"an odd number\" and \"less than 4\"",
+    "\"a 6\" and \"more than 4\"",
+    "\"a 1\" and \"an even number\"",
+    "\"a 2\" and \"an even number\""
+   ],
+   "correctIndex": 2,
+   "explanation": "The outcome 1 is not even, so \"a 1\" and \"an even number\" cannot happen together. Each other pair shares an outcome: 2, then 1 and 3, then 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0024",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A card is drawn from a standard pack. Are the events \"a king\" and \"a heart\" mutually exclusive?",
+   "imageRef": null,
+   "options": [
+    "Yes, because kings and hearts are different features",
+    "Yes, because only one card is drawn from the pack",
+    "No, because there are more hearts than kings in the pack",
+    "No, because the king of hearts belongs to both events"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mutually exclusive events share no outcomes, but the king of hearts is in both events. The numbers of cards in each event do not decide whether they overlap.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0025",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair die is rolled. Which pair of events is mutually exclusive but NOT complementary?",
+   "imageRef": null,
+   "options": [
+    "\"even\" and \"odd\"",
+    "\"less than 4\" and \"at least 4\"",
+    "\"a 6\" and \"not a 6\"",
+    "\"less than 3\" and \"greater than 4\""
+   ],
+   "correctIndex": 3,
+   "explanation": "\"Less than 3\" (1, 2) and \"greater than 4\" (5, 6) share no outcomes, but 3 and 4 belong to neither, so together they do not make up the sample space. Each other pair is complementary: mutually exclusive and covering every outcome.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0026",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "For any event A in a sample space \u03be, which statement is true?",
+   "imageRef": null,
+   "options": [
+    "A and A\u2032 overlap, and A \u2229 A\u2032 = A",
+    "A and A\u2032 are mutually exclusive and A \u222a A\u2032 = \u03be",
+    "A and A\u2032 are mutually exclusive and A \u2229 A\u2032 = \u03be",
+    "A and A\u2032 overlap, and A \u222a A\u2032 = \u03be"
+   ],
+   "correctIndex": 1,
+   "explanation": "No outcome is both in A and not in A, so A \u2229 A\u2032 = \u2205, and every outcome is in one or the other, so A \u222a A\u2032 = \u03be. This is why P(A\u2032) = 1 \u2212 P(A).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0027",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Of 40 students, 22 swim, 15 cycle and 6 do both. How many students do neither?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "3",
+    "15",
+    "31"
+   ],
+   "correctIndex": 0,
+   "explanation": "By inclusion and exclusion, 22 + 15 \u2212 6 = 31 students do at least one, so 40 \u2212 31 = 9 do neither. The value 3 comes from forgetting to subtract the 6 who were counted twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0028",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Of 40 students, 22 swim (S), 15 cycle and 6 do both. How many students are in the Venn diagram region for \"swim only\"?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "22",
+    "6",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 22 swimmers include the 6 who also cycle, so 22 \u2212 6 = 16 swim only. The value 22 is the whole circle for S, not the part outside the overlap.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0029",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "In a Venn diagram of events A and B, the region inside B but outside A is:",
+   "imageRef": null,
+   "options": [
+    "A\u2032 \u2229 B",
+    "A \u2229 B\u2032",
+    "A \u222a B\u2032",
+    "(A \u2229 B)\u2032"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inside B means B, and outside A means A\u2032; both must hold, so the region is A\u2032 \u2229 B. A \u2229 B\u2032 is the region inside A but outside B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0030",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "In a sample space, n(A \u222a B) = 50, n(A) = 32 and n(B) = 27. What is n(A \u2229 B)?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "18",
+    "23",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "From n(A \u222a B) = n(A) + n(B) \u2212 n(A \u2229 B), 50 = 32 + 27 \u2212 n(A \u2229 B), so n(A \u2229 B) = 59 \u2212 50 = 9. The values 18 and 23 are n(A only) and n(B only) after a slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0031",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Of 40 students, 22 swim (S), 15 cycle (C) and 6 do both. A student is chosen at random. What is P(S\u2032 \u2229 C)?",
+   "imageRef": null,
+   "options": [
+    "25/40",
+    "9/18",
+    "9/40",
+    "15/40"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2032 \u2229 C is \"cycles but does not swim\", which is 15 \u2212 6 = 9 students, so the probability is 9/40. The value 25/40 is P(S\u2032), all students who do not swim.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0032",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A committee of 3 is chosen at random from 4 women and 3 men. What is the probability that all three are women?",
+   "imageRef": null,
+   "options": [
+    "4/35",
+    "4/7",
+    "1/35",
+    "12/35"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample space has \u2077C\u2083 = 35 equally likely committees, and the event \"all women\" has \u2074C\u2083 = 4 of them, so P = 4/35. The value 4/7 is the chance that a single person chosen is a woman.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0033",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A committee of 3 is chosen at random from 4 women and 3 men. How many outcomes are in the event \"at least one man\"?",
+   "imageRef": null,
+   "options": [
+    "31",
+    "3",
+    "18",
+    "34"
+   ],
+   "correctIndex": 0,
+   "explanation": "The complement of \"at least one man\" is \"all women\", which has \u2074C\u2083 = 4 outcomes, so 35 \u2212 4 = 31 committees have at least one man. The value 18 counts committees with exactly one man.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0034",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "Two tiles are drawn together from six tiles numbered 1 to 6. What is the probability that both numbers are even?",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "1/5",
+    "1/4",
+    "1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are \u2076C\u2082 = 15 equally likely pairs, and \u00b3C\u2082 = 3 of them use two of the even tiles 2, 4 and 6, so P = 3/15 = 1/5. The value 1/4 assumes the two draws are independent, as with replacement.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0035",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A fair coin is tossed 5 times. How many outcomes in the sample space have exactly 2 heads, and what is the probability of this event?",
+   "imageRef": null,
+   "options": [
+    "10 outcomes, probability 1/10",
+    "5 outcomes, probability 5/32",
+    "2 outcomes, probability 1/16",
+    "10 outcomes, probability 5/16"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choosing which 2 of the 5 tosses are heads gives \u2075C\u2082 = 10 outcomes out of 2\u2075 = 32, so P = 10/32 = 5/16. The binomial coefficient \u2075C\u2082 is the entry 10 in row 5 of Pascal's triangle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-events-sets-0036",
+   "topicId": "meth-bsss-events-sets",
+   "stem": "A sample space has 6 outcomes. Counting the empty set and the whole sample space, how many different events (subsets) are there?",
+   "imageRef": null,
+   "options": [
+    "36",
+    "720",
+    "12",
+    "64"
+   ],
+   "correctIndex": 3,
+   "explanation": "The number of events with k outcomes is \u2076C\u2096, and the sum of row 6 of Pascal's triangle, 1 + 6 + 15 + 20 + 15 + 6 + 1, is 2\u2076 = 64. The value 720 is 6!, which counts orderings, not subsets.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-events-sets-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

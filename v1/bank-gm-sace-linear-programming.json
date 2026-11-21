@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-linear-programming",
+ "questions": [
+  {
+   "id": "gm-sace-linear-programming-0001",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In a linear programming problem, what is the objective function?",
+   "imageRef": null,
+   "options": [
+    "The quantity to be maximised or minimised",
+    "The inequality that limits each resource",
+    "The region where all constraints are met",
+    "The corner point where two lines meet"
+   ],
+   "correctIndex": 0,
+   "explanation": "The objective function, such as profit P = 5x + 4y, is what is being optimised. The inequalities are the constraints, and the region satisfying them all is the feasible region.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0002",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In linear programming, what is the feasible region?",
+   "imageRef": null,
+   "options": [
+    "The point that gives the largest objective value",
+    "The area beneath the graph of the objective function",
+    "The set of points that satisfy every constraint",
+    "The set of points that satisfy at least one constraint"
+   ],
+   "correctIndex": 2,
+   "explanation": "A point is feasible only if it obeys all the constraints at once, so the feasible region is where all the shaded half-planes overlap. The optimal point is one particular point inside or on the edge of it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0003",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Where is the optimal solution of a linear programming problem with a bounded feasible region found?",
+   "imageRef": null,
+   "options": [
+    "At the centre of the feasible region",
+    "Wherever the region crosses the x-axis",
+    "Wherever the region crosses the y-axis",
+    "At a vertex of the feasible region"
+   ],
+   "correctIndex": 3,
+   "explanation": "As a line of constant profit slides across the region, the last point it touches is a corner. So the objective function is evaluated at each vertex and the best value chosen. Points on an axis are only optimal if they happen to be vertices.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0004",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. Which inequality represents the fabric constraint?",
+   "imageRef": null,
+   "options": [
+    "2x + y \u2264 40",
+    "x + 2y \u2265 40",
+    "3x + 2y \u2264 40",
+    "x + 2y \u2264 40"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each koala uses 1 m and each wombat 2 m, so the fabric used is x + 2y, which cannot exceed the 40 m available. Using \u2265 would force at least 40 m to be used.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0005",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. Which inequality represents the stuffing constraint?",
+   "imageRef": null,
+   "options": [
+    "3x + 2y \u2265 60",
+    "x + 2y \u2264 60",
+    "3x + 2y \u2264 60",
+    "2x + 3y \u2264 60"
+   ],
+   "correctIndex": 2,
+   "explanation": "Koalas use 3 kg each and wombats 2 kg each, so stuffing used is 3x + 2y, at most 60 kg. Swapping the coefficients matches the amounts to the wrong toy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0006",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Why do most linear programming problems include the constraints x \u2265 0 and y \u2265 0?",
+   "imageRef": null,
+   "options": [
+    "The vertices must all have whole-number values",
+    "The quantities made or used cannot be negative",
+    "The objective function must always be positive",
+    "The feasible region must contain the origin"
+   ],
+   "correctIndex": 1,
+   "explanation": "x and y count things such as toys or kilograms, so negative values have no meaning. These non-negativity constraints keep the feasible region in the first quadrant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0007",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "When graphing x + 2y \u2264 40, the test point (0, 0) is substituted. What does the result show?",
+   "imageRef": null,
+   "options": [
+    "0 \u2264 40 is true, so the side without (0, 0) is feasible",
+    "0 \u2264 40 is false, so the side containing (0, 0) is feasible",
+    "The test shows only where the boundary line crosses an axis",
+    "0 \u2264 40 is true, so the side containing (0, 0) is feasible"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting (0, 0) gives 0 \u2264 40, which is true, so every point on the same side of the line as the origin satisfies the constraint. If the test were false, the other side would be shaded.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0008",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. At which vertex do the fabric and stuffing lines intersect?",
+   "imageRef": null,
+   "options": [
+    "(0, 20)",
+    "(15, 10)",
+    "(10, 15)",
+    "(20, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtracting x + 2y = 40 from 3x + 2y = 60 gives 2x = 20, so x = 10 and y = (40 \u2212 10)/2 = 15. (15, 10) swaps the coordinates and uses only 35 m of fabric, so it is not on the fabric line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0009",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. Besides (0, 0), what are the vertices of the feasible region on the axes?",
+   "imageRef": null,
+   "options": [
+    "(20, 0) and (0, 30)",
+    "(20, 0) and (0, 20)",
+    "(40, 0) and (0, 30)",
+    "(40, 0) and (0, 20)"
+   ],
+   "correctIndex": 1,
+   "explanation": "On the x-axis the stuffing constraint binds first: 3x \u2264 60 gives x = 20, before fabric would allow 40. On the y-axis fabric binds first: 2y \u2264 40 gives y = 20, before stuffing would allow 30.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0010",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. The profit is P = 5x + 4y dollars. What is the maximum profit?",
+   "imageRef": null,
+   "options": [
+    "$80",
+    "$200",
+    "$110",
+    "$100"
+   ],
+   "correctIndex": 2,
+   "explanation": "Evaluate P at each vertex: (0, 0) gives $0, (20, 0) gives $100, (10, 15) gives $110 and (0, 20) gives $80. The maximum is $110, making 10 koalas and 15 wombats. $200 uses the point (40, 0), which is not feasible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0011",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. The profit changes to P = 6x + 2y. How much fabric is left over (the wastage) at the new optimal solution?",
+   "imageRef": null,
+   "options": [
+    "20 m",
+    "0 m",
+    "10 m",
+    "5 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "Now (20, 0) gives $120 against $90 at (10, 15) and $40 at (0, 20), so 20 koalas are made. They use all 60 kg of stuffing but only 20 m of fabric, wasting 20 m. There is no wastage at (10, 15), but that is no longer optimal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0012",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. With profit P = 3x + 2y, the vertices (20, 0) and (10, 15) both give $60. What does this mean?",
+   "imageRef": null,
+   "options": [
+    "Only the two vertices themselves give the best profit",
+    "The problem has no optimal solution at all",
+    "The midpoint (15, 7.5) is the single optimal point",
+    "Every point on the boundary between them is optimal"
+   ],
+   "correctIndex": 3,
+   "explanation": "P = 3x + 2y is parallel to the stuffing line 3x + 2y = 60, so the profit is $60 all along that edge. There are multiple optimal solutions, and other factors, such as whole numbers of toys or customer demand, decide between them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0013",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. The profit is P = 5x + 4y. If the stuffing available increases to 72 kg, what is the new maximum profit?",
+   "imageRef": null,
+   "options": [
+    "$128",
+    "$120",
+    "$110",
+    "$124"
+   ],
+   "correctIndex": 0,
+   "explanation": "The stuffing line becomes 3x + 2y = 72, meeting x + 2y = 40 at (16, 12), with axis vertex (24, 0). P is $120 at (24, 0) and $128 at (16, 12), so the maximum rises from $110 to $128. (12, 16) swaps the coordinates.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0014",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. Is making 12 koalas and 10 wombats feasible?",
+   "imageRef": null,
+   "options": [
+    "Yes, it uses 22 m of fabric and 46 kg of stuffing",
+    "Yes, it uses 32 m of fabric and 56 kg of stuffing",
+    "No, it uses 32 m of fabric and 66 kg of stuffing",
+    "No, it uses 34 m of fabric and 56 kg of stuffing"
+   ],
+   "correctIndex": 1,
+   "explanation": "Fabric is 12 + 2 \u00d7 10 = 32 m (at most 40) and stuffing is 3 \u00d7 12 + 2 \u00d7 10 = 56 kg (at most 60), so both constraints hold and the point is feasible. It is inside the region, not on a boundary, so some of each material is left over.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0015",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. At the optimal solution of 10 koalas and 15 wombats, how much of each material is left over?",
+   "imageRef": null,
+   "options": [
+    "None of either material",
+    "10 m of fabric and none of the stuffing",
+    "None of the fabric and 15 kg of stuffing",
+    "10 m of fabric and 15 kg of stuffing"
+   ],
+   "correctIndex": 0,
+   "explanation": "Fabric used is 10 + 2 \u00d7 15 = 40 m and stuffing used is 3 \u00d7 10 + 2 \u00d7 15 = 60 kg, so both are used up exactly. The optimum lies where both constraint lines meet, which is why there is no wastage.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0016",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A workshop makes x jackets and y vests each day, with x + y \u2264 10 and 5x + 2y \u2264 34 (metres of cloth), x \u2265 0 and y \u2265 0. Profit is P = 30x + 20y dollars. The constraint lines meet at a vertex. What are its coordinates, to two decimal places?",
+   "imageRef": null,
+   "options": [
+    "(4.00, 6.00)",
+    "(4.67, 5.33)",
+    "(5.33, 4.67)",
+    "(6.80, 3.20)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting y = 10 \u2212 x into 5x + 2y = 34 gives 3x + 20 = 34, so x = 14/3 \u2248 4.67 and y = 16/3 \u2248 5.33. (4, 6) is a nearby whole-number point, not the vertex itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0017",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A workshop makes x jackets and y vests each day, with x + y \u2264 10 and 5x + 2y \u2264 34 (metres of cloth), x \u2265 0 and y \u2265 0. Profit is P = 30x + 20y dollars. The best vertex is (4.67, 5.33), but only whole garments can be made. What is the best achievable whole-number production?",
+   "imageRef": null,
+   "options": [
+    "5 jackets and 5 vests",
+    "5 jackets and 6 vests",
+    "4 jackets and 5 vests",
+    "4 jackets and 6 vests"
+   ],
+   "correctIndex": 3,
+   "explanation": "Test the whole-number points around the vertex that stay feasible. (5, 5) needs 35 m of cloth, over 34, and (5, 6) breaks both constraints. (4, 6) is feasible with profit $240, beating (4, 5) at $220 and (5, 4) at $230.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0018",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Only whole numbers of items can be made, but the optimal vertex is not a whole-number point. What should be done?",
+   "imageRef": null,
+   "options": [
+    "Round both coordinates of the vertex to the nearest whole number",
+    "Round both coordinates of the vertex up to the next whole number",
+    "Choose the nearest vertex of the region that lies on an axis",
+    "Test nearby whole-number points that lie in the feasible region"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rounding can push a point outside the feasible region, as rounding up uses more resources than exist. Instead, check the discrete points surrounding the optimum, keep only feasible ones, and compare their objective values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0019",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A workshop makes x jackets and y vests each day, with x + y \u2264 10 and 5x + 2y \u2264 34 (metres of cloth), x \u2265 0 and y \u2265 0. Profit is P = 30x + 20y dollars. Why is rounding the vertex (4.67, 5.33) to (5, 5) not acceptable?",
+   "imageRef": null,
+   "options": [
+    "(5, 5) lies inside the region, so it cannot be optimal",
+    "(5, 5) needs 35 m of cloth, but only 34 m is available",
+    "(5, 5) needs 11 hours of labour, but only 10 are available",
+    "(5, 5) gives less profit than the vertex at (0, 10)"
+   ],
+   "correctIndex": 1,
+   "explanation": "5 \u00d7 5 + 2 \u00d7 5 = 35 m of cloth exceeds the 34 m limit, so (5, 5) is not feasible. It does meet x + y \u2264 10 exactly, and its profit of $250 would be higher than any feasible point, which is why it is tempting.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0020",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A farmer mixes x kg of feed A and y kg of feed B. The mix needs 3x + y \u2265 12 units of protein and x + 2y \u2265 9 units of fibre, with x \u2265 0 and y \u2265 0. Feed A costs $4/kg and feed B $3/kg. What is the minimum cost of the mix?",
+   "imageRef": null,
+   "options": [
+    "$12",
+    "$0",
+    "$21",
+    "$36"
+   ],
+   "correctIndex": 2,
+   "explanation": "The vertices are (0, 12), (3, 3) and (9, 0). The cost C = 4x + 3y is $36, $21 and $36 there, so the minimum is $21 with 3 kg of each feed. (0, 0) costs nothing but is not feasible, because it provides no protein or fibre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0021",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A farmer mixes x kg of feed A and y kg of feed B. The mix needs 3x + y \u2265 12 units of protein and x + 2y \u2265 9 units of fibre, with x \u2265 0 and y \u2265 0. Feed A costs $4/kg and feed B $3/kg. Why is the feasible region for this problem unbounded?",
+   "imageRef": null,
+   "options": [
+    "The constraints are all \u2264, so smaller amounts always satisfy them",
+    "The cost function has no maximum value, so the region has no edge",
+    "The two constraint lines are parallel, so they never intersect",
+    "The constraints are all \u2265, so larger amounts always satisfy them"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any mix with more feed still meets minimum protein and fibre requirements, so the region extends without limit away from the origin. That is fine for minimising cost, where the optimum is still at a vertex.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0022",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Which word in a problem usually signals a constraint written with \u2265?",
+   "imageRef": null,
+   "options": [
+    "no more than",
+    "up to",
+    "at least",
+    "at most"
+   ],
+   "correctIndex": 2,
+   "explanation": "'At least 12 units' means 12 or more, written \u2265 12. 'At most', 'no more than' and 'up to' all set an upper limit and are written with \u2264.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0023",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A bakery must make at least twice as many loaves (x) as cakes (y). Which inequality expresses this?",
+   "imageRef": null,
+   "options": [
+    "y \u2265 2x",
+    "2x \u2265 y",
+    "x + y \u2265 2",
+    "x \u2265 2y"
+   ],
+   "correctIndex": 3,
+   "explanation": "Twice the number of cakes is 2y, and loaves must be at least that, so x \u2265 2y. Writing y \u2265 2x reverses the relationship, a common slip when translating words into symbols.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0024",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A cafe sells x pies at $6 profit each and y sausage rolls at $2.50 profit each. Which objective function gives the total profit?",
+   "imageRef": null,
+   "options": [
+    "P = 6x \u00d7 2.5y",
+    "P = 8.5(x + y)",
+    "P = 6x + 2.5y",
+    "P = 2.5x + 6y"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each pie adds $6 and each sausage roll adds $2.50, so P = 6x + 2.5y. P = 8.5(x + y) would give each item the combined profit of both.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0025",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Which point satisfies all of x + y \u2264 8, 2x + y \u2264 12, x \u2265 0 and y \u2265 0?",
+   "imageRef": null,
+   "options": [
+    "(5, 3)",
+    "(2, 7)",
+    "(7, 0)",
+    "(3, 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "(3, 4) gives 7 \u2264 8 and 10 \u2264 12, so it is feasible. (5, 3) gives 13 for 2x + y, (2, 7) gives 9 for x + y, and (7, 0) gives 14 for 2x + y, so each breaks a constraint.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0026",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "The feasible region x + y \u2264 8, 2x + y \u2264 12, x \u2265 0, y \u2265 0 has vertices (0, 0), (6, 0), (4, 4) and (0, 8). Where is P = 3x + 5y greatest?",
+   "imageRef": null,
+   "options": [
+    "(4, 4), where P = 40",
+    "(0, 8), where P = 40",
+    "(4, 4), where P = 32",
+    "(6, 0), where P = 18"
+   ],
+   "correctIndex": 1,
+   "explanation": "P is 0 at (0, 0), 18 at (6, 0), 32 at (4, 4) and 40 at (0, 8). The intersection of the two constraint lines is often but not always the optimum; here y earns more, so the vertex with the most y wins.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0027",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "What is the correct order of steps in solving a linear programming problem?",
+   "imageRef": null,
+   "options": [
+    "Objective function, evaluate, constraints, vertices, compare",
+    "Vertices, constraints, evaluate, objective function, compare",
+    "Constraints, vertices, compare, objective function, evaluate",
+    "Constraints, objective function, vertices, evaluate, compare"
+   ],
+   "correctIndex": 3,
+   "explanation": "Formulate and graph the constraints, formulate the objective function, identify the feasible region and its vertices, evaluate the objective function at each vertex, then compare the values. Vertices cannot be found before the constraints are graphed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0028",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In linear programming, what does wastage mean?",
+   "imageRef": null,
+   "options": [
+    "The amount of a resource left unused at the optimal solution",
+    "The profit lost by choosing a point inside the region",
+    "The difference between the largest and smallest profits",
+    "The points that lie outside the feasible region"
+   ],
+   "correctIndex": 0,
+   "explanation": "Wastage is what remains of an available resource after the optimal plan is carried out. A constraint that passes through the optimal vertex is used up exactly and has no wastage.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0029",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In a linear programming problem the profit per item of one product increases. What happens to the objective function line?",
+   "imageRef": null,
+   "options": [
+    "The constraints change, so new vertices must be calculated",
+    "Its slope changes, so a different vertex may become optimal",
+    "It moves parallel to itself, so the same vertex stays optimal",
+    "The feasible region grows, so every vertex becomes optimal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Changing a coefficient in P = ax + by changes the slope of the profit lines, so the last vertex they touch may change. The constraints, and so the feasible region and its vertices, stay the same.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0030",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In a linear programming problem one resource becomes more plentiful. What changes?",
+   "imageRef": null,
+   "options": [
+    "Nothing changes, because the objective function is the same",
+    "The non-negativity constraints change to allow negative values",
+    "That constraint line moves, so the region and vertices change",
+    "The objective function changes slope, but the region stays fixed"
+   ],
+   "correctIndex": 2,
+   "explanation": "More of a resource moves its constraint line further from the origin, enlarging the feasible region and shifting its vertices, so the optimal solution and wastage may change. The objective function only changes if profits or costs change.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0031",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "In which situation is it acceptable to give a non-whole-number optimal solution such as x = 4.6?",
+   "imageRef": null,
+   "options": [
+    "x is kilograms of a feed mixed for stock",
+    "x is the number of buses booked for a trip",
+    "x is the number of jackets sewn in a day",
+    "x is the number of staff rostered for a shift"
+   ],
+   "correctIndex": 0,
+   "explanation": "Kilograms of feed are a continuous quantity, so 4.6 kg makes sense. Buses, jackets and staff are discrete, so the solution must be adjusted to a feasible whole-number point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0032",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Two vertices of a feasible region give the same maximum profit. Besides profit, which consideration could sensibly decide between them?",
+   "imageRef": null,
+   "options": [
+    "Which option has the larger x-coordinate by default",
+    "Which option is closer to the origin on the graph",
+    "Which option lies on the first constraint graphed",
+    "Which option leaves less of each resource unused"
+   ],
+   "correctIndex": 3,
+   "explanation": "When there are multiple optimal solutions, students consider factors beyond the objective value, such as wastage, demand or storage. The size of a coordinate or the order constraints were graphed has no meaning in the context.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0033",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. The constraints are x + 2y \u2264 40, 3x + 2y \u2264 60, x \u2265 0 and y \u2265 0. A trial-and-error student tries 20 koalas and 0 wombats, then 0 koalas and 20 wombats. What does the graphical method show that this misses?",
+   "imageRef": null,
+   "options": [
+    "Making only koalas always gives the greatest possible profit",
+    "Making only wombats always gives the greatest possible profit",
+    "The best mix is always an equal number of each toy",
+    "Combining both toys at (10, 15) gives more profit than either"
+   ],
+   "correctIndex": 3,
+   "explanation": "With P = 5x + 4y, (20, 0) gives $100 and (0, 20) gives $80, but the vertex (10, 15) where both materials run out gives $110. An equal split such as (12, 12) is feasible but earns only $108.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0034",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "What is a vertex of a feasible region?",
+   "imageRef": null,
+   "options": [
+    "The point where the objective function equals zero",
+    "The midpoint of one edge of the feasible region",
+    "A corner point where two boundary lines meet",
+    "Any point that lies inside the feasible region"
+   ],
+   "correctIndex": 2,
+   "explanation": "The vertices are the corner points of the region, found by solving pairs of boundary equations simultaneously. They are the only points that need testing in the objective function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0035",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Students make x koalas and y wombats from leftover materials. A koala uses 1 m of fabric and 3 kg of stuffing; a wombat uses 2 m of fabric and 2 kg of stuffing. They have 40 m of fabric and 60 kg of stuffing. What does the boundary line x + 2y = 40 represent?",
+   "imageRef": null,
+   "options": [
+    "Combinations of toys that use all the fabric exactly",
+    "Combinations of toys that use all the stuffing exactly",
+    "Combinations of toys that give the greatest profit",
+    "Combinations of toys that use no fabric at all"
+   ],
+   "correctIndex": 0,
+   "explanation": "Points on x + 2y = 40 use exactly 40 m of fabric; points below it use less. Combinations that use all the stuffing lie on 3x + 2y = 60.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0036",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "A farmer mixes x kg of feed A and y kg of feed B. The mix needs 3x + y \u2265 12 units of protein and x + 2y \u2265 9 units of fibre, with x \u2265 0 and y \u2265 0. Feed A costs $4/kg and feed B $3/kg. If the farmer uses only feed B, the cheapest such mix is (0, 12). How many units of fibre does it supply beyond the minimum?",
+   "imageRef": null,
+   "options": [
+    "24",
+    "15",
+    "0",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "At (0, 12) the fibre supplied is 0 + 2 \u00d7 12 = 24 units, which is 15 more than the 9 required. Protein is exactly 12, so that constraint is the one binding at this vertex. 24 is the total fibre, not the excess.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-linear-programming-0037",
+   "topicId": "gm-sace-linear-programming",
+   "stem": "Why is the graphical method preferred to trial and error for linear programming?",
+   "imageRef": null,
+   "options": [
+    "It always gives a whole-number answer for each variable",
+    "It avoids the need to write down any of the constraints",
+    "It shows that the optimum always uses equal amounts",
+    "Only the vertices need testing, so the optimum is certain"
+   ],
+   "correctIndex": 3,
+   "explanation": "Trial and error may miss the best combination, while the graph shows every feasible point and the optimum must lie at a vertex. The method still needs the constraints, and its answer may not be a whole number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-linear-programming-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-hsc-series",
+ "questions": [
+  {
+   "id": "meth-hsc-series-0001",
+   "topicId": "meth-hsc-series",
+   "stem": "In the sequence 5, 9, 13, 17, ..., what is a\u2083?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "17",
+    "12",
+    "13"
+   ],
+   "correctIndex": 3,
+   "explanation": "a\u2099 is the nth term, counting from a\u2081 = 5, so a\u2083 is the third term, 13. The value 9 is a\u2082, and 12 comes from multiplying 3 by the common difference.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0002",
+   "topicId": "meth-hsc-series",
+   "stem": "Which of these is a finite sequence?",
+   "imageRef": null,
+   "options": [
+    "The terms of a\u2099 = 1/n for n \u2265 1",
+    "The multiples of 3 from 3 to 300",
+    "The positive multiples of 3",
+    "The powers of 2: 1, 2, 4, 8, ..."
+   ],
+   "correctIndex": 1,
+   "explanation": "A finite sequence stops at some mth term; the multiples of 3 from 3 to 300 end at the 100th term. The others go on forever. The terms 1/n get smaller and smaller, but the sequence never terminates.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0003",
+   "topicId": "meth-hsc-series",
+   "stem": "For the sequence 2, 6, 10, 14, ..., what is the partial sum S\u2083?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "18",
+    "10",
+    "32"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2083 is the sum of the first three terms: 2 + 6 + 10 = 18. The value 10 is the third term a\u2083 on its own, and 32 is S\u2084.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0004",
+   "topicId": "meth-hsc-series",
+   "stem": "In the syllabus definition, a series is:",
+   "imageRef": null,
+   "options": [
+    "the common difference of an arithmetic sequence",
+    "the general rule for the nth term",
+    "the sum of the terms of an infinite sequence",
+    "an ordered list of numbers or objects"
+   ],
+   "correctIndex": 2,
+   "explanation": "A sequence is an ordered list, and the series is the sum of its terms, written a\u2081 + a\u2082 + a\u2083 + ... The ordered list itself is the sequence, which is the usual mix-up.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0005",
+   "topicId": "meth-hsc-series",
+   "stem": "Evaluate \u03a3(3k \u2212 1) for k = 1 to 4.",
+   "imageRef": null,
+   "options": [
+    "29",
+    "30",
+    "11",
+    "26"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substitute k = 1, 2, 3 and 4: 2 + 5 + 8 + 11 = 26. Subtracting the 1 only once gives 29, and ignoring it gives 30. The value 11 is just the last term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0006",
+   "topicId": "meth-hsc-series",
+   "stem": "How many terms are there in \u03a3(2k + 1) for k = 3 to k = 10?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "13",
+    "8",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "The values of k are 3, 4, 5, ..., 10, and there are 10 \u2212 3 + 1 = 8 of them. Subtracting the bounds without adding 1 gives 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0007",
+   "topicId": "meth-hsc-series",
+   "stem": "The partial sums of a sequence are S\u2099 = n\u00b2 + 4n. What is the nth term a\u2099?",
+   "imageRef": null,
+   "options": [
+    "a\u2099 = 2n + 3",
+    "a\u2099 = 2n + 4",
+    "a\u2099 = n + 4",
+    "a\u2099 = 2n + 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081 = (n\u00b2 + 4n) \u2212 ((n \u2212 1)\u00b2 + 4(n \u2212 1)) = 2n + 3. Check: a\u2081 = S\u2081 = 5. Differentiating n\u00b2 + 4n to get 2n + 4 treats a sequence like a continuous function.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0008",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the common difference of the arithmetic sequence 20, 17, 14, ...?",
+   "imageRef": null,
+   "options": [
+    "\u22126",
+    "\u22123",
+    "3",
+    "17/20"
+   ],
+   "correctIndex": 1,
+   "explanation": "The common difference is any term minus the one before it: 17 \u2212 20 = \u22123. A decreasing AP has a negative difference. The ratio 17/20 would matter only for a geometric sequence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0009",
+   "topicId": "meth-hsc-series",
+   "stem": "For an arithmetic sequence with first term a and common difference d, the nth term is:",
+   "imageRef": null,
+   "options": [
+    "ar\u207f\u207b\u00b9",
+    "a(n \u2212 1) + d",
+    "a + (n \u2212 1)d",
+    "a + nd"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first term has no differences added, the second has one, and so the nth has n \u2212 1. Using a + nd gives the term after the nth. The form ar\u207f\u207b\u00b9 is the nth term of a GP.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0010",
+   "topicId": "meth-hsc-series",
+   "stem": "As functions of n, the nth term of an arithmetic sequence and the nth term of a geometric sequence are:",
+   "imageRef": null,
+   "options": [
+    "linear and exponential",
+    "exponential and linear",
+    "linear and quadratic",
+    "quadratic and exponential"
+   ],
+   "correctIndex": 0,
+   "explanation": "a + (n \u2212 1)d = dn + (a \u2212 d) is linear in n, so the points (n, a\u2099) lie on a line. ar\u207f\u207b\u00b9 = (a/r)r\u207f is an exponential function of n.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0011",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the 20th term of the arithmetic sequence 7, 11, 15, ...?",
+   "imageRef": null,
+   "options": [
+    "87",
+    "79",
+    "76",
+    "83"
+   ],
+   "correctIndex": 3,
+   "explanation": "a\u2082\u2080 = a + 19d = 7 + 19 \u00d7 4 = 83. Using 20d instead of 19d gives 87, the 21st term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0012",
+   "topicId": "meth-hsc-series",
+   "stem": "Which term of the arithmetic sequence 5, 8, 11, ... is 98?",
+   "imageRef": null,
+   "options": [
+    "The 32nd",
+    "The 31st",
+    "The 33rd",
+    "The 30th"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve 5 + (n \u2212 1) \u00d7 3 = 98: (n \u2212 1) \u00d7 3 = 93, so n \u2212 1 = 31 and n = 32. Stopping at n \u2212 1 = 31 is the common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0013",
+   "topicId": "meth-hsc-series",
+   "stem": "An arithmetic sequence has a = 3 and d = 4. What is S\u2081\u2080?",
+   "imageRef": null,
+   "options": [
+    "39",
+    "420",
+    "210",
+    "230"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2099 = (n/2)[2a + (n \u2212 1)d] = 5 \u00d7 (6 + 36) = 210. Using nd instead of (n \u2212 1)d gives 230, and 39 is the 10th term rather than the sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0014",
+   "topicId": "meth-hsc-series",
+   "stem": "An arithmetic series has 26 terms, the first being 12 and the last 87. What is its sum?",
+   "imageRef": null,
+   "options": [
+    "1350",
+    "1287",
+    "2574",
+    "1237"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2099 = (n/2)(a + a\u2099) = 13 \u00d7 (12 + 87) = 13 \u00d7 99 = 1287. Forgetting to halve n gives 2574. Pairing first and last terms gives 13 pairs each adding to 99.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0015",
+   "topicId": "meth-hsc-series",
+   "stem": "An arithmetic sequence has first term 4 and 10th term 31. What is the common difference?",
+   "imageRef": null,
+   "options": [
+    "2.7",
+    "3.1",
+    "3.5",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "a\u2081\u2080 = a + 9d, so 4 + 9d = 31, 9d = 27 and d = 3. From the first term to the tenth there are 9 steps, not 10; dividing 27 by 10 gives 2.7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0016",
+   "topicId": "meth-hsc-series",
+   "stem": "A salary starts at $60 000 and rises by $2500 each year. What is the salary in the 8th year?",
+   "imageRef": null,
+   "options": [
+    "$75 000",
+    "$72 500",
+    "$77 500",
+    "$80 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The salaries form an AP with a = 60 000 and d = 2500, so a\u2088 = 60 000 + 7 \u00d7 2500 = $77 500. In the 8th year there have been 7 rises, not 8, which is why $80 000 is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0017",
+   "topicId": "meth-hsc-series",
+   "stem": "A salary starts at $60 000 and rises by $2500 each year. What is the total earned over the first 8 years?",
+   "imageRef": null,
+   "options": [
+    "$550 000",
+    "$620 000",
+    "$480 000",
+    "$590 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2088 = (8/2)[2 \u00d7 60 000 + 7 \u00d7 2500] = 4 \u00d7 137 500 = $550 000. Multiplying the 8th-year salary by 8 gives $620 000, which assumes every year paid the top salary.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0018",
+   "topicId": "meth-hsc-series",
+   "stem": "An arithmetic series has first term 5 and common difference 4. What is the smallest number of terms for which its sum exceeds 1000?",
+   "imageRef": null,
+   "options": [
+    "22",
+    "21",
+    "23",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = (n/2)[10 + 4(n \u2212 1)] = n(2n + 3). Then S\u2082\u2081 = 21 \u00d7 45 = 945 and S\u2082\u2082 = 22 \u00d7 47 = 1034, so 22 terms are needed. 21 terms fall just short.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0019",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the sum of all the multiples of 7 between 1 and 200?",
+   "imageRef": null,
+   "options": [
+    "2842",
+    "3045",
+    "2646",
+    "5684"
+   ],
+   "correctIndex": 0,
+   "explanation": "The multiples run 7, 14, ..., 196, which is 28 terms. Their sum is (28/2)(7 + 196) = 14 \u00d7 203 = 2842. Including 203, which is above 200, gives 3045, and forgetting to halve gives 5684.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0020",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the common ratio of the geometric sequence 48, 24, 12, ...?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22121/2",
+    "1/2",
+    "\u221224"
+   ],
+   "correctIndex": 2,
+   "explanation": "The common ratio is any term divided by the one before it: 24 \u00f7 48 = 1/2. The value \u221224 is a difference, which is what an AP uses, and 2 divides the wrong way round.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0021",
+   "topicId": "meth-hsc-series",
+   "stem": "Which of these is a geometric sequence?",
+   "imageRef": null,
+   "options": [
+    "1, 4, 9, 16",
+    "2, 4, 8, 14",
+    "3, \u22126, 12, \u221224",
+    "3, 6, 9, 12"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each term of 3, \u22126, 12, \u221224 is \u22122 times the one before, so the ratio is constant. 3, 6, 9, 12 has a constant difference, and 2, 4, 8, 14 starts by doubling but then adds 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0022",
+   "topicId": "meth-hsc-series",
+   "stem": "Expanding (x \u2212 1)(x\u00b3 + x\u00b2 + x + 1) gives:",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 \u2212 1",
+    "x\u2074 \u2212 2x + 1",
+    "x\u2074 \u2212 1",
+    "x\u2074 + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by x gives x\u2074 + x\u00b3 + x\u00b2 + x, and multiplying by \u22121 gives \u2212x\u00b3 \u2212 x\u00b2 \u2212 x \u2212 1. Everything cancels except x\u2074 \u2212 1. This is the case n = 4 of (x \u2212 1)(x\u207f\u207b\u00b9 + ... + x + 1) = x\u207f \u2212 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0023",
+   "topicId": "meth-hsc-series",
+   "stem": "The identity (r \u2212 1)(r\u207f\u207b\u00b9 + r\u207f\u207b\u00b2 + ... + r + 1) = r\u207f \u2212 1 is the key step in deriving:",
+   "imageRef": null,
+   "options": [
+    "the nth term of a GP",
+    "the sum of the first n terms of an AP",
+    "the sum of the first n terms of a GP",
+    "the nth term of an AP"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2099 = a(1 + r + ... + r\u207f\u207b\u00b9), and the identity turns the bracket into (r\u207f \u2212 1)/(r \u2212 1). That gives S\u2099 = a(r\u207f \u2212 1)/(r \u2212 1), equivalently a(1 \u2212 r\u207f)/(1 \u2212 r).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0024",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the 8th term of the geometric sequence 3, 6, 12, ...?",
+   "imageRef": null,
+   "options": [
+    "384",
+    "768",
+    "192",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "a\u2088 = ar\u2077 = 3 \u00d7 2\u2077 = 3 \u00d7 128 = 384. Using 2\u2078 gives 768, the 9th term. The value 24 multiplies 3 by 8 as if the sequence were linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0025",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the sum of the first 6 terms of 2 + 6 + 18 + ...?",
+   "imageRef": null,
+   "options": [
+    "728",
+    "486",
+    "1456",
+    "364"
+   ],
+   "correctIndex": 0,
+   "explanation": "With a = 2 and r = 3, S\u2086 = 2(3\u2076 \u2212 1)/(3 \u2212 1) = 2 \u00d7 728/2 = 728. The value 486 is the 6th term only, and 1456 forgets to divide by r \u2212 1 = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0026",
+   "topicId": "meth-hsc-series",
+   "stem": "In a geometric sequence a\u2083 = 12 and a\u2086 = 96. What is the first term?",
+   "imageRef": null,
+   "options": [
+    "1.5",
+    "4",
+    "3",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "a\u2086 \u00f7 a\u2083 = r\u00b3 = 8, so r = 2. Then a\u2083 = ar\u00b2 = 4a = 12, giving a = 3. Dividing 12 by r only once gives 6, which is a\u2082.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0027",
+   "topicId": "meth-hsc-series",
+   "stem": "For which value of x > 0 do 2, x, 18 form a geometric sequence?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "6",
+    "10",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ratios must be equal: x/2 = 18/x, so x\u00b2 = 36 and x = 6. The sequence is 2, 6, 18 with ratio 3. The value 10 is the middle term of an arithmetic sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0028",
+   "topicId": "meth-hsc-series",
+   "stem": "Evaluate \u03a32\u1d4f for k = 1 to 5.",
+   "imageRef": null,
+   "options": [
+    "62",
+    "63",
+    "32",
+    "30"
+   ],
+   "correctIndex": 0,
+   "explanation": "The terms are 2, 4, 8, 16 and 32, a GP with a = 2 and r = 2, so the sum is 2(2\u2075 \u2212 1)/(2 \u2212 1) = 62. Starting at k = 0 would add 1 and give 63.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0029",
+   "topicId": "meth-hsc-series",
+   "stem": "A geometric series has first term 5 and common ratio 3. What is the smallest number of terms for which its sum exceeds 1000?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2099 = 5(3\u207f \u2212 1)/2 > 1000 needs 3\u207f > 401. Since 3\u2075 = 243 and 3\u2076 = 729, n = 6. Check: S\u2085 = 605 and S\u2086 = 1820.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0030",
+   "topicId": "meth-hsc-series",
+   "stem": "For a geometric sequence with a > 0 and 0 < r < 1, what happens as n \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "a\u2099 approaches 0 and S\u2099 approaches a/(1 \u2212 r)",
+    "a\u2099 approaches a/(1 \u2212 r) and S\u2099 approaches 0",
+    "Both a\u2099 and S\u2099 approach 0",
+    "a\u2099 approaches 0 and S\u2099 grows without bound"
+   ],
+   "correctIndex": 0,
+   "explanation": "r\u207f shrinks towards 0, so the terms do too, and S\u2099 = a(1 \u2212 r\u207f)/(1 \u2212 r) approaches a/(1 \u2212 r). Terms approaching 0 is not enough on its own, but here they shrink fast enough for the sum to settle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0031",
+   "topicId": "meth-hsc-series",
+   "stem": "A geometric series has a limiting sum when:",
+   "imageRef": null,
+   "options": [
+    "r < 1",
+    "r > 1",
+    "|r| > 1",
+    "|r| < 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The limiting sum a/(1 \u2212 r) exists only when r\u207f \u2192 0, which needs \u22121 < r < 1. The condition r < 1 is not enough: with r = \u22122 the terms grow in size and alternate in sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0032",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the limiting sum of 8 + 4 + 2 + 1 + ...?",
+   "imageRef": null,
+   "options": [
+    "32",
+    "16",
+    "15",
+    "8"
+   ],
+   "correctIndex": 1,
+   "explanation": "a = 8 and r = 1/2, so S\u221e = 8/(1 \u2212 1/2) = 16. The first four terms add to 15, and each further term gets the sum closer to 16 without passing it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0033",
+   "topicId": "meth-hsc-series",
+   "stem": "What is the limiting sum of 12 \u2212 6 + 3 \u2212 ...?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "8",
+    "24",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here r = \u22121/2, so S\u221e = 12/(1 \u2212 (\u22121/2)) = 12/(3/2) = 8. Using r = 1/2 by ignoring the alternating signs gives 24.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0034",
+   "topicId": "meth-hsc-series",
+   "stem": "Writing 0.777... as the limiting sum 0.7 + 0.07 + 0.007 + ... gives the fraction:",
+   "imageRef": null,
+   "options": [
+    "7/10",
+    "7/99",
+    "77/100",
+    "7/9"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = 0.7 and r = 0.1, so S\u221e = 0.7/0.9 = 7/9. The fraction 7/99 is 0.0707..., where two digits repeat.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0035",
+   "topicId": "meth-hsc-series",
+   "stem": "For which values of x does the series 1 + 2x + 4x\u00b2 + 8x\u00b3 + ... have a limiting sum?",
+   "imageRef": null,
+   "options": [
+    "0 < x < 1/2",
+    "\u22121/2 < x < 1/2",
+    "\u22121 < x < 1",
+    "\u22122 < x < 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The common ratio is 2x, and a limiting sum needs |2x| < 1, so |x| < 1/2. Negative x is allowed: then the terms alternate in sign but still shrink. Applying |x| < 1 ignores the 2 in the ratio.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0036",
+   "topicId": "meth-hsc-series",
+   "stem": "The limiting sum of a geometric series is 3 times its first term. What is the common ratio?",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "3/2",
+    "\u22122/3",
+    "2/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "a/(1 \u2212 r) = 3a gives 1 \u2212 r = 1/3, so r = 2/3, which satisfies |r| < 1. The value 3/2 has no limiting sum at all.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0037",
+   "topicId": "meth-hsc-series",
+   "stem": "A population of 2000 grows by 5% each year. Which expression gives the population after 6 years?",
+   "imageRef": null,
+   "options": [
+    "2000 + 6 \u00d7 100",
+    "2000 \u00d7 1.05\u2076",
+    "2000 \u00d7 1.05\u2075",
+    "2000 \u00d7 0.05\u2076"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each year multiplies the population by 1.05, so after 6 years it is 2000 \u00d7 1.05\u2076, an exponential function of time. The expression 2000 + 6 \u00d7 100 adds 5% of the starting value each year, which is linear growth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0038",
+   "topicId": "meth-hsc-series",
+   "stem": "A ball is dropped from 5 m and each bounce reaches 80% of the previous height. How high does it rise after the 3rd bounce?",
+   "imageRef": null,
+   "options": [
+    "2 m",
+    "2.56 m",
+    "3.2 m",
+    "2.048 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The heights after each bounce are 4, 3.2 and 2.56 m, a GP with ratio 0.8, so the 3rd is 5 \u00d7 0.8\u00b3 = 2.56 m. The value 2.048 m is after the 4th bounce.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0039",
+   "topicId": "meth-hsc-series",
+   "stem": "A ball is dropped from 5 m and each bounce reaches 80% of the previous height. What total distance does it travel before coming to rest?",
+   "imageRef": null,
+   "options": [
+    "40 m",
+    "45 m",
+    "25 m",
+    "50 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "It falls 5 m, then rises and falls each bounce height: 2 \u00d7 (4 + 3.2 + ...) = 2 \u00d7 4/(1 \u2212 0.8) = 40 m. The total is 5 + 40 = 45 m. Treating the first 5 m as a rise and fall gives 50 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-series-0040",
+   "topicId": "meth-hsc-series",
+   "stem": "A town of 8000 grows by 4% each year. Given log 1.5 \u2248 0.1761 and log 1.04 \u2248 0.0170, after how many full years does it first exceed 12 000?",
+   "imageRef": null,
+   "options": [
+    "12 years",
+    "11 years",
+    "10 years",
+    "13 years"
+   ],
+   "correctIndex": 1,
+   "explanation": "Solve 8000 \u00d7 1.04\u207f > 12 000, so 1.04\u207f > 1.5 and n > 0.1761/0.0170 \u2248 10.4. The first whole number is 11. Rounding down to 10 leaves the town just short; 13 years assumes it adds 320 people each year.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-series-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

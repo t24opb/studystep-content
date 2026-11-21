@@ -1,0 +1,651 @@
+{
+ "topicId": "meth-tce-lines-transformations",
+ "questions": [
+  {
+   "id": "meth-tce-lines-transformations-0001",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Which description best defines a function?",
+   "imageRef": null,
+   "options": [
+    "a rule whose graph is a straight line or a parabola",
+    "a rule that pairs each input with exactly one output",
+    "a rule that pairs each output with exactly one input",
+    "any set of ordered pairs of real numbers"
+   ],
+   "correctIndex": 1,
+   "explanation": "A function maps each element of its domain to exactly one value. Several inputs may share an output, so it is not required that each output has exactly one input, and a set of ordered pairs is only a function if no input repeats.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0002",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Which of these rules describes a relation that is NOT a function of x?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 = 9",
+    "y = x\u00b2 \u2212 4",
+    "y = 3x + 1",
+    "y = x\u00b3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The circle x\u00b2 + y\u00b2 = 9 pairs x = 0 with both y = 3 and y = \u22123, so a vertical line cuts it twice. Each of the other rules gives exactly one y for every x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0003",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The relation x = y\u00b2 is not a function because:",
+   "imageRef": null,
+   "options": [
+    "some y-values are paired with two x-values",
+    "its graph does not pass through the origin",
+    "it is not defined for negative y-values",
+    "some x-values are paired with two y-values"
+   ],
+   "correctIndex": 3,
+   "explanation": "For example x = 4 is paired with y = 2 and y = \u22122, so the vertical line x = 4 meets the graph twice. Each y gives only one x, and y can be negative, so those reasons are false.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0004",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "A plumber charges C = 40 + 25h dollars for h hours of work. In this model the independent variable is:",
+   "imageRef": null,
+   "options": [
+    "h, the number of hours worked",
+    "C, the total charge in dollars",
+    "25, the hourly rate in dollars",
+    "40, the call-out fee in dollars"
+   ],
+   "correctIndex": 0,
+   "explanation": "The independent variable is the input chosen freely, here the number of hours h. The charge C depends on h, so it is the dependent variable; 25 and 40 are constants.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0005",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "If f(x) = 3 \u2212 2x\u00b2, then f(\u22122) equals:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "\u221213",
+    "\u22125",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(\u22122) = 3 \u2212 2(\u22122)\u00b2 = 3 \u2212 2 \u00d7 4 = \u22125. The value \u221213 comes from squaring \u22122x as a whole, (\u22124)\u00b2 = 16, instead of squaring only x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0006",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The function f(x) = 2x + 1 has domain \u22121 \u2264 x \u2264 3. Its range is:",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2264 y \u2264 3",
+    "1 \u2264 y \u2264 7",
+    "\u22123 \u2264 y \u2264 7",
+    "\u22121 \u2264 y \u2264 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "The function is increasing, so the range runs from f(\u22121) = \u22121 to f(3) = 7. Writing \u22121 \u2264 y \u2264 3 just repeats the domain.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0007",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The range of f(x) = (x \u2212 1)\u00b2 + 3, for all real x, is:",
+   "imageRef": null,
+   "options": [
+    "y \u2265 1",
+    "all real numbers",
+    "y \u2264 3",
+    "y \u2265 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The parabola opens upward with turning point (1, 3), so its least value is 3 and every larger value is reached. The value 1 is the x-coordinate of the turning point, not a y-value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0008",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The function f(x) = x\u00b2 \u2212 4x has domain 0 \u2264 x \u2264 5. Its range is:",
+   "imageRef": null,
+   "options": [
+    "y \u2265 \u22124",
+    "\u22124 \u2264 y \u2264 5",
+    "0 \u2264 y \u2264 5",
+    "\u22124 \u2264 y \u2264 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The turning point is at x = 2, where f(2) = \u22124, and this lies inside the domain. At the ends f(0) = 0 and f(5) = 5, so the largest value is 5. Using only the endpoints misses the minimum of \u22124.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0009",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The line 2y = 6 \u2212 4x has gradient and y-intercept:",
+   "imageRef": null,
+   "options": [
+    "gradient 2, y-intercept 3",
+    "gradient \u22122, y-intercept 6",
+    "gradient \u22122, y-intercept 3",
+    "gradient \u22124, y-intercept 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing by 2 gives y = 3 \u2212 2x, so the gradient is \u22122 and the y-intercept is 3. Reading \u22124 and 6 straight from the equation forgets to make y the subject first.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0010",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The gradient of the line through (\u22121, 4) and (3, \u22124) is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u22122",
+    "2",
+    "\u22121/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gradient = rise/run = (\u22124 \u2212 4)/(3 \u2212 (\u22121)) = \u22128/4 = \u22122. The value \u22121/2 comes from dividing the change in x by the change in y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0011",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The line with gradient 3 that passes through (2, \u22121) has equation:",
+   "imageRef": null,
+   "options": [
+    "y = 3x + 7",
+    "y = 3x + 5",
+    "y = 3x \u2212 5",
+    "y = 3x \u2212 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using y \u2212 y\u2081 = m(x \u2212 x\u2081): y + 1 = 3(x \u2212 2), so y = 3x \u2212 7. Check: 3(2) \u2212 7 = \u22121. The other rules come from sign slips with the coordinates of the point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0012",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Two non-vertical lines with gradients m\u2081 and m\u2082 are perpendicular exactly when:",
+   "imageRef": null,
+   "options": [
+    "m\u2081 \u00d7 m\u2082 = 1",
+    "m\u2081 \u00d7 m\u2082 = \u22121",
+    "m\u2081 = m\u2082",
+    "m\u2081 + m\u2082 = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Perpendicular gradients are negative reciprocals, so their product is \u22121. Equal gradients give parallel lines, and gradients adding to 0, such as 2 and \u22122, are not perpendicular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0013",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The line through (1, 2) that is parallel to y = 4 \u2212 3x has equation:",
+   "imageRef": null,
+   "options": [
+    "y = x/3 + 5/3",
+    "y = \u22123x \u2212 1",
+    "y = 3x \u2212 1",
+    "y = \u22123x + 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "A parallel line has the same gradient, \u22123. Then y \u2212 2 = \u22123(x \u2212 1), giving y = \u22123x + 5. The rule y = x/3 + 5/3 is the perpendicular line through the point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0014",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The line through (4, 3) that is perpendicular to y = 2x + 1 has equation:",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x/2 + 5",
+    "y = 2x \u2212 5",
+    "y = x/2 + 1",
+    "y = \u22122x + 11"
+   ],
+   "correctIndex": 0,
+   "explanation": "The perpendicular gradient is \u22121/2, so y \u2212 3 = \u2212(x \u2212 4)/2, giving y = \u2212x/2 + 5. Using 1/2 forgets the sign change, and using \u22122 forgets to take the reciprocal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0015",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The lines y = kx + 2 and 3x + 6y = 1 are perpendicular. The value of k is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "\u22122",
+    "1/2",
+    "\u22121/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearranging 3x + 6y = 1 gives y = \u2212x/2 + 1/6, with gradient \u22121/2. A perpendicular gradient k satisfies k \u00d7 (\u22121/2) = \u22121, so k = 2. The value \u22121/2 would make the lines parallel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0016",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The intercepts of the line 3x \u2212 4y = 12 with the axes are:",
+   "imageRef": null,
+   "options": [
+    "(4, 0) and (0, 3)",
+    "(\u22124, 0) and (0, 3)",
+    "(3, 0) and (0, \u22124)",
+    "(4, 0) and (0, \u22123)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Put y = 0: 3x = 12, so x = 4. Put x = 0: \u22124y = 12, so y = \u22123. Swapping the coefficients gives the incorrect intercepts 3 and \u22124.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0017",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Which rule shows y directly proportional to x?",
+   "imageRef": null,
+   "options": [
+    "y = 2.5x",
+    "y = 2.5x + 1",
+    "y = 2.5/x",
+    "y = x + 2.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Direct proportion means y = kx for a constant k, a straight line through the origin. A linear rule with a non-zero intercept is linear but not proportional, and y = 2.5/x is inverse proportion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0018",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The cost of fuel is directly proportional to the number of litres bought. If 40 L costs $78.00, then 55 L costs:",
+   "imageRef": null,
+   "options": [
+    "$56.73",
+    "$117.00",
+    "$107.25",
+    "$93.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rate is 78/40 = $1.95 per litre, so 55 L costs 55 \u00d7 1.95 = $107.25. Adding $15 for the extra 15 L treats each litre as $1, which ignores the rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0019",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The solution of (3x \u2212 1)/2 = x + 4 is:",
+   "imageRef": null,
+   "options": [
+    "x = 5",
+    "x = 3",
+    "x = 7",
+    "x = 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply both sides by 2: 3x \u2212 1 = 2x + 8, so x = 9. The answer 5 comes from multiplying only the x on the right by 2 and leaving the 4 unchanged.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0020",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Points A(1, 2), B(5, 4) and C(3, k) are such that AB is perpendicular to BC. The value of k is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "5",
+    "8",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The gradient of AB is 2/4 = 1/2, so BC must have gradient \u22122: (k \u2212 4)/(3 \u2212 5) = \u22122, giving k \u2212 4 = 4 and k = 8. With k = 3 the gradient of BC is 1/2, which makes AB and BC parallel instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0021",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "A taxi fare is a fixed flag fall plus a constant charge per kilometre. An 8 km trip costs $22.60 and a 15 km trip costs $37.30. The flag fall is:",
+   "imageRef": null,
+   "options": [
+    "$14.70",
+    "$5.80",
+    "$2.10",
+    "$2.83"
+   ],
+   "correctIndex": 1,
+   "explanation": "The extra 7 km cost 37.30 \u2212 22.60 = $14.70, so the rate is $2.10 per km. Then 22.60 \u2212 8 \u00d7 2.10 = $5.80. Dividing 22.60 by 8 ignores the flag fall altogether.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0022",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "For y = ax\u00b2 + bx + c with a > 0 and b\u00b2 \u2212 4ac < 0, the graph:",
+   "imageRef": null,
+   "options": [
+    "crosses the x-axis at two points",
+    "lies entirely below the x-axis",
+    "lies entirely above the x-axis",
+    "touches the x-axis at exactly one point"
+   ],
+   "correctIndex": 2,
+   "explanation": "A negative discriminant means no x-intercepts, and a > 0 means the parabola opens upward, so it sits entirely above the x-axis. It would lie below the axis only if a were negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0023",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = ax\u00b2 + bx + c is concave down, cuts the y-axis below the origin, has its turning point to the right of the y-axis and has two x-intercepts. Which is true?",
+   "imageRef": null,
+   "options": [
+    "a < 0, b > 0, c < 0, b\u00b2 \u2212 4ac < 0",
+    "a < 0, b > 0, c < 0, b\u00b2 \u2212 4ac > 0",
+    "a < 0, b < 0, c < 0, b\u00b2 \u2212 4ac > 0",
+    "a > 0, b < 0, c < 0, b\u00b2 \u2212 4ac > 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Concave down gives a < 0, the y-intercept is c < 0, and two x-intercepts need a positive discriminant. The turning point is at x = \u2212b/(2a) > 0, and with a < 0 this needs b > 0. Taking b < 0 forgets that a is negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0024",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Compared with the graph of y = f(x), the graph of y = f(x + 3) is:",
+   "imageRef": null,
+   "options": [
+    "translated 3 units down",
+    "translated 3 units to the left",
+    "translated 3 units to the right",
+    "translated 3 units up"
+   ],
+   "correctIndex": 1,
+   "explanation": "Replacing x by x + 3 means the same y-value now occurs 3 units earlier, so the graph moves 3 units left. A move up would be y = f(x) + 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0025",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = x\u00b2 is translated 2 units to the right and 5 units down. The equation of the image is:",
+   "imageRef": null,
+   "options": [
+    "y = (x + 2)\u00b2 \u2212 5",
+    "y = (x \u2212 2)\u00b2 + 5",
+    "y = (x \u2212 5)\u00b2 \u2212 2",
+    "y = (x \u2212 2)\u00b2 \u2212 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "A move right by 2 replaces x by x \u2212 2, and a move down by 5 subtracts 5, giving turning point (2, \u22125). Writing (x + 2) moves the graph left.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0026",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Compared with y = f(x), the graph of y = 3f(x) is:",
+   "imageRef": null,
+   "options": [
+    "dilated by factor 3 from the y-axis",
+    "dilated by factor 1/3 from the x-axis",
+    "dilated by factor 1/3 from the y-axis",
+    "dilated by factor 3 from the x-axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every y-value is multiplied by 3, which stretches the graph away from the x-axis by factor 3. Changes inside the brackets, such as f(3x), act parallel to the x-axis instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0027",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Compared with y = f(x), the graph of y = f(2x) is:",
+   "imageRef": null,
+   "options": [
+    "dilated by factor 1/2 from the x-axis",
+    "dilated by factor 2 from the x-axis",
+    "dilated by factor 1/2 from the y-axis",
+    "dilated by factor 2 from the y-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "The value f(a) now occurs at x = a/2, so every x-coordinate is halved: a dilation by factor 1/2 from the y-axis. The factor 2 inside the brackets does not stretch the graph by 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0028",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "Compared with y = f(x), the graph of y = f(\u2212x) is:",
+   "imageRef": null,
+   "options": [
+    "a reflection in the x-axis",
+    "a reflection in the line y = x",
+    "a rotation of 180\u00b0 about the origin",
+    "a reflection in the y-axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "Replacing x by \u2212x swaps each point (a, b) to (\u2212a, b), a reflection in the y-axis. A reflection in the x-axis is y = \u2212f(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0029",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = (x \u2212 2)\u00b2 + 3 is reflected in the x-axis. The turning point of the image is:",
+   "imageRef": null,
+   "options": [
+    "(\u22122, \u22123)",
+    "(2, 3)",
+    "(2, \u22123)",
+    "(\u22122, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Reflecting in the x-axis gives y = \u2212(x \u2212 2)\u00b2 \u2212 3, so each y-coordinate changes sign and the turning point moves from (2, 3) to (2, \u22123). The point (\u22122, 3) would come from a reflection in the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0030",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = x\u00b3 is reflected in the x-axis, then translated 1 unit left and 4 units up. The equation of the image is:",
+   "imageRef": null,
+   "options": [
+    "y = (x + 1)\u00b3 \u2212 4",
+    "y = \u2212(x + 1)\u00b3 + 4",
+    "y = \u2212(x \u2212 1)\u00b3 + 4",
+    "y = \u2212(x + 1)\u00b3 \u2212 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The reflection gives y = \u2212x\u00b3. Moving 1 unit left replaces x by x + 1, and moving up adds 4. Writing (x \u2212 1) moves the graph right instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0031",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = 2(x + 1)\u00b3 \u2212 3 is obtained from y = x\u00b3 by:",
+   "imageRef": null,
+   "options": [
+    "dilation factor 2 from the y-axis, then 1 left and 3 down",
+    "dilation factor 1/2 from the y-axis, then 1 right and 3 down",
+    "dilation factor 2 from the x-axis, then 1 left and 3 down",
+    "dilation factor 2 from the x-axis, then 1 right and 3 down"
+   ],
+   "correctIndex": 2,
+   "explanation": "The 2 multiplies every y-value, a dilation from the x-axis. Then x + 1 shifts the graph left by 1 and \u22123 shifts it down by 3, putting the point of inflection at (\u22121, \u22123).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0032",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The point (2, \u22123) lies on the graph of y = f(x). Which point must lie on the graph of y = 2f(x \u2212 1) + 4?",
+   "imageRef": null,
+   "options": [
+    "(3, \u22122)",
+    "(1, \u22122)",
+    "(3, 2)",
+    "(1, \u221210)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The x-coordinate moves 1 right to 3. The y-coordinate is doubled, then 4 is added: 2(\u22123) + 4 = \u22122. Adding 4 before doubling gives 2, which applies the steps in the wrong order.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0033",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = (x \u2212 1)(x \u2212 4) is dilated by factor 2 from the y-axis. The x-intercepts of the image are:",
+   "imageRef": null,
+   "options": [
+    "x = 1 and x = 4",
+    "x = 3 and x = 6",
+    "x = 2 and x = 8",
+    "x = 0.5 and x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "A dilation from the y-axis doubles every x-coordinate, so the intercepts 1 and 4 become 2 and 8. Halving them would be a dilation by factor 1/2, and 3 and 6 come from translating 2 units right.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-lines-transformations-0034",
+   "topicId": "meth-tce-lines-transformations",
+   "stem": "The graph of y = f(x) has x-intercepts at x = \u22122 and x = 6. The x-intercepts of y = f(2x) are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22124 and x = 4",
+    "x = \u22121 and x = 3",
+    "x = \u22124 and x = 12",
+    "x = \u22122 and x = 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(2x) = 0 when 2x = \u22122 or 2x = 6, so x = \u22121 or x = 3. The intercepts would stay at \u22122 and 6 for y = 2f(x), because a dilation from the x-axis leaves zeros fixed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-lines-transformations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

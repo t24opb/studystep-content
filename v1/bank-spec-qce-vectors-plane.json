@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-qce-vectors-plane",
+ "questions": [
+  {
+   "id": "spec-qce-vectors-plane-0001",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Which of these quantities is a vector?",
+   "imageRef": null,
+   "options": [
+    "A mass of 20 kg",
+    "A distance of 20 km",
+    "A velocity of 20 km/h due north",
+    "A speed of 20 km/h"
+   ],
+   "correctIndex": 2,
+   "explanation": "A vector has both magnitude and direction, and a velocity due north has both. Speed, mass and distance have magnitude only, so they are scalars.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0002",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A person walks 3 km east and then 3 km west. Their distance travelled and the magnitude of their displacement are:",
+   "imageRef": null,
+   "options": [
+    "6 km and 6 km",
+    "0 km and 6 km",
+    "3 km and 3 km",
+    "6 km and 0 km"
+   ],
+   "correctIndex": 3,
+   "explanation": "Distance is a scalar that adds every leg, 6 km. Displacement is the vector from start to finish, and the person is back where they started, so it is 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0003",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Two arrows drawn in different places on a page represent equal vectors when they have:",
+   "imageRef": null,
+   "options": [
+    "the same starting point and the same end point only",
+    "the same direction, of any magnitude",
+    "the same magnitude and the same direction",
+    "the same magnitude, in any direction"
+   ],
+   "correctIndex": 2,
+   "explanation": "Vectors are equal when magnitude and direction both match, wherever they are drawn. Requiring the same starting point is too strict, since equal vectors can be parallel translations of each other.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0004",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Compared with a non-zero vector a, the vector \u22122a has:",
+   "imageRef": null,
+   "options": [
+    "twice the magnitude and the opposite direction",
+    "twice the magnitude and the same direction",
+    "half the magnitude and the opposite direction",
+    "the same magnitude and the opposite direction"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying by a negative scalar reverses the direction, and the size of the scalar, 2, doubles the magnitude. A scalar of \u22121 alone would keep the magnitude the same.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0005",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The length (magnitude) of the displacement vector 3i \u2212 4j is:",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "25",
+    "5",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "|3i \u2212 4j| = \u221a(3\u00b2 + (\u22124)\u00b2) = \u221a25 = 5. Adding the components gives \u22121 or 7, and 25 forgets the square root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0006",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The position vector of the point (3, \u22122) can be written as:",
+   "imageRef": null,
+   "options": [
+    "3i + 2j",
+    "\u22123i + 2j",
+    "3i \u2212 2j",
+    "\u22122i + 3j"
+   ],
+   "correctIndex": 2,
+   "explanation": "The x-coordinate multiplies i and the y-coordinate multiplies j, so (3, \u22122) has position vector 3i \u2212 2j, the column vector with entries 3 and \u22122. Swapping the components gives \u22122i + 3j.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0007",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The unit vector in the direction of 5i + 12j is:",
+   "imageRef": null,
+   "options": [
+    "(5i + 12j)/17",
+    "i + j",
+    "(5i + 12j)/169",
+    "(5i + 12j)/13"
+   ],
+   "correctIndex": 3,
+   "explanation": "Divide the vector by its magnitude \u221a(25 + 144) = 13. Dividing by 17 adds the components, and dividing by 169 uses the square of the magnitude.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0008",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The angle that \u22123i + 3j makes with the positive x-axis, measured anticlockwise, is:",
+   "imageRef": null,
+   "options": [
+    "\u221245\u00b0",
+    "315\u00b0",
+    "135\u00b0",
+    "45\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan \u03b8 = 3/(\u22123) = \u22121, and the vector points into the second quadrant (x negative, y positive), so \u03b8 = 135\u00b0. A calculator gives \u221245\u00b0, which is the fourth-quadrant angle with the same tangent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0009",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "In polar form (r, \u03b8), with \u03b8 measured anticlockwise from the positive x-axis, the vector i + \u221a3 j is:",
+   "imageRef": null,
+   "options": [
+    "(4, 60\u00b0)",
+    "(\u221a3, 60\u00b0)",
+    "(2, 60\u00b0)",
+    "(2, 30\u00b0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "r = \u221a(1 + 3) = 2 and tan \u03b8 = \u221a3, so \u03b8 = 60\u00b0 in the first quadrant. The angle 30\u00b0 comes from inverting the tangent ratio, x over y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0010",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The vector with polar form (10, 210\u00b0) in Cartesian form is:",
+   "imageRef": null,
+   "options": [
+    "5\u221a3 i + 5j",
+    "\u22125\u221a3 i + 5j",
+    "\u22125\u221a3 i \u2212 5j",
+    "\u22125i \u2212 5\u221a3 j"
+   ],
+   "correctIndex": 2,
+   "explanation": "x = 10 cos 210\u00b0 = \u22125\u221a3 and y = 10 sin 210\u00b0 = \u22125, placing the vector in the third quadrant. Swapping sine and cosine gives \u22125i \u2212 5\u221a3 j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0011",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "In polar form (r, \u03b8), with 0\u00b0 \u2264 \u03b8 < 360\u00b0, the vector \u22124i \u2212 4j is:",
+   "imageRef": null,
+   "options": [
+    "(4\u221a2, 45\u00b0)",
+    "(8, 225\u00b0)",
+    "(32, 225\u00b0)",
+    "(4\u221a2, 225\u00b0)"
+   ],
+   "correctIndex": 3,
+   "explanation": "r = \u221a(16 + 16) = 4\u221a2 and the vector is in the third quadrant at 45\u00b0 past the negative x-axis, so \u03b8 = 225\u00b0. The calculator angle tan\u207b\u00b9(1) = 45\u00b0 ignores the quadrant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0012",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "By the triangle rule, for points A, B and C the vector AB + BC equals:",
+   "imageRef": null,
+   "options": [
+    "AB \u2212 BC",
+    "AC",
+    "CA",
+    "BA + CB"
+   ],
+   "correctIndex": 1,
+   "explanation": "Travelling from A to B and then B to C has the same overall effect as travelling from A to C. CA is the same length but in the opposite direction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0013",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "In parallelogram OABC, OA = a and OC = c. The vector AC equals:",
+   "imageRef": null,
+   "options": [
+    "a \u2212 c",
+    "a + c",
+    "(a + c)/2",
+    "c \u2212 a"
+   ],
+   "correctIndex": 3,
+   "explanation": "AC = AO + OC = \u2212a + c = c \u2212 a. The vector a + c is the other diagonal, OB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0014",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Points A and B have position vectors a and b. The position vector of the midpoint M of AB is:",
+   "imageRef": null,
+   "options": [
+    "(a \u2212 b)/2",
+    "(a + b)/2",
+    "(b \u2212 a)/2",
+    "a + b"
+   ],
+   "correctIndex": 1,
+   "explanation": "OM = OA + (1/2)AB = a + (1/2)(b \u2212 a) = (a + b)/2. The vector (b \u2212 a)/2 is AM, from A to the midpoint, not from the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0015",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "If a = 2i + j and b = \u2212i + 3j, then 2a \u2212 b is:",
+   "imageRef": null,
+   "options": [
+    "5i + 5j",
+    "3i \u2212 j",
+    "5i \u2212 j",
+    "3i + 5j"
+   ],
+   "correctIndex": 2,
+   "explanation": "2a = 4i + 2j, and subtracting b gives (4 + 1)i + (2 \u2212 3)j = 5i \u2212 j. Adding b instead gives 3i + 5j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0016",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "For the points A(1, 4) and B(5, 1), the vector AB and its magnitude are:",
+   "imageRef": null,
+   "options": [
+    "4i \u2212 3j, magnitude 5",
+    "6i + 5j, magnitude \u221a61",
+    "\u22124i + 3j, magnitude 5",
+    "4i + 3j, magnitude 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "AB = b \u2212 a = (5 \u2212 1)i + (1 \u2212 4)j = 4i \u2212 3j, with magnitude \u221a(16 + 9) = 5. The vector \u22124i + 3j is BA, the reverse direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0017",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The midpoint of the segment joining A(\u22122, 3) and B(6, \u22121) is:",
+   "imageRef": null,
+   "options": [
+    "(4, 2)",
+    "(8, \u22124)",
+    "(4, \u22122)",
+    "(2, 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Average the coordinates: ((\u22122 + 6)/2, (3 \u2212 1)/2) = (2, 1). Halving the differences instead gives (4, \u22122), which is half of AB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0018",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The point P divides the segment AB internally in the ratio 1 : 3, where A is (2, 5) and B is (10, 1). The coordinates of P are:",
+   "imageRef": null,
+   "options": [
+    "(4, 4)",
+    "(8, 2)",
+    "(4.67, 3.67)",
+    "(6, 3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "P is one quarter of the way from A to B: OP = a + (1/4)(b \u2212 a) = (2, 5) + (1/4)(8, \u22124) = (4, 4). Going three quarters of the way gives (8, 2), the 3 : 1 point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0019",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "For vectors a = a\u2081i + a\u2082j and b = b\u2081i + b\u2082j at angle \u03b8, the scalar product a \u00b7 b equals:",
+   "imageRef": null,
+   "options": [
+    "|a||b| sin \u03b8, which also equals a\u2081b\u2081 + a\u2082b\u2082",
+    "|a||b| cos \u03b8, which also equals a\u2081b\u2082 + a\u2082b\u2081",
+    "|a| + |b|, which also equals a\u2081 + b\u2081",
+    "|a||b| cos \u03b8, which also equals a\u2081b\u2081 + a\u2082b\u2082"
+   ],
+   "correctIndex": 3,
+   "explanation": "The geometric and component forms of the dot product agree: |a||b| cos \u03b8 = a\u2081b\u2081 + a\u2082b\u2082. The result is a scalar, not a vector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0020",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The scalar product (2i + 3j) \u00b7 (4i \u2212 j) is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "11",
+    "8i \u2212 3j",
+    "14"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply matching components and add: 2 \u00d7 4 + 3 \u00d7 (\u22121) = 8 \u2212 3 = 5. The answer is a number, so 8i \u2212 3j is not a scalar product.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0021",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Vectors a and b have |a| = 4, |b| = 5 and an angle of 60\u00b0 between them. The value of a \u00b7 b is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "20",
+    "17.3",
+    "9"
+   ],
+   "correctIndex": 0,
+   "explanation": "a \u00b7 b = 4 \u00d7 5 \u00d7 cos 60\u00b0 = 20 \u00d7 0.5 = 10. Using sin 60\u00b0 gives 17.3, and leaving out the cosine gives 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0022",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "For any vector a, the scalar product a \u00b7 a equals:",
+   "imageRef": null,
+   "options": [
+    "|a|",
+    "0",
+    "2|a|",
+    "|a|\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The angle between a and itself is 0\u00b0, so a \u00b7 a = |a||a| cos 0\u00b0 = |a|\u00b2. This is often used to find a magnitude.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0023",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The angle between 3i + 4j and 5i + 12j, to one decimal place, is:",
+   "imageRef": null,
+   "options": [
+    "14.3\u00b0",
+    "75.7\u00b0",
+    "22.6\u00b0",
+    "53.1\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos \u03b8 = (15 + 48)/(5 \u00d7 13) = 63/65, so \u03b8 = 14.3\u00b0. The angle 53.1\u00b0 is the direction of 3i + 4j alone, measured from the x-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0024",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Two non-zero vectors have a scalar product of 0. The vectors are:",
+   "imageRef": null,
+   "options": [
+    "perpendicular",
+    "parallel and in the same direction",
+    "parallel and in opposite directions",
+    "equal in magnitude"
+   ],
+   "correctIndex": 0,
+   "explanation": "a \u00b7 b = |a||b| cos \u03b8 = 0 with non-zero vectors forces cos \u03b8 = 0, so \u03b8 = 90\u00b0. Parallel vectors give the largest possible size of a \u00b7 b, not 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0025",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The vectors ki + 2j and 3i \u2212 6j are perpendicular when k equals:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22121",
+    "4",
+    "\u22124"
+   ],
+   "correctIndex": 2,
+   "explanation": "Perpendicular vectors have scalar product 0: 3k \u2212 12 = 0, so k = 4. Making them parallel instead would need k = \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0026",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The vectors 2i \u2212 3j and mi + 9j are parallel when m equals:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "13.5",
+    "\u221213.5",
+    "\u22126"
+   ],
+   "correctIndex": 3,
+   "explanation": "Parallel vectors are scalar multiples: 9 = \u22123 \u00d7 (\u22123), so mi + 9j = \u22123(2i \u2212 3j) and m = \u22126. The perpendicular condition 2m \u2212 27 = 0 gives 13.5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0027",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The scalar projection of a = 4i + 3j onto b = 3i + 4j is:",
+   "imageRef": null,
+   "options": [
+    "4.8",
+    "24",
+    "0.96",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The scalar projection is a \u00b7 b\u0302 = (12 + 12)/|b| = 24/5 = 4.8. The value 24 is a \u00b7 b without dividing by |b|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0028",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "The vector projection of a = 2i + 3j onto b = 4i \u2212 2j is:",
+   "imageRef": null,
+   "options": [
+    "2i \u2212 j",
+    "0.8i \u2212 0.4j",
+    "0.4i \u2212 0.2j",
+    "0.2i \u2212 0.1j"
+   ],
+   "correctIndex": 2,
+   "explanation": "(a \u00b7 b / b \u00b7 b)b = (2/20)(4i \u2212 2j) = 0.4i \u2212 0.2j. The vector 0.8i \u2212 0.4j is twice as long, as if b \u00b7 b were 10 rather than 4\u00b2 + 2\u00b2 = 20.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0029",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "For a = 2i + 3j and b = 4i \u2212 2j, the component of a perpendicular to b is:",
+   "imageRef": null,
+   "options": [
+    "1.6i \u2212 3.2j",
+    "\u22122i + 5j",
+    "1.6i + 3.2j",
+    "2.4i + 2.8j"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtract the vector projection from a: (2i + 3j) \u2212 (0.4i \u2212 0.2j) = 1.6i + 3.2j. Check: (1.6i + 3.2j) \u00b7 (4i \u2212 2j) = 6.4 \u2212 6.4 = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0030",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A force of 20 N acts at 30\u00b0 above the positive x-axis. In component form it is:",
+   "imageRef": null,
+   "options": [
+    "10\u221a3 i \u2212 10j N",
+    "10\u221a3 i + 10j N",
+    "10i + 10\u221a3 j N",
+    "20i + 20j N"
+   ],
+   "correctIndex": 1,
+   "explanation": "The horizontal component is 20 cos 30\u00b0 = 10\u221a3 and the vertical component is 20 sin 30\u00b0 = 10. Swapping sine and cosine gives 10i + 10\u221a3 j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0031",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Forces 3i + 2j, \u22125i + j and 4i \u2212 6j newtons act on a particle. The magnitude of the resultant force is:",
+   "imageRef": null,
+   "options": [
+    "\u221a5 N",
+    "13 N",
+    "5 N",
+    "\u221a13 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "The resultant is (3 \u2212 5 + 4)i + (2 + 1 \u2212 6)j = 2i \u2212 3j, with magnitude \u221a(4 + 9) = \u221a13. The value 13 forgets the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0032",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A particle is in equilibrium under forces F\u2081 = 3i \u2212 2j, F\u2082 = \u2212i + 5j and a third force F\u2083 (in newtons). F\u2083 is:",
+   "imageRef": null,
+   "options": [
+    "\u22124i + 7j",
+    "\u22122i \u2212 3j",
+    "2i + 3j",
+    "4i \u2212 7j"
+   ],
+   "correctIndex": 1,
+   "explanation": "In equilibrium the forces sum to zero, so F\u2083 = \u2212(F\u2081 + F\u2082) = \u2212(2i + 3j) = \u22122i \u2212 3j. The vector 2i + 3j is the sum of the other two, not the balancing force.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0033",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A 5 kg block is held at rest on a smooth plane inclined at 30\u00b0 by a force parallel to the plane. Taking g = 9.8 m/s\u00b2, the size of that force is:",
+   "imageRef": null,
+   "options": [
+    "24.5 N",
+    "42.4 N",
+    "49 N",
+    "28.3 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "Along the plane, the force balances the component of weight down the slope: mg sin \u03b8 = 5 \u00d7 9.8 \u00d7 0.5 = 24.5 N. The value 42.4 N is mg cos \u03b8, the component into the plane.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0034",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "For the same 5 kg block held on the smooth 30\u00b0 plane by a force parallel to the plane, the normal reaction force, with g = 9.8 m/s\u00b2, is:",
+   "imageRef": null,
+   "options": [
+    "42.4 N",
+    "24.5 N",
+    "49 N",
+    "56.6 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "Perpendicular to the plane, the normal reaction balances the weight component mg cos \u03b8 = 49 \u00d7 cos 30\u00b0 = 42.4 N, because the holding force is parallel to the plane. It is less than the full weight of 49 N.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0035",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A 5 kg block is held at rest on a smooth plane inclined at 30\u00b0 by a horizontal force. Taking g = 9.8 m/s\u00b2, the size of the horizontal force is:",
+   "imageRef": null,
+   "options": [
+    "28.3 N",
+    "24.5 N",
+    "42.4 N",
+    "56.6 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "Resolving along the plane, F cos 30\u00b0 = mg sin 30\u00b0, so F = mg tan 30\u00b0 = 49 \u00d7 0.577 = 28.3 N. The value 24.5 N is the answer for a force parallel to the plane.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0036",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Speed is related to velocity as:",
+   "imageRef": null,
+   "options": [
+    "the component of velocity along the x-axis",
+    "the magnitude of the velocity vector",
+    "the direction of the velocity vector",
+    "the velocity vector multiplied by time"
+   ],
+   "correctIndex": 1,
+   "explanation": "Velocity is a vector, and speed is its magnitude, which has no direction. The x-component is only part of the velocity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0037",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A plane heads due north at 300 km/h in still air, and a wind blows from the west at 40 km/h. The plane's resultant speed and true bearing are:",
+   "imageRef": null,
+   "options": [
+    "340 km/h on 007.6\u00b0T",
+    "302.7 km/h on 352.4\u00b0T",
+    "260 km/h on 000\u00b0T",
+    "302.7 km/h on 007.6\u00b0T"
+   ],
+   "correctIndex": 3,
+   "explanation": "The velocities are perpendicular, so the speed is \u221a(300\u00b2 + 40\u00b2) = 302.7 km/h; a wind from the west pushes the plane east, so the bearing is tan\u207b\u00b9(40/300) = 7.6\u00b0 east of north. A bearing of 352.4\u00b0T would mean drifting west.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0038",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A boat crosses a river 60 m wide, steering straight across at 4 m/s relative to the water, while the current flows at 3 m/s. The time to cross and the distance carried downstream are:",
+   "imageRef": null,
+   "options": [
+    "15 s and 75 m",
+    "20 s and 60 m",
+    "15 s and 45 m",
+    "12 s and 36 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Only the 4 m/s across the river affects crossing time: 60 \u00f7 4 = 15 s. In that time the current carries the boat 3 \u00d7 15 = 45 m downstream. Using the resultant 5 m/s gives 12 s, which is wrong because the current does not help the crossing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0039",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "A yacht has velocity 3i + 4j m/s and a ferry has velocity \u2212i + 2j m/s. The velocity of the yacht relative to the ferry is:",
+   "imageRef": null,
+   "options": [
+    "4i + 2j m/s",
+    "\u22124i \u2212 2j m/s",
+    "2i + 6j m/s",
+    "\u22123i + 8j m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "The velocity of the yacht relative to the ferry is the yacht's velocity minus the ferry's: (3 + 1)i + (4 \u2212 2)j = 4i + 2j. The vector \u22124i \u2212 2j is the velocity of the ferry relative to the yacht.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-vectors-plane-0040",
+   "topicId": "spec-qce-vectors-plane",
+   "stem": "Car P travels east at 60 km/h and car Q travels north at 80 km/h. The speed of Q relative to P is:",
+   "imageRef": null,
+   "options": [
+    "100 km/h",
+    "140 km/h",
+    "20 km/h",
+    "70 km/h"
+   ],
+   "correctIndex": 0,
+   "explanation": "Q's velocity minus P's is \u221260i + 80j, with magnitude \u221a(3600 + 6400) = 100 km/h. Subtracting the speeds, 80 \u2212 60 = 20, ignores that the cars move at right angles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-vectors-plane-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

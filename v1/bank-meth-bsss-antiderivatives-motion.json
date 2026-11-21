@@ -1,0 +1,670 @@
+{
+ "topicId": "meth-bsss-antiderivatives-motion",
+ "questions": [
+  {
+   "id": "meth-bsss-antiderivatives-motion-0001",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "F(x) is an anti-derivative of f(x). This means that:",
+   "imageRef": null,
+   "options": [
+    "F(x) = 1/f(x)",
+    "F(x) \u00d7 f(x) = 1",
+    "F\u2032(x) = f(x)",
+    "F(x) = f\u2032(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Anti-differentiation reverses differentiation, so differentiating F gives back f. The statement F(x) = f\u2032(x) has the roles of the two functions the wrong way round.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0002",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Which is an anti-derivative of 6x\u00b2, written with the constant c?",
+   "imageRef": null,
+   "options": [
+    "3x\u00b3 + c",
+    "2x\u00b3 + c",
+    "12x + c",
+    "6x\u00b3 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise the power by one and divide by the new power: 6x\u00b3/3 = 2x\u00b3. The answer 12x is the derivative of 6x\u00b2, not an anti-derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0003",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Find an anti-derivative of 4x\u00b3 \u2212 6x + 5.",
+   "imageRef": null,
+   "options": [
+    "x\u2074 \u2212 3x\u00b2 + c",
+    "x\u2074 \u2212 3x\u00b2 + 5x + c",
+    "12x\u00b2 \u2212 6 + c",
+    "x\u2074 \u2212 6x\u00b2 + 5x + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiate term by term: 4x\u00b3 gives x\u2074, \u22126x gives \u22123x\u00b2, and the constant 5 gives 5x. Leaving out 5x forgets that a constant term has the anti-derivative 5x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0004",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Find an anti-derivative of x\u2075.",
+   "imageRef": null,
+   "options": [
+    "6x\u2076 + c",
+    "x\u2076/6 + c",
+    "5x\u2074 + c",
+    "x\u2076 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rule for x\u207f is x\u207f\u207a\u00b9/(n + 1), so x\u2075 gives x\u2076/6. Differentiating x\u2076/6 returns 6x\u2075/6 = x\u2075, which checks the answer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0005",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Find an anti-derivative of (2x + 1)(x \u2212 3).",
+   "imageRef": null,
+   "options": [
+    "(2/3)x\u00b3 + (7/2)x\u00b2 \u2212 3x + c",
+    "(2/3)x\u00b3 \u2212 (5/2)x\u00b2 \u2212 3x + c",
+    "(x\u00b2 + x)(x\u00b2/2 \u2212 3x) + c",
+    "(2/3)x\u00b3 \u2212 5x\u00b2 \u2212 3x + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expand first: (2x + 1)(x \u2212 3) = 2x\u00b2 \u2212 5x \u2212 3. Then anti-differentiate each term to get (2/3)x\u00b3 \u2212 (5/2)x\u00b2 \u2212 3x + c. Anti-differentiating each bracket separately and multiplying is not valid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0006",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Find an anti-derivative of (x\u2074 \u2212 3x\u00b2)/x\u00b2, for x \u2260 0.",
+   "imageRef": null,
+   "options": [
+    "(x\u2075/5 \u2212 x\u00b3)/(x\u00b3/3) + c",
+    "x\u00b3/3 \u2212 x + c",
+    "x\u00b3/3 \u2212 3x + c",
+    "x\u00b3/3 \u2212 3 + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "Simplify first: (x\u2074 \u2212 3x\u00b2)/x\u00b2 = x\u00b2 \u2212 3. Its anti-derivative is x\u00b3/3 \u2212 3x + c. Anti-differentiating the top and bottom separately does not give an anti-derivative of the quotient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0007",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Which anti-derivative F(x) of f(x) = 8x\u00b3 \u2212 3 satisfies F(1) = 0?",
+   "imageRef": null,
+   "options": [
+    "24x\u00b2 + 1",
+    "2x\u2074 \u2212 3x + 1",
+    "2x\u2074 \u2212 3x",
+    "2x\u2074 \u2212 3x \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The general anti-derivative is 2x\u2074 \u2212 3x + c, and F(1) = 2 \u2212 3 + c = 0 gives c = 1. The expression 24x\u00b2 is the derivative of 8x\u00b3, not an anti-derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0008",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Why is a constant c added when writing a general anti-derivative?",
+   "imageRef": null,
+   "options": [
+    "Anti-derivatives are only approximate, and c allows for the rounding error",
+    "The constant c is the gradient of the anti-derivative at x = 0",
+    "The derivative of any constant is 0, so anti-derivatives can differ by a constant",
+    "The constant is needed so the anti-derivative has a non-zero y-intercept"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since d/dx(F(x) + c) = F\u2032(x), adding any constant gives another anti-derivative. An extra condition, such as a known point, is needed to fix the value of c.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0009",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Which describes all the curves with gradient function dy/dx = 2x?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2 + c, a family of vertical translations of y = x\u00b2",
+    "y = 2x\u00b2 + c, a family of dilations of y = x\u00b2",
+    "y = x\u00b2 + cx, a family of parabolas all through (0, 0)",
+    "y = 2 + c, a family of horizontal lines"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every anti-derivative of 2x has the form x\u00b2 + c, so the curves are copies of y = x\u00b2 moved up or down. They are parallel in the sense that, at any given x, they all have the same gradient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0010",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "f\u2032(x) = 3x\u00b2 \u2212 4 and f(2) = 5. What is f(x)?",
+   "imageRef": null,
+   "options": [
+    "x\u00b3 \u2212 4x + 5",
+    "x\u00b3 \u2212 4x + 13",
+    "x\u00b3 \u2212 4x \u2212 3",
+    "6x + 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating gives f(x) = x\u00b3 \u2212 4x + c. Then f(2) = 8 \u2212 8 + c = 5, so c = 5. The value c = 13 comes from adding 8 instead of cancelling it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0011",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A curve has gradient function dy/dx = 6x \u2212 2 and passes through (1, 4). What is its equation?",
+   "imageRef": null,
+   "options": [
+    "y = 3x\u00b2 \u2212 2x + 4",
+    "y = 6x \u2212 2",
+    "y = 3x\u00b2 \u2212 2x + 5",
+    "y = 3x\u00b2 \u2212 2x + 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = 3x\u00b2 \u2212 2x + c, and substituting (1, 4) gives 4 = 3 \u2212 2 + c, so c = 3. Using 4 as the constant directly ignores the x-terms at x = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0012",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "f\u2032(x) = 4x \u2212 1 and f(0) = \u22123. What is f(2)?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "\u22121",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(x) = 2x\u00b2 \u2212 x + c, and f(0) = c = \u22123, so f(x) = 2x\u00b2 \u2212 x \u2212 3 and f(2) = 8 \u2212 2 \u2212 3 = 3. The value 7 is f\u2032(2), the gradient rather than the function value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0013",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "F and G are anti-derivatives of f and g. Which is an anti-derivative of 3f(x) + g(x)?",
+   "imageRef": null,
+   "options": [
+    "3F(x) + G(x)",
+    "F(x) + G(x)",
+    "3F(x) \u00d7 G(x)",
+    "3F(x) + 3G(x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiation is linear: constant multiples and sums carry through, just as they do for derivatives. Differentiating 3F + G gives 3f + g, which checks it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0014",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Which function is NOT an anti-derivative of 2x + 3?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + 3x",
+    "x\u00b2 + 3",
+    "x\u00b2 + 3x + 1",
+    "x\u00b2 + 3x \u2212 7"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of x\u00b2 + 3 is 2x, not 2x + 3, because the 3 should anti-differentiate to 3x. The other three all have derivative 2x + 3 and differ only by a constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0015",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "F\u2032(x) = G\u2032(x) for every real x. What can be concluded about F and G?",
+   "imageRef": null,
+   "options": [
+    "F(x) = \u2212G(x) for every x",
+    "F(x)/G(x) is a constant",
+    "F(x) \u2212 G(x) is a constant",
+    "F(x) = G(x) for every x"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since (F \u2212 G)\u2032 = F\u2032 \u2212 G\u2032 = 0 for every x, the function F \u2212 G has zero gradient everywhere and so is constant. It need not be zero: x\u00b2 and x\u00b2 + 5 have equal derivatives.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0016",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A curve has gradient function dy/dx = 3x\u00b2 \u2212 12, and its stationary point at x = 2 has y-coordinate \u221210. What is the y-intercept of the curve?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "\u221210",
+    "14",
+    "\u221226"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = x\u00b3 \u2212 12x + c, and at x = 2, 8 \u2212 24 + c = \u221210, so c = 6. The y-intercept is the value at x = 0, which is c = 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0017",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle moves in a straight line with position x(t) and velocity v(t). Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "x(t) is v(t) multiplied by t",
+    "x(t) is an anti-derivative of v(t)",
+    "v(t) is an anti-derivative of x(t)",
+    "x(t) is the derivative of v(t)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Velocity is the rate of change of position, v = dx/dt, so position is found by anti-differentiating velocity. Multiplying v by t only works when the velocity is constant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0018",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "Velocity is measured in m/s and time in seconds. Anti-differentiating the velocity with respect to time gives a quantity measured in:",
+   "imageRef": null,
+   "options": [
+    "m/s",
+    "s",
+    "m",
+    "m/s\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Anti-differentiating with respect to time multiplies the units by seconds, so (m/s) \u00d7 s = m, the unit of position. Differentiating velocity would give acceleration in m/s\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0019",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle moves with constant velocity 5 m/s and starts at x = 2 m. What is its position at t = 4 s?",
+   "imageRef": null,
+   "options": [
+    "10 m",
+    "22 m",
+    "20 m",
+    "7 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiating v = 5 gives x = 5t + c, and x(0) = 2 gives c = 2. So x(4) = 20 + 2 = 22 m. The value 20 m is the distance moved, which leaves out the starting position.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0020",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has velocity v = 6t \u2212 4 m/s and starts at x = 3 m. What is its position x(t)?",
+   "imageRef": null,
+   "options": [
+    "x = 3t\u00b2 \u2212 4t + 3",
+    "x = 3t\u00b2 \u2212 4t",
+    "x = 6t\u00b2 \u2212 4t + 3",
+    "x = 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anti-differentiating gives x = 3t\u00b2 \u2212 4t + c, and x(0) = 3 gives c = 3. Leaving out c ignores the starting position, and x = 6 is the acceleration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0021",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has velocity v = 2t + 1 m/s. What is its change in position from t = 1 to t = 4?",
+   "imageRef": null,
+   "options": [
+    "20 m",
+    "6 m",
+    "18 m",
+    "9 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Using x = t\u00b2 + t + c, the change is x(4) \u2212 x(1) = 20 \u2212 2 = 18 m, and c cancels. The value 6 m is v(4) \u2212 v(1), the change in velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0022",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has velocity v = 4 \u2212 2t m/s and x(0) = \u22125 m. Where is it when it is momentarily at rest?",
+   "imageRef": null,
+   "options": [
+    "x = \u22125 m",
+    "x = 3 m",
+    "x = \u22121 m",
+    "x = 4 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "It is at rest when 4 \u2212 2t = 0, so t = 2. Position x = 4t \u2212 t\u00b2 \u2212 5, so x(2) = 8 \u2212 4 \u2212 5 = \u22121 m. The value 4 m leaves out the starting position \u22125.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0023",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "At some instant a particle moving in a straight line has velocity \u22123 m/s. This means the particle is:",
+   "imageRef": null,
+   "options": [
+    "moving in the negative direction at 3 m/s",
+    "slowing down by 3 m/s each second",
+    "at the position x = \u22123 m",
+    "moving in the positive direction at 3 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sign of the velocity gives the direction of motion and its size gives the speed. Slowing down depends on the acceleration, not on the sign of the velocity alone.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0024",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has constant acceleration 2 m/s\u00b2 and initial velocity 5 m/s. What is its velocity v(t)?",
+   "imageRef": null,
+   "options": [
+    "v = 2t + 5",
+    "v = 5t + 2",
+    "v = t\u00b2 + 5",
+    "v = 2t"
+   ],
+   "correctIndex": 0,
+   "explanation": "Velocity is an anti-derivative of acceleration, so v = 2t + c, and v(0) = 5 gives c = 5. The rule t\u00b2 + 5 would come from anti-differentiating 2t, not 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0025",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has acceleration a = 6t m/s\u00b2, initial velocity \u22123 m/s and starts at the origin. What is its position at t = 2?",
+   "imageRef": null,
+   "options": [
+    "9 m",
+    "\u22126 m",
+    "2 m",
+    "8 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "v = 3t\u00b2 \u2212 3 and then x = t\u00b3 \u2212 3t, with both constants fixed by the initial values. So x(2) = 8 \u2212 6 = 2 m. The value 9 m is v(2), the velocity, not the position.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0026",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has constant acceleration 3 m/s\u00b2, initial velocity 2 m/s and initial position 1 m. What is its position at t = 2 s?",
+   "imageRef": null,
+   "options": [
+    "11 m",
+    "10 m",
+    "14 m",
+    "8 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = 3t + 2 and x = 1.5t\u00b2 + 2t + 1, so x(2) = 6 + 4 + 1 = 11 m. The value 10 m leaves out the initial position.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0027",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "To find the position x(t) of a particle from its acceleration a(t), how many initial conditions are needed?",
+   "imageRef": null,
+   "options": [
+    "None, since a(t) determines x(t) completely",
+    "Two, such as the initial velocity and initial position",
+    "One, the initial position only",
+    "One, the initial velocity only"
+   ],
+   "correctIndex": 1,
+   "explanation": "Anti-differentiating twice introduces two constants, one for velocity and one for position, so two pieces of information are needed. Particles with the same acceleration can start in different places with different speeds.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0028",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has acceleration a = 12t \u2212 6 m/s\u00b2, and v(1) = 2 m/s. What is v(2)?",
+   "imageRef": null,
+   "options": [
+    "12 m/s",
+    "18 m/s",
+    "16 m/s",
+    "14 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "v = 6t\u00b2 \u2212 6t + c, and v(1) = 6 \u2212 6 + c = 2 gives c = 2. Then v(2) = 24 \u2212 12 + 2 = 14 m/s. The value 12 m/s leaves out the constant c.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0029",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has velocity v = 3t\u00b2 \u2212 12t + 9 m/s for t \u2265 0. At what times is it at rest?",
+   "imageRef": null,
+   "options": [
+    "t = 0 s and t = 4 s",
+    "t = 1 s and t = 3 s",
+    "t = 3 s only",
+    "t = 2 s only"
+   ],
+   "correctIndex": 1,
+   "explanation": "Setting v = 0 gives 3(t\u00b2 \u2212 4t + 3) = 3(t \u2212 1)(t \u2212 3) = 0, so t = 1 or t = 3. The value t = 2 is where the velocity is least, not where it is zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0030",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle starts at the origin with velocity v = 3t\u00b2 \u2212 12t + 9 m/s. Where is it at t = 3 s?",
+   "imageRef": null,
+   "options": [
+    "At the origin, x = 0 m",
+    "At x = 4 m",
+    "At x = 27 m",
+    "At x = \u22124 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = t\u00b3 \u2212 6t\u00b2 + 9t, since x(0) = 0. Then x(3) = 27 \u2212 54 + 27 = 0, so it is back at the origin. The value 4 m is its position at t = 1 s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0031",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle starts at the origin with velocity v = 3t\u00b2 \u2212 12t + 9 m/s. What distance does it travel in the first 3 seconds?",
+   "imageRef": null,
+   "options": [
+    "8 m",
+    "0 m",
+    "4 m",
+    "12 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "It moves forward to x(1) = 4 m, turns at t = 1, and comes back to x(3) = 0. The distance is 4 + 4 = 8 m. The change in position is 0 m, but distance counts both directions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0032",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle has velocity v = t\u00b2 \u2212 4t + 3 m/s. For which times is it moving in the negative direction?",
+   "imageRef": null,
+   "options": [
+    "1 < t < 3",
+    "t > 3",
+    "0 < t < 1",
+    "t < 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = (t \u2212 1)(t \u2212 3), which is negative between the zeros, so the particle moves in the negative direction for 1 < t < 3. For t > 3 the velocity is positive again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0033",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A ball is thrown straight up at 19.6 m/s, with acceleration \u22129.8 m/s\u00b2. Taking upwards as positive and x(0) = 0, what is its greatest height?",
+   "imageRef": null,
+   "options": [
+    "29.4 m",
+    "19.6 m",
+    "39.2 m",
+    "9.8 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = 19.6 \u2212 9.8t, which is 0 at t = 2 s, the top of the flight. Then x = 19.6t \u2212 4.9t\u00b2, so x(2) = 39.2 \u2212 19.6 = 19.6 m. Forgetting to halve 9.8 when anti-differentiating gives 0 m, and dropping the t\u00b2 term gives 39.2 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0034",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A car brakes with velocity v = 20 \u2212 4t m/s until it stops. How far does it travel while braking?",
+   "imageRef": null,
+   "options": [
+    "25 m",
+    "50 m",
+    "100 m",
+    "20 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "It stops when 20 \u2212 4t = 0, at t = 5 s. Position x = 20t \u2212 2t\u00b2 from the start of braking, so x(5) = 100 \u2212 50 = 50 m. The value 100 m assumes the speed stays at 20 m/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-antiderivatives-motion-0035",
+   "topicId": "meth-bsss-antiderivatives-motion",
+   "stem": "A particle starts at rest at the origin with acceleration a = 6 \u2212 2t m/s\u00b2. Where is it when it next comes to rest?",
+   "imageRef": null,
+   "options": [
+    "x = 9 m",
+    "x = 36 m",
+    "x = 18 m",
+    "x = 0 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "v = 6t \u2212 t\u00b2, which is 0 again at t = 6. Then x = 3t\u00b2 \u2212 t\u00b3/3, so x(6) = 108 \u2212 72 = 36 m. The value 9 m is the velocity at t = 3, its greatest speed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-antiderivatives-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

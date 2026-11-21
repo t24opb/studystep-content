@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-sace-functions-relations",
+ "questions": [
+  {
+   "id": "meth-sace-functions-relations-0001",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A taxi fare is C = 3.60 + 2.10d dollars for a trip of d kilometres. What does 2.10 represent?",
+   "imageRef": null,
+   "options": [
+    "The total cost of a 1 km trip",
+    "The number of kilometres per dollar",
+    "The cost per kilometre",
+    "The flag fall charged at the start"
+   ],
+   "correctIndex": 2,
+   "explanation": "The slope is the rate of change of cost with distance: each extra kilometre adds $2.10. The flag fall is the constant term, 3.60, the cost when d = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0002",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A water bill is B = 25 + 3.2w dollars, where w is the number of kilolitres used. What does the B-intercept, 25, represent?",
+   "imageRef": null,
+   "options": [
+    "The cost of each kilolitre of water",
+    "The amount of water used when the bill is zero",
+    "The maximum bill a household can receive",
+    "The fixed charge paid even if no water is used"
+   ],
+   "correctIndex": 3,
+   "explanation": "The intercept is the value of B when w = 0, so it is the fixed charge. The cost per kilolitre is the slope, 3.2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0003",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A water bill is B = 25 + 3.2w dollars for w kilolitres. What is the bill for 40 kL?",
+   "imageRef": null,
+   "options": [
+    "$128",
+    "$1128",
+    "$131.20",
+    "$153"
+   ],
+   "correctIndex": 3,
+   "explanation": "B = 25 + 3.2 \u00d7 40 = 25 + 128 = $153. Leaving out the fixed charge gives $128.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0004",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A linear relationship has y = 17 when x = 2 and y = 29 when x = 6. What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 4x + 9",
+    "y = 3x + 11",
+    "y = 3x + 17",
+    "y = 12x \u2212 7"
+   ],
+   "correctIndex": 1,
+   "explanation": "The slope is (29 \u2212 17)/(6 \u2212 2) = 3, and 17 = 3 \u00d7 2 + c gives c = 11. Check: 3 \u00d7 6 + 11 = 29. Using 17 as the intercept forgets that x = 2 there, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0005",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A prepaid phone has credit C = 30 \u2212 0.5t dollars after t minutes of calls. What does the t-intercept represent?",
+   "imageRef": null,
+   "options": [
+    "The credit at the start is $60",
+    "Calls cost $60 per minute",
+    "After 30 minutes the credit runs out",
+    "After 60 minutes the credit runs out"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set C = 0: 30 \u2212 0.5t = 0 gives t = 60, the time when the credit is used up. The starting credit is the C-intercept, $30.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0006",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Find the distance between (\u22121, 2) and (5, 10), and the midpoint of the interval joining them.",
+   "imageRef": null,
+   "options": [
+    "Distance 14, midpoint (2, 6)",
+    "Distance 10, midpoint (3, 4)",
+    "Distance 100, midpoint (2, 6)",
+    "Distance 10, midpoint (2, 6)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The distance is \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10, and the midpoint is ((\u22121 + 5)/2, (2 + 10)/2) = (2, 6). Adding 6 + 8 gives 14, and 100 forgets the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0007",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Solve the simultaneous equations 2x + y = 11 and x \u2212 y = 1.",
+   "imageRef": null,
+   "options": [
+    "x = 4, y = 3",
+    "x = 3, y = 4",
+    "x = 4, y = \u22123",
+    "x = 5, y = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adding the equations eliminates y: 3x = 12, so x = 4 and then y = 11 \u2212 8 = 3. Check in the second equation: 4 \u2212 3 = 1. The pair x = 5, y = 1 satisfies only the first equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0008",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Solve the simultaneous equations 3x + 2y = 12 and x + 4y = 14.",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 2",
+    "x = 4, y = 0",
+    "x = \u22122, y = 4",
+    "x = 2, y = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Doubling the first gives 6x + 4y = 24; subtracting the second gives 5x = 10, so x = 2 and y = 3. The pair x = 4, y = 0 satisfies only the first equation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0009",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Two straight lines have the same slope but different y-intercepts. How many points of intersection do they have?",
+   "imageRef": null,
+   "options": [
+    "Two",
+    "Infinitely many",
+    "None",
+    "One"
+   ],
+   "correctIndex": 2,
+   "explanation": "Lines with the same slope are parallel, and different intercepts mean they never meet, so the simultaneous equations have no solution. Lines with the same slope and intercept are coincident.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0010",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "How many solutions do the simultaneous equations 2x + 4y = 6 and x + 2y = 3 have?",
+   "imageRef": null,
+   "options": [
+    "Infinitely many",
+    "None",
+    "Exactly one",
+    "Exactly two"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first equation is twice the second, so both describe the same line: every point on it is a solution. The lines are coincident, not just parallel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0011",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Two straight roads follow the lines y = 2x \u2212 3 and y = \u2212x + 9 on a map grid. Where do they intersect?",
+   "imageRef": null,
+   "options": [
+    "(5, 4)",
+    "(3, 6)",
+    "(4, 5)",
+    "(2, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set 2x \u2212 3 = \u2212x + 9, so 3x = 12 and x = 4; then y = 2 \u00d7 4 \u2212 3 = 5. The point (5, 4) swaps the coordinates.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0012",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Plan A costs $20 a month plus $0.10 a minute; plan B costs $35 a month plus $0.04 a minute. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "They cost the same at 250 minutes; B is cheaper for more",
+    "They cost the same at 250 minutes; A is cheaper for more",
+    "They cost the same at 150 minutes; B is cheaper for more",
+    "B is always cheaper because its rate is lower"
+   ],
+   "correctIndex": 0,
+   "explanation": "20 + 0.10m = 35 + 0.04m gives 0.06m = 15, so m = 250. Beyond that, B's lower rate makes it cheaper; below it, A's lower fixed charge wins.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0013",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "For which value of k do the equations kx + 3y = 6 and 2x \u2212 y = 4 have no solution?",
+   "imageRef": null,
+   "options": [
+    "k = \u22122/3",
+    "k = 2",
+    "k = \u22126",
+    "k = 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "The second line has slope 2, and the first has slope \u2212k/3, so \u2212k/3 = 2 gives k = \u22126. Then the lines are y = 2x + 2 and y = 2x \u2212 4, parallel and distinct.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0014",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "If y is inversely proportional to x, what happens to y when x is doubled?",
+   "imageRef": null,
+   "options": [
+    "y is doubled",
+    "y is squared",
+    "y decreases by 2",
+    "y is halved"
+   ],
+   "correctIndex": 3,
+   "explanation": "Inverse proportion means y = k/x, so replacing x with 2x gives k/(2x), half the original value. Doubling would be direct proportion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0015",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Six workers take 20 days to finish a job. Assuming the time is inversely proportional to the number of workers, how long would 8 workers take?",
+   "imageRef": null,
+   "options": [
+    "18 days",
+    "15 days",
+    "26.7 days",
+    "22 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "The product is constant: 6 \u00d7 20 = 120 worker-days, so 8 workers take 120/8 = 15 days. Using direct proportion gives 20 \u00d7 8/6 \u2248 26.7 days.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0016",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "State the asymptotes of the hyperbola y = 1/x.",
+   "imageRef": null,
+   "options": [
+    "x = 0 and y = 0",
+    "x = 1 and y = 1",
+    "y = x and y = \u2212x",
+    "x = 0 only"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = 1/x is undefined at x = 0 and never equals 0, so the axes are its vertical and horizontal asymptotes. The lines y = x and y = \u2212x are its axes of symmetry.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0017",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What are the asymptotes of the graph of y = 3/(x \u2212 2)?",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 and y = 0",
+    "x = 2 and y = 3",
+    "x = 0 and y = 2",
+    "x = 2 and y = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The graph of y = 3/x is translated 2 units right, so the vertical asymptote is x = 2; the horizontal asymptote stays at y = 0. The 3 dilates the graph without moving the asymptotes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0018",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Envelopes of a certain type all have area 216 cm\u00b2. If the length is 18 cm, what is the width?",
+   "imageRef": null,
+   "options": [
+    "9 cm",
+    "12 cm",
+    "198 cm",
+    "24 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "For a fixed area, width = 216/length, an inverse proportion: 216/18 = 12 cm. Subtracting the length from the area gives 198, which treats the relationship as linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0019",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A graph of the form y = a/(x \u2212 c) has vertical asymptote x = \u22121 and passes through (1, 3). What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 3/(x + 1)",
+    "y = 6/(x \u2212 1)",
+    "y = 2/(x + 1)",
+    "y = 6/(x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The asymptote x = \u22121 gives c = \u22121, so y = a/(x + 1). Substituting (1, 3): 3 = a/2, so a = 6. Writing x \u2212 1 puts the asymptote at x = 1 instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0020",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "In which quadrants does the graph of y = \u22124/x lie?",
+   "imageRef": null,
+   "options": [
+    "First and second",
+    "Third and fourth",
+    "Second and fourth",
+    "First and third"
+   ],
+   "correctIndex": 2,
+   "explanation": "When x > 0, y is negative (fourth quadrant), and when x < 0, y is positive (second quadrant). The graph of y = 4/x, without the minus sign, lies in the first and third.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0021",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What is the equation of the circle with centre (2, \u22123) and radius 5?",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 2)\u00b2 + (y + 3)\u00b2 = 5",
+    "(x \u2212 2)\u00b2 \u2212 (y + 3)\u00b2 = 25",
+    "(x \u2212 2)\u00b2 + (y + 3)\u00b2 = 25",
+    "(x + 2)\u00b2 + (y \u2212 3)\u00b2 = 25"
+   ],
+   "correctIndex": 2,
+   "explanation": "A circle with centre (h, k) and radius r is (x \u2212 h)\u00b2 + (y \u2212 k)\u00b2 = r\u00b2. The signs inside the brackets are opposite to the coordinates of the centre, and the right side is r\u00b2, not r.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0022",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Find the centre and radius of the circle x\u00b2 + y\u00b2 \u2212 6x + 4y \u2212 12 = 0.",
+   "imageRef": null,
+   "options": [
+    "Centre (3, \u22122), radius 5",
+    "Centre (\u22123, 2), radius 5",
+    "Centre (3, \u22122), radius \u221a12",
+    "Centre (6, \u22124), radius 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Completing the square: (x \u2212 3)\u00b2 \u2212 9 + (y + 2)\u00b2 \u2212 4 \u2212 12 = 0, so (x \u2212 3)\u00b2 + (y + 2)\u00b2 = 25. The radius \u221a12 forgets to add the 9 and the 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0023",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Find the centre and radius of the circle x\u00b2 + y\u00b2 + 8x \u2212 2y + 1 = 0.",
+   "imageRef": null,
+   "options": [
+    "Centre (\u22124, 1), radius 1",
+    "Centre (\u22124, 1), radius 4",
+    "Centre (4, \u22121), radius 4",
+    "Centre (\u22124, 1), radius 16"
+   ],
+   "correctIndex": 1,
+   "explanation": "(x + 4)\u00b2 \u2212 16 + (y \u2212 1)\u00b2 \u2212 1 + 1 = 0 gives (x + 4)\u00b2 + (y \u2212 1)\u00b2 = 16, so the radius is 4. The value 16 is the radius squared.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0024",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A mobile phone tower at (3, 4) on a grid in kilometres has a range of 10 km. Which location is outside its coverage?",
+   "imageRef": null,
+   "options": [
+    "(10, 10)",
+    "(12, 4)",
+    "(\u22123, 10)",
+    "(13, 9)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The distance from (3, 4) to (13, 9) is \u221a(10\u00b2 + 5\u00b2) = \u221a125 \u2248 11.2 km, beyond the range. The others are \u221a85 \u2248 9.2, 9 and \u221a72 \u2248 8.5 km away.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0025",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A pizza shop at the origin delivers to every point within 5 km. Which describes the delivery region?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 \u2265 25",
+    "x\u00b2 + y\u00b2 \u2264 25",
+    "x\u00b2 + y\u00b2 \u2264 5",
+    "x + y \u2264 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Points within 5 km of the origin satisfy \u221a(x\u00b2 + y\u00b2) \u2264 5, that is x\u00b2 + y\u00b2 \u2264 25: the circle and its inside. The inequality \u2265 25 describes the points outside.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0026",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Which describes the graph of y\u00b2 = x?",
+   "imageRef": null,
+   "options": [
+    "A parabola opening upwards; a function",
+    "A parabola opening to the right; a function",
+    "A hyperbola in the first and fourth quadrants",
+    "A parabola opening to the right; not a function"
+   ],
+   "correctIndex": 3,
+   "explanation": "For each x > 0 there are two y-values, \u221ax and \u2212\u221ax, so the graph is a sideways parabola and fails the vertical line test. y = x\u00b2 is the upward parabola.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0027",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What are the domain and range of y = \u221ax?",
+   "imageRef": null,
+   "options": [
+    "Domain x \u2265 0, range all real y",
+    "Domain x > 0, range y > 0",
+    "Domain x \u2265 0, range y \u2265 0",
+    "Domain all real x, range y \u2265 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Square roots of negative numbers are not real, so x \u2265 0, and \u221ax is never negative, so y \u2265 0. Both include 0 because \u221a0 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0028",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "How is the graph of y = \u2212\u221ax related to the graph of y\u00b2 = x?",
+   "imageRef": null,
+   "options": [
+    "It is the lower half of y\u00b2 = x",
+    "It is the upper half of y\u00b2 = x",
+    "It is y\u00b2 = x reflected in the y-axis",
+    "It is the whole of y\u00b2 = x"
+   ],
+   "correctIndex": 0,
+   "explanation": "y\u00b2 = x gives y = \u00b1\u221ax. Taking only the negative values gives the half below the x-axis, which is a function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0029",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What must be true of a relation for it to be called a function?",
+   "imageRef": null,
+   "options": [
+    "each y-value comes from exactly one x-value",
+    "its graph is a straight line",
+    "its domain and range are the same",
+    "each x-value in the domain gives exactly one y-value"
+   ],
+   "correctIndex": 3,
+   "explanation": "A function assigns exactly one output to each input. Different x-values may share a y-value, as in y = x\u00b2, which is still a function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0030",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "A student applies the vertical line test to a graph. Which result shows that the graph is a function?",
+   "imageRef": null,
+   "options": [
+    "The graph meets the y-axis exactly once",
+    "No vertical line meets the graph more than once",
+    "Every vertical line meets the graph exactly twice",
+    "No horizontal line meets the graph more than once"
+   ],
+   "correctIndex": 1,
+   "explanation": "If some vertical line cuts the graph twice, one x-value has two y-values, so the relation is not a function. The horizontal line test checks something else.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0031",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "If f(x) = x\u00b2 \u2212 3x, find f(\u22122).",
+   "imageRef": null,
+   "options": [
+    "10",
+    "\u22122",
+    "\u221210",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(\u22122) = (\u22122)\u00b2 \u2212 3(\u22122) = 4 + 6 = 10. Writing (\u22122)\u00b2 as \u22124 gives \u22124 + 6 = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0032",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "If f(x) = 2x + 1 and g(x) = x\u00b2, find f(g(3)).",
+   "imageRef": null,
+   "options": [
+    "13",
+    "36",
+    "19",
+    "49"
+   ],
+   "correctIndex": 2,
+   "explanation": "g(3) = 9, then f(9) = 2 \u00d7 9 + 1 = 19. Applying f first gives g(f(3)) = g(7) = 49, the other order.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0033",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What is the domain of f(x) = \u221a(x + 4)?",
+   "imageRef": null,
+   "options": [
+    "All real x",
+    "x \u2265 \u22124",
+    "x \u2265 4",
+    "x > \u22124"
+   ],
+   "correctIndex": 1,
+   "explanation": "The expression under the square root must not be negative: x + 4 \u2265 0, so x \u2265 \u22124. The value x = \u22124 is allowed because \u221a0 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0034",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What is the range of f(x) = x\u00b2 + 1, where x is any real number?",
+   "imageRef": null,
+   "options": [
+    "All real y",
+    "y > 1",
+    "y \u2265 1",
+    "y \u2265 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b2 is never negative, so x\u00b2 + 1 is at least 1, and it equals 1 at x = 0. Every value above 1 is also reached.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0035",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "The height of a plant is modelled by h = f(t), where t is the time in weeks. Which is the independent variable?",
+   "imageRef": null,
+   "options": [
+    "t, the time",
+    "h, the height",
+    "f, the function",
+    "Both h and t"
+   ],
+   "correctIndex": 0,
+   "explanation": "In y = f(x) the input x is the independent variable and the output y depends on it. Here the height depends on time, so t is independent and goes on the horizontal axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0036",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "Which set of ordered pairs is a function?",
+   "imageRef": null,
+   "options": [
+    "(1, 2), (2, 2), (3, 5)",
+    "(1, 2), (1, 3), (2, 5)",
+    "(2, 1), (2, 4), (3, 9)",
+    "(0, 1), (0, \u22121), (1, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each first coordinate appears only once in the first set, so each input has one output; sharing the output 2 is allowed. The others repeat an x-value with different y-values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0037",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "What is the range of f(x) = 1/x for x \u2265 2?",
+   "imageRef": null,
+   "options": [
+    "0 < y \u2264 1/2",
+    "y \u2265 1/2",
+    "0 \u2264 y \u2264 1/2",
+    "y \u2265 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(2) = 1/2, and as x increases 1/x decreases towards 0 without reaching it. So the range is 0 < y \u2264 1/2; 0 itself is excluded.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-functions-relations-0038",
+   "topicId": "meth-sace-functions-relations",
+   "stem": "If f(x) = x\u00b2, simplify f(a + h) \u2212 f(a).",
+   "imageRef": null,
+   "options": [
+    "h\u00b2",
+    "a\u00b2 + h\u00b2",
+    "2a + h",
+    "2ah + h\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(a + h) \u2212 f(a) = a\u00b2 + 2ah + h\u00b2 \u2212 a\u00b2 = 2ah + h\u00b2. Writing (a + h)\u00b2 as a\u00b2 + h\u00b2 misses the middle term, and 2a + h is this result divided by h.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-functions-relations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

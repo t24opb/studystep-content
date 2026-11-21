@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-tce-sequences-induction",
+ "questions": [
+  {
+   "id": "spec-tce-sequences-induction-0001",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The set of real x satisfying |x \u2212 3| < 2 is:",
+   "imageRef": null,
+   "options": [
+    "x < 1 or x > 5",
+    "1 < x < 5",
+    "x < 5",
+    "\u22121 < x < 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "|x \u2212 3| < 2 says x is within 2 of 3, so 3 \u2212 2 < x < 3 + 2. The answer x < 1 or x > 5 solves |x \u2212 3| > 2 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0002",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The solution of |2x + 1| \u2265 5 is:",
+   "imageRef": null,
+   "options": [
+    "x \u2264 \u22122 or x \u2265 3",
+    "x \u2264 \u22123 or x \u2265 2",
+    "\u22123 \u2264 x \u2264 2",
+    "x \u2265 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Either 2x + 1 \u2265 5, giving x \u2265 2, or 2x + 1 \u2264 \u22125, giving x \u2264 \u22123. Keeping only the first case loses half the solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0003",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The solution of x\u00b2 \u2212 x \u2212 6 > 0 is:",
+   "imageRef": null,
+   "options": [
+    "x < \u22122 or x > 3",
+    "\u22122 < x < 3",
+    "x > 3",
+    "x < \u22123 or x > 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b2 \u2212 x \u2212 6 = (x \u2212 3)(x + 2), a parabola opening upward with zeros \u22122 and 3. It is positive outside the zeros. The interval \u22122 < x < 3 is where it is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0004",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The 20th term of the arithmetic sequence 7, 4, 1, ... is:",
+   "imageRef": null,
+   "options": [
+    "\u221250",
+    "\u221253",
+    "64",
+    "\u221247"
+   ],
+   "correctIndex": 0,
+   "explanation": "With a = 7 and d = \u22123, the nth term is a + (n \u2212 1)d, so the 20th term is 7 + 19(\u22123) = \u221250. Using 20d instead of 19d gives \u221253.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0005",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sum 5 + 9 + 13 + ... + 201 is:",
+   "imageRef": null,
+   "options": [
+    "5047",
+    "5253",
+    "10 300",
+    "5150"
+   ],
+   "correctIndex": 3,
+   "explanation": "The number of terms is (201 \u2212 5)/4 + 1 = 50, and the sum is n(a + l)/2 = 50 \u00d7 206/2 = 5150. Forgetting the +1 when counting terms gives 49 terms and 5047.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0006",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The 8th term of the geometric sequence 3, \u22126, 12, ... is:",
+   "imageRef": null,
+   "options": [
+    "384",
+    "768",
+    "\u2212768",
+    "\u2212384"
+   ],
+   "correctIndex": 3,
+   "explanation": "With a = 3 and r = \u22122, the nth term is ar^(n \u2212 1) = 3(\u22122)\u2077 = \u2212384. An odd power of a negative ratio is negative; using the power 8 gives 768.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0007",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sum of the first 6 terms of the geometric series 2 + 6 + 18 + ... is:",
+   "imageRef": null,
+   "options": [
+    "1456",
+    "728",
+    "2186",
+    "486"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2086 = a(r\u2076 \u2212 1)/(r \u2212 1) = 2(729 \u2212 1)/2 = 728. The value 486 is the 6th term alone, and 1456 forgets to divide by r \u2212 1 = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0008",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sum to infinity of a geometric series with first term a \u2260 0 and common ratio r exists exactly when:",
+   "imageRef": null,
+   "options": [
+    "|r| \u2264 1",
+    "0 < r < 1",
+    "|r| < 1",
+    "r < 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The partial sums a(1 \u2212 r\u207f)/(1 \u2212 r) converge only if r\u207f \u2192 0, which needs \u22121 < r < 1. Negative ratios such as \u22121/2 also work, so 0 < r < 1 is too narrow, and r = \u00b11 fails.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0009",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sum to infinity of 12 \u2212 6 + 3 \u2212 ... is:",
+   "imageRef": null,
+   "options": [
+    "18",
+    "6",
+    "8",
+    "24"
+   ],
+   "correctIndex": 2,
+   "explanation": "Here a = 12 and r = \u22121/2, so S\u221e = a/(1 \u2212 r) = 12/(3/2) = 8. Taking r = +1/2 gives 24.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0010",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "A geometric series has sum to infinity 27 and common ratio 2/3. Its first term is:",
+   "imageRef": null,
+   "options": [
+    "18",
+    "40.5",
+    "81",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "From S\u221e = a/(1 \u2212 r), a = 27 \u00d7 (1 \u2212 2/3) = 9. Multiplying 27 by r = 2/3 gives 18.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0011",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The geometric series 1 + 2x + 4x\u00b2 + 8x\u00b3 + ... has a sum to infinity exactly when:",
+   "imageRef": null,
+   "options": [
+    "x < 1/2",
+    "\u22121 < x < 1",
+    "\u22121/2 < x < 1/2",
+    "\u22122 < x < 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The common ratio is 2x, and the series converges when |2x| < 1, that is |x| < 1/2. The condition x < 1/2 allows x = \u22121, where the ratio is \u22122.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0012",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Formally, a sequence is:",
+   "imageRef": null,
+   "options": [
+    "a function whose range is a subset of the natural numbers",
+    "a function whose domain is the set of real numbers",
+    "the sum of the terms of a list of numbers",
+    "a function whose domain is a subset of the natural numbers"
+   ],
+   "correctIndex": 3,
+   "explanation": "A sequence assigns a term u\u2099 to each natural number n in its domain. Its terms may be any real numbers, so the range is not restricted, and a sum of terms is a series.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0013",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "A sequence with terms u\u2099 converges to a limit L when:",
+   "imageRef": null,
+   "options": [
+    "for every \u03b5 > 0, |u\u2099 \u2212 L| < \u03b5 for at least one value of n",
+    "each term u\u2099\u208a\u2081 is closer to L than the term u\u2099 before it",
+    "for every \u03b5 > 0 there is an N with |u\u2099 \u2212 L| < \u03b5 for all n > N",
+    "for some \u03b5 > 0 there is an N with |u\u2099 \u2212 L| < \u03b5 for all n > N"
+   ],
+   "correctIndex": 2,
+   "explanation": "However small the tolerance \u03b5, the terms must eventually stay within \u03b5 of L. A single \u03b5 is not enough, since a bounded oscillating sequence passes that test, and terms can converge without getting closer at every step.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0014",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sequence u\u2099 = (2n + 1)/n converges to 2. The smallest integer N such that |u\u2099 \u2212 2| < 0.01 for all n > N is:",
+   "imageRef": null,
+   "options": [
+    "200",
+    "50",
+    "100",
+    "10"
+   ],
+   "correctIndex": 2,
+   "explanation": "|u\u2099 \u2212 2| = |1/n| = 1/n, and 1/n < 0.01 when n > 100. So N = 100 works, and no smaller N does, since u\u2081\u2080\u2080 is exactly 0.01 from 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0015",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "A sequence with terms u\u2099 diverges to positive infinity when:",
+   "imageRef": null,
+   "options": [
+    "for every M > 0 there is an N with u\u2099 > M for all n > N",
+    "for every M > 0, u\u2099 > M for at least one value of n",
+    "each term u\u2099\u208a\u2081 is greater than the term u\u2099 before it",
+    "for some M > 0, u\u2099 > M for every value of n"
+   ],
+   "correctIndex": 0,
+   "explanation": "The terms must eventually exceed any bound and stay above it. A sequence such as 0, 2, 0, 4, 0, 6, ... exceeds every M at some n but oscillates infinitely, and an increasing sequence can still converge.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0016",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sequence u\u2099 = (\u22121)\u207f:",
+   "imageRef": null,
+   "options": [
+    "oscillates infinitely",
+    "oscillates finitely",
+    "converges to 0",
+    "diverges to positive infinity"
+   ],
+   "correctIndex": 1,
+   "explanation": "The terms alternate \u22121, 1, \u22121, 1, ..., staying bounded but never settling on a limit, which is finite oscillation. Infinite oscillation needs unbounded terms, as in (\u22122)\u207f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0017",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sequence u\u2099 = (\u22122)\u207f:",
+   "imageRef": null,
+   "options": [
+    "oscillates finitely",
+    "converges to 0",
+    "diverges to negative infinity",
+    "oscillates infinitely"
+   ],
+   "correctIndex": 3,
+   "explanation": "The terms \u22122, 4, \u22128, 16, ... alternate in sign and grow without bound, so the sequence oscillates infinitely. It does not diverge to negative infinity, because every second term is large and positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0018",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sequence with terms u\u2099 = x\u207f converges exactly when:",
+   "imageRef": null,
+   "options": [
+    "\u22121 < x \u2264 1",
+    "\u22121 < x < 1",
+    "x < 1",
+    "\u22121 \u2264 x \u2264 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "For |x| < 1, x\u207f \u2192 0, and for x = 1 every term is 1, which also converges. For x = \u22121 the terms alternate, and for |x| > 1 they are unbounded. Leaving out x = 1 is the common slip.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0019",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "As n \u2192 \u221e, the sequence (1 + 1/n)\u207f converges to:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "positive infinity",
+    "e, approximately 2.718"
+   ],
+   "correctIndex": 3,
+   "explanation": "The terms 2, 2.25, 2.37, ... increase towards e \u2248 2.718. Although 1 + 1/n \u2192 1, the power n grows at the same time, so the limit is not 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0020",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The limit of u\u2099 = (3n\u00b2 \u2212 n)/(n\u00b2 + 4) as n \u2192 \u221e is:",
+   "imageRef": null,
+   "options": [
+    "positive infinity",
+    "3",
+    "0",
+    "\u22121/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide the numerator and denominator by n\u00b2: (3 \u2212 1/n)/(1 + 4/n\u00b2) \u2192 3/1 = 3. The top and bottom have the same degree, so the limit is the ratio of the leading coefficients.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0021",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "A sequence has u\u2081 = 2 and u\u2099\u208a\u2081 = 3u\u2099 \u2212 1. The value of u\u2084 is:",
+   "imageRef": null,
+   "options": [
+    "40",
+    "41",
+    "14",
+    "122"
+   ],
+   "correctIndex": 1,
+   "explanation": "u\u2082 = 3(2) \u2212 1 = 5, u\u2083 = 3(5) \u2212 1 = 14 and u\u2084 = 3(14) \u2212 1 = 41. The value 14 is u\u2083, one step short.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0022",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The value of \u03a3 (2r \u2212 1), summed from r = 1 to r = 5, is:",
+   "imageRef": null,
+   "options": [
+    "35",
+    "15",
+    "25",
+    "30"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms are 1, 3, 5, 7, 9, which add to 25. The sum of the first n odd numbers is n\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0023",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "In sigma notation, the series 3 + 7 + 11 + ... + 43 is:",
+   "imageRef": null,
+   "options": [
+    "\u03a3 (4r + 3) from r = 1 to 11",
+    "\u03a3 (4r \u2212 1) from r = 0 to 11",
+    "\u03a3 (4r \u2212 1) from r = 1 to 11",
+    "\u03a3 (4r \u2212 1) from r = 1 to 10"
+   ],
+   "correctIndex": 2,
+   "explanation": "The terms increase by 4 and the first is 3, so the general term is 4r \u2212 1. The last term 43 = 4r \u2212 1 gives r = 11. Starting at r = 0 adds an extra term \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0024",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The sum of the first n positive integers, 1 + 2 + ... + n, is:",
+   "imageRef": null,
+   "options": [
+    "n(n \u2212 1)/2",
+    "n\u00b2/2",
+    "n(n + 1)(2n + 1)/6",
+    "n(n + 1)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pairing the first and last terms gives n/2 pairs each adding to n + 1. The expression n(n + 1)(2n + 1)/6 is the sum of the squares.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0025",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The value of \u03a3 r\u00b2, summed from r = 1 to 10, is:",
+   "imageRef": null,
+   "options": [
+    "330",
+    "385",
+    "55",
+    "3025"
+   ],
+   "correctIndex": 1,
+   "explanation": "Using n(n + 1)(2n + 1)/6 with n = 10: 10 \u00d7 11 \u00d7 21/6 = 385. The value 55 is the sum of r, and 3025 is the sum of r\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0026",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Using the standard results, \u03a3 (6r\u00b2 + 2r), summed from r = 1 to n, simplifies to:",
+   "imageRef": null,
+   "options": [
+    "n\u00b2(n + 1)\u00b2",
+    "2n\u00b2(n + 1)",
+    "2n(n + 1)\u00b2",
+    "n(n + 1)(2n + 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "6 \u00d7 n(n + 1)(2n + 1)/6 + 2 \u00d7 n(n + 1)/2 = n(n + 1)(2n + 1) + n(n + 1) = n(n + 1)(2n + 2) = 2n(n + 1)\u00b2. Leaving out the 2r part gives n(n + 1)(2n + 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0027",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The value of \u03a3 r\u00b3, summed from r = 11 to 20, is:",
+   "imageRef": null,
+   "options": [
+    "41 075",
+    "44 100",
+    "39 744",
+    "3025"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sum from 1 to 20 is 20\u00b2 \u00d7 21\u00b2/4 = 44 100, and the sum from 1 to 10 is 10\u00b2 \u00d7 11\u00b2/4 = 3025. Subtracting gives 41 075. Subtracting the sum to 11 instead gives 39 744, which removes the r = 11 term as well.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0028",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "In a proof by mathematical induction, the base step shows that:",
+   "imageRef": null,
+   "options": [
+    "truth for n = k implies truth for n = k + 1",
+    "the statement is true for n = k",
+    "the statement is true for the first value of n",
+    "the statement is true for every value of n"
+   ],
+   "correctIndex": 2,
+   "explanation": "The base step checks the first case, usually n = 1. The inductive step then shows that truth for n = k forces truth for n = k + 1, and together they give every n.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0029",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "To prove 1 + 2 + ... + n = n(n + 1)/2 by induction, you assume it holds for n = k. The inductive step must then show:",
+   "imageRef": null,
+   "options": [
+    "1 + 2 + ... + k + (k + 1) = (k + 1)(k + 2)/2",
+    "1 + 2 + ... + k = k(k + 1)/2",
+    "k + 1 = (k + 1)(k + 2)/2",
+    "1 + 2 + ... + (k + 1) = k(k + 1)/2 + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The statement for n = k + 1 has k + 1 terms on the left and n = k + 1 substituted on the right. The equation 1 + ... + k = k(k + 1)/2 is the assumption, not what must be proved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0030",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "To prove \u03a3 r(r + 1) = n(n + 1)(n + 2)/3 (summed from r = 1 to n) by induction, the assumption for n = k turns the left side for n = k + 1 into:",
+   "imageRef": null,
+   "options": [
+    "k(k + 1)(k + 2)/3 + (k + 2)(k + 3)",
+    "k(k + 1)(k + 2)/3 + (k + 1)(k + 2)",
+    "k(k + 1)(k + 2)/3 + k(k + 1)",
+    "(k + 1)(k + 2)(k + 3)/3 + (k + 1)(k + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first k terms sum to k(k + 1)(k + 2)/3 by assumption, and the extra term is r(r + 1) with r = k + 1, which is (k + 1)(k + 2). The proof then factorises this to (k + 1)(k + 2)(k + 3)/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0031",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "A statement P(n) is shown to be true for n = 1, and it is shown that whenever P(k) is true, P(k + 2) is true. This proves P(n) for:",
+   "imageRef": null,
+   "options": [
+    "all even positive integers n",
+    "n = 1 and n = 3 only",
+    "all odd positive integers n",
+    "all positive integers n"
+   ],
+   "correctIndex": 2,
+   "explanation": "Starting at 1 and stepping by 2 reaches 1, 3, 5, 7, ..., every odd number. Nothing links the odd cases to the even ones, so P(2) has not been proved.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0032",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Using 1/(r(r + 1)) = 1/r \u2212 1/(r + 1), the sum \u03a3 1/(r(r + 1)) from r = 1 to n equals:",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 1/n",
+    "1/n \u2212 1/(n + 1)",
+    "1 \u2212 1/(n + 1)",
+    "1/(n + 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Writing out the differences, (1 \u2212 1/2) + (1/2 \u2212 1/3) + ... + (1/n \u2212 1/(n + 1)), all middle terms cancel, leaving 1 \u2212 1/(n + 1). The expression 1/n \u2212 1/(n + 1) is just the last term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0033",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Using the method of differences, the infinite sum \u03a3 1/(r(r + 1)) from r = 1 to \u221e is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/2",
+    "0",
+    "positive infinity"
+   ],
+   "correctIndex": 0,
+   "explanation": "The partial sums are 1 \u2212 1/(n + 1), and 1/(n + 1) \u2192 0 as n \u2192 \u221e, so the series converges to 1. The terms tend to 0 quickly enough that the sum is finite.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0034",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Using 1/((2r \u2212 1)(2r + 1)) = (1/2)[1/(2r \u2212 1) \u2212 1/(2r + 1)], the sum to infinity of this series from r = 1 is:",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "2/3",
+    "1/2",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The partial sum telescopes to (1/2)[1 \u2212 1/(2n + 1)], which tends to 1/2. Forgetting the factor 1/2 in front gives 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0035",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "By the method of differences, \u03a3 [(r + 1)\u00b2 \u2212 r\u00b2], summed from r = 1 to n, equals:",
+   "imageRef": null,
+   "options": [
+    "(n + 1)\u00b2",
+    "n\u00b2",
+    "n\u00b2 + 2n + 2",
+    "n\u00b2 + 2n"
+   ],
+   "correctIndex": 3,
+   "explanation": "All middle squares cancel, leaving (n + 1)\u00b2 \u2212 1\u00b2 = n\u00b2 + 2n. Forgetting to subtract the first term 1\u00b2 gives (n + 1)\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0036",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The first three terms of the Maclaurin series for e^(2x) are:",
+   "imageRef": null,
+   "options": [
+    "1 + x + x\u00b2/2",
+    "2 + 2x + x\u00b2",
+    "1 + 2x + 2x\u00b2",
+    "1 + 2x + 4x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute 2x into e^u = 1 + u + u\u00b2/2 + ...: 1 + 2x + (2x)\u00b2/2 = 1 + 2x + 2x\u00b2. Forgetting to divide by 2! gives 4x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0037",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Up to the term in x\u00b3, the Maclaurin series for sin 3x is:",
+   "imageRef": null,
+   "options": [
+    "3x + 9x\u00b3/2",
+    "3x \u2212 27x\u00b3",
+    "3x \u2212 9x\u00b3/2",
+    "3x \u2212 x\u00b3/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "From sin u = u \u2212 u\u00b3/6 + ...: 3x \u2212 (3x)\u00b3/6 = 3x \u2212 27x\u00b3/6 = 3x \u2212 9x\u00b3/2. Cubing only the x gives 3x\u00b3/6 = x\u00b3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0038",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The Maclaurin series for ln(1 + x) is:",
+   "imageRef": null,
+   "options": [
+    "x \u2212 x\u00b2/2! + x\u00b3/3! \u2212 ...",
+    "x \u2212 x\u00b2/2 + x\u00b3/3 \u2212 ...",
+    "x + x\u00b2/2 + x\u00b3/3 + ...",
+    "1 \u2212 x + x\u00b2 \u2212 x\u00b3 + ..."
+   ],
+   "correctIndex": 1,
+   "explanation": "Each derivative of ln(1 + x) at 0 is (\u22121)^(n + 1)(n \u2212 1)!, so the coefficients are \u00b11/n: x \u2212 x\u00b2/2 + x\u00b3/3 \u2212 .... The series 1 \u2212 x + x\u00b2 \u2212 ... is for 1/(1 + x), its derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0039",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "Informally, the Maclaurin series for ln(1 + x) converges to ln(1 + x) for:",
+   "imageRef": null,
+   "options": [
+    "all real x",
+    "\u22121 < x < 1",
+    "\u22121 < x \u2264 1",
+    "\u22121 \u2264 x \u2264 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "At x = 1 the series 1 \u2212 1/2 + 1/3 \u2212 ... converges, to ln 2. At x = \u22121 it becomes \u2212(1 + 1/2 + 1/3 + ...), which diverges, and for |x| > 1 the terms grow. Unlike e^x, sin x and cos x, it does not work for all x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-sequences-induction-0040",
+   "topicId": "spec-tce-sequences-induction",
+   "stem": "The coefficient of x\u00b2 in the Maclaurin series for (1 + x)^(1/2) is:",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "\u22121/8",
+    "1/8",
+    "\u22121/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The coefficient is n(n \u2212 1)/2! with n = 1/2: (1/2)(\u22121/2)/2 = \u22121/8. Forgetting to divide by 2! gives \u22121/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-sequences-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

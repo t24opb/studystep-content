@@ -1,0 +1,727 @@
+{
+ "topicId": "bio-qce-gene-expression",
+ "questions": [
+  {
+   "id": "bio-qce-gene-expression-0001",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In a eukaryotic cell, where do transcription and translation take place?",
+   "imageRef": null,
+   "options": [
+    "Transcription in the nucleus; translation at ribosomes in the cytoplasm",
+    "Transcription at ribosomes in the cytoplasm; translation in the nucleus",
+    "Both transcription and translation take place inside the nucleus",
+    "Transcription in the Golgi apparatus; translation in the nucleus"
+   ],
+   "correctIndex": 0,
+   "explanation": "In eukaryotes a gene is transcribed into mRNA in the nucleus, and the processed mRNA then moves through a nuclear pore to ribosomes in the cytoplasm, where it is translated. Separating the two allows RNA processing before translation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0002",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Which enzyme synthesises mRNA during transcription, and where does it bind to begin?",
+   "imageRef": null,
+   "options": [
+    "DNA polymerase, at the promoter",
+    "RNA polymerase, at the start codon",
+    "DNA ligase, at the first exon",
+    "RNA polymerase, at the promoter"
+   ],
+   "correctIndex": 3,
+   "explanation": "RNA polymerase binds to the promoter region upstream of a gene and builds an RNA strand complementary to the template strand. The start codon is in the mRNA and is used in translation, not transcription.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0003",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "The coding (non-template) strand of a section of DNA reads 5' ATG GCT TGG 3'. What is the sequence of the mRNA transcribed from this section?",
+   "imageRef": null,
+   "options": [
+    "5' UAC CGA ACC 3'",
+    "5' AUG GCT TGG 3'",
+    "5' TAC CGA ACC 3'",
+    "5' AUG GCU UGG 3'"
+   ],
+   "correctIndex": 3,
+   "explanation": "mRNA is complementary to the template strand, so it has the same sequence as the coding strand with uracil in place of thymine: 5' AUG GCU UGG 3'. Writing the complement of the coding strand gives the template sequence instead, and mRNA never contains thymine.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0004",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Which three changes are made to eukaryotic pre-mRNA during RNA processing?",
+   "imageRef": null,
+   "options": [
+    "A 5' cap is added, exons are spliced out and a poly-A tail is added at the 3' end",
+    "A 3' cap is added, introns are spliced out and a poly-A tail is added at the 5' end",
+    "A 5' cap is added, introns are spliced out and a poly-A tail is added at the 3' end",
+    "A 3' cap is added, exons are spliced out and a poly-A tail is added at the 5' end"
+   ],
+   "correctIndex": 2,
+   "explanation": "Processing adds a modified guanine cap to the 5' end, removes introns by splicing so that exons are joined, and adds a tail of adenine nucleotides to the 3' end. Exons are the sequences kept in the mature mRNA.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0005",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "What are the main roles of the 5' cap and the poly-A tail on a mature mRNA?",
+   "imageRef": null,
+   "options": [
+    "They code for the first and last amino acids of the polypeptide made at the ribosome",
+    "They mark the introns, so that the cell can splice them out of the pre-mRNA strand",
+    "They bind the mRNA to the DNA template, so that it can be transcribed over again later",
+    "They protect the mRNA from breakdown and help it leave the nucleus and bind ribosomes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The cap and tail protect the mRNA from being broken down by enzymes, help it to be exported from the nucleus, and help ribosomes attach for translation. They are not translated into amino acids.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0006",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A pre-mRNA has three exons of 300, 450 and 250 nucleotides, separated by introns of 800 and 1200 nucleotides. Ignoring the cap and tail, how long is the mature mRNA?",
+   "imageRef": null,
+   "options": [
+    "1250 nucleotides",
+    "1000 nucleotides",
+    "2000 nucleotides",
+    "3000 nucleotides"
+   ],
+   "correctIndex": 1,
+   "explanation": "Splicing removes the introns and joins the exons: 300 + 450 + 250 = 1000 nucleotides. The value 2000 is the total length of the introns, which are removed, and 3000 is the whole pre-mRNA.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0007",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Which codon starts translation, and which amino acid does it code for?",
+   "imageRef": null,
+   "options": [
+    "UGA, coding for tryptophan",
+    "AUG, coding for methionine",
+    "UAA, coding for methionine",
+    "AUG, coding for no amino acid"
+   ],
+   "correctIndex": 1,
+   "explanation": "Translation begins at the start codon AUG, which codes for methionine, so most new polypeptides begin with methionine. UAA and UGA are stop codons, which do not code for any amino acid.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0008",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "During translation, a ribosome reaches the codon UAG in the mRNA. What happens?",
+   "imageRef": null,
+   "options": [
+    "The ribosome skips UAG and continues at the next codon along",
+    "A tRNA brings the amino acid that matches its anticodon AUC",
+    "No tRNA pairs with this stop codon, so the polypeptide is released",
+    "A tRNA brings methionine, and a new polypeptide chain is started"
+   ],
+   "correctIndex": 2,
+   "explanation": "UAG is one of the three stop codons (with UAA and UGA). No tRNA has an anticodon for it; instead a release factor binds, and the ribosome releases the completed polypeptide.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0009",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Use these codons: AUG = Met, UUU = Phe, GGC = Gly, AAA = Lys, UAA = stop. Which polypeptide is coded by the mRNA 5' AUG UUU GGC AAA UAA 3'?",
+   "imageRef": null,
+   "options": [
+    "Met-Phe-Gly-Lys",
+    "Phe-Gly-Lys",
+    "Met-Lys-Gly-Phe",
+    "Met-Phe-Gly-Lys-Met"
+   ],
+   "correctIndex": 0,
+   "explanation": "The ribosome reads the mRNA from 5' to 3' one codon at a time: AUG Met, UUU Phe, GGC Gly, AAA Lys, then stops at UAA. The start codon is translated as methionine, and the stop codon adds no amino acid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0010",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A mature mRNA has 900 nucleotides from the first base of the start codon to the last base of the stop codon, inclusive. How many amino acids are in the polypeptide translated from it?",
+   "imageRef": null,
+   "options": [
+    "299",
+    "300",
+    "900",
+    "297"
+   ],
+   "correctIndex": 0,
+   "explanation": "900 nucleotides is 900/3 = 300 codons. The last codon is the stop codon, which codes for no amino acid, so the polypeptide has 299 amino acids. The value 300 counts the stop codon as an amino acid.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0011",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In sickle-cell disease, codon 6 of the beta-globin mRNA changes from GAG (glutamic acid) to GUG (valine). What kind of mutation is this, and what is its effect?",
+   "imageRef": null,
+   "options": [
+    "A silent mutation, as both codons code for the same amino acid",
+    "A nonsense mutation that ends the polypeptide chain at codon 6",
+    "A frameshift that changes every amino acid after codon 6",
+    "A point mutation that replaces one amino acid in the polypeptide"
+   ],
+   "correctIndex": 3,
+   "explanation": "A single base substitution changes one codon, so one amino acid, glutamic acid, is replaced by valine, a missense mutation. Even this one change alters how haemoglobin molecules behave. The codons code for different amino acids, so the mutation is not silent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0012",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A substitution changes the codon UGG (tryptophan) to UGA in the middle of an mRNA. UGA is a stop codon. What is the effect on the polypeptide?",
+   "imageRef": null,
+   "options": [
+    "It is unchanged, because the genetic code is degenerate",
+    "It is longer, because translation continues past the end",
+    "It is shorter, ending where the tryptophan should have been",
+    "It is the same length, with one amino acid replaced"
+   ],
+   "correctIndex": 2,
+   "explanation": "Changing a codon for an amino acid into a stop codon is a nonsense mutation: translation ends early, giving a shortened polypeptide that is often non-functional. A missense mutation would replace one amino acid but keep the length.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0013",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "An mRNA reads 5' AUG GCU AAA GGC 3' (Met-Ala-Lys-Gly). An extra G is inserted straight after AUG. Given GGC = Gly, UAA = stop and AGG = Arg, what is the new polypeptide?",
+   "imageRef": null,
+   "options": [
+    "Met-Gly, then translation stops",
+    "Met-Gly-Ala-Lys-Gly",
+    "Met-Ala-Lys-Gly",
+    "Met-Gly-Arg"
+   ],
+   "correctIndex": 0,
+   "explanation": "The insertion shifts the reading frame: AUG GGC UAA AGG C. The codons are read as Met, Gly, then the stop codon UAA, so translation ends after two amino acids. A frameshift changes the grouping of every codon after the insertion, so the original codons are not read.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0014",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A gene has 400 codons. Which mutation is most likely to have the least effect on the protein?",
+   "imageRef": null,
+   "options": [
+    "Insertion of one nucleotide into codon 2 of the coding sequence",
+    "Substitution changing codon 12 from a tryptophan codon to a stop codon",
+    "Substitution changing codon 10 from CUU to CUA, both coding for leucine",
+    "Deletion of one nucleotide from codon 5 of the coding sequence"
+   ],
+   "correctIndex": 2,
+   "explanation": "Because the code is degenerate, CUU and CUA both code for leucine, so this silent mutation does not change the polypeptide. Single-nucleotide insertions or deletions near the start shift the reading frame for almost the whole protein, and an early stop codon truncates it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0015",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Compared with euchromatin, heterochromatin is:",
+   "imageRef": null,
+   "options": [
+    "loosely packed, so its genes are transcribed most actively",
+    "tightly packed, so its genes are usually not transcribed",
+    "loosely packed, so its genes are usually not transcribed",
+    "tightly packed, so its genes are transcribed most actively"
+   ],
+   "correctIndex": 1,
+   "explanation": "In heterochromatin, DNA is tightly wound around histones, so RNA polymerase and transcription factors cannot reach the genes. Euchromatin is loosely packed and accessible, so its genes can be transcribed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0016",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Adding acetyl groups to histone proteins loosens their hold on DNA. What is the likely effect on a gene in that region?",
+   "imageRef": null,
+   "options": [
+    "The chromatin opens to euchromatin, so the gene is transcribed more easily",
+    "The chromatin closes to heterochromatin, so the gene is silenced",
+    "The base sequence of the gene changes, so a different protein is made",
+    "The gene is cut out of the chromosome and moved to a new location"
+   ],
+   "correctIndex": 0,
+   "explanation": "Acetylation is a chemical tag that loosens chromatin into the open euchromatin form, giving RNA polymerase and transcription factors access to the promoter. Chemical tags change how accessible genes are without changing the DNA base sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0017",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "What are transcription factors?",
+   "imageRef": null,
+   "options": [
+    "Sections of DNA that are removed from pre-mRNA during RNA processing",
+    "Proteins that bind DNA at or near a gene's promoter to control its transcription",
+    "Enzymes that join amino acids together into a polypeptide chain at the ribosome surface",
+    "Short RNA molecules that carry amino acids to the ribosome for translation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Transcription factors are regulatory proteins that bind to the promoter or nearby DNA, helping or blocking RNA polymerase so that a gene is switched on or off. Molecules carrying amino acids are tRNAs, and removed sections are introns.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0018",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A plant gene for a heat-shock protein is transcribed only when the temperature rises. Heat activates a protein that then binds near the gene. Which explanation fits?",
+   "imageRef": null,
+   "options": [
+    "Heat activates RNA polymerase, which splices introns out of the gene's DNA",
+    "Heat breaks down the gene's histones, so the gene is permanently switched on",
+    "Heat activates a transcription factor, which binds the promoter and switches the gene on",
+    "Heat changes the gene's base sequence, so the plant now makes a different, heat-stable protein"
+   ],
+   "correctIndex": 2,
+   "explanation": "An environmental signal can activate a transcription factor, which binds the promoter region and allows RNA polymerase to transcribe the gene. When the signal ends the gene is switched off again. Signals regulate expression without changing the base sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0019",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In muscle cells, gene X is loosely packed and bound by a muscle-specific transcription factor, and is transcribed. In skin cells of the same person, gene X is heavily methylated, tightly packed and not transcribed. Which conclusion is best supported?",
+   "imageRef": null,
+   "options": [
+    "Methylation has changed the base sequence of gene X in the person's skin cells",
+    "Gene X is transcribed in skin cells too, but its mRNA is always destroyed before translation",
+    "Chromatin structure and transcription factors together control where gene X is expressed",
+    "Skin cells have lost gene X from their chromosomes during cell differentiation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both cell types contain gene X; the difference lies in chemical tags and chromatin packing, and in whether an activating transcription factor is present. This regulation of gene expression underlies cell differentiation. The data show gene X is not transcribed in skin, and methylation does not change the base sequence.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0020",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A mutation changes the DNA-binding region of a transcription factor, so it can no longer bind the promoter of gene Y, which it normally activates. The DNA of gene Y itself is unchanged. What is the predicted effect?",
+   "imageRef": null,
+   "options": [
+    "Gene Y is transcribed more, because its promoter is now left unoccupied",
+    "Gene Y is transcribed much less, even though its own sequence is normal",
+    "Gene Y is transcribed normally, because its own sequence is unchanged",
+    "Gene Y is transcribed normally, but its protein has a changed sequence"
+   ],
+   "correctIndex": 1,
+   "explanation": "An activating transcription factor must bind the promoter to help RNA polymerase start transcription, so without it gene Y is expressed at a much lower level. A gene's expression depends on its regulators as well as its own sequence, and the protein sequence of gene Y is unchanged.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0021",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "What do HOX genes code for?",
+   "imageRef": null,
+   "options": [
+    "Enzymes that break down proteins in the cells of the developing embryo",
+    "Structural proteins that directly build the bones of the limbs and the spine in the embryo",
+    "Hormones that control the rate of growth of the embryo after it implants",
+    "Transcription factors that set the identity of body regions along the head-to-tail axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "HOX genes code for transcription factors that switch on sets of other genes, determining which structures develop in each region of the body along the anterior-posterior axis. They regulate morphology by controlling other genes rather than building structures themselves.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0022",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In fruit flies, a mutation in the HOX gene Antennapedia can make legs grow on the head where antennae should be. What best explains this?",
+   "imageRef": null,
+   "options": [
+    "A HOX gene that specifies leg-bearing segments is expressed in the head",
+    "The mutation adds new genes for legs to every chromosome in the head cells",
+    "The antennae are transformed into legs by a hormone made in the thorax",
+    "The mutation deletes all of the genes needed to make legs in the thorax"
+   ],
+   "correctIndex": 0,
+   "explanation": "HOX transcription factors give each segment its identity. When the gene that normally specifies a leg-bearing thoracic segment is switched on in the head, cells there follow the leg developmental program. This homeotic mutation shows how HOX genes control body plan.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0023",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In a HOX gene cluster, the genes lie along the chromosome in a particular order. What does this order match?",
+   "imageRef": null,
+   "options": [
+    "The order in which the genes evolved, from the newest to the oldest gene",
+    "The order of the size of the proteins, from the largest to the smallest",
+    "The order of the codons in the mRNA, from the start codon to the stop codon",
+    "The order of the body regions, head to tail, in which the genes are expressed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Genes at one end of the cluster are expressed towards the head and those further along towards the tail, so gene order matches the body axis. This arrangement is conserved in animals as different as flies and mammals.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0024",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Every HOX protein contains a homeodomain of about 60 amino acids, coded by a DNA sequence called the homeobox. What is the role of the homeodomain?",
+   "imageRef": null,
+   "options": [
+    "It binds to tRNA, so the protein can deliver amino acids to the ribosome",
+    "It cuts DNA at specific sites, so genes can be moved between the chromosomes",
+    "It adds methyl groups to histones, so whole chromosomes become inactive",
+    "It binds to DNA, so the protein can regulate the transcription of target genes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The homeodomain is the DNA-binding region that lets HOX transcription factors attach to regulatory DNA near target genes and switch them on or off. Its sequence is highly conserved across animals, reflecting its essential role.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0025",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "What do restriction enzymes do?",
+   "imageRef": null,
+   "options": [
+    "Cut DNA at specific recognition sequences",
+    "Join DNA fragments by sealing the backbone",
+    "Copy DNA many times at high temperature",
+    "Add nucleotides to a growing RNA strand"
+   ],
+   "correctIndex": 0,
+   "explanation": "Restriction enzymes recognise particular short base sequences and cut both strands there, often leaving sticky ends. Joining fragments is the job of DNA ligase, and copying DNA by PCR uses heat-stable DNA polymerase.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0026",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Why are a plasmid and the gene to be inserted usually cut with the same restriction enzyme?",
+   "imageRef": null,
+   "options": [
+    "So the gene loses its introns before it enters the plasmid",
+    "So the restriction enzyme can then join the two together",
+    "So both have complementary sticky ends that can base-pair",
+    "So the plasmid is cut into many small identical fragments"
+   ],
+   "correctIndex": 2,
+   "explanation": "The same enzyme leaves matching single-stranded overhangs on the plasmid and the gene, which pair by complementary base pairing so the gene fits into the opening. DNA ligase, not the restriction enzyme, then seals the backbone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0027",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Which sequence correctly describes making a recombinant plasmid?",
+   "imageRef": null,
+   "options": [
+    "Cut plasmid and gene with one restriction enzyme, mix, seal with ligase, add to bacteria",
+    "Seal plasmid and gene with ligase, cut with one restriction enzyme, mix, add to bacteria",
+    "Add plasmid to bacteria, cut it with ligase, mix with the gene, seal with restriction enzyme",
+    "Cut plasmid and gene with different enzymes, add to bacteria, then seal with ligase"
+   ],
+   "correctIndex": 0,
+   "explanation": "The plasmid and gene are cut with the same restriction enzyme to give matching sticky ends, mixed so the ends pair, sealed with DNA ligase and then taken up by bacteria. Ligase joins DNA; it does not cut it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0028",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Why are plasmids used as vectors to carry genes into bacteria?",
+   "imageRef": null,
+   "options": [
+    "They insert the gene directly into the nucleus of each bacterial cell",
+    "They contain introns, so the bacteria can process the human gene's mRNA",
+    "They replicate independently inside bacteria, copying any gene they carry",
+    "They are made of protein, so they cannot be broken down by bacterial enzymes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Plasmids are small circular DNA molecules that bacteria copy independently of their chromosome, so an inserted gene is copied and passed on as the bacteria multiply. Bacteria have no nucleus, and plasmids are DNA, not protein.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0029",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A circular plasmid of 6000 base pairs has three recognition sites for one restriction enzyme. How many fragments are produced when it is cut completely?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "4",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Cutting a circle once opens it into one linear piece, so each cut after that adds one fragment: three cuts give three fragments. A linear DNA molecule with three sites would give four fragments.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0030",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A plasmid of 4500 base pairs has a gene inserted at a single restriction site. Cutting the recombinant plasmid with the enzyme gives two bands on a gel, at 4500 and 1200 base pairs. How long is the inserted gene?",
+   "imageRef": null,
+   "options": [
+    "5700 base pairs",
+    "3300 base pairs",
+    "4500 base pairs",
+    "1200 base pairs"
+   ],
+   "correctIndex": 3,
+   "explanation": "The insert was joined into the plasmid using the restriction site's sticky ends, so cutting at the same sites releases it again: the 4500 base pair band is the plasmid and the 1200 base pair band is the gene. The value 5700 is the whole recombinant plasmid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0031",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "What is the purpose of the polymerase chain reaction (PCR)?",
+   "imageRef": null,
+   "options": [
+    "To separate DNA fragments according to length",
+    "To insert a gene into a bacterial plasmid",
+    "To make many copies of a specific DNA sequence",
+    "To cut DNA into fragments at specific sequences"
+   ],
+   "correctIndex": 2,
+   "explanation": "PCR amplifies a chosen region of DNA, producing millions of copies from a tiny sample so there is enough to analyse. Cutting DNA uses restriction enzymes, and separating fragments by length is gel electrophoresis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0032",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In PCR, what happens when the reaction is cooled to about 50 to 60 \u00b0C after the strands have been separated?",
+   "imageRef": null,
+   "options": [
+    "Hydrogen bonds break, so the two strands of the DNA come apart",
+    "Restriction enzymes cut the copied DNA into equal-sized pieces",
+    "Primers bind to complementary sequences at each end of the target",
+    "DNA polymerase adds nucleotides to build the complementary strands"
+   ],
+   "correctIndex": 2,
+   "explanation": "Cooling lets the short primers anneal to complementary sequences flanking the target region. The strands separate at about 95 \u00b0C, and the heat-stable polymerase extends the primers at about 72 \u00b0C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0033",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Why does PCR copy only the target region, not the whole genome?",
+   "imageRef": null,
+   "options": [
+    "Restriction enzymes in the mixture first cut away all DNA outside the target region",
+    "Only the target region separates into single strands when the mixture is heated",
+    "The two primers bind at either end of the target, and copying starts only from primers",
+    "The DNA polymerase recognises the target gene's own promoter and copies only from that point"
+   ],
+   "correctIndex": 2,
+   "explanation": "DNA polymerase can only extend a primer, and the two primers are designed to match sequences on either side of the target. Over repeated cycles, copies spanning just the region between the primers come to dominate the mixture.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0034",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A PCR starts with 4 copies of a target sequence. Assuming the DNA doubles every cycle, how many copies are present after 6 cycles?",
+   "imageRef": null,
+   "options": [
+    "64",
+    "4096",
+    "256",
+    "24"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each cycle doubles the number of copies: 4 \u00d7 2 to the power 6 = 4 \u00d7 64 = 256. The value 64 forgets the starting 4 copies, and 24 adds 4 each cycle instead of doubling.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0035",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "In gel electrophoresis, why do shorter DNA fragments travel further than longer ones?",
+   "imageRef": null,
+   "options": [
+    "They are lighter, so they float faster through the buffer",
+    "They pass more easily through the pores of the gel",
+    "They carry more negative charge per base than long ones",
+    "They are attracted more strongly to the negative electrode"
+   ],
+   "correctIndex": 1,
+   "explanation": "All DNA fragments carry negative charge from their phosphate groups and move towards the positive electrode at a similar charge per length. The gel acts as a sieve, so shorter fragments slip through its pores more easily and travel further in the same time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0036",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "Why do different people usually show different band positions at a short tandem repeat (STR) locus?",
+   "imageRef": null,
+   "options": [
+    "Their DNA carries a different charge, so it moves at different speeds through the gel",
+    "Their DNA is cut by different restriction enzymes in different people",
+    "They inherit different numbers of repeats, giving fragments of different lengths",
+    "They have different genes at that locus, coding for different proteins"
+   ],
+   "correctIndex": 2,
+   "explanation": "STRs are short sequences repeated many times, and the number of repeats varies between people. After PCR, fragments with more repeats are longer and travel less far, so each person's alleles give a characteristic banding pattern.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0037",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "At three STR loci, a crime-scene sample has bands (base pairs) of 150/180, 210/240 and 300/330. Suspect P has 150/180, 210/240, 300/330; Q has 150/170, 210/240, 300/330; R has 150/180, 200/240, 310/330. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "Suspects P and Q both match, as most of their bands are shared",
+    "Suspect R matches, as it shares a band at every locus",
+    "Suspect Q matches, as it matches at two of the three loci",
+    "Only suspect P matches the sample at all three loci"
+   ],
+   "correctIndex": 3,
+   "explanation": "A matching profile must have the same bands at every locus tested. Q differs at the first locus (170 instead of 180), and R differs at the second (200) and third (310), so they are excluded. Only P matches at all three.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-qce-gene-expression-0038",
+   "topicId": "bio-qce-gene-expression",
+   "stem": "A child's STR bands are 120/140, 200/230 and 310/350; the mother's are 120/160, 200/250 and 290/310. Man X: 140/180, 230/260, 330/350. Man Y: 140/160, 220/250, 350/370. Man Z: 120/140, 200/230, 310/330. Who could be the father?",
+   "imageRef": null,
+   "options": [
+    "Man Y",
+    "Man Z",
+    "Both Man X and Man Z",
+    "Man X"
+   ],
+   "correctIndex": 3,
+   "explanation": "At each locus the child has one band from the mother (120, 200, 310), so the father must have the other bands: 140, 230 and 350. Only Man X has all three. Man Y lacks 230, and Man Z lacks 350.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-qce-gene-expression-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

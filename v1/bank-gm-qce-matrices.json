@@ -1,0 +1,689 @@
+{
+ "topicId": "gm-qce-matrices",
+ "questions": [
+  {
+   "id": "gm-qce-matrices-0001",
+   "topicId": "gm-qce-matrices",
+   "stem": "A matrix records the number of tickets sold in 3 price categories (rows) on each of 4 nights (columns). The order of the matrix is:",
+   "imageRef": null,
+   "options": [
+    "4 \u00d7 3",
+    "12 \u00d7 1",
+    "7 \u00d7 1",
+    "3 \u00d7 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Order is written rows \u00d7 columns, so 3 categories by 4 nights gives 3 \u00d7 4. Writing 4 \u00d7 3 reverses the convention.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0002",
+   "topicId": "gm-qce-matrices",
+   "stem": "A matrix has 2 rows and 4 columns. The number of elements it contains and its order are:",
+   "imageRef": null,
+   "options": [
+    "6 elements, order 4 \u00d7 2",
+    "8 elements, order 2 \u00d7 4",
+    "8 elements, order 4 \u00d7 2",
+    "6 elements, order 2 \u00d7 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "A 2 \u00d7 4 matrix has 2 \u00d7 4 = 8 elements, and its order lists rows first. Adding the dimensions to get 6 counts the rows and columns, not the elements.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0003",
+   "topicId": "gm-qce-matrices",
+   "stem": "Which of these describes a column matrix?",
+   "imageRef": null,
+   "options": [
+    "A matrix with rows (3), (\u22121) and (5)",
+    "A matrix with one row (3, \u22121, 5)",
+    "A matrix with rows (3, \u22121) and (5, 0)",
+    "A matrix with rows (0, 0) and (0, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A column matrix has a single column, so it has order n \u00d7 1, such as 3 \u00d7 1. A single row (3, \u22121, 5) is a row matrix, and the all-zero 2 \u00d7 2 matrix is a zero matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0004",
+   "topicId": "gm-qce-matrices",
+   "stem": "The 3 \u00d7 3 identity matrix has rows:",
+   "imageRef": null,
+   "options": [
+    "(0, 0, 1), (0, 1, 0) and (1, 0, 0)",
+    "(0, 0, 0), (0, 0, 0) and (0, 0, 0)",
+    "(1, 0, 0), (0, 1, 0) and (0, 0, 1)",
+    "(1, 1, 1), (1, 1, 1) and (1, 1, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The identity matrix is square with 1s on the leading diagonal, top left to bottom right, and 0s elsewhere. The all-zero matrix is the zero matrix, and 1s on the other diagonal do not leave matrices unchanged.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0005",
+   "topicId": "gm-qce-matrices",
+   "stem": "In a matrix A, the element written a\u2083\u2082 is located in:",
+   "imageRef": null,
+   "options": [
+    "row 2, column 3",
+    "row 3, column 3",
+    "row 2, column 2",
+    "row 3, column 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The first subscript gives the row and the second the column, so a\u2083\u2082 is in row 3, column 2. Reading the column first gives row 2, column 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0006",
+   "topicId": "gm-qce-matrices",
+   "stem": "Matrix S records caf\u00e9 sales, with rows for coffee, tea and juice, and columns for Monday to Friday. The element in row 2, column 3 gives:",
+   "imageRef": null,
+   "options": [
+    "the number of teas sold on Wednesday",
+    "the number of juices sold on Tuesday",
+    "the number of teas sold on Tuesday",
+    "the number of coffees sold on Wednesday"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 2 is tea and column 3 is the third day, Wednesday. Reading the column as the row gives juice on Tuesday, which swaps the convention.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0007",
+   "topicId": "gm-qce-matrices",
+   "stem": "Two matrices can be added or subtracted only when:",
+   "imageRef": null,
+   "options": [
+    "they are both square",
+    "the first has as many columns as the second has rows",
+    "they contain no zero elements",
+    "they have the same order"
+   ],
+   "correctIndex": 3,
+   "explanation": "Addition and subtraction combine corresponding elements, so every element needs a partner: the orders must match. The columns-equal-rows condition is for matrix multiplication.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0008",
+   "topicId": "gm-qce-matrices",
+   "stem": "A has rows (3, \u22121) and (2, 4). B has rows (1, 5) and (\u22122, 0). The matrix A + B has rows:",
+   "imageRef": null,
+   "options": [
+    "(4, 6) and (0, 4)",
+    "(2, \u22126) and (4, 4)",
+    "(4, 4) and (4, 4)",
+    "(4, 4) and (0, 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Add corresponding elements: 3 + 1 = 4, \u22121 + 5 = 4, 2 + (\u22122) = 0 and 4 + 0 = 4. The rows (2, \u22126) and (4, 4) are A \u2212 B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0009",
+   "topicId": "gm-qce-matrices",
+   "stem": "With the same A (rows (3, \u22121) and (2, 4)) and B (rows (1, 5) and (\u22122, 0)), the matrix A \u2212 B has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 4) and (0, 4)",
+    "(2, \u22124) and (4, 4)",
+    "(2, \u22126) and (4, 4)",
+    "(\u22122, 6) and (\u22124, \u22124)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtract corresponding elements: 3 \u2212 1 = 2, \u22121 \u2212 5 = \u22126, 2 \u2212 (\u22122) = 4 and 4 \u2212 0 = 4. The rows (\u22122, 6) and (\u22124, \u22124) are B \u2212 A, the other order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0010",
+   "topicId": "gm-qce-matrices",
+   "stem": "The matrix A has rows (2, \u22121) and (0, 4). The matrix 3A has rows:",
+   "imageRef": null,
+   "options": [
+    "(6, \u22123) and (3, 12)",
+    "(6, \u22123) and (0, 12)",
+    "(6, \u22121) and (0, 4)",
+    "(5, 2) and (3, 7)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Scalar multiplication multiplies every element by 3. Multiplying only the first column gives (6, \u22121) and (0, 4), and adding 3 to each element gives (5, 2) and (3, 7).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0011",
+   "topicId": "gm-qce-matrices",
+   "stem": "A has rows (1, 3) and (\u22122, 0). B has rows (4, 1) and (1, \u22123). The matrix 2A \u2212 B has rows:",
+   "imageRef": null,
+   "options": [
+    "(6, 7) and (\u22123, \u22123)",
+    "(\u22123, 2) and (\u22123, 3)",
+    "(\u22122, 5) and (\u22125, 3)",
+    "(\u22122, 5) and (\u22123, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "2A has rows (2, 6) and (\u22124, 0); subtracting B gives (2 \u2212 4, 6 \u2212 1) = (\u22122, 5) and (\u22124 \u2212 1, 0 \u2212 (\u22123)) = (\u22125, 3). The rows (\u22123, 2) and (\u22123, 3) come from A \u2212 B, forgetting to double A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0012",
+   "topicId": "gm-qce-matrices",
+   "stem": "A price matrix P = (20, 35, 50) lists prices in dollars. After every price rises by 10%, the new price matrix is:",
+   "imageRef": null,
+   "options": [
+    "P + 10 = (30, 45, 60)",
+    "1.01P = (20.2, 35.35, 50.5)",
+    "1.1P = (22, 38.5, 55)",
+    "0.1P = (2, 3.5, 5)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A 10% rise multiplies every price by the scalar 1.1. The matrix 0.1P gives only the increases, and adding 10 to each element is a flat $10 rise.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0013",
+   "topicId": "gm-qce-matrices",
+   "stem": "Matrix X satisfies X + (rows (2, \u22121) and (0, 3)) = (rows (5, 1) and (4, 3)). X has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, 2) and (4, 0)",
+    "(7, 0) and (4, 6)",
+    "(3, 0) and (4, 0)",
+    "(\u22123, \u22122) and (\u22124, 0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract the known matrix from both sides: X = (5 \u2212 2, 1 \u2212 (\u22121); 4 \u2212 0, 3 \u2212 3) = (3, 2) and (4, 0). The rows (7, 0) and (4, 6) add the matrices instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0014",
+   "topicId": "gm-qce-matrices",
+   "stem": "The matrices with rows (a + 1, 4) and (3, b) and with rows (5, 4) and (3, \u22122) are equal. The values of a and b are:",
+   "imageRef": null,
+   "options": [
+    "a = 5, b = \u22122",
+    "a = 6, b = 2",
+    "a = 4, b = 2",
+    "a = 4, b = \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "Equal matrices have equal corresponding elements, so a + 1 = 5 and b = \u22122, giving a = 4. Setting a = 5 forgets to subtract the 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0015",
+   "topicId": "gm-qce-matrices",
+   "stem": "A is a 2 \u00d7 3 matrix and B is a 3 \u00d7 1 matrix. The product AB:",
+   "imageRef": null,
+   "options": [
+    "exists and has order 1 \u00d7 2",
+    "exists and has order 2 \u00d7 3",
+    "exists and has order 2 \u00d7 1",
+    "exists and has order 3 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "AB exists because A has 3 columns and B has 3 rows, and the product takes the outer dimensions, 2 \u00d7 1. Order 3 \u00d7 3 comes from taking the inner dimensions instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0016",
+   "topicId": "gm-qce-matrices",
+   "stem": "A and B are both 2 \u00d7 3 matrices. Which of these can be calculated?",
+   "imageRef": null,
+   "options": [
+    "A + B",
+    "AB",
+    "A\u00b2",
+    "BA"
+   ],
+   "correctIndex": 0,
+   "explanation": "A + B needs equal orders, which they have. AB and BA need the columns of the first to equal the rows of the second, and 3 \u2260 2, while A\u00b2 needs a square matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0017",
+   "topicId": "gm-qce-matrices",
+   "stem": "A matrix can be squared (multiplied by itself) only when it is:",
+   "imageRef": null,
+   "options": [
+    "free of zero elements",
+    "a square matrix",
+    "a row matrix",
+    "a column matrix"
+   ],
+   "correctIndex": 1,
+   "explanation": "For AA to exist, the columns of A must equal its rows, so A must be square. A row or column matrix with more than one element has unequal dimensions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0018",
+   "topicId": "gm-qce-matrices",
+   "stem": "The product of the matrix with rows (2, 1) and (0, 3) and the column matrix with rows (4) and (5) is the column matrix with rows:",
+   "imageRef": null,
+   "options": [
+    "(13) and (15)",
+    "(8) and (15)",
+    "(9) and (8)",
+    "(14) and (12)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row times column: 2 \u00d7 4 + 1 \u00d7 5 = 13 and 0 \u00d7 4 + 3 \u00d7 5 = 15. Multiplying only matching positions gives 8 and 15, which is not matrix multiplication.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0019",
+   "topicId": "gm-qce-matrices",
+   "stem": "The row matrix (2, 3, 1) multiplied by the column matrix with rows (4), (0) and (5) gives:",
+   "imageRef": null,
+   "options": [
+    "the 1 \u00d7 3 matrix (8, 0, 5)",
+    "the 3 \u00d7 3 matrix with rows (8, 12, 4), (0, 0, 0) and (10, 15, 5)",
+    "the 1 \u00d7 1 matrix (15)",
+    "the 1 \u00d7 1 matrix (13)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A 1 \u00d7 3 matrix times a 3 \u00d7 1 matrix is 1 \u00d7 1: 2 \u00d7 4 + 3 \u00d7 0 + 1 \u00d7 5 = 13. The 3 \u00d7 3 matrix is the product in the other order, column times row.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0020",
+   "topicId": "gm-qce-matrices",
+   "stem": "The column matrix with rows (2) and (3) multiplied by the row matrix (1, 4) gives the matrix with rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 8) and (3, 12)",
+    "(14)",
+    "(2, 3) and (8, 12)",
+    "(2, 12)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A 2 \u00d7 1 matrix times a 1 \u00d7 2 matrix is 2 \u00d7 2, with each element a single product: row 1 is (2 \u00d7 1, 2 \u00d7 4) and row 2 is (3 \u00d7 1, 3 \u00d7 4). The single value 14 is the product in the other order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0021",
+   "topicId": "gm-qce-matrices",
+   "stem": "A has rows (1, 2) and (3, 4). B has rows (0, 1) and (5, 2). The product AB has rows:",
+   "imageRef": null,
+   "options": [
+    "(10, 5) and (20, 11)",
+    "(0, 2) and (15, 8)",
+    "(3, 4) and (11, 18)",
+    "(10, 11) and (20, 5)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 1 of A with the columns of B: 1 \u00d7 0 + 2 \u00d7 5 = 10 and 1 \u00d7 1 + 2 \u00d7 2 = 5; row 2: 3 \u00d7 0 + 4 \u00d7 5 = 20 and 3 \u00d7 1 + 4 \u00d7 2 = 11. Multiplying matching elements gives (0, 2) and (15, 8), and (3, 4) and (11, 18) is BA.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0022",
+   "topicId": "gm-qce-matrices",
+   "stem": "For A with rows (1, 2) and (3, 4) and B with rows (0, 1) and (5, 2), which statement is true?",
+   "imageRef": null,
+   "options": [
+    "AB \u2260 BA, so the order of multiplication matters",
+    "AB = BA, because both are 2 \u00d7 2",
+    "BA does not exist, although AB does",
+    "AB = BA, because matrix products always commute"
+   ],
+   "correctIndex": 0,
+   "explanation": "AB has rows (10, 5) and (20, 11) while BA has rows (3, 4) and (11, 18), so AB \u2260 BA. Both products exist because both matrices are 2 \u00d7 2, but matrix multiplication is not commutative in general.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0023",
+   "topicId": "gm-qce-matrices",
+   "stem": "A has rows (1, 0, 2) and (3, 1, 0). B has rows (2, 1), (0, 4) and (1, 3). The product AB has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 0) and (0, 4)",
+    "(5, 1, 4), (12, 4, 0) and (10, 3, 2)",
+    "(4, 7) and (6, 7)",
+    "(4, 6) and (7, 7)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A is 2 \u00d7 3 and B is 3 \u00d7 2, so AB is 2 \u00d7 2: for example, row 1 by column 1 is 1 \u00d7 2 + 0 \u00d7 0 + 2 \u00d7 1 = 4. The 3 \u00d7 3 matrix is BA, the product in the other order.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0024",
+   "topicId": "gm-qce-matrices",
+   "stem": "A has rows (2, 1, 0), (1, 3, 2) and (0, 1, 4). B has rows (1, 0, 2), (2, 1, 0) and (3, 1, 1). The element in row 2, column 1 of AB is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "4",
+    "2",
+    "13"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row 2 of A times column 1 of B: 1 \u00d7 1 + 3 \u00d7 2 + 2 \u00d7 3 = 13. The value 4 is the row 1, column 1 element, and 2 multiplies only the two elements in position (2, 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0025",
+   "topicId": "gm-qce-matrices",
+   "stem": "The matrix A has rows (1, 1) and (0, 1). The matrix A\u00b3 has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, 3) and (0, 3)",
+    "(1, 2) and (0, 1)",
+    "(1, 3) and (0, 1)",
+    "(1, 1) and (0, 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u00b2 has rows (1, 2) and (0, 1), and A\u00b3 = A\u00b2A has rows (1, 3) and (0, 1). Cubing each element leaves A unchanged, which is not how matrix powers work; (1, 2) and (0, 1) is A\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0026",
+   "topicId": "gm-qce-matrices",
+   "stem": "For any 2 \u00d7 2 matrix A and the 2 \u00d7 2 identity matrix I:",
+   "imageRef": null,
+   "options": [
+    "AI = A but IA = I",
+    "AI = I",
+    "AI = 2A",
+    "AI = IA = A"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying by the identity, on either side, leaves a matrix unchanged, just as multiplying a number by 1 does. That is why I is called the identity matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0027",
+   "topicId": "gm-qce-matrices",
+   "stem": "The product of the row matrix (2, x) and the column matrix with rows (3) and (4) is the 1 \u00d7 1 matrix (26). The value of x is:",
+   "imageRef": null,
+   "options": [
+    "23",
+    "5",
+    "6.5",
+    "20"
+   ],
+   "correctIndex": 1,
+   "explanation": "The product is 2 \u00d7 3 + 4x = 6 + 4x, so 6 + 4x = 26 and x = 5. Dividing 26 by 4 without subtracting 6 gives 6.5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0028",
+   "topicId": "gm-qce-matrices",
+   "stem": "A bakery's prices are P = (3, 5, 2) dollars for a pie, a drink and a cake. An order is Q, a column matrix with rows (4), (6) and (10). The total cost PQ is:",
+   "imageRef": null,
+   "options": [
+    "$10",
+    "$20",
+    "$124",
+    "$62"
+   ],
+   "correctIndex": 3,
+   "explanation": "PQ = 3 \u00d7 4 + 5 \u00d7 6 + 2 \u00d7 10 = 12 + 30 + 20 = $62. Adding the prices gives $10, and adding the quantities gives 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0029",
+   "topicId": "gm-qce-matrices",
+   "stem": "Two customers order items: Kai (2 pies, 1 drink, 3 cakes) and Lena (4 pies, 0 drinks, 1 cake), as rows of matrix N. Prices are the column matrix with rows (3), (5) and (2). The product gives the column matrix with rows:",
+   "imageRef": null,
+   "options": [
+    "(31)",
+    "(6, 5, 6) and (12, 0, 2)",
+    "(17) and (14)",
+    "(14) and (17)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Kai pays 2 \u00d7 3 + 1 \u00d7 5 + 3 \u00d7 2 = $17 and Lena 4 \u00d7 3 + 0 \u00d7 5 + 1 \u00d7 2 = $14. The rows (6, 5, 6) and (12, 0, 2) multiply element by element without adding.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0030",
+   "topicId": "gm-qce-matrices",
+   "stem": "Matrix Q (3 \u00d7 4) gives the quantities of 4 products sold by each of 3 shops, and matrix P (4 \u00d7 1) gives the price of each product. The product QP has order and meaning:",
+   "imageRef": null,
+   "options": [
+    "1 \u00d7 1, the total revenue of all shops",
+    "3 \u00d7 1, the revenue of each shop",
+    "4 \u00d7 1, the revenue from each product",
+    "3 \u00d7 4, the revenue from each product at each shop"
+   ],
+   "correctIndex": 1,
+   "explanation": "A 3 \u00d7 4 matrix times a 4 \u00d7 1 matrix is 3 \u00d7 1, one entry per shop, each the sum of quantity \u00d7 price. The products are summed over, so they do not survive as a dimension.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0031",
+   "topicId": "gm-qce-matrices",
+   "stem": "In a competition, teams earn 3 points for a win, 1 for a draw and 0 for a loss. Results (W, D, L) are the rows (5, 2, 1) for the Hawks, (3, 4, 1) for the Owls and (2, 1, 5) for the Crows. Multiplying by the points column (3), (1), (0) gives points of:",
+   "imageRef": null,
+   "options": [
+    "Hawks 15, Owls 9, Crows 6",
+    "Hawks 17, Owls 13, Crows 7",
+    "Hawks 8, Owls 8, Crows 8",
+    "Hawks 17, Owls 13, Crows 12"
+   ],
+   "correctIndex": 1,
+   "explanation": "Hawks 5 \u00d7 3 + 2 \u00d7 1 = 17, Owls 3 \u00d7 3 + 4 \u00d7 1 = 13 and Crows 2 \u00d7 3 + 1 \u00d7 1 = 7. Giving each loss a point as well gives Crows 12, and counting wins only gives 15, 9 and 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0032",
+   "topicId": "gm-qce-matrices",
+   "stem": "In a communication matrix C for a group of people, a 1 in the row for Pia and the column for Quinn shows that:",
+   "imageRef": null,
+   "options": [
+    "Pia can send messages to one person",
+    "Pia can send a message directly to Quinn",
+    "Quinn can send a message directly to Pia",
+    "Pia and Quinn can communicate only through one other person"
+   ],
+   "correctIndex": 1,
+   "explanation": "The row is the sender and the column the receiver, so the 1 is a direct link from Pia to Quinn. A link from Quinn to Pia would appear in Quinn's row and Pia's column.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0033",
+   "topicId": "gm-qce-matrices",
+   "stem": "In a communication matrix, the elements on the leading diagonal are all 0 because:",
+   "imageRef": null,
+   "options": [
+    "no one can send a message in both directions",
+    "the matrix must be the identity matrix",
+    "every person has exactly one link",
+    "people do not send messages to themselves"
+   ],
+   "correctIndex": 3,
+   "explanation": "The diagonal element in row k, column k would be a link from person k to themselves, which is not counted. Two-way links appear off the diagonal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0034",
+   "topicId": "gm-qce-matrices",
+   "stem": "In a communication matrix C, the element in row i, column j of C\u00b2 gives:",
+   "imageRef": null,
+   "options": [
+    "the number of direct links from i to j",
+    "the number of ways i can send to j in one or two steps",
+    "the square of the number of links from i to j",
+    "the number of ways i can send to j through exactly one other person"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each term in the row-by-column product counts a path i \u2192 k \u2192 j, so C\u00b2 counts two-step links with one intermediary. One-or-two-step totals need C + C\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0035",
+   "topicId": "gm-qce-matrices",
+   "stem": "Three people have one-way links given by C with rows (0, 1, 1), (1, 0, 1) and (0, 1, 0) for Pia, Quinn and Rhys in that order. The number of ways Quinn can send a message to Rhys through exactly one other person is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "0",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "C\u00b2 has rows (1, 1, 1), (0, 2, 1) and (1, 0, 1), so the Quinn-to-Rhys element is 1: the path Quinn \u2192 Pia \u2192 Rhys. The 2 in Quinn's row is Quinn back to Quinn, through Pia or through Rhys.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-matrices-0036",
+   "topicId": "gm-qce-matrices",
+   "stem": "For the same matrix C (rows (0, 1, 1), (1, 0, 1) and (0, 1, 0)), the total number of ways Pia can send a message to Rhys in one or two steps is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "C + C\u00b2 has rows (1, 2, 2), (1, 2, 2) and (1, 1, 1), so the Pia-to-Rhys element is 2: directly, and through Quinn. Counting only the direct link, or only the two-step link, gives 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-matrices-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

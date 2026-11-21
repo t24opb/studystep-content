@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-qce-rates-diff-equations",
+ "questions": [
+  {
+   "id": "spec-qce-rates-diff-equations-0001",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "Differentiating y\u00b2 implicitly with respect to x gives:",
+   "imageRef": null,
+   "options": [
+    "2y",
+    "2x (dy/dx)",
+    "y\u00b2 (dy/dx)",
+    "2y (dy/dx)"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the chain rule, d/dx (y\u00b2) = d/dy (y\u00b2) \u00d7 dy/dx = 2y (dy/dx). Writing just 2y treats y as if it were the variable of differentiation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0002",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "Differentiating xy implicitly with respect to x gives:",
+   "imageRef": null,
+   "options": [
+    "y (dy/dx)",
+    "y + x (dy/dx)",
+    "dy/dx",
+    "x + y (dy/dx)"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the product rule, d/dx (xy) = (1)(y) + x (dy/dx). Differentiating only the y factor misses the term from differentiating x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0003",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "For the curve xy = 6, the gradient at the point (2, 3) is:",
+   "imageRef": null,
+   "options": [
+    "\u22123/2",
+    "\u22122/3",
+    "3/2",
+    "\u22126"
+   ],
+   "correctIndex": 0,
+   "explanation": "Differentiating gives y + x (dy/dx) = 0, so dy/dx = \u2212y/x = \u22123/2 at (2, 3). The value \u22122/3 is \u2212x/y, with the coordinates swapped.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0004",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "For the circle x\u00b2 + y\u00b2 = 25, the gradient at the point (3, 4) is:",
+   "imageRef": null,
+   "options": [
+    "\u22124/3",
+    "3/4",
+    "4/3",
+    "\u22123/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "2x + 2y (dy/dx) = 0 gives dy/dx = \u2212x/y = \u22123/4 at (3, 4). This is perpendicular to the radius, whose gradient is 4/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0005",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "For the curve x\u00b3 + y\u00b3 = 9, the gradient at the point (1, 2) is:",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "\u22121/4",
+    "\u22121/2",
+    "\u22124"
+   ],
+   "correctIndex": 1,
+   "explanation": "3x\u00b2 + 3y\u00b2 (dy/dx) = 0, so dy/dx = \u2212x\u00b2/y\u00b2 = \u22121/4 at (1, 2). The value \u22121/2 uses \u2212x/y, forgetting to square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0006",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "For the curve x\u00b2 \u2212 xy + y\u00b2 = 7, the gradient at the point (\u22121, 2) is:",
+   "imageRef": null,
+   "options": [
+    "\u22124/5",
+    "5/4",
+    "0",
+    "4/5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiating: 2x \u2212 y \u2212 x (dy/dx) + 2y (dy/dx) = 0, so dy/dx = (y \u2212 2x)/(2y \u2212 x) = (2 + 2)/(4 + 1) = 4/5. Forgetting the product rule on xy loses the \u2212 y term and gives a different value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0007",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "For the curve e\u02b8 + xy = e, the gradient at the point (0, 1) is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/e",
+    "\u2212e",
+    "1/e",
+    "0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Differentiating: e\u02b8 (dy/dx) + y + x (dy/dx) = 0. At (0, 1): e (dy/dx) + 1 + 0 = 0, so dy/dx = \u22121/e. The product rule term y = 1 is what makes the gradient non-zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0008",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The curve x\u00b2 + xy + y\u00b2 = 3 has horizontal tangents at the points:",
+   "imageRef": null,
+   "options": [
+    "(\u221a3, 0) and (\u2212\u221a3, 0)",
+    "(1, \u22122) and (\u22121, 2)",
+    "(2, \u22121) and (\u22122, 1)",
+    "(1, 1) and (\u22121, \u22121)"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = \u2212(2x + y)/(x + 2y), which is 0 when y = \u22122x. Substituting: x\u00b2 \u2212 2x\u00b2 + 4x\u00b2 = 3x\u00b2 = 3, so x = \u00b11, giving (1, \u22122) and (\u22121, 2). The points (\u221a3, 0) and (\u2212\u221a3, 0) have vertical tangents instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0009",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The radius r of a sphere changes with time t. The rate of change of its volume V is given by:",
+   "imageRef": null,
+   "options": [
+    "dV/dt = (dr/dV) \u00d7 (dr/dt)",
+    "dV/dt = dV/dr + dr/dt",
+    "dV/dt = (dV/dr) \u00d7 (dr/dt)",
+    "dV/dt = (dV/dr) \u00f7 (dr/dt)"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the chain rule, dV/dt = (dV/dr)(dr/dt). For a sphere, dV/dr = 4\u03c0r\u00b2, so dV/dt = 4\u03c0r\u00b2 (dr/dt).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0010",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The radius of a spherical balloon increases at 0.5 cm/s. When the radius is 4 cm, the volume is increasing at:",
+   "imageRef": null,
+   "options": [
+    "32\u03c0 cm\u00b3/s",
+    "8\u03c0 cm\u00b3/s",
+    "128\u03c0/3 cm\u00b3/s",
+    "16\u03c0 cm\u00b3/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = (4/3)\u03c0r\u00b3, so dV/dt = 4\u03c0r\u00b2 (dr/dt) = 4\u03c0(16)(0.5) = 32\u03c0 cm\u00b3/s. Using the surface area derivative 8\u03c0r gives 16\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0011",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "Air is pumped into a spherical balloon at 100 cm\u00b3/s. When the radius is 5 cm, the radius is increasing at:",
+   "imageRef": null,
+   "options": [
+    "1/(4\u03c0) cm/s",
+    "\u03c0 cm/s",
+    "1/\u03c0 cm/s",
+    "4/\u03c0 cm/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "dV/dt = 4\u03c0r\u00b2 (dr/dt), so 100 = 4\u03c0(25)(dr/dt) = 100\u03c0 (dr/dt), giving dr/dt = 1/\u03c0 cm/s. Inverting the wrong way gives \u03c0 cm/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0012",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The radius of a melting snowball decreases at 0.2 cm/min. When the radius is 5 cm, its surface area is changing at:",
+   "imageRef": null,
+   "options": [
+    "8\u03c0 cm\u00b2/min",
+    "\u22128\u03c0 cm\u00b2/min",
+    "\u221220\u03c0 cm\u00b2/min",
+    "\u22124\u03c0 cm\u00b2/min"
+   ],
+   "correctIndex": 1,
+   "explanation": "S = 4\u03c0r\u00b2, so dS/dt = 8\u03c0r (dr/dt) = 8\u03c0(5)(\u22120.2) = \u22128\u03c0 cm\u00b2/min. The negative sign shows the surface area is decreasing, since dr/dt is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0013",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A cone has a fixed height of 9 cm, and its radius increases at 1 cm/s. When the radius is 2 cm, its volume is increasing at:",
+   "imageRef": null,
+   "options": [
+    "12\u03c0 cm\u00b3/s",
+    "6\u03c0 cm\u00b3/s",
+    "36\u03c0 cm\u00b3/s",
+    "4\u03c0 cm\u00b3/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = (1/3)\u03c0r\u00b2(9) = 3\u03c0r\u00b2, so dV/dt = 6\u03c0r (dr/dt) = 6\u03c0(2)(1) = 12\u03c0 cm\u00b3/s. Forgetting to multiply by r = 2 gives 6\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0014",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A square-based pyramid has its height equal to its base side length x. Its volume increases at 12 cm\u00b3/s. When x = 2 cm, x is increasing at:",
+   "imageRef": null,
+   "options": [
+    "6 cm/s",
+    "3 cm/s",
+    "1 cm/s",
+    "9 cm/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = (1/3)x\u00b2(x) = x\u00b3/3, so dV/dt = x\u00b2 (dx/dt). Then 12 = 4 (dx/dt), giving dx/dt = 3 cm/s. Using V = x\u00b3 without the 1/3 gives 1 cm/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0015",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "Water flows at 2 m\u00b3/min into an inverted cone whose radius always equals the water depth h. When h = 4 m, the depth is rising at:",
+   "imageRef": null,
+   "options": [
+    "1/(32\u03c0) m/min",
+    "3/(8\u03c0) m/min",
+    "1/(8\u03c0) m/min",
+    "1/(16\u03c0) m/min"
+   ],
+   "correctIndex": 2,
+   "explanation": "With r = h, V = (1/3)\u03c0h\u00b3, so dV/dt = \u03c0h\u00b2 (dh/dt). Then 2 = 16\u03c0 (dh/dt), giving dh/dt = 1/(8\u03c0) m/min. Differentiating \u03c0h\u00b3/3 as \u03c0h\u00b2/3, without bringing down the power 3, gives 3/(8\u03c0).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0016",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A sphere's volume V and surface area S both depend on its radius r. If S = 100 cm\u00b2 and the radius increases at 0.3 cm/s, then dV/dt is:",
+   "imageRef": null,
+   "options": [
+    "10 cm\u00b3/s",
+    "120 cm\u00b3/s",
+    "333 cm\u00b3/s",
+    "30 cm\u00b3/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "dV/dt = 4\u03c0r\u00b2 (dr/dt), and 4\u03c0r\u00b2 is exactly the surface area S. So dV/dt = S (dr/dt) = 100 \u00d7 0.3 = 30 cm\u00b3/s, with no need to find r.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0017",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The general solution of dy/dx = 6x\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "y = 2x\u00b3",
+    "y = 2x\u00b3 + c",
+    "y = 12x + c",
+    "y = 6x\u00b3 + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "Integrate directly: y = \u222b 6x\u00b2 dx = 2x\u00b3 + c. Differentiating gives 12x instead, and leaving out c gives only one particular solution, not the general one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0018",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "Which of these differential equations is of the form dy/dx = g(y)?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = 3x + 1",
+    "dy/dx = x\u00b2y",
+    "dy/dx = x + y",
+    "dy/dx = 3y + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The right side of dy/dx = 3y + 1 depends only on y. dy/dx = 3x + 1 depends only on x, and dy/dx = x\u00b2y is of the form f(x)g(y). dy/dx = x + y is not separable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0019",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = cos(2x) with y(0) = 1 is:",
+   "imageRef": null,
+   "options": [
+    "y = sin(2x)/2",
+    "y = \u2212sin(2x)/2 + 1",
+    "y = sin(2x)/2 + 1",
+    "y = 2 sin(2x) + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrating gives y = sin(2x)/2 + c, and y(0) = 0 + c = 1 gives c = 1. Multiplying by 2 instead of dividing gives 2 sin(2x) + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0020",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = 2y with y(0) = 3 is:",
+   "imageRef": null,
+   "options": [
+    "y = 3e^(x/2)",
+    "y = 3e^(2x)",
+    "y = 2e^(3x)",
+    "y = e^(2x) + 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating: \u222b (1/y) dy = \u222b 2 dx, so ln|y| = 2x + c and y = Ae^(2x). Then y(0) = A = 3. Adding the constant after exponentiating, as in e^(2x) + 2, does not satisfy dy/dx = 2y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0021",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = y \u2212 4 with y(0) = 6 is:",
+   "imageRef": null,
+   "options": [
+    "y = 4 + 2e^x",
+    "y = 6e^x \u2212 4",
+    "y = 4 + 6e^x",
+    "y = 2e^x \u2212 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating: \u222b 1/(y \u2212 4) dy = \u222b dx gives ln|y \u2212 4| = x + c, so y = 4 + Ae^x. Then 6 = 4 + A, so A = 2. Using the initial value 6 as A ignores the shift by 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0022",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = 1/y with y(0) = 2, y > 0, is:",
+   "imageRef": null,
+   "options": [
+    "y = \u221a(2x + 4)",
+    "y = \u221a(x + 4)",
+    "y = ln|x| + 2",
+    "y = \u221a(2x) + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating: \u222b y dy = \u222b dx gives y\u00b2/2 = x + c. With y(0) = 2, c = 2, so y\u00b2 = 2x + 4 and y = \u221a(2x + 4). Forgetting to double c and x gives \u221a(x + 4).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0023",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = x/y with y(0) = 3, y > 0, is:",
+   "imageRef": null,
+   "options": [
+    "y = x + 3",
+    "y = \u221a(x\u00b2/2 + 9)",
+    "y = \u221a(x\u00b2 + 9)",
+    "y = \u221a(x\u00b2 + 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating: \u222b y dy = \u222b x dx gives y\u00b2/2 = x\u00b2/2 + c, so y\u00b2 = x\u00b2 + 2c. With y(0) = 3, 2c = 9, giving y = \u221a(x\u00b2 + 9). Using the initial value 3 without squaring gives \u221a(x\u00b2 + 3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0024",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = xy\u00b2 with y(0) = 1 is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(x\u00b2/2)",
+    "y = 1/(1 \u2212 x\u00b2)",
+    "y = 2/(2 \u2212 x\u00b2)",
+    "y = 2/(2 + x\u00b2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating: \u222b y\u207b\u00b2 dy = \u222b x dx gives \u22121/y = x\u00b2/2 + c. With y(0) = 1, c = \u22121, so 1/y = 1 \u2212 x\u00b2/2 and y = 2/(2 \u2212 x\u00b2). Losing the minus sign from integrating y\u207b\u00b2 gives 2/(2 + x\u00b2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0025",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = e^(x \u2212 y) with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = ln(e\u02e3 + 1)",
+    "y = e\u02e3 \u2212 1",
+    "y = \u2212x",
+    "y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write e^(x \u2212 y) = e\u02e3e\u207b\u02b8 and separate: \u222b e\u02b8 dy = \u222b e\u02e3 dx, so e\u02b8 = e\u02e3 + c. With y(0) = 0, 1 = 1 + c gives c = 0, so e\u02b8 = e\u02e3 and y = x. The solution ln(e\u02e3 + 1) would have y(0) = ln 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0026",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "The solution of dy/dx = 2x(1 + y\u00b2) with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = tan(2x)",
+    "y = tan\u207b\u00b9(x\u00b2)",
+    "y = x\u00b2 + x\u2074",
+    "y = tan(x\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating: \u222b 1/(1 + y\u00b2) dy = \u222b 2x dx gives tan\u207b\u00b9(y) = x\u00b2 + c, with c = 0 from y(0) = 0. So y = tan(x\u00b2). The expression tan\u207b\u00b9(x\u00b2) inverts the wrong side.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0027",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "In the slope field for dy/dx = y, the line segments are horizontal:",
+   "imageRef": null,
+   "options": [
+    "at every point",
+    "along the x-axis",
+    "along the y-axis",
+    "along the line y = x"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient is 0 wherever y = 0, which is the x-axis. On the y-axis, x = 0 but y can be anything, so the gradients there are not all 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0028",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "In the slope field for dy/dx = x\u00b2 \u2212 y, the gradient of the segment at (2, \u22121) is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "5",
+    "3",
+    "\u22125"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substitute x = 2 and y = \u22121: 2\u00b2 \u2212 (\u22121) = 4 + 1 = 5. Treating \u2212 y as \u2212 1 gives 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0029",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "In a slope field, the segments along every vertical line are parallel to each other. The differential equation could be:",
+   "imageRef": null,
+   "options": [
+    "dy/dx = y\u00b2 \u2212 1",
+    "dy/dx = x + y",
+    "dy/dx = xy",
+    "dy/dx = x\u00b2 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Segments on a vertical line share the same x, so if they are all parallel the gradient depends on x alone, as in dy/dx = x\u00b2 \u2212 1. For dy/dx = y\u00b2 \u2212 1, segments along each horizontal line are parallel instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0030",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "In the slope field for dy/dx = y(2 \u2212 y), which horizontal lines are themselves solution curves?",
+   "imageRef": null,
+   "options": [
+    "y = 2 only",
+    "y = 1 only",
+    "x = 0 and x = 2",
+    "y = 0 and y = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Where y = 0 or y = 2, dy/dx = 0 for every x, so the constant functions y = 0 and y = 2 are solutions. At y = 1 the gradient is 1, the steepest value, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0031",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A population is modelled by dN/dt = 0.4N(1 \u2212 N/600). The greatest rate of growth is:",
+   "imageRef": null,
+   "options": [
+    "120 per unit time",
+    "60 per unit time",
+    "240 per unit time",
+    "300 per unit time"
+   ],
+   "correctIndex": 1,
+   "explanation": "A logistic population grows fastest when N = K/2 = 300. Then dN/dt = 0.4 \u00d7 300 \u00d7 (1 \u2212 1/2) = 60. The value 300 is the population at which this happens, not the rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0032",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A population is modelled by N = 600/(1 + 5e^(\u22120.4t)). The initial population is:",
+   "imageRef": null,
+   "options": [
+    "120",
+    "500",
+    "100",
+    "600"
+   ],
+   "correctIndex": 2,
+   "explanation": "At t = 0, e\u2070 = 1, so N = 600/(1 + 5) = 100. The value 600 is the carrying capacity, which N approaches as t increases, and 120 comes from 600/5, leaving out the 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0033",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A population is modelled by N = 600/(1 + 5e^(\u22120.4t)), with t in years. It reaches 300 after about:",
+   "imageRef": null,
+   "options": [
+    "2.01 years",
+    "12.5 years",
+    "4.02 years",
+    "1.73 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set 600/(1 + 5e^(\u22120.4t)) = 300, so 1 + 5e^(\u22120.4t) = 2 and e^(\u22120.4t) = 1/5. Then t = ln 5/0.4 \u2248 4.02 years. Using ln 2 in place of ln 5 gives about 1.73 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0034",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A drink at 80 \u00b0C cools in a 20 \u00b0C room according to dT/dt = \u2212k(T \u2212 20). Its temperature is:",
+   "imageRef": null,
+   "options": [
+    "T = 20 + 80e^(\u2212kt)",
+    "T = 20 + 60e^(\u2212kt)",
+    "T = 80e^(\u2212kt)",
+    "T = 80 \u2212 20e^(\u2212kt)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating gives ln|T \u2212 20| = \u2212kt + c, so T \u2212 20 = Ae^(\u2212kt). At t = 0, T \u2212 20 = 60, so A = 60. T = 80e^(\u2212kt) would cool towards 0 \u00b0C, not the room temperature.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0035",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "An object cools according to Newton's law of cooling, dT/dt = \u2212k(T \u2212 18), with k > 0. As t increases, T approaches:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "k",
+    "\u221218",
+    "18"
+   ],
+   "correctIndex": 3,
+   "explanation": "The solution is T = 18 + Ae^(\u2212kt), and e^(\u2212kt) \u2192 0, so T \u2192 18, the temperature of the surroundings. The object does not cool to 0 unless the surroundings are at 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0036",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A drink at 80 \u00b0C cools in a 20 \u00b0C room according to dT/dt = \u2212k(T \u2212 20). After 5 minutes it is at 50 \u00b0C. Its temperature after 10 minutes is:",
+   "imageRef": null,
+   "options": [
+    "31.25 \u00b0C",
+    "35 \u00b0C",
+    "20 \u00b0C",
+    "40 \u00b0C"
+   ],
+   "correctIndex": 1,
+   "explanation": "T = 20 + 60e^(\u2212kt). At t = 5, 30 = 60e^(\u22125k), so e^(\u22125k) = 1/2. At t = 10, T = 20 + 60(1/2)\u00b2 = 35 \u00b0C. Assuming the drink loses another 30 degrees, reaching 20 \u00b0C, treats the cooling as linear.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0037",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A radioactive substance decays according to dN/dt = \u2212kN and has a half-life of 8 days. The value of k, per day, is about:",
+   "imageRef": null,
+   "options": [
+    "5.55",
+    "0.0866",
+    "0.0625",
+    "0.125"
+   ],
+   "correctIndex": 1,
+   "explanation": "N = N\u2080e^(\u2212kt), and N = N\u2080/2 when t = 8, so e^(\u22128k) = 1/2 and k = ln 2/8 \u2248 0.0866. The value 0.125 is 1/8, which ignores the logarithm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-rates-diff-equations-0038",
+   "topicId": "spec-qce-rates-diff-equations",
+   "stem": "A radioactive substance has a half-life of 8 days. The fraction of the original amount remaining after 24 days is:",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/24",
+    "1/8",
+    "1/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "24 days is three half-lives, so the fraction is (1/2)\u00b3 = 1/8. Equivalently, e^(\u221224k) = (e^(\u22128k))\u00b3 = (1/2)\u00b3. Dividing by 3 treats the decay as linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-rates-diff-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

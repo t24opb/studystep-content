@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-sace-complex-numbers-intro",
+ "questions": [
+  {
+   "id": "spec-sace-complex-numbers-intro-0001",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The imaginary number i is defined as a solution of the equation:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + 1 = 0",
+    "x\u00b2 \u2212 1 = 0",
+    "x + 1 = 0",
+    "x\u00b2 = i"
+   ],
+   "correctIndex": 0,
+   "explanation": "i is introduced so that x\u00b2 + 1 = 0, which has no real solution, can be solved: i\u00b2 = \u22121. The equation x\u00b2 \u2212 1 = 0 already has the real solutions \u00b11.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0002",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "Complex numbers were introduced for a similar reason to negative numbers and irrational numbers. That reason was:",
+   "imageRef": null,
+   "options": [
+    "to make calculations with large real numbers quicker and more accurate",
+    "to replace real numbers, which are now known to contain contradictions",
+    "to measure quantities that real numbers cannot measure, such as angles",
+    "to give solutions to equations that had none in the existing number system"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each extension lets more equations be solved: x + 5 = 2 needs negatives, x\u00b2 = 2 needs irrationals, and x\u00b2 + 1 = 0 needs i. Real numbers remain part of the complex numbers; nothing is replaced.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0003",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The value of i\u00b3 is:",
+   "imageRef": null,
+   "options": [
+    "\u2212i",
+    "i",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "i\u00b3 = i\u00b2 \u00d7 i = \u22121 \u00d7 i = \u2212i. Treating i\u00b3 like i\u00b2 gives \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0004",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The value of i\u00b9\u2070 is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "i",
+    "\u2212i",
+    "\u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "Powers of i repeat every 4: i\u2074 = 1, so i\u00b9\u2070 = i\u2078 \u00d7 i\u00b2 = 1 \u00d7 (\u22121) = \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0005",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "For z = 3 \u2212 4i, the real and imaginary parts are:",
+   "imageRef": null,
+   "options": [
+    "Re(z) = 3 and Im(z) = \u22124i",
+    "Re(z) = 3 and Im(z) = 4",
+    "Re(z) = \u22124 and Im(z) = 3",
+    "Re(z) = 3 and Im(z) = \u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "For z = a + bi, Re(z) = a and Im(z) = b, both real numbers. The imaginary part is \u22124, not \u22124i: the i is not included.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0006",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The complex conjugate of \u22122 + 5i is:",
+   "imageRef": null,
+   "options": [
+    "5 \u2212 2i",
+    "\u22122 \u2212 5i",
+    "2 \u2212 5i",
+    "2 + 5i"
+   ],
+   "correctIndex": 1,
+   "explanation": "The conjugate of a + bi is a \u2212 bi: the real part stays and the imaginary part changes sign. Changing both signs gives 2 \u2212 5i, which is \u2212z.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0007",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(3 + 2i) + (1 \u2212 5i) equals:",
+   "imageRef": null,
+   "options": [
+    "2 + 7i",
+    "3 \u2212 10i",
+    "4 \u2212 3i",
+    "4 + 7i"
+   ],
+   "correctIndex": 2,
+   "explanation": "Add real parts and imaginary parts separately: (3 + 1) + (2 \u2212 5)i = 4 \u2212 3i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0008",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(2 \u2212 3i) \u2212 (\u22121 + 4i) equals:",
+   "imageRef": null,
+   "options": [
+    "3 \u2212 7i",
+    "1 + i",
+    "3 + i",
+    "1 \u2212 7i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Subtract each part: (2 \u2212 (\u22121)) + (\u22123 \u2212 4)i = 3 \u2212 7i. Forgetting to subtract the negative real part gives 1 \u2212 7i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0009",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(2 + 3i)(4 \u2212 i) equals:",
+   "imageRef": null,
+   "options": [
+    "5 + 10i",
+    "8 \u2212 3i",
+    "11 + 14i",
+    "11 + 10i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expand: 8 \u2212 2i + 12i \u2212 3i\u00b2 = 8 + 10i + 3 = 11 + 10i, using i\u00b2 = \u22121. Treating i\u00b2 as +1 gives 5 + 10i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0010",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(3 \u2212 2i)\u00b2 equals:",
+   "imageRef": null,
+   "options": [
+    "5 \u2212 12i",
+    "13 \u2212 12i",
+    "9 \u2212 4i",
+    "5 \u2212 6i"
+   ],
+   "correctIndex": 0,
+   "explanation": "(3 \u2212 2i)\u00b2 = 9 \u2212 12i + 4i\u00b2 = 9 \u2212 12i \u2212 4 = 5 \u2212 12i. Squaring each part separately gives 9 \u2212 4i, which forgets the middle term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0011",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(5 + 2i)(5 \u2212 2i) equals:",
+   "imageRef": null,
+   "options": [
+    "21",
+    "25 \u2212 4i",
+    "29 \u2212 20i",
+    "29"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is a number times its conjugate: 25 \u2212 4i\u00b2 = 25 + 4 = 29, a real number. Taking i\u00b2 = 1 gives 21.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0012",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "For z = a + bi with a and b real, the product of z and its conjugate z\u0304 is:",
+   "imageRef": null,
+   "options": [
+    "a\u00b2 + b\u00b2 + 2abi",
+    "2a",
+    "a\u00b2 + b\u00b2",
+    "a\u00b2 \u2212 b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "(a + bi)(a \u2212 bi) = a\u00b2 \u2212 b\u00b2i\u00b2 = a\u00b2 + b\u00b2, which is always real and non-negative. The sum z + z\u0304 is 2a.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0013",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "To calculate (3 + i)/(2 \u2212 i), the numerator and denominator are both multiplied by:",
+   "imageRef": null,
+   "options": [
+    "3 \u2212 i",
+    "i",
+    "2 + i",
+    "2 \u2212 i"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying by the conjugate of the denominator makes the denominator real: (2 \u2212 i)(2 + i) = 5. Multiplying by 3 \u2212 i would leave a non-real denominator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0014",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "Given that (2 \u2212 i)(1 + i) = 3 + i, the value of (3 + i)/(2 \u2212 i) is:",
+   "imageRef": null,
+   "options": [
+    "3 + i",
+    "1 + i",
+    "2 \u2212 i",
+    "1 \u2212 i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Division undoes multiplication, so (3 + i)/(2 \u2212 i) = 1 + i. Calculating confirms it: (3 + i)(2 + i)/5 = (5 + 5i)/5 = 1 + i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0015",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The value of 1/i is:",
+   "imageRef": null,
+   "options": [
+    "\u2212i",
+    "i",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply top and bottom by \u2212i: 1/i = \u2212i/(\u2212i\u00b2) = \u2212i/1 = \u2212i. Check: i \u00d7 (\u2212i) = \u2212i\u00b2 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0016",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "(4 \u2212 3i)/(1 + 2i) equals:",
+   "imageRef": null,
+   "options": [
+    "2/5 \u2212 (11/5)i",
+    "\u22122 \u2212 11i",
+    "4 \u2212 (3/2)i",
+    "\u22122/5 \u2212 (11/5)i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by (1 \u2212 2i)/(1 \u2212 2i): the numerator is 4 \u2212 8i \u2212 3i + 6i\u00b2 = \u22122 \u2212 11i and the denominator is 1 + 4 = 5. Forgetting to divide by 5 gives \u22122 \u2212 11i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0017",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "If (a + bi)(1 + i) = 5 + i, where a and b are real, then a + bi equals:",
+   "imageRef": null,
+   "options": [
+    "3 + 2i",
+    "5 \u2212 i",
+    "2 \u2212 3i",
+    "3 \u2212 2i"
+   ],
+   "correctIndex": 3,
+   "explanation": "a + bi = (5 + i)/(1 + i) = (5 + i)(1 \u2212 i)/2 = (6 \u2212 4i)/2 = 3 \u2212 2i. Check: (3 \u2212 2i)(1 + i) = 3 + 3i \u2212 2i + 2 = 5 + i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0018",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "If (x + 2) + (y \u2212 1)i = 5 + 3i, where x and y are real, then:",
+   "imageRef": null,
+   "options": [
+    "x = 5 and y = 3",
+    "x = 3 and y = 4",
+    "x = 3 and y = 2",
+    "x = 7 and y = 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Two complex numbers are equal only when their real parts are equal and their imaginary parts are equal: x + 2 = 5 and y \u2212 1 = 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0019",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "For which real k is (2 + ki)(3 \u2212 i) a real number?",
+   "imageRef": null,
+   "options": [
+    "k = \u22126",
+    "k = 2/3",
+    "k = \u22122/3",
+    "k = 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "(2 + ki)(3 \u2212 i) = 6 \u2212 2i + 3ki + k = (6 + k) + (3k \u2212 2)i. It is real when 3k \u2212 2 = 0, so k = 2/3. Setting the real part to zero gives \u22126, which makes the product purely imaginary.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0020",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "If z = 1 \u2212 i, then z\u00b2 + 2z equals:",
+   "imageRef": null,
+   "options": [
+    "2 \u2212 4i",
+    "2",
+    "\u22122i",
+    "4 \u2212 4i"
+   ],
+   "correctIndex": 0,
+   "explanation": "z\u00b2 = 1 \u2212 2i + i\u00b2 = \u22122i and 2z = 2 \u2212 2i, so the sum is 2 \u2212 4i. Taking z\u00b2 as 2 \u2212 2i (with i\u00b2 = +1) gives 4 \u2212 4i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0021",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "On an Argand diagram, the complex number 3 \u2212 2i is represented by the point:",
+   "imageRef": null,
+   "options": [
+    "(3, 2)",
+    "(3, \u22122i)",
+    "(3, \u22122)",
+    "(\u22122, 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "a + bi corresponds to the point (a, b), with the real part on the horizontal axis and the imaginary part on the vertical axis. The coordinates are real numbers, so there is no i in them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0022",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "On an Argand diagram, the conjugate z\u0304 is obtained from z by:",
+   "imageRef": null,
+   "options": [
+    "reflecting z in the real axis",
+    "reflecting z in the imaginary axis",
+    "rotating z through 180\u00b0 about the origin",
+    "reflecting z in the line y = x"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = a + bi is at (a, b) and z\u0304 = a \u2212 bi is at (a, \u2212b), its mirror image in the real axis. Rotating through 180\u00b0 gives \u2212z.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0023",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "On an Argand diagram, z = \u22123 + 2i lies in:",
+   "imageRef": null,
+   "options": [
+    "the first quadrant",
+    "the third quadrant",
+    "the fourth quadrant",
+    "the second quadrant"
+   ],
+   "correctIndex": 3,
+   "explanation": "The point is (\u22123, 2): negative real part and positive imaginary part, so it is in the second quadrant. Its conjugate \u22123 \u2212 2i is in the third.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0024",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "For z = a + bi, the numbers z + z\u0304 and z \u2212 z\u0304 are:",
+   "imageRef": null,
+   "options": [
+    "2a + 2bi and 0",
+    "a\u00b2 + b\u00b2 and a\u00b2 \u2212 b\u00b2",
+    "2a, which is real, and 2bi, which is purely imaginary",
+    "2bi, which is purely imaginary, and 2a, which is real"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding a + bi and a \u2212 bi cancels the imaginary parts, leaving 2a; subtracting cancels the real parts, leaving 2bi. a\u00b2 + b\u00b2 is the product z z\u0304.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0025",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The modulus of z = \u22125 + 12i is:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "17",
+    "\u221a119",
+    "13"
+   ],
+   "correctIndex": 3,
+   "explanation": "|z| = \u221a((\u22125)\u00b2 + 12\u00b2) = \u221a169 = 13, the length of the vector from the origin to (\u22125, 12). Using 12\u00b2 \u2212 5\u00b2 gives \u221a119.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0026",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The modulus of 2 \u2212 2i is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "4",
+    "8",
+    "2\u221a2"
+   ],
+   "correctIndex": 3,
+   "explanation": "|2 \u2212 2i| = \u221a(2\u00b2 + (\u22122)\u00b2) = \u221a8 = 2\u221a2. Both parts are squared, so the negative sign does not reduce the length. The value 8 is |z|\u00b2, not |z|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0027",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "On an Argand diagram, 0, z\u2081 = 1 + 3i and z\u2082 = 4 \u2212 i are three vertices of a parallelogram. The fourth vertex, opposite 0, represents:",
+   "imageRef": null,
+   "options": [
+    "\u22123 + 4i",
+    "5 + 4i",
+    "5 + 2i",
+    "3 \u2212 4i"
+   ],
+   "correctIndex": 2,
+   "explanation": "Complex addition is vector addition by the parallelogram rule, so the fourth vertex is z\u2081 + z\u2082 = 5 + 2i. The value 3 \u2212 4i is z\u2082 \u2212 z\u2081, a diagonal of the parallelogram.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0028",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "If z = 2 + i, the point on an Argand diagram representing z\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "(3, 4)",
+    "(4, 1)",
+    "(5, 4)",
+    "(4, 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "z\u00b2 = 4 + 4i + i\u00b2 = 3 + 4i, which is the point (3, 4). Squaring each part separately gives (4, 1), and taking i\u00b2 = +1 gives (5, 4).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0029",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The solutions of x\u00b2 + 9 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 3i and x = \u22123i",
+    "x = 3 and x = \u22123",
+    "x = 9i and x = \u22129i",
+    "x = 3i only"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b2 = \u22129 = 9i\u00b2, so x = \u00b13i. Check: (3i)\u00b2 = 9i\u00b2 = \u22129. A quadratic has two solutions, so \u22123i is needed as well.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0030",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "x\u00b2 + 16 factorises over the complex numbers as:",
+   "imageRef": null,
+   "options": [
+    "(x + 4i)\u00b2",
+    "(x + 16i)(x \u2212 i)",
+    "(x + 4i)(x \u2212 4i)",
+    "(x + 4)(x \u2212 4)"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b2 + 16 = x\u00b2 \u2212 (4i)\u00b2, a difference of two squares, so it equals (x + 4i)(x \u2212 4i). (x + 4)(x \u2212 4) = x\u00b2 \u2212 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0031",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The solutions of x\u00b2 \u2212 4x + 13 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 + 3i and x = \u22122 \u2212 3i",
+    "x = 2 + 6i and x = 2 \u2212 6i",
+    "x = 4 + 3i and x = 4 \u2212 3i",
+    "x = 2 + 3i and x = 2 \u2212 3i"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = (4 \u00b1 \u221a(16 \u2212 52))/2 = (4 \u00b1 \u221a(\u221236))/2 = (4 \u00b1 6i)/2 = 2 \u00b1 3i. Forgetting to halve the 6i gives 2 \u00b1 6i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0032",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The solutions of x\u00b2 + 2x + 5 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 + i and x = \u22122 \u2212 i",
+    "x = \u22121 + 2i and x = \u22121 \u2212 2i",
+    "x = 1 + 2i and x = 1 \u2212 2i",
+    "x = \u22121 + 4i and x = \u22121 \u2212 4i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Completing the square: (x + 1)\u00b2 + 4 = 0, so x + 1 = \u00b12i and x = \u22121 \u00b1 2i. A sign slip in the \u2212b term gives 1 \u00b1 2i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0033",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The solutions of 2x\u00b2 \u2212 2x + 1 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 1/2 + i/2 and x = 1/2 \u2212 i/2",
+    "x = 1 + i and x = 1 \u2212 i",
+    "x = 1/2 + i and x = 1/2 \u2212 i",
+    "x = \u22121/2 + i/2 and x = \u22121/2 \u2212 i/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = (2 \u00b1 \u221a(4 \u2212 8))/4 = (2 \u00b1 2i)/4 = 1/2 \u00b1 i/2. Dividing by 2 instead of 2a = 4 gives 1 \u00b1 i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0034",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "The equation x\u00b2 + 3x + 4 = 0 has:",
+   "imageRef": null,
+   "options": [
+    "one repeated real solution",
+    "one real solution and one non-real solution",
+    "two non-real solutions that are conjugates of each other",
+    "two different real solutions"
+   ],
+   "correctIndex": 2,
+   "explanation": "The discriminant is 9 \u2212 16 = \u22127 < 0, so the solutions are (\u22123 \u00b1 i\u221a7)/2, a conjugate pair. A real quadratic cannot have exactly one non-real root, because non-real roots come in conjugate pairs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0035",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "A quadratic equation with real coefficients has one solution x = 4 \u2212 i. Its other solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 4 \u2212 i, a repeated root",
+    "x = 4 + i",
+    "x = \u22124 + i",
+    "x = \u22124 \u2212 i"
+   ],
+   "correctIndex": 1,
+   "explanation": "When a real quadratic has non-real solutions, they are conjugates, so the other is 4 + i. A repeated root happens only when the discriminant is 0, and then the root is real.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0036",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "A quadratic with real coefficients and leading coefficient 1 has a root 1 + 2i. The quadratic is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 2x + 5",
+    "x\u00b2 + 2x + 5",
+    "x\u00b2 \u2212 2x \u2212 3",
+    "x\u00b2 \u2212 2x + 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The roots are 1 \u00b1 2i, with sum 2 and product 1 + 4 = 5, so the quadratic is x\u00b2 \u2212 2x + 5. Taking the product as 1 \u2212 4 = \u22123 forgets that i\u00b2 = \u22121.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-complex-numbers-intro-0037",
+   "topicId": "spec-sace-complex-numbers-intro",
+   "stem": "Over the complex numbers, x\u00b2 \u2212 6x + 10 factorises as:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3 \u2212 i)(x \u2212 3 + i)",
+    "(x + 3 \u2212 i)(x + 3 + i)",
+    "(x \u2212 3 \u2212 2i)(x \u2212 3 + 2i)",
+    "(x \u2212 5)(x \u2212 2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b2 \u2212 6x + 10 = (x \u2212 3)\u00b2 + 1 = (x \u2212 3)\u00b2 \u2212 i\u00b2, a difference of squares giving (x \u2212 3 \u2212 i)(x \u2212 3 + i). The roots 3 \u00b1 i add to 6 and multiply to 10.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-complex-numbers-intro-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-tce-factor-derivatives",
+ "questions": [
+  {
+   "id": "meth-tce-factor-derivatives-0001",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The factor theorem states that, for a polynomial P(x), if P(a) = 0 then:",
+   "imageRef": null,
+   "options": [
+    "P(x) has a turning point at x = a",
+    "(x \u2212 a) is a factor of P(x)",
+    "(x + a) is a factor of P(x)",
+    "a is the constant term of P(x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(a) = 0 means x = a is a zero of P, so (x \u2212 a) divides P(x) exactly. The factor (x + a) corresponds to P(\u2212a) = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0002",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Which of these is a factor of P(x) = x\u00b3 \u2212 2x\u00b2 \u2212 5x + 6?",
+   "imageRef": null,
+   "options": [
+    "x \u2212 2",
+    "x + 3",
+    "x \u2212 1",
+    "x + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(1) = 1 \u2212 2 \u2212 5 + 6 = 0, so (x \u2212 1) is a factor. P(\u22121) = 8, P(2) = \u22124 and P(\u22123) = \u221224, so none of the others are factors.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0003",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Fully factorised, x\u00b3 \u2212 2x\u00b2 \u2212 5x + 6 is:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)(x \u2212 2)(x + 3)",
+    "(x \u2212 1)(x + 2)(x + 3)",
+    "(x \u2212 1)(x + 2)(x \u2212 3)",
+    "(x + 1)(x \u2212 2)(x + 3)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since P(1) = 0, divide by (x \u2212 1) to get x\u00b2 \u2212 x \u2212 6 = (x + 2)(x \u2212 3). Expanding (x + 1)(x \u2212 2)(x + 3) gives a constant term of \u22126, not +6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0004",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Given that (x \u2212 2) is a factor of x\u00b3 + kx\u00b2 \u2212 4x + 12, the value of k is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "\u22125",
+    "1",
+    "\u22123"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the factor theorem P(2) = 8 + 4k \u2212 8 + 12 = 0, so 4k = \u221212 and k = \u22123. Then the cubic is x\u00b3 \u2212 3x\u00b2 \u2212 4x + 12 = (x \u2212 2)(x + 2)(x \u2212 3).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0005",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The solutions of x\u00b3 + 2x\u00b2 \u2212 5x \u2212 6 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 1, \u22122 and 3",
+    "x = \u22121, \u22122 and 3",
+    "x = 1, 2 and \u22123",
+    "x = \u22121, 2 and \u22123"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(\u22121) = \u22121 + 2 + 5 \u2212 6 = 0, so (x + 1) is a factor, and dividing leaves x\u00b2 + x \u2212 6 = (x \u2212 2)(x + 3). The roots are \u22121, 2 and \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0006",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The sum of two cubes, a\u00b3 + b\u00b3, factorises as:",
+   "imageRef": null,
+   "options": [
+    "(a + b)(a\u00b2 + ab + b\u00b2)",
+    "(a + b)(a\u00b2 + b\u00b2)",
+    "(a + b)\u00b3",
+    "(a + b)(a\u00b2 \u2212 ab + b\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "a\u00b3 + b\u00b3 = (a + b)(a\u00b2 \u2212 ab + b\u00b2), with a minus sign in the middle of the quadratic factor. The difference of cubes is a\u00b3 \u2212 b\u00b3 = (a \u2212 b)(a\u00b2 + ab + b\u00b2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0007",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Factorised, x\u00b3 \u2212 27 is:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3)(x\u00b2 + 9)",
+    "(x \u2212 3)(x + 3)\u00b2",
+    "(x \u2212 3)(x\u00b2 + 3x + 9)",
+    "(x \u2212 3)(x\u00b2 \u2212 3x + 9)"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b3 \u2212 27 = x\u00b3 \u2212 3\u00b3 = (x \u2212 3)(x\u00b2 + 3x + 9), using a\u00b3 \u2212 b\u00b3 = (a \u2212 b)(a\u00b2 + ab + b\u00b2). The middle sign of the quadratic is opposite to the sign in the linear factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0008",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Factorised, 8x\u00b3 + 125 is:",
+   "imageRef": null,
+   "options": [
+    "(2x + 5)(2x\u00b2 \u2212 5x + 25)",
+    "(8x + 5)(x\u00b2 \u2212 5x + 25)",
+    "(2x + 5)(4x\u00b2 \u2212 10x + 25)",
+    "(2x + 5)(4x\u00b2 + 10x + 25)"
+   ],
+   "correctIndex": 2,
+   "explanation": "8x\u00b3 + 125 = (2x)\u00b3 + 5\u00b3 = (2x + 5)((2x)\u00b2 \u2212 (2x)(5) + 5\u00b2) = (2x + 5)(4x\u00b2 \u2212 10x + 25).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0009",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The real solutions of x\u00b3 + 64 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 4 only",
+    "x = \u22124 only",
+    "x = 4 and x = \u22124",
+    "x = \u22124 and x = 16"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b3 + 64 = (x + 4)(x\u00b2 \u2212 4x + 16). The quadratic factor has discriminant 16 \u2212 64 < 0, so it has no real roots and x = \u22124 is the only real solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0010",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Using Pascal's triangle, (2x + 3y)\u00b3 expands to:",
+   "imageRef": null,
+   "options": [
+    "8x\u00b3 + 12x\u00b2y + 18xy\u00b2 + 27y\u00b3",
+    "2x\u00b3 + 18x\u00b2y + 27xy\u00b2 + 3y\u00b3",
+    "8x\u00b3 + 27y\u00b3",
+    "8x\u00b3 + 36x\u00b2y + 54xy\u00b2 + 27y\u00b3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row 3 gives coefficients 1, 3, 3, 1: (2x)\u00b3 + 3(2x)\u00b2(3y) + 3(2x)(3y)\u00b2 + (3y)\u00b3 = 8x\u00b3 + 36x\u00b2y + 54xy\u00b2 + 27y\u00b3. The middle terms need the powers of 2 and 3 as well as the 3s from the triangle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0011",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "In the expansion of (x \u2212 2y)\u2075, the coefficient of x\u00b2y\u00b3 is:",
+   "imageRef": null,
+   "options": [
+    "\u221240",
+    "\u221210",
+    "\u221280",
+    "80"
+   ],
+   "correctIndex": 2,
+   "explanation": "The term is \u2075C\u2083 x\u00b2(\u22122y)\u00b3 = 10 \u00d7 (\u22128)x\u00b2y\u00b3 = \u221280x\u00b2y\u00b3. Forgetting the 2\u00b3 gives \u221210, and dropping the sign gives 80.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0012",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Using the index laws, (x\u00b3)\u2074 \u00f7 x\u2075 simplifies to:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2",
+    "x\u00b9\u00b2",
+    "x^(12/5)",
+    "x\u2077"
+   ],
+   "correctIndex": 3,
+   "explanation": "(x\u00b3)\u2074 = x\u00b9\u00b2, then x\u00b9\u00b2 \u00f7 x\u2075 = x\u2077. Adding the powers 3 and 4 instead of multiplying gives x\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0013",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The value of 27^(2/3) is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "9",
+    "18",
+    "81"
+   ],
+   "correctIndex": 1,
+   "explanation": "27^(2/3) = (\u221b27)\u00b2 = 3\u00b2 = 9. Multiplying 27 by 2/3 gives 18, which treats the index as a multiplier.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0014",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The value of 16^(\u22123/4) is:",
+   "imageRef": null,
+   "options": [
+    "\u221212",
+    "1/8",
+    "\u22128",
+    "8"
+   ],
+   "correctIndex": 1,
+   "explanation": "16^(3/4) = (\u2074\u221a16)\u00b3 = 2\u00b3 = 8, and the negative index takes the reciprocal, giving 1/8. A negative index never makes the value negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0015",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Written with a rational index, \u221b(x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "x^(2/3)",
+    "x^(3/2)",
+    "x^(\u22122/3)",
+    "x\u2076"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cube root is the power 1/3, so \u221b(x\u00b2) = (x\u00b2)^(1/3) = x^(2/3). The power x^(3/2) is the square root of x\u00b3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0016",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Simplified, (8x\u2076)^(1/3) is:",
+   "imageRef": null,
+   "options": [
+    "8x\u00b2",
+    "(8/3)x\u00b2",
+    "2x\u00b2",
+    "2x\u00b3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Raise each factor to the power 1/3: 8^(1/3) = 2 and (x\u2076)^(1/3) = x\u00b2. Forgetting to apply the power to the 8 gives 8x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0017",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Simplified with positive indices, (2a\u00b3b)\u00b2 \u00d7 3ab\u207b\u2074 is:",
+   "imageRef": null,
+   "options": [
+    "12a\u2076b\u2076",
+    "12a\u2077/b\u2078",
+    "12a\u2077/b\u00b2",
+    "6a\u2076/b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "(2a\u00b3b)\u00b2 = 4a\u2076b\u00b2, then 4a\u2076b\u00b2 \u00d7 3ab\u207b\u2074 = 12a\u2077b\u207b\u00b2 = 12a\u2077/b\u00b2. Squaring only the 2 and not the powers of a and b gives the wrong exponents.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0018",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "In scientific notation, (3 \u00d7 10\u2074) \u00d7 (5 \u00d7 10\u207b\u2077) is:",
+   "imageRef": null,
+   "options": [
+    "1.5 \u00d7 10\u00b9\u00b9",
+    "1.5 \u00d7 10\u207b\u00b2",
+    "1.5 \u00d7 10\u207b\u00b9",
+    "1.5 \u00d7 10\u207b\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "3 \u00d7 5 = 15 and 10\u2074 \u00d7 10\u207b\u2077 = 10\u207b\u00b3, so the product is 15 \u00d7 10\u207b\u00b3 = 1.5 \u00d7 10\u207b\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0019",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The solution of x^(3/2) = 27 is:",
+   "imageRef": null,
+   "options": [
+    "x = 81",
+    "x = 9",
+    "x = 18",
+    "x = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Raise both sides to the power 2/3: x = 27^(2/3) = 9. Check: 9^(3/2) = (\u221a9)\u00b3 = 27. Multiplying 27 by 2/3 gives 18.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0020",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The solution of 2^(x + 1) \u00d7 4^x = 32 is:",
+   "imageRef": null,
+   "options": [
+    "x = 5/3",
+    "x = 4/3",
+    "x = 2",
+    "x = 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write 4^x = 2^(2x), so 2^(x + 1 + 2x) = 2\u2075 and 3x + 1 = 5, giving x = 4/3. Treating 4^x as 2^x gives 2x + 1 = 5 and x = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0021",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "For y = f(x), the notations dy/dx and f\u2032(x) both mean:",
+   "imageRef": null,
+   "options": [
+    "the value of f(x) divided by x",
+    "the derivative, the gradient function of f",
+    "the average rate of change of f over [0, x]",
+    "the y-intercept of the graph of y = f(x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx and f\u2032(x) are two notations for the derivative, which gives the gradient of the tangent at each point. An average rate of change is the gradient of a chord.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0022",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The rule for differentiating y = kx\u207f, where k and n are constants, is:",
+   "imageRef": null,
+   "options": [
+    "dy/dx = nkx\u207f\u207b\u00b9",
+    "dy/dx = kx\u207f\u207b\u00b9",
+    "dy/dx = nkx\u207f\u207a\u00b9",
+    "dy/dx = kx\u207f\u207a\u00b9/(n + 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply by the power and reduce the power by one: d/dx(kx\u207f) = nkx\u207f\u207b\u00b9. The form kx\u207f\u207a\u00b9/(n + 1) is the anti-derivative, the reverse process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0023",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "If f(x) = 4x\u00b3 \u2212 5x\u00b2 + 7x \u2212 2, then f\u2032(x) is:",
+   "imageRef": null,
+   "options": [
+    "4x\u00b2 \u2212 5x + 7",
+    "12x\u00b3 \u2212 10x\u00b2 + 7x",
+    "12x\u00b2 \u2212 10x + 7",
+    "12x\u00b2 \u2212 10x + 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Differentiate term by term: 12x\u00b2 \u2212 10x + 7, and the constant \u22122 has derivative 0. Keeping the original powers gives 12x\u00b3 \u2212 10x\u00b2 + 7x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0024",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "If y = 6\u221ax, then dy/dx is:",
+   "imageRef": null,
+   "options": [
+    "3/\u221ax",
+    "3\u221ax",
+    "12/\u221ax",
+    "6/\u221ax"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = 6x^(1/2), so dy/dx = 6 \u00d7 (1/2)x^(\u22121/2) = 3x^(\u22121/2) = 3/\u221ax. Forgetting to lower the power gives 3\u221ax.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0025",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "If y = 2/x\u00b3, then dy/dx is:",
+   "imageRef": null,
+   "options": [
+    "\u22126/x\u00b2",
+    "2/(3x\u00b2)",
+    "\u22126/x\u2074",
+    "6/x\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = 2x\u207b\u00b3, so dy/dx = \u22123 \u00d7 2x\u207b\u2074 = \u22126x\u207b\u2074 = \u22126/x\u2074. Lowering the power from \u22123 gives \u22124, not \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0026",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "If y = (2x + 1)(x \u2212 3), then dy/dx is:",
+   "imageRef": null,
+   "options": [
+    "4x \u2212 5",
+    "2",
+    "4x \u2212 6",
+    "2x \u2212 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expand first: y = 2x\u00b2 \u2212 5x \u2212 3, so dy/dx = 4x \u2212 5. Multiplying the derivatives of the two factors, 2 \u00d7 1, gives 2, which is not a valid rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0027",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The gradient of the curve y = x\u00b3 \u2212 4x at the point where x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "4",
+    "8",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 4, which is 3 \u00d7 4 \u2212 4 = 8 at x = 2. The value 0 is the y-coordinate at x = 2, not the gradient.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0028",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The equation of the tangent to y = x\u00b2 \u2212 3x at the point where x = 4 is:",
+   "imageRef": null,
+   "options": [
+    "y = 5x + 4",
+    "y = 5x \u2212 20",
+    "y = 4x \u2212 12",
+    "y = 5x \u2212 16"
+   ],
+   "correctIndex": 3,
+   "explanation": "At x = 4, y = 4 and dy/dx = 2(4) \u2212 3 = 5. Then y \u2212 4 = 5(x \u2212 4), so y = 5x \u2212 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0029",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The equation of the normal to y = x\u00b3 at the point (1, 1) is:",
+   "imageRef": null,
+   "options": [
+    "y = x/3 + 2/3",
+    "y = \u2212x/3 + 4/3",
+    "y = 3x \u2212 2",
+    "y = \u22123x + 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The tangent gradient is 3(1)\u00b2 = 3, so the normal gradient is \u22121/3. Then y \u2212 1 = \u2212(1/3)(x \u2212 1), giving y = \u2212x/3 + 4/3. The line y = 3x \u2212 2 is the tangent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0030",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "At which point on y = x\u00b2 \u2212 6x + 10 is the tangent parallel to the line y = 2x + 1?",
+   "imageRef": null,
+   "options": [
+    "(4, 18)",
+    "(4, 2)",
+    "(3, 1)",
+    "(1, 5)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Parallel lines have equal gradients, so 2x \u2212 6 = 2 and x = 4. Then y = 16 \u2212 24 + 10 = 2. The point (3, 1) is the turning point, where the gradient is 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0031",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The stationary points of y = x\u00b3 \u2212 3x\u00b2 \u2212 9x + 5 occur at:",
+   "imageRef": null,
+   "options": [
+    "x = 0 and x = 3",
+    "x = \u22121 and x = 9",
+    "x = \u22121 and x = 3",
+    "x = 1 and x = \u22123"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 6x \u2212 9 = 3(x + 1)(x \u2212 3), which is 0 at x = \u22121 and x = 3. Swapping the signs of the roots gives 1 and \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0032",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "For y = x\u00b3 \u2212 3x\u00b2 \u2212 9x + 5, which statement about its stationary points is correct?",
+   "imageRef": null,
+   "options": [
+    "(\u22121, 0) is a local maximum and (3, 0) a local minimum",
+    "(\u22121, 10) is a local maximum and (3, \u221222) a local minimum",
+    "(\u22121, 10) is a local minimum and (3, \u221222) a local maximum",
+    "(\u22121, 10) and (3, \u221222) are both stationary inflections"
+   ],
+   "correctIndex": 1,
+   "explanation": "The gradient 3(x + 1)(x \u2212 3) changes from positive to negative at x = \u22121 (a maximum, y = 10) and from negative to positive at x = 3 (a minimum, y = \u221222). A positive cubic has its maximum on the left.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0033",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The stationary point of y = x\u00b3 + 2 at x = 0 is:",
+   "imageRef": null,
+   "options": [
+    "not a stationary point at all",
+    "a stationary point of inflection",
+    "a local maximum",
+    "a local minimum"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 3x\u00b2 is 0 at x = 0 but positive on both sides, so the curve keeps rising through (0, 2). That makes it a stationary point of inflection, not a turning point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0034",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "The value of the limit of (x\u00b2 \u2212 9)/(x \u2212 3) as x \u2192 3 is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "undefined",
+    "6",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "For x \u2260 3, (x\u00b2 \u2212 9)/(x \u2212 3) = x + 3, which approaches 6 as x \u2192 3. Substituting directly gives 0/0, which does not mean the limit is 0 or undefined.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0035",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "For f(x) = 3x\u00b2, the difference quotient (f(x + h) \u2212 f(x))/h simplifies to:",
+   "imageRef": null,
+   "options": [
+    "6x",
+    "6x + h",
+    "3x + 3h",
+    "6x + 3h"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(x + h) \u2212 f(x) = 3(x\u00b2 + 2xh + h\u00b2) \u2212 3x\u00b2 = 6xh + 3h\u00b2, and dividing by h gives 6x + 3h. Letting h \u2192 0 then gives f\u2032(x) = 6x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0036",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "Using first principles, the derivative of f(x) = x\u00b2 \u2212 5x is found from the limit as h \u2192 0 of:",
+   "imageRef": null,
+   "options": [
+    "2x + h, which gives 2x",
+    "x + h \u2212 5, which gives x \u2212 5",
+    "2x \u2212 5h, which gives 2x",
+    "2x + h \u2212 5, which gives 2x \u2212 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(x + h) \u2212 f(x) = 2xh + h\u00b2 \u2212 5h, so the difference quotient is 2x + h \u2212 5, which tends to 2x \u2212 5 as h \u2192 0. This matches the rule d/dx(x\u00b2 \u2212 5x) = 2x \u2212 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-factor-derivatives-0037",
+   "topicId": "meth-tce-factor-derivatives",
+   "stem": "A particle moves in a straight line with position s = 2t\u00b2 \u2212 8t + 3 metres at time t seconds. Its velocity at t = 3 is:",
+   "imageRef": null,
+   "options": [
+    "\u22123 m/s",
+    "12 m/s",
+    "0 m/s",
+    "4 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "Velocity is the gradient of the position-time graph: ds/dt = 4t \u2212 8, which is 4 m/s at t = 3. The value \u22123 is the position at t = 3, not the velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-factor-derivatives-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

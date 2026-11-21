@@ -1,0 +1,727 @@
+{
+ "topicId": "gm-qce-compound-annuities",
+ "questions": [
+  {
+   "id": "gm-qce-compound-annuities-0001",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An investment earns compound interest of 3% per quarter. In the recurrence relation A\u2099\u208a\u2081 = rA\u2099, the value of r is:",
+   "imageRef": null,
+   "options": [
+    "0.03",
+    "1.3",
+    "0.97",
+    "1.03"
+   ],
+   "correctIndex": 3,
+   "explanation": "The factor r is 1 + i, where i is the interest rate per compounding period as a decimal, so r = 1 + 0.03 = 1.03. Using 0.03 alone would multiply the balance by 3% and shrink it, rather than adding 3% to it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0002",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "In the compound interest formula A = P(1 + i)\u207f, the value of n is:",
+   "imageRef": null,
+   "options": [
+    "the number of compounding periods",
+    "the number of years of the investment",
+    "the number of payments made each year",
+    "the interest rate for the whole term"
+   ],
+   "correctIndex": 0,
+   "explanation": "n counts compounding periods, not years. An investment compounding monthly for 3 years has n = 36, so using the number of years only works when interest compounds annually.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0003",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan is charged interest at 7.2% per annum, compounding monthly. The interest rate per compounding period, i, is:",
+   "imageRef": null,
+   "options": [
+    "1.8%",
+    "0.06%",
+    "0.6%",
+    "7.2%"
+   ],
+   "correctIndex": 2,
+   "explanation": "Divide the annual rate by the number of compounding periods per year: 7.2% \u00f7 12 = 0.6% per month. Dividing by 4 gives the quarterly rate of 1.8%, which would apply only if interest compounded quarterly.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0004",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "In the effective annual rate formula i(effective) = (1 + i)\u1d4f \u2212 1, the value of k is:",
+   "imageRef": null,
+   "options": [
+    "the nominal annual interest rate as a decimal",
+    "the number of compounding periods per year",
+    "the total number of periods in the term",
+    "the number of years the money is invested"
+   ],
+   "correctIndex": 1,
+   "explanation": "k is the number of times interest compounds in one year, such as 12 for monthly or 4 for quarterly. The effective rate describes one year only, so the length of the whole term plays no part.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0005",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The recurrence relation A\u2099\u208a\u2081 = rA\u2099 \u2212 d, with r = 1 + i, models:",
+   "imageRef": null,
+   "options": [
+    "a compound interest investment with no further payments",
+    "a simple interest loan with a fixed interest charge",
+    "a reducing balance loan repaid with equal periodic payments",
+    "a compound interest investment with regular deposits added"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each period interest is added by multiplying by r, then the payment d is subtracted, so the balance falls. This is the present value of an ordinary annuity. Adding d instead models an investment with regular deposits.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0006",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The recurrence relation A\u2099\u208a\u2081 = rA\u2099 + d, with r = 1 + i, models:",
+   "imageRef": null,
+   "options": [
+    "a compound interest investment with a regular deposit each period",
+    "a reducing balance loan with a regular repayment each period",
+    "a compound interest investment with no deposits after the first",
+    "a retirement pension paying a fixed amount each period"
+   ],
+   "correctIndex": 0,
+   "explanation": "Interest is added by multiplying by r and then the deposit d is added, so the balance grows faster than by interest alone. This is the future value of an ordinary annuity. A pension or loan subtracts d instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0007",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "In an ordinary annuity, each periodic payment is made:",
+   "imageRef": null,
+   "options": [
+    "at the end of each year, whatever the compounding period",
+    "at the end of each period, after interest is calculated",
+    "at the start of each period, before interest is calculated",
+    "once only, at the end of the whole term of the annuity"
+   ],
+   "correctIndex": 1,
+   "explanation": "An ordinary annuity has interest calculated for the period and then the payment made, which is why the recurrence multiplies by r before adding or subtracting d. Payments match the compounding period, not just once a year.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0008",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The present value of an ordinary annuity, with periodic payment d, interest rate i per period and n periods, is given by:",
+   "imageRef": null,
+   "options": [
+    "A(PV) = d \u00d7 (1 + i)\u207b\u207f/i",
+    "A(PV) = d \u00d7 (1 \u2212 (1 + i)\u207b\u207f)/i",
+    "A(PV) = d \u00d7 ((1 + i)\u207f \u2212 1)/i",
+    "A(PV) = d \u00d7 (1 + i)\u207f"
+   ],
+   "correctIndex": 1,
+   "explanation": "The present value formula has 1 \u2212 (1 + i)\u207b\u207f on top, with a negative index. The formula with (1 + i)\u207f \u2212 1 on top gives the future value of an annuity, which is a larger amount at the end of the term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0009",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The future value of an ordinary annuity, with periodic payment d, interest rate i per period and n periods, is given by:",
+   "imageRef": null,
+   "options": [
+    "A(FV) = d \u00d7 n \u00d7 (1 + i)",
+    "A(FV) = d \u00d7 (1 + i)\u207f \u2212 d",
+    "A(FV) = d \u00d7 ((1 + i)\u207f \u2212 1)/i",
+    "A(FV) = d \u00d7 (1 \u2212 (1 + i)\u207b\u207f)/i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The future value formula has (1 + i)\u207f \u2212 1 on top. The formula with 1 \u2212 (1 + i)\u207b\u207f gives the present value, the lump sum now that is equivalent to the same payments.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0010",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan is repaid with n equal periodic payments of $d. The total interest paid over the loan is:",
+   "imageRef": null,
+   "options": [
+    "n \u00d7 d minus the amount borrowed",
+    "the amount borrowed minus n \u00d7 d",
+    "n \u00d7 d plus the amount borrowed",
+    "the amount borrowed divided by n"
+   ],
+   "correctIndex": 0,
+   "explanation": "The payments repay the amount borrowed and also cover all the interest, so total interest = total payments \u2212 principal. The total payments are larger than the amount borrowed, so subtracting the other way gives a negative number.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0011",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Plotted against the number of compounding periods, the values A\u2099 of a compound interest investment lie on:",
+   "imageRef": null,
+   "options": [
+    "an upward curve, each increase smaller than the one before",
+    "a downward curve that levels off as the periods go on",
+    "an upward curve, each increase larger than the one before",
+    "a straight line, each increase the same as the one before"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each period the balance is multiplied by r = 1 + i, so the interest is charged on a growing amount and the increases get bigger: geometric growth. Equal increases each period describe simple interest, which gives a straight line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0012",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Two accounts both pay a nominal 5% per annum. Account X compounds daily and Account Y compounds six-monthly. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Both accounts have the same effective annual rate",
+    "Account X has the higher effective annual rate",
+    "Account Y has the higher effective annual rate",
+    "Both accounts have an effective annual rate of 5%"
+   ],
+   "correctIndex": 1,
+   "explanation": "With the same nominal rate, compounding more often means interest is earned on interest sooner, so the effective annual rate is higher. Only annual compounding gives an effective rate equal to the nominal 5%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0013",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Leila invests $5000 at 4% per annum, compounding annually. The value of her investment after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$5408.00",
+    "$5624.32",
+    "$5600.00",
+    "$5849.29"
+   ],
+   "correctIndex": 1,
+   "explanation": "A = 5000 \u00d7 1.04\u00b3 = 5624.32. The amount $5600.00 is simple interest, 5000 + 3 \u00d7 200, which ignores interest earned on interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0014",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A sequence is defined by A\u2080 = 2000, A\u2099\u208a\u2081 = 1.05A\u2099. The value of A\u2082 is:",
+   "imageRef": null,
+   "options": [
+    "2205",
+    "2200",
+    "2315.25",
+    "2100"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u2081 = 1.05 \u00d7 2000 = 2100 and A\u2082 = 1.05 \u00d7 2100 = 2205. The value 2315.25 is A\u2083, one step too far, and 2200 adds 5% of the original 2000 twice, as simple interest would.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0015",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An investment of $12 000 earns 6% per annum, compounding monthly. The value of the investment after 5 years is closest to:",
+   "imageRef": null,
+   "options": [
+    "$16 058.71",
+    "$12 303.02",
+    "$12 300.00",
+    "$16 186.20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here i = 0.06 \u00f7 12 = 0.005 and n = 5 \u00d7 12 = 60, so A = 12 000 \u00d7 1.005\u2076\u2070 \u2248 16 186.20. Using n = 5 with the monthly rate gives about $12 303.02, and $16 058.71 is annual compounding, 12 000 \u00d7 1.06\u2075.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0016",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Tom invests $8000 at 5.2% per annum, compounding quarterly, for 3 years. The total interest earned is closest to:",
+   "imageRef": null,
+   "options": [
+    "$1248.00",
+    "$1314.02",
+    "$9341.21",
+    "$1341.21"
+   ],
+   "correctIndex": 3,
+   "explanation": "With i = 0.013 and n = 12, A = 8000 \u00d7 1.013\u00b9\u00b2 \u2248 9341.21, so the interest is 9341.21 \u2212 8000 = 1341.21. The amount $9341.21 is the total value, not the interest, and $1248.00 is simple interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0017",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The effective annual rate of interest for 6% per annum, compounding monthly, is closest to:",
+   "imageRef": null,
+   "options": [
+    "0.50%",
+    "6.17%",
+    "6.00%",
+    "6.09%"
+   ],
+   "correctIndex": 1,
+   "explanation": "i(effective) = (1 + 0.005)\u00b9\u00b2 \u2212 1 \u2248 0.0617, or 6.17%. The value 6.09% is the effective rate for six-monthly compounding, and 0.50% is the monthly rate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0018",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The effective annual rate of interest for 8% per annum, compounding quarterly, is closest to:",
+   "imageRef": null,
+   "options": [
+    "2.00%",
+    "8.24%",
+    "8.00%",
+    "8.16%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here i = 0.08 \u00f7 4 = 0.02 and k = 4, so i(effective) = 1.02\u2074 \u2212 1 \u2248 0.0824, or 8.24%. The value 8.16% comes from six-monthly compounding, 1.04\u00b2 \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0019",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An investment pays 4% per annum, compounding six-monthly. Which values of i and n should be used in A = P(1 + i)\u207f for an investment of 4 years?",
+   "imageRef": null,
+   "options": [
+    "i = 0.02 and n = 4",
+    "i = 0.04 and n = 8",
+    "i = 0.02 and n = 8",
+    "i = 0.04 and n = 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are two compounding periods a year, so i = 0.04 \u00f7 2 = 0.02 and n = 4 \u00d7 2 = 8. The rate and the number of periods must both be adjusted to match the compounding period.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0020",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "How much must be invested now at 4.8% per annum, compounding monthly, to have $20 000 in 4 years? The amount is closest to:",
+   "imageRef": null,
+   "options": [
+    "$16 580.01",
+    "$16 778.52",
+    "$19 683.17",
+    "$16 512.46"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearrange A = P(1 + i)\u207f to P = A \u00f7 (1 + i)\u207f, with i = 0.004 and n = 48: P = 20 000 \u00f7 1.004\u2074\u2078 \u2248 16 512.46. The value $16 580.01 uses annual compounding, and $16 778.52 uses simple interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0021",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan of $300 000 is charged interest at 6% per annum, compounding monthly, and is repaid at $1800 per month. A recurrence relation for the balance owing after n months is:",
+   "imageRef": null,
+   "options": [
+    "A\u2080 = 300 000, A\u2099\u208a\u2081 = 0.005A\u2099 \u2212 1800",
+    "A\u2080 = 300 000, A\u2099\u208a\u2081 = 1.005A\u2099 \u2212 1800",
+    "A\u2080 = 300 000, A\u2099\u208a\u2081 = 1.06A\u2099 \u2212 1800",
+    "A\u2080 = 300 000, A\u2099\u208a\u2081 = 1.005A\u2099 + 1800"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is 6% \u00f7 12 = 0.5%, so r = 1.005, and each repayment is subtracted. Using 1.06 would charge a full year's interest every month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0022",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan balance is modelled by A\u2080 = 10 000, A\u2099\u208a\u2081 = 1.01A\u2099 \u2212 500. The balance after two payments, A\u2082, is:",
+   "imageRef": null,
+   "options": [
+    "$9196.00",
+    "$9185.95",
+    "$9200.00",
+    "$9600.00"
+   ],
+   "correctIndex": 0,
+   "explanation": "A\u2081 = 1.01 \u00d7 10 000 \u2212 500 = 9600 and A\u2082 = 1.01 \u00d7 9600 \u2212 500 = 9196. The value $9185.95 subtracts each payment before adding interest, which is not how an ordinary annuity works, and $9600.00 is only A\u2081.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0023",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An investment is modelled by A\u2080 = 5000, A\u2099\u208a\u2081 = 1.02A\u2099 + 1000. The value of A\u2082 is:",
+   "imageRef": null,
+   "options": [
+    "$7202",
+    "$6100",
+    "$7222",
+    "$7000"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2081 = 1.02 \u00d7 5000 + 1000 = 6100 and A\u2082 = 1.02 \u00d7 6100 + 1000 = 7222. The value $7000 adds the deposits but leaves out all interest, and $6100 is only A\u2081.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0024",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A retirement pension pays $2000 per month for 10 years from a fund earning 6% per annum, compounding monthly. The amount needed in the fund at the start, A(PV), is closest to:",
+   "imageRef": null,
+   "options": [
+    "$240 000.00",
+    "$33 302.70",
+    "$180 146.91",
+    "$327 758.69"
+   ],
+   "correctIndex": 2,
+   "explanation": "A(PV) = 2000 \u00d7 (1 \u2212 1.005\u207b\u00b9\u00b2\u2070)/0.005 \u2248 180 146.91, using i = 0.005 and n = 120. The amount $327 758.69 is the future value formula, and $240 000.00 is just the total of the payments, ignoring the interest the fund earns.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0025",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Sam borrows $25 000 at 7.2% per annum, compounding monthly, to be repaid in equal monthly payments over 5 years. The monthly payment is closest to:",
+   "imageRef": null,
+   "options": [
+    "$510.83",
+    "$497.39",
+    "$416.67",
+    "$347.39"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearrange A(PV) = d \u00d7 (1 \u2212 (1 + i)\u207b\u207f)/i with i = 0.006 and n = 60: d = 25 000 \u00d7 0.006 \u00f7 (1 \u2212 1.006\u207b\u2076\u2070) \u2248 497.39. The value $416.67 is 25 000 \u00f7 60, which ignores interest, and $347.39 wrongly uses the future value formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0026",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan of $25 000 is repaid with 60 monthly payments of $497.39. The total interest paid is:",
+   "imageRef": null,
+   "options": [
+    "$29 843.40",
+    "$5968.68",
+    "$4843.40",
+    "$9000.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "Total payments are 60 \u00d7 497.39 = 29 843.40, so the interest is 29 843.40 \u2212 25 000 = 4843.40. The amount $29 843.40 is the total paid, not the interest, and $9000.00 is simple interest on the full $25 000 for 5 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0027",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Mia deposits $200 at the end of every month into an account paying 4.8% per annum, compounding monthly. The value of the account after 3 years, A(FV), is closest to:",
+   "imageRef": null,
+   "options": [
+    "$7727.62",
+    "$7200.00",
+    "$6693.18",
+    "$7527.62"
+   ],
+   "correctIndex": 0,
+   "explanation": "A(FV) = 200 \u00d7 (1.004\u00b3\u2076 \u2212 1)/0.004 \u2248 7727.62, using i = 0.004 and n = 36. The amount $7200.00 is the deposits alone, and $6693.18 is the present value formula.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0028",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An account built from monthly deposits of $200 for 3 years has a final value of $7727.62. The total interest earned is:",
+   "imageRef": null,
+   "options": [
+    "$7527.62",
+    "$527.62",
+    "$7727.62",
+    "$327.62"
+   ],
+   "correctIndex": 1,
+   "explanation": "The deposits total 36 \u00d7 200 = 7200, so the interest is 7727.62 \u2212 7200 = 527.62. The full $7727.62 includes the money Mia put in herself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0029",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Ari invests $1000 for 10 years, compounding annually. Compared with the interest earned at 5% per annum, the interest earned at 10% per annum is:",
+   "imageRef": null,
+   "options": [
+    "exactly double",
+    "less than double",
+    "about the same",
+    "more than double"
+   ],
+   "correctIndex": 3,
+   "explanation": "At 5% the interest is 1000 \u00d7 1.05\u00b9\u2070 \u2212 1000 \u2248 628.89, and at 10% it is 1000 \u00d7 1.1\u00b9\u2070 \u2212 1000 \u2248 1593.74, about 2.5 times as much. With compound interest the higher rate also earns more interest on interest, so doubling the rate more than doubles the interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0030",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "$10 000 is invested at 6% per annum for 2 years. Compared with compounding annually, compounding monthly earns extra interest of closest to:",
+   "imageRef": null,
+   "options": [
+    "$1236.00",
+    "$1271.60",
+    "$35.60",
+    "$0.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "Monthly: 10 000 \u00d7 1.005\u00b2\u2074 \u2248 11 271.60. Annually: 10 000 \u00d7 1.06\u00b2 = 11 236.00. The difference is about $35.60, since more frequent compounding adds interest on interest sooner. The amounts $1271.60 and $1236.00 are the total interest under each method, not the difference.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0031",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Bank A offers 5.9% per annum compounding monthly. Bank B offers 6.0% per annum compounding annually. Which statement about the effective annual rates is correct?",
+   "imageRef": null,
+   "options": [
+    "Both pay the same effective rate of about 6.00%",
+    "Bank A pays more: about 6.06% compared with 6.00%",
+    "Bank B pays more: 6.00% compared with about 5.90%",
+    "Bank A pays more: about 6.17% compared with 6.00%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Bank A: (1 + 0.059/12)\u00b9\u00b2 \u2212 1 \u2248 0.0606, or 6.06%. Bank B compounds annually, so its effective rate is its nominal 6.00%. Monthly compounding lifts Bank A above Bank B even though its nominal rate is lower.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0032",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Loan X charges 9.6% per annum compounding monthly. Loan Y charges 9.9% per annum compounding annually. Which loan costs less, and why?",
+   "imageRef": null,
+   "options": [
+    "Loan X, as its nominal rate of 9.6% is below Y's 9.9%",
+    "Loan X, as its effective rate of 9.60% is below Y's 9.90%",
+    "Loan Y, as its effective rate of 9.90% is below about 10.40%",
+    "Loan Y, as its effective rate of 9.90% is below about 10.03%"
+   ],
+   "correctIndex": 3,
+   "explanation": "Loan X has an effective rate of (1 + 0.096/12)\u00b9\u00b2 \u2212 1 = 1.008\u00b9\u00b2 \u2212 1 \u2248 10.03%, and Loan Y's effective rate equals its nominal 9.90%. Comparing nominal rates alone is misleading when the compounding periods differ.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0033",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "An amount of $4000 grows to $4329.73 after one year with interest compounding quarterly. The nominal annual interest rate is closest to:",
+   "imageRef": null,
+   "options": [
+    "2%",
+    "8.24%",
+    "33%",
+    "8%"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since 4000 \u00d7 1.02\u2074 \u2248 4329.73, the quarterly rate is i = 2%, and the nominal annual rate is 4 \u00d7 2% = 8%. The value 8.24% is the effective annual rate, the actual growth over the year, not the quoted nominal rate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0034",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "The effective annual rate for 7.3% per annum, compounding daily (365 days a year), is closest to:",
+   "imageRef": null,
+   "options": [
+    "0.02%",
+    "7.57%",
+    "7.30%",
+    "7.50%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here i = 0.073 \u00f7 365 = 0.0002 and k = 365, so i(effective) = 1.0002\u00b3\u2076\u2075 \u2212 1 \u2248 0.0757, or 7.57%. The value 0.02% is the daily rate, and 7.30% is the nominal rate, which ignores compounding.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0035",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Ella wants $50 000 in 10 years. She deposits an equal amount at the end of every quarter into an account paying 6% per annum, compounding quarterly. The quarterly deposit is closest to:",
+   "imageRef": null,
+   "options": [
+    "$948.35",
+    "$921.36",
+    "$1250.00",
+    "$1671.36"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearrange A(FV) = d \u00d7 ((1 + i)\u207f \u2212 1)/i with i = 0.015 and n = 40: d = 50 000 \u00d7 0.015 \u00f7 (1.015\u2074\u2070 \u2212 1) \u2248 921.36. The value $1250.00 ignores interest, and $1671.36 wrongly uses the present value formula, which gives the payment for a $50 000 loan.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0036",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A retiree uses $400 000 to buy an annuity paying equal monthly amounts for 20 years, with interest at 4.8% per annum compounding monthly. The monthly payment is closest to:",
+   "imageRef": null,
+   "options": [
+    "$1666.67",
+    "$995.83",
+    "$1600.00",
+    "$2595.83"
+   ],
+   "correctIndex": 3,
+   "explanation": "With i = 0.004 and n = 240, d = 400 000 \u00d7 0.004 \u00f7 (1 \u2212 1.004\u207b\u00b2\u2074\u2070) \u2248 2595.83. The value $1600.00 is only the monthly interest, which would leave the $400 000 untouched forever, and $1666.67 ignores interest altogether.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0037",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "A loan of $20 000 at 6% per annum, compounding monthly, is repaid at $469.70 per month over 4 years. The balance owing after 2 years is the present value of the remaining payments, which is closest to:",
+   "imageRef": null,
+   "options": [
+    "$10 598",
+    "$10 000",
+    "$8727",
+    "$11 273"
+   ],
+   "correctIndex": 0,
+   "explanation": "The balance is the present value of the 24 payments left: 469.70 \u00d7 (1 \u2212 1.005\u207b\u00b2\u2074)/0.005 \u2248 10 598. More than half the loan remains because early payments are mostly interest, so $10 000 is too low; $11 273 is the total paid in 2 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-compound-annuities-0038",
+   "topicId": "gm-qce-compound-annuities",
+   "stem": "Nina invests $5000 at 8% per annum, compounding annually. Using the recurrence A\u2099\u208a\u2081 = 1.08A\u2099, after how many years does her investment first exceed $7000?",
+   "imageRef": null,
+   "options": [
+    "6 years",
+    "3 years",
+    "5 years",
+    "4 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "After 4 years the value is 5000 \u00d7 1.08\u2074 \u2248 $6802.44, still below $7000, and after 5 years it is 5000 \u00d7 1.08\u2075 \u2248 $7346.64, the first value above it. Stopping at 4 years mistakes being close to the target for passing it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-compound-annuities-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

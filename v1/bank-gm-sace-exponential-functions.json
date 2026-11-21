@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-exponential-functions",
+ "questions": [
+  {
+   "id": "gm-sace-exponential-functions-0001",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Geometric growth happens when a quantity is repeatedly:",
+   "imageRef": null,
+   "options": [
+    "increased by the same constant amount each time",
+    "multiplied by a constant between 0 and 1",
+    "increased by a larger amount added each time",
+    "multiplied by the same constant greater than 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Geometric (exponential) growth multiplies by the same factor each period, such as \u00d7 1.05. Adding a constant amount each time is linear growth, and a factor between 0 and 1 gives decay.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0002",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "What is the next term of the sequence 3, 6, 12, 24, ...?",
+   "imageRef": null,
+   "options": [
+    "48",
+    "30",
+    "36",
+    "27"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each term is double the one before, a common ratio of 2, so the next term is 24 \u00d7 2 = 48. Adding 6 each time gives 30, which treats the sequence as linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0003",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "What is the next term of the sequence 2000, 1800, 1620, ...?",
+   "imageRef": null,
+   "options": [
+    "1500",
+    "1458",
+    "1440",
+    "1420"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ratio is 1800 \u00f7 2000 = 0.9, and 1620 \u00f7 1800 = 0.9, so the next term is 1620 \u00d7 0.9 = 1458. Subtracting 180 again gives 1440, but the differences are shrinking, not constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0004",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Which table of values shows exponential growth?",
+   "imageRef": null,
+   "options": [
+    "x: 0, 1, 2, 3 and y: 40, 20, 10, 5",
+    "x: 0, 1, 2, 3 and y: 5, 6, 8, 11",
+    "x: 0, 1, 2, 3 and y: 5, 10, 20, 40",
+    "x: 0, 1, 2, 3 and y: 5, 10, 15, 20"
+   ],
+   "correctIndex": 2,
+   "explanation": "In 5, 10, 20, 40 each y-value is twice the one before: a constant ratio greater than 1. 5, 10, 15, 20 has a constant difference (linear), and 40, 20, 10, 5 halves each time, which is exponential decay.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0005",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "How does exponential growth differ from linear growth over equal time steps?",
+   "imageRef": null,
+   "options": [
+    "Exponential growth multiplies by a constant; linear adds a constant",
+    "Exponential growth adds a constant; linear multiplies by one",
+    "Exponential growth is always slower than linear growth",
+    "Exponential growth always starts from zero, linear does not"
+   ],
+   "correctIndex": 0,
+   "explanation": "A linear model adds the same amount each step, so its graph is straight. An exponential model multiplies by the same factor, so the increases themselves grow and its graph curves upward, eventually overtaking any linear model.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0006",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Which situation is best modelled by an exponential function?",
+   "imageRef": null,
+   "options": [
+    "Simple interest of $300 added at the end of each year",
+    "A bacteria colony that doubles in size every hour",
+    "A taxi fare of $4 plus $2.20 for each kilometre",
+    "A tank that drains at a steady 20 litres per minute"
+   ],
+   "correctIndex": 1,
+   "explanation": "Doubling every hour multiplies the colony by 2 each step, which is geometric growth. The taxi fare, the draining tank and simple interest all change by a constant amount, so they are linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0007",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "In the exponential model y = a \u00d7 b^x, what does a represent?",
+   "imageRef": null,
+   "options": [
+    "The horizontal asymptote that the graph approaches",
+    "The initial value, where the graph crosses the y-axis",
+    "The percentage growth rate for each time period",
+    "The value of x where the graph crosses the x-axis"
+   ],
+   "correctIndex": 1,
+   "explanation": "When x = 0, b^0 = 1, so y = a: the starting value and the y-intercept. The growth or decay factor per period is b, not a.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0008",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "For which values of b does y = a \u00d7 b^x (with a > 0) model decay?",
+   "imageRef": null,
+   "options": [
+    "b = 1",
+    "0 < b < 1",
+    "b > 1",
+    "b < 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying repeatedly by a number between 0 and 1 makes the values shrink, which is decay. b > 1 gives growth, b = 1 gives a constant, and b must be positive for an exponential model.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0009",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "As x increases, what happens to the graph of y = 200 \u00d7 0.8^x?",
+   "imageRef": null,
+   "options": [
+    "It falls to zero and then stays at zero",
+    "It falls towards the x-axis but never reaches it",
+    "It falls in a straight line and crosses the x-axis",
+    "It rises more and more steeply without limit"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying by 0.8 always leaves a positive value, so the graph approaches y = 0 (an asymptote) without touching it. A straight line that crosses the axis would be a linear decrease.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0010",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "How do the graphs of y = 3 \u00d7 2^x and y = 3 \u00d7 0.5^x compare?",
+   "imageRef": null,
+   "options": [
+    "They cross the y-axis at 6 and 1.5 respectively",
+    "Both pass through the origin; one rises, one falls",
+    "Both cross the y-axis at 3; one rises and one falls",
+    "Both cross the y-axis at 3 and both of them rise"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each graph has y = 3 when x = 0, because b^0 = 1. With b = 2 the graph rises (growth); with b = 0.5 it falls towards the x-axis (decay). Neither passes through the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0011",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A model is P = 2500 \u00d7 1.035^t, where P is a town's population t years from now. What do 2500 and 1.035 tell you?",
+   "imageRef": null,
+   "options": [
+    "It starts at 2500 and grows by 3.5% each year",
+    "It starts at 2500 and grows by 35% each year",
+    "It grows by 2500 people a year, at a rate of 1.035%",
+    "It starts at 1.035 thousand and grows by 2500 a year"
+   ],
+   "correctIndex": 0,
+   "explanation": "a = 2500 is the population now (t = 0). b = 1.035 = 1 + 0.035, a 3.5% increase each year. Reading 1.035 as 35% confuses the decimal part with the whole factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0012",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A car's value is modelled by V = 25 000 \u00d7 0.82^t, with t in years. By what percentage does its value fall each year?",
+   "imageRef": null,
+   "options": [
+    "18%",
+    "82%",
+    "8.2%",
+    "0.18%"
+   ],
+   "correctIndex": 0,
+   "explanation": "b = 0.82 means each year the value is 82% of the year before, a loss of 100% \u2212 82% = 18%. 82% is the proportion kept, not the proportion lost.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0013",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Which formula models a quantity that starts at 800 and decreases by 12% per year?",
+   "imageRef": null,
+   "options": [
+    "y = 800 \u00d7 0.88^x",
+    "y = 800 \u00d7 0.12^x",
+    "y = 800 \u00d7 1.12^x",
+    "y = 800 \u2212 0.12x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Losing 12% leaves 88% each year, so b = 1 \u2212 0.12 = 0.88. Using b = 0.12 would keep only 12% each year, and 1.12 is 12% growth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0014",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A table shows y = 250 when x = 0 and y = 275 when x = 1, and the relationship is exponential. What is the percentage growth per step?",
+   "imageRef": null,
+   "options": [
+    "25%",
+    "1.1%",
+    "275%",
+    "10%"
+   ],
+   "correctIndex": 3,
+   "explanation": "b = 275 \u00f7 250 = 1.1, so each step multiplies y by 1.1, a 10% increase. The difference 25 is the first increase, but it is not a percentage and later increases will be larger.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0015",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "An exponential graph y = a \u00d7 b^x passes through (0, 40) and (1, 50). What is its formula?",
+   "imageRef": null,
+   "options": [
+    "y = 50 \u00d7 1.25^x",
+    "y = 40 + 10x",
+    "y = 40 \u00d7 1.25^x",
+    "y = 40 \u00d7 0.8^x"
+   ],
+   "correctIndex": 2,
+   "explanation": "At x = 0, y = a = 40. Then 40 \u00d7 b = 50 gives b = 1.25. b = 0.8 is 40 \u00f7 50, the ratio upside down, and y = 40 + 10x is the linear model through the same points.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0016",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "An exponential model y = a \u00d7 b^x passes through (0, 200) and (2, 288). What is the percentage growth per unit of x?",
+   "imageRef": null,
+   "options": [
+    "88%",
+    "20%",
+    "44%",
+    "22%"
+   ],
+   "correctIndex": 1,
+   "explanation": "a = 200, and 200 \u00d7 b\u00b2 = 288, so b\u00b2 = 1.44 and b = 1.2: 20% growth per unit. 44% is the growth over two units, and 22% halves the 44% as if growth were linear.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0017",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A bacteria culture of 300 cells doubles every hour. How many cells are there after 5 hours?",
+   "imageRef": null,
+   "options": [
+    "9600",
+    "3000",
+    "4800",
+    "7500"
+   ],
+   "correctIndex": 0,
+   "explanation": "After 5 doublings: 300 \u00d7 2^5 = 300 \u00d7 32 = 9600. 300 \u00d7 2 \u00d7 5 = 3000 multiplies by 10 instead of doubling five times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0018",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A town of 12 000 people grows by 3% per year. What is its population after 4 years, to the nearest person?",
+   "imageRef": null,
+   "options": [
+    "13 440",
+    "49 440",
+    "10 624",
+    "13 506"
+   ],
+   "correctIndex": 3,
+   "explanation": "P = 12 000 \u00d7 1.03^4 = 13506.1, about 13 506. 13 440 adds 3% of 12 000 four times, a linear model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0019",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A coffee costs $4.50. If its price rises with inflation of 3% p.a., what will it cost in 10 years, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$5.85",
+    "$46.35",
+    "$3.32",
+    "$6.05"
+   ],
+   "correctIndex": 3,
+   "explanation": "Price = 4.50 \u00d7 1.03^10 = $6.05. $5.85 adds 3% of the original price each year, which ignores compounding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0020",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Using a calculator, what is the value of y = 500 \u00d7 1.04^x when x = 2.5, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "550.0",
+    "551.5",
+    "1300.0",
+    "540.8"
+   ],
+   "correctIndex": 1,
+   "explanation": "Exponents need not be whole numbers: 1.04^2.5 = 1.10302, so y = 551.5. 1.04^2 gives 540.8, the value at x = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0021",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A population of 5000 grows by 8% per year. Using a graph or equation solver, after how many whole years does it first exceed 10 000?",
+   "imageRef": null,
+   "options": [
+    "12 years",
+    "10 years",
+    "9 years",
+    "13 years"
+   ],
+   "correctIndex": 1,
+   "explanation": "5000 \u00d7 1.08^9 = 9995.0, just short of 10 000, while 5000 \u00d7 1.08^10 = 10794.6. So 10 whole years are needed. Linear thinking (8% of 5000 is 400 a year) gives 12.5 years, which is too slow.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0022",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "An investment grows by 6% per year, compounded annually. After how many whole years has it first doubled?",
+   "imageRef": null,
+   "options": [
+    "12 years",
+    "11 years",
+    "17 years",
+    "6 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "Testing values: 1.06^11 = 1.898 and 1.06^12 = 2.012, so it first doubles after 12 years. 100 \u00f7 6 \u2248 17 years assumes simple interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0023",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Plan A starts at $1000 and adds $100 each year. Plan B starts at $1000 and grows by 8% per year, compounded. After how many whole years is Plan B first worth more?",
+   "imageRef": null,
+   "options": [
+    "It never overtakes Plan A",
+    "7 years",
+    "5 years",
+    "1 year"
+   ],
+   "correctIndex": 1,
+   "explanation": "After 6 years: A = $1600, B = $1586.87. After 7 years: A = $1700, B = $1713.82. Plan B adds 8% of a growing balance, so it eventually overtakes the constant $100 a year.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0024",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A quantity is modelled by y = 1000 \u00d7 1.2^t, with t in years. By what percentage does it grow over 3 years?",
+   "imageRef": null,
+   "options": [
+    "72.8%",
+    "60%",
+    "20%",
+    "172.8%"
+   ],
+   "correctIndex": 0,
+   "explanation": "Over 3 years the multiplier is 1.2^3 = 1.728, an increase of 72.8%. 60% adds 20% three times, ignoring compounding, and 172.8% is the new value as a percentage of the old.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0025",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Why is the value of P dollars after n years at r% p.a. compounded annually equal to P(1 + r/100)^n?",
+   "imageRef": null,
+   "options": [
+    "Each year the balance is multiplied by 1 + r/100",
+    "Each year r/100 dollars is added to the balance",
+    "The interest is multiplied by n at the end only",
+    "Each year the principal is multiplied by r/100"
+   ],
+   "correctIndex": 0,
+   "explanation": "After one year the balance is P(1 + r/100); after two years that is multiplied by 1 + r/100 again, giving P(1 + r/100)^2, and so on. Adding the same interest each year would be simple interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0026",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "$2000 is invested at 6% p.a. compounded monthly for 2 years. What is its value, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$2254.32",
+    "$2247.20",
+    "$2240",
+    "$8097.87"
+   ],
+   "correctIndex": 0,
+   "explanation": "Monthly rate = 0.06 \u00f7 12 = 0.005 and there are 24 months, so the value is 2000 \u00d7 1.005^24 = $2254.32. Compounding yearly gives $2247.20, a little less.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0027",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "An amount compounds at 4% p.a. Which change gives the largest value after 5 years, all else equal?",
+   "imageRef": null,
+   "options": [
+    "Compounding monthly instead of yearly",
+    "Compounding yearly instead of quarterly",
+    "Compounding quarterly instead of monthly",
+    "Compounding every two years instead"
+   ],
+   "correctIndex": 0,
+   "explanation": "At the same nominal rate, more frequent compounding gives a larger value, because interest starts earning interest sooner. Each of the other changes makes compounding less frequent.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0028",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A car bought for $32 000 depreciates by 15% per year. What is its value after 3 years, to the nearest dollar?",
+   "imageRef": null,
+   "options": [
+    "$48 668",
+    "$19 652",
+    "$17 600",
+    "$108"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = 32 000 \u00d7 0.85^3 = $19 652. $17 600 subtracts 15% of the purchase price each year, which is straight-line depreciation, not reducing balance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0029",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "The car bought for $32 000 loses 15% of its value each year. After how many whole years is it first worth less than $10 000?",
+   "imageRef": null,
+   "options": [
+    "8 years",
+    "7 years",
+    "5 years",
+    "10 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "32 000 \u00d7 0.85^7 = $10 258.47, still above $10 000, while 32 000 \u00d7 0.85^8 = $8719.70. So 8 years. Straight-line thinking (15% of 32 000 is 4800 a year) gives about 4.6 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0030",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A radioactive sample of 80 g halves in mass every 6 years. What mass remains after 18 years?",
+   "imageRef": null,
+   "options": [
+    "20 g",
+    "26.7 g",
+    "5 g",
+    "10 g"
+   ],
+   "correctIndex": 3,
+   "explanation": "18 years is 3 half-lives, so the mass is 80 \u00d7 0.5^3 = 10 g. 20 g is after 2 half-lives, and 26.7 g divides by 3 instead of halving three times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0031",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A 400 mg dose of a medicine reduces by 20% each hour in the body. After how many whole hours is less than 100 mg left?",
+   "imageRef": null,
+   "options": [
+    "6 hours",
+    "4 hours",
+    "3 hours",
+    "7 hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "Amount = 400 \u00d7 0.8^t. At t = 6: 104.9 mg; at t = 7: 83.9 mg. Four hours comes from subtracting 80 mg (20% of 400) each hour, which is a linear model.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0032",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "The difference between a cup of tea's temperature and room temperature is modelled by D = 70 \u00d7 0.9^t, with t in minutes. What is D after 5 minutes, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "41.3 \u00b0C",
+    "35.0 \u00b0C",
+    "315.0 \u00b0C",
+    "0.0007 \u00b0C"
+   ],
+   "correctIndex": 0,
+   "explanation": "D = 70 \u00d7 0.9^5 = 70 \u00d7 0.59049 = 41.3 \u00b0C. Subtracting 7 \u00b0C (10% of 70) each minute gives 35.0 \u00b0C, a linear model that cools too fast.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0033",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "An item's value goes from $400 to $484 over 2 years, changing by the same percentage each year. What is the yearly percentage growth?",
+   "imageRef": null,
+   "options": [
+    "10%",
+    "21%",
+    "10.5%",
+    "8.4%"
+   ],
+   "correctIndex": 0,
+   "explanation": "400 \u00d7 b\u00b2 = 484, so b\u00b2 = 1.21 and b = 1.1: 10% a year. 21% is the total over 2 years, and 10.5% halves it as if the growth were simple.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0034",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "For y = a \u00d7 b^x with b > 1, what happens to y each time x increases by 1?",
+   "imageRef": null,
+   "options": [
+    "y increases by b",
+    "y increases by a",
+    "y is multiplied by a",
+    "y is multiplied by b"
+   ],
+   "correctIndex": 3,
+   "explanation": "Increasing x by 1 adds one more factor of b, so y is multiplied by b. Increasing by a constant amount is what happens in a linear model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0035",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A radioactive substance decays exponentially. What does the graph of the amount left against time look like?",
+   "imageRef": null,
+   "options": [
+    "A straight line that falls at a steady rate",
+    "A curve that falls ever faster until it hits zero",
+    "A curve that falls and then rises again later",
+    "A curve that falls ever more slowly towards zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each period the same fraction is lost, so the drops get smaller as the amount shrinks and the graph flattens towards the time axis. A straight line would mean the same mass is lost every period.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0036",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "A car worth $30 000 new is worth $21 675 two years later, losing the same percentage each year. What is the yearly rate of depreciation?",
+   "imageRef": null,
+   "options": [
+    "85%",
+    "15%",
+    "27.75%",
+    "13.9%"
+   ],
+   "correctIndex": 1,
+   "explanation": "30 000 \u00d7 b\u00b2 = 21 675, so b\u00b2 = 0.7225 and b = 0.85: a loss of 15% a year. 27.75% is the total loss over 2 years, and 13.9% halves it as if it were linear.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-exponential-functions-0037",
+   "topicId": "gm-sace-exponential-functions",
+   "stem": "Town A has 8000 people growing at 5% per year; town B has 10 000 people growing at 2% per year. After how many whole years is town A first larger?",
+   "imageRef": null,
+   "options": [
+    "8 years",
+    "6 years",
+    "Never, as B starts larger",
+    "11 years"
+   ],
+   "correctIndex": 0,
+   "explanation": "Testing values: after 7 years A = 11257 and B = 11487; after 8 years A = 11820 and B = 11717. The higher growth factor wins in time even from a smaller start.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-exponential-functions-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

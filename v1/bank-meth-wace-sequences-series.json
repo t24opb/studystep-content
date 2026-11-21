@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-wace-sequences-series",
+ "questions": [
+  {
+   "id": "meth-wace-sequences-series-0001",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which recursive definition generates the sequence 5, 9, 13, 17, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2081 = 5, t\u2099\u208a\u2081 = t\u2099 + 5",
+    "t\u2081 = 5, t\u2099\u208a\u2081 = t\u2099 + 4",
+    "t\u2081 = 5, t\u2099\u208a\u2081 = 4t\u2099",
+    "t\u2081 = 4, t\u2099\u208a\u2081 = t\u2099 + 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each term is 4 more than the one before, so the common difference is 4 and the rule is t\u2099\u208a\u2081 = t\u2099 + 4 starting at 5. Multiplying by 4 would give a geometric sequence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0002",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the general term of the arithmetic sequence 7, 4, 1, \u22122, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = 7 + 3(n \u2212 1)",
+    "t\u2099 = 10 \u2212 3n",
+    "t\u2099 = 7 \u2212 3n",
+    "t\u2099 = 4 + 3n"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2081 = 7 and d = \u22123, so t\u2099 = 7 + (n \u2212 1)(\u22123) = 10 \u2212 3n. The rule 7 \u2212 3n gives t\u2081 = 4, one step too far, and a positive d would make the terms increase.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0003",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the 20th term of the arithmetic sequence 3, 8, 13, ...?",
+   "imageRef": null,
+   "options": [
+    "103",
+    "100",
+    "60",
+    "98"
+   ],
+   "correctIndex": 3,
+   "explanation": "t\u2082\u2080 = 3 + (20 \u2212 1) \u00d7 5 = 3 + 95 = 98. Using 20 \u00d7 5 instead of 19 \u00d7 5 gives 103, which counts one difference too many.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0004",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "When the terms of an arithmetic sequence are graphed as the points (n, t\u2099), the points:",
+   "imageRef": null,
+   "options": [
+    "lie on an exponential curve that grows faster and faster",
+    "lie on a straight line whose gradient is the first term",
+    "lie on a parabola whose turning point is the first term",
+    "lie on a straight line whose gradient is the common difference"
+   ],
+   "correctIndex": 3,
+   "explanation": "t\u2099 = t\u2081 + (n \u2212 1)d is linear in n, so the points lie on a line rising or falling by d per step. Exponential curves belong to geometric sequences.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0005",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which term of the arithmetic sequence 6, 10, 14, ... is 102?",
+   "imageRef": null,
+   "options": [
+    "The 24th",
+    "The 26th",
+    "The 17th",
+    "The 25th"
+   ],
+   "correctIndex": 3,
+   "explanation": "6 + 4(n \u2212 1) = 102 gives 4(n \u2212 1) = 96, so n \u2212 1 = 24 and n = 25. Stopping at n \u2212 1 = 24 gives the 24th, one too few.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0006",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "An arithmetic sequence has t\u2084 = 17 and t\u2081\u2080 = 41. What are the first term and the common difference?",
+   "imageRef": null,
+   "options": [
+    "t\u2081 = 1, d = 4",
+    "t\u2081 = 5, d = 6",
+    "t\u2081 = 17, d = 4",
+    "t\u2081 = 5, d = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "From t\u2084 to t\u2081\u2080 there are 6 steps: 6d = 41 \u2212 17 = 24, so d = 4. Then t\u2081 = 17 \u2212 3 \u00d7 4 = 5. The answer t\u2081 = 1 counts four steps back from t\u2084 instead of three, and d = 6 confuses the number of steps with the difference.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0007",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "$5000 is invested at 4% p.a. simple interest. The balance at the end of each year forms an arithmetic sequence. What is the balance at the end of year 6?",
+   "imageRef": null,
+   "options": [
+    "$6326.60",
+    "$6000",
+    "$5240",
+    "$6200"
+   ],
+   "correctIndex": 3,
+   "explanation": "Simple interest adds 4% of $5000, which is $200, each year, so after 6 years the balance is 5000 + 6 \u00d7 200 = $6200. The value $6326.60 is compound interest, a geometric sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0008",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A machine bought for $28 000 loses $2500 in value each year. What is it worth after 7 years?",
+   "imageRef": null,
+   "options": [
+    "$13 000",
+    "$17 500",
+    "$8000",
+    "$10 500"
+   ],
+   "correctIndex": 3,
+   "explanation": "Linear decay subtracts the same amount each year: 28 000 \u2212 7 \u00d7 2500 = 28 000 \u2212 17 500 = $10 500. The value $17 500 is the total loss, not the remaining value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0009",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the sum of the first 20 terms of 3, 8, 13, ...?",
+   "imageRef": null,
+   "options": [
+    "1010",
+    "980",
+    "2020",
+    "1060"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = (n/2)(2t\u2081 + (n \u2212 1)d) = 10 \u00d7 (6 + 19 \u00d7 5) = 10 \u00d7 101 = 1010. Forgetting the n/2 halving gives 2020.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0010",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the sum of the first 50 positive even numbers?",
+   "imageRef": null,
+   "options": [
+    "5100",
+    "2450",
+    "2550",
+    "2500"
+   ],
+   "correctIndex": 2,
+   "explanation": "2 + 4 + ... + 100 has t\u2081 = 2 and t\u2085\u2080 = 100, so S\u2085\u2080 = (50/2)(2 + 100) = 25 \u00d7 102 = 2550. The value 2500 is the sum of the first 50 odd numbers.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0011",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A theatre has 20 seats in the front row and each row behind has 2 more seats than the row in front. How many seats are there in 15 rows?",
+   "imageRef": null,
+   "options": [
+    "48",
+    "510",
+    "300",
+    "1020"
+   ],
+   "correctIndex": 1,
+   "explanation": "The last row has 20 + 14 \u00d7 2 = 48 seats, so S\u2081\u2085 = (15/2)(20 + 48) = 7.5 \u00d7 68 = 510. The value 48 is only the number of seats in the 15th row.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0012",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "An arithmetic sequence has t\u2081 = 4 and t\u2081\u2082 = 37. What is the sum of its first 12 terms?",
+   "imageRef": null,
+   "options": [
+    "246",
+    "492",
+    "222",
+    "41"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = (n/2)(t\u2081 + t\u2099) = 6 \u00d7 (4 + 37) = 246. Leaving out the half gives 492, and 41 is just the sum of the first and last terms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0013",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "How many terms of 5 + 9 + 13 + ... are needed to give a sum of 495?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "123",
+    "15",
+    "16.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2099 = (n/2)(10 + 4(n \u2212 1)) = n(2n + 3). Setting n(2n + 3) = 495 gives 2n\u00b2 + 3n \u2212 495 = 0, so n = (\u22123 + 63)/4 = 15. A number of terms must be a positive whole number.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0014",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "The general term of a sequence is t\u2099 = 7n \u2212 2. What are the first term and the common difference?",
+   "imageRef": null,
+   "options": [
+    "t\u2081 = 5, d = 7",
+    "t\u2081 = \u22122, d = 7",
+    "t\u2081 = 7, d = \u22122",
+    "t\u2081 = 5, d = \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2081 = 7 \u2212 2 = 5 and each increase of 1 in n adds 7, so d = 7. The constant \u22122 would be t\u2080, not t\u2081.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0015",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which recursive definition generates the sequence 3, 6, 12, 24, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2081 = 3, t\u2099\u208a\u2081 = t\u2099 + 2",
+    "t\u2081 = 2, t\u2099\u208a\u2081 = 3t\u2099",
+    "t\u2081 = 3, t\u2099\u208a\u2081 = 2t\u2099",
+    "t\u2081 = 3, t\u2099\u208a\u2081 = t\u2099 + 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each term is double the one before, so t\u2099\u208a\u2081 = r \u00d7 t\u2099 with r = 2 and t\u2081 = 3. Adding 3 fits only the first step, from 3 to 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0016",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the general term of the geometric sequence 2, 6, 18, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = 3 \u00d7 2\u207f\u207b\u00b9",
+    "t\u2099 = 2 + 4(n \u2212 1)",
+    "t\u2099 = 2 \u00d7 3\u207f\u207b\u00b9",
+    "t\u2099 = 2 \u00d7 3\u207f"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u2081 = 2 and r = 3, so t\u2099 = t\u2081r\u207f\u207b\u00b9 = 2 \u00d7 3\u207f\u207b\u00b9. The rule 2 \u00d7 3\u207f gives 6 as the first term, and 2 + 4(n \u2212 1) is arithmetic and fails at 18.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0017",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the 8th term of the geometric sequence 5, 10, 20, ...?",
+   "imageRef": null,
+   "options": [
+    "640",
+    "1280",
+    "320",
+    "40"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2088 = 5 \u00d7 2\u2077 = 5 \u00d7 128 = 640. Using 2\u2078 gives 1280, one ratio too many, and 40 treats the sequence as arithmetic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0018",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the common ratio of 48, \u221224, 12, \u22126, ...?",
+   "imageRef": null,
+   "options": [
+    "\u221224",
+    "\u22121/2",
+    "1/2",
+    "\u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "r = \u221224 \u00f7 48 = \u22121/2, and each later term confirms it. The sign alternates, so r is negative, and \u22122 divides the wrong way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0019",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A geometric sequence has t\u2083 = 12 and t\u2086 = 96. What are the first term and common ratio?",
+   "imageRef": null,
+   "options": [
+    "t\u2081 = 3, r = 8",
+    "t\u2081 = 12, r = 2",
+    "t\u2081 = 3, r = 2",
+    "t\u2081 = 6, r = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u2086 \u00f7 t\u2083 = r\u00b3 = 96 \u00f7 12 = 8, so r = 2, and t\u2081 = 12 \u00f7 2\u00b2 = 3. The value r = 8 is r\u00b3, before taking the cube root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0020",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "The terms of a geometric sequence with t\u2081 > 0 and r = 1.5 are plotted as points (n, t\u2099). The points:",
+   "imageRef": null,
+   "options": [
+    "rise and then level off at a limit",
+    "lie on a parabola through the origin",
+    "lie on an exponential growth curve",
+    "lie on a straight line of gradient 1.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u2099 = t\u2081 \u00d7 1.5\u207f\u207b\u00b9 is an exponential function of n, so the increases themselves grow by a factor of 1.5. A straight line belongs to an arithmetic sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0021",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "For a geometric sequence with \u22121 < r < 1, what happens to the terms t\u2099 as n \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "They approach 0",
+    "They approach 1",
+    "They grow without bound",
+    "They approach t\u2081"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying repeatedly by a number of size less than 1 makes the terms shrink in size towards 0. If |r| > 1 the terms grow without bound instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0022",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What happens to the terms of 81, 27, 9, 3, ... as n \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "They approach 1 from above",
+    "They become negative after the 5th term",
+    "They decrease without bound",
+    "They approach 0 but stay positive"
+   ],
+   "correctIndex": 3,
+   "explanation": "r = 1/3, so the terms keep dividing by 3: 1, 1/3, 1/9, ... They get closer and closer to 0 but never reach it, and never become negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0023",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which describes the terms of a geometric sequence with first term 4 and r = \u22121?",
+   "imageRef": null,
+   "options": [
+    "They alternate between 4 and \u22124",
+    "They approach 0 from both sides",
+    "They grow in size while alternating",
+    "They stay constant at 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying by \u22121 just changes the sign, so the terms are 4, \u22124, 4, \u22124, ... and never settle at a limit. With r = 1 the terms would stay constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0024",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "For which common ratio do the terms of a geometric sequence alternate in sign and approach 0?",
+   "imageRef": null,
+   "options": [
+    "r = \u22121",
+    "r = \u22120.5",
+    "r = 0.5",
+    "r = \u22122"
+   ],
+   "correctIndex": 1,
+   "explanation": "A negative ratio alternates the sign, and a size less than 1 shrinks the terms towards 0. With r = \u22122 the terms alternate but grow, and r = 0.5 approaches 0 without alternating.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0025",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A geometric sequence has t\u2081 = 10. For which values of r do the terms grow without bound in size?",
+   "imageRef": null,
+   "options": [
+    "r = 1 or r = \u22121",
+    "r > 1 or r < \u22121",
+    "r > 0 only",
+    "\u22121 < r < 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "When |r| > 1 each multiplication makes the size bigger, whether or not the sign alternates. With r = 1 the terms stay at 10, and with r = \u22121 they alternate between 10 and \u221210.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0026",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the sum of the first 6 terms of 3, 6, 12, ...?",
+   "imageRef": null,
+   "options": [
+    "381",
+    "186",
+    "189",
+    "96"
+   ],
+   "correctIndex": 2,
+   "explanation": "S\u2086 = t\u2081(r\u207f \u2212 1)/(r \u2212 1) = 3(2\u2076 \u2212 1)/(2 \u2212 1) = 3 \u00d7 63 = 189. The value 96 is t\u2086, a single term, and 381 uses 2\u2077.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0027",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "What is the sum of the first 5 terms of 162, 54, 18, ...?",
+   "imageRef": null,
+   "options": [
+    "363",
+    "242",
+    "243",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "r = 1/3, so S\u2085 = 162(1 \u2212 (1/3)\u2075)/(1 \u2212 1/3) = 162 \u00d7 (242/243) \u00d7 (3/2) = 242. The value 243 is the limit the sums approach, not the sum of five terms, and 2 is the fifth term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0028",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which is the first term of 3, 6, 12, ... that is greater than 1000?",
+   "imageRef": null,
+   "options": [
+    "The 8th term, 384",
+    "The 10th term, 1536",
+    "The 9th term, 768",
+    "The 11th term, 3072"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2099 = 3 \u00d7 2\u207f\u207b\u00b9. t\u2089 = 3 \u00d7 256 = 768 is still below 1000, and t\u2081\u2080 = 3 \u00d7 512 = 1536 is the first above it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0029",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "To derive S\u2099 = t\u2081(r\u207f \u2212 1)/(r \u2212 1), you write S\u2099 = t\u2081 + t\u2081r + ... + t\u2081r\u207f\u207b\u00b9. What is the key next step?",
+   "imageRef": null,
+   "options": [
+    "Divide every term by r and add the results",
+    "Take logarithms of both sides of the sum",
+    "Multiply by r and subtract, so most terms cancel",
+    "Pair the first and last terms, which all add to the same total"
+   ],
+   "correctIndex": 2,
+   "explanation": "rS\u2099 = t\u2081r + ... + t\u2081r\u207f, and rS\u2099 \u2212 S\u2099 = t\u2081r\u207f \u2212 t\u2081, so S\u2099(r \u2212 1) = t\u2081(r\u207f \u2212 1). Pairing first and last terms is the method for arithmetic series.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0030",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which statement about interest is correct?",
+   "imageRef": null,
+   "options": [
+    "Both simple and compound interest balances form geometric sequences, with different ratios",
+    "Simple interest balances form an arithmetic sequence; compound interest balances form a geometric one",
+    "Simple interest balances form a geometric sequence; compound interest balances form an arithmetic one",
+    "Both simple and compound interest balances form arithmetic sequences, with different differences"
+   ],
+   "correctIndex": 1,
+   "explanation": "Simple interest adds the same dollar amount each period (a common difference), while compound interest multiplies by 1 + r each period (a common ratio).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0031",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "$2000 is invested at 5% p.a. compounded annually. What is the balance at the end of the 4th year, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$2552.56",
+    "$2431.01",
+    "$2400.00",
+    "$2315.25"
+   ],
+   "correctIndex": 1,
+   "explanation": "The balances form a geometric sequence with r = 1.05, so the balance after 4 years is 2000 \u00d7 1.05\u2074 = $2431.01. Simple interest would give $2400, and $2315.25 is the balance after 3 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0032",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A ball is dropped from 10 m and each bounce reaches 60% of the previous height. How high does it rise after the 3rd bounce?",
+   "imageRef": null,
+   "options": [
+    "1.296 m",
+    "4.0 m",
+    "2.16 m",
+    "3.6 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The heights 6, 3.6, 2.16 form a geometric sequence: 10 \u00d7 0.6\u00b3 = 2.16 m. The value 3.6 m is after the second bounce, and 4.0 m keeps 40% of the drop height instead of 60%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0033",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A ball is dropped from 10 m and each bounce reaches 60% of the previous height. How far has it travelled when it hits the ground for the 4th time?",
+   "imageRef": null,
+   "options": [
+    "21.76 m",
+    "23.52 m",
+    "11.76 m",
+    "33.52 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "It falls 10 m, then rises and falls 6, 3.6 and 2.16 m: 10 + 2(6 + 3.6 + 2.16) = 10 + 23.52 = 33.52 m. Counting each bounce height once gives 21.76 m, which forgets the trip back down.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0034",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A town has 1200 people at the start of year 1, and the population grows by 8% each year. Which rule gives the population at the start of year n?",
+   "imageRef": null,
+   "options": [
+    "P\u2099 = 1200 \u00d7 1.8\u207f\u207b\u00b9",
+    "P\u2099 = 1200 \u00d7 1.08\u207f\u207b\u00b9",
+    "P\u2099 = 1200 \u00d7 0.08\u207f\u207b\u00b9",
+    "P\u2099 = 1200 + 96(n \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Growth of 8% multiplies by 1.08 each year, and year 1 has no growth yet, so the power is n \u2212 1. Adding 96 a year is linear growth, which ignores the compounding.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0035",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Which of these sequences has a common ratio, making it geometric?",
+   "imageRef": null,
+   "options": [
+    "2, \u22126, 18, \u221254, ...",
+    "2, 6, 10, 14, ...",
+    "1, 4, 9, 16, ...",
+    "2, 4, 8, 14, ..."
+   ],
+   "correctIndex": 0,
+   "explanation": "Each term of 2, \u22126, 18, \u221254 is \u22123 times the one before, a common ratio. The second sequence is arithmetic, the third is the square numbers, and the last has no common ratio.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0036",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "Job A pays $50 000 in year 1, rising by $2000 a year. Job B pays $50 000 in year 1, rising by 3.5% a year. Over the first 5 years, which pays more in total, and by about how much?",
+   "imageRef": null,
+   "options": [
+    "Job B, by about $1877",
+    "Job A, by about $8000",
+    "Job B, by about $2000",
+    "Job A, by about $1877"
+   ],
+   "correctIndex": 3,
+   "explanation": "A: S\u2085 = (5/2)(100 000 + 8000) = $270 000. B: S\u2085 = 50 000(1.035\u2075 \u2212 1)/0.035 \u2248 $268 123. Job A pays about $1877 more over 5 years, although B's yearly pay overtakes A's later.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0037",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "A sequence is defined by t\u2081 = 400 and t\u2099\u208a\u2081 = 0.9t\u2099. What is t\u2084?",
+   "imageRef": null,
+   "options": [
+    "262.44",
+    "360",
+    "370",
+    "291.6"
+   ],
+   "correctIndex": 3,
+   "explanation": "t\u2099 = 400 \u00d7 0.9\u207f\u207b\u00b9, so t\u2084 = 400 \u00d7 0.9\u00b3 = 291.6. The value 262.44 uses 0.9\u2074, one ratio too many, and 370 subtracts 10 each time instead of 10%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-wace-sequences-series-0038",
+   "topicId": "meth-wace-sequences-series",
+   "stem": "The numbers 4, x and 36 are consecutive terms of a geometric sequence with x > 0. What is x?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "9",
+    "16",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "A constant ratio means x/4 = 36/x, so x\u00b2 = 144 and x = 12 (ratio 3). The value 20 is the arithmetic mean, which would make the sequence arithmetic.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-wace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

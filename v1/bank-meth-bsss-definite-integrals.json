@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-bsss-definite-integrals",
+ "questions": [
+  {
+   "id": "meth-bsss-definite-integrals-0001",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The area under y = x\u00b2 + 1 from x = 0 to x = 2 is estimated with four rectangles of width 0.5, using the height at the left end of each strip. What is the estimate?",
+   "imageRef": null,
+   "options": [
+    "7.5",
+    "4.75",
+    "3.75",
+    "5.75"
+   ],
+   "correctIndex": 2,
+   "explanation": "The heights are f(0) = 1, f(0.5) = 1.25, f(1) = 2 and f(1.5) = 3.25, which add to 7.5, and 7.5 \u00d7 0.5 = 3.75. The value 7.5 forgets to multiply by the strip width.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0002",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The area under y = x\u00b2 + 1 from x = 0 to x = 2 is estimated with four rectangles of width 0.5, using the height at the right end of each strip. What is the estimate?",
+   "imageRef": null,
+   "options": [
+    "3.75",
+    "11.5",
+    "4.67",
+    "5.75"
+   ],
+   "correctIndex": 3,
+   "explanation": "The heights are f(0.5) = 1.25, f(1) = 2, f(1.5) = 3.25 and f(2) = 5, which add to 11.5, so the estimate is 11.5 \u00d7 0.5 = 5.75. The exact area, 14/3 \u2248 4.67, lies between the left and right estimates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0003",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The area under y = 4 \u2212 x\u00b2 from x = 0 to x = 2 is estimated with four rectangles of width 0.5, using the height at the right end of each strip. What is the estimate?",
+   "imageRef": null,
+   "options": [
+    "4.25",
+    "6.25",
+    "5.33",
+    "8.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The heights are f(0.5) = 3.75, f(1) = 3, f(1.5) = 1.75 and f(2) = 0, which add to 8.5, and 8.5 \u00d7 0.5 = 4.25. Left ends give 6.25, and the exact area is 16/3 \u2248 5.33.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0004",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "f is positive and decreasing on [a, b]. Rectangles whose heights are taken at the left end of each strip are used to estimate the area under y = f(x). The estimate is:",
+   "imageRef": null,
+   "options": [
+    "too small, because each height is the smallest value of f on its strip",
+    "exact, because the errors above and below the curve cancel out",
+    "too small, because the rectangles leave gaps under the curve",
+    "too large, because each height is the largest value of f on its strip"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a decreasing function the left end of each strip is where f is greatest, so each rectangle reaches above the curve. Right-end heights would give an underestimate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0005",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "As the number of rectangles used to estimate the area under a curve increases (and their width decreases), the estimate:",
+   "imageRef": null,
+   "options": [
+    "stays the same for any number of rectangles",
+    "approaches the exact area, the definite integral",
+    "always increases without bound",
+    "approaches zero, since each rectangle shrinks"
+   ],
+   "correctIndex": 1,
+   "explanation": "Thinner rectangles fit the curve more closely, and in the limit as the width tends to 0 the sum equals the definite integral. The rectangles shrink, but there are more of them, so the total does not tend to zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0006",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Which expression is the right-end rectangle estimate of the area under y = x\u00b3 from x = 0 to x = 1 using n strips of equal width?",
+   "imageRef": null,
+   "options": [
+    "(1/n) \u00d7 the sum of i\u00b3 for i = 1 to n",
+    "(1/n) \u00d7 the sum of (i/n)\u00b3 for i = 1 to n",
+    "(1/n) \u00d7 the sum of (i/n)\u00b3 for i = 0 to n \u2212 1",
+    "the sum of (i/n)\u00b3 for i = 1 to n"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each strip has width 1/n, and the right ends are at x = 1/n, 2/n, ..., n/n, so the heights are (i/n)\u00b3 for i = 1 to n. Running i from 0 to n \u2212 1 uses the left ends.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0007",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "f(x) \u2265 0 for a \u2264 x \u2264 b. What does the integral of f(x) from x = a to x = b represent?",
+   "imageRef": null,
+   "options": [
+    "The average of the values f(a) and f(b)",
+    "The length of the curve y = f(x) from x = a to x = b",
+    "The area between y = f(x) and the x-axis from x = a to x = b",
+    "The gradient of y = f(x) at x = b"
+   ],
+   "correctIndex": 2,
+   "explanation": "When the curve is on or above the x-axis, the definite integral is the area of the region under it. Gradients come from differentiation, not integration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0008",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "f(x) < 0 for a < x < b, and the region between y = f(x) and the x-axis from x = a to x = b has area 6. What is the integral of f(x) from x = a to x = b?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "0",
+    "36",
+    "\u22126"
+   ],
+   "correctIndex": 3,
+   "explanation": "The definite integral measures signed area: regions below the x-axis count as negative. So the integral is \u22126, while the geometric area is 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0009",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the value of the integral of sin(x) from x = 0 to x = 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "2",
+    "\u22122",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "From 0 to \u03c0 the curve is above the axis with area 2, and from \u03c0 to 2\u03c0 it is below with area 2, so the signed areas cancel: [\u2212cos(x)] from 0 to 2\u03c0 = \u22121 + 1 = 0. The value 4 is the total geometric area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0010",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The region between y = f(x) and the x-axis has area 5 for 0 \u2264 x \u2264 2, where f is positive, and area 3 for 2 \u2264 x \u2264 5, where f is negative. What is the integral of f(x) from x = 0 to x = 5?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "8",
+    "\u22122",
+    "15"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral adds signed areas: 5 + (\u22123) = 2. The value 8 is the total area enclosed, which counts the region below the axis as positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0011",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The integral of f(x) from x = 0 to x = 3 is 7, and from x = 0 to x = 5 is 12. What is the integral of f(x) from x = 3 to x = 5?",
+   "imageRef": null,
+   "options": [
+    "84",
+    "5",
+    "19",
+    "\u22125"
+   ],
+   "correctIndex": 1,
+   "explanation": "By additivity, the integral from 0 to 5 equals the integral from 0 to 3 plus the integral from 3 to 5, so the last is 12 \u2212 7 = 5. Adding 7 and 12 gives 19, which double-counts the interval from 0 to 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0012",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The integral of f(x) from x = 1 to x = 4 is 5. What is the integral of 2f(x) + 3 from x = 1 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "22",
+    "19",
+    "13"
+   ],
+   "correctIndex": 2,
+   "explanation": "By linearity, the integral is 2 \u00d7 5 plus the integral of 3 over an interval of length 3, which is 9, so 10 + 9 = 19. The value 13 integrates the constant 3 as if it were just 3, ignoring the interval length.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0013",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The integral of f(x) from x = 1 to x = 5 is 6. What is the integral of f(x) from x = 5 to x = 1?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "\u22126",
+    "6",
+    "0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reversing the terminals changes the sign: F(1) \u2212 F(5) = \u2212(F(5) \u2212 F(1)) = \u22126. The integral from a value to itself is 0, but these terminals are different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0014",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of x\u00b3 + 2 from x = \u22121 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "4",
+    "0",
+    "2",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The x\u00b3 part has equal areas above and below the axis on [\u22121, 1], so its integral is 0, and the constant 2 over an interval of length 2 gives 4. The value 2 forgets that the interval has length 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0015",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "F is an anti-derivative of f. By the fundamental theorem of calculus, the integral of f(x) from x = a to x = b equals:",
+   "imageRef": null,
+   "options": [
+    "F(b) + F(a)",
+    "F(b) \u2212 F(a)",
+    "F(a) \u2212 F(b)",
+    "F\u2032(b) \u2212 F\u2032(a)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fundamental theorem says the definite integral is the change in an anti-derivative: F(b) \u2212 F(a). Using F\u2032 = f instead of F gives the change in the function being integrated, not the integral.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0016",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of 3x\u00b2 + 2x from x = 1 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "10",
+    "12",
+    "8",
+    "14"
+   ],
+   "correctIndex": 0,
+   "explanation": "An anti-derivative is x\u00b3 + x\u00b2, so the integral is (8 + 4) \u2212 (1 + 1) = 10. The value 12 is the anti-derivative at x = 2 alone, forgetting to subtract its value at x = 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0017",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of e\u02e3 from x = 0 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "e",
+    "1",
+    "e + 1",
+    "e \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Since e\u02e3 is its own anti-derivative, the integral is e\u00b9 \u2212 e\u2070 = e \u2212 1. Forgetting that e\u2070 = 1 must be subtracted gives e.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0018",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of sin(x) from x = 0 to x = \u03c0.",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u22122",
+    "1",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative of sin(x) is \u2212cos(x), so the integral is \u2212cos(\u03c0) \u2212 (\u2212cos(0)) = 1 + 1 = 2. Using cos(x) as the anti-derivative gives \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0019",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of cos(x) from x = 0 to x = \u03c0/6.",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "\u22121/2",
+    "1 \u2212 \u221a3/2",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative of cos(x) is sin(x), so the integral is sin(\u03c0/6) \u2212 sin(0) = 1/2. The value \u221a3/2 is cos(\u03c0/6), which comes from not anti-differentiating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0020",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of e\u00b2\u02e3 from x = 0 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "(e \u2212 1)/2",
+    "(e\u00b2 \u2212 1)/2",
+    "e\u00b2 \u2212 1",
+    "2(e\u00b2 \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "An anti-derivative of e\u00b2\u02e3 is e\u00b2\u02e3/2, so the integral is (e\u00b2 \u2212 e\u2070)/2 = (e\u00b2 \u2212 1)/2. Multiplying by 2 instead of dividing differentiates rather than anti-differentiates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0021",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Evaluate the integral of \u221ax from x = 4 to x = 9.",
+   "imageRef": null,
+   "options": [
+    "57/2",
+    "1",
+    "38/3",
+    "19/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Writing \u221ax = x^(1/2), an anti-derivative is (2/3)x^(3/2), so the integral is (2/3)(27 \u2212 8) = 38/3. Using (3/2)x^(3/2) gives 57/2, and the value 1 is just \u221a9 \u2212 \u221a4, with no anti-differentiation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0022",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "For k > 0, the integral of 2x from x = 0 to x = k equals 9. What is k?",
+   "imageRef": null,
+   "options": [
+    "4.5",
+    "81",
+    "3",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral is [x\u00b2] from 0 to k = k\u00b2, so k\u00b2 = 9 and k = 3, taking the positive value. The value 4.5 solves 2k = 9, forgetting to anti-differentiate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0023",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The signed area function is A(x) = the integral of (t\u00b2 + 1) from t = 1 to t = x. What is A\u2032(x)?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 1",
+    "x\u00b2 + 1",
+    "2x",
+    "x\u00b3/3 + x"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fundamental theorem says the derivative of the signed area function is the function being integrated, evaluated at x, so A\u2032(x) = x\u00b2 + 1. The lower terminal, 1, does not affect the derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0024",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "A(x) is the integral of (3t \u2212 1) from t = 2 to t = x. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "A(0) = 0 and A\u2032(4) = 3",
+    "A(2) = 0 and A\u2032(4) = 11",
+    "A(2) = 5 and A\u2032(4) = 11",
+    "A(2) = 0 and A\u2032(4) = 20"
+   ],
+   "correctIndex": 1,
+   "explanation": "An integral from 2 to 2 covers no width, so A(2) = 0. By the fundamental theorem, A\u2032(x) = 3x \u2212 1, so A\u2032(4) = 11. The value 20 is A(4), not A\u2032(4).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0025",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "In the geometric argument for the fundamental theorem, A(x) is the signed area under y = f(x) from a fixed point to x. For small h > 0, A(x + h) \u2212 A(x) is approximately:",
+   "imageRef": null,
+   "options": [
+    "f(x + h) \u2212 f(x), the change in height over the strip",
+    "h, the width of the thin strip being added to the area",
+    "f(x)/h, the height of the strip divided by its width",
+    "h \u00d7 f(x), the area of a thin strip of width h and height f(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The extra area is a thin strip of width h and height close to f(x), so A(x + h) \u2212 A(x) \u2248 hf(x). Dividing by h and letting h \u2192 0 gives A\u2032(x) = f(x).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0026",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area under y = x\u00b2 + 1 from x = 0 to x = 3?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "10",
+    "9",
+    "30"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is [x\u00b3/3 + x] from 0 to 3 = 9 + 3 = 12. The value 9 leaves out the area contributed by the constant 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0027",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area under y = cos(x) from x = 0 to x = \u03c0/2?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u03c0/2",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(x) is non-negative on this interval, so the area is [sin(x)] from 0 to \u03c0/2 = 1 \u2212 0 = 1. The value \u22121 uses \u2212sin(x) as the anti-derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0028",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area of the region enclosed by y = 4 \u2212 x\u00b2 and the x-axis?",
+   "imageRef": null,
+   "options": [
+    "16/3",
+    "8",
+    "64/3",
+    "32/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve meets the x-axis at x = \u22122 and x = 2, so the area is [4x \u2212 x\u00b3/3] from \u22122 to 2 = 16/3 \u2212 (\u221216/3) = 32/3. The value 16/3 covers only x = 0 to x = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0029",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the total area between y = x(x \u2212 3) and the x-axis from x = 0 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "9/2",
+    "19/3",
+    "8/3",
+    "\u22128/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curve is below the axis on [0, 3], where the integral is \u22129/2, and above it on [3, 4], where it is 11/6. The area is 9/2 + 11/6 = 19/3. Integrating straight from 0 to 4 gives \u22128/3, where the parts cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0030",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area of the region enclosed by y = x and y = x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/3",
+    "5/6",
+    "1/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curves meet at x = 0 and x = 1, with y = x above. The area is the integral of x \u2212 x\u00b2 from 0 to 1 = 1/2 \u2212 1/3 = 1/6. The values 1/2 and 1/3 are the areas under each curve separately.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0031",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area of the region enclosed by y = 4 \u2212 x\u00b2 and y = x + 2?",
+   "imageRef": null,
+   "options": [
+    "7/6",
+    "9/2",
+    "27/2",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet where 4 \u2212 x\u00b2 = x + 2, that is x\u00b2 + x \u2212 2 = 0, so x = \u22122 or x = 1. The area is the integral of 2 \u2212 x \u2212 x\u00b2 from \u22122 to 1, which is 9/2. The value 7/6 integrates only from 0 to 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0032",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "What is the area between y = cos(x) and y = sin(x) from x = 0 to x = \u03c0/4?",
+   "imageRef": null,
+   "options": [
+    "\u221a2",
+    "1 \u2212 \u221a2/2",
+    "2 \u2212 \u221a2",
+    "\u221a2 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "On this interval cos(x) \u2265 sin(x), so the area is [sin(x) + cos(x)] from 0 to \u03c0/4 = (\u221a2/2 + \u221a2/2) \u2212 (0 + 1) = \u221a2 \u2212 1. The value \u221a2 forgets to subtract the value at x = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0033",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "Water flows into a tank at R(t) = 20 \u2212 2t litres per minute for 0 \u2264 t \u2264 10. How much water flows in over the 10 minutes?",
+   "imageRef": null,
+   "options": [
+    "100 L",
+    "200 L",
+    "0 L",
+    "180 L"
+   ],
+   "correctIndex": 0,
+   "explanation": "The total change is the integral of the rate: [20t \u2212 t\u00b2] from 0 to 10 = 200 \u2212 100 = 100 L. The value 200 L assumes the flow stays at 20 litres per minute.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0034",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "The marginal cost of making x items is C\u2032(x) = 50 \u2212 0.2x dollars per item. By how much does the total cost increase when production rises from 100 to 150 items?",
+   "imageRef": null,
+   "options": [
+    "$20",
+    "$1750",
+    "$1250",
+    "$2500"
+   ],
+   "correctIndex": 2,
+   "explanation": "The increase is the integral of C\u2032(x) from 100 to 150: [50x \u2212 0.1x\u00b2] = (7500 \u2212 2250) \u2212 (5000 \u2212 1000) = 1250. The value $2500 ignores the \u22120.2x term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0035",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "A particle has velocity v = 3t\u00b2 \u2212 6t m/s. What are its displacement and the distance it travels from t = 0 to t = 3?",
+   "imageRef": null,
+   "options": [
+    "Displacement 0 m, distance 8 m",
+    "Displacement 0 m, distance 0 m",
+    "Displacement 8 m, distance 8 m",
+    "Displacement \u22124 m, distance 4 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral from 0 to 3 is [t\u00b3 \u2212 3t\u00b2] = 0, so the displacement is 0. But v < 0 for 0 < t < 2, where the particle moves to x = \u22124 relative to the start, then returns, so the distance is 4 + 4 = 8 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-bsss-definite-integrals-0036",
+   "topicId": "meth-bsss-definite-integrals",
+   "stem": "A population grows at the rate P\u2032(t) = 100e^(0.1t) per year. By how much does it increase over the first 10 years, to the nearest whole number?",
+   "imageRef": null,
+   "options": [
+    "1718",
+    "272",
+    "1000",
+    "2718"
+   ],
+   "correctIndex": 0,
+   "explanation": "The increase is the integral of 100e^(0.1t) from 0 to 10 = [1000e^(0.1t)] = 1000e \u2212 1000 \u2248 1718. The value 2718 is 1000e, forgetting to subtract the value at t = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-bsss-definite-integrals-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

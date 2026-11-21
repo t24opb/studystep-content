@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-qce-integration-applications",
+ "questions": [
+  {
+   "id": "spec-qce-integration-applications-0001",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "On the interval a \u2264 x \u2264 b, f(x) \u2265 g(x). The area between the curves y = f(x) and y = g(x) is:",
+   "imageRef": null,
+   "options": [
+    "the integral from a to b of (f(x) \u2212 g(x)) dx",
+    "the integral from a to b of (g(x) \u2212 f(x)) dx",
+    "the integral from a to b of f(x)g(x) dx",
+    "the integral from a to b of (f(x) \u2212 g(x))\u00b2 dx"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is the integral of the upper function minus the lower function. Integrating g(x) \u2212 f(x) gives the negative of the area, because g is the lower curve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0002",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area of the region enclosed by y = x\u00b2 and y = x + 2 is:",
+   "imageRef": null,
+   "options": [
+    "10/3",
+    "9",
+    "9/2",
+    "7/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet where x\u00b2 = x + 2, at x = \u22121 and x = 2, and the line is above the parabola between them. The area is [x\u00b2/2 + 2x \u2212 x\u00b3/3] from \u22121 to 2 = 10/3 \u2212 (\u22127/6) = 9/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0003",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area between the curve y = sin(2x) and the x-axis, from x = 0 to x = \u03c0, is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "1",
+    "4",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin(2x) is positive on (0, \u03c0/2) and negative on (\u03c0/2, \u03c0). Each part has area [\u2212cos(2x)/2] over a half, which is 1, so the total area is 2. Integrating straight from 0 to \u03c0 gives 0, because the signed areas cancel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0004",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area under y = 1/(1 + x\u00b2) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "\u03c0/2",
+    "ln 2",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The integral of 1/(1 + x\u00b2) is tan\u207b\u00b9(x), so the area is tan\u207b\u00b9(1) \u2212 tan\u207b\u00b9(0) = \u03c0/4. The value ln 2 would come from treating the integrand as if it were 2x/(1 + x\u00b2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0005",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area under y = 1/x from x = 1 to x = e\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1 \u2212 1/e\u00b2",
+    "2",
+    "e\u00b2 \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "[ln|x|] from 1 to e\u00b2 = ln(e\u00b2) \u2212 ln(1) = 2 \u2212 0 = 2. The value 1 \u2212 1/e\u00b2 comes from integrating 1/x\u00b2 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0006",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area of the region bounded by y = ln(x), the x-axis and the line x = e is:",
+   "imageRef": null,
+   "options": [
+    "e \u2212 1",
+    "e",
+    "1/e",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curve meets the x-axis at x = 1. By parts, \u222b ln(x) dx = x ln(x) \u2212 x, so the area is (e \u2212 e) \u2212 (0 \u2212 1) = 1. The value e \u2212 1 is the width of the interval, not the area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0007",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area under y = 1/\u221a(4 \u2212 x\u00b2) from x = \u22121 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0/3",
+    "\u03c0/2",
+    "\u03c0/3",
+    "\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "[sin\u207b\u00b9(x/2)] from \u22121 to 1 = sin\u207b\u00b9(1/2) \u2212 sin\u207b\u00b9(\u22121/2) = \u03c0/6 + \u03c0/6 = \u03c0/3. Stopping at \u03c0/6 uses only the part from 0 to 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0008",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area under y = 3/((x + 1)(x \u2212 2)) from x = 3 to x = 5 is:",
+   "imageRef": null,
+   "options": [
+    "ln 4",
+    "ln(1/2)",
+    "3 ln 2",
+    "ln 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "3/((x + 1)(x \u2212 2)) = 1/(x \u2212 2) \u2212 1/(x + 1), so the area is [ln((x \u2212 2)/(x + 1))] from 3 to 5 = ln(3/6) \u2212 ln(1/4) = ln 2. Multiplying by 3 again, when the partial fractions already include it, gives 3 ln 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0009",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The area under y = x e^(\u2212x) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 1/e",
+    "2/e \u2212 1",
+    "1 \u2212 2/e",
+    "1/e"
+   ],
+   "correctIndex": 2,
+   "explanation": "By parts with u = x: \u222b x e^(\u2212x) dx = \u2212x e^(\u2212x) \u2212 e^(\u2212x). From 0 to 1: (\u22121/e \u2212 1/e) \u2212 (0 \u2212 1) = 1 \u2212 2/e, about 0.264. The value 2/e \u2212 1 is negative, so it cannot be an area.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0010",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "A solid is formed by rotating the region under y = f(x), for a \u2264 x \u2264 b, about the x-axis. Its volume is given by:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0 times the integral from a to b of f(x) dx",
+    "the integral from a to b of \u03c0 f(x\u00b2) dx",
+    "\u03c0 times the integral from a to b of [f(x)]\u00b2 dx",
+    "\u03c0 times the integral from a to b of f(x) dx"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each thin slice is a disc of radius f(x) and area \u03c0[f(x)]\u00b2, so V = \u03c0 \u222b [f(x)]\u00b2 dx. Without squaring, the integral gives \u03c0 times an area, not a volume.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0011",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "A region between a curve and the y-axis, from y = a to y = b, is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0 times the integral from a to b of x\u00b2 dy, with x written in terms of y",
+    "\u03c0 times the integral from a to b of y\u00b2 dx, with y written in terms of x",
+    "\u03c0 times the integral from a to b of x dy, with x written in terms of y",
+    "2\u03c0 times the integral from a to b of x\u00b2 dx, with x as the variable"
+   ],
+   "correctIndex": 0,
+   "explanation": "Slices perpendicular to the y-axis are discs of radius x, so V = \u03c0 \u222b x\u00b2 dy, which needs x as a function of y and bounds in y. Integrating y\u00b2 with respect to x gives rotation about the x-axis instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0012",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region under y = \u221ax, from x = 0 to x = 4, is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "16\u03c0/3",
+    "4\u03c0",
+    "32\u03c0",
+    "8\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "V = \u03c0 \u222b from 0 to 4 of (\u221ax)\u00b2 dx = \u03c0 \u222b x dx = \u03c0[x\u00b2/2] from 0 to 4 = 8\u03c0. Integrating \u221ax without squaring gives \u03c0 \u00d7 16/3, which is not a volume.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0013",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The line y = x/2, from x = 0 to x = 6, is rotated about the x-axis. The volume of the cone formed is:",
+   "imageRef": null,
+   "options": [
+    "36\u03c0",
+    "18\u03c0",
+    "54\u03c0",
+    "9\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = \u03c0 \u222b from 0 to 6 of x\u00b2/4 dx = \u03c0[x\u00b3/12] from 0 to 6 = 18\u03c0. This agrees with the cone formula (1/3)\u03c0r\u00b2h with r = 3 and h = 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0014",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The semicircle y = \u221a(9 \u2212 x\u00b2), \u22123 \u2264 x \u2264 3, is rotated about the x-axis. The volume of the sphere formed is:",
+   "imageRef": null,
+   "options": [
+    "36\u03c0",
+    "18\u03c0",
+    "27\u03c0",
+    "108\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = \u03c0 \u222b from \u22123 to 3 of (9 \u2212 x\u00b2) dx = \u03c0[9x \u2212 x\u00b3/3] from \u22123 to 3 = \u03c0(18 \u2212 (\u221218)) = 36\u03c0, which matches (4/3)\u03c0(3)\u00b3. Integrating from 0 to 3 only gives the hemisphere, 18\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0015",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region under y = 1/\u221a(1 + x\u00b2), from x = 0 to x = 1, is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4",
+    "\u03c0 ln 2",
+    "\u03c0\u00b2/2",
+    "\u03c0\u00b2/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "V = \u03c0 \u222b from 0 to 1 of 1/(1 + x\u00b2) dx = \u03c0[tan\u207b\u00b9(x)] from 0 to 1 = \u03c0 \u00d7 \u03c0/4 = \u03c0\u00b2/4. Leaving out the \u03c0 in front of the integral gives \u03c0/4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0016",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region under y = sin(x), from x = 0 to x = \u03c0, is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0\u00b2",
+    "\u03c0/2",
+    "\u03c0\u00b2/2",
+    "2\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "V = \u03c0 \u222b from 0 to \u03c0 of sin\u00b2(x) dx = \u03c0[x/2 \u2212 sin(2x)/4] from 0 to \u03c0 = \u03c0 \u00d7 \u03c0/2 = \u03c0\u00b2/2. The value 2\u03c0 comes from \u03c0 \u222b sin(x) dx, without squaring.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0017",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region under y = 2/(x + 1), from x = 0 to x = 1, is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "4\u03c0",
+    "2\u03c0",
+    "4\u03c0 ln 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "V = \u03c0 \u222b from 0 to 1 of 4/(x + 1)\u00b2 dx = 4\u03c0[\u22121/(x + 1)] from 0 to 1 = 4\u03c0(\u22121/2 + 1) = 2\u03c0. The value 4\u03c0 ln 2 comes from squaring 2 but not (x + 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0018",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region bounded by y = x\u00b2, the y-axis and the line y = 2, with x \u2265 0, is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "4\u03c0",
+    "8\u03c0/3",
+    "\u03c0",
+    "2\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "With x\u00b2 = y, V = \u03c0 \u222b from 0 to 2 of y dy = \u03c0[y\u00b2/2] from 0 to 2 = 2\u03c0. Using x\u2074 = y\u00b2 as the integrand gives 8\u03c0/3, which squares the radius twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0019",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region bounded by y = 4 \u2212 x\u00b2, the y-axis and the x-axis, with x \u2265 0, is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "4\u03c0",
+    "8\u03c0",
+    "16\u03c0",
+    "32\u03c0/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here x\u00b2 = 4 \u2212 y and y runs from 0 to 4, so V = \u03c0 \u222b from 0 to 4 of (4 \u2212 y) dy = \u03c0[4y \u2212 y\u00b2/2] from 0 to 4 = 8\u03c0. Integrating 4 alone gives 16\u03c0, forgetting the \u2212 y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0020",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region enclosed by y = x and y = x\u00b2 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/15",
+    "2\u03c0/15",
+    "\u03c0/30",
+    "\u03c0/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet at x = 0 and x = 1, with y = x on top. Using washers, V = \u03c0 \u222b from 0 to 1 of (x\u00b2 \u2212 x\u2074) dx = \u03c0(1/3 \u2212 1/5) = 2\u03c0/15. Squaring the difference, \u03c0 \u222b (x \u2212 x\u00b2)\u00b2 dx, gives \u03c0/30, which is not the washer volume.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0021",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The region bounded by y = ln(x), the y-axis, the x-axis and the line y = 1 is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0(e\u00b2 \u2212 1)",
+    "\u03c0(e\u00b2 \u2212 1)/2",
+    "\u03c0(e \u2212 1)",
+    "\u03c0(e\u00b2 + 1)/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "With x = e\u02b8, V = \u03c0 \u222b from 0 to 1 of e^(2y) dy = \u03c0[e^(2y)/2] from 0 to 1 = \u03c0(e\u00b2 \u2212 1)/2. The value \u03c0(e \u2212 1) uses x instead of x\u00b2 as the integrand.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0022",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "When Simpson's rule is used to approximate a definite integral, the number of strips n must be:",
+   "imageRef": null,
+   "options": [
+    "odd",
+    "a multiple of 3",
+    "at least 10",
+    "even"
+   ],
+   "correctIndex": 3,
+   "explanation": "Simpson's rule fits a parabola through each pair of strips, using three points at a time, so the strips must come in pairs and n must be even.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0023",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "In Simpson's rule with n = 6 strips, the coefficient of f(x\u2083) inside the square brackets is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The pattern of coefficients is 1, 4, 2, 4, 2, 4, 1 for x\u2080 to x\u2086: odd-numbered points get 4 and interior even-numbered points get 2. x\u2083 has an odd subscript, so its coefficient is 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0024",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "Using Simpson's rule with n = 2, the integral of x\u00b3 from x = 0 to x = 2 is approximated as:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "4",
+    "6",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "w = (2 \u2212 0)/2 = 1, so the estimate is (1/3)[f(0) + 4f(1) + f(2)] = (1/3)(0 + 4 + 8) = 4. Leaving out the 1/3 gives 12. Here the estimate equals the exact value, 2\u2074/4 = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0025",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "A function has values f(0) = 1, f(1) = 2, f(2) = 5, f(3) = 10 and f(4) = 17. Simpson's rule with these values estimates the integral of f from x = 0 to x = 4 as:",
+   "imageRef": null,
+   "options": [
+    "62/3",
+    "26",
+    "76",
+    "76/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "With w = 1: (1/3)[1 + 4(2 + 10) + 2(5) + 17] = (1/3)(1 + 48 + 10 + 17) = 76/3. Swapping the coefficients 4 and 2 gives (1/3)(1 + 24 + 20 + 17) = 62/3, and the trapezoidal rule gives 26 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0026",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "Using Simpson's rule with n = 2, the integral of 1/x from x = 1 to x = 3 is approximated as:",
+   "imageRef": null,
+   "options": [
+    "11/6",
+    "10/9",
+    "7/6",
+    "5/9"
+   ],
+   "correctIndex": 1,
+   "explanation": "w = 1, so the estimate is (1/3)[1 + 4(1/2) + 1/3] = (1/3)(10/3) = 10/9, about 1.111. The exact value is ln 3, about 1.099. The trapezoidal rule with the same points gives 7/6, which is less accurate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0027",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "Using Simpson's rule with n = 4, the integral of sin(x) from x = 0 to x = \u03c0 is approximated as:",
+   "imageRef": null,
+   "options": [
+    "\u03c0(2\u221a2 + 1)/3",
+    "\u03c0(\u221a2 + 1)/6",
+    "\u03c0(4\u221a2 + 1)/12",
+    "\u03c0(2\u221a2 + 1)/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "w = \u03c0/4, so the estimate is (\u03c0/12)[0 + 4(sin(\u03c0/4) + sin(3\u03c0/4)) + 2 sin(\u03c0/2) + 0] = (\u03c0/12)(4\u221a2 + 2) = \u03c0(2\u221a2 + 1)/6, about 2.005. The exact value is 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0028",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "A paddock's width is measured every 10 m along a 40 m boundary, giving widths 0, 12, 16, 14 and 0 metres. Simpson's rule estimates its area, in square metres, as about:",
+   "imageRef": null,
+   "options": [
+    "387",
+    "1360",
+    "453",
+    "420"
+   ],
+   "correctIndex": 2,
+   "explanation": "With w = 10: (10/3)[0 + 4(12 + 14) + 2(16) + 0] = (10/3)(104 + 32) = 1360/3, about 453 m\u00b2. Swapping the coefficients 4 and 2 gives about 387, the trapezoidal rule gives 420, and using w instead of w/3 gives 1360.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0029",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The waiting time T, in minutes, is an exponential random variable with parameter \u03bb = 0.5. The mean of T is:",
+   "imageRef": null,
+   "options": [
+    "0.25 minutes",
+    "4 minutes",
+    "2 minutes",
+    "0.5 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "For an exponential random variable the mean is 1/\u03bb = 1/0.5 = 2 minutes. The value 0.5 is \u03bb itself, which is a rate per minute, not the mean waiting time.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0030",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "For an exponential random variable with parameter \u03bb, the standard deviation is:",
+   "imageRef": null,
+   "options": [
+    "1/\u03bb\u00b2, the square of the mean",
+    "\u03bb, the reciprocal of the mean",
+    "\u221a\u03bb, the square root of \u03bb",
+    "1/\u03bb, the same as the mean"
+   ],
+   "correctIndex": 3,
+   "explanation": "The exponential distribution has mean 1/\u03bb and standard deviation 1/\u03bb, so the two are equal. The variance is 1/\u03bb\u00b2, which is the square of the standard deviation.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0031",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "Which is the probability density function of an exponential random variable T with mean 5?",
+   "imageRef": null,
+   "options": [
+    "f(t) = e^(\u22120.2t) for t \u2265 0",
+    "f(t) = 0.2e^(\u22120.2t) for t \u2265 0",
+    "f(t) = 5e^(\u22125t) for t \u2265 0",
+    "f(t) = 0.2e^(0.2t) for t \u2265 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mean is 1/\u03bb = 5, so \u03bb = 0.2 and f(t) = \u03bbe^(\u2212\u03bbt) = 0.2e^(\u22120.2t). Using \u03bb = 5 gives a mean of 0.2, and without the factor 0.2 the total area would be 5, not 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0032",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The life T, in hours, of a light globe is exponential with mean 1000 hours. Pr(T > 500) is about:",
+   "imageRef": null,
+   "options": [
+    "0.607",
+    "0.393",
+    "0.500",
+    "0.368"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03bb = 1/1000, and Pr(T > t) = e^(\u2212\u03bbt), so Pr(T > 500) = e^(\u22120.5) \u2248 0.607. The value 0.393 is 1 \u2212 e^(\u22120.5), which is Pr(T \u2264 500).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0033",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "T is exponential with parameter \u03bb = 0.3. Pr(T \u2264 2) is about:",
+   "imageRef": null,
+   "options": [
+    "0.600",
+    "0.165",
+    "0.451",
+    "0.549"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pr(T \u2264 t) = \u222b from 0 to t of \u03bbe^(\u2212\u03bbx) dx = 1 \u2212 e^(\u2212\u03bbt), so Pr(T \u2264 2) = 1 \u2212 e^(\u22120.6) \u2248 0.451. The value 0.549 is e^(\u22120.6), the probability that T exceeds 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0034",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "T is exponential with parameter \u03bb = 1. Pr(1 < T < 3) is about:",
+   "imageRef": null,
+   "options": [
+    "0.632",
+    "0.318",
+    "0.368",
+    "0.050"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(1 < T < 3) = e^(\u22121) \u2212 e^(\u22123) \u2248 0.368 \u2212 0.050 = 0.318. The value 0.368 is Pr(T > 1), which also includes times beyond 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0035",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "T is exponential with parameter \u03bb = 0.2. The median of T, to two decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "3.47",
+    "5.00",
+    "2.50",
+    "1.39"
+   ],
+   "correctIndex": 0,
+   "explanation": "The median m satisfies e^(\u22120.2m) = 0.5, so m = ln 2/0.2 = 5 ln 2 \u2248 3.47. The mean is 5, and the median is smaller because the distribution is skewed to the right.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0036",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "The time T, in minutes, between calls to a help line is exponential with mean 4 minutes. The 90th percentile of T, to two decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "0.42 minutes",
+    "3.60 minutes",
+    "2.77 minutes",
+    "9.21 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 90th percentile q satisfies Pr(T \u2264 q) = 0.9, so e^(\u2212q/4) = 0.1 and q = 4 ln 10 \u2248 9.21 minutes. Solving e^(\u2212q/4) = 0.9 gives 0.42 minutes, which is the 10th percentile.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0037",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "T is exponential with an unknown parameter. Whatever the value of the parameter, the probability that T is greater than its mean is:",
+   "imageRef": null,
+   "options": [
+    "1/2, exactly 0.5",
+    "1 \u2212 1/e, about 0.632",
+    "e^(\u22122), about 0.135",
+    "1/e, about 0.368"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pr(T > 1/\u03bb) = e^(\u2212\u03bb \u00d7 1/\u03bb) = e^(\u22121) \u2248 0.368 for every \u03bb. It is less than 1/2 because the mean is pulled above the median by the long right tail.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-integration-applications-0038",
+   "topicId": "spec-qce-integration-applications",
+   "stem": "T is exponential, and Pr(T > 10) = 0.25. The mean of T, to two decimal places, is:",
+   "imageRef": null,
+   "options": [
+    "40.00",
+    "7.21",
+    "2.50",
+    "0.14"
+   ],
+   "correctIndex": 1,
+   "explanation": "e^(\u221210\u03bb) = 0.25 gives \u03bb = ln 4/10 \u2248 0.139, so the mean is 1/\u03bb = 10/ln 4 \u2248 7.21. The value 0.14 is \u03bb itself, not the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-integration-applications-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

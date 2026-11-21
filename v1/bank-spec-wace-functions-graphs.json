@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-wace-functions-graphs",
+ "questions": [
+  {
+   "id": "spec-wace-functions-graphs-0001",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "If f(x) = 2x + 1 and g(x) = x\u00b2, what is f(g(x))?",
+   "imageRef": null,
+   "options": [
+    "2x\u00b3 + x\u00b2",
+    "2x\u00b2 + 1",
+    "(2x + 1)\u00b2",
+    "4x\u00b2 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(g(x)) applies g first, then f: f(x\u00b2) = 2x\u00b2 + 1. The expression (2x + 1)\u00b2 is g(f(x)), the composition in the other order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0002",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "If f(x) = 2x + 1 and g(x) = x\u00b2, what is g(f(3))?",
+   "imageRef": null,
+   "options": [
+    "16",
+    "49",
+    "19",
+    "63"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(3) = 7, then g(7) = 49. Applying g first gives f(g(3)) = f(9) = 19, which is the other composition.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0003",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "For functions f and g, when is the composite function f \u2218 g, given by f(g(x)), defined?",
+   "imageRef": null,
+   "options": [
+    "when the range of f is a subset of the domain of g",
+    "when the range of g is the same as the range of f",
+    "when the range of g is a subset of the domain of f",
+    "when the domain of g is a subset of the domain of f"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every output of g must be an allowed input of f. The condition with the range of f inside the domain of g is the one for g \u2218 f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0004",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = \u221ax for x \u2265 0 and g(x) = x \u2212 4 for all real x. What is the largest domain on which f(g(x)) is defined?",
+   "imageRef": null,
+   "options": [
+    "x \u2265 \u22124",
+    "all real x",
+    "x \u2265 4",
+    "x \u2265 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(g(x)) = \u221a(x \u2212 4) needs x \u2212 4 \u2265 0, so x \u2265 4. Using the domain of f, x \u2265 0, ignores that g changes the input first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0005",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = 1/x for x \u2260 0 and g(x) = x\u00b2 \u2212 9 for all real x. What is the largest domain of f(g(x))?",
+   "imageRef": null,
+   "options": [
+    "x > 3 only",
+    "all real x except \u22123 and 3",
+    "all real x except 0",
+    "all real x except 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(g(x)) = 1/(x\u00b2 \u2212 9) needs g(x) \u2260 0, so x \u2260 \u00b13. Excluding only x = 0 applies the domain of f to x instead of to g(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0006",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = \u221ax for x \u2265 0 and g(x) = 4 \u2212 x\u00b2. On the largest domain where f(g(x)) is defined, what is its range?",
+   "imageRef": null,
+   "options": [
+    "[0, 4]",
+    "[\u22122, 2]",
+    "[0, \u221e)",
+    "[0, 2]"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(g(x)) = \u221a(4 \u2212 x\u00b2) is defined for \u22122 \u2264 x \u2264 2, where 4 \u2212 x\u00b2 takes the values 0 to 4. Its square root then runs from 0 to 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0007",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b2 for all real x and g(x) = \u221a(x \u2212 1) for x \u2265 1. What is the largest domain of g(f(x))?",
+   "imageRef": null,
+   "options": [
+    "x \u2265 0",
+    "x \u2264 \u22121 or x \u2265 1",
+    "x \u2265 1 only",
+    "\u22121 \u2264 x \u2264 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "g(f(x)) = \u221a(x\u00b2 \u2212 1) needs x\u00b2 \u2265 1, which holds for x \u2264 \u22121 as well as x \u2265 1. Taking only x \u2265 1 copies the domain of g and misses the negative values.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0008",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "h(x) = (3x \u2212 1)\u2075 is written as f(g(x)). Which pair of functions works?",
+   "imageRef": null,
+   "options": [
+    "f(x) = (3x)\u2075 and g(x) = x \u2212 1",
+    "f(x) = x\u2075 and g(x) = 3x \u2212 1",
+    "f(x) = 3x \u2212 1 and g(x) = x\u2075",
+    "f(x) = x\u2075 \u2212 1 and g(x) = 3x"
+   ],
+   "correctIndex": 1,
+   "explanation": "The inner function g(x) = 3x \u2212 1 is applied first and then raised to the power 5. Swapping them gives 3x\u2075 \u2212 1, and the other pairs give (3x)\u2075 \u2212 1 and (3x \u2212 3)\u2075.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0009",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x + 2 and g(x) = x\u00b2. For which x is f(g(x)) = g(f(x))?",
+   "imageRef": null,
+   "options": [
+    "x = 1/2",
+    "x = \u22122",
+    "no real x",
+    "x = \u22121/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(g(x)) = x\u00b2 + 2 and g(f(x)) = (x + 2)\u00b2 = x\u00b2 + 4x + 4. Equating gives 4x + 4 = 2, so x = \u22121/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0010",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Which test shows from its graph that a function is one-to-one?",
+   "imageRef": null,
+   "options": [
+    "every horizontal line meets the graph at most once",
+    "every vertical line meets the graph at most once",
+    "every horizontal line meets the graph at least once",
+    "every vertical line meets the graph exactly once"
+   ],
+   "correctIndex": 0,
+   "explanation": "One-to-one means no two x values give the same y value, so no horizontal line can cross twice. The vertical line test only checks that the graph is a function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0011",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Which function is one-to-one over all real numbers?",
+   "imageRef": null,
+   "options": [
+    "f(x) = cos x",
+    "f(x) = x\u00b3 + 1",
+    "f(x) = x\u00b2 \u2212 1",
+    "f(x) = |x|"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b3 + 1 is strictly increasing, so each y value comes from one x. The others repeat values, for example (\u22121)\u00b2 \u2212 1 = 1\u00b2 \u2212 1 and |\u22122| = |2|.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0012",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b2 + 6x + 5 is one-to-one on the domain x \u2265 a. What is the smallest possible value of a?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "3",
+    "\u22125",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = (x + 3)\u00b2 \u2212 4 has its turning point at x = \u22123, and it is increasing for x \u2265 \u22123. The zeros, \u22125 and \u22121, are not where the graph turns.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0013",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "On which of these domains is f(x) = x\u00b2 \u2212 4x one-to-one?",
+   "imageRef": null,
+   "options": [
+    "[2, \u221e)",
+    "[1, \u221e)",
+    "[0, 5]",
+    "[\u22121, 3]"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = (x \u2212 2)\u00b2 \u2212 4 turns at x = 2. Any domain containing values on both sides of 2, such as [1, \u221e), includes pairs like x = 1 and x = 3 with the same output.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0014",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "The function f is given by f(x) = 3x \u2212 6 for all real x. What is its inverse function?",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = 1/(3x \u2212 6)",
+    "f\u207b\u00b9(x) = (x + 6)/3",
+    "f\u207b\u00b9(x) = x/3 + 6",
+    "f\u207b\u00b9(x) = (x \u2212 6)/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swap x and y: x = 3y \u2212 6, so y = (x + 6)/3. The reciprocal 1/(3x \u2212 6) is not the inverse function; f\u207b\u00b9 does not mean 1/f.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0015",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "How are the domain and range of f\u207b\u00b9 related to those of a one-to-one function f?",
+   "imageRef": null,
+   "options": [
+    "the domain of f\u207b\u00b9 is the domain of f, and its range is the reciprocal of each value",
+    "the domain of f\u207b\u00b9 is all real numbers whatever f is",
+    "the domain of f\u207b\u00b9 is the range of f, and the range of f\u207b\u00b9 is the domain of f",
+    "they are the same as the domain and range of f"
+   ],
+   "correctIndex": 2,
+   "explanation": "An inverse swaps inputs and outputs, so the domain and range swap. This is why the domain of an inverse often needs care, as with square roots.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0016",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = \u221a(x \u2212 1) for x \u2265 1. What is f\u207b\u00b9(x), with its domain?",
+   "imageRef": null,
+   "options": [
+    "(x + 1)\u00b2 for x \u2265 0",
+    "x\u00b2 + 1 for x \u2265 0",
+    "x\u00b2 + 1 for all real x",
+    "x\u00b2 + 1 for x \u2265 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swapping gives x = \u221a(y \u2212 1), so y = x\u00b2 + 1. The domain of f\u207b\u00b9 is the range of f, which is x \u2265 0, so the inverse is only the right half of the parabola.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0017",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = (x + 2)/(x \u2212 1) for x \u2260 1. What is f\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "(x + 1)/(x \u2212 2)",
+    "(x + 2)/(x \u2212 1)",
+    "(x \u2212 1)/(x + 2)",
+    "(x \u2212 2)/(x + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "From x = (y + 2)/(y \u2212 1): xy \u2212 x = y + 2, so y(x \u2212 1) = x + 2 and y = (x + 2)/(x \u2212 1). The function is its own inverse, so its graph is symmetric about y = x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0018",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = 2/(x \u2212 3) + 1 for x \u2260 3. What is f\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3)/2 + 1",
+    "2/(x \u2212 1) + 3",
+    "2/(x + 1) \u2212 3",
+    "2/(x \u2212 3) \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "From x = 2/(y \u2212 3) + 1: x \u2212 1 = 2/(y \u2212 3), so y \u2212 3 = 2/(x \u2212 1) and y = 2/(x \u2212 1) + 3. The asymptotes x = 3, y = 1 become x = 1, y = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0019",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b2 \u2212 2x for x \u2264 1. What is f\u207b\u00b9(x), with its domain?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 \u221a(x \u2212 1) for x \u2265 1",
+    "\u22121 + \u221a(x + 1) for x \u2265 \u22121",
+    "1 \u2212 \u221a(x + 1) for x \u2265 \u22121",
+    "1 + \u221a(x + 1) for x \u2265 \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(x) = (x \u2212 1)\u00b2 \u2212 1, so swapping gives (y \u2212 1)\u00b2 = x + 1 and y = 1 \u00b1 \u221a(x + 1). The range of f\u207b\u00b9 must be y \u2264 1, the domain of f, so take the negative root.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0020",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "The point (2, 7) lies on the graph of a one-to-one function f. Which point must lie on the graph of f\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "(2, 1/7)",
+    "(\u22127, \u22122)",
+    "(7, 2)",
+    "(\u22122, \u22127)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The graph of f\u207b\u00b9 is the reflection of the graph of f in the line y = x, which swaps the coordinates. The point (2, 1/7) would be on y = 1/f(x), not on the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0021",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = (x\u00b2 + 6)/5 for x \u2265 0 is increasing. Where do the graphs of y = f(x) and y = f\u207b\u00b9(x) meet?",
+   "imageRef": null,
+   "options": [
+    "(0, 6/5) and (6/5, 0)",
+    "(2, 2) and (3, 3)",
+    "(2, 3) and (3, 2)",
+    "(\u22122, \u22122) and (\u22123, \u22123)"
+   ],
+   "correctIndex": 1,
+   "explanation": "For an increasing function the graphs meet on y = x, so solve (x\u00b2 + 6)/5 = x: x\u00b2 \u2212 5x + 6 = 0, giving x = 2 or 3. Negative values lie outside the domain x \u2265 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0022",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b3 \u2212 1. What is f\u207b\u00b9(7)?",
+   "imageRef": null,
+   "options": [
+    "\u221b6",
+    "1/342",
+    "2",
+    "342"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u207b\u00b9(7) is the x with f(x) = 7: x\u00b3 \u2212 1 = 7, so x\u00b3 = 8 and x = 2. The value 342 is f(7), and 1/342 is 1/f(7).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0023",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Which is the definition of the absolute value |x| of a real number x?",
+   "imageRef": null,
+   "options": [
+    "\u2212x when x \u2265 0, and x when x < 0",
+    "x\u00b2 when x \u2265 0, and \u2212x\u00b2 when x < 0",
+    "x when x \u2265 0, and \u2212x when x < 0",
+    "x when x \u2265 0, and x when x < 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "For negative x, \u2212x is positive, so |x| is never negative; for example |\u22125| = \u2212(\u22125) = 5. It also measures the distance from x to 0 on the number line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0024",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "What is |\u22127| \u2212 |3 \u2212 5|?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "\u22129",
+    "\u22125",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "|\u22127| = 7 and |3 \u2212 5| = |\u22122| = 2, so the result is 7 \u2212 2 = 5. Working out the brackets as \u22127 \u2212 2 forgets that each absolute value is positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0025",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "What are the solutions of |2x \u2212 3| = 7?",
+   "imageRef": null,
+   "options": [
+    "x = 5 only",
+    "x = 5 or x = 2",
+    "x = \u22125 or x = 2",
+    "x = 5 or x = \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "2x \u2212 3 = 7 gives x = 5, and 2x \u2212 3 = \u22127 gives x = \u22122. Both satisfy the equation, so ignoring the negative case loses a solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0026",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "What is the solution of |x \u2212 1| < 3?",
+   "imageRef": null,
+   "options": [
+    "x < 4",
+    "\u22124 < x < 2",
+    "x < \u22122 or x > 4",
+    "\u22122 < x < 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The distance from x to 1 is less than 3, so \u22123 < x \u2212 1 < 3 and \u22122 < x < 4. The values x < \u22122 or x > 4 solve |x \u2212 1| > 3 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0027",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "The graph of y = |x \u2212 2| + 1 is a V shape. Where is its vertex?",
+   "imageRef": null,
+   "options": [
+    "(2, \u22121)",
+    "(2, 1)",
+    "(\u22122, 1)",
+    "(1, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph of y = |x| is moved 2 units right and 1 unit up, so its vertex moves from (0, 0) to (2, 1). Shifting left instead gives (\u22122, 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0028",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "What are the solutions of |x + 1| = 2x \u2212 4?",
+   "imageRef": null,
+   "options": [
+    "x = \u22125 only",
+    "x = 5 only",
+    "x = 1 only",
+    "x = 1 or x = 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "x + 1 = 2x \u2212 4 gives x = 5, which checks: 6 = 6. \u2212(x + 1) = 2x \u2212 4 gives x = 1, but then the right side is \u22122, which an absolute value cannot equal, so x = 1 is rejected.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0029",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Starting from the graph of y = f(x), which change produces the graph of y = |f(x)|?",
+   "imageRef": null,
+   "options": [
+    "reflect the whole graph in the x-axis",
+    "reflect the parts below the x-axis in the x-axis",
+    "reflect the parts left of the y-axis in the y-axis",
+    "replace the part left of the y-axis with a reflection of the right part"
+   ],
+   "correctIndex": 1,
+   "explanation": "Negative y values become positive and the rest is unchanged, so only the parts below the x-axis flip up. Replacing the left half by a mirror of the right half gives y = f(|x|).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0030",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Where does the graph of y = |x\u00b2 \u2212 4| have a local maximum?",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 0)",
+    "(0, 4)",
+    "(0, \u22124)",
+    "(2, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The minimum (0, \u22124) of y = x\u00b2 \u2212 4 is below the x-axis, so it reflects to a local maximum at (0, 4). The points (\u00b12, 0) become sharp minimum points.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0031",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "How many real solutions does |x\u00b2 \u2212 4| = 4 have?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Either x\u00b2 \u2212 4 = 4, giving x = \u00b12\u221a2, or x\u00b2 \u2212 4 = \u22124, giving x = 0 only. The line y = 4 touches the local maximum at (0, 4), so there are three solutions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0032",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "About which line is the graph of y = f(|x|) always symmetric?",
+   "imageRef": null,
+   "options": [
+    "the x-axis",
+    "the line y = x",
+    "the line y = \u2212x",
+    "the y-axis"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(|\u2212x|) = f(|x|), so y = f(|x|) is an even function. Its graph keeps the part of y = f(x) for x \u2265 0 and mirrors it in the y-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0033",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "What are the x-intercepts of y = (|x| \u2212 2)\u00b2?",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 only",
+    "x = 0 and x = 2",
+    "x = \u22122 and x = 2",
+    "x = 2 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is y = f(|x|) for f(x) = (x \u2212 2)\u00b2, which touches the x-axis at x = 2. Mirroring the right half in the y-axis adds x = \u22122.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0034",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b2 \u2212 2x \u2212 3. What are the x-intercepts of y = f(|x|)?",
+   "imageRef": null,
+   "options": [
+    "x = \u22123 and x = 3",
+    "x = \u22121 and x = 3",
+    "x = \u22123, \u22121, 1 and 3",
+    "x = \u22121 and x = 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = (x \u2212 3)(x + 1), so for x \u2265 0 the only zero is x = 3. The left half is the mirror image of the right half, giving x = \u22123; the zero at x = \u22121 is discarded with the old left half.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0035",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "Each zero of f(x) corresponds to which feature of the graph of y = 1/f(x)?",
+   "imageRef": null,
+   "options": [
+    "vertical asymptotes",
+    "x-intercepts",
+    "turning points",
+    "horizontal asymptotes"
+   ],
+   "correctIndex": 0,
+   "explanation": "Where f(x) = 0, 1/f(x) is undefined and grows without bound nearby, giving vertical asymptotes. 1/f(x) can never be zero, so it has no x-intercepts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0036",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = x\u00b2 \u2212 2x + 5 has a minimum at (1, 4). What does y = 1/f(x) have at x = 1?",
+   "imageRef": null,
+   "options": [
+    "a minimum at (1, 1/4)",
+    "a maximum at (1, 4)",
+    "a vertical asymptote",
+    "a maximum at (1, 1/4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Where a positive f is smallest, 1/f is largest, so the minimum becomes a maximum with value 1/4. There is no asymptote, since f(x) = (x \u2212 1)\u00b2 + 4 is never 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0037",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "f(x) = 2x \u2212 6. What are the asymptotes of y = 1/f(x)?",
+   "imageRef": null,
+   "options": [
+    "x = 6 and y = 0",
+    "x = 3 and y = 0",
+    "x = \u22123 and y = 0",
+    "x = 3 and y = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The zero of f at x = 3 gives a vertical asymptote, and as |x| grows |f(x)| grows without bound, so 1/f(x) \u2192 0. The horizontal asymptote is y = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0038",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "On an interval where f(x) is positive and increasing, how does y = 1/f(x) behave?",
+   "imageRef": null,
+   "options": [
+    "it is negative and decreasing",
+    "it is negative and increasing",
+    "it is positive and decreasing",
+    "it is positive and increasing"
+   ],
+   "correctIndex": 2,
+   "explanation": "1/f has the same sign as f, so it is positive. As f increases, its reciprocal gets smaller, so 1/f is decreasing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-functions-graphs-0039",
+   "topicId": "spec-wace-functions-graphs",
+   "stem": "At which x values do the graphs of y = x\u00b2 \u2212 3 and y = 1/(x\u00b2 \u2212 3) meet?",
+   "imageRef": null,
+   "options": [
+    "x = \u00b1\u221a2 only",
+    "x = \u00b1\u221a3 only",
+    "x = \u00b12 and x = \u00b1\u221a2",
+    "x = \u00b12 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = f(x) and y = 1/f(x) meet where f(x) = 1/f(x), that is f(x) = \u00b11. Then x\u00b2 = 4 or x\u00b2 = 2. At x = \u00b1\u221a3, f is 0 and the reciprocal has asymptotes.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

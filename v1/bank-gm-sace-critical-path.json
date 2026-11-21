@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-critical-path",
+ "questions": [
+  {
+   "id": "gm-sace-critical-path-0001",
+   "topicId": "gm-sace-critical-path",
+   "stem": "In a precedence table, task F is listed with immediate predecessors B and E. This means:",
+   "imageRef": null,
+   "options": [
+    "B and E cannot start until F is complete",
+    "F, B and E must all be done at the same time",
+    "F cannot start until both B and E are complete",
+    "F can start as soon as either B or E is complete"
+   ],
+   "correctIndex": 2,
+   "explanation": "Immediate predecessors are the tasks that must all be finished before a task can begin. F waits for whichever of B and E finishes later.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0002",
+   "topicId": "gm-sace-critical-path",
+   "stem": "In critical path analysis, the critical path is:",
+   "imageRef": null,
+   "options": [
+    "the path made up of the tasks with the most slack",
+    "the longest path through the network from start to finish",
+    "the shortest path through the network from start to finish",
+    "the path that contains the greatest number of tasks"
+   ],
+   "correctIndex": 1,
+   "explanation": "The project cannot finish until every path is complete, so the longest path sets the minimum completion time. A shorter path finishes early and has slack to spare.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0003",
+   "topicId": "gm-sace-critical-path",
+   "stem": "The forward scan of a project network is used to find:",
+   "imageRef": null,
+   "options": [
+    "the immediate predecessors of each task",
+    "the earliest starting time of each task",
+    "the latest starting time of each task",
+    "the slack time of each task directly"
+   ],
+   "correctIndex": 1,
+   "explanation": "Working from start to finish, the forward scan gives each task's earliest starting time, and the last value is the minimum completion time. The backward scan, from finish to start, gives the latest starting times.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0004",
+   "topicId": "gm-sace-critical-path",
+   "stem": "In a forward scan, when a task has more than one immediate predecessor, its earliest starting time is:",
+   "imageRef": null,
+   "options": [
+    "the smallest of the predecessors' earliest finishing times",
+    "the sum of the predecessors' earliest finishing times",
+    "the average of the predecessors' finishing times",
+    "the largest of the predecessors' earliest finishing times"
+   ],
+   "correctIndex": 3,
+   "explanation": "A task can start only when all its predecessors are finished, so it must wait for the one that finishes last. Taking the smallest value would start the task before one of its predecessors is done.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0005",
+   "topicId": "gm-sace-critical-path",
+   "stem": "In a backward scan, a task's latest starting time is found from:",
+   "imageRef": null,
+   "options": [
+    "the smallest latest starting time of the tasks that follow it, minus its own time",
+    "the largest latest starting time of the tasks that follow it, minus its own time",
+    "the earliest starting time of the task, plus its own time",
+    "the minimum completion time, minus the task's own time"
+   ],
+   "correctIndex": 0,
+   "explanation": "The task must finish in time for every task that follows it to start at its latest time, so it is limited by the earliest of those. Taking the largest would make another following task late.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0006",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A dummy link in a project network:",
+   "imageRef": null,
+   "options": [
+    "marks the tasks that are on the critical path",
+    "shows a precedence only and has a time of zero",
+    "represents a task that may be left out if needed",
+    "has the same time as the task drawn before it"
+   ],
+   "correctIndex": 1,
+   "explanation": "A dummy link is drawn as a dashed arrow to show that one task must wait for another when the precedence cannot be drawn with the real tasks alone. It takes no time and uses no resources.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0007",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A task on the critical path has a slack time of:",
+   "imageRef": null,
+   "options": [
+    "one time unit",
+    "its own task time",
+    "the minimum completion time",
+    "zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any delay to a critical task delays the whole project, so it has no slack. Tasks off the critical path have positive slack that can absorb some delay.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0008",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Slack time for a task is calculated as:",
+   "imageRef": null,
+   "options": [
+    "task time + earliest starting time \u2212 minimum completion time",
+    "latest completion time \u2212 (task time + earliest starting time)",
+    "earliest starting time \u2212 (task time + latest completion time)",
+    "latest completion time \u2212 earliest starting time"
+   ],
+   "correctIndex": 1,
+   "explanation": "Task time + earliest starting time is the earliest the task can finish, and slack is how far that is ahead of the latest it may finish. Leaving out the task time gives the window for the task, not its slack.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0009",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Which is an assumption of critical path analysis?",
+   "imageRef": null,
+   "options": [
+    "Only one task can be carried out at any time in the project",
+    "Enough workers and equipment are available to run tasks at once",
+    "Every task in the project takes exactly the same length of time",
+    "Each task can begin before all of its predecessors are finished"
+   ],
+   "correctIndex": 1,
+   "explanation": "The model lets tasks on different paths run at the same time, which assumes the resources are available. It also assumes the task times are known and fixed, which real projects may not achieve.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0010",
+   "topicId": "gm-sace-critical-path",
+   "stem": "The minimum completion time of a project is:",
+   "imageRef": null,
+   "options": [
+    "the sum of all of the task times",
+    "the time of the longest single task",
+    "the number of tasks in the network",
+    "the length of the critical path"
+   ],
+   "correctIndex": 3,
+   "explanation": "Tasks on different paths can run at the same time, so the project takes as long as its longest path, not the sum of all the task times.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0011",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "27 days",
+    "14 days",
+    "12 days",
+    "16 days"
+   ],
+   "correctIndex": 3,
+   "explanation": "The longest path is A-D-E-F-H, 2 + 6 + 3 + 4 + 1 = 16 days. 27 days adds every task, as if they were done one after another, and 14 days is the length of the next-longest paths.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0012",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). Which is the critical path?",
+   "imageRef": null,
+   "options": [
+    "A-D-E-F-H",
+    "A-C-E-F-H",
+    "A-D-E-G-H",
+    "B-F-H"
+   ],
+   "correctIndex": 0,
+   "explanation": "The paths take: A-D-E-F-H 16, A-C-E-F-H 14, A-D-E-G-H 14, A-C-E-G-H 12 and B-F-H 10 days. The longest, A-D-E-F-H, is critical.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0013",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the earliest starting time of task E?",
+   "imageRef": null,
+   "options": [
+    "Day 6",
+    "Day 2",
+    "Day 11",
+    "Day 8"
+   ],
+   "correctIndex": 3,
+   "explanation": "E needs both C and D. C can finish at day 2 + 4 = 6 and D at day 2 + 6 = 8, so E must wait until day 8. Day 6 waits only for C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0014",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the earliest starting time of task F?",
+   "imageRef": null,
+   "options": [
+    "Day 13",
+    "Day 11",
+    "Day 5",
+    "Day 8"
+   ],
+   "correctIndex": 1,
+   "explanation": "F needs B, which finishes at day 5, and E, which finishes at day 8 + 3 = 11, so F can start at day 11. Day 5 allows only for B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0015",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the latest starting time of task G?",
+   "imageRef": null,
+   "options": [
+    "Day 13",
+    "Day 11",
+    "Day 15",
+    "Day 14"
+   ],
+   "correctIndex": 0,
+   "explanation": "H must start by day 15, so G (2 days) must start by day 15 \u2212 2 = 13. Day 11 is G's earliest starting time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0016",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the slack time of task C?",
+   "imageRef": null,
+   "options": [
+    "4 days",
+    "6 days",
+    "2 days",
+    "0 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "C's latest completion time is E's latest start, day 8. Slack = 8 \u2212 (4 + 2) = 2 days. Being off the critical path, C has some slack, so zero is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0017",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). What is the slack time of task B?",
+   "imageRef": null,
+   "options": [
+    "6 days",
+    "0 days",
+    "5 days",
+    "11 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "B must finish by F's latest start, day 11. Slack = 11 \u2212 (5 + 0) = 6 days. 11 days is the latest completion time itself, without subtracting the task time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0018",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). Task C is delayed by 3 days. What happens to the minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "It rises to 17 days",
+    "It stays at 16 days",
+    "It rises to 19 days",
+    "It rises to 18 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "C has 2 days of slack, so a 3-day delay uses all of it and pushes the project back by 1 day, to 17 days. Only a delay to a critical task passes on in full.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0019",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). Task B takes 4 days longer than planned. What happens to the minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "It rises to 20 days",
+    "It rises to 18 days",
+    "It falls to 12 days",
+    "It stays at 16 days"
+   ],
+   "correctIndex": 3,
+   "explanation": "B has 6 days of slack, so a 4-day overrun is absorbed and the project still takes 16 days. The path B-F-H becomes 14 days, still shorter than the critical path.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0020",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). Task D is shortened from 6 days to 3 days. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "12 days",
+    "14 days",
+    "13 days",
+    "16 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "A-D-E-F-H drops to 13 days, but A-C-E-F-H is 14 days, so it becomes critical and the project takes 14 days. Shortening a critical task helps only until another path becomes the longest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0021",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A backyard makeover: A project's tasks are listed as task, time in days (immediate predecessors): A 2 (-); B 5 (-); C 4 (A); D 6 (A); E 3 (C, D); F 4 (B, E); G 2 (E); H 1 (F, G). The owner wants to finish sooner by shortening one task by 1 day. Which choice reduces the minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "Shorten F",
+    "Shorten C",
+    "Shorten G",
+    "Shorten B"
+   ],
+   "correctIndex": 0,
+   "explanation": "Only a task on the critical path A-D-E-F-H shortens the project; shortening F gives 15 days. C, G and B have slack, so shortening them leaves the time at 16 days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0022",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). What is the minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "14 hours",
+    "13 hours",
+    "26 hours",
+    "11 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "The longest path is B-E-G-H, 2 + 5 + 4 + 3 = 14 hours. A-D-G-H is 13 hours, one less.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0023",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). Which tasks are critical?",
+   "imageRef": null,
+   "options": [
+    "A, D, G and H",
+    "A, C, F and H",
+    "B, D, G and H",
+    "B, E, G and H"
+   ],
+   "correctIndex": 3,
+   "explanation": "B-E-G-H is the longest path at 14 hours, so these tasks have zero slack. A-D-G-H, at 13 hours, has 1 hour to spare.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0024",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). What is the earliest starting time of task G?",
+   "imageRef": null,
+   "options": [
+    "5 hours",
+    "2 hours",
+    "7 hours",
+    "6 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "G needs D, which can finish at 3 + 3 = 6 hours, and E, which can finish at 2 + 5 = 7 hours, so G starts at 7 hours. 6 hours waits only for D.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0025",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). What is the latest starting time of task A?",
+   "imageRef": null,
+   "options": [
+    "3 hours",
+    "4 hours",
+    "1 hour",
+    "0 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "A must finish by the latest start of C (5) and of D (4), the smaller being 4. So A must start by 4 \u2212 3 = 1 hour. Using C's latest start would make D late.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0026",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). What is the slack time of task F?",
+   "imageRef": null,
+   "options": [
+    "9 hours",
+    "4 hours",
+    "2 hours",
+    "0 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "F's earliest start is 7 hours and it must finish by H's latest start, 11 hours. Slack = 11 \u2212 (2 + 7) = 2 hours. 9 hours is the latest completion time minus the task time, forgetting the earliest start.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0027",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). Why must the network for this project use at least one dummy link?",
+   "imageRef": null,
+   "options": [
+    "Every task has to be joined to the finish by a dummy link",
+    "G and F both have two immediate predecessors to wait for",
+    "B and A are both starting tasks with no predecessors",
+    "D needs A and B, while C needs only A and E needs only B"
+   ],
+   "correctIndex": 3,
+   "explanation": "If A and B ended at the same node, C would have to wait for B and E for A. A dummy is needed to give D both A and B while keeping C and E separate. F and G having two predecessors needs no dummy on its own.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0028",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A school concert: A project's tasks are listed as task, time in hours (immediate predecessors): A 3 (-); B 2 (-); C 4 (A); D 3 (A, B); E 5 (B); F 2 (C, D); G 4 (D, E); H 3 (F, G). Task D overruns by 2 hours. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "16 hours",
+    "13 hours",
+    "15 hours",
+    "14 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "D has 1 hour of slack, so 2 extra hours pushes the path A-D-G-H to 15 hours, beyond the old critical path, and the project takes 15 hours.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0029",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Task K takes 5 days, has an earliest starting time of day 9 and a latest completion time of day 17. What is its slack time?",
+   "imageRef": null,
+   "options": [
+    "12 days",
+    "0 days",
+    "3 days",
+    "8 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "Slack time = 17 \u2212 (5 + 9) = 3 days. 8 days is 17 \u2212 9, which leaves out the task time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0030",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Task M has a slack time of 4 days. If M starts 3 days later than its earliest starting time, then:",
+   "imageRef": null,
+   "options": [
+    "M joins the critical path",
+    "the project is not delayed",
+    "the project is delayed by 3 days",
+    "the project is delayed by 1 day"
+   ],
+   "correctIndex": 1,
+   "explanation": "A delay smaller than the slack is absorbed, so the minimum completion time does not change. M would still have 1 day of slack left, so it does not become critical.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0031",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Which change to a project can reduce its minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "Shortening a task that is on the critical path",
+    "Shortening a task that has several days of slack",
+    "Adding a new task with its own slack time",
+    "Starting a non-critical task later than before"
+   ],
+   "correctIndex": 0,
+   "explanation": "The minimum completion time is the length of the critical path, so only shortening a critical task can reduce it. Tasks with slack can be shortened without any effect on the finish.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0032",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Two project networks look different when drawn but show exactly the same tasks, times and precedences. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The one with fewer dummy links finishes sooner",
+    "The one drawn with longer arrows takes longer",
+    "They must have different critical paths",
+    "They give the same critical path and completion time"
+   ],
+   "correctIndex": 3,
+   "explanation": "The analysis depends only on the tasks, their times and their precedences, not on how the network is drawn. Two such networks are equivalent and give identical results.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0033",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A project's critical path is 20 days and the next-longest path is 18 days. A critical task is shortened by 4 days. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "14 days",
+    "18 days",
+    "16 days",
+    "20 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "The critical path drops to 16 days, but the other path still takes 18 days, so it becomes critical and the project takes 18 days. Shortening helps only until another path is the longest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0034",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A task has an earliest starting time of day 6 and a latest starting time of day 6. What can be concluded?",
+   "imageRef": null,
+   "options": [
+    "It has 6 days of slack available",
+    "It must be a dummy link of zero time",
+    "It can start any time before day 6",
+    "It is a critical task with no slack"
+   ],
+   "correctIndex": 3,
+   "explanation": "When the earliest and latest starting times are equal there is no leeway, so the task is critical. Any delay to it delays the whole project.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0035",
+   "topicId": "gm-sace-critical-path",
+   "stem": "Why might the minimum completion time from a critical path analysis not be achieved in practice?",
+   "imageRef": null,
+   "options": [
+    "The backward scan gives a later finish time",
+    "Task times are estimates and resources may be shared",
+    "The critical path always includes every task",
+    "Slack times are added to every task's time"
+   ],
+   "correctIndex": 1,
+   "explanation": "The model assumes fixed, known task times and enough people and equipment for tasks to run at once. Weather, delays or shared workers can stretch real times beyond the plan.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0036",
+   "topicId": "gm-sace-critical-path",
+   "stem": "In the backward scan, the latest starting time of the final task is:",
+   "imageRef": null,
+   "options": [
+    "its earliest starting time plus its task time",
+    "the sum of all task times minus its own time",
+    "the minimum completion time minus its task time",
+    "always zero, as the scan starts there"
+   ],
+   "correctIndex": 2,
+   "explanation": "The backward scan begins at the finish, set to the minimum completion time, and subtracts each task's time. For the final task, this gives the completion time minus its own task time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-critical-path-0037",
+   "topicId": "gm-sace-critical-path",
+   "stem": "A precedence table shows that task P has no immediate predecessors. This means P:",
+   "imageRef": null,
+   "options": [
+    "can start at the beginning of the project",
+    "must be the last task completed in the project",
+    "is a dummy link with a time of zero",
+    "must be on the critical path of the project"
+   ],
+   "correctIndex": 0,
+   "explanation": "A task with no predecessors can begin at time 0. It may or may not be critical, depending on the length of the paths through it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-critical-path-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-hsc-functions",
+ "questions": [
+  {
+   "id": "meth-hsc-functions-0001",
+   "topicId": "meth-hsc-functions",
+   "stem": "The relation G consists of the ordered pairs (1, 5), (4, 2), (2, 3), (3, 3) and (1, 6). Why is G not a function?",
+   "imageRef": null,
+   "options": [
+    "The output 3 is paired with both 2 and 3",
+    "The ordered pairs are not listed in order",
+    "Its range has fewer elements than its domain",
+    "The input 1 is paired with both 5 and 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "A function associates each element of the domain with exactly one value, and here 1 is associated with two values. Two inputs sharing the output 3 is allowed, because a function may be many-to-one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0002",
+   "topicId": "meth-hsc-functions",
+   "stem": "By the vertical line test, a graph represents a function if:",
+   "imageRef": null,
+   "options": [
+    "every vertical line meets it exactly once",
+    "every vertical line meets it at least once",
+    "every vertical line meets it at most once",
+    "every horizontal line meets it at most once"
+   ],
+   "correctIndex": 2,
+   "explanation": "If some vertical line met the graph twice, one x-value would have two y-values. A vertical line may miss the graph altogether where x is outside the domain, so \"exactly once\" is too strong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0003",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = x\u00b2 \u2212 3x, what is f(\u22122)?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "\u22122",
+    "\u221210",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(\u22122) = (\u22122)\u00b2 \u2212 3(\u22122) = 4 + 6 = 10. Treating \u22123 \u00d7 \u22122 as \u22126 gives \u22122.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0004",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = 2x\u00b2 \u2212 1, then f(a + 1) is:",
+   "imageRef": null,
+   "options": [
+    "2a\u00b2 + 2a + 1",
+    "2a\u00b2 + 4a + 3",
+    "2a\u00b2 + 4a + 1",
+    "2a\u00b2 + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(a + 1) = 2(a + 1)\u00b2 \u2212 1 = 2(a\u00b2 + 2a + 1) \u2212 1 = 2a\u00b2 + 4a + 1. Writing (a + 1)\u00b2 as a\u00b2 + 1 loses the middle term and gives 2a\u00b2 + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0005",
+   "topicId": "meth-hsc-functions",
+   "stem": "What are the zeroes of f(x) = x\u00b2 \u2212 4x?",
+   "imageRef": null,
+   "options": [
+    "4 only",
+    "\u22122 and 2",
+    "0 and 4",
+    "0 and \u22124"
+   ],
+   "correctIndex": 2,
+   "explanation": "The zeroes solve f(x) = 0: x(x \u2212 4) = 0, so x = 0 or x = 4. These are the x-intercepts of the graph. Dividing both sides by x loses the zero at x = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0006",
+   "topicId": "meth-hsc-functions",
+   "stem": "What are the domain and range of y = \u221a(x \u2212 4)?",
+   "imageRef": null,
+   "options": [
+    "Domain [0, \u221e), range [4, \u221e)",
+    "Domain [\u22124, \u221e), range [0, \u221e)",
+    "Domain [4, \u221e), range [0, \u221e)",
+    "Domain (4, \u221e), range (0, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The square root needs x \u2212 4 \u2265 0, so x \u2265 4, and a square root is never negative, so y \u2265 0. Square brackets show the endpoints are included, because y = 0 when x = 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0007",
+   "topicId": "meth-hsc-functions",
+   "stem": "What is the natural domain of f(x) = 1/\u221a(3 \u2212 x)?",
+   "imageRef": null,
+   "options": [
+    "(\u2212\u221e, 3]",
+    "(3, \u221e)",
+    "[3, \u221e)",
+    "(\u2212\u221e, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The square root needs 3 \u2212 x \u2265 0, and the denominator cannot be zero, so 3 \u2212 x > 0, that is x < 3. Including 3 would put \u221a0 = 0 in the denominator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0008",
+   "topicId": "meth-hsc-functions",
+   "stem": "What is the range of y = 3 \u2212 x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "all real numbers",
+    "(\u2212\u221e, 3]",
+    "[3, \u221e)",
+    "(\u2212\u221e, 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since x\u00b2 \u2265 0, y = 3 \u2212 x\u00b2 \u2264 3, with y = 3 when x = 0. The value 3 is reached, so the bracket at 3 is square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0009",
+   "topicId": "meth-hsc-functions",
+   "stem": "What is the domain of the relation x\u00b2 + y\u00b2 = 25?",
+   "imageRef": null,
+   "options": [
+    "[0, 5]",
+    "[\u221225, 25]",
+    "[\u22125, 5]",
+    "(\u22125, 5)"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is the circle of radius 5 centred at the origin, so x runs from \u22125 to 5 inclusive. The domain is about the radius, 5, not the constant 25.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0010",
+   "topicId": "meth-hsc-functions",
+   "stem": "What is the domain of y = 1/(x\u00b2 \u2212 9)?",
+   "imageRef": null,
+   "options": [
+    "All real x except 3 and \u22123",
+    "All real x except 3",
+    "All real x except 9",
+    "\u22123 < x < 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The denominator x\u00b2 \u2212 9 = (x \u2212 3)(x + 3) is zero at x = 3 and x = \u22123, so both are excluded. The square root of 9 has two values here, so excluding only 3 misses \u22123.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0011",
+   "topicId": "meth-hsc-functions",
+   "stem": "A function f is odd if, for every x in its domain:",
+   "imageRef": null,
+   "options": [
+    "f(x) = \u2212f(x)",
+    "f(\u2212x) = 1/f(x)",
+    "f(\u2212x) = \u2212f(x)",
+    "f(\u2212x) = f(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "An odd function is unchanged by a rotation of 180\u00b0 about the origin, which is the test f(\u2212x) = \u2212f(x). The test f(\u2212x) = f(x) is for an even function, symmetric about the y-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0012",
+   "topicId": "meth-hsc-functions",
+   "stem": "The function f(x) = x\u00b3 \u2212 x is:",
+   "imageRef": null,
+   "options": [
+    "neither even nor odd",
+    "both even and odd",
+    "odd",
+    "even"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(\u2212x) = \u2212x\u00b3 + x = \u2212(x\u00b3 \u2212 x) = \u2212f(x), so f is odd. The only function that is both even and odd is the zero function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0013",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which function is even?",
+   "imageRef": null,
+   "options": [
+    "f(x) = (x \u2212 1)\u00b2",
+    "f(x) = x\u2074 \u2212 3x\u00b2 + 1",
+    "f(x) = x\u00b3 + x\u00b2",
+    "f(x) = x\u2075 \u2212 x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every power in x\u2074 \u2212 3x\u00b2 + 1 is even, so f(\u2212x) = f(x). The function (x \u2212 1)\u00b2 has a squared bracket but is symmetric about x = 1, not the y-axis, so it is not even.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0014",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which function is neither even nor odd?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b2/(x\u00b2 + 1)",
+    "f(x) = |x| \u2212 2",
+    "f(x) = x\u00b3 + 1",
+    "f(x) = x\u00b3 \u2212 4x"
+   ],
+   "correctIndex": 2,
+   "explanation": "For x\u00b3 + 1, f(\u2212x) = \u2212x\u00b3 + 1, which is neither f(x) nor \u2212f(x). The function x\u00b3 \u2212 4x is odd, and the other two are even.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0015",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f is an odd function and g is an even function, the product h(x) = f(x) \u00d7 g(x) is:",
+   "imageRef": null,
+   "options": [
+    "even only when f(0) = 0",
+    "odd",
+    "even",
+    "neither even nor odd"
+   ],
+   "correctIndex": 1,
+   "explanation": "h(\u2212x) = f(\u2212x)g(\u2212x) = \u2212f(x) \u00d7 g(x) = \u2212h(x), so h is odd. This matches multiplying an odd power by an even power, such as x\u00b3 \u00d7 x\u00b2 = x\u2075.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0016",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = x \u2212 2 and g(x) = x\u00b2, then f(g(x)) is:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 2)\u00b2",
+    "x\u00b3 \u2212 2x\u00b2",
+    "x\u00b2 + x \u2212 2",
+    "x\u00b2 \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "In f(g(x)), g acts first and its output x\u00b2 becomes the input of f, giving x\u00b2 \u2212 2. The expression (x \u2212 2)\u00b2 is g(f(x)), the other order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0017",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = x \u2212 2 and g(x) = x\u00b2, what is g(f(5))?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "23",
+    "3",
+    "25"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(5) = 3 is found first, then g(3) = 9. Working in the other order, f(g(5)) = 25 \u2212 2 = 23.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0018",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = 2x + 1 and g(x) = 1/x, then g(f(x)) is:",
+   "imageRef": null,
+   "options": [
+    "2/x + 1",
+    "(2x + 1)/x",
+    "1/(2x) + 1",
+    "1/(2x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The output 2x + 1 of f becomes the input of g, which takes its reciprocal. The expression 2/x + 1 is f(g(x)), with the functions applied in the opposite order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0019",
+   "topicId": "meth-hsc-functions",
+   "stem": "If f(x) = \u221ax and g(x) = x \u2212 3, what is the domain of f(g(x))?",
+   "imageRef": null,
+   "options": [
+    "(3, \u221e)",
+    "[\u22123, \u221e)",
+    "[3, \u221e)",
+    "[0, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(g(x)) = \u221a(x \u2212 3), which needs x \u2212 3 \u2265 0, so x \u2265 3. The domain [0, \u221e) belongs to g(f(x)) = \u221ax \u2212 3, where x itself must be non-negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0020",
+   "topicId": "meth-hsc-functions",
+   "stem": "f(x) = x\u00b2 for x \u2264 \u22121, f(x) = x \u2212 1 for \u22121 < x \u2264 1, and f(x) = \u2212x\u00b3 for x > 1. Find f(\u22122) + f(0) + f(2).",
+   "imageRef": null,
+   "options": [
+    "11",
+    "\u22123",
+    "13",
+    "\u22125"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(\u22122) = 4 from the first piece, f(0) = \u22121 from the second and f(2) = \u22128 from the third, so the sum is \u22125. Using 2\u00b3 = 8 without the minus sign gives 11.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0021",
+   "topicId": "meth-hsc-functions",
+   "stem": "f(x) = x\u00b2 for x \u2264 \u22121, f(x) = x \u2212 1 for \u22121 < x \u2264 1, and f(x) = \u2212x\u00b3 for x > 1. Where is f not continuous?",
+   "imageRef": null,
+   "options": [
+    "Nowhere",
+    "At x = \u22121 and at x = 1",
+    "At x = \u22121 only",
+    "At x = 1 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "At x = \u22121 the graph reaches 1 from the left but starts near \u22122 on the right. At x = 1 it reaches 0 from the left but continues from near \u22121. Both are jumps, so the pen must be lifted twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0022",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which describes the graph of f(x) = (x\u00b2 \u2212 1)/(x \u2212 1)?",
+   "imageRef": null,
+   "options": [
+    "y = x + 1 for all real x",
+    "y = x + 1 with an open circle at (1, 2)",
+    "y = x + 1 with an asymptote at x = 1",
+    "y = x \u2212 1 with an open circle at (1, 0)"
+   ],
+   "correctIndex": 1,
+   "explanation": "For x \u2260 1, (x\u00b2 \u2212 1)/(x \u2212 1) = (x \u2212 1)(x + 1)/(x \u2212 1) = x + 1, but f is undefined at x = 1. The graph is the line with a single point missing, not an asymptote, because the values stay near 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0023",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which describes y = |x|/x?",
+   "imageRef": null,
+   "options": [
+    "y = x for x \u2265 0 and y = \u2212x for x < 0",
+    "y = 1 for x \u2265 0 and y = \u22121 for x < 0",
+    "y = 1 for x > 0, y = \u22121 for x < 0, undefined at x = 0",
+    "y = 1 for all x \u2260 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "For positive x, |x| = x and the quotient is 1; for negative x, |x| = \u2212x and the quotient is \u22121. At x = 0 the division is undefined, so the graph has open circles at (0, 1) and (0, \u22121) and is not continuous there.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0024",
+   "topicId": "meth-hsc-functions",
+   "stem": "Informally, a function is continuous at a point if:",
+   "imageRef": null,
+   "options": [
+    "it has a value at that point, whatever happens nearby",
+    "it is defined on both sides of the point, but not at it",
+    "its graph changes from increasing to decreasing there",
+    "its graph can be drawn through the point without lifting the pen"
+   ],
+   "correctIndex": 3,
+   "explanation": "Continuity at a point means no break, jump or hole there. Having a value at the point is not enough: a piecewise function can be defined at a point and still jump there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0025",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which is the piecewise definition of |x|?",
+   "imageRef": null,
+   "options": [
+    "\u2212x for x \u2265 0, and x for x < 0",
+    "x\u00b2 for x \u2265 0, and \u2212x\u00b2 for x < 0",
+    "x for x \u2265 0, and \u2212x for x < 0",
+    "x for x \u2265 0, and x for x < 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "For negative x, \u2212x is positive, so |x| is never negative and equals the distance of x from 0. For example, |\u22124| = \u2212(\u22124) = 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0026",
+   "topicId": "meth-hsc-functions",
+   "stem": "Using \u221a(x\u00b2) = |x|, simplify \u221a((x \u2212 3)\u00b2) for x < 3.",
+   "imageRef": null,
+   "options": [
+    "x \u2212 3",
+    "\u00b1(x \u2212 3)",
+    "x + 3",
+    "3 \u2212 x"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u221a((x \u2212 3)\u00b2) = |x \u2212 3|. For x < 3, x \u2212 3 is negative, so |x \u2212 3| = \u2212(x \u2212 3) = 3 \u2212 x. Writing x \u2212 3 gives a negative value, but a square root is never negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0027",
+   "topicId": "meth-hsc-functions",
+   "stem": "Solve |2x \u2212 2| = 4.",
+   "imageRef": null,
+   "options": [
+    "x = 1 or x = 3",
+    "x = 3 or x = \u22121",
+    "x = 3 only",
+    "x = \u22123 or x = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Either 2x \u2212 2 = 4, giving x = 3, or 2x \u2212 2 = \u22124, giving x = \u22121. Graphically, the line y = 4 meets the V-shaped graph y = |2x \u2212 2| twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0028",
+   "topicId": "meth-hsc-functions",
+   "stem": "The graph of y = |2x + 6| is symmetric about:",
+   "imageRef": null,
+   "options": [
+    "the line x = \u22123",
+    "the line x = 3",
+    "the line x = \u22126",
+    "the y-axis"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vertex is where 2x + 6 = 0, at (\u22123, 0), and the V shape is symmetric about the vertical line through it. The range is [0, \u221e).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0029",
+   "topicId": "meth-hsc-functions",
+   "stem": "For which value of k does |2x \u2212 2| = k have exactly one solution?",
+   "imageRef": null,
+   "options": [
+    "k = \u22122",
+    "k = 4",
+    "k = 0",
+    "k = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The graph y = |2x \u2212 2| has its vertex at (1, 0). A horizontal line y = k meets it once only at the vertex, so k = 0. For k > 0 there are two solutions, and for k < 0 there are none.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0030",
+   "topicId": "meth-hsc-functions",
+   "stem": "What is the radius of the circle x\u00b2 + y\u00b2 = 49?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "49",
+    "24.5",
+    "14"
+   ],
+   "correctIndex": 0,
+   "explanation": "A circle centred at the origin with radius r has equation x\u00b2 + y\u00b2 = r\u00b2, by Pythagoras. Here r\u00b2 = 49, so r = 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0031",
+   "topicId": "meth-hsc-functions",
+   "stem": "Which is the equation of the circle centred at the origin that passes through (2, \u22123)?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 = 169",
+    "x\u00b2 + y\u00b2 = 13",
+    "x\u00b2 + y\u00b2 = \u221a13",
+    "x\u00b2 + y\u00b2 = 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The radius squared is 2\u00b2 + (\u22123)\u00b2 = 4 + 9 = 13, so the equation is x\u00b2 + y\u00b2 = 13. The right-hand side is r\u00b2, not r, so \u221a13 is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0032",
+   "topicId": "meth-hsc-functions",
+   "stem": "The graph of y = \u2212\u221a(16 \u2212 x\u00b2) is:",
+   "imageRef": null,
+   "options": [
+    "the lower half of the circle of radius 16",
+    "the lower half of the circle of radius 4",
+    "the upper half of the circle of radius 4",
+    "the left half of the circle of radius 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Squaring gives x\u00b2 + y\u00b2 = 16, a circle of radius 4, and the minus sign in front of the root means y \u2264 0. The radius is \u221a16 = 4, not 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0033",
+   "topicId": "meth-hsc-functions",
+   "stem": "The graph of x = \u221a(9 \u2212 y\u00b2) is which half of the circle x\u00b2 + y\u00b2 = 9?",
+   "imageRef": null,
+   "options": [
+    "The right half",
+    "The left half",
+    "The upper half",
+    "The lower half"
+   ],
+   "correctIndex": 0,
+   "explanation": "Here x is the square root, so x \u2265 0, which is the half to the right of the y-axis. Its domain is [0, 3] and its range is [\u22123, 3].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0034",
+   "topicId": "meth-hsc-functions",
+   "stem": "What are the asymptotes of y = \u22122/x?",
+   "imageRef": null,
+   "options": [
+    "x = 0 and y = 0",
+    "x = \u22122 and y = 0",
+    "x = 0 and y = \u22122",
+    "y = x and y = \u2212x"
+   ],
+   "correctIndex": 0,
+   "explanation": "The function is undefined at x = 0, giving a vertical asymptote there, and y \u2192 0 as x \u2192 \u00b1\u221e, giving the horizontal asymptote y = 0. The constant \u22122 changes the shape and quadrants, not the asymptotes.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0035",
+   "topicId": "meth-hsc-functions",
+   "stem": "For f(x) = \u22122/x, which describes the behaviour as x \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "f(x) \u2192 \u2212\u221e",
+    "f(x) \u2192 \u22122",
+    "f(x) \u2192 0 through negative values",
+    "f(x) \u2192 0 through positive values"
+   ],
+   "correctIndex": 2,
+   "explanation": "For large positive x, \u22122/x is a small negative number, so the graph approaches the x-axis from below. It never reaches 0, which is why y = 0 is an asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0036",
+   "topicId": "meth-hsc-functions",
+   "stem": "In which quadrants does the graph of y = k/x lie when k < 0?",
+   "imageRef": null,
+   "options": [
+    "First and second",
+    "Third and fourth",
+    "Second and fourth",
+    "First and third"
+   ],
+   "correctIndex": 2,
+   "explanation": "With k < 0, a positive x gives a negative y (fourth quadrant) and a negative x gives a positive y (second quadrant). For k > 0 the branches are in the first and third quadrants.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0037",
+   "topicId": "meth-hsc-functions",
+   "stem": "y varies directly with x\u00b2, and y = 12 when x = 2. What is y when x = 5?",
+   "imageRef": null,
+   "options": [
+    "75",
+    "30",
+    "150",
+    "48"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = kx\u00b2, so 12 = 4k and k = 3. Then y = 3 \u00d7 25 = 75. Treating the variation as linear, y = 6x, gives 30.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0038",
+   "topicId": "meth-hsc-functions",
+   "stem": "y varies inversely with x\u00b2, and y = 8 when x = 3. What is y when x = 6?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "32",
+    "1/2",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = k/x\u00b2, so 8 = k/9 and k = 72. Then y = 72/36 = 2. Using y = k/x instead gives k = 24 and y = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0039",
+   "topicId": "meth-hsc-functions",
+   "stem": "y varies inversely as the cube of x. What happens to y when x is doubled?",
+   "imageRef": null,
+   "options": [
+    "y is multiplied by 8",
+    "y is divided by 6",
+    "y is divided by 8",
+    "y is divided by 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = k/x\u00b3, so replacing x with 2x gives k/(8x\u00b3), which is y/8. Multiplying by 8 would be direct variation with x\u00b3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-functions-0040",
+   "topicId": "meth-hsc-functions",
+   "stem": "The intensity of a light varies inversely as the square of the distance from it. The intensity is 90 units at 2 m. At what distance is it 10 units?",
+   "imageRef": null,
+   "options": [
+    "18 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "I = k/d\u00b2, so 90 = k/4 and k = 360. Then 10 = 360/d\u00b2 gives d\u00b2 = 36 and d = 6 m. Using inverse variation with d alone gives k = 180 and 18 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-functions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "spec-qce-combinatorics",
+ "questions": [
+  {
+   "id": "spec-qce-combinatorics-0001",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "In a class of 30, 18 students play soccer, 15 play basketball and 7 play both. How many play at least one of the two?",
+   "imageRef": null,
+   "options": [
+    "19",
+    "26",
+    "33",
+    "40"
+   ],
+   "correctIndex": 1,
+   "explanation": "|S \u222a B| = |S| + |B| \u2212 |S \u2229 B| = 18 + 15 \u2212 7 = 26. Adding 18 and 15 gives 33, which counts the 7 who play both twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0002",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "In the same class of 30 (18 soccer, 15 basketball, 7 both), how many students play neither sport?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "4",
+    "3",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number playing at least one is 26, so 30 \u2212 26 = 4 play neither. Using 33 for the union would give \u22123, which is impossible.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0003",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "For three finite sets, the inclusion-exclusion principle gives |A \u222a B \u222a C| as:",
+   "imageRef": null,
+   "options": [
+    "|A| + |B| + |C| \u2212 |A \u2229 B \u2229 C|",
+    "|A| + |B| + |C| + |A \u2229 B| + |A \u2229 C| + |B \u2229 C|",
+    "|A| + |B| + |C| \u2212 |A \u2229 B| \u2212 |A \u2229 C| \u2212 |B \u2229 C| + |A \u2229 B \u2229 C|",
+    "|A| + |B| + |C| \u2212 |A \u2229 B| \u2212 |A \u2229 C| \u2212 |B \u2229 C| \u2212 |A \u2229 B \u2229 C|"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtracting the three pairwise intersections removes the triple intersection three times after it was added three times, so it must be added back once. Subtracting it again would leave it uncounted.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0004",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Sets A, B and C have |A| = 20, |B| = 18, |C| = 15, |A \u2229 B| = 7, |A \u2229 C| = 5, |B \u2229 C| = 6 and |A \u2229 B \u2229 C| = 3. The number of elements in A \u222a B \u222a C is:",
+   "imageRef": null,
+   "options": [
+    "32",
+    "53",
+    "38",
+    "35"
+   ],
+   "correctIndex": 2,
+   "explanation": "20 + 18 + 15 \u2212 7 \u2212 5 \u2212 6 + 3 = 38. Forgetting to add back the triple intersection gives 35, and 53 ignores all overlaps.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0005",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "How many integers from 1 to 60 inclusive are divisible by 4 or by 6?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "5",
+    "20",
+    "25"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are 15 multiples of 4 and 10 of 6, and the multiples of both are the multiples of 12, of which there are 5: 15 + 10 \u2212 5 = 20. Using 24 for the overlap instead of 12 undercounts it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0006",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "How many integers from 1 to 100 inclusive are divisible by 2, 3 or 5?",
+   "imageRef": null,
+   "options": [
+    "74",
+    "103",
+    "71",
+    "68"
+   ],
+   "correctIndex": 0,
+   "explanation": "50 + 33 + 20 \u2212 16 \u2212 10 \u2212 6 + 3 = 74, where 16, 10 and 6 count multiples of 6, 10 and 15 and 3 counts multiples of 30. Omitting the final + 3 gives 71.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0007",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A student has 4 shirts, 3 pairs of pants and 2 hats. The number of different outfits of one of each is:",
+   "imageRef": null,
+   "options": [
+    "9",
+    "12",
+    "6",
+    "24"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the multiplication principle, each choice of shirt combines with each choice of pants and hat: 4 \u00d7 3 \u00d7 2 = 24. Adding gives 9, which is the addition principle misapplied.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0008",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A caf\u00e9 offers 5 cakes and 3 ice-creams. A customer chooses one dessert, either a cake or an ice-cream. The number of choices is:",
+   "imageRef": null,
+   "options": [
+    "15",
+    "5",
+    "3",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The choices are mutually exclusive alternatives, so by the addition principle there are 5 + 3 = 8. Multiplying gives 15, which would count choosing a cake and an ice-cream together.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0009",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The values of 5! and 0! are:",
+   "imageRef": null,
+   "options": [
+    "120 and 1",
+    "120 and 0",
+    "15 and 1",
+    "25 and 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120, and 0! is defined to be 1 so that formulas such as n!/(n \u2212 r)! work when r = n. Adding gives 15, which is not a factorial.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0010",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "In simplest form, n!/(n \u2212 2)! equals:",
+   "imageRef": null,
+   "options": [
+    "n(n \u2212 1)",
+    "n\u00b2",
+    "2",
+    "n \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "n! = n(n \u2212 1)(n \u2212 2)!, so dividing by (n \u2212 2)! leaves n(n \u2212 1). The factorials do not simply cancel to 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0011",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A number plate has 3 letters followed by 3 digits, and repeats are allowed. The number of possible plates is:",
+   "imageRef": null,
+   "options": [
+    "17 576 000",
+    "11 232 000",
+    "15 600 000",
+    "1 560 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the multiplication principle, 26 \u00d7 26 \u00d7 26 \u00d7 10 \u00d7 10 \u00d7 10 = 17 576 000. Forbidding repeats would give 26 \u00d7 25 \u00d7 24 \u00d7 10 \u00d7 9 \u00d7 8 = 11 232 000.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0012",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The number of ways to select and arrange 3 objects from 8 distinct objects, \u2078P\u2083, is:",
+   "imageRef": null,
+   "options": [
+    "56",
+    "512",
+    "24",
+    "336"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u2078P\u2083 = 8!/5! = 8 \u00d7 7 \u00d7 6 = 336. The value 56 is \u2078C\u2083, which ignores order, and 512 = 8\u00b3 allows repeats.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0013",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A 4-digit PIN uses the digits 0 to 9 with no digit repeated. The number of possible PINs is:",
+   "imageRef": null,
+   "options": [
+    "5040",
+    "10 000",
+    "210",
+    "3024"
+   ],
+   "correctIndex": 0,
+   "explanation": "Order matters and there are no repeats, so \u00b9\u2070P\u2084 = 10 \u00d7 9 \u00d7 8 \u00d7 7 = 5040. The value 10 000 allows repeats, and 210 = \u00b9\u2070C\u2084 ignores order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0014",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The number of different arrangements of the letters of BANANA is:",
+   "imageRef": null,
+   "options": [
+    "60",
+    "720",
+    "120",
+    "360"
+   ],
+   "correctIndex": 0,
+   "explanation": "Six letters with A repeated 3 times and N twice: 6!/(3! 2!) = 720/12 = 60. The value 720 treats all six letters as different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0015",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The number of different arrangements of the letters of MISSISSIPPI is:",
+   "imageRef": null,
+   "options": [
+    "34 650",
+    "39 916 800",
+    "69 300",
+    "415 800"
+   ],
+   "correctIndex": 0,
+   "explanation": "Eleven letters with I four times, S four times and P twice: 11!/(4! 4! 2!) = 34 650. The value 39 916 800 is 11!, which treats repeated letters as different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0016",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "How many 3-digit even numbers can be made from the digits 1 to 6 if no digit is repeated?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "60",
+    "120",
+    "108"
+   ],
+   "correctIndex": 1,
+   "explanation": "Fill the restricted place first: the last digit is 2, 4 or 6 (3 ways), then the first two places have 5 \u00d7 4 = 20 ways, so 3 \u00d7 20 = 60. The value 120 ignores the even restriction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0017",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "How many numbers greater than 4000 can be made from four different digits chosen from 2, 3, 5, 7 and 8?",
+   "imageRef": null,
+   "options": [
+    "96",
+    "48",
+    "72",
+    "120"
+   ],
+   "correctIndex": 2,
+   "explanation": "A 4-digit number exceeds 4000 when its first digit is 5, 7 or 8 (3 ways); the other three places then have 4 \u00d7 3 \u00d7 2 = 24 ways, giving 72. The value 120 = \u2075P\u2084 ignores the restriction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0018",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Seven different books are placed on a shelf so that 3 particular books are together. The number of arrangements is:",
+   "imageRef": null,
+   "options": [
+    "120",
+    "720",
+    "5040",
+    "144"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat the 3 books as one block: 5 units give 5! = 120 orders, and the block can be arranged internally in 3! = 6 ways, so 120 \u00d7 6 = 720. Leaving out the internal 3! gives 120.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0019",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Five people stand in a row. In how many arrangements are two particular people NOT next to each other?",
+   "imageRef": null,
+   "options": [
+    "72",
+    "48",
+    "96",
+    "120"
+   ],
+   "correctIndex": 0,
+   "explanation": "In total there are 5! = 120 arrangements; with the pair together there are 4! \u00d7 2! = 48. So 120 \u2212 48 = 72 keep them apart. The value 48 counts the arrangements with them together.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0020",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Four boys and three girls stand in a row with boys and girls alternating. The number of arrangements is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "144",
+    "5040",
+    "288"
+   ],
+   "correctIndex": 1,
+   "explanation": "The only pattern is B G B G B G B, so arrange the boys in 4! = 24 ways and the girls in 3! = 6 ways: 24 \u00d7 6 = 144. Doubling to 288 assumes a girl could stand at the left end, which leaves too few places for the boys.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0021",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "In how many arrangements of the letters of TEACHER are the two Es next to each other?",
+   "imageRef": null,
+   "options": [
+    "2520",
+    "360",
+    "720",
+    "1440"
+   ],
+   "correctIndex": 2,
+   "explanation": "Treat EE as one unit: T, EE, A, C, H and R are 6 distinct units, giving 6! = 720. Multiplying by 2! for the order within the block double-counts, because the two Es are identical.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0022",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Which of these situations is counted by combinations rather than permutations?",
+   "imageRef": null,
+   "options": [
+    "Seating 5 guests in a row of chairs",
+    "Choosing 4 players for a team from a squad",
+    "Awarding gold, silver and bronze medals",
+    "Setting a 4-digit PIN with no repeated digits"
+   ],
+   "correctIndex": 1,
+   "explanation": "A team of 4 is the same team whatever order its members are chosen, so order does not matter. Medals, PIN digits and seats are all positions, so order matters.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0023",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The value of \u00b9\u2070C\u2083 is:",
+   "imageRef": null,
+   "options": [
+    "30",
+    "1000",
+    "120",
+    "720"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u00b9\u2070C\u2083 = (10 \u00d7 9 \u00d7 8)/(3 \u00d7 2 \u00d7 1) = 120. The value 720 = \u00b9\u2070P\u2083 counts each selection 3! = 6 times.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0024",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "At a party, each of 12 people shakes hands once with every other person. The number of handshakes is:",
+   "imageRef": null,
+   "options": [
+    "66",
+    "132",
+    "144",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "A handshake is an unordered pair, so the count is \u00b9\u00b2C\u2082 = 66. The value 132 = 12 \u00d7 11 counts each handshake twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0025",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The number of diagonals of a regular octagon is:",
+   "imageRef": null,
+   "options": [
+    "28",
+    "16",
+    "40",
+    "20"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any 2 of the 8 vertices give \u2078C\u2082 = 28 segments, of which 8 are sides, leaving 20 diagonals. The value 28 includes the sides.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0026",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A reader chooses 3 novels from 8 and 2 non-fiction books from 5. The number of possible selections is:",
+   "imageRef": null,
+   "options": [
+    "120",
+    "560",
+    "66",
+    "1287"
+   ],
+   "correctIndex": 1,
+   "explanation": "Select from each group and multiply: \u2078C\u2083 \u00d7 \u2075C\u2082 = 56 \u00d7 10 = 560. Adding 56 and 10 gives 66, and 1287 = \u00b9\u00b3C\u2085 ignores the requirement of 3 and 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0027",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A committee of 4 is chosen from 6 men and 5 women. The number of committees with exactly 2 women is:",
+   "imageRef": null,
+   "options": [
+    "330",
+    "25",
+    "60",
+    "150"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choose 2 of the 5 women and 2 of the 6 men: \u2075C\u2082 \u00d7 \u2076C\u2082 = 10 \u00d7 15 = 150. The value 330 = \u00b9\u00b9C\u2084 counts every committee.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0028",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A committee of 4 is chosen from 6 men and 5 women. The number of committees with at least one woman is:",
+   "imageRef": null,
+   "options": [
+    "325",
+    "315",
+    "330",
+    "150"
+   ],
+   "correctIndex": 1,
+   "explanation": "Use the complement: all committees \u00b9\u00b9C\u2084 = 330, minus those with no women \u2076C\u2084 = 15, gives 315. Subtracting \u2075C\u2084 = 5, the all-women committees, gives 325, and 330 forgets to subtract anything.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0029",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A committee of 5 is chosen from 9 people. In how many committees are two particular people both included?",
+   "imageRef": null,
+   "options": [
+    "91",
+    "35",
+    "126",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "With the two included, choose the remaining 3 members from the other 7: \u2077C\u2083 = 35. The value 91 counts the committees that do not contain both.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0030",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A committee of 5 is chosen from 9 people, but two particular people refuse to serve together. The number of possible committees is:",
+   "imageRef": null,
+   "options": [
+    "126",
+    "91",
+    "35",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "From all \u2079C\u2085 = 126 committees, remove the \u2077C\u2083 = 35 containing both: 126 \u2212 35 = 91. Counting only committees with neither person, \u2077C\u2085 = 21, misses those with exactly one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0031",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "If \u207fC\u2082 = 28, the value of n is:",
+   "imageRef": null,
+   "options": [
+    "56",
+    "8",
+    "7",
+    "14"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u207fC\u2082 = n(n \u2212 1)/2 = 28 gives n\u00b2 \u2212 n \u2212 56 = 0, so (n \u2212 8)(n + 7) = 0 and n = 8, since n must be positive. Halving 28 to get 14 ignores the formula.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0032",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "A student must answer 5 of the 8 questions on an exam. The number of ways to choose the questions is:",
+   "imageRef": null,
+   "options": [
+    "40",
+    "13",
+    "56",
+    "6720"
+   ],
+   "correctIndex": 2,
+   "explanation": "The order of choosing does not matter, so the count is \u2078C\u2085 = \u2078C\u2083 = 56. The value 6720 = \u2078P\u2085 treats the selections as ordered.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0033",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Three students are chosen at random from 5 girls and 4 boys. The probability that all three are girls is:",
+   "imageRef": null,
+   "options": [
+    "10/21",
+    "1/8",
+    "5/42",
+    "5/9"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are \u2075C\u2083 = 10 all-girl selections out of \u2079C\u2083 = 84, so the probability is 10/84 = 5/42. The value 5/9 is the probability for one girl only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0034",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Three balls are drawn at random without replacement from a bag of 4 red and 6 blue balls. The probability of exactly 2 red is:",
+   "imageRef": null,
+   "options": [
+    "1/5",
+    "1/2",
+    "9/20",
+    "3/10"
+   ],
+   "correctIndex": 3,
+   "explanation": "Favourable selections: \u2074C\u2082 \u00d7 \u2076C\u2081 = 6 \u00d7 6 = 36 out of \u00b9\u2070C\u2083 = 120, so the probability is 36/120 = 3/10. Forgetting to multiply by \u2076C\u2081 gives 6/120, too small.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0035",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "The letters of BANANA are arranged at random. The probability that the arrangement starts with B is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/60",
+    "1/6",
+    "1/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "With B fixed first, the remaining letters A, N, A, N, A give 5!/(3! 2!) = 10 arrangements out of 60, so the probability is 1/6. This matches the chance that B, one of six letters, lands first.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-combinatorics-0036",
+   "topicId": "spec-qce-combinatorics",
+   "stem": "Four friends sit at random in a row of 4 seats. The probability that two particular friends sit next to each other is:",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/2",
+    "1/4",
+    "1/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat the pair as a block: 3! \u00d7 2! = 12 of the 4! = 24 arrangements have them together, so the probability is 12/24 = 1/2. Forgetting the 2! orders within the block gives 1/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-combinatorics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

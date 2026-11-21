@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-hsc-inverse-trig",
+ "questions": [
+  {
+   "id": "spec-hsc-inverse-trig-0001",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "y = sin(x) has no inverse function over all real x because:",
+   "imageRef": null,
+   "options": [
+    "its range is not all real numbers, so it cannot be reversed",
+    "it is an odd function, and odd functions have no inverses",
+    "it fails the horizontal line test, so it is not one-to-one",
+    "it fails the vertical line test, so it is not a function"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each value of sin(x) between \u22121 and 1 is taken infinitely often, so a horizontal line cuts the graph many times and the function is many-to-one. Restricting the domain to \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2 makes it one-to-one. It does pass the vertical line test, so it is a function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0002",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The domain of y = cos(x) is restricted to 0 \u2264 x \u2264 \u03c0 to define cos\u207b\u00b9(x) because on that interval cos(x):",
+   "imageRef": null,
+   "options": [
+    "is one-to-one and takes every value from \u22121 to 1",
+    "is increasing and takes every value from \u22121 to 1",
+    "is an odd function and takes every value from 0 to 1",
+    "is positive and takes every value from 0 to 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "On 0 \u2264 x \u2264 \u03c0, cos(x) decreases steadily from 1 to \u22121, so it is one-to-one and covers its whole range. It is decreasing there, not increasing, and it is negative for \u03c0/2 < x \u2264 \u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0003",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The range of y = sin\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/2 < y < \u03c0/2",
+    "\u22121 \u2264 y \u2264 1",
+    "\u2212\u03c0/2 \u2264 y \u2264 \u03c0/2",
+    "0 \u2264 y \u2264 \u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin\u207b\u00b9(x) is the inverse of sin(x) restricted to \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2, so that interval, endpoints included, becomes its range. The interval \u22121 \u2264 y \u2264 1 is its domain, and the open interval belongs to tan\u207b\u00b9(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0004",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The range of y = cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "0 \u2264 y \u2264 2\u03c0",
+    "0 \u2264 y \u2264 \u03c0",
+    "\u2212\u03c0/2 \u2264 y \u2264 \u03c0/2",
+    "0 < y < \u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos\u207b\u00b9(x) is the inverse of cos(x) restricted to 0 \u2264 x \u2264 \u03c0, so its range is 0 \u2264 y \u2264 \u03c0, including both ends: cos\u207b\u00b9(1) = 0 and cos\u207b\u00b9(\u22121) = \u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0005",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The domain of y = tan\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "x \u2260 \u00b1\u03c0/2",
+    "all real x",
+    "\u22121 \u2264 x \u2264 1",
+    "\u2212\u03c0/2 < x < \u03c0/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "tan(x) on \u2212\u03c0/2 < x < \u03c0/2 takes every real value, so its inverse accepts every real x. The interval \u2212\u03c0/2 < x < \u03c0/2 is the range of tan\u207b\u00b9(x), not its domain.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0006",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of sin\u207b\u00b9(1/2) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6",
+    "\u03c0/3",
+    "5\u03c0/6",
+    "\u2212\u03c0/6"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin(\u03c0/6) = 1/2 and \u03c0/6 lies in \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2, so sin\u207b\u00b9(1/2) = \u03c0/6. Although sin(5\u03c0/6) = 1/2 too, 5\u03c0/6 is outside the range of sin\u207b\u00b9. The value \u03c0/3 is cos\u207b\u00b9(1/2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0007",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of cos\u207b\u00b9(\u22121/2) is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0/3",
+    "\u2212\u03c0/3",
+    "\u03c0/3",
+    "4\u03c0/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos\u207b\u00b9 gives an angle from 0 to \u03c0. The angle in that interval with cosine \u22121/2 is 2\u03c0/3. The value \u2212\u03c0/3 is negative, so it cannot be an output of cos\u207b\u00b9, and 4\u03c0/3 is beyond \u03c0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0008",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of tan\u207b\u00b9(\u2212\u221a3) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "\u2212\u03c0/6",
+    "\u2212\u03c0/3",
+    "2\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan\u207b\u00b9 gives an angle strictly between \u2212\u03c0/2 and \u03c0/2. tan(\u2212\u03c0/3) = \u2212\u221a3, so tan\u207b\u00b9(\u2212\u221a3) = \u2212\u03c0/3. Although tan(2\u03c0/3) = \u2212\u221a3, 2\u03c0/3 is outside the range. tan(\u2212\u03c0/6) = \u22121/\u221a3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0009",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "Which point lies on the graph of y = cos\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "(1, \u03c0)",
+    "(0, 0)",
+    "(\u22121, \u03c0)",
+    "(\u22121, 0)"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos(\u03c0) = \u22121, so cos\u207b\u00b9(\u22121) = \u03c0 and (\u22121, \u03c0) is on the graph. The graph runs from (\u22121, \u03c0) through (0, \u03c0/2) to (1, 0), so it does not pass through the origin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0010",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The graph of y = sin\u207b\u00b9(x) is the reflection of y = sin(x), for \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2, in:",
+   "imageRef": null,
+   "options": [
+    "the line y = x",
+    "the y-axis",
+    "the x-axis",
+    "the line y = \u2212x"
+   ],
+   "correctIndex": 0,
+   "explanation": "The graph of any inverse function is the reflection of the original graph in y = x, because the roles of x and y are swapped. Reflecting in an axis gives a transformation of sin(x), not its inverse.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0011",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The horizontal asymptotes of y = tan\u207b\u00b9(x) are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/2 and x = \u2212\u03c0/2",
+    "y = \u03c0 and y = \u2212\u03c0",
+    "y = 1 and y = \u22121",
+    "y = \u03c0/2 and y = \u2212\u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vertical asymptotes x = \u00b1\u03c0/2 of y = tan(x) become horizontal asymptotes y = \u00b1\u03c0/2 when the graph is reflected in y = x. As x \u2192 \u221e, tan\u207b\u00b9(x) \u2192 \u03c0/2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0012",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The function y = cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "neither odd nor even",
+    "odd",
+    "even",
+    "both odd and even"
+   ],
+   "correctIndex": 0,
+   "explanation": "cos\u207b\u00b9(\u2212x) = \u03c0 \u2212 cos\u207b\u00b9(x), which is neither cos\u207b\u00b9(x) nor \u2212cos\u207b\u00b9(x). Its graph is symmetric about the point (0, \u03c0/2), not about the origin or the y-axis. By contrast sin\u207b\u00b9(x) and tan\u207b\u00b9(x) are odd.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0013",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "If cos\u207b\u00b9(0.4) = \u03b1, then cos\u207b\u00b9(\u22120.4) equals:",
+   "imageRef": null,
+   "options": [
+    "\u03c0 + \u03b1",
+    "\u03c0 \u2212 \u03b1",
+    "\u2212\u03b1",
+    "\u03b1 \u2212 \u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The property cos\u207b\u00b9(\u2212x) = \u03c0 \u2212 cos\u207b\u00b9(x) gives \u03c0 \u2212 \u03b1. The answer \u2212\u03b1 would apply to sin\u207b\u00b9 or tan\u207b\u00b9, which are odd, but it is negative and so cannot be an output of cos\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0014",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The value of tan\u207b\u00b9(2) + tan\u207b\u00b9(\u22122) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u2212\u03c0",
+    "0",
+    "\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan\u207b\u00b9 is an odd function, so tan\u207b\u00b9(\u22122) = \u2212tan\u207b\u00b9(2) and the sum is 0. The result \u03c0/2 comes from a different identity, cos\u207b\u00b9(x) + sin\u207b\u00b9(x) = \u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0015",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The value of sin\u207b\u00b9(0.3) + cos\u207b\u00b9(0.3) is:",
+   "imageRef": null,
+   "options": [
+    "0.6",
+    "0",
+    "\u03c0/2",
+    "\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "For \u22121 \u2264 x \u2264 1, sin\u207b\u00b9(x) + cos\u207b\u00b9(x) = \u03c0/2, since the two angles are complementary in a right triangle. The 0.3 does not add; the outputs are angles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0016",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "Which function is identical to y = \u03c0/2 \u2212 cos\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "y = cos\u207b\u00b9(\u2212x)",
+    "y = \u2212cos\u207b\u00b9(x)",
+    "y = sin\u207b\u00b9(\u2212x)",
+    "y = sin\u207b\u00b9(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "From cos\u207b\u00b9(x) + sin\u207b\u00b9(x) = \u03c0/2, rearranging gives sin\u207b\u00b9(x) = \u03c0/2 \u2212 cos\u207b\u00b9(x). The function cos\u207b\u00b9(\u2212x) equals \u03c0 \u2212 cos\u207b\u00b9(x), which differs by \u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0017",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The solution of sin\u207b\u00b9(x) = cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "x = \u221a3/2",
+    "x = 1/\u221a2",
+    "x = 0",
+    "x = 1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since the two add to \u03c0/2, they are equal when each is \u03c0/4, so x = sin(\u03c0/4) = 1/\u221a2. At x = 0, sin\u207b\u00b9(0) = 0 but cos\u207b\u00b9(0) = \u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0018",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The solution of 2sin\u207b\u00b9(x) = \u03c0/3 is:",
+   "imageRef": null,
+   "options": [
+    "x = \u221a3/2",
+    "x = \u03c0/6",
+    "x = 1/\u221a2",
+    "x = 1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9(x) = \u03c0/6, so x = sin(\u03c0/6) = 1/2. The angle \u03c0/6 is the value of sin\u207b\u00b9(x), not of x itself, and \u221a3/2 comes from solving sin\u207b\u00b9(x) = \u03c0/3 without halving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0019",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The value of sin\u207b\u00b9(x) + sin\u207b\u00b9(\u2212x) + cos\u207b\u00b9(x) + cos\u207b\u00b9(\u2212x), for \u22121 \u2264 x \u2264 1, is:",
+   "imageRef": null,
+   "options": [
+    "0",
+    "\u03c0/2",
+    "2\u03c0",
+    "\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9 is odd, so the first two terms cancel. cos\u207b\u00b9(\u2212x) = \u03c0 \u2212 cos\u207b\u00b9(x), so the last two add to \u03c0. Treating cos\u207b\u00b9 as odd too would give 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0020",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The graph of y = sin\u207b\u00b9(x) + cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "a horizontal segment y = \u03c0/2 for \u22121 \u2264 x \u2264 1",
+    "the horizontal line y = \u03c0/2 for all real x",
+    "a curve rising from (\u22121, 0) to (1, \u03c0)",
+    "a horizontal segment y = \u03c0 for \u22121 \u2264 x \u2264 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sum is the constant \u03c0/2, but only where both functions are defined, so the graph is a segment from (\u22121, \u03c0/2) to (1, \u03c0/2). Outside \u22121 \u2264 x \u2264 1 neither function exists.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0021",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The solution of sin\u207b\u00b9(x) = 2cos\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "x = 1/\u221a2",
+    "there is no solution",
+    "x = \u221a3/2",
+    "x = 1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute cos\u207b\u00b9(x) = \u03c0/2 \u2212 sin\u207b\u00b9(x): sin\u207b\u00b9(x) = \u03c0 \u2212 2sin\u207b\u00b9(x), so sin\u207b\u00b9(x) = \u03c0/3 and x = \u221a3/2. Check: cos\u207b\u00b9(\u221a3/2) = \u03c0/6, and 2 \u00d7 \u03c0/6 = \u03c0/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0022",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The equation cos\u207b\u00b9(x) = sin\u207b\u00b9(\u22125/13) has:",
+   "imageRef": null,
+   "options": [
+    "one solution, x = 12/13, from taking cosines",
+    "one solution, x = \u221212/13, using cos\u207b\u00b9(\u2212x)",
+    "two solutions, x = 12/13 and x = \u221212/13",
+    "no solution, since cos\u207b\u00b9(x) is never negative"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin\u207b\u00b9(\u22125/13) lies between \u2212\u03c0/2 and 0, so it is negative. The range of cos\u207b\u00b9 is 0 \u2264 y \u2264 \u03c0, so cos\u207b\u00b9(x) can never equal a negative number. Taking cosines of both sides without checking ranges produces the false solution 12/13.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0023",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of cos(sin\u207b\u00b9(\u22121/4)) is:",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "\u221a17/4",
+    "\u221a15/4",
+    "\u2212\u221a15/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let \u03b8 = sin\u207b\u00b9(\u22121/4), so sin \u03b8 = \u22121/4 with \u2212\u03c0/2 \u2264 \u03b8 \u2264 0. Then cos \u03b8 = \u221a(1 \u2212 1/16) = \u221a15/4, and it is positive because cosine is positive in that interval. The sign of the sine does not carry over to the cosine.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0024",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of tan(cos\u207b\u00b9(3/5)) is:",
+   "imageRef": null,
+   "options": [
+    "4/5",
+    "\u22124/3",
+    "4/3",
+    "3/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let \u03b8 = cos\u207b\u00b9(3/5), an acute angle with adjacent 3 and hypotenuse 5, so the opposite side is 4 and tan \u03b8 = 4/3. The value 3/4 inverts the ratio, and 4/5 is sin \u03b8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0025",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of sin(2sin\u207b\u00b9(3/5)) is:",
+   "imageRef": null,
+   "options": [
+    "6/5",
+    "7/25",
+    "12/25",
+    "24/25"
+   ],
+   "correctIndex": 3,
+   "explanation": "Let \u03b8 = sin\u207b\u00b9(3/5), so sin \u03b8 = 3/5 and cos \u03b8 = 4/5. Then sin 2\u03b8 = 2sin \u03b8 cos \u03b8 = 2(3/5)(4/5) = 24/25. Doubling 3/5 gives 6/5, which is impossible for a sine, and 7/25 is cos 2\u03b8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0026",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "For \u22121 \u2264 x \u2264 1, sin(cos\u207b\u00b9(x)) equals:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u221a(1 \u2212 x\u00b2)",
+    "1 \u2212 x\u00b2",
+    "\u221a(1 + x\u00b2)",
+    "\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Let \u03b8 = cos\u207b\u00b9(x), so cos \u03b8 = x and 0 \u2264 \u03b8 \u2264 \u03c0. On that interval sin \u03b8 \u2265 0, so sin \u03b8 = +\u221a(1 \u2212 cos\u00b2 \u03b8) = \u221a(1 \u2212 x\u00b2). The negative root is ruled out by the range of cos\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0027",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "For all real x, cos(tan\u207b\u00b9(x)) equals:",
+   "imageRef": null,
+   "options": [
+    "1/\u221a(1 + x\u00b2)",
+    "x/\u221a(1 + x\u00b2)",
+    "\u221a(1 + x\u00b2)",
+    "1/\u221a(1 \u2212 x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let \u03b8 = tan\u207b\u00b9(x), so tan \u03b8 = x with \u2212\u03c0/2 < \u03b8 < \u03c0/2, where cos \u03b8 > 0. A right triangle with opposite x and adjacent 1 has hypotenuse \u221a(1 + x\u00b2), so cos \u03b8 = 1/\u221a(1 + x\u00b2). The expression x/\u221a(1 + x\u00b2) is sin \u03b8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0028",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The formula sin(sin\u207b\u00b9(x)) = x is true for:",
+   "imageRef": null,
+   "options": [
+    "\u22121 \u2264 x \u2264 1",
+    "all real x",
+    "\u2212\u03c0/2 \u2264 x \u2264 \u03c0/2",
+    "0 \u2264 x \u2264 \u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "sin\u207b\u00b9(x) only exists for \u22121 \u2264 x \u2264 1, and for every such x, taking the sine of sin\u207b\u00b9(x) returns x. Outside that interval the left side is undefined. The interval \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2 is where sin\u207b\u00b9(sin(x)) = x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0029",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The formula sin\u207b\u00b9(sin(x)) = x is true for:",
+   "imageRef": null,
+   "options": [
+    "0 \u2264 x \u2264 \u03c0",
+    "\u2212\u03c0/2 \u2264 x \u2264 \u03c0/2",
+    "\u22121 \u2264 x \u2264 1",
+    "all real x"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin\u207b\u00b9(sin(x)) is defined for every real x, but its output is always between \u2212\u03c0/2 and \u03c0/2. So it returns x only when x is already in that interval. For example sin\u207b\u00b9(sin(\u03c0)) = 0, not \u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0030",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The formula tan(tan\u207b\u00b9(x)) = x is true for:",
+   "imageRef": null,
+   "options": [
+    "x \u2265 0 only",
+    "all real x",
+    "\u2212\u03c0/2 < x < \u03c0/2",
+    "\u22121 \u2264 x \u2264 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "tan\u207b\u00b9(x) exists for every real x, and the tangent of that angle is x again. The interval \u2212\u03c0/2 < x < \u03c0/2 is where tan\u207b\u00b9(tan(x)) = x, the composition in the other order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0031",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The graph of y = cos(cos\u207b\u00b9(x)) is:",
+   "imageRef": null,
+   "options": [
+    "the line y = x for 0 \u2264 x \u2264 \u03c0",
+    "a zig-zag defined for all real x",
+    "the line y = x for \u22121 \u2264 x \u2264 1",
+    "the line y = x for all real x"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos\u207b\u00b9(x) needs \u22121 \u2264 x \u2264 1, and then cos(cos\u207b\u00b9(x)) = x, so the graph is the segment of y = x from (\u22121, \u22121) to (1, 1). The zig-zag describes cos\u207b\u00b9(cos(x)), the composition in the other order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0032",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The function y = sin\u207b\u00b9(sin(x)) is:",
+   "imageRef": null,
+   "options": [
+    "defined for \u22121 \u2264 x \u2264 1, with range \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2",
+    "defined for all real x, with range \u22121 \u2264 y \u2264 1",
+    "defined for \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2 only, with range all real y",
+    "defined for all real x, with range \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin(x) exists for every x and lies in \u22121 \u2264 sin(x) \u2264 1, so sin\u207b\u00b9 can always be applied. The outputs of sin\u207b\u00b9 lie in \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2, and the graph is a zig-zag that equals y = x only on that interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0033",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of cos\u207b\u00b9(cos(5\u03c0/3)) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/3",
+    "2\u03c0/3",
+    "\u03c0/3",
+    "5\u03c0/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos(5\u03c0/3) = 1/2, and the angle in 0 \u2264 y \u2264 \u03c0 with cosine 1/2 is \u03c0/3. The value 5\u03c0/3 is outside the range of cos\u207b\u00b9, so the composition does not simply return 5\u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0034",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of sin\u207b\u00b9(sin(3\u03c0/4)) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/4",
+    "\u22123\u03c0/4",
+    "\u03c0/4",
+    "3\u03c0/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin(3\u03c0/4) = 1/\u221a2, and the angle in \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2 with sine 1/\u221a2 is \u03c0/4. The formula sin\u207b\u00b9(sin(x)) = x only holds for \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2, and 3\u03c0/4 is outside it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0035",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The exact value of tan\u207b\u00b9(tan(5\u03c0/6)) is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6",
+    "\u22125\u03c0/6",
+    "\u2212\u03c0/6",
+    "5\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan(5\u03c0/6) = \u22121/\u221a3, and the angle strictly between \u2212\u03c0/2 and \u03c0/2 with that tangent is \u2212\u03c0/6. The answer \u03c0/6 forgets that 5\u03c0/6 is in the second quadrant, where tangent is negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0036",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "Given that cos(23\u03c0/12) = (\u221a6 + \u221a2)/4, the exact value of cos\u207b\u00b9((\u221a6 + \u221a2)/4) is:",
+   "imageRef": null,
+   "options": [
+    "11\u03c0/12",
+    "\u03c0/12",
+    "23\u03c0/12",
+    "\u2212\u03c0/12"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos(23\u03c0/12) = cos(2\u03c0 \u2212 \u03c0/12) = cos(\u03c0/12), and \u03c0/12 is in the range 0 to \u03c0, so the answer is \u03c0/12. 23\u03c0/12 is outside the range of cos\u207b\u00b9, and cos(11\u03c0/12) is negative.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0037",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The domain and range of y = \u22122cos\u207b\u00b9(3x) are:",
+   "imageRef": null,
+   "options": [
+    "domain \u22121/3 \u2264 x \u2264 1/3, range 0 \u2264 y \u2264 2\u03c0",
+    "domain \u22121/3 \u2264 x \u2264 1/3, range \u2212\u03c0 \u2264 y \u2264 \u03c0",
+    "domain \u22121/3 \u2264 x \u2264 1/3, range \u22122\u03c0 \u2264 y \u2264 0",
+    "domain \u22123 \u2264 x \u2264 3, range \u22122\u03c0 \u2264 y \u2264 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "We need \u22121 \u2264 3x \u2264 1, so \u22121/3 \u2264 x \u2264 1/3: the graph of cos\u207b\u00b9(x) is dilated by a factor of 1/3 horizontally. The range 0 to \u03c0 is multiplied by \u22122, a dilation by 2 and a reflection in the x-axis, giving \u22122\u03c0 \u2264 y \u2264 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0038",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The range of y = 3sin\u207b\u00b9(x/2) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/2 \u2264 y \u2264 \u03c0/2",
+    "\u22123\u03c0 \u2264 y \u2264 3\u03c0",
+    "\u2212\u03c0 \u2264 y \u2264 \u03c0",
+    "\u22123\u03c0/2 \u2264 y \u2264 3\u03c0/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The x/2 only changes the domain, to \u22122 \u2264 x \u2264 2. The factor 3 dilates the range \u2212\u03c0/2 \u2264 y \u2264 \u03c0/2 vertically, giving \u22123\u03c0/2 \u2264 y \u2264 3\u03c0/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0039",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The domain of y = sin\u207b\u00b9(x \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "\u22122 \u2264 x \u2264 0",
+    "\u22121 \u2264 x \u2264 1",
+    "1 \u2264 x \u2264 3",
+    "0 \u2264 x \u2264 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "We need \u22121 \u2264 x \u2212 1 \u2264 1, so 0 \u2264 x \u2264 2: the graph of sin\u207b\u00b9(x) is translated 1 unit right. Translating the wrong way gives \u22122 \u2264 x \u2264 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-inverse-trig-0040",
+   "topicId": "spec-hsc-inverse-trig",
+   "stem": "The horizontal asymptotes of y = 2tan\u207b\u00b9(x) + \u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "y = \u2212\u03c0 and y = \u03c0",
+    "y = \u03c0/2 and y = \u2212\u03c0/2",
+    "y = 0 and y = 2\u03c0",
+    "y = \u03c0/2 and y = 3\u03c0/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "tan\u207b\u00b9(x) approaches \u00b1\u03c0/2. Multiplying by 2 gives \u00b1\u03c0, and adding \u03c0 gives 0 and 2\u03c0. Forgetting the dilation gives \u03c0 \u00b1 \u03c0/2, that is \u03c0/2 and 3\u03c0/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-inverse-trig-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+ "topicId": "spec-qce-matrices-systems",
+ "questions": [
+  {
+   "id": "spec-qce-matrices-systems-0001",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The matrix A has rows (2, 0, 1), (1, 3, 0) and (0, 1, 4). The determinant of A is:",
+   "imageRef": null,
+   "options": [
+    "24",
+    "11",
+    "25",
+    "23"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding along the first row: 2(3 \u00d7 4 \u2212 0 \u00d7 1) \u2212 0(1 \u00d7 4 \u2212 0 \u00d7 0) + 1(1 \u00d7 1 \u2212 3 \u00d7 0) = 24 + 1 = 25. Subtracting the third term instead of adding it gives 23; the signs of the cofactors alternate +, \u2212, +.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0002",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A square matrix is singular when:",
+   "imageRef": null,
+   "options": [
+    "its determinant is 0",
+    "its determinant is 1",
+    "all its entries are non-zero",
+    "it equals its own inverse"
+   ],
+   "correctIndex": 0,
+   "explanation": "A singular matrix has determinant 0 and so has no inverse. A matrix with determinant 1 is non-singular, and its inverse exists.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0003",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Which of these matrices is singular?",
+   "imageRef": null,
+   "options": [
+    "rows (1, 0, 0), (0, 2, 0) and (0, 0, 3)",
+    "rows (1, 2, 0), (0, 1, 2) and (2, 0, 1)",
+    "rows (2, 1, 0), (1, 2, 1) and (0, 1, 2)",
+    "rows (1, 2, 3), (2, 4, 6) and (1, 0, 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The second row (2, 4, 6) is twice the first row, so the determinant is 0. The diagonal matrix has determinant 1 \u00d7 2 \u00d7 3 = 6, and the other two have determinants 9 and 4, so they are non-singular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0004",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The matrix with rows (3, 0, 0), (2, \u22121, 4) and (5, 1, 2) has determinant:",
+   "imageRef": null,
+   "options": [
+    "\u22126",
+    "\u221230",
+    "\u221218",
+    "18"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding along the first row, only the first entry is non-zero: 3((\u22121)(2) \u2212 (4)(1)) = 3(\u22122 \u2212 4) = \u221218. Computing the 2 \u00d7 2 determinant as \u22122 + 4 = 2 and then 3 \u00d7 2 = 6 gets the subtraction wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0005",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "For which value of k is the matrix with rows (1, 2, 0), (0, k, 1) and (2, 0, 1) singular?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "0",
+    "\u22122",
+    "\u22124"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding along the first row: 1(k \u00d7 1 \u2212 1 \u00d7 0) \u2212 2(0 \u00d7 1 \u2212 1 \u00d7 2) + 0 = k + 4. The matrix is singular when k + 4 = 0, that is k = \u22124. Forgetting the minus sign on the middle cofactor gives k \u2212 4 and k = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0006",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A and B are 3 \u00d7 3 matrices with det(A) = 3 and det(B) = \u22122. The value of det(AB) is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "6",
+    "\u22128",
+    "\u22126"
+   ],
+   "correctIndex": 3,
+   "explanation": "The determinant of a product is the product of the determinants: det(AB) = det(A) det(B) = 3 \u00d7 (\u22122) = \u22126. Adding gives 1, which is not a property of determinants.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0007",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A is a 3 \u00d7 3 matrix with det(A) = 5. The value of det(2A) is:",
+   "imageRef": null,
+   "options": [
+    "40",
+    "10",
+    "20",
+    "25"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiplying a 3 \u00d7 3 matrix by 2 multiplies each of its three rows by 2, so the determinant is multiplied by 2\u00b3 = 8: det(2A) = 8 \u00d7 5 = 40. The answer 10 treats the scalar as multiplying only one row.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0008",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The inverse of the matrix with rows (1, 0, 0), (0, 2, 0) and (0, 0, 4) has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, 0, 0), (0, 1/2, 0) and (0, 0, 1/4)",
+    "(1, 0, 0), (0, \u22122, 0) and (0, 0, \u22124)",
+    "(1, 0, 0), (0, 2, 0) and (0, 0, 4)",
+    "(\u22121, 0, 0), (0, \u22121/2, 0) and (0, 0, \u22121/4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a diagonal matrix with non-zero diagonal entries, the inverse has the reciprocals on the diagonal. Check: the product is the identity matrix. Negating the entries gives the additive inverse, not the multiplicative inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0009",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Which matrix is the inverse of A, where A has rows (1, 1, 0), (0, 1, 1) and (0, 0, 1)?",
+   "imageRef": null,
+   "options": [
+    "rows (1, \u22121, 0), (0, 1, \u22121) and (0, 0, 1)",
+    "rows (\u22121, \u22121, 0), (0, \u22121, \u22121) and (0, 0, \u22121)",
+    "rows (1, 0, 0), (1, 1, 0) and (0, 1, 1)",
+    "rows (1, \u22121, 1), (0, 1, \u22121) and (0, 0, 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying A by this matrix gives the identity; for example, row 1 of A times column 3 is 1(1) + 1(\u22121) + 0(1) = 0, as required. Without the 1 in the top right corner, that entry of the product would be \u22121, not 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0010",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A is a 3 \u00d7 3 matrix with det(A) = 4. The value of det(2A\u207b\u00b9) is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1/2",
+    "8",
+    "32"
+   ],
+   "correctIndex": 0,
+   "explanation": "det(A\u207b\u00b9) = 1/det(A) = 1/4, and multiplying a 3 \u00d7 3 matrix by 2 multiplies its determinant by 2\u00b3 = 8. So det(2A\u207b\u00b9) = 8 \u00d7 1/4 = 2. Using 2 instead of 2\u00b3 gives 1/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0011",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A is a non-singular square matrix. The solution of AX = B is:",
+   "imageRef": null,
+   "options": [
+    "X = BA\u207b\u00b9",
+    "X = B \u2212 A",
+    "X = AB",
+    "X = A\u207b\u00b9B"
+   ],
+   "correctIndex": 3,
+   "explanation": "Pre-multiply both sides by A\u207b\u00b9: A\u207b\u00b9AX = A\u207b\u00b9B, so X = A\u207b\u00b9B. Matrix multiplication is not commutative, so BA\u207b\u00b9 is in general a different matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0012",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A is a non-singular square matrix. The solution of XA = B is:",
+   "imageRef": null,
+   "options": [
+    "X = B \u2212 A",
+    "X = BA",
+    "X = BA\u207b\u00b9",
+    "X = A\u207b\u00b9B"
+   ],
+   "correctIndex": 2,
+   "explanation": "Post-multiply both sides by A\u207b\u00b9: XAA\u207b\u00b9 = BA\u207b\u00b9, so X = BA\u207b\u00b9. Because A is on the right of X, its inverse must also go on the right.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0013",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A, B and C are square matrices of the same order, and A + B is non-singular. The solution of AX + BX = C is:",
+   "imageRef": null,
+   "options": [
+    "X = A\u207b\u00b9C + B\u207b\u00b9C",
+    "X = (A\u207b\u00b9 + B\u207b\u00b9)C",
+    "X = (A + B)\u207b\u00b9C",
+    "X = C(A + B)\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorise on the right: (A + B)X = C, then pre-multiply by (A + B)\u207b\u00b9 to get X = (A + B)\u207b\u00b9C. The inverse of a sum is not the sum of the inverses, so A\u207b\u00b9C + B\u207b\u00b9C is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0014",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The inverse of A has rows (1, 0, 1), (2, 1, 0) and (0, \u22121, 1). If AX = B, where B is the column (1, 2, 3), then X is the column:",
+   "imageRef": null,
+   "options": [
+    "(3, 4, \u22121)",
+    "(4, 4, 1)",
+    "(1, 4, 1)",
+    "(4, 2, 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "X = A\u207b\u00b9B. Row 1: 1 + 0 + 3 = 4. Row 2: 2 + 2 + 0 = 4. Row 3: 0 \u2212 2 + 3 = 1. So X = (4, 4, 1). Multiplying by A\u207b\u00b9 is required; B itself is not the solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0015",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A system of three linear equations in three unknowns is written AX = B. The system has a unique solution exactly when:",
+   "imageRef": null,
+   "options": [
+    "every entry of A is non-zero",
+    "det(A) \u2260 0",
+    "det(A) = 0",
+    "B is the zero column"
+   ],
+   "correctIndex": 1,
+   "explanation": "If det(A) \u2260 0, then A\u207b\u00b9 exists and X = A\u207b\u00b9B is the only solution. If det(A) = 0, the system has either no solution or infinitely many.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0016",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Which of these is not an elementary row operation used in Gaussian elimination?",
+   "imageRef": null,
+   "options": [
+    "Swapping two rows",
+    "Multiplying a row by a non-zero constant",
+    "Adding a multiple of one row to another row",
+    "Adding the same constant to every entry of a row"
+   ],
+   "correctIndex": 3,
+   "explanation": "The three elementary row operations are swapping rows, multiplying a row by a non-zero constant and adding a multiple of one row to another. Adding a constant to each entry changes the equation the row represents, so it changes the solutions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0017",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The augmented matrix for the system x + 2y \u2212 z = 3, 2x \u2212 y + 3z = 1, 4y + z = \u22122 has rows:",
+   "imageRef": null,
+   "options": [
+    "[1 2 \u22121 3], [2 \u22121 3 1], [4 1 \u22122 0]",
+    "[1 2 \u22121 | 3], [2 \u22121 3 | 1], [0 4 1 | \u22122]",
+    "[1 2 \u22121 | 3], [2 \u22121 3 | 1], [4 1 0 | \u22122]",
+    "[1 2 1 | 3], [2 1 3 | 1], [0 4 1 | 2]"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each row lists the coefficients of x, y and z, then the constant. The third equation has no x term, so its row starts with 0. Writing [4 1 0 | \u22122] places the coefficients in the wrong columns.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0018",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The row operation R\u2082 \u2192 R\u2082 \u2212 2R\u2081 is applied to the rows [1 2 \u22121 | 3] and [2 \u22121 3 | 1]. The new second row is:",
+   "imageRef": null,
+   "options": [
+    "[0 5 \u22125 | 5]",
+    "[0 \u22125 5 | \u22125]",
+    "[0 3 1 | 7]",
+    "[0 \u22125 1 | \u22125]"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtract twice row 1 from row 2: 2 \u2212 2 = 0, \u22121 \u2212 4 = \u22125, 3 \u2212 (\u22122) = 5 and 1 \u2212 6 = \u22125. Taking 3 \u2212 2 = 1 in the third column ignores the sign of the \u22121 in row 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0019",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Gaussian elimination gives the rows [1 1 1 | 6], [0 1 2 | 8] and [0 0 1 | 3]. The solution (x, y, z) is:",
+   "imageRef": null,
+   "options": [
+    "(1, 5, 3)",
+    "(1, 2, 3)",
+    "(3, 2, 1)",
+    "(6, 8, 3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Back substitution: z = 3; then y + 2(3) = 8, so y = 2; then x + 2 + 3 = 6, so x = 1. The values (6, 8, 3) read off the constants without back substitution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0020",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "During Gaussian elimination on a system in x, y and z, a row becomes [0 0 0 | 5]. The system has:",
+   "imageRef": null,
+   "options": [
+    "infinitely many solutions",
+    "the solution z = 5",
+    "no solution",
+    "a unique solution"
+   ],
+   "correctIndex": 2,
+   "explanation": "The row says 0x + 0y + 0z = 5, that is 0 = 5, which is impossible, so the system is inconsistent and has no solution. A row [0 0 1 | 5] would give z = 5.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0021",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Gaussian elimination gives the rows [1 0 \u22121 | 2], [0 1 2 | 3] and [0 0 0 | 0]. With z = t, the solutions are:",
+   "imageRef": null,
+   "options": [
+    "x = 2 \u2212 t, y = 3 + 2t, z = t",
+    "x = 2, y = 3, z = 0 only",
+    "no solution, because of the row of zeros",
+    "x = 2 + t, y = 3 \u2212 2t, z = t"
+   ],
+   "correctIndex": 3,
+   "explanation": "The zero row is always true, so there are infinitely many solutions with one parameter. From x \u2212 z = 2, x = 2 + t, and from y + 2z = 3, y = 3 \u2212 2t. Forgetting to move the z terms across changes their signs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0022",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Tickets cost $20 for adults, $10 for children and $12 for concessions. A group buys 10 tickets for $146, with one more adult ticket than child tickets. How many concession tickets were bought?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "With a adults, c children and s concessions: a + c + s = 10, 20a + 10c + 12s = 146 and a \u2212 c = 1. Substituting a = c + 1 and s = 9 \u2212 2c into the cost equation gives 128 + 6c = 146, so c = 3, a = 4 and s = 3. Check: 80 + 30 + 36 = 146.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0023",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "For the system x + y + z = 2, x + 2y + 3z = 5 and 2x + 3y + 4z = k, which statement is true?",
+   "imageRef": null,
+   "options": [
+    "There are infinitely many solutions if k = 7, and no solution otherwise",
+    "There is a unique solution for every value of k except k = 7",
+    "There are infinitely many solutions for every value of k",
+    "There is no solution if k = 7, and a unique solution otherwise"
+   ],
+   "correctIndex": 0,
+   "explanation": "The third left side is the sum of the first two, so the coefficient matrix is singular and a unique solution is impossible. If k = 2 + 5 = 7, the third equation repeats the information and there are infinitely many solutions; otherwise the equations contradict each other.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0024",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "For the system x + 2y + z = 3, 2x + 5y + 3z = 7 and x + 3y + az = b, which values give no solution?",
+   "imageRef": null,
+   "options": [
+    "a = 4 and b \u2260 2",
+    "a = 2 and b \u2260 4",
+    "a = 2 and b = 4",
+    "a \u2260 2 and b = 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "R\u2082 \u2212 2R\u2081 gives y + z = 1 and R\u2083 \u2212 R\u2081 gives y + (a \u2212 1)z = b \u2212 3. Subtracting these leaves (a \u2212 2)z = b \u2212 4. If a = 2 and b \u2260 4 this says 0 = non-zero, so there is no solution. If a = 2 and b = 4 there are infinitely many.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0025",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A system of three equations in x, y and z has a unique solution. Geometrically, the three planes:",
+   "imageRef": null,
+   "options": [
+    "are all parallel",
+    "form a triangular prism",
+    "meet at a single point",
+    "meet along a common line"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each equation represents a plane, and a solution is a point lying on all three. A unique solution means the planes have exactly one point in common. A common line gives infinitely many solutions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0026",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Three distinct planes represent a system of equations with infinitely many solutions. Geometrically, the planes:",
+   "imageRef": null,
+   "options": [
+    "meet along a common line",
+    "meet at a single point",
+    "are all parallel",
+    "form a triangular prism"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every point on a common line satisfies all three equations, giving infinitely many solutions with one parameter. Parallel distinct planes, or a triangular prism, have no point in common and so give no solution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0027",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "Three planes have no point in common, but no two of them are parallel. Geometrically, they:",
+   "imageRef": null,
+   "options": [
+    "meet along a single common line through all three planes",
+    "meet at exactly one point, which lies on all three planes",
+    "coincide, so that the three equations describe one plane",
+    "form a triangular prism, meeting in pairs along three parallel lines"
+   ],
+   "correctIndex": 3,
+   "explanation": "Non-parallel planes meet in pairs along lines. If these three lines are parallel and distinct, no point lies on all three planes, and the arrangement is a triangular prism. Two parallel planes are the other way a system can have no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0028",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The planes x + y + z = 2, x + 2y + 3z = 5 and 2x + 3y + 4z = 6 have no point in common. Their arrangement is:",
+   "imageRef": null,
+   "options": [
+    "three planes meeting along one common line",
+    "three parallel planes, one above another",
+    "a triangular prism, since no two of the planes are parallel",
+    "two parallel planes cut by a third plane"
+   ],
+   "correctIndex": 2,
+   "explanation": "The normals (1, 1, 1), (1, 2, 3) and (2, 3, 4) are not multiples of one another, so no two planes are parallel. Adding the first two equations gives 2x + 3y + 4z = 7, which contradicts the third, so the planes form a prism.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0029",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "The system x + 2y \u2212 z = 1, 2x + 4y \u2212 2z = 3, x \u2212 y + z = 2 has no solution. Geometrically:",
+   "imageRef": null,
+   "options": [
+    "the three planes form a triangular prism with no two planes parallel",
+    "the three planes meet along a common line, so no single point is found",
+    "all three planes are parallel, so no two of them ever meet",
+    "two of the planes are parallel and distinct, and the third plane cuts both"
+   ],
+   "correctIndex": 3,
+   "explanation": "The normal of the second plane, (2, 4, \u22122), is twice that of the first, (1, 2, \u22121), but the constants are not in the same ratio (3 is not 2 \u00d7 1), so these planes are parallel and distinct. The third normal, (1, \u22121, 1), is not parallel to them, so it cuts both.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0030",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "In a Leslie matrix for a female population in age groups, the first row contains:",
+   "imageRef": null,
+   "options": [
+    "the number of females currently in each age group",
+    "the proportion of females in each age group that die each period",
+    "the average number of female offspring per female in each age group",
+    "the proportion of females in each age group that survive to the next"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first row holds the birth (fecundity) rates for each age group. The survival rates sit on the diagonal just below the main diagonal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0031",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A Leslie matrix L has rows (0, 2, 1), (0.5, 0, 0) and (0, 0.6, 0). The entry 0.6 represents:",
+   "imageRef": null,
+   "options": [
+    "the proportion of age group 3 that survives into age group 2",
+    "the average number of offspring born to each female in age group 2",
+    "the proportion of age group 2 that dies before the next period",
+    "the proportion of age group 2 that survives into age group 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The entry in row 3, column 2 moves females from age group 2 (the column) into age group 3 (the row) one period later. Birth rates appear only in the first row.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0032",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A Leslie matrix L has rows (0, 2, 1), (0.5, 0, 0) and (0, 0.6, 0). The population now, by age group, is (100, 80, 50). One period later it is:",
+   "imageRef": null,
+   "options": [
+    "(50, 160, 30)",
+    "(210, 50, 48)",
+    "(210, 40, 30)",
+    "(160, 50, 48)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply L by the population column. Births: 0(100) + 2(80) + 1(50) = 210. Group 2: 0.5(100) = 50. Group 3: 0.6(80) = 48. Leaving out the births from group 3 gives 160.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0033",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A Leslie matrix L has rows (0, 2, 1), (0.5, 0, 0) and (0, 0.6, 0). The population now, by age group, is (100, 80, 50). Two periods later it is:",
+   "imageRef": null,
+   "options": [
+    "(148, 105, 30)",
+    "(210, 50, 48)",
+    "(148, 105, 29)",
+    "(100, 105, 30)"
+   ],
+   "correctIndex": 0,
+   "explanation": "After one period the population is (210, 50, 48). Applying L again: births 2(50) + 1(48) = 148, group 2 is 0.5(210) = 105 and group 3 is 0.6(50) = 30. This equals L\u00b2 times the starting population.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0034",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "In a Leslie matrix model, the total population after one period:",
+   "imageRef": null,
+   "options": [
+    "can only fall, because every survival rate is less than 1",
+    "can only rise, because every birth rate in the first row is positive",
+    "can rise or fall, because births add females and survival rates below 1 remove them",
+    "stays the same, because each column of the Leslie matrix adds to 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The columns of a Leslie matrix need not add to 1. Births increase the population and deaths reduce it, so the total can change either way. Columns adding to 1 describe a transition matrix, which keeps the total fixed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0035",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "A Leslie matrix has rows (0, b, 2), (0.5, 0, 0) and (0, 0.4, 0). The population now, by age group, is (200, 100, 50). For the first age group to number 400 one period later, b must be:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1.5",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first age group next period is 0(200) + b(100) + 2(50) = 100b + 100. Setting 100b + 100 = 400 gives b = 3. Forgetting the 100 births from the third age group gives b = 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0036",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "In a dominance matrix D for a round-robin competition, an entry of 1 in row P, column Q means that:",
+   "imageRef": null,
+   "options": [
+    "Q defeated P",
+    "P and Q drew their match",
+    "P defeated Q in two steps",
+    "P defeated Q"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rows show the winner and columns the loser, so a 1 in row P, column Q records that P dominated Q directly. The diagonal entries are 0, since no competitor plays itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0037",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "For a dominance matrix D, the entry in row P, column Q of D\u00b2 gives:",
+   "imageRef": null,
+   "options": [
+    "the number of two-step dominances of P over Q",
+    "the number of one-step dominances of P over Q",
+    "the number of times Q defeated P",
+    "the square of the number of wins of P"
+   ],
+   "correctIndex": 0,
+   "explanation": "D\u00b2 counts the paths P \u2192 R \u2192 Q, in which P defeated someone who defeated Q. These are the two-step dominances. One-step dominances are given by D itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0038",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "In a round-robin, P defeated Q; Q defeated R and S; R defeated P and S; S defeated P. How many two-step dominances does Q have?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "3",
+    "2",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Q defeated R, who defeated P and S, giving two; Q defeated S, who defeated P, giving one more. That is 3 two-step dominances. Adding Q's 2 one-step wins gives 5, which is the total, not the two-step count.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-matrices-systems-0039",
+   "topicId": "spec-qce-matrices-systems",
+   "stem": "In a round-robin, P defeated Q; Q defeated R and S; R defeated P and S; S defeated P. Ranked by the row sums of D + D\u00b2, from first to last, the order is:",
+   "imageRef": null,
+   "options": [
+    "Q, R, P, S",
+    "Q, R, S, P",
+    "R, Q, P, S",
+    "Q, P, R, S"
+   ],
+   "correctIndex": 0,
+   "explanation": "One-step wins: P 1, Q 2, R 2, S 1. Two-step dominances: P 2, Q 3, R 2, S 1. Totals: Q 5, R 4, P 3, S 2. Wins alone cannot separate Q from R or P from S.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-matrices-systems-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

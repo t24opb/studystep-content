@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-bsss-systems-paths",
+ "questions": [
+  {
+   "id": "spec-bsss-systems-paths-0001",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "In three-dimensional space, what does a single linear equation ax + by + cz = d (with a, b and c not all zero) represent?",
+   "imageRef": null,
+   "options": [
+    "A straight line",
+    "A single point",
+    "A sphere",
+    "A plane"
+   ],
+   "correctIndex": 3,
+   "explanation": "A linear equation in x, y and z describes a plane, with normal vector ai + bj + ck. A line in three dimensions needs two such equations, or a vector equation with one parameter.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0002",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Which point satisfies all three equations x + y + z = 4, 2x \u2212 y + z = 8 and x + 3y \u2212 z = \u22124?",
+   "imageRef": null,
+   "options": [
+    "(3, \u22121, 2)",
+    "(2, 1, 1)",
+    "(2, \u22121, 3)",
+    "(1, 1, 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substituting (2, \u22121, 3): 2 \u2212 1 + 3 = 4, 4 + 1 + 3 = 8 and 2 \u2212 3 \u2212 3 = \u22124, so all three hold. The point (1, 1, 2) satisfies the first equation but not the second.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0003",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Back-substitute to solve x \u2212 y + z = 4, y + 2z = 7 and 3z = 6.",
+   "imageRef": null,
+   "options": [
+    "x = 5, y = 7, z = 2",
+    "x = 1, y = 3, z = 2",
+    "x = 5, y = 3, z = 2",
+    "x = 3, y = 3, z = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The last equation gives z = 2, then y = 7 \u2212 4 = 3, then x = 4 + y \u2212 z = 4 + 3 \u2212 2 = 5. The value x = 3 comes from x = 4 \u2212 y + z, a sign slip when moving y and z across.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0004",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Solve x + y + z = 6, x \u2212 y + z = 2 and 2x + y \u2212 z = 1.",
+   "imageRef": null,
+   "options": [
+    "x = 3, y = 2, z = 1",
+    "x = 1, y = 2, z = 3",
+    "x = 2, y = 1, z = 3",
+    "x = 1, y = 3, z = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtracting the second equation from the first gives 2y = 4, so y = 2. Then x + z = 4 and 2x \u2212 z = \u22121, which add to 3x = 3, so x = 1 and z = 3. Check: 2 + 2 \u2212 3 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0005",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "In the system x + 2y \u2212 z = 4 and 3x + y + 2z = 9, x is eliminated by subtracting 3 times the first equation from the second. What equation results?",
+   "imageRef": null,
+   "options": [
+    "\u22125y + 5z = \u22123",
+    "\u22125y + 5z = 21",
+    "\u22125y + z = \u22123",
+    "7y \u2212 z = 21"
+   ],
+   "correctIndex": 0,
+   "explanation": "(3x + y + 2z) \u2212 3(x + 2y \u2212 z) = \u22125y + 5z, and 9 \u2212 3 \u00d7 4 = \u22123. Adding instead of subtracting the constants gives 21.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0006",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Which list gives every possible type of solution set for a system of linear equations?",
+   "imageRef": null,
+   "options": [
+    "A unique solution, exactly two solutions, or no solution",
+    "A unique solution or infinitely many solutions only",
+    "A unique solution, no solution, or infinitely many solutions",
+    "A unique solution or no solution only"
+   ],
+   "correctIndex": 2,
+   "explanation": "A linear system has exactly one solution, none, or infinitely many. It can never have exactly two, because if two points satisfy every equation, so does every point on the line through them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0007",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "During elimination on a system in x, y and z, one equation becomes 0 = 5. What does this show?",
+   "imageRef": null,
+   "options": [
+    "The system has infinitely many solutions",
+    "The system has the unique solution 0",
+    "One of the variables must equal 5",
+    "The system has no solution"
+   ],
+   "correctIndex": 3,
+   "explanation": "The statement 0 = 5 is false whatever the values of x, y and z, so no point satisfies every equation. An equation 0 = 0 would instead mean one equation was redundant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0008",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Elimination on a system of three equations in x, y and z gives x + y + z = 4, y \u2212 z = 1 and 0 = 0. Letting z = t, what is the solution?",
+   "imageRef": null,
+   "options": [
+    "x = 3 \u2212 2t, y = 1 + t, z = t",
+    "x = 3 + 2t, y = 1 + t, z = t",
+    "x = 3 \u2212 2t, y = 1 \u2212 t, z = t",
+    "x = 4 \u2212 t, y = 1 + t, z = t"
+   ],
+   "correctIndex": 0,
+   "explanation": "From y \u2212 z = 1, y = 1 + t. Then x = 4 \u2212 y \u2212 z = 4 \u2212 (1 + t) \u2212 t = 3 \u2212 2t. The equation 0 = 0 adds no condition, so there are infinitely many solutions, one for each t.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0009",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "The solutions of a system are x = 3 \u2212 2t, y = 1 + t, z = t for real t. Which point is one of the solutions?",
+   "imageRef": null,
+   "options": [
+    "(5, 0, 1)",
+    "(1, 2, 1)",
+    "(1, 2, 2)",
+    "(3, 1, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Taking t = 1 gives x = 1, y = 2 and z = 1. The point (5, 0, 1) uses t = \u22121 for x and y but t = 1 for z, so it is not on the solution line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0010",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "For which values of k does the system x + y + z = 1, x + 2y + 3z = 2, 2x + 3y + 4z = k have no solution?",
+   "imageRef": null,
+   "options": [
+    "Only k = 3",
+    "Only k = 0",
+    "No value of k",
+    "All k except k = 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The left side of the third equation is the sum of the first two, so subtracting them gives 0 = k \u2212 3. If k \u2260 3 this is false and there is no solution; if k = 3 it is 0 = 0 and there are infinitely many.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0011",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Adult tickets cost $15, child tickets $8 and concession tickets $10. A group buys 20 tickets: 8 adult, and twice as many child as concession tickets. What do they pay in total?",
+   "imageRef": null,
+   "options": [
+    "$236",
+    "$212",
+    "$240",
+    "$224"
+   ],
+   "correctIndex": 3,
+   "explanation": "With c = 2s and 8 + c + s = 20, 3s = 12, so s = 4 and c = 8. The cost is 15 \u00d7 8 + 8 \u00d7 8 + 10 \u00d7 4 = 120 + 64 + 40 = $224.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0012",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "A system of three linear equations in x, y and z has a unique solution. Geometrically, the three planes:",
+   "imageRef": null,
+   "options": [
+    "are all parallel",
+    "form a triangular prism",
+    "meet at a single point",
+    "meet along a common line"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each equation is a plane, and a unique solution is a single point lying on all three. Planes meeting along a common line give infinitely many solutions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0013",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "A system of three linear equations in x, y and z has infinitely many solutions, and no two of the planes are the same. Geometrically, the planes:",
+   "imageRef": null,
+   "options": [
+    "are parallel and never meet",
+    "meet in pairs along three parallel lines",
+    "all contain one common line, like pages of an open book",
+    "meet in a single common point"
+   ],
+   "correctIndex": 2,
+   "explanation": "The solution set is every point on the line shared by all three planes. Three planes meeting in pairs along three parallel lines have no common point, so that system has no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0014",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Which arrangement of three distinct planes gives a system with NO solution?",
+   "imageRef": null,
+   "options": [
+    "Two of them meet along a line that crosses the third at a point",
+    "They meet in pairs along three parallel lines, forming a triangular prism",
+    "They all pass through one point",
+    "They all contain the same line"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a triangular prism each pair of planes meets, but no point lies on all three, so there is no solution. Two parallel planes also give no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0015",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "The system x + y + z = 2, 2x + 2y + 2z = 5 and x \u2212 y = 0 has no solution. Why?",
+   "imageRef": null,
+   "options": [
+    "All three planes are the same plane",
+    "The three planes meet along a common line",
+    "The first two planes are parallel and distinct",
+    "The third plane is parallel to the first two"
+   ],
+   "correctIndex": 2,
+   "explanation": "The second equation is equivalent to x + y + z = 2.5, a plane parallel to x + y + z = 2 but not the same one, so no point is on both. The third plane is not parallel to them, since its normal is different.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0016",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "What is the relationship between the planes x + 2y \u2212 z = 3 and 2x + 4y \u2212 2z = 6?",
+   "imageRef": null,
+   "options": [
+    "They are parallel and distinct",
+    "They meet along a line",
+    "They are perpendicular",
+    "They are the same plane"
+   ],
+   "correctIndex": 3,
+   "explanation": "The second equation is exactly twice the first, so every point satisfying one satisfies the other. If only the left side were doubled, say 2x + 4y \u2212 2z = 7, the planes would be parallel and distinct.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0017",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "A system has only two linear equations in x, y and z, and their planes are not parallel. How many solutions does it have?",
+   "imageRef": null,
+   "options": [
+    "Infinitely many, forming a line",
+    "Exactly one, at a single point",
+    "Infinitely many, forming a plane",
+    "None, as the planes never meet"
+   ],
+   "correctIndex": 0,
+   "explanation": "Two non-parallel planes meet along a line, and every point on that line solves both equations. With only two equations there is one free variable, so a unique solution is impossible. A plane of solutions would need both equations to describe the same plane, but these planes are not parallel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0018",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Two particles have position vectors r_A(t) and r_B(t) at time t. What does it mean for the particles to meet?",
+   "imageRef": null,
+   "options": [
+    "Their paths are parallel lines",
+    "r_A(t) = r_B(t) for some single value of t",
+    "r_A(t) = r_B(s) for some values t and s, not necessarily equal",
+    "Their velocity vectors are equal at some time"
+   ],
+   "correctIndex": 1,
+   "explanation": "The particles meet if they are at the same point at the same time, so one value of t must make every component equal. Being at the same point at different times means only that the paths cross.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0019",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Two particles move along straight paths. What does it mean for their paths to cross?",
+   "imageRef": null,
+   "options": [
+    "Some point lies on both paths, possibly reached at different times",
+    "Both particles reach the same point at the same time",
+    "The paths are parallel and the particles move at equal speeds",
+    "The particles start from the same point"
+   ],
+   "correctIndex": 0,
+   "explanation": "Paths cross when they share a point, whether or not the particles are there together. If they are there at the same time, they also meet.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0020",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "To test whether the paths r_A(t) and r_B(t) cross, a student writes r_A(t) = r_B(s). Why use a different parameter s for particle B?",
+   "imageRef": null,
+   "options": [
+    "It ensures the particles meet at the crossing point",
+    "Each particle may reach the crossing point at a different time",
+    "Using t twice would make every system have no solution",
+    "The parameter s measures the distance travelled rather than time"
+   ],
+   "correctIndex": 1,
+   "explanation": "The crossing point can be reached at different times, so the parameters must be allowed to differ. Setting r_A(t) = r_B(t), with the same t, tests the stronger condition that the particles meet.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0021",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Which statement about two moving particles is always true?",
+   "imageRef": null,
+   "options": [
+    "If the particles do not meet, then their paths do not cross",
+    "If the particles meet, then their paths cross",
+    "If their paths cross, then the particles meet",
+    "If their paths cross, then they are at the crossing point at the same time"
+   ],
+   "correctIndex": 1,
+   "explanation": "Meeting means being at the same point at the same time, so that point lies on both paths. The converse fails: two cars can pass through the same intersection at different times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0022",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "A particle starts at the point (1, 2, 0) and moves with constant velocity 2i \u2212 j + 3k. What is its position vector at time t?",
+   "imageRef": null,
+   "options": [
+    "r(t) = (1 + 2t)i + (2 + t)j + 3tk",
+    "r(t) = 2ti \u2212 tj + 3tk",
+    "r(t) = (1 + 2t)i + (2 \u2212 t)j + 3tk",
+    "r(t) = (2 + t)i + (\u22121 + 2t)j + 3k"
+   ],
+   "correctIndex": 2,
+   "explanation": "Position = starting point + t \u00d7 velocity, so r(t) = (1, 2, 0) + t(2, \u22121, 3). The last option leaves out the starting point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0023",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = 2ti + (t + 1)j and r_B(t) = (6 \u2212 t)i + 3j. Do the particles meet, and if so where?",
+   "imageRef": null,
+   "options": [
+    "No, the paths cross but at different times",
+    "Yes, at the point (4, 3) when t = 2",
+    "Yes, at the point (2, 2) when t = 1",
+    "No, the x-components are never equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "The i-components agree when 2t = 6 \u2212 t, so t = 2. Then the j-components are 2 + 1 = 3 and 3, which also agree, so the particles meet at (4, 3) when t = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0024",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = ti + 2tj and r_B(t) = (t \u2212 2)i + (t + 2)j. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The paths do not cross, since the paths are parallel",
+    "The particles meet at (2, 4) when t = 2",
+    "The paths cross at (4, 8), but the particles do not meet",
+    "The particles meet at (4, 8) when t = 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "For the same t, the i-components would need t = t \u2212 2, which is impossible, so they never meet. With parameters t and s, t = s \u2212 2 and 2t = s + 2 give t = 4 and s = 6, so the paths cross at (4, 8), reached by A at t = 4 and by B at t = 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0025",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = (1 + t)i + 2tj + (3 \u2212 t)k and r_B(t) = 3i + (t + 2)j + k. Do the particles meet?",
+   "imageRef": null,
+   "options": [
+    "No, the paths cross at different times",
+    "Yes, at (3, 4, 1) when t = 2",
+    "Yes, at (3, 2, 1) when t = 0",
+    "No, the k-components never agree"
+   ],
+   "correctIndex": 1,
+   "explanation": "The i-components agree when 1 + t = 3, so t = 2. At t = 2, A is at (3, 4, 1) and B is at (3, 4, 1), so every component agrees and they meet. All three components must be checked with the same t.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0026",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Particle A has path (t, 1 + t, 2t) and particle B has path (s, 3 \u2212 s, 1). Do the paths cross?",
+   "imageRef": null,
+   "options": [
+    "No: the x and y components force t = s = 1, but then the z components are 2 and 1",
+    "Yes, at (1, 2, 1), reached by both particles when t = s = 1",
+    "Yes, at (1, 2, 2), reached by A when t = 1 and by B when s = 1",
+    "No, because the two paths are parallel lines"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equating x gives t = s, and then 1 + t = 3 \u2212 t gives t = 1. The z components would need 2(1) = 1, which is false, so no point lies on both paths. The direction vectors (1, 1, 2) and (1, \u22121, 0) are not parallel, so the lines are skew.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0027",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = (1 + 2t)i + (2 \u2212 t)j + 3tk and the path of particle B is r_B(s) = 5i + sj + 6k. Where do the paths cross, and do the particles meet if B is at r_B(t) at time t?",
+   "imageRef": null,
+   "options": [
+    "They cross at (5, 2, 6), but A is there at t = 2 and B at t = 0",
+    "The paths do not cross, so the particles cannot meet",
+    "They cross at (5, 0, 6), but A is there at t = 2 and B at t = 0, so they do not meet",
+    "They cross at (5, 0, 6), and both particles are there at t = 2, so they meet"
+   ],
+   "correctIndex": 2,
+   "explanation": "1 + 2t = 5 and 3t = 6 both give t = 2, so A is at (5, 0, 6), and this lies on B's path when s = 0. B is at that point at time 0, not time 2, so the paths cross but the particles do not meet.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0028",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Boat A is at r_A(t) = 3ti + 4tj and boat B at r_B(t) = (12 \u2212 3t)i + (2t + 2)j, in kilometres, t hours after noon. Do the boats collide at t = 2?",
+   "imageRef": null,
+   "options": [
+    "No: at t = 2 the boats are at (6, 8) and (8, 6)",
+    "No: at t = 2 the boats are at (6, 8) and (6, 6)",
+    "Yes: at t = 2 both boats are at (6, 8)",
+    "Yes: at t = 2 both boats are at (6, 6)"
+   ],
+   "correctIndex": 1,
+   "explanation": "At t = 2, A is at (6, 8) and B is at (12 \u2212 6, 4 + 2) = (6, 6). The i-components agree but the j-components do not, so the boats are 2 km apart and do not collide.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0029",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = 2ti + (t + k)j and r_B(t) = (t + 3)i + (2t \u2212 1)j. For what value of k do the particles meet?",
+   "imageRef": null,
+   "options": [
+    "k = 2",
+    "k = 3",
+    "k = 5",
+    "k = \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "The i-components agree only when 2t = t + 3, so t = 3. For the particles to meet, the j-components must also agree then: 3 + k = 2(3) \u2212 1 = 5, so k = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0030",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = (2 + t)i + (1 + 2t)j and r_B(t) = (8 \u2212 2t)i + (9 \u2212 2t)j. When and where do the particles meet?",
+   "imageRef": null,
+   "options": [
+    "At t = 2, at the point (4, 5)",
+    "At t = 2, at the point (4, 3)",
+    "At t = 3, at the point (5, 7)",
+    "They never meet"
+   ],
+   "correctIndex": 0,
+   "explanation": "The i-components agree when 2 + t = 8 \u2212 2t, so t = 2, and the j-components agree when 1 + 2t = 9 \u2212 2t, also t = 2. At t = 2 both are at (4, 5).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0031",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = (4 \u2212 t)i + (2 + 3t)j, where t is time. What is the velocity of particle A?",
+   "imageRef": null,
+   "options": [
+    "i + 3j",
+    "3i \u2212 j",
+    "\u2212i + 3j",
+    "4i + 2j"
+   ],
+   "correctIndex": 2,
+   "explanation": "The velocity is the derivative of the position: d/dt(4 \u2212 t) = \u22121 and d/dt(2 + 3t) = 3, giving \u2212i + 3j. The vector 4i + 2j is the starting position.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0032",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Two particles meet at time t = 2. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "Their velocity vectors are equal at t = 2",
+    "Their paths are the same straight line",
+    "They started from the same point at t = 0",
+    "Their position vectors are equal at t = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Meeting means equal positions at the same instant. They can arrive from different directions at different speeds, so their velocities and paths need not match.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0033",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Which of these is a system of linear equations in x, y and z?",
+   "imageRef": null,
+   "options": [
+    "xy = 2 and x + z = 1",
+    "x\u00b2 + y = 3 and y \u2212 z = 1",
+    "2x \u2212 y = 3 and 1/x + z = 1",
+    "2x \u2212 y = 3 and x + 4z = 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a linear system each equation is a sum of constant multiples of the variables, each to the first power, equal to a constant. A missing variable just has coefficient 0. Products, powers and reciprocals of variables make an equation non-linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0034",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "In two variables, the system x + 2y = 3 and 2x + 4y = 6 has:",
+   "imageRef": null,
+   "options": [
+    "No solution, as the two lines are parallel and distinct",
+    "Exactly two solutions, one from each of the equations",
+    "Infinitely many solutions, as both describe one line",
+    "A unique solution, as the two equations are different"
+   ],
+   "correctIndex": 2,
+   "explanation": "The second equation is twice the first, so both describe the same line, and every point on it is a solution. If only the left side were doubled, the lines would be parallel and distinct, with no solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0035",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "What is the geometric interpretation of the system x + y + z = 1, x + y + z = 2, x + y + z = 3?",
+   "imageRef": null,
+   "options": [
+    "One plane written three ways, so infinitely many",
+    "Three parallel planes, so there is no solution",
+    "Three planes through one line, so infinitely many",
+    "Three planes meeting at one point, so one solution"
+   ],
+   "correctIndex": 1,
+   "explanation": "The left sides are identical, so the planes share the normal i + j + k and are parallel, but the different constants make them distinct. No point lies on more than one of them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0036",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "Elimination on x + y + z = 3, 2x + y \u2212 z = 1 and 3x + 2y = 5 shows that the system:",
+   "imageRef": null,
+   "options": [
+    "Has infinitely many solutions, forming a common line",
+    "Has infinitely many solutions, forming a common plane",
+    "Has no solution: the first two give 3x + 2y = 4, not 5",
+    "Has a unique solution, since no two planes are parallel"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding the first two equations eliminates z and gives 3x + 2y = 4, which contradicts 3x + 2y = 5 (subtracting gives 0 = 1). No two normals are parallel, so the planes meet in pairs along three parallel lines, a triangular prism.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-systems-paths-0037",
+   "topicId": "spec-bsss-systems-paths",
+   "stem": "r_A(t) = ti + t\u00b2j and r_B(t) = (2t \u2212 1)i + (3t \u2212 2)j. The paths cross at (1/2, 1/4) and at (1, 1). At which point do the particles meet?",
+   "imageRef": null,
+   "options": [
+    "Only (1, 1), as both particles reach it at t = 1",
+    "Only (1/2, 1/4), as both reach it at t = 1/2",
+    "Both points, as each one lies on both of the paths",
+    "Neither, as a curved path cannot meet a straight one"
+   ],
+   "correctIndex": 0,
+   "explanation": "A is at (1, 1) when t = 1, and B is at (2 \u2212 1, 3 \u2212 2) = (1, 1) when t = 1, so they meet there. A reaches (1/2, 1/4) at t = 1/2, but B is there only at t = 3/4, so at that point the paths cross without the particles meeting.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-systems-paths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "topicId": "phys-bsss-generators-motors",
+ "questions": [
+  {
+   "id": "phys-bsss-generators-motors-0001",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A simple generator has a coil of wire turned between the poles of a magnet. Why is an emf induced in the coil?",
+   "imageRef": null,
+   "options": [
+    "The magnetic flux through the coil changes as it turns",
+    "The magnet's field becomes stronger as the coil turns",
+    "Friction in the bearings moves electrons through the coil",
+    "The coil's motion makes the magnetic field lines move"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the coil turns, the angle between its plane and the field changes, so the flux through it changes, and by Faraday's law a changing flux induces an emf. The field itself stays the same. Friction only wastes energy as heat.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0002",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "In a generator, what is the armature?",
+   "imageRef": null,
+   "options": [
+    "The metal case that supports the bearings",
+    "The coil of wire that turns in the magnetic field",
+    "The pair of magnets that provide the magnetic field",
+    "The carbon blocks that press on the rotating rings"
+   ],
+   "correctIndex": 1,
+   "explanation": "The armature is the rotating coil, usually wound on an iron core, in which the emf is induced. The field comes from permanent magnets or field coils, and the carbon blocks are the brushes.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0003",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A small DC motor has a lamp connected across its terminals. A student spins the motor's shaft by hand and the lamp glows. Why?",
+   "imageRef": null,
+   "options": [
+    "Spinning the shaft stores energy in the coil, which then heats the lamp",
+    "The spinning coil has a changing flux, so the motor acts as a generator",
+    "Static charge built up by friction in the motor flows through the lamp",
+    "The magnets in the motor drive a current through the lamp at all times"
+   ],
+   "correctIndex": 1,
+   "explanation": "A motor and a generator have the same parts. Turning the coil in the field changes the flux through it, so an emf is induced and drives a current through the lamp. Kinetic energy from the student's hand becomes electrical energy. With the shaft still, the lamp stays dark.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0004",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "In an AC generator, slip rings and brushes connect the rotating coil to the external circuit. Why does the output current reverse every half turn?",
+   "imageRef": null,
+   "options": [
+    "The brushes swap from one slip ring to the other ring every half turn of the coil",
+    "The magnetic field between the poles reverses every half turn",
+    "The slip rings reverse the connections to the coil every half turn",
+    "Each side of the coil swaps from moving one way across the field to the other"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each side of the coil moves up across the field for half a turn and down for the next half, so the induced emf changes sign. Each slip ring stays joined to the same end of the coil, so that reversal reaches the external circuit as AC. Reversing the connections each half turn is the job of a split ring commutator in a DC generator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0005",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "What does the split ring commutator in a simple DC generator do?",
+   "imageRef": null,
+   "options": [
+    "It stores charge so the output current never falls to zero",
+    "It reverses the coil's connections to the circuit every half turn",
+    "It keeps each end of the coil joined to the same brush throughout",
+    "It reverses the direction of the magnetic field every half turn"
+   ],
+   "correctIndex": 1,
+   "explanation": "The emf in the coil still reverses every half turn. The commutator swaps the coil's connections at that moment, so current always leaves by the same brush and the output is in one direction, though it rises and falls. It stores no charge, so the output still drops to zero twice each turn.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0006",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "At what moment in each half turn does the split ring commutator of a simple DC generator switch the coil's connections?",
+   "imageRef": null,
+   "options": [
+    "When the coil's plane is parallel to the field and the emf is greatest",
+    "When the coil has turned 45\u00b0 from the field and the emf is half its peak",
+    "When the flux through the coil is zero and changing most quickly",
+    "When the coil's plane is perpendicular to the field and the emf is zero"
+   ],
+   "correctIndex": 3,
+   "explanation": "The emf changes sign when the coil passes through the position where its plane is perpendicular to the field, so the flux is greatest and momentarily not changing. Switching there means the output always has the same sign. Switching at the parallel position would cut the output at its peak.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0007",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A generator's rotating coil is connected to the external circuit through slip rings. What kind of output does it give?",
+   "imageRef": null,
+   "options": [
+    "Direct current that stays at a steady value",
+    "Direct current that pulses but never reverses",
+    "Alternating current that reverses once every turn",
+    "Alternating current that reverses every half turn"
+   ],
+   "correctIndex": 3,
+   "explanation": "Slip rings keep each end of the coil joined to the same brush, so the emf's change of sign every half turn reaches the circuit as AC. A pulsing one-way output needs a split ring commutator instead. One full cycle, with two reversals, happens each turn.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0008",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A coil turns steadily in a uniform field. A graph of the flux through it against time is a cosine curve. What shape is the graph of the induced emf against time?",
+   "imageRef": null,
+   "options": [
+    "A straight line rising steadily with time",
+    "A constant value, as the rotation is steady",
+    "A sine curve, zero when the flux is greatest",
+    "A cosine curve, greatest when the flux is greatest"
+   ],
+   "correctIndex": 2,
+   "explanation": "By Faraday's law the emf depends on the rate of change of flux, the gradient of the flux-time graph. The gradient of a cosine curve is a sine curve, so the emf is zero where the flux peaks and greatest where the flux passes through zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0009",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A data logger records the flux through a generator coil and the emf it produces. At one instant the flux has its greatest value. What is the emf at that instant?",
+   "imageRef": null,
+   "options": [
+    "Its greatest value, because the flux is greatest",
+    "Half its peak value, because the coil is halfway round",
+    "Its greatest negative value, as Lenz's law requires",
+    "Zero, because the flux is momentarily not changing"
+   ],
+   "correctIndex": 3,
+   "explanation": "The emf depends on how fast the flux changes, not on its size. At the turning point of the flux-time graph the gradient is zero, so the emf is zero. This happens when the coil's plane is perpendicular to the field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0010",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "How does the output of a simple single-coil DC generator appear on a graph of voltage against time?",
+   "imageRef": null,
+   "options": [
+    "A smooth sine curve that alternates above and below zero during each turn",
+    "A steady horizontal line at a constant positive voltage, with no dips at all",
+    "A series of square pulses that switch between two values",
+    "A series of humps, all on one side of zero, falling to zero twice per turn"
+   ],
+   "correctIndex": 3,
+   "explanation": "The commutator flips the negative halves of the sine curve to positive, giving humps of one sign that touch zero twice every revolution. An alternating sine curve is the AC generator's output. A steady line needs many coils or smoothing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0011",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Commercial DC generators use many coils set at different angles, each joined to its own pair of commutator segments. What does this do to the output?",
+   "imageRef": null,
+   "options": [
+    "It makes the output a smooth sine curve centred on zero volts",
+    "It makes the output nearly steady, with only a small ripple",
+    "It makes the output alternate at a higher frequency",
+    "It makes the output fall to zero more often during each turn"
+   ],
+   "correctIndex": 1,
+   "explanation": "At any instant one coil is near its peak, and the commutator connects the circuit to that coil, so the output never drops far before the next coil takes over. The result is DC with a small ripple. The commutator still keeps the output in one direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0012",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A generator coil is rewound with twice as many turns, keeping the same field, area and rotation rate. What happens to its output?",
+   "imageRef": null,
+   "options": [
+    "The peak emf and the frequency both double",
+    "The peak emf stays the same and the frequency doubles",
+    "The peak emf halves and the frequency stays the same",
+    "The peak emf doubles and the frequency stays the same"
+   ],
+   "correctIndex": 3,
+   "explanation": "By Faraday's law the emf is proportional to the number of turns, so the peak doubles. The frequency depends only on how many turns of the coil happen each second, which has not changed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0013",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A generator is fitted with a coil of the same number of turns but twice the area. The field and rotation rate are unchanged. What happens to the peak emf?",
+   "imageRef": null,
+   "options": [
+    "It stays the same",
+    "It quadruples",
+    "It halves",
+    "It doubles"
+   ],
+   "correctIndex": 3,
+   "explanation": "Flux is BA, so doubling the area doubles the flux and its rate of change at every angle, doubling the peak emf. Doubling a length would not quadruple the emf here; the area itself was doubled.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0014",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "The coil of an AC generator is turned at half its original rate. What happens to the peak emf and the period of the output?",
+   "imageRef": null,
+   "options": [
+    "The peak emf stays the same and the period doubles",
+    "The peak emf doubles and the period doubles",
+    "The peak emf halves and the period doubles",
+    "The peak emf halves and the period halves"
+   ],
+   "correctIndex": 2,
+   "explanation": "Turning more slowly halves the rate of change of flux, so the peak emf halves. Each cycle takes twice as long, so the period doubles and the frequency halves. Thinking only of the frequency, and missing the effect on the emf, gives the unchanged-peak answer.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0015",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A generator coil turns at 3000 revolutions per minute. What is the frequency of its AC output?",
+   "imageRef": null,
+   "options": [
+    "3000 Hz",
+    "100 Hz",
+    "25 Hz",
+    "50 Hz"
+   ],
+   "correctIndex": 3,
+   "explanation": "3000 rev/min \u00f7 60 = 50 revolutions per second. Each revolution gives one full cycle of AC, so the frequency is 50 Hz. 100 Hz counts each half cycle separately.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0016",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A simple single-coil DC generator turns at 25 revolutions per second. How many humps of output voltage does it produce each second?",
+   "imageRef": null,
+   "options": [
+    "100",
+    "12.5",
+    "50",
+    "25"
+   ],
+   "correctIndex": 2,
+   "explanation": "The output falls to zero twice each revolution, when the coil is perpendicular to the field, so each revolution gives two humps: 2 \u00d7 25 = 50 per second. 25 counts only one hump per turn.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0017",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A 100-turn generator coil of area 0.020 m\u00b2 turns in a uniform 0.25 T field. It takes 0.010 s to turn from perpendicular to the field to parallel to it. What is the average emf over that quarter turn?",
+   "imageRef": null,
+   "options": [
+    "25 V",
+    "50 V",
+    "0.50 V",
+    "100 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "The flux falls from BA = 0.25 \u00d7 0.020 = 5.0 \u00d7 10\u207b\u00b3 Wb to zero. Average emf = N\u0394\u03a6/\u0394t = 100 \u00d7 5.0 \u00d7 10\u207b\u00b3/0.010 = 50 V. Leaving out the 100 turns gives 0.50 V, and taking the flux change as 2BA, as for a half turn, gives 100 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0018",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A 50-turn coil of area 0.010 m\u00b2 rotates at 50 revolutions per second in a uniform 0.20 T field. What is the average emf as it turns from perpendicular to the field to parallel to it?",
+   "imageRef": null,
+   "options": [
+    "5.0 V",
+    "10 V",
+    "0.40 V",
+    "20 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "A quarter turn takes (1/50)/4 = 0.0050 s. The flux change is BA = 0.20 \u00d7 0.010 = 2.0 \u00d7 10\u207b\u00b3 Wb, so the average emf is 50 \u00d7 2.0 \u00d7 10\u207b\u00b3/0.0050 = 20 V. Using the whole period, 0.020 s, gives 5.0 V; leaving out the turns gives 0.40 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0019",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A bicycle dynamo is easy to turn when its lamp is disconnected, but harder when the lamp is connected. Why?",
+   "imageRef": null,
+   "options": [
+    "The emf is only induced once the lamp completes the circuit for it",
+    "The lamp's resistance adds extra friction to the dynamo's bearings",
+    "A current flows in the coil, and the force on it opposes the rotation",
+    "The lamp makes the magnetic field around the coil stronger"
+   ],
+   "correctIndex": 2,
+   "explanation": "With the lamp connected, the induced emf drives a current through the coil. A current in a magnetic field feels a force, and by Lenz's law that force opposes the motion causing it. The emf is induced either way; without a circuit no current flows, so there is no opposing force.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0020",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Why must the opposing force on a generator's coil appear whenever the generator supplies a current?",
+   "imageRef": null,
+   "options": [
+    "Otherwise the induced current would flow in both directions at once",
+    "Otherwise electrical energy would be produced without any work done",
+    "Otherwise the magnets would lose their magnetism over time",
+    "Otherwise the induced emf would stop alternating each half turn"
+   ],
+   "correctIndex": 1,
+   "explanation": "Lenz's law is an expression of conservation of energy. The electrical energy delivered must come from work done turning the coil against the opposing force. If the induced current helped the rotation, the generator would speed up and make energy from nothing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0021",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "On a hot afternoon, air conditioners across a city draw much more current from a power station's generators. What must the station do to keep its generators turning at the same rate?",
+   "imageRef": null,
+   "options": [
+    "Supply less steam, as the extra current helps to turn the coils",
+    "Weaken the generators' magnetic field so more current is induced",
+    "Supply more steam to the turbines, as the coils resist turning more",
+    "Nothing, as the generators turn at a fixed rate whatever the load"
+   ],
+   "correctIndex": 2,
+   "explanation": "A larger current in the generator coils means a larger opposing force, by Lenz's law, so more work is needed per turn. The turbines must be driven harder, burning more fuel, to keep the rotation and the 50 Hz frequency steady. The extra current never helps the rotation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0022",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "In an electric car, regenerative braking uses the drive motor as a generator when the driver slows down. How does this slow the car?",
+   "imageRef": null,
+   "options": [
+    "The induced current produces a force that opposes the wheels' rotation",
+    "The motor pushes the car backwards using energy from the battery",
+    "The battery's charge attracts the magnets and holds the wheels",
+    "The coil's resistance turns into friction between the tyres and road"
+   ],
+   "correctIndex": 0,
+   "explanation": "The turning wheels spin the motor's coil in its field, inducing a current that charges the battery. By Lenz's law that current makes a force opposing the rotation, which slows the car. Kinetic energy becomes stored chemical energy instead of heat in brake pads.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0023",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Large power station generators spin an electromagnet inside fixed coils, rather than spinning the coils inside a magnet. What is the main advantage?",
+   "imageRef": null,
+   "options": [
+    "Spinning the magnet stops the output from alternating",
+    "The large output current flows from fixed coils, not through sliding contacts",
+    "A spinning electromagnet produces a much stronger field than a fixed one does",
+    "Fixed coils need no insulation on their wires because they never move"
+   ],
+   "correctIndex": 1,
+   "explanation": "Only the relative motion between field and coils matters for induction. With the output coils fixed, the very large currents they produce can leave through solid connections; only the much smaller current for the electromagnet passes through brushes. The output is still AC.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0024",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "What are the two main parts of an AC induction motor?",
+   "imageRef": null,
+   "options": [
+    "A pair of slip rings, and a rotor of thin insulated coils",
+    "Stator coils carrying AC, and a rotor of conducting bars",
+    "A permanent magnet rotor, and a split ring commutator",
+    "A stator of permanent magnets, and a rotor fed through brushes"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fixed stator carries coils supplied with AC, which set up a rotating magnetic field. The rotor is usually a 'squirrel cage' of aluminium or copper bars joined at each end by rings. There is no commutator and no electrical connection to the rotor.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0025",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "How does current get into the rotor of an AC induction motor?",
+   "imageRef": null,
+   "options": [
+    "It flows in from the shaft through the motor's bearings",
+    "It is induced by the changing magnetic field from the stator",
+    "It is fed in through a split ring commutator and brushes",
+    "It is fed in through a pair of slip rings joined to the mains supply"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rotor has no wires connecting it to the supply. The stator's rotating field changes the flux through the rotor's closed loops of bars, inducing currents in them. This is why it is called an induction motor.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0026",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "How do the stator coils of an AC induction motor produce a rotating magnetic field?",
+   "imageRef": null,
+   "options": [
+    "One coil carries AC, which makes its field turn in a circle",
+    "Coils around the stator carry AC that peaks at different times",
+    "A commutator switches DC between the coils as the rotor turns",
+    "A permanent magnet is spun around the stator by a small motor"
+   ],
+   "correctIndex": 1,
+   "explanation": "Coils placed around the stator are fed with AC currents out of step with each other, as in a three-phase supply. Their combined field points in a direction that moves steadily around the stator, at a rate set by the supply frequency. No moving parts are needed to make the field rotate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0027",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Why is the rotor of an induction motor dragged around in the same direction as the stator's rotating field?",
+   "imageRef": null,
+   "options": [
+    "The rotor bars carry mains current, which pushes on the field",
+    "Induced currents oppose the relative motion between field and rotor",
+    "The rotor is a permanent magnet that is attracted to the stator",
+    "Induced currents repel the field, so the rotor turns the opposite way"
+   ],
+   "correctIndex": 1,
+   "explanation": "The field sweeps past the rotor bars, changing the flux and inducing currents. By Lenz's law these oppose the change, which here means reducing the relative motion, so the rotor is pushed to follow the field. Turning the other way would increase the relative motion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0028",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A light aluminium can is balanced on a pivot near a magnet. When the magnet is spun, the can starts to spin in the same direction. How does this model an induction motor?",
+   "imageRef": null,
+   "options": [
+    "Static charge on the can is pulled around by the spinning magnet",
+    "Air dragged around by the magnet blows the can in the same direction",
+    "The moving field induces eddy currents in the can that make it follow",
+    "The aluminium becomes magnetised and is attracted to the magnet"
+   ],
+   "correctIndex": 2,
+   "explanation": "The moving field changes the flux through the can, inducing eddy currents. By Lenz's law their forces oppose the relative motion, so the can is pulled after the magnet, just as a rotor follows the stator's rotating field. A stationary magnet has no noticeable pull on aluminium.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0029",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Suppose the rotor of an induction motor turned at exactly the same rate as the stator's rotating field. What would happen?",
+   "imageRef": null,
+   "options": [
+    "The induced current would reverse, driving the rotor backwards",
+    "No current would be induced, so there would be no torque and it would slow",
+    "The induced current would be greatest, so the rotor would speed up",
+    "The rotor would lock to the field and keep turning with no current needed"
+   ],
+   "correctIndex": 1,
+   "explanation": "If the rotor kept pace with the field, the flux through its loops would not change, so no current and no driving force would be induced. Friction and the load would then slow it until the field was again moving past it. That is why the rotor always turns slightly slower than the field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0030",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "In an AC induction motor, what is meant by slip?",
+   "imageRef": null,
+   "options": [
+    "The difference between the field's speed and the rotor's speed",
+    "The sliding of brushes over the rotor's commutator segments",
+    "The loss of grip between the motor's shaft and its load",
+    "The gradual weakening of the stator's field over time"
+   ],
+   "correctIndex": 0,
+   "explanation": "Slip is how far the rotor lags behind the stator's rotating field, often given as a fraction of the field's speed. Some slip is essential, because only relative motion between the field and the rotor induces current. Induction motors have no brushes or commutator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0031",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "A heavier load is put on a running induction motor. Which describes what happens next?",
+   "imageRef": null,
+   "options": [
+    "The rotor stops, because induced currents cannot change with the load",
+    "The rotating field slows down to match the rotor, and the torque rises",
+    "The rotor slows a little, larger currents are induced, and the torque rises",
+    "The rotor speeds up, smaller currents are induced, and the torque falls"
+   ],
+   "correctIndex": 2,
+   "explanation": "With more load the rotor slows slightly, so the field moves past it faster. The flux through the rotor loops then changes faster, inducing larger currents and a larger torque, until the torque matches the load. The field's rotation is set by the supply frequency, not the rotor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0032",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "The stator field of an induction motor rotates 50 times per second, which is 3000 revolutions per minute. Which is a likely speed for the rotor under a normal load?",
+   "imageRef": null,
+   "options": [
+    "6000 revolutions per minute",
+    "2900 revolutions per minute",
+    "3000 revolutions per minute",
+    "3100 revolutions per minute"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rotor must turn a little slower than the field so that the field keeps moving past it and inducing current. A speed just below 3000 rev/min fits. Exactly 3000 rev/min would induce no current, and a motor running faster than its field is acting as a generator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0033",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Why would an induction motor not start if its stator coils were connected to a steady DC supply?",
+   "imageRef": null,
+   "options": [
+    "DC would magnetise the rotor and lock it to the stator",
+    "A steady current makes a field that does not change or rotate",
+    "DC is too small to induce any current in the rotor bars",
+    "The rotor bars only conduct when the current alternates"
+   ],
+   "correctIndex": 1,
+   "explanation": "A steady DC current gives a fixed, steady field. The flux through the stationary rotor would not change, so no current and no force would be induced. Induction motors rely on a changing, rotating field.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0034",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "How can the direction of a three-phase induction motor be reversed?",
+   "imageRef": null,
+   "options": [
+    "Replace the aluminium rotor bars with copper ones",
+    "Swap any two of the three supply connections to the stator",
+    "Reverse the two connections to the rotor's commutator",
+    "Take out the rotor and turn it around so it faces the other way"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swapping two phases changes the order in which the stator coils peak, so the field rotates the other way and the rotor follows it. The rotor has no commutator or connections, and the bar material does not set the direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0035",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "Many industrial machines use AC induction motors rather than brushed DC motors. What is a main advantage?",
+   "imageRef": null,
+   "options": [
+    "They can run at any speed at all, regardless of the supply frequency",
+    "They produce DC, which is safer to use around machinery",
+    "No brushes or commutator to wear, so less maintenance and no sparking",
+    "They need no electricity once started, as the rotor is magnetised"
+   ],
+   "correctIndex": 2,
+   "explanation": "An induction motor has no sliding contacts, because current reaches the rotor by induction. Brushes and commutators wear out and spark, which is a hazard near flammable materials. Its speed is tied to the supply frequency, and it uses AC throughout.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0036",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "The rotor bars of an induction motor sit in a core of thin, insulated iron sheets. Why is the core laminated if induced currents are what make the motor work?",
+   "imageRef": null,
+   "options": [
+    "The useful currents flow in the bars; laminations cut wasteful eddy currents in the iron",
+    "The laminations carry the induced current, so thinner sheets carry more of that current",
+    "The laminations stop any current being induced anywhere in the rotor",
+    "The laminations make the iron core a permanent magnet that the stator can attract"
+   ],
+   "correctIndex": 0,
+   "explanation": "The bars and end rings form low-resistance loops for the currents that produce the torque. Eddy currents swirling in the iron core would only heat it, so thin insulated sheets break up their paths. The iron is there to concentrate the magnetic field through the rotor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-bsss-generators-motors-0037",
+   "topicId": "phys-bsss-generators-motors",
+   "stem": "How does the way current reaches the rotating part differ between a brushed DC motor and an AC induction motor?",
+   "imageRef": null,
+   "options": [
+    "Brushes and a commutator in the DC motor; induction in the AC motor",
+    "Induction in the DC motor; brushes and a commutator in the AC motor",
+    "Slip rings in the DC motor; a split ring commutator in the AC motor",
+    "Both use brushes, but only the AC motor has a commutator"
+   ],
+   "correctIndex": 0,
+   "explanation": "A brushed DC motor feeds current into its coil through brushes and a split ring commutator, which reverses it every half turn. An induction motor has no connection to its rotor; current is induced in the rotor bars by the stator's rotating field.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-bsss-generators-motors-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

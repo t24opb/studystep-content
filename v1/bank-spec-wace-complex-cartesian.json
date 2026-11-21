@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-wace-complex-cartesian",
+ "questions": [
+  {
+   "id": "spec-wace-complex-cartesian-0001",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "The imaginary number i is defined as a root of which equation?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 = \u22121",
+    "x\u00b2 = 1",
+    "x\u00b3 = \u22121",
+    "x = \u2212\u221a1"
+   ],
+   "correctIndex": 0,
+   "explanation": "i is defined by i\u00b2 = \u22121, so it is a root of x\u00b2 = \u22121, whose roots are i and \u2212i. The equation x\u00b3 = \u22121 has the real root \u22121, and i\u00b3 = \u2212i, not \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0002",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is i\u00b3?",
+   "imageRef": null,
+   "options": [
+    "i",
+    "\u22121",
+    "1",
+    "\u2212i"
+   ],
+   "correctIndex": 3,
+   "explanation": "i\u00b3 = i\u00b2 \u00d7 i = \u22121 \u00d7 i = \u2212i. The powers of i repeat in the cycle i, \u22121, \u2212i, 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0003",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is i\u2075\u2070?",
+   "imageRef": null,
+   "options": [
+    "i",
+    "\u2212i",
+    "\u22121",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The powers of i repeat every 4, and 50 = 4 \u00d7 12 + 2, so i\u2075\u2070 = i\u00b2 = \u22121. Taking 50 as a multiple of 4 would wrongly give 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0004",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "For z = 3 \u2212 4i, what are Re(z) and Im(z)?",
+   "imageRef": null,
+   "options": [
+    "Re(z) = 3 and Im(z) = 4",
+    "Re(z) = \u22124 and Im(z) = 3",
+    "Re(z) = 3 and Im(z) = \u22124",
+    "Re(z) = 3 and Im(z) = \u22124i"
+   ],
+   "correctIndex": 2,
+   "explanation": "In a + bi, the real part is a and the imaginary part is the real number b. So Im(z) = \u22124, not \u22124i; the imaginary part does not include the i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0005",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Real numbers a and b satisfy (a + 2) + (b \u2212 1)i = 5 + 3i. What are a and b?",
+   "imageRef": null,
+   "options": [
+    "a = 3 and b = 4",
+    "a = 3 and b = 2",
+    "a = 7 and b = 4",
+    "a = 3 and b = \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "Two complex numbers are equal when their real parts and imaginary parts are equal. So a + 2 = 5 and b \u2212 1 = 3, giving a = 3 and b = 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0006",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is the complex conjugate of \u22122 + 5i?",
+   "imageRef": null,
+   "options": [
+    "2 \u2212 5i",
+    "2 + 5i",
+    "5 \u2212 2i",
+    "\u22122 \u2212 5i"
+   ],
+   "correctIndex": 3,
+   "explanation": "The conjugate of a + bi is a \u2212 bi: keep the real part and change the sign of the imaginary part. Changing both signs gives 2 \u2212 5i, which is \u2212z, not z\u0304.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0007",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "For z = a + bi with a and b real, what is z \u00d7 z\u0304?",
+   "imageRef": null,
+   "options": [
+    "(a + b)\u00b2",
+    "a\u00b2 + b\u00b2 + 2abi",
+    "a\u00b2 + b\u00b2",
+    "a\u00b2 \u2212 b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "(a + bi)(a \u2212 bi) = a\u00b2 \u2212 abi + abi \u2212 b\u00b2i\u00b2 = a\u00b2 + b\u00b2. It is always a non-negative real number, which is why conjugates are used to divide.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0008",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "For z = a + bi with a and b real, what is z \u2212 z\u0304?",
+   "imageRef": null,
+   "options": [
+    "2b",
+    "2a",
+    "0",
+    "2bi"
+   ],
+   "correctIndex": 3,
+   "explanation": "(a + bi) \u2212 (a \u2212 bi) = 2bi, a purely imaginary number. The sum z + z\u0304 = 2a is the real one, so the two are easy to swap.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0009",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Which statement is true for all complex numbers z and w?",
+   "imageRef": null,
+   "options": [
+    "the conjugate of z/w equals w\u0304/z\u0304",
+    "the conjugate of z + w equals z\u0304 + w\u0304",
+    "the conjugate of zw equals z\u0304 \u00d7 w",
+    "z \u00d7 z\u0304 equals z\u00b2 for every z"
+   ],
+   "correctIndex": 1,
+   "explanation": "Conjugating a sum conjugates each term. The conjugate of a product is z\u0304 \u00d7 w\u0304 (both conjugated), and the conjugate of z/w is z\u0304/w\u0304.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0010",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (3 + 2i) + (1 \u2212 5i)?",
+   "imageRef": null,
+   "options": [
+    "4 \u2212 3i",
+    "4 + 3i",
+    "2 + 7i",
+    "4 \u2212 7i"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add real parts and imaginary parts separately: 3 + 1 = 4 and 2 \u2212 5 = \u22123, giving 4 \u2212 3i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0011",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (2 \u2212 i) \u2212 (5 \u2212 4i)?",
+   "imageRef": null,
+   "options": [
+    "\u22123 \u2212 5i",
+    "3 \u2212 3i",
+    "\u22123 \u2212 3i",
+    "\u22123 + 3i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtract each part: 2 \u2212 5 = \u22123 and \u22121 \u2212 (\u22124) = 3, giving \u22123 + 3i. Adding \u22124i instead of subtracting it gives \u22123 \u2212 5i.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0012",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (2 + 3i)(4 \u2212 i)?",
+   "imageRef": null,
+   "options": [
+    "5 + 10i",
+    "8 \u2212 3i",
+    "11 + 14i",
+    "11 + 10i"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expand: 8 \u2212 2i + 12i \u2212 3i\u00b2 = 8 + 10i + 3 = 11 + 10i. Treating i\u00b2 as +1 gives 5 + 10i, and multiplying only matching parts gives 8 \u2212 3i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0013",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (3 \u2212 2i)\u00b2?",
+   "imageRef": null,
+   "options": [
+    "5 \u2212 12i",
+    "13 \u2212 12i",
+    "5",
+    "9 \u2212 4i"
+   ],
+   "correctIndex": 0,
+   "explanation": "(3 \u2212 2i)\u00b2 = 9 \u2212 12i + 4i\u00b2 = 9 \u2212 12i \u2212 4 = 5 \u2212 12i. Squaring each part and dropping the middle term gives 5, and i\u00b2 = +1 gives 13 \u2212 12i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0014",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (4 + 3i)(4 \u2212 3i)?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "16 \u2212 9i",
+    "25 \u2212 24i",
+    "25"
+   ],
+   "correctIndex": 3,
+   "explanation": "A number times its conjugate is a\u00b2 + b\u00b2 = 16 + 9 = 25. Treating i\u00b2 as +1 gives 16 \u2212 9 = 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0015",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (5 + i)/(2 \u2212 3i) in Cartesian form?",
+   "imageRef": null,
+   "options": [
+    "5/2 \u2212 (1/3)i",
+    "7/13 + (17/13)i",
+    "1 + (17/13)i",
+    "\u22127/5 \u2212 (17/5)i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply top and bottom by 2 + 3i: (10 + 15i + 2i + 3i\u00b2)/(4 + 9) = (7 + 17i)/13. Dividing real and imaginary parts separately, as in 5/2 \u2212 (1/3)i, is not valid.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0016",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is 1/i in Cartesian form?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "1",
+    "\u2212i",
+    "i"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply top and bottom by \u2212i: 1/i = \u2212i/(\u2212i\u00b2) = \u2212i/1 = \u2212i. Check: i \u00d7 (\u2212i) = \u2212i\u00b2 = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0017",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is (1 + i)/(1 \u2212 i)?",
+   "imageRef": null,
+   "options": [
+    "2i",
+    "i",
+    "\u2212i",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply top and bottom by 1 + i: (1 + i)\u00b2/(1 + 1) = (1 + 2i \u2212 1)/2 = 2i/2 = i. Forgetting to divide by 2 gives 2i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0018",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "The complex number z satisfies z(1 + i) = 3 \u2212 i. What is z?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 2i",
+    "2 \u2212 2i",
+    "2 \u2212 4i",
+    "1 + 2i"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = (3 \u2212 i)/(1 + i) = (3 \u2212 i)(1 \u2212 i)/2 = (3 \u2212 3i \u2212 i + i\u00b2)/2 = (2 \u2212 4i)/2 = 1 \u2212 2i. Leaving out the division by 2 gives 2 \u2212 4i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0019",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Which complex number has a square equal to 3 + 4i?",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 2i",
+    "2 + i",
+    "2 \u2212 i",
+    "1 + 2i"
+   ],
+   "correctIndex": 1,
+   "explanation": "(2 + i)\u00b2 = 4 + 4i + i\u00b2 = 3 + 4i. The others give (2 \u2212 i)\u00b2 = 3 \u2212 4i, (1 + 2i)\u00b2 = \u22123 + 4i and (1 \u2212 2i)\u00b2 = \u22123 \u2212 4i.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0020",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "For which real values of a is (a + i)\u00b2 purely imaginary?",
+   "imageRef": null,
+   "options": [
+    "a = 1 only",
+    "a = 0",
+    "a = 1/2 or a = \u22121/2",
+    "a = 1 or a = \u22121"
+   ],
+   "correctIndex": 3,
+   "explanation": "(a + i)\u00b2 = a\u00b2 \u2212 1 + 2ai, so the real part a\u00b2 \u2212 1 must be 0, giving a = \u00b11. At a = 0 the square is \u22121, which is real.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0021",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "If z = 1 + 2i, what is z\u00b2 \u2212 2z?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "\u22125 + 8i",
+    "\u22121 + 4i",
+    "\u22125"
+   ],
+   "correctIndex": 3,
+   "explanation": "z\u00b2 = 1 + 4i + 4i\u00b2 = \u22123 + 4i and 2z = 2 + 4i, so z\u00b2 \u2212 2z = \u22125. Using i\u00b2 = +1 gives z\u00b2 = 5 + 4i and the wrong answer 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0022",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "In the complex plane, which point represents \u22123 + 2i?",
+   "imageRef": null,
+   "options": [
+    "(\u22123, \u22122)",
+    "(3, 2)",
+    "(\u22123, 2)",
+    "(2, \u22123)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The real part is plotted on the horizontal (real) axis and the imaginary part on the vertical (imaginary) axis. So \u22123 + 2i is the point (\u22123, 2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0023",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "In the complex plane, the conjugate z\u0304 is the reflection of z in which line?",
+   "imageRef": null,
+   "options": [
+    "the line y = \u2212x",
+    "the real axis",
+    "the imaginary axis",
+    "the line y = x"
+   ],
+   "correctIndex": 1,
+   "explanation": "z = a + bi is the point (a, b) and z\u0304 = a \u2212 bi is (a, \u2212b), its mirror image in the real axis. Reflecting in the imaginary axis gives \u2212z\u0304 instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0024",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "In the complex plane, which number is the reflection of z in the imaginary axis?",
+   "imageRef": null,
+   "options": [
+    "z\u0304",
+    "\u2212z",
+    "iz",
+    "\u2212z\u0304"
+   ],
+   "correctIndex": 3,
+   "explanation": "For z = a + bi the reflection in the imaginary axis is \u2212a + bi = \u2212(a \u2212 bi) = \u2212z\u0304. The number \u2212z is the reflection through the origin.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0025",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "If z lies in the second quadrant of the complex plane, in which quadrant does z\u0304 lie?",
+   "imageRef": null,
+   "options": [
+    "the fourth quadrant",
+    "the second quadrant",
+    "the third quadrant",
+    "the first quadrant"
+   ],
+   "correctIndex": 2,
+   "explanation": "In the second quadrant Re(z) < 0 and Im(z) > 0. The conjugate keeps the negative real part and makes the imaginary part negative, which is the third quadrant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0026",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "In the complex plane, 0, z\u2081 = 1 + 3i and z\u2082 = 4 \u2212 i are three vertices of a parallelogram. What is the fourth vertex, opposite the origin?",
+   "imageRef": null,
+   "options": [
+    "5 + 4i",
+    "5 + 2i",
+    "3 \u2212 4i",
+    "\u22123 + 4i"
+   ],
+   "correctIndex": 1,
+   "explanation": "Addition of complex numbers is vector addition, so the fourth vertex of the parallelogram on 0, z\u2081 and z\u2082 is z\u2081 + z\u2082 = 5 + 2i. The difference 3 \u2212 4i is the other diagonal as a vector.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0027",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Points Z and W in the complex plane represent z = 2 + i and w = \u22121 + 5i. Which complex number represents the vector from Z to W?",
+   "imageRef": null,
+   "options": [
+    "1 + 6i",
+    "\u22122 + 5i",
+    "\u22123 + 4i",
+    "3 \u2212 4i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The vector from Z to W is w \u2212 z = (\u22121 \u2212 2) + (5 \u2212 1)i = \u22123 + 4i. Its reverse, from W to Z, is z \u2212 w = 3 \u2212 4i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0028",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What complex number represents the midpoint of the segment joining 3 + 2i and \u22121 + 4i in the complex plane?",
+   "imageRef": null,
+   "options": [
+    "\u22122 + i",
+    "4 \u2212 2i",
+    "1 + 3i",
+    "2 + 6i"
+   ],
+   "correctIndex": 2,
+   "explanation": "The midpoint is half the sum, as for vectors: ((3 \u2212 1) + (2 + 4)i)/2 = (2 + 6i)/2 = 1 + 3i. The sum 2 + 6i is the fourth vertex of a parallelogram, not the midpoint.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0029",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "A quadratic with real coefficients has a negative discriminant. What are its roots?",
+   "imageRef": null,
+   "options": [
+    "two distinct real roots",
+    "one repeated real root",
+    "one real root and one non-real root",
+    "two non-real roots that are conjugates"
+   ],
+   "correctIndex": 3,
+   "explanation": "With \u0394 < 0 the quadratic formula has the square root of a negative number, giving p + qi and p \u2212 qi. A real quadratic cannot have just one non-real root.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0030",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What are the solutions of z\u00b2 + 9 = 0?",
+   "imageRef": null,
+   "options": [
+    "z = 3 or z = \u22123",
+    "z = 9i or z = \u22129i",
+    "z = 3i only",
+    "z = 3i or z = \u22123i"
+   ],
+   "correctIndex": 3,
+   "explanation": "z\u00b2 = \u22129 = 9i\u00b2, so z = \u00b13i. Check: (3i)\u00b2 = 9i\u00b2 = \u22129. A quadratic has two roots, so 3i alone is incomplete.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0031",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What are the solutions of z\u00b2 \u2212 4z + 13 = 0?",
+   "imageRef": null,
+   "options": [
+    "z = 2 \u00b1 3i",
+    "z = \u22122 \u00b1 3i",
+    "z = 4 \u00b1 6i",
+    "z = 2 \u00b1 \u221a17"
+   ],
+   "correctIndex": 0,
+   "explanation": "z = (4 \u00b1 \u221a(16 \u2212 52))/2 = (4 \u00b1 \u221a(\u221236))/2 = (4 \u00b1 6i)/2 = 2 \u00b1 3i. Forgetting to divide by 2 gives 4 \u00b1 6i.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0032",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "What is the nature of the roots of 2x\u00b2 \u2212 3x + 4 = 0?",
+   "imageRef": null,
+   "options": [
+    "two distinct rational real roots",
+    "two non-real conjugate roots",
+    "two distinct irrational real roots",
+    "one repeated rational root"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u0394 = (\u22123)\u00b2 \u2212 4 \u00d7 2 \u00d7 4 = 9 \u2212 32 = \u221223 < 0, so there are no real roots and the two roots are complex conjugates.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0033",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "How does z\u00b2 + 2z + 5 factorise into linear factors?",
+   "imageRef": null,
+   "options": [
+    "(z + 2 \u2212 i)(z + 2 + i)",
+    "(z + 1 \u2212 2i)(z + 1 + 2i)",
+    "(z \u2212 1 \u2212 2i)(z \u2212 1 + 2i)",
+    "(z + 1 \u2212 2i)\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Completing the square, z\u00b2 + 2z + 5 = (z + 1)\u00b2 + 4 = (z + 1)\u00b2 \u2212 (2i)\u00b2, a difference of squares. The roots are \u22121 \u00b1 2i; the factors with z \u2212 1 expand to z\u00b2 \u2212 2z + 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0034",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "How does z\u00b2 + 16 factorise over the complex numbers?",
+   "imageRef": null,
+   "options": [
+    "(z + 2i)(z \u2212 2i)",
+    "(z + 4i)(z \u2212 4i)",
+    "(z + 4)(z \u2212 4)",
+    "(z + 4i)\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "z\u00b2 + 16 = z\u00b2 \u2212 (4i)\u00b2 = (z + 4i)(z \u2212 4i). The real factors (z + 4)(z \u2212 4) give z\u00b2 \u2212 16, and (z + 2i)(z \u2212 2i) gives z\u00b2 + 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0035",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "One root of x\u00b2 + bx + c = 0, where b and c are real, is 3 \u2212 2i. What are b and c?",
+   "imageRef": null,
+   "options": [
+    "b = \u22126 and c = 5",
+    "b = 6 and c = 5",
+    "b = \u22126 and c = 13",
+    "b = 6 and c = 13"
+   ],
+   "correctIndex": 2,
+   "explanation": "The other root is the conjugate 3 + 2i. The sum of roots is 6 = \u2212b, so b = \u22126, and the product is 9 + 4 = 13 = c. Using 9 \u2212 4 for the product gives 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0036",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Which real quadratic has roots \u22121 + i\u221a2 and \u22121 \u2212 i\u221a2?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 2x \u2212 1",
+    "x\u00b2 + 2x + 3",
+    "x\u00b2 \u2212 2x + 3",
+    "x\u00b2 + 2x \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The quadratic is (x + 1)\u00b2 \u2212 (i\u221a2)\u00b2 = (x + 1)\u00b2 + 2 = x\u00b2 + 2x + 3. Taking (i\u221a2)\u00b2 as +2 gives x\u00b2 + 2x \u2212 1, which has real roots.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0037",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "For which real values of k does x\u00b2 + kx + 4 = 0 have non-real roots?",
+   "imageRef": null,
+   "options": [
+    "\u22122 < k < 2",
+    "k < 4",
+    "\u22124 < k < 4",
+    "k < \u22124 or k > 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Non-real roots need \u0394 = k\u00b2 \u2212 16 < 0, so k\u00b2 < 16 and \u22124 < k < 4. The values k < \u22124 or k > 4 give two distinct real roots.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-wace-complex-cartesian-0038",
+   "topicId": "spec-wace-complex-cartesian",
+   "stem": "Why can a quadratic with real coefficients not have exactly one non-real root?",
+   "imageRef": null,
+   "options": [
+    "if \u03b1 is a root then so is its conjugate, which differs from \u03b1 when \u03b1 is non-real",
+    "the discriminant of a real quadratic is always positive or zero",
+    "a non-real root would make one of the coefficients imaginary",
+    "every quadratic with real coefficients has at least one real root"
+   ],
+   "correctIndex": 0,
+   "explanation": "Conjugating \u03b1\u00b2 + b\u03b1 + c = 0 with b and c real gives \u03b1\u0304\u00b2 + b\u03b1\u0304 + c = 0, so \u03b1\u0304 is also a root. A non-real \u03b1 differs from \u03b1\u0304, so non-real roots come in conjugate pairs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-wace-complex-cartesian-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

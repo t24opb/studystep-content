@@ -1,0 +1,670 @@
+{
+ "topicId": "meth-qce-differentiation",
+ "questions": [
+  {
+   "id": "meth-qce-differentiation-0001",
+   "topicId": "meth-qce-differentiation",
+   "stem": "For a positive integer n, the derivative of x\u207f with respect to x is:",
+   "imageRef": null,
+   "options": [
+    "nx\u207f",
+    "x^(n + 1)/(n + 1)",
+    "nx\u207f\u207b\u00b9",
+    "x\u207f\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiply by the power, then reduce the power by 1. The expression x^(n + 1)/(n + 1) is an anti-derivative, the reverse process.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0002",
+   "topicId": "meth-qce-differentiation",
+   "stem": "If f(x) = 4x\u00b3 \u2212 2x\u00b2 + 7x \u2212 9, then f\u2032(x) is:",
+   "imageRef": null,
+   "options": [
+    "12x\u00b2 \u2212 4x + 7",
+    "12x\u00b2 \u2212 4x + 7x \u2212 9",
+    "12x\u00b2 \u2212 2x + 7",
+    "4x\u00b2 \u2212 2x + 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "Differentiate term by term: 12x\u00b2 \u2212 4x + 7, and the constant \u22129 differentiates to 0. Keeping 7x or \u22129 unchanged treats them as if they were not differentiated.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0003",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The derivative of y = 6 \u2212 3x is:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "6 \u2212 3x",
+    "\u22123"
+   ],
+   "correctIndex": 3,
+   "explanation": "The constant 6 has derivative 0 and \u22123x has derivative \u22123. The line y = 6 \u2212 3x has the same gradient, \u22123, everywhere.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0004",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The sum rule for derivatives states that d/dx (f(x) + g(x)) equals:",
+   "imageRef": null,
+   "options": [
+    "(f(x) + g(x))\u00b2",
+    "f\u2032(x) + g\u2032(x)",
+    "f\u2032(x) \u00d7 g\u2032(x)",
+    "f\u2032(x) + g(x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of a sum is the sum of the derivatives, which is why polynomials can be differentiated term by term. There is no such rule for products.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0005",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The derivative of y = (2x \u2212 1)(x + 3) is:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "4x + 3",
+    "2x + 5",
+    "4x + 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expand first: y = 2x\u00b2 + 5x \u2212 3, so dy/dx = 4x + 5. Multiplying the derivatives of the factors, 2 \u00d7 1, gives 2, which is not a valid rule.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0006",
+   "topicId": "meth-qce-differentiation",
+   "stem": "If f(x) = x\u00b2(x \u2212 4), then f\u2032(x) is:",
+   "imageRef": null,
+   "options": [
+    "3x\u00b2 \u2212 8x",
+    "2x",
+    "3x\u00b2 \u2212 4",
+    "2x(x \u2212 4)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expand to x\u00b3 \u2212 4x\u00b2, then differentiate: 3x\u00b2 \u2212 8x. Differentiating only the x\u00b2 factor gives 2x(x \u2212 4), which leaves the other factor undifferentiated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0007",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The value f\u2032(a) of the derivative of f at x = a gives:",
+   "imageRef": null,
+   "options": [
+    "the area under y = f(x) from 0 to a",
+    "the gradient of the tangent to y = f(x) at x = a",
+    "the height of the graph of y = f(x) at x = a",
+    "the average rate of change of f from 0 to a"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative at a point is the instantaneous rate of change, which is the gradient of the tangent there. The height of the graph is f(a), not f\u2032(a).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0008",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The gradient of the curve y = x\u00b3 \u2212 2x at the point where x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "12",
+    "8",
+    "10",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 2, and at x = 2 this is 12 \u2212 2 = 10. The value 4 is the y-coordinate of the point, 8 \u2212 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0009",
+   "topicId": "meth-qce-differentiation",
+   "stem": "If f(x) = x\u00b2, then f\u2032(3) and f\u2032(\u22121) are:",
+   "imageRef": null,
+   "options": [
+    "6 and \u22122",
+    "9 and 1",
+    "6 and 2",
+    "2 and 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The derivative function is f\u2032(x) = 2x, so f\u2032(3) = 6 and f\u2032(\u22121) = \u22122. The values 9 and 1 are f(3) and f(\u22121).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0010",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The volume of water in a tank is V = 2t\u00b3 + t litres after t minutes. The instantaneous rate of change of V at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "9 L/min",
+    "13 L/min",
+    "25 L/min",
+    "18 L/min"
+   ],
+   "correctIndex": 2,
+   "explanation": "dV/dt = 6t\u00b2 + 1, and at t = 2 this is 24 + 1 = 25 L/min. The value 18 is the volume at t = 2, and 9 is the average rate over the first 2 minutes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0011",
+   "topicId": "meth-qce-differentiation",
+   "stem": "A temperature is modelled by T = 20 + 6t \u2212 t\u00b2 degrees Celsius after t hours. The rate of change of temperature at t = 1 is:",
+   "imageRef": null,
+   "options": [
+    "6 \u00b0C per hour",
+    "4 \u00b0C per hour",
+    "25 \u00b0C per hour",
+    "5 \u00b0C per hour"
+   ],
+   "correctIndex": 1,
+   "explanation": "dT/dt = 6 \u2212 2t, which is 4 at t = 1. The value 25 is the temperature itself at t = 1, and 5 is the average rate over the first hour.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0012",
+   "topicId": "meth-qce-differentiation",
+   "stem": "At which point on y = x\u00b2 \u2212 2x + 3 is the gradient equal to 4?",
+   "imageRef": null,
+   "options": [
+    "(3, 6)",
+    "(3, 4)",
+    "(1, 2)",
+    "(2, 3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve dy/dx = 2x \u2212 2 = 4 to get x = 3, then y = 9 \u2212 6 + 3 = 6. The point (3, 4) uses the gradient as the y-coordinate.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0013",
+   "topicId": "meth-qce-differentiation",
+   "stem": "At a point on a curve, the normal is the line that:",
+   "imageRef": null,
+   "options": [
+    "joins the point to the origin, with gradient y divided by x",
+    "is perpendicular to the tangent, with gradient the negative reciprocal of the tangent's",
+    "is parallel to the tangent, with the same gradient as the tangent",
+    "is perpendicular to the tangent, with gradient the negative of the tangent's"
+   ],
+   "correctIndex": 1,
+   "explanation": "The normal is perpendicular to the tangent, so the product of their gradients is \u22121 and the normal's gradient is \u22121/m. Changing only the sign does not give a perpendicular line.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0014",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The equation of the tangent to y = x\u00b2 + 1 at x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = 4x \u2212 8",
+    "y = 4x \u2212 3",
+    "y = 4x + 5",
+    "y = 2x + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The point is (2, 5) and the gradient is 2x = 4, so y \u2212 5 = 4(x \u2212 2), giving y = 4x \u2212 3. Using the gradient 2x without substituting x = 2 gives the wrong slope.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0015",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The equation of the normal to y = x\u00b2 + 1 at x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = x/4 + 9/2",
+    "y = \u2212x/4 + 5",
+    "y = \u2212x/4 + 11/2",
+    "y = \u22124x + 13"
+   ],
+   "correctIndex": 2,
+   "explanation": "The tangent gradient is 4, so the normal gradient is \u22121/4; through (2, 5), y = \u2212(1/4)(x \u2212 2) + 5 = \u2212x/4 + 11/2. Using \u22124 changes only the sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0016",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The equation of the tangent to y = x\u00b3 \u2212 3x at x = \u22121 is:",
+   "imageRef": null,
+   "options": [
+    "y = 6x + 8",
+    "x = \u22121",
+    "y = 2",
+    "y = \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 3 = 0 at x = \u22121, and y = \u22121 + 3 = 2, so the tangent is horizontal: y = 2. A vertical line x = \u22121 is not a tangent here.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0017",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The tangent to y = x\u00b2 \u2212 4x is parallel to the line y = 2x + 1 at one point. The equation of that tangent is:",
+   "imageRef": null,
+   "options": [
+    "y = 2x \u2212 3",
+    "y = \u22122x + 3",
+    "y = 2x \u2212 9",
+    "y = 2x + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parallel means gradient 2: 2x \u2212 4 = 2 gives x = 3, and y = 9 \u2212 12 = \u22123. Then y + 3 = 2(x \u2212 3), so y = 2x \u2212 9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0018",
+   "topicId": "meth-qce-differentiation",
+   "stem": "For an object moving in a straight line, velocity is:",
+   "imageRef": null,
+   "options": [
+    "the rate of change of speed with respect to distance",
+    "the instantaneous rate of change of displacement with respect to time",
+    "the total distance travelled divided by the total time",
+    "the area under the displacement-time graph"
+   ],
+   "correctIndex": 1,
+   "explanation": "Velocity is dx/dt, the gradient of the tangent to the displacement-time graph. Total distance over total time is average speed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0019",
+   "topicId": "meth-qce-differentiation",
+   "stem": "On a displacement-time graph, the object is momentarily at rest where:",
+   "imageRef": null,
+   "options": [
+    "the tangent to the graph is horizontal",
+    "the graph crosses the time axis",
+    "the graph is at its steepest",
+    "the displacement is greatest in size"
+   ],
+   "correctIndex": 0,
+   "explanation": "At rest means velocity zero, so the gradient of the tangent is zero. Crossing the time axis means the object is at the origin, which can happen while it is moving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0020",
+   "topicId": "meth-qce-differentiation",
+   "stem": "A displacement-time graph is decreasing over an interval of time. During that interval the object:",
+   "imageRef": null,
+   "options": [
+    "has positive velocity, slowing down",
+    "is stationary at a negative displacement",
+    "has zero velocity, as it is below the axis",
+    "has negative velocity, moving in the negative direction"
+   ],
+   "correctIndex": 3,
+   "explanation": "A decreasing graph has a negative gradient, so the velocity is negative. Whether the displacement itself is positive or negative does not decide the direction of motion.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0021",
+   "topicId": "meth-qce-differentiation",
+   "stem": "A particle has displacement x = t\u00b3 \u2212 6t\u00b2 + 9t metres at time t seconds. Its velocity at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "\u22123 m/s",
+    "2 m/s",
+    "3 m/s",
+    "\u221212 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = dx/dt = 3t\u00b2 \u2212 12t + 9, and v(2) = 12 \u2212 24 + 9 = \u22123 m/s. The value 2 is the displacement at t = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0022",
+   "topicId": "meth-qce-differentiation",
+   "stem": "For the same particle, x = t\u00b3 \u2212 6t\u00b2 + 9t, the times at which it is at rest are:",
+   "imageRef": null,
+   "options": [
+    "t = 1 and t = 3",
+    "t = 0 and t = 3",
+    "t = 2 only",
+    "t = 0, 3 and 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = 3t\u00b2 \u2212 12t + 9 = 3(t \u2212 1)(t \u2212 3) = 0 at t = 1 and t = 3. The times t = 0 and t = 3 are when the displacement is zero, not the velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0023",
+   "topicId": "meth-qce-differentiation",
+   "stem": "For the same particle, x = t\u00b3 \u2212 6t\u00b2 + 9t, the average velocity over 0 \u2264 t \u2264 2 is:",
+   "imageRef": null,
+   "options": [
+    "3 m/s",
+    "2 m/s",
+    "1 m/s",
+    "\u22123 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "Average velocity is the change in displacement over the time taken: (x(2) \u2212 x(0))/2 = (2 \u2212 0)/2 = 1 m/s. The value \u22123 m/s is the instantaneous velocity at t = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0024",
+   "topicId": "meth-qce-differentiation",
+   "stem": "A stationary point of y = f(x) is a point where:",
+   "imageRef": null,
+   "options": [
+    "f(x) = 0",
+    "f\u2032(x) is undefined",
+    "the graph crosses the y-axis",
+    "f\u2032(x) = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "At a stationary point the gradient is zero, so the tangent is horizontal. Points where f(x) = 0 are the x-intercepts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0025",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The stationary points of y = x\u00b3 \u2212 12x are:",
+   "imageRef": null,
+   "options": [
+    "(0, 0) only",
+    "(\u2212\u221a12, 0) and (\u221a12, 0)",
+    "(\u22122, 16) and (2, \u221216)",
+    "(\u22122, \u221216) and (2, 16)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 3x\u00b2 \u2212 12 = 0 gives x = \u00b12; y(\u22122) = \u22128 + 24 = 16 and y(2) = 8 \u2212 24 = \u221216. The points (\u00b1\u221a12, 0) are x-intercepts, not stationary points.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0026",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The gradient of a function changes from positive to negative as x increases through a stationary point. That point is:",
+   "imageRef": null,
+   "options": [
+    "a local minimum",
+    "a stationary point of inflection",
+    "an x-intercept",
+    "a local maximum"
+   ],
+   "correctIndex": 3,
+   "explanation": "The graph rises to the point and then falls, so it is a local maximum. Negative to positive gives a local minimum, and no change of sign gives a stationary point of inflection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0027",
+   "topicId": "meth-qce-differentiation",
+   "stem": "At the origin, the graph of y = x\u00b3 has:",
+   "imageRef": null,
+   "options": [
+    "no stationary point",
+    "a stationary point of inflection",
+    "a local minimum",
+    "a local maximum"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 3x\u00b2 is zero at x = 0 but positive on both sides, so the gradient does not change sign: the graph flattens and keeps rising.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0028",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The derivative of a function is f\u2032(x) = (x \u2212 1)(x + 2). The function has a local maximum at:",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = \u22121",
+    "x = \u22122",
+    "x = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "f\u2032 is positive for x < \u22122, negative for \u22122 < x < 1 and positive for x > 1. It changes from positive to negative at x = \u22122, a local maximum, and from negative to positive at x = 1, a local minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0029",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The local minimum of y = 2x\u00b3 \u2212 3x\u00b2 \u2212 12x + 5 is at:",
+   "imageRef": null,
+   "options": [
+    "(2, 15)",
+    "(2, \u221215)",
+    "(\u22121, 12)",
+    "(1, \u22128)"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 6x\u00b2 \u2212 6x \u2212 12 = 6(x \u2212 2)(x + 1), so x = \u22121 or 2. The gradient changes from negative to positive at x = 2, where y = 16 \u2212 12 \u2212 24 + 5 = \u221215; (\u22121, 12) is the local maximum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0030",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The stationary points of y = x\u2074 \u2212 4x\u00b3 are:",
+   "imageRef": null,
+   "options": [
+    "a local minimum at (3, \u221227) only, with no other stationary point",
+    "a stationary point of inflection at (0, 0) and a local minimum at (3, \u221227)",
+    "a local maximum at (0, 0) and a local minimum at (3, \u221227)",
+    "a local minimum at (0, 0) and a local maximum at (3, \u221227)"
+   ],
+   "correctIndex": 1,
+   "explanation": "dy/dx = 4x\u00b2(x \u2212 3) is zero at x = 0 and x = 3. Near x = 0 it is negative on both sides, so (0, 0) is a stationary point of inflection; at x = 3 it changes from negative to positive, a minimum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0031",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The function f(x) = x\u00b2 \u2212 6x is increasing for:",
+   "imageRef": null,
+   "options": [
+    "x > 0",
+    "x > 3",
+    "x < 3",
+    "x > 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "f\u2032(x) = 2x \u2212 6 > 0 when x > 3, to the right of the minimum turning point. The value 6 is an x-intercept, not the turning point.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0032",
+   "topicId": "meth-qce-differentiation",
+   "stem": "For the graph of y = \u2212x\u2074 + 2x\u00b2, as x \u2192 \u221e and as x \u2192 \u2212\u221e:",
+   "imageRef": null,
+   "options": [
+    "y \u2192 \u221e as x \u2192 \u221e and y \u2192 \u2212\u221e as x \u2192 \u2212\u221e",
+    "y \u2192 0 in both directions",
+    "y \u2192 \u2212\u221e in both directions",
+    "y \u2192 \u221e in both directions"
+   ],
+   "correctIndex": 2,
+   "explanation": "The leading term \u2212x\u2074 dominates for large |x| and is negative whether x is positive or negative. An even-degree polynomial has both ends pointing the same way.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0033",
+   "topicId": "meth-qce-differentiation",
+   "stem": "The graph of y = x\u2074 \u2212 2x\u00b2 has:",
+   "imageRef": null,
+   "options": [
+    "a local maximum at (0, 0) and local minima at (\u2212\u221a2, 0) and (\u221a2, 0)",
+    "a single local minimum at (0, 0)",
+    "a local maximum at (0, 0) and local minima at (\u22121, \u22121) and (1, \u22121)",
+    "a local minimum at (0, 0) and local maxima at (\u22121, \u22121) and (1, \u22121)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 4x\u00b3 \u2212 4x = 4x(x \u2212 1)(x + 1), zero at x = 0, \u00b11, with y(0) = 0 and y(\u00b11) = \u22121. The gradient changes + to \u2212 at 0 (maximum) and \u2212 to + at \u00b11 (minima); (\u00b1\u221a2, 0) are x-intercepts.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0034",
+   "topicId": "meth-qce-differentiation",
+   "stem": "On the interval \u22122 \u2264 x \u2264 3, the function f(x) = x\u00b3 \u2212 3x has global maximum and global minimum values of:",
+   "imageRef": null,
+   "options": [
+    "2 and \u22122",
+    "18 and \u221218",
+    "2 and \u221218",
+    "18 and \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "Stationary points give f(\u22121) = 2 and f(1) = \u22122, and the endpoints give f(\u22122) = \u22122 and f(3) = 18. The largest of these is 18 at the endpoint x = 3, so the local maximum 2 is not the global maximum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-differentiation-0035",
+   "topicId": "meth-qce-differentiation",
+   "stem": "A business's profit is P = \u22122x\u00b2 + 40x \u2212 50 dollars when it sells x items. The maximum profit is:",
+   "imageRef": null,
+   "options": [
+    "$10",
+    "$350",
+    "$50",
+    "$150"
+   ],
+   "correctIndex": 3,
+   "explanation": "dP/dx = \u22124x + 40 = 0 at x = 10, and P(10) = \u2212200 + 400 \u2212 50 = 150. The value 10 is the number of items, not the profit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-differentiation-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

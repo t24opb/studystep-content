@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-residuals-normal",
+ "questions": [
+  {
+   "id": "gm-sace-residuals-normal-0001",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "What does the coefficient of determination, r\u00b2, measure for a least squares regression line?",
+   "imageRef": null,
+   "options": [
+    "The proportion of the variation in the explanatory variable explained by the response variable",
+    "The proportion of the variation in the response variable explained by the explanatory variable",
+    "The proportion of the data points that lie exactly on the least squares regression line",
+    "The average vertical distance between the data points and the least squares regression line"
+   ],
+   "correctIndex": 1,
+   "explanation": "r\u00b2 tells how much of the variation in y can be explained by its linear relationship with x. It says nothing about how many points sit exactly on the line, and the response variable is the one being explained.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0002",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "For hours of study (x) and exam mark (y), r = 0.9. How is the coefficient of determination interpreted?",
+   "imageRef": null,
+   "options": [
+    "90% of the variation in exam mark is explained by variation in study hours",
+    "81% of the students' exam marks are correctly predicted by the regression line",
+    "81% of the variation in study hours is explained by variation in exam mark",
+    "81% of the variation in exam mark is explained by variation in study hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "r\u00b2 = 0.9\u00b2 = 0.81, so 81% of the variation in the response (exam mark) is explained by the explanatory variable (study hours). Using r itself as the percentage is a common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0003",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "As a guide, a least squares line is used for prediction when r\u00b2 \u2265 0.7. A data set has r = -0.82. What should be concluded?",
+   "imageRef": null,
+   "options": [
+    "r = -0.82 is greater than 0.7 in size, so the line can be used for prediction",
+    "r\u00b2 = 0.67, so the association is not quite strong enough for prediction",
+    "r\u00b2 = 0.67, so the association is strong enough for reliable prediction",
+    "r\u00b2 = -0.67, so a negative association can never be used for prediction"
+   ],
+   "correctIndex": 1,
+   "explanation": "Squaring gives r\u00b2 = 0.6724, just under the 0.7 guide, even though r = -0.82 sounds strong. r\u00b2 is never negative, and the direction of the association does not stop a line being used.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0004",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A scatter plot shows a negative linear association, and r\u00b2 = 0.49. What is the value of Pearson's correlation coefficient r?",
+   "imageRef": null,
+   "options": [
+    "\u22120.2401",
+    "\u22120.7",
+    "0.7",
+    "\u22120.49"
+   ],
+   "correctIndex": 1,
+   "explanation": "r = \u00b1\u221a0.49 = \u00b10.7, and the negative association fixes the sign, so r = \u22120.7. \u22120.49 confuses r with r\u00b2, and \u22120.2401 squares 0.49 instead of taking its square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0005",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "As a guide, a least squares line is used for prediction when r\u00b2 \u2265 0.7. What is the smallest size of r, to two decimal places, that meets this guide?",
+   "imageRef": null,
+   "options": [
+    "0.49",
+    "0.35",
+    "0.84",
+    "0.70"
+   ],
+   "correctIndex": 2,
+   "explanation": "r\u00b2 \u2265 0.7 means |r| \u2265 \u221a0.7 \u2248 0.8367, so r must be at least 0.84 or at most \u22120.84. Taking 0.70 confuses r with r\u00b2, 0.49 squares the guide instead of taking its root, and 0.35 halves it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0006",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "How is the residual for a data point calculated?",
+   "imageRef": null,
+   "options": [
+    "Predicted y value minus the actual y value of the point",
+    "Actual y value minus the actual x value of the point",
+    "Actual x value minus the x value predicted by the line",
+    "Actual y value minus the y value predicted by the line"
+   ],
+   "correctIndex": 3,
+   "explanation": "Residual = actual value \u2212 predicted value, measured vertically from the regression line. Reversing the subtraction gives the right size but the wrong sign.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0007",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "The least squares line is y = 2.5x + 12. For the data point (8, 30), what is the residual?",
+   "imageRef": null,
+   "options": [
+    "18",
+    "\u22122",
+    "2",
+    "32"
+   ],
+   "correctIndex": 1,
+   "explanation": "The predicted value is 2.5 \u00d7 8 + 12 = 32, so the residual is 30 \u2212 32 = \u22122. A residual of +2 subtracts the wrong way; the point lies below the line, so its residual is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0008",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A data point has a positive residual. Where does it lie?",
+   "imageRef": null,
+   "options": [
+    "Exactly on the least squares regression line",
+    "To the right of the mean of the x values",
+    "Above the least squares regression line",
+    "Below the least squares regression line"
+   ],
+   "correctIndex": 2,
+   "explanation": "A positive residual means the actual value is greater than the predicted value, so the point is above the line. A point below the line has a negative residual.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0009",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A residual plot shows the residuals scattered randomly about zero with no pattern. What does this suggest?",
+   "imageRef": null,
+   "options": [
+    "A linear model is appropriate for the data",
+    "A non-linear model would fit the data better",
+    "There is no association between the variables",
+    "The correlation coefficient must equal zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "Random scatter means the line has captured the trend and what is left is just variation. A clear pattern, such as a curve, would suggest a non-linear model.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0010",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A scatter plot looks roughly linear with r\u00b2 = 0.93, but the residual plot shows a clear U-shaped pattern. What should be concluded?",
+   "imageRef": null,
+   "options": [
+    "The trend is curved, so a non-linear model may fit better",
+    "The linear model is ideal, because r\u00b2 is above 0.7",
+    "The data contain an outlier that must be removed",
+    "The variables have no relationship with each other"
+   ],
+   "correctIndex": 0,
+   "explanation": "A pattern in the residual plot shows the trend is actually curved, even when r\u00b2 is high. A high r\u00b2 alone does not prove a straight line is the best model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0011",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "For the same data, a linear model has r\u00b2 = 0.91 with a curved residual plot, and an exponential model has r\u00b2 = 0.98 with randomly scattered residuals. Which model should be used for prediction?",
+   "imageRef": null,
+   "options": [
+    "The linear model, because its r\u00b2 is above the 0.7 guide",
+    "The linear model, because linear models are always simpler",
+    "Neither model, because r\u00b2 differs between the two models",
+    "The exponential model, with higher r\u00b2 and no residual pattern"
+   ],
+   "correctIndex": 3,
+   "explanation": "The exponential model explains more of the variation and leaves no pattern in its residuals, so it fits the data's trend. Passing the 0.7 guide does not make the linear model the better choice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0012",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Several points in a regression have very large residuals. What does this indicate?",
+   "imageRef": null,
+   "options": [
+    "The correlation between the variables must be positive",
+    "Predictions from the model are likely to be less reliable",
+    "The model will give exact predictions for those points",
+    "The explanatory variable has been chosen incorrectly"
+   ],
+   "correctIndex": 1,
+   "explanation": "Large residuals mean the line misses some actual values by a lot, so predictions carry large errors and the model may not be appropriate. They do not by themselves show the variables were wrongly assigned.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0013",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "In an exponential regression model y = a \u00d7 b\u02e3, what does a represent?",
+   "imageRef": null,
+   "options": [
+    "The initial value of y, when x = 0",
+    "The percentage change in y per unit of x",
+    "The value of x when y is equal to zero",
+    "The constant amount added to y each step"
+   ],
+   "correctIndex": 0,
+   "explanation": "When x = 0, b\u2070 = 1, so y = a: the starting value. The growth or decay rate comes from b, and adding a constant amount each step describes a linear model.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0014",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Exponential regression gives y = 250 \u00d7 1.08\u02e3 for the number of members of a club x years after it opened. How is 1.08 interpreted?",
+   "imageRef": null,
+   "options": [
+    "Membership increases by 1.08% each year",
+    "Membership increases by 108 each year",
+    "Membership increases by 80% each year",
+    "Membership increases by 8% each year"
+   ],
+   "correctIndex": 3,
+   "explanation": "b = 1.08 means each year's value is 108% of the previous year's, an 8% increase. Reading b as the percentage itself, or as an amount added, misreads the multiplier.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0015",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Exponential regression gives y = 1200 \u00d7 0.85\u02e3 for the value of a machine, in dollars, after x years. How is 0.85 interpreted?",
+   "imageRef": null,
+   "options": [
+    "The value decreases by $85 each year",
+    "The value decreases by 0.85% each year",
+    "The value decreases by 15% each year",
+    "The value decreases by 85% each year"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each year the value is 85% of the year before, so 15% is lost. A decrease of 85% would leave only 15% each year, which is a b value of 0.15.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0016",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Membership of a club is modelled by y = 250 \u00d7 1.08\u02e3, x years after it opened. What membership does the model predict after 5 years, to the nearest whole number?",
+   "imageRef": null,
+   "options": [
+    "450",
+    "1350",
+    "367",
+    "350"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = 250 \u00d7 1.08\u2075 \u2248 367.33, so about 367 members. 350 adds 8% of 250 each year, which is simple (linear) growth, and 1350 multiplies by 1.08 and by 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0017",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Years since 2020 (x) and sales y are (0, 40), (1, 60), (2, 90) and (3, 135). Exponential regression fits the points exactly. What is the model?",
+   "imageRef": null,
+   "options": [
+    "y = 60 \u00d7 1.5\u02e3",
+    "y = 40 \u00d7 0.5\u02e3",
+    "y = 1.5 \u00d7 40\u02e3",
+    "y = 40 \u00d7 1.5\u02e3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each value is 1.5 times the one before (60/40 = 90/60 = 135/90 = 1.5), so b = 1.5, and the value at x = 0 is a = 40. Using 60 takes the value at x = 1 as the initial value, and 0.5 confuses a 50% increase with b.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0018",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A town's population is 5000 and falls by 6% each year. Which exponential model gives the population y after x years?",
+   "imageRef": null,
+   "options": [
+    "y = 5000 \u00d7 0.94\u02e3",
+    "y = 5000 \u00d7 0.06\u02e3",
+    "y = 5000 \u00d7 1.06\u02e3",
+    "y = 5000 \u00d7 0.6\u02e3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Losing 6% leaves 94% each year, so b = 0.94. b = 0.06 would keep only 6% each year, and 1.06 is a 6% increase.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0019",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A regression model was fitted to data with x from 10 to 50. Why is a prediction at x = 120 less reliable than one at x = 30?",
+   "imageRef": null,
+   "options": [
+    "The coefficient of determination changes as the value of x increases",
+    "It is an extrapolation that assumes the trend continues beyond the data",
+    "It is an interpolation, which is never reliable for any regression model",
+    "Larger x values always give larger residuals in any regression model"
+   ],
+   "correctIndex": 1,
+   "explanation": "x = 30 is inside the data (interpolation), while x = 120 is far outside it (extrapolation). There is no evidence the trend holds out there, so the prediction may be well off.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0020",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A scatter plot has one point far from the others. When is it appropriate to remove it before fitting a regression line?",
+   "imageRef": null,
+   "options": [
+    "Only when there is a reasonable justification, such as a recording error",
+    "Always, because removing outliers strengthens the correlation",
+    "Never, because every data point must be kept in any analysis",
+    "Whenever its residual is larger than the residuals of the others"
+   ],
+   "correctIndex": 0,
+   "explanation": "Removing an outlier often raises r\u00b2, but data should only be removed with good reason, such as a measurement or recording error. Removing a point just to improve the fit misrepresents the data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0021",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A model has r\u00b2 = 0.95 and a residual plot with random scatter. The data cover x from 2 to 20. Which prediction is most reliable?",
+   "imageRef": null,
+   "options": [
+    "A prediction at x = 12, inside the data range",
+    "A prediction at x = 40, well beyond the data range",
+    "A prediction at x = 0, just below the data range",
+    "All predictions are equally reliable with r\u00b2 = 0.95"
+   ],
+   "correctIndex": 0,
+   "explanation": "A strong r\u00b2, no residual pattern and interpolation together make x = 12 the most reliable. Even with a good fit, extrapolating to x = 40 or x = 0 assumes the trend continues where there is no data.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0022",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Brick pavers vary in length because of many small, independent random effects in production. Why are their lengths likely to be approximately normally distributed?",
+   "imageRef": null,
+   "options": [
+    "Random effects always cancel out, so all pavers have exactly the same length",
+    "A normal distribution occurs whenever a single random effect is involved",
+    "Quantities that are the sum of many independent random effects tend to be normal",
+    "Every quantity measured in a factory must have a normal distribution"
+   ],
+   "correctIndex": 2,
+   "explanation": "When a measurement is the sum of many independent random variations, its distribution tends towards the bell shape. One random effect alone, such as a fair die, gives a flat distribution, not a normal one.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0023",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "A spreadsheet simulates paver lengths as a target length plus several random effects. As more independent random effects are added, what happens to the histogram of lengths?",
+   "imageRef": null,
+   "options": [
+    "It splits into two separate peaks of lengths",
+    "It becomes more bell-shaped and symmetric",
+    "It becomes flatter and more evenly spread",
+    "It becomes more skewed towards longer lengths"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each added random effect pushes the distribution of the sum closer to a normal shape, centred on the mean. A single random number gives a flat (uniform) histogram.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0024",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Which proportion needs technology rather than the 68:95:99.7% rule?",
+   "imageRef": null,
+   "options": [
+    "The proportion below \u03bc \u2212 3\u03c3",
+    "The proportion between \u03bc \u2212 0.5\u03c3 and \u03bc + 1.2\u03c3",
+    "The proportion between \u03bc \u2212 \u03c3 and \u03bc + \u03c3",
+    "The proportion above \u03bc + 2\u03c3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rule only gives proportions at whole numbers of standard deviations from the mean. Non-integral multiples such as 0.5\u03c3 and 1.2\u03c3 give non-standard proportions, found with technology.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0025",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "The mass of chip packets is normally distributed with mean 200 g and standard deviation 4 g. Using technology, what percentage of packets weigh less than 195 g?",
+   "imageRef": null,
+   "options": [
+    "21.1%",
+    "39.4%",
+    "10.6%",
+    "89.4%"
+   ],
+   "correctIndex": 2,
+   "explanation": "Technology gives P(X < 195) \u2248 0.1056, or 10.6%. 89.4% is the proportion above 195 g, and 21.1% counts both tails, more than 5 g from the mean on either side.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0026",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Chip packet masses are normally distributed with mean 200 g and standard deviation 4 g. Using technology, what percentage of packets weigh between 196 g and 206 g?",
+   "imageRef": null,
+   "options": [
+    "77.5%",
+    "93.3%",
+    "84.1%",
+    "22.5%"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(196 < X < 206) \u2248 0.7745, or 77.5%. 93.3% is everything below 206 g, which includes packets lighter than 196 g, and 84.1% is everything above 196 g.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0027",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Heights of adult women in a study are normally distributed with mean 165 cm and standard deviation 7 cm. Using technology, what proportion are taller than 175 cm?",
+   "imageRef": null,
+   "options": [
+    "92.3%",
+    "15.3%",
+    "42.3%",
+    "7.7%"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(X > 175) \u2248 0.0766, or 7.7%. 92.3% is the proportion shorter than 175 cm, and 42.3% is the area between the mean and 175 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0028",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "For any normal distribution, technology gives the proportion of values within 1.5 standard deviations of the mean. Which value does it give?",
+   "imageRef": null,
+   "options": [
+    "93.3%",
+    "75.0%",
+    "86.6%",
+    "81.5%"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(\u22121.5 < Z < 1.5) \u2248 0.8664, or 86.6%, which sensibly lies between the 68% within 1\u03c3 and the 95% within 2\u03c3. 81.5% just averages 68% and 95%, and the bell curve is not linear between them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0029",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Bolt lengths are normally distributed with mean 50 mm and standard deviation 0.2 mm. In a batch of 1200, about how many bolts are longer than 50.5 mm?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "30",
+    "7",
+    "1193"
+   ],
+   "correctIndex": 2,
+   "explanation": "50.5 mm is 2.5 standard deviations above the mean, and technology gives P(X > 50.5) \u2248 0.00621. 1200 \u00d7 0.00621 \u2248 7.45, so about 7 bolts. 30 uses the 2.5% above 2\u03c3, but these bolts are beyond 2.5\u03c3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0030",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "What is an inverse normal problem?",
+   "imageRef": null,
+   "options": [
+    "Finding the area under the curve between two given values",
+    "Finding the mean of a distribution from a sample of data",
+    "Finding the standard deviation from the range of the data",
+    "Finding the value that bounds a given area under the curve"
+   ],
+   "correctIndex": 3,
+   "explanation": "An inverse normal problem reverses the usual process: it starts from an area (proportion) and finds the value on the distribution, such as the mark needed to be in the top 10%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0031",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Test marks are normally distributed with mean 70 and standard deviation 8. Using technology, what mark is needed to be in the top 10%, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "80.3",
+    "59.7",
+    "83.2",
+    "78.0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The top 10% lies above the value with 90% below it, which technology gives as 80.3. 59.7 cuts off the bottom 10%, and 83.2 cuts off the top 5%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0032",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "An inverse normal tool works with the area to the left of the value. Which area is entered to find the value that cuts off the top 10%?",
+   "imageRef": null,
+   "options": [
+    "0.1",
+    "0.05",
+    "0.95",
+    "0.9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The top 10% is to the right of the value, so 90% of the area lies to its left: enter 0.9. Entering 0.1 gives the value that cuts off the bottom 10%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0033",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Battery lifetimes are normally distributed with mean 500 hours and standard deviation 30 hours. Below what lifetime do the shortest 5% fall, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "440.0 hours",
+    "461.6 hours",
+    "450.7 hours",
+    "549.3 hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "Technology gives the value with 5% to its left as 450.7 hours. 440 hours is two standard deviations below the mean, which cuts off only about 2.5%, and 549.3 hours bounds the longest 5%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0034",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Test marks are normally distributed with mean 70 and standard deviation 8. Between which two marks do the middle 80% of students lie, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "62.0 and 78.0",
+    "59.7 and 80.3",
+    "63.3 and 76.7",
+    "56.8 and 83.2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The middle 80% leaves 10% in each tail, so the bounds have 10% and 90% of the area to their left: 59.7 and 80.3. Using 20% and 80% gives only the middle 60%, and 62 to 78 is one standard deviation each side, about 68%.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0035",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Juice bottles are labelled 375 mL. The filling machine has a standard deviation of 5 mL. What mean fill makes only 2% of bottles contain less than 375 mL, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "383.2 mL",
+    "380.0 mL",
+    "385.3 mL",
+    "364.7 mL"
+   ],
+   "correctIndex": 2,
+   "explanation": "375 mL must have 2% of the area below it, so it sits 2.054 standard deviations below the mean. Mean = 375 + 2.054 \u00d7 5 \u2248 385.3 mL. Subtracting instead puts the mean below the label, so most bottles would be underfilled.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0036",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "Scores are normally distributed with mean 50, and 15% of scores are above 60. Technology shows that 60 is 1.036 standard deviations above the mean. What is the standard deviation, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "10.4",
+    "5.0",
+    "14.8",
+    "9.6"
+   ],
+   "correctIndex": 3,
+   "explanation": "60 \u2212 50 = 10 = 1.036\u03c3, so \u03c3 = 10 \u00f7 1.036 \u2248 9.6. Multiplying 10 by 1.036 gives 10.4, and 5.0 treats 60 as two standard deviations above the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-residuals-normal-0037",
+   "topicId": "gm-sace-residuals-normal",
+   "stem": "In a model, heights of 10-year-old boys are normally distributed with mean 138 cm and standard deviation 6 cm. A clinic checks boys in the shortest 3%. What is the cut-off height, to one decimal place?",
+   "imageRef": null,
+   "options": [
+    "126.7 cm",
+    "149.3 cm",
+    "126.0 cm",
+    "132.0 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "Technology gives the height with 3% of the area to its left as 126.7 cm. 126 cm is two standard deviations below the mean, about the shortest 2.5%, and 149.3 cm bounds the tallest 3%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-residuals-normal-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

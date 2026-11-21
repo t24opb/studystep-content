@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-hsc-vectors",
+ "questions": [
+  {
+   "id": "spec-hsc-vectors-0001",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A position vector is a vector that:",
+   "imageRef": null,
+   "options": [
+    "has a magnitude of exactly 1",
+    "points along the positive x-axis",
+    "has its head at the origin",
+    "has its tail at the origin"
+   ],
+   "correctIndex": 3,
+   "explanation": "A position vector starts at the origin O and ends at the point it locates, so OP is the position vector of P. A vector of magnitude 1 is a unit vector, which is a different idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0002",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Two vectors a and b are equal when they have:",
+   "imageRef": null,
+   "options": [
+    "the same magnitude, in any direction",
+    "the same starting point and the same length",
+    "the same direction, of any magnitude",
+    "the same magnitude and the same direction"
+   ],
+   "correctIndex": 3,
+   "explanation": "A vector is defined by its magnitude and direction only, so any two directed line segments with the same length and direction represent the same vector, wherever they start. Same direction alone makes them parallel, not equal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0003",
+   "topicId": "spec-hsc-vectors",
+   "stem": "For the points A(1, 2) and B(4, \u22122), the vector AB is:",
+   "imageRef": null,
+   "options": [
+    "3i \u2212 4j",
+    "\u22123i + 4j",
+    "5i",
+    "3i + 4j"
+   ],
+   "correctIndex": 0,
+   "explanation": "AB = OB \u2212 OA = (4 \u2212 1)i + (\u22122 \u2212 2)j = 3i \u2212 4j. Subtracting the other way round gives \u22123i + 4j, which is the vector BA.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0004",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Every point on the xz-plane in three dimensions satisfies:",
+   "imageRef": null,
+   "options": [
+    "x = 0",
+    "z = 0",
+    "x = z",
+    "y = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The xz-plane contains the x- and z-axes, and every point on it has no y-component, so its equation is y = 0. Likewise the xy-plane is z = 0 and the yz-plane is x = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0005",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The midpoint of A(2, \u22121, 4) and B(6, 3, \u22122) is:",
+   "imageRef": null,
+   "options": [
+    "(8, 2, 2)",
+    "(4, 1, 3)",
+    "(4, 1, 1)",
+    "(2, 2, \u22123)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Average each coordinate: ((2 + 6)/2, (\u22121 + 3)/2, (4 \u2212 2)/2) = (4, 1, 1). Halving the differences instead gives (2, 2, \u22123), and forgetting to halve gives (8, 2, 2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0006",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The distance between P(1, \u22122, 3) and Q(3, 1, \u22123) is:",
+   "imageRef": null,
+   "options": [
+    "\u221a11",
+    "11",
+    "7",
+    "49"
+   ],
+   "correctIndex": 2,
+   "explanation": "PQ = 2i + 3j \u2212 6k, so |PQ| = \u221a(4 + 9 + 36) = \u221a49 = 7. Leaving out the square root gives 49, and adding the components 2 + 3 + 6 without squaring gives 11.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0007",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Which vector is perpendicular to 3i + 5j and has the same magnitude?",
+   "imageRef": null,
+   "options": [
+    "5i \u2212 3j",
+    "\u22123i + 5j",
+    "3i \u2212 5j",
+    "5i + 3j"
+   ],
+   "correctIndex": 0,
+   "explanation": "Swapping the components of ai + bj and changing one sign gives bi \u2212 aj, which is perpendicular because (3)(5) + (5)(\u22123) = 0, and it has the same magnitude \u221a34. Swapping without changing a sign gives 5i + 3j, whose scalar product with 3i + 5j is 30, not 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0008",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The unit vector in the direction of a = 6i + 2j \u2212 3k is:",
+   "imageRef": null,
+   "options": [
+    "(1/\u221a5)(6i + 2j \u2212 3k)",
+    "(1/7)(6i + 2j \u2212 3k)",
+    "(1/49)(6i + 2j \u2212 3k)",
+    "(1/5)(6i + 2j \u2212 3k)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The unit vector is a divided by |a|, and |a| = \u221a(36 + 4 + 9) = \u221a49 = 7. Dividing by 49 uses |a|\u00b2 instead, and 5 is just the sum of the components 6 + 2 \u2212 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0009",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The vectors 4i \u2212 6j + 2k and \u22126i + mj \u2212 3k are parallel when m equals:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "\u22124",
+    "9",
+    "\u22129"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parallel vectors are scalar multiples. Comparing the i and k components, \u22126i + mj \u2212 3k = \u2212(3/2)(4i \u2212 6j + 2k), so m = \u2212(3/2)(\u22126) = 9. Forgetting that the multiplier is negative gives \u22129.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0010",
+   "topicId": "spec-hsc-vectors",
+   "stem": "For a = 3i \u2212 2j and b = \u2212i + 4j, the scalar product a.b is:",
+   "imageRef": null,
+   "options": [
+    "\u221211",
+    "5",
+    "11",
+    "\u22123i \u2212 8j"
+   ],
+   "correctIndex": 0,
+   "explanation": "a.b = (3)(\u22121) + (\u22122)(4) = \u22123 \u2212 8 = \u221211. The scalar product is a number, so writing the component products as a vector, \u22123i \u2212 8j, confuses it with something else.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0011",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Two non-zero vectors a and b are perpendicular exactly when:",
+   "imageRef": null,
+   "options": [
+    "|a| = |b|",
+    "a.b = 0",
+    "a.b = |a||b|",
+    "a = kb for some scalar k"
+   ],
+   "correctIndex": 1,
+   "explanation": "a.b = |a||b|cos \u03b8, and for non-zero vectors this is 0 exactly when cos \u03b8 = 0, that is \u03b8 = 90\u00b0. The condition a.b = |a||b| means \u03b8 = 0\u00b0, and a = kb means the vectors are parallel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0012",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The angle \u03b8 between two non-zero vectors a and b, with 0\u00b0 \u2264 \u03b8 \u2264 180\u00b0, is given by:",
+   "imageRef": null,
+   "options": [
+    "sin \u03b8 = (a.b)/(|a||b|)",
+    "cos \u03b8 = (|a||b|)/(a.b)",
+    "tan \u03b8 = (a.b)/(|a||b|)",
+    "cos \u03b8 = (a.b)/(|a||b|)"
+   ],
+   "correctIndex": 3,
+   "explanation": "From a.b = |a||b|cos \u03b8, dividing by |a||b| gives cos \u03b8. Because cosine is one-to-one on 0\u00b0 to 180\u00b0, this gives a unique angle, obtuse when a.b is negative. The scalar product is defined with cosine, not sine.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0013",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The projection of a onto a non-zero vector b is the vector:",
+   "imageRef": null,
+   "options": [
+    "((a.b)/|b|)b",
+    "((a.b)/(|a||b|))b",
+    "((a.b)/|b|\u00b2)b",
+    "((a.b)/|a|\u00b2)a"
+   ],
+   "correctIndex": 2,
+   "explanation": "The projection has length (a.b)/|b| along the unit vector b/|b|, which gives ((a.b)/|b|\u00b2)b. Dividing by |b| only leaves a factor of |b| in the result, so it is too long unless b is a unit vector.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0014",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The angle between a = i + j and b = i + 2j + 2k is:",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "60\u00b0",
+    "30\u00b0",
+    "135\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "a.b = 1 + 2 + 0 = 3, |a| = \u221a2 and |b| = \u221a(1 + 4 + 4) = 3, so cos \u03b8 = 3/(3\u221a2) = 1/\u221a2 and \u03b8 = 45\u00b0. The scalar product is positive, so the angle is acute, which rules out 135\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0015",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The angle between 2i \u2212 j and \u2212i + 3j is:",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "120\u00b0",
+    "150\u00b0",
+    "135\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "a.b = \u22122 \u2212 3 = \u22125, |a| = \u221a5 and |b| = \u221a10, so cos \u03b8 = \u22125/\u221a50 = \u22121/\u221a2 and \u03b8 = 135\u00b0. A negative scalar product means an obtuse angle, so 45\u00b0 is the acute angle you get by dropping the sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0016",
+   "topicId": "spec-hsc-vectors",
+   "stem": "The vectors a = 2i + pj \u2212 3k and b = pi + 4j + 2k are perpendicular when p equals:",
+   "imageRef": null,
+   "options": [
+    "2",
+    "1/2",
+    "1",
+    "\u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "a.b = 2p + 4p \u2212 6 = 6p \u2212 6, and setting this to 0 gives p = 1. Taking the k product as +6 instead of \u22126 gives p = \u22121.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0017",
+   "topicId": "spec-hsc-vectors",
+   "stem": "For a = 4i + 2j and b = 3i + 4j, the projection of a onto b is:",
+   "imageRef": null,
+   "options": [
+    "3i + 4j",
+    "(4/5)(3i + 4j)",
+    "4(3i + 4j)",
+    "(4/5)(4i + 2j)"
+   ],
+   "correctIndex": 1,
+   "explanation": "a.b = 12 + 8 = 20 and |b|\u00b2 = 25, so the projection is (20/25)b = (4/5)(3i + 4j). Dividing by |b| = 5 instead of |b|\u00b2 gives 4b, and the projection must be a multiple of b, not of a.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0018",
+   "topicId": "spec-hsc-vectors",
+   "stem": "For a = 2i + 3j and b = i + j, the component of a perpendicular to b is:",
+   "imageRef": null,
+   "options": [
+    "3i \u2212 2j",
+    "\u2212(1/2)i + (1/2)j",
+    "(5/2)i + (5/2)j",
+    "(1/2)i \u2212 (1/2)j"
+   ],
+   "correctIndex": 1,
+   "explanation": "The projection of a onto b is (5/2)(i + j), so the perpendicular component is a \u2212 (5/2)(i + j) = \u2212(1/2)i + (1/2)j. Check: its scalar product with i + j is 0. The vector (5/2)i + (5/2)j is the parallel component, not the perpendicular one.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0019",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Vectors a and b satisfy |a| = 3, |b| = 4 and a.b = 2. Then |a + b| equals:",
+   "imageRef": null,
+   "options": [
+    "\u221a29",
+    "5",
+    "7",
+    "\u221a27"
+   ],
+   "correctIndex": 0,
+   "explanation": "|a + b|\u00b2 = (a + b).(a + b) = |a|\u00b2 + 2a.b + |b|\u00b2 = 9 + 4 + 16 = 29, so |a + b| = \u221a29. Leaving out the factor 2 on a.b gives \u221a27, and 5 would be true only if a and b were perpendicular.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0020",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Non-zero vectors a and b satisfy a.b = \u2212|a||b|. This means a and b are:",
+   "imageRef": null,
+   "options": [
+    "perpendicular to each other",
+    "parallel and pointing the same way",
+    "equal in magnitude but not parallel",
+    "parallel and pointing in opposite directions"
+   ],
+   "correctIndex": 3,
+   "explanation": "a.b = |a||b|cos \u03b8, so a.b = \u2212|a||b| gives cos \u03b8 = \u22121 and \u03b8 = 180\u00b0. The vectors are parallel but opposite. The case a.b = +|a||b| is parallel in the same direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0021",
+   "topicId": "spec-hsc-vectors",
+   "stem": "Vectors a and b have |a| = 2, |b| = 3 and an angle of 60\u00b0 between them. Then |2a \u2212 b| equals:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u221a13",
+    "\u221a37",
+    "\u221a19"
+   ],
+   "correctIndex": 1,
+   "explanation": "a.b = 2 \u00d7 3 \u00d7 cos 60\u00b0 = 3. |2a \u2212 b|\u00b2 = 4|a|\u00b2 \u2212 4a.b + |b|\u00b2 = 16 \u2212 12 + 9 = 13, so |2a \u2212 b| = \u221a13. Adding the middle term gives \u221a37, and forgetting that the cross term is 2 \u00d7 2a.b gives \u221a19.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0022",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position vector r(t) = (2t + 1)i + (t\u00b2 \u2212 3)j. Its velocity vector is:",
+   "imageRef": null,
+   "options": [
+    "2ti + 2j",
+    "(2t + 1)i + 2tj",
+    "2i + (2t \u2212 3)j",
+    "2i + 2tj"
+   ],
+   "correctIndex": 3,
+   "explanation": "Velocity is the derivative of each component: d/dt(2t + 1) = 2 and d/dt(t\u00b2 \u2212 3) = 2t. Constants differentiate to 0, so the \u22123 does not survive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0023",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position r(t) = (1 + 2t)i + (3 \u2212 t)j. The Cartesian equation of its path is:",
+   "imageRef": null,
+   "options": [
+    "2x + y = 7",
+    "x \u2212 2y = \u22125",
+    "x + 2y = 5",
+    "x + 2y = 7"
+   ],
+   "correctIndex": 3,
+   "explanation": "From x = 1 + 2t, t = (x \u2212 1)/2. Then y = 3 \u2212 (x \u2212 1)/2, so 2y = 6 \u2212 x + 1 and x + 2y = 7. The path is a straight line. Check with t = 0: (1, 3) gives 1 + 6 = 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0024",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position r(t) = 2ti + (t\u00b2 + 1)j. The Cartesian equation of its path is:",
+   "imageRef": null,
+   "options": [
+    "y = 2x\u00b2 + 1",
+    "y = x\u00b2/4 + 1",
+    "y = x\u00b2/2 + 1",
+    "y = 4x\u00b2 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "From x = 2t, t = x/2, so y = (x/2)\u00b2 + 1 = x\u00b2/4 + 1, a parabola. Substituting t = 2x instead of t = x/2 gives y = 4x\u00b2 + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0025",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position r(t) = (3 + 2cos t)i + (\u22121 + 2sin t)j. Its path is the circle:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3)\u00b2 + (y + 1)\u00b2 = 2",
+    "(x \u2212 3)\u00b2 + (y \u2212 1)\u00b2 = 4",
+    "(x \u2212 3)\u00b2 + (y + 1)\u00b2 = 4",
+    "(x + 3)\u00b2 + (y \u2212 1)\u00b2 = 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "x \u2212 3 = 2cos t and y + 1 = 2sin t, so (x \u2212 3)\u00b2 + (y + 1)\u00b2 = 4(cos\u00b2 t + sin\u00b2 t) = 4. The centre is (3, \u22121) and the radius is 2, so the right side is the radius squared, not 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0026",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A boat starts at position 2i + 5j km and moves with constant velocity 3i \u2212 4j km/h. Its position after 2 hours is:",
+   "imageRef": null,
+   "options": [
+    "5i + j km",
+    "8i + 13j km",
+    "8i \u2212 3j km",
+    "6i \u2212 8j km"
+   ],
+   "correctIndex": 2,
+   "explanation": "With constant velocity, r(t) = r(0) + tv = (2i + 5j) + 2(3i \u2212 4j) = 8i \u2212 3j. The vector 6i \u2212 8j is only the displacement, without the starting position, and 5i + j is the position after 1 hour.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0027",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A drone moves in a straight line at constant velocity from P(\u22121, 2, 0) to Q(3, \u22122, 2), in metres, taking 3 seconds. Its speed is:",
+   "imageRef": null,
+   "options": [
+    "6 m/s",
+    "18 m/s",
+    "4 m/s",
+    "2 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "The displacement is PQ = 4i \u2212 4j + 2k, with magnitude \u221a(16 + 16 + 4) = 6 m. Speed = 6 \u00f7 3 = 2 m/s. The value 6 m/s forgets to divide by the time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0028",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position r(t) = 4cos(2t)i + 4sin(2t)j. Its acceleration vector is:",
+   "imageRef": null,
+   "options": [
+    "\u221216r(t)",
+    "\u22124r(t)",
+    "4r(t)",
+    "\u22122r(t)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Differentiating twice gives a = \u221216cos(2t)i \u2212 16sin(2t)j = \u22124(4cos(2t)i + 4sin(2t)j) = \u22124r(t). Each differentiation brings out a factor of 2, giving 2\u00b2 = 4, and the minus sign shows the acceleration points to the centre.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0029",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has acceleration a(t) = 6ti \u2212 2j and initial velocity v(0) = i + 3j. Its velocity at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "13i + 7j",
+    "25i \u2212 j",
+    "13i \u2212 j",
+    "12i \u2212 4j"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrating, v(t) = (3t\u00b2 + 1)i + (3 \u2212 2t)j, using v(0) = i + 3j for the constants. At t = 2, v = 13i \u2212 j. Leaving out the initial velocity gives 12i \u2212 4j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0030",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has velocity v(t) = 2ti + e^t j and starts at r(0) = i. Its position vector is:",
+   "imageRef": null,
+   "options": [
+    "(t\u00b2 + 1)i + (e^t + 1)j",
+    "2i + e^t j",
+    "(t\u00b2 + 1)i + (e^t \u2212 1)j",
+    "(t\u00b2 + 1)i + e^t j"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrating gives r = (t\u00b2 + c\u2081)i + (e^t + c\u2082)j. At t = 0 this must equal i + 0j, so c\u2081 = 1 and 1 + c\u2082 = 0, giving c\u2082 = \u22121. Forgetting that e\u2070 = 1 leads to e^t j with no constant.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0031",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A particle has position r(t) = (t\u00b3 \u2212 3t)i + 3t\u00b2j. Its speed at t = 2 is:",
+   "imageRef": null,
+   "options": [
+    "225",
+    "15",
+    "21",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "v(t) = (3t\u00b2 \u2212 3)i + 6tj, so v(2) = 9i + 12j and the speed is \u221a(81 + 144) = \u221a225 = 15. Adding the components gives 21, and 225 is the speed squared.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0032",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A swimmer heads straight across a river at 0.8 m/s relative to the water. The current flows at 0.6 m/s parallel to the banks. The swimmer's resultant speed is:",
+   "imageRef": null,
+   "options": [
+    "0.48 m/s",
+    "1.0 m/s",
+    "1.4 m/s",
+    "0.2 m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two velocities are perpendicular, so the resultant speed is \u221a(0.8\u00b2 + 0.6\u00b2) = \u221a1 = 1.0 m/s. Simply adding the speeds to get 1.4 m/s ignores their directions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0033",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A river 120 m wide flows at 1.5 m/s. A swimmer heads straight across at 2 m/s relative to the water. How far downstream of the starting point does the swimmer land?",
+   "imageRef": null,
+   "options": [
+    "60 m",
+    "90 m",
+    "160 m",
+    "80 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "Crossing takes 120 \u00f7 2 = 60 s, because only the swimmer's own velocity carries them across. In that time the current carries them 1.5 \u00d7 60 = 90 m downstream. Dividing 120 by 1.5 instead gives 80 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0034",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A plane flies at 250 km/h in still air. A wind blows towards the east at 70 km/h. To travel due north, the pilot steers slightly west of north. The plane's ground speed is:",
+   "imageRef": null,
+   "options": [
+    "180 km/h",
+    "320 km/h",
+    "240 km/h",
+    "260 km/h"
+   ],
+   "correctIndex": 2,
+   "explanation": "The air velocity (250 km/h) is the hypotenuse, and its east-west part must cancel the 70 km/h wind. The northward ground speed is \u221a(250\u00b2 \u2212 70\u00b2) = \u221a57 600 = 240 km/h. Adding the squares instead gives about 260 km/h, which treats the plane as heading due north and drifting.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0035",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A projectile is launched from the origin with speed V at angle \u03b8 above the horizontal, with gravity g acting downwards. Its position vector is:",
+   "imageRef": null,
+   "options": [
+    "(Vt sin \u03b8)i + (Vt cos \u03b8 \u2212 gt\u00b2/2)j",
+    "(Vt cos \u03b8)i + (Vt sin \u03b8 + gt\u00b2/2)j",
+    "(Vt cos \u03b8)i + (Vt sin \u03b8 \u2212 gt\u00b2)j",
+    "(Vt cos \u03b8)i + (Vt sin \u03b8 \u2212 gt\u00b2/2)j"
+   ],
+   "correctIndex": 3,
+   "explanation": "The horizontal component has constant velocity V cos \u03b8, and the vertical component starts at V sin \u03b8 with acceleration \u2212g. Integrating twice gives y = Vt sin \u03b8 \u2212 gt\u00b2/2. Swapping sine and cosine mixes up the components.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0036",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A projectile has position r(t) = 20ti + (15t \u2212 5t\u00b2)j metres. The Cartesian equation of its path is:",
+   "imageRef": null,
+   "options": [
+    "y = 3x/4 \u2212 x\u00b2/80",
+    "y = 4x/3 \u2212 x\u00b2/80",
+    "y = 3x/4 \u2212 x\u00b2/400",
+    "y = 3x/4 \u2212 x\u00b2/40"
+   ],
+   "correctIndex": 0,
+   "explanation": "From x = 20t, t = x/20. Then y = 15(x/20) \u2212 5(x/20)\u00b2 = 3x/4 \u2212 5x\u00b2/400 = 3x/4 \u2212 x\u00b2/80. Dropping the factor 5 gives x\u00b2/400.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0037",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A ball is kicked from level ground at 25 m/s at an angle \u03b1 above the horizontal, where tan \u03b1 = 3/4. Take g = 10 m/s\u00b2. How far away does it land?",
+   "imageRef": null,
+   "options": [
+    "120 m",
+    "60 m",
+    "30 m",
+    "45 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin \u03b1 = 3/5 and cos \u03b1 = 4/5, so the initial velocity is 20i + 15j. Then y = 15t \u2212 5t\u00b2 = 0 at t = 3 s, and x = 20 \u00d7 3 = 60 m. Using the time to the top, 1.5 s, gives only 30 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0038",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A projectile is launched with initial velocity 12i + 30j m/s. Take g = 10 m/s\u00b2. Its maximum height above the launch point is:",
+   "imageRef": null,
+   "options": [
+    "45 m",
+    "90 m",
+    "30 m",
+    "60 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "Vertically, v = 30 \u2212 10t = 0 at t = 3 s, and y = 30(3) \u2212 5(3)\u00b2 = 90 \u2212 45 = 45 m. Forgetting the gravity term gives 90 m. The horizontal velocity does not affect the height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0039",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A stone is thrown horizontally at 15 m/s from the top of a cliff 20 m above the water. Take g = 10 m/s\u00b2. Its speed on hitting the water is:",
+   "imageRef": null,
+   "options": [
+    "15 m/s",
+    "25 m/s",
+    "35 m/s",
+    "20 m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "It falls 20 m when 5t\u00b2 = 20, so t = 2 s, and then its vertical velocity is \u221220 m/s. The impact speed is \u221a(15\u00b2 + 20\u00b2) = 25 m/s. Adding 15 and 20 gives 35 m/s, which ignores that the components are perpendicular.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-vectors-0040",
+   "topicId": "spec-hsc-vectors",
+   "stem": "A ball is projected from level ground at 20 m/s and lands 20\u221a3 m away. Take g = 10 m/s\u00b2. The angle of projection could be:",
+   "imageRef": null,
+   "options": [
+    "30\u00b0 only",
+    "45\u00b0 or 60\u00b0",
+    "30\u00b0 or 60\u00b0",
+    "60\u00b0 only"
+   ],
+   "correctIndex": 2,
+   "explanation": "The range is V\u00b2 sin(2\u03b8)/g = 40 sin(2\u03b8). Setting 40 sin(2\u03b8) = 20\u221a3 gives sin(2\u03b8) = \u221a3/2, so 2\u03b8 = 60\u00b0 or 120\u00b0, and \u03b8 = 30\u00b0 or 60\u00b0. Complementary angles always give the same range on level ground.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-vectors-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

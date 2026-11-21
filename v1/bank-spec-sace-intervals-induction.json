@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-sace-intervals-induction",
+ "questions": [
+  {
+   "id": "spec-sace-intervals-induction-0001",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In interval notation, the set of real numbers x with \u22122 < x \u2264 5 is written:",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 5]",
+    "[\u22122, 5)",
+    "[\u22122, 5]",
+    "(\u22122, 5)"
+   ],
+   "correctIndex": 0,
+   "explanation": "A round bracket excludes an endpoint and a square bracket includes it. Here \u22122 is excluded and 5 is included, so the interval is (\u22122, 5].",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0002",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The interval [3, \u221e) is the set of real numbers x such that:",
+   "imageRef": null,
+   "options": [
+    "x \u2265 3",
+    "x > 3",
+    "x \u2264 3",
+    "3 \u2264 x \u2264 \u221e"
+   ],
+   "correctIndex": 0,
+   "explanation": "The square bracket includes 3, and \u221e means the interval has no upper end. Infinity is not a number, so it always takes a round bracket and is never 'reached'.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0003",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Which number belongs to the interval (\u22121, 3]?",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "3.5",
+    "\u22122",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The square bracket at 3 includes it, while the round bracket at \u22121 excludes \u22121. The numbers 3.5 and \u22122 lie outside the interval altogether.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0004",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "How many integers are in the interval [\u22122, 2)?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The interval includes \u22122 but not 2, so the integers are \u22122, \u22121, 0 and 1: four of them. Including 2 as well gives 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0005",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The solution of 2x \u2212 3 \u2265 5, in interval notation, is:",
+   "imageRef": null,
+   "options": [
+    "[4, \u221e)",
+    "(4, \u221e)",
+    "(\u2212\u221e, 4]",
+    "[1, \u221e)"
+   ],
+   "correctIndex": 0,
+   "explanation": "2x \u2265 8 gives x \u2265 4. The inequality includes 4, so the bracket at 4 is square. Dividing by a positive number keeps the direction of the inequality.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0006",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The largest possible domain of f(x) = \u221a(x \u2212 1), in interval notation, is:",
+   "imageRef": null,
+   "options": [
+    "[0, \u221e)",
+    "(\u2212\u221e, 1]",
+    "[1, \u221e)",
+    "(1, \u221e)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The square root needs x \u2212 1 \u2265 0, so x \u2265 1, including x = 1 where f(1) = 0. The interval [0, \u221e) is the range of f, not its domain.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0007",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The largest possible domain of g(x) = 1/\u221a(4 \u2212 x), in interval notation, is:",
+   "imageRef": null,
+   "options": [
+    "(\u2212\u221e, 4]",
+    "(4, \u221e)",
+    "[4, \u221e)",
+    "(\u2212\u221e, 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The square root needs 4 \u2212 x \u2265 0, and the denominator cannot be 0, so 4 \u2212 x > 0 and x < 4. The endpoint 4 is excluded, so its bracket is round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0008",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The solution of x\u00b2 \u2212 x \u2212 6 < 0, in interval notation, is:",
+   "imageRef": null,
+   "options": [
+    "(\u22123, 2)",
+    "[\u22122, 3]",
+    "(\u2212\u221e, \u22122) or (3, \u221e)",
+    "(\u22122, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u00b2 \u2212 x \u2212 6 = (x + 2)(x \u2212 3), a parabola that opens upwards, so it is negative between its zeros: \u22122 < x < 3. The strict inequality excludes the endpoints. The outer intervals solve x\u00b2 \u2212 x \u2212 6 > 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0009",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove that log\u20825 is irrational, assume log\u20825 = p/q, where p and q are positive integers. Which equation follows?",
+   "imageRef": null,
+   "options": [
+    "5^p = 2^q",
+    "2p = 5q",
+    "p log 2 = q",
+    "2^p = 5^q"
+   ],
+   "correctIndex": 3,
+   "explanation": "log\u20825 = p/q means 2^(p/q) = 5, and raising both sides to the power q gives 2^p = 5^q. The order matters: the base 2 goes with p.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0010",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "A proof that log\u20825 is irrational reaches 2^p = 5^q for positive integers p and q. What is the contradiction?",
+   "imageRef": null,
+   "options": [
+    "2^p is even but 5^q is odd, so they cannot be equal",
+    "2^p is odd but 5^q is even, so they cannot be equal",
+    "p and q must both be even, so p/q is not in lowest terms",
+    "5^q is irrational but 2^p is rational, so they cannot be equal"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a positive integer p, 2^p has the factor 2, so it is even, while every power of 5 is odd. An even number cannot equal an odd number, so the assumption that log\u20825 is rational is false.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0011",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Which of these numbers is rational?",
+   "imageRef": null,
+   "options": [
+    "log\u20828",
+    "log\u20825",
+    "log\u208310",
+    "\u221a12"
+   ],
+   "correctIndex": 0,
+   "explanation": "log\u20828 = 3, because 2\u00b3 = 8. The equations 2^p = 5^q and 3^p = 10^q have no positive integer solutions, so those logarithms are irrational, and \u221a12 = 2\u221a3 is irrational.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0012",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Mathematical induction is often compared to a line of dominoes. In this analogy, the inductive step corresponds to:",
+   "imageRef": null,
+   "options": [
+    "each falling domino knocking over the next one",
+    "pushing over the first domino",
+    "checking that the first few dominoes fall",
+    "the last domino in the line falling"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inductive step shows that P(k) true implies P(k + 1) true: whenever one domino falls, so does the next. Pushing over the first domino is the initial statement. The line has no last domino.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0013",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "An induction proof for a proposition P(n) is complete when it shows that:",
+   "imageRef": null,
+   "options": [
+    "P(1) is true, and P(k) true implies P(k + 1) true for every k",
+    "P(1), P(2) and P(3) are all true",
+    "P(k) true implies P(k + 1) true for every k",
+    "P(k + 1) true implies P(k) true for every k"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both parts are needed: P(1) starts the chain and the inductive step carries it from each case to the next. Checking a few cases proves nothing about all n, and the inductive step alone has no starting point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0014",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Which sentence correctly states the assumption in a proof by induction?",
+   "imageRef": null,
+   "options": [
+    "Assume P(1) is true and P(2) is true",
+    "Assume P(k) is true for some positive integer k",
+    "Assume P(n) is true for every positive integer n",
+    "Assume P(k + 1) is true for some positive integer k"
+   ],
+   "correctIndex": 1,
+   "explanation": "The proof assumes the result for a single value k and uses it to show P(k + 1). Assuming P(n) for every n assumes the very thing being proved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0015",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "A student 'proves' that n\u00b2 + n is odd for every positive integer n. The inductive step is correct: if k\u00b2 + k is odd, so is (k + 1)\u00b2 + (k + 1). Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "the result is true, because the inductive step was proved correctly",
+    "the result is true for all n except n = 1",
+    "the result is false, because k\u00b2 + k is even only when k is even",
+    "the result is false, because the initial statement fails: 1\u00b2 + 1 = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "(k + 1)\u00b2 + (k + 1) = (k\u00b2 + k) + 2(k + 1), so the step does work. But P(1) is false, so the chain never starts. In fact n\u00b2 + n = n(n + 1) is always even.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0016",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 1 + 2 + ... + n = n(n + 1)/2 by induction, the initial statement checks n = 1. Both sides equal:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "1/2",
+    "0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The left side is just the first term, 1, and the right side is 1 \u00d7 2/2 = 1. Since they agree, P(1) is true.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0017",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Using 1\u00b2 + 2\u00b2 + ... + n\u00b2 = n(n + 1)(2n + 1)/6, the value of 1\u00b2 + 2\u00b2 + ... + 10\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "770",
+    "385",
+    "330",
+    "110"
+   ],
+   "correctIndex": 1,
+   "explanation": "10 \u00d7 11 \u00d7 21/6 = 2310/6 = 385. Dividing by 3 instead of 6 gives 770, twice the answer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0018",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 1\u00b2 + 2\u00b2 + ... + n\u00b2 = n(n + 1)(2n + 1)/6 by induction, the statement P(k + 1) has right side:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)(k + 2)(2k + 2)/6",
+    "(k + 1)(k + 2)(2k + 3)/6",
+    "(k + 1)(k + 2)(2k + 1)/6",
+    "k(k + 1)(2k + 1)/6 + (k + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Replace every n by k + 1: n + 1 becomes k + 2 and 2n + 1 becomes 2(k + 1) + 1 = 2k + 3. Leaving 2k + 1 unchanged is a common slip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0019",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In the inductive step for 1\u00b2 + 2\u00b2 + ... + n\u00b2 = n(n + 1)(2n + 1)/6, the expression k(k + 1)(2k + 1)/6 + (k + 1)\u00b2 is written as (k + 1)Q/6. The quadratic Q is:",
+   "imageRef": null,
+   "options": [
+    "2k\u00b2 + 3k + 1",
+    "2k\u00b2 + 7k + 6",
+    "2k\u00b2 + k + 6",
+    "2k\u00b2 + 7k + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Factoring out (k + 1)/6 leaves k(2k + 1) + 6(k + 1) = 2k\u00b2 + 7k + 6 = (k + 2)(2k + 3), which gives the required (k + 1)(k + 2)(2k + 3)/6. Forgetting to multiply 6 by k + 1 gives 2k\u00b2 + k + 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0020",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 3 + 5 + 7 + ... + (2n + 1) = n(n + 2) by induction, the inductive step must show that k(k + 2) + (2k + 3) equals:",
+   "imageRef": null,
+   "options": [
+    "(k + 2)(k + 3)",
+    "k(k + 3)",
+    "(k + 1)(k + 3)",
+    "(k + 1)(k + 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The (k + 1)th term is 2(k + 1) + 1 = 2k + 3, and P(k + 1) has right side (k + 1)(k + 3). Indeed k\u00b2 + 2k + 2k + 3 = k\u00b2 + 4k + 3 = (k + 1)(k + 3).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0021",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In proving 1/(1 \u00d7 3) + 1/(3 \u00d7 5) + ... + 1/((2n \u2212 1)(2n + 1)) = n/(2n + 1), the sum k/(2k + 1) + 1/((2k + 1)(2k + 3)) is put over the denominator (2k + 1)(2k + 3). The numerator is:",
+   "imageRef": null,
+   "options": [
+    "k + 1",
+    "2k\u00b2 + 2k + 1",
+    "2k\u00b2 + 3k + 1",
+    "2k\u00b2 + 3k"
+   ],
+   "correctIndex": 2,
+   "explanation": "The numerator is k(2k + 3) + 1 = 2k\u00b2 + 3k + 1 = (2k + 1)(k + 1). Cancelling 2k + 1 leaves (k + 1)/(2k + 3), which is the right side for n = k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0022",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 2 + 6 + 10 + ... + (4n \u2212 2) = 2n\u00b2 by induction, which term is added to the sum of the first k terms in the inductive step?",
+   "imageRef": null,
+   "options": [
+    "4k + 2",
+    "4k \u2212 2",
+    "4k + 4",
+    "2k + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The (k + 1)th term is 4(k + 1) \u2212 2 = 4k + 2. Using 4k \u2212 2 repeats the kth term instead of adding the next one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0023",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In proving 2 + 6 + 10 + ... + (4n \u2212 2) = 2n\u00b2, the inductive step reaches 2k\u00b2 + 4k + 2. This equals:",
+   "imageRef": null,
+   "options": [
+    "(2k + 1)\u00b2",
+    "2(k + 1)\u00b2",
+    "2k\u00b2 + 2",
+    "2(k + 2)\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "2k\u00b2 + 4k + 2 = 2(k\u00b2 + 2k + 1) = 2(k + 1)\u00b2, which is the right side for n = k + 1. So P(k) true implies P(k + 1) true.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0024",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove S\u2099 = (n/2)(2a + (n \u2212 1)d) for an arithmetic series by induction, the inductive step adds which term to S\u2096?",
+   "imageRef": null,
+   "options": [
+    "kd",
+    "a + kd",
+    "a + (k \u2212 1)d",
+    "a + (k + 1)d"
+   ],
+   "correctIndex": 1,
+   "explanation": "The general term is a + (n \u2212 1)d, so the (k + 1)th term is a + kd. The expression a + (k \u2212 1)d is the kth term, already counted in S\u2096.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0025",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 2 + 6 + 18 + ... + 2 \u00d7 3\u207f\u207b\u00b9 = 3\u207f \u2212 1 by induction, the inductive step simplifies 3\u1d4f \u2212 1 + 2 \u00d7 3\u1d4f to:",
+   "imageRef": null,
+   "options": [
+    "3 \u00d7 3\u1d4f \u2212 3",
+    "3\u1d4f\u207a\u00b9 \u2212 1",
+    "3\u1d4f\u207a\u00b9 + 1",
+    "2 \u00d7 3\u1d4f\u207a\u00b9 \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "3\u1d4f + 2 \u00d7 3\u1d4f = 3 \u00d7 3\u1d4f = 3\u1d4f\u207a\u00b9, so the sum is 3\u1d4f\u207a\u00b9 \u2212 1, the right side for n = k + 1. The (k + 1)th term is 2 \u00d7 3\u1d4f, since the nth term is 2 \u00d7 3\u207f\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0026",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove a + ar + ... + ar\u207f\u207b\u00b9 = a(r\u207f \u2212 1)/(r \u2212 1) by induction (r \u2260 1), the inductive step must show that a(r\u1d4f \u2212 1)/(r \u2212 1) + ar\u1d4f equals:",
+   "imageRef": null,
+   "options": [
+    "a(r\u1d4f\u207a\u00b9 \u2212 r)/(r \u2212 1)",
+    "ar\u1d4f\u207a\u00b9/(r \u2212 1)",
+    "a(r\u1d4f\u207a\u00b9 \u2212 1)/(r \u2212 1)",
+    "a(r\u1d4f \u2212 1)/(r \u2212 1) \u00d7 r"
+   ],
+   "correctIndex": 2,
+   "explanation": "Over the common denominator, a(r\u1d4f \u2212 1) + ar\u1d4f(r \u2212 1) = ar\u1d4f \u2212 a + ar\u1d4f\u207a\u00b9 \u2212 ar\u1d4f = a(r\u1d4f\u207a\u00b9 \u2212 1). This is the formula with n = k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0027",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Over the denominator r \u2212 1, the expression a(r\u1d4f \u2212 1)/(r \u2212 1) + ar\u1d4f has numerator:",
+   "imageRef": null,
+   "options": [
+    "ar\u1d4f\u207a\u00b9 + a",
+    "ar\u1d4f\u207a\u00b9 \u2212 a",
+    "ar\u1d4f \u2212 a + ar\u1d4f",
+    "ar\u1d4f\u207a\u00b9 \u2212 ar\u1d4f \u2212 a"
+   ],
+   "correctIndex": 1,
+   "explanation": "a(r\u1d4f \u2212 1) + ar\u1d4f(r \u2212 1) = ar\u1d4f \u2212 a + ar\u1d4f\u207a\u00b9 \u2212 ar\u1d4f, and the ar\u1d4f terms cancel to leave ar\u1d4f\u207a\u00b9 \u2212 a. Forgetting to multiply ar\u1d4f by r \u2212 1 gives ar\u1d4f \u2212 a + ar\u1d4f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0028",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "A number line has a closed (filled) dot at \u22124, an open dot at 1, and the segment between them shaded. In interval notation this set is:",
+   "imageRef": null,
+   "options": [
+    "[\u22124, 1]",
+    "(\u22124, 1)",
+    "[\u22124, 1)",
+    "(\u22124, 1]"
+   ],
+   "correctIndex": 2,
+   "explanation": "A closed dot means the endpoint is included, so \u22124 takes a square bracket; an open dot means it is excluded, so 1 takes a round bracket.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0029",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In interval notation, the set of real numbers x with |x| \u2264 3 is:",
+   "imageRef": null,
+   "options": [
+    "[\u22123, 3]",
+    "(\u22123, 3)",
+    "[0, 3]",
+    "(\u2212\u221e, 3]"
+   ],
+   "correctIndex": 0,
+   "explanation": "|x| \u2264 3 means \u22123 \u2264 x \u2264 3, so both endpoints are included and the interval is [\u22123, 3]. Forgetting the negative values gives [0, 3].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0030",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The range of f(x) = x\u00b2 + 1, for all real x, in interval notation, is:",
+   "imageRef": null,
+   "options": [
+    "(\u2212\u221e, 1]",
+    "[1, \u221e)",
+    "(1, \u221e)",
+    "[0, \u221e)"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b2 \u2265 0 for every real x, so x\u00b2 + 1 \u2265 1, and the value 1 is reached at x = 0. So 1 is included. The interval [0, \u221e) is the range of x\u00b2, before adding 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0031",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "The intersection of the intervals [\u22121, 4) and (2, 6] is:",
+   "imageRef": null,
+   "options": [
+    "[2, 4]",
+    "(2, 4]",
+    "[\u22121, 6]",
+    "(2, 4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The numbers in both intervals satisfy x > 2 and x < 4. Both endpoints are excluded, because 2 is not in (2, 6] and 4 is not in [\u22121, 4). The interval [\u22121, 6] is the union, not the intersection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0032",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "A proof by contradiction that log\u20825 is irrational begins by assuming that:",
+   "imageRef": null,
+   "options": [
+    "log\u20825 is irrational",
+    "log\u20825 is an integer",
+    "5 is a power of 2",
+    "log\u20825 is rational"
+   ],
+   "correctIndex": 3,
+   "explanation": "Proof by contradiction assumes the opposite of what is to be proved, here that log\u20825 = p/q for integers p and q, and shows that this leads to something impossible.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0033",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In proving that log\u20825 is irrational, why can p and q in log\u20825 = p/q both be taken as positive integers?",
+   "imageRef": null,
+   "options": [
+    "log\u20825 is positive, because 5 > 1 = 2\u2070",
+    "log\u20825 is less than 1, because 5 < 2\u00b9",
+    "every rational number is positive",
+    "p and q must both be prime numbers"
+   ],
+   "correctIndex": 0,
+   "explanation": "Since 5 > 1 and 2\u2070 = 1, the power of 2 that gives 5 is positive, so p/q > 0 and both can be chosen positive. This matters because 2^p is then an even integer.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0034",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove log\u20836 is irrational, the assumption log\u20836 = p/q (p, q positive integers) leads to 3^p = 6^q. Why can this never hold?",
+   "imageRef": null,
+   "options": [
+    "3^p is even, but every power of 6 is odd",
+    "6^q is a multiple of 3, but 3^p is not",
+    "3^p is always a perfect square, but 6^q is not",
+    "6^q is even, but every power of 3 is odd"
+   ],
+   "correctIndex": 3,
+   "explanation": "6^q = 2^q \u00d7 3^q has a factor 2, so it is even, while 3^p has no factor 2 and is odd. Both sides are multiples of 3, so divisibility by 3 gives no contradiction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0035",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "Using 1 + 2 + 4 + ... + 2\u207f\u207b\u00b9 = 2\u207f \u2212 1, the sum of the first 10 terms is:",
+   "imageRef": null,
+   "options": [
+    "511",
+    "2047",
+    "1023",
+    "1024"
+   ],
+   "correctIndex": 2,
+   "explanation": "With n = 10 the sum is 2\u00b9\u2070 \u2212 1 = 1024 \u2212 1 = 1023. The tenth term is 2\u2079 = 512, and 2047 is the sum of the first 11 terms.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0036",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "To prove 1 + 2 + ... + n = n(n + 1)/2 by induction, the statement P(k + 1) has right side:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)(k + 2)/2",
+    "k(k + 1)/2 + 1",
+    "(k + 1)k/2",
+    "(k + 2)(k + 3)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Replace n by k + 1 throughout: n(n + 1)/2 becomes (k + 1)(k + 2)/2. Adding 1 to k(k + 1)/2 adds the number 1 instead of the term k + 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intervals-induction-0037",
+   "topicId": "spec-sace-intervals-induction",
+   "stem": "In proving 1\u00b3 + 2\u00b3 + ... + n\u00b3 = (n(n + 1)/2)\u00b2, the step writes k\u00b2(k + 1)\u00b2/4 + (k + 1)\u00b3 as ((k + 1)\u00b2/4) \u00d7 Q. The quadratic Q is:",
+   "imageRef": null,
+   "options": [
+    "k\u00b2 + 4k + 4",
+    "k\u00b2 + k + 1",
+    "k\u00b2 + 4k + 1",
+    "k\u00b2 + 2k + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Factoring out (k + 1)\u00b2/4 leaves k\u00b2 + 4(k + 1) = k\u00b2 + 4k + 4 = (k + 2)\u00b2. So the sum is ((k + 1)(k + 2)/2)\u00b2, the formula for n = k + 1. Forgetting to multiply k + 1 by 4 gives k\u00b2 + k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intervals-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

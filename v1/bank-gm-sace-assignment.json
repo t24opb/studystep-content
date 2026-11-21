@@ -1,0 +1,708 @@
+{
+ "topicId": "gm-sace-assignment",
+ "questions": [
+  {
+   "id": "gm-sace-assignment-0001",
+   "topicId": "gm-sace-assignment",
+   "stem": "An assignment problem is about:",
+   "imageRef": null,
+   "options": [
+    "allocating each task to one person so the total cost is least",
+    "finding the order in which a set of tasks must be completed",
+    "finding the shortest route that visits every location once",
+    "sharing each task equally among all of the people available"
+   ],
+   "correctIndex": 0,
+   "explanation": "An assignment problem matches people (or machines) to tasks one-to-one to minimise a total cost or maximise a total profit. Ordering tasks by precedence is critical path analysis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0002",
+   "topicId": "gm-sace-assignment",
+   "stem": "In an assignment problem, the 'costs' in the array could be:",
+   "imageRef": null,
+   "options": [
+    "only the order in which tasks occur",
+    "the number of people for each task",
+    "times, distances or amounts of money",
+    "only amounts of money, in dollars and cents"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Hungarian algorithm minimises whatever quantity the array holds, so 'cost' can be time, distance or money. The method is the same in each case.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0003",
+   "topicId": "gm-sace-assignment",
+   "stem": "The first step of the Hungarian algorithm is to:",
+   "imageRef": null,
+   "options": [
+    "add the smallest element of each row to every element of that row",
+    "subtract each row's minimum from its row, then each column's minimum from its column",
+    "subtract the largest element in the array from every other element",
+    "cover all the zero elements with the fewest possible straight lines"
+   ],
+   "correctIndex": 1,
+   "explanation": "Reducing rows and then columns creates at least one zero in every row and column without changing which allocation is optimal. Covering zeros with lines is the second step.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0004",
+   "topicId": "gm-sace-assignment",
+   "stem": "In step 2 of the Hungarian algorithm, an optimal assignment can be made when:",
+   "imageRef": null,
+   "options": [
+    "one line covers all the zeros in the array",
+    "the number of lines covering the zeros equals the order of the array",
+    "every element in the array has been reduced to zero",
+    "the number of zeros equals the order of the array"
+   ],
+   "correctIndex": 1,
+   "explanation": "If the minimum number of lines needed to cover every zero equals the order (for example 4 for a 4 \u00d7 4 array), the zeros allow a full one-to-one assignment. Fewer lines means step 3 is needed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0005",
+   "topicId": "gm-sace-assignment",
+   "stem": "In step 3 of the Hungarian algorithm, with m the smallest uncovered element:",
+   "imageRef": null,
+   "options": [
+    "m is subtracted from every element in the whole array",
+    "m is subtracted from the elements covered by one line",
+    "m is subtracted from uncovered elements and added where two lines cross",
+    "m is added to uncovered elements and subtracted where two lines cross"
+   ],
+   "correctIndex": 2,
+   "explanation": "Subtracting m from every uncovered element creates a new zero, and adding m to elements covered twice keeps the array balanced. Elements covered by exactly one line are left unchanged.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0006",
+   "topicId": "gm-sace-assignment",
+   "stem": "To use the Hungarian algorithm to find a maximum profit, the profit array is first changed by:",
+   "imageRef": null,
+   "options": [
+    "adding the largest element to each element",
+    "subtracting each element from the largest element",
+    "subtracting the smallest element from each element",
+    "dividing each element by the largest element"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtracting each profit from the largest gives the profit lost by each choice, and minimising lost profit maximises profit. Subtracting the smallest element keeps the same order of values, so it would still find a minimum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0007",
+   "topicId": "gm-sace-assignment",
+   "stem": "An assignment array has 5 workers but only 4 jobs. Before using the Hungarian algorithm:",
+   "imageRef": null,
+   "options": [
+    "remove the worker with the largest total cost",
+    "add a dummy row of zeros to make it 4 \u00d7 4",
+    "split one job into two parts for two workers",
+    "add a dummy column of zeros to make it 5 \u00d7 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The algorithm needs a square array, so a dummy job with zero costs is added. The worker allocated to the dummy job is the one left out.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0008",
+   "topicId": "gm-sace-assignment",
+   "stem": "Which assumption does the Hungarian algorithm make?",
+   "imageRef": null,
+   "options": [
+    "Every person takes the same time to complete every task",
+    "Each person does exactly one task and each task has one person",
+    "Each person can share their time across all of the tasks",
+    "The tasks must be carried out in a fixed order of precedence"
+   ],
+   "correctIndex": 1,
+   "explanation": "The algorithm finds a one-to-one assignment. If a person could do two tasks or a task could be shared, a better real solution might exist that the model cannot find.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0009",
+   "topicId": "gm-sace-assignment",
+   "stem": "After the zeros give an optimal pattern, the minimum total cost is found by:",
+   "imageRef": null,
+   "options": [
+    "counting the number of zeros in the final array",
+    "adding the original costs in the chosen positions",
+    "adding the reduced values in the chosen positions",
+    "adding the row minimums subtracted in step 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The zeros only show which positions to choose. The total comes from the original array; the reduced values in the chosen positions are all zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0010",
+   "topicId": "gm-sace-assignment",
+   "stem": "Why can an assignment problem have more than one optimal solution?",
+   "imageRef": null,
+   "options": [
+    "Reducing the columns changes the minimum total cost",
+    "Different allocations can give the same least total",
+    "The algorithm gives a random answer each time it is used",
+    "Dummy rows always create a second best allocation"
+   ],
+   "correctIndex": 1,
+   "explanation": "If two allocations tie on the least total, both are optimal, and the final array has more than one complete set of independent zeros. Other factors can then decide between them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0011",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. What is Ben's row after the row reduction step?",
+   "imageRef": null,
+   "options": [
+    "2, 0, 5",
+    "22, 19, 25",
+    "3, 0, 6",
+    "0, 3, 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ben's smallest cost is 19, so subtract 19 from each: 22 \u2212 19 = 3, 19 \u2212 19 = 0, 25 \u2212 19 = 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0012",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. After the row reduction, column Z is 3, 6, 1 reading down. What is column Z after the column reduction?",
+   "imageRef": null,
+   "options": [
+    "2, 5, 0",
+    "3, 6, 1",
+    "0, 3, 0",
+    "1, 4, 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The smallest value in column Z is 1, so subtract 1 from each: 2, 5, 0. Columns X and Y already contain a zero, so they are unchanged.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0013",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. After row and column reduction the array is Ann 5, 0, 2; Ben 3, 0, 5; Cara 0, 5, 0. What is the minimum number of lines covering all the zeros?",
+   "imageRef": null,
+   "options": [
+    "1, so step 3 is needed",
+    "4, so an assignment can be made",
+    "2, so step 3 is needed",
+    "3, so an assignment can be made"
+   ],
+   "correctIndex": 2,
+   "explanation": "Column Y and Cara's row cover every zero, so 2 lines suffice. As 2 is less than the order 3, the array must be adjusted in step 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0014",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. After reduction the array is Ann 5, 0, 2; Ben 3, 0, 5; Cara 0, 5, 0, with lines through column Y and Cara's row. What is the array after step 3?",
+   "imageRef": null,
+   "options": [
+    "Ann 3, 0, 0; Ben 1, 0, 3; Cara 0, 7, 0",
+    "Ann 3, 0, 0; Ben 1, 0, 3; Cara 0, 5, 0",
+    "Ann 3, 2, 0; Ben 1, 2, 3; Cara 0, 7, 0",
+    "Ann 3, 0, 0; Ben 1, 0, 3; Cara 0, 3, 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The smallest uncovered element is m = 2. It is subtracted from the uncovered elements (Ann and Ben in columns X and Z) and added to the element where the lines cross (Cara, Y: 5 + 2 = 7).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0015",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. What is the minimum total cost?",
+   "imageRef": null,
+   "options": [
+    "$53",
+    "$54",
+    "$56",
+    "$50"
+   ],
+   "correctIndex": 0,
+   "explanation": "The optimal allocation is Ann Z ($18), Ben Y ($19) and Cara X ($16), totalling $53. $54 gives Ann Y and Ben X, the next best. $50 adds each worker's cheapest job, but Ann and Ben cannot both do Y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0016",
+   "topicId": "gm-sace-assignment",
+   "stem": "Costs in dollars for three workers to do three jobs, with columns X, Y, Z: Ann 20, 15, 18; Ben 22, 19, 25; Cara 16, 21, 17. Which allocation gives the minimum total cost?",
+   "imageRef": null,
+   "options": [
+    "Ann X, Ben Y, Cara Z",
+    "Ann Z, Ben Y, Cara X",
+    "Ann Y, Ben X, Cara Z",
+    "Ann Y, Ben Z, Cara X"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Hungarian algorithm gives Ann Z, Ben Y, Cara X for $53. Ann Y, Ben X, Cara Z costs $54, and Ann X, Ben Y, Cara Z costs $56.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0017",
+   "topicId": "gm-sace-assignment",
+   "stem": "Times in minutes for four drivers to make four deliveries, with columns D1, D2, D3, D4: Pat 34, 30, 29, 36; Quinn 31, 33, 35, 32; Ravi 38, 36, 30, 34; Sam 33, 32, 37, 35. What is the minimum total time?",
+   "imageRef": null,
+   "options": [
+    "126 minutes",
+    "128 minutes",
+    "122 minutes",
+    "125 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The optimum is Pat D2 (30), Quinn D4 (32), Ravi D3 (30) and Sam D1 (33), a total of 125 minutes. 122 minutes would need Pat and Ravi to share D3, which is not allowed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0018",
+   "topicId": "gm-sace-assignment",
+   "stem": "Times in minutes for four drivers to make four deliveries, with columns D1, D2, D3, D4: Pat 34, 30, 29, 36; Quinn 31, 33, 35, 32; Ravi 38, 36, 30, 34; Sam 33, 32, 37, 35. In the optimal allocation, which delivery does Pat make?",
+   "imageRef": null,
+   "options": [
+    "D2",
+    "D3",
+    "D1",
+    "D4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pat's fastest delivery is D3, but Ravi is much slower elsewhere and D3 is his best by far, so Ravi takes D3 and Pat takes D2. The total, 125 minutes, is the least possible.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0019",
+   "topicId": "gm-sace-assignment",
+   "stem": "Times in minutes for four drivers to make four deliveries, with columns D1, D2, D3, D4: Pat 34, 30, 29, 36; Quinn 31, 33, 35, 32; Ravi 38, 36, 30, 34; Sam 33, 32, 37, 35. After row and column reduction, 3 lines cover all the zeros. What should happen next?",
+   "imageRef": null,
+   "options": [
+    "Add a dummy row to the array to make it 5 \u00d7 5",
+    "Subtract the largest element from each element",
+    "Adjust the array using step 3, then cover again",
+    "Assign the drivers using the zeros right away"
+   ],
+   "correctIndex": 2,
+   "explanation": "Three lines is fewer than the order 4, so a full assignment is not yet possible. Step 3 creates a new zero, then the zeros are covered again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0020",
+   "topicId": "gm-sace-assignment",
+   "stem": "Weekly profit, in hundreds of dollars, for three salespeople in three regions, with columns North, South, West: Lee 12, 9, 10; Mo 11, 7, 6; Nia 9, 10, 13. The profit array is converted for the Hungarian algorithm. What is Mo's converted row?",
+   "imageRef": null,
+   "options": [
+    "4, 0, 1",
+    "2, 6, 7",
+    "11, 7, 6",
+    "0, 4, 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The largest profit in the array is 13, so each element is replaced by 13 minus it: 13 \u2212 11 = 2, 13 \u2212 7 = 6, 13 \u2212 6 = 7. Subtracting Mo's own largest profit gives 0, 4, 5, which converts only one row correctly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0021",
+   "topicId": "gm-sace-assignment",
+   "stem": "Weekly profit, in hundreds of dollars, for three salespeople in three regions, with columns North, South, West: Lee 12, 9, 10; Mo 11, 7, 6; Nia 9, 10, 13. What is the maximum total weekly profit?",
+   "imageRef": null,
+   "options": [
+    "$36 hundred",
+    "$31 hundred",
+    "$33 hundred",
+    "$32 hundred"
+   ],
+   "correctIndex": 2,
+   "explanation": "The best allocation is Lee South (9), Mo North (11) and Nia West (13), totalling 33. Giving Lee North (12) first leaves Mo with only 7, a total of 32. 36 adds each person's best, but Lee and Mo both want North.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0022",
+   "topicId": "gm-sace-assignment",
+   "stem": "Weekly profit, in hundreds of dollars, for three salespeople in three regions, with columns North, South, West: Lee 12, 9, 10; Mo 11, 7, 6; Nia 9, 10, 13. Why does giving Lee the North region, Lee's best, not lead to the maximum profit?",
+   "imageRef": null,
+   "options": [
+    "Mo loses more by missing North than Lee loses by taking South",
+    "Lee's profit in North is smaller than Lee's profit in South",
+    "The algorithm never gives anyone their largest profit",
+    "North must go to whoever has the smallest profit there"
+   ],
+   "correctIndex": 0,
+   "explanation": "Lee gives up 12 \u2212 9 = 3 by taking South, but Mo would give up 11 \u2212 7 = 4 by missing North. The Hungarian algorithm weighs these losses across the whole array.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0023",
+   "topicId": "gm-sace-assignment",
+   "stem": "Four swimmers' 50 m times in seconds for three relay legs, with columns backstroke, breaststroke, butterfly: Ava 32, 38, 31; Bea 34, 36, 33; Cai 31, 39, 34; Dee 35, 37, 32. Each leg needs a different swimmer. How is the array prepared for the Hungarian algorithm?",
+   "imageRef": null,
+   "options": [
+    "Add a dummy column of zeros as a fourth leg",
+    "Add a dummy row of zeros as a fifth swimmer",
+    "Remove the swimmer with the slowest times",
+    "Add each swimmer's three times together"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are 4 swimmers and 3 legs, so a dummy leg with zero times makes the array 4 \u00d7 4. Removing a swimmer by hand might remove one who belongs in the best team.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0024",
+   "topicId": "gm-sace-assignment",
+   "stem": "Four swimmers' 50 m times in seconds for three relay legs, with columns backstroke, breaststroke, butterfly: Ava 32, 38, 31; Bea 34, 36, 33; Cai 31, 39, 34; Dee 35, 37, 32. Each leg needs a different swimmer. Which swimmer is left out of the fastest team?",
+   "imageRef": null,
+   "options": [
+    "Ava",
+    "Cai",
+    "Dee",
+    "Bea"
+   ],
+   "correctIndex": 2,
+   "explanation": "The best team is Cai backstroke (31), Bea breaststroke (36) and Ava butterfly (31), a total of 98 seconds, with Dee on the dummy leg. Leaving out Bea instead gives 99 seconds at best, as nobody else is close to her breaststroke.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0025",
+   "topicId": "gm-sace-assignment",
+   "stem": "Four swimmers' 50 m times in seconds for three relay legs, with columns backstroke, breaststroke, butterfly: Ava 32, 38, 31; Bea 34, 36, 33; Cai 31, 39, 34; Dee 35, 37, 32. Each leg needs a different swimmer. What is the least total time for the three legs?",
+   "imageRef": null,
+   "options": [
+    "98 seconds",
+    "99 seconds",
+    "96 seconds",
+    "100 seconds"
+   ],
+   "correctIndex": 0,
+   "explanation": "Cai 31 + Bea 36 + Ava 31 = 98 seconds. These are the fastest times for each leg, held by three different swimmers, so no team can be quicker. Leaving out Ava or Bea instead gives 99 seconds at best.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0026",
+   "topicId": "gm-sace-assignment",
+   "stem": "A 4 \u00d7 6 array of costs is squared up for the Hungarian algorithm. The result is:",
+   "imageRef": null,
+   "options": [
+    "a 6 \u00d7 6 array with two dummy columns of zeros",
+    "a 4 \u00d7 6 array with zeros added to every row",
+    "a 6 \u00d7 6 array with two dummy rows of zeros",
+    "a 4 \u00d7 4 array with two columns removed"
+   ],
+   "correctIndex": 2,
+   "explanation": "There are 6 columns, so 2 dummy rows of zeros are added to make 6 \u00d7 6. The two columns matched to the dummy rows are the ones left unassigned.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0027",
+   "topicId": "gm-sace-assignment",
+   "stem": "Hours for three tradespeople to do three tasks, with columns T1, T2, T3: Gus 7, 5, 8; Hal 6, 4, 6; Ivy 9, 6, 7. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Two allocations both give the least total of 18 hours",
+    "Only Gus T1, Hal T2, Ivy T3 gives the least total",
+    "The least total is 17 hours, with Hal doing T2",
+    "Each tradesperson must do their own fastest task"
+   ],
+   "correctIndex": 0,
+   "explanation": "Gus T1, Hal T2, Ivy T3 takes 7 + 4 + 7 = 18 hours, and Gus T2, Hal T1, Ivy T3 takes 5 + 6 + 7 = 18 hours. No allocation is faster, so there are two optimal solutions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0028",
+   "topicId": "gm-sace-assignment",
+   "stem": "Hours for three tradespeople to do three tasks, with columns T1, T2, T3: Gus 7, 5, 8; Hal 6, 4, 6; Ivy 9, 6, 7. Which task must Ivy do in any optimal allocation?",
+   "imageRef": null,
+   "options": [
+    "T2",
+    "T1",
+    "T2 or T3",
+    "T3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both optimal allocations, totalling 18 hours, give Ivy T3. Ivy's quickest task is T2, but giving her T2 makes the total at least 19 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0029",
+   "topicId": "gm-sace-assignment",
+   "stem": "50 m times in seconds for a medley relay, with columns freestyle, backstroke, breaststroke, butterfly: Jo 29, 34, 38, 32; Kim 30, 33, 37, 33; Lou 28, 35, 36, 34; Max 31, 36, 39, 31. Which swimmer swims freestyle in the fastest team?",
+   "imageRef": null,
+   "options": [
+    "Max",
+    "Jo",
+    "Lou",
+    "Kim"
+   ],
+   "correctIndex": 1,
+   "explanation": "The fastest team is Jo freestyle (29), Kim backstroke (33), Lou breaststroke (36) and Max butterfly (31), a total of 129 seconds. Lou has the fastest freestyle, but she is needed for breaststroke, where she is the quickest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0030",
+   "topicId": "gm-sace-assignment",
+   "stem": "50 m times in seconds for a medley relay, with columns freestyle, backstroke, breaststroke, butterfly: Jo 29, 34, 38, 32; Kim 30, 33, 37, 33; Lou 28, 35, 36, 34; Max 31, 36, 39, 31. What is the least total time for the relay team?",
+   "imageRef": null,
+   "options": [
+    "130 seconds",
+    "128 seconds",
+    "131 seconds",
+    "129 seconds"
+   ],
+   "correctIndex": 3,
+   "explanation": "Jo 29 + Kim 33 + Lou 36 + Max 31 = 129 seconds, the least over all 24 possible teams. 128 seconds adds the fastest time in each stroke, which would need Lou twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0031",
+   "topicId": "gm-sace-assignment",
+   "stem": "In step 3 of the Hungarian algorithm, an element covered by exactly one line is:",
+   "imageRef": null,
+   "options": [
+    "set to zero",
+    "left unchanged",
+    "reduced by m",
+    "increased by m"
+   ],
+   "correctIndex": 1,
+   "explanation": "Only uncovered elements are reduced by m and only elements covered by two lines are increased by m. Elements covered once stay the same.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0032",
+   "topicId": "gm-sace-assignment",
+   "stem": "After step 1, a column has no zero in it. Why does the algorithm reduce columns after rows?",
+   "imageRef": null,
+   "options": [
+    "So that the total of each column becomes the same",
+    "So that every column also contains at least one zero",
+    "So that every element of the array becomes positive",
+    "So that the largest element in each column becomes zero"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row reduction guarantees a zero in every row but not in every column. Subtracting each column's minimum then puts a zero in every column too, without changing the optimal allocation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0033",
+   "topicId": "gm-sace-assignment",
+   "stem": "Five cleaners are assigned to five offices using times. One cleaner is far faster than all the others at every office. What limitation of the solution does this show?",
+   "imageRef": null,
+   "options": [
+    "The algorithm cannot be used when times differ widely",
+    "She must be given the office with her slowest time",
+    "She is assigned one office only, though she could do more",
+    "She is assigned all five offices, which is not possible"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Hungarian algorithm assumes one person per task, so the fastest cleaner does just one office. In reality, giving her two offices might finish sooner, so the result should be checked against the context.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0034",
+   "topicId": "gm-sace-assignment",
+   "stem": "A manager uses the Hungarian algorithm but one worker is not qualified for one job. How can this be shown in the cost array?",
+   "imageRef": null,
+   "options": [
+    "Remove that worker's row from the array completely",
+    "Give that position the average of all the other costs",
+    "Give that position a cost much larger than any other",
+    "Give that position a cost of zero in the array"
+   ],
+   "correctIndex": 2,
+   "explanation": "A very large cost means the algorithm will never choose that position in an optimal solution. A zero would make it the most attractive choice, the opposite of what is wanted.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0035",
+   "topicId": "gm-sace-assignment",
+   "stem": "A team leader assigns four jobs and finds two optimal allocations with the same total cost. How should one be chosen?",
+   "imageRef": null,
+   "options": [
+    "Add the two allocations together and share out the jobs",
+    "Use factors outside the array, such as staff preferences",
+    "Choose the one found first, as it has the lower cost",
+    "Run the algorithm again until only one remains"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both allocations give the least total, so the mathematics cannot separate them. Practical factors such as workers' preferences, experience or travel can decide.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0036",
+   "topicId": "gm-sace-assignment",
+   "stem": "When a dummy row is added to square up an array, its entries are zero because:",
+   "imageRef": null,
+   "options": [
+    "the dummy must be given the first task",
+    "zeros are removed in the first step",
+    "no real cost is incurred by the dummy",
+    "zero is the largest value in the array"
+   ],
+   "correctIndex": 2,
+   "explanation": "The dummy stands for a person who does not exist, so assigning a task to it costs nothing. The task given to the dummy is simply the one left undone.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-assignment-0037",
+   "topicId": "gm-sace-assignment",
+   "stem": "After the row reduction of a 3 \u00d7 3 cost array, all the zeros are in the first column. What is the next step?",
+   "imageRef": null,
+   "options": [
+    "Reduce the columns",
+    "Cover the zeros",
+    "Assign the tasks",
+    "Add a dummy row of zeros"
+   ],
+   "correctIndex": 0,
+   "explanation": "Columns two and three still have no zero, so each column's minimum is subtracted from it. Only then are the zeros covered with lines.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-assignment-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

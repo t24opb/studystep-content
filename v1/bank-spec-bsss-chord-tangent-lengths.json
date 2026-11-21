@@ -1,0 +1,670 @@
+{
+ "topicId": "spec-bsss-chord-tangent-lengths",
+ "questions": [
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0001",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD of a circle intersect at P inside the circle. Which statement is the intersecting chords theorem?",
+   "imageRef": null,
+   "options": [
+    "AP \u00d7 CP = PB \u00d7 PD",
+    "AP/PB = CP/PD",
+    "AP \u00d7 PB = CP \u00d7 PD",
+    "AP + PB = CP + PD"
+   ],
+   "correctIndex": 2,
+   "explanation": "When two chords intersect, the product of the two parts of one chord equals the product of the two parts of the other. The sums AP + PB and CP + PD are the chord lengths, which need not be equal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0002",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD intersect at P, with AP = 4 cm, PB = 6 cm and CP = 3 cm. What is PD?",
+   "imageRef": null,
+   "options": [
+    "4.5 cm",
+    "2 cm",
+    "7 cm",
+    "8 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "AP \u00d7 PB = CP \u00d7 PD gives 4 \u00d7 6 = 3 \u00d7 PD, so PD = 24/3 = 8 cm. The value 4.5 cm comes from pairing the parts the wrong way, 3 \u00d7 6 = 4 \u00d7 PD.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0003",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD intersect at P, with AP = 5 cm, PB = 8 cm and CD = 14 cm. What are the lengths CP and PD?",
+   "imageRef": null,
+   "options": [
+    "6 cm and 8 cm",
+    "7 cm and 7 cm",
+    "4 cm and 10 cm",
+    "5 cm and 9 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let CP = x, so PD = 14 \u2212 x and x(14 \u2212 x) = 40. Then x\u00b2 \u2212 14x + 40 = 0, so (x \u2212 4)(x \u2212 10) = 0, and the parts are 4 cm and 10 cm. The pair 6 and 8 has the right total but a product of 48.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0004",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD intersect at P, with AP = x, PB = x + 5, CP = 4 and PD = 6. What is x?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "4",
+    "3",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "x(x + 5) = 24 gives x\u00b2 + 5x \u2212 24 = 0, so (x + 8)(x \u2212 3) = 0. A length must be positive, so x = 3. The value 8 comes from the rejected root \u22128.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0005",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "In the proof of the intersecting chords theorem for chords AB and CD meeting at P, which triangles are shown to be similar?",
+   "imageRef": null,
+   "options": [
+    "Triangles ACB and ADB",
+    "Triangles APC and DPB",
+    "Triangles APB and CPD",
+    "Triangles APD and APC"
+   ],
+   "correctIndex": 1,
+   "explanation": "Triangles APC and DPB have vertically opposite angles at P, and \u2220CAB = \u2220CDB because both stand on the arc CB. The similar triangles give AP/DP = CP/BP, so AP \u00d7 PB = CP \u00d7 PD.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0006",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "In proving that triangles APC and DPB are similar, where chords AB and CD meet at P, one pair of equal angles is \u2220APC = \u2220DPB. Which theorem gives a second pair, \u2220PAC = \u2220PDB?",
+   "imageRef": null,
+   "options": [
+    "The opposite angles of a cyclic quadrilateral are supplementary",
+    "The angle between a tangent and a chord equals the alternate angle",
+    "Angles at the circumference standing on the same arc are equal",
+    "The angle at the centre is twice the angle at the circumference"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2220PAC is \u2220BAC and \u2220PDB is \u2220CDB, and both stand on the arc BC, so they are equal. The first pair, \u2220APC = \u2220DPB, comes from vertically opposite angles rather than a circle theorem.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0007",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "A circle has radius 5 cm. P lies on a diameter, 3 cm from the centre. What is the length of the chord through P perpendicular to that diameter?",
+   "imageRef": null,
+   "options": [
+    "4 cm",
+    "6 cm",
+    "10 cm",
+    "8 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "P divides the diameter into 2 cm and 8 cm. The perpendicular chord is bisected at P, so if each half is h, then h \u00d7 h = 2 \u00d7 8 = 16, h = 4 and the chord is 8 cm. The value 4 cm is only half the chord.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0008",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "P is inside a circle of radius 7 cm, 3 cm from the centre O. Any chord AB passes through P. What is the value of AP \u00d7 PB?",
+   "imageRef": null,
+   "options": [
+    "16 cm\u00b2",
+    "40 cm\u00b2",
+    "21 cm\u00b2",
+    "49 cm\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Take the chord through O: it is split into 7 + 3 = 10 cm and 7 \u2212 3 = 4 cm, so AP \u00d7 PB = 40. By the intersecting chords theorem every chord through P gives the same product, r\u00b2 \u2212 d\u00b2 = 49 \u2212 9 = 40.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0009",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Intervals AB and CD intersect at P. Which condition is enough to prove that A, B, C and D lie on a circle?",
+   "imageRef": null,
+   "options": [
+    "AP \u00d7 PB = CP \u00d7 PD",
+    "AP + PB = CP + PD",
+    "AP = CP and PB = PD",
+    "AB is perpendicular to CD"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is the converse of the intersecting chords theorem: equal products of the parts mean the four points are concyclic. Equal chord lengths, or perpendicular intervals, are not enough on their own.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0010",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Intervals AB and CD intersect at P. For which set of lengths are A, B, C and D concyclic?",
+   "imageRef": null,
+   "options": [
+    "AP = 3, PB = 8, CP = 5, PD = 6",
+    "AP = 4, PB = 8, CP = 3, PD = 9",
+    "AP = 2, PB = 9, CP = 4, PD = 5",
+    "AP = 3, PB = 8, CP = 4, PD = 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the converse of the intersecting chords theorem, the points are concyclic when AP \u00d7 PB = CP \u00d7 PD. Only 3 \u00d7 8 = 24 = 4 \u00d7 6 works; the other sets give 24 and 30, 32 and 27, and 18 and 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0011",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD intersect at P, with AP = 2 cm and PB = 18 cm. P is the midpoint of CD. How long is CD?",
+   "imageRef": null,
+   "options": [
+    "36 cm",
+    "12 cm",
+    "6 cm",
+    "20 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "With CP = PD = x, x\u00b2 = 2 \u00d7 18 = 36, so x = 6 and CD = 12 cm. The value 6 cm is only half of CD.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0012",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD intersect at P, with AB = 11 cm, AP = 3 cm and CP = PD. What is the exact length of CD?",
+   "imageRef": null,
+   "options": [
+    "2\u221a33 cm",
+    "4\u221a6 cm",
+    "2\u221a6 cm",
+    "\u221a33 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "PB = 11 \u2212 3 = 8, so CP\u00b2 = 3 \u00d7 8 = 24 and CP = 2\u221a6. Then CD = 2 \u00d7 2\u221a6 = 4\u221a6 cm. Using 3 \u00d7 11 = 33 multiplies by the whole chord instead of the other part.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0013",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Two diameters of a circle of radius r intersect at the centre O. What does the intersecting chords theorem give for each diameter?",
+   "imageRef": null,
+   "options": [
+    "The product of its two parts is 4r\u00b2",
+    "The product of its two parts is r\u00b2",
+    "The sum of its two parts is r\u00b2",
+    "The product of its two parts is 2r"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each diameter is split at O into two radii, so the product is r \u00d7 r = r\u00b2 for both, as the theorem requires. The whole diameter has length 2r, which is a sum, not a product.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0014",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Chords AB and CD meet at P, and AP = PB. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "CP = PD",
+    "CP + PD = 2AP",
+    "CD is a diameter",
+    "CP \u00d7 PD = AP\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the intersecting chords theorem, CP \u00d7 PD = AP \u00d7 PB = AP\u00b2. CP and PD need not be equal, so CD need not be bisected, and its length need not be 2AP.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0015",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From an external point M, a tangent touches a circle at T, and a secant meets the circle at A and B, with A between M and B. Which statement is the tangent-secant theorem?",
+   "imageRef": null,
+   "options": [
+    "TM = AM + BM",
+    "TM\u00b2 = AM\u00b2 + BM\u00b2",
+    "TM\u00b2 = AM \u00d7 BM",
+    "TM\u00b2 = AM \u00d7 AB"
+   ],
+   "correctIndex": 2,
+   "explanation": "The square of the tangent length equals the product of the distances from M to the two points where the secant meets the circle. Using AB, the chord inside the circle, instead of BM is a common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0016",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent touches a circle at T, and a secant meets the circle at A and then B, with MA = 4 cm and MB = 9 cm. What is TM?",
+   "imageRef": null,
+   "options": [
+    "5 cm",
+    "6 cm",
+    "6.5 cm",
+    "36 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "TM\u00b2 = MA \u00d7 MB = 4 \u00d7 9 = 36, so TM = 6 cm. The value 36 is TM\u00b2 rather than TM, and 6.5 cm is the average of 4 and 9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0017",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent touches a circle at T with TM = 6 cm, and a secant meets the circle at A and then B, with MB = 12 cm. What is MA?",
+   "imageRef": null,
+   "options": [
+    "6 cm",
+    "2 cm",
+    "9 cm",
+    "3 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "TM\u00b2 = MA \u00d7 MB gives 36 = MA \u00d7 12, so MA = 3 cm. The value 9 cm is the chord AB, which is MB \u2212 MA.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0018",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent touches a circle at T with TM = 8 cm, and a secant meets the circle at A and then B, with MA = 4 cm. What is the length of the chord AB?",
+   "imageRef": null,
+   "options": [
+    "12 cm",
+    "16 cm",
+    "4 cm",
+    "2 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "TM\u00b2 = MA \u00d7 MB gives 64 = 4 \u00d7 MB, so MB = 16 cm and AB = 16 \u2212 4 = 12 cm. The value 16 cm is MB, the whole secant from M.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0019",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent touches a circle at T with TM = 10 cm, and a secant meets the circle at A and then B, with chord AB = 15 cm. What is MA?",
+   "imageRef": null,
+   "options": [
+    "20 cm",
+    "6.7 cm",
+    "2.5 cm",
+    "5 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "With MA = x, MB = x + 15 and x(x + 15) = 100, so x\u00b2 + 15x \u2212 100 = 0 and (x + 20)(x \u2212 5) = 0, giving x = 5 cm. The value 6.7 cm comes from 100/15, using AB in place of MB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0020",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent touches a circle at T, and a secant meets the circle at A and then B, with MA = 2 cm and AB = 8 cm. What is the exact length of TM?",
+   "imageRef": null,
+   "options": [
+    "\u221a10 cm",
+    "2\u221a10 cm",
+    "2\u221a5 cm",
+    "4 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "MB = 2 + 8 = 10, so TM\u00b2 = 2 \u00d7 10 = 20 and TM = 2\u221a5 cm. Using MA \u00d7 AB = 16 gives 4 cm, which uses the chord instead of the whole secant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0021",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "The tangent-secant theorem is proved using triangles MTA and MBT. Which facts show these triangles are similar?",
+   "imageRef": null,
+   "options": [
+    "They share the angle at M, and \u2220MTA = \u2220MBT because both are angles in a semicircle",
+    "They share the angle at M, and \u2220MTA = \u2220MBT by the alternate segment theorem",
+    "They share the angle at M, and \u2220MAT = \u2220MTB because both are right angles",
+    "They share the side MT, and AT = BT because tangents from a point are equal"
+   ],
+   "correctIndex": 1,
+   "explanation": "The angle between the tangent MT and the chord TA equals the angle TBA in the alternate segment, and the angle at M is common, so the triangles are similar. Then MT/MB = MA/MT, which gives MT\u00b2 = MA \u00d7 MB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0022",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Two secants are drawn from M. One meets the circle at A and then B, with MA = 3 cm and AB = 9 cm. The other meets it at C and then D, with MC = 4 cm. What is MD?",
+   "imageRef": null,
+   "options": [
+    "6.75 cm",
+    "12 cm",
+    "8 cm",
+    "9 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each product equals the square of the tangent from M, so MA \u00d7 MB = MC \u00d7 MD. MB = 12, so 3 \u00d7 12 = 4 \u00d7 MD and MD = 9 cm. Using AB = 9 instead of MB gives 6.75 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0023",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Two secants are drawn from M. One meets the circle at A and then B, with MA = 5 cm and MB = 12 cm. The other meets it at C and then D, with MC = 6 cm. What is the length of the chord CD?",
+   "imageRef": null,
+   "options": [
+    "10 cm",
+    "6 cm",
+    "7 cm",
+    "4 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "MA \u00d7 MB = MC \u00d7 MD gives 60 = 6 \u00d7 MD, so MD = 10 cm and CD = 10 \u2212 6 = 4 cm. The value 10 cm is MD, measured from M rather than along the chord.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0024",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Two tangents from M touch a circle at T and S, and a secant from M meets the circle at A and B. How does the tangent-secant theorem show that MT = MS?",
+   "imageRef": null,
+   "options": [
+    "MT + MS = MA + MB, so the tangents are equal",
+    "MT and MS both bisect the chord AB, so they are equal",
+    "MT\u00b2 and MS\u00b2 both equal MA \u00d7 MB, so MT = MS",
+    "MT and MS are both radii, so they are equal"
+   ],
+   "correctIndex": 2,
+   "explanation": "Applying the theorem to each tangent with the same secant gives MT\u00b2 = MA \u00d7 MB = MS\u00b2, and lengths are positive, so MT = MS. Tangents are not radii; they meet the radii at right angles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0025",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "M is outside a circle with centre O and radius r, and MT is a tangent touching the circle at T. Why is MT\u00b2 = OM\u00b2 \u2212 r\u00b2?",
+   "imageRef": null,
+   "options": [
+    "The radius OT is perpendicular to MT, so Pythagoras applies in triangle OTM",
+    "MT bisects the angle at O, so triangle OTM is isosceles",
+    "OM is a diameter, so the angle at T is in a semicircle",
+    "The triangle OTM is equilateral, so all sides are equal"
+   ],
+   "correctIndex": 0,
+   "explanation": "A tangent is perpendicular to the radius at the point of contact, so triangle OTM has a right angle at T with hypotenuse OM. Then MT\u00b2 + r\u00b2 = OM\u00b2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0026",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "M is 13 cm from the centre O of a circle of radius 5 cm. The secant from M through O meets the circle at A and then B. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "MA = 8, MB = 18 and the tangent from M has length 12",
+    "MA = 8, MB = 18 and the tangent from M has length 13",
+    "MA = 5, MB = 13 and the tangent from M has length 12",
+    "MA = 13, MB = 18 and the tangent from M has length 8"
+   ],
+   "correctIndex": 0,
+   "explanation": "MA = 13 \u2212 5 = 8 and MB = 13 + 5 = 18, so the tangent-secant theorem gives TM\u00b2 = 144 and TM = 12. Pythagoras agrees: 13\u00b2 \u2212 5\u00b2 = 144.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0027",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "From M, a tangent of length 12 cm touches a circle of radius 5 cm, and a secant from M passes through the centre. Using the tangent-secant theorem, how far is M from the nearest point of the circle?",
+   "imageRef": null,
+   "options": [
+    "18 cm",
+    "8 cm",
+    "7 cm",
+    "13 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Let the near point be at distance x; the secant through the centre then has MB = x + 10. So x(x + 10) = 144, x\u00b2 + 10x \u2212 144 = 0 and (x + 18)(x \u2212 8) = 0, giving x = 8 cm. The value 13 cm is the distance from M to the centre.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0028",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "A circular pond has radius 6 m. A post stands 3 m from the edge of the pond, on a line through its centre. What is the exact length of a tangent from the post to the edge of the pond?",
+   "imageRef": null,
+   "options": [
+    "3\u221a5 m",
+    "3\u221a3 m",
+    "9 m",
+    "6\u221a2 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The line through the centre meets the pond at 3 m and 3 + 12 = 15 m from the post, so the tangent length squared is 3 \u00d7 15 = 45 and the tangent is 3\u221a5 m. The answer 3\u221a3 m uses 3 \u00d7 9, the distance to the centre instead of the far edge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0029",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Points A, B and T lie on a circle, and M lies on line AB beyond A, outside the circle. Which condition proves that MT is a tangent to the circle?",
+   "imageRef": null,
+   "options": [
+    "MT\u00b2 = MA \u00d7 MB",
+    "MT = MA + AB",
+    "MT\u00b2 = MA\u00b2 + AB\u00b2",
+    "MT = MB \u2212 MA"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is the converse of the tangent-secant theorem: if MT\u00b2 = MA \u00d7 MB, triangles MTA and MBT are similar, so \u2220MTA = \u2220MBT, and the converse of the alternate segment theorem makes MT a tangent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0030",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "A secant from M meets a circle at A and B. The secant is rotated about M until A and B move together to a single point T. What happens to the product MA \u00d7 MB?",
+   "imageRef": null,
+   "options": [
+    "It becomes 2MT, since the two lengths are added",
+    "It grows without bound as the line becomes a tangent",
+    "It becomes MT\u00b2, matching the tangent-secant theorem",
+    "It becomes zero, since the chord AB has vanished"
+   ],
+   "correctIndex": 2,
+   "explanation": "As the secant becomes a tangent, both MA and MB tend to MT, so the product tends to MT\u00b2. This shows the tangent-secant theorem as the limiting case of the two-secant result.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0031",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "Which statement about chords of a circle is a theorem?",
+   "imageRef": null,
+   "options": [
+    "Chords of equal length subtend equal angles at the centre, and conversely",
+    "Chords of equal length always intersect at the centre of the circle",
+    "Every chord subtends a right angle at the centre of the circle",
+    "Chords that subtend equal angles at the centre must be parallel"
+   ],
+   "correctIndex": 0,
+   "explanation": "Equal chords subtend equal angles at the centre, and chords subtending equal angles at the centre are equal. This follows from congruent isosceles triangles formed with the radii.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0032",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "In a circle with centre O, chords AB and CD satisfy \u2220AOB = \u2220COD = 70\u00b0, and AB = 9 cm. What is CD?",
+   "imageRef": null,
+   "options": [
+    "7 cm",
+    "9 cm",
+    "4.5 cm",
+    "18 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Chords subtending equal angles at the centre are equal in length, so CD = 9 cm. Triangles AOB and COD are congruent by SAS, since all four sides from O are radii.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0033",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "A chord of length 16 cm lies in a circle of radius 10 cm. How far is the chord from the centre?",
+   "imageRef": null,
+   "options": [
+    "8 cm",
+    "12.8 cm",
+    "2 cm",
+    "6 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "The perpendicular from the centre bisects the chord, giving a right triangle with hypotenuse 10 and one side 8, so the distance is \u221a(100 \u2212 64) = 6 cm. The value 8 cm is half the chord.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0034",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "A chord subtends an angle of 60\u00b0 at the centre of a circle of radius 8 cm. How long is the chord?",
+   "imageRef": null,
+   "options": [
+    "16 cm",
+    "8 cm",
+    "4 cm",
+    "8\u221a3 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two radii and the chord form an isosceles triangle with a 60\u00b0 angle between the equal sides, so it is equilateral and the chord is 8 cm. The value 8\u221a3 cm is the chord subtending 120\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-bsss-chord-tangent-lengths-0035",
+   "topicId": "spec-bsss-chord-tangent-lengths",
+   "stem": "In a circle of radius 10 cm, two chords are each 6 cm from the centre. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The chords must be parallel and 12 cm apart",
+    "Both chords are 16 cm long and subtend equal angles at the centre",
+    "Both chords are 8 cm long and subtend equal angles at the centre",
+    "Both chords are 16 cm long but subtend different angles at the centre"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each half-chord is \u221a(100 \u2212 36) = 8 cm, so each chord is 16 cm, and equal chords subtend equal angles at the centre. The chords need not be parallel; they can lie anywhere 6 cm from the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-bsss-chord-tangent-lengths-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

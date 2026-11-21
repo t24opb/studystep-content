@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-hsc-trig-modelling",
+ "questions": [
+  {
+   "id": "meth-hsc-trig-modelling-0001",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "What are the amplitude and period of y = 3sin(2x)?",
+   "imageRef": null,
+   "options": [
+    "Amplitude 3, period 4\u03c0",
+    "Amplitude 2, period \u03c0",
+    "Amplitude 6, period 2\u03c0",
+    "Amplitude 3, period \u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The amplitude is the coefficient of sin, 3. The period of sin(ax) is 2\u03c0/a, so here it is 2\u03c0/2 = \u03c0. A period of 4\u03c0 comes from multiplying 2\u03c0 by 2 instead of dividing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0002",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "What is the period of y = tan(3x)?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "2\u03c0/3",
+    "3\u03c0",
+    "\u03c0/6"
+   ],
+   "correctIndex": 0,
+   "explanation": "The basic tangent graph repeats every \u03c0, not every 2\u03c0, so tan(ax) has period \u03c0/a = \u03c0/3. Using 2\u03c0/a, the rule for sine and cosine, gives 2\u03c0/3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0003",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "What is the period of y = cos(x/2)?",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "4\u03c0",
+    "\u03c0",
+    "2\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here a = 1/2, so the period is 2\u03c0 \u00f7 (1/2) = 4\u03c0. The graph is stretched horizontally by a factor of 2, so it takes twice as long to repeat. Multiplying 2\u03c0 by 1/2 gives \u03c0, which is a compression.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0004",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "What is the range of y = 2cos(x) + 1?",
+   "imageRef": null,
+   "options": [
+    "[1, 3]",
+    "[\u22121, 3]",
+    "[\u22122, 2]",
+    "[0, 2]"
+   ],
+   "correctIndex": 1,
+   "explanation": "The values of 2cos(x) run from \u22122 to 2, and adding 1 moves them up to run from \u22121 to 3. The range [\u22122, 2] ignores the vertical translation, and [0, 2] is the range of cos(x) + 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0005",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = sin(x \u2212 \u03c0/3) is the graph of y = sin(x) translated:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3 units downwards",
+    "\u03c0/3 units to the right",
+    "\u03c0/3 units to the left",
+    "\u03c0/3 units upwards"
+   ],
+   "correctIndex": 1,
+   "explanation": "Replacing x with x \u2212 \u03c0/3 moves every point \u03c0/3 units in the positive x direction, to the right. The sign inside the bracket works opposite to how it looks, which is why the left translation is the common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0006",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = \u2212cos(x) is the graph of y = cos(x) reflected in:",
+   "imageRef": null,
+   "options": [
+    "the line x = \u03c0",
+    "the x-axis",
+    "the y-axis",
+    "the line y = x"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiplying the whole function by \u22121 changes the sign of every y-value, which is a reflection in the x-axis. Reflecting cos(x) in the y-axis gives cos(\u2212x), which equals cos(x), so it leaves the graph unchanged.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0007",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Which of these graphs has no amplitude?",
+   "imageRef": null,
+   "options": [
+    "y = sin(x) + 2",
+    "y = 2cos(x/2)",
+    "y = 2tan(x)",
+    "y = 2sin(x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Amplitude is half the distance between the maximum and minimum values. A tangent graph increases without bound towards each asymptote, so it has no maximum or minimum and no amplitude.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0008",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Which transformations map y = sin(x) onto y = 2sin(3x) + 1?",
+   "imageRef": null,
+   "options": [
+    "Dilate vertically by 2, horizontally by 1/3, then translate left 1",
+    "Dilate vertically by 2, horizontally by 1/3, then translate up 1",
+    "Dilate vertically by 2, horizontally by 3, then translate up 1",
+    "Dilate vertically by 3, horizontally by 1/2, then translate up 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 2 outside stretches the graph vertically by a factor of 2. The 3 multiplying x squeezes it horizontally by a factor of 1/3, so the period becomes 2\u03c0/3. The +1 outside is a vertical translation, not a horizontal one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0009",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = sin(2(x + \u03c0/4)) is the graph of y = sin(2x) translated:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/4 units to the left",
+    "\u03c0/2 units to the left",
+    "\u03c0/4 units to the right",
+    "\u03c0/8 units to the left"
+   ],
+   "correctIndex": 0,
+   "explanation": "In the form y = f(a(x + b)), the horizontal translation is b units to the left, here \u03c0/4. Expanding gives sin(2x + \u03c0/2), and reading \u03c0/2 from that form as the translation is the usual mistake.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0010",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = sin(2x + \u03c0/3) is the graph of y = sin(2x) translated:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6 units to the right",
+    "2\u03c0/3 units to the left",
+    "\u03c0/6 units to the left",
+    "\u03c0/3 units to the left"
+   ],
+   "correctIndex": 2,
+   "explanation": "Factorise first: sin(2x + \u03c0/3) = sin(2(x + \u03c0/6)), so the translation is \u03c0/6 units to the left. Reading \u03c0/3 straight from the bracket forgets that the 2 multiplies the translation as well.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0011",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "What is the range of y = 3 \u2212 2sin(x)?",
+   "imageRef": null,
+   "options": [
+    "[\u22122, 2]",
+    "[1, 5]",
+    "[\u22125, \u22121]",
+    "[3, 5]"
+   ],
+   "correctIndex": 1,
+   "explanation": "Since \u22121 \u2264 sin(x) \u2264 1, the term \u22122sin(x) runs from \u22122 to 2, and adding 3 gives values from 1 to 5. The negative sign reflects the graph but does not change the spread of values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0012",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "For 0 \u2264 x \u2264 \u03c0, where are the vertical asymptotes of y = tan(2x)?",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/4 and x = 3\u03c0/4",
+    "x = \u03c0/2 only",
+    "x = \u03c0/8 and x = 3\u03c0/8",
+    "x = 0, x = \u03c0/2 and x = \u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "tan(\u03b8) is undefined when \u03b8 = \u03c0/2 + k\u03c0. Setting 2x = \u03c0/2 or 3\u03c0/2 gives x = \u03c0/4 and x = 3\u03c0/4, which are half a period of \u03c0/2 apart. The points x = 0, \u03c0/2 and \u03c0 are where tan(2x) = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0013",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "For 0 \u2264 x \u2264 \u03c0, where is the vertical asymptote of y = tan(x \u2212 \u03c0/4)?",
+   "imageRef": null,
+   "options": [
+    "x = 3\u03c0/4",
+    "x = \u03c0/4",
+    "x = \u03c0/2",
+    "x = \u03c0/4 and x = 3\u03c0/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The asymptote of tan(x) at x = \u03c0/2 moves \u03c0/4 units to the right, to x = 3\u03c0/4. At x = \u03c0/4 the function is tan(0) = 0, which is an x-intercept, not an asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0014",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = e^x is dilated vertically by a factor of 3 and then translated 2 units down. What is its new equation?",
+   "imageRef": null,
+   "options": [
+    "y = 3e^(x \u2212 2)",
+    "y = 3e^x \u2212 2",
+    "y = 3(e^x \u2212 2)",
+    "y = e^(3x) \u2212 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A vertical dilation multiplies the whole function by 3, giving 3e^x, and the translation down then subtracts 2. Writing 3(e^x \u2212 2) does the translation first, so the 2 gets dilated as well.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0015",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The graph of y = sin(x) is translated 1 unit up and then dilated vertically by a factor of 2. What is the new equation?",
+   "imageRef": null,
+   "options": [
+    "y = sin(2x) + 1",
+    "y = 2sin(x) + 2",
+    "y = 2sin(x) + 1",
+    "y = 2sin(x + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "After the translation the equation is y = sin(x) + 1. Dilating vertically by 2 doubles every y-value, including the 1, so y = 2(sin(x) + 1) = 2sin(x) + 2. The order of transformations matters here.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0016",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Solve 2sin(x) = 1 for 0 \u2264 x \u2264 2\u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 only",
+    "x = \u03c0/6, 5\u03c0/6",
+    "x = \u03c0/6, 7\u03c0/6",
+    "x = \u03c0/3, 2\u03c0/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(x) = 1/2 is positive, so x lies in the first and second quadrants: x = \u03c0/6 and \u03c0 \u2212 \u03c0/6 = 5\u03c0/6. The pair \u03c0/3, 2\u03c0/3 solves sin(x) = \u221a3/2 instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0017",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Solve sin(2x) = \u221a3/2 for 0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3, 2\u03c0/3",
+    "x = \u03c0/6, 5\u03c0/6",
+    "x = \u03c0/12, \u03c0/6",
+    "x = \u03c0/6, \u03c0/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "As 0 \u2264 x \u2264 \u03c0, 2x runs from 0 to 2\u03c0. Then 2x = \u03c0/3 or 2\u03c0/3, so x = \u03c0/6 or \u03c0/3. Forgetting to divide by 2 at the end gives \u03c0/3 and 2\u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0018",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "How many solutions does cos(3x) = 1/2 have for 0 \u2264 x \u2264 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "6",
+    "2",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The period of cos(3x) is 2\u03c0/3, so the interval holds three full cycles, and each cycle meets the line y = 1/2 twice. That gives 6 solutions. Using the 2 solutions of cos(x) = 1/2 ignores the shorter period.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0019",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Solve tan(2x) = 1 for 0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/8, 5\u03c0/8",
+    "x = \u03c0/8 only",
+    "x = \u03c0/4, 5\u03c0/4",
+    "x = \u03c0/8, 3\u03c0/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "For 0 \u2264 x \u2264 \u03c0, 2x runs from 0 to 2\u03c0, and tan(2x) = 1 when 2x = \u03c0/4 or 5\u03c0/4. Halving gives x = \u03c0/8 and 5\u03c0/8. The values \u03c0/4 and 5\u03c0/4 are the angles for 2x, not for x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0020",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Solve 2cos(2x \u2212 \u03c0/3) = 1 for 0 \u2264 x \u2264 \u03c0.",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3 only",
+    "x = \u03c0/3, 2\u03c0/3",
+    "x = 0, \u03c0/3",
+    "x = 0, \u03c0/3, \u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(2x \u2212 \u03c0/3) = 1/2, and 2x \u2212 \u03c0/3 runs from \u2212\u03c0/3 to 5\u03c0/3. The angles there with cosine 1/2 are \u2212\u03c0/3, \u03c0/3 and 5\u03c0/3, which give 2x = 0, 2\u03c0/3 and 2\u03c0, so x = 0, \u03c0/3 and \u03c0. Missing the negative angle loses x = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0021",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The depth of water at a jetty is d = 3 + 1.5cos(\u03c0t/6) metres, t hours after midnight. What is the time between successive high tides?",
+   "imageRef": null,
+   "options": [
+    "12 hours",
+    "6 hours",
+    "24 hours",
+    "3 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "The period is 2\u03c0 \u00f7 (\u03c0/6) = 12 hours, and high tides are one period apart. A gap of 6 hours is half a period, which is the time from a high tide to the next low tide.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0022",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The depth of water at a jetty is d = 3 + 1.5cos(\u03c0t/6) metres, t hours after midnight. What is the depth at 2 am?",
+   "imageRef": null,
+   "options": [
+    "4.5 m",
+    "3.5 m",
+    "2.25 m",
+    "3.75 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "At t = 2, d = 3 + 1.5cos(\u03c0/3) = 3 + 1.5 \u00d7 0.5 = 3.75 m. The depth 4.5 m is the high tide at midnight, when the cosine equals 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0023",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "A temperature model is T = a sin(bt) + c, with t in hours. The maximum is 28 \u00b0C, the minimum is 12 \u00b0C and the period is 24 hours. Find a, b and c (a, b > 0).",
+   "imageRef": null,
+   "options": [
+    "a = 8, b = \u03c0/12, c = 12",
+    "a = 8, b = \u03c0/12, c = 20",
+    "a = 16, b = \u03c0/12, c = 20",
+    "a = 8, b = 24, c = 20"
+   ],
+   "correctIndex": 1,
+   "explanation": "The amplitude is (28 \u2212 12)/2 = 8 and the centre line is (28 + 12)/2 = 20. The period 2\u03c0/b = 24 gives b = \u03c0/12. Using 16, the full rise from minimum to maximum, doubles the amplitude.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0024",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "A seat on a Ferris wheel is h = 12 \u2212 10cos(\u03c0t/30) metres above the ground, t seconds after it starts at the bottom. How long does one revolution take?",
+   "imageRef": null,
+   "options": [
+    "60 seconds",
+    "30 seconds",
+    "120 seconds",
+    "20 seconds"
+   ],
+   "correctIndex": 0,
+   "explanation": "One revolution is one period: 2\u03c0 \u00f7 (\u03c0/30) = 60 seconds. The value 30 seconds is half a revolution, the time the seat takes to go from the bottom to the top.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0025",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "A seat on a Ferris wheel is h = 12 \u2212 10cos(\u03c0t/30) metres above the ground, t seconds after it starts. How high is the seat after 20 seconds?",
+   "imageRef": null,
+   "options": [
+    "22 m",
+    "2 m",
+    "17 m",
+    "7 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "h = 12 \u2212 10cos(2\u03c0/3) = 12 \u2212 10 \u00d7 (\u22121/2) = 12 + 5 = 17 m. Taking cos(2\u03c0/3) as +1/2 gives 7 m. The seat starts at the lowest height, 2 m, and has passed the halfway height of 12 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0026",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The depth of water in a harbour is d = 5 + 2sin(\u03c0t/6) metres, t hours after 6 am. For how long during 0 \u2264 t \u2264 12 is the depth at least 6 m?",
+   "imageRef": null,
+   "options": [
+    "8 hours",
+    "4 hours",
+    "2 hours",
+    "6 hours"
+   ],
+   "correctIndex": 1,
+   "explanation": "d \u2265 6 needs sin(\u03c0t/6) \u2265 1/2, so \u03c0/6 \u2264 \u03c0t/6 \u2264 5\u03c0/6, giving 1 \u2264 t \u2264 5. That is 4 hours. For 6 \u2264 t \u2264 12 the sine is never positive, so the depth is at most 5 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0027",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "A curve y = a sin(bx) + c has a maximum turning point at (\u03c0/4, 5) and the next minimum turning point at (3\u03c0/4, \u22121). Find its equation (a, b > 0).",
+   "imageRef": null,
+   "options": [
+    "y = 3sin(x/2) + 2",
+    "y = 3sin(2x) + 2",
+    "y = 3sin(4x) + 2",
+    "y = 6sin(2x) \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "From maximum to minimum is half a period, \u03c0/2, so the period is \u03c0 and b = 2. The amplitude is (5 \u2212 (\u22121))/2 = 3 and the centre line is y = 2. Using \u03c0/2 as the full period gives b = 4. Check: 3sin(\u03c0/2) + 2 = 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0028",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "A logarithmic scale is most suitable for a variable that:",
+   "imageRef": null,
+   "options": [
+    "ranges over several orders of magnitude",
+    "only takes whole-number values",
+    "increases by equal steps over time",
+    "stays within a narrow range of values"
+   ],
+   "correctIndex": 0,
+   "explanation": "A log scale gives equal spacing to equal ratios, so values from 0.001 to 1 000 000 can be shown clearly on one axis. A variable that grows by equal steps is linear and suits an ordinary scale.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0029",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "On an axis with a base-10 logarithmic scale, moving one major gridline to the right means the value is:",
+   "imageRef": null,
+   "options": [
+    "increased by 10",
+    "increased by 1",
+    "multiplied by 2",
+    "multiplied by 10"
+   ],
+   "correctIndex": 3,
+   "explanation": "Equal distances on a log scale stand for equal ratios. On a base-10 scale each major gridline is ten times the one before, for example 1, 10, 100, 1000. Adding 10 each step describes a linear scale.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0030",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Using pH = \u2212log\u2081\u2080[H\u207a], what is the pH of a solution with [H\u207a] = 10\u207b\u00b3 mol/L?",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "1/3",
+    "1000",
+    "3"
+   ],
+   "correctIndex": 3,
+   "explanation": "log\u2081\u2080(10\u207b\u00b3) = \u22123, and the negative sign in the definition makes the pH 3. Leaving out that sign gives \u22123, but the pH of an aqueous solution at this concentration is positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0031",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Solution A has pH 4 and solution B has pH 6. How do their hydrogen ion concentrations compare?",
+   "imageRef": null,
+   "options": [
+    "A has 20 times the [H\u207a] of B",
+    "A has 100 times the [H\u207a] of B",
+    "A has 2 times the [H\u207a] of B",
+    "B has 100 times the [H\u207a] of A"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each drop of 1 in pH multiplies [H\u207a] by 10, so a drop of 2 multiplies it by 10\u00b2 = 100. The lower pH means the higher concentration, so A, the more acidic, has more hydrogen ions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0032",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "On the decibel scale, an increase of 10 dB multiplies the sound intensity by:",
+   "imageRef": null,
+   "options": [
+    "100",
+    "20",
+    "10",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sound level is L = 10log\u2081\u2080(I/I\u2080), so adding 10 dB adds 1 to log\u2081\u2080(I/I\u2080), which multiplies the intensity by 10. Doubling the intensity adds only about 3 dB.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0033",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Sound A has a level of 60 dB and sound B a level of 90 dB. The intensity of sound B is how many times that of sound A?",
+   "imageRef": null,
+   "options": [
+    "1.5",
+    "3",
+    "1000",
+    "30"
+   ],
+   "correctIndex": 2,
+   "explanation": "The difference is 30 dB, which is three steps of 10 dB, each multiplying the intensity by 10: 10\u00b3 = 1000. The ratio 1.5 compares the decibel numbers, which are logarithms, not intensities.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0034",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Sound level is L = 10log\u2081\u2080(I/I\u2080) dB, where I\u2080 = 10\u207b\u00b9\u00b2 W/m\u00b2. What is the level of a sound with intensity 10\u207b\u2075 W/m\u00b2?",
+   "imageRef": null,
+   "options": [
+    "170 dB",
+    "70 dB",
+    "7 dB",
+    "\u221270 dB"
+   ],
+   "correctIndex": 1,
+   "explanation": "I/I\u2080 = 10\u207b\u2075 \u00f7 10\u207b\u00b9\u00b2 = 10\u2077, so L = 10 \u00d7 7 = 70 dB. Forgetting the factor of 10 in front of the logarithm gives 7 dB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0035",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "One machine produces a sound level of 80 dB. A second identical machine is switched on, so the total intensity doubles. Using log\u2081\u20802 \u2248 0.301, what is the new sound level?",
+   "imageRef": null,
+   "options": [
+    "160 dB",
+    "90 dB",
+    "About 80.3 dB",
+    "About 83 dB"
+   ],
+   "correctIndex": 3,
+   "explanation": "Doubling the intensity adds 10log\u2081\u20802 \u2248 3.01 dB, giving about 83 dB. Decibels are logarithms, so they do not add like intensities, which rules out 160 dB. Leaving out the factor 10 gives 80.3 dB.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0036",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "On the Richter scale, a magnitude 6 earthquake has a measured wave amplitude how many times that of a magnitude 4 earthquake?",
+   "imageRef": null,
+   "options": [
+    "100",
+    "2",
+    "20",
+    "1.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each increase of 1 on the Richter scale multiplies the measured amplitude by 10, so an increase of 2 multiplies it by 10\u00b2 = 100. The ratio 1.5 is just 6 \u00f7 4, which treats the scale as linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0037",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "The energy E joules released by an earthquake of magnitude M satisfies log\u2081\u2080E = 4.8 + 1.5M. How many times as much energy does a magnitude 7 earthquake release as a magnitude 5 earthquake?",
+   "imageRef": null,
+   "options": [
+    "1.4",
+    "1000",
+    "100",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The difference in log\u2081\u2080E is 1.5 \u00d7 (7 \u2212 5) = 3, so the energy ratio is 10\u00b3 = 1000. The answer 100 uses the amplitude rule of 10 per magnitude step, which does not apply to energy.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0038",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Which apparent magnitude belongs to the brightest-looking star?",
+   "imageRef": null,
+   "options": [
+    "0",
+    "2.5",
+    "6",
+    "\u22121.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The magnitude scale runs backwards: the smaller the number, the brighter the star appears, and the very brightest have negative magnitudes. A magnitude of 6 is close to the faintest the unaided eye can see.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0039",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Star P has apparent magnitude 1 and star Q has apparent magnitude 6. A difference of 5 magnitudes is a brightness ratio of 100. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Star P appears 5 times as bright as Q",
+    "Star P appears 6 times as bright as Q",
+    "Star P appears 100 times as bright as Q",
+    "Star Q appears 100 times as bright as P"
+   ],
+   "correctIndex": 2,
+   "explanation": "A lower magnitude means a brighter star, and the difference of 5 magnitudes is a ratio of 100. Treating magnitudes as a linear count of brightness gives the ratios 5 or 6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-trig-modelling-0040",
+   "topicId": "meth-hsc-trig-modelling",
+   "stem": "Star magnitudes satisfy m\u2081 \u2212 m\u2082 = \u22122.5log\u2081\u2080(b\u2081/b\u2082), where b is brightness. Star B has magnitude 4.0 and star A appears 10 times as bright as B. What is the magnitude of A?",
+   "imageRef": null,
+   "options": [
+    "\u22126.0",
+    "0.4",
+    "1.5",
+    "6.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "m_A \u2212 4.0 = \u22122.5log\u2081\u2080(10) = \u22122.5, so m_A = 1.5. A brighter star has a smaller magnitude, so the answer 6.5, from dropping the negative sign, describes a fainter star.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-trig-modelling-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

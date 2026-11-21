@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-tce-functions-equations",
+ "questions": [
+  {
+   "id": "meth-tce-functions-equations-0001",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "For positive m and n and a base a > 0, a \u2260 1, the log law for a product states that log_a(mn) equals:",
+   "imageRef": null,
+   "options": [
+    "log_a m \u00d7 log_a n",
+    "n log_a m",
+    "log_a m \u2212 log_a n",
+    "log_a m + log_a n"
+   ],
+   "correctIndex": 3,
+   "explanation": "The log of a product is the sum of the logs, because multiplying powers of a adds their indices. The product log_a m \u00d7 log_a n is a common slip with no matching rule.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0002",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "For m > 0, the log law for a power states that log_a(m^p) equals:",
+   "imageRef": null,
+   "options": [
+    "(log_a m)^p",
+    "log_a p + log_a m",
+    "log_a m/p",
+    "p log_a m"
+   ],
+   "correctIndex": 3,
+   "explanation": "log_a(m^p) = p log_a m: the index comes down as a multiplier. Raising the whole log to the power p is a different and incorrect expression.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0003",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The value of log\u2082 24 \u2212 log\u2082 3 is:",
+   "imageRef": null,
+   "options": [
+    "log\u2082 21",
+    "8",
+    "3",
+    "21"
+   ],
+   "correctIndex": 2,
+   "explanation": "log\u2082 24 \u2212 log\u2082 3 = log\u2082(24/3) = log\u2082 8 = 3. Subtracting the numbers inside the logs to get log\u2082 21 confuses the quotient law with subtraction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0004",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The value of 2 log\u2081\u2080 5 + log\u2081\u2080 4 is:",
+   "imageRef": null,
+   "options": [
+    "log\u2081\u2080 14",
+    "1",
+    "2",
+    "100"
+   ],
+   "correctIndex": 2,
+   "explanation": "2 log\u2081\u2080 5 = log\u2081\u2080 25, and log\u2081\u2080 25 + log\u2081\u2080 4 = log\u2081\u2080 100 = 2. The value 100 is the number inside the log, not the log itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0005",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The value of e^(2 ln 3) is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "2e\u00b3",
+    "9",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "2 ln 3 = ln 9, and e^(ln 9) = 9 because e\u02e3 and ln x are inverse functions. The value 6 comes from multiplying 2 by 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0006",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "Given p = log_a 2 and q = log_a 3, log_a 18 written in terms of p and q is:",
+   "imageRef": null,
+   "options": [
+    "6pq",
+    "p + 2q",
+    "2p + q",
+    "p \u00d7 q\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "18 = 2 \u00d7 3\u00b2, so log_a 18 = log_a 2 + 2 log_a 3 = p + 2q. The expression 2p + q matches 2\u00b2 \u00d7 3 = 12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0007",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solution of log\u2083 x + log\u2083(x \u2212 8) = 2 is:",
+   "imageRef": null,
+   "options": [
+    "x = 9 and x = \u22121",
+    "x = \u22121 only",
+    "x = 5",
+    "x = 9 only"
+   ],
+   "correctIndex": 3,
+   "explanation": "Combining the logs, log\u2083(x(x \u2212 8)) = 2, so x\u00b2 \u2212 8x = 9 and (x \u2212 9)(x + 1) = 0. The value x = \u22121 makes both logs undefined, so only x = 9 is a solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0008",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The exact solution of 5\u02e3 = 12, and its value to three decimal places, are:",
+   "imageRef": null,
+   "options": [
+    "x = 12/5 = 2.400",
+    "x = ln(12/5) \u2248 0.875",
+    "x = ln 12/ln 5 \u2248 1.544",
+    "x = ln 5/ln 12 \u2248 0.648"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking natural logs, x ln 5 = ln 12, so x = ln 12/ln 5 \u2248 1.544. Check: 5^1.544 \u2248 12. The value ln(12/5) wrongly divides inside the log.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0009",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solution of e^(2x) = 9 is:",
+   "imageRef": null,
+   "options": [
+    "x = 9/(2e)",
+    "x = ln 3",
+    "x = 2 ln 3",
+    "x = ln 4.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "2x = ln 9 = 2 ln 3, so x = ln 3. The value ln 4.5 halves the 9 before taking logs instead of halving the log.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0010",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solution of ln(2x \u2212 1) = 3 is:",
+   "imageRef": null,
+   "options": [
+    "x = (e\u00b3 + 1)/2",
+    "x = 2",
+    "x = (e\u00b3 \u2212 1)/2",
+    "x = (ln 3 + 1)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Converting to exponential form, 2x \u2212 1 = e\u00b3, so x = (e\u00b3 + 1)/2 \u2248 10.54. The value 2 solves 2x \u2212 1 = 3, ignoring the log.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0011",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The exact solution of 2^(x + 1) = 3\u02e3 is:",
+   "imageRef": null,
+   "options": [
+    "x = (ln 3 \u2212 ln 2)/ln 2",
+    "x = ln 2/(ln 3 \u2212 ln 2)",
+    "x = ln 3/(ln 3 \u2212 ln 2)",
+    "x = ln 2/ln 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Taking logs: (x + 1) ln 2 = x ln 3, so x(ln 3 \u2212 ln 2) = ln 2 and x = ln 2/(ln 3 \u2212 ln 2) \u2248 1.71. The others come from collecting the terms wrongly.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0012",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of e^(2x) \u2212 5e\u02e3 + 6 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = ln 2 and x = ln 3",
+    "x = 2 and x = 3",
+    "x = ln 6 and x = ln 5",
+    "x = \u2212ln 2 and x = \u2212ln 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let u = e\u02e3: u\u00b2 \u2212 5u + 6 = (u \u2212 2)(u \u2212 3) = 0, so e\u02e3 = 2 or e\u02e3 = 3, giving x = ln 2 or ln 3. The values 2 and 3 solve for e\u02e3, not x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0013",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The graphs of y = ln x and y = ln(6 \u2212 x) + ln 2 intersect where:",
+   "imageRef": null,
+   "options": [
+    "x = 2",
+    "x = 12",
+    "x = 4",
+    "x = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Setting them equal, ln x = ln(2(6 \u2212 x)), so x = 12 \u2212 2x and x = 4. This lies in both domains, 0 < x < 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0014",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "For functions f and g, the composite function f(g(x)) is defined when:",
+   "imageRef": null,
+   "options": [
+    "f and g have exactly the same domain",
+    "the range of f is a subset of the domain of g",
+    "the range of g is a subset of the domain of f",
+    "the domain of g is a subset of the range of f"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every output of g must be an allowed input of f, so ran g \u2286 dom f. The condition ran f \u2286 dom g is the one needed for g(f(x)).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0015",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "With f(x) = 2x + 1 and g(x) = x\u00b2, the values of f(g(3)) and g(f(3)) are:",
+   "imageRef": null,
+   "options": [
+    "19 and 49",
+    "49 and 19",
+    "19 and 19",
+    "13 and 49"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(g(3)) = f(9) = 19 and g(f(3)) = g(7) = 49. The order matters: the inner function is applied first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0016",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "With f(x) = \u221ax and g(x) = x \u2212 4, the composite f(g(x)) and its maximal domain are:",
+   "imageRef": null,
+   "options": [
+    "\u221ax \u2212 4, x \u2265 4",
+    "\u221a(x \u2212 4), x \u2265 4",
+    "\u221ax \u2212 4, x \u2265 0",
+    "\u221a(x \u2212 4), x \u2265 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "f(g(x)) = \u221a(x \u2212 4), which needs x \u2212 4 \u2265 0, so x \u2265 4. The expression \u221ax \u2212 4 is g(f(x)), the other order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0017",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "With f(x) = e\u02e3 and g(x) = 3x \u2212 1, the rule for g(f(x)) is:",
+   "imageRef": null,
+   "options": [
+    "e^(3x) \u2212 1",
+    "3e\u02e3 \u2212 1",
+    "e^(3x \u2212 1)",
+    "3e^(x \u2212 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "g(f(x)) = g(e\u02e3) = 3e\u02e3 \u2212 1. The rule e^(3x \u2212 1) is f(g(x)).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0018",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "With f(x) = ln x and g(x) = 1 \u2212 x\u00b2, the maximal domain of f(g(x)) is:",
+   "imageRef": null,
+   "options": [
+    "x > 0",
+    "x < 1",
+    "\u22121 \u2264 x \u2264 1",
+    "\u22121 < x < 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "ln(1 \u2212 x\u00b2) needs 1 \u2212 x\u00b2 > 0, so \u22121 < x < 1. The endpoints are excluded because ln 0 is undefined.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0019",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "A function has an inverse function only when it is:",
+   "imageRef": null,
+   "options": [
+    "many-to-one",
+    "defined for all real x",
+    "an increasing polynomial",
+    "one-to-one"
+   ],
+   "correctIndex": 3,
+   "explanation": "An inverse must send each output back to one input, which needs each output to come from exactly one input. A many-to-one function, like y = x\u00b2 on R, has no inverse function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0020",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The graph of y = f\u207b\u00b9(x) is the reflection of the graph of y = f(x) in the line:",
+   "imageRef": null,
+   "options": [
+    "y = x",
+    "y = 0",
+    "x = 0",
+    "y = \u2212x"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inverting swaps x and y, which reflects each point (a, b) to (b, a) across the line y = x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0021",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "Which of these functions, each on its maximal domain, is NOT one-to-one?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2",
+    "y = x\u00b3",
+    "y = e\u02e3",
+    "y = ln x"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = x\u00b2 gives the same output for x and \u2212x, so it fails the horizontal line test. The other three are strictly increasing on their domains.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0022",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The inverse of f(x) = 3x \u2212 6 is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = x/3 \u2212 6",
+    "f\u207b\u00b9(x) = 1/(3x \u2212 6)",
+    "f\u207b\u00b9(x) = x/3 + 2",
+    "f\u207b\u00b9(x) = 3x + 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swap x and y: x = 3y \u2212 6, so y = (x + 6)/3 = x/3 + 2. The reciprocal 1/(3x \u2212 6) is not the inverse function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0023",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The inverse of f(x) = e^(x \u2212 2) + 1, and its domain, are:",
+   "imageRef": null,
+   "options": [
+    "ln(x \u2212 2) + 1, x > 2",
+    "e^(x + 2) \u2212 1, x \u2208 R",
+    "ln(x \u2212 1) + 2, x > 1",
+    "ln(x + 1) \u2212 2, x > \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swap x and y: x = e^(y \u2212 2) + 1, so y \u2212 2 = ln(x \u2212 1) and y = ln(x \u2212 1) + 2. Its domain is the range of f, which is x > 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0024",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The inverse of f(x) = 2 ln(x + 3), x > \u22123, is:",
+   "imageRef": null,
+   "options": [
+    "e^(x/2) + 3",
+    "(e^x \u2212 3)/2",
+    "e^(x/2) \u2212 3",
+    "e^(2x) \u2212 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Swap x and y: x = 2 ln(y + 3), so ln(y + 3) = x/2 and y = e^(x/2) \u2212 3. Using e^(2x) multiplies by 2 instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0025",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The inverse of f(x) = 4/(x \u2212 1) + 2, x \u2260 1, is:",
+   "imageRef": null,
+   "options": [
+    "4/(x \u2212 2) + 1, x \u2260 2",
+    "4/(x \u2212 1) \u2212 2, x \u2260 1",
+    "4/(x + 2) \u2212 1, x \u2260 \u22122",
+    "(x \u2212 1)/4 + 2, x \u2208 R"
+   ],
+   "correctIndex": 0,
+   "explanation": "Swap x and y: x \u2212 2 = 4/(y \u2212 1), so y \u2212 1 = 4/(x \u2212 2) and y = 4/(x \u2212 2) + 1. The asymptotes swap: x = 1 and y = 2 become y = 1 and x = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0026",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The function f: [2, \u221e) \u2192 R, f(x) = (x \u2212 2)\u00b2 + 1 has inverse:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = 2 \u00b1 \u221a(x \u2212 1), x \u2265 1",
+    "f\u207b\u00b9(x) = 2 + \u221a(x \u2212 1), x \u2265 1",
+    "f\u207b\u00b9(x) = 2 \u2212 \u221a(x \u2212 1), x \u2265 1",
+    "f\u207b\u00b9(x) = 1 + \u221a(x \u2212 2), x \u2265 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Swapping gives (y \u2212 2)\u00b2 = x \u2212 1, so y = 2 \u00b1 \u221a(x \u2212 1). The range of the inverse must be [2, \u221e), the domain of f, so take the positive root, with domain x \u2265 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0027",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "f(x) = (x + 3)\u00b2 \u2212 4 is restricted to the domain [a, \u221e). The smallest value of a for which f has an inverse function is:",
+   "imageRef": null,
+   "options": [
+    "\u22123",
+    "3",
+    "\u22124",
+    "\u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "The parabola has its turning point at x = \u22123. It is one-to-one on [\u22123, \u221e), and any domain starting further left includes both sides of the turning point.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0028",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "A one-to-one function f has domain [1, 5] and range [2, 10]. The domain and range of f\u207b\u00b9 are:",
+   "imageRef": null,
+   "options": [
+    "domain [2, 10], range [1, 5]",
+    "domain [1, 5], range [2, 10]",
+    "domain [1, 10], range [1, 10]",
+    "domain [1/5, 1], range [1/10, 1/2]"
+   ],
+   "correctIndex": 0,
+   "explanation": "Inverting swaps inputs and outputs, so the domain of f\u207b\u00b9 is the range of f, and the range of f\u207b\u00b9 is the domain of f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0029",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "For the one-to-one function f(x) = x\u00b3 + 1, the value of f\u207b\u00b9(9) is:",
+   "imageRef": null,
+   "options": [
+    "730",
+    "1/730",
+    "8",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "f\u207b\u00b9(9) is the x with x\u00b3 + 1 = 9, so x\u00b3 = 8 and x = 2. The value 730 is f(9), not f\u207b\u00b9(9).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0030",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of sin x = 1/2 for 0 \u2264 x \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/3 and 2\u03c0/3",
+    "x = \u03c0/6 and 11\u03c0/6",
+    "x = \u03c0/6 and 5\u03c0/6",
+    "x = \u03c0/6 and 7\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin x > 0 in the first and second quadrants, so x = \u03c0/6 and \u03c0 \u2212 \u03c0/6 = 5\u03c0/6. The pair \u03c0/6 and 11\u03c0/6 is where cos x = \u221a3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0031",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of cos x = \u2212\u221a3/2 for 0 \u2264 x \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 and 11\u03c0/6",
+    "x = 2\u03c0/3 and 4\u03c0/3",
+    "x = 7\u03c0/6 and 11\u03c0/6",
+    "x = 5\u03c0/6 and 7\u03c0/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The reference angle is \u03c0/6, and cos x < 0 in the second and third quadrants: x = \u03c0 \u2212 \u03c0/6 = 5\u03c0/6 and \u03c0 + \u03c0/6 = 7\u03c0/6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0032",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of 2 sin(2x) = \u221a3 for 0 \u2264 x \u2264 \u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/12 and \u03c0/6",
+    "x = \u03c0/6 and \u03c0/3",
+    "x = \u03c0/3 and 2\u03c0/3",
+    "x = \u03c0/6 and 5\u03c0/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "sin(2x) = \u221a3/2 with 0 \u2264 2x \u2264 2\u03c0 gives 2x = \u03c0/3 or 2\u03c0/3, so x = \u03c0/6 or \u03c0/3. Forgetting to halve gives \u03c0/3 and 2\u03c0/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0033",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of tan(2x) = 1 for 0 \u2264 x \u2264 \u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/8 and 5\u03c0/8",
+    "x = \u03c0/4 and 5\u03c0/4",
+    "x = \u03c0/8 only",
+    "x = \u03c0/8 and 3\u03c0/8"
+   ],
+   "correctIndex": 0,
+   "explanation": "For 0 \u2264 2x \u2264 2\u03c0, tan(2x) = 1 at 2x = \u03c0/4 and 5\u03c0/4, so x = \u03c0/8 and 5\u03c0/8. The value 5\u03c0/4 lies outside the domain for x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0034",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of sin x = \u221a3 cos x for 0 \u2264 x \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/6 and 5\u03c0/6",
+    "x = \u03c0/3 and 4\u03c0/3",
+    "x = \u03c0/6 and 7\u03c0/6",
+    "x = \u03c0/3 and 2\u03c0/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dividing by cos x gives tan x = \u221a3, so x = \u03c0/3 or \u03c0 + \u03c0/3 = 4\u03c0/3. The answer \u03c0/6 comes from tan x = 1/\u221a3, which divides the wrong way.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0035",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "The solutions of sin(x + \u03c0/6) = \u22121/2 for 0 \u2264 x \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = 4\u03c0/3 and 2\u03c0",
+    "x = \u03c0/3 and 2\u03c0/3",
+    "x = \u03c0 and 5\u03c0/3",
+    "x = 7\u03c0/6 and 11\u03c0/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "With \u03c0/6 \u2264 x + \u03c0/6 \u2264 13\u03c0/6, sin = \u22121/2 at x + \u03c0/6 = 7\u03c0/6 or 11\u03c0/6, so x = \u03c0 or 5\u03c0/3. The values 7\u03c0/6 and 11\u03c0/6 forget to subtract \u03c0/6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-tce-functions-equations-0036",
+   "topicId": "meth-tce-functions-equations",
+   "stem": "How many solutions does cos(3x) = 0.4 have for 0 \u2264 x \u2264 2\u03c0?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "correctIndex": 3,
+   "explanation": "For 0 \u2264 3x \u2264 6\u03c0, cos takes the value 0.4 twice in each of three full cycles, so there are 6 solutions. The value 2 counts only one cycle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-tce-functions-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

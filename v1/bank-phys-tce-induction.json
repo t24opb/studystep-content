@@ -1,0 +1,689 @@
+{
+ "topicId": "phys-tce-induction",
+ "questions": [
+  {
+   "id": "phys-tce-induction-0001",
+   "topicId": "phys-tce-induction",
+   "stem": "What is the electromotive force (emf) induced in a conductor?",
+   "imageRef": null,
+   "options": [
+    "The potential difference across it when no current is being drawn",
+    "The force that pushes each electron along the conductor",
+    "The current that flows when the conductor is joined to a resistor",
+    "The energy lost as heat inside the conductor each second"
+   ],
+   "correctIndex": 0,
+   "explanation": "Emf is the theoretical potential difference produced by the induction process when no current flows. Despite its name it is not a force; it is measured in volts. Once current flows, the potential difference across an external resistor may be less.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0002",
+   "topicId": "phys-tce-induction",
+   "stem": "A metal rod moves at right angles through a uniform magnetic field. Why does a potential difference appear between its ends?",
+   "imageRef": null,
+   "options": [
+    "The rod's motion through the air rubs electrons off one end by friction",
+    "The field adds extra electrons to the rod, which collect at the leading end",
+    "The field exerts a force on the moving free electrons, pushing them towards one end",
+    "The field magnetises the rod, giving it a north pole at one end and a south pole at the other"
+   ],
+   "correctIndex": 2,
+   "explanation": "The free electrons move with the rod, so each feels a magnetic force qvB along the rod. Electrons pile up at one end, leaving the other end positive, until the electric field they create balances the magnetic force. No charge is added or removed from the rod.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0003",
+   "topicId": "phys-tce-induction",
+   "stem": "A metal rod 0.50 m long moves at 4.0 m s\u207b\u00b9 at right angles to a uniform 0.20 T magnetic field, with the rod also perpendicular to the field. What emf is induced across the rod?",
+   "imageRef": null,
+   "options": [
+    "0.80 V",
+    "0.40 V",
+    "10 V",
+    "0.10 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "emf = vlB = 4.0 \u00d7 0.50 \u00d7 0.20 = 0.40 V. Dividing by B instead of multiplying gives 10 V, leaving out the speed gives 0.10 V and leaving out the length gives 0.80 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0004",
+   "topicId": "phys-tce-induction",
+   "stem": "The same 0.50 m rod moves at 4.0 m s\u207b\u00b9 through the 0.20 T field, but its velocity now makes an angle of 30\u00b0 with the field direction. What emf is induced?",
+   "imageRef": null,
+   "options": [
+    "0.35 V",
+    "0.40 V",
+    "0.80 V",
+    "0.20 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "emf = vlB sin \u03b8 with \u03b8 the angle between velocity and field: 4.0 \u00d7 0.50 \u00d7 0.20 \u00d7 sin 30\u00b0 = 0.20 V. Using cos 30\u00b0 gives 0.35 V, and 0.40 V ignores the angle completely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0005",
+   "topicId": "phys-tce-induction",
+   "stem": "A conducting rod moves parallel to the field lines of a uniform magnetic field. What emf is induced across it?",
+   "imageRef": null,
+   "options": [
+    "Zero, because it does not cut across any field lines",
+    "vlB, because it is moving through the field",
+    "vlB/2, because only half the field acts on it",
+    "A changing emf, because it moves in and out of the field"
+   ],
+   "correctIndex": 0,
+   "explanation": "emf = vlB sin \u03b8, and \u03b8 = 0\u00b0 when the velocity is parallel to the field, so the emf is zero. Moving along the field lines, the free charges feel no magnetic force. Only motion with a component across the field induces an emf.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0006",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod with an emf of 0.40 V across it slides along metal rails joined by a 2.0 \u03a9 resistor. The rod and rails have negligible resistance. What current flows?",
+   "imageRef": null,
+   "options": [
+    "0.10 A",
+    "0.20 A",
+    "0.80 A",
+    "5.0 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ohm's law gives I = emf/R = 0.40/2.0 = 0.20 A. Multiplying gives 0.80 A, and dividing the resistance by the emf gives 5.0 A. The rod acts like a source of emf in a simple circuit.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0007",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod 0.50 m long slides at a steady 4.0 m s\u207b\u00b9 on rails through a 0.20 T field, perpendicular to it. The rails are joined by a 2.0 \u03a9 resistor and other resistances are negligible. At what rate must the external force do work on the rod?",
+   "imageRef": null,
+   "options": [
+    "0.16 W",
+    "0.080 W",
+    "0.020 W",
+    "0.040 W"
+   ],
+   "correctIndex": 1,
+   "explanation": "emf = vlB = 0.40 V, so I = 0.20 A and the opposing force is BIl = 0.20 \u00d7 0.20 \u00d7 0.50 = 0.020 N. The external power is Fv = 0.020 \u00d7 4.0 = 0.080 W, which equals I\u00b2R = 0.20\u00b2 \u00d7 2.0, the rate of heating in the resistor. Quoting 0.020 gives the force, not the power, and 0.16 W is emf\u00b2 without dividing by R.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0008",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod slides at constant speed along rails connected to a resistor, in a magnetic field. Why must a steady force be applied to keep it moving?",
+   "imageRef": null,
+   "options": [
+    "The resistor stores charge, which pulls the rod backwards",
+    "The induced current in the rod feels a magnetic force that opposes its motion",
+    "The magnetic field attracts the rod and holds it in place on the rails",
+    "Friction between the rod and rails increases when current flows"
+   ],
+   "correctIndex": 1,
+   "explanation": "The induced current flows through the rod while it is in the field, so the rod feels a force BIl. By Lenz's law this force opposes the motion. The applied force does work against it, and that work becomes electrical energy and then heat in the resistor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0009",
+   "topicId": "phys-tce-induction",
+   "stem": "A north-south rod moves east through a magnetic field that points vertically downward. Which end of the rod is at the higher potential?",
+   "imageRef": null,
+   "options": [
+    "Neither end, because the rod is perpendicular to its velocity",
+    "Both ends, while its middle is at a lower potential",
+    "The north end",
+    "The south end"
+   ],
+   "correctIndex": 2,
+   "explanation": "For positive charges, the right-hand palm rule with thumb east (velocity) and fingers down (field) gives a force to the north. Positive charge effectively collects at the north end, which is the higher potential; electrons are pushed to the south end.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0010",
+   "topicId": "phys-tce-induction",
+   "stem": "An aircraft with a wingspan of 30 m flies horizontally at 250 m s\u207b\u00b9 where the vertical component of Earth's field is 5.0 \u00d7 10\u207b\u2075 T. What emf is induced between its wingtips?",
+   "imageRef": null,
+   "options": [
+    "3.8 \u00d7 10\u207b\u2074 V",
+    "0.0015 V",
+    "1.5 \u00d7 10\u2078 V",
+    "0.38 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "The wings move horizontally, so they cut the vertical component of the field: emf = vlB = 250 \u00d7 30 \u00d7 5.0 \u00d7 10\u207b\u2075 \u2248 0.38 V. The value 0.0015 V comes from leaving out the speed, and 1.5 \u00d7 10\u2078 V from dividing by B. The emf cannot drive a current through wires on the plane, which carry the same emf.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0011",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod connected to a resistor slides through a magnetic field. Its speed is doubled. What happens to the electrical power dissipated in the resistor?",
+   "imageRef": null,
+   "options": [
+    "It halves",
+    "It increases by a factor of four",
+    "It doubles",
+    "It stays the same"
+   ],
+   "correctIndex": 1,
+   "explanation": "Doubling v doubles the emf vlB, so the current doubles too. Power is I\u00b2R or V\u00b2/R, so it increases by a factor of 2\u00b2 = 4. The external force also doubles, so the mechanical power Fv rises by four times as well.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0012",
+   "topicId": "phys-tce-induction",
+   "stem": "A conducting rod moves at a steady speed through a magnetic field but is not connected to anything. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "A current flows along the rod, so an opposing force acts on it",
+    "The emf grows steadily for as long as the rod stays in the field",
+    "An emf exists across the rod, but no current flows and no opposing force acts",
+    "No emf is induced, because there is no complete circuit for the charges"
+   ],
+   "correctIndex": 2,
+   "explanation": "Charges separate until the electric force balances the magnetic force, giving a steady emf vlB. With no complete circuit there is no continuing current, so there is no BIl force opposing the motion and no energy is needed to keep the rod moving.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0013",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod 0.80 m long moves at right angles through a uniform 0.25 T field, and a voltmeter across its ends reads 0.60 V. How fast is the rod moving?",
+   "imageRef": null,
+   "options": [
+    "3.0 m s\u207b\u00b9",
+    "0.12 m s\u207b\u00b9",
+    "0.33 m s\u207b\u00b9",
+    "1.9 m s\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearranging emf = vlB gives v = emf/(lB) = 0.60 / (0.80 \u00d7 0.25) = 3.0 m s\u207b\u00b9. Multiplying all three values gives 0.12, and 0.33 is the reciprocal of the correct answer. A voltmeter draws almost no current, so it reads the emf.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0014",
+   "topicId": "phys-tce-induction",
+   "stem": "Which feature of a simple AC generator lets it deliver alternating current to an external circuit?",
+   "imageRef": null,
+   "options": [
+    "A permanent magnet inside the coil that spins with it",
+    "A transformer, which converts the coil's steady emf into an alternating one",
+    "Slip rings, which keep each end of the coil connected to the same brush",
+    "A split-ring commutator, which reverses the connections every half turn"
+   ],
+   "correctIndex": 2,
+   "explanation": "As the coil rotates, the emf in it reverses each half turn. Slip rings keep each end of the coil joined to the same brush, so the alternating emf reaches the external circuit. A split-ring commutator would flip the connections and give a rectified output.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0015",
+   "topicId": "phys-tce-induction",
+   "stem": "In a simple AC generator, at what position of the rotating coil is the induced emf greatest?",
+   "imageRef": null,
+   "options": [
+    "When the plane of the coil is parallel to the magnetic field",
+    "When the plane of the coil is perpendicular to the magnetic field",
+    "When the plane of the coil is at 45\u00b0 to the magnetic field",
+    "At every position, because the coil turns at a constant rate"
+   ],
+   "correctIndex": 0,
+   "explanation": "The emf depends on how fast the coil's sides cut across field lines, vlB sin \u03b8. When the coil's plane is parallel to the field, its sides move at right angles to the field and the emf is greatest. When the plane is perpendicular, the sides move along the field and the emf is momentarily zero.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0016",
+   "topicId": "phys-tce-induction",
+   "stem": "A generator coil has 50 turns. Each of its two long sides is 0.20 m long and, at one instant, moves at 3.0 m s\u207b\u00b9 at right angles to a 0.10 T field. What is the emf of the coil at that instant?",
+   "imageRef": null,
+   "options": [
+    "3.0 V",
+    "0.12 V",
+    "0.060 V",
+    "6.0 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each side of each turn has emf vlB = 3.0 \u00d7 0.20 \u00d7 0.10 = 0.060 V. The two sides move in opposite directions on opposite sides of the axle, so their emfs add around the turn, giving 0.12 V per turn and 50 \u00d7 0.12 = 6.0 V. Counting only one side gives 3.0 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0017",
+   "topicId": "phys-tce-induction",
+   "stem": "The rotation speed of an AC generator's coil is doubled. What happens to its output?",
+   "imageRef": null,
+   "options": [
+    "The peak emf doubles and the frequency doubles",
+    "The peak emf doubles but the frequency is unchanged",
+    "The frequency doubles but the peak emf is unchanged",
+    "The peak emf increases by a factor of four"
+   ],
+   "correctIndex": 0,
+   "explanation": "Faster rotation means the sides move through the field twice as fast, doubling the peak emf vlB. The coil also completes twice as many turns each second, so the alternating emf has twice the frequency.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0018",
+   "topicId": "phys-tce-induction",
+   "stem": "A coil rotates at a steady rate in a uniform field, connected through slip rings to a resistor. What is the shape of the emf against time?",
+   "imageRef": null,
+   "options": [
+    "A series of positive humps that never go negative",
+    "A sine curve, alternating between positive and negative",
+    "A straight line rising at a constant rate",
+    "A constant value that does not change with time"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rate at which the sides cut across the field varies smoothly as the coil turns, giving a sinusoidal emf that reverses every half turn. Positive humps only would be the output with a split-ring commutator.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0019",
+   "topicId": "phys-tce-induction",
+   "stem": "A student turns a hand-cranked generator joined to a lamp. When the lamp's switch is closed and it lights, the handle becomes harder to turn. Why?",
+   "imageRef": null,
+   "options": [
+    "The lamp's heat expands the coil, increasing friction at the slip rings",
+    "Closing the switch strengthens the magnet, which grips the iron coil harder",
+    "The lamp sends current back to the generator, which reverses the coil's motion",
+    "The current in the coil feels a force opposing the rotation, so more work is needed"
+   ],
+   "correctIndex": 3,
+   "explanation": "With the circuit complete, the induced current flows through the coil's sides in the magnetic field, so they feel forces BIl that, by Lenz's law, oppose the rotation. The student must do extra work against these forces, and that work becomes the light and heat from the lamp.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0020",
+   "topicId": "phys-tce-induction",
+   "stem": "What does Lenz's law state about an induced current?",
+   "imageRef": null,
+   "options": [
+    "It flows only while the magnetic field is held constant",
+    "It flows in a direction that opposes the change that produces it",
+    "It flows in a direction that increases the change that produces it",
+    "It always flows clockwise when viewed from the north pole of the magnet"
+   ],
+   "correctIndex": 1,
+   "explanation": "Lenz's law says the induced current sets up effects, such as its own magnetic field or a force, that oppose the change causing it. A current that reinforced the change would make energy appear from nowhere.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0021",
+   "topicId": "phys-tce-induction",
+   "stem": "The north pole of a bar magnet is pushed towards one end of a coil connected to a meter. What magnetic pole forms at that end of the coil?",
+   "imageRef": null,
+   "options": [
+    "A south pole, which pulls the magnet into the coil",
+    "A north pole, repelling the approaching magnet",
+    "A south pole, attracting the approaching magnet",
+    "No pole forms until the magnet stops moving"
+   ],
+   "correctIndex": 1,
+   "explanation": "The induced current opposes the change, which is the approaching north pole. It does this by making the near end of the coil a north pole, which repels the magnet. You must push to bring the magnet closer, and that work becomes electrical energy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0022",
+   "topicId": "phys-tce-induction",
+   "stem": "The north pole of a magnet is now pulled away from the same end of the coil. What does the induced current do?",
+   "imageRef": null,
+   "options": [
+    "Nothing, because a current is induced only by an approaching magnet",
+    "It makes that end a south pole, which attracts the retreating magnet",
+    "It makes that end a north pole, which repels the retreating magnet",
+    "It flows in the same direction as when the magnet was pushed in"
+   ],
+   "correctIndex": 1,
+   "explanation": "Now the change is the north pole moving away, so the induced current opposes it by making the near end a south pole that attracts the magnet. The current is reversed compared with when the magnet approached.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0023",
+   "topicId": "phys-tce-induction",
+   "stem": "Why must Lenz's law be true?",
+   "imageRef": null,
+   "options": [
+    "Induced currents always flow from the positive terminal to the negative terminal",
+    "Moving magnets lose strength, so any current they induce must be weak",
+    "Induced charges must be conserved, so the current must flow backwards",
+    "If induced currents aided the change, energy would be created from nothing"
+   ],
+   "correctIndex": 3,
+   "explanation": "If the induced current helped the change, a tiny push would make the magnet speed up and induce ever larger currents, producing electrical and kinetic energy with no input. Conservation of energy rules this out, so the induced effect must oppose the change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0024",
+   "topicId": "phys-tce-induction",
+   "stem": "A long straight wire runs up the page, with a rectangular wire loop to its right in the plane of the page. The upward current in the straight wire is increasing. What is the direction of the induced current in the loop?",
+   "imageRef": null,
+   "options": [
+    "Anticlockwise",
+    "Clockwise",
+    "There is no induced current",
+    "Up the side nearer the wire, then into the page"
+   ],
+   "correctIndex": 0,
+   "explanation": "To the right of an upward current the field points into the page, and it is growing. The induced current opposes the increase by making a field out of the page inside the loop, which requires an anticlockwise current. If the wire's current were steady, there would be no induced current.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0025",
+   "topicId": "phys-tce-induction",
+   "stem": "Two coils are wound on the same iron ring. The first is connected to a battery and switch, the second to a sensitive meter. What does the meter show?",
+   "imageRef": null,
+   "options": [
+    "A steady reading that grows larger the longer the switch is closed",
+    "No reading at any time, because the coils are not connected",
+    "A brief flick when the switch closes and a brief opposite flick when it opens",
+    "A steady reading for as long as the switch is closed"
+   ],
+   "correctIndex": 2,
+   "explanation": "An emf is induced in the second coil only while the field through it is changing, which happens as the current in the first coil starts or stops. A steady current gives a steady field and no induced emf. Stopping reverses the change, so the second flick is in the opposite direction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0026",
+   "topicId": "phys-tce-induction",
+   "stem": "A coil sits at rest next to a stationary magnet. Which change would induce a current in the coil?",
+   "imageRef": null,
+   "options": [
+    "Using a stronger magnet that is also held at rest",
+    "Painting the coil with an insulating varnish",
+    "Moving the magnet away from the coil",
+    "Leaving both at rest but waiting longer"
+   ],
+   "correctIndex": 2,
+   "explanation": "A current is induced only when the magnetic field through the coil changes, for example by moving the magnet or the coil. A field that is steady, however strong, induces nothing in a stationary coil.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0027",
+   "topicId": "phys-tce-induction",
+   "stem": "What does a changing magnetic field produce in the space around it, even where there is no conductor?",
+   "imageRef": null,
+   "options": [
+    "A permanent magnet",
+    "An electric field",
+    "A gravitational field",
+    "A static charge"
+   ],
+   "correctIndex": 1,
+   "explanation": "A changing magnetic field induces an electric field. If a conductor is present, that electric field drives the free charges and an induced current flows; without one, the field is still there. This link between changing fields is also how electromagnetic waves travel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0028",
+   "topicId": "phys-tce-induction",
+   "stem": "Why does a transformer work with alternating current but not with a steady direct current?",
+   "imageRef": null,
+   "options": [
+    "Only a changing current makes the changing magnetic field needed to induce an emf in the secondary",
+    "Direct current is too small to pass through the many turns of the primary coil",
+    "Direct current flows in the wrong direction to reach the secondary coil",
+    "The iron core conducts direct current straight back to the supply"
+   ],
+   "correctIndex": 0,
+   "explanation": "The primary's alternating current makes a continually changing magnetic field in the core, and this changing field induces an alternating emf in the secondary. A steady current gives a steady field, which induces nothing once the current has settled.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0029",
+   "topicId": "phys-tce-induction",
+   "stem": "A transformer has many more turns on its secondary coil than on its primary. What does it do?",
+   "imageRef": null,
+   "options": [
+    "It raises the voltage and lowers the current",
+    "It raises both the voltage and the current",
+    "It lowers the voltage and raises the current",
+    "It raises the voltage and also raises the power"
+   ],
+   "correctIndex": 0,
+   "explanation": "More secondary turns means a larger induced emf, so it is a step-up transformer. In a nearly ideal transformer the power out roughly equals the power in, so if the voltage goes up the current must go down. No transformer can increase the power.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0030",
+   "topicId": "phys-tce-induction",
+   "stem": "What is the main purpose of the soft iron core in a transformer?",
+   "imageRef": null,
+   "options": [
+    "To store electrical energy between one cycle of the current and the next",
+    "To keep the coils cool by drawing heat away from the wire",
+    "To carry the changing magnetic field from the primary coil through the secondary coil",
+    "To conduct current directly from the primary coil to the secondary coil"
+   ],
+   "correctIndex": 2,
+   "explanation": "The soft iron core concentrates the magnetic field made by the primary and links nearly all of it through the secondary, so the changing field induces a large emf there. The coils are insulated from the core and from each other; no current passes between them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0031",
+   "topicId": "phys-tce-induction",
+   "stem": "Why is a transformer's iron core made of thin insulated layers (laminations) rather than one solid block?",
+   "imageRef": null,
+   "options": [
+    "To make the core lighter so that the transformer can vibrate freely",
+    "To stop the core becoming magnetised by the primary coil",
+    "To reduce eddy currents in the core and the heating they cause",
+    "To increase eddy currents, which carry energy to the secondary coil"
+   ],
+   "correctIndex": 2,
+   "explanation": "The changing field induces circulating eddy currents in the core itself, wasting energy as heat. Insulated laminations break up the paths these currents would follow, greatly reducing them. The core still needs to be magnetised to do its job.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0032",
+   "topicId": "phys-tce-induction",
+   "stem": "Some trains slow down by switching on electromagnets near a metal disc or rail. How does this braking work?",
+   "imageRef": null,
+   "options": [
+    "The magnets attract the metal so strongly that friction stops the train",
+    "The magnets switch off the train's motors by reversing the current in them",
+    "Static charge builds up on the metal and the electric force slows the train",
+    "Eddy currents induced in the metal create forces opposing the motion, turning kinetic energy into heat"
+   ],
+   "correctIndex": 3,
+   "explanation": "Metal moving through the magnetic field has eddy currents induced in it. By Lenz's law these currents produce forces that oppose the motion, and the kinetic energy is converted to heat in the metal. There is no contact, so the braking force fades as the train slows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0033",
+   "topicId": "phys-tce-induction",
+   "stem": "An induction cooktop heats a steel pan but barely warms a glass dish placed on it. Why?",
+   "imageRef": null,
+   "options": [
+    "The cooktop emits infrared radiation that steel absorbs but glass reflects",
+    "Steel is magnetic, so the cooktop pulls it closer to its heating element",
+    "A changing magnetic field induces eddy currents in the conducting pan, which heat it",
+    "The cooktop's surface becomes very hot and the pan conducts the heat better than glass"
+   ],
+   "correctIndex": 2,
+   "explanation": "A coil under the surface carries alternating current, making a rapidly changing magnetic field. This induces eddy currents in the metal base of the pan, and their heating cooks the food. Glass is an insulator, so no eddy currents flow in it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0034",
+   "topicId": "phys-tce-induction",
+   "stem": "A solid copper plate and an otherwise identical plate with deep slots cut in it are each swung as pendulums between the poles of a strong magnet. What is observed?",
+   "imageRef": null,
+   "options": [
+    "Both plates stop at the same rate, because they are both copper",
+    "Both swing freely, because copper is not attracted to magnets",
+    "The solid plate stops quickly; the slotted plate swings for much longer",
+    "The slotted plate stops quickly; the solid plate swings for much longer"
+   ],
+   "correctIndex": 2,
+   "explanation": "Moving through the field induces eddy currents, and Lenz's law makes their forces oppose the swing. The slots break up the paths of the eddy currents, so the slotted plate has much smaller currents and less braking. Copper is not magnetic, so the braking comes entirely from induction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0035",
+   "topicId": "phys-tce-induction",
+   "stem": "A rod is pulled at a constant speed along rails through a magnetic field, with a resistor joining the rails. The resistor is replaced by one of larger resistance and the speed is kept the same. What happens to the force needed?",
+   "imageRef": null,
+   "options": [
+    "It becomes zero, because no current can flow through a large resistance",
+    "It decreases, because the smaller current gives a smaller opposing force",
+    "It increases, because the larger resistance opposes the rod's motion",
+    "It stays the same, because the emf depends only on v, l and B"
+   ],
+   "correctIndex": 1,
+   "explanation": "The emf vlB is unchanged, but a larger resistance gives a smaller current, so the opposing force BIl is smaller and less work is needed each second. The resistance does not itself push on the rod; the force comes from the current in the field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-tce-induction-0036",
+   "topicId": "phys-tce-induction",
+   "stem": "A magnet is dropped through a coil connected to a data logger. Which feature of the recorded emf is correct?",
+   "imageRef": null,
+   "options": [
+    "A pulse as the magnet enters and an opposite pulse as it leaves",
+    "A single pulse in the same direction as it enters and leaves",
+    "A steady emf for the whole time the magnet is inside the coil",
+    "No emf, since the magnet falls freely and does no work"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the magnet enters, the field through the coil increases; as it leaves, the field decreases. These changes are opposite, so the induced emfs have opposite signs. The magnet is moving faster as it leaves, so the second pulse is larger and shorter.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-tce-induction-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-hsc-financial",
+ "questions": [
+  {
+   "id": "meth-hsc-financial-0001",
+   "topicId": "meth-hsc-financial",
+   "stem": "A reducing balance loan is best described as:",
+   "imageRef": null,
+   "options": [
+    "a loan where interest is charged only on the original amount",
+    "an investment with regular equal contributions",
+    "a compound interest loan with regular repayments",
+    "a simple interest loan repaid in one sum"
+   ],
+   "correctIndex": 2,
+   "explanation": "Interest is charged on the balance still owing, which compounds, and regular repayments reduce that balance. Interest only on the original amount describes simple interest. Regular contributions describe an annuity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0002",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of P dollars is charged interest at rate r per period, and a repayment of M dollars is made at the end of each period. What is the amount owing after the first period?",
+   "imageRef": null,
+   "options": [
+    "P(1 + r) \u2212 M",
+    "(P \u2212 M)(1 + r)",
+    "P \u2212 M(1 + r)",
+    "P(1 + r) + M"
+   ],
+   "correctIndex": 0,
+   "explanation": "Interest is added to the balance during the period, giving P(1 + r), and the repayment comes off at the end. Writing (P \u2212 M)(1 + r) takes the repayment off before interest is charged, as if it were paid at the start.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0003",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan has an interest rate of 6% per annum, compounded monthly. What is the interest rate per month?",
+   "imageRef": null,
+   "options": [
+    "0.0006",
+    "0.005",
+    "0.06",
+    "0.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "6% per year shared over 12 months is 0.5% per month, which is 0.005 as a decimal. The value 0.5 is the percentage, not the decimal rate.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0004",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan is repaid with monthly repayments over 20 years. How many repayments are made?",
+   "imageRef": null,
+   "options": [
+    "2400",
+    "240",
+    "20",
+    "120"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 12 repayments a year for 20 years, so 12 \u00d7 20 = 240. The number of periods must match the compounding period, so the monthly rate is used with 240 periods.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0005",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan is repaid at $1500 per month for 25 years. What is the total amount repaid?",
+   "imageRef": null,
+   "options": [
+    "$37 500",
+    "$18 000",
+    "$375 000",
+    "$450 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "There are 12 \u00d7 25 = 300 repayments of $1500, so the total is $450 000. The value $18 000 is one year of repayments, and $37 500 multiplies by the number of years only.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0006",
+   "topicId": "meth-hsc-financial",
+   "stem": "A person borrows $300 000 and repays a total of $450 000. How much interest was paid?",
+   "imageRef": null,
+   "options": [
+    "$150 000",
+    "$450 000",
+    "$750 000",
+    "$300 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interest is the total repaid minus the amount borrowed: 450 000 \u2212 300 000 = $150 000. The rest of the repayments returned the money that was borrowed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0007",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of $300 000 is charged 6% per annum interest, compounded monthly. How much interest is charged in the first month?",
+   "imageRef": null,
+   "options": [
+    "$15 000",
+    "$1500",
+    "$18 000",
+    "$150"
+   ],
+   "correctIndex": 1,
+   "explanation": "The monthly rate is 0.5%, and 0.005 \u00d7 300 000 = $1500. The value $18 000 is a full year at 6%.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0008",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of $300 000 has interest of $1500 charged in the first month, and the first monthly repayment is $2000. By how much does the first repayment reduce the amount owing?",
+   "imageRef": null,
+   "options": [
+    "$1500",
+    "$3500",
+    "$500",
+    "$2000"
+   ],
+   "correctIndex": 2,
+   "explanation": "The first $1500 of the repayment covers that month's interest, so only $500 reduces the balance, from $300 000 to $299 500. That is why the balance falls slowly early in a loan.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0009",
+   "topicId": "meth-hsc-financial",
+   "stem": "$10 000 is borrowed at 10% per annum, compounded annually, with $3000 repaid at the end of each year. How much is owing after 1 year?",
+   "imageRef": null,
+   "options": [
+    "$11 000",
+    "$8000",
+    "$7000",
+    "$7700"
+   ],
+   "correctIndex": 1,
+   "explanation": "Interest raises the balance to 10 000 \u00d7 1.1 = 11 000, and the repayment brings it to $8000. Ignoring the interest gives $7000, and taking the repayment off first gives 7000 \u00d7 1.1 = $7700.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0010",
+   "topicId": "meth-hsc-financial",
+   "stem": "$10 000 is borrowed at 10% per annum, compounded annually, with $3000 repaid at the end of each year. How much is owing after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$4000",
+    "$5800",
+    "$5000",
+    "$6800"
+   ],
+   "correctIndex": 1,
+   "explanation": "After 1 year $8000 is owing. Then 8000 \u00d7 1.1 \u2212 3000 = 8800 \u2212 3000 = $5800. The value $4000 ignores interest altogether.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0011",
+   "topicId": "meth-hsc-financial",
+   "stem": "$100 000 is borrowed at 0.5% per month and repaid at $1000 at the end of each month. How much is owing after 2 months?",
+   "imageRef": null,
+   "options": [
+    "$99 002.50",
+    "$98 000.00",
+    "$99 500.00",
+    "$98 997.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "After 1 month: 100 000 \u00d7 1.005 \u2212 1000 = 99 500. After 2 months: 99 500 \u00d7 1.005 \u2212 1000 = $98 997.50. Taking both repayments off 100 000 \u00d7 1.005\u00b2 gives $99 002.50, which overlooks that the first repayment stops interest on $1000 for a month.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0012",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of P dollars has interest rate r per period and repayments of M at the end of each period. Which expression is the amount owing after 2 periods?",
+   "imageRef": null,
+   "options": [
+    "P(1 + r)\u00b2 \u2212 M(1 + r)\u00b2",
+    "(P \u2212 2M)(1 + r)\u00b2",
+    "P(1 + r)\u00b2 \u2212 M(1 + (1 + r))",
+    "P(1 + r)\u00b2 \u2212 2M"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2081 = P(1 + r) \u2212 M, so A\u2082 = A\u2081(1 + r) \u2212 M = P(1 + r)\u00b2 \u2212 M(1 + r) \u2212 M. The first repayment has itself been charged a period of interest, which is why it is multiplied by (1 + r).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0013",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of P dollars at 0.5% per month is repaid with M dollars at the end of each month. Which expression gives the amount owing after n months?",
+   "imageRef": null,
+   "options": [
+    "(P \u2212 nM)(1.005)\u207f",
+    "P(1.005)\u207f \u2212 M((1.005)\u207f \u2212 1)/0.005",
+    "P(1.005)\u207f \u2212 nM",
+    "P(1.005)\u207f \u2212 M((1.005)\u207f \u2212 1)/1.005"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expanding the recurrence gives P(1.005)\u207f \u2212 M(1 + 1.005 + ... + 1.005\u207f\u207b\u00b9), and the bracket is a geometric series with sum ((1.005)\u207f \u2212 1)/(1.005 \u2212 1). The denominator is r = 0.005, not 1.005.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0014",
+   "topicId": "meth-hsc-financial",
+   "stem": "$10 000 is borrowed at 10% per annum, compounded annually, and repaid with two equal repayments M at the end of each year. What is M, to the nearest cent?",
+   "imageRef": null,
+   "options": [
+    "$5000.00",
+    "$5500.00",
+    "$6050.00",
+    "$5761.90"
+   ],
+   "correctIndex": 3,
+   "explanation": "The loan is repaid when A\u2082 = 0: 10 000 \u00d7 1.21 \u2212 M(1 + 1.1) = 0, so M = 12 100/2.1 = $5761.90. The value $6050 is half of 12 100, which forgets that the first repayment reduces the balance that earns interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0015",
+   "topicId": "meth-hsc-financial",
+   "stem": "$10 000 is borrowed at 10% per annum, compounded annually, and repaid with two equal annual repayments of $5761.90. How much interest is paid in total?",
+   "imageRef": null,
+   "options": [
+    "$2000.00",
+    "$1523.80",
+    "$2100.00",
+    "$1000.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "The total repaid is 2 \u00d7 5761.90 = $11 523.80, so the interest is 11 523.80 \u2212 10 000 = $1523.80. The value $2100 is the interest if nothing were repaid until the end of 2 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0016",
+   "topicId": "meth-hsc-financial",
+   "stem": "$50 000 is borrowed at 1% per month and repaid at $1000 at the end of each month. Given 1.01\u00b9\u00b2 \u2248 1.1268, about how much is owing after 12 months?",
+   "imageRef": null,
+   "options": [
+    "$56 340",
+    "$44 340",
+    "$43 660",
+    "$38 000"
+   ],
+   "correctIndex": 2,
+   "explanation": "A\u2081\u2082 = 50 000 \u00d7 1.1268 \u2212 1000 \u00d7 (1.1268 \u2212 1)/0.01 = 56 340 \u2212 12 680 = $43 660. Subtracting only 12 \u00d7 1000 = 12 000 gives $44 340, which ignores the interest saved on each repayment from the month it is made.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0017",
+   "topicId": "meth-hsc-financial",
+   "stem": "A loan of $200 000 is charged 0.5% per month, and the borrower repays $1000 at the end of each month. What happens to the amount owing?",
+   "imageRef": null,
+   "options": [
+    "It stays at $200 000",
+    "It falls by $1000 each month",
+    "It is repaid in 200 months",
+    "It falls slowly at first, then faster"
+   ],
+   "correctIndex": 0,
+   "explanation": "The monthly interest is 0.005 \u00d7 200 000 = $1000, exactly the repayment, so each month the balance returns to $200 000 and the loan is never repaid. Repayments must exceed the interest for the balance to fall.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0018",
+   "topicId": "meth-hsc-financial",
+   "stem": "$100 000 is borrowed at 0.5% per month. Solving A\u2099 = 0 shows that repaying $M monthly takes n months, where 1.005\u207f = M/(M \u2212 500). Given ln 2 \u2248 0.6931 and ln 1.005 \u2248 0.004988, how many repayments of $1000 are needed?",
+   "imageRef": null,
+   "options": [
+    "139",
+    "100",
+    "138",
+    "200"
+   ],
+   "correctIndex": 0,
+   "explanation": "1.005\u207f = 1000/500 = 2, so n = ln 2/ln 1.005 \u2248 138.97. After 138 repayments a little is still owing, so 139 are needed, the last one smaller. Dividing the loan by the repayment gives 100, which ignores interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0019",
+   "topicId": "meth-hsc-financial",
+   "stem": "$100 000 is borrowed at 0.5% per month, and 1.005\u207f = M/(M \u2212 500) gives the number of monthly repayments n. With $1000 a month it takes about 139 months. Given ln(4/3) \u2248 0.2877 and ln 1.005 \u2248 0.004988, about how long does it take at $2000 a month?",
+   "imageRef": null,
+   "options": [
+    "58 months",
+    "70 months",
+    "35 months",
+    "100 months"
+   ],
+   "correctIndex": 0,
+   "explanation": "1.005\u207f = 2000/1500 = 4/3, so n = 0.2877/0.004988 \u2248 57.7, about 58 months. Doubling the repayment more than halves the time, because more of each repayment goes to the principal instead of interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0020",
+   "topicId": "meth-hsc-financial",
+   "stem": "Two loans are identical except that loan A has a higher interest rate. With the same monthly repayment, loan A will:",
+   "imageRef": null,
+   "options": [
+    "have smaller total repayments",
+    "take longer to repay",
+    "be repaid sooner",
+    "take the same time to repay"
+   ],
+   "correctIndex": 1,
+   "explanation": "More of each repayment goes to interest on loan A, so the balance falls more slowly and the loan lasts longer, with more paid in total. If the rate is high enough, the repayment may not even cover the interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0021",
+   "topicId": "meth-hsc-financial",
+   "stem": "A borrower increases the monthly repayment on a reducing balance loan. What is the effect?",
+   "imageRef": null,
+   "options": [
+    "The loan is repaid sooner but more interest is paid",
+    "The loan takes longer and less interest is paid",
+    "The time is unchanged but less interest is paid",
+    "The loan is repaid sooner and less interest is paid"
+   ],
+   "correctIndex": 3,
+   "explanation": "A larger repayment reduces the balance faster, so the loan ends sooner, and with a smaller balance each month less interest is charged. This is why extra repayments save money overall.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0022",
+   "topicId": "meth-hsc-financial",
+   "stem": "A $250 000 loan can be repaid at $1500 a month for 20 years or at $1800 a month for 15 years. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The 15-year option costs $300 less in total",
+    "The 15-year option costs $36 000 less in total",
+    "The 20-year option costs $36 000 less in total",
+    "Both options cost the same in total"
+   ],
+   "correctIndex": 1,
+   "explanation": "In total, 1500 \u00d7 240 = $360 000 and 1800 \u00d7 180 = $324 000, so the shorter loan costs $36 000 less. Its repayments are $300 a month higher, but there are 60 fewer of them and less interest builds up.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0023",
+   "topicId": "meth-hsc-financial",
+   "stem": "A graph shows the amount owing on a reducing balance loan against time. Which description fits the curve?",
+   "imageRef": null,
+   "options": [
+    "It rises at first, then falls",
+    "It falls slowly at first, then more steeply",
+    "It falls steeply at first, then more slowly",
+    "It falls in a straight line"
+   ],
+   "correctIndex": 1,
+   "explanation": "Early on the balance is large, so most of each repayment goes on interest and the balance falls slowly. As the balance shrinks, less interest is charged and more of each repayment reduces the principal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0024",
+   "topicId": "meth-hsc-financial",
+   "stem": "Which of these is an annuity?",
+   "imageRef": null,
+   "options": [
+    "An account receiving equal monthly deposits that earn compound interest",
+    "A single deposit left to earn simple interest",
+    "A loan repaid in one sum at the end of its term",
+    "A savings account with irregular deposits and no interest"
+   ],
+   "correctIndex": 0,
+   "explanation": "An annuity is either an investment with regular equal contributions earning compound interest, or a lump sum from which regular equal withdrawals are made. A single deposit with no further payments is not an annuity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0025",
+   "topicId": "meth-hsc-financial",
+   "stem": "Contributions of M dollars are made at the end of each period for n periods, earning interest at rate r per period. What is the future value of the annuity?",
+   "imageRef": null,
+   "options": [
+    "M((1 + r)\u207f \u2212 1)/(1 + r)",
+    "M((1 + r)\u207f \u2212 1)/r",
+    "M(1 + r)\u207f",
+    "nM(1 + r)\u207f"
+   ],
+   "correctIndex": 1,
+   "explanation": "The future value is M + M(1 + r) + ... + M(1 + r)\u207f\u207b\u00b9, a geometric series with n terms and ratio 1 + r, whose sum is M((1 + r)\u207f \u2212 1)/r. The form M(1 + r)\u207f is the value of only one payment invested for n periods.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0026",
+   "topicId": "meth-hsc-financial",
+   "stem": "In an annuity with n contributions made at the end of each period, which contribution earns the most interest, and for how many periods?",
+   "imageRef": null,
+   "options": [
+    "The first, for n \u2212 1 periods",
+    "The first, for n periods",
+    "The last, for n periods",
+    "The last, for 1 period"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first contribution is made at the end of period 1 and then earns interest for the remaining n \u2212 1 periods. The last contribution is made at the very end and earns no interest at all.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0027",
+   "topicId": "meth-hsc-financial",
+   "stem": "$1000 is invested at the end of each year for 3 years at 10% per annum, compounded annually. What is the value just after the third payment?",
+   "imageRef": null,
+   "options": [
+    "$3000",
+    "$3641",
+    "$3993",
+    "$3310"
+   ],
+   "correctIndex": 3,
+   "explanation": "The payments grow to 1000 \u00d7 1.1\u00b2 + 1000 \u00d7 1.1 + 1000 = 1210 + 1100 + 1000 = $3310. The value $3641 gives every payment one more year of interest, as if they were made at the start of each year.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0028",
+   "topicId": "meth-hsc-financial",
+   "stem": "$200 is invested at the end of each month for 2 years at 6% per annum, compounded monthly. Given 1.005\u00b2\u2074 \u2248 1.1272, what is the approximate future value?",
+   "imageRef": null,
+   "options": [
+    "$5411",
+    "$2544",
+    "$5088",
+    "$4800"
+   ],
+   "correctIndex": 2,
+   "explanation": "With r = 0.005 and n = 24, FV = 200 \u00d7 (1.1272 \u2212 1)/0.005 = 200 \u00d7 25.44 = $5088. The value $4800 is the contributions without interest, and $5411 compounds all $4800 for the full 2 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0029",
+   "topicId": "meth-hsc-financial",
+   "stem": "An annuity of $200 a month for 2 years has a future value of $5088. How much of this is interest?",
+   "imageRef": null,
+   "options": [
+    "$576",
+    "$288",
+    "$5088",
+    "$4800"
+   ],
+   "correctIndex": 1,
+   "explanation": "The contributions total 200 \u00d7 24 = $4800, so the interest earned is 5088 \u2212 4800 = $288. The whole $5088 includes the money paid in, and $576 applies 6% simple interest to all $4800 for 2 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0030",
+   "topicId": "meth-hsc-financial",
+   "stem": "$500 is invested at the end of each quarter for 2 years at 8% per annum, compounded quarterly. Given 1.02\u2078 \u2248 1.1717, what is the approximate future value?",
+   "imageRef": null,
+   "options": [
+    "$1073.13",
+    "$4686.80",
+    "$4292.50",
+    "$4000.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "The quarterly rate is 0.02 over 8 quarters: FV = 500 \u00d7 (1.1717 \u2212 1)/0.02 = 500 \u00d7 8.585 = $4292.50. Dividing by 0.08, the annual rate, gives $1073.13; the value $4686.80 compounds all $4000 for 2 years.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0031",
+   "topicId": "meth-hsc-financial",
+   "stem": "$5000 is deposited now, and $1000 is added at the end of each year, at 10% per annum compounded annually. What is the balance just after the second $1000 is added?",
+   "imageRef": null,
+   "options": [
+    "$7000",
+    "$7100",
+    "$8360",
+    "$8150"
+   ],
+   "correctIndex": 3,
+   "explanation": "The lump sum grows to 5000 \u00d7 1.21 = 6050, and the contributions are worth 1000 \u00d7 1.1 + 1000 = 2100, so the balance is $8150. The value $7100 leaves the $5000 without interest.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0032",
+   "topicId": "meth-hsc-financial",
+   "stem": "Equal contributions are made at the end of each year for 3 years at 10% per annum, compounded annually, to reach $33 100. What is each contribution?",
+   "imageRef": null,
+   "options": [
+    "$10 030",
+    "$10 000",
+    "$11 033",
+    "$9091"
+   ],
+   "correctIndex": 1,
+   "explanation": "The future value is M(1.1\u00b2 + 1.1 + 1) = 3.31M, so 3.31M = 33 100 and M = $10 000. Dividing 33 100 by 3 gives $11 033, which ignores the interest, and $9091 assumes contributions at the start of each year.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0033",
+   "topicId": "meth-hsc-financial",
+   "stem": "$2000 is invested at the end of each year at 10% per annum, compounded annually. Given ln 2.5 \u2248 0.9163 and ln 1.1 \u2248 0.0953, after how many payments does the value first reach $30 000?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "15",
+    "9",
+    "16"
+   ],
+   "correctIndex": 0,
+   "explanation": "2000(1.1\u207f \u2212 1)/0.1 \u2265 30 000 gives 1.1\u207f \u2265 2.5, so n \u2265 0.9163/0.0953 \u2248 9.6, and the first whole number is 10. Ignoring interest, 30 000/2000 gives 15 payments.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0034",
+   "topicId": "meth-hsc-financial",
+   "stem": "A $20 000 lump sum earns 5% per annum, compounded annually, and $6000 is withdrawn at the end of each year. How much remains after 2 years?",
+   "imageRef": null,
+   "options": [
+    "$8000",
+    "$10 050",
+    "$9000",
+    "$9750"
+   ],
+   "correctIndex": 3,
+   "explanation": "After year 1: 20 000 \u00d7 1.05 \u2212 6000 = 15 000. After year 2: 15 000 \u00d7 1.05 \u2212 6000 = $9750. Ignoring interest gives $8000.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0035",
+   "topicId": "meth-hsc-financial",
+   "stem": "When the future value of an annuity is written as M + M(1 + r) + M(1 + r)\u00b2 + ... + M(1 + r)\u207f\u207b\u00b9, what is the common ratio of this geometric series?",
+   "imageRef": null,
+   "options": [
+    "M",
+    "n",
+    "1 + r",
+    "r"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each term is the previous one multiplied by 1 + r, because each earlier contribution has earned one more period of interest. Using r alone as the ratio is the common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0036",
+   "topicId": "meth-hsc-financial",
+   "stem": "Two annuities have the same contributions and term, but annuity B earns a higher interest rate than annuity A. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "A and B have equal future values, as the contributions match",
+    "A has the greater future value, as B pays more interest",
+    "B has the greater future value, and the gap widens over time",
+    "B has the greater future value, but the gap stays the same"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each contribution grows by a factor of (1 + r) every period, so a higher rate gives a larger value, and because the growth compounds, the difference keeps increasing the longer the annuity runs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-financial-0037",
+   "topicId": "meth-hsc-financial",
+   "stem": "Two people invest the same monthly amount in the same account. One contributes for 30 years, the other for 15 years. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The 30-year balance is less than double the 15-year balance",
+    "The two balances are equal",
+    "The 30-year balance is more than double the 15-year balance",
+    "The 30-year balance is exactly double the 15-year balance"
+   ],
+   "correctIndex": 2,
+   "explanation": "Twice as many contributions are made, and the early ones compound for much longer, so the balance more than doubles. Exactly double would be true only with no interest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-financial-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

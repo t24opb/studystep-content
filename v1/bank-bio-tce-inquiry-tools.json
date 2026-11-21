@@ -1,0 +1,556 @@
+{
+ "topicId": "bio-tce-inquiry-tools",
+ "questions": [
+  {
+   "id": "bio-tce-inquiry-tools-0001",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A light microscope has a 10\u00d7 eyepiece and a 40\u00d7 objective lens in use. What is the total magnification?",
+   "imageRef": null,
+   "options": [
+    "40\u00d7",
+    "4000\u00d7",
+    "400\u00d7",
+    "50\u00d7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Total magnification is the eyepiece magnification multiplied by the objective magnification: 10 \u00d7 40 = 400. Adding the two lenses (50\u00d7) is a common slip; magnifications multiply.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0002",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "At 40\u00d7 total magnification the field of view is 4 mm across. A student switches to 400\u00d7 total magnification. What is the new field of view?",
+   "imageRef": null,
+   "options": [
+    "40 mm",
+    "4 mm",
+    "0.04 mm",
+    "0.4 mm"
+   ],
+   "correctIndex": 3,
+   "explanation": "Field of view is inversely proportional to magnification. Magnification has increased ten times, so the field of view shrinks to one tenth: 4 mm \u00f7 10 = 0.4 mm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0003",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "At 400\u00d7 the field of view is 0.4 mm across. About 8 cheek cells lie end to end across its diameter. What is the approximate length of one cell?",
+   "imageRef": null,
+   "options": [
+    "5 \u00b5m",
+    "500 \u00b5m",
+    "20 \u00b5m",
+    "50 \u00b5m"
+   ],
+   "correctIndex": 3,
+   "explanation": "0.4 mm is 400 \u00b5m, and 400 \u00b5m \u00f7 8 cells = 50 \u00b5m per cell. Forgetting to convert millimetres to micrometres, or dividing by the wrong factor, gives the other values.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0004",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In a micrograph a mitochondrion is 20 mm long. Its actual length is 2 \u00b5m. What is the magnification of the micrograph?",
+   "imageRef": null,
+   "options": [
+    "100 000\u00d7",
+    "10\u00d7",
+    "10 000\u00d7",
+    "1000\u00d7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Magnification = image size \u00f7 actual size. 20 mm is 20 000 \u00b5m, so 20 000 \u00b5m \u00f7 2 \u00b5m = 10 000. Leaving the image in millimetres gives an answer a thousand times too small.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0005",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "When a student changes from low power to high power on a light microscope, what happens to the field of view and the image brightness?",
+   "imageRef": null,
+   "options": [
+    "Field of view increases and brightness decreases",
+    "Field of view decreases and brightness increases",
+    "Both decrease",
+    "Both increase"
+   ],
+   "correctIndex": 2,
+   "explanation": "At higher power a smaller area of the specimen is spread over the same image, so the field of view is smaller and less light reaches the eye from each part of the image. Students often adjust the light or diaphragm after changing objectives for this reason.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0006",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Two parents are both heterozygous (Aa) for an autosomal recessive condition. What is the probability that their next child will have the condition?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "1/2",
+    "3/4",
+    "1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "An Aa \u00d7 Aa cross gives AA, Aa, Aa and aa in a 1:2:1 ratio, so the chance of aa is 1/4. Each child is an independent event, so earlier children do not change this probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0007",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Two heterozygous carriers of an autosomal recessive condition plan two children. What is the probability that both children will have the condition?",
+   "imageRef": null,
+   "options": [
+    "1/16",
+    "1/8",
+    "1/4",
+    "1/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each child independently has a 1/4 chance of being affected, so the probability that both are affected is 1/4 \u00d7 1/4 = 1/16. Adding the probabilities, or keeping 1/4, are common errors.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0008",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Two carriers of cystic fibrosis (an autosomal recessive condition) have a child who does not have the condition. What is the probability that this child is a carrier?",
+   "imageRef": null,
+   "options": [
+    "2/3",
+    "1/2",
+    "1/4",
+    "3/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "The unaffected child must be AA or Aa. Of the three equally likely unaffected outcomes (AA, Aa, Aa), two are carriers, so the probability is 2/3. The answer 1/2 counts the affected outcome, which is already ruled out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0009",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A woman who carries an X-linked recessive allele has children with an unaffected man. What is the probability that a son of theirs will be affected?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/4",
+    "0",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "A son receives his only X chromosome from his mother, who has one normal and one recessive allele, so each son has a 1/2 chance of being affected. The value 1/4 is the probability that any child, of either sex, is an affected son.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0010",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Seeds from a cross between two heterozygous tall pea plants (Tt) gave 620 tall and 180 short plants. How do these results compare with the Punnett square prediction?",
+   "imageRef": null,
+   "options": [
+    "They show a 1:1 ratio, so one parent must have been homozygous",
+    "They match a 9:3:3:1 ratio for two genes",
+    "They show tall is recessive to short",
+    "They are close to the expected 600 tall and 200 short"
+   ],
+   "correctIndex": 3,
+   "explanation": "A Tt \u00d7 Tt cross predicts 3/4 tall and 1/4 short, which for 800 plants is 600 and 200. The observed 620:180 is close to this; chance alone explains small differences, especially in smaller samples.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0011",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "During gel electrophoresis, why do DNA fragments move through the gel towards the positive electrode?",
+   "imageRef": null,
+   "options": [
+    "The buffer pumps fragments by osmosis",
+    "DNA has negatively charged phosphate groups",
+    "DNA has positively charged nitrogenous bases",
+    "The gel pushes larger fragments forward"
+   ],
+   "correctIndex": 1,
+   "explanation": "The phosphate groups in the sugar-phosphate backbone give DNA an overall negative charge, so it is attracted to the positive electrode. The bases are not what carries the charge that drives the movement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0012",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In gel electrophoresis, which DNA fragments travel the furthest from the wells?",
+   "imageRef": null,
+   "options": [
+    "The shortest fragments",
+    "The longest fragments",
+    "The fragments richest in adenine",
+    "The fragments with the most guanine"
+   ],
+   "correctIndex": 0,
+   "explanation": "The gel acts as a sieve: short fragments slip through its pores more easily and travel further in the same time. Movement depends on fragment length, not on which bases the fragment contains.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0013",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "What is the purpose of running a DNA ladder in one lane of an electrophoresis gel?",
+   "imageRef": null,
+   "options": [
+    "To stain the sample DNA so it is visible",
+    "To give the DNA its negative charge",
+    "To estimate the sizes of the sample fragments",
+    "To cut the sample DNA into smaller fragments first"
+   ],
+   "correctIndex": 2,
+   "explanation": "A ladder is a mixture of fragments of known lengths. Comparing how far a sample band travelled with the ladder bands lets its length be estimated. Cutting is done beforehand by restriction enzymes, and staining is a separate step.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0014",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In a paternity test, a child's DNA profile has six bands. Three match bands from the mother. Man X matches the other three; Man Y matches one of them. What is the best conclusion?",
+   "imageRef": null,
+   "options": [
+    "Man X is likely to be the father and Man Y is excluded",
+    "Man Y is likely to be the father and Man X is excluded",
+    "Neither man can be excluded from the test",
+    "Both men are equally likely to be the father"
+   ],
+   "correctIndex": 0,
+   "explanation": "A child inherits half of its DNA from each parent, so every band not from the mother must come from the father. Man X accounts for all of them; Man Y lacks two of the paternal bands, so he cannot be the father.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0015",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A 3000 base-pair plasmid is cut by a restriction enzyme that has two recognition sites in it. One fragment is 1200 base pairs. How long is the other fragment?",
+   "imageRef": null,
+   "options": [
+    "3000 base pairs",
+    "600 base pairs",
+    "1800 base pairs",
+    "1200 base pairs"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two cuts in a circular plasmid give two fragments whose lengths add to the whole plasmid: 3000 \u2212 1200 = 1800 base pairs. A linear molecule cut twice would instead give three fragments.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0016",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Students model genetic drift by drawing 10 beads from a bag of 50 red and 50 white beads to found each new generation. What do repeated trials most likely show?",
+   "imageRef": null,
+   "options": [
+    "Allele frequencies change randomly and one colour may be lost",
+    "Both colours always stay at exactly 50% each generation",
+    "The red beads increase each generation because they are better adapted",
+    "Each generation returns to the original frequencies"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sampling a small number of beads gives chance differences from the parent population, so frequencies wander and one allele can be lost or fixed. The beads have no fitness differences, so the change is drift, not natural selection.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0017",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In a population simulation, the same starting allele frequency is run with a population of 20 and a population of 2000. Which result is expected?",
+   "imageRef": null,
+   "options": [
+    "Only the large population can lose an allele by chance",
+    "Frequencies fluctuate much more in the population of 20",
+    "Frequencies fluctuate much more in the population of 2000",
+    "Both populations show identical changes each generation"
+   ],
+   "correctIndex": 1,
+   "explanation": "Random sampling effects are proportionally larger in small populations, so drift is stronger and alleles are lost or fixed sooner. In a large population chance gains and losses tend to average out.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0018",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In a disease model, one case infects 3 people (round 1), and each newly infected person then infects 3 more in the next round. How many new cases occur in round 3?",
+   "imageRef": null,
+   "options": [
+    "12",
+    "27",
+    "9",
+    "81"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each round multiplies the new cases by 3: round 1 has 3, round 2 has 9 and round 3 has 27 (3\u00b3). Adding 3 per round, or stopping a round early, treats exponential growth as if it were slower.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0019",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "In a disease transmission model, vaccinating a large share of the population most directly does what?",
+   "imageRef": null,
+   "options": [
+    "Increases the number of people each case can infect",
+    "Makes the pathogen mutate into a harmless form in each infected person",
+    "Removes the need for any infected person to recover",
+    "Reduces the number of susceptible people each case can infect"
+   ],
+   "correctIndex": 3,
+   "explanation": "Vaccinated people are no longer susceptible, so each infectious person meets fewer people who can catch the disease and transmission slows. This is the basis of herd immunity in the model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0020",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Why do biologists use simple models, such as a negative feedback flow chart, to represent homeostasis?",
+   "imageRef": null,
+   "options": [
+    "They include every molecule involved in the response",
+    "They prove the response works the same in all species",
+    "They replace the need to collect experimental data",
+    "They show the main steps clearly while leaving out detail"
+   ],
+   "correctIndex": 3,
+   "explanation": "A model simplifies a complex system so its key relationships are easy to see and test. Its limitation is that it leaves out detail, so it must be checked against data rather than replacing it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0021",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A study reports mean resting heart rate as 68 beats per minute with a 95% confidence interval of 65 to 71. What does the confidence interval tell you?",
+   "imageRef": null,
+   "options": [
+    "95% of people have a heart rate between 65 and 71",
+    "Every measurement in the study lay between 65 and 71",
+    "The heart rate readings in the study had a 5% measurement error",
+    "The true population mean very likely lies between 65 and 71"
+   ],
+   "correctIndex": 3,
+   "explanation": "A 95% confidence interval is a range that, using this method, would contain the true population mean in 95% of repeated samples. It describes uncertainty in the mean, not the spread of individual people's readings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0022",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Plant height under fertiliser A: mean 42 cm (95% CI 40 to 44). Under fertiliser B: mean 50 cm (95% CI 48 to 52). What is the most valid conclusion?",
+   "imageRef": null,
+   "options": [
+    "The data cannot be compared because the means are different",
+    "The intervals do not overlap, so the difference is likely to be real",
+    "The intervals overlap, so the difference is likely due to chance",
+    "The fertilisers have the same effect because each interval is 4 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "The intervals do not overlap (A tops out at 44 cm and B starts at 48 cm), which is strong evidence that the population means differ. Equal interval widths say only that the uncertainty is similar.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0023",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Two treatments give mean recovery times of 10 days (95% CI 8 to 13) and 11 days (95% CI 9 to 14). A news report says the first treatment works faster. How should this claim be judged?",
+   "imageRef": null,
+   "options": [
+    "It is supported, because both intervals are 5 days wide",
+    "It is not supported, because the means are whole numbers",
+    "It is not supported, because the intervals overlap widely",
+    "It is supported, because the first mean is lower"
+   ],
+   "correctIndex": 2,
+   "explanation": "The intervals overlap almost completely, so the data do not give good evidence of a real difference between treatments. A lower sample mean on its own does not show that one population mean is lower.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0024",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A researcher repeats a study with a much larger sample. If nothing else changes, what is the expected effect on the 95% confidence interval for the mean?",
+   "imageRef": null,
+   "options": [
+    "It stays exactly the same",
+    "It moves to a higher value",
+    "It becomes narrower",
+    "It becomes wider"
+   ],
+   "correctIndex": 2,
+   "explanation": "Larger samples estimate the population mean more precisely, so the confidence interval narrows. Sample size is one of the main factors limiting uncertainty in biological data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0025",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Which statement best describes how scientific models and theories change over time?",
+   "imageRef": null,
+   "options": [
+    "They are abandoned as soon as a single experimental result disagrees",
+    "They are refined or replaced when new evidence challenges them",
+    "They are fixed once enough scientists have agreed on them",
+    "They are changed only when a government requests it"
+   ],
+   "correctIndex": 1,
+   "explanation": "Models are tested against evidence and refined, or replaced by one with greater explanatory power, when new evidence challenges them. One odd result is checked and repeated before a well-supported model is changed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0026",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "The Human Genome Project involved laboratories in several countries. Why is international collaboration common in projects like this?",
+   "imageRef": null,
+   "options": [
+    "The cost, equipment and expertise needed exceed one nation's capacity",
+    "Data collected in one country cannot legally be published in any other country",
+    "Scientists may only work on genes from their own population",
+    "Collaboration removes the need for peer review of results"
+   ],
+   "correctIndex": 0,
+   "explanation": "Large-scale projects need funding, technology and skills beyond what one country can easily provide, so the work and costs are shared. Collaboration adds to peer review rather than replacing it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0027",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "How have information and communication technologies changed the data sets biologists work with?",
+   "imageRef": null,
+   "options": [
+    "They have greatly increased their size, accuracy and scope",
+    "They have reduced the need to collect any field data",
+    "They have limited data to a single location at a time",
+    "They have made data sets smaller but easier to share"
+   ],
+   "correctIndex": 0,
+   "explanation": "Automated sensors, sequencing machines, satellites and databases let biologists gather and store far larger, more accurate data sets over wider areas and longer periods. Field and laboratory data are still needed to feed and check them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0028",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "Strong scientific evidence supports a new pest-control method, but a farming community rejects it because it threatens local jobs. What does this illustrate?",
+   "imageRef": null,
+   "options": [
+    "The scientific evidence must have been unreliable",
+    "Scientific evidence alone always decides what a community will accept",
+    "Communities reject evidence only when it is new",
+    "Acceptance of science can depend on its economic and social context"
+   ],
+   "correctIndex": 3,
+   "explanation": "Whether people accept and act on scientific knowledge is influenced by economic, social and cultural factors, not just the strength of the evidence. Rejecting it for economic reasons does not make the evidence unreliable.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-tce-inquiry-tools-0029",
+   "topicId": "bio-tce-inquiry-tools",
+   "stem": "A council asks whether a new chemical in a river will harm platypus. Only two short studies exist and they disagree. What is the main limit on science answering this question now?",
+   "imageRef": null,
+   "options": [
+    "Two studies are always enough to make a firm decision",
+    "The question is about values, so data are irrelevant",
+    "There is not enough reliable data to give a definitive answer",
+    "Science cannot study the effects of chemicals on animals"
+   ],
+   "correctIndex": 2,
+   "explanation": "Science may be unable to give a definitive answer when reliable data are limited or open to different interpretations. More studies could reduce the uncertainty, and the evidence can still inform the council's risk assessment.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-tce-inquiry-tools-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

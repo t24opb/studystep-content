@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-sace-induction-further",
+ "questions": [
+  {
+   "id": "spec-sace-induction-further-0001",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove that A = the matrix with rows (1, 1) and (0, 1) satisfies A\u207f = the matrix with rows (1, n) and (0, 1), the initial statement checks that:",
+   "imageRef": null,
+   "options": [
+    "det A = 1, so A has an inverse",
+    "A\u00b9 = A, which has rows (1, 1) and (0, 1)",
+    "A\u2070 = I, which has rows (1, 0) and (0, 1)",
+    "A\u00b2 has rows (1, 2) and (0, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The result is claimed for positive integers n, so the first case is n = 1: the formula gives rows (1, 1) and (0, 1), which is A itself. Checking A\u00b2 as well is fine but is not the initial statement, and n = 0 is not claimed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0002",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving that the matrix with rows (1, 1) and (0, 1), raised to the power n, has rows (1, n) and (0, 1), the inductive step multiplies A\u1d4f by A. The product of the matrix with rows (1, k) and (0, 1) and A has rows:",
+   "imageRef": null,
+   "options": [
+    "(1, k + 1) and (0, 2)",
+    "(1, k + 1) and (0, 1)",
+    "(1, k) and (0, 1)",
+    "(1, 2k) and (0, 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Row 1 times column 2 is 1 \u00d7 1 + k \u00d7 1 = k + 1, and the other entries stay 1, 0 and 1. This matches the formula for n = k + 1, completing the step.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0003",
+   "topicId": "spec-sace-induction-further",
+   "stem": "For A = the matrix with rows (1, 2) and (0, 1), induction gives A\u207f = the matrix with rows (1, 2n) and (0, 1). The top-right entry of A\u00b9\u2070 is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "20",
+    "1024",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each multiplication by A adds 2 to the top-right entry, so A\u207f has 2n there and A\u00b9\u2070 has 20. Raising the entry 2 to the power 10 gives 1024, but matrix powers are not taken entry by entry.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0004",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Which formula for the powers of D = the matrix with rows (2, 0) and (0, 3) can be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "D\u207f has rows (2\u207f, 6\u207f) and (6\u207f, 3\u207f)",
+    "D\u207f has rows (2\u207f, 0) and (0, 2\u207f)",
+    "D\u207f has rows (2\u207f, 0) and (0, 3\u207f)",
+    "D\u207f has rows (2n, 0) and (0, 3n)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Multiplying diagonal matrices multiplies the diagonal entries, so D\u1d4f \u00d7 D has rows (2\u1d4f \u00d7 2, 0) and (0, 3\u1d4f \u00d7 3). The off-diagonal entries stay 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0005",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove that A = the matrix with rows (2, 1) and (0, 1) satisfies A\u207f = the matrix with rows (2\u207f, 2\u207f \u2212 1) and (0, 1), the inductive step finds the top-right entry of A\u1d4f \u00d7 A. This entry is:",
+   "imageRef": null,
+   "options": [
+    "2\u1d4f \u00d7 (2\u1d4f \u2212 1), which equals 4\u1d4f \u2212 2\u1d4f",
+    "2\u1d4f \u2212 1 + 1, which equals 2\u1d4f",
+    "2(2\u1d4f \u2212 1), which equals 2\u1d4f\u207a\u00b9 \u2212 2",
+    "2\u1d4f + 2\u1d4f \u2212 1, which equals 2\u1d4f\u207a\u00b9 \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row 1 of A\u1d4f is (2\u1d4f, 2\u1d4f \u2212 1) and column 2 of A holds 1 and 1, so the entry is 2\u1d4f + 2\u1d4f \u2212 1 = 2\u1d4f\u207a\u00b9 \u2212 1. This is the formula with n = k + 1. Check: A\u2075 has top-right entry 31.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0006",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove (1 + x)(1 + x\u00b2)(1 + x\u2074)...(1 + x^(2^(n \u2212 1))) = (1 \u2212 x^(2^n))/(1 \u2212 x) for x \u2260 1, the initial statement checks n = 1. The right side is (1 \u2212 x\u00b2)/(1 \u2212 x), which equals:",
+   "imageRef": null,
+   "options": [
+    "1 + x\u00b2",
+    "x",
+    "1 + x",
+    "1 \u2212 x"
+   ],
+   "correctIndex": 2,
+   "explanation": "1 \u2212 x\u00b2 = (1 \u2212 x)(1 + x), so (1 \u2212 x\u00b2)/(1 \u2212 x) = 1 + x, which is the left side for n = 1, a single factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0007",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving (1 + x)(1 + x\u00b2)(1 + x\u2074)...(1 + x^(2^(n \u2212 1))) = (1 \u2212 x^(2^n))/(1 \u2212 x), which factor is multiplied on in the inductive step from n = k to n = k + 1?",
+   "imageRef": null,
+   "options": [
+    "1 + x^(k + 1)",
+    "1 + x^(2^k)",
+    "1 + x^(2^(k + 1))",
+    "1 + x^(2k)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The nth factor is 1 + x^(2^(n \u2212 1)), so the (k + 1)th factor is 1 + x^(2^k). The exponents double each time: 1, 2, 4, 8, ..., not 2, 4, 6, 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0008",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In the inductive step for (1 + x)(1 + x\u00b2)...(1 + x^(2^(n \u2212 1))) = (1 \u2212 x^(2^n))/(1 \u2212 x), the product (1 \u2212 x^(2^k))(1 + x^(2^k)) is simplified. Which fact is used?",
+   "imageRef": null,
+   "options": [
+    "(1 \u2212 a)(1 + a) = 1 \u2212 2a, and 2 \u00d7 2^k = 2^(k + 1)",
+    "(1 \u2212 a)(1 + a) = 1 \u2212 a\u00b2, and (x^(2^k))\u00b2 = x^(4^k)",
+    "(1 \u2212 a)(1 + a) = 1 \u2212 a\u00b2, and (x^(2^k))\u00b2 = x^(2^(k + 1))",
+    "(1 \u2212 a)(1 + a) = 1 + a\u00b2, and (x^(2^k))\u00b2 = x^(2^k + 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "A difference of squares gives 1 \u2212 (x^(2^k))\u00b2, and squaring doubles the exponent: 2 \u00d7 2^k = 2^(k + 1). So the product becomes (1 \u2212 x^(2^(k + 1)))/(1 \u2212 x), the result for n = k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0009",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Using (1 + x)(1 + x\u00b2)(1 + x\u2074) = (1 \u2212 x\u2078)/(1 \u2212 x), the value of (3/2)(5/4)(17/16) is:",
+   "imageRef": null,
+   "options": [
+    "255/128",
+    "255/256",
+    "85/64",
+    "127/64"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is the product with x = 1/2: (1 \u2212 1/256)/(1/2) = (255/256) \u00d7 2 = 255/128. Multiplying the fractions directly gives the same: 255/128.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0010",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove cos x cos 2x cos 4x ... cos(2^(n \u2212 1) x) = sin(2\u207f x)/(2\u207f sin x) for sin x \u2260 0, the initial statement uses which identity?",
+   "imageRef": null,
+   "options": [
+    "cos 2x = 2cos\u00b2x \u2212 1",
+    "sin\u00b2x + cos\u00b2x = 1",
+    "cos(A + B) = cos A cos B \u2212 sin A sin B",
+    "sin 2x = 2 sin x cos x"
+   ],
+   "correctIndex": 3,
+   "explanation": "For n = 1 the right side is sin 2x/(2 sin x) = 2 sin x cos x/(2 sin x) = cos x, the left side. The double-angle formula for sine does all the work in this proof.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0011",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving cos x cos 2x ... cos(2^(n \u2212 1) x) = sin(2\u207f x)/(2\u207f sin x), the inductive step reaches sin(2\u1d4f x) cos(2\u1d4f x)/(2\u1d4f sin x). This equals sin(2\u1d4f\u207a\u00b9 x)/(2\u1d4f\u207a\u00b9 sin x) because:",
+   "imageRef": null,
+   "options": [
+    "sin(2\u1d4f x) cos(2\u1d4f x) = sin(2\u1d4f\u207a\u00b9 x), by the double-angle formula with \u03b8 = 2\u1d4f x",
+    "cos(2\u1d4f x) = 2 cos(2\u1d4f\u207b\u00b9 x), by the double-angle formula for cosine",
+    "sin(2\u1d4f x) = 2\u1d4f sin x, so the factor 2\u1d4f cancels from the numerator",
+    "sin(2\u1d4f x) cos(2\u1d4f x) = sin(2\u1d4f\u207a\u00b9 x)/2, by the double-angle formula with \u03b8 = 2\u1d4f x"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin 2\u03b8 = 2 sin \u03b8 cos \u03b8 gives sin \u03b8 cos \u03b8 = (1/2) sin 2\u03b8, and with \u03b8 = 2\u1d4f x, 2\u03b8 = 2\u1d4f\u207a\u00b9 x. The extra 1/2 turns 2\u1d4f into 2\u1d4f\u207a\u00b9 in the denominator.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0012",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Using cos x cos 2x cos 4x = sin 8x/(8 sin x), the exact value of cos(\u03c0/9) cos(2\u03c0/9) cos(4\u03c0/9) is:",
+   "imageRef": null,
+   "options": [
+    "\u221a3/8",
+    "1/8",
+    "\u22121/8",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "With x = \u03c0/9 the product is sin(8\u03c0/9)/(8 sin(\u03c0/9)). Since sin(\u03c0 \u2212 \u03b8) = sin \u03b8, sin(8\u03c0/9) = sin(\u03c0/9), so the value is 1/8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0013",
+   "topicId": "spec-sace-induction-further",
+   "stem": "If y = e^(px), then by induction the nth derivative d\u207fy/dx\u207f is:",
+   "imageRef": null,
+   "options": [
+    "p\u207f e^(px)",
+    "p e^(px)",
+    "n p e^(px)",
+    "p\u207f e^(npx)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each differentiation brings down one factor of p and leaves e^(px) unchanged, so after n differentiations the factor is p\u207f. The exponent of e does not change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0014",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving d\u207f/dx\u207f (e^(px)) = p\u207f e^(px) by induction, the inductive step:",
+   "imageRef": null,
+   "options": [
+    "multiplies p\u1d4f e^(px) by e^(px) to get p\u1d4f e^(2px)",
+    "integrates p\u1d4f\u207a\u00b9 e^(px) to get p\u1d4f e^(px)",
+    "differentiates p\u1d4f e^(px) with respect to p",
+    "differentiates p\u1d4f e^(px) once to get p\u1d4f\u207a\u00b9 e^(px)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The (k + 1)th derivative is the derivative of the kth: d/dx(p\u1d4f e^(px)) = p\u1d4f \u00d7 p e^(px) = p\u1d4f\u207a\u00b9 e^(px). The differentiation is with respect to x; p is a constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0015",
+   "topicId": "spec-sace-induction-further",
+   "stem": "If y = e^(2x), the fifth derivative of y is:",
+   "imageRef": null,
+   "options": [
+    "32e^(10x)",
+    "32e^(2x)",
+    "10e^(2x)",
+    "2e^(2x)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Using d\u207fy/dx\u207f = p\u207f e^(px) with p = 2 and n = 5 gives 2\u2075 e^(2x) = 32e^(2x). Multiplying 2 by 5 gives 10e^(2x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0016",
+   "topicId": "spec-sace-induction-further",
+   "stem": "For y = x e\u02e3, induction shows that d\u207fy/dx\u207f = (x + n)e\u02e3. In the inductive step, d/dx((x + k)e\u02e3) equals:",
+   "imageRef": null,
+   "options": [
+    "(x + k + 1)e\u02e3",
+    "(x + k)e\u02e3",
+    "e\u02e3",
+    "(k + 1)e\u02e3"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the product rule, d/dx((x + k)e\u02e3) = 1 \u00d7 e\u02e3 + (x + k)e\u02e3 = (x + k + 1)e\u02e3, which is the formula for n = k + 1. Differentiating only e\u02e3 forgets the derivative of x + k.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0017",
+   "topicId": "spec-sace-induction-further",
+   "stem": "For y = 1/x, the nth derivative is (\u22121)\u207f n!/x\u207f\u207a\u00b9. In the inductive step, differentiating (\u22121)\u1d4f k! x^(\u2212(k + 1)) gives:",
+   "imageRef": null,
+   "options": [
+    "(\u22121)\u1d4f (k + 1)! x^(\u2212(k + 2))",
+    "(\u22121)\u1d4f\u207a\u00b9 k! x^(\u2212(k + 2))",
+    "(\u22121)\u1d4f\u207a\u00b9 (k + 1)! x^(\u2212k)",
+    "(\u22121)\u1d4f\u207a\u00b9 (k + 1)! x^(\u2212(k + 2))"
+   ],
+   "correctIndex": 3,
+   "explanation": "The power rule brings down \u2212(k + 1): (\u22121)\u1d4f k! \u00d7 (\u2212(k + 1)) x^(\u2212(k + 2)) = (\u22121)\u1d4f\u207a\u00b9 (k + 1)! x^(\u2212(k + 2)). The minus sign gives the extra factor of \u22121, and k! \u00d7 (k + 1) = (k + 1)!.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0018",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Using d\u207f/dx\u207f (1/x) = (\u22121)\u207f n!/x\u207f\u207a\u00b9, the fourth derivative of 1/x is:",
+   "imageRef": null,
+   "options": [
+    "24/x\u2075",
+    "\u221224/x\u2075",
+    "24/x\u2074",
+    "4/x\u2075"
+   ],
+   "correctIndex": 0,
+   "explanation": "With n = 4: (\u22121)\u2074 \u00d7 4!/x\u2075 = 24/x\u2075. The sign alternates, and an even number of differentiations gives a positive result.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0019",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving 1 \u00d7 2 + 2 \u00d7 3 + ... + n(n + 1) = n(n + 1)(n + 2)/3, the inductive step simplifies k(k + 1)(k + 2)/3 + (k + 1)(k + 2) to:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)\u00b2(k + 2)/3",
+    "(k + 1)(k + 2)(k + 3)/3",
+    "(k + 1)(k + 2)(k + 3)",
+    "k(k + 1)(k + 2)(k + 3)/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Factor out (k + 1)(k + 2)/3: what remains is k + 3, giving (k + 1)(k + 2)(k + 3)/3, the formula for n = k + 1. The added term is the (k + 1)th term, (k + 1)(k + 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0020",
+   "topicId": "spec-sace-induction-further",
+   "stem": "The value of 1 \u00d7 3 + 2 \u00d7 3\u00b2 + 3 \u00d7 3\u00b3 is:",
+   "imageRef": null,
+   "options": [
+    "84",
+    "102",
+    "39",
+    "117"
+   ],
+   "correctIndex": 1,
+   "explanation": "3 + 18 + 81 = 102. The formula (3/4)((2n \u2212 1)3\u207f + 1) agrees: with n = 3 it gives (3/4)(5 \u00d7 27 + 1) = (3/4) \u00d7 136 = 102.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0021",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove 1 \u00d7 3 + 2 \u00d7 3\u00b2 + ... + n \u00d7 3\u207f = (3/4)((2n \u2212 1)3\u207f + 1) by induction, which term is added in the inductive step?",
+   "imageRef": null,
+   "options": [
+    "3\u1d4f\u207a\u00b9",
+    "(k + 1) \u00d7 3\u1d4f\u207a\u00b9",
+    "k \u00d7 3\u1d4f\u207a\u00b9",
+    "(k + 1) \u00d7 3\u1d4f"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rth term is r \u00d7 3^r, so the (k + 1)th term is (k + 1) \u00d7 3\u1d4f\u207a\u00b9. Both the coefficient and the power go up by one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0022",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving 1 \u00d7 3 + 2 \u00d7 3\u00b2 + ... + n \u00d7 3\u207f = (3/4)((2n \u2212 1)3\u207f + 1), the inductive step writes the sum to k + 1 terms as (3/4)((2k \u2212 1)3\u1d4f + 1 + 4(k + 1)3\u1d4f). The bracket simplifies to:",
+   "imageRef": null,
+   "options": [
+    "(2k + 1)3\u1d4f + 1",
+    "(2k + 1)3\u1d4f\u207a\u00b9 + 1",
+    "(2k + 3)3\u1d4f + 1",
+    "(6k + 3)3\u1d4f\u207a\u00b9 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "(2k \u2212 1)3\u1d4f + 4(k + 1)3\u1d4f = (6k + 3)3\u1d4f = 3(2k + 1)3\u1d4f = (2k + 1)3\u1d4f\u207a\u00b9. So the sum is (3/4)((2(k + 1) \u2212 1)3\u1d4f\u207a\u00b9 + 1), the formula for n = k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0023",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving 1 \u00d7 1! + 2 \u00d7 2! + ... + n \u00d7 n! = (n + 1)! \u2212 1 by induction, the expression (k + 1)! \u2212 1 + (k + 1)(k + 1)! simplifies to (k + 2)! \u2212 1 because:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)(k + 1)! = (k + 2)!, so the first factorial cancels",
+    "(k + 1)! + (k + 1)! = (k + 2)!, by doubling",
+    "(k + 1)(k + 1)! = (k + 1)\u00b2!, which equals (k + 2)!",
+    "(k + 1)! + (k + 1)(k + 1)! = (k + 2)(k + 1)! = (k + 2)!"
+   ],
+   "correctIndex": 3,
+   "explanation": "Factor out (k + 1)!: (k + 1)!(1 + k + 1) = (k + 2)(k + 1)! = (k + 2)!. Subtracting 1 gives (k + 2)! \u2212 1, the result for n = k + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0024",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove 16\u207f \u2212 1 is divisible by 15, assume 16\u1d4f \u2212 1 = 15m for an integer m. Then 16\u1d4f\u207a\u00b9 \u2212 1 can be written as:",
+   "imageRef": null,
+   "options": [
+    "15(16\u1d4f \u2212 1) + 1",
+    "16(16\u1d4f \u2212 1) + 15",
+    "16(16\u1d4f \u2212 1) \u2212 15",
+    "16\u1d4f \u2212 1 + 16"
+   ],
+   "correctIndex": 1,
+   "explanation": "16\u1d4f\u207a\u00b9 \u2212 1 = 16 \u00d7 16\u1d4f \u2212 16 + 15 = 16(16\u1d4f \u2212 1) + 15 = 16 \u00d7 15m + 15 = 15(16m + 1), a multiple of 15.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0025",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove 7\u207f \u2212 3\u207f is divisible by 4, the expression 7\u1d4f\u207a\u00b9 \u2212 3\u1d4f\u207a\u00b9 is rearranged as:",
+   "imageRef": null,
+   "options": [
+    "7\u1d4f \u2212 3\u1d4f + 4",
+    "7(7\u1d4f \u2212 3\u1d4f) + 4 \u00d7 3\u1d4f",
+    "7(7\u1d4f \u2212 3\u1d4f) \u2212 4 \u00d7 3\u1d4f",
+    "4(7\u1d4f \u2212 3\u1d4f) + 3 \u00d7 7\u1d4f"
+   ],
+   "correctIndex": 1,
+   "explanation": "7 \u00d7 7\u1d4f \u2212 3 \u00d7 3\u1d4f = 7 \u00d7 7\u1d4f \u2212 7 \u00d7 3\u1d4f + 4 \u00d7 3\u1d4f = 7(7\u1d4f \u2212 3\u1d4f) + 4 \u00d7 3\u1d4f. Both parts are multiples of 4 by the assumption, so the sum is too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0026",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove 3^(2n) + 7 is divisible by 8, assume 3^(2k) + 7 = 8m. Which expression for 3^(2k + 2) + 7 follows?",
+   "imageRef": null,
+   "options": [
+    "9(8m + 7) + 7 = 8(9m + 8)",
+    "9 \u00d7 8m + 7, which is not a multiple of 8",
+    "8m + 9, so it is one more than a multiple of 8",
+    "9(8m \u2212 7) + 7 = 8(9m \u2212 7)"
+   ],
+   "correctIndex": 3,
+   "explanation": "3^(2k + 2) = 9 \u00d7 3^(2k) = 9(8m \u2212 7), so 3^(2k + 2) + 7 = 72m \u2212 63 + 7 = 72m \u2212 56 = 8(9m \u2212 7), a multiple of 8.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0027",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove n\u00b3 \u2212 n is divisible by 6, the step writes (k + 1)\u00b3 \u2212 (k + 1) = (k\u00b3 \u2212 k) + 3k(k + 1). Why is 3k(k + 1) divisible by 6?",
+   "imageRef": null,
+   "options": [
+    "k(k + 1) is a product of consecutive integers, so it is even",
+    "3k(k + 1) has a factor 3 and k is always even",
+    "k and k + 1 are both odd, so their product is odd",
+    "3k(k + 1) = 3k\u00b2 + 3k, and 3k\u00b2 is always divisible by 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "One of two consecutive integers is even, so k(k + 1) = 2j and 3k(k + 1) = 6j. Together with k\u00b3 \u2212 k = 6m from the assumption, the sum is a multiple of 6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0028",
+   "topicId": "spec-sace-induction-further",
+   "stem": "A student checks that a matrix formula holds for n = 1, 2, 3 and 4 and concludes that it holds for every positive integer n. Why is this not a proof?",
+   "imageRef": null,
+   "options": [
+    "the initial statement must be checked at n = 0 as well as n = 1",
+    "matrix results cannot be proved by mathematical induction",
+    "four cases are too few, but checking ten cases would be a proof",
+    "no argument shows that the formula for n = k implies it for n = k + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Checking cases, however many, never covers every n. The inductive step, P(k) implies P(k + 1), is what carries the result to all positive integers, starting from P(1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0029",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In the inductive step of a proof by mathematical induction, what is assumed?",
+   "imageRef": null,
+   "options": [
+    "P(k + 1) is true for every positive integer k",
+    "P(n) is true for every positive integer n",
+    "P(1) is false, to reach a contradiction",
+    "P(k) is true for some positive integer k"
+   ],
+   "correctIndex": 3,
+   "explanation": "The step assumes P(k) for some positive integer k and shows that P(k + 1) must follow. Assuming P(n) for all n would assume the very result being proved.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0030",
+   "topicId": "spec-sace-induction-further",
+   "stem": "For A = the matrix with rows (a, 1) and (0, a), induction gives A\u207f = the matrix with rows (a\u207f, n a\u207f\u207b\u00b9) and (0, a\u207f). When a = 2, the top-right entry of A\u00b3 is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "6",
+    "24",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The top-right entry is n a\u207f\u207b\u00b9 = 3 \u00d7 2\u00b2 = 12. Direct multiplication agrees: A\u00b2 has rows (4, 4) and (0, 4), and A\u00b3 has rows (8, 12) and (0, 8). The value 8 is a\u207f, the diagonal entry.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0031",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Using cos x cos 2x cos 4x = sin 8x/(8 sin x), the exact value of cos(\u03c0/7) cos(2\u03c0/7) cos(4\u03c0/7) is:",
+   "imageRef": null,
+   "options": [
+    "\u22121/8",
+    "1/8",
+    "\u22121/4",
+    "1/7"
+   ],
+   "correctIndex": 0,
+   "explanation": "With x = \u03c0/7 the product is sin(8\u03c0/7)/(8 sin(\u03c0/7)). Since sin(\u03c0 + \u03b8) = \u2212sin \u03b8, sin(8\u03c0/7) = \u2212sin(\u03c0/7), so the value is \u22121/8. The sign is negative because cos(4\u03c0/7) < 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0032",
+   "topicId": "spec-sace-induction-further",
+   "stem": "If y = e^(\u22123x), the third derivative of y is:",
+   "imageRef": null,
+   "options": [
+    "27e^(\u22123x)",
+    "\u22129e^(\u22123x)",
+    "\u221227e^(\u22129x)",
+    "\u221227e^(\u22123x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using d\u207fy/dx\u207f = p\u207f e^(px) with p = \u22123 and n = 3 gives (\u22123)\u00b3 e^(\u22123x) = \u221227e^(\u22123x). An odd power of a negative number is negative, and the exponent of e is unchanged.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0033",
+   "topicId": "spec-sace-induction-further",
+   "stem": "If y = ln x, the third derivative of y is:",
+   "imageRef": null,
+   "options": [
+    "6/x\u2074",
+    "1/x\u00b3",
+    "2/x\u00b3",
+    "\u22122/x\u00b3"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 1/x, d\u00b2y/dx\u00b2 = \u22121/x\u00b2, and d\u00b3y/dx\u00b3 = 2/x\u00b3. In general the nth derivative is (\u22121)\u207f\u207b\u00b9 (n \u2212 1)!/x\u207f, which for n = 3 is 2/x\u00b3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0034",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove d\u207f/dx\u207f (sin x) = sin(x + n\u03c0/2), the inductive step differentiates sin(x + k\u03c0/2). Why does the result match the formula for n = k + 1?",
+   "imageRef": null,
+   "options": [
+    "sin(x + k\u03c0/2) is unchanged, since k\u03c0/2 is a constant that differentiates to 0",
+    "cos(x + k\u03c0/2) = sin(x + k\u03c0/2 + \u03c0/2), since cos \u03b8 = sin(\u03b8 + \u03c0/2)",
+    "cos(x + k\u03c0/2) = sin(x + k\u03c0/2 \u2212 \u03c0/2), since cos \u03b8 = sin(\u03b8 \u2212 \u03c0/2)",
+    "\u2212cos(x + k\u03c0/2) = sin(x + (k + 1)\u03c0/2), since the derivative of sine is negative"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of sin(x + k\u03c0/2) is cos(x + k\u03c0/2), and cos \u03b8 = sin(\u03b8 + \u03c0/2), so it equals sin(x + (k + 1)\u03c0/2). Shifting by \u2212\u03c0/2 instead gives \u2212cos \u03b8, the wrong sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0035",
+   "topicId": "spec-sace-induction-further",
+   "stem": "To prove 5\u207f + 3 is divisible by 4, assume 5\u1d4f + 3 = 4m. Then 5\u1d4f\u207a\u00b9 + 3 can be written as:",
+   "imageRef": null,
+   "options": [
+    "4(5\u1d4f + 3) + 3",
+    "5(5\u1d4f + 3) \u2212 12",
+    "5(5\u1d4f + 3) + 12",
+    "5(5\u1d4f + 3) \u2212 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "5\u1d4f\u207a\u00b9 + 3 = 5 \u00d7 5\u1d4f + 15 \u2212 12 = 5(5\u1d4f + 3) \u2212 12 = 20m \u2212 12 = 4(5m \u2212 3), a multiple of 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0036",
+   "topicId": "spec-sace-induction-further",
+   "stem": "In proving 1/(1 \u00d7 2) + 1/(2 \u00d7 3) + ... + 1/(n(n + 1)) = n/(n + 1), the inductive step simplifies k/(k + 1) + 1/((k + 1)(k + 2)) to:",
+   "imageRef": null,
+   "options": [
+    "k/(k + 2)",
+    "(k + 2)/(k + 3)",
+    "(k + 1)/(k + 2)",
+    "(k + 1)\u00b2/(k + 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Over the common denominator (k + 1)(k + 2), the numerator is k(k + 2) + 1 = k\u00b2 + 2k + 1 = (k + 1)\u00b2. Cancelling one factor of k + 1 leaves (k + 1)/(k + 2), the formula for n = k + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0037",
+   "topicId": "spec-sace-induction-further",
+   "stem": "Induction shows that 1 \u00d7 2 \u00d7 3 + 2 \u00d7 3 \u00d7 4 + ... + n(n + 1)(n + 2) = n(n + 1)(n + 2)(n + 3)/4. The sum of the first five terms is:",
+   "imageRef": null,
+   "options": [
+    "210",
+    "1680",
+    "336",
+    "420"
+   ],
+   "correctIndex": 3,
+   "explanation": "With n = 5: 5 \u00d7 6 \u00d7 7 \u00d7 8/4 = 1680/4 = 420. Adding directly, 6 + 24 + 60 + 120 + 210 = 420. The value 210 is only the fifth term, and 1680 forgets to divide by 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-induction-further-0038",
+   "topicId": "spec-sace-induction-further",
+   "stem": "A student 'proves' that n\u00b2 + n + 1 is even for all positive integers n: assuming k\u00b2 + k + 1 = 2m, they show (k + 1)\u00b2 + (k + 1) + 1 = 2m + 2(k + 1), which is even. What is wrong?",
+   "imageRef": null,
+   "options": [
+    "Induction cannot be used for results about even and odd numbers",
+    "The initial statement fails: when n = 1, n\u00b2 + n + 1 = 3, which is odd",
+    "The inductive step is wrong: 2m + 2(k + 1) is odd for every integer k",
+    "Nothing is wrong: the result is true, as the inductive step shows"
+   ],
+   "correctIndex": 1,
+   "explanation": "The inductive step is valid algebra, but without a true initial statement it proves nothing. In fact n\u00b2 + n + 1 = n(n + 1) + 1 is always odd. Both parts of an induction proof are needed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-induction-further-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

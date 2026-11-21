@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-hsc-further-integration",
+ "questions": [
+  {
+   "id": "spec-hsc-further-integration-0001",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The product sin A cos B equals:",
+   "imageRef": null,
+   "options": [
+    "(1/2)[cos(A \u2212 B) \u2212 cos(A + B)]",
+    "(1/2)[sin(A + B) + sin(A \u2212 B)]",
+    "(1/2)[cos(A \u2212 B) + cos(A + B)]",
+    "(1/2)[sin(A + B) \u2212 sin(A \u2212 B)]"
+   ],
+   "correctIndex": 1,
+   "explanation": "Adding sin(A + B) = sin A cos B + cos A sin B and sin(A \u2212 B) = sin A cos B \u2212 cos A sin B gives 2sin A cos B. Subtracting them instead gives cos A sin B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0002",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The product sin A sin B equals:",
+   "imageRef": null,
+   "options": [
+    "(1/2)[cos(A + B) \u2212 cos(A \u2212 B)]",
+    "(1/2)[cos(A \u2212 B) + cos(A + B)]",
+    "(1/2)[sin(A \u2212 B) \u2212 sin(A + B)]",
+    "(1/2)[cos(A \u2212 B) \u2212 cos(A + B)]"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos(A \u2212 B) \u2212 cos(A + B) = (cos A cos B + sin A sin B) \u2212 (cos A cos B \u2212 sin A sin B) = 2sin A sin B. Reversing the order of subtraction gives \u2212sin A sin B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0003",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of sin 3x cos x is:",
+   "imageRef": null,
+   "options": [
+    "cos(4x)/8 + cos(2x)/4",
+    "\u2212cos(4x)/4 \u2212 cos(2x)/2",
+    "\u2212cos(4x)/8 + cos(2x)/4",
+    "\u2212cos(4x)/8 \u2212 cos(2x)/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin 3x cos x = (1/2)(sin 4x + sin 2x), which integrates to (1/2)(\u2212cos(4x)/4 \u2212 cos(2x)/2) = \u2212cos(4x)/8 \u2212 cos(2x)/4. Leaving out the 1/2 from the identity doubles every term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0004",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "For distinct positive integers m and n, the integral of sin(mx) sin(nx) from x = 0 to x = \u03c0 equals:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "1/(m \u2212 n)",
+    "0",
+    "\u03c0/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin(mx) sin(nx) = (1/2)[cos((m \u2212 n)x) \u2212 cos((m + n)x)], and each cosine integrates to a sine that is 0 at both 0 and \u03c0. The value \u03c0/2 is the answer only when m = n.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0005",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The solutions of cos 3x + cos x = 0 for 0 \u2264 x \u2264 \u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u03c0/4, \u03c0/2, 3\u03c0/4",
+    "x = \u03c0/2 only",
+    "x = \u03c0/4 and 3\u03c0/4 only",
+    "x = \u03c0/4, \u03c0/2, 3\u03c0/4, \u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "From the product formula, 2cos 2x cos x = cos 3x + cos x, so the equation is cos 2x cos x = 0. cos x = 0 gives x = \u03c0/2, and cos 2x = 0 gives 2x = \u03c0/2 or 3\u03c0/2. At x = \u03c0, cos 3\u03c0 + cos \u03c0 = \u22122.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0006",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "With t = tan(A/2), sin A equals:",
+   "imageRef": null,
+   "options": [
+    "(1 \u2212 t\u00b2)/(1 + t\u00b2)",
+    "2t/(1 \u2212 t\u00b2)",
+    "(1 + t\u00b2)/(2t)",
+    "2t/(1 + t\u00b2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "sin A = 2sin(A/2)cos(A/2) = 2tan(A/2)cos\u00b2(A/2) = 2t/(1 + t\u00b2), since cos\u00b2(A/2) = 1/sec\u00b2(A/2) = 1/(1 + t\u00b2). The expression 2t/(1 \u2212 t\u00b2) is tan A.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0007",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "With t = tan(A/2), cos A equals:",
+   "imageRef": null,
+   "options": [
+    "(t\u00b2 \u2212 1)/(1 + t\u00b2)",
+    "(1 \u2212 t\u00b2)/(1 + t\u00b2)",
+    "(1 + t\u00b2)/(1 \u2212 t\u00b2)",
+    "2t/(1 + t\u00b2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos A = cos\u00b2(A/2) \u2212 sin\u00b2(A/2) = cos\u00b2(A/2)(1 \u2212 t\u00b2) = (1 \u2212 t\u00b2)/(1 + t\u00b2). The sign matters: at A = 0, t = 0 and cos A must be 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0008",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "When an equation in \u03b8 is solved with t = tan(\u03b8/2) for 0 \u2264 \u03b8 \u2264 2\u03c0, why must \u03b8 = \u03c0 be checked separately?",
+   "imageRef": null,
+   "options": [
+    "sin \u03b8 and cos \u03b8 are both zero at \u03b8 = \u03c0",
+    "t is undefined when \u03b8 = \u03c0, so that solution cannot appear",
+    "the t-formulas give the wrong sign for \u03b8 > \u03c0",
+    "\u03b8 = \u03c0 always satisfies the equation"
+   ],
+   "correctIndex": 1,
+   "explanation": "At \u03b8 = \u03c0, \u03b8/2 = \u03c0/2 and tan(\u03c0/2) is undefined, so the t-substitution cannot produce \u03b8 = \u03c0 even if it is a solution. Substitute \u03b8 = \u03c0 into the original equation to check.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0009",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The solutions of 3sin \u03b8 \u2212 2cos \u03b8 = 2 for 0 \u2264 \u03b8 \u2264 2\u03c0 are:",
+   "imageRef": null,
+   "options": [
+    "\u03b8 = \u03c0 only",
+    "\u03b8 = 2tan\u207b\u00b9(2/3) or \u03b8 = \u03c0",
+    "\u03b8 = 2tan\u207b\u00b9(2/3) only",
+    "\u03b8 = tan\u207b\u00b9(2/3) or \u03b8 = \u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "With t = tan(\u03b8/2): 6t \u2212 2(1 \u2212 t\u00b2) = 2(1 + t\u00b2), so 6t = 4 and t = 2/3, giving \u03b8 = 2tan\u207b\u00b9(2/3). Checking \u03b8 = \u03c0 separately: 3(0) \u2212 2(\u22121) = 2, so it is also a solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0010",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "Using u = tan x, an anti-derivative of sec\u00b2 x tan\u00b3 x is:",
+   "imageRef": null,
+   "options": [
+    "tan\u2074 x sec\u00b2 x/4",
+    "3tan\u00b2 x sec\u00b2 x",
+    "tan\u2074 x/4",
+    "sec\u00b3 x/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "du/dx = sec\u00b2 x, so the integral becomes the integral of u\u00b3 du = u\u2074/4 + c = tan\u2074 x/4 + c. The factor sec\u00b2 x is used up by du, so it does not appear in the answer.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0011",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The exact value of the integral of cos x/(1 + sin x) from x = 0 to x = \u03c0/2 is:",
+   "imageRef": null,
+   "options": [
+    "ln(\u03c0/2)",
+    "ln 2",
+    "1",
+    "1/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "With u = 1 + sin x, du = cos x dx, and the limits become 1 and 2. The integral of 1/u from 1 to 2 is ln 2 \u2212 ln 1 = ln 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0012",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "Using u = x + 1, the integral of x/\u221a(x + 1) from x = 0 to x = 3 equals:",
+   "imageRef": null,
+   "options": [
+    "8/3",
+    "14/3",
+    "20/3",
+    "4/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "With x = u \u2212 1, the integrand is u^(1/2) \u2212 u^(\u22121/2), and the limits are 1 and 4. The integral is [(2/3)u^(3/2) \u2212 2u^(1/2)] = (2/3)(8 \u2212 1) \u2212 2(2 \u2212 1) = 14/3 \u2212 2 = 8/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0013",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of sec\u00b3 x tan\u00b3 x is:",
+   "imageRef": null,
+   "options": [
+    "sec\u2074 x tan\u2074 x/16",
+    "sec\u2075 x/5 \u2212 sec\u00b3 x/3",
+    "sec\u2075 x/5 + sec\u00b3 x/3",
+    "tan\u2075 x/5 \u2212 tan\u00b3 x/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Write it as sec\u00b2 x tan\u00b2 x \u00d7 sec x tan x and use u = sec x, with tan\u00b2 x = u\u00b2 \u2212 1. The integral becomes the integral of (u\u2074 \u2212 u\u00b2) du = u\u2075/5 \u2212 u\u00b3/3. The sign comes from the \u22121 in tan\u00b2 x = sec\u00b2 x \u2212 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0014",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The correct form of partial fractions for (2x + 1)/((x \u2212 1)(x\u00b2 + 4)) is:",
+   "imageRef": null,
+   "options": [
+    "(Ax + B)/(x \u2212 1) + C/(x\u00b2 + 4)",
+    "A/(x \u2212 1) + (Bx + C)/(x\u00b2 + 4)",
+    "A/(x \u2212 1) + B/(x\u00b2 + 4)",
+    "A/(x \u2212 1) + B/(x \u2212 2) + C/(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b2 + 4 is an irreducible quadratic, so its numerator must be linear, Bx + C. It does not factor over the reals, so x \u2212 2 and x + 2 are wrong.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0015",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The correct form of partial fractions for (x + 3)/((x \u2212 1)\u00b2(x + 2)) is:",
+   "imageRef": null,
+   "options": [
+    "A/(x \u2212 1) + B/(x + 1) + C/(x + 2)",
+    "A/(x \u2212 1) + B/(x \u2212 1)\u00b2 + C/(x + 2)",
+    "A/(x \u2212 1)\u00b2 + B/(x + 2)",
+    "(Ax + B)/(x \u2212 1)\u00b2 + C/(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "A repeated factor (x \u2212 1)\u00b2 needs a term for each power, A/(x \u2212 1) and B/(x \u2212 1)\u00b2. Keeping only the squared term cannot match every numerator.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0016",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The partial fraction decomposition of (5x + 1)/((x + 1)(x \u2212 1)) is:",
+   "imageRef": null,
+   "options": [
+    "2/(x + 1) + 3/(x \u2212 1)",
+    "3/(x + 1) + 2/(x \u2212 1)",
+    "\u22122/(x + 1) + 3/(x \u2212 1)",
+    "2/(x + 1) \u2212 3/(x \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "5x + 1 = A(x \u2212 1) + B(x + 1). At x = 1, 6 = 2B so B = 3; at x = \u22121, \u22124 = \u22122A so A = 2. Check: 2(x \u2212 1) + 3(x + 1) = 5x + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0017",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of 3/(x\u00b2 \u2212 2x) is:",
+   "imageRef": null,
+   "options": [
+    "(3/2)ln|(x \u2212 2)/x|",
+    "(3/2)ln|x/(x \u2212 2)|",
+    "3ln|x(x \u2212 2)|",
+    "3ln|(x \u2212 2)/x|"
+   ],
+   "correctIndex": 0,
+   "explanation": "3/(x(x \u2212 2)) = (3/2)(1/(x \u2212 2) \u2212 1/x), which integrates to (3/2)(ln|x \u2212 2| \u2212 ln|x|) = (3/2)ln|(x \u2212 2)/x|. Forgetting the 1/2 from the decomposition gives 3ln|(x \u2212 2)/x|.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0018",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of (3x\u00b2 + 1)/((x \u2212 1)(x\u00b2 + 1)) is:",
+   "imageRef": null,
+   "options": [
+    "2ln|x \u2212 1| + (1/2)ln(x\u00b2 + 1) + tan\u207b\u00b9(x)",
+    "2ln|x \u2212 1| + ln(x\u00b2 + 1) + tan\u207b\u00b9(x)",
+    "2ln|x \u2212 1| + (1/2)ln(x\u00b2 + 1) + x",
+    "ln|x \u2212 1| + (1/2)ln(x\u00b2 + 1) + tan\u207b\u00b9(x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "3x\u00b2 + 1 = A(x\u00b2 + 1) + (Bx + C)(x \u2212 1) gives A = 2, B = 1 and C = 1. Then 2/(x \u2212 1) + x/(x\u00b2 + 1) + 1/(x\u00b2 + 1) integrates to 2ln|x \u2212 1| + (1/2)ln(x\u00b2 + 1) + tan\u207b\u00b9(x). The x/(x\u00b2 + 1) term needs the factor 1/2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0019",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of 1/(x\u00b2(x + 1)) is:",
+   "imageRef": null,
+   "options": [
+    "ln|(x + 1)/x| \u2212 1/x",
+    "ln|(x + 1)/x| + 1/x",
+    "ln|x(x + 1)| \u2212 1/x",
+    "ln|x + 1| \u2212 ln|x|"
+   ],
+   "correctIndex": 0,
+   "explanation": "1/(x\u00b2(x + 1)) = \u22121/x + 1/x\u00b2 + 1/(x + 1). Integrating gives \u2212ln|x| \u2212 1/x + ln|x + 1|. The repeated factor contributes the 1/x\u00b2 term, which integrates to \u22121/x, not a logarithm.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0020",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of 1/(x\u00b2 \u2212 2x + 3) is:",
+   "imageRef": null,
+   "options": [
+    "tan\u207b\u00b9((x \u2212 1)/\u221a2)",
+    "(1/\u221a2)tan\u207b\u00b9((x + 1)/\u221a2)",
+    "(1/2)tan\u207b\u00b9((x \u2212 1)/2)",
+    "(1/\u221a2)tan\u207b\u00b9((x \u2212 1)/\u221a2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Completing the square, x\u00b2 \u2212 2x + 3 = (x \u2212 1)\u00b2 + 2. The integral of 1/(u\u00b2 + a\u00b2) is (1/a)tan\u207b\u00b9(u/a) with u = x \u2212 1 and a = \u221a2. Using a = 2 instead of \u221a2 confuses a with a\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0021",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of 1/\u221a(4x \u2212 x\u00b2), for 0 < x < 4, is:",
+   "imageRef": null,
+   "options": [
+    "sin\u207b\u00b9((x + 2)/2)",
+    "(1/2)sin\u207b\u00b9((x \u2212 2)/2)",
+    "sin\u207b\u00b9((x \u2212 2)/4)",
+    "sin\u207b\u00b9((x \u2212 2)/2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "4x \u2212 x\u00b2 = 4 \u2212 (x \u2212 2)\u00b2, so the integral is sin\u207b\u00b9((x \u2212 2)/2) + c. The sin\u207b\u00b9 form has no 1/a factor in front, unlike tan\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0022",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of (3x + 6)/(x\u00b2 + 4x + 5) is:",
+   "imageRef": null,
+   "options": [
+    "(3/2)ln(x\u00b2 + 4x + 5) + 3tan\u207b\u00b9(x + 2)",
+    "(3/2)ln(x\u00b2 + 4x + 5)",
+    "3ln(x\u00b2 + 4x + 5)",
+    "3tan\u207b\u00b9(x + 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The derivative of the denominator is 2x + 4, and 3x + 6 = (3/2)(2x + 4) exactly, so the integral is (3/2)ln(x\u00b2 + 4x + 5) + c, with nothing left over for a tan\u207b\u00b9 term. The denominator is always positive, so no absolute value is needed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0023",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of (2x + 3)/(x\u00b2 + 2x + 2) is:",
+   "imageRef": null,
+   "options": [
+    "ln(x\u00b2 + 2x + 2)",
+    "2ln(x\u00b2 + 2x + 2) + tan\u207b\u00b9(x + 1)",
+    "ln(x\u00b2 + 2x + 2) + tan\u207b\u00b9(x + 1)",
+    "ln(x\u00b2 + 2x + 2) + 3tan\u207b\u00b9(x + 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Split the numerator as (2x + 2) + 1. The first part is the derivative of the denominator, giving ln(x\u00b2 + 2x + 2), and 1/((x + 1)\u00b2 + 1) gives tan\u207b\u00b9(x + 1). Only 1 is left over, not 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0024",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of (x\u00b2 + 1)/(x + 1) is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/2 \u2212 x + 2ln|x + 1|",
+    "x\u00b2/2 + x + 2ln|x + 1|",
+    "x\u00b2/2 \u2212 x + ln|x + 1|",
+    "(x\u00b2 + 1)ln|x + 1|"
+   ],
+   "correctIndex": 0,
+   "explanation": "The numerator has the higher degree, so divide first: x\u00b2 + 1 = (x + 1)(x \u2212 1) + 2, giving x \u2212 1 + 2/(x + 1). This integrates to x\u00b2/2 \u2212 x + 2ln|x + 1|. Forgetting the remainder 2 gives the third option.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0025",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The formula for integration by parts is:",
+   "imageRef": null,
+   "options": [
+    "integral of u(dv/dx) dx = uv + integral of v(du/dx) dx",
+    "integral of u(dv/dx) dx = (du/dx)(dv/dx) \u2212 uv",
+    "integral of uv dx = (integral of u dx)(integral of v dx)",
+    "integral of u(dv/dx) dx = uv \u2212 integral of v(du/dx) dx"
+   ],
+   "correctIndex": 3,
+   "explanation": "It comes from integrating the product rule d(uv)/dx = u(dv/dx) + v(du/dx) and rearranging. The integral of a product is not the product of the integrals.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0026",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "For the integral of x\u00b2 ln x, the best choice in integration by parts is:",
+   "imageRef": null,
+   "options": [
+    "u = x\u00b2 and dv/dx = ln x",
+    "u = x\u00b2 ln x and dv/dx = 1",
+    "u = x and dv/dx = x ln x",
+    "u = ln x and dv/dx = x\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Choose u to be the factor that becomes simpler when differentiated, and dv/dx one you can integrate. ln x differentiates to 1/x, but integrating ln x is itself a by-parts problem, so it should not be dv/dx.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0027",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of xe\u02e3 is:",
+   "imageRef": null,
+   "options": [
+    "(x + 1)e\u02e3",
+    "x\u00b2e\u02e3/2",
+    "xe\u02e3",
+    "(x \u2212 1)e\u02e3"
+   ],
+   "correctIndex": 3,
+   "explanation": "With u = x and dv/dx = e\u02e3, the integral is xe\u02e3 \u2212 the integral of e\u02e3 = xe\u02e3 \u2212 e\u02e3 = (x \u2212 1)e\u02e3. The expression (x + 1)e\u02e3 is the derivative of xe\u02e3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0028",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of x cos x is:",
+   "imageRef": null,
+   "options": [
+    "x sin x + cos x",
+    "x sin x \u2212 cos x",
+    "\u2212x sin x + cos x",
+    "x\u00b2 sin x/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "With u = x and dv/dx = cos x, the integral is x sin x \u2212 the integral of sin x = x sin x + cos x. Check: differentiating gives sin x + x cos x \u2212 sin x = x cos x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0029",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of ln x, for x > 0, is:",
+   "imageRef": null,
+   "options": [
+    "x ln x + x",
+    "1/x",
+    "(ln x)\u00b2/2",
+    "x ln x \u2212 x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Take u = ln x and dv/dx = 1: the integral is x ln x \u2212 the integral of x \u00d7 (1/x) = x ln x \u2212 x. The function 1/x is the derivative of ln x, not its anti-derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0030",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of tan\u207b\u00b9(x) is:",
+   "imageRef": null,
+   "options": [
+    "x tan\u207b\u00b9(x) \u2212 (1/2)ln(1 + x\u00b2)",
+    "x tan\u207b\u00b9(x) + (1/2)ln(1 + x\u00b2)",
+    "x tan\u207b\u00b9(x) \u2212 ln(1 + x\u00b2)",
+    "1/(1 + x\u00b2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "With u = tan\u207b\u00b9(x) and dv/dx = 1, the integral is x tan\u207b\u00b9(x) \u2212 the integral of x/(1 + x\u00b2) = x tan\u207b\u00b9(x) \u2212 (1/2)ln(1 + x\u00b2). The function 1/(1 + x\u00b2) is the derivative, not the anti-derivative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0031",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of x\u00b2e\u02e3 is:",
+   "imageRef": null,
+   "options": [
+    "(x\u00b2 \u2212 2x)e\u02e3",
+    "(x\u00b2 \u2212 2)e\u02e3",
+    "(x\u00b2 \u2212 2x + 2)e\u02e3",
+    "(x\u00b2 + 2x + 2)e\u02e3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Parts twice: the integral is x\u00b2e\u02e3 \u2212 2(the integral of xe\u02e3) = x\u00b2e\u02e3 \u2212 2(x \u2212 1)e\u02e3 = (x\u00b2 \u2212 2x + 2)e\u02e3. Stopping after one application, or losing the sign on the second, gives the other forms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0032",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The exact value of the integral of x ln x from x = 1 to x = e is:",
+   "imageRef": null,
+   "options": [
+    "(e\u00b2 + 1)/2",
+    "(e\u00b2 + 1)/4",
+    "(e\u00b2 \u2212 1)/4",
+    "e\u00b2/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "By parts, the integral of x ln x is (x\u00b2/2)ln x \u2212 x\u00b2/4. From 1 to e this is (e\u00b2/2 \u2212 e\u00b2/4) \u2212 (0 \u2212 1/4) = (e\u00b2 + 1)/4. The lower limit contributes +1/4, not \u22121/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0033",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "An anti-derivative of e\u02e3 sin x is:",
+   "imageRef": null,
+   "options": [
+    "(e\u02e3/2)(sin x + cos x)",
+    "e\u02e3(sin x \u2212 cos x)",
+    "(e\u02e3/2)(cos x \u2212 sin x)",
+    "(e\u02e3/2)(sin x \u2212 cos x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Applying parts twice returns the original integral I: I = e\u02e3 sin x \u2212 e\u02e3 cos x \u2212 I. Solving, 2I = e\u02e3(sin x \u2212 cos x), so I = (e\u02e3/2)(sin x \u2212 cos x). Forgetting to divide by 2 is the usual slip.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0034",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "I\u2099 = the integral of x\u207fe\u02e3 from 0 to 1 satisfies I\u2099 = e \u2212 nI\u2099\u208b\u2081 for n \u2265 1. Given I\u2080 = e \u2212 1, I\u2082 equals:",
+   "imageRef": null,
+   "options": [
+    "2 \u2212 e",
+    "e \u2212 1",
+    "3 \u2212 e",
+    "e \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "I\u2081 = e \u2212 1 \u00d7 I\u2080 = e \u2212 (e \u2212 1) = 1, then I\u2082 = e \u2212 2I\u2081 = e \u2212 2. Each step must use the previous value, so I\u2081 has to be found first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0035",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "I\u2099 = the integral of sin\u207f x from 0 to \u03c0/2 satisfies I\u2099 = ((n \u2212 1)/n)I\u2099\u208b\u2082, with I\u2080 = \u03c0/2. Then I\u2084 equals:",
+   "imageRef": null,
+   "options": [
+    "3\u03c0/16",
+    "3\u03c0/8",
+    "\u03c0/4",
+    "8/15"
+   ],
+   "correctIndex": 0,
+   "explanation": "I\u2082 = (1/2)I\u2080 = \u03c0/4, and I\u2084 = (3/4)I\u2082 = 3\u03c0/16. The value 8/15 is I\u2085, which comes from the odd chain starting at I\u2081 = 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0036",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "I\u2099 = the integral of x\u207f\u221a(x \u2212 1) from 1 to 2 satisfies I\u2099 = (2\u207f\u207a\u00b9 + 2nI\u2099\u208b\u2081)/(2n + 3) for n \u2265 1, with I\u2080 = 2/3. Then I\u2082 equals:",
+   "imageRef": null,
+   "options": [
+    "184/105",
+    "16/15",
+    "32/21",
+    "8/7"
+   ],
+   "correctIndex": 0,
+   "explanation": "I\u2081 = (4 + 2 \u00d7 2/3)/5 = 16/15. Then I\u2082 = (8 + 4 \u00d7 16/15)/7 = (184/15)/7 = 184/105. Using I\u2080 in place of I\u2081 in the second step gives 32/21.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0037",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "The area under y = ln x from x = 1 to x = e is:",
+   "imageRef": null,
+   "options": [
+    "1/e",
+    "1",
+    "e \u2212 1",
+    "e"
+   ],
+   "correctIndex": 1,
+   "explanation": "The anti-derivative is x ln x \u2212 x. From 1 to e: (e \u2212 e) \u2212 (0 \u2212 1) = 1. The value e \u2212 1 is just the width of the interval.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-further-integration-0038",
+   "topicId": "spec-hsc-further-integration",
+   "stem": "A particle moves with velocity v = te^(\u2212t) m/s. The distance in metres it travels from t = 0 to t = 1 is:",
+   "imageRef": null,
+   "options": [
+    "1/e",
+    "1 \u2212 1/e",
+    "2/e \u2212 1",
+    "1 \u2212 2/e"
+   ],
+   "correctIndex": 3,
+   "explanation": "v \u2265 0 throughout, so the distance is the integral of te^(\u2212t) from 0 to 1. By parts this is [\u2212(t + 1)e^(\u2212t)] = \u22122/e + 1 = 1 \u2212 2/e. Forgetting the (t + 1) factor at the lower limit gives 1 \u2212 1/e.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-further-integration-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

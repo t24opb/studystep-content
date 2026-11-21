@@ -1,0 +1,689 @@
+{
+ "topicId": "gm-hsc-networks-trees",
+ "questions": [
+  {
+   "id": "gm-hsc-networks-trees-0001",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In a network, what are the vertices and edges?",
+   "imageRef": null,
+   "options": [
+    "Vertices are the lines; edges are the objects they join",
+    "Vertices are the weights; edges are the directions of travel",
+    "Vertices are the routes; edges are the start and end points",
+    "Vertices are the objects; edges are the lines joining them"
+   ],
+   "correctIndex": 3,
+   "explanation": "A network is a collection of objects, the vertices, joined by lines, the edges. In a road map the towns could be vertices and the roads edges.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0002",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "What is the degree of a vertex?",
+   "imageRef": null,
+   "options": [
+    "The total weight of the edges that meet at it",
+    "The number of vertices in the whole network",
+    "The shortest distance from it to another vertex",
+    "The number of edges that meet at the vertex"
+   ],
+   "correctIndex": 3,
+   "explanation": "The degree counts the edges attached to a vertex. Weights do not affect the degree; a vertex with three edges has degree 3 whatever their weights.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0003",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. What is the degree of vertex D?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "5",
+    "4",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "D meets the edges B-D, C-D, D-E and D-F, so its degree is 4. 21 adds the weights of those edges, which gives total weight rather than degree.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0004",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. What is the sum of the degrees of all the vertices?",
+   "imageRef": null,
+   "options": [
+    "41",
+    "6",
+    "18",
+    "9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each edge has two ends and adds 1 to the degree of each, so the sum of the degrees is 2 \u00d7 9 edges = 18. 9 is the number of edges, and 6 is the number of vertices.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0005",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "What makes a network a directed network?",
+   "imageRef": null,
+   "options": [
+    "Its edges have weights, shown by numbers",
+    "Every vertex has the same degree as the others",
+    "Every pair of vertices is joined by an edge",
+    "Its edges have directions, shown by arrows"
+   ],
+   "correctIndex": 3,
+   "explanation": "In a directed network each edge can be travelled only in the direction of its arrow, as with one-way streets. Numbers on the edges make a network weighted, not directed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0006",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In a weighted network of roads between towns, what could the weight on an edge represent?",
+   "imageRef": null,
+   "options": [
+    "The direction that traffic must travel",
+    "The distance or travel time along that road",
+    "The number of roads meeting at a town",
+    "The number of towns in the whole network"
+   ],
+   "correctIndex": 1,
+   "explanation": "A weight is a number on an edge that measures something about the connection, such as distance, time or cost. The number of roads meeting at a town is that vertex's degree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0007",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Which situation is best represented by a directed network?",
+   "imageRef": null,
+   "options": [
+    "Followers on an app where following need not be mutual",
+    "Friendships on an app where both people must accept",
+    "Two-way roads between the suburbs of a city",
+    "Power lines connecting substations in a region"
+   ],
+   "correctIndex": 0,
+   "explanation": "If A follows B, B need not follow A, so each connection has a direction. Mutual friendships, two-way roads and power lines work the same in both directions, so undirected edges represent them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0008",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Walking times, in minutes, between four houses are: A to B 5, A to C 8, B to C 4, B to D 7 and C to D 3. There is no direct path between A and D. In a network drawn from this information, what is the degree of B?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "2",
+    "16",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "B is joined to A, C and D, so it has 3 edges and degree 3. 16 adds the walking times 5 + 4 + 7, which is the total weight of B's edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0009",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Walking times, in minutes, between four houses are: A to B 5, A to C 8, B to C 4, B to D 7 and C to D 3. There is no direct path between A and D. What is the shortest walking time from A to D?",
+   "imageRef": null,
+   "options": [
+    "12 minutes",
+    "15 minutes",
+    "19 minutes",
+    "11 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "Check the routes: A-C-D = 8 + 3 = 11, A-B-D = 5 + 7 = 12 and A-B-C-D = 5 + 4 + 3 = 12. The shortest is 11 minutes, even though it starts with the longest edge from A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0010",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A network of one-way streets has directed edges X\u2192A 5, A\u2192Y 4, Y\u2192X 6, X\u2192B 2 and B\u2192A 1, with travel times in minutes. What is the shortest travel time from X to Y?",
+   "imageRef": null,
+   "options": [
+    "9 minutes",
+    "6 minutes",
+    "11 minutes",
+    "7 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "X\u2192A\u2192Y takes 5 + 4 = 9 minutes, but X\u2192B\u2192A\u2192Y takes 2 + 1 + 4 = 7 minutes. Y\u2192X has 6 minutes on it, but it runs from Y to X, so it cannot be used to travel from X to Y.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0011",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A network of one-way streets has directed edges X\u2192A 5, A\u2192Y 4, Y\u2192X 6, X\u2192B 2 and B\u2192A 1, with travel times in minutes. What is the shortest travel time from A to B?",
+   "imageRef": null,
+   "options": [
+    "8 minutes",
+    "12 minutes",
+    "1 minute",
+    "3 minutes"
+   ],
+   "correctIndex": 1,
+   "explanation": "B\u2192A points from B to A, so it cannot be used. The only route is A\u2192Y\u2192X\u2192B = 4 + 6 + 2 = 12 minutes. 1 minute travels B\u2192A against its direction.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0012",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In network terms, what is a tree?",
+   "imageRef": null,
+   "options": [
+    "A network that includes every possible edge",
+    "A connected network with no cycles",
+    "A network in which every edge has a direction",
+    "A network in which every vertex has degree 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A tree connects all its vertices with no closed loops, called cycles. A network where every vertex has degree 2 is a single cycle, the opposite of a tree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0013",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "What is a path in a network?",
+   "imageRef": null,
+   "options": [
+    "A sequence of edges that starts and finishes at the same vertex",
+    "The set of all the edges with the largest weight in a network",
+    "A list of the degrees of each vertex in the network, in order",
+    "A sequence of edges joining vertices, with no vertex repeated"
+   ],
+   "correctIndex": 3,
+   "explanation": "A path travels from one vertex to another along edges without revisiting a vertex. A route that returns to its starting vertex is a cycle, not a path.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0014",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A connected network has 8 vertices. How many edges does any spanning tree of it have?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "16",
+    "7",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "A spanning tree joins all n vertices with no cycles, which always takes n \u2212 1 edges: 8 \u2212 1 = 7. An eighth edge would close a cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0015",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "What is a minimum spanning tree of a weighted network?",
+   "imageRef": null,
+   "options": [
+    "A tree made by keeping only the edge with the smallest weight",
+    "A spanning tree with the smallest possible total weight",
+    "The path with the smallest total weight between two vertices",
+    "A spanning tree that uses the smallest number of vertices"
+   ],
+   "correctIndex": 1,
+   "explanation": "A spanning tree reaches every vertex with no cycles; the minimum one has the least total weight. The lightest route between two particular vertices is a shortest path, a different idea.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0016",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Which of these describes Prim's algorithm for a minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "Remove the heaviest edge of the network repeatedly until only a single path remains",
+    "Start at any vertex, then keep adding the lightest edge that joins a new vertex to the tree",
+    "Keep choosing the lightest edge anywhere in the network, skipping any that would form a cycle",
+    "Start at any vertex, then keep moving along the lightest edge from the vertex just reached"
+   ],
+   "correctIndex": 1,
+   "explanation": "Prim's grows one tree outward from a starting vertex. Choosing the lightest edge anywhere and skipping cycles is Kruskal's algorithm. Moving only from the latest vertex can get stuck and miss lighter edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0017",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "What happens if any one edge is removed from a spanning tree?",
+   "imageRef": null,
+   "options": [
+    "A cycle is formed in the network",
+    "The tree's total weight is unchanged",
+    "Another vertex is added to the tree",
+    "The network becomes disconnected"
+   ],
+   "correctIndex": 3,
+   "explanation": "A tree has exactly enough edges to connect its vertices, so removing any edge splits it into two parts. Adding an edge, not removing one, is what forms a cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0018",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. What is the total weight of a minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "17",
+    "14",
+    "13",
+    "41"
+   ],
+   "correctIndex": 2,
+   "explanation": "Kruskal's chooses B-C 1, A-C 2, D-E 2 and E-F 3, rejects A-B 4 because it would close the cycle A-B-C, then takes B-D 5. Total 1 + 2 + 2 + 3 + 5 = 13. 17 includes A-B 4, which forms a cycle. 41 is every edge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0019",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. Using Kruskal's algorithm, which edge is the first to be rejected because it would form a cycle?",
+   "imageRef": null,
+   "options": [
+    "D-F",
+    "C-D",
+    "A-B",
+    "B-D"
+   ],
+   "correctIndex": 2,
+   "explanation": "After B-C 1, A-C 2, D-E 2 and E-F 3, the next lightest is A-B 4. A and B are already joined through C, so A-B would form a cycle. B-D 5 is accepted next, because it links the two separate parts.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0020",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. Using Prim's algorithm starting at A, which edge is added third?",
+   "imageRef": null,
+   "options": [
+    "B-D",
+    "D-E",
+    "A-B",
+    "C-D"
+   ],
+   "correctIndex": 0,
+   "explanation": "From A the lightest edge is A-C 2, then C-B 1. From the tree A, B, C the lightest edge to a new vertex is B-D 5; A-B joins two vertices already in the tree. D-E 2 is added fourth, once D is reached.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0021",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. Which edge is NOT in the minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "E-F",
+    "D-E",
+    "D-F",
+    "B-D"
+   ],
+   "correctIndex": 2,
+   "explanation": "The tree is B-C, A-C, D-E, E-F and B-D. By the time D-F 6 is considered, D and F are already connected through E, so D-F would form a cycle. B-D is needed, as it is the lightest link between the two halves.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0022",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Cable costs, in thousands of dollars, between six towns are P-Q 12, P-R 9, Q-R 7, Q-S 10, R-S 14, R-T 8, S-T 6, S-U 11 and T-U 13. What is the minimum cost of connecting all six towns?",
+   "imageRef": null,
+   "options": [
+    "$41 000",
+    "$30 000",
+    "$45 000",
+    "$47 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "Kruskal's: S-T 6, Q-R 7, R-T 8, P-R 9, then Q-S 10 is rejected (Q and S are already linked through R and T), and S-U 11 is taken. Total 6 + 7 + 8 + 9 + 11 = 41, or $41 000. $30 000 is the shortest path from P to U, not a connector for all towns.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0023",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Cable lengths, in metres, between school buildings are Office-Library 40, Office-Gym 75, Office-Hall 55, Library-Hall 30, Library-Science 60, Gym-Hall 45, Gym-Science 50 and Hall-Science 65. Cable costs $12 per metre. What is the minimum cost of connecting all five buildings?",
+   "imageRef": null,
+   "options": [
+    "$5040",
+    "$1980",
+    "$1320",
+    "$2040"
+   ],
+   "correctIndex": 1,
+   "explanation": "Minimum spanning tree: Library-Hall 30, Office-Library 40, Gym-Hall 45, Gym-Science 50, a total of 165 m. 165 \u00d7 12 = $1980. $5040 cables every edge, 420 m, instead of only the tree.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0024",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A vertex G is joined to the rest of a weighted network only by the edge D-G, which has the largest weight in the network. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "D-G is in every spanning tree, including the minimum one",
+    "D-G is never in the minimum spanning tree, as it is the heaviest",
+    "D-G is in the minimum spanning tree only if Prim's starts at G",
+    "D-G can be replaced by any lighter edge in the spanning tree"
+   ],
+   "correctIndex": 0,
+   "explanation": "A spanning tree must reach every vertex, and D-G is the only way to reach G, so it is in every spanning tree whatever its weight. Kruskal's skips only edges that would form a cycle, and D-G never can.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0025",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. If the weight of C-E is reduced from 10 to 1, what is the total weight of the new minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "4",
+    "10",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Kruskal's now takes B-C 1, C-E 1, A-C 2, D-E 2 and E-F 3, which joins all six vertices with total 9. B-D 5 is no longer needed, since D is reached through E. 13 is the old tree's weight.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0026",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In a supply chain network, warehouses and shops are vertices, goods travel only from warehouses to shops, and each edge shows the transport cost. What kind of network is this?",
+   "imageRef": null,
+   "options": [
+    "A directed network with no weights",
+    "A tree with no weights or directions",
+    "A directed, weighted network",
+    "An undirected, weighted network"
+   ],
+   "correctIndex": 2,
+   "explanation": "Goods move in one direction only, so the edges are directed, and each edge carries a cost, so the network is weighted. An undirected network would allow goods to travel from shops back to warehouses.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0027",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. What is the shortest path from A to F?",
+   "imageRef": null,
+   "options": [
+    "A-C-B-D-E-F, length 13",
+    "A-B-D-E-F, length 14",
+    "A-C-B-D-F, length 14",
+    "A-C-E-F, length 15"
+   ],
+   "correctIndex": 0,
+   "explanation": "A-C-B reaches B in 3, less than A-B 4. Then B-D 5 reaches D in 8, and D-E-F adds 2 + 3 = 5, less than D-F 6. Total 13. The other routes each take one of the heavier shortcuts.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0028",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A weighted network has edges A-B 4, A-C 2, B-C 1, B-D 5, C-D 8, C-E 10, D-E 2, D-F 6 and E-F 3. What is the length of the shortest path from A to E?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "12",
+    "11",
+    "8"
+   ],
+   "correctIndex": 0,
+   "explanation": "A-C-B-D-E = 2 + 1 + 5 + 2 = 10. The direct-looking route A-C-E = 2 + 10 = 12 is longer because C-E is heavy. 8 is the distance from A to D.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0029",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Cable costs, in thousands of dollars, between six towns are P-Q 12, P-R 9, Q-R 7, Q-S 10, R-S 14, R-T 8, S-T 6, S-U 11 and T-U 13. Which statement compares the cheapest route from P to U with the minimum spanning tree?",
+   "imageRef": null,
+   "options": [
+    "The cheapest route P-Q-S-U, cost 33, lies entirely in the tree",
+    "The cheapest route P-R-S-U, cost 34, uses an edge not in the tree",
+    "The cheapest route P-R-T-U, cost 30, uses an edge not in the tree",
+    "The cheapest route P-R-T-S-U, cost 34, lies entirely in the tree"
+   ],
+   "correctIndex": 2,
+   "explanation": "P-R-T-U costs 9 + 8 + 13 = 30, less than any other route. The minimum spanning tree does not contain T-U 13, so its route from P to U, P-R-T-S-U, costs 34. A shortest path need not lie in a minimum spanning tree.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0030",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Why might a delivery driver not use the shortest path between two places?",
+   "imageRef": null,
+   "options": [
+    "The shortest path may be congested, so it takes longer",
+    "A shortest path must always pass through every vertex",
+    "A shortest path can only be found in a directed network",
+    "The shortest path is always longer than a spanning tree"
+   ],
+   "correctIndex": 0,
+   "explanation": "Shortest means least distance, but the best path might weigh up time, tolls, traffic or road quality. A shortest path joins just two vertices and does not need to visit every vertex.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0031",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Three towns X, Y and Z are joined by roads X-Y 5 km, Y-Z 5 km and X-Z 8 km. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "The shortest path from X to Z is not in the minimum spanning tree",
+    "The minimum spanning tree contains all three of the roads",
+    "The shortest path from X to Z is X-Y-Z, a total of 10 km",
+    "The minimum spanning tree is X-Z and Y-Z, a total of 13 km"
+   ],
+   "correctIndex": 0,
+   "explanation": "The minimum spanning tree is X-Y and Y-Z, total 10 km. The shortest path from X to Z is the direct road, 8 km, which is not in that tree. A tree with all three roads would contain a cycle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0032",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In a minimal connector problem, such as linking towns to a power station with the least cable, what is being found?",
+   "imageRef": null,
+   "options": [
+    "A directed network of the towns",
+    "The vertex of largest degree",
+    "A minimum spanning tree",
+    "A shortest path between two towns"
+   ],
+   "correctIndex": 2,
+   "explanation": "Every town must be connected using the least total length, which is exactly a minimum spanning tree. A shortest path links only two towns, not all of them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0033",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Cable costs, in thousands of dollars, between six towns are P-Q 12, P-R 9, Q-R 7, Q-S 10, R-S 14, R-T 8, S-T 6, S-U 11 and T-U 13. Starting Prim's algorithm at P, which edge is chosen first?",
+   "imageRef": null,
+   "options": [
+    "Q-R",
+    "P-R",
+    "P-Q",
+    "S-T"
+   ],
+   "correctIndex": 1,
+   "explanation": "Prim's begins with the lightest edge from the starting vertex: P-R 9 is lighter than P-Q 12. S-T 6 is the lightest edge overall, which Kruskal's would choose first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0034",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "Cable costs, in thousands of dollars, between six towns are P-Q 12, P-R 9, Q-R 7, Q-S 10, R-S 14, R-T 8, S-T 6, S-U 11 and T-U 13. After Prim's algorithm has chosen P-R from P, which edge is chosen next?",
+   "imageRef": null,
+   "options": [
+    "R-T",
+    "S-T",
+    "P-Q",
+    "Q-R"
+   ],
+   "correctIndex": 3,
+   "explanation": "From the tree P, R, the edges to new vertices are P-Q 12, Q-R 7, R-S 14 and R-T 8. The lightest is Q-R 7. S-T 6 does not touch the tree yet, so Prim's cannot choose it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0035",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "In a social network diagram, what do the vertices and edges usually represent?",
+   "imageRef": null,
+   "options": [
+    "Messages, and the times they were sent",
+    "Websites, and the number of their users",
+    "People, and the connections between them",
+    "Connections, and the people they link"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each person is a vertex, and an edge joins two people who are connected, such as friends. Following on an app where it need not be mutual would use directed edges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-networks-trees-0036",
+   "topicId": "gm-hsc-networks-trees",
+   "stem": "A courier's network has weighted edges showing travel times. What is the main reason a minimum spanning tree does not give the quickest route between two depots?",
+   "imageRef": null,
+   "options": [
+    "It can only be found for networks whose edges all have equal weights",
+    "It must start at the vertex of largest degree, which may not be a depot",
+    "It minimises the total weight of all edges, not the route between two vertices",
+    "It contains every edge of the network, so routes through it are always longer"
+   ],
+   "correctIndex": 2,
+   "explanation": "A minimum spanning tree keeps the total weight of the whole connection low, so the route it gives between two particular vertices may be long. A shortest-path method is needed for that. A spanning tree leaves edges out; it does not contain every edge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-networks-trees-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

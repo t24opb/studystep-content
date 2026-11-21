@@ -1,0 +1,708 @@
+{
+ "topicId": "meth-hsc-random-variables",
+ "questions": [
+  {
+   "id": "meth-hsc-random-variables-0001",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "A die is rolled 50 times and a six comes up 8 times. What is the estimated probability of rolling a six, based on these results?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "1/6",
+    "0.08",
+    "0.16"
+   ],
+   "correctIndex": 3,
+   "explanation": "The relative frequency is 8/50 = 0.16, which estimates P(6) from the data. The value 1/6 is the theoretical probability for a fair die, not the estimate from these trials.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0002",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "In any discrete probability distribution, the probabilities P(x):",
+   "imageRef": null,
+   "options": [
+    "are each between 0 and 1 and add to 1",
+    "are each between 0 and 1 and add to the mean",
+    "can be negative but must add to 1",
+    "are all equal to one another"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each P(x) is a probability, so 0 \u2264 P(x) \u2264 1, and the values of X cover every outcome, so the probabilities add to 1. Equal probabilities happen only in a uniform distribution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0003",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on the values 1, 2, 3, 4 and 5. What is P(X \u2265 4)?",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "1/5",
+    "4/5",
+    "3/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "In a discrete uniform distribution each of the 5 values has probability 1/5. X \u2265 4 covers 4 and 5, so the probability is 2/5. The value 4/5 is P(X \u2264 4).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0004",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X takes the values 0, 1 and 2 with probabilities 0.2, 0.5 and 0.3. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "1.5",
+    "1.1",
+    "1",
+    "0.33"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(X) = \u03a3xP(x) = 0 \u00d7 0.2 + 1 \u00d7 0.5 + 2 \u00d7 0.3 = 1.1. The value 1 is the middle of the values, which ignores that 2 is more likely than 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0005",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Which formula gives the variance of a discrete random variable X with mean \u03bc?",
+   "imageRef": null,
+   "options": [
+    "\u03a3(x \u2212 \u03bc)P(x)",
+    "\u03a3x\u00b2P(x) \u2212 \u03bc\u00b2",
+    "\u03a3x\u00b2P(x)",
+    "(\u03a3xP(x))\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Var(X) = \u03a3x\u00b2P(x) \u2212 \u03bc\u00b2, which equals \u03a3(x \u2212 \u03bc)\u00b2P(x). Without squaring, \u03a3(x \u2212 \u03bc)P(x) is always 0, because deviations above and below the mean cancel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0006",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X takes the values 0, 1 and 2 with probabilities 0.2, 0.5 and 0.3. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "1.21",
+    "0.49",
+    "1.7",
+    "0.7"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(X) = 1.1 and E(X\u00b2) = 0 + 0.5 + 4 \u00d7 0.3 = 1.7, so Var(X) = 1.7 \u2212 1.21 = 0.49. The value 0.7 is the standard deviation, and 1.7 forgets to subtract \u03bc\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0007",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X takes the values 1, 2, 3 and 4 with probabilities 0.1, k, 0.4 and 2k. What is k?",
+   "imageRef": null,
+   "options": [
+    "0.25",
+    "1/6",
+    "0.5",
+    "1/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The probabilities add to 1: 0.1 + k + 0.4 + 2k = 1, so 3k = 0.5 and k = 1/6. Stopping at 0.5 finds 3k, not k.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0008",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "In a game you win $10 with probability 0.1, $2 with probability 0.3, and nothing otherwise. What are your expected winnings?",
+   "imageRef": null,
+   "options": [
+    "$12.00",
+    "$6.00",
+    "$1.60",
+    "$4.00"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X) = 10 \u00d7 0.1 + 2 \u00d7 0.3 + 0 \u00d7 0.6 = $1.60. Averaging the three prizes equally gives $4, which ignores how unlikely the $10 prize is.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0009",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "A game costs $2 to play. You win $10 with probability 0.1, $2 with probability 0.3, and nothing otherwise. What is the expected profit per game?",
+   "imageRef": null,
+   "options": [
+    "$1.60",
+    "\u2212$2.00",
+    "$0.40",
+    "\u2212$0.40"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expected winnings are 10 \u00d7 0.1 + 2 \u00d7 0.3 = $1.60, and subtracting the $2 cost gives \u2212$0.40, an expected loss of 40 cents a game. The value $1.60 forgets the cost of playing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0010",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "The variance Var(X) can be described as:",
+   "imageRef": null,
+   "options": [
+    "the square of the expected value of X",
+    "the expected value of X divided by the number of values",
+    "the expected value of the squared deviation from the mean",
+    "the expected value of the deviation from the mean"
+   ],
+   "correctIndex": 2,
+   "explanation": "Var(X) = E((X \u2212 \u03bc)\u00b2): the average squared distance from the mean. The expected deviation E(X \u2212 \u03bc) is always 0, which is why the deviations are squared.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0011",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Two fair coins are tossed and X is the number of heads. What is P(X = 1)?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "1/3",
+    "1/4",
+    "2/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The outcomes HH, HT, TH and TT are equally likely, and two of them have one head, so P(X = 1) = 2/4 = 1/2. The distribution is 1/4, 1/2, 1/4. Treating 0, 1 and 2 heads as equally likely gives 1/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0012",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X takes the values 1, 2 and a with probabilities 0.5, 0.3 and 0.2, and E(X) = 2.1. What is a?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "10.5",
+    "5",
+    "3"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X) = 0.5 + 0.6 + 0.2a = 2.1, so 0.2a = 1 and a = 5. The value 10.5 comes from dividing 2.1 by 0.2 without first subtracting the other contributions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0013",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on the values 1, 2, 3 and 4. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "1.12",
+    "1.25",
+    "2.5",
+    "7.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "E(X) = 2.5 and E(X\u00b2) = (1 + 4 + 9 + 16)/4 = 7.5, so Var(X) = 7.5 \u2212 6.25 = 1.25. The value 2.5 is the mean, and 1.12 is roughly the standard deviation, \u221a1.25.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0014",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "In a sample of 200 battery lifetimes, 46 lasted between 10 and 12 hours. What is the estimated probability that a battery lasts between 10 and 12 hours?",
+   "imageRef": null,
+   "options": [
+    "0.46",
+    "0.046",
+    "0.77",
+    "0.23"
+   ],
+   "correctIndex": 3,
+   "explanation": "The relative frequency 46/200 = 0.23 estimates the probability; on a histogram it is that bar's share of the whole. The value 0.77 is the estimate of lasting outside that range.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0015",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is a continuous random variable. What is P(X = 2)?",
+   "imageRef": null,
+   "options": [
+    "f(2)",
+    "P(X \u2264 2)",
+    "1/2",
+    "0"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a continuous random variable the probability of any single value is 0, because the area under the PDF above a single point has no width. P(X \u2264 2) is the CDF value F(2), and f(2) is a density, not a probability.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0016",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "For a continuous random variable X, P(1 \u2264 X \u2264 3) = 0.4. What is P(1 < X < 3)?",
+   "imageRef": null,
+   "options": [
+    "0.4",
+    "Less than 0.4",
+    "More than 0.4",
+    "It cannot be found"
+   ],
+   "correctIndex": 0,
+   "explanation": "Since P(X = 1) = P(X = 3) = 0, including or excluding the endpoints makes no difference, so all four versions of the probability are 0.4. This is not true for discrete random variables.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0017",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "The cumulative distribution function F(x) of a random variable X is defined as:",
+   "imageRef": null,
+   "options": [
+    "P(X \u2264 x)",
+    "P(X = x)",
+    "P(X \u2265 x)",
+    "the derivative of P(X \u2264 x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "F(x) = P(X \u2264 x), the probability of a value up to and including x. Its derivative is the probability density function f(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0018",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Which statement about a cumulative distribution function F(x) is always true?",
+   "imageRef": null,
+   "options": [
+    "F is non-decreasing",
+    "F has its maximum at the mode",
+    "F(x) can be greater than 1",
+    "F is symmetric about the median"
+   ],
+   "correctIndex": 0,
+   "explanation": "F(x) = P(X \u2264 x), and making x larger can only add probability, so F never decreases; it runs from 0 up to 1. The mode is where the PDF f, not F, is greatest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0019",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has cumulative distribution function F(x). Its probability density function is:",
+   "imageRef": null,
+   "options": [
+    "f(x) = 1 \u2212 F(x)",
+    "f(x) = F(x)/x",
+    "f(x) = the integral of F(x)",
+    "f(x) = F\u2032(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The PDF is the derivative of the CDF, f(x) = F\u2032(x). Going the other way, F is found by integrating f. The expression 1 \u2212 F(x) is P(X > x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0020",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Which pair of conditions must every probability density function f on [a, b] satisfy?",
+   "imageRef": null,
+   "options": [
+    "f(x) \u2264 1 on [a, b], and its integral from a to b is 1",
+    "f(x) \u2265 0 on [a, b], and f(b) = 1",
+    "f is increasing, and its integral from a to b is 1",
+    "f(x) \u2265 0 on [a, b], and its integral from a to b is 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Probabilities are areas under f, so f can never be negative, and the total area is 1. A density can exceed 1: for example f(x) = 2x on [0, 1] reaches 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0021",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Which of these is a probability density function on [0, 2]?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b2/2",
+    "f(x) = x/2",
+    "f(x) = x",
+    "f(x) = 1 \u2212 x"
+   ],
+   "correctIndex": 1,
+   "explanation": "x/2 is never negative on [0, 2] and its integral is [x\u00b2/4] = 1. The integral of x is 2 and of x\u00b2/2 is 4/3, and 1 \u2212 x is negative for x > 1, so none of those can be a PDF.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0022",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "f(x) = kx\u00b2 is a probability density function on [0, 3]. What is k?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "1/9",
+    "1/3",
+    "1/27"
+   ],
+   "correctIndex": 1,
+   "explanation": "The total area must be 1: the integral of kx\u00b2 from 0 to 3 is k \u00d7 27/3 = 9k, so k = 1/9. The value 1/3 comes from setting k \u00d7 3 = 1, using the interval length instead of integrating, and 1/27 forgets to divide x\u00b3 by 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0023",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has CDF F(x) = x\u00b2/16 for 0 \u2264 x \u2264 4. What is P(1 \u2264 X \u2264 3)?",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "9/16",
+    "1/16",
+    "1/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(1 \u2264 X \u2264 3) = F(3) \u2212 F(1) = 9/16 \u2212 1/16 = 8/16 = 1/2. The value 9/16 is F(3) = P(X \u2264 3), which forgets to remove the part below 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0024",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has CDF F(x) = x\u00b2/16 for 0 \u2264 x \u2264 4. What is its probability density function on [0, 4]?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x/8",
+    "f(x) = x/16",
+    "f(x) = x\u00b3/48",
+    "f(x) = 2x"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = F\u2032(x) = 2x/16 = x/8. Check: the integral of x/8 from 0 to 4 is 16/16 = 1. Integrating F instead of differentiating gives x\u00b3/48.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0025",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has CDF F(x) = x\u00b2/16 for 0 \u2264 x \u2264 4. What is the median of X?",
+   "imageRef": null,
+   "options": [
+    "\u221a2",
+    "8",
+    "2\u221a2",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The median m has F(m) = 1/2, so m\u00b2 = 8 and m = 2\u221a2 \u2248 2.83, taking the positive root. The value 2 is the midpoint of [0, 4], which is the median only for a symmetric distribution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0026",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has CDF F(x) = x\u00b2/16 for 0 \u2264 x \u2264 4. What is the interquartile range?",
+   "imageRef": null,
+   "options": [
+    "2",
+    "2\u221a2 \u2212 2",
+    "2\u221a3",
+    "2\u221a3 \u2212 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q\u2081 solves x\u00b2/16 = 1/4, so Q\u2081 = 2. Q\u2083 solves x\u00b2/16 = 3/4, so Q\u2083 = \u221a12 = 2\u221a3. The IQR is 2\u221a3 \u2212 2 \u2248 1.46. The value 2\u221a3 is Q\u2083 alone.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0027",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "f(x) = 3x\u00b2 is a PDF on [0, 1]. Using F(x) = the integral of f(t) from 0 to x, what is the CDF?",
+   "imageRef": null,
+   "options": [
+    "F(x) = x\u00b3 + 1",
+    "F(x) = 3x\u00b3",
+    "F(x) = x\u00b3",
+    "F(x) = 6x"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of 3t\u00b2 from 0 to x is x\u00b3. Check: F(0) = 0 and F(1) = 1, as a CDF must have. Adding 1 would make F(1) = 2, and 6x is the derivative of f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0028",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has PDF f(x) = 2x on [0, 1]. What is P(X \u2264 0.5)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0.75",
+    "0.25",
+    "0.5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of 2x from 0 to 0.5 is [x\u00b2] = 0.25. The density rises with x, so less than half the probability lies in the lower half. The value 1 is f(0.5), a density.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0029",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has PDF f(x) = 2x on [0, 1]. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "1/3",
+    "2/3",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X) = the integral of x \u00d7 2x from 0 to 1 = [2x\u00b3/3] = 2/3. The mean is above 1/2 because more of the probability lies towards 1. Integrating f(x) itself gives 1, the total probability.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0030",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has PDF f(x) = 2x on [0, 1]. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "4/9",
+    "1/18",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "E(X\u00b2) = the integral of 2x\u00b3 from 0 to 1 = 1/2, and E(X) = 2/3, so Var(X) = 1/2 \u2212 4/9 = 1/18. The value 1/2 is E(X\u00b2) before subtracting \u03bc\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0031",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X has PDF f(x) = 12x\u00b2(1 \u2212 x) on [0, 1]. What is the mode of X?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2/3",
+    "1/2",
+    "3/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mode is where f is greatest. f\u2032(x) = 24x \u2212 36x\u00b2 = 12x(2 \u2212 3x) = 0 at x = 2/3, a maximum. The value 3/5 is the mean E(X), not the mode.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0032",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "Where is the mode of a continuous random variable with PDF f?",
+   "imageRef": null,
+   "options": [
+    "At the midpoint of the domain",
+    "Where f(x) is greatest",
+    "Where half the probability lies below",
+    "Where f(x) = 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The mode is the most likely region of values, where the density f is highest. The point with half the probability below it is the median, and the midpoint of the domain is the mode only if the density happens to peak there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0033",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "A PDF on [1, 5] is symmetric about x = 3. What is E(X)?",
+   "imageRef": null,
+   "options": [
+    "3",
+    "4",
+    "2",
+    "6"
+   ],
+   "correctIndex": 0,
+   "explanation": "For a symmetric distribution the values balance about the line of symmetry, so the mean, and also the median, is 3. The value 2 is the width of half the interval, not the centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0034",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on [2, 7]. What is its probability density function on that interval?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x/5",
+    "f(x) = 1/5",
+    "f(x) = 1/7",
+    "f(x) = 5"
+   ],
+   "correctIndex": 1,
+   "explanation": "A continuous uniform PDF is f(x) = 1/(b \u2212 a), here 1/(7 \u2212 2) = 1/5, so the rectangle has area 5 \u00d7 1/5 = 1. Using 1/7 ignores the start of the interval at 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0035",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on [2, 7]. What is P(X > 5.5)?",
+   "imageRef": null,
+   "options": [
+    "0.7",
+    "0.25",
+    "0.5",
+    "0.3"
+   ],
+   "correctIndex": 3,
+   "explanation": "The probability is the area of the rectangle from 5.5 to 7: 1.5 \u00d7 1/5 = 0.3. The value 0.7 is P(X < 5.5).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0036",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on [0, 10]. What is its cumulative distribution function on that interval?",
+   "imageRef": null,
+   "options": [
+    "F(x) = x/10",
+    "F(x) = 1/10",
+    "F(x) = 10x",
+    "F(x) = x\u00b2/20"
+   ],
+   "correctIndex": 0,
+   "explanation": "F(x) = the integral of 1/10 from 0 to x = x/10, which rises steadily from 0 to 1. The constant 1/10 is the PDF, not the CDF.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-random-variables-0037",
+   "topicId": "meth-hsc-random-variables",
+   "stem": "X is uniformly distributed on [2, 7]. What is Var(X)?",
+   "imageRef": null,
+   "options": [
+    "25/12",
+    "9/2",
+    "5/12",
+    "5/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "E(X) = 9/2, and E(X\u00b2) = the integral of x\u00b2/5 from 2 to 7 = (343 \u2212 8)/15 = 67/3, so Var(X) = 67/3 \u2212 81/4 = 25/12, which agrees with (b \u2212 a)\u00b2/12. The value 9/2 is the mean.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-random-variables-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

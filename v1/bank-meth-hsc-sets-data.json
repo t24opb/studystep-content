@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-hsc-sets-data",
+ "questions": [
+  {
+   "id": "meth-hsc-sets-data-0001",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A is the set of prime numbers less than 20. What is n(A)?",
+   "imageRef": null,
+   "options": [
+    "20",
+    "8",
+    "9",
+    "7"
+   ],
+   "correctIndex": 1,
+   "explanation": "The primes less than 20 are 2, 3, 5, 7, 11, 13, 17 and 19, so A has 8 elements. Counting 1 as a prime gives 9, but 1 is not prime.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0002",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "The empty set, written \u2205, is:",
+   "imageRef": null,
+   "options": [
+    "the set with no elements",
+    "the set containing only 0",
+    "the universal set",
+    "a set with exactly one element"
+   ],
+   "correctIndex": 0,
+   "explanation": "The empty set has no elements at all, so n(\u2205) = 0. The set containing 0 has one element, the number 0, so it is not empty.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0003",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "For sets A and B, the intersection A \u2229 B is the set of elements that are:",
+   "imageRef": null,
+   "options": [
+    "in A or B or both",
+    "in A but not in B",
+    "in neither A nor B",
+    "in both A and B"
+   ],
+   "correctIndex": 3,
+   "explanation": "The intersection contains the elements common to both sets. The set of elements in A or B or both is the union, A \u222a B.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0004",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "The complement A\u2032 of a set A is the set of elements that are:",
+   "imageRef": null,
+   "options": [
+    "in A and in the universal set",
+    "in every set except the empty set",
+    "in the universal set but not in A",
+    "in A but not in the universal set"
+   ],
+   "correctIndex": 2,
+   "explanation": "The complement is taken with respect to the universal set U: everything in U that is not in A. A set and its complement together make up U.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0005",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Two sets A and B are disjoint when:",
+   "imageRef": null,
+   "options": [
+    "A \u2229 B = \u2205",
+    "A \u222a B = \u2205",
+    "A \u2286 B",
+    "n(A) = n(B)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Disjoint sets have no elements in common, so their intersection is empty. A \u222a B = \u2205 would need both sets to be empty.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0006",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "If A \u2286 B, then A \u2229 B equals:",
+   "imageRef": null,
+   "options": [
+    "A",
+    "B",
+    "\u2205",
+    "A \u222a B"
+   ],
+   "correctIndex": 0,
+   "explanation": "Every element of A is also in B, so the elements common to both are exactly the elements of A. The union A \u222a B would equal B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0007",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "U is the set of whole numbers from 1 to 10, A is the set of even numbers in U and B is the set of multiples of 3 in U. What is n(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "6",
+    "7",
+    "8"
+   ],
+   "correctIndex": 2,
+   "explanation": "A has 5 elements (2, 4, 6, 8, 10) and B has 3 (3, 6, 9), and they share only 6. So n(A \u222a B) = 5 + 3 \u2212 1 = 7. Adding 5 and 3 counts 6 twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0008",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "U is the set of whole numbers from 1 to 10, A is the set of even numbers in U and B is the set of multiples of 3 in U. What is n((A \u222a B)\u2032)?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "3",
+    "2",
+    "7"
+   ],
+   "correctIndex": 1,
+   "explanation": "A \u222a B has 7 elements, so its complement in U has 10 \u2212 7 = 3: the numbers 1, 5 and 7. The value 7 is n(A \u222a B) itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0009",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Given |A| = 18, |B| = 12 and |A \u2229 B| = 5, what is |A \u222a B|?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "35",
+    "20",
+    "25"
+   ],
+   "correctIndex": 3,
+   "explanation": "|A \u222a B| = |A| + |B| \u2212 |A \u2229 B| = 18 + 12 \u2212 5 = 25. Adding the 5 instead of subtracting it gives 35.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0010",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "In a class of 30 students, 17 play tennis, 12 play cricket and 6 play both. How many play neither?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "5",
+    "7",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The number who play at least one is 17 + 12 \u2212 6 = 23, so 30 \u2212 23 = 7 play neither. Forgetting to subtract those who play both gives 29 and the answer 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0011",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Of 40 people, 25 like tea, 20 like coffee and 8 like neither. How many like both?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "13",
+    "5",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number who like at least one is 40 \u2212 8 = 32, and 32 = 25 + 20 \u2212 both, so both = 13. Ignoring the 8 who like neither gives 45 \u2212 40 = 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0012",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "In a Venn diagram, the region A \u2229 B\u2032 contains the elements that are:",
+   "imageRef": null,
+   "options": [
+    "in A or B but not both",
+    "in A but not in B",
+    "in B but not in A",
+    "in neither A nor B"
+   ],
+   "correctIndex": 1,
+   "explanation": "B\u2032 is everything outside B, so A \u2229 B\u2032 is the part of A outside B. The part in neither set is A\u2032 \u2229 B\u2032.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0013",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Which set is the same as (A \u222a B)\u2032?",
+   "imageRef": null,
+   "options": [
+    "A\u2032 \u222a B\u2032",
+    "A \u2229 B",
+    "A \u222a B\u2032",
+    "A\u2032 \u2229 B\u2032"
+   ],
+   "correctIndex": 3,
+   "explanation": "An element outside A \u222a B is in neither set, so it is outside A and outside B: A\u2032 \u2229 B\u2032. The set A\u2032 \u222a B\u2032 is the complement of A \u2229 B instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0014",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "In probability, an event is:",
+   "imageRef": null,
+   "options": [
+    "a single trial of an experiment",
+    "the set of all possible outcomes",
+    "an outcome that is certain to occur",
+    "a subset of the sample space"
+   ],
+   "correctIndex": 3,
+   "explanation": "An event is a collection of outcomes, so it is a subset of the sample space S. The set of all possible outcomes is the sample space itself.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0015",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A card is drawn at random from cards numbered 1 to 20. What is the probability that its number is a multiple of 4?",
+   "imageRef": null,
+   "options": [
+    "1/20",
+    "4/5",
+    "1/4",
+    "1/5"
+   ],
+   "correctIndex": 2,
+   "explanation": "The event contains 4, 8, 12, 16 and 20, so P = |A|/|S| = 5/20 = 1/4. The value 1/5 comes from counting only 4 multiples.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0016",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "P(A) = 0.4, P(B) = 0.5 and P(A \u2229 B) = 0.2. What is P(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "0.1",
+    "0.7",
+    "0.9",
+    "0.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(A \u222a B) = P(A) + P(B) \u2212 P(A \u2229 B) = 0.4 + 0.5 \u2212 0.2 = 0.7. Adding P(A) and P(B) alone gives 0.9, which counts the overlap twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0017",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "P(A \u222a B) = 0.8, P(A) = 0.5 and P(B) = 0.45. What is P(A \u2229 B)?",
+   "imageRef": null,
+   "options": [
+    "0.95",
+    "0.225",
+    "0.3",
+    "0.15"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearranging the addition rule, P(A \u2229 B) = P(A) + P(B) \u2212 P(A \u222a B) = 0.95 \u2212 0.8 = 0.15. Multiplying 0.5 \u00d7 0.45 = 0.225 assumes the events are independent, which is not given.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0018",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A and B are mutually exclusive, with P(A) = 0.3 and P(B) = 0.45. What is P(A \u222a B)?",
+   "imageRef": null,
+   "options": [
+    "0.135",
+    "0.25",
+    "0.75",
+    "0.615"
+   ],
+   "correctIndex": 2,
+   "explanation": "Mutually exclusive events are disjoint, so P(A \u2229 B) = 0 and P(A \u222a B) = 0.3 + 0.45 = 0.75. Subtracting 0.3 \u00d7 0.45 = 0.135 treats them as independent instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0019",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Events A and B have P(A) = 0.6, P(B) = 0.5 and P(A\u2032 \u2229 B\u2032) = 0.1. What is P(A \u2229 B)?",
+   "imageRef": null,
+   "options": [
+    "0.4",
+    "0.2",
+    "0.3",
+    "0.1"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(A \u222a B) = 1 \u2212 P(A\u2032 \u2229 B\u2032) = 0.9, so P(A \u2229 B) = 0.6 + 0.5 \u2212 0.9 = 0.2. The value 0.3 is 0.6 \u00d7 0.5, which assumes independence.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0020",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Two fair six-sided dice are rolled. Using an array of outcomes, what is the probability that the sum is 9?",
+   "imageRef": null,
+   "options": [
+    "1/12",
+    "1/6",
+    "5/36",
+    "1/9"
+   ],
+   "correctIndex": 3,
+   "explanation": "Of the 36 equally likely outcomes, four give 9: (3, 6), (4, 5), (5, 4) and (6, 3). So P = 4/36 = 1/9. Missing one of the four outcomes gives 3/36 = 1/12.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0021",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A fair die is rolled twice. What is the probability of at least one six?",
+   "imageRef": null,
+   "options": [
+    "11/36",
+    "1/3",
+    "1/36",
+    "10/36"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(no six) = (5/6)\u00b2 = 25/36, so P(at least one six) = 1 \u2212 25/36 = 11/36. Adding 1/6 + 1/6 = 1/3 counts the outcome (6, 6) twice.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0022",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A bag holds 3 red and 2 blue marbles. Two are drawn without replacement. What is the probability of one red and one blue?",
+   "imageRef": null,
+   "options": [
+    "3/5",
+    "3/10",
+    "12/25",
+    "6/25"
+   ],
+   "correctIndex": 0,
+   "explanation": "By a tree diagram, P(RB) + P(BR) = (3/5)(2/4) + (2/5)(3/4) = 6/20 + 6/20 = 3/5. Counting only one order gives 3/10, and drawing with replacement gives 12/25.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0023",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A random variable is:",
+   "imageRef": null,
+   "options": [
+    "a variable whose value is the outcome of a random experiment",
+    "a variable that can take any value at all",
+    "a variable whose value is chosen by the experimenter",
+    "the probability of an outcome of an experiment"
+   ],
+   "correctIndex": 0,
+   "explanation": "A random variable assigns a number to each outcome of a random experiment, such as the number of heads in three tosses. Its value is determined by chance, not chosen.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0024",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Which is a continuous random variable?",
+   "imageRef": null,
+   "options": [
+    "The number of customers arriving at a bank in an hour",
+    "The number of heads when four coins are tossed",
+    "The number of goals scored in a hockey match",
+    "The time a light bulb lasts before it burns out"
+   ],
+   "correctIndex": 3,
+   "explanation": "Time is measured on a continuous scale and can take any value in an interval. The other three are counts, which take separate whole-number values, so they are discrete.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0025",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Which is a discrete random variable?",
+   "imageRef": null,
+   "options": [
+    "The number of cars passing a checkpoint in a minute",
+    "The mass of an apple picked at random",
+    "The height of a student chosen at random",
+    "The time taken to run 100 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "A count of cars can only be 0, 1, 2 and so on, so it is discrete. Mass, height and time are measurements that can take any value in a range, so they are continuous.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0026",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A survey of 20 homes found: 0 pets in 4 homes, 1 pet in 7, 2 pets in 5, 3 pets in 3 and 4 pets in 1. What is the relative frequency of homes with 2 pets?",
+   "imageRef": null,
+   "options": [
+    "0.25",
+    "0.5",
+    "5",
+    "0.2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Relative frequency = frequency/total = 5/20 = 0.25. The frequency itself is 5, which is a count rather than a proportion.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0027",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A survey of 20 homes found: 0 pets in 4 homes, 1 pet in 7, 2 pets in 5, 3 pets in 3 and 4 pets in 1. What is the cumulative frequency for 2 pets?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "11",
+    "9",
+    "16"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cumulative frequency adds every frequency up to and including that value: 4 + 7 + 5 = 16. The value 11 stops at 1 pet, and 5 is the frequency for 2 pets alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0028",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A survey of 20 homes found: 0 pets in 4 homes, 1 pet in 7, 2 pets in 5, 3 pets in 3 and 4 pets in 1. What is the cumulative relative frequency for 1 pet?",
+   "imageRef": null,
+   "options": [
+    "0.55",
+    "0.35",
+    "0.45",
+    "0.8"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cumulative frequency for 1 pet is 4 + 7 = 11, and 11/20 = 0.55. The value 0.35 is the relative frequency of 1 pet alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0029",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A survey of 20 homes found: 0 pets in 4 homes, 1 pet in 7, 2 pets in 5, 3 pets in 3 and 4 pets in 1. What is the mode?",
+   "imageRef": null,
+   "options": [
+    "2 pets",
+    "4 pets",
+    "1 pet",
+    "7 pets"
+   ],
+   "correctIndex": 2,
+   "explanation": "The mode is the value with the highest frequency, which is 1 pet (7 homes). The 7 is the frequency, not the value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0030",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A survey of 20 homes found: 0 pets in 4 homes, 1 pet in 7, 2 pets in 5, 3 pets in 3 and 4 pets in 1. What is the median number of pets?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "1.5",
+    "3"
+   ],
+   "correctIndex": 0,
+   "explanation": "With 20 values the median is the average of the 10th and 11th. The cumulative frequencies are 4 for 0 pets and 11 for 1 pet, so both are 1 and the median is 1. The middle category in the table, 2, is not the median.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0031",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "Waiting times in minutes: 0 to under 10, frequency 3; 10 to under 20, 8; 20 to under 30, 12; 30 to under 40, 5; 40 to under 50, 2. Which class contains the median?",
+   "imageRef": null,
+   "options": [
+    "0 to under 10",
+    "20 to under 30",
+    "10 to under 20",
+    "30 to under 40"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are 30 values, so the median is between the 15th and 16th. The cumulative frequencies are 3, 11, 23, 28, 30, so the 15th and 16th values fall in the class 20 to under 30.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0032",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "To find the median from a cumulative frequency polygon, read across from:",
+   "imageRef": null,
+   "options": [
+    "half the total frequency",
+    "the highest point of the polygon",
+    "the top of the tallest column",
+    "one quarter of the total frequency"
+   ],
+   "correctIndex": 0,
+   "explanation": "Half the values lie at or below the median, so read across from half the total frequency to the polygon, then down to the horizontal axis. One quarter of the total gives the lower quartile.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0033",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "On a frequency polygon for grouped data, each point is plotted:",
+   "imageRef": null,
+   "options": [
+    "above the midpoint of its class",
+    "above the lower end of its class",
+    "above the upper end of its class",
+    "at the cumulative total so far"
+   ],
+   "correctIndex": 0,
+   "explanation": "A frequency polygon joins points at the class midpoints, at heights equal to the frequencies. A cumulative frequency polygon is the one plotted at the upper ends of the classes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0034",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "In a relative frequency table, what is the total of the relative frequency column?",
+   "imageRef": null,
+   "options": [
+    "the highest frequency",
+    "1",
+    "100",
+    "the number of observations"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each relative frequency is a frequency divided by the total, so together they add to total/total = 1. As percentages they would add to 100%.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0035",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A drawing pin lands point up 132 times in 400 throws. What is the estimated probability that it lands point up?",
+   "imageRef": null,
+   "options": [
+    "0.33",
+    "0.67",
+    "0.5",
+    "0.132"
+   ],
+   "correctIndex": 0,
+   "explanation": "The relative frequency 132/400 = 0.33 estimates the probability. Assuming the two outcomes are equally likely, 0.5, ignores the data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-sets-data-0036",
+   "topicId": "meth-hsc-sets-data",
+   "stem": "A drawing pin lands point up 132 times in 400 throws. In 1000 more throws, about how many times would you expect it to land point up?",
+   "imageRef": null,
+   "options": [
+    "132",
+    "500",
+    "670",
+    "330"
+   ],
+   "correctIndex": 3,
+   "explanation": "The estimated probability is 132/400 = 0.33, and 0.33 \u00d7 1000 = 330. The value 670 is the expected number of point-down landings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-sets-data-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

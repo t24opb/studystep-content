@@ -1,0 +1,727 @@
+{
+ "topicId": "phys-qce-induction",
+ "questions": [
+  {
+   "id": "phys-qce-induction-0001",
+   "topicId": "phys-qce-induction",
+   "stem": "The magnetic flux through a flat coil is:",
+   "imageRef": null,
+   "options": [
+    "the number of field lines leaving the north pole of the magnet",
+    "the force on the coil per unit current in the coil",
+    "the field strength multiplied by the area perpendicular to the field",
+    "the field strength divided by the area of the coil"
+   ],
+   "correctIndex": 2,
+   "explanation": "Flux is \u03a6 = BA\u22a5 = BA cos \u03b8, where A\u22a5 is the component of the coil's area perpendicular to the field. It measures how much field passes through the coil. Field strength divided by area has no physical meaning here; flux density is flux divided by area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0002",
+   "topicId": "phys-qce-induction",
+   "stem": "Magnetic flux density B is measured in teslas. Which of these is equal to one tesla?",
+   "imageRef": null,
+   "options": [
+    "One newton per coulomb",
+    "One volt per second",
+    "One weber per square metre",
+    "One weber multiplied by one square metre"
+   ],
+   "correctIndex": 2,
+   "explanation": "Flux density is flux per unit area, so 1 T = 1 Wb m\u207b\u00b2. Flux itself is measured in webers, where 1 Wb = 1 T m\u00b2. A newton per coulomb is a unit of electric field strength.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0003",
+   "topicId": "phys-qce-induction",
+   "stem": "A flat coil of area 0.050 m\u00b2 is in a uniform 0.40 T magnetic field. The field makes an angle of 60\u00b0 with the normal to the coil. What is the magnetic flux through the coil?",
+   "imageRef": null,
+   "options": [
+    "8.0 Wb",
+    "1.0 \u00d7 10\u207b\u00b2 Wb",
+    "1.7 \u00d7 10\u207b\u00b2 Wb",
+    "2.0 \u00d7 10\u207b\u00b2 Wb"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03a6 = BA cos \u03b8, where \u03b8 is the angle between the field and the normal to the coil: 0.40 \u00d7 0.050 \u00d7 cos 60\u00b0 = 1.0 \u00d7 10\u207b\u00b2 Wb. Using sin 60\u00b0 gives 1.7 \u00d7 10\u207b\u00b2 Wb, and ignoring the angle gives the maximum flux, 2.0 \u00d7 10\u207b\u00b2 Wb.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0004",
+   "topicId": "phys-qce-induction",
+   "stem": "A circular loop of radius 0.10 m lies with its plane perpendicular to a uniform 0.25 T magnetic field. What is the flux through the loop?",
+   "imageRef": null,
+   "options": [
+    "7.9 \u00d7 10\u207b\u00b3 Wb",
+    "2.5 \u00d7 10\u207b\u00b2 Wb",
+    "1.6 \u00d7 10\u207b\u00b9 Wb",
+    "3.1 \u00d7 10\u207b\u00b2 Wb"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is \u03c0r\u00b2 = \u03c0 \u00d7 0.10\u00b2 \u2248 0.0314 m\u00b2, and the field passes straight through, so \u03a6 = BA \u2248 0.25 \u00d7 0.0314 \u2248 7.9 \u00d7 10\u207b\u00b3 Wb. Multiplying B by the radius gives 2.5 \u00d7 10\u207b\u00b2 Wb, and using the circumference instead of the area gives 1.6 \u00d7 10\u207b\u00b9 Wb.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0005",
+   "topicId": "phys-qce-induction",
+   "stem": "A flat coil is turned in a uniform magnetic field until its plane is parallel to the field. What is the flux through it then?",
+   "imageRef": null,
+   "options": [
+    "Half its maximum value, as cos 90\u00b0 is 0.5",
+    "Zero, as no field lines pass through the coil",
+    "A maximum, as the field lies along the coil",
+    "Equal to B multiplied by the length of one side"
+   ],
+   "correctIndex": 1,
+   "explanation": "With the coil's plane parallel to the field, the normal to the coil is at 90\u00b0 to the field and cos 90\u00b0 = 0, so no field lines pass through it. The flux is greatest when the plane of the coil is perpendicular to the field.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0006",
+   "topicId": "phys-qce-induction",
+   "stem": "Electromagnetic induction is best described as:",
+   "imageRef": null,
+   "options": [
+    "the magnetisation of iron when it is placed near a magnet",
+    "the production of an EMF in a conductor by a changing magnetic flux",
+    "the production of a magnetic field by a steady current in a wire",
+    "the force on a current-carrying wire placed in a magnetic field"
+   ],
+   "correctIndex": 1,
+   "explanation": "An EMF is induced whenever the magnetic flux through a circuit changes, whether by moving a magnet, moving the conductor or changing the field. A steady current producing a magnetic field is the reverse effect, discovered by Oersted, and the force on a current is the motor effect.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0007",
+   "topicId": "phys-qce-induction",
+   "stem": "The magnetic flux through an open coil of wire, not connected to anything, is changing steadily. What is produced in the coil?",
+   "imageRef": null,
+   "options": [
+    "Neither an EMF nor a current",
+    "An induced EMF, but no current",
+    "An induced current, but no EMF",
+    "Both an induced EMF and a current"
+   ],
+   "correctIndex": 1,
+   "explanation": "Faraday's law says a changing flux induces an EMF, the energy given to each coulomb of charge, whether or not the circuit is complete. A current can flow only if the coil is part of a closed circuit, so the open coil has an EMF across its ends but no current.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0008",
+   "topicId": "phys-qce-induction",
+   "stem": "A rectangular wire loop moves at constant velocity, staying entirely inside a uniform magnetic field perpendicular to its plane. What EMF is induced around the loop?",
+   "imageRef": null,
+   "options": [
+    "An EMF that grows steadily the longer the loop moves",
+    "An EMF that reverses each time the loop moves its own length",
+    "Zero, because the flux through the loop does not change",
+    "A constant EMF, because the loop is cutting field lines"
+   ],
+   "correctIndex": 2,
+   "explanation": "The loop's area and orientation and the field it encloses all stay the same, so the flux through it is constant and no net EMF is induced around it. Each side does have an EMF across it, but those on opposite sides cancel around the loop. An EMF appears only as the loop enters or leaves the field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0009",
+   "topicId": "phys-qce-induction",
+   "stem": "Faraday's law states that the induced EMF in a coil is proportional to:",
+   "imageRef": null,
+   "options": [
+    "the strength of the field and the resistance of the coil",
+    "the current in the coil and the area of the coil",
+    "the number of turns and the rate of change of magnetic flux",
+    "the number of turns and the size of the magnetic flux"
+   ],
+   "correctIndex": 2,
+   "explanation": "EMF = \u2212N\u0394\u03a6/\u0394t, so the EMF depends on how fast the flux changes and on the number of turns. A large but steady flux induces no EMF at all. The resistance affects the current that flows, not the EMF.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0010",
+   "topicId": "phys-qce-induction",
+   "stem": "A 150-turn coil of area 0.020 m\u00b2 is perpendicular to a magnetic field that increases steadily from 0.10 T to 0.50 T in 0.20 s. What is the size of the induced EMF?",
+   "imageRef": null,
+   "options": [
+    "0.040 V",
+    "7.5 V",
+    "1.2 V",
+    "6.0 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "EMF = N\u0394(BA)/\u0394t = 150 \u00d7 (0.50 \u2212 0.10) \u00d7 0.020 / 0.20 = 6.0 V. Leaving out the number of turns gives 0.040 V, using the final field instead of the change gives 7.5 V, and forgetting to divide by the time gives 1.2 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0011",
+   "topicId": "phys-qce-induction",
+   "stem": "A flexible single loop lies perpendicular to a uniform 0.50 T field. It is squeezed so that its area falls from 0.030 m\u00b2 to 0.010 m\u00b2 in 0.25 s. What is the size of the average induced EMF?",
+   "imageRef": null,
+   "options": [
+    "0.060 V",
+    "0.0025 V",
+    "0.040 V",
+    "0.020 V"
+   ],
+   "correctIndex": 2,
+   "explanation": "The flux changes because the area changes: EMF = B\u0394A/\u0394t = 0.50 \u00d7 0.020 / 0.25 = 0.040 V. Using only the final area gives 0.020 V, and using only the initial area gives 0.060 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0012",
+   "topicId": "phys-qce-induction",
+   "stem": "The flux through a 40-turn coil changes by 5.0 \u00d7 10\u207b\u00b3 Wb in 0.10 s. The coil is connected in a circuit of total resistance 2.0 \u03a9. What is the induced current?",
+   "imageRef": null,
+   "options": [
+    "2.0 A",
+    "1.0 A",
+    "4.0 A",
+    "0.025 A"
+   ],
+   "correctIndex": 1,
+   "explanation": "EMF = N\u0394\u03a6/\u0394t = 40 \u00d7 5.0 \u00d7 10\u207b\u00b3 / 0.10 = 2.0 V, so I = EMF/R = 2.0/2.0 = 1.0 A. Multiplying the EMF by the resistance gives 4.0 A, and leaving out the turns gives 0.025 A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0013",
+   "topicId": "phys-qce-induction",
+   "stem": "The flux through a 20-turn coil rises steadily from 0 to 6.0 mWb in 0.030 s, stays constant, then falls steadily to zero in 0.010 s. When is the induced EMF largest, and how large is it?",
+   "imageRef": null,
+   "options": [
+    "While the flux is constant, at 0.12 V",
+    "While the flux falls, at 0.60 V",
+    "While the flux falls, at 12 V",
+    "While the flux rises, at 4.0 V"
+   ],
+   "correctIndex": 2,
+   "explanation": "The EMF is N times the gradient of the flux-time graph. Rising: 20 \u00d7 6.0 \u00d7 10\u207b\u00b3 / 0.030 = 4.0 V. Falling: 20 \u00d7 6.0 \u00d7 10\u207b\u00b3 / 0.010 = 12 V, the largest because the change is fastest. While the flux is constant, the EMF is zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0014",
+   "topicId": "phys-qce-induction",
+   "stem": "A 50-turn coil of area 0.040 m\u00b2 starts with its plane perpendicular to a uniform 0.30 T field and is turned through 180\u00b0 in 0.050 s. What is the size of the average induced EMF?",
+   "imageRef": null,
+   "options": [
+    "12 V",
+    "0 V",
+    "0.48 V",
+    "24 V"
+   ],
+   "correctIndex": 3,
+   "explanation": "Turning through 180\u00b0 reverses the flux through the coil, so the change per turn is 2BA = 2 \u00d7 0.30 \u00d7 0.040 = 0.024 Wb. EMF = 50 \u00d7 0.024 / 0.050 = 24 V. Taking the change as only BA gives 12 V, and assuming the flux is unchanged because its size is the same gives 0 V.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0015",
+   "topicId": "phys-qce-induction",
+   "stem": "What does the negative sign in Faraday's law, EMF = \u2212N\u0394\u03a6/\u0394t, represent?",
+   "imageRef": null,
+   "options": [
+    "The induced EMF is always smaller than the supply voltage",
+    "The induced current always flows anticlockwise in the coil",
+    "The flux through a coil always decreases with time",
+    "The induced EMF opposes the change in flux that produces it"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sign expresses Lenz's law: the induced current flows in the direction that makes a magnetic field opposing the change in flux. Whether that current is clockwise or anticlockwise depends on the situation, not on a fixed rule.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0016",
+   "topicId": "phys-qce-induction",
+   "stem": "The north pole of a bar magnet is pulled away from one end of a coil that is part of a closed circuit. What pole does the induced current produce at that end of the coil?",
+   "imageRef": null,
+   "options": [
+    "No pole, because the magnet is moving away from the coil",
+    "A south pole, which attracts the magnet as it moves away",
+    "A north pole, which repels the magnet as it moves away",
+    "A north pole, which attracts the magnet as it moves away"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pulling the magnet away reduces the flux through the coil, so the induced current opposes that decrease by making a south pole at the near end, which attracts the retreating north pole. A north pole there would push the magnet away and help the change, which Lenz's law rules out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0017",
+   "topicId": "phys-qce-induction",
+   "stem": "A square wire loop moves to the right into a region where a uniform magnetic field points into the page. Viewed from the front of the page, which way does the induced current flow while the loop is entering?",
+   "imageRef": null,
+   "options": [
+    "No current flows until the loop is fully inside",
+    "It alternates direction while the loop enters",
+    "Anticlockwise",
+    "Clockwise"
+   ],
+   "correctIndex": 2,
+   "explanation": "As the loop enters, the flux into the page through it increases. The induced current opposes this by making a field out of the page inside the loop, and by the right-hand grip rule that needs an anticlockwise current. Current flows the whole time the flux is changing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0018",
+   "topicId": "phys-qce-induction",
+   "stem": "How is Lenz's law consistent with the conservation of energy?",
+   "imageRef": null,
+   "options": [
+    "Work must be done against the opposing force, and it becomes electrical energy",
+    "The induced current is too small to carry any significant amount of energy",
+    "The energy of the magnetic field is used up and the magnet slowly weakens",
+    "The induced current flows only when energy is supplied by a battery"
+   ],
+   "correctIndex": 0,
+   "explanation": "Because the induced current opposes the change, whatever moves the magnet or conductor must push against a resisting force, and the work done is transformed into electrical energy. If the induced current helped the change, motion would increase by itself and energy would be created from nothing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0019",
+   "topicId": "phys-qce-induction",
+   "stem": "Suppose a magnet pushed into a coil induced a current that pulled the magnet further in. Why is this impossible?",
+   "imageRef": null,
+   "options": [
+    "The magnet would speed up and gain energy with no work done on it",
+    "The magnet would slow down and lose all its kinetic energy as heat",
+    "The current in the coil would flow in both directions at once",
+    "The flux through the coil would stop changing while it moved"
+   ],
+   "correctIndex": 0,
+   "explanation": "If the induced current attracted the approaching magnet, the magnet would accelerate, inducing an even larger current, and both its kinetic energy and the electrical energy would grow without any energy input. That breaks the conservation of energy, which is why the induced current must oppose the change.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0020",
+   "topicId": "phys-qce-induction",
+   "stem": "A bar magnet is dropped vertically through a horizontal copper ring. How does the magnet's acceleration compare with g as it approaches the ring?",
+   "imageRef": null,
+   "options": [
+    "Less than g, because the induced current repels the approaching magnet",
+    "Greater than g, because the induced current attracts the approaching magnet",
+    "Equal to g, because copper is not attracted to a magnet",
+    "Equal to g, because the ring is not part of a complete circuit"
+   ],
+   "correctIndex": 0,
+   "explanation": "The flux through the ring increases as the magnet approaches, so the induced current makes a field that opposes the increase, repelling the magnet and slowing its fall. Copper is not magnetic, but the induced current is, and the ring is itself a closed loop, so a current can flow.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0021",
+   "topicId": "phys-qce-induction",
+   "stem": "A metal rod 0.50 m long moves at 4.0 m s\u207b\u00b9 at right angles to a uniform 0.20 T magnetic field, perpendicular to its own length. What EMF is induced across its ends?",
+   "imageRef": null,
+   "options": [
+    "0.40 V",
+    "0.025 V",
+    "10 V",
+    "1.6 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "In each second the rod sweeps out an area Lv, so the rate of change of flux is BLv = 0.20 \u00d7 0.50 \u00d7 4.0 = 0.40 V. Dividing instead of multiplying gives 0.025 V or 10 V. The EMF appears even though no complete circuit is present.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0022",
+   "topicId": "phys-qce-induction",
+   "stem": "Why does an EMF develop across a metal rod moving perpendicular to a magnetic field?",
+   "imageRef": null,
+   "options": [
+    "The magnetic force pushes free electrons towards one end, separating charge",
+    "The magnetic field adds extra electrons to the rod as it passes through",
+    "Friction with the field heats the rod and drives a thermal current",
+    "The rod becomes magnetised, with a north pole at one end and a south pole at the other"
+   ],
+   "correctIndex": 0,
+   "explanation": "The free electrons move with the rod, so each experiences a force F = qvB along the rod. Electrons pile up at one end, leaving the other end positive, until the electric field from the separated charge balances the magnetic force. The separated charge is the EMF.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0023",
+   "topicId": "phys-qce-induction",
+   "stem": "A metal rod lying north-south moves east through a uniform magnetic field that points vertically downward. Which end of the rod becomes positive?",
+   "imageRef": null,
+   "options": [
+    "Neither end, as a rod moving east cannot cut a downward field",
+    "The north end, as positive protons move north along the rod",
+    "The north end, as free electrons are pushed to the south end",
+    "The south end, as free electrons are pushed to the north end"
+   ],
+   "correctIndex": 2,
+   "explanation": "For a positive charge moving east in a downward field, the right-hand rule gives a force to the north, so electrons, being negative, are pushed south. The north end is left short of electrons and becomes positive. The protons are fixed in the metal lattice and do not move along the rod.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0024",
+   "topicId": "phys-qce-induction",
+   "stem": "An aircraft with a 40 m wingspan flies horizontally at 250 m s\u207b\u00b9 where Earth's magnetic field has a vertical component of 5.0 \u00d7 10\u207b\u2075 T. What EMF is induced between its wingtips?",
+   "imageRef": null,
+   "options": [
+    "8.0 \u00d7 10\u207b\u2076 V",
+    "0.50 V",
+    "2.0 \u00d7 10\u207b\u00b3 V",
+    "1.3 \u00d7 10\u207b\u00b2 V"
+   ],
+   "correctIndex": 1,
+   "explanation": "The wings act as a conductor moving perpendicular to the vertical field component: EMF = BLv = 5.0 \u00d7 10\u207b\u2075 \u00d7 40 \u00d7 250 = 0.50 V. In level flight the wings and the velocity are both horizontal, so only the vertical component of the field is perpendicular to both. Leaving out the speed gives 2.0 \u00d7 10\u207b\u00b3 V, and leaving out the wingspan gives 1.3 \u00d7 10\u207b\u00b2 V.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0025",
+   "topicId": "phys-qce-induction",
+   "stem": "A metal rod 0.50 m long slides at a steady 2.0 m s\u207b\u00b9 along metal rails, at right angles to a uniform 0.80 T field. The rails are joined by a 4.0 \u03a9 resistor. What force must be applied to keep the rod moving?",
+   "imageRef": null,
+   "options": [
+    "0.080 N",
+    "0.32 N",
+    "0.16 N",
+    "0 N, as the speed is constant"
+   ],
+   "correctIndex": 0,
+   "explanation": "EMF = BLv = 0.80 \u00d7 0.50 \u00d7 2.0 = 0.80 V, so I = 0.80/4.0 = 0.20 A. The current in the rod feels a force BIL = 0.80 \u00d7 0.20 \u00d7 0.50 = 0.080 N opposing its motion, so an equal applied force is needed. The work done, 0.080 \u00d7 2.0 = 0.16 W, equals the power in the resistor, I\u00b2R = 0.16 W.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0026",
+   "topicId": "phys-qce-induction",
+   "stem": "In a transformer, how is an EMF produced in the secondary coil?",
+   "imageRef": null,
+   "options": [
+    "The alternating primary current makes a changing flux in the core, which links the secondary",
+    "Electrons flow from the primary coil to the secondary coil through the iron core",
+    "The steady magnetic field of the core pushes charge around the secondary coil",
+    "The primary coil heats the core, and the heat is converted into electrical energy"
+   ],
+   "correctIndex": 0,
+   "explanation": "An alternating current in the primary produces a continually changing magnetic flux, which the iron core carries through the secondary. By Faraday's law, the changing flux induces an EMF in the secondary. No charge passes between the coils, and a steady flux would induce nothing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0027",
+   "topicId": "phys-qce-induction",
+   "stem": "Why does a secondary coil with more turns than the primary give a larger output voltage?",
+   "imageRef": null,
+   "options": [
+    "Each extra turn adds its own resistance, which raises the voltage across the coil",
+    "A longer wire carries more current, which raises the voltage across the coil",
+    "Each extra turn makes the flux in the core change more slowly",
+    "Each turn has the same rate of change of flux, so more turns add up to more EMF"
+   ],
+   "correctIndex": 3,
+   "explanation": "The same changing flux passes through every turn of both coils, so each turn has the same EMF induced in it. The secondary EMF is N times the EMF per turn, which gives Vp/Vs = Np/Ns. Resistance plays no part in an ideal transformer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0028",
+   "topicId": "phys-qce-induction",
+   "stem": "A phone charger's transformer steps 230 V down to 9.2 V. Its primary coil has 2500 turns. How many turns are on the secondary?",
+   "imageRef": null,
+   "options": [
+    "2300 turns",
+    "100 turns",
+    "6.3 \u00d7 10\u2074 turns",
+    "25 turns"
+   ],
+   "correctIndex": 1,
+   "explanation": "Vp/Vs = Np/Ns, so Ns = Np \u00d7 Vs/Vp = 2500 \u00d7 9.2/230 = 100 turns. Inverting the ratio gives 6.3 \u00d7 10\u2074 turns, which would step the voltage up instead of down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0029",
+   "topicId": "phys-qce-induction",
+   "stem": "An ideal transformer has 200 turns on its primary and 4000 turns on its secondary. The primary has 12 V across it and carries 5.0 A. What are the secondary voltage and current?",
+   "imageRef": null,
+   "options": [
+    "240 V and 100 A",
+    "0.60 V and 100 A",
+    "0.60 V and 0.25 A",
+    "240 V and 0.25 A"
+   ],
+   "correctIndex": 3,
+   "explanation": "The turns ratio is 20, so Vs = 12 \u00d7 20 = 240 V. Power is conserved, IpVp = IsVs, so Is = 5.0 \u00d7 12/240 = 0.25 A. Raising both voltage and current would deliver 400 times as much power as goes in.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0030",
+   "topicId": "phys-qce-induction",
+   "stem": "A 48 W lamp runs at full brightness from the 24 V secondary of an ideal transformer connected to 230 V mains. What current flows in the primary?",
+   "imageRef": null,
+   "options": [
+    "0.21 A",
+    "2.0 A",
+    "19 A",
+    "0.0087 A"
+   ],
+   "correctIndex": 0,
+   "explanation": "IpVp = IsVs = 48 W, so Ip = 48/230 \u2248 0.21 A. The secondary current is 48/24 = 2.0 A. Scaling the current up by the voltage ratio instead of down gives 19 A, which would supply far more power than the lamp uses.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0031",
+   "topicId": "phys-qce-induction",
+   "stem": "A transformer with 1200 primary turns gives 6.0 V from a 240 V supply. How many secondary turns are needed to give 9.0 V from the same supply instead?",
+   "imageRef": null,
+   "options": [
+    "45 turns",
+    "30 turns",
+    "60 turns",
+    "3.2 \u00d7 10\u2074 turns"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ns = Np \u00d7 Vs/Vp = 1200 \u00d7 9.0/240 = 45 turns. The existing secondary has 1200 \u00d7 6.0/240 = 30 turns, so 15 turns must be added. Inverting the ratio gives 3.2 \u00d7 10\u2074 turns.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0032",
+   "topicId": "phys-qce-induction",
+   "stem": "In an ideal transformer, which quantities are the same in the primary and secondary circuits?",
+   "imageRef": null,
+   "options": [
+    "The voltage and the current",
+    "The power and the frequency",
+    "The voltage and the frequency",
+    "The current and the power"
+   ],
+   "correctIndex": 1,
+   "explanation": "An ideal transformer loses no energy, so IpVp = IsVs, and the secondary EMF changes at the same rate as the primary current, so the frequency is unchanged. The voltage and current are both changed, in opposite directions, by the turns ratio.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0033",
+   "topicId": "phys-qce-induction",
+   "stem": "An electromagnetic wave is best described as:",
+   "imageRef": null,
+   "options": [
+    "oscillating electric and magnetic fields that travel through space together",
+    "a vibration of particles in a medium, passed on from particle to particle",
+    "a stream of charged particles moving at the speed of light",
+    "an oscillating magnetic field that travels only through conductors"
+   ],
+   "correctIndex": 0,
+   "explanation": "An electromagnetic wave consists of electric and magnetic fields oscillating at right angles to each other and to the direction of travel. Each changing field generates the other, so the wave needs no medium and travels through a vacuum at c. A vibration of particles describes a mechanical wave, such as sound.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0034",
+   "topicId": "phys-qce-induction",
+   "stem": "Which of these produces an electromagnetic wave?",
+   "imageRef": null,
+   "options": [
+    "An electron moving at constant velocity",
+    "A steady direct current in a straight wire",
+    "An electron oscillating back and forth in an antenna",
+    "A proton held at rest in a magnetic field"
+   ],
+   "correctIndex": 2,
+   "explanation": "Electromagnetic waves are produced by accelerating charges, and an oscillating charge accelerates continually, making changing electric and magnetic fields that spread out as a wave. A charge at rest or at constant velocity, and a steady current, produce fields that do not change, so no wave is radiated.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0035",
+   "topicId": "phys-qce-induction",
+   "stem": "Electrons in a radio antenna oscillate at 100 MHz. What are the frequency and wavelength of the electromagnetic waves produced? Use c = 3.0 \u00d7 10\u2078 m s\u207b\u00b9.",
+   "imageRef": null,
+   "options": [
+    "50 MHz and 6.0 m",
+    "200 MHz and 1.5 m",
+    "100 MHz and 3.0 m",
+    "100 MHz and 0.33 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The fields oscillate at the same frequency as the charges producing them, so the wave frequency is 100 MHz, and \u03bb = c/f = 3.0 \u00d7 10\u2078 / 1.0 \u00d7 10\u2078 = 3.0 m. Dividing f by c gives 0.33 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0036",
+   "topicId": "phys-qce-induction",
+   "stem": "An electromagnetic wave travels due north. Its electric field oscillates vertically. In which direction does its magnetic field oscillate?",
+   "imageRef": null,
+   "options": [
+    "East-west",
+    "North-south",
+    "Vertically",
+    "At 45\u00b0 to the vertical"
+   ],
+   "correctIndex": 0,
+   "explanation": "In an electromagnetic wave the electric field, the magnetic field and the direction of travel are all at right angles to one another. With the wave moving north and the electric field vertical, the magnetic field must oscillate east-west. The wave is transverse, so neither field oscillates along the direction of travel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0037",
+   "topicId": "phys-qce-induction",
+   "stem": "How did Maxwell's theory of electromagnetism show that light is an electromagnetic wave?",
+   "imageRef": null,
+   "options": [
+    "It showed that light needs a medium to carry its oscillating electric field",
+    "It predicted that light slows down as it moves away from its source",
+    "It predicted that the waves travel at a speed equal to the measured speed of light",
+    "It showed that light is made of charged particles that are deflected by magnets"
+   ],
+   "correctIndex": 2,
+   "explanation": "Maxwell showed that a changing electric field produces a magnetic field and a changing magnetic field produces an electric field, so the two can sustain each other as a travelling wave. The speed his equations predicted matched the measured speed of light, so he concluded that light is an electromagnetic wave.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-induction-0038",
+   "topicId": "phys-qce-induction",
+   "stem": "Why does an oscillating charge radiate an electromagnetic wave when a charge moving at constant velocity does not?",
+   "imageRef": null,
+   "options": [
+    "An oscillating charge carries more charge than the same charge moving steadily",
+    "Its acceleration makes its fields change continually, and each change generates the other",
+    "Only an oscillating charge has a magnetic field around it as well as an electric field",
+    "Moving at constant velocity, a charge loses its electric field and keeps only a magnetic one"
+   ],
+   "correctIndex": 1,
+   "explanation": "A charge at constant velocity has steady electric and magnetic fields that simply move with it. An accelerating charge, such as one oscillating in an antenna, produces changing electric and magnetic fields, and a changing field of either kind induces the other, so the disturbance spreads out at c. A steadily moving charge also has a magnetic field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

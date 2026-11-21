@@ -1,0 +1,765 @@
+{
+ "topicId": "meth-hsc-algebra-quadratics",
+ "questions": [
+  {
+   "id": "meth-hsc-algebra-quadratics-0001",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify (3a\u00b2b)\u00b3 \u00f7 (9a\u2074b\u00b2).",
+   "imageRef": null,
+   "options": [
+    "3a\u00b2b",
+    "3a\u2075b",
+    "a\u00b2b/3",
+    "3a\u00b2b\u2075"
+   ],
+   "correctIndex": 0,
+   "explanation": "(3a\u00b2b)\u00b3 = 27a\u2076b\u00b3, and dividing by 9a\u2074b\u00b2 gives 3a\u00b2b. The index a\u2075 comes from adding 2 and 3 instead of multiplying them when cubing, and b\u2075 comes from adding the indices of b instead of subtracting.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0002",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Evaluate 27^(\u22122/3).",
+   "imageRef": null,
+   "options": [
+    "1/9",
+    "9",
+    "\u22129",
+    "\u22121/9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cube root of 27 is 3, and squaring gives 9. The negative index means the reciprocal, so the value is 1/9. A negative index never makes the value negative, which rules out \u22129 and \u22121/9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0003",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve 4^(x + 1) = 8^x.",
+   "imageRef": null,
+   "options": [
+    "x = 1",
+    "x = \u22122",
+    "x = 4",
+    "x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write both sides as powers of 2: 2^(2x + 2) = 2^(3x). Equating indices gives 2x + 2 = 3x, so x = 2. Writing 4^(x + 1) as 2^(2x + 1) forgets to double the 1 and gives x = 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0004",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify (16x\u2078)^(3/4), where x > 0.",
+   "imageRef": null,
+   "options": [
+    "12x\u2076",
+    "64x\u2076",
+    "8x^(32/3)",
+    "8x\u2076"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fourth root of 16 is 2 and 2\u00b3 = 8, while x\u2078 raised to 3/4 gives x\u2076. The coefficient 12 comes from multiplying 16 by 3/4 instead of raising it to that power.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0005",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify (x\u00b2 \u2212 9)/(x\u00b2 + x \u2212 6).",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 3)/(x \u2212 2)",
+    "(x + 3)/(x \u2212 2)",
+    "(x \u2212 3)/(x + 2)",
+    "3/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Factorise: (x \u2212 3)(x + 3)/((x + 3)(x \u2212 2)), and cancel the common factor x + 3 to leave (x \u2212 3)/(x \u2212 2). Cancelling the x\u00b2 terms to get 3/2 is not allowed, because x\u00b2 is a term, not a factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0006",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify x\u00b2/(x\u00b2 + 3x + 2) \u2212 x/(x + 1).",
+   "imageRef": null,
+   "options": [
+    "\u22122x/(x + 1)",
+    "\u22122x/((x + 1)(x + 2))",
+    "2x/((x + 1)(x + 2))",
+    "(x\u00b2 \u2212 x)/((x + 1)(x + 2))"
+   ],
+   "correctIndex": 1,
+   "explanation": "The common denominator is (x + 1)(x + 2), so the second fraction becomes x(x + 2)/((x + 1)(x + 2)). The numerator is x\u00b2 \u2212 x\u00b2 \u2212 2x = \u22122x. Forgetting to multiply x by (x + 2) gives x\u00b2 \u2212 x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0007",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify (a\u00b3b \u2212 ab\u00b3)/(a\u00b2 + 2ab + b\u00b2).",
+   "imageRef": null,
+   "options": [
+    "ab(a + b)/(a \u2212 b)",
+    "(a \u2212 b)/(a + b)",
+    "ab(a \u2212 b)",
+    "ab(a \u2212 b)/(a + b)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The numerator is ab(a\u00b2 \u2212 b\u00b2) = ab(a \u2212 b)(a + b), and the denominator is (a + b)\u00b2. One factor of a + b cancels, leaving ab(a \u2212 b)/(a + b). Dropping the common factor ab from the numerator gives (a \u2212 b)/(a + b).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0008",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Simplify (m\u00b3 + m\u00b2)/(x\u00b2 \u2212 x) \u00f7 (m + 1)/(x \u2212 x\u00b3).",
+   "imageRef": null,
+   "options": [
+    "m\u00b2(x + 1)",
+    "\u2212m\u00b2(x \u2212 1)",
+    "m\u00b2/(x(x + 1))",
+    "\u2212m\u00b2(x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiply by the reciprocal: m\u00b2(m + 1)/(x(x \u2212 1)) \u00d7 x(1 \u2212 x)(1 + x)/(m + 1). The factors m + 1 and x cancel, and (1 \u2212 x)/(x \u2212 1) = \u22121, leaving \u2212m\u00b2(x + 1). Missing that 1 \u2212 x is the negative of x \u2212 1 gives m\u00b2(x + 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0009",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Expand and simplify (2\u221a3 \u2212 1)\u00b2.",
+   "imageRef": null,
+   "options": [
+    "13 \u2212 4\u221a3",
+    "11",
+    "13 \u2212 2\u221a3",
+    "11 \u2212 4\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "(2\u221a3)\u00b2 = 12, the middle term is 2 \u00d7 2\u221a3 \u00d7 (\u22121) = \u22124\u221a3, and the last term is 1, giving 13 \u2212 4\u221a3. Squaring each term separately and subtracting gives 11, which loses the middle term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0010",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "What is a conjugate of \u221a5 + \u221a2?",
+   "imageRef": null,
+   "options": [
+    "\u221a5 \u2212 \u221a2",
+    "\u221a2 + \u221a5",
+    "\u221a10",
+    "\u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The conjugate of \u221aa + \u221ab is \u221aa \u2212 \u221ab, because their product (\u221a5)\u00b2 \u2212 (\u221a2)\u00b2 = 3 has no surd. The expression \u221a2 + \u221a5 is the same number, and their product still contains \u221a10.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0011",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Rationalise the denominator of 6/(\u221a5 \u2212 \u221a2).",
+   "imageRef": null,
+   "options": [
+    "3\u221a5 + 3\u221a2",
+    "2\u221a5 + 2\u221a2",
+    "2\u221a5 \u2212 2\u221a2",
+    "(6\u221a5 + 6\u221a2)/7"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiply top and bottom by \u221a5 + \u221a2. The denominator becomes 5 \u2212 2 = 3, so the result is 6(\u221a5 + \u221a2)/3 = 2\u221a5 + 2\u221a2. Adding 5 and 2 instead of subtracting gives a denominator of 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0012",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Express (\u221a3 + 1)/(\u221a3 \u2212 1) in the form a + b\u221a3.",
+   "imageRef": null,
+   "options": [
+    "2 + \u221a3",
+    "1 + \u221a3",
+    "2 + 2\u221a3",
+    "\u22122 \u2212 \u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Multiply top and bottom by \u221a3 + 1: the numerator is (\u221a3 + 1)\u00b2 = 4 + 2\u221a3 and the denominator is 3 \u2212 1 = 2. Dividing gives 2 + \u221a3. Using 1 \u2212 3 as the denominator gives the negative, \u22122 \u2212 \u221a3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0013",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve x\u00b2 \u2212 5x \u2212 14 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 7 or x = 2",
+    "x = 14 or x = \u22121",
+    "x = 7 or x = \u22122",
+    "x = \u22127 or x = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two numbers with product \u221214 and sum \u22125 are \u22127 and 2, so (x \u2212 7)(x + 2) = 0 and x = 7 or \u22122. Reading the roots straight from the factors without changing sign gives \u22127 and 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0014",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve 2x\u00b2 \u2212 4x \u2212 3 = 0 using the quadratic formula.",
+   "imageRef": null,
+   "options": [
+    "x = 1 \u00b1 \u221a10",
+    "x = (2 \u00b1 \u221a10)/2",
+    "x = (\u22122 \u00b1 \u221a10)/2",
+    "x = (2 \u00b1 \u221a10)/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here b\u00b2 \u2212 4ac = 16 + 24 = 40, so x = (4 \u00b1 \u221a40)/4 = (4 \u00b1 2\u221a10)/4 = (2 \u00b1 \u221a10)/2. Using +b instead of \u2212b in the formula gives the negative of the first term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0015",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "By completing the square, the solutions of x\u00b2 + 6x \u2212 3 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22123 \u00b1 2\u221a3",
+    "x = 3 \u00b1 2\u221a3",
+    "x = \u22123 \u00b1 \u221a6",
+    "x = \u22123 \u00b1 \u221a3"
+   ],
+   "correctIndex": 0,
+   "explanation": "Add 9 to both sides of x\u00b2 + 6x = 3 to get (x + 3)\u00b2 = 12, so x + 3 = \u00b1\u221a12 = \u00b12\u221a3. Forgetting to add the 9 to the right-hand side gives (x + 3)\u00b2 = 3, and other slips give \u221a6.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0016",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "What is the discriminant of 3x\u00b2 \u2212 2x + 5?",
+   "imageRef": null,
+   "options": [
+    "56",
+    "\u221264",
+    "\u221256",
+    "64"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u0394 = b\u00b2 \u2212 4ac = (\u22122)\u00b2 \u2212 4 \u00d7 3 \u00d7 5 = 4 \u2212 60 = \u221256. Treating \u22124ac as +60 gives 64, and squaring \u22122 as \u22124 gives \u221264.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0017",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "For which values of k does x\u00b2 + kx + 9 = 0 have equal roots?",
+   "imageRef": null,
+   "options": [
+    "k = 6 only",
+    "k = 3 or k = \u22123",
+    "k = 36 or k = \u221236",
+    "k = 6 or k = \u22126"
+   ],
+   "correctIndex": 3,
+   "explanation": "Equal roots need \u0394 = 0: k\u00b2 \u2212 36 = 0, so k = \u00b16. Both signs work, since (x + 3)\u00b2 and (x \u2212 3)\u00b2 are both perfect squares, so giving only k = 6 misses a value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0018",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Find k if (2k + 3)x\u00b2 \u2212 4kx + 4 = 0 has equal roots.",
+   "imageRef": null,
+   "options": [
+    "k = 3/2 or k = \u22121/2",
+    "k = 3 or k = \u22121",
+    "k = \u22123 or k = 1",
+    "k = 3 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u0394 = 16k\u00b2 \u2212 16(2k + 3) = 16(k\u00b2 \u2212 2k \u2212 3) = 16(k \u2212 3)(k + 1), which is zero when k = 3 or k = \u22121. Neither value makes 2k + 3 zero, so both give a genuine quadratic.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0019",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "The roots of 2x\u00b2 + 5x \u2212 3 = 0 are:",
+   "imageRef": null,
+   "options": [
+    "real and equal",
+    "not real",
+    "real, distinct and rational",
+    "real, distinct and irrational"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u0394 = 25 + 24 = 49, which is positive, so the roots are real and distinct. It is also a perfect square, so the roots are rational: x = 1/2 and x = \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0020",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "For which values of m does x\u00b2 \u2212 2x + m = 0 have no real roots?",
+   "imageRef": null,
+   "options": [
+    "m > 1",
+    "m < 1",
+    "m \u2265 1",
+    "m > 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "No real roots means \u0394 < 0: 4 \u2212 4m < 0, so m > 1. Including m = 1 is wrong, because then \u0394 = 0 and there is one repeated real root.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0021",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "What are the gradient and y-intercept of the line 3x + 2y \u2212 8 = 0?",
+   "imageRef": null,
+   "options": [
+    "m = 3/2, c = 4",
+    "m = \u22123/2, c = \u22124",
+    "m = \u22123, c = 8",
+    "m = \u22123/2, c = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearranging gives 2y = \u22123x + 8, so y = \u2212(3/2)x + 4. Forgetting the sign change when moving 3x across gives a positive gradient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0022",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Which is the equation of the line with gradient 3 passing through (2, \u22125)?",
+   "imageRef": null,
+   "options": [
+    "y = 3x \u2212 1",
+    "y = \u22123x + 1",
+    "y = 3x \u2212 11",
+    "y = 3x + 11"
+   ],
+   "correctIndex": 2,
+   "explanation": "Using y \u2212 y\u2081 = m(x \u2212 x\u2081): y + 5 = 3(x \u2212 2), so y = 3x \u2212 11. Check: 3 \u00d7 2 \u2212 11 = \u22125. Writing y \u2212 5 = 3(x + 2) swaps both signs and gives y = 3x + 11.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0023",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Which is the equation of the line through (\u22121, 4) and (3, \u22124), in general form?",
+   "imageRef": null,
+   "options": [
+    "2x \u2212 y + 6 = 0",
+    "x + 2y \u2212 7 = 0",
+    "2x + y + 2 = 0",
+    "2x + y \u2212 2 = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The gradient is (\u22124 \u2212 4)/(3 \u2212 (\u22121)) = \u22128/4 = \u22122, so y \u2212 4 = \u22122(x + 1), giving y = \u22122x + 2, or 2x + y \u2212 2 = 0. Losing the sign of the gradient gives the line 2x \u2212 y + 6 = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0024",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Which line passes through (4, 1) and is perpendicular to y = 2x \u2212 1?",
+   "imageRef": null,
+   "options": [
+    "2x + y \u2212 9 = 0",
+    "2x \u2212 y \u2212 7 = 0",
+    "x + 2y \u2212 6 = 0",
+    "x \u2212 2y \u2212 2 = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Perpendicular gradients multiply to \u22121, so m = \u22121/2 and y \u2212 1 = \u2212(1/2)(x \u2212 4), which becomes x + 2y \u2212 6 = 0. Each other line also passes through (4, 1), but with gradient 1/2, \u22122 or 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0025",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Where does the line 2x \u2212 5y + 10 = 0 cut the x-axis?",
+   "imageRef": null,
+   "options": [
+    "(2, 0)",
+    "(\u22125, 0)",
+    "(5, 0)",
+    "(0, 2)"
+   ],
+   "correctIndex": 1,
+   "explanation": "On the x-axis y = 0, so 2x + 10 = 0 and x = \u22125. The point (0, 2) is where the line cuts the y-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0026",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve 3 \u2212 2x > 7.",
+   "imageRef": null,
+   "options": [
+    "x > 2",
+    "x < \u22122",
+    "x > \u22122",
+    "x < 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtract 3: \u22122x > 4. Dividing by \u22122 reverses the inequality, so x < \u22122. Forgetting to reverse it gives x > \u22122.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0027",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "A business has costs C = 1200 + 15x and revenue R = 35x dollars for x units. How many units must it sell to break even?",
+   "imageRef": null,
+   "options": [
+    "80 units",
+    "24 units",
+    "34 units",
+    "60 units"
+   ],
+   "correctIndex": 3,
+   "explanation": "Break-even is where C = R: 1200 + 15x = 35x, so 20x = 1200 and x = 60. Dividing 1200 by the cost per unit gives 80, which ignores the revenue.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0028",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "What is the axis of symmetry of y = 2x\u00b2 \u2212 8x + 3?",
+   "imageRef": null,
+   "options": [
+    "x = \u22122",
+    "x = 4",
+    "x = \u22124",
+    "x = 2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The axis of symmetry is x = \u2212b/(2a) = 8/4 = 2. Leaving out the minus sign gives x = \u22122, and dividing by a instead of 2a gives x = 4.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0029",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Writing y = x\u00b2 + 2x + 3 in the form y = (x \u2212 a)\u00b2 + c, the vertex of the parabola is:",
+   "imageRef": null,
+   "options": [
+    "(1, 2)",
+    "(\u22121, 4)",
+    "(\u22121, 3)",
+    "(\u22121, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Half of 2 is 1, so y = (x + 1)\u00b2 \u2212 1 + 3 = (x + 1)\u00b2 + 2, with vertex (\u22121, 2). Adding the 1 instead of subtracting it gives (\u22121, 4), and reading the sign straight from the bracket gives (1, 2).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0030",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Why does the graph of y = \u2212x\u00b2 + 2x \u2212 2 lie entirely below the x-axis?",
+   "imageRef": null,
+   "options": [
+    "\u0394 = \u22124 < 0 and the parabola is concave up",
+    "\u0394 = 12 > 0 and the parabola is concave down",
+    "\u0394 = 0 and the parabola is concave down",
+    "\u0394 = \u22124 < 0 and the parabola is concave down"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u0394 = 2\u00b2 \u2212 4(\u22121)(\u22122) = 4 \u2212 8 = \u22124, so there are no x-intercepts, and the negative leading coefficient makes it concave down. A parabola with no x-intercepts that opens downward stays below the axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0031",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "A parabola has x-intercepts \u22121 and 3 and passes through (0, \u22126). Its equation is:",
+   "imageRef": null,
+   "options": [
+    "y = 2x\u00b2 \u2212 4x \u2212 6",
+    "y = \u22122x\u00b2 + 4x + 6",
+    "y = 2x\u00b2 + 4x \u2212 6",
+    "y = x\u00b2 \u2212 2x \u2212 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write y = a(x + 1)(x \u2212 3). At x = 0, \u22123a = \u22126, so a = 2, and y = 2(x\u00b2 \u2212 2x \u2212 3) = 2x\u00b2 \u2212 4x \u2212 6. The equation y = 2x\u00b2 + 4x \u2212 6 has intercepts 1 and \u22123, the signs reversed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0032",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "The quadratics x\u00b2 \u2212 x and a(x + 3)\u00b2 + bx + c \u2212 1 are equal for all x. Find a, b and c.",
+   "imageRef": null,
+   "options": [
+    "a = 1, b = 7, c = \u22128",
+    "a = 1, b = \u22127, c = \u221210",
+    "a = 1, b = \u22121, c = 1",
+    "a = 1, b = \u22127, c = \u22128"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding gives ax\u00b2 + (6a + b)x + 9a + c \u2212 1. Equating coefficients: a = 1, 6 + b = \u22121 so b = \u22127, and 9 + c \u2212 1 = 0 so c = \u22128. Treating c \u2212 1 as c + 1 gives c = \u221210.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0033",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve x\u00b2 \u2212 x \u2212 6 < 0.",
+   "imageRef": null,
+   "options": [
+    "\u22122 < x < 3",
+    "x < \u22122 or x > 3",
+    "\u22123 < x < 2",
+    "x < \u22123 or x > 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Factorise: (x \u2212 3)(x + 2) < 0. The parabola is concave up, so it is below the axis between its roots, \u22122 < x < 3. The two outer regions are where it is positive.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0034",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Solve 2x\u00b2 \u2265 5x + 3.",
+   "imageRef": null,
+   "options": [
+    "\u22121/2 \u2264 x \u2264 3",
+    "x \u2264 \u22123 or x \u2265 1/2",
+    "x \u2265 3",
+    "x \u2264 \u22121/2 or x \u2265 3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Rearrange to 2x\u00b2 \u2212 5x \u2212 3 \u2265 0 and factorise: (2x + 1)(x \u2212 3) \u2265 0. The concave-up parabola is on or above the axis outside its roots, so x \u2264 \u22121/2 or x \u2265 3. Choosing the region between the roots gives the solution of the reverse inequality.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0035",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Where does the line y = x + 4 meet the parabola y = x\u00b2 \u2212 2x?",
+   "imageRef": null,
+   "options": [
+    "(\u22124, 0) and (1, 5)",
+    "(4, 8) only",
+    "(0, 0) and (2, 0)",
+    "(4, 8) and (\u22121, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Set x\u00b2 \u2212 2x = x + 4, so x\u00b2 \u2212 3x \u2212 4 = 0 and (x \u2212 4)(x + 1) = 0. Substituting x = 4 and x = \u22121 into the line gives y = 8 and y = 3. The points (0, 0) and (2, 0) are the parabola's x-intercepts, not intersections with the line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0036",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "For which values of c does the line y = 2x + c meet the parabola y = x\u00b2 at two points?",
+   "imageRef": null,
+   "options": [
+    "c > \u22121",
+    "c < \u22121",
+    "c > 1",
+    "c = \u22121"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substituting gives x\u00b2 \u2212 2x \u2212 c = 0, which has two real roots when \u0394 = 4 + 4c > 0, that is c > \u22121. When c = \u22121 the line is a tangent and meets the parabola once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0037",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Where do the parabolas y = x\u00b2 + 1 and y = 3 \u2212 x\u00b2 intersect?",
+   "imageRef": null,
+   "options": [
+    "(\u221a2, 3) and (\u2212\u221a2, 3)",
+    "(0, 1) and (0, 3)",
+    "(1, 2) and (\u22121, 2)",
+    "(1, 2) only"
+   ],
+   "correctIndex": 2,
+   "explanation": "Set x\u00b2 + 1 = 3 \u2212 x\u00b2, so 2x\u00b2 = 2 and x = \u00b11, with y = 2 for both. Taking only the positive square root loses (\u22121, 2). The points (0, 1) and (0, 3) are the two vertices.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0038",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "What are the x-intercepts of y = \u22122(x \u2212 1)(x + 3)(x \u2212 4)?",
+   "imageRef": null,
+   "options": [
+    "x = 1, 3 and 4",
+    "x = 1, \u22123 and 4",
+    "x = \u22121, 3 and \u22124",
+    "x = \u22122, 1 and 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each factor is zero at one intercept: x \u2212 1 = 0, x + 3 = 0 and x \u2212 4 = 0 give 1, \u22123 and 4. The coefficient \u22122 affects the shape but is not an intercept.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0039",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "Which describes the graph of y = \u22122(x \u2212 1)(x + 3)(x \u2212 4)?",
+   "imageRef": null,
+   "options": [
+    "y-intercept \u221224, and y \u2192 \u2212\u221e as x \u2192 \u221e",
+    "y-intercept 24, and y \u2192 \u2212\u221e as x \u2192 \u221e",
+    "y-intercept \u221224, and y \u2192 \u221e as x \u2192 \u221e",
+    "y-intercept 12, and y \u2192 \u221e as x \u2192 \u221e"
+   ],
+   "correctIndex": 0,
+   "explanation": "At x = 0, y = \u22122(\u22121)(3)(\u22124) = \u221224. The leading term is \u22122x\u00b3, so the graph falls to \u2212\u221e as x \u2192 \u221e. The value 12 is the product of the brackets before multiplying by \u22122.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-hsc-algebra-quadratics-0040",
+   "topicId": "meth-hsc-algebra-quadratics",
+   "stem": "The graph of y = kx\u00b3 passes through (2, \u221216). What is k?",
+   "imageRef": null,
+   "options": [
+    "\u22128",
+    "\u22124",
+    "\u22122",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Substitute: \u221216 = k \u00d7 2\u00b3 = 8k, so k = \u22122. Using x\u00b2 instead of x\u00b3 gives \u22124, and dividing by 2 gives \u22128.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-hsc-algebra-quadratics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

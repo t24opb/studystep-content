@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-sace-intersecting-chords",
+ "questions": [
+  {
+   "id": "spec-sace-intersecting-chords-0001",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "The perpendicular from the centre of a circle to a chord:",
+   "imageRef": null,
+   "options": [
+    "is equal in length to half the chord",
+    "bisects the chord",
+    "bisects the minor arc only if the chord is a diameter",
+    "meets the chord at one of its endpoints"
+   ],
+   "correctIndex": 1,
+   "explanation": "The perpendicular from the centre meets the chord at its midpoint. It always bisects the minor arc as well, so that is not limited to diameters, and its length depends on how far the chord is from the centre.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0002",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A circle has radius 13 cm and a chord of length 24 cm. How far is the chord from the centre?",
+   "imageRef": null,
+   "options": [
+    "5 cm",
+    "12 cm",
+    "11 cm",
+    "1 cm"
+   ],
+   "correctIndex": 0,
+   "explanation": "The perpendicular from the centre bisects the chord, giving a right-angled triangle with hypotenuse 13 (a radius) and one side 12 (half the chord). The distance is \u221a(13\u00b2 \u2212 12\u00b2) = 5 cm. Using 12 confuses half the chord with the distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0003",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A chord of a circle of radius 10 cm is 6 cm from the centre. The length of the chord is:",
+   "imageRef": null,
+   "options": [
+    "20 cm",
+    "16 cm",
+    "8 cm",
+    "12 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Half the chord is \u221a(10\u00b2 \u2212 6\u00b2) = 8 cm, because the perpendicular from the centre bisects the chord. The chord is twice this, 16 cm. The value 8 cm is only half of it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0004",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "The perpendicular bisector of any chord of a circle:",
+   "imageRef": null,
+   "options": [
+    "is perpendicular to the tangents at both ends of the chord",
+    "passes through the centre of the circle",
+    "is a tangent to the circle",
+    "is parallel to the radius through either endpoint"
+   ],
+   "correctIndex": 1,
+   "explanation": "Every point on the perpendicular bisector of AB is equidistant from A and B, and the centre is equidistant from both, so the centre lies on it. It cuts the circle, so it is not a tangent.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0005",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "To find the centre of a circular plate traced on paper, a student draws two chords that are not parallel. What should she do next?",
+   "imageRef": null,
+   "options": [
+    "draw the tangents at the ends of one chord and mark where they meet",
+    "extend both chords until they meet and mark that point",
+    "construct the perpendicular bisector of each chord and mark where they meet",
+    "join the midpoints of the two chords and take the midpoint of that segment"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each perpendicular bisector of a chord passes through the centre, so two of them meet exactly at the centre. The tangents at the ends of a chord meet outside the circle, not at its centre.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0006",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "In the same circle, chords of equal length:",
+   "imageRef": null,
+   "options": [
+    "subtend equal angles at the centre",
+    "subtend supplementary angles at the centre",
+    "are always parallel to each other",
+    "always intersect on a diameter"
+   ],
+   "correctIndex": 0,
+   "explanation": "Two equal chords form congruent triangles with the centre (two radii and the chord, SSS), so the angles they subtend at the centre are equal. Equal chords can sit anywhere in the circle, so they need not be parallel.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0007",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "The converse of \"in a circle, chords of equal length subtend equal angles at the centre\" is:",
+   "imageRef": null,
+   "options": [
+    "in a circle, equal angles at the centre are subtended by parallel chords",
+    "in a circle, chords that subtend equal angles at the centre are equal in length",
+    "in a circle, chords of unequal length subtend unequal angles at the centre",
+    "in a circle, chords that are not equal do not subtend equal angles at the centre"
+   ],
+   "correctIndex": 1,
+   "explanation": "A converse swaps the hypothesis and the conclusion: equal angles at the centre now imply equal chords. The statement about unequal chords and unequal angles is the inverse, which is the contrapositive of the converse, not the converse itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0008",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "In circle centre O, chords AB and CD have equal length. Which congruence test shows that triangles OAB and OCD are congruent?",
+   "imageRef": null,
+   "options": [
+    "AAS, since the angles at A and C are both equal to 90\u00b0",
+    "SAS, since the angles at O are given to be equal",
+    "SSS, since OA, OB, OC and OD are radii and AB = CD",
+    "RHS, since both triangles contain a right angle at O"
+   ],
+   "correctIndex": 2,
+   "explanation": "All four radii are equal and AB = CD, so the three sides match: SSS. The angles at O being equal is what the proof concludes, so using it in SAS would assume the result.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0009",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "M is the foot of the perpendicular from the centre O to chord AB. Which argument proves that AM = MB?",
+   "imageRef": null,
+   "options": [
+    "triangles OMA and OMB are congruent by RHS, with OA = OB and OM common",
+    "triangles OMA and OMB are similar, with ratio OA to OM",
+    "angle AOB is twice the angle at the circumference, so M is the midpoint",
+    "OA and OB are tangents from O, so they are equal in length"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both triangles have a right angle at M, equal hypotenuses OA = OB (radii) and the common side OM, so they are congruent by RHS and AM = MB. Similarity alone would not show the two lengths are equal.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0010",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD of a circle intersect at a point P inside the circle. The intersecting chords theorem states that:",
+   "imageRef": null,
+   "options": [
+    "AP/PB = PD/CP",
+    "AP \u00d7 PB = CP \u00d7 PD",
+    "AP \u00d7 CP = PB \u00d7 PD",
+    "AP + PB = CP + PD"
+   ],
+   "correctIndex": 1,
+   "explanation": "The two parts of one chord multiply to the same product as the two parts of the other: AP \u00d7 PB = CP \u00d7 PD. The chords need not be equal, so the sums need not match.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0011",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD intersect at P, with AP = 4 cm, PB = 6 cm and CP = 3 cm. The length of PD is:",
+   "imageRef": null,
+   "options": [
+    "4.5 cm",
+    "2 cm",
+    "7 cm",
+    "8 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "AP \u00d7 PB = CP \u00d7 PD gives 4 \u00d7 6 = 3 \u00d7 PD, so PD = 24/3 = 8 cm. Writing 4 \u00d7 3 = 6 \u00d7 PD pairs the wrong segments and gives 2 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0012",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD intersect at P. AB = 13 cm, AP = 4 cm and CP = 6 cm. The length of chord CD is:",
+   "imageRef": null,
+   "options": [
+    "10 cm",
+    "12 cm",
+    "6 cm",
+    "15 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "PB = 13 \u2212 4 = 9 cm, so 4 \u00d7 9 = 6 \u00d7 PD and PD = 6 cm. The chord is CD = CP + PD = 12 cm. The value 6 cm is only PD.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0013",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD intersect at P, with AP = x cm, PB = (x + 5) cm, CP = 6 cm and PD = 4 cm. The value of x is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "1",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "x(x + 5) = 24 gives x\u00b2 + 5x \u2212 24 = 0, so (x + 8)(x \u2212 3) = 0 and x = 3, as a length must be positive. Check: 3 \u00d7 8 = 24 = 6 \u00d7 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0014",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD intersect at P. AP = 6 cm, PB = 4 cm and CD = 11 cm, with CP longer than PD. The length of CP is:",
+   "imageRef": null,
+   "options": [
+    "5.5 cm",
+    "6 cm",
+    "8 cm",
+    "3 cm"
+   ],
+   "correctIndex": 2,
+   "explanation": "Let CP = x, so PD = 11 \u2212 x and x(11 \u2212 x) = 24. Then x\u00b2 \u2212 11x + 24 = 0, so x = 3 or x = 8. CP is the longer part, so CP = 8 cm.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0015",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A point P is 6 cm from the centre of a circle of radius 10 cm. For every chord AB drawn through P, the product AP \u00d7 PB equals:",
+   "imageRef": null,
+   "options": [
+    "100 cm\u00b2",
+    "60 cm\u00b2",
+    "64 cm\u00b2",
+    "36 cm\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Take the chord through the centre: its parts are 10 \u2212 6 = 4 cm and 10 + 6 = 16 cm, so the product is 64 cm\u00b2. By the intersecting chords theorem every other chord through P gives the same product, r\u00b2 \u2212 d\u00b2 = 100 \u2212 36.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0016",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "From a point P outside a circle, two secants are drawn: one meets the circle at A then B, the other at C then D. Which relationship holds?",
+   "imageRef": null,
+   "options": [
+    "PA + PB = PC + PD",
+    "PA \u00d7 PB = PC \u00d7 PD",
+    "PA \u00d7 AB = PC \u00d7 CD",
+    "PA \u00d7 PC = PB \u00d7 PD"
+   ],
+   "correctIndex": 1,
+   "explanation": "For an external point the theorem uses whole distances from P: the near part times the whole secant, PA \u00d7 PB = PC \u00d7 PD. Multiplying by the chords AB and CD is a common slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0017",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "From an external point P, one secant meets a circle at A and B with PA = 4 cm and AB = 5 cm. Another meets it at C and D with PC = 3 cm. The length of chord CD is:",
+   "imageRef": null,
+   "options": [
+    "15 cm",
+    "9 cm",
+    "12 cm",
+    "20/3 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "PB = 4 + 5 = 9, so PA \u00d7 PB = 36 = 3 \u00d7 PD and PD = 12 cm. The chord is CD = PD \u2212 PC = 9 cm. Using PA \u00d7 AB = PC \u00d7 CD gives 20/3 cm, which uses the chords instead of the whole secants.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0018",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A student writes PA \u00d7 AB = PC \u00d7 CD for two secants PAB and PCD drawn from an external point P. What is wrong?",
+   "imageRef": null,
+   "options": [
+    "the theorem only applies when P is inside the circle",
+    "each product must use the whole secant, PB and PD, not the chord",
+    "the theorem only applies when the two secants are the same length",
+    "the products should be PA \u00d7 PC and AB \u00d7 CD"
+   ],
+   "correctIndex": 1,
+   "explanation": "The external form is PA \u00d7 PB = PC \u00d7 PD: the distance to the near point times the distance to the far point. The theorem holds for secants of any lengths, and it has an external form as well as the internal one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0019",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A tangent from an external point P touches a circle at T, and a secant from P meets the circle at A then B. Then:",
+   "imageRef": null,
+   "options": [
+    "PT\u00b2 = PA\u00b2 + PB\u00b2",
+    "PT\u00b2 = PA \u00d7 PB",
+    "PT\u00b2 = PA \u00d7 AB",
+    "PT = PA \u00d7 PB"
+   ],
+   "correctIndex": 1,
+   "explanation": "The tangent is the limiting case of a secant whose two intersection points have merged at T, so PT \u00d7 PT = PA \u00d7 PB. As in the secant form, the product uses PB, the whole secant.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0020",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "From an external point P, a secant meets a circle at A and B with PA = 4 cm and AB = 5 cm. The length of a tangent from P to the circle is:",
+   "imageRef": null,
+   "options": [
+    "\u221a20 cm",
+    "3 cm",
+    "\u221a41 cm",
+    "6 cm"
+   ],
+   "correctIndex": 3,
+   "explanation": "PB = 4 + 5 = 9 cm, so PT\u00b2 = 4 \u00d7 9 = 36 and PT = 6 cm. Using PA \u00d7 AB gives \u221a20, the slip of using the chord instead of the whole secant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0021",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A tangent PT to a circle has length 8 cm. A secant from P meets the circle at A and B, with PA = 4 cm. The length of chord AB is:",
+   "imageRef": null,
+   "options": [
+    "4 cm",
+    "12 cm",
+    "16 cm",
+    "2 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "PT\u00b2 = PA \u00d7 PB gives 64 = 4 \u00d7 PB, so PB = 16 cm and AB = 16 \u2212 4 = 12 cm. The value 16 cm is the whole secant PB.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0022",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "A tangent from P to a circle has length 12 cm. A secant from P meets the circle at A and then B, with chord AB = 7 cm. The length PA is:",
+   "imageRef": null,
+   "options": [
+    "16 cm",
+    "9 cm",
+    "5 cm",
+    "12 cm"
+   ],
+   "correctIndex": 1,
+   "explanation": "Let PA = x. Then x(x + 7) = 144, so x\u00b2 + 7x \u2212 144 = 0 and (x + 16)(x \u2212 9) = 0, giving x = 9 cm. Check: 9 \u00d7 16 = 144 = 12\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0023",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "P is 10 cm from the centre of a circle of radius 6 cm. The line from P through the centre meets the circle at A and B. The product PA \u00d7 PB is:",
+   "imageRef": null,
+   "options": [
+    "136 cm\u00b2",
+    "64 cm\u00b2",
+    "100 cm\u00b2",
+    "36 cm\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "PA = 10 \u2212 6 = 4 and PB = 10 + 6 = 16, so PA \u00d7 PB = 64 cm\u00b2. This equals PT\u00b2, and indeed the tangent length is \u221a(10\u00b2 \u2212 6\u00b2) = 8 cm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0024",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Segments AB and CD intersect at P, with PA = 3, PB = 8 and PC = 4. For A, B, C and D to lie on one circle, PD must equal:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "32/3",
+    "3/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the converse of the intersecting chords theorem, the four points are concyclic when PA \u00d7 PB = PC \u00d7 PD, so 24 = 4 \u00d7 PD and PD = 6. Pairing the wrong lengths gives 32/3 or 3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0025",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Segments AB and CD intersect at P. The lengths PA, PB, PC and PD (in cm) are given in that order. In which case must A, B, C and D lie on a circle?",
+   "imageRef": null,
+   "options": [
+    "2, 9, 4, 5",
+    "3, 5, 2, 8",
+    "4, 6, 3, 9",
+    "2, 9, 3, 6"
+   ],
+   "correctIndex": 3,
+   "explanation": "The converse needs PA \u00d7 PB = PC \u00d7 PD. Only 2 \u00d7 9 = 18 = 3 \u00d7 6 works; the others give 18 and 20, 15 and 16, and 24 and 27, so those points are not concyclic.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0026",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Chords AB and CD intersect at P. To prove AP \u00d7 PB = CP \u00d7 PD, triangles APC and DPB are shown to be similar. Which facts give the matching angles?",
+   "imageRef": null,
+   "options": [
+    "the tangent-radius property, and vertically opposite angles at P",
+    "opposite angles of a cyclic quadrilateral, and a common side",
+    "vertically opposite angles at P, and angles subtended by the same arc",
+    "alternate angles between parallel chords, and an angle in a semicircle"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u2220APC = \u2220DPB as vertically opposite angles, and \u2220CAB = \u2220CDB as angles at the circumference subtended by the same arc CB. Two pairs of equal angles make the triangles similar (AA). The chords need not be parallel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0027",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "In the proof of the intersecting chords theorem, triangle APC is similar to triangle DPB, with A matching D and C matching B. Which ratio follows?",
+   "imageRef": null,
+   "options": [
+    "AP/DP = BP/CP",
+    "AP/DP = CP/BP",
+    "AP/BP = CP/DP",
+    "AP/CP = BP/DP"
+   ],
+   "correctIndex": 1,
+   "explanation": "Corresponding sides are AP with DP and CP with BP, so AP/DP = CP/BP. Cross-multiplying gives AP \u00d7 BP = CP \u00d7 DP, the theorem. The other ratios pair sides that do not correspond.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0028",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "To prove PT\u00b2 = PA \u00d7 PB for a tangent PT and secant PAB, triangles PTA and PBT are shown to be similar. Which facts are used?",
+   "imageRef": null,
+   "options": [
+    "the angle at P is common, and the tangent-radius property gives \u2220PTA = 90\u00b0",
+    "\u2220PAT and \u2220PBT are angles in the same segment, and PT is a common side",
+    "PA = PT as tangents from an external point, and the angle at P is common",
+    "the angle at P is common, and the alternate segment theorem gives \u2220PTA = \u2220PBT"
+   ],
+   "correctIndex": 3,
+   "explanation": "Both triangles contain the angle at P, and the angle between tangent PT and chord TA equals the angle TBA in the alternate segment. So they are similar, giving PT/PB = PA/PT and PT\u00b2 = PA \u00d7 PB. PA is not a tangent, so it need not equal PT.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0029",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "\"If a quadrilateral is a rectangle, then it is cyclic\" is true. Which quadrilateral is a counter-example to its converse?",
+   "imageRef": null,
+   "options": [
+    "a rhombus that is not a square",
+    "a parallelogram that is not a rectangle",
+    "an isosceles trapezium that is not a rectangle",
+    "a square"
+   ],
+   "correctIndex": 2,
+   "explanation": "The converse says every cyclic quadrilateral is a rectangle. An isosceles trapezium has opposite angles adding to 180\u00b0, so it is cyclic but not a rectangle. A square is a rectangle, and a rhombus that is not a square is not cyclic, so neither is a counter-example.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0030",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Why must a parallelogram that is cyclic be a rectangle?",
+   "imageRef": null,
+   "options": [
+    "its diagonals are diameters, so they bisect each other at right angles",
+    "its sides are chords of equal length, so its angles are equal",
+    "its opposite sides are parallel, so they are equal chords",
+    "its opposite angles are equal and also supplementary, so each is 90\u00b0"
+   ],
+   "correctIndex": 3,
+   "explanation": "Opposite angles of a parallelogram are equal, and opposite angles of a cyclic quadrilateral add to 180\u00b0. Equal angles adding to 180\u00b0 are each 90\u00b0. The diagonals of a rectangle bisect each other but are not perpendicular unless it is a square.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0031",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "The contrapositive of \"if a parallelogram is cyclic, then it is a rectangle\" is:",
+   "imageRef": null,
+   "options": [
+    "if a parallelogram is not a rectangle, then it is not cyclic",
+    "if a parallelogram is a rectangle, then it is cyclic",
+    "if a parallelogram is not cyclic, then it is not a rectangle",
+    "if a quadrilateral is cyclic, then it is a parallelogram"
+   ],
+   "correctIndex": 0,
+   "explanation": "The contrapositive of 'if P then Q' is 'if not Q then not P', and it is true whenever the original is. Swapping without negating gives the converse, and negating without swapping gives the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0032",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Two chords of the same circle are equal in length. Which statement must also be true?",
+   "imageRef": null,
+   "options": [
+    "they meet at a point on the circle",
+    "they are the same distance from the centre",
+    "they are parallel to each other",
+    "they are perpendicular to each other"
+   ],
+   "correctIndex": 1,
+   "explanation": "Equal chords form congruent triangles with the centre, so the perpendiculars from the centre to them are equal: equal chords are equidistant from the centre. Their positions can otherwise vary, so they need not be parallel, perpendicular or meet on the circle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0033",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Secants PAB and PCD are drawn from an external point P, with A and C nearer to P. To prove PA \u00d7 PB = PC \u00d7 PD, triangles PAD and PCB are shown to be similar. Which facts are used?",
+   "imageRef": null,
+   "options": [
+    "the angle at P is common, and PA = PC as tangents from the same point P",
+    "\u2220PAD = 90\u00b0 as an angle in a semicircle, and the angle at P is common",
+    "the angle at P is common, and \u2220PDA = \u2220PBC, angles subtended by the same arc AC",
+    "the angles at P are vertically opposite, and \u2220PDA = \u2220PBC by the same arc"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both triangles contain the angle at P, and \u2220ADC = \u2220ABC because both stand on arc AC. So the triangles are similar (AA), giving PA/PC = PD/PB and PA \u00d7 PB = PC \u00d7 PD. P is outside the circle, so there are no vertically opposite angles at P.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0034",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "\"A quadrilateral is cyclic if and only if its opposite angles are supplementary.\" What does 'if and only if' tell you?",
+   "imageRef": null,
+   "options": [
+    "the statement and its converse are both true",
+    "the statement is true but its converse is false",
+    "the statement is true only for squares and rectangles",
+    "the statement and its contrapositive are both false"
+   ],
+   "correctIndex": 0,
+   "explanation": "'P if and only if Q' is an equivalence: P implies Q, and Q implies P. Here a cyclic quadrilateral has supplementary opposite angles, and a quadrilateral with supplementary opposite angles is cyclic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0035",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "The negation of \"every angle in a semicircle is a right angle\" is:",
+   "imageRef": null,
+   "options": [
+    "no angle in a semicircle is a right angle",
+    "every angle that is not in a semicircle is a right angle",
+    "every right angle is an angle in a semicircle",
+    "at least one angle in a semicircle is not a right angle"
+   ],
+   "correctIndex": 3,
+   "explanation": "To deny that something holds for every case, it is enough that it fails in one case, so the negation of 'every ... is' is 'at least one ... is not'. 'No angle is a right angle' is much stronger than the negation, and swapping the parts gives a converse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0036",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Points A, B and C lie on a circle, and D is on the same side of BC as A with \u2220BDC = \u2220BAC. A proof by contradiction that D lies on the circle begins by:",
+   "imageRef": null,
+   "options": [
+    "assuming \u2220BDC \u2260 \u2220BAC, then showing that D cannot lie on the circle",
+    "testing several positions of D and finding the two angles equal each time",
+    "assuming D is not on the circle, then showing this leads to an impossibility",
+    "assuming D is on the circle, then showing that the two angles are equal"
+   ],
+   "correctIndex": 2,
+   "explanation": "A proof by contradiction assumes the negation of the conclusion, here that D is off the circle, and shows that it forces a false statement, such as an exterior angle of a triangle equalling an interior opposite angle. Testing cases is not a proof, and the third option proves a different statement.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0037",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Points P, A, B lie on one line and P, C, D on another, with P outside both segments AB and CD. PA = 3, PB = 10 and PC = 5. For A, B, C and D to be concyclic, PD must equal:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "6",
+    "50/3",
+    "3/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "By the converse of the external form of the theorem, the points are concyclic when PA \u00d7 PB = PC \u00d7 PD, so 30 = 5 \u00d7 PD and PD = 6. Pairing the wrong lengths gives 50/3 or 3/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-intersecting-chords-0038",
+   "topicId": "spec-sace-intersecting-chords",
+   "stem": "Two circles intersect at A and B. A point P lies on line AB extended, outside both circles. PS is a tangent to one circle and PT a tangent to the other. Why is PS = PT?",
+   "imageRef": null,
+   "options": [
+    "PS\u00b2 = PA \u00d7 PB and PT\u00b2 = PA \u00d7 PB, by the tangent-secant theorem for each circle",
+    "PS and PT are two tangents drawn from one external point to the same circle",
+    "S and T both lie on line AB extended, at equal distances from the point P",
+    "triangles PSA and PTB are congruent by SAS, with PA = PB as a common side"
+   ],
+   "correctIndex": 0,
+   "explanation": "The secant PAB is shared by both circles, so the tangent-secant theorem gives PS\u00b2 = PA \u00d7 PB for one circle and PT\u00b2 = PA \u00d7 PB for the other. Hence PS = PT. The tangents touch different circles, so the equal-tangents property does not apply directly.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-intersecting-chords-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

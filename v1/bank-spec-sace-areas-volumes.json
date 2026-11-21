@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-sace-areas-volumes",
+ "questions": [
+  {
+   "id": "spec-sace-areas-volumes-0001",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "If f(x) \u2265 g(x) for a \u2264 x \u2264 b, the area of the region between the graphs of f and g from x = a to x = b is:",
+   "imageRef": null,
+   "options": [
+    "\u222b from a to b of f(x)g(x) dx",
+    "\u222b from a to b of (f(x) + g(x)) dx",
+    "\u222b from a to b of (f(x) \u2212 g(x)) dx",
+    "\u222b from a to b of (g(x) \u2212 f(x)) dx"
+   ],
+   "correctIndex": 2,
+   "explanation": "The height of the region at each x is the upper curve minus the lower curve, f(x) \u2212 g(x), and integrating it adds up the thin strips. Subtracting the other way gives the negative of the area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0002",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Find the area of the region enclosed between the line y = x and the parabola y = x\u00b2.",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "5/6",
+    "1/6",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet at x = 0 and x = 1, where x \u2265 x\u00b2. The area is \u222b from 0 to 1 of (x \u2212 x\u00b2) dx = 1/2 \u2212 1/3 = 1/6. The value 1/2 is the area under y = x alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0003",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Find the area of the region enclosed between the parabola y = 4 \u2212 x\u00b2 and the line y = x + 2.",
+   "imageRef": null,
+   "options": [
+    "7/2",
+    "27/2",
+    "3/2",
+    "9/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curves meet where x\u00b2 + x \u2212 2 = 0, at x = \u22122 and x = 1. The area is \u222b from \u22122 to 1 of (2 \u2212 x \u2212 x\u00b2) dx = 9/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0004",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area of the region between y = sin x and y = cos x from x = \u03c0/4 to x = 5\u03c0/4 is:",
+   "imageRef": null,
+   "options": [
+    "2\u221a2",
+    "\u221a2",
+    "2",
+    "0"
+   ],
+   "correctIndex": 0,
+   "explanation": "On this interval sin x \u2265 cos x, and \u222b (sin x \u2212 cos x) dx = [\u2212cos x \u2212 sin x] from \u03c0/4 to 5\u03c0/4 = \u221a2 \u2212 (\u2212\u221a2) = 2\u221a2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0005",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The total area enclosed between y = x\u00b3 and y = x is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "0",
+    "1/4",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The curves meet at x = \u22121, 0 and 1, and swap which is on top at x = 0. By symmetry the area is 2 \u00d7 \u222b from 0 to 1 of (x \u2212 x\u00b3) dx = 2 \u00d7 1/4 = 1/2. Integrating x \u2212 x\u00b3 from \u22121 to 1 in one go gives 0, because the two parts cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0006",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The total area between y = x and y = x\u00b2 from x = 0 to x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "\u22122/3",
+    "1/6",
+    "1",
+    "2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves cross at x = 1. Split the integral: \u222b from 0 to 1 of (x \u2212 x\u00b2) dx = 1/6 and \u222b from 1 to 2 of (x\u00b2 \u2212 x) dx = 5/6, so the area is 1. A single integral of x \u2212 x\u00b2 from 0 to 2 gives \u22122/3, a signed result, not an area.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0007",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area between the graph of y = x(x \u2212 2) and the x-axis from x = 0 to x = 3 is:",
+   "imageRef": null,
+   "options": [
+    "4/3",
+    "3",
+    "8/3",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The graph is below the axis for 0 < x < 2 and above it for 2 < x < 3, with areas 4/3 and 4/3. The total area is 8/3, while the integral from 0 to 3 is 0 because the parts cancel.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0008",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area of the region enclosed by the curve x = y\u00b2 and the line x = 4 is:",
+   "imageRef": null,
+   "options": [
+    "8",
+    "32/3",
+    "16/3",
+    "64/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Integrating with respect to y, the region runs from y = \u22122 to y = 2 with width 4 \u2212 y\u00b2, so the area is \u222b from \u22122 to 2 of (4 \u2212 y\u00b2) dy = 16 \u2212 16/3 = 32/3. Using only y \u2265 0 gives half of this.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0009",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area of the region enclosed by y = 1/(1 + x\u00b2) and y = x\u00b2/2 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0 \u2212 1/3",
+    "\u03c0/2 \u2212 1/3",
+    "\u03c0/4 \u2212 1/6",
+    "\u03c0/2 \u2212 2/3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The curves meet where x\u2074 + x\u00b2 \u2212 2 = 0, that is x = \u00b11. The area is \u222b from \u22121 to 1 of (1/(1 + x\u00b2) \u2212 x\u00b2/2) dx = [arctan x \u2212 x\u00b3/6] from \u22121 to 1 = \u03c0/2 \u2212 1/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0010",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Using partial fractions, the area under y = 1/(x\u00b2 \u2212 1) from x = 2 to x = 3 is:",
+   "imageRef": null,
+   "options": [
+    "(1/2) ln 2",
+    "2 ln(3/2)",
+    "(1/2) ln(3/2)",
+    "ln(3/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "1/(x\u00b2 \u2212 1) = (1/2)(1/(x \u2212 1) \u2212 1/(x + 1)), so the integral is (1/2) ln((x \u2212 1)/(x + 1)) from 2 to 3 = (1/2)(ln(1/2) \u2212 ln(1/3)) = (1/2) ln(3/2). Forgetting the factor 1/2 gives ln(3/2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0011",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Using integration by parts, the area under y = x e\u02e3 from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "e",
+    "e \u2212 1",
+    "e/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u222b x e\u02e3 dx = x e\u02e3 \u2212 e\u02e3, so the area is (e \u2212 e) \u2212 (0 \u2212 1) = 1. Forgetting to subtract the value at x = 0 gives 0, and stopping at the first term gives e.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0012",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area under y = sin\u00b2x from x = 0 to x = \u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "2",
+    "\u03c0/2",
+    "\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Use sin\u00b2x = (1 \u2212 cos 2x)/2: the integral is [x/2 \u2212 sin 2x/4] from 0 to \u03c0 = \u03c0/2. The value 2 is the area under sin x, not sin\u00b2x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0013",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = f(x) \u2265 0 from x = a to x = b is rotated about the x-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "\u222b from a to b of \u03c0y dx",
+    "\u03c0 \u222b from a to b of y\u00b2 dx",
+    "\u03c0 \u222b from a to b of y dx",
+    "2\u03c0 \u222b from a to b of y dx"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each thin slice is a disc of radius y and thickness \u03b4x, with volume \u03c0y\u00b2 \u03b4x. Adding the discs gives V = \u03c0 \u222b y\u00b2 dx. Leaving y unsquared treats the radius as an area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0014",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "A region bounded by a curve, the y-axis and the lines y = c and y = d is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0 \u222b from c to d of x dy",
+    "\u03c0 \u222b from c to d of x\u00b2 dy",
+    "\u03c0 \u222b from c to d of y\u00b2 dx",
+    "\u03c0 \u222b from c to d of x\u00b2 dx"
+   ],
+   "correctIndex": 1,
+   "explanation": "Slices are now horizontal discs of radius x and thickness \u03b4y, so V = \u03c0 \u222b x\u00b2 dy, with x written as a function of y and the limits on the y-axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0015",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "In deriving V = \u03c0 \u222b y\u00b2 dx, the solid is cut into thin slices perpendicular to the x-axis. Each slice is approximately:",
+   "imageRef": null,
+   "options": [
+    "a cylindrical shell of radius x and height y, with volume 2\u03c0xy \u03b4x",
+    "a disc of radius x and thickness \u03b4y, with volume \u03c0x\u00b2 \u03b4y",
+    "a disc of radius y and thickness \u03b4x, with volume \u03c0y\u00b2 \u03b4x",
+    "a rectangle of height y and width \u03b4x, with area y \u03b4x"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rotating a thin strip of height y about the x-axis sweeps out a disc of radius y. Summing \u03c0y\u00b2 \u03b4x and letting \u03b4x \u2192 0 gives the integral. A disc of radius x belongs to rotation about the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0016",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The line y = 2x, 0 \u2264 x \u2264 3, is rotated about the x-axis to form a cone. Its volume is:",
+   "imageRef": null,
+   "options": [
+    "36\u03c0",
+    "12\u03c0",
+    "9\u03c0",
+    "108\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = \u03c0 \u222b from 0 to 3 of 4x\u00b2 dx = \u03c0[4x\u00b3/3] from 0 to 3 = 36\u03c0. This agrees with (1/3)\u03c0r\u00b2h = (1/3)\u03c0 \u00d7 36 \u00d7 3. Forgetting to square y gives \u03c0 \u222b 2x dx = 9\u03c0, and dropping the 1/3 from the cone formula gives 108\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0017",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = \u221ax from x = 0 to x = 4 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "4\u03c0",
+    "8\u03c0",
+    "16\u03c0/3",
+    "16\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "y\u00b2 = x, so V = \u03c0 \u222b from 0 to 4 of x dx = \u03c0 \u00d7 16/2 = 8\u03c0. Integrating \u221ax itself gives 16/3, the area, not the volume.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0018",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = x\u00b2 from x = 0 to x = 2 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "32\u03c0/5",
+    "8\u03c0/3",
+    "16\u03c0/5",
+    "32\u03c0/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "y\u00b2 = x\u2074, so V = \u03c0 \u222b from 0 to 2 of x\u2074 dx = \u03c0 \u00d7 32/5. Forgetting to square y gives 8\u03c0/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0019",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The semicircle y = \u221a(r\u00b2 \u2212 x\u00b2) is rotated about the x-axis to give a sphere. Which integral gives its volume?",
+   "imageRef": null,
+   "options": [
+    "\u03c0 \u222b from \u2212r to r of \u221a(r\u00b2 \u2212 x\u00b2) dx",
+    "2\u03c0 \u222b from \u2212r to r of (r\u00b2 \u2212 x\u00b2) dx",
+    "\u03c0 \u222b from \u2212r to r of (r\u00b2 \u2212 x\u00b2) dx",
+    "\u03c0 \u222b from 0 to r of \u221a(r\u00b2 \u2212 x\u00b2) dx"
+   ],
+   "correctIndex": 2,
+   "explanation": "y\u00b2 = r\u00b2 \u2212 x\u00b2, and the semicircle runs from x = \u2212r to x = r, so V = \u03c0 \u222b (r\u00b2 \u2212 x\u00b2) dx = \u03c0(2r\u00b3 \u2212 2r\u00b3/3) = 4\u03c0r\u00b3/3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0020",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = 1/x from x = 1 to x = 3 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "8\u03c0/9",
+    "4\u03c0/3",
+    "2\u03c0/3",
+    "\u03c0 ln 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "y\u00b2 = 1/x\u00b2, so V = \u03c0 \u222b from 1 to 3 of x\u207b\u00b2 dx = \u03c0[\u22121/x] from 1 to 3 = \u03c0(1 \u2212 1/3) = 2\u03c0/3. Integrating 1/x instead gives \u03c0 ln 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0021",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = sin x from x = 0 to x = \u03c0 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/2",
+    "\u03c0\u00b2/2",
+    "2\u03c0",
+    "\u03c0\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "V = \u03c0 \u222b sin\u00b2x dx from 0 to \u03c0, and with sin\u00b2x = (1 \u2212 cos 2x)/2 the integral is \u03c0/2, so V = \u03c0\u00b2/2. Leaving sin x unsquared gives \u03c0 \u00d7 2 = 2\u03c0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0022",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = sec x from x = 0 to x = \u03c0/4 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0",
+    "\u03c0 ln(1 + \u221a2)",
+    "\u03c0\u00b2/4",
+    "\u03c0(\u221a2 \u2212 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "y\u00b2 = sec\u00b2x, whose antiderivative is tan x, so V = \u03c0[tan x] from 0 to \u03c0/4 = \u03c0 \u00d7 1 = \u03c0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0023",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = 1/\u221a(1 + x\u00b2) from x = 0 to x = 1 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0\u00b2/4",
+    "\u03c0/4",
+    "\u03c0 ln 2",
+    "\u03c0\u00b2/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "y\u00b2 = 1/(1 + x\u00b2), so V = \u03c0 \u222b from 0 to 1 of 1/(1 + x\u00b2) dx = \u03c0[arctan x] from 0 to 1 = \u03c0 \u00d7 \u03c0/4. The value \u03c0/4 forgets the factor \u03c0 outside the integral.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0024",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region enclosed by y = x and y = x\u00b2 is rotated about the x-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/30",
+    "\u03c0/6",
+    "\u03c0/15",
+    "2\u03c0/15"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each slice is a washer with outer radius x and inner radius x\u00b2, so V = \u03c0 \u222b from 0 to 1 of (x\u00b2 \u2212 x\u2074) dx = \u03c0(1/3 \u2212 1/5) = 2\u03c0/15. Squaring the difference, \u03c0 \u222b (x \u2212 x\u00b2)\u00b2 dx, gives \u03c0/30, which is wrong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0025",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region between y = x\u00b2, the y-axis and the line y = 9 (with x \u2265 0) is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "81\u03c0/2",
+    "27\u03c0",
+    "243\u03c0/5",
+    "81\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b2 = y, so V = \u03c0 \u222b from 0 to 9 of y dy = \u03c0 \u00d7 81/2. Using x\u00b2 = y directly avoids square roots; the limits are y-values, 0 to 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0026",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region between y = x\u00b3, the y-axis and the line y = 8 (with x \u2265 0) is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "96\u03c0/5",
+    "12\u03c0",
+    "128\u03c0/7",
+    "64\u03c0"
+   ],
+   "correctIndex": 0,
+   "explanation": "x = y^(1/3), so x\u00b2 = y^(2/3) and V = \u03c0 \u222b from 0 to 8 of y^(2/3) dy = \u03c0 \u00d7 (3/5) \u00d7 8^(5/3) = \u03c0 \u00d7 (3/5) \u00d7 32 = 96\u03c0/5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0027",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region in the first quadrant under y = 4 \u2212 x\u00b2 is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "16\u03c0",
+    "256\u03c0/15",
+    "32\u03c0/3",
+    "8\u03c0"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u00b2 = 4 \u2212 y, with y from 0 to 4, so V = \u03c0 \u222b from 0 to 4 of (4 \u2212 y) dy = \u03c0(16 \u2212 8) = 8\u03c0. Rotating about the x-axis instead gives 256\u03c0/15.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0028",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Using the substitution u = x\u00b2 + 1, the area under y = 2x/(x\u00b2 + 1) from x = 0 to x = 2 is:",
+   "imageRef": null,
+   "options": [
+    "ln 5",
+    "2 ln 5",
+    "(1/2) ln 5",
+    "arctan 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "With u = x\u00b2 + 1, du = 2x dx, so the integral becomes \u222b from 1 to 5 of (1/u) du = ln 5 \u2212 ln 1 = ln 5. The numerator 2x is exactly du/dx, so no extra factor of 2 or 1/2 appears. Arctan would arise only if the numerator were a constant.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0029",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area of the region between y = e\u02e3 and y = e\u207b\u02e3 from x = 0 to x = ln 2 is:",
+   "imageRef": null,
+   "options": [
+    "5/2",
+    "3/2",
+    "1",
+    "1/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "For x \u2265 0, e\u02e3 \u2265 e\u207b\u02e3, so the area is \u222b from 0 to ln 2 of (e\u02e3 \u2212 e\u207b\u02e3) dx = [e\u02e3 + e\u207b\u02e3] from 0 to ln 2 = (2 + 1/2) \u2212 2 = 1/2. Forgetting to subtract the value at x = 0 gives 5/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0030",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Which integral with respect to y gives the area enclosed by y = x\u00b2 and y = 2x?",
+   "imageRef": null,
+   "options": [
+    "\u222b from 0 to 4 of (y/2 \u2212 \u221ay) dy",
+    "\u222b from 0 to 2 of (\u221ay \u2212 y/2) dy",
+    "\u222b from 0 to 4 of (y\u00b2 \u2212 2y) dy",
+    "\u222b from 0 to 4 of (\u221ay \u2212 y/2) dy"
+   ],
+   "correctIndex": 3,
+   "explanation": "The curves meet at (0, 0) and (2, 4), so y runs from 0 to 4. Written as x = \u221ay and x = y/2, the parabola is to the right, so the width is \u221ay \u2212 y/2 and the area is 16/3 \u2212 4 = 4/3. The limits must be y-values, not the x-values 0 and 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0031",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region bounded by y = ln x, the y-axis and the lines y = 0 and y = 1 has area:",
+   "imageRef": null,
+   "options": [
+    "e",
+    "1 \u2212 1/e",
+    "e \u2212 1",
+    "1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Measured along the y-axis, the region has width x = e\u02b8, so the area is \u222b from 0 to 1 of e\u02b8 dy = e \u2212 1. The value 1 is the area between y = ln x and the x-axis from x = 1 to x = e, which is a different region.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0032",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region bounded by y = ln x, the y-axis and the lines y = 0 and y = 1 is rotated about the y-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0(e\u00b2 \u2212 1)",
+    "\u03c0e\u00b2/2",
+    "\u03c0(e\u00b2 \u2212 1)/2",
+    "\u03c0(e \u2212 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "x = e\u02b8, so x\u00b2 = e\u00b2\u02b8 and V = \u03c0 \u222b from 0 to 1 of e\u00b2\u02b8 dy = \u03c0[e\u00b2\u02b8/2] from 0 to 1 = \u03c0(e\u00b2 \u2212 1)/2. Leaving x unsquared gives \u03c0(e \u2212 1), and dropping the 1/2 from the antiderivative gives \u03c0(e\u00b2 \u2212 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0033",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = e\u02e3 from x = 0 to x = ln 2 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "3\u03c0",
+    "2\u03c0",
+    "3\u03c0/2",
+    "\u03c0"
+   ],
+   "correctIndex": 2,
+   "explanation": "y\u00b2 = e\u00b2\u02e3, so V = \u03c0 \u222b from 0 to ln 2 of e\u00b2\u02e3 dx = \u03c0[e\u00b2\u02e3/2] from 0 to ln 2 = \u03c0(4 \u2212 1)/2 = 3\u03c0/2. Leaving y unsquared gives \u03c0(2 \u2212 1) = \u03c0, and forgetting the 1/2 gives 3\u03c0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0034",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region under y = tan x from x = 0 to x = \u03c0/4 is rotated about the x-axis. The volume is:",
+   "imageRef": null,
+   "options": [
+    "(\u03c0/2) ln 2",
+    "\u03c0 \u2212 1",
+    "\u03c0(1 \u2212 \u03c0/4)",
+    "\u03c0(1 + \u03c0/4)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Use tan\u00b2x = sec\u00b2x \u2212 1: V = \u03c0 \u222b from 0 to \u03c0/4 of (sec\u00b2x \u2212 1) dx = \u03c0[tan x \u2212 x] from 0 to \u03c0/4 = \u03c0(1 \u2212 \u03c0/4). Using tan\u00b2x = sec\u00b2x + 1 gives \u03c0(1 + \u03c0/4), and integrating tan x unsquared gives (\u03c0/2) ln 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0035",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "Using integration by parts, the area under y = x sin x from x = 0 to x = \u03c0 is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0",
+    "\u03c0/2",
+    "\u03c0",
+    "2"
+   ],
+   "correctIndex": 2,
+   "explanation": "x sin x \u2265 0 on [0, \u03c0], and \u222b x sin x dx = \u2212x cos x + sin x. From 0 to \u03c0 this gives (\u03c0 + 0) \u2212 0 = \u03c0. The value 2 is the area under sin x alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0036",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The area under y = 1/\u221a(4 \u2212 x\u00b2) from x = 0 to x = 1 is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/6",
+    "\u03c0/3",
+    "\u03c0/12",
+    "\u03c0/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u222b 1/\u221a(a\u00b2 \u2212 x\u00b2) dx = arcsin(x/a), with a = 2, so the area is arcsin(1/2) \u2212 arcsin 0 = \u03c0/6. Dividing by a as in the arctan formula gives \u03c0/12, which is wrong here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0037",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "The region enclosed by y = x\u00b2 and y = 2x is rotated about the y-axis. The volume of the solid is:",
+   "imageRef": null,
+   "options": [
+    "64\u03c0/15",
+    "16\u03c0/3",
+    "8\u03c0/3",
+    "8\u03c0/15"
+   ],
+   "correctIndex": 2,
+   "explanation": "Horizontal slices are washers with outer radius \u221ay and inner radius y/2, for 0 \u2264 y \u2264 4. V = \u03c0 \u222b from 0 to 4 of (y \u2212 y\u00b2/4) dy = \u03c0(8 \u2212 16/3) = 8\u03c0/3. Squaring the difference, (\u221ay \u2212 y/2)\u00b2, gives 8\u03c0/15, and rotating about the x-axis gives 64\u03c0/15.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-areas-volumes-0038",
+   "topicId": "spec-sace-areas-volumes",
+   "stem": "To rotate a region about the y-axis using V = \u03c0 \u222b from c to d of x\u00b2 dy, the function y = f(x) should be one-to-one on the interval because:",
+   "imageRef": null,
+   "options": [
+    "x must be written as a single function of y, x = f\u207b\u00b9(y)",
+    "the volume about the y-axis is always the same as about the x-axis",
+    "the limits c and d must be x-values taken from the original interval",
+    "a function that is not one-to-one cannot be integrated with respect to x"
+   ],
+   "correctIndex": 0,
+   "explanation": "The radius of each horizontal disc is x, so x must be given by one formula in y, the inverse function f\u207b\u00b9(y). The limits are the y-values c = f(a) and d = f(b), not x-values.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-areas-volumes-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

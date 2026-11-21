@@ -1,0 +1,727 @@
+{
+ "topicId": "phys-qce-electrostatics-magnetism",
+ "questions": [
+  {
+   "id": "phys-qce-electrostatics-magnetism-0001",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Coulomb's law states that the force between two point charges is:",
+   "imageRef": null,
+   "options": [
+    "proportional to the product of the charges and to 1/r\u00b2",
+    "proportional to the sum of the charges and to 1/r\u00b2",
+    "proportional to the product of the charges and to 1/r",
+    "independent of the distance between the charges"
+   ],
+   "correctIndex": 0,
+   "explanation": "F = kQq/r\u00b2: the force depends on both charges multiplied together and follows an inverse square law in their separation. It acts along the line joining the charges, and is repulsive for like charges and attractive for unlike charges.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0002",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "In Coulomb's law, the constant k can be written as 1/(4\u03c0\u03b5\u2080). What does \u03b5\u2080 represent?",
+   "imageRef": null,
+   "options": [
+    "The permeability of free space",
+    "The charge on one electron",
+    "The universal gravitational constant",
+    "The permittivity of free space"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03b5\u2080 is the permittivity of free space, about 8.85 \u00d7 10\u207b\u00b9\u00b2 C\u00b2 N\u207b\u00b9 m\u207b\u00b2, which gives k \u2248 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2. The permeability of free space, \u00b5\u2080, belongs to magnetic fields, as in B = \u00b5\u2080I/2\u03c0r.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0003",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A +3.0 \u00b5C charge and a \u22122.0 \u00b5C charge are 0.20 m apart. What is the force between them? Use k = 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "0.27 N, attractive",
+    "5.4 N, attractive",
+    "1.3 N, attractive",
+    "1.3 N, repulsive"
+   ],
+   "correctIndex": 2,
+   "explanation": "F = kQq/r\u00b2 = 8.99 \u00d7 10\u2079 \u00d7 3.0 \u00d7 10\u207b\u2076 \u00d7 2.0 \u00d7 10\u207b\u2076 / 0.20\u00b2 \u2248 1.3 N. Unlike charges attract. Forgetting to square the distance gives 0.27 N, and halving the distance by mistake gives 5.4 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0004",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "In a hydrogen atom, the electron and proton are about 5.3 \u00d7 10\u207b\u00b9\u00b9 m apart. What is the electric force between them? Use k = 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2 and e = 1.6 \u00d7 10\u207b\u00b9\u2079 C.",
+   "imageRef": null,
+   "options": [
+    "1.5 \u00d7 10\u207b\u00b2\u2078 N",
+    "8.2 \u00d7 10\u207b\u2078 N",
+    "4.3 \u00d7 10\u207b\u00b9\u2078 N",
+    "5.1 \u00d7 10\u00b9\u00b9 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "F = ke\u00b2/r\u00b2 = 8.99 \u00d7 10\u2079 \u00d7 (1.6 \u00d7 10\u207b\u00b9\u2079)\u00b2 / (5.3 \u00d7 10\u207b\u00b9\u00b9)\u00b2 \u2248 8.2 \u00d7 10\u207b\u2078 N. Not squaring the distance gives 4.3 \u00d7 10\u207b\u00b9\u2078 N, and using the charge once instead of twice gives 5.1 \u00d7 10\u00b9\u00b9 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0005",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Two equal charges of 4.0 \u00b5C repel each other with a force of 3.6 N. How far apart are they? Use k = 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "0.40 m",
+    "0.10 m",
+    "0.20 m",
+    "0.040 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Rearranging F = kq\u00b2/r\u00b2 gives r = \u221a(kq\u00b2/F) = \u221a(8.99 \u00d7 10\u2079 \u00d7 (4.0 \u00d7 10\u207b\u2076)\u00b2 / 3.6) \u2248 \u221a0.040 = 0.20 m. The 0.040 m value forgets to take the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0006",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Two point charges attract with a force F. One charge is halved and the distance between them is also halved. What is the new force?",
+   "imageRef": null,
+   "options": [
+    "4F",
+    "2F",
+    "F",
+    "F/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Halving one charge halves the force, and halving the distance multiplies it by 2\u00b2 = 4, so the new force is 4F/2 = 2F. Treating the force as inversely proportional to r instead of r\u00b2 gives F.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0007",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Electric field strength at a point is defined as:",
+   "imageRef": null,
+   "options": [
+    "the force per unit positive charge placed at that point",
+    "the force per unit mass placed at that point",
+    "the energy per unit charge moved to that point",
+    "the charge per unit area of the source"
+   ],
+   "correctIndex": 0,
+   "explanation": "E = F/q, measured in N C\u207b\u00b9, and its direction is the direction of the force on a positive test charge. Energy per unit charge is potential difference, V = \u0394U/q, which is a different quantity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0008",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Electric field lines are drawn around a negative point charge. Which way do they point?",
+   "imageRef": null,
+   "options": [
+    "In circles around the charge",
+    "Parallel to one another in one direction",
+    "Radially inward, towards the charge",
+    "Radially outward, away from the charge"
+   ],
+   "correctIndex": 2,
+   "explanation": "Field lines show the direction of the force on a positive test charge, which is attracted to a negative charge, so they point radially inward. Around a positive charge they point outward. Circular lines describe the magnetic field around a current, not an electric field.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0009",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A \u22123.0 nC charge in an electric field experiences a force of 6.0 \u00d7 10\u207b\u2075 N to the east. What is the electric field at that point?",
+   "imageRef": null,
+   "options": [
+    "2.0 \u00d7 10\u2074 N C\u207b\u00b9 east",
+    "1.8 \u00d7 10\u207b\u00b9\u00b3 N C\u207b\u00b9 west",
+    "5.0 \u00d7 10\u207b\u2075 N C\u207b\u00b9 east",
+    "2.0 \u00d7 10\u2074 N C\u207b\u00b9 west"
+   ],
+   "correctIndex": 3,
+   "explanation": "E = F/q = 6.0 \u00d7 10\u207b\u2075 / 3.0 \u00d7 10\u207b\u2079 = 2.0 \u00d7 10\u2074 N C\u207b\u00b9. The field points the way a positive charge would be pushed, and this charge is negative, so the field is opposite to the force: west. Dividing q by F gives 5.0 \u00d7 10\u207b\u2075.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0010",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "What is the electric field 0.050 m from a +5.0 nC point charge? Use k = 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "9.0 \u00d7 10\u00b2 N C\u207b\u00b9, away from the charge",
+    "7.2 \u00d7 10\u2074 N C\u207b\u00b9, away from the charge",
+    "1.8 \u00d7 10\u2074 N C\u207b\u00b9, away from the charge",
+    "1.8 \u00d7 10\u2074 N C\u207b\u00b9, towards the charge"
+   ],
+   "correctIndex": 2,
+   "explanation": "E = kq/r\u00b2 = 8.99 \u00d7 10\u2079 \u00d7 5.0 \u00d7 10\u207b\u2079 / 0.050\u00b2 \u2248 1.8 \u00d7 10\u2074 N C\u207b\u00b9, pointing away from a positive charge. Not squaring the distance gives 9.0 \u00d7 10\u00b2 N C\u207b\u00b9. Fields point towards negative charges, not positive ones.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0011",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Equal and opposite charges of +4.0 nC and \u22124.0 nC are 0.20 m apart. What is the electric field at the midpoint between them? Use k = 8.99 \u00d7 10\u2079 N m\u00b2 C\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "7.2 \u00d7 10\u00b3 N C\u207b\u00b9 towards the positive charge",
+    "7.2 \u00d7 10\u00b3 N C\u207b\u00b9 towards the negative charge",
+    "zero, because the two fields cancel out",
+    "3.6 \u00d7 10\u00b3 N C\u207b\u00b9 towards the negative charge"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each charge gives kq/r\u00b2 = 8.99 \u00d7 10\u2079 \u00d7 4.0 \u00d7 10\u207b\u2079 / 0.10\u00b2 \u2248 3.6 \u00d7 10\u00b3 N C\u207b\u00b9 at the midpoint. The field points away from the positive charge and towards the negative one, so both point the same way and add to 7.2 \u00d7 10\u00b3 N C\u207b\u00b9. They would cancel only for two like charges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0012",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A +2.0 \u00b5C charge and a +8.0 \u00b5C charge are fixed 0.30 m apart. Where on the line between them is the electric field zero?",
+   "imageRef": null,
+   "options": [
+    "0.20 m from the 2.0 \u00b5C charge",
+    "0.15 m from the 2.0 \u00b5C charge",
+    "0.06 m from the 2.0 \u00b5C charge",
+    "0.10 m from the 2.0 \u00b5C charge"
+   ],
+   "correctIndex": 3,
+   "explanation": "The fields cancel where k(2.0)/x\u00b2 = k(8.0)/(0.30 \u2212 x)\u00b2, so (0.30 \u2212 x)/x = \u221a4 = 2, giving x = 0.10 m. The zero point is nearer the smaller charge. Splitting the distance in the ratio 1 : 4 instead of 1 : 2 gives 0.06 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0013",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Which description of the electric field lines around two equal positive point charges is correct?",
+   "imageRef": null,
+   "options": [
+    "They form closed loops that circle around both charges together",
+    "They point away from both charges and bend apart, with zero field midway",
+    "They run directly from one charge to the other, closest at the midpoint",
+    "They point towards both charges and meet at a point midway between them"
+   ],
+   "correctIndex": 1,
+   "explanation": "Field lines start on positive charges and never cross. Between two like charges the lines repel each other and curve away, leaving a point midway where the fields cancel. Lines running from one charge to the other describe a positive and a negative charge.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0014",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A proton is released in a uniform electric field and moves in the direction of the field, with no other forces acting. What happens to its electrical potential energy and kinetic energy?",
+   "imageRef": null,
+   "options": [
+    "Its potential energy increases and its kinetic energy decreases by the same amount",
+    "Both its potential energy and its kinetic energy increase steadily",
+    "Its potential energy stays constant while its kinetic energy increases",
+    "Its potential energy decreases and its kinetic energy increases by the same amount"
+   ],
+   "correctIndex": 3,
+   "explanation": "The field does positive work on the proton as it moves with the force, so electrical potential energy is converted into kinetic energy. Energy is conserved, so the loss in one equals the gain in the other. Potential energy would increase only if the proton were pushed against the field.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0015",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "How much work is done moving a 2.0 \u00b5C charge through a potential difference of 150 V?",
+   "imageRef": null,
+   "options": [
+    "3.0 \u00d7 10\u00b2 J",
+    "3.0 \u00d7 10\u207b\u2074 J",
+    "7.5 \u00d7 10\u2077 J",
+    "1.3 \u00d7 10\u207b\u2078 J"
+   ],
+   "correctIndex": 1,
+   "explanation": "From V = \u0394U/q, \u0394U = qV = 2.0 \u00d7 10\u207b\u2076 \u00d7 150 = 3.0 \u00d7 10\u207b\u2074 J. Dividing V by q gives 7.5 \u00d7 10\u2077 J, and ignoring the micro prefix gives 3.0 \u00d7 10\u00b2 J.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0016",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Moving a 4.0 \u00d7 10\u207b\u2075 C charge between two points in an electric field takes 0.012 J of work. What is the potential difference between the points?",
+   "imageRef": null,
+   "options": [
+    "300 V",
+    "3.3 \u00d7 10\u207b\u00b3 V",
+    "4.8 \u00d7 10\u207b\u2077 V",
+    "30 V"
+   ],
+   "correctIndex": 0,
+   "explanation": "V = \u0394U/q = 0.012 / 4.0 \u00d7 10\u207b\u2075 = 300 V. Dividing the charge by the energy gives 3.3 \u00d7 10\u207b\u00b3 V, and multiplying them gives 4.8 \u00d7 10\u207b\u2077 V. One volt is one joule per coulomb.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0017",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "An electron is accelerated through a potential difference of 200 V. How much energy does it gain? Use e = 1.6 \u00d7 10\u207b\u00b9\u2079 C.",
+   "imageRef": null,
+   "options": [
+    "8.0 \u00d7 10\u207b\u00b2\u00b2 J",
+    "1.3 \u00d7 10\u00b2\u00b9 J",
+    "200 J",
+    "3.2 \u00d7 10\u207b\u00b9\u2077 J"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u0394U = qV = 1.6 \u00d7 10\u207b\u00b9\u2079 \u00d7 200 = 3.2 \u00d7 10\u207b\u00b9\u2077 J, which is 200 eV. Dividing e by V gives 8.0 \u00d7 10\u207b\u00b2\u00b2 J, and 200 J confuses the potential difference, in joules per coulomb, with the energy itself.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0018",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A \u22123.0 \u00b5C charge is moved from point X to point Y, where the potential is 500 V higher than at X. What happens to the electrical potential energy?",
+   "imageRef": null,
+   "options": [
+    "It decreases by 6.0 \u00d7 10\u207b\u2079 J",
+    "It increases by 1.7 \u00d7 10\u2078 J",
+    "It decreases by 1.5 \u00d7 10\u207b\u00b3 J",
+    "It increases by 1.5 \u00d7 10\u207b\u00b3 J"
+   ],
+   "correctIndex": 2,
+   "explanation": "\u0394U = q\u0394V = (\u22123.0 \u00d7 10\u207b\u2076)(+500) = \u22121.5 \u00d7 10\u207b\u00b3 J, so the potential energy falls. A negative charge loses potential energy moving to higher potential, just as a positive charge loses it moving to lower potential. Ignoring the sign gives an increase.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0019",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Which statement about magnetic field lines is correct?",
+   "imageRef": null,
+   "options": [
+    "They start on north poles and end on south poles, inside and out",
+    "They are furthest apart where the magnetic field is strongest",
+    "They can cross where the fields of two magnets overlap",
+    "They form closed loops and run from north to south outside a magnet"
+   ],
+   "correctIndex": 3,
+   "explanation": "Outside a magnet the lines run from north to south, and inside they continue from south to north, forming closed loops. They are closest together where the field is strongest and never cross, because the field has only one direction at each point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0020",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Which of these produces a magnetic field?",
+   "imageRef": null,
+   "options": [
+    "An electron moving through a vacuum",
+    "A proton held at rest",
+    "A charged balloon resting on a shelf",
+    "An uncharged metal rod at rest"
+   ],
+   "correctIndex": 0,
+   "explanation": "Magnetic fields are generated by moving charges, so a moving electron produces a field circling its path. A stationary charge produces only an electric field. Currents in wires and the electron motion inside magnets are both examples of moving charges.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0021",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "How are the magnetic field lines around a single moving charge arranged?",
+   "imageRef": null,
+   "options": [
+    "In straight lines parallel to its direction of motion",
+    "In straight lines from the charge to the nearest pole",
+    "In circles centred on the line of its motion",
+    "Radially outward from the charge in all directions"
+   ],
+   "correctIndex": 2,
+   "explanation": "A moving charge, like a current in a wire, produces magnetic field lines that circle its path, with direction given by the right-hand grip rule. Radial lines describe the electric field of a point charge, not its magnetic field.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0022",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "An electron travels due east. What is the direction of its magnetic field at a point directly north of its path, in the same horizontal plane?",
+   "imageRef": null,
+   "options": [
+    "Due north",
+    "Due west",
+    "Vertically downward",
+    "Vertically upward"
+   ],
+   "correctIndex": 2,
+   "explanation": "An electron moving east is equivalent to a conventional current flowing west. Point the right thumb west: the fingers curl downward on the north side of the path. A proton moving east would give an upward field there.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0023",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A long horizontal wire carries a current due north. What is the direction of its magnetic field at a point directly below the wire?",
+   "imageRef": null,
+   "options": [
+    "West",
+    "East",
+    "North",
+    "Vertically downward"
+   ],
+   "correctIndex": 0,
+   "explanation": "With the right thumb pointing north along the current, the fingers curl so that the field below the wire points west. This is why a compass needle placed under such a wire swings towards the west. Above the wire the field points east.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0024",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "What is the magnetic field outside a long, current-carrying solenoid like?",
+   "imageRef": null,
+   "options": [
+    "Uniform and parallel to the axis, as it is inside",
+    "Like the field of a bar magnet, with a north pole at one end",
+    "Zero everywhere, as all the field is confined inside",
+    "Circles around the solenoid, like the field of a straight wire"
+   ],
+   "correctIndex": 1,
+   "explanation": "The field lines leave one end of the solenoid, loop around the outside and re-enter at the other end, matching a bar magnet's field. Inside, the field is strong and nearly uniform along the axis. Outside, it is weaker and spreads out, not uniform.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0025",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "What is the magnetic field strength 0.020 m from a long straight wire carrying 5.0 A? Use \u00b5\u2080 = 4\u03c0 \u00d7 10\u207b\u2077 T m A\u207b\u00b9.",
+   "imageRef": null,
+   "options": [
+    "2.5 \u00d7 10\u207b\u2075 T",
+    "1.0 \u00d7 10\u207b\u2076 T",
+    "5.0 \u00d7 10\u207b\u2075 T",
+    "3.1 \u00d7 10\u207b\u2074 T"
+   ],
+   "correctIndex": 2,
+   "explanation": "B = \u00b5\u2080I/2\u03c0r = 4\u03c0 \u00d7 10\u207b\u2077 \u00d7 5.0 / (2\u03c0 \u00d7 0.020) = 5.0 \u00d7 10\u207b\u2075 T. Leaving out the 2\u03c0 gives 3.1 \u00d7 10\u207b\u2074 T, and using double the distance gives 2.5 \u00d7 10\u207b\u2075 T.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0026",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "The distance from a long straight current-carrying wire is doubled. What happens to the magnetic field strength?",
+   "imageRef": null,
+   "options": [
+    "It falls to a quarter",
+    "It doubles",
+    "It stays the same",
+    "It halves"
+   ],
+   "correctIndex": 3,
+   "explanation": "B = \u00b5\u2080I/2\u03c0r, so the field is inversely proportional to r, not to r\u00b2. Doubling the distance halves it. The inverse square law applies to the fields of point masses and point charges.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0027",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A solenoid 0.20 m long has 400 turns and carries 2.5 A. What is the magnetic field strength inside it? Use \u00b5\u2080 = 4\u03c0 \u00d7 10\u207b\u2077 T m A\u207b\u00b9.",
+   "imageRef": null,
+   "options": [
+    "1.6 \u00d7 10\u207b\u2079 T",
+    "6.3 \u00d7 10\u207b\u00b3 T",
+    "1.3 \u00d7 10\u207b\u00b3 T",
+    "1.0 \u00d7 10\u207b\u00b3 T"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number of turns per metre is n = 400/0.20 = 2000 m\u207b\u00b9, so B = \u00b5\u2080nI = 4\u03c0 \u00d7 10\u207b\u2077 \u00d7 2000 \u00d7 2.5 \u2248 6.3 \u00d7 10\u207b\u00b3 T. Using 400 as n gives 1.3 \u00d7 10\u207b\u00b3 T, and using length divided by turns gives 1.6 \u00d7 10\u207b\u2079 T.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0028",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A solenoid is stretched to twice its length, keeping the same number of turns and the same current. What happens to the field inside it?",
+   "imageRef": null,
+   "options": [
+    "It halves, because there are half as many turns per metre",
+    "It doubles, because the wire inside the field is longer",
+    "It stays the same, because the number of turns is unchanged",
+    "It falls to a quarter, because the coil area is spread out"
+   ],
+   "correctIndex": 0,
+   "explanation": "B = \u00b5\u2080nI depends on n, the turns per metre, not the total number of turns. Doubling the length with the same turns halves n, so B halves. The radius of the solenoid does not appear in the formula.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0029",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "When is the magnetic force on a current-carrying wire in a uniform magnetic field greatest?",
+   "imageRef": null,
+   "options": [
+    "When the current is switched off and on",
+    "When the wire is perpendicular to the field",
+    "When the wire is parallel to the field",
+    "When the wire is at 45\u00b0 to the field"
+   ],
+   "correctIndex": 1,
+   "explanation": "F = BIL sin \u03b8, where \u03b8 is the angle between the wire and the field, so the force is greatest at 90\u00b0 and zero when the wire is parallel to the field. The force is perpendicular to both the wire and the field.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0030",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A 0.30 m wire carrying 4.0 A lies at 30\u00b0 to a uniform 0.25 T magnetic field. What is the magnetic force on it?",
+   "imageRef": null,
+   "options": [
+    "0.075 N",
+    "0.15 N",
+    "0.26 N",
+    "0.30 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "F = BIL sin \u03b8 = 0.25 \u00d7 4.0 \u00d7 0.30 \u00d7 sin 30\u00b0 = 0.15 N. Using cos 30\u00b0 gives 0.26 N, and ignoring the angle gives 0.30 N, the force when the wire is perpendicular to the field.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0031",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "In a uniform magnetic field pointing vertically upward, a horizontal conductor carries conventional current due east. Which way is it pushed?",
+   "imageRef": null,
+   "options": [
+    "South",
+    "North",
+    "Vertically upward",
+    "West"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using the right-hand rule, with the fingers along the field (up) and the thumb along the current (east), the palm pushes south. The force is perpendicular to both the current and the field, so it cannot be up or along the wire.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0032",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A proton moves at 4.0 \u00d7 10\u2075 m s\u207b\u00b9 at 60\u00b0 to a uniform 0.20 T magnetic field. What is the magnetic force on it? Use e = 1.6 \u00d7 10\u207b\u00b9\u2079 C.",
+   "imageRef": null,
+   "options": [
+    "1.1 \u00d7 10\u207b\u00b9\u2074 N",
+    "6.4 \u00d7 10\u207b\u00b9\u2075 N",
+    "1.3 \u00d7 10\u207b\u00b9\u2074 N",
+    "2.2 \u00d7 10\u207b\u00b9\u2074 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "F = qvB sin \u03b8 = 1.6 \u00d7 10\u207b\u00b9\u2079 \u00d7 4.0 \u00d7 10\u2075 \u00d7 0.20 \u00d7 sin 60\u00b0 \u2248 1.1 \u00d7 10\u207b\u00b9\u2074 N. Using cos 60\u00b0 gives 6.4 \u00d7 10\u207b\u00b9\u2075 N, and ignoring the angle gives 1.3 \u00d7 10\u207b\u00b9\u2074 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0033",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "An electron moves due north through a uniform magnetic field directed due west. What is the direction of the magnetic force on it?",
+   "imageRef": null,
+   "options": [
+    "Vertically upward",
+    "Due east",
+    "Due south",
+    "Vertically downward"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a positive charge moving north in a westward field, the right-hand rule gives a force vertically upward. An electron is negative, so the force on it is reversed: downward. The force is always perpendicular to both the velocity and the field.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0034",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A beam of protons, electrons and neutrons enters a uniform magnetic field at right angles to it. What happens?",
+   "imageRef": null,
+   "options": [
+    "Protons and electrons curve in opposite directions; neutrons go straight",
+    "Protons and electrons curve the same way; neutrons curve the other way",
+    "All three curve the same way, since they all move at right angles",
+    "Only the electrons curve, because protons and neutrons are too heavy"
+   ],
+   "correctIndex": 0,
+   "explanation": "The magnetic force F = qvB sin \u03b8 depends on charge. Protons and electrons have opposite charges, so they are pushed in opposite directions, and neutrons have no charge, so they pass straight through. A proton's large mass makes its path curve less, but it still curves.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0035",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "Two long parallel wires 0.10 m apart each carry 10 A in the same direction. What is the force on each metre of one wire due to the other? Use \u00b5\u2080 = 4\u03c0 \u00d7 10\u207b\u2077 T m A\u207b\u00b9.",
+   "imageRef": null,
+   "options": [
+    "2.0 \u00d7 10\u207b\u2074 N, repulsive",
+    "2.0 \u00d7 10\u207b\u2075 N, attractive",
+    "1.3 \u00d7 10\u207b\u00b3 N, attractive",
+    "2.0 \u00d7 10\u207b\u2074 N, attractive"
+   ],
+   "correctIndex": 3,
+   "explanation": "The field of one wire at the other is B = \u00b5\u2080I/2\u03c0r = 2.0 \u00d7 10\u207b\u2075 T, so the force per metre is BIL = 2.0 \u00d7 10\u207b\u2075 \u00d7 10 \u00d7 1.0 = 2.0 \u00d7 10\u207b\u2074 N. Currents in the same direction attract. The 2.0 \u00d7 10\u207b\u2075 value is the field, not the force.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0036",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A 0.060 m conductor is held perpendicular to a uniform magnetic field. A graph of the force on it against the current is a straight line through the origin with a gradient of 0.030 N A\u207b\u00b9. What is the field strength?",
+   "imageRef": null,
+   "options": [
+    "1.8 \u00d7 10\u207b\u00b3 T",
+    "2.0 T",
+    "0.030 T",
+    "0.50 T"
+   ],
+   "correctIndex": 3,
+   "explanation": "F = BIL, so the gradient of F against I is BL. Then B = 0.030 / 0.060 = 0.50 T. Multiplying the gradient by the length gives 1.8 \u00d7 10\u207b\u00b3 T, and dividing the length by the gradient gives 2.0 T.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0037",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "In an experiment, the force on a conductor in a fixed field is 0 N with the wire parallel to the field, 0.040 N at 30\u00b0 to it and 0.080 N at 90\u00b0. What force is expected at 60\u00b0?",
+   "imageRef": null,
+   "options": [
+    "0.060 N",
+    "0.053 N",
+    "0.080 N",
+    "0.069 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "The data fit F = Fmax sin \u03b8 with Fmax = 0.080 N, since 0.080 \u00d7 sin 30\u00b0 = 0.040 N. At 60\u00b0, F = 0.080 \u00d7 sin 60\u00b0 \u2248 0.069 N. Interpolating in a straight line between 30\u00b0 and 90\u00b0 gives 0.060 N, but the force is not linear in the angle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-electrostatics-magnetism-0038",
+   "topicId": "phys-qce-electrostatics-magnetism",
+   "stem": "A student measures a bar magnet's field along its axis: 8.0 mT at 2.0 cm, 1.0 mT at 4.0 cm and 0.13 mT at 8.0 cm. Which relationship fits these data?",
+   "imageRef": null,
+   "options": [
+    "B is proportional to 1/r\u00b3",
+    "B is proportional to 1/r\u00b2",
+    "B is proportional to 1/r",
+    "B decreases linearly with r"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each doubling of the distance divides the field by about 8, which is 2\u00b3, so B \u221d 1/r\u00b3. An inverse square relationship would divide it by 4 for each doubling, and B \u221d 1/r would only halve it. The field of a magnet falls off much faster with distance than that of a single wire.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-electrostatics-magnetism-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

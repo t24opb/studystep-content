@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-hsc-differential-equations",
+ "questions": [
+  {
+   "id": "spec-hsc-differential-equations-0001",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A differential equation is:",
+   "imageRef": null,
+   "options": [
+    "an equation whose solutions are always numbers rather than functions",
+    "the derivative of a known function, written out in full",
+    "an equation stating that two functions differ by a constant",
+    "an equation involving an unknown function and one or more of its derivatives"
+   ],
+   "correctIndex": 3,
+   "explanation": "A differential equation links an unknown function, such as y(x), with its derivatives, as in dy/dx = 3y. Its solutions are functions, not numbers.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0002",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Which differential equation is second order?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = y\u00b3",
+    "d\u00b2y/dx\u00b2 \u2212 2(dy/dx) = e\u02e3",
+    "(dy/dx)\u00b2 = x + y",
+    "x\u00b2(dy/dx) = tan y"
+   ],
+   "correctIndex": 1,
+   "explanation": "The order is the order of the highest derivative present. Only the first equation contains d\u00b2y/dx\u00b2. In (dy/dx)\u00b2 the derivative is squared, but it is still only a first derivative.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0003",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The order of the differential equation (dy/dx)\u00b3 + d\u00b2y/dx\u00b2 = x is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "2",
+    "3",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The highest derivative is d\u00b2y/dx\u00b2, so the equation is second order. The power 3 on dy/dx does not change the order, which counts derivatives, not powers.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0004",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The first-order differential equation dy/dx = 2x has:",
+   "imageRef": null,
+   "options": [
+    "exactly one solution, y = x\u00b2",
+    "exactly two solutions, y = \u00b1x\u00b2",
+    "solutions only for x > 0",
+    "infinitely many solutions, y = x\u00b2 + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every function y = x\u00b2 + c has derivative 2x, so there is a whole family of solutions, one for each c. An initial condition, such as y(0) = 1, is needed to pick out a single solution.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0005",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "An initial value problem is:",
+   "imageRef": null,
+   "options": [
+    "a differential equation in which x is never allowed to be zero",
+    "a differential equation together with conditions that fix a unique solution",
+    "a differential equation that has no solution at its starting value",
+    "the first step taken when drawing a slope field by hand"
+   ],
+   "correctIndex": 1,
+   "explanation": "Initial conditions, such as y(0) = 2, select one curve from the family of solutions. The differential equation and the conditions together are called an initial value problem.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0006",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution curve of dy/dx = xy that passes through (1, 3) has gradient at that point:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "1",
+    "4",
+    "1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The differential equation gives the gradient at any point directly: dy/dx = (1)(3) = 3. This is the slope of the short segment drawn at (1, 3) in the slope field.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0007",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "In the slope field for dy/dx = y \u2212 2x, the segments are horizontal along the line:",
+   "imageRef": null,
+   "options": [
+    "y = x/2",
+    "x = 0",
+    "y = 0",
+    "y = 2x"
+   ],
+   "correctIndex": 3,
+   "explanation": "Segments are horizontal where dy/dx = 0, that is where y \u2212 2x = 0, giving the line y = 2x. Above this line y > 2x, so the gradients are positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0008",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "In a slope field, every segment along any one horizontal line has the same gradient. The differential equation could be:",
+   "imageRef": null,
+   "options": [
+    "dy/dx = y\u00b2 \u2212 1",
+    "dy/dx = x\u00b2 \u2212 1",
+    "dy/dx = x \u2212 y",
+    "dy/dx = xy"
+   ],
+   "correctIndex": 0,
+   "explanation": "Along a horizontal line y is fixed, so the gradient is the same there only if dy/dx depends on y alone, as in dy/dx = y\u00b2 \u2212 1. An equation in x alone, such as x\u00b2 \u2212 1, gives segments that match along vertical lines instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0009",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A slope field has the same gradient all the way up each vertical line. The gradient is 0 along x = 0, x = \u03c0 and x = 2\u03c0, and positive for 0 < x < \u03c0. The differential equation could be:",
+   "imageRef": null,
+   "options": [
+    "dy/dx = sin y",
+    "dy/dx = x sin y",
+    "dy/dx = sin x",
+    "dy/dx = cos x"
+   ],
+   "correctIndex": 2,
+   "explanation": "Matching gradients up each vertical line means dy/dx depends only on x. sin x is zero at 0, \u03c0 and 2\u03c0 and positive between 0 and \u03c0. cos x is zero at \u03c0/2 instead, and sin y would depend on height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0010",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "For dy/dx = y(4 \u2212 y), the solution with y(0) = 1:",
+   "imageRef": null,
+   "options": [
+    "decreases and approaches y = 0",
+    "increases without bound",
+    "stays constant at y = 1",
+    "increases and approaches y = 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "For 0 < y < 4, dy/dx = y(4 \u2212 y) > 0, so y increases. As y nears 4 the gradient tends to 0, and the constant solution y = 4 is never crossed, so y approaches 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0011",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "For dy/dx = (y \u2212 1)(y \u2212 3), the solution with y(0) = 2:",
+   "imageRef": null,
+   "options": [
+    "decreases and approaches y = 1",
+    "increases and approaches y = 3",
+    "stays constant at y = 2",
+    "decreases without bound"
+   ],
+   "correctIndex": 0,
+   "explanation": "At y = 2, dy/dx = (1)(\u22121) = \u22121 < 0, and dy/dx stays negative for 1 < y < 3, so y decreases. Solution curves cannot cross the constant solution y = 1, so y approaches 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0012",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "In the slope field for dy/dx = x\u00b2 + y\u00b2 \u2212 4, the segments are horizontal along:",
+   "imageRef": null,
+   "options": [
+    "the circle x\u00b2 + y\u00b2 = 2",
+    "the parabola y = 4 \u2212 x\u00b2",
+    "the circle x\u00b2 + y\u00b2 = 4",
+    "the lines x = 2 and x = \u22122"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = 0 where x\u00b2 + y\u00b2 = 4, a circle of radius 2 centred at the origin. Inside the circle the gradients are negative, and outside they are positive. The radius is \u221a4 = 2, not \u221a2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0013",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = 3x\u00b2 \u2212 2 with y(1) = 4 is:",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b3 \u2212 2x + 5",
+    "y = x\u00b3 \u2212 2x + 4",
+    "y = x\u00b3 \u2212 2x + 3",
+    "y = 6x + 4"
+   ],
+   "correctIndex": 0,
+   "explanation": "Integrating gives y = x\u00b3 \u2212 2x + c. At x = 1, 1 \u2212 2 + c = 4, so c = 5. Taking c = 4 ignores the value of x\u00b3 \u2212 2x at x = 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0014",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The general solution of dy/dx = 3y is:",
+   "imageRef": null,
+   "options": [
+    "y = Ae^(3x)",
+    "y = e^(3x) + c",
+    "y = 3x\u00b2/2 + c",
+    "y = Ae^(x/3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating gives the integral of (1/y) dy = the integral of 3 dx, so ln|y| = 3x + c and y = Ae^(3x). Adding a constant to e^(3x) does not work: the derivative of e^(3x) + c is 3e^(3x), which is not 3y unless c = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0015",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The general solution of dy/dx = 20e^(\u22125y) is:",
+   "imageRef": null,
+   "options": [
+    "y = \u2212(1/5)ln(100x + C)",
+    "y = (1/5)ln(100x + C)",
+    "y = 5ln(100x + C)",
+    "y = (1/5)ln(20x + C)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, e^(5y) dy = 20 dx, so e^(5y)/5 = 20x + c and e^(5y) = 100x + C. Taking logs gives y = (1/5)ln(100x + C). Forgetting the 1/5 from integrating e^(5y) gives 20x instead of 100x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0016",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = cos\u00b2 y with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = tan x",
+    "y = sin\u207b\u00b9(x)",
+    "y = x",
+    "y = tan\u207b\u00b9(x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating, sec\u00b2 y dy = dx, so tan y = x + c. At (0, 0), c = 0, so tan y = x and y = tan\u207b\u00b9(x). Writing y = tan x mixes up which variable is inside the tangent.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0017",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Separating the variables in dy/dx = (1 + y\u00b2)e\u02e3 gives:",
+   "imageRef": null,
+   "options": [
+    "the integral of dy = the integral of (1 + y\u00b2)e\u02e3 dy",
+    "the integral of 1/(1 + y\u00b2) dy = the integral of e\u02e3 dx",
+    "the integral of (1 + y\u00b2) dy = the integral of e\u02e3 dx",
+    "the integral of 1/(1 + y\u00b2) dx = the integral of e\u02e3 dy"
+   ],
+   "correctIndex": 1,
+   "explanation": "Divide both sides by 1 + y\u00b2 so that all the y terms are with dy and all the x terms with dx. Then integrate each side with respect to its own variable.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0018",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The general solution of dy/dx = 2y/x, for x > 0 and y > 0, is:",
+   "imageRef": null,
+   "options": [
+    "y = Ae^(2x)",
+    "y = A/x\u00b2",
+    "y = Ax\u00b2",
+    "y = x\u00b2 + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating, (1/y) dy = (2/x) dx, so ln y = 2ln x + c = ln(x\u00b2) + c, giving y = Ax\u00b2. The function x\u00b2 + c does not satisfy the equation unless c = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0019",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = y cos x with y(0) = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(sin x) + 1",
+    "y = 2e^(cos x)",
+    "y = 2 + sin x",
+    "y = 2e^(sin x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating, ln|y| = sin x + c, so y = Ae^(sin x), and y(0) = 2 gives A = 2. The function e^(sin x) + 1 also passes through (0, 2), but its derivative is cos x e^(sin x), which is not y cos x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0020",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = e^(x \u2212 y) with y(0) = ln 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = ln(e\u02e3 + ln 2)",
+    "y = ln(3e\u02e3 \u2212 1)",
+    "y = ln(e\u02e3 + 1)",
+    "y = x + ln 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating, e\u02b8 dy = e\u02e3 dx, so e\u02b8 = e\u02e3 + c. At x = 0, 2 = 1 + c, so c = 1 and y = ln(e\u02e3 + 1). Two of the other options pass through (0, ln 2) but do not satisfy the differential equation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0021",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = x/y with y(0) = \u22122 is:",
+   "imageRef": null,
+   "options": [
+    "y = \u2212(x + 2)",
+    "y = \u2212\u221a(x\u00b2 + 4)",
+    "y = \u221a(x\u00b2 + 4)",
+    "y = \u2212\u221a(x\u00b2 \u2212 4)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, y dy = x dx, so y\u00b2/2 = x\u00b2/2 + c and y\u00b2 = x\u00b2 + 4 after using (0, \u22122). Because y(0) is negative, the negative square root must be taken. The positive root passes through (0, 2) instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0022",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dy/dx = \u2212x/(ye^(x\u00b2)) through (0, 1), with y > 0, is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(\u2212x\u00b2)",
+    "y = e^(x\u00b2/2)",
+    "y = \u221a(2 \u2212 e^(\u2212x\u00b2))",
+    "y = e^(\u2212x\u00b2/2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Separating, y dy = \u2212xe^(\u2212x\u00b2) dx. Integrating, y\u00b2/2 = e^(\u2212x\u00b2)/2 + c, and (0, 1) gives c = 0, so y\u00b2 = e^(\u2212x\u00b2) and y = e^(\u2212x\u00b2/2). A sign slip in integrating \u2212xe^(\u2212x\u00b2) leads to \u221a(2 \u2212 e^(\u2212x\u00b2)).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0023",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Which differential equation has the family of solutions y = Ce^(x\u00b2)?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = x\u00b2y",
+    "dy/dx = 2y",
+    "dy/dx = 2x + y",
+    "dy/dx = 2xy"
+   ],
+   "correctIndex": 3,
+   "explanation": "Differentiating, dy/dx = 2xCe^(x\u00b2) = 2xy. The equation dy/dx = 2y has solutions Ce^(2x), and x\u00b2y would give Ce^(x\u00b3/3).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0024",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Which function is a solution of d\u00b2y/dx\u00b2 = 9y?",
+   "imageRef": null,
+   "options": [
+    "y = e^(\u22123x)",
+    "y = sin(3x)",
+    "y = e^(9x)",
+    "y = 3e\u02e3"
+   ],
+   "correctIndex": 0,
+   "explanation": "For y = e^(\u22123x), y\u2032\u2032 = 9e^(\u22123x) = 9y. For sin(3x), y\u2032\u2032 = \u22129sin(3x), the wrong sign, and e^(9x) gives 81y.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0025",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Separating the variables in dQ/dt = k(Q \u2212 P), where P is a constant, and integrating gives:",
+   "imageRef": null,
+   "options": [
+    "Q \u2212 P = kt + c",
+    "ln|Q \u2212 P| = kQ + c",
+    "ln|Q \u2212 P| = kt + c",
+    "ln|Q| \u2212 P = kt + c"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing by Q \u2212 P gives the integral of 1/(Q \u2212 P) dQ = the integral of k dt, so ln|Q \u2212 P| = kt + c. This leads to Q = P + Ae^(kt).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0026",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A bacteria culture grows according to dN/dt = kN and doubles every 5 hours. The value of k is:",
+   "imageRef": null,
+   "options": [
+    "ln(5/2)",
+    "(ln 2)/5",
+    "5 ln 2",
+    "2/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "N = N\u2080e^(kt) and e^(5k) = 2, so 5k = ln 2 and k = (ln 2)/5 per hour. Multiplying by 5 instead of dividing gives 5 ln 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0027",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A radioactive isotope decays according to dm/dt = \u2212km and has a half-life of 8 days. After 24 days, the fraction remaining is:",
+   "imageRef": null,
+   "options": [
+    "1/24",
+    "1/8",
+    "1/3",
+    "1/6"
+   ],
+   "correctIndex": 1,
+   "explanation": "24 days is three half-lives, and each halves the mass, so (1/2)\u00b3 = 1/8 remains. Decay by a constant fraction is not linear, so 1/3 is wrong.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0028",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dQ/dt = \u22120.5(Q \u2212 20) with Q(0) = 80 is:",
+   "imageRef": null,
+   "options": [
+    "Q = 20 + 80e^(\u22120.5t)",
+    "Q = 80 \u2212 60e^(\u22120.5t)",
+    "Q = 60 + 20e^(\u22120.5t)",
+    "Q = 20 + 60e^(\u22120.5t)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The general solution is Q = 20 + Ae^(\u22120.5t). At t = 0, 20 + A = 80, so A = 60. Using A = 80 forgets that Q(0) = 20 + A, not A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0029",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A machine loses value at a rate proportional to its value V. It falls from $50 000 to $40 000 in 2 years. Its value after 6 years is:",
+   "imageRef": null,
+   "options": [
+    "$25 600",
+    "$20 000",
+    "$32 000",
+    "$30 000"
+   ],
+   "correctIndex": 0,
+   "explanation": "dV/dt = \u2212kV gives V = 50 000e^(\u2212kt), so the value is multiplied by 0.8 every 2 years. After 6 years, V = 50 000 \u00d7 0.8\u00b3 = $25 600. A constant loss of $10 000 every 2 years gives $20 000.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0030",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The price p of a product changes according to dp/dt = 0.1(100 \u2212 p), with p = 40 when t = 0. When t = 10, the price is:",
+   "imageRef": null,
+   "options": [
+    "100 \u2212 60e^(\u22121)",
+    "100 \u2212 40e^(\u22121)",
+    "100 \u2212 60e",
+    "40e"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is dp/dt = \u22120.1(p \u2212 100), so p = 100 + Ae^(\u22120.1t). At t = 0, A = \u221260, so p = 100 \u2212 60e^(\u22120.1t) and p(10) = 100 \u2212 60e^(\u22121). The rate is negative in terms of p \u2212 100, so e^(+1) is wrong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0031",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A 50 L tank holds water with 5 kg of salt dissolved. Pure water flows in at 5 L/min and the mixture flows out at 5 L/min. If S kg is the salt in the tank, then:",
+   "imageRef": null,
+   "options": [
+    "dS/dt = \u22125S",
+    "dS/dt = 5 \u2212 S/10",
+    "dS/dt = \u2212S/50",
+    "dS/dt = \u2212S/10"
+   ],
+   "correctIndex": 3,
+   "explanation": "The concentration is S/50 kg/L, and 5 L leaves each minute, so salt leaves at 5 \u00d7 S/50 = S/10 kg/min. Pure water brings no salt in, so there is no positive term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0032",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The partial fraction decomposition of C/(P(C \u2212 P)) is:",
+   "imageRef": null,
+   "options": [
+    "1/P + 1/(P \u2212 C)",
+    "1/P + 1/(C \u2212 P)",
+    "1/P \u2212 1/(C \u2212 P)",
+    "C/P + C/(C \u2212 P)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Combining, 1/P + 1/(C \u2212 P) = ((C \u2212 P) + P)/(P(C \u2212 P)) = C/(P(C \u2212 P)). This decomposition is what lets the logistic equation be integrated.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0033",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Using 1/(P(1 \u2212 P/C)) = 1/P + 1/(C \u2212 P) to solve dP/dt = kP(1 \u2212 P/C), integrating gives:",
+   "imageRef": null,
+   "options": [
+    "1/P + 1/(C \u2212 P) = kt + c",
+    "ln|P| \u2212 ln|C \u2212 P| = kt + c",
+    "ln|P| + ln|C \u2212 P| = kt + c",
+    "ln|P| \u2212 ln|C \u2212 P| = kP + c"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integral of 1/(C \u2212 P) with respect to P is \u2212ln|C \u2212 P|, because the derivative of C \u2212 P is \u22121. So the left side is ln|P| \u2212 ln|C \u2212 P|. Missing the minus sign gives a plus.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0034",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "Solving the logistic equation dP/dt = kP(1 \u2212 P/C), with k > 0, gives a solution of the form:",
+   "imageRef": null,
+   "options": [
+    "P = Ce^(kt)",
+    "P = C/(1 + Ae^(\u2212kt))",
+    "P = C(1 + Ae^(\u2212kt))",
+    "P = C/(1 + Ae^(kt))"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rearranging ln|P/(C \u2212 P)| = kt + c for P gives P = C/(1 + Ae^(\u2212kt)), which tends to C as t \u2192 \u221e. With e^(kt) in the denominator, P would fall to 0 instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0035",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The solution of dP/dt = 0.3P(1 \u2212 P/600) with P(0) = 100 is:",
+   "imageRef": null,
+   "options": [
+    "P = 100/(1 + 5e^(\u22120.3t))",
+    "P = 600/(1 + 5e^(\u22120.3t))",
+    "P = 600/(1 + 6e^(\u22120.3t))",
+    "P = 600/(1 + 5e^(0.3t))"
+   ],
+   "correctIndex": 1,
+   "explanation": "With P = 600/(1 + Ae^(\u22120.3t)), at t = 0, 600/(1 + A) = 100, so A = 5. Taking A = 6 comes from 600/100 without subtracting 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0036",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A lake's fish population follows dP/dt = 0.4P(1 \u2212 P/2000), with t in years. When P = 500, the population is growing at:",
+   "imageRef": null,
+   "options": [
+    "200 fish per year",
+    "50 fish per year",
+    "600 fish per year",
+    "150 fish per year"
+   ],
+   "correctIndex": 3,
+   "explanation": "dP/dt = 0.4 \u00d7 500 \u00d7 (1 \u2212 500/2000) = 200 \u00d7 0.75 = 150 fish per year. Leaving out the factor (1 \u2212 P/C) gives 200, as if there were no carrying capacity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0037",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "The population P = 600/(1 + 5e^(\u22120.3t)) grows fastest when P = 300. This occurs when t equals:",
+   "imageRef": null,
+   "options": [
+    "(10/3)ln 6",
+    "10 ln 5",
+    "(10/3)ln 5",
+    "(3/10)ln 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "300 = 600/(1 + 5e^(\u22120.3t)) gives 5e^(\u22120.3t) = 1, so e^(0.3t) = 5 and t = (ln 5)/0.3 = (10/3)ln 5. Multiplying by 0.3 instead of dividing gives (3/10)ln 5.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-hsc-differential-equations-0038",
+   "topicId": "spec-hsc-differential-equations",
+   "stem": "A substance decomposes at a rate proportional to the amount A remaining. Which differential equation models this, with k > 0?",
+   "imageRef": null,
+   "options": [
+    "dA/dt = \u2212kA",
+    "dA/dt = kA",
+    "dA/dt = \u2212kt",
+    "dA/dt = \u2212k/A"
+   ],
+   "correctIndex": 0,
+   "explanation": "Proportional to A means dA/dt = (constant) \u00d7 A, and decomposing means A is decreasing, so the constant is negative: \u2212k with k > 0. The form kA would describe growth.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-hsc-differential-equations-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "spec-tce-differential-equations",
+ "questions": [
+  {
+   "id": "spec-tce-differential-equations-0001",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A differential equation is first order when:",
+   "imageRef": null,
+   "options": [
+    "it contains no derivatives other than d\u00b2y/dx\u00b2",
+    "its solution is a linear function of x",
+    "the derivative appears to the first power only",
+    "the highest derivative it contains is the first derivative"
+   ],
+   "correctIndex": 3,
+   "explanation": "The order is the highest derivative present, so a first order equation involves dy/dx but no higher derivative. The power of the derivative is a different property, called the degree.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0002",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Which function is a solution of the differential equation dy/dx = 2y?",
+   "imageRef": null,
+   "options": [
+    "y = 3e^(2x)",
+    "y = 2e^(3x)",
+    "y = x\u00b2 + 3",
+    "y = e^(x/2)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For y = 3e^(2x), dy/dx = 6e^(2x) = 2y. For y = 2e^(3x), dy/dx = 3y, not 2y.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0003",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The general solution of dy/dx = 6x describes:",
+   "imageRef": null,
+   "options": [
+    "a single parabola y = 3x\u00b2",
+    "a family of lines y = 6x + c",
+    "a family of circles x\u00b2 + y\u00b2 = c",
+    "a family of parabolas y = 3x\u00b2 + c"
+   ],
+   "correctIndex": 3,
+   "explanation": "Integrating gives y = 3x\u00b2 + c, one curve for each value of the arbitrary constant c. An initial condition picks out one particular solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0004",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = 3x\u00b2 \u2212 4 with y(0) = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b3 \u2212 4x \u2212 2",
+    "y = x\u00b3 \u2212 4x + 2",
+    "y = x\u00b3 \u2212 4x",
+    "y = 6x + 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Integrating gives y = x\u00b3 \u2212 4x + c, and y(0) = 2 gives c = 2. Differentiating instead of integrating gives 6x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0005",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A curve has gradient dy/dx = cos(2x) and passes through (0, 1). Its equation is:",
+   "imageRef": null,
+   "options": [
+    "y = sin(2x)/2 + 1",
+    "y = 2 sin(2x) + 1",
+    "y = sin(2x)/2",
+    "y = \u2212sin(2x)/2 + 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = sin(2x)/2 + c, and y(0) = 0 + c = 1 gives c = 1. Multiplying by 2 instead of dividing gives 2 sin(2x) + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0006",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = 1/(x + 1), x > \u22121, with y(0) = 3 is:",
+   "imageRef": null,
+   "options": [
+    "y = ln(x + 1) + 3",
+    "y = ln(x + 1)",
+    "y = \u22121/(x + 1)\u00b2 + 4",
+    "y = ln(x + 1) + 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "y = ln(x + 1) + c, and y(0) = ln 1 + c = c = 3. Differentiating 1/(x + 1) gives the third expression, which is the wrong process.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0007",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = xe^(x\u00b2) with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = (e^(x\u00b2) + 1)/2",
+    "y = x\u00b2e^(x\u00b2)/2",
+    "y = (e^(x\u00b2) \u2212 1)/2",
+    "y = e^(x\u00b2) \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "With u = x\u00b2, the anti-derivative is e^(x\u00b2)/2 + c, and y(0) = 1/2 + c = 0 gives c = \u22121/2. Forgetting the 1/2 from the substitution gives e^(x\u00b2) \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0008",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "To solve a differential equation of the form dy/dx = f(y), a standard first step is to:",
+   "imageRef": null,
+   "options": [
+    "integrate f(y) with respect to x",
+    "differentiate both sides with respect to y",
+    "substitute y = vx and simplify",
+    "write dx/dy = 1/f(y) and integrate with respect to y"
+   ],
+   "correctIndex": 3,
+   "explanation": "Inverting gives dx/dy = 1/f(y), so x = \u222b 1/f(y) dy. Integrating f(y) with respect to x is not possible directly, because y depends on x.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0009",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = 3y with y(0) = 5 is:",
+   "imageRef": null,
+   "options": [
+    "y = 3e^(5x)",
+    "y = e^(3x) + 4",
+    "y = 5e^(x/3)",
+    "y = 5e^(3x)"
+   ],
+   "correctIndex": 3,
+   "explanation": "dx/dy = 1/(3y) gives x = (1/3) ln y + c, so y = Ae^(3x), and y(0) = 5 gives A = 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0010",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = 2 \u2212 y with y(0) = 0 is:",
+   "imageRef": null,
+   "options": [
+    "y = 2e^(\u2212x)",
+    "y = 2 \u2212 e^(\u22122x)",
+    "y = 2 \u2212 2e^(\u2212x)",
+    "y = 2 + 2e^(\u2212x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dx/dy = 1/(2 \u2212 y) gives x = \u2212ln|2 \u2212 y| + c. With y(0) = 0, c = ln 2, so 2 \u2212 y = 2e^(\u2212x) and y = 2 \u2212 2e^(\u2212x). As x \u2192 \u221e, y \u2192 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0011",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = 1 + y\u00b2 with y(0) = 0, for \u2212\u03c0/2 < x < \u03c0/2, is:",
+   "imageRef": null,
+   "options": [
+    "y = tan x",
+    "y = sin x",
+    "y = x + x\u00b3/3",
+    "y = tan\u207b\u00b9 x"
+   ],
+   "correctIndex": 0,
+   "explanation": "dx/dy = 1/(1 + y\u00b2) gives x = tan\u207b\u00b9 y + c, and y(0) = 0 gives c = 0. So y = tan x. The function tan\u207b\u00b9 x is the inverse, not the solution.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0012",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Given dy/dx = y\u00b2 and y = 1 when x = 0, y as a function of x is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(x\u00b2)",
+    "y = y\u00b3/3 + 1",
+    "y = 1/(1 \u2212 x)",
+    "y = 1/(1 + x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "dx/dy = y\u207b\u00b2 gives x = \u22121/y + c, and y(0) = 1 gives c = 1. So \u22121/y = x \u2212 1 and y = 1/(1 \u2212 x). Check: dy/dx = 1/(1 \u2212 x)\u00b2 = y\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0013",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = \u221ay with y(0) = 1, for x \u2265 \u22122, is:",
+   "imageRef": null,
+   "options": [
+    "y = e^(x/2)",
+    "y = (x + 2)\u00b2/4",
+    "y = (x + 1)\u00b2",
+    "y = (x/2 + 1)\u00b3"
+   ],
+   "correctIndex": 1,
+   "explanation": "dx/dy = y^(\u22121/2) gives x = 2\u221ay + c, and y(0) = 1 gives c = \u22122. So \u221ay = (x + 2)/2 and y = (x + 2)\u00b2/4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0014",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The function y = Ae^(\u22122x) + 3, where A is a constant, satisfies which differential equation?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = 3 \u2212 2y",
+    "dy/dx = 2y \u2212 6",
+    "dy/dx = 6 \u2212 2y",
+    "dy/dx = \u22122y"
+   ],
+   "correctIndex": 2,
+   "explanation": "dy/dx = \u22122Ae^(\u22122x) = \u22122(y \u2212 3) = 6 \u2212 2y. The equation dy/dx = \u22122y would need the constant 3 to be 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0015",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A first order differential equation is separable when it can be written in the form:",
+   "imageRef": null,
+   "options": [
+    "g(y) dy/dx = f(x)",
+    "dy/dx = f(x) + g(y)",
+    "dy/dx = f(y/x)",
+    "dy/dx + y = f(x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "In g(y) dy/dx = f(x), the y terms are on one side and the x terms on the other, so \u222b g(y) dy = \u222b f(x) dx. A sum f(x) + g(y) cannot be split this way.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0016",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Given dy/dx = xy and y = 2 when x = 0, y as a function of x is:",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2/2 + 2",
+    "y = e^(x\u00b2/2) + 1",
+    "y = 2e^(x\u00b2/2)",
+    "y = 2e^x"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating, \u222b (1/y) dy = \u222b x dx, so ln y = x\u00b2/2 + c and y = Ae^(x\u00b2/2). y(0) = 2 gives A = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0017",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of x + y dy/dx = 0 with y(0) = 3 satisfies:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + y\u00b2 = 9",
+    "y = 3 \u2212 x",
+    "x\u00b2 \u2212 y\u00b2 = \u22129",
+    "y = 3e^(\u2212x)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating, \u222b y dy = \u2212\u222b x dx, so y\u00b2/2 = \u2212x\u00b2/2 + c, giving x\u00b2 + y\u00b2 = 2c. The point (0, 3) gives 2c = 9, a circle of radius 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0018",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = y cos x with y(0) = 1 is:",
+   "imageRef": null,
+   "options": [
+    "y = sin x + 1",
+    "y = e^(\u2212sin x)",
+    "y = e^(sin x)",
+    "y = e^(cos x)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Separating, ln y = sin x + c, and y(0) = 1 gives c = 0, so y = e^(sin x). The answer e^(cos x) integrates cos x to cos x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0019",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = x/y\u00b2, with y(0) = 1, satisfies:",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b3/3 + 1",
+    "y\u00b3 = 3x\u00b2/2 + 1",
+    "y\u00b2 = x\u00b2 + 1",
+    "y\u00b3 = x\u00b2/2 + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "Separating, \u222b y\u00b2 dy = \u222b x dx, so y\u00b3/3 = x\u00b2/2 + c. y(0) = 1 gives c = 1/3, and multiplying by 3 gives y\u00b3 = 3x\u00b2/2 + 1. Forgetting to multiply x\u00b2/2 by 3 gives y\u00b3 = x\u00b2/2 + 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0020",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Given dy/dx = e^(x \u2212 y) and y = 0 when x = 0, y as a function of x is:",
+   "imageRef": null,
+   "options": [
+    "y = ln(e^x + 1)",
+    "y = \u2212x",
+    "y = x",
+    "y = e^x \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write e^(x \u2212 y) = e\u02e3e^(\u2212y), so \u222b e\u02b8 dy = \u222b e\u02e3 dx and e\u02b8 = e\u02e3 + c. y(0) = 0 gives 1 = 1 + c, so c = 0 and y = x.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0021",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of (1 + x\u00b2) dy/dx = 2xy with y(0) = 3 is:",
+   "imageRef": null,
+   "options": [
+    "y = 3(1 + x\u00b2)",
+    "y = 3 + ln(1 + x\u00b2)",
+    "y = 3e^(x\u00b2)",
+    "y = 3(1 + x\u00b2)\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating, \u222b (1/y) dy = \u222b 2x/(1 + x\u00b2) dx, so ln y = ln(1 + x\u00b2) + c and y = A(1 + x\u00b2). y(0) = 3 gives A = 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0022",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "The solution of dy/dx = y(1 \u2212 y) with y(0) = 1/2 is:",
+   "imageRef": null,
+   "options": [
+    "y = 1/(1 + e^(\u2212x))",
+    "y = 1/(1 + e^x)",
+    "y = e^x/2",
+    "y = 1 \u2212 e^(\u2212x)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using partial fractions, \u222b (1/y + 1/(1 \u2212 y)) dy = \u222b dx gives ln(y/(1 \u2212 y)) = x + c. y(0) = 1/2 gives c = 0, so y/(1 \u2212 y) = e\u02e3 and y = 1/(1 + e^(\u2212x)).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0023",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A homogeneous differential equation dy/dx = f(y/x) is solved by substituting:",
+   "imageRef": null,
+   "options": [
+    "y = v/x, so that dy/dx = dv/dx",
+    "y = vx, so that dy/dx = v + x dv/dx",
+    "y = vx, so that dy/dx = v",
+    "y = v + x, so that dy/dx = 1 + dv/dx"
+   ],
+   "correctIndex": 1,
+   "explanation": "With y = vx, the product rule gives dy/dx = v + x dv/dx, and the equation becomes separable in v and x. Writing dy/dx = v forgets the product rule.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0024",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Which of these differential equations is homogeneous, of the form dy/dx = f(y/x)?",
+   "imageRef": null,
+   "options": [
+    "dy/dx = (x + 1)/y",
+    "dy/dx = xe\u02b8",
+    "dy/dx = (x\u00b2 + y\u00b2)/(xy)",
+    "dy/dx = x + y\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing top and bottom by x\u00b2 gives (1 + (y/x)\u00b2)/(y/x), a function of y/x alone. The others cannot be written in terms of y/x only.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0025",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Substituting y = vx into dy/dx = (x\u00b2 + y\u00b2)/(xy) gives:",
+   "imageRef": null,
+   "options": [
+    "x dv/dx = (1 + v\u00b2)/v",
+    "dv/dx = 1/v",
+    "x dv/dx = 1/v",
+    "x dv/dx = v"
+   ],
+   "correctIndex": 2,
+   "explanation": "The right side becomes (1 + v\u00b2)/v = 1/v + v. Setting v + x dv/dx = 1/v + v gives x dv/dx = 1/v, which is separable.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0026",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "For x > 0, the solution of dy/dx = (x + y)/x with y(1) = 2 is:",
+   "imageRef": null,
+   "options": [
+    "y = x ln x + 2",
+    "y = 2x",
+    "y = x ln x + 2x",
+    "y = ln x + 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "With y = vx, v + x dv/dx = 1 + v, so dv/dx = 1/x and v = ln x + c. Then y = x ln x + cx, and y(1) = c = 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0027",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "For x > 0, the solution of dy/dx = y/x + x/y with y(1) = 1 satisfies:",
+   "imageRef": null,
+   "options": [
+    "y\u00b2 = 2 ln x + 1",
+    "y = x(ln x + 1)",
+    "y\u00b2 = x\u00b2 + 2 ln x",
+    "y\u00b2 = x\u00b2(2 ln x + 1)"
+   ],
+   "correctIndex": 3,
+   "explanation": "With y = vx, x dv/dx = 1/v, so v\u00b2/2 = ln x + c. y(1) = 1 gives v = 1 and c = 1/2, so v\u00b2 = 2 ln x + 1 and y\u00b2 = x\u00b2(2 ln x + 1).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0028",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A quantity N grows at a rate proportional to its size. The differential equation and its solution are:",
+   "imageRef": null,
+   "options": [
+    "dN/dt = kN, with N = N\u2080 + kt",
+    "dN/dt = kN, with N = N\u2080e^(kt)",
+    "dN/dt = kt, with N = kt\u00b2/2 + N\u2080",
+    "dN/dt = k, with N = kt + N\u2080"
+   ],
+   "correctIndex": 1,
+   "explanation": "Proportional to its size means dN/dt = kN, whose solution is exponential, N = N\u2080e^(kt). A constant rate, dN/dt = k, gives linear growth instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0029",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A radioactive substance decays according to dm/dt = \u22120.02m, with t in years. Its half-life, to one decimal place, is:",
+   "imageRef": null,
+   "options": [
+    "50.0 years",
+    "0.3 years",
+    "34.7 years",
+    "25.0 years"
+   ],
+   "correctIndex": 2,
+   "explanation": "m = m\u2080e^(\u22120.02t), and m = m\u2080/2 when e^(\u22120.02t) = 1/2, so t = ln 2/0.02 = 34.7 years. The value 25 years comes from 0.5/0.02, which ignores the logarithm.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0030",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "By Newton's law of cooling, an object at temperature T in surroundings at a constant temperature A cools according to:",
+   "imageRef": null,
+   "options": [
+    "dT/dt = k(T \u2212 A), with k > 0",
+    "dT/dt = \u2212k/(T \u2212 A), with k > 0",
+    "dT/dt = \u2212k(T \u2212 A), with k > 0",
+    "dT/dt = \u2212kT, with k > 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rate of cooling is proportional to the difference between the object's temperature and its surroundings. With T > A this makes dT/dt negative; k(T \u2212 A) would make a hot object heat up, and \u2212kT would cool it towards 0 instead of towards A.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0031",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A cup of tea at 90 \u00b0C cools in a room at 20 \u00b0C according to dT/dt = \u2212k(T \u2212 20). After 10 minutes it is at 55 \u00b0C. Its temperature after 20 minutes is:",
+   "imageRef": null,
+   "options": [
+    "27.5 \u00b0C",
+    "45 \u00b0C",
+    "37.5 \u00b0C",
+    "20 \u00b0C"
+   ],
+   "correctIndex": 2,
+   "explanation": "The solution is T = 20 + 70e^(\u2212kt). At t = 10 the excess 70 has halved to 35, so after another 10 minutes it halves again to 17.5, giving 37.5 \u00b0C. Assuming a linear drop of 35 degrees each 10 minutes gives 20 \u00b0C.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0032",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A population is modelled by the logistic equation dP/dt = 0.2P(1 \u2212 P/400). In the long term, a population starting at 50 approaches:",
+   "imageRef": null,
+   "options": [
+    "200",
+    "50",
+    "400",
+    "80"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rate is zero when P = 400, the carrying capacity, and positive for 0 < P < 400, so P rises towards 400. The value 200 is where the growth rate is greatest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0033",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "For the logistic equation dP/dt = 0.5P(1 \u2212 P/1000), the population grows fastest when P equals:",
+   "imageRef": null,
+   "options": [
+    "500",
+    "1000",
+    "250",
+    "0.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "The rate 0.5P \u2212 0.0005P\u00b2 is a downward parabola in P, with its maximum at P = 500, half the carrying capacity of 1000.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0034",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A rumour spreads through a school of 500 students at a rate proportional to the product of the number N who have heard it and the number who have not. The differential equation is:",
+   "imageRef": null,
+   "options": [
+    "dN/dt = kN + (500 \u2212 N)",
+    "dN/dt = kN(500 \u2212 N)",
+    "dN/dt = kN",
+    "dN/dt = k(500 \u2212 N)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The number who have not heard is 500 \u2212 N, and the rate is proportional to the product, so dN/dt = kN(500 \u2212 N). This is a logistic model.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0035",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "Water drains from a tank so that its depth h metres satisfies dh/dt = \u22120.1\u221ah, with t in minutes. The initial depth is 16 m. The tank is empty after:",
+   "imageRef": null,
+   "options": [
+    "80 minutes",
+    "160 minutes",
+    "40 minutes",
+    "400 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating, \u222b h^(\u22121/2) dh = \u222b \u22120.1 dt gives 2\u221ah = \u22120.1t + c, and h = 16 gives c = 8. So \u221ah = 4 \u2212 0.05t, which is 0 when t = 80.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-differential-equations-0036",
+   "topicId": "spec-tce-differential-equations",
+   "stem": "A boat coasting with its engine off slows according to dv/dt = \u22120.5v, with v(0) = 20 m/s. The time for its speed to fall to 10 m/s is:",
+   "imageRef": null,
+   "options": [
+    "ln 2 seconds",
+    "20 seconds",
+    "0.5 ln 2 seconds",
+    "2 ln 2 seconds"
+   ],
+   "correctIndex": 3,
+   "explanation": "The solution is v = 20e^(\u22120.5t). Setting v = 10 gives e^(\u22120.5t) = 1/2, so t = ln 2/0.5 = 2 ln 2 \u2248 1.39 s. Multiplying by 0.5 instead of dividing gives 0.5 ln 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-differential-equations-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

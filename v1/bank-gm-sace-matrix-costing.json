@@ -1,0 +1,689 @@
+{
+ "topicId": "gm-sace-matrix-costing",
+ "questions": [
+  {
+   "id": "gm-sace-matrix-costing-0001",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A matrix records the stock of 4 products (columns) at 3 shops (rows). What is its order?",
+   "imageRef": null,
+   "options": [
+    "12 \u00d7 1",
+    "7 \u00d7 1",
+    "3 \u00d7 4",
+    "4 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Order is rows \u00d7 columns, so 3 rows and 4 columns gives 3 \u00d7 4. Swapping to 4 \u00d7 3 reverses the convention, and 12 is the number of elements, not the order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0002",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). What does the element in row 2, column 3 of D represent?",
+   "imageRef": null,
+   "options": [
+    "50 rolls delivered to South",
+    "50 pasties delivered to East",
+    "30 pasties delivered to South",
+    "45 rolls delivered to East"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 2 is the South outlet and column 3 is rolls, and that element is 50. Reading column first and row second gives East's pasties, 45.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0003",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Why can a bakery's March and April delivery matrices be added to give the total delivered?",
+   "imageRef": null,
+   "options": [
+    "Any two matrices can be added whatever their order happens to be",
+    "The number of columns of March equals the number of rows of April",
+    "Both matrices are square, and only square matrices can be added",
+    "They have the same order, and matching positions mean the same outlet and item"
+   ],
+   "correctIndex": 3,
+   "explanation": "Matrices are added element by element, so they need the same order and each position must describe the same thing. Columns matching rows is the condition for multiplying, not adding.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0004",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). April's are A with rows (30, 20, 55), (40, 25, 45), (25, 40, 35). Which row of D + A gives the East outlet's total deliveries for the two months?",
+   "imageRef": null,
+   "options": [
+    "(\u22125, 5, 5)",
+    "(115, 95, 75)",
+    "(45, 85, 75)",
+    "(75, 55, 95)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Add matching elements of row 3: (20 + 25, 45 + 40, 40 + 35) = (45, 85, 75). Adding the rolls column instead gives each outlet's rolls, not East's total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0005",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). April's are A with rows (30, 20, 55), (40, 25, 45), (25, 40, 35). In D \u2212 A, what is the element for North's rolls, and what does it mean?",
+   "imageRef": null,
+   "options": [
+    "5: North received 5 more rolls in March",
+    "\u22125: North received 5 more rolls in April",
+    "115: North received 115 rolls over both months",
+    "\u22125: East received 5 fewer pies in March"
+   ],
+   "correctIndex": 0,
+   "explanation": "North's rolls are 60 in March and 55 in April, so D \u2212 A has 60 \u2212 55 = 5 there: 5 more in March. A negative element would mean April was larger.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0006",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "What does multiplying a matrix by the scalar 3 do?",
+   "imageRef": null,
+   "options": [
+    "Triples the number of rows in the matrix",
+    "Multiplies every element by 3",
+    "Multiplies only the first row by 3",
+    "Adds 3 to every element in the matrix"
+   ],
+   "correctIndex": 1,
+   "explanation": "Scalar multiplication multiplies each element by the number, as when every order is tripled. Adding 3 to each element is not a matrix operation called scalar multiplication.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0007",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Deliveries for May are planned to be 20% higher than March for every item. What is the first row (North) of the May matrix?",
+   "imageRef": null,
+   "options": [
+    "(60, 45, 80)",
+    "(8, 5, 12)",
+    "(80, 50, 120)",
+    "(48, 30, 72)"
+   ],
+   "correctIndex": 3,
+   "explanation": "20% higher means multiplying by the scalar 1.2: 1.2 \u00d7 (40, 25, 60) = (48, 30, 72). Multiplying by 0.2 gives only the increase.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0008",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A shop sells 4 weeks of identical stock orders, each recorded as the matrix W. Which expression gives the total stock ordered over the 4 weeks?",
+   "imageRef": null,
+   "options": [
+    "W\u2074",
+    "W \u00d7 W \u00d7 W \u00d7 W",
+    "4W",
+    "W + 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Adding W to itself four times is the scalar product 4W, multiplying every element by 4. W\u2074 would multiply the matrix by itself, which is a different operation and needs a square matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0009",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Mario orders 12 chops and 20 sausages. The costs per item are a row matrix C = (2.50, 1.20) and the quantities a column matrix Q with rows (12), (20). What is CQ?",
+   "imageRef": null,
+   "options": [
+    "($24)",
+    "($54)",
+    "($64.40)",
+    "($30)"
+   ],
+   "correctIndex": 1,
+   "explanation": "CQ = 2.50 \u00d7 12 + 1.20 \u00d7 20 = 30 + 24 = $54, a 1 \u00d7 1 matrix: the labels chops and sausages match up and disappear. Pairing 2.50 with 20 and 1.20 with 12 gives $64.40, and $30 is the chops alone.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0010",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "With costs as a 1 \u00d7 2 row matrix C and quantities as a 2 \u00d7 1 column matrix Q, why does QC not give Mario's total cost?",
+   "imageRef": null,
+   "options": [
+    "QC gives the total cost but with the signs reversed",
+    "QC is a 2 \u00d7 2 matrix of single products, not one sum",
+    "QC is not defined because the orders do not match",
+    "QC gives the same total, so either order works"
+   ],
+   "correctIndex": 1,
+   "explanation": "A 2 \u00d7 1 times a 1 \u00d7 2 gives a 2 \u00d7 2 matrix whose elements are single products like 12 \u00d7 2.50, with no adding up. Only CQ pairs each cost with its quantity and sums them into a 1 \u00d7 1 total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0011",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A 1 \u00d7 3 row matrix is multiplied by a 3 \u00d7 1 column matrix. What is the order of the product?",
+   "imageRef": null,
+   "options": [
+    "1 \u00d7 3",
+    "3 \u00d7 1",
+    "1 \u00d7 1",
+    "3 \u00d7 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inner numbers (3 and 3) match, so the product is defined, and the outer numbers give its order: 1 \u00d7 1, a single total. Reversing the order would give 3 \u00d7 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0012",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Matrix P has order 1 \u00d7 4 and matrix Q has order 4 \u00d7 3. What is the order of PQ, and is QP defined?",
+   "imageRef": null,
+   "options": [
+    "PQ is not defined; QP is 4 \u00d7 1",
+    "PQ is 1 \u00d7 3; QP is not defined",
+    "PQ is 4 \u00d7 4; QP is 1 \u00d7 3",
+    "PQ is 1 \u00d7 3; QP is 4 \u00d7 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "For PQ the inner numbers 4 and 4 match, giving a 1 \u00d7 3 product. For QP the inner numbers are 3 and 1, which do not match, so QP is not defined.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0013",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Pies sell for $5.50, pasties for $6 and rolls for $4.50. What is the value of North's March delivery?",
+   "imageRef": null,
+   "options": [
+    "$692.50",
+    "$666.67",
+    "$640",
+    "$597.50"
+   ],
+   "correctIndex": 2,
+   "explanation": "Row \u00d7 column: 40 \u00d7 5.50 + 25 \u00d7 6 + 60 \u00d7 4.50 = 220 + 150 + 270 = $640. Pairing pasties with $4.50 and rolls with $6 gives $692.50.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0014",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). With prices in a column matrix P with rows (5.50), (6), (4.50), what is DP?",
+   "imageRef": null,
+   "options": [
+    "It is not defined, as D is 3 \u00d7 3 and P is 3 \u00d7 1",
+    "A column matrix with rows ($640, $597.50, $560)",
+    "A row matrix ($522.50, $600, $675)",
+    "A column matrix with rows ($687.50, $690, $472.50)"
+   ],
+   "correctIndex": 1,
+   "explanation": "D (3 \u00d7 3) times P (3 \u00d7 1) gives a 3 \u00d7 1 column of each outlet's delivery value: North $640, South $597.50, East $560. The product is defined because D has 3 columns and P has 3 rows. The row of item values would come from adding the columns first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0015",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). What does the product (1, 1, 1) \u00d7 D give?",
+   "imageRef": null,
+   "options": [
+    "A 3 \u00d7 3 matrix equal to D",
+    "(95, 100, 150), the total of each item",
+    "(125, 115, 105), the total for each outlet",
+    "(40, 25, 60), the North outlet's row"
+   ],
+   "correctIndex": 1,
+   "explanation": "A row of 1s on the left adds the elements in each column: pies 40 + 35 + 20 = 95, pasties 100, rolls 150. A column of 1s on the right would sum the rows instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0016",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Which product gives the total number of items delivered to each outlet?",
+   "imageRef": null,
+   "options": [
+    "A row of three 1s \u00d7 D, giving (125, 115, 105)",
+    "D \u00d7 a column of three 1s, giving (95, 100, 150)",
+    "A row of three 1s \u00d7 D, giving (345)",
+    "D \u00d7 a column of three 1s, giving (125, 115, 105)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying on the right by a column of 1s sums each row: North 40 + 25 + 60 = 125, South 115, East 105. A row of 1s on the left sums the columns, giving item totals.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0017",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Prices are a column matrix P with rows (5.50), (6), (4.50). Which product gives the value of all of March's deliveries, and what is it?",
+   "imageRef": null,
+   "options": [
+    "D \u00d7 (1, 1, 1) \u00d7 P = $5392.50",
+    "(1, 1, 1) \u00d7 D \u00d7 P = $1797.50",
+    "D \u00d7 P \u00d7 (1, 1, 1) = $1797.50",
+    "(1, 1, 1) \u00d7 D \u00d7 P = $1237.50"
+   ],
+   "correctIndex": 1,
+   "explanation": "DP gives each outlet's value ($640, $597.50, $560); the row of 1s on the left adds them: $1797.50. DP \u00d7 (1, 1, 1) would be a 3 \u00d7 3 matrix, not a total.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0018",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Matrix X has rows (2, 3) and (1, 4). Matrix Y has rows (5, 1) and (2, 6). What is the element in row 2, column 1 of XY?",
+   "imageRef": null,
+   "options": [
+    "13",
+    "20",
+    "9",
+    "26"
+   ],
+   "correctIndex": 0,
+   "explanation": "Row 2 of X times column 1 of Y: 1 \u00d7 5 + 4 \u00d7 2 = 13. Using row 2 of Y instead of column 1 gives 1 \u00d7 5 + 4 \u00d7 1 = 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0019",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Matrix X has rows (2, 3) and (1, 4). Matrix Y has rows (5, 1) and (2, 6). What is XY?",
+   "imageRef": null,
+   "options": [
+    "Rows (16, 20), (13, 25)",
+    "Rows (10, 3), (2, 24)",
+    "Rows (11, 19), (10, 30)",
+    "Rows (7, 4), (3, 10)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each element is a row of X times a column of Y: (2 \u00d7 5 + 3 \u00d7 2, 2 \u00d7 1 + 3 \u00d7 6) = (16, 20) and (1 \u00d7 5 + 4 \u00d7 2, 1 \u00d7 1 + 4 \u00d7 6) = (13, 25). Multiplying matching elements gives (10, 3), (2, 24), which is not matrix multiplication, and YX gives a different answer.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0020",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). The bakery's cost price per item is (3.20, 3.50, 2.10) and its selling price is (5.50, 6, 4.50), both as column matrices. If every item delivered in March is sold, what is the profit at the South outlet?",
+   "imageRef": null,
+   "options": [
+    "$275.50",
+    "$597.50",
+    "$298.50",
+    "$277.50"
+   ],
+   "correctIndex": 0,
+   "explanation": "Profit per item = selling \u2212 cost = (2.30, 2.50, 2.40). South: 35 \u00d7 2.30 + 30 \u00d7 2.50 + 50 \u00d7 2.40 = 80.50 + 75 + 120 = $275.50. $597.50 is South's revenue, before costs.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0021",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A shop's opening stock of pies, pasties and rolls is (60, 40, 80). During the week it sells (45, 32, 70) and receives a delivery of (30, 20, 40). What is the closing stock?",
+   "imageRef": null,
+   "options": [
+    "(15, 8, 10)",
+    "(135, 92, 190)",
+    "(45, 28, 50)",
+    "(75, 52, 110)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Closing stock = opening \u2212 sales + delivery = (60 \u2212 45 + 30, 40 \u2212 32 + 20, 80 \u2212 70 + 40) = (45, 28, 50). Forgetting the delivery leaves (15, 8, 10).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0022",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Two hardware shops order paint, brushes and rollers. Order matrix Q has rows (10, 6, 8) for Shop 1 and (4, 12, 5) for Shop 2. Price matrix R (items by supplier) has rows (42, 45), (8, 7) and (15, 14) for Suppliers 1 and 2. What does QR show for Shop 1?",
+   "imageRef": null,
+   "options": [
+    "$604 from Supplier 1 and $588 from Supplier 2",
+    "$1192 in total across both suppliers",
+    "$588 from Supplier 1 and $604 from Supplier 2",
+    "$588 from Supplier 1 and $339 from Supplier 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "QR is 2 \u00d7 2: shops by suppliers. Shop 1 with Supplier 1: 10 \u00d7 42 + 6 \u00d7 8 + 8 \u00d7 15 = $588; with Supplier 2: 10 \u00d7 45 + 6 \u00d7 7 + 8 \u00d7 14 = $604. So Supplier 1 is cheaper for Shop 1. Adding the two makes no sense, as the shop buys from one supplier.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0023",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Order matrix Q has rows (10, 6, 8) for Shop 1 and (4, 12, 5) for Shop 2 (paint, brushes, rollers). Price matrix R has rows (42, 45), (8, 7) and (15, 14) for Suppliers 1 and 2. Which supplier is cheaper for Shop 2, and by how much?",
+   "imageRef": null,
+   "options": [
+    "Supplier 1, by $16",
+    "Neither, as both suppliers cost the same",
+    "Supplier 2, by $5",
+    "Supplier 1, by $5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Shop 2: Supplier 1 costs 4 \u00d7 42 + 12 \u00d7 8 + 5 \u00d7 15 = $339; Supplier 2 costs 4 \u00d7 45 + 12 \u00d7 7 + 5 \u00d7 14 = $334. Supplier 2 is cheaper by $5. Shop 2 buys many brushes, which are cheaper from Supplier 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0024",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Prices are written as a row matrix R = (5.50, 6, 4.50). Which product gives each outlet's delivery value?",
+   "imageRef": null,
+   "options": [
+    "D times R, as written",
+    "D plus R, element by element",
+    "R times D with its rows and columns swapped",
+    "R times D, as written"
+   ],
+   "correctIndex": 2,
+   "explanation": "R is 1 \u00d7 3. R \u00d7 D would pair prices with outlets down each column, which mixes items. Swapping D's rows and columns makes its columns the outlets, so R times that matrix gives a 1 \u00d7 3 row of outlet values. D \u00d7 R is not defined, since D has 3 columns and R has 1 row.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0025",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A matrix D is 3 \u00d7 3 and a price matrix is a row matrix of order 1 \u00d7 3. Which of these products is NOT defined?",
+   "imageRef": null,
+   "options": [
+    "The row matrix multiplied by 3 times D",
+    "D multiplied by the row matrix",
+    "The row matrix multiplied by D",
+    "D multiplied by D"
+   ],
+   "correctIndex": 1,
+   "explanation": "D times a 1 \u00d7 3 matrix needs D's 3 columns to match 1 row, which fails. The row matrix times D (1 \u00d7 3 times 3 \u00d7 3) works, as do D \u00d7 D and the row matrix times 3D.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0026",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "How is information organised in a matrix used for stock records?",
+   "imageRef": null,
+   "options": [
+    "In a table where rows and columns can be mixed",
+    "In labelled rows and columns, one category for each",
+    "As a single list of numbers in order of size",
+    "As a network of points joined by arrows"
+   ],
+   "correctIndex": 1,
+   "explanation": "A stock matrix is a rectangular array whose rows and columns each have a fixed meaning, such as outlets and items. That fixed labelling is what lets matrices be added and multiplied meaningfully.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0027",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Compared with working out each outlet's cost separately, what is an advantage of using matrices for a large costing problem?",
+   "imageRef": null,
+   "options": [
+    "One product calculates every outlet's cost at once with technology",
+    "Matrices give exact answers where ordinary arithmetic cannot",
+    "Matrices remove the need to know any prices for the items",
+    "Matrices work only when there are exactly three items"
+   ],
+   "correctIndex": 0,
+   "explanation": "A single matrix product, done with technology, performs all the row-by-column sums together, and the matrices can be updated easily. The arithmetic itself is the same multiplication and addition, so the answers are no more exact.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0028",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A caf\u00e9's price matrix assumes every item sells at a fixed price. Which is a limitation of the matrix costing model?",
+   "imageRef": null,
+   "options": [
+    "It cannot easily allow for discounts that change with quantity",
+    "It cannot handle more than two items at a time",
+    "It only works when all prices are whole dollars",
+    "It needs every outlet to stock the same amounts"
+   ],
+   "correctIndex": 0,
+   "explanation": "The model multiplies each quantity by one fixed price, so bulk discounts or changing prices need extra adjustment. Matrices handle any number of items, any prices and different amounts at each outlet.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0029",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Matrix J has rows (3, 0, 2) and (1, 4, 5). Matrix K has rows (2, 1, 1) and (0, 3, 2). What is 2J \u2212 K?",
+   "imageRef": null,
+   "options": [
+    "Rows (4, \u22121, 3), (2, 5, 8)",
+    "Rows (2, \u22122, 2), (2, 2, 6)",
+    "Rows (1, \u22121, 1), (1, 1, 3)",
+    "Rows (8, 1, 5), (2, 11, 12)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Double each element of J, then subtract K element by element: (6 \u2212 2, 0 \u2212 1, 4 \u2212 1) = (4, \u22121, 3) and (2 \u2212 0, 8 \u2212 3, 10 \u2212 2) = (2, 5, 8). Doubling J \u2212 K would double K's elements too.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0030",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Which pair of matrices can be subtracted?",
+   "imageRef": null,
+   "options": [
+    "A 2 \u00d7 2 matrix and a 2 \u00d7 3 matrix",
+    "A 2 \u00d7 3 matrix and another 2 \u00d7 3 matrix",
+    "A 2 \u00d7 3 matrix and a 3 \u00d7 2 matrix",
+    "A 3 \u00d7 1 matrix and a 1 \u00d7 3 matrix"
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtraction, like addition, works element by element, so the orders must be identical. A 2 \u00d7 3 and a 3 \u00d7 2 have the same number of elements but different shapes.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0031",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "What is a row matrix?",
+   "imageRef": null,
+   "options": [
+    "A matrix whose rows all add to 1",
+    "A matrix with exactly one row",
+    "A matrix with exactly one column",
+    "A matrix with equal numbers of rows and columns"
+   ],
+   "correctIndex": 1,
+   "explanation": "A row matrix has order 1 \u00d7 n, such as a list of prices (5.50, 6, 4.50). A matrix with one column is a column matrix, and equal numbers of rows and columns make a square matrix.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0032",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "The two-month delivery total is matrix T and March's deliveries are D. Which expression gives April's deliveries?",
+   "imageRef": null,
+   "options": [
+    "T \u2212 D",
+    "D \u2212 T",
+    "T + D",
+    "2T \u2212 D"
+   ],
+   "correctIndex": 0,
+   "explanation": "T = D + April, so April = T \u2212 D, subtracting element by element. D \u2212 T gives the same numbers with every sign reversed.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0033",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "Matrix G has rows (4, 0, 2) and (1, 3, 5). Column matrix H has rows (2), (6) and (1). What is GH?",
+   "imageRef": null,
+   "options": [
+    "A row (14, 18, 34)",
+    "It is not defined, as G and H differ in order",
+    "A column with rows (10, 25)",
+    "A column with rows (11, 20)"
+   ],
+   "correctIndex": 2,
+   "explanation": "G is 2 \u00d7 3 and H is 3 \u00d7 1, so GH is 2 \u00d7 1: 4 \u00d7 2 + 0 \u00d7 6 + 2 \u00d7 1 = 10 and 1 \u00d7 2 + 3 \u00d7 6 + 5 \u00d7 1 = 25. The orders need not be equal, only G's columns and H's rows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0034",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A canteen's sales of sandwiches and juices on Monday, Tuesday and Wednesday are the rows (30, 45), (25, 50) and (40, 35). Sandwiches cost $6.50 and juices $3. Using a price column matrix, what was Tuesday's revenue?",
+   "imageRef": null,
+   "options": [
+    "$330",
+    "$400",
+    "$356.25",
+    "$312.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "Tuesday's row times the price column: 25 \u00d7 6.50 + 50 \u00d7 3 = 162.50 + 150 = $312.50. Swapping the prices gives $400.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0035",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A canteen's sales of sandwiches and juices on Monday, Tuesday and Wednesday are the rows (30, 45), (25, 50) and (40, 35). Sandwiches cost $6.50 and juices $3. What is the total revenue for the three days, found as (1, 1, 1) \u00d7 sales \u00d7 prices?",
+   "imageRef": null,
+   "options": [
+    "$642.50",
+    "$2137.50",
+    "$990",
+    "$1007.50"
+   ],
+   "correctIndex": 3,
+   "explanation": "Daily revenues are $330, $312.50 and $365; the row of 1s adds them to $1007.50. Multiplying all 225 items by $9.50 counts each item at both prices.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-sace-matrix-costing-0036",
+   "topicId": "gm-sace-matrix-costing",
+   "stem": "A bakery's March deliveries to its North, South and East outlets (rows) of pies, pasties and rolls (columns) are D with rows (40, 25, 60), (35, 30, 50), (20, 45, 40). Prices of (5.50, 6, 4.50) all rise by 10%. What is the new value of North's March delivery?",
+   "imageRef": null,
+   "options": [
+    "$640.30",
+    "$64",
+    "$704",
+    "$650"
+   ],
+   "correctIndex": 2,
+   "explanation": "The new price column is 1.1P, so D(1.1P) = 1.1(DP). North's value rises from $640 to 1.1 \u00d7 640 = $704. $64 is only the increase.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-sace-matrix-costing-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

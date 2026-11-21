@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-qce-forces-dynamics",
+ "questions": [
+  {
+   "id": "spec-qce-forces-dynamics-0001",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A car of mass 1500 kg travels at 20 m/s. The magnitude of its momentum is:",
+   "imageRef": null,
+   "options": [
+    "75 kg m/s",
+    "30 000 kg m/s",
+    "300 000 kg m/s",
+    "1520 kg m/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "Momentum is mass times velocity: p = mv = 1500 \u00d7 20 = 30 000 kg m/s. Dividing the mass by the speed gives 75, which is not a physical quantity here.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0002",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "In terms of momentum p, Newton's second law states that the resultant force on a body equals:",
+   "imageRef": null,
+   "options": [
+    "the rate of change of its momentum, dp/dt",
+    "its momentum p multiplied by its speed",
+    "the change in its momentum, whatever the time taken",
+    "its momentum p divided by its mass"
+   ],
+   "correctIndex": 0,
+   "explanation": "Resultant force is the rate of change of momentum, F = dp/dt. For constant mass this is m dv/dt = ma. A change in momentum alone is the force multiplied by the time it acts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0003",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A resultant force of 12 N acts on a 4 kg body. The magnitude of its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "48 m/s\u00b2",
+    "16 m/s\u00b2",
+    "8 m/s\u00b2",
+    "3 m/s\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "From F = ma, a = F/m = 12/4 = 3 m/s\u00b2. Multiplying force by mass gives 48, which inverts the relationship.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0004",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body of mass 5 kg rests on a table. Taking g = 9.8 m/s\u00b2, its weight is:",
+   "imageRef": null,
+   "options": [
+    "0.49 N",
+    "49 N",
+    "5 N",
+    "9.8 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "Weight is the gravitational force W = mg = 5 \u00d7 9.8 = 49 N, acting downwards. The mass of 5 kg is not itself a force.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0005",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A book rests on a table. By Newton's third law, the reaction to the Earth's gravitational pull on the book is:",
+   "imageRef": null,
+   "options": [
+    "the book's gravitational pull on the Earth",
+    "the table's upward push on the book",
+    "the book's downward push on the table",
+    "the Earth's upward push on the table"
+   ],
+   "correctIndex": 0,
+   "explanation": "An action-reaction pair acts on two different bodies and is of the same type. The Earth pulls the book, so the book pulls the Earth equally and oppositely. The table's upward push on the book is equal to the weight here, but it acts on the same body, so it is not the reaction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0006",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A 2 kg trolley moving at 3 m/s collides with a stationary 1 kg trolley, and they move off together. Their common speed is:",
+   "imageRef": null,
+   "options": [
+    "3 m/s",
+    "1.5 m/s",
+    "1 m/s",
+    "2 m/s"
+   ],
+   "correctIndex": 3,
+   "explanation": "The forces between the trolleys are an action-reaction pair, so total momentum is conserved: 2 \u00d7 3 = (2 + 1)v, giving v = 2 m/s. Keeping the speed at 3 m/s ignores the added mass.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0007",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A constant force of 20 N acts for 3 s on a 5 kg body initially at rest. Its speed after 3 s is:",
+   "imageRef": null,
+   "options": [
+    "60 m/s",
+    "0.75 m/s",
+    "12 m/s",
+    "4 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "The change in momentum is the force times the time: 20 \u00d7 3 = 60 kg m/s = 5v, so v = 12 m/s. Equivalently, a = 20/5 = 4 m/s\u00b2 and v = 4 \u00d7 3 = 12 m/s. The value 4 m/s is the acceleration, not the speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0008",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "Forces of 5 N due east and 12 N due north act on a 2 kg body. The magnitude of its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "8.5 m/s\u00b2",
+    "13 m/s\u00b2",
+    "3.5 m/s\u00b2",
+    "6.5 m/s\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The resultant has magnitude \u221a(5\u00b2 + 12\u00b2) = 13 N, so a = 13/2 = 6.5 m/s\u00b2. Adding the magnitudes to 17 N gives 8.5 m/s\u00b2, but forces at right angles add as vectors.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0009",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "Forces 6i + 2j N and \u22122i + j N act on a body of mass 2 kg. The magnitude of its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "1.25 m/s\u00b2",
+    "2.5 m/s\u00b2",
+    "5 m/s\u00b2",
+    "3.5 m/s\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The resultant is 4i + 3j N, with magnitude 5 N, so a = 5/2 = 2.5 m/s\u00b2. The value 5 m/s\u00b2 forgets to divide by the mass.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0010",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "Forces 2i + 3j, \u2212i + j and 4i \u2212 2j newtons act on a particle of mass 0.5 kg. Its acceleration vector, in m/s\u00b2, is:",
+   "imageRef": null,
+   "options": [
+    "5i + 2j",
+    "14i + 12j",
+    "10i + 4j",
+    "2.5i + j"
+   ],
+   "correctIndex": 2,
+   "explanation": "The resultant force is (2 \u2212 1 + 4)i + (3 + 1 \u2212 2)j = 5i + 2j N, and a = F/m = (5i + 2j)/0.5 = 10i + 4j m/s\u00b2. Multiplying by 0.5 instead of dividing gives 2.5i + j.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0011",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A person of mass 60 kg stands in a lift accelerating upwards at 2 m/s\u00b2. Taking g = 9.8 m/s\u00b2, the normal force of the floor on the person is:",
+   "imageRef": null,
+   "options": [
+    "588 N",
+    "468 N",
+    "120 N",
+    "708 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "Taking up as positive, R \u2212 mg = ma, so R = m(g + a) = 60 \u00d7 11.8 = 708 N. The value 588 N is the weight, which would be the normal force only if the lift were not accelerating.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0012",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body slides down a smooth plane inclined at angle \u03b8 to the horizontal. The magnitude of its acceleration is:",
+   "imageRef": null,
+   "options": [
+    "g",
+    "g sin \u03b8",
+    "g cos \u03b8",
+    "g tan \u03b8"
+   ],
+   "correctIndex": 1,
+   "explanation": "The only force along a smooth plane is the component of the weight, mg sin \u03b8, so a = g sin \u03b8. The component mg cos \u03b8 acts perpendicular to the plane and is balanced by the normal reaction.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0013",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body of mass m is on a smooth plane inclined at angle \u03b8. The normal reaction of the plane on the body has magnitude:",
+   "imageRef": null,
+   "options": [
+    "mg",
+    "mg tan \u03b8",
+    "mg cos \u03b8",
+    "mg sin \u03b8"
+   ],
+   "correctIndex": 2,
+   "explanation": "There is no acceleration perpendicular to the plane, so the normal reaction balances the perpendicular component of the weight, mg cos \u03b8. The component mg sin \u03b8 acts down the slope.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0014",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body is released from rest on a smooth plane inclined at 30\u00b0. Taking g = 9.8 m/s\u00b2, its acceleration down the plane is:",
+   "imageRef": null,
+   "options": [
+    "8.5 m/s\u00b2",
+    "9.8 m/s\u00b2",
+    "5.7 m/s\u00b2",
+    "4.9 m/s\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "a = g sin 30\u00b0 = 9.8 \u00d7 0.5 = 4.9 m/s\u00b2. Using cos 30\u00b0 gives about 8.5 m/s\u00b2, which is the perpendicular component.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0015",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A 4 kg block is pulled up a smooth plane inclined at 30\u00b0 by a force of 30 N parallel to the plane. Taking g = 9.8 m/s\u00b2, its acceleration up the plane is:",
+   "imageRef": null,
+   "options": [
+    "12.4 m/s\u00b2",
+    "2.6 m/s\u00b2",
+    "7.5 m/s\u00b2",
+    "4.9 m/s\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Along the plane, the resultant force is 30 \u2212 4 \u00d7 9.8 \u00d7 sin 30\u00b0 = 30 \u2212 19.6 = 10.4 N, so a = 10.4/4 = 2.6 m/s\u00b2. Ignoring the weight component gives 30/4 = 7.5 m/s\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0016",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body is released from rest on a smooth plane inclined at angle \u03b8, where sin \u03b8 = 0.6. Taking g = 9.8 m/s\u00b2, its speed after sliding 10 m is about:",
+   "imageRef": null,
+   "options": [
+    "10.8 m/s",
+    "14.0 m/s",
+    "7.7 m/s",
+    "9.7 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "a = 9.8 \u00d7 0.6 = 5.88 m/s\u00b2, and v\u00b2 = u\u00b2 + 2as = 0 + 2 \u00d7 5.88 \u00d7 10 = 117.6, so v \u2248 10.8 m/s. Using the full g gives \u221a196 = 14.0 m/s, as if the body fell vertically.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0017",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle is projected up a smooth plane inclined at 30\u00b0 with speed 8 m/s. Taking g = 9.8 m/s\u00b2, the distance it travels up the plane before coming to rest is about:",
+   "imageRef": null,
+   "options": [
+    "0.8 m",
+    "6.5 m",
+    "3.3 m",
+    "13.1 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The acceleration is \u2212g sin 30\u00b0 = \u22124.9 m/s\u00b2, and v\u00b2 = u\u00b2 + 2as gives 0 = 64 \u2212 9.8s, so s \u2248 6.5 m. Forgetting the factor 2 in 2as gives about 13.1 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0018",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A horizontal force of 20 N pushes a 2 kg block up a smooth plane inclined at 30\u00b0. Taking g = 9.8 m/s\u00b2, the block's acceleration up the plane is about:",
+   "imageRef": null,
+   "options": [
+    "5.10 m/s\u00b2",
+    "0.10 m/s\u00b2",
+    "8.66 m/s\u00b2",
+    "3.76 m/s\u00b2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The component of the push along the plane is 20 cos 30\u00b0 \u2248 17.32 N, and the weight component down the plane is 2 \u00d7 9.8 \u00d7 sin 30\u00b0 = 9.8 N. So a = (17.32 \u2212 9.8)/2 \u2248 3.76 m/s\u00b2. Using 20 sin 30\u00b0 = 10 N for the push gives 0.10 m/s\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0019",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "For a particle moving in a straight line with velocity v and position x, which expression is equal to its acceleration?",
+   "imageRef": null,
+   "options": [
+    "v (dv/dx)",
+    "x (dv/dx)",
+    "dv/dx",
+    "v (dx/dt)"
+   ],
+   "correctIndex": 0,
+   "explanation": "By the chain rule, dv/dt = (dv/dx)(dx/dt) = v (dv/dx). It also equals d\u00b2x/dt\u00b2 and d/dx (v\u00b2/2). The derivative dv/dx alone is not an acceleration.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0020",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle moving in a straight line has acceleration a = 2x m/s\u00b2, and its velocity is 1 m/s at x = 0. Its speed when x = 2 m is:",
+   "imageRef": null,
+   "options": [
+    "5 m/s",
+    "2 m/s",
+    "3 m/s",
+    "\u221a5 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "Use a = d/dx (v\u00b2/2): v\u00b2/2 = x\u00b2 + c, and v = 1 at x = 0 gives c = 1/2. So v\u00b2 = 2x\u00b2 + 1 = 9 at x = 2, and v = 3 m/s. Writing v\u00b2 = x\u00b2 + 1, without doubling the x\u00b2 term, gives \u221a5 m/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0021",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle has acceleration a = 6x\u00b2 m/s\u00b2, and v = 0 when x = 0. Its speed when x = 1 m is:",
+   "imageRef": null,
+   "options": [
+    "4 m/s",
+    "\u221a6 m/s",
+    "2 m/s",
+    "\u221a2 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "d/dx (v\u00b2/2) = 6x\u00b2, so v\u00b2/2 = 2x\u00b3 + c with c = 0. Then v\u00b2 = 4x\u00b3 = 4 at x = 1, giving v = 2 m/s. Writing v\u00b2 = 2x\u00b3 forgets the factor 1/2 on the left.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0022",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A non-constant force F = 6t newtons acts on a 2 kg body that starts from rest. Its speed after 2 s is:",
+   "imageRef": null,
+   "options": [
+    "3 m/s",
+    "24 m/s",
+    "6 m/s",
+    "12 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = F/m = 3t, so v = \u222b 3t dt = 1.5t\u00b2 with v(0) = 0. At t = 2, v = 6 m/s. Using a = 6t gives 12 m/s, forgetting to divide by the mass.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0023",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A boat of mass 200 kg has an engine force of 600 N and a resistance of 20v newtons, where v m/s is its speed. Its maximum (terminal) speed is:",
+   "imageRef": null,
+   "options": [
+    "120 m/s",
+    "10 m/s",
+    "30 m/s",
+    "3 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "200 dv/dt = 600 \u2212 20v, and the speed stops increasing when dv/dt = 0, at 600 = 20v, so v = 30 m/s. The value 3 m/s is 600/200, the initial acceleration in m/s\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0024",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle moves so that d\u00b2x/dt\u00b2 = \u22129x. The period of the motion is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/3",
+    "2\u03c0/3",
+    "2\u03c0/9",
+    "6\u03c0"
+   ],
+   "correctIndex": 1,
+   "explanation": "This is simple harmonic motion with \u03c9\u00b2 = 9, so \u03c9 = 3 and T = 2\u03c0/\u03c9 = 2\u03c0/3. Using \u03c9 = 9 gives 2\u03c0/9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0025",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle moves in simple harmonic motion with d\u00b2x/dt\u00b2 = \u22124x and amplitude 5 m. Its speed when x = 3 m is:",
+   "imageRef": null,
+   "options": [
+    "16 m/s",
+    "2 m/s",
+    "8 m/s",
+    "4 m/s"
+   ],
+   "correctIndex": 2,
+   "explanation": "v\u00b2 = \u03c9\u00b2(A\u00b2 \u2212 x\u00b2) = 4(25 \u2212 9) = 64, so v = 8 m/s. Using v = \u03c9(A \u2212 x) = 2 \u00d7 2 gives 4 m/s, but the relation involves the squares of A and x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0026",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle moves so that x = 3 cos(2t) metres. Its maximum acceleration is:",
+   "imageRef": null,
+   "options": [
+    "3 m/s\u00b2",
+    "36 m/s\u00b2",
+    "12 m/s\u00b2",
+    "6 m/s\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "d\u00b2x/dt\u00b2 = \u221212 cos(2t) = \u22124x, so the greatest magnitude is \u03c9\u00b2A = 4 \u00d7 3 = 12 m/s\u00b2. The value 6 is the maximum speed \u03c9A, in m/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0027",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle moves so that d\u00b2x/dt\u00b2 = \u221216x and is released from rest at x = 2 m. The time it takes to first reach the origin is:",
+   "imageRef": null,
+   "options": [
+    "\u03c0/8 s",
+    "\u03c0/4 s",
+    "\u03c0/2 s",
+    "\u03c0/16 s"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03c9 = 4, so x = 2 cos(4t). It first reaches x = 0 when 4t = \u03c0/2, that is t = \u03c0/8 s, which is a quarter of the period 2\u03c0/4 = \u03c0/2 s. Half a period, \u03c0/4 s, takes it to the other end, x = \u22122.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0028",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A ball is thrown vertically upwards at 19.6 m/s. Ignoring air resistance and taking g = 9.8 m/s\u00b2, its maximum height is:",
+   "imageRef": null,
+   "options": [
+    "9.8 m",
+    "2 m",
+    "19.6 m",
+    "39.2 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the top v = 0, so 0 = u\u00b2 \u2212 2gh gives h = 19.6\u00b2/(2 \u00d7 9.8) = 19.6 m. The ball takes 2 s to get there, which is the time, not the height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0029",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A ball is thrown vertically upwards at 19.6 m/s. Ignoring air resistance and taking g = 9.8 m/s\u00b2, it returns to its starting point after:",
+   "imageRef": null,
+   "options": [
+    "2 s",
+    "1 s",
+    "8 s",
+    "4 s"
+   ],
+   "correctIndex": 3,
+   "explanation": "x = 19.6t \u2212 4.9t\u00b2 = 0 when t = 0 or t = 4 s. Without air resistance the motion is symmetric, so the 2 s up is followed by 2 s down. The value 2 s is only the time to the top.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0030",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body of mass m is projected vertically upwards, with air resistance kv, where v is its speed. Taking upwards as positive, its equation of motion while rising is:",
+   "imageRef": null,
+   "options": [
+    "m dv/dt = mg \u2212 kv",
+    "m dv/dt = \u2212kv",
+    "m dv/dt = \u2212mg \u2212 kv",
+    "m dv/dt = \u2212mg + kv"
+   ],
+   "correctIndex": 2,
+   "explanation": "While the body rises, both gravity and air resistance act downwards, opposing the upward motion. So the resultant force is \u2212mg \u2212 kv. Taking + kv would have air resistance helping the body upwards.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0031",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A 2 kg body falls from rest, with air resistance 0.5v newtons, where v is its speed. Taking g = 9.8 m/s\u00b2, its terminal velocity is:",
+   "imageRef": null,
+   "options": [
+    "39.2 m/s",
+    "9.8 m/s",
+    "4.9 m/s",
+    "19.6 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "2 dv/dt = 19.6 \u2212 0.5v. Terminal velocity is reached when dv/dt = 0: 0.5v = 19.6, so v = 39.2 m/s. Forgetting the mass in mg gives 9.8/0.5 = 19.6 m/s.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0032",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A 0.1 kg body falls with air resistance 0.004v\u00b2 newtons. Taking g = 9.8 m/s\u00b2, its terminal velocity is about:",
+   "imageRef": null,
+   "options": [
+    "15.7 m/s",
+    "245 m/s",
+    "24.5 m/s",
+    "49.5 m/s"
+   ],
+   "correctIndex": 0,
+   "explanation": "At terminal velocity mg = 0.004v\u00b2, so v\u00b2 = 0.98/0.004 = 245 and v \u2248 15.7 m/s. The value 245 is v\u00b2, not v.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0033",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A body falling from rest has dv/dt = 9.8 \u2212 0.2v. Its velocity at time t is:",
+   "imageRef": null,
+   "options": [
+    "v = 49(1 \u2212 e^(\u22120.2t))",
+    "v = 49e^(\u22120.2t)",
+    "v = 9.8(1 \u2212 e^(\u22120.2t))",
+    "v = 49(1 + e^(\u22120.2t))"
+   ],
+   "correctIndex": 0,
+   "explanation": "Separating: \u222b 1/(9.8 \u2212 0.2v) dv = \u222b dt gives v = 49 + Ae^(\u22120.2t), and v(0) = 0 gives A = \u221249. So v = 49(1 \u2212 e^(\u22120.2t)), which approaches the terminal velocity 49 m/s. The form 49e^(\u22120.2t) starts at 49 instead of 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0034",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A ball is projected vertically upwards at 20 m/s. With air resistance, its acceleration is \u2212(9.8 + 0.01v\u00b2) m/s\u00b2 while rising. Using v (dv/dx), its maximum height is about:",
+   "imageRef": null,
+   "options": [
+    "34.2 m",
+    "8.6 m",
+    "17.1 m",
+    "20.4 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "v dv/dx = \u2212(9.8 + 0.01v\u00b2) gives x = 50 ln((9.8 + 0.01u\u00b2)/(9.8 + 0.01v\u00b2)). From v = 20 to v = 0, x = 50 ln(13.8/9.8) \u2248 17.1 m. Without air resistance it would be 20\u00b2/19.6 \u2248 20.4 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0035",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "The velocity of a 0.5 kg ball changes from 4i + 3j m/s to \u22122i + 3j m/s in 0.1 s. The average resultant force on the ball is:",
+   "imageRef": null,
+   "options": [
+    "\u22123i N",
+    "\u221260i N",
+    "\u221230i N",
+    "30i N"
+   ],
+   "correctIndex": 2,
+   "explanation": "The change in momentum is m(v \u2212 u) = 0.5(\u22126i) = \u22123i kg m/s, and the average force is this divided by the time: \u22123i/0.1 = \u221230i N. The value \u22123i is the change in momentum itself, and \u221260i N forgets the mass.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0036",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A particle of mass 2 kg moves in a straight line under a single force F = \u22128x newtons. The period of its motion is:",
+   "imageRef": null,
+   "options": [
+    "2\u03c0 s",
+    "\u03c0/4 s",
+    "\u03c0 s",
+    "\u03c0/2 s"
+   ],
+   "correctIndex": 2,
+   "explanation": "a = F/m = \u22124x, which is simple harmonic motion with \u03c9\u00b2 = 4, so \u03c9 = 2 and T = 2\u03c0/2 = \u03c0 s. Taking \u03c9\u00b2 = 8 without dividing by the mass gives a shorter period.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-forces-dynamics-0037",
+   "topicId": "spec-qce-forces-dynamics",
+   "stem": "A 1 kg particle moving in a straight line is slowed only by a resistance of 0.5v newtons. Its initial speed is 6 m/s. The total distance it travels is:",
+   "imageRef": null,
+   "options": [
+    "12 m",
+    "6 m",
+    "3 m",
+    "36 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "v (dv/dx) = \u22120.5v gives dv/dx = \u22120.5, so v = 6 \u2212 0.5x, which is 0 when x = 12 m. The particle approaches this point as t increases. Treating the initial deceleration of 0.5 \u00d7 6 = 3 m/s\u00b2 as constant gives 6\u00b2/(2 \u00d7 3) = 6 m, but the resistance falls as the particle slows.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-forces-dynamics-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

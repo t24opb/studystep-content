@@ -1,0 +1,689 @@
+{
+ "topicId": "gm-hsc-flow-critical-path",
+ "questions": [
+  {
+   "id": "gm-hsc-flow-critical-path-0001",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a flow network, the source is the vertex where:",
+   "imageRef": null,
+   "options": [
+    "the edges of greatest capacity meet",
+    "all flow begins, so there is only outflow",
+    "all flow ends, so there is only inflow",
+    "the inflow is equal to the outflow"
+   ],
+   "correctIndex": 1,
+   "explanation": "Flow starts at the source and finishes at the sink. At every other vertex the inflow equals the outflow, because nothing is stored or created there.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0002",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "At a vertex in a flow network that is neither the source nor the sink, the total inflow is:",
+   "imageRef": null,
+   "options": [
+    "less than the total outflow",
+    "equal to the network's capacity",
+    "equal to the total outflow",
+    "greater than the total outflow"
+   ],
+   "correctIndex": 2,
+   "explanation": "Flow is conserved at every intermediate vertex: whatever flows in must flow out. Only the source and the sink are exceptions.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0003",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In network flow, a cut is:",
+   "imageRef": null,
+   "options": [
+    "a line that passes through the source and the sink and no other vertex",
+    "a line that separates the source from the sink, blocking all flow",
+    "a line through every edge of the network that has the smallest capacity",
+    "a path from the source to the sink that uses only saturated edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "A cut divides the vertices into two sets, one containing the source and the other the sink, so that removing the cut edges stops all flow from source to sink.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0004",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "An edge in a flow network is called saturated when:",
+   "imageRef": null,
+   "options": [
+    "the flow along it equals its capacity",
+    "no flow passes along it at all",
+    "it flows into the sink of the network",
+    "its capacity is the largest in the network"
+   ],
+   "correctIndex": 0,
+   "explanation": "A saturated edge is full: it is carrying as much as its capacity allows, so no more flow can be added along it.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0005",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a table of capacities, the edges leaving vertex A are A\u2192B with capacity 4 and A\u2192t with capacity 5. What is the outflow capacity of vertex A?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "4",
+    "20",
+    "9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The outflow capacity is the total capacity of the edges leaving A: 4 + 5 = 9. 20 multiplies the capacities instead of adding them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0006",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A path through a network uses edges s\u2192A, A\u2192C and C\u2192t with capacities 7, 9 and 10. What is the largest flow that can be sent along this path alone?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "7",
+    "26",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "Flow along a path is limited by its smallest capacity, its bottleneck: 7. Adding the capacities, 26, counts the same flow three times.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0007",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A network has directed edges with capacities s\u2192A 10, s\u2192B 6, A\u2192B 4, A\u2192t 5 and B\u2192t 9, with source s and sink t. What is the capacity of the cut that separates s and A from B and t?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "15",
+    "19",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "The edges crossing from the source side to the sink side are s\u2192B 6, A\u2192B 4 and A\u2192t 5, so the capacity is 6 + 4 + 5 = 15.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0008",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A network has directed edges with capacities s\u2192A 10, s\u2192B 6, A\u2192B 4, A\u2192t 5 and B\u2192t 9, with source s and sink t. What is the capacity of the cut that separates s and B from A and t?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "29",
+    "19",
+    "23"
+   ],
+   "correctIndex": 2,
+   "explanation": "Count only edges from the source side to the sink side: s\u2192A 10 and B\u2192t 9, giving 19. The edge A\u2192B goes from the sink side back to the source side, so it is not counted; including it gives 23.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0009",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A network has directed edges with capacities s\u2192A 10, s\u2192B 6, A\u2192B 4, A\u2192t 5 and B\u2192t 9, with source s and sink t. What is the maximum flow from s to t?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "19",
+    "14",
+    "16"
+   ],
+   "correctIndex": 2,
+   "explanation": "The four cuts have capacities 16 (around s alone), 15 (around s and A), 19 (around s and B) and 14 (around s, A and B, cutting A\u2192t and B\u2192t). The minimum cut is 14, so the maximum flow is 14. 16 is only the capacity leaving the source.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0010",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "By the maximum-flow minimum-cut theorem, the largest possible flow from source to sink is equal to:",
+   "imageRef": null,
+   "options": [
+    "the capacity leaving the source",
+    "the capacity of the minimum cut",
+    "the capacity of the maximum cut",
+    "the total capacity of all edges"
+   ],
+   "correctIndex": 1,
+   "explanation": "No flow can exceed the capacity of any cut, and the smallest cut can always be filled, so the maximum flow equals the minimum cut capacity. The capacity leaving the source is only one possible cut.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0011",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A pipeline network has directed edges with capacities s\u2192A 7, s\u2192B 12, A\u2192C 9, B\u2192C 4, B\u2192t 8 and C\u2192t 10, with source s and sink t. What is the maximum flow from s to t?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "18",
+    "19",
+    "21"
+   ],
+   "correctIndex": 1,
+   "explanation": "The minimum cut is through B\u2192t and C\u2192t, with capacity 8 + 10 = 18; every other cut is at least 19. So the maximum flow is 18. 19 is the capacity leaving the source.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0012",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A pipeline network has directed edges with capacities s\u2192A 7, s\u2192B 12, A\u2192C 9, B\u2192C 4, B\u2192t 8 and C\u2192t 10, with source s and sink t. What is the capacity of the cut that separates s from all the other vertices?",
+   "imageRef": null,
+   "options": [
+    "19",
+    "18",
+    "12",
+    "7"
+   ],
+   "correctIndex": 0,
+   "explanation": "The edges leaving the source are s\u2192A 7 and s\u2192B 12, so this cut has capacity 19. It is not the minimum cut, so the maximum flow is less than 19.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0013",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A network has directed edges with capacities s\u2192A 10, s\u2192B 6, A\u2192B 4, A\u2192t 5 and B\u2192t 9, with source s and sink t. The capacity of B\u2192t is increased from 9 to 12. What is the new maximum flow?",
+   "imageRef": null,
+   "options": [
+    "15",
+    "14",
+    "17",
+    "16"
+   ],
+   "correctIndex": 0,
+   "explanation": "The old minimum cut, through A\u2192t and B\u2192t, rises to 5 + 12 = 17, so the cut through s\u2192B, A\u2192B and A\u2192t, with capacity 15, becomes the minimum. The maximum flow rises only from 14 to 15, not by the full 3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0014",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A network has directed edges with capacities s\u2192A 10, s\u2192B 6, A\u2192B 4, A\u2192t 5 and B\u2192t 9, with source s and sink t. The capacity of s\u2192A is increased from 10 to 12. What happens to the maximum flow?",
+   "imageRef": null,
+   "options": [
+    "It rises to 16, because s\u2192A is an edge from the source",
+    "It rises to 15, because one more unit can reach vertex A",
+    "It falls to 12, because the flow is now limited at A",
+    "It stays at 14, because s\u2192A is not in the minimum cut"
+   ],
+   "correctIndex": 3,
+   "explanation": "The minimum cut, through A\u2192t and B\u2192t, does not include s\u2192A, so its capacity of 14 is unchanged and so is the maximum flow. Increasing an edge that is not in the minimum cut does not help.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0015",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A road network from a suburb to the city has a maximum flow of 1800 cars per hour. During peak hour, 2100 cars per hour want to travel. Which conclusion is correct?",
+   "imageRef": null,
+   "options": [
+    "The network is sufficient, because 1800 is the minimum cut capacity",
+    "The network is sufficient, as long as every road is saturated",
+    "The network is not sufficient, so the minimum cut must equal 2100",
+    "The network is not sufficient, so congestion is likely at peak hour"
+   ],
+   "correctIndex": 3,
+   "explanation": "The maximum flow is the most the network can carry, and demand of 2100 exceeds it by 300 cars per hour, so traffic will back up. To meet demand, the capacity of the minimum cut would need to rise to at least 2100.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0016",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "To increase the maximum flow of a network, which edge's capacity should be increased?",
+   "imageRef": null,
+   "options": [
+    "The edge with the largest capacity",
+    "Any edge leaving the source",
+    "The edge farthest from the sink",
+    "An edge in the minimum cut"
+   ],
+   "correctIndex": 3,
+   "explanation": "The minimum cut limits the flow, so only increasing an edge in that cut can raise the maximum flow, and only until another cut becomes the minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0017",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "The critical path of a project is:",
+   "imageRef": null,
+   "options": [
+    "the path through the network containing the most activities",
+    "the path through the network containing activities with the most float",
+    "the longest path through the network, made of activities with zero float",
+    "the shortest path through the network, made of the quickest activities"
+   ],
+   "correctIndex": 2,
+   "explanation": "The critical path is the longest path from start to finish, and its length is the minimum completion time. Its activities have zero float, so any delay to them delays the project.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0018",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "The float of an activity is calculated as:",
+   "imageRef": null,
+   "options": [
+    "earliest starting time + duration",
+    "latest starting time + duration",
+    "latest starting time \u2212 earliest starting time",
+    "earliest starting time \u2212 latest starting time"
+   ],
+   "correctIndex": 2,
+   "explanation": "Float is how long an activity can be delayed without delaying the project: LST \u2212 EST. EST + duration is the earliest finishing time.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0019",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A dummy activity in a project network:",
+   "imageRef": null,
+   "options": [
+    "has the longest duration and is always part of the critical path",
+    "represents a delay that can be removed to shorten the project",
+    "is any activity with float, drawn as a dashed edge in the network",
+    "has zero duration and shows that one activity depends on another"
+   ],
+   "correctIndex": 3,
+   "explanation": "A dummy activity, drawn as a dashed edge, takes no time. It is used when the dependencies cannot be shown with ordinary edges alone, for example when one activity depends on two others but another depends on only one of them.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0020",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a forward scan, the earliest starting time of an activity with more than one immediate predecessor is:",
+   "imageRef": null,
+   "options": [
+    "the sum of the durations of all of its predecessors",
+    "the latest starting time of its first predecessor",
+    "the largest earliest finishing time of its predecessors",
+    "the smallest earliest finishing time of its predecessors"
+   ],
+   "correctIndex": 2,
+   "explanation": "An activity can only start when all its predecessors are finished, so its EST is the largest of their finishing times. In the backward scan the smallest value is taken instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0021",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a backward scan, the latest starting time of an activity that has more than one following activity is found from:",
+   "imageRef": null,
+   "options": [
+    "the smallest EST of the following activities, plus its duration",
+    "the sum of the LSTs of the following activities, minus its duration",
+    "the smallest LST of the following activities, minus its duration",
+    "the largest LST of the following activities, minus its duration"
+   ],
+   "correctIndex": 2,
+   "explanation": "The activity must finish in time for the earliest of the activities that follow it, so take the smallest LST of those activities and subtract its duration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0022",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A precedence table lists activity G with immediate predecessors E and F. This means:",
+   "imageRef": null,
+   "options": [
+    "E and F cannot start until G has been finished",
+    "G must be done at the same time as E and F",
+    "G cannot start until both E and F are finished",
+    "G cannot start until either E or F is finished"
+   ],
+   "correctIndex": 2,
+   "explanation": "Immediate predecessors are the activities that must all be complete before an activity begins. If G needed only one of them, the table would list only that one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0023",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). What is the earliest starting time of activity E?",
+   "imageRef": null,
+   "options": [
+    "4 days",
+    "9 days",
+    "6 days",
+    "3 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "E needs both B and D. B finishes at day 3; D starts at day 4 (after A) and finishes at day 6. The EST of E is the larger, 6 days. 3 days considers only B.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0024",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). What is the minimum completion time of the project?",
+   "imageRef": null,
+   "options": [
+    "13 days",
+    "16 days",
+    "15 days",
+    "26 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "Path lengths: A-D-E-G = 4 + 2 + 6 + 4 = 16, A-C-F-G = 15 and B-E-G = 13. The longest path gives the minimum completion time, 16 days. 26 days adds every duration, as if nothing could run at the same time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0025",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). Which is the critical path?",
+   "imageRef": null,
+   "options": [
+    "A-C-F-G",
+    "B-E-G",
+    "A-C-E-G",
+    "A-D-E-G"
+   ],
+   "correctIndex": 3,
+   "explanation": "A-D-E-G is the longest path at 16 days, and all its activities have zero float. A-C-F-G takes 15 days, and A-C-E-G is not a path, because E does not follow C.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0026",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). What is the float of activity B?",
+   "imageRef": null,
+   "options": [
+    "3 days",
+    "0 days",
+    "6 days",
+    "1 day"
+   ],
+   "correctIndex": 0,
+   "explanation": "B has EST 0. E must start by day 6, so B's LST is 6 \u2212 3 = 3. Float = LST \u2212 EST = 3 \u2212 0 = 3 days. 6 days is E's start time, not B's float.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0027",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). What is the latest starting time of activity F?",
+   "imageRef": null,
+   "options": [
+    "11 days",
+    "10 days",
+    "9 days",
+    "12 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "G must start by day 12, and F takes 2 days, so F's LST is 12 \u2212 2 = 10. Its EST is 9 (after A and C), so F has 1 day of float. 9 days is its earliest starting time.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0028",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). Activity C is delayed by 1 day. What is the effect on the project?",
+   "imageRef": null,
+   "options": [
+    "The project finishes 1 day late, because C is critical",
+    "The project finishes 2 days late, as F must also wait",
+    "The project finishes 1 day early, as C is not critical",
+    "No effect on the finish, because C has 1 day of float"
+   ],
+   "correctIndex": 3,
+   "explanation": "C has EST 4 and LST 5, so 1 day of float. A 1-day delay uses up the float, and C-F becomes critical alongside D-E, but the project still finishes in 16 days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0029",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). Activity B takes 7 days instead of 3. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "20 days",
+    "13 days",
+    "17 days",
+    "16 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "B had 3 days of float, so a 4-day increase delays the project by 1 day: path B-E-G becomes 7 + 6 + 4 = 17 days, now longer than A-D-E-G at 16. Adding the full 4 days to 16 gives 20, which ignores the float.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0030",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). Activity D is shortened from 2 days to 1 day. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "16 days",
+    "13 days",
+    "15 days",
+    "14 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "A-D-E-G becomes 15 days, but A-C-F-G is also 15 days, so the project now takes 15 days with two critical paths. Assuming the project keeps getting 1 day shorter for each day saved ignores the other paths.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0031",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 4 (none), B 3 (none), C 5 (A), D 2 (A), E 6 (B, D), F 2 (C), G 4 (E, F). Activity E takes 8 days instead of 6. What is the new minimum completion time?",
+   "imageRef": null,
+   "options": [
+    "18 days",
+    "16 days",
+    "17 days",
+    "20 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "E is on the critical path A-D-E-G, which has no float, so the 2 extra days delay the project: 4 + 2 + 8 + 4 = 18 days.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0032",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "Increasing the duration of an activity on the critical path by 3 days will:",
+   "imageRef": null,
+   "options": [
+    "shorten another path by 3 days",
+    "delay the whole project by 3 days",
+    "have no effect on the completion time",
+    "delay the project by up to its float"
+   ],
+   "correctIndex": 1,
+   "explanation": "Critical activities have zero float, so every day added to one of them is added to the completion time. A non-critical activity can be delayed by up to its float without affecting the finish.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0033",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "Shortening a critical activity by several days may shorten the project by fewer days because:",
+   "imageRef": null,
+   "options": [
+    "critical activities cannot be shortened by more than one day",
+    "the float of the critical activity increases by the same amount",
+    "the earliest starting times of earlier activities increase",
+    "another path may become critical once the first path is shorter"
+   ],
+   "correctIndex": 3,
+   "explanation": "Once the critical path is shortened enough, another path becomes the longest and limits the project. In the project with A-D-E-G at 16 days and A-C-F-G at 15, cutting D by 2 days only saves 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0034",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a Gantt chart for a project, each activity is shown as:",
+   "imageRef": null,
+   "options": [
+    "a vertical bar whose height is its duration",
+    "a slice of a circle sized by its duration",
+    "a horizontal bar against a time scale",
+    "a vertex joined to its predecessors"
+   ],
+   "correctIndex": 2,
+   "explanation": "A Gantt chart shows activities as horizontal bars along a time axis: each bar starts at the activity's start time and its length is the duration. Float is often shown as a shaded extension of a non-critical bar.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0035",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a Gantt chart, activity C's bar runs from day 4 to day 9, with a shaded float section running from day 9 to day 10. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "C takes 9 days and starts on day 4",
+    "C takes 5 days and can start as late as day 5",
+    "C takes 6 days and must start on day 4",
+    "C takes 5 days and must finish by day 9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The solid bar from day 4 to day 9 shows a 5-day activity starting at its EST. One day of float means it could start as late as day 5 and finish by day 10 without delaying the project.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-flow-critical-path-0036",
+   "topicId": "gm-hsc-flow-critical-path",
+   "stem": "In a spreadsheet for a project, column C holds each activity's earliest starting time and column D its duration. Activity E has predecessors in rows 3 and 5. Which formula gives the EST of E?",
+   "imageRef": null,
+   "options": [
+    "=MAX(C3, C5)",
+    "=MAX(C3+D3, C5+D5)",
+    "=MIN(C3+D3, C5+D5)",
+    "=C3+D3+C5+D5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each predecessor finishes at its EST plus its duration, and E must wait for the later of the two, so take the maximum. =MAX(C3, C5) compares start times without adding the durations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-flow-critical-path-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

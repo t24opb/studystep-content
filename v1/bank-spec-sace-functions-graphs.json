@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-sace-functions-graphs",
+ "questions": [
+  {
+   "id": "spec-sace-functions-graphs-0001",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The composition (f \u2218 g)(x) means:",
+   "imageRef": null,
+   "options": [
+    "f(g(x)): apply g first, then apply f to the result",
+    "g(f(x)): apply f first, then apply g to the result",
+    "f(x) \u00d7 g(x): multiply the two function values",
+    "f(x) + g(x): add the two function values"
+   ],
+   "correctIndex": 0,
+   "explanation": "In f \u2218 g the function written nearest x acts first, so (f \u2218 g)(x) = f(g(x)). Composition is not multiplication, and in general f \u2218 g \u2260 g \u2218 f.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0002",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = x\u00b2 and g(x) = x + 3, then (f \u2218 g)(2) equals:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "9",
+    "20",
+    "25"
+   ],
+   "correctIndex": 3,
+   "explanation": "g(2) = 5, then f(5) = 25. Applying f first gives g(f(2)) = 4 + 3 = 7, which is (g \u2218 f)(2).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0003",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = 2x \u2212 1 and g(x) = x\u00b2, then (g \u2218 f)(x) equals:",
+   "imageRef": null,
+   "options": [
+    "2x\u00b2 \u2212 2x + 1",
+    "(2x \u2212 1)\u00b2",
+    "2x\u00b2 \u2212 1",
+    "2x\u00b3 \u2212 x\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "(g \u2218 f)(x) = g(f(x)) = g(2x \u2212 1) = (2x \u2212 1)\u00b2. The expression 2x\u00b2 \u2212 1 is f(g(x)), the composition the other way round.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0004",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The composition f \u2218 g is defined exactly when:",
+   "imageRef": null,
+   "options": [
+    "the range of f is contained in the domain of g",
+    "the domain of g is contained in the domain of f",
+    "f and g have the same domain",
+    "the range of g is contained in the domain of f"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every output of g must be a valid input for f, so the range of g must lie inside the domain of f. The condition involving the range of f is the one for g \u2218 f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0005",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = \u221ax and g(x) = x\u00b2 \u2212 4x, then f(g(x)) exists for:",
+   "imageRef": null,
+   "options": [
+    "0 \u2264 x \u2264 4",
+    "x \u2265 4 only",
+    "x \u2265 0",
+    "x \u2264 0 or x \u2265 4"
+   ],
+   "correctIndex": 3,
+   "explanation": "f needs a non-negative input, so x\u00b2 \u2212 4x = x(x \u2212 4) \u2265 0. This holds outside the zeros, for x \u2264 0 or x \u2265 4. Between 0 and 4 the quadratic is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0006",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = \u221ax and g(x) = 1 \u2212 x\u00b2, the largest domain of f \u2218 g is:",
+   "imageRef": null,
+   "options": [
+    "all real x",
+    "[\u22121, 1]",
+    "[0, 1]",
+    "(\u2212\u221e, \u22121] or [1, \u221e)"
+   ],
+   "correctIndex": 1,
+   "explanation": "We need g(x) = 1 \u2212 x\u00b2 \u2265 0, so x\u00b2 \u2264 1 and \u22121 \u2264 x \u2264 1. The interval [0, 1] is the range of f \u2218 g, not its domain.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0007",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = 1/x and g(x) = x \u2212 2, then (f \u2218 g)(x) and its largest domain are:",
+   "imageRef": null,
+   "options": [
+    "1/(x \u2212 2), for x \u2260 0",
+    "(1 \u2212 2x)/x, for x \u2260 0",
+    "1/(x \u2212 2), for x \u2260 2",
+    "1/x \u2212 2, for x \u2260 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "f(g(x)) = 1/(x \u2212 2), which is undefined when g(x) = 0, that is x = 2. The expression 1/x \u2212 2 is g(f(x)).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0008",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f(x) = arcsin x and g(x) = 3x, the largest domain of f(g(x)) = arcsin(3x) is:",
+   "imageRef": null,
+   "options": [
+    "\u2212\u03c0/6 \u2264 x \u2264 \u03c0/6",
+    "\u22121/3 \u2264 x \u2264 1/3",
+    "\u22121 \u2264 x \u2264 1",
+    "\u22123 \u2264 x \u2264 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "arcsin needs its input between \u22121 and 1, so \u22121 \u2264 3x \u2264 1, giving \u22121/3 \u2264 x \u2264 1/3. Using \u22123 \u2264 x \u2264 3 multiplies instead of dividing.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0009",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The function h(x) = (3x \u2212 1)\u2075 is written as f(g(x)). A suitable choice is:",
+   "imageRef": null,
+   "options": [
+    "f(x) = 3x \u2212 1 and g(x) = x\u2075",
+    "f(x) = 3x\u2075 and g(x) = x \u2212 1",
+    "f(x) = x\u2075 and g(x) = 3x",
+    "f(x) = x\u2075 and g(x) = 3x \u2212 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The inner function, applied first, is g(x) = 3x \u2212 1, and then f raises the result to the power 5. Swapping them gives 3x\u2075 \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0010",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "A function f is one-to-one when:",
+   "imageRef": null,
+   "options": [
+    "each x-value has exactly one y-value",
+    "f(a) = f(b) for every a and b",
+    "its graph passes the vertical line test",
+    "f(a) = f(b) only when a = b"
+   ],
+   "correctIndex": 3,
+   "explanation": "One-to-one means no two different inputs give the same output. Having one y-value for each x-value is what makes a relation a function at all; that is the vertical line test.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0011",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of a function fails the horizontal line test. This shows that the function:",
+   "imageRef": null,
+   "options": [
+    "is not one-to-one, so it has no inverse function",
+    "is not a function at all",
+    "is one-to-one but has no inverse function",
+    "is one-to-one, so it has an inverse function"
+   ],
+   "correctIndex": 0,
+   "explanation": "If some horizontal line meets the graph twice, two inputs share an output, so f is not one-to-one and no inverse function exists on that domain. The vertical line test decides whether it is a function.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0012",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "Which function is one-to-one?",
+   "imageRef": null,
+   "options": [
+    "f(x) = x\u00b3, x \u2208 \u211d",
+    "f(x) = x\u00b2, x \u2208 \u211d",
+    "f(x) = cos x, 0 \u2264 x \u2264 2\u03c0",
+    "f(x) = |x|, x \u2208 \u211d"
+   ],
+   "correctIndex": 0,
+   "explanation": "x\u00b3 is strictly increasing, so every horizontal line meets it once. x\u00b2 and |x| give the same value at x and \u2212x, and cos x repeats values on [0, 2\u03c0].",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0013",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The inverse of f(x) = 2x + 3 is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = (x + 3)/2",
+    "f\u207b\u00b9(x) = 1/(2x + 3)",
+    "f\u207b\u00b9(x) = 2x \u2212 3",
+    "f\u207b\u00b9(x) = (x \u2212 3)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "Swap x and y in y = 2x + 3 and solve: x = 2y + 3 gives y = (x \u2212 3)/2. The reciprocal 1/(2x + 3) is not the inverse function; f\u207b\u00b9 does not mean 1/f.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0014",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The inverse of f(x) = (x + 1)/(x \u2212 2), x \u2260 2, is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = (2x \u2212 1)/(x + 1), x \u2260 \u22121",
+    "f\u207b\u00b9(x) = (x + 2)/(x \u2212 1), x \u2260 1",
+    "f\u207b\u00b9(x) = (2x + 1)/(x \u2212 1), x \u2260 1",
+    "f\u207b\u00b9(x) = (x \u2212 2)/(x + 1), x \u2260 \u22121"
+   ],
+   "correctIndex": 2,
+   "explanation": "From x = (y + 1)/(y \u2212 2): xy \u2212 2x = y + 1, so y(x \u2212 1) = 2x + 1 and y = (2x + 1)/(x \u2212 1). Flipping the fraction gives the reciprocal, not the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0015",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = f\u207b\u00b9(x) is the reflection of the graph of y = f(x) in:",
+   "imageRef": null,
+   "options": [
+    "the x-axis",
+    "the line y = \u2212x",
+    "the line y = x",
+    "the y-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "The inverse swaps every point (a, b) to (b, a), which is reflection in y = x. Reflection in the y-axis gives y = f(\u2212x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0016",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "If f is one-to-one and f(2) = 7, which point lies on the graph of y = f\u207b\u00b9(x)?",
+   "imageRef": null,
+   "options": [
+    "(2, 7)",
+    "(2, 1/7)",
+    "(\u22122, \u22127)",
+    "(7, 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(2) = 7 means f\u207b\u00b9(7) = 2, so (7, 2) is on the inverse graph. The point (2, 1/7) would be on y = 1/f(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0017",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = x\u00b2, x \u2265 0, the inverse function and its domain are:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = \u221ax, x \u2208 \u211d",
+    "f\u207b\u00b9(x) = \u221ax, x \u2265 0",
+    "f\u207b\u00b9(x) = \u00b1\u221ax, x \u2265 0",
+    "f\u207b\u00b9(x) = \u2212\u221ax, x \u2265 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The restricted domain x \u2265 0 makes f one-to-one with range [0, \u221e), and the inverse takes the non-negative root. The domain of f\u207b\u00b9 is the range of f. \u00b1\u221ax is not a function.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0018",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = (x + 3)\u00b2, the largest domain of the form x \u2265 a on which f is one-to-one is:",
+   "imageRef": null,
+   "options": [
+    "x \u2265 0",
+    "x \u2265 9",
+    "x \u2265 \u22123",
+    "x \u2265 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The parabola has its turning point at x = \u22123, and it is increasing to the right of it, so x \u2265 \u22123 is the largest such domain. Taking x \u2265 0 works but is not the largest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0019",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = (x \u2212 1)\u00b2 + 2, x \u2265 1, the inverse function is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = 1 + \u221a(x \u2212 2), x \u2265 2",
+    "f\u207b\u00b9(x) = 1 \u2212 \u221a(x \u2212 2), x \u2265 2",
+    "f\u207b\u00b9(x) = 2 + \u221a(x \u2212 1), x \u2265 1",
+    "f\u207b\u00b9(x) = 1 + \u221a(x + 2), x \u2265 \u22122"
+   ],
+   "correctIndex": 0,
+   "explanation": "Swap and solve: x = (y \u2212 1)\u00b2 + 2 gives y \u2212 1 = \u00b1\u221a(x \u2212 2). The domain y \u2265 1 of f needs the + sign. The range of f, x \u2265 2, becomes the domain of f\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0020",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = x\u00b2 \u2212 4x, x \u2264 2, the inverse function is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = \u22122 + \u221a(x + 4), x \u2265 \u22124",
+    "f\u207b\u00b9(x) = 2 \u2212 \u221a(x + 4), x \u2265 \u22124",
+    "f\u207b\u00b9(x) = 2 + \u221a(x + 4), x \u2265 \u22124",
+    "f\u207b\u00b9(x) = 2 \u2212 \u221a(x \u2212 4), x \u2265 4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Complete the square: f(x) = (x \u2212 2)\u00b2 \u2212 4. Swapping gives (y \u2212 2)\u00b2 = x + 4, so y = 2 \u00b1 \u221a(x + 4). The range of f\u207b\u00b9 must be the domain of f, y \u2264 2, so take the minus sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0021",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The inverse of f(x) = x\u00b3 + 1 is:",
+   "imageRef": null,
+   "options": [
+    "f\u207b\u00b9(x) = \u221b(x + 1)",
+    "f\u207b\u00b9(x) = \u221b(x \u2212 1)",
+    "f\u207b\u00b9(x) = \u221bx \u2212 1",
+    "f\u207b\u00b9(x) = 1/(x\u00b3 + 1)"
+   ],
+   "correctIndex": 1,
+   "explanation": "From x = y\u00b3 + 1, y\u00b3 = x \u2212 1 and y = \u221b(x \u2212 1). Undo the steps in reverse order: subtract 1 first, then take the cube root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0022",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graphs of f(x) = x\u00b3 and its inverse f\u207b\u00b9(x) = \u221bx intersect at:",
+   "imageRef": null,
+   "options": [
+    "(\u22121, \u22121), (0, 0) and (1, 1)",
+    "(0, 0) and (1, 1) only",
+    "(1, 1) only",
+    "(0, 0), (1, 1) and (\u22121, 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "For an increasing function, the graph and its inverse meet on y = x, where x\u00b3 = x, so x = \u22121, 0 or 1. The point (\u22121, 1) is not on y = x\u00b3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0023",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "Before arcsine is defined, sin x is restricted to \u2212\u03c0/2 \u2264 x \u2264 \u03c0/2. Why?",
+   "imageRef": null,
+   "options": [
+    "on this interval sin x is always positive, so it has an inverse",
+    "this interval is one full period of sin x",
+    "on this interval sin x is one-to-one and still takes every value from \u22121 to 1",
+    "sin x is undefined outside this interval"
+   ],
+   "correctIndex": 2,
+   "explanation": "An inverse needs a one-to-one function. sin x is increasing on [\u2212\u03c0/2, \u03c0/2] and covers the whole range [\u22121, 1] there. One full period would repeat values, and sin x is negative for x < 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0024",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The absolute value function is defined by:",
+   "imageRef": null,
+   "options": [
+    "|x| = x for x \u2265 0, and |x| = \u2212x for x < 0",
+    "|x| = x for x \u2265 0, and |x| = x\u00b2 for x < 0",
+    "|x| = \u2212x for x \u2265 0, and |x| = x for x < 0",
+    "|x| = x for every real x"
+   ],
+   "correctIndex": 0,
+   "explanation": "For negative x, \u2212x is positive, so |x| is never negative: |\u22123| = \u2212(\u22123) = 3. |x| is the distance from x to 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0025",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The solutions of |2x \u2212 1| = 5 are:",
+   "imageRef": null,
+   "options": [
+    "x = \u22123 and x = 2",
+    "x = 3 and x = \u22122",
+    "x = 3 only",
+    "x = 3 and x = 2"
+   ],
+   "correctIndex": 1,
+   "explanation": "2x \u2212 1 = 5 gives x = 3, and 2x \u2212 1 = \u22125 gives x = \u22122. Dropping the negative case loses a solution.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0026",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The solution of |x \u2212 3| < 2 is:",
+   "imageRef": null,
+   "options": [
+    "1 < x < 5",
+    "x < 5",
+    "x < 1 or x > 5",
+    "\u22125 < x < 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "|x \u2212 3| < 2 means x is within 2 of 3: \u22122 < x \u2212 3 < 2, so 1 < x < 5. The outer intervals solve |x \u2212 3| > 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0027",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "How is the graph of y = |f(x)| obtained from the graph of y = f(x)?",
+   "imageRef": null,
+   "options": [
+    "reflecting the whole graph in the x-axis",
+    "deleting the parts of the graph below the x-axis",
+    "reflecting the parts below the x-axis in the x-axis",
+    "reflecting the part to the right of the y-axis in the y-axis"
+   ],
+   "correctIndex": 2,
+   "explanation": "|f(x)| leaves non-negative values unchanged and changes the sign of negative values, so only the parts below the x-axis flip up. Replacing the left half by a mirror of the right half gives y = f(|x|).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0028",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "How is the graph of y = f(|x|) obtained from the graph of y = f(x)?",
+   "imageRef": null,
+   "options": [
+    "reflecting the parts below the x-axis in the x-axis",
+    "keeping the part for x < 0 and reflecting it in the y-axis to replace the part for x \u2265 0",
+    "reflecting the whole graph in the y-axis",
+    "keeping the part for x \u2265 0 and reflecting it in the y-axis to replace the part for x < 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "f(|x|) gives the same value at x and \u2212x, so its graph is symmetric about the y-axis, built from the x \u2265 0 part of y = f(x).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0029",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = |x\u00b2 \u2212 4| has a local maximum at:",
+   "imageRef": null,
+   "options": [
+    "(2, 0)",
+    "(4, 0)",
+    "(0, 4)",
+    "(0, \u22124)"
+   ],
+   "correctIndex": 2,
+   "explanation": "y = x\u00b2 \u2212 4 has a minimum at (0, \u22124) between its zeros \u00b12. Taking the absolute value reflects that part up, so the minimum becomes a local maximum at (0, 4). The points (\u00b12, 0) are local minima.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0030",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = x\u00b2 \u2212 2x, the graph of y = f(|x|) has x-intercepts at:",
+   "imageRef": null,
+   "options": [
+    "x = \u22122, 0 and 2",
+    "x = 0 and 2 only",
+    "x = \u22122 and 2 only",
+    "x = 0, 1 and 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "f(x) = x(x \u2212 2) has zeros 0 and 2 for x \u2265 0. Reflecting the x \u2265 0 part in the y-axis adds the zero at \u22122. The zero of y = f(x) at x = 0 stays.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0031",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "For f(x) = x\u00b2 \u2212 1, the graph of y = 1/f(x) has vertical asymptotes at:",
+   "imageRef": null,
+   "options": [
+    "x = 1 only",
+    "x = 1 and x = \u22121",
+    "x = 0 only",
+    "y = \u22121"
+   ],
+   "correctIndex": 1,
+   "explanation": "1/f(x) is undefined where f(x) = 0, that is x\u00b2 = 1, so x = \u00b11. At x = 0, f(0) = \u22121, so 1/f has the point (0, \u22121), a local maximum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0032",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = 1/(x\u00b2 + 1) has:",
+   "imageRef": null,
+   "options": [
+    "a maximum at (0, 1) and vertical asymptotes at x = \u00b11",
+    "a maximum at (0, 1) and the horizontal asymptote y = 0",
+    "a minimum at (0, 1) and the horizontal asymptote y = 1",
+    "a vertical asymptote at x = 0 and no maximum"
+   ],
+   "correctIndex": 1,
+   "explanation": "x\u00b2 + 1 has a minimum of 1 at x = 0 and is never 0, so its reciprocal has a maximum of 1 there and no vertical asymptotes. As x\u00b2 + 1 grows large, its reciprocal approaches 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0033",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "Where a function f has a local minimum point (a, 2), the graph of y = 1/f(x) has:",
+   "imageRef": null,
+   "options": [
+    "a local maximum point at (a, 2)",
+    "a vertical asymptote at x = a",
+    "a local maximum point at (a, 1/2)",
+    "a local minimum point at (a, 1/2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Where f is smallest (and positive), 1/f is largest, so a minimum of 2 becomes a maximum of 1/2. A vertical asymptote of 1/f occurs only where f(x) = 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0034",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (2x + 1)/(x \u2212 3) has asymptotes:",
+   "imageRef": null,
+   "options": [
+    "x = 3 and y = 2",
+    "x = \u22123 and y = 2",
+    "x = 3 and y = 1/3",
+    "x = \u22121/2 and y = 2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The denominator is zero at x = 3, and for large |x| the ratio approaches the ratio of leading coefficients, 2/1 = 2. x = \u22121/2 is the x-intercept, not an asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0035",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (x + 2)/((x \u2212 1)(x + 3)) has y-intercept:",
+   "imageRef": null,
+   "options": [
+    "\u22122/3",
+    "2/3",
+    "\u22122",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "At x = 0, y = 2/((\u22121)(3)) = \u22122/3. The graph's x-intercept is at x = \u22122, and its vertical asymptotes are x = 1 and x = \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0036",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (x\u00b2 + 1)/x has asymptotes:",
+   "imageRef": null,
+   "options": [
+    "x = 0 and y = 1",
+    "x = 0 and y = 0",
+    "x = 1 and y = x",
+    "x = 0 and y = x"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = x + 1/x, and as |x| grows 1/x \u2192 0, so the graph approaches the oblique line y = x. The denominator is zero at x = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0037",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (x\u00b2 \u2212 4)/(x \u2212 1) has an oblique asymptote:",
+   "imageRef": null,
+   "options": [
+    "y = x",
+    "y = x + 4",
+    "y = x + 1",
+    "y = x \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Dividing, x\u00b2 \u2212 4 = (x \u2212 1)(x + 1) \u2212 3, so y = x + 1 \u2212 3/(x \u2212 1). As |x| grows the last term \u2192 0, leaving y = x + 1.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0038",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = x\u00b3/(x\u00b2 \u2212 1) has asymptotes:",
+   "imageRef": null,
+   "options": [
+    "x = 1 and y = x",
+    "x = 0 and y = x",
+    "x = 1, x = \u22121 and y = x",
+    "x = 1, x = \u22121 and y = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u00b3 = x(x\u00b2 \u2212 1) + x, so y = x + x/(x\u00b2 \u2212 1), which approaches y = x for large |x|. The denominator is zero at x = \u00b11.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0039",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (x\u00b2 \u2212 1)/(x \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "the line y = x + 1 with a vertical asymptote at x = 1",
+    "the line y = x \u2212 1 with the point (1, 0) removed",
+    "a hyperbola with asymptotes x = 1 and y = x + 1",
+    "the line y = x + 1 with the point (1, 2) removed"
+   ],
+   "correctIndex": 3,
+   "explanation": "x\u00b2 \u2212 1 = (x \u2212 1)(x + 1), so y = x + 1 for x \u2260 1. The factor cancels, so there is no asymptote, only a hole at (1, 2), where the function is undefined.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-functions-graphs-0040",
+   "topicId": "spec-sace-functions-graphs",
+   "stem": "The graph of y = (3x\u00b2 + 2)/(x\u00b2 + 1) has:",
+   "imageRef": null,
+   "options": [
+    "a horizontal asymptote y = 2 and no vertical asymptotes",
+    "a horizontal asymptote y = 3 and vertical asymptotes x = \u00b11",
+    "an oblique asymptote y = 3x and no vertical asymptotes",
+    "a horizontal asymptote y = 3 and no vertical asymptotes"
+   ],
+   "correctIndex": 3,
+   "explanation": "The degrees are equal, so the horizontal asymptote is the ratio of leading coefficients, 3. x\u00b2 + 1 is never zero, so there is no vertical asymptote.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-functions-graphs-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

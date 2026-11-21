@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-sace-sequences-series",
+ "questions": [
+  {
+   "id": "spec-sace-sequences-series-0001",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "An arithmetic sequence has first term 7 and common difference \u22123. Which recursive rule generates it?",
+   "imageRef": null,
+   "options": [
+    "t\u2099\u208a\u2081 = t\u2099 \u2212 3, t\u2081 = 7",
+    "t\u2099\u208a\u2081 = \u22123t\u2099, t\u2081 = 7",
+    "t\u2099\u208a\u2081 = t\u2099 + 7, t\u2081 = \u22123",
+    "t\u2099\u208a\u2081 = 7t\u2099 \u2212 3, t\u2081 = 7"
+   ],
+   "correctIndex": 0,
+   "explanation": "An arithmetic sequence adds the same amount each time, so t\u2099\u208a\u2081 = t\u2099 + d with d = \u22123, starting from t\u2081 = 7. Multiplying by \u22123 each time would make a geometric sequence instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0002",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Which explicit rule gives the arithmetic sequence 5, 9, 13, 17, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = 4n + 5",
+    "t\u2099 = 5n + 4",
+    "t\u2099 = n + 4",
+    "t\u2099 = 4n + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "Using t\u2099 = t\u2081 + (n \u2212 1)d with t\u2081 = 5 and d = 4 gives t\u2099 = 5 + 4(n \u2212 1) = 4n + 1. Check: n = 1 gives 5. The rule 4n + 5 starts at 9, because it uses n instead of n \u2212 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0003",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "An arithmetic sequence has t\u2081 = 12 and d = 2.5. The value of t\u2082\u2080 is:",
+   "imageRef": null,
+   "options": [
+    "57",
+    "50",
+    "59.5",
+    "62"
+   ],
+   "correctIndex": 2,
+   "explanation": "t\u2082\u2080 = 12 + 19 \u00d7 2.5 = 12 + 47.5 = 59.5. Multiplying the difference by 20 instead of 19 gives 62, which is t\u2082\u2081.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0004",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "In the arithmetic sequence 3, 10, 17, 24, ..., which term has the value 304?",
+   "imageRef": null,
+   "options": [
+    "the 45th term",
+    "the 42nd term",
+    "the 44th term",
+    "the 43rd term"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 3 + 7(n \u2212 1) = 304: 7(n \u2212 1) = 301, so n \u2212 1 = 43 and n = 44. Stopping at n \u2212 1 = 43 gives the wrong position by one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0005",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "In an arithmetic sequence, t\u2085 = 23 and t\u2081\u2082 = 51. The first term is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "7",
+    "3",
+    "11"
+   ],
+   "correctIndex": 1,
+   "explanation": "From t\u2085 to t\u2081\u2082 is 7 steps of d, so 7d = 28 and d = 4. Then t\u2081 = t\u2085 \u2212 4d = 23 \u2212 16 = 7. The value 4 is the common difference, not the first term.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0006",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "When the terms of an arithmetic sequence with d > 0 are plotted against n, the points:",
+   "imageRef": null,
+   "options": [
+    "lie on a straight line with gradient d",
+    "lie on an exponential growth curve",
+    "lie on a parabola with its turning point at n = 1",
+    "rise quickly at first and then level off"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2099 = t\u2081 + (n \u2212 1)d is linear in n, so the growth is linear: the same increase d for every step. Exponential growth, with a constant ratio, belongs to geometric sequences.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0007",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A savings balance at the end of year n is modelled by t\u2099\u208a\u2081 = t\u2099 + 200, t\u2081 = 5200. At the end of which year does the balance first exceed $8100?",
+   "imageRef": null,
+   "options": [
+    "year 17",
+    "year 16",
+    "year 15",
+    "year 14"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2099 = 5200 + 200(n \u2212 1). For t\u2099 > 8100 we need 200(n \u2212 1) > 2900, so n \u2212 1 > 14.5, giving n \u2212 1 = 15 and n = 16. At year 15 the balance is $8000, which has not yet passed $8100.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0008",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum of the first n terms of an arithmetic sequence is:",
+   "imageRef": null,
+   "options": [
+    "S\u2099 = (n/2)(2t\u2081 + nd)",
+    "S\u2099 = (n/2)(2t\u2081 + (n \u2212 1)d)",
+    "S\u2099 = (n/2)(t\u2081 + (n \u2212 1)d)",
+    "S\u2099 = n(2t\u2081 + (n \u2212 1)d)"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2099 = (n/2)(t\u2081 + t\u2099), and t\u2099 = t\u2081 + (n \u2212 1)d, so S\u2099 = (n/2)(2t\u2081 + (n \u2212 1)d). Using nd instead of (n \u2212 1)d adds an extra step of the difference to every pair.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0009",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum 2 + 5 + 8 + ... + 62 equals:",
+   "imageRef": null,
+   "options": [
+    "1344",
+    "672",
+    "640",
+    "704"
+   ],
+   "correctIndex": 1,
+   "explanation": "There are (62 \u2212 2)/3 + 1 = 21 terms, so S = (21/2)(2 + 62) = 21 \u00d7 32 = 672. Counting only 20 terms gives 640, and forgetting to halve gives 1344.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0010",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A section of a stadium has 20 seats in the front row, and each row behind has 2 more seats than the row in front. How many seats are in the first 25 rows?",
+   "imageRef": null,
+   "options": [
+    "1100",
+    "1125",
+    "1032",
+    "550"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 25th row has 20 + 24 \u00d7 2 = 68 seats, so S\u2082\u2085 = (25/2)(20 + 68) = 1100. Using 25 \u00d7 2 for the last step instead of 24 \u00d7 2 gives 1125.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0011",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum of all the multiples of 7 from 7 to 196 is:",
+   "imageRef": null,
+   "options": [
+    "2744",
+    "5684",
+    "2940",
+    "2842"
+   ],
+   "correctIndex": 3,
+   "explanation": "These are 7 \u00d7 1 to 7 \u00d7 28, so there are 28 terms and S = (28/2)(7 + 196) = 14 \u00d7 203 = 2842. Not halving gives 5684.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0012",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum of the first n terms of a sequence is S\u2099 = 3n\u00b2 + 2n. The sequence is arithmetic, with common difference:",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "5",
+    "11"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2081 = S\u2081 = 5 and t\u2082 = S\u2082 \u2212 S\u2081 = 16 \u2212 5 = 11, so d = 11 \u2212 5 = 6. In general t\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081 = 6n \u2212 1. The values 5 and 11 are the first two terms, not the difference.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0013",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "How many terms of the arithmetic series 45 + 42 + 39 + ... must be added to give a sum of 0?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "16",
+    "62",
+    "31"
+   ],
+   "correctIndex": 3,
+   "explanation": "S\u2099 = (n/2)(90 \u2212 3(n \u2212 1)) = (n/2)(93 \u2212 3n), which is 0 when n = 31. The terms become negative from the 17th term on, and the negative terms cancel the positive ones by the 31st term.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0014",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Which recursive rule generates the sequence 3, 6, 12, 24, ...?",
+   "imageRef": null,
+   "options": [
+    "t\u2099\u208a\u2081 = 3t\u2099, t\u2081 = 2",
+    "t\u2099\u208a\u2081 = t\u2099 + 2, t\u2081 = 3",
+    "t\u2099\u208a\u2081 = 2t\u2099, t\u2081 = 3",
+    "t\u2099\u208a\u2081 = t\u2099 + 3, t\u2081 = 3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each term is double the one before, so the sequence is geometric with r = 2 and t\u2081 = 3. Adding 3 each time would give 3, 6, 9, 12, an arithmetic sequence.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0015",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The common ratio of the geometric sequence 64, \u221216, 4, \u22121, ... is:",
+   "imageRef": null,
+   "options": [
+    "\u22124",
+    "4",
+    "\u22121/4",
+    "1/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "r = t\u2082/t\u2081 = \u221216/64 = \u22121/4. The terms alternate in sign, so r is negative, and they shrink, so |r| < 1. Dividing the other way gives \u22124.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0016",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Which sequence is neither arithmetic nor geometric?",
+   "imageRef": null,
+   "options": [
+    "0.5, 1.5, 4.5, 13.5, ...",
+    "1, 4, 9, 16, ...",
+    "2, \u22124, 8, \u221216, ...",
+    "7, 4, 1, \u22122, ..."
+   ],
+   "correctIndex": 1,
+   "explanation": "The square numbers have differences 3, 5, 7 and ratios 4, 2.25, 1.78, so neither is constant. The others have a constant ratio of \u22122, a constant difference of \u22123, and a constant ratio of 3.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0017",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A geometric sequence has t\u2099 = 5 \u00d7 3\u207f\u207b\u00b9. The value of t\u2086 is:",
+   "imageRef": null,
+   "options": [
+    "243",
+    "1215",
+    "3645",
+    "405"
+   ],
+   "correctIndex": 1,
+   "explanation": "t\u2086 = 5 \u00d7 3\u2075 = 5 \u00d7 243 = 1215. Using 3\u2076 gives 3645, which is t\u2087.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0018",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Written as an exponential function of n, the geometric sequence t\u2099 = 3 \u00d7 2\u207f\u207b\u00b9 is:",
+   "imageRef": null,
+   "options": [
+    "t\u2099 = 6\u207f\u207b\u00b9",
+    "t\u2099 = 1.5 \u00d7 2\u207f",
+    "t\u2099 = 3 \u00d7 2\u207f",
+    "t\u2099 = 6 \u00d7 2\u207f"
+   ],
+   "correctIndex": 1,
+   "explanation": "2\u207f\u207b\u00b9 = 2\u207f/2, so t\u2099 = (3/2) \u00d7 2\u207f = 1.5 \u00d7 2\u207f. This shows a geometric sequence is an exponential function of n sampled at whole numbers. Writing 6\u207f\u207b\u00b9 wrongly combines the coefficient into the base.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0019",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "In the geometric sequence 2, 6, 18, 54, ..., which term has the value 4374?",
+   "imageRef": null,
+   "options": [
+    "the 9th term",
+    "the 6th term",
+    "the 8th term",
+    "the 7th term"
+   ],
+   "correctIndex": 2,
+   "explanation": "Solve 2 \u00d7 3\u207f\u207b\u00b9 = 4374: 3\u207f\u207b\u00b9 = 2187 = 3\u2077, so n \u2212 1 = 7 and n = 8. Taking the power 7 as the position gives the 7th term, one too early.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0020",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A geometric sequence has t\u2083 = 12 and t\u2086 = 96. The first term is:",
+   "imageRef": null,
+   "options": [
+    "3",
+    "6",
+    "2",
+    "1.5"
+   ],
+   "correctIndex": 0,
+   "explanation": "t\u2086/t\u2083 = r\u00b3 = 8, so r = 2. Then t\u2081 = t\u2083/r\u00b2 = 12/4 = 3. Dividing by r only once gives 6, which is t\u2082.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0021",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A geometric sequence has t\u2081 = 81 and r = 1/3. Which is the first term less than 0.01?",
+   "imageRef": null,
+   "options": [
+    "the 10th term",
+    "the 9th term",
+    "the 8th term",
+    "the 11th term"
+   ],
+   "correctIndex": 0,
+   "explanation": "We need 81 \u00d7 (1/3)\u207f\u207b\u00b9 < 0.01, so 3\u207f\u207b\u00b9 > 8100. Since 3\u2078 = 6561 and 3\u2079 = 19683, the smallest n \u2212 1 is 9 and n = 10. The 9th term is 81/6561 \u2248 0.0123, still above 0.01.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0022",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "For the sequence t\u2099 = 50 \u00d7 0.8\u207f\u207b\u00b9, as n \u2192 \u221e the terms:",
+   "imageRef": null,
+   "options": [
+    "approach 250",
+    "increase without bound",
+    "approach 0",
+    "approach 50"
+   ],
+   "correctIndex": 2,
+   "explanation": "Since 0 < r = 0.8 < 1, the powers 0.8\u207f\u207b\u00b9 shrink towards 0, so the terms approach 0. The value 250 = 50/(1 \u2212 0.8) is the limit of the sums, not of the terms.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0023",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "For which common ratio do the terms of a geometric sequence alternate in sign and grow in size without bound?",
+   "imageRef": null,
+   "options": [
+    "r = 1.5",
+    "r = \u22121.5",
+    "r = \u22120.5",
+    "r = 0.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "A negative ratio makes the signs alternate, and |r| > 1 makes the sizes grow. With r = \u22120.5 the signs alternate but the terms shrink towards 0; with r = 1.5 they grow but keep the same sign.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0024",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "For r \u2260 1, the sum of the first n terms of a geometric sequence is:",
+   "imageRef": null,
+   "options": [
+    "S\u2099 = t\u2081(1 \u2212 r\u207f)/(1 \u2212 r)",
+    "S\u2099 = t\u2081(1 \u2212 r\u207f\u207b\u00b9)/(1 \u2212 r)",
+    "S\u2099 = t\u2081(1 \u2212 r\u207f)/(1 + r)",
+    "S\u2099 = t\u2081 r\u207f/(1 \u2212 r)"
+   ],
+   "correctIndex": 0,
+   "explanation": "S\u2099 = t\u2081(1 \u2212 r\u207f)/(1 \u2212 r), equivalently t\u2081(r\u207f \u2212 1)/(r \u2212 1). The power is n, the number of terms; r\u207f\u207b\u00b9 is the power in the last term, not in the sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0025",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "To derive the geometric sum, write S = a + ar + ar\u00b2 + ... + ar\u207f\u207b\u00b9 and multiply by r. Subtracting S from rS gives:",
+   "imageRef": null,
+   "options": [
+    "rS \u2212 S = ar\u207f \u2212 a",
+    "rS \u2212 S = ar\u207f\u207b\u00b9 \u2212 a",
+    "rS \u2212 S = ar\u207f\u207a\u00b9 \u2212 a",
+    "rS \u2212 S = a \u2212 ar\u207f"
+   ],
+   "correctIndex": 0,
+   "explanation": "rS = ar + ar\u00b2 + ... + ar\u207f. Every term cancels except ar\u207f in rS and a in S, so rS \u2212 S = ar\u207f \u2212 a, giving S = a(r\u207f \u2212 1)/(r \u2212 1). The last term of rS is ar\u207f, not ar\u207f\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0026",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum of the first 8 terms of 3 + 6 + 12 + 24 + ... is:",
+   "imageRef": null,
+   "options": [
+    "381",
+    "768",
+    "384",
+    "765"
+   ],
+   "correctIndex": 3,
+   "explanation": "S\u2088 = 3(2\u2078 \u2212 1)/(2 \u2212 1) = 3 \u00d7 255 = 765. Using 2\u2077 gives 381, which is the sum of only 7 terms.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0027",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The sum of the first 6 terms of 80 + 40 + 20 + ... is:",
+   "imageRef": null,
+   "options": [
+    "158.75",
+    "157.5",
+    "155",
+    "160"
+   ],
+   "correctIndex": 1,
+   "explanation": "S\u2086 = 80(1 \u2212 (1/2)\u2076)/(1 \u2212 1/2) = 160 \u00d7 63/64 = 157.5. The value 160 is the infinite sum, which the partial sums approach but never reach.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0028",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "An infinite geometric series has a limiting sum only when:",
+   "imageRef": null,
+   "options": [
+    "r > 0",
+    "|r| > 1",
+    "t\u2081 < 1",
+    "|r| < 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "When |r| < 1, r\u207f \u2192 0, so S\u2099 = t\u2081(1 \u2212 r\u207f)/(1 \u2212 r) \u2192 t\u2081/(1 \u2212 r). If |r| \u2265 1 the terms do not shrink to 0 and the sums do not settle. The size of t\u2081 does not matter.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0029",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The limiting sum of 12 + 4 + 4/3 + ... is:",
+   "imageRef": null,
+   "options": [
+    "16",
+    "36",
+    "9",
+    "18"
+   ],
+   "correctIndex": 3,
+   "explanation": "Here t\u2081 = 12 and r = 1/3, so S\u221e = 12/(1 \u2212 1/3) = 12/(2/3) = 18. Dividing by 1 + r instead gives 9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0030",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "The limiting sum of 10 \u2212 5 + 2.5 \u2212 1.25 + ... is:",
+   "imageRef": null,
+   "options": [
+    "5",
+    "15",
+    "20/3",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "Here r = \u22121/2, so S\u221e = 10/(1 \u2212 (\u22121/2)) = 10/(3/2) = 20/3. Ignoring the sign of r gives 10/(1/2) = 20.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0031",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Writing 0.454545... as 0.45 + 0.0045 + 0.000045 + ..., its value as a fraction in lowest terms is:",
+   "imageRef": null,
+   "options": [
+    "5/11",
+    "9/20",
+    "5/9",
+    "45/101"
+   ],
+   "correctIndex": 0,
+   "explanation": "This is a geometric series with t\u2081 = 0.45 and r = 0.01, so the sum is 0.45/0.99 = 45/99 = 5/11. The fraction 9/20 is 0.45 exactly, without the repeats.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0032",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "An infinite geometric series has first term 5 and limiting sum 15. The common ratio is:",
+   "imageRef": null,
+   "options": [
+    "1/3",
+    "3",
+    "\u22122/3",
+    "2/3"
+   ],
+   "correctIndex": 3,
+   "explanation": "5/(1 \u2212 r) = 15 gives 1 \u2212 r = 1/3, so r = 2/3. Taking 1/3 as r confuses r with 1 \u2212 r. A ratio of 3 has no limiting sum.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0033",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Find the values of x for which the series 1 + 3x + 9x\u00b2 + 27x\u00b3 + ... has a limiting sum.",
+   "imageRef": null,
+   "options": [
+    "\u22121/3 < x < 1/3",
+    "\u22121 < x < 1",
+    "\u22123 < x < 3",
+    "0 < x < 1/3"
+   ],
+   "correctIndex": 0,
+   "explanation": "The common ratio is 3x, and a limiting sum needs |3x| < 1, so \u22121/3 < x < 1/3. Using |x| < 1 forgets that the ratio is 3x. Negative x is allowed: the terms just alternate in sign.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0034",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A ball is dropped from a height of 6 m. After each bounce it rises to 3/4 of the height it fell from. What total vertical distance does it travel before it comes to rest?",
+   "imageRef": null,
+   "options": [
+    "42 m",
+    "24 m",
+    "36 m",
+    "48 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "It falls 6 m, then each rise is matched by an equal fall. The rises are 4.5 + 3.375 + ... = 4.5/(1 \u2212 3/4) = 18 m, so the total is 6 + 2 \u00d7 18 = 42 m. The value 24 m = 6/(1 \u2212 3/4) counts each bounce height only once.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0035",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "$2000 is invested at 5% per annum, compounded annually. Its value after 4 years, to the nearest cent, is:",
+   "imageRef": null,
+   "options": [
+    "$2431.01",
+    "$2400.00",
+    "$2315.25",
+    "$2552.56"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each year multiplies the value by 1.05, a geometric sequence, so the value is 2000 \u00d7 1.05\u2074 = $2431.01. $2400 is simple interest, and $2315.25 is after only 3 years.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0036",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A car bought for $36 000 loses 15% of its value each year. Its value after 3 years is:",
+   "imageRef": null,
+   "options": [
+    "$18 792.23",
+    "$22 108.50",
+    "$19 800.00",
+    "$26 010.00"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each year multiplies the value by 0.85, so after 3 years it is 36 000 \u00d7 0.85\u00b3 = $22 108.50. Subtracting 45% of the original price gives $19 800, which treats the decay as arithmetic.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0037",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A 400 mg dose of a drug halves in amount every 6 hours. How much remains after 30 hours?",
+   "imageRef": null,
+   "options": [
+    "80 mg",
+    "12.5 mg",
+    "25 mg",
+    "6.25 mg"
+   ],
+   "correctIndex": 1,
+   "explanation": "30 hours is 5 half-lives, so 400 \u00d7 (1/2)\u2075 = 400/32 = 12.5 mg. Dividing 400 by 5 gives 80 mg, which treats the decay as linear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0038",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "A swarm of 5000 locusts grows by 20% each week, so after n weeks there are 5000 \u00d7 1.2\u207f. After how many whole weeks does the swarm first exceed 50 000?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "13",
+    "12",
+    "45"
+   ],
+   "correctIndex": 1,
+   "explanation": "We need 1.2\u207f > 10, so n > log 10/log 1.2 \u2248 12.6, giving 13 weeks. After 12 weeks there are about 44 580 locusts. The answer 45 assumes a fixed 1000 extra locusts a week.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0039",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "$1000 is deposited at the end of each year into an account earning 6% per annum compound interest. To the nearest cent, what is the balance just after the 10th deposit?",
+   "imageRef": null,
+   "options": [
+    "$10 000.00",
+    "$13 971.64",
+    "$1790.85",
+    "$13 180.79"
+   ],
+   "correctIndex": 3,
+   "explanation": "The deposits grow to 1000 \u00d7 1.06\u2079, ..., 1000 \u00d7 1.06, 1000, a geometric series with sum 1000(1.06\u00b9\u2070 \u2212 1)/0.06 = $13 180.79. $13 971.64 wrongly gives the last deposit a year of interest too.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-sace-sequences-series-0040",
+   "topicId": "spec-sace-sequences-series",
+   "stem": "Mia saves $500 in the first month and increases her saving by 4% each month. Her total saved after n months is 500(1.04\u207f \u2212 1)/0.04. After how many months does her total first exceed $10 000?",
+   "imageRef": null,
+   "options": [
+    "14",
+    "20",
+    "16",
+    "15"
+   ],
+   "correctIndex": 3,
+   "explanation": "We need 1.04\u207f \u2212 1 > 0.8, so 1.04\u207f > 1.8 and n > log 1.8/log 1.04 \u2248 14.99, giving 15 months. The total after 14 months is about $9146 and after 15 months about $10 012. The answer 20 ignores the growth: 10 000/500.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-sace-sequences-series-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

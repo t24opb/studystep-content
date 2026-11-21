@@ -1,0 +1,689 @@
+{
+ "topicId": "meth-sace-polynomial-zeros",
+ "questions": [
+  {
+   "id": "meth-sace-polynomial-zeros-0001",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "For the quadratic equation ax\u00b2 + bx + c = 0 with real zeros \u03b1 and \u03b2, what are \u03b1 + \u03b2 and \u03b1\u03b2?",
+   "imageRef": null,
+   "options": [
+    "\u03b1 + \u03b2 = b/a and \u03b1\u03b2 = c/a",
+    "\u03b1 + \u03b2 = \u2212b/a and \u03b1\u03b2 = \u2212c/a",
+    "\u03b1 + \u03b2 = c/a and \u03b1\u03b2 = \u2212b/a",
+    "\u03b1 + \u03b2 = \u2212b/a and \u03b1\u03b2 = c/a"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expanding a(x \u2212 \u03b1)(x \u2212 \u03b2) = ax\u00b2 \u2212 a(\u03b1 + \u03b2)x + a\u03b1\u03b2 and matching coefficients gives \u03b1 + \u03b2 = \u2212b/a and \u03b1\u03b2 = c/a. Forgetting the minus sign on the sum is the usual slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0002",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Find the sum and product of the zeros of 2x\u00b2 \u2212 7x + 3 = 0.",
+   "imageRef": null,
+   "options": [
+    "Sum 7, product 3",
+    "Sum 3/2, product 7/2",
+    "Sum 7/2, product 3/2",
+    "Sum \u22127/2, product 3/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sum = \u2212b/a = 7/2 and product = c/a = 3/2. Check: the zeros are 3 and 1/2, with sum 3.5 and product 1.5. Leaving out the division by a = 2 gives 7 and 3.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0003",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Which quadratic equation has zeros 3 and \u22125?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 8x \u2212 15 = 0",
+    "x\u00b2 + 2x \u2212 15 = 0",
+    "x\u00b2 \u2212 2x \u2212 15 = 0",
+    "x\u00b2 + 2x + 15 = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum is \u22122 and the product \u221215, so x\u00b2 \u2212 (sum)x + (product) = x\u00b2 + 2x \u2212 15. Using the sum without changing its sign gives x\u00b2 \u2212 2x \u2212 15, which has zeros \u22123 and 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0004",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Which quadratic equation with integer coefficients has zeros 2 + \u221a3 and 2 \u2212 \u221a3?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 4x \u2212 1 = 0",
+    "x\u00b2 \u2212 4x + 1 = 0",
+    "x\u00b2 + 4x + 1 = 0",
+    "x\u00b2 \u2212 4x + 7 = 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "The sum is 4 and the product is (2 + \u221a3)(2 \u2212 \u221a3) = 4 \u2212 3 = 1, giving x\u00b2 \u2212 4x + 1 = 0. Adding instead of subtracting the 3 in the product gives 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0005",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Which quadratic equation has zeros 1 + \u221a5 and 1 \u2212 \u221a5?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 2x \u2212 6 = 0",
+    "x\u00b2 + 2x \u2212 4 = 0",
+    "x\u00b2 \u2212 2x \u2212 4 = 0",
+    "x\u00b2 \u2212 2x + 4 = 0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The sum is 2 and the product is 1 \u2212 5 = \u22124, so the equation is x\u00b2 \u2212 2x \u2212 4 = 0. The product of conjugates is a difference of squares, so the result is negative here.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0006",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Simplify (3 + \u221a2)(3 \u2212 \u221a2).",
+   "imageRef": null,
+   "options": [
+    "9 \u2212 \u221a2",
+    "5",
+    "7",
+    "11"
+   ],
+   "correctIndex": 2,
+   "explanation": "This is a difference of squares: 3\u00b2 \u2212 (\u221a2)\u00b2 = 9 \u2212 2 = 7. Adding the squares gives 11.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0007",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "\u03b1 and \u03b2 are the zeros of x\u00b2 \u2212 5x + 2 = 0. Find \u03b1\u00b2 + \u03b2\u00b2.",
+   "imageRef": null,
+   "options": [
+    "25",
+    "29",
+    "23",
+    "21"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03b1 + \u03b2 = 5 and \u03b1\u03b2 = 2, and \u03b1\u00b2 + \u03b2\u00b2 = (\u03b1 + \u03b2)\u00b2 \u2212 2\u03b1\u03b2 = 25 \u2212 4 = 21. Taking \u03b1\u00b2 + \u03b2\u00b2 as (\u03b1 + \u03b2)\u00b2 forgets the \u22122\u03b1\u03b2 term and gives 25.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0008",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "\u03b1 and \u03b2 are the zeros of x\u00b2 \u2212 5x + 2 = 0. Find 1/\u03b1 + 1/\u03b2.",
+   "imageRef": null,
+   "options": [
+    "2/5",
+    "\u22125/2",
+    "1/7",
+    "5/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "1/\u03b1 + 1/\u03b2 = (\u03b1 + \u03b2)/(\u03b1\u03b2) = 5/2. Inverting the fraction gives 2/5, and 1/7 adds the two values as if 1/\u03b1 + 1/\u03b2 were 1/(\u03b1 + \u03b2 + \u03b1\u03b2).",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0009",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "One zero of x\u00b2 \u2212 6x + k is 2. Find the other zero and the value of k.",
+   "imageRef": null,
+   "options": [
+    "Other zero 3, k = 6",
+    "Other zero 4, k = 8",
+    "Other zero \u22128, k = \u221216",
+    "Other zero 4, k = 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The zeros add to 6, so the other zero is 4, and their product is k = 2 \u00d7 4 = 8. Check: 4 \u2212 12 + 8 = 0 at x = 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0010",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "The zeros of x\u00b2 + kx + 12 are both positive, and one is three times the other. Find k.",
+   "imageRef": null,
+   "options": [
+    "\u22128",
+    "8",
+    "\u22126",
+    "\u22124"
+   ],
+   "correctIndex": 0,
+   "explanation": "Let the zeros be \u03b1 and 3\u03b1. Their product 3\u03b1\u00b2 = 12 gives \u03b1 = 2 (positive), so the zeros are 2 and 6. Their sum 8 equals \u2212k, so k = \u22128. The value 8 forgets that the sum is \u2212k.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0011",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A quadratic with integer coefficients has one zero 3 \u2212 \u221a2. What is the other zero?",
+   "imageRef": null,
+   "options": [
+    "3 + \u221a2",
+    "\u22123 + \u221a2",
+    "\u22123 \u2212 \u221a2",
+    "\u221a2 \u2212 3"
+   ],
+   "correctIndex": 0,
+   "explanation": "For the sum and product of the zeros to be rational, the surd parts must cancel, so the other zero is the conjugate 3 + \u221a2. The sum is then 6 and the product 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0012",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "\u03b1 and \u03b2 are the zeros of x\u00b2 \u2212 3x + 1 = 0. Which equation has zeros 2\u03b1 and 2\u03b2?",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 \u2212 6x + 2 = 0",
+    "x\u00b2 \u2212 3x + 4 = 0",
+    "x\u00b2 \u2212 6x + 1 = 0",
+    "x\u00b2 \u2212 6x + 4 = 0"
+   ],
+   "correctIndex": 3,
+   "explanation": "The new sum is 2(\u03b1 + \u03b2) = 6 and the new product is 4\u03b1\u03b2 = 4, giving x\u00b2 \u2212 6x + 4 = 0. Doubling the product instead of multiplying it by 4 gives x\u00b2 \u2212 6x + 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0013",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Two numbers have sum 6 and product \u22127. Using a quadratic equation, find them.",
+   "imageRef": null,
+   "options": [
+    "3 + \u221a2 and 3 \u2212 \u221a2",
+    "6 and \u22127",
+    "7 and \u22121",
+    "\u22127 and 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "They are the zeros of x\u00b2 \u2212 6x \u2212 7 = (x \u2212 7)(x + 1), so the numbers are 7 and \u22121. Check: 7 + (\u22121) = 6 and 7 \u00d7 (\u22121) = \u22127.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0014",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A parabola has zeros 1 and 5 and passes through (0, 10). What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = 10(x \u2212 1)(x \u2212 5)",
+    "y = 2(x + 1)(x + 5)",
+    "y = 2(x \u2212 1)(x \u2212 5)",
+    "y = (x \u2212 1)(x \u2212 5) + 10"
+   ],
+   "correctIndex": 2,
+   "explanation": "Write y = a(x \u2212 1)(x \u2212 5). At x = 0, y = 5a = 10, so a = 2. Adding 10 to the factored form moves the zeros away from 1 and 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0015",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A ball is kicked from the origin and lands 20 m away, reaching a maximum height of 5 m halfway. Which rule models its path?",
+   "imageRef": null,
+   "options": [
+    "y = \u22120.05x(x \u2212 20)",
+    "y = \u22120.25x(x \u2212 20)",
+    "y = 0.05x(x \u2212 20)",
+    "y = \u22120.05x(x + 20)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The zeros are 0 and 20, so y = ax(x \u2212 20). At x = 10, \u2212100a = 5, so a = \u22120.05. A positive a would give a parabola opening upwards.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0016",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A bridge arch is parabolic, meeting the ground at x = \u221230 and x = 30 metres and rising to 18 m at its centre. What is its rule?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212(x \u2212 30)(x + 30)/18",
+    "y = (x \u2212 30)(x + 30)/50",
+    "y = \u221218(x \u2212 30)(x + 30)",
+    "y = \u2212(x \u2212 30)(x + 30)/50"
+   ],
+   "correctIndex": 3,
+   "explanation": "Write y = a(x \u2212 30)(x + 30). At x = 0, \u2212900a = 18, so a = \u22121/50. Using a = \u22121/18 makes the height at the centre 50 m instead of 18 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0017",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A quadratic is positive definite when:",
+   "imageRef": null,
+   "options": [
+    "the discriminant equals zero",
+    "a > 0 and the discriminant is negative",
+    "a < 0 and the discriminant is negative",
+    "a > 0 and the discriminant is positive"
+   ],
+   "correctIndex": 1,
+   "explanation": "With a > 0 the parabola opens upwards, and a negative discriminant means it has no x-intercepts, so it is above the axis for every x. A zero discriminant means it touches the axis.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0018",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Which quadratic is negative definite (negative for every value of x)?",
+   "imageRef": null,
+   "options": [
+    "y = x\u00b2 + 2x + 5",
+    "y = \u2212x\u00b2 + 4x \u2212 4",
+    "y = \u2212x\u00b2 + 2x \u2212 5",
+    "y = \u2212x\u00b2 + 2x + 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "For \u2212x\u00b2 + 2x \u2212 5, a < 0 and the discriminant is 4 \u2212 20 = \u221216 < 0, so it never reaches the axis. \u2212x\u00b2 + 4x \u2212 4 = \u2212(x \u2212 2)\u00b2 touches the axis at x = 2, where it equals 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0019",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "What can be said about the zeros of x\u00b2 \u2212 10x + 25?",
+   "imageRef": null,
+   "options": [
+    "There are two distinct zeros, 5 and \u22125",
+    "There are no real zeros",
+    "There are two identical zeros, x = \u22125",
+    "There are two identical zeros, x = 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "The discriminant is 100 \u2212 100 = 0, and x\u00b2 \u2212 10x + 25 = (x \u2212 5)\u00b2, so the graph touches the axis at x = 5. The value \u22125 comes from a sign slip in the factor.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0020",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Given that x \u2212 1 is a factor of x\u00b3 \u2212 7x + 6, find the quadratic factor.",
+   "imageRef": null,
+   "options": [
+    "x\u00b2 + x \u2212 6",
+    "x\u00b2 \u2212 x \u2212 6",
+    "x\u00b2 + x + 6",
+    "x\u00b2 \u2212 7x + 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "Write x\u00b3 \u2212 7x + 6 = (x \u2212 1)(x\u00b2 + bx + c). Comparing x\u00b2 terms gives b \u2212 1 = 0, so b = 1, and constants give \u2212c = 6, so c = \u22126. Check: (x \u2212 1)(x\u00b2 + x \u2212 6) expands back correctly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0021",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Given that x = 1 is a solution of x\u00b3 \u2212 2x\u00b2 \u2212 5x + 6 = 0, find all the solutions.",
+   "imageRef": null,
+   "options": [
+    "x = 1, \u22123, 2",
+    "x = 1, 2, 3",
+    "x = \u22121, 3, \u22122",
+    "x = 1, 3, \u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "Factorise as (x \u2212 1)(x\u00b2 \u2212 x \u2212 6) = (x \u2212 1)(x \u2212 3)(x + 2), so x = 1, 3 or \u22122. The set 1, \u22123, 2 comes from a sign slip in the quadratic factor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0022",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "How many real zeros does x\u00b3 + x\u00b2 + x + 1 = (x + 1)(x\u00b2 + 1) have?",
+   "imageRef": null,
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "None"
+   ],
+   "correctIndex": 0,
+   "explanation": "x + 1 = 0 gives x = \u22121, but x\u00b2 + 1 is never zero for real x. A cubic always has at least one real zero, so \"none\" is impossible.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0023",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "If x\u00b3 + 4x\u00b2 + x \u2212 6 = (x \u2212 1)(x\u00b2 + bx + c) for all x, find b and c.",
+   "imageRef": null,
+   "options": [
+    "b = 4, c = 6",
+    "b = 5, c = 6",
+    "b = 3, c = 6",
+    "b = 5, c = \u22126"
+   ],
+   "correctIndex": 1,
+   "explanation": "The x\u00b2 terms give b \u2212 1 = 4, so b = 5, and the constants give \u2212c = \u22126, so c = 6. Then x\u00b2 + 5x + 6 = (x + 2)(x + 3), so the zeros are 1, \u22122 and \u22123.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0024",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "What are the degree and the leading coefficient of (2x \u2212 1)(x + 3)\u00b2?",
+   "imageRef": null,
+   "options": [
+    "Degree 3, leading coefficient 2",
+    "Degree 2, leading coefficient 2",
+    "Degree 3, leading coefficient 1",
+    "Degree 3, leading coefficient \u22129"
+   ],
+   "correctIndex": 0,
+   "explanation": "The highest power comes from 2x \u00d7 x\u00b2, giving 2x\u00b3, so the degree is 3 and the leading coefficient 2. The constant term, \u22129, is not the leading coefficient.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0025",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "For y = \u22122x\u00b3 + 5x\u00b2 + 1, what happens to y as x \u2192 \u221e?",
+   "imageRef": null,
+   "options": [
+    "y \u2192 \u22122",
+    "y \u2192 \u2212\u221e",
+    "y \u2192 \u221e",
+    "y \u2192 0"
+   ],
+   "correctIndex": 1,
+   "explanation": "For large x the leading term \u22122x\u00b3 dominates, and it is large and negative, so y \u2192 \u2212\u221e. The other terms become negligible by comparison.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0026",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "How do both ends of the graph of y = x\u2074 behave?",
+   "imageRef": null,
+   "options": [
+    "Both level off towards y = 0",
+    "Both rise: y \u2192 \u221e as x \u2192 \u00b1\u221e",
+    "Both fall: y \u2192 \u2212\u221e as x \u2192 \u00b1\u221e",
+    "The left end falls and the right end rises"
+   ],
+   "correctIndex": 1,
+   "explanation": "An even power is positive for large positive or negative x, so both ends of y = x\u2074 rise. Opposite end behaviour is typical of odd degree, like a cubic.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0027",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "How do the ends of the graph of y = \u2212x\u2074 + 3x\u00b2 behave?",
+   "imageRef": null,
+   "options": [
+    "y \u2192 3 as x \u2192 \u00b1\u221e",
+    "y \u2192 \u2212\u221e as x \u2192 \u00b1\u221e",
+    "y \u2192 \u221e as x \u2192 \u00b1\u221e",
+    "y \u2192 \u221e as x \u2192 \u2212\u221e and y \u2192 \u2212\u221e as x \u2192 \u221e"
+   ],
+   "correctIndex": 1,
+   "explanation": "The leading term \u2212x\u2074 is negative for all large |x|, so both ends fall. A quartic with a negative leading coefficient opens downwards at both ends.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0028",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "At which x-intercepts does the graph of y = (x \u2212 1)\u00b2(x + 2)(x \u2212 3) touch the axis without crossing it?",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 and x = 3",
+    "x = 1 and x = 3",
+    "x = \u22122, 1 and 3",
+    "x = 1 only"
+   ],
+   "correctIndex": 3,
+   "explanation": "A squared factor gives a zero where the graph touches the axis, so it touches at x = 1. The single factors at x = \u22122 and x = 3 are where it crosses.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0029",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "What is the y-intercept of y = (x \u2212 1)\u00b2(x + 2)(x \u2212 3)?",
+   "imageRef": null,
+   "options": [
+    "\u22126",
+    "6",
+    "\u22123",
+    "2"
+   ],
+   "correctIndex": 0,
+   "explanation": "At x = 0, y = (\u22121)\u00b2 \u00d7 2 \u00d7 (\u22123) = 1 \u00d7 2 \u00d7 (\u22123) = \u22126. Treating (\u22121)\u00b2 as \u22121 gives 6.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0030",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Which describes the graph of y = (x + 1)\u00b2(x \u2212 2)\u00b2?",
+   "imageRef": null,
+   "options": [
+    "It is below the x-axis between x = \u22121 and 2",
+    "It never goes below the x-axis and touches it at x = \u22121 and 2",
+    "It crosses the x-axis at x = \u22121 and 2",
+    "It touches the x-axis at x = 1 and \u22122 only"
+   ],
+   "correctIndex": 1,
+   "explanation": "It is a product of squares, so y \u2265 0 everywhere, and both zeros come from squared factors, where the graph touches. Between them it rises above the axis, not below.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0031",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A graph of the form y = a(x \u2212 2)\u2074 \u2212 16 passes through the origin. Find a and the other x-intercept.",
+   "imageRef": null,
+   "options": [
+    "a = \u22121, other intercept x = 4",
+    "a = 16, other intercept x = 2",
+    "a = 1, other intercept x = 4",
+    "a = 1, other intercept x = \u22124"
+   ],
+   "correctIndex": 2,
+   "explanation": "At x = 0, 16a \u2212 16 = 0 so a = 1. Then (x \u2212 2)\u2074 = 16 gives x \u2212 2 = \u00b12, so x = 0 or 4. The graph is symmetric about x = 2, so the intercepts are equally spaced either side.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0032",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Solve x\u2074 \u2212 5x\u00b2 + 4 = 0.",
+   "imageRef": null,
+   "options": [
+    "x = 1, 2",
+    "x = \u00b11, \u00b12",
+    "x = 1, 4",
+    "x = \u00b11, \u00b14"
+   ],
+   "correctIndex": 1,
+   "explanation": "Treat it as a quadratic in x\u00b2: (x\u00b2 \u2212 1)(x\u00b2 \u2212 4) = 0, so x\u00b2 = 1 or 4 and x = \u00b11 or \u00b12. Stopping at x\u00b2 = 1 or 4 gives 1 and 4, which are values of x\u00b2, not x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0033",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "How many real solutions does x\u2074 \u2212 3x\u00b2 \u2212 4 = 0 have?",
+   "imageRef": null,
+   "options": [
+    "None",
+    "Two",
+    "Four",
+    "One"
+   ],
+   "correctIndex": 1,
+   "explanation": "Factorise as (x\u00b2 \u2212 4)(x\u00b2 + 1) = 0. x\u00b2 = 4 gives x = \u00b12, but x\u00b2 = \u22121 has no real solution, so there are two. Assuming every quartic has four real solutions is the trap.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0034",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "What is the greatest number of x-intercepts the graph of a quartic function can have?",
+   "imageRef": null,
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correctIndex": 1,
+   "explanation": "A polynomial of degree 4 has at most 4 real zeros, so its graph meets the x-axis at most 4 times. It can have at most 3 turning points.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0035",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "Where does the graph of y = x\u2074 \u2212 4x\u00b2 meet the x-axis?",
+   "imageRef": null,
+   "options": [
+    "At x = \u00b12 only",
+    "At x = 0 (crossing) and x = \u00b12 (touching)",
+    "At x = \u00b14 and x = 0",
+    "At x = 0 (touching) and x = \u00b12 (crossing)"
+   ],
+   "correctIndex": 3,
+   "explanation": "y = x\u00b2(x\u00b2 \u2212 4) = x\u00b2(x \u2212 2)(x + 2), so the squared factor gives a touch at 0 and the other factors give crossings at \u00b12. The value 4 is x\u00b2, not x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-sace-polynomial-zeros-0036",
+   "topicId": "meth-sace-polynomial-zeros",
+   "stem": "A quartic has a negative leading coefficient, touches the x-axis at x = 0 and crosses it at x = \u00b13. Which rule fits?",
+   "imageRef": null,
+   "options": [
+    "y = \u2212x\u00b2(x\u00b2 \u2212 9)",
+    "y = x\u00b2(x\u00b2 \u2212 9)",
+    "y = \u2212x(x\u00b2 \u2212 9)",
+    "y = \u2212x\u00b2(x\u00b2 + 9)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Touching at 0 needs the factor x\u00b2, and crossing at \u00b13 needs (x \u2212 3)(x + 3) = x\u00b2 \u2212 9. The leading term of \u2212x\u00b2(x\u00b2 \u2212 9) is \u2212x\u2074. Using x\u00b2 + 9 gives no zeros at \u00b13.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-sace-polynomial-zeros-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

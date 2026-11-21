@@ -1,0 +1,689 @@
+{
+ "topicId": "bio-bsss-biodiversity",
+ "questions": [
+  {
+   "id": "bio-bsss-biodiversity-0001",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which statement best describes ecosystem diversity?",
+   "imageRef": null,
+   "options": [
+    "The number of different species living together in one ecosystem",
+    "The variety of alleles present in the gene pool of a single population",
+    "The total number of individual organisms living in an ecosystem",
+    "The range of ecosystem types, such as forests and reefs, in a region"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ecosystem diversity is the range of ecosystem types in an area. The number of species in one ecosystem is species richness, part of species diversity, and the variety of alleles is genetic diversity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0002",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "What is species richness?",
+   "imageRef": null,
+   "options": [
+    "The total biomass of all the species present in an area",
+    "How evenly individuals are spread among the species present",
+    "The number of different species present in an area",
+    "The proportion of individuals that belong to the commonest species"
+   ],
+   "correctIndex": 2,
+   "explanation": "Species richness is simply a count of species. How evenly individuals are spread among those species is species evenness, a separate component of diversity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0003",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Two woodland sites each contain the same four bird species and 40 birds. At site P each species has 10 birds; at site Q one species has 37 birds and the others have 1 each. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Site Q has the higher diversity because it has one very successful species",
+    "Site P has the higher richness because its birds are spread more evenly",
+    "Both have equal richness, but site P has the higher species diversity",
+    "Both sites have equal diversity because they contain the same four species"
+   ],
+   "correctIndex": 2,
+   "explanation": "Richness counts species, so both sites score four. Diversity also takes evenness into account, and site P's even spread makes it more diverse; a site dominated by one species is less diverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0004",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Simpson's diversity index can be calculated as D = 1 - [sum of n(n - 1)] / [N(N - 1)]. A quadrat contains 5 plants of species A, 3 of species B and 2 of species C. What is D?",
+   "imageRef": null,
+   "options": [
+    "0.62",
+    "3.0",
+    "0.69",
+    "0.31"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sum of n(n - 1) = 20 + 6 + 2 = 28, and N(N - 1) = 10 x 9 = 90, so D = 1 - 28/90 = 0.69. Forgetting to subtract from 1 gives 0.31, and 3 is the species richness rather than the index.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0005",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Using D = 1 - [sum of n(n - 1)] / [N(N - 1)], site X (12, 6 and 2 individuals of three species) gives D = 0.57 and site Y (8, 6, 4 and 2 individuals of four species) gives D = 0.74. Which conclusion is best supported?",
+   "imageRef": null,
+   "options": [
+    "Site Y is less diverse, because a higher D means fewer species are present",
+    "Site Y is more diverse, because it has more species spread more evenly",
+    "Site X is more diverse, because its commonest species is more abundant",
+    "The sites are equally diverse, because both contain 20 individuals"
+   ],
+   "correctIndex": 1,
+   "explanation": "In this form of Simpson's index, D runs from 0 to 1 and a higher value means greater diversity. Site Y has both more species and a more even spread, so it scores higher; equal total numbers say nothing about diversity.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0006",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Why do measures of biodiversity depend on classification?",
+   "imageRef": null,
+   "options": [
+    "Classification shows which species are most abundant, so rare species can be left out",
+    "Organisms must be identified to species before species can be counted",
+    "Classification assigns each species a value that is added up to give the diversity index",
+    "Only species already listed in a classification key are allowed to be counted in a survey"
+   ],
+   "correctIndex": 1,
+   "explanation": "A diversity index counts species and the individuals in each, so every organism must first be identified to species. If two species are lumped together or one is split in two, the measured diversity changes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0007",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Ecologists repeat the same bird survey at a wetland every spring for 15 years. What is the main purpose of this design?",
+   "imageRef": null,
+   "options": [
+    "To make each year's survey independent of the classification used",
+    "To compare biodiversity at the same place across a temporal scale",
+    "To compare biodiversity across a spatial scale between different wetlands",
+    "To increase the number of species present at the wetland each year"
+   ],
+   "correctIndex": 1,
+   "explanation": "Repeating a survey at one site over time compares biodiversity on a temporal scale and can reveal long-term change. Comparing different sites at the same time is a spatial comparison.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0008",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which list shows the classification levels in order from most inclusive to least inclusive?",
+   "imageRef": null,
+   "options": [
+    "Species, genus, family, order, class, phylum, kingdom, domain",
+    "Domain, kingdom, phylum, class, order, family, genus, species",
+    "Kingdom, domain, class, phylum, order, family, species, genus",
+    "Domain, kingdom, class, phylum, family, order, genus, species"
+   ],
+   "correctIndex": 1,
+   "explanation": "Classification is hierarchical: each level groups organisms that share more features than the level above. The list running from species up to domain is in the reverse order, and the others swap class and phylum or family and order.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0009",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "The eastern grey kangaroo is Macropus giganteus. What does the first word of this name tell you?",
+   "imageRef": null,
+   "options": [
+    "The genus to which the species belongs",
+    "The family to which the species belongs",
+    "The species within the genus Giganteus",
+    "The scientist who first named the species"
+   ],
+   "correctIndex": 0,
+   "explanation": "In binomial nomenclature the first name is the genus, written with a capital letter, and the second is the specific name, written in lower case. Together the two names identify the species.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0010",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "The koala and the eastern grey kangaroo are in the same order (Diprotodontia) but different families. Which statement must be true?",
+   "imageRef": null,
+   "options": [
+    "They are in different classes within the same phylum",
+    "They are in the same class and phylum",
+    "They are in the same genus but not the same species",
+    "They share more features than two species in one family"
+   ],
+   "correctIndex": 1,
+   "explanation": "Organisms in the same order are automatically in the same class, phylum, kingdom and domain, because each level sits inside the one above. Being in different families means they cannot share a genus, and they share fewer features than species within one family.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0011",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Modern biological classification groups organisms using which kinds of evidence?",
+   "imageRef": null,
+   "options": [
+    "Size and colour, because these are the easiest features to measure in the field",
+    "Physical features, methods of reproduction and molecular sequences such as DNA",
+    "Physical features only, because molecular data cannot be compared between species",
+    "Habitat and diet, because organisms that live together are most closely related"
+   ],
+   "correctIndex": 1,
+   "explanation": "Classification uses levels of similarity in structure, reproduction and DNA or protein sequences. Habitat and diet are poor guides, since unrelated organisms often share a habitat or diet.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0012",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "The sugar glider (a marsupial) and the North American flying squirrel (a placental mammal) look very alike and both glide on skin flaps. Why are they placed in different orders?",
+   "imageRef": null,
+   "options": [
+    "Their gliding membranes are made of different tissues, so they cannot be in the same class",
+    "They live on different continents, and species on different continents are always in different orders",
+    "Their similar body forms show they are close relatives, but naming rules require different orders",
+    "Their reproduction and DNA show they are distantly related; the gliding body form evolved separately"
+   ],
+   "correctIndex": 3,
+   "explanation": "Similar features can evolve independently in unrelated groups that face similar demands, which is convergent evolution. Reproductive features and molecular sequences show the two are not closely related, so classification places them apart; geography alone is not a basis for classification.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0013",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Into which three domains are all living organisms classified?",
+   "imageRef": null,
+   "options": [
+    "Archaea, Plantae and Animalia",
+    "Bacteria, Archaea and Eukarya",
+    "Bacteria, Protista and Eukarya",
+    "Prokaryota, Fungi and Eukarya"
+   ],
+   "correctIndex": 1,
+   "explanation": "The three-domain system separates the two groups of prokaryotes, Bacteria and Archaea, which differ in their molecular sequences, from Eukarya, which includes protists, fungi, plants and animals.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0014",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Why were the Archaea separated from the Bacteria as a domain?",
+   "imageRef": null,
+   "options": [
+    "Archaea were found to be multicellular, while bacteria always live as single cells",
+    "Archaea were found to reproduce sexually, while bacteria reproduce only by binary fission",
+    "Ribosomal RNA sequences showed the two groups are very different lineages",
+    "Archaea were found to have a nucleus and membrane-bound organelles, which bacteria lack"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both groups are prokaryotes: single-celled, with no nucleus. The split came from molecular evidence, especially ribosomal RNA sequences, showing that archaea and bacteria are fundamentally different lineages.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0015",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "What is a dichotomous key used for?",
+   "imageRef": null,
+   "options": [
+    "Identifying an organism using a series of paired choices about features",
+    "Showing the evolutionary relationships between groups with a branching diagram",
+    "Measuring the biodiversity of an area by counting the species it contains",
+    "Showing the flow of energy through the feeding relationships in an ecosystem"
+   ],
+   "correctIndex": 0,
+   "explanation": "A dichotomous key offers two contrasting statements at each step, leading the user to a name. A branching diagram showing ancestry is a cladogram or phylogenetic tree, which is a different tool.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0016",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "A key reads: 1a Six legs ... go to 2; 1b Eight legs ... spider. 2a Wings present ... go to 3; 2b Wings absent ... silverfish. 3a Two wings ... fly; 3b Four wings ... go to 4. An animal has six legs and four wings. What step is reached next?",
+   "imageRef": null,
+   "options": [
+    "Step 4",
+    "Spider",
+    "Silverfish",
+    "Fly"
+   ],
+   "correctIndex": 0,
+   "explanation": "Six legs leads from 1a to step 2, wings present leads from 2a to step 3, and four wings leads from 3b to step 4. The animal is not a fly, which has two wings.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0017",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which pair of statements would work best as one step in a dichotomous key?",
+   "imageRef": null,
+   "options": [
+    "Plant found near water / Plant found in shade",
+    "Flowers present in spring / Leaves usually shiny",
+    "Leaves with smooth edges / Leaves with toothed edges",
+    "Leaves fairly large / Leaves green in colour"
+   ],
+   "correctIndex": 2,
+   "explanation": "A good key step uses one feature with two clear, mutually exclusive states that can be observed on the specimen. The other pairs mix different features, use vague terms such as fairly large, or depend on where and when the plant was found.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0018",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "A key to eucalypts separates species at its first step using the colour of the flowers. Why might this key fail for many specimens collected in the field?",
+   "imageRef": null,
+   "options": [
+    "Keys must always begin with the habitat of the plant rather than any physical feature",
+    "Colour is a quantitative feature, and keys can only use features that are measured",
+    "Flowers are present for only part of the year, so most specimens cannot be keyed out",
+    "Flower colour is controlled by genes, so it cannot be used to tell species apart"
+   ],
+   "correctIndex": 2,
+   "explanation": "A useful key relies on features present on the specimen in hand. If a tree is not flowering, the user cannot get past the first step; leaf, bark or fruit features are usually more reliable.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0019",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Why do modern classification systems aim to reflect evolutionary relatedness?",
+   "imageRef": null,
+   "options": [
+    "So that organisms living in the same type of habitat are always placed together in one group",
+    "So that each group contains about the same number of species, which makes comparisons simpler",
+    "So that organisms with the same body shape are grouped, since shape never evolves independently",
+    "So that members of a group share a more recent common ancestor with each other"
+   ],
+   "correctIndex": 3,
+   "explanation": "Groups that reflect shared ancestry allow predictions: members of a group are likely to share genes, biochemistry and other traits. Body shape can evolve independently in unrelated groups, so it is not a safe guide on its own.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0020",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "The amino acid sequence of a protein found in all mammals is compared with the human sequence. Species P differs at 1 position, species Q at 11 positions and species R at 0 positions. What do these data suggest?",
+   "imageRef": null,
+   "options": [
+    "The protein is useless for classification, since it is found in all of the species",
+    "Humans share a more recent common ancestor with species P than with species Q",
+    "Humans evolved from species R, since the two protein sequences are identical",
+    "Species Q is unrelated to humans, since 11 differences is too many to share an ancestor"
+   ],
+   "correctIndex": 1,
+   "explanation": "Fewer sequence differences indicate a more recent common ancestor, so species P is closer to humans than species Q. Identical sequences show a close relationship, not that one living species evolved from another, and all mammals share a common ancestor.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0021",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Whales were once grouped with fish because of their body shape. What evidence led to their classification as mammals?",
+   "imageRef": null,
+   "options": [
+    "They live in the ocean and have fins and a streamlined body for swimming",
+    "They are much larger than fish and swim by moving their tails sideways",
+    "They lay eggs in the open sea and their young hatch with gills like fish",
+    "They breathe with lungs, produce milk and have mammalian DNA sequences"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reproduction, physiology and molecular sequences all place whales with mammals. A streamlined body with fins is shared with fish because of similar ways of life, not common ancestry; whales give birth to live young and move their tails up and down.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0022",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Under the biological species concept, what is a species?",
+   "imageRef": null,
+   "options": [
+    "A group that can interbreed in natural conditions to produce fertile offspring",
+    "A group of organisms that look alike, regardless of whether they can interbreed",
+    "A group of organisms that live in the same habitat and share the same food",
+    "A group of organisms that can produce offspring, whether or not they are fertile"
+   ],
+   "correctIndex": 0,
+   "explanation": "The biological definition rests on producing fertile offspring under natural conditions. Organisms that produce only sterile offspring, such as horses and donkeys producing mules, are separate species.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0023",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "A horse and a donkey can mate and produce a mule, but mules are almost always sterile. How does this fit the biological species concept?",
+   "imageRef": null,
+   "options": [
+    "The concept cannot be applied, because horses and donkeys are domestic animals",
+    "Horses and donkeys are separate species, as their offspring are not fertile",
+    "Horses and donkeys are one species, because they can mate and produce offspring",
+    "Mules are a new species, because they differ in appearance from both parents"
+   ],
+   "correctIndex": 1,
+   "explanation": "Producing offspring is not enough: the offspring must be fertile. Because mules are sterile, horse and donkey gene pools stay separate, so they are different species.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0024",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Why can the biological species concept not be applied to bacteria?",
+   "imageRef": null,
+   "options": [
+    "Bacteria have no DNA, so their offspring cannot be compared with their parents",
+    "Bacteria always interbreed freely, so every bacterium would belong to one species",
+    "Bacteria reproduce asexually, so a test based on interbreeding does not apply",
+    "Bacteria are too small to observe, so whether they interbreed cannot ever be checked"
+   ],
+   "correctIndex": 2,
+   "explanation": "Bacteria reproduce by binary fission, which is asexual, so there is no interbreeding to test. Bacterial species are defined instead by genetic similarity, such as the proportion of shared DNA sequence.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0025",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Two populations of frogs look identical, but their mating calls differ, they never interbreed in the wild and their DNA differs considerably. How should they be described?",
+   "imageRef": null,
+   "options": [
+    "As separate species that a definition based on form alone would combine",
+    "As one species, because a morphological definition is the most reliable test",
+    "As one species, because frogs that look the same must be able to interbreed",
+    "As two populations of one species that are separated only by their location"
+   ],
+   "correctIndex": 0,
+   "explanation": "These are cryptic species: alike in appearance but reproductively isolated and genetically distinct. They are an exception that shows a definition based only on morphology can fail.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0026",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Polar bears and grizzly bears are classified as separate species, yet wild hybrids occur and some hybrids have produced offspring of their own. What does this example show?",
+   "imageRef": null,
+   "options": [
+    "Polar bears and grizzly bears must be reclassified as one species under any definition",
+    "Hybrids between species are always sterile, so the hybrid offspring must have been misidentified",
+    "Morphological similarity is the only reliable basis for deciding whether animals are one species",
+    "Species definitions have exceptions, since fertile hybrids can occur between species"
+   ],
+   "correctIndex": 3,
+   "explanation": "Fertile hybrids between recognised species are an exception to the interbreeding definition. The two bears remain separate species because they differ greatly in form, ecology and genetics and mostly breed only with their own kind.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0027",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which definition of species is most useful for identifying organisms known only from fossils?",
+   "imageRef": null,
+   "options": [
+    "A biological definition based on producing fertile offspring",
+    "A genetic definition based on comparing whole genome sequences",
+    "An ecological definition based on observing feeding behaviour",
+    "A morphological definition based on similarity of physical structure"
+   ],
+   "correctIndex": 3,
+   "explanation": "Fossils preserve form, usually hard parts, so they can only be grouped by morphology. Interbreeding cannot be tested, and DNA and behaviour are rarely or never preserved.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0028",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which statement about the main definitions of species is correct?",
+   "imageRef": null,
+   "options": [
+    "Each common definition is useful, but exceptions are found for all of them",
+    "The interbreeding definition works for every organism, so the others are unused",
+    "The morphological definition is never used now that DNA can be sequenced",
+    "A genetic definition has no exceptions because DNA is the same in every species"
+   ],
+   "correctIndex": 0,
+   "explanation": "Morphological, genetic and interbreeding definitions are each useful in different situations, and each has cases that do not fit neatly, such as asexual organisms, hybrids and cryptic species.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0029",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "What is a habitat?",
+   "imageRef": null,
+   "options": [
+    "The role an organism plays in its community, including what it feeds on",
+    "All the populations of different species living together in one area",
+    "The total number of organisms of one species that an area can support",
+    "The place where an organism lives, with the conditions it needs"
+   ],
+   "correctIndex": 3,
+   "explanation": "A habitat is where an organism lives. Its role, including feeding relationships and the conditions it tolerates, is its niche, and all the populations living together form a community.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0030",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Which description of an ecosystem is the most complete?",
+   "imageRef": null,
+   "options": [
+    "Its location and area, since ecosystems in the same region always contain the same species",
+    "The number of animal species present, since animals are the main consumers of energy there",
+    "Its species, their interactions, and abiotic factors such as climate and substrate",
+    "A list of the plant species present, since plants determine which other species can live there"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ecosystems are described by what lives there, how the species interact and the non-living conditions. A species list alone omits interactions and abiotic factors, and nearby ecosystems can differ greatly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0031",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "A rocky outcrop and the deep-soiled valley below it receive the same rainfall but support very different plant communities. Which abiotic factor is the most likely cause?",
+   "imageRef": null,
+   "options": [
+    "The climate, since rainfall is the factor that controls plant communities",
+    "The latitude, since the outcrop is further from the equator than the valley",
+    "The day length, since the plants on the outcrop receive longer days",
+    "The substrate, such as the depth of soil and how much water it can hold"
+   ],
+   "correctIndex": 3,
+   "explanation": "With rainfall the same, substrate differences such as shallow rock versus deep soil change how much water and nutrient plants can obtain. Latitude and day length do not differ meaningfully over such a short distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0032",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Ecologists often classify environments using climate. Which pair of abiotic factors is most commonly used to do this?",
+   "imageRef": null,
+   "options": [
+    "Altitude and distance from the coast",
+    "Temperature and rainfall over the year",
+    "Soil colour and soil particle size",
+    "Number of plant and animal species"
+   ],
+   "correctIndex": 1,
+   "explanation": "Climate classifications are based on patterns of temperature and precipitation, which strongly influence which organisms can live in an area. Species numbers are biotic, and soil features describe the substrate rather than the climate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0033",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "A survey records an ecosystem's tallest plant layer as trees 10 to 30 m tall whose crowns cover about 20% of the ground, with a grassy understorey. How is this vegetation best classified by its structure?",
+   "imageRef": null,
+   "options": [
+    "Closed forest, because the trees are taller than 10 metres",
+    "Grassland, because grass covers most of the ground surface",
+    "Shrubland, because the canopy covers less than half the ground",
+    "Woodland, because the trees are well spaced and the canopy is open"
+   ],
+   "correctIndex": 3,
+   "explanation": "Structural classifications use the height and canopy cover of the tallest layer. Trees with an open, sparse canopy over grass form woodland; forest has a much denser canopy, and shrubland is dominated by shrubs rather than trees.",
+   "difficulty": 3,
+   "tier": "extension",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0034",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Devil facial tumour disease is a cancer passed between Tasmanian devils when they bite each other. How is this interaction best classified?",
+   "imageRef": null,
+   "options": [
+    "Mutualism, in which both organisms gain a benefit",
+    "Disease, in which a transmissible agent harms its host",
+    "Predation, in which one animal kills another for food",
+    "Competition, in which both animals seek one resource"
+   ],
+   "correctIndex": 1,
+   "explanation": "The tumour cells are passed from devil to devil and harm the host, which makes this a disease interaction. Biting during fights spreads it, but the devils are not eating each other, so it is not predation.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0035",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "In a reserve, two species of small marsupial both eat insects, but one forages on the ground at night and the other in tree canopies by day. What best explains how they coexist?",
+   "imageRef": null,
+   "options": [
+    "They partition the resource, reducing competition between them",
+    "They are in a mutualism, each gaining food that the other disturbs",
+    "One preys on the other, which keeps both populations stable",
+    "They do not interact at all, since they eat entirely different foods"
+   ],
+   "correctIndex": 0,
+   "explanation": "Feeding at different times and places divides the shared insect resource, so the species compete less. They still eat the same kind of food, so it is not true that they have no interaction at all.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "bio-bsss-biodiversity-0036",
+   "topicId": "bio-bsss-biodiversity",
+   "stem": "Why is describing the species interactions in an ecosystem important for predicting how it will respond to change?",
+   "imageRef": null,
+   "options": [
+    "Interactions show which species are most abundant, and only abundant species matter in change",
+    "A change to one species can spread to others through the interactions linking them",
+    "Species interactions never change, so they can be used to predict future species lists exactly",
+    "Only abiotic factors affect species, so knowing interactions shows which species are unaffected"
+   ],
+   "correctIndex": 1,
+   "explanation": "Species are linked by their interactions, so the loss or arrival of one species affects its prey, predators, competitors and partners. Interactions can themselves change, and rare species can have large effects.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-bio-bsss-biodiversity-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

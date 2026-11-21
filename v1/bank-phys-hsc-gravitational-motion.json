@@ -1,0 +1,727 @@
+{
+ "topicId": "phys-hsc-gravitational-motion",
+ "questions": [
+  {
+   "id": "phys-hsc-gravitational-motion-0001",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "According to Newton's law of universal gravitation, the force between two masses is:",
+   "imageRef": null,
+   "options": [
+    "proportional to the square of the product of the masses and to their separation",
+    "proportional to the product of the masses and inversely proportional to the square of their separation",
+    "proportional to the sum of the masses and inversely proportional to the square of their separation",
+    "proportional to the product of the masses and inversely proportional to their separation"
+   ],
+   "correctIndex": 1,
+   "explanation": "F = GMm/r\u00b2: the force depends on the product of the two masses and falls as 1/r\u00b2, where r is the distance between their centres. Using the sum of the masses, or 1/r instead of 1/r\u00b2, are common slips.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0002",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "The gravitational force between two spheres is F. If the distance between their centres is tripled, the force becomes:",
+   "imageRef": null,
+   "options": [
+    "F/6",
+    "3F",
+    "F/9",
+    "F/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Gravity follows an inverse square law, so tripling r divides the force by 3\u00b2 = 9. Dividing by 3 treats the force as inversely proportional to r rather than r\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0003",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Two masses attract with force F. One mass is doubled and the other is halved, and their separation is doubled. What is the new force?",
+   "imageRef": null,
+   "options": [
+    "F",
+    "F/2",
+    "2F",
+    "F/4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The product of the masses is unchanged (2 \u00d7 \u00bd = 1), and doubling the separation divides the force by 4, giving F/4. Halving the force treats it as inversely proportional to r rather than r\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0004",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Earth pulls the Moon with a gravitational force of about 2 \u00d7 10\u00b2\u2070 N. What force does the Moon exert on Earth?",
+   "imageRef": null,
+   "options": [
+    "Much more, because the Moon is accelerating towards Earth",
+    "Zero, because Earth is too massive to be pulled by the Moon",
+    "About 2 \u00d7 10\u00b2\u2070 N, directed towards the Moon",
+    "Much less, because the Moon's mass is much smaller than Earth's"
+   ],
+   "correctIndex": 2,
+   "explanation": "By Newton's third law the two forces are equal in size and opposite in direction. Earth's acceleration is much smaller than the Moon's because Earth's mass is much larger, not because the force on it is smaller.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0005",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A 70 kg person stands on Earth's surface. Using F = mg with g = 9.8 N kg\u207b\u00b9, what gravitational force acts on them, and what does F = GMm/r\u00b2 give with Earth's mass and radius?",
+   "imageRef": null,
+   "options": [
+    "686 N from mg but about 7 N from GMm/r\u00b2, because G is tiny",
+    "70 N from mg but 686 N from GMm/r\u00b2, because mg leaves out G",
+    "686 N from mg but zero from GMm/r\u00b2, because r is measured from the centre",
+    "About 690 N both ways, because mg is GMm/r\u00b2 evaluated at the surface"
+   ],
+   "correctIndex": 3,
+   "explanation": "mg = 70 \u00d7 9.8 = 686 N, and GMm/r\u00b2 = 6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 6.0 \u00d7 10\u00b2\u2074 \u00d7 70/(6.371 \u00d7 10\u2076)\u00b2 \u2248 690 N. They agree because g = GM/r\u00b2 at the surface, so F = mg and F = GMm/r\u00b2 describe the same force. The small difference comes from rounding in the data.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0006",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "The gravitational field strength at a distance r from the centre of a planet of mass M is:",
+   "imageRef": null,
+   "options": [
+    "g = GM/r\u00b2",
+    "g = GMm/r\u00b2",
+    "g = GM/r",
+    "g = 2GM/r"
+   ],
+   "correctIndex": 0,
+   "explanation": "Field strength is the force per unit mass, so dividing F = GMm/r\u00b2 by m gives g = GM/r\u00b2. It does not depend on the mass of the object placed in the field. GMm/r\u00b2 is the force on a mass m.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0007",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "What is the gravitational field strength at the surface of Mars? (Mass of Mars = 6.42 \u00d7 10\u00b2\u00b3 kg, radius of Mars = 3.39 \u00d7 10\u2076 m).",
+   "imageRef": null,
+   "options": [
+    "3.7 N kg\u207b\u00b9",
+    "12.6 N kg\u207b\u00b9",
+    "1.3 \u00d7 10\u2077 N kg\u207b\u00b9",
+    "0.37 N kg\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "g = GM/r\u00b2 = 6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 6.42 \u00d7 10\u00b2\u00b3/(3.39 \u00d7 10\u2076)\u00b2 \u2248 3.7 N kg\u207b\u00b9, a bit over a third of Earth's value. Forgetting to square the radius gives 1.3 \u00d7 10\u2077 N kg\u207b\u00b9, which is far too large.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0008",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A planet has twice Earth's mass and twice Earth's radius. What is the gravitational field strength at its surface, if Earth's is 9.8 N kg\u207b\u00b9?",
+   "imageRef": null,
+   "options": [
+    "19.6 N kg\u207b\u00b9",
+    "2.5 N kg\u207b\u00b9",
+    "4.9 N kg\u207b\u00b9",
+    "9.8 N kg\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "g = GM/r\u00b2, so doubling M doubles g and doubling r divides it by 4. Overall g is halved, to 4.9 N kg\u207b\u00b9. Assuming the two changes cancel ignores that the radius is squared.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0009",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "The International Space Station orbits about 400 km above Earth's surface. What is the gravitational field strength there? (M = 6.0 \u00d7 10\u00b2\u2074 kg, Earth's radius = 6.371 \u00d7 10\u2076 m).",
+   "imageRef": null,
+   "options": [
+    "8.7 N kg\u207b\u00b9",
+    "2.5 \u00d7 10\u00b3 N kg\u207b\u00b9",
+    "0 N kg\u207b\u00b9",
+    "9.8 N kg\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The distance from Earth's centre is 6.371 \u00d7 10\u2076 + 4.0 \u00d7 10\u2075 = 6.771 \u00d7 10\u2076 m, so g = GM/r\u00b2 \u2248 8.7 N kg\u207b\u00b9, still about 90% of the surface value. Using 400 km as r gives 2.5 \u00d7 10\u00b3 N kg\u207b\u00b9. Astronauts feel weightless because they are in free fall, not because g is zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0010",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "At what distance from Earth's centre is the gravitational field strength one-quarter of its value at the surface? (R = Earth's radius).",
+   "imageRef": null,
+   "options": [
+    "16R",
+    "2R",
+    "4R",
+    "R/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "g is proportional to 1/r\u00b2, so g falls to a quarter when r doubles, at 2R from the centre (one Earth radius above the surface). Four Earth radii would reduce g to one-sixteenth.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0011",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Why can the gravitational field close to Earth's surface be treated as uniform?",
+   "imageRef": null,
+   "options": [
+    "Earth's field is uniform everywhere, and it only becomes radial far out in space",
+    "Heights are tiny compared with Earth's radius, so g barely changes and field lines are nearly parallel",
+    "Earth's rotation spreads the field out evenly, so the field strength is the same at every altitude above it",
+    "The atmosphere shields the surface, so the field becomes uniform only below the level of the clouds"
+   ],
+   "correctIndex": 1,
+   "explanation": "Earth's field is radial, but over a height of even a few kilometres r changes by a tiny fraction of 6.371 \u00d7 10\u2076 m, so g = GM/r\u00b2 is almost constant and the inward field lines are almost parallel. That is why g = 9.8 m s\u207b\u00b2 and a constant-acceleration model work for projectiles.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0012",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Why can the orbit of a satellite or planet usually be modelled as uniform circular motion?",
+   "imageRef": null,
+   "options": [
+    "Gravity is balanced by an outward centrifugal force, so the satellite moves at a constant velocity",
+    "Orbits are perfect circles, because gravity acts equally in every direction",
+    "Satellites are beyond the reach of Earth's gravity, so they keep moving in a circle forever",
+    "Most orbits are nearly circular, and gravity provides a centripetal force towards the central mass"
+   ],
+   "correctIndex": 3,
+   "explanation": "Real orbits are ellipses, but many are close to circular, so a circular model is a good approximation. Gravity is the unbalanced centripetal force that keeps changing the satellite's direction. There is no outward force, and gravity is far from zero at orbital heights.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0013",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Setting the gravitational force equal to the centripetal force, GMm/r\u00b2 = mv\u00b2/r, gives the orbital velocity. Which expression is it?",
+   "imageRef": null,
+   "options": [
+    "v = \u221a(2GM/r)",
+    "v = GM/r",
+    "v = \u221a(GMm/r)",
+    "v = \u221a(GM/r)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Cancelling m and one r gives v\u00b2 = GM/r, so v = \u221a(GM/r). The satellite's mass cancels, so all satellites at the same radius move at the same speed. \u221a(2GM/r) is the escape velocity.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0014",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "What is the orbital speed of the International Space Station, 6.77 \u00d7 10\u2076 m from Earth's centre? (M = 6.0 \u00d7 10\u00b2\u2074 kg).",
+   "imageRef": null,
+   "options": [
+    "1.1 \u00d7 10\u2074 m s\u207b\u00b9",
+    "2.4 \u00d7 10\u00b3 m s\u207b\u00b9",
+    "7.7 \u00d7 10\u00b3 m s\u207b\u00b9",
+    "5.9 \u00d7 10\u2077 m s\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "v = \u221a(GM/r) = \u221a(4.0 \u00d7 10\u00b9\u2074/6.77 \u00d7 10\u2076) \u2248 7.7 \u00d7 10\u00b3 m s\u207b\u00b9. Forgetting the square root gives 5.9 \u00d7 10\u2077 m s\u207b\u00b9, and including a factor of 2 gives the escape speed at that height, about 1.1 \u00d7 10\u2074 m s\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0015",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "The ISS orbits 6.77 \u00d7 10\u2076 m from Earth's centre at 7.7 \u00d7 10\u00b3 m s\u207b\u00b9. About how long does each orbit take?",
+   "imageRef": null,
+   "options": [
+    "92 minutes",
+    "15 minutes",
+    "24 hours",
+    "46 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "T = 2\u03c0r/v = 2\u03c0 \u00d7 6.77 \u00d7 10\u2076/7.7 \u00d7 10\u00b3 \u2248 5.5 \u00d7 10\u00b3 s, about 92 minutes. Leaving out the 2\u03c0 gives about 15 minutes. A 24 hour period belongs to a geostationary orbit, which is much higher.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0016",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Two satellites orbit Earth at the same radius. Satellite X has twice the mass of satellite Y. How do their orbital speeds compare?",
+   "imageRef": null,
+   "options": [
+    "X is faster by a factor of \u221a2, because v depends on \u221am",
+    "They are equal, because the satellite's mass cancels from v = \u221a(GM/r)",
+    "X is faster, because the gravitational force on it is twice as large as on Y",
+    "X is slower, because it has twice as much inertia to turn"
+   ],
+   "correctIndex": 1,
+   "explanation": "The force on X is twice as large, but so is its mass, so its centripetal acceleration and orbital speed are the same as Y's. In v = \u221a(GM/r), M is the central mass, not the satellite's mass.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0017",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "For a satellite in a circular orbit, its centripetal acceleration is equal to:",
+   "imageRef": null,
+   "options": [
+    "the gravitational field strength at the planet's surface, whatever the orbit",
+    "the gravitational field strength at the satellite's distance from the planet's centre",
+    "zero, because the satellite moves at a constant speed around the planet",
+    "9.8 m s\u207b\u00b2, because that is the value of g at every height near Earth"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gravity is the only force, so a = F/m = GM/r\u00b2, which is g at the satellite's radius. It is less than 9.8 m s\u207b\u00b2 for any orbit above the surface. Constant speed does not mean zero acceleration, because the direction keeps changing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0018",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Kepler's first law (the law of ellipses) states that:",
+   "imageRef": null,
+   "options": [
+    "each planet moves in an ellipse with the Sun at the centre",
+    "each planet moves in an ellipse with the Sun at both foci",
+    "each planet moves in an ellipse with the Sun at one focus",
+    "each planet moves in a circle with the Sun at the centre"
+   ],
+   "correctIndex": 2,
+   "explanation": "Planetary orbits are ellipses, and the Sun sits at one focus, not at the centre. A circle is the special case of an ellipse whose two foci coincide.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0019",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Kepler's second law (the law of equal areas) states that:",
+   "imageRef": null,
+   "options": [
+    "a planet's orbit encloses an area proportional to its mass",
+    "a line from the Sun to a planet sweeps out equal areas in equal times",
+    "every planet sweeps out the same area around the Sun in a year",
+    "a planet covers equal distances along its elliptical orbit in equal times"
+   ],
+   "correctIndex": 1,
+   "explanation": "The line joining the Sun and a planet sweeps out equal areas in equal time intervals, which means the planet moves faster when it is closer to the Sun. Equal distances in equal times would mean a constant speed, which is true only for a circular orbit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0020",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A comet moves in a long elliptical orbit around the Sun. Where is it moving fastest?",
+   "imageRef": null,
+   "options": [
+    "At the points midway between its nearest and farthest points",
+    "At the same speed everywhere, because the Sun's pull is constant",
+    "At its closest point to the Sun",
+    "At its farthest point from the Sun"
+   ],
+   "correctIndex": 2,
+   "explanation": "By the law of equal areas, the line to the Sun must sweep a short, wide region near the Sun in the same time as a long, thin region far away, so the comet moves fastest when closest. In energy terms, it gains kinetic energy as it falls towards the Sun and loses potential energy.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0021",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Kepler's third law, derived from Newton's law of gravitation, is r\u00b3/T\u00b2 = GM/4\u03c0\u00b2. Which statement about it is correct?",
+   "imageRef": null,
+   "options": [
+    "For all bodies orbiting the same central mass, r\u00b2/T\u00b3 has the same value",
+    "r\u00b3/T\u00b2 depends on the mass of the orbiting body, so it differs between satellites",
+    "r\u00b3/T\u00b2 is the same for all orbits in the universe, whatever the central mass",
+    "For all bodies orbiting the same central mass, r\u00b3/T\u00b2 has the same value"
+   ],
+   "correctIndex": 3,
+   "explanation": "The constant GM/4\u03c0\u00b2 contains only the central mass, so every body orbiting that mass has the same r\u00b3/T\u00b2. Moons of Jupiter share one value and planets around the Sun share another. The orbiting body's mass does not appear.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0022",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Satellite A orbits Earth with radius r and period T. Satellite B orbits Earth with radius 4r. What is B's period?",
+   "imageRef": null,
+   "options": [
+    "16T",
+    "2T",
+    "8T",
+    "4T"
+   ],
+   "correctIndex": 2,
+   "explanation": "r\u00b3/T\u00b2 is the same for both, so T is proportional to r^(3/2). With 4 times the radius, T increases by 4^(3/2) = \u221a64 = 8. Assuming T is proportional to r gives 4T, and 16T squares the ratio instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0023",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Satellite P orbits Earth at radius r with speed v. Satellite Q orbits at radius 2r. What is Q's orbital speed?",
+   "imageRef": null,
+   "options": [
+    "v/\u221a2",
+    "v/2",
+    "2v",
+    "v/4"
+   ],
+   "correctIndex": 0,
+   "explanation": "v = \u221a(GM/r), so doubling r divides the speed by \u221a2. A satellite in a higher orbit is slower and also has farther to travel, which is why its period is much longer. Halving the speed treats v as proportional to 1/r.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0024",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "The Moon orbits Earth at a radius of 3.84 \u00d7 10\u2078 m with a period of 27.3 days. Using r\u00b3/T\u00b2 = GM/4\u03c0\u00b2, what is Earth's mass?",
+   "imageRef": null,
+   "options": [
+    "1.5 \u00d7 10\u00b2\u00b3 kg",
+    "1.6 \u00d7 10\u00b9\u2076 kg",
+    "6.0 \u00d7 10\u00b2\u2074 kg",
+    "4.5 \u00d7 10\u00b3\u2074 kg"
+   ],
+   "correctIndex": 2,
+   "explanation": "Convert the period to seconds: 27.3 \u00d7 86 400 \u2248 2.36 \u00d7 10\u2076 s. Then M = 4\u03c0\u00b2r\u00b3/(GT\u00b2) = 39.5 \u00d7 (3.84 \u00d7 10\u2078)\u00b3/(6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 (2.36 \u00d7 10\u2076)\u00b2) \u2248 6.0 \u00d7 10\u00b2\u2074 kg. Leaving T in days gives 4.5 \u00d7 10\u00b3\u2074 kg, and leaving out the 4\u03c0\u00b2 gives 1.5 \u00d7 10\u00b2\u00b3 kg.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0025",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Two moons orbit the same planet. Moon X has an orbital radius 9 times that of moon Y. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "X has a longer period and a higher orbital speed than Y",
+    "X has a shorter period and a lower orbital speed than Y",
+    "X has the same period as Y but a lower orbital speed",
+    "X has a longer period and a lower orbital speed than Y"
+   ],
+   "correctIndex": 3,
+   "explanation": "From r\u00b3/T\u00b2 constant, a larger orbit has a longer period, and from v = \u221a(GM/r), a larger orbit has a lower speed (one-third of Y's here). Students often expect the outer moon to move faster because it has farther to go, but it is both slower and has a longer path.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0026",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A geostationary satellite stays above the same point on Earth's surface. Which set of orbital features does it need?",
+   "imageRef": null,
+   "options": [
+    "A low circular orbit above the equator, with a period of about 90 minutes, moving eastward",
+    "An elliptical orbit over the poles, with a period of exactly twelve hours",
+    "A circular orbit above the equator, period one day, moving in the direction of Earth's rotation",
+    "A circular orbit over the poles, with a period of one day, moving against Earth's rotation"
+   ],
+   "correctIndex": 2,
+   "explanation": "To stay fixed over one point, the satellite must turn with Earth: an equatorial orbit, a period of one day and the same direction of travel. A polar orbit crosses different latitudes, and a 90 minute orbit is a low Earth orbit.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0027",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Using r\u00b3 = GMT\u00b2/4\u03c0\u00b2 with T = 24 h and M = 6.0 \u00d7 10\u00b2\u2074 kg, what is the radius of a geostationary orbit, and roughly how high is it above the surface?",
+   "imageRef": null,
+   "options": [
+    "4.2 \u00d7 10\u2077 m from the centre, about 3.6 \u00d7 10\u2077 m above the surface",
+    "4.2 \u00d7 10\u2077 m from the centre, about 4.2 \u00d7 10\u2077 m above the surface",
+    "6.8 \u00d7 10\u2076 m from the centre, about 4.0 \u00d7 10\u2075 m above the surface",
+    "1.8 \u00d7 10\u2076 m from the centre, which is inside the Earth itself"
+   ],
+   "correctIndex": 0,
+   "explanation": "With T = 86 400 s, r\u00b3 = 1.0 \u00d7 10\u00b9\u00b3 \u00d7 86 400\u00b2 \u2248 7.6 \u00d7 10\u00b2\u00b2 m\u00b3, so r \u2248 4.2 \u00d7 10\u2077 m. Subtracting Earth's radius of 6.4 \u00d7 10\u2076 m gives a height of about 3.6 \u00d7 10\u2077 m, or about 36 000 km. Treating the radius as the height forgets that r is measured from Earth's centre.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0028",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Why are geostationary satellites used for television broadcasting and weather imaging of a whole hemisphere?",
+   "imageRef": null,
+   "options": [
+    "They orbit over the poles, so they can cover both the northern and southern hemispheres",
+    "They stay above one point, so dishes point at a fixed spot, and their height lets them see a large area",
+    "They are so close to Earth that they give the sharpest images and need no fixed ground dishes",
+    "Their low orbits let them pass over every part of Earth several times each day, giving full coverage"
+   ],
+   "correctIndex": 1,
+   "explanation": "A geostationary satellite appears fixed in the sky, so receiving dishes can be aimed once and left, and from about 36 000 km up it can view a large fraction of Earth's surface. Being far away, it gives less detailed images than a low Earth orbit satellite.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0029",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Which use suits a low Earth orbit (LEO) satellite better than a geostationary one?",
+   "imageRef": null,
+   "options": [
+    "Long-term observation of one storm, because its period matches Earth's rotation",
+    "High-resolution imaging of the ground, because it is much closer to the surface",
+    "Continuous coverage of one region, because it stays above the same point",
+    "Direct-to-home television to fixed dishes, because it never moves across the sky"
+   ],
+   "correctIndex": 1,
+   "explanation": "LEO satellites orbit a few hundred to about 2000 km up with periods of roughly 90 to 130 minutes. Being close, they give detailed images and short signal delays, but they cross the sky quickly, so no single one gives continuous coverage of one region. The other uses need a geostationary satellite.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0030",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Compared with a geostationary satellite, a satellite in low Earth orbit has:",
+   "imageRef": null,
+   "options": [
+    "a shorter period and a lower orbital speed",
+    "the same period and a higher orbital speed",
+    "a shorter period and a higher orbital speed",
+    "a longer period and a higher orbital speed"
+   ],
+   "correctIndex": 2,
+   "explanation": "A smaller orbital radius gives a shorter period (from r\u00b3/T\u00b2 constant) and a higher speed (from v = \u221a(GM/r)). The ISS travels at about 7.7 km s\u207b\u00b9, while a geostationary satellite moves at about 3.1 km s\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0031",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "In the convention used for radial gravitational fields, gravitational potential energy is taken as zero:",
+   "imageRef": null,
+   "options": [
+    "at the height of the lowest stable orbit",
+    "when the masses are infinitely far apart",
+    "at the surface of the planet",
+    "at the centre of mass of the planet"
+   ],
+   "correctIndex": 1,
+   "explanation": "Zero is assigned at infinite separation, where the masses no longer interact. The surface is a convenient zero only for the near-surface approximation U = mgh, which does not work over large changes in height.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0032",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Why does the zero-at-infinity convention make the gravitational potential energy of a mass near a planet negative?",
+   "imageRef": null,
+   "options": [
+    "Potential energy is always negative, whatever point is chosen as the zero level",
+    "Gravity does positive work as the mass falls in from infinity, so its U falls below zero",
+    "The mass must gain energy to come in from infinity, so its potential energy falls below zero",
+    "Mass is negative in a gravitational field, so the product GMm is negative near a planet"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gravity is attractive, so as a mass moves in from infinity gravity does positive work on it and its potential energy decreases. Starting from zero, it can only become negative. To move it back out to infinity, work must be done against gravity to raise U back to zero.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0033",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Why is zero potential energy set at infinity rather than at the planet's surface when analysing orbits and escape?",
+   "imageRef": null,
+   "options": [
+    "It means that orbiting satellites have no potential energy, so only kinetic energy matters",
+    "The surface of a planet is not a fixed distance from its centre, so it cannot be used",
+    "It gives one reference that suits every planet and distance, as the force falls to zero there",
+    "It makes potential energy positive everywhere, which makes energy calculations simpler"
+   ],
+   "correctIndex": 2,
+   "explanation": "U = \u2212GMm/r is valid at any distance, and as r becomes very large both the force and U approach zero, so infinity is a natural, universal reference. With this choice, a total energy below zero means a body is bound, and zero total energy marks the escape condition. Potential energy near a planet is negative, not positive, under this convention.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0034",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A 2000 kg space probe falls from very far away towards a planet. Which statement about its energy is correct, ignoring other bodies?",
+   "imageRef": null,
+   "options": [
+    "Its potential energy stays at zero until it reaches the planet's atmosphere",
+    "Its potential energy and its kinetic energy both increase as it approaches",
+    "Its potential energy becomes more negative and its kinetic energy increases by the same amount",
+    "Its potential energy becomes more positive and its kinetic energy increases by the same amount"
+   ],
+   "correctIndex": 2,
+   "explanation": "Total mechanical energy is conserved, so the decrease in U = \u2212GMm/r as r shrinks is matched by an equal increase in kinetic energy. U starts near zero far away and becomes more negative, so it decreases rather than becomes positive.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0035",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "In deriving the law of periods, r\u00b3/T\u00b2 = GM/4\u03c0\u00b2, which expression for the orbital speed is substituted into GMm/r\u00b2 = mv\u00b2/r?",
+   "imageRef": null,
+   "options": [
+    "v = 2\u03c0rT",
+    "v = \u03c0r\u00b2/T",
+    "v = r/(2\u03c0T)",
+    "v = 2\u03c0r/T"
+   ],
+   "correctIndex": 3,
+   "explanation": "In one period the body travels one circumference, so v = 2\u03c0r/T. Substituting gives GM/r = 4\u03c0\u00b2r\u00b2/T\u00b2, which rearranges to r\u00b3/T\u00b2 = GM/4\u03c0\u00b2. \u03c0r\u00b2 is an area, not a distance travelled.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0036",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "Gravitational field strength can be given in N kg\u207b\u00b9. Which unit is equivalent?",
+   "imageRef": null,
+   "options": [
+    "kg m s\u207b\u00b9",
+    "J kg",
+    "m s\u207b\u00b2",
+    "N m\u207b\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "One newton is 1 kg m s\u207b\u00b2, so N kg\u207b\u00b9 is m s\u207b\u00b2. That is why the field strength at a point equals the acceleration of a body in free fall there. N m\u207b\u00b2 is a unit of pressure.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0037",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "What is the gravitational force between Earth (6.0 \u00d7 10\u00b2\u2074 kg) and the Moon (7.35 \u00d7 10\u00b2\u00b2 kg), whose centres are 3.84 \u00d7 10\u2078 m apart?",
+   "imageRef": null,
+   "options": [
+    "1.0 \u00d7 10\u00b2\u2070 N",
+    "2.0 \u00d7 10\u00b2\u2070 N",
+    "7.7 \u00d7 10\u00b2\u2078 N",
+    "5.2 \u00d7 10\u00b9\u00b9 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "F = GMm/r\u00b2 = 6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 6.0 \u00d7 10\u00b2\u2074 \u00d7 7.35 \u00d7 10\u00b2\u00b2/(3.84 \u00d7 10\u2078)\u00b2 \u2248 2.0 \u00d7 10\u00b2\u2070 N. Forgetting to square the distance gives 7.7 \u00d7 10\u00b2\u2078 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-hsc-gravitational-motion-0038",
+   "topicId": "phys-hsc-gravitational-motion",
+   "stem": "A satellite orbits 8.0 \u00d7 10\u2076 m from Earth's centre. What is its centripetal acceleration? (M = 6.0 \u00d7 10\u00b2\u2074 kg).",
+   "imageRef": null,
+   "options": [
+    "7.1 \u00d7 10\u00b3 m s\u207b\u00b2",
+    "6.3 m s\u207b\u00b2",
+    "9.8 m s\u207b\u00b2",
+    "5.0 \u00d7 10\u2077 m s\u207b\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The centripetal acceleration equals the field strength at that radius: a = GM/r\u00b2 = 4.0 \u00d7 10\u00b9\u2074/(8.0 \u00d7 10\u2076)\u00b2 \u2248 6.3 m s\u207b\u00b2. Dividing by r instead of r\u00b2 gives 5.0 \u00d7 10\u2077 m s\u207b\u00b2, and 7.1 \u00d7 10\u00b3 is the orbital speed in m s\u207b\u00b9, not an acceleration.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-hsc-gravitational-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

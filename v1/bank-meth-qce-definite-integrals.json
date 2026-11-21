@@ -1,0 +1,727 @@
+{
+ "topicId": "meth-qce-definite-integrals",
+ "questions": [
+  {
+   "id": "meth-qce-definite-integrals-0001",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Strips of width \u03b4x are drawn under the graph of y = f(x), where f(x) > 0, on an interval. What does the sum \u03a3 f(x\u1d62)\u03b4x estimate?",
+   "imageRef": null,
+   "options": [
+    "The gradient of the curve over the interval",
+    "The average rate of change over the interval",
+    "The length of the curve over the interval",
+    "The area under the curve over the interval"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each term f(x\u1d62)\u03b4x is the area of a rectangle of height f(x\u1d62) and width \u03b4x, so the sum estimates the area under the curve. Gradients and rates of change come from differentiation, not from summing areas.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0002",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "As the strip width \u03b4x tends to 0, the sum \u03a3 f(x\u1d62)\u03b4x over the interval from x = a to x = b approaches:",
+   "imageRef": null,
+   "options": [
+    "the product of the width b \u2212 a and f(b)",
+    "the definite integral of f(x) from x = a to x = b",
+    "the derivative of f(x) evaluated at x = b",
+    "the difference of function values f(b) \u2212 f(a)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The definite integral is defined as the limit of these sums as the strips become infinitely thin. The difference f(b) \u2212 f(a) would need an anti-derivative F in place of f, as in the fundamental theorem.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0003",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "f(x) = 3 for every x. Strips of equal width are used to estimate the area under y = f(x) from x = 2 to x = 7. What does the sum \u03a3 f(x\u1d62)\u03b4x equal, whatever the number of strips?",
+   "imageRef": null,
+   "options": [
+    "21",
+    "3",
+    "5",
+    "15"
+   ],
+   "correctIndex": 3,
+   "explanation": "Every rectangle has height 3, and the widths add to 7 \u2212 2 = 5, so the sum is always 3 \u00d7 5 = 15, the exact area. The value 21 uses 7 as the width instead of 7 \u2212 2.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0004",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Four rectangles of width 0.5, with heights taken at the left end of each strip, are used to estimate the area under y = x\u00b2 from x = 0 to x = 2. What is the estimate?",
+   "imageRef": null,
+   "options": [
+    "3.75",
+    "8/3",
+    "3.5",
+    "1.75"
+   ],
+   "correctIndex": 3,
+   "explanation": "The heights are f(0), f(0.5), f(1) and f(1.5), which are 0, 0.25, 1 and 2.25, so the estimate is 0.5 \u00d7 3.5 = 1.75. Using right ends gives 3.75, and 8/3 is the exact area.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0005",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Which sum estimates the integral of x\u00b2 from x = 0 to x = 1 using five rectangles with heights taken at the right end of each strip?",
+   "imageRef": null,
+   "options": [
+    "0.2\u00b2 + 0.4\u00b2 + 0.6\u00b2 + 0.8\u00b2 + 1\u00b2",
+    "5(0.2\u00b2 + 0.4\u00b2 + 0.6\u00b2 + 0.8\u00b2 + 1\u00b2)",
+    "0.2(0.2\u00b2 + 0.4\u00b2 + 0.6\u00b2 + 0.8\u00b2 + 1\u00b2)",
+    "0.2(0\u00b2 + 0.2\u00b2 + 0.4\u00b2 + 0.6\u00b2 + 0.8\u00b2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each strip has width 1/5 = 0.2, and the right ends are 0.2, 0.4, 0.6, 0.8 and 1. The sum starting at 0\u00b2 uses left ends, and leaving out the factor 0.2 adds heights without multiplying by the width.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0006",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "f is increasing on [a, b]. Rectangles with heights taken at the right end of each strip are used to estimate the area under y = f(x). The estimate is:",
+   "imageRef": null,
+   "options": [
+    "too large, since each height is the greatest value of f on its strip",
+    "too small, since each height is the least value of f on its strip",
+    "exact, since the parts above and below the curve cancel each other",
+    "too small, since the rectangles miss the area above the curve"
+   ],
+   "correctIndex": 0,
+   "explanation": "For an increasing function the right end of each strip is where f is greatest, so each rectangle covers the curve and a little more. Heights at the left end would give the underestimate.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0007",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of 2x from x = 1 to x = 3.",
+   "imageRef": null,
+   "options": [
+    "4",
+    "6",
+    "9",
+    "8"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative is x\u00b2, so the integral is 3\u00b2 \u2212 1\u00b2 = 9 \u2212 1 = 8. The value 9 forgets to subtract the value at the lower terminal.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0008",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of cos(x) from x = 0 to x = \u03c0/2.",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "\u22121",
+    "\u03c0/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "An anti-derivative is sin(x), so the integral is sin(\u03c0/2) \u2212 sin(0) = 1 \u2212 0 = 1. Using \u2212sin(x) as the anti-derivative gives \u22121; that sign belongs to the derivative of cos(x).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0009",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of e^x from x = 0 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "2e\u00b2",
+    "e\u00b2 \u2212 1",
+    "e\u00b2",
+    "e\u00b2 \u2212 e"
+   ],
+   "correctIndex": 1,
+   "explanation": "The anti-derivative of e^x is e^x, so the integral is e\u00b2 \u2212 e\u2070 = e\u00b2 \u2212 1. The answer e\u00b2 forgets that e\u2070 = 1, not 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0010",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of 1/x from x = 1 to x = e\u00b2.",
+   "imageRef": null,
+   "options": [
+    "1/e\u00b2 \u2212 1",
+    "2",
+    "e\u00b2 \u2212 1",
+    "1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The anti-derivative is ln(x), so the integral is ln(e\u00b2) \u2212 ln(1) = 2 \u2212 0 = 2. The value e\u00b2 \u2212 1 uses x as the anti-derivative, as if integrating 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0011",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of \u221ax from x = 1 to x = 4.",
+   "imageRef": null,
+   "options": [
+    "21/2",
+    "1",
+    "14/3",
+    "16/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is (2/3)x^(3/2), so the integral is (2/3)(8 \u2212 1) = 14/3. The value 16/3 forgets to subtract the value at x = 1, and 21/2 multiplies by 3/2 instead of dividing by it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0012",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of sin(x) from x = 0 to x = \u03c0/3.",
+   "imageRef": null,
+   "options": [
+    "\u221a3/2",
+    "3/2",
+    "1/2",
+    "\u22121/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is \u2212cos(x), so the integral is \u2212cos(\u03c0/3) + cos(0) = \u22121/2 + 1 = 1/2. Using +cos(x) reverses the sign and gives \u22121/2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0013",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Evaluate the integral of (2x + 1)\u00b3 from x = 0 to x = 1.",
+   "imageRef": null,
+   "options": [
+    "40",
+    "81/8",
+    "10",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is (2x + 1)\u2074/8, so the integral is (81 \u2212 1)/8 = 10. Forgetting to divide by the coefficient 2 gives (81 \u2212 1)/4 = 20, and 81/8 leaves out the value at x = 0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0014",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "The integral of f(x) from x = 0 to x = 4 is 5. What is the integral of (2f(x) \u2212 3) from x = 0 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "7",
+    "10",
+    "\u22127",
+    "\u22122"
+   ],
+   "correctIndex": 3,
+   "explanation": "By linearity the integral is 2 \u00d7 5 \u2212 (integral of 3 from 0 to 4) = 10 \u2212 12 = \u22122. The value 7 subtracts just 3 instead of 3 times the width of the interval, 4.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0015",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "For k > 0, the integral of 3x\u00b2 from x = 0 to x = k is 64. What is k?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "64/3",
+    "16",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "The integral is k\u00b3 \u2212 0 = k\u00b3, so k\u00b3 = 64 and k = 4. The value 8 solves k\u00b2 = 64, which treats the anti-derivative as x\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0016",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "If f(x) < 0 for a \u2264 x \u2264 b and F is an anti-derivative of f, the area between y = f(x) and the x-axis from x = a to x = b is:",
+   "imageRef": null,
+   "options": [
+    "F\u2032(b) \u2212 F\u2032(a)",
+    "\u2212(F(b) \u2212 F(a))",
+    "F(b) \u2212 F(a)",
+    "F(b) + F(a)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Below the x-axis the definite integral F(b) \u2212 F(a) is negative, so the area is its negative. Using F(b) \u2212 F(a) unchanged would give a negative area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0017",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the area enclosed by y = 6 \u2212 x \u2212 x\u00b2 and the x-axis?",
+   "imageRef": null,
+   "options": [
+    "125/3",
+    "125/6",
+    "22/3",
+    "27/2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The graph meets the x-axis where x\u00b2 + x \u2212 6 = 0, at x = \u22123 and x = 2, and is above it between them. The integral of 6 \u2212 x \u2212 x\u00b2 from \u22123 to 2 is 22/3 \u2212 (\u221227/2) = 125/6. The value 22/3 integrates only from 0 to 2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0018",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the area under y = e^(2x) from x = 0 to x = ln 3?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "16",
+    "9",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "An anti-derivative is (1/2)e^(2x), so the area is (1/2)(e^(2 ln 3) \u2212 1) = (1/2)(9 \u2212 1) = 4. The value 8 forgets the factor 1/2, and 16 multiplies by 2 instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0019",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the area under y = 1/x from x = 1 to x = 4?",
+   "imageRef": null,
+   "options": [
+    "2 ln 2",
+    "ln 3",
+    "3/4",
+    "15/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "The area is ln(4) \u2212 ln(1) = ln 4 = 2 ln 2. The value 3/4 is the area under 1/x\u00b2, from using \u22121/x as the anti-derivative, and ln 3 subtracts the terminals before taking the log.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0020",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the total area enclosed by y = x\u00b2 \u2212 1 and the x-axis from x = 0 to x = 2?",
+   "imageRef": null,
+   "options": [
+    "4/3",
+    "8/3",
+    "2",
+    "2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The graph is below the axis for 0 < x < 1 and above it for 1 < x < 2. The two parts have areas 2/3 and 4/3, giving 2. The value 2/3 is the single integral from 0 to 2, in which the part below the axis cancels some of the part above.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0021",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "If f(x) \u2265 g(x) for a \u2264 x \u2264 b, the area between the curves y = f(x) and y = g(x) from x = a to x = b is:",
+   "imageRef": null,
+   "options": [
+    "the integral of f(x) + g(x) from x = a to x = b",
+    "the integral of f(x) \u2212 g(x) from x = a to x = b",
+    "the integral of g(x) \u2212 f(x) from x = a to x = b",
+    "the integral of f(x) \u00d7 g(x) from x = a to x = b"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each thin strip has height f(x) \u2212 g(x), upper curve minus lower curve, so the area is the integral of that difference. Subtracting the other way gives the negative of the area.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0022",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the area of the region enclosed by y = x\u00b2 and y = 2x?",
+   "imageRef": null,
+   "options": [
+    "4",
+    "\u22124/3",
+    "4/3",
+    "8/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet where x\u00b2 = 2x, at x = 0 and x = 2, and 2x is the upper curve between them. The integral of 2x \u2212 x\u00b2 from 0 to 2 is 4 \u2212 8/3 = 4/3. The value 8/3 is the area under y = x\u00b2 alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0023",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the area of the region enclosed by y = \u221ax and y = x\u00b2?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "\u22121/3",
+    "1/3",
+    "2/3"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet at x = 0 and x = 1, and \u221ax is above x\u00b2 between them. The integral of \u221ax \u2212 x\u00b2 from 0 to 1 is 2/3 \u2212 1/3 = 1/3. The value 2/3 is the area under y = \u221ax alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0024",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "What is the total area of the regions enclosed by y = x\u00b3 and y = x?",
+   "imageRef": null,
+   "options": [
+    "1/4",
+    "1",
+    "1/2",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The curves meet at x = \u22121, 0 and 1. By symmetry the two regions have equal area, each the integral of x \u2212 x\u00b3 from 0 to 1, which is 1/4, so the total is 1/2. The value 0 comes from one integral from \u22121 to 1, in which the two regions cancel.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0025",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "For k > 0, the region enclosed by y = kx and y = x\u00b2 has area 36. What is k?",
+   "imageRef": null,
+   "options": [
+    "6",
+    "3",
+    "216",
+    "36"
+   ],
+   "correctIndex": 0,
+   "explanation": "The curves meet at x = 0 and x = k, and the area is the integral of kx \u2212 x\u00b2 from 0 to k, which is k\u00b3/2 \u2212 k\u00b3/3 = k\u00b3/6. So k\u00b3 = 216 and k = 6. The value 216 is k\u00b3, not k.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0026",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "The trapezoidal rule is used with n strips of equal width on [a, b]. What is the width w of each strip?",
+   "imageRef": null,
+   "options": [
+    "w = (b \u2212 a)/n",
+    "w = (b \u2212 a)/(2n)",
+    "w = n/(b \u2212 a)",
+    "w = (b + a)/n"
+   ],
+   "correctIndex": 0,
+   "explanation": "The interval has length b \u2212 a and is cut into n equal strips, so w = (b \u2212 a)/n. The factor 1/2 in the rule comes from the area of a trapezium, (w/2)(sum of the parallel sides), not from the strip width.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0027",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Use the trapezoidal rule with four strips to estimate the integral of x\u00b3 from x = 0 to x = 2.",
+   "imageRef": null,
+   "options": [
+    "3.125",
+    "4.25",
+    "4",
+    "8.5"
+   ],
+   "correctIndex": 1,
+   "explanation": "w = 0.5 and the function values are 0, 0.125, 1, 3.375 and 8, so the estimate is (0.5/2)(0 + 2(0.125 + 1 + 3.375) + 8) = 0.25 \u00d7 17 = 4.25. The exact value is 4; 8.5 leaves out the division by 2, and 3.125 forgets to double the middle values.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0028",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A car's speed is recorded every 10 s: 0, 8, 12, 14 and 15 m/s at t = 0, 10, 20, 30 and 40. Using the trapezoidal rule, estimate the distance travelled in the 40 s.",
+   "imageRef": null,
+   "options": [
+    "340 m",
+    "415 m",
+    "830 m",
+    "490 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The estimate is (10/2)(0 + 2(8 + 12 + 14) + 15) = 5 \u00d7 83 = 415 m. The value 830 m leaves out the division by 2, and 490 m and 340 m use rectangles with heights at the right and left ends instead of trapezia.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0029",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "The trapezoidal rule is used to estimate the integral of \u221ax from x = 1 to x = 9. Compared with the exact value, the estimate is:",
+   "imageRef": null,
+   "options": [
+    "larger, as the graph is concave down so the trapezia lie above it",
+    "smaller, as \u221ax is increasing so the trapezia lie under the curve",
+    "equal, as the errors in the strips cancel out over the interval",
+    "smaller, as the graph is concave down so the trapezia lie under it"
+   ],
+   "correctIndex": 3,
+   "explanation": "The second derivative of \u221ax is negative, so the graph is concave down and every chord lies below the curve; the trapezia miss a sliver of area. Whether the function is increasing does not matter; it is the concavity that decides.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0030",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "If R\u2032(t) is the rate of change of a quantity R, the integral of R\u2032(t) from t = a to t = b gives:",
+   "imageRef": null,
+   "options": [
+    "the value of R at the time t = b",
+    "the rate of change of R at t = b",
+    "the average value of R\u2032 over the interval",
+    "the change in R from t = a to t = b"
+   ],
+   "correctIndex": 3,
+   "explanation": "By the fundamental theorem the integral equals R(b) \u2212 R(a), the total change in R. It gives the value R(b) only if R(a) = 0, so the starting amount must be added separately.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0031",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Water flows into a tank at r(t) = 3t\u00b2 + 2 litres per hour. How much water enters between t = 1 and t = 3?",
+   "imageRef": null,
+   "options": [
+    "29 L",
+    "24 L",
+    "30 L",
+    "33 L"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of 3t\u00b2 + 2 from 1 to 3 is (27 + 6) \u2212 (1 + 2) = 30 L. The value 33 L forgets the lower terminal, and 29 L is the rate at t = 3, not an amount.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0032",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "The marginal cost of making x items is C\u2032(x) = 50 \u2212 0.2x dollars per item. By how much does the total cost rise when production goes from 100 to 200 items?",
+   "imageRef": null,
+   "options": [
+    "$4000",
+    "$2000",
+    "$6000",
+    "$20"
+   ],
+   "correctIndex": 1,
+   "explanation": "The integral of 50 \u2212 0.2x from 100 to 200 is (10000 \u2212 4000) \u2212 (5000 \u2212 1000) = 6000 \u2212 4000 = $2000. The value $6000 evaluates only at the upper terminal, and $20 is the drop in marginal cost, not a total.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0033",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A population grows at a rate of 100e^(0.1t) per year. By how much does the population increase over the first 10 years?",
+   "imageRef": null,
+   "options": [
+    "1000e",
+    "10(e \u2212 1)",
+    "1000(e \u2212 1)",
+    "100(e \u2212 1)"
+   ],
+   "correctIndex": 2,
+   "explanation": "An anti-derivative is 1000e^(0.1t), since dividing by 0.1 multiplies by 10. The increase is 1000e\u00b9 \u2212 1000e\u2070 = 1000(e \u2212 1) \u2248 1718. Multiplying by 0.1 instead gives 10(e \u2212 1).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0034",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "Water flows into a tank at r(t) = 5 + 5sin(\u03c0t/6) litres per minute. How much water flows in from t = 0 to t = 6?",
+   "imageRef": null,
+   "options": [
+    "60/\u03c0 litres",
+    "30 + 60/\u03c0 litres",
+    "30 + 5\u03c0/3 litres",
+    "30 \u2212 60/\u03c0 litres"
+   ],
+   "correctIndex": 1,
+   "explanation": "The constant term gives 5 \u00d7 6 = 30. An anti-derivative of 5sin(\u03c0t/6) is \u2212(30/\u03c0)cos(\u03c0t/6), which rises by (30/\u03c0)(1 + 1) = 60/\u03c0 from 0 to 6. Multiplying by \u03c0/6 instead of dividing gives 5\u03c0/3.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0035",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A particle's velocity v(t) changes sign during 0 \u2264 t \u2264 5. The integral of v(t) from t = 0 to t = 5 gives the particle's:",
+   "imageRef": null,
+   "options": [
+    "acceleration at the time t = 5",
+    "speed at the time t = 5",
+    "displacement from t = 0 to t = 5",
+    "total distance travelled from t = 0 to t = 5"
+   ],
+   "correctIndex": 2,
+   "explanation": "Integrating velocity gives the change in position, and times when v(t) < 0 count negatively. Distance travelled would need the parts where v(t) < 0 to be added as positive amounts, which the single integral does not do.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0036",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A particle moves in a straight line with velocity v(t) = 2t \u2212 4 m/s. What is its displacement from t = 0 to t = 5?",
+   "imageRef": null,
+   "options": [
+    "6 m",
+    "\u22125 m",
+    "5 m",
+    "13 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The integral of 2t \u2212 4 from 0 to 5 is (25 \u2212 20) \u2212 0 = 5 m. The value 13 m is the distance travelled, which counts the 4 m moved backwards for 0 < t < 2 as positive; 6 is the velocity at t = 5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0037",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A particle moves in a straight line with velocity v(t) = 6t \u2212 3t\u00b2 m/s. What distance does it travel from t = 0 to t = 3?",
+   "imageRef": null,
+   "options": [
+    "0 m",
+    "4 m",
+    "9 m",
+    "8 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "v(t) = 3t(2 \u2212 t) is positive for 0 < t < 2 and negative for 2 < t < 3. The particle moves 4 m forward, then 4 m back, so the distance is 8 m. The single integral from 0 to 3 is 0, which is the displacement.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "meth-qce-definite-integrals-0038",
+   "topicId": "meth-qce-definite-integrals",
+   "stem": "A particle is at x = 3 m when t = 0 and moves with velocity v(t) = 4 \u2212 2t m/s. Where is it when t = 5?",
+   "imageRef": null,
+   "options": [
+    "x = \u22122 m",
+    "x = \u22125 m",
+    "x = 16 m",
+    "x = \u22126 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "The displacement is the integral of 4 \u2212 2t from 0 to 5, which is 20 \u2212 25 = \u22125 m, so the position is 3 + (\u22125) = \u22122 m. The value \u22125 m is the displacement alone, without the starting position.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-meth-qce-definite-integrals-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,556 @@
+{
+ "topicId": "phys-wace-circular-motion",
+ "questions": [
+  {
+   "id": "phys-wace-circular-motion-0001",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A body experiences a net force of constant size that is always perpendicular to its velocity. What happens to its motion?",
+   "imageRef": null,
+   "options": [
+    "Its speed increases while its direction stays constant",
+    "Its speed and direction both stay constant",
+    "Its speed decreases until it comes to rest",
+    "Its speed stays constant while its direction changes"
+   ],
+   "correctIndex": 3,
+   "explanation": "A force perpendicular to the velocity has no component along the direction of motion, so it does no work and cannot change the speed. It changes only the direction, producing uniform circular motion. Speeding up would need a force component along the velocity.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0002",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "Why are corners on highways and racing tracks banked?",
+   "imageRef": null,
+   "options": [
+    "So the vertical component of the normal force cancels the car's centripetal force",
+    "So the car's weight acts outward and balances the force pulling it inward",
+    "So friction acts outward and stops the car from sliding towards the centre",
+    "So the horizontal component of the normal force helps provide the centripetal force"
+   ],
+   "correctIndex": 3,
+   "explanation": "On a banked surface the normal force is tilted towards the centre of the turn, so its horizontal component supplies some or all of the centripetal force and less friction is needed. The weight acts straight down and has no horizontal component, and there is no outward force to balance.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0003",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A car rounds a frictionless banked curve at exactly its design speed. Which forces act on the car, and what is the direction of the net force?",
+   "imageRef": null,
+   "options": [
+    "Weight and normal force; net force zero, since the speed is constant",
+    "Weight, normal and centripetal force; net force outward from the centre",
+    "Weight and normal force; net force horizontal, towards the centre",
+    "Weight, normal and friction; net force down the slope of the bank"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the design speed only the weight and the normal force act, and their resultant is horizontal, pointing to the centre of the circle. That resultant is the centripetal force, not an extra force. The net force is not zero, because the direction of the velocity keeps changing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0004",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A curve of radius 80 m is to be banked so that cars travelling at 20 m s\u207b\u00b9 need no friction. What banking angle is needed?",
+   "imageRef": null,
+   "options": [
+    "31\u00b0",
+    "14\u00b0",
+    "27\u00b0",
+    "63\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "At the design speed tan \u03b8 = v\u00b2/(rg) = 20\u00b2/(80 \u00d7 9.8) \u2248 0.51, so \u03b8 \u2248 27\u00b0. Inverting the ratio gives 63\u00b0, and using sin instead of tan gives 31\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0005",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A velodrome curve of radius 120 m is banked at 15\u00b0. What is its design speed, at which no friction is needed?",
+   "imageRef": null,
+   "options": [
+    "18 m s\u207b\u00b9",
+    "66 m s\u207b\u00b9",
+    "34 m s\u207b\u00b9",
+    "3.2 \u00d7 10\u00b2 m s\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "From tan \u03b8 = v\u00b2/(rg), v = \u221a(rg tan \u03b8) = \u221a(120 \u00d7 9.8 \u00d7 tan 15\u00b0) \u2248 \u221a315 \u2248 18 m s\u207b\u00b9. Dividing by tan 15\u00b0 instead of multiplying gives 66 m s\u207b\u00b9, leaving out tan 15\u00b0 gives 34 m s\u207b\u00b9, and forgetting the square root gives 3.2 \u00d7 10\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0006",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A light car and a heavy truck both take the same banked curve. How do their design speeds compare?",
+   "imageRef": null,
+   "options": [
+    "They are equal, because the design speed does not depend on mass",
+    "The truck's is higher, because its larger weight presses it into the bank",
+    "The car's is higher, because it needs a smaller centripetal force",
+    "The truck's is lower, because it needs a larger centripetal force"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mass cancels when the horizontal and vertical force equations are combined, giving tan \u03b8 = v\u00b2/(rg). The truck does need a larger centripetal force, but its larger normal force supplies it in proportion, so both vehicles have the same design speed.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0007",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A car takes a banked curve faster than the curve's design speed without sliding. Which statement about the friction on its tyres is correct?",
+   "imageRef": null,
+   "options": [
+    "Friction acts up the slope, reducing the inward force",
+    "Friction is zero, because the bank supplies the inward force",
+    "Friction acts forward, along the direction of motion",
+    "Friction acts down the slope, adding to the inward force"
+   ],
+   "correctIndex": 3,
+   "explanation": "Above the design speed the horizontal component of the normal force is too small to supply mv\u00b2/r, and the car tends to slide up and out. Friction opposes that tendency by acting down the slope, and its horizontal component adds to the centripetal force.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0008",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A truck crawls around a steeply banked curve well below its design speed without sliding. In which direction does friction act on its tyres?",
+   "imageRef": null,
+   "options": [
+    "Down the slope, so it balances part of the weight",
+    "Towards the outside, horizontally, to balance the bank",
+    "Up the slope, so it reduces the net inward force",
+    "Down the slope, so it adds to the net inward force"
+   ],
+   "correctIndex": 2,
+   "explanation": "Below the design speed the normal force's horizontal component is more than the truck needs for its circle, so it tends to slide down the bank. Friction acts up the slope to prevent this, and its horizontal component points outward, reducing the net inward force to the smaller mv\u00b2/r required.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0009",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "How does a bird change direction in level flight?",
+   "imageRef": null,
+   "options": [
+    "It tilts its wings so part of the lift force points towards the centre of the turn",
+    "It flaps one wing harder, so the thrust on that side pushes it sideways",
+    "It tilts its body so its weight has a component towards the centre",
+    "It spreads its tail so air drag provides the force towards the centre"
+   ],
+   "correctIndex": 0,
+   "explanation": "Lift acts at right angles to the wings. Tilting the wings tilts the lift, so its horizontal component provides the centripetal force while its vertical component still supports the bird's weight. Weight always acts straight down, so tilting the body cannot give it a sideways component.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0010",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "An aeroplane flies a level circular turn of radius 500 m at 60 m s\u207b\u00b9. At what angle from the horizontal must its wings be banked?",
+   "imageRef": null,
+   "options": [
+    "36\u00b0",
+    "54\u00b0",
+    "47\u00b0",
+    "0.70\u00b0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The lift L satisfies L sin \u03b8 = mv\u00b2/r and L cos \u03b8 = mg, so tan \u03b8 = v\u00b2/(rg) = 60\u00b2/(500 \u00d7 9.8) \u2248 0.73 and \u03b8 \u2248 36\u00b0. The 54\u00b0 answer is the complementary angle, 47\u00b0 comes from using sin instead of tan, and 0.70\u00b0 comes from using v instead of v\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0011",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A 2.0 \u00d7 10\u2074 kg aircraft makes a level turn with its wings banked at 30\u00b0 to the horizontal. What is the size of the lift force on it?",
+   "imageRef": null,
+   "options": [
+    "3.9 \u00d7 10\u2075 N",
+    "2.3 \u00d7 10\u2075 N",
+    "1.7 \u00d7 10\u2075 N",
+    "2.0 \u00d7 10\u2075 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "In a level turn the vertical component of lift balances the weight: L cos 30\u00b0 = 2.0 \u00d7 10\u2074 \u00d7 9.8, so L \u2248 2.3 \u00d7 10\u2075 N. Multiplying by cos 30\u00b0 gives 1.7 \u00d7 10\u2075 N, which is smaller than the weight and could not hold the aircraft up. Dividing by sin 30\u00b0 gives 3.9 \u00d7 10\u2075 N.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0012",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "What is meant by the apparent weight of an object moving in a circle?",
+   "imageRef": null,
+   "options": [
+    "The size of the outward force that balances its weight",
+    "The size of the support force acting on it, such as the normal force",
+    "The size of the gravitational force acting on it, mg",
+    "The size of the centripetal force acting on it, mv\u00b2/r"
+   ],
+   "correctIndex": 1,
+   "explanation": "Apparent weight is what a scale would read: the support force from a seat, floor or track. In circular motion it can differ greatly from the true weight mg, which does not change. The centripetal force is the net force, not the support force.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0013",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A 1200 kg car drives over the crest of a hill that is part of a vertical circle of radius 40 m, at 15 m s\u207b\u00b9. What normal force does the road exert on it at the crest?",
+   "imageRef": null,
+   "options": [
+    "1.2 \u00d7 10\u2074 N",
+    "1.9 \u00d7 10\u2074 N",
+    "6.8 \u00d7 10\u00b3 N",
+    "5.0 \u00d7 10\u00b3 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the crest the net force is downward: mg \u2212 N = mv\u00b2/r, so N = 1200 \u00d7 (9.8 \u2212 15\u00b2/40) \u2248 5.0 \u00d7 10\u00b3 N. The car feels lighter than its weight, 1.2 \u00d7 10\u2074 N. Adding the two terms gives 1.9 \u00d7 10\u2074 N, which is the reading at the bottom of a dip, and 6.8 \u00d7 10\u00b3 N is mv\u00b2/r alone.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0014",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A car drives over a hump in the road whose top is part of a circle of radius 40 m. Above what speed will it lose contact with the road at the top?",
+   "imageRef": null,
+   "options": [
+    "28 m s\u207b\u00b9",
+    "6.3 m s\u207b\u00b9",
+    "39 m s\u207b\u00b9",
+    "20 m s\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The car leaves the road when the normal force falls to zero, so its weight alone supplies the centripetal force: mg = mv\u00b2/r, so v = \u221a(gr) = \u221a(9.8 \u00d7 40) \u2248 20 m s\u207b\u00b9. The 28 m s\u207b\u00b9 answer comes from \u221a(2gr), which belongs to energy conservation, not this force condition.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0015",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A car drives at steady speed through a dip in the road shaped like part of a vertical circle. How does the driver's apparent weight at the lowest point compare with their true weight?",
+   "imageRef": null,
+   "options": [
+    "It is greater, because the seat must supply the weight plus mv\u00b2/r",
+    "It is smaller, because the circular motion carries some of the weight",
+    "It is the same, because the car's speed is not changing",
+    "It is zero, because the driver is moving in a circle"
+   ],
+   "correctIndex": 0,
+   "explanation": "At the lowest point the net force must point up, towards the centre of the dip: N \u2212 mg = mv\u00b2/r, so N = mg + mv\u00b2/r. The driver is pressed into the seat and feels heavier. Steady speed does not mean no acceleration, because the direction is changing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0016",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A roller coaster car travels around the inside of a vertical loop of radius 8.0 m. What is the minimum speed at the top for the car to stay in contact with the track?",
+   "imageRef": null,
+   "options": [
+    "4.4 m s\u207b\u00b9",
+    "8.9 m s\u207b\u00b9",
+    "13 m s\u207b\u00b9",
+    "78 m s\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "At the minimum speed the track pushes with zero force, so the weight alone is the centripetal force: mg = mv\u00b2/r, giving v = \u221a(gr) = \u221a(9.8 \u00d7 8.0) \u2248 8.9 m s\u207b\u00b9. Using \u221a(2gr) gives 13 m s\u207b\u00b9, and 78 is gr without the square root.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0017",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A rider passes through the bottom of a vertical loop of radius 10 m at 20 m s\u207b\u00b9. About how many times their true weight is their apparent weight there?",
+   "imageRef": null,
+   "options": [
+    "4.1",
+    "3.1",
+    "2.0",
+    "5.1"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the bottom N \u2212 mg = mv\u00b2/r, so N/mg = 1 + v\u00b2/(rg) = 1 + 20\u00b2/(10 \u00d7 9.8) \u2248 5.1. Forgetting that the seat must also support the weight gives 4.1. Riders feel this as being pressed hard into their seats.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0018",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A bucket of water is swung in a vertical circle at the minimum speed for the water to stay in at the top. What provides the centripetal force on the water at the top?",
+   "imageRef": null,
+   "options": [
+    "The bucket's push alone",
+    "The water's weight and an outward force",
+    "The tension in the arm alone",
+    "The water's weight alone"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the minimum speed the bottom of the bucket exerts no force on the water, so the weight alone supplies mv\u00b2/r and v = \u221a(gr). Swung faster, the bucket also pushes down on the water. There is no outward force; the water stays in because it is falling no faster than the bucket follows its circle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0019",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A 0.50 kg ball on a string 0.80 m long is whirled in a vertical circle at a constant 4.0 m s\u207b\u00b9. What is the tension in the string at the bottom of the circle?",
+   "imageRef": null,
+   "options": [
+    "15 N",
+    "10 N",
+    "5.1 N",
+    "4.9 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "At the bottom the tension must supply the weight and the centripetal force: T = mv\u00b2/r + mg = 0.50 \u00d7 4.0\u00b2/0.80 + 0.50 \u00d7 9.8 \u2248 15 N. The 10 N answer is mv\u00b2/r alone, and 5.1 N is the tension at the top, where the weight helps instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0020",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A ball on a string is whirled in a vertical circle at constant speed. At which point is the string most likely to break?",
+   "imageRef": null,
+   "options": [
+    "At the top, where the tension and the weight both act towards the centre",
+    "At the sides, where the tension is horizontal and the weight is vertical",
+    "Anywhere, since the tension is constant when the speed is constant",
+    "At the bottom, where the tension must supply the weight as well as mv\u00b2/r"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the bottom T \u2212 mg = mv\u00b2/r, so the tension is largest. At the top the weight helps provide the centripetal force, so the tension is smallest. The tension varies around the circle even at constant speed, because the weight's component along the string changes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0021",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A Ferris wheel turns at constant speed. Where is a rider's apparent weight smallest?",
+   "imageRef": null,
+   "options": [
+    "It is the same at every point",
+    "At the top of the wheel",
+    "At the bottom of the wheel",
+    "Halfway up, on the rising side"
+   ],
+   "correctIndex": 1,
+   "explanation": "At the top the net force must point down, so mg \u2212 N = mv\u00b2/r and N is less than mg. At the bottom it must point up, so N = mg + mv\u00b2/r and the rider feels heaviest. The centripetal force has the same size at every point, but the seat's force does not.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0022",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "What distinguishes non-uniform vertical circular motion, such as a roller coaster loop, from uniform circular motion?",
+   "imageRef": null,
+   "options": [
+    "The speed changes around the loop as kinetic and potential energy are exchanged",
+    "The radius changes around the loop as the track pushes the car outward",
+    "The centripetal force is zero at the top and largest at the sides",
+    "The car's mass changes as its speed increases around the loop"
+   ],
+   "correctIndex": 0,
+   "explanation": "With no motor driving it, a car in a vertical loop slows as it rises and speeds up as it falls, because the weight has a component along the track. Energy is conserved, so it trades kinetic for gravitational potential energy. The radius of a circular loop does not change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0023",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "An astronaut in a spacecraft orbiting Earth feels weightless. Which statement explains this?",
+   "imageRef": null,
+   "options": [
+    "The outward centrifugal force exactly cancels the gravitational force",
+    "The spacecraft's engines push her upward with a force equal to her weight",
+    "Gravity provides all the centripetal force, so no support force acts on her",
+    "She is so far from Earth that the gravitational force on her is zero"
+   ],
+   "correctIndex": 2,
+   "explanation": "In orbit the astronaut and spacecraft both fall freely, with gravity supplying the centripetal force, so the floor does not push on her and her apparent weight is zero. Gravity is still strong at orbital heights, around 90% of its surface value for a low orbit. There is no outward force in an inertial frame.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0024",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A roller coaster car starts from rest 30 m above the ground and coasts without friction to the top of a loop 20 m above the ground. What is its speed at the top of the loop?",
+   "imageRef": null,
+   "options": [
+    "20 m s\u207b\u00b9",
+    "14 m s\u207b\u00b9",
+    "24 m s\u207b\u00b9",
+    "9.9 m s\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The car drops 10 m, so \u00bdmv\u00b2 = mg\u0394h gives v = \u221a(2 \u00d7 9.8 \u00d7 10) = 14 m s\u207b\u00b9. Using the full 30 m height gives 24 m s\u207b\u00b9, and leaving out the factor of 2 gives 9.9 m s\u207b\u00b9. The speed does not depend on the car's mass.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0025",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A small block slides without friction down a ramp and around a vertical loop of radius 6.0 m. From what minimum height above the bottom of the loop must it start from rest to stay on the track?",
+   "imageRef": null,
+   "options": [
+    "12 m",
+    "18 m",
+    "9.0 m",
+    "15 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "At the top the minimum speed satisfies v\u00b2 = gr. Energy conservation from the start to the top, 2r up: mgh = mg(2r) + \u00bdm(gr), so h = 2.5r = 15 m. Starting at 12 m, the loop's height, would leave no speed at the top, so the block would fall away.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0026",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A 0.20 kg bob on a string 1.0 m long is released from rest with the string horizontal. What is the tension in the string as the bob passes through the lowest point?",
+   "imageRef": null,
+   "options": [
+    "2.0 N",
+    "3.9 N",
+    "7.8 N",
+    "5.9 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "Energy conservation gives v\u00b2 = 2gL at the bottom. Then T \u2212 mg = mv\u00b2/L = 2mg, so T = 3mg = 3 \u00d7 0.20 \u00d7 9.8 \u2248 5.9 N. The 2.0 N answer is the weight alone, and 3.9 N is mv\u00b2/L without the weight.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0027",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A cart moves at 8.0 m s\u207b\u00b9 at the top of a frictionless vertical circular track of radius 5.0 m. What is its speed at the bottom of the circle?",
+   "imageRef": null,
+   "options": [
+    "16 m s\u207b\u00b9",
+    "13 m s\u207b\u00b9",
+    "22 m s\u207b\u00b9",
+    "14 m s\u207b\u00b9"
+   ],
+   "correctIndex": 0,
+   "explanation": "The cart falls through the diameter, 10 m. Energy conservation gives v\u00b2 = 8.0\u00b2 + 2 \u00d7 9.8 \u00d7 10 = 260, so v \u2248 16 m s\u207b\u00b9. Dropping only the radius gives 13 m s\u207b\u00b9, and 22 m s\u207b\u00b9 adds the speeds instead of combining the energies.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0028",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "Why does the normal force from a roller coaster track not change the kinetic energy of the car?",
+   "imageRef": null,
+   "options": [
+    "It acts perpendicular to the car's motion, so it does no work",
+    "It is always balanced by the car's weight, so the net force is zero",
+    "It is much smaller than the weight, so its effect can be ignored",
+    "It acts along the direction of motion, so it only changes direction"
+   ],
+   "correctIndex": 0,
+   "explanation": "Work is done only by a force component along the displacement. The normal force is perpendicular to the track, and so to the motion, so it changes the car's direction but not its speed. The normal force is not balanced by the weight in a loop; it often exceeds it.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-circular-motion-0029",
+   "topicId": "phys-wace-circular-motion",
+   "stem": "A 500 kg coaster car passes a point 25 m high at 5.0 m s\u207b\u00b9 and later a point 5.0 m high. Friction removes 2.0 \u00d7 10\u2074 J of energy between the points. What is its speed at the lower point?",
+   "imageRef": null,
+   "options": [
+    "21 m s\u207b\u00b9",
+    "17 m s\u207b\u00b9",
+    "18 m s\u207b\u00b9",
+    "20 m s\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Initial energy: \u00bd \u00d7 500 \u00d7 5.0\u00b2 + 500 \u00d7 9.8 \u00d7 25 \u2248 1.29 \u00d7 10\u2075 J. At the lower point Ep = 2.45 \u00d7 10\u2074 J, and 2.0 \u00d7 10\u2074 J has gone to friction, leaving Ek \u2248 8.4 \u00d7 10\u2074 J, so v = \u221a(2 \u00d7 8.4 \u00d7 10\u2074/500) \u2248 18 m s\u207b\u00b9. Ignoring friction gives 20 m s\u207b\u00b9.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-circular-motion-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

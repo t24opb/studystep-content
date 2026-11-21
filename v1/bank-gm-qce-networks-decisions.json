@@ -1,0 +1,765 @@
+{
+ "topicId": "gm-qce-networks-decisions",
+ "questions": [
+  {
+   "id": "gm-qce-networks-decisions-0001",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In graph theory, a tree is:",
+   "imageRef": null,
+   "options": [
+    "a graph with exactly one cycle in it",
+    "a connected graph with no cycles",
+    "a connected graph with no bridges",
+    "a graph with no vertices of odd degree"
+   ],
+   "correctIndex": 1,
+   "explanation": "A tree is connected and contains no cycles, so there is exactly one path between any two vertices. In fact every edge of a tree is a bridge, which is the opposite of having none.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0002",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A spanning tree of a connected graph is:",
+   "imageRef": null,
+   "options": [
+    "a subgraph that includes the edges of lowest weight at each vertex",
+    "a subgraph that is a cycle passing through every vertex of the graph",
+    "a subgraph that is a tree and includes every vertex of the graph",
+    "a subgraph that is a tree and includes every edge of the graph"
+   ],
+   "correctIndex": 2,
+   "explanation": "A spanning tree reaches every vertex using edges of the graph without forming a cycle. It cannot include every edge unless the graph is already a tree, and a cycle through every vertex is a Hamiltonian cycle.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0003",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "For a connected weighted graph, a minimum spanning tree is:",
+   "imageRef": null,
+   "options": [
+    "a spanning tree whose total edge weight is as small as possible",
+    "the shortest path between the two vertices that are furthest apart",
+    "a spanning tree that uses the smallest edge at every single vertex",
+    "a spanning tree that has the smallest possible number of edges"
+   ],
+   "correctIndex": 0,
+   "explanation": "Of all the spanning trees, the minimum spanning tree has the least total weight. Every spanning tree of a graph with n vertices has n \u2212 1 edges, so the number of edges cannot be what makes it minimum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0004",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A tree has 15 vertices. The number of edges is:",
+   "imageRef": null,
+   "options": [
+    "13",
+    "14",
+    "15",
+    "16"
+   ],
+   "correctIndex": 1,
+   "explanation": "A tree with n vertices always has n \u2212 1 edges, so this tree has 14. Adding one more edge would join two vertices that are already connected and create a cycle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0005",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A connected graph has 7 vertices and 11 edges. To form a spanning tree, the number of edges that must be removed is:",
+   "imageRef": null,
+   "options": [
+    "11",
+    "5",
+    "6",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "A spanning tree on 7 vertices has 7 \u2212 1 = 6 edges, so 11 \u2212 6 = 5 edges must be removed. Giving 6 confuses the number removed with the number kept.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0006",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A weighted graph has edges A-B 8, A-C 5, B-C 4, B-D 6, C-D 9, C-E 7, D-E 3, D-F 10 and E-F 11. The total weight of a minimum spanning tree is:",
+   "imageRef": null,
+   "options": [
+    "32",
+    "28",
+    "29",
+    "25"
+   ],
+   "correctIndex": 1,
+   "explanation": "The minimum spanning tree uses D-E 3, B-C 4, A-C 5, B-D 6 and D-F 10, a total of 28. Taking the five lightest edges gives 25, but C-E 7 would close the cycle B-C-E-D-B and F would be left out.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0007",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Using Prim's algorithm from vertex A on the graph with edges A-B 8, A-C 5, B-C 4, B-D 6, C-D 9, C-E 7, D-E 3, D-F 10 and E-F 11, the third edge added is:",
+   "imageRef": null,
+   "options": [
+    "C-E",
+    "A-B",
+    "B-D",
+    "D-E"
+   ],
+   "correctIndex": 2,
+   "explanation": "Prim's algorithm adds the lightest edge joining the tree to a new vertex. From A it adds A-C 5, then B-C 4, then B-D 6, which is lighter than C-E 7. D-E 3 is the lightest edge overall but only becomes available once D is in the tree.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0008",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Power cable must connect towns P, Q, R, S and T. Possible routes (km): P-Q 12, P-R 9, Q-R 7, Q-S 14, R-S 10, R-T 16, S-T 8, Q-T 18. At $25 000 per km, the minimum cost of connecting all the towns is:",
+   "imageRef": null,
+   "options": [
+    "$1 175 000",
+    "$850 000",
+    "$925 000",
+    "$950 000"
+   ],
+   "correctIndex": 1,
+   "explanation": "The minimum spanning tree uses Q-R 7, S-T 8, P-R 9 and R-S 10, a total of 34 km, costing 34 \u00d7 $25 000 = $850 000. Using P-Q 12 instead of P-R 9 gives 37 km, or $925 000.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0009",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In a project network drawn as activity on arc, each activity is represented by:",
+   "imageRef": null,
+   "options": [
+    "a node, with edges showing which activities must come first",
+    "a node, with its duration written on every edge leaving it",
+    "an edge (arc), with its earliest starting time as the weight",
+    "an edge (arc), with nodes marking the start and end of activities"
+   ],
+   "correctIndex": 3,
+   "explanation": "In an activity-on-arc network each activity is an arc labelled with its name and duration. The nodes are events, the points where activities finish and the next ones can begin.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0010",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In critical path analysis, the earliest starting time (EST) of an activity is:",
+   "imageRef": null,
+   "options": [
+    "the latest time it can begin without delaying the completion of the project",
+    "the time from the start of the project until the activity has been completed",
+    "the amount of time it can be delayed without delaying completion of the project",
+    "the earliest time it can begin, once all its immediate predecessors are finished"
+   ],
+   "correctIndex": 3,
+   "explanation": "The EST is found by forward scanning: an activity cannot start until every one of its immediate predecessors is complete. The latest time it can begin without delaying the project is its latest starting time (LST).",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0011",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "The float time of an activity is calculated as:",
+   "imageRef": null,
+   "options": [
+    "EST \u2212 LST",
+    "LST + duration",
+    "EST + duration",
+    "LST \u2212 EST"
+   ],
+   "correctIndex": 3,
+   "explanation": "Float is the latest starting time minus the earliest starting time, the delay an activity can absorb without holding up the project. EST + duration is the earliest finishing time, not the float.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0012",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "The critical path of a project network is:",
+   "imageRef": null,
+   "options": [
+    "the shortest path from start to finish, made up of the quickest activities",
+    "the path from start to finish that passes through the most activities",
+    "the path containing the single activity with the longest duration",
+    "the longest path from start to finish, made up of activities with zero float"
+   ],
+   "correctIndex": 3,
+   "explanation": "The critical path is the longest path through the network, and its length is the minimum completion time. Every activity on it has zero float, so delaying any of them delays the whole project.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0013",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In an activity network drawn without dummy activities, two activities X and Y start from the same node. This means:",
+   "imageRef": null,
+   "options": [
+    "X and Y have exactly the same immediate predecessors",
+    "X and Y must be completed at exactly the same time",
+    "X and Y are both on the critical path of the project",
+    "X and Y must have exactly the same duration as each other"
+   ],
+   "correctIndex": 0,
+   "explanation": "A node is reached when all the activities ending there are complete, so every activity leaving it has those activities as its immediate predecessors. Activities from the same node can have different durations and floats.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0014",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Activity G has immediate predecessors D and E. D has EST 5 and takes 6 days; E has EST 7 and takes 2 days. Using forward scanning, the EST of G is:",
+   "imageRef": null,
+   "options": [
+    "day 11",
+    "day 9",
+    "day 7",
+    "day 20"
+   ],
+   "correctIndex": 0,
+   "explanation": "G cannot start until both predecessors finish. D finishes at 5 + 6 = 11 and E at 7 + 2 = 9, and forward scanning takes the larger, so the EST of G is 11. Taking the smaller value would let G start before D is done.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0015",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Activity K takes 4 days. It is immediately followed by two activities with latest starting times of day 12 and day 9. Using backward scanning, the LST of K is:",
+   "imageRef": null,
+   "options": [
+    "day 13",
+    "day 1",
+    "day 5",
+    "day 8"
+   ],
+   "correctIndex": 2,
+   "explanation": "K must finish by the earlier of the two successors' LSTs, day 9, so its LST is 9 \u2212 4 = 5. Using day 12 gives day 8, which would make the second successor start late and delay the project.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0016",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 3 (none), B 5 (none), C 4 (A), D 6 (B), E 2 (C), F 3 (C), G 4 (D, E), H 5 (F, G). The minimum time to complete the project is:",
+   "imageRef": null,
+   "options": [
+    "32 days",
+    "20 days",
+    "18 days",
+    "15 days"
+   ],
+   "correctIndex": 1,
+   "explanation": "The longest path is B-D-G-H, 5 + 6 + 4 + 5 = 20 days. A-C-E-G-H takes 18 days and A-C-F-H 15 days. 32 days is the sum of all durations, which ignores activities running at the same time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0017",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 3 (none), B 5 (none), C 4 (A), D 6 (B), E 2 (C), F 3 (C), G 4 (D, E), H 5 (F, G). The critical path is:",
+   "imageRef": null,
+   "options": [
+    "B-D-G-H",
+    "A-C-E-G-H",
+    "A-C-F-H",
+    "A-C-E-G"
+   ],
+   "correctIndex": 0,
+   "explanation": "B-D-G-H is the longest path, at 20 days, so its activities all have zero float. A-C-E-G-H passes through more activities but only takes 18 days.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0018",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 3 (none), B 5 (none), C 4 (A), D 6 (B), E 2 (C), F 3 (C), G 4 (D, E), H 5 (F, G). The float time of activity F is:",
+   "imageRef": null,
+   "options": [
+    "7 days",
+    "12 days",
+    "5 days",
+    "2 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "F has EST 7 (after A and C) and must finish by day 15, when H must start, so its LST is 15 \u2212 3 = 12. Float = 12 \u2212 7 = 5 days. The values 7 and 12 are F's EST and LST, not its float.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0019",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 3 (none), B 5 (none), C 4 (A), D 6 (B), E 2 (C), F 3 (C), G 4 (D, E), H 5 (F, G). The latest starting time of activity C is:",
+   "imageRef": null,
+   "options": [
+    "day 3",
+    "day 7",
+    "day 2",
+    "day 5"
+   ],
+   "correctIndex": 3,
+   "explanation": "Backward scanning gives G an LST of 11, so E's LST is 11 \u2212 2 = 9 and F's is 12. C must finish by the earlier, day 9, so its LST is 9 \u2212 4 = 5. Day 3 is C's EST.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0020",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A project has activities (duration in days; immediate predecessors): A 3 (none), B 5 (none), C 4 (A), D 6 (B), E 2 (C), F 3 (C), G 4 (D, E), H 5 (F, G). If activity E is delayed by 3 days, the project will take:",
+   "imageRef": null,
+   "options": [
+    "21 days",
+    "20 days",
+    "23 days",
+    "18 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "E has a float of 9 \u2212 7 = 2 days, so a 3-day delay is 1 day more than its float. E then finishes at day 12, G starts at 12 instead of 11, and the project ends at day 21. Adding the whole 3 days to 20 gives 23.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0021",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Activities (duration in hours; immediate predecessors): P 2 (none), Q 4 (none), R 3 (P), S 5 (Q), T 7 (R), U 2 (S), V 3 (T, U). Which activity could be delayed by 1 hour without delaying the project?",
+   "imageRef": null,
+   "options": [
+    "V",
+    "S",
+    "R",
+    "T"
+   ],
+   "correctIndex": 1,
+   "explanation": "The critical path is P-R-T-V, 15 hours, while Q-S-U-V takes 14 hours, so Q, S and U each have 1 hour of float. R, T and V are critical, and any delay to them delays the project.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0022",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Activities (duration in days; immediate predecessors): A 4 (none), B 6 (none), C 5 (A), D 3 (B), E 4 (C, D). If activity D is delayed by 2 days, the minimum completion time becomes:",
+   "imageRef": null,
+   "options": [
+    "14 days",
+    "17 days",
+    "15 days",
+    "13 days"
+   ],
+   "correctIndex": 2,
+   "explanation": "A-C-E and B-D-E both take 13 days, so there are two critical paths and D has no float. A 2-day delay to D adds 2 days, giving 15. Assuming D had float would leave the time at 13.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0023",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In a flow network, the sink is:",
+   "imageRef": null,
+   "options": [
+    "the vertex where all the flow ends up",
+    "the vertex where all the flow begins",
+    "the edge with the smallest capacity",
+    "the cut with the smallest capacity"
+   ],
+   "correctIndex": 0,
+   "explanation": "Flow starts at the source and travels through the network to the sink. The edge of smallest capacity limits flow along its own route, but it is not the sink.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0024",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In a flow network, a cut is:",
+   "imageRef": null,
+   "options": [
+    "the removal of a single edge so that the network becomes two separate parts",
+    "the path from the source to the sink that carries the largest possible flow",
+    "a line that separates the source from the sink, so that all flow is blocked",
+    "a line through the edges of largest capacity, from the source to the sink"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cut divides the vertices into a group containing the source and a group containing the sink, so that no flow could get from one to the other. Removing a single edge to disconnect a graph describes a bridge.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0025",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "The maximum flow through a network is equal to:",
+   "imageRef": null,
+   "options": [
+    "the capacity of the maximum cut",
+    "the total capacity of all edges",
+    "the largest single edge capacity",
+    "the capacity of the minimum cut"
+   ],
+   "correctIndex": 3,
+   "explanation": "This is the maximum-flow minimum-cut result: the flow can be no more than the smallest cut, and some flow pattern achieves it. The total of all capacities is far too large, because every unit of flow must pass through every cut.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0026",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A pipe network has source S and sink T, with one-way pipes S\u2192A 10, S\u2192B 8, A\u2192C 6, A\u2192T 5, B\u2192A 3, B\u2192C 7 and C\u2192T 12 (litres per minute). A cut separates S and A from B, C and T. It crosses S\u2192B, A\u2192C, A\u2192T and B\u2192A. The capacity of this cut is:",
+   "imageRef": null,
+   "options": [
+    "11 L/min",
+    "19 L/min",
+    "22 L/min",
+    "16 L/min"
+   ],
+   "correctIndex": 1,
+   "explanation": "Only edges flowing from the source side to the sink side are counted: S\u2192B 8 + A\u2192C 6 + A\u2192T 5 = 19. B\u2192A flows from the sink side back to the source side, so it adds 0, not 3 and not \u22123.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0027",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A pipe network has source S and sink T, with one-way pipes S\u2192A 10, S\u2192B 8, A\u2192C 6, A\u2192T 5, B\u2192A 3, B\u2192C 7 and C\u2192T 12 (litres per minute). The maximum flow from S to T is:",
+   "imageRef": null,
+   "options": [
+    "20 L/min",
+    "17 L/min",
+    "18 L/min",
+    "19 L/min"
+   ],
+   "correctIndex": 1,
+   "explanation": "The cut just in front of T crosses A\u2192T 5 and C\u2192T 12, a capacity of 17, and it is the smallest of the 8 possible cuts. The cut around S alone has capacity 10 + 8 = 18, so it is not the minimum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0028",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A pipe network has source S and sink T, with one-way pipes S\u2192A 10, S\u2192B 8, A\u2192C 6, A\u2192T 5, B\u2192A 3, B\u2192C 7 and C\u2192T 12 (litres per minute). The minimum cut crosses the pipes:",
+   "imageRef": null,
+   "options": [
+    "A\u2192C, A\u2192T and B\u2192C",
+    "A\u2192T and C\u2192T",
+    "S\u2192A and S\u2192B",
+    "S\u2192A, B\u2192A and B\u2192C"
+   ],
+   "correctIndex": 1,
+   "explanation": "The cut in front of T crosses A\u2192T and C\u2192T, 5 + 12 = 17, the smallest of the cuts. The cut around S is 10 + 8 = 18, the cut through S\u2192A, B\u2192A and B\u2192C is 10 + 3 + 7 = 20, and the cut through A\u2192C, A\u2192T and B\u2192C is 6 + 5 + 7 = 18.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0029",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A network has source S and sink T, with directed edges S\u2192A 9, S\u2192B 5, A\u2192B 4, A\u2192T 6 and B\u2192T 12. The maximum flow from S to T is:",
+   "imageRef": null,
+   "options": [
+    "18",
+    "21",
+    "14",
+    "15"
+   ],
+   "correctIndex": 2,
+   "explanation": "The four cuts have capacities 14 (around S), 15 (around S and A), 21 (around S and B) and 18 (in front of T). The minimum is 14, so the maximum flow is 14. Taking the cut in front of the sink gives 18.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0030",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A network has source S and sink T, with directed edges S\u2192A 9, S\u2192B 5, A\u2192B 4, A\u2192T 6 and B\u2192T 12. If B\u2192T is upgraded from 12 to 20, the maximum flow becomes:",
+   "imageRef": null,
+   "options": [
+    "18",
+    "26",
+    "14",
+    "22"
+   ],
+   "correctIndex": 2,
+   "explanation": "The minimum cut is around S, with capacity 9 + 5 = 14, and B\u2192T is not in it. Raising B\u2192T does not change this cut, so the maximum flow stays at 14. Only increasing the capacity of edges in the minimum cut can help.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0031",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "An allocation problem with four workers and four tasks is drawn as a graph. The most suitable graph is:",
+   "imageRef": null,
+   "options": [
+    "a complete graph, with every worker joined to every other worker",
+    "a directed graph, with arrows from each task to the next task",
+    "a tree, with one worker at the root joined to all of the tasks",
+    "a bipartite graph, with workers in one group and tasks in the other"
+   ],
+   "correctIndex": 3,
+   "explanation": "An allocation is represented by a bipartite graph: edges join a worker to a task they could do, never a worker to a worker. Its table or matrix form is what the Hungarian algorithm works on.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0032",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Lifeguards are allocated one tower each. Mia can staff towers A or B, Noah only C, Olive A or D, and Priya B or C. Every tower must be staffed. Mia staffs tower:",
+   "imageRef": null,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correctIndex": 0,
+   "explanation": "Noah must take C, so Priya takes B. That leaves Mia with A, and Olive takes D. Starting with the person who has only one choice settles the rest.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0033",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "For a minimum (cost) allocation, the first step of the Hungarian algorithm is to:",
+   "imageRef": null,
+   "options": [
+    "subtract every number in the table from the largest number in the table",
+    "cover all the zeros in the table with the smallest number of lines",
+    "allocate each worker to the task with the smallest number in their row",
+    "subtract the smallest number in each row from every number in that row"
+   ],
+   "correctIndex": 3,
+   "explanation": "Row reduction comes first, then column reduction, then covering the zeros. Subtracting every number from the largest is how a maximum problem is converted before the algorithm starts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0034",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Costs ($) for workers X, Y, Z to do tasks 1, 2, 3 are: X 14, 9, 12; Y 11, 10, 16; Z 13, 15, 11. After row reduction in the Hungarian algorithm, X's row becomes:",
+   "imageRef": null,
+   "options": [
+    "3, 0, 1",
+    "5, 0, 2",
+    "5, 0, 3",
+    "0, 5, 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The smallest cost in X's row is 9, and 14 \u2212 9 = 5, 9 \u2212 9 = 0, 12 \u2212 9 = 3. Subtracting from the largest number, 14, is the conversion for a maximum problem.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0035",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Costs ($) for workers X, Y, Z to do tasks 1, 2, 3 are: X 14, 9, 12; Y 11, 10, 16; Z 13, 15, 11. The minimum total cost of an allocation with one task each is:",
+   "imageRef": null,
+   "options": [
+    "$38",
+    "$31",
+    "$35",
+    "$30"
+   ],
+   "correctIndex": 1,
+   "explanation": "X does task 2 ($9), Y task 1 ($11) and Z task 3 ($11), totalling $31. Giving each worker their own cheapest task fails, because X and Y would both want task 2 and Y-2, X-1, Z-3 costs $35.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0036",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "In the Hungarian algorithm for an n \u00d7 n table, after reduction the zeros are covered with the least number of horizontal and vertical lines. An optimal allocation can be made when:",
+   "imageRef": null,
+   "options": [
+    "every row contains two zeros",
+    "the lines cover every number",
+    "the number of lines equals n",
+    "the number of lines is n \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "When n lines are needed, there are enough independent zeros for each row to be matched to a different column. With fewer lines, the table must be adjusted and the zeros covered again.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0037",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "A reduced 3 \u00d7 3 table is [0 4 1; 0 2 3; 3 0 0]. Its zeros are covered by column 1 and row 3. After the next step of the Hungarian algorithm the table becomes:",
+   "imageRef": null,
+   "options": [
+    "[0 3 0; 0 1 2; 2 0 0]",
+    "[1 3 0; 1 1 2; 4 0 0]",
+    "[0 3 0; 0 1 2; 4 0 0]",
+    "[0 3 0; 0 1 2; 3 0 0]"
+   ],
+   "correctIndex": 2,
+   "explanation": "Two lines are fewer than three, so subtract the smallest uncovered number, 1, from every uncovered number and add it to the number where the lines cross, row 3 column 1, which becomes 4. Covered numbers on only one line stay the same.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0038",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Times (minutes) for Ana, Ben, Cleo and Dev to do jobs P, Q, R, S are: Ana 20, 25, 22, 28; Ben 15, 18, 23, 17; Cleo 19, 17, 21, 24; Dev 25, 23, 24, 22. The minimum total time with one job each is:",
+   "imageRef": null,
+   "options": [
+    "74 minutes",
+    "81 minutes",
+    "76 minutes",
+    "78 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ana does R (22), Ben P (15), Cleo Q (17) and Dev S (22), a total of 76 minutes; after reducing rows and columns, four lines are needed to cover the zeros. Ana's cheapest job is P, but giving it to her forces a total of at least 78.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0039",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "To use the Hungarian algorithm for a maximum allocation, such as maximising total sales, the table is first:",
+   "imageRef": null,
+   "options": [
+    "converted by subtracting the largest number in each row from that row",
+    "used unchanged, choosing the largest uncovered number at each step",
+    "converted by dividing every number by the largest number in the table",
+    "converted by subtracting every number from the largest number in the table"
+   ],
+   "correctIndex": 3,
+   "explanation": "Subtracting each entry from the largest entry turns the largest values into the smallest, so the usual minimum algorithm then finds the maximum allocation. The final total is read from the original table.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-qce-networks-decisions-0040",
+   "topicId": "gm-qce-networks-decisions",
+   "stem": "Scores for players A, B, C in positions 1, 2, 3 are: A 7, 9, 6; B 8, 5, 7; C 6, 8, 9. The maximum total score with each player in one position is:",
+   "imageRef": null,
+   "options": [
+    "26",
+    "22",
+    "21",
+    "27"
+   ],
+   "correctIndex": 0,
+   "explanation": "A in position 2 (9), B in 1 (8) and C in 3 (9) total 26, and every other allocation scores less. After subtracting every score from 9, this allocation has the smallest converted total, 1, and 27 \u2212 1 = 26.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-qce-networks-decisions-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "phys-qce-gravity-motion",
+ "questions": [
+  {
+   "id": "phys-qce-gravity-motion-0001",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A rope pulls on a sled with a force of 40 N at 60\u00b0 above the horizontal. What is the vertical component of the force?",
+   "imageRef": null,
+   "options": [
+    "46 N",
+    "35 N",
+    "20 N",
+    "23 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vertical component is F sin \u03b8 = 40 \u00d7 sin 60\u00b0 \u2248 35 N. Using cos 60\u00b0 gives the horizontal component, 20 N, and 23 N comes from 40 \u00d7 tan 30\u00b0, which is not a component at all.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0002",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Forces of 12 N east and 5.0 N north act on the same object. What is the resultant force?",
+   "imageRef": null,
+   "options": [
+    "17 N at 23\u00b0 north of east",
+    "13 N at 67\u00b0 north of east",
+    "7.0 N at 23\u00b0 north of east",
+    "13 N at 23\u00b0 north of east"
+   ],
+   "correctIndex": 3,
+   "explanation": "The forces are perpendicular, so the resultant is \u221a(12\u00b2 + 5.0\u00b2) = 13 N, at tan\u207b\u00b9(5.0/12) \u2248 23\u00b0 north of east. Simply adding the sizes to get 17 N ignores their directions, and 67\u00b0 is the angle measured from north instead of from east.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0003",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball moving east at 6.0 m s\u207b\u00b9 is deflected and moves north at 8.0 m s\u207b\u00b9. What is its change in velocity?",
+   "imageRef": null,
+   "options": [
+    "10 m s\u207b\u00b9 at 53\u00b0 north of west",
+    "2.0 m s\u207b\u00b9 due north",
+    "10 m s\u207b\u00b9 at 53\u00b0 north of east",
+    "14 m s\u207b\u00b9 at 53\u00b0 north of west"
+   ],
+   "correctIndex": 0,
+   "explanation": "Change in velocity is final minus initial: 8.0 north plus 6.0 west, since subtracting an eastward vector adds a westward one. Its size is \u221a(6.0\u00b2 + 8.0\u00b2) = 10 m s\u207b\u00b9 at tan\u207b\u00b9(8.0/6.0) \u2248 53\u00b0 north of west. Pointing it north of east comes from adding the vectors instead of subtracting them.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0004",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball is dropped from rest at the same moment as an identical ball is thrown horizontally from the same height. Ignoring drag, which ball lands first?",
+   "imageRef": null,
+   "options": [
+    "It depends on the throwing speed",
+    "They land together",
+    "The dropped ball",
+    "The thrown ball"
+   ],
+   "correctIndex": 1,
+   "explanation": "Horizontal and vertical motion are independent. Both balls start with zero vertical velocity and have the same downward acceleration, so they fall the same height in the same time. The thrown ball's horizontal velocity only carries it further from the starting point.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0005",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A projectile is launched at an angle above level ground, with drag negligible. What is its velocity at the highest point of its path?",
+   "imageRef": null,
+   "options": [
+    "Horizontal, equal to its full launch speed",
+    "Horizontal, equal to the horizontal component of its launch velocity",
+    "Zero, because it stops for an instant before falling",
+    "Vertical, equal to the vertical component of its launch velocity"
+   ],
+   "correctIndex": 1,
+   "explanation": "At the top, the vertical component of velocity is momentarily zero, but the horizontal component is unchanged throughout the flight because no horizontal force acts. The projectile is still moving sideways, so its velocity is not zero.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0006",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A marble rolls off a table 1.2 m high at 2.5 m s\u207b\u00b9. Ignoring drag, how far from the foot of the table does it land? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "0.87 m",
+    "3.0 m",
+    "0.49 m",
+    "1.2 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Vertically, 1.2 = \u00bd \u00d7 9.8 \u00d7 t\u00b2, so t = \u221a(2.4/9.8) \u2248 0.49 s. Horizontally, s = ut = 2.5 \u00d7 0.49 \u2248 1.2 m. Leaving out the \u00bd gives a fall time of 0.35 s and a distance of 0.87 m, and 0.49 m is the time mistaken for a distance.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0007",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball is launched from level ground at 30 m s\u207b\u00b9, 30\u00b0 above the horizontal. Ignoring drag, how long is it in the air? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "6.1 s",
+    "3.1 s",
+    "1.5 s",
+    "5.3 s"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vertical component is 30 sin 30\u00b0 = 15 m s\u207b\u00b9. The time to reach the top is 15/9.8 \u2248 1.53 s, and the flight is symmetrical, so the total time is about 3.1 s. The 1.5 s is only the time to the top, and 5.3 s uses the horizontal component instead of the vertical one.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0008",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A stone is projected with a vertical velocity component of 12 m s\u207b\u00b9 upward. Taking up as positive, what is its vertical velocity 2.0 s later? Use g = \u22129.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "7.6 m s\u207b\u00b9 downward",
+    "7.6 m s\u207b\u00b9 upward",
+    "32 m s\u207b\u00b9 downward",
+    "12 m s\u207b\u00b9 downward"
+   ],
+   "correctIndex": 0,
+   "explanation": "Using vy = uy + gt: vy = 12 + (\u22129.8)(2.0) = \u22127.6 m s\u207b\u00b9, so the stone is moving down at 7.6 m s\u207b\u00b9. Adding 12 and 19.6 to get 32 m s\u207b\u00b9 treats gravity as acting in the direction of the launch, and 12 m s\u207b\u00b9 downward assumes it has returned to its launch height.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0009",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "An arrow is fired at 28 m s\u207b\u00b9 at 30\u00b0 above the horizontal. Ignoring drag, how high does it rise above its launch point? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "30 m",
+    "10 m",
+    "40 m",
+    "20 m"
+   ],
+   "correctIndex": 1,
+   "explanation": "The vertical component is 28 sin 30\u00b0 = 14 m s\u207b\u00b9. At the top vy = 0, so 0 = 14\u00b2 \u2212 2 \u00d7 9.8 \u00d7 s gives s = 196/19.6 = 10 m. Using the full 28 m s\u207b\u00b9 gives 40 m, and using the horizontal component 28 cos 30\u00b0 gives 30 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0010",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball is thrown horizontally at 8.0 m s\u207b\u00b9 and hits the ground 1.5 s later. Ignoring drag, what is its velocity just before impact? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "17 m s\u207b\u00b9 at 61\u00b0 below the horizontal",
+    "23 m s\u207b\u00b9 at 61\u00b0 below the horizontal",
+    "17 m s\u207b\u00b9 at 29\u00b0 below the horizontal",
+    "15 m s\u207b\u00b9 at 61\u00b0 below the horizontal"
+   ],
+   "correctIndex": 0,
+   "explanation": "The vertical component is 9.8 \u00d7 1.5 = 14.7 m s\u207b\u00b9 and the horizontal component stays 8.0 m s\u207b\u00b9. Recombining: \u221a(8.0\u00b2 + 14.7\u00b2) \u2248 17 m s\u207b\u00b9 at tan\u207b\u00b9(14.7/8.0) \u2248 61\u00b0 below the horizontal. Adding the components directly gives 23 m s\u207b\u00b9, and 29\u00b0 is the angle measured from the vertical.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0011",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball is thrown at 10 m s\u207b\u00b9, 30\u00b0 above the horizontal, from the top of a cliff 15 m high. Ignoring drag, how far from the base of the cliff does it land? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "15 m",
+    "23 m",
+    "20 m",
+    "8.8 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking up as positive, \u221215 = 5.0t \u2212 4.9t\u00b2, which gives t \u2248 2.33 s. The horizontal component is 10 cos 30\u00b0 \u2248 8.66 m s\u207b\u00b9, so the ball travels 8.66 \u00d7 2.33 \u2248 20 m. The 8.8 m answer ignores the cliff and stops when the ball returns to launch height, and 23 m uses the full 10 m s\u207b\u00b9 as the horizontal speed.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0012",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A student launches a ball at the same speed at different angles over level ground and records ranges of 20 m, 35 m, 41 m, 35 m and 20 m for angles of 15\u00b0, 30\u00b0, 45\u00b0, 60\u00b0 and 75\u00b0. Which conclusion do the data support?",
+   "imageRef": null,
+   "options": [
+    "The range depends on the launch speed but not on the angle",
+    "The range is greatest at 45\u00b0, and complementary angles give equal ranges",
+    "The range increases steadily as the launch angle increases",
+    "The 30\u00b0 and 60\u00b0 launches spend the same time in the air"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ranges peak at 45\u00b0 and are equal for 15\u00b0 and 75\u00b0, and for 30\u00b0 and 60\u00b0, which add to 90\u00b0. The 60\u00b0 launch reaches the same point by a higher, slower path, so it spends longer in the air than the 30\u00b0 launch, not the same time.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0013",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Ignoring drag, a ball launched over level ground at 25\u00b0 above the horizontal lands 40 m away. At what other launch angle, at the same speed, would it land at the same point?",
+   "imageRef": null,
+   "options": [
+    "45\u00b0",
+    "75\u00b0",
+    "65\u00b0",
+    "50\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Over level ground without drag, angles that add to 90\u00b0 give the same range, so 25\u00b0 and 65\u00b0 land at the same point. Doubling the angle to 50\u00b0 does not give the same range, and 45\u00b0 gives the maximum range, which is further than 40 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0014",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "An 80 kg astronaut stands on the Moon, where g = 1.6 N kg\u207b\u00b9. What are her mass and weight there?",
+   "imageRef": null,
+   "options": [
+    "Mass 13 kg, weight 80 N",
+    "Mass 80 kg, weight 1.3 \u00d7 10\u00b2 N",
+    "Mass 13 kg, weight 1.3 \u00d7 10\u00b2 N",
+    "Mass 80 kg, weight 7.8 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "Mass is the amount of matter and does not change, so it stays 80 kg. Weight is Fg = mg = 80 \u00d7 1.6 \u2248 1.3 \u00d7 10\u00b2 N. The 7.8 \u00d7 10\u00b2 N value is her weight on Earth, where g = 9.8 N kg\u207b\u00b9.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0015",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Which statement about the normal force on an object resting on a surface is correct?",
+   "imageRef": null,
+   "options": [
+    "It always acts vertically upward, even on a slope",
+    "It is a contact force from the surface, perpendicular to it",
+    "It is the Newton's third law partner of the object's weight",
+    "It always equals the object's weight in size"
+   ],
+   "correctIndex": 1,
+   "explanation": "The normal force is the push of a surface on an object, at right angles to the surface. The third law partner of the weight is the object's gravitational pull on Earth, not the normal force. On a slope the normal force is tilted and equals only mg cos \u03b8, so it is not always equal to the weight.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0016",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A box rests without sliding on a rough ramp. Which forces act on the box?",
+   "imageRef": null,
+   "options": [
+    "Weight downward, a normal force vertically upward, and friction down the ramp",
+    "Weight downward and a normal force perpendicular to the ramp only",
+    "Weight down the ramp, a normal force up the ramp, and no friction",
+    "Weight downward, a normal force perpendicular to the ramp, and friction up the ramp"
+   ],
+   "correctIndex": 3,
+   "explanation": "Weight always acts vertically down. The normal force is perpendicular to the surface, and static friction acts up the slope to balance the component of weight down the slope. Without friction the box would slide, so the two-force set cannot describe a box at rest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0017",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A 12 kg trolley is released on a smooth ramp inclined at 25\u00b0 to the horizontal. What is its acceleration down the ramp? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "4.1 m s\u207b\u00b2",
+    "8.9 m s\u207b\u00b2",
+    "9.8 m s\u207b\u00b2",
+    "4.6 m s\u207b\u00b2"
+   ],
+   "correctIndex": 0,
+   "explanation": "With no friction, the net force is the component of weight along the slope, mg sin \u03b8, so a = g sin \u03b8 = 9.8 \u00d7 sin 25\u00b0 \u2248 4.1 m s\u207b\u00b2. The mass cancels. Using cos 25\u00b0 gives 8.9 m s\u207b\u00b2, which is the perpendicular component, and tan 25\u00b0 gives 4.6 m s\u207b\u00b2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0018",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "An 8.0 kg crate slides down a ramp inclined at 30\u00b0. Friction on the crate is 15 N. What is the net force on the crate? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "24 N down the slope",
+    "39 N down the slope",
+    "54 N down the slope",
+    "68 N down the slope"
+   ],
+   "correctIndex": 0,
+   "explanation": "The component of weight down the slope is mg sin 30\u00b0 = 8.0 \u00d7 9.8 \u00d7 0.5 \u2248 39 N. Friction opposes the sliding, so the net force is 39 \u2212 15 \u2248 24 N down the slope. Adding the friction gives 54 N, and 68 N is the perpendicular component, mg cos 30\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0019",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A 10 kg trolley is held at rest on a smooth ramp inclined at 20\u00b0 by a rope parallel to the ramp. What is the tension in the rope? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "34 N",
+    "92 N",
+    "98 N",
+    "36 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "The net force is zero, so the tension balances the component of weight down the slope: mg sin 20\u00b0 = 98 \u00d7 0.342 \u2248 34 N. The normal force balances the perpendicular component, 92 N, so that value is not the tension. The 98 N value is the whole weight.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0020",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A 5.0 kg block is pulled up a rough ramp inclined at 30\u00b0 by a 40 N force parallel to the ramp. Friction on the block is 6.0 N. What is its acceleration? Use g = 9.8 m s\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "6.8 m s\u207b\u00b2 up the slope",
+    "8.0 m s\u207b\u00b2 up the slope",
+    "1.9 m s\u207b\u00b2 up the slope",
+    "3.1 m s\u207b\u00b2 up the slope"
+   ],
+   "correctIndex": 2,
+   "explanation": "Along the slope: the pull is 40 N up, the weight component is 5.0 \u00d7 9.8 \u00d7 sin 30\u00b0 = 24.5 N down, and friction is 6.0 N down because the block moves up. The net force is 9.5 N, so a = 9.5/5.0 = 1.9 m s\u207b\u00b2. Leaving out friction gives 3.1 m s\u207b\u00b2, and leaving out the weight component gives 6.8 m s\u207b\u00b2.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0021",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A student measures the component of a block's weight parallel to a ramp as the ramp angle \u03b8 is raised from 10\u00b0 to 50\u00b0. Which relationship should the data show?",
+   "imageRef": null,
+   "options": [
+    "It increases in proportion to tan \u03b8",
+    "It increases in proportion to sin \u03b8",
+    "It increases in direct proportion to \u03b8",
+    "It decreases in proportion to cos \u03b8"
+   ],
+   "correctIndex": 1,
+   "explanation": "The parallel component is mg sin \u03b8, so a graph against sin \u03b8 is a straight line through the origin with gradient mg. It is not proportional to the angle itself, since sin \u03b8 is not linear in \u03b8. The perpendicular component, mg cos \u03b8, is the one that decreases as the ramp steepens.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0022",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "How can a car travelling around a roundabout at a constant speed be accelerating?",
+   "imageRef": null,
+   "options": [
+    "Its direction of motion keeps changing, so its velocity changes",
+    "Its speed rises and falls slightly on each lap of the roundabout",
+    "Friction gives it a forward acceleration that balances the drag",
+    "The outward centrifugal force accelerates it away from the centre"
+   ],
+   "correctIndex": 0,
+   "explanation": "Acceleration is the rate of change of velocity, and velocity includes direction. In uniform circular motion the speed is constant, but the direction changes continuously, so the car accelerates towards the centre. No outward force acts on the car in an inertial frame.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0023",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A point on a fan blade 0.25 m from the axis completes 10 revolutions in 2.0 s. What is its average speed?",
+   "imageRef": null,
+   "options": [
+    "0.79 m s\u207b\u00b9",
+    "16 m s\u207b\u00b9",
+    "1.3 m s\u207b\u00b9",
+    "7.9 m s\u207b\u00b9"
+   ],
+   "correctIndex": 3,
+   "explanation": "The period is 2.0/10 = 0.20 s, so v = 2\u03c0r/T = 2\u03c0 \u00d7 0.25/0.20 \u2248 7.9 m s\u207b\u00b9. Using 2.0 s as the period gives 0.79 m s\u207b\u00b9, and using 0.50 m, the diameter, as the radius gives 16 m s\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0024",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A car drives around a roundabout of radius 15 m at a constant 6.0 m s\u207b\u00b9. What is its acceleration?",
+   "imageRef": null,
+   "options": [
+    "0.40 m s\u207b\u00b2 towards the centre",
+    "2.4 m s\u207b\u00b2 along its velocity",
+    "2.4 m s\u207b\u00b2 towards the centre",
+    "2.4 m s\u207b\u00b2 away from the centre"
+   ],
+   "correctIndex": 2,
+   "explanation": "Centripetal acceleration is ac = v\u00b2/r = 6.0\u00b2/15 = 2.4 m s\u207b\u00b2, directed towards the centre of the circle. Dividing v by r without squaring gives 0.40 m s\u207b\u00b2. The acceleration is perpendicular to the velocity, which is why the speed does not change.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0025",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A 0.50 kg puck on a frictionless table moves in a horizontal circle of radius 0.80 m on a string, with a period of 1.2 s. What is the tension in the string?",
+   "imageRef": null,
+   "options": [
+    "8.8 N",
+    "22 N",
+    "11 N",
+    "2.6 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "The speed is v = 2\u03c0r/T = 2\u03c0 \u00d7 0.80/1.2 \u2248 4.19 m s\u207b\u00b9, and the tension provides the centripetal force: F = mv\u00b2/r = 0.50 \u00d7 4.19\u00b2/0.80 \u2248 11 N. Forgetting to square v gives 2.6 N, and forgetting to divide by r gives 8.8 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0026",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A string can hold a tension of up to 20 N. It whirls a 0.40 kg ball in a horizontal circle of radius 0.50 m on a frictionless table. What is the greatest speed the ball can have?",
+   "imageRef": null,
+   "options": [
+    "2.5 m s\u207b\u00b9",
+    "5.0 m s\u207b\u00b9",
+    "10 m s\u207b\u00b9",
+    "25 m s\u207b\u00b9"
+   ],
+   "correctIndex": 1,
+   "explanation": "The tension is the centripetal force, so 20 = 0.40v\u00b2/0.50, giving v\u00b2 = 25 and v = 5.0 m s\u207b\u00b9. The 25 m s\u207b\u00b9 value forgets the square root, and 10 m s\u207b\u00b9 comes from multiplying the mass and radius instead of dividing.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0027",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A ball on a string moves in a horizontal circle on a frictionless table. The string breaks. How does the ball move immediately afterwards?",
+   "imageRef": null,
+   "options": [
+    "In a straight line along the tangent to the circle",
+    "Radially outward, away from the centre of the circle",
+    "In a curve that gradually spirals away from the centre",
+    "In a straight line towards the centre of the circle"
+   ],
+   "correctIndex": 0,
+   "explanation": "Once the string breaks, no net horizontal force acts, so the ball keeps the velocity it had at that instant, which is along the tangent. Moving radially outward would need an outward force, and the so-called centrifugal force does not act on the ball.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0028",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A car rounds a level bend at constant speed. Which statement about the centripetal force is correct?",
+   "imageRef": null,
+   "options": [
+    "It is the forward driving force of the tyres along the road",
+    "It is the net force, provided here by friction, directed towards the centre",
+    "It is an extra force that must be added to the free-body diagram",
+    "It acts outward, balancing the friction so the car moves at constant speed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Centripetal force is not a separate force; it is the name for the net force when it points towards the centre of a circle. On a level bend, sideways friction on the tyres provides it. Drawing it as an extra force would count friction twice.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0029",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "In a horizontal circle of fixed radius, the speed of a ball on a string is doubled. How does the tension needed change, and what happens to the period?",
+   "imageRef": null,
+   "options": [
+    "The tension doubles and the period halves",
+    "The tension becomes four times as large and the period doubles",
+    "The tension doubles and the period stays the same",
+    "The tension becomes four times as large and the period halves"
+   ],
+   "correctIndex": 3,
+   "explanation": "F = mv\u00b2/r, so doubling v multiplies the force by 4. The period is T = 2\u03c0r/v, so doubling the speed at the same radius halves it. Treating the force as proportional to v rather than v\u00b2 gives only a doubling.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0030",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A student whirls a rubber stopper in a horizontal circle of fixed radius, changing the tension and timing the period T. Which graph should give a straight line through the origin?",
+   "imageRef": null,
+   "options": [
+    "Tension against 1/T",
+    "Tension against 1/T\u00b2",
+    "Tension against T",
+    "Tension against T\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Substituting v = 2\u03c0r/T into F = mv\u00b2/r gives F = 4\u03c0\u00b2mr/T\u00b2. With m and r fixed, F is proportional to 1/T\u00b2, so that graph is linear. Plotting against T or T\u00b2 gives curves, because the tension falls as the period grows.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0031",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Newton's law of universal gravitation states that the force between two masses is:",
+   "imageRef": null,
+   "options": [
+    "proportional to the product of the masses and to 1/r",
+    "proportional to the larger mass only and to 1/r\u00b2",
+    "proportional to the product of the masses and to 1/r\u00b2",
+    "proportional to the sum of the masses and to 1/r"
+   ],
+   "correctIndex": 2,
+   "explanation": "F = GMm/r\u00b2, where r is the distance between the centres of the masses. The force depends on both masses multiplied together and follows an inverse square law, so doubling r cuts the force to a quarter. Each mass pulls on the other with a force of the same size.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0032",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "What is the gravitational force between Earth (5.97 \u00d7 10\u00b2\u2074 kg) and the Moon (7.35 \u00d7 10\u00b2\u00b2 kg), 3.84 \u00d7 10\u2078 m apart? Use G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "3.0 \u00d7 10\u00b3\u2070 N",
+    "2.0 \u00d7 10\u00b2\u2076 N",
+    "2.0 \u00d7 10\u00b2\u2070 N",
+    "7.6 \u00d7 10\u00b2\u2078 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "F = GMm/r\u00b2 = 6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 5.97 \u00d7 10\u00b2\u2074 \u00d7 7.35 \u00d7 10\u00b2\u00b2 / (3.84 \u00d7 10\u2078)\u00b2 \u2248 2.0 \u00d7 10\u00b2\u2070 N. Forgetting to square the distance gives 7.6 \u00d7 10\u00b2\u2078 N, and entering the distance in kilometres gives 2.0 \u00d7 10\u00b2\u2076 N. Both bodies feel this same size of force, in opposite directions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0033",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "A gravitational field is best described as:",
+   "imageRef": null,
+   "options": [
+    "a region in which only objects in orbit experience a force",
+    "the path a satellite follows around a planet or star",
+    "a region in which charged objects experience a force",
+    "a region in which a mass experiences a force due to another mass"
+   ],
+   "correctIndex": 3,
+   "explanation": "Any mass sets up a gravitational field around it, and another mass in that field experiences a force. The field strength g is the force per unit mass, g = F/m, in N kg\u207b\u00b9. Forces on charges are described by electric fields, not gravitational ones.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0034",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "The International Space Station orbits about 6.77 \u00d7 10\u2076 m from Earth's centre. What is the gravitational field strength there? Use G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2 and Earth's mass 5.97 \u00d7 10\u00b2\u2074 kg.",
+   "imageRef": null,
+   "options": [
+    "2.5 \u00d7 10\u00b3 N kg\u207b\u00b9",
+    "9.8 N kg\u207b\u00b9",
+    "8.7 N kg\u207b\u00b9",
+    "0 N kg\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "g = GM/r\u00b2 = 6.67 \u00d7 10\u207b\u00b9\u00b9 \u00d7 5.97 \u00d7 10\u00b2\u2074 / (6.77 \u00d7 10\u2076)\u00b2 \u2248 8.7 N kg\u207b\u00b9, only a little less than at the surface. The field is far from zero; astronauts float because they are in free fall with the station. Using the 400 km altitude as r gives 2.5 \u00d7 10\u00b3 N kg\u207b\u00b9.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0035",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Kepler's first law of planetary motion states that:",
+   "imageRef": null,
+   "options": [
+    "each planet moves in an ellipse with the Sun at one focus",
+    "each planet moves in a circle with the Sun at the centre",
+    "each planet sweeps out equal areas in equal times",
+    "the square of the period is proportional to the cube of the radius"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first law describes the shape of orbits: ellipses, with the Sun at one focus rather than the centre. Equal areas in equal times is the second law, and the relationship between period and orbital radius is the third law.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0036",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "According to Kepler's second law, how does a planet's speed change around its elliptical orbit?",
+   "imageRef": null,
+   "options": [
+    "It moves fastest at the two ends of the long axis of the ellipse",
+    "It moves fastest when closest to the Sun and slowest when furthest away",
+    "It moves at a constant speed all the way around its orbit",
+    "It moves slowest when closest to the Sun and fastest when furthest away"
+   ],
+   "correctIndex": 1,
+   "explanation": "The line from the Sun to the planet sweeps out equal areas in equal times. Near the Sun the line is short, so the planet must cover more distance along its path in the same time, which means moving faster. Far from the Sun it moves more slowly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0037",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Setting the gravitational force equal to the centripetal force for a satellite in a circular orbit gives T\u00b2/r\u00b3 = 4\u03c0\u00b2/GM. What does this show?",
+   "imageRef": null,
+   "options": [
+    "Every satellite of the same central body has the same value of T\u00b2/r\u00b3",
+    "A heavier satellite needs a longer period at the same orbital radius",
+    "T\u00b2/r\u00b3 is the same for all orbits in the universe, whatever the body",
+    "The period of a satellite depends only on its own mass and speed"
+   ],
+   "correctIndex": 0,
+   "explanation": "From GMm/r\u00b2 = 4\u03c0\u00b2mr/T\u00b2, the satellite's mass m cancels, leaving T\u00b2/r\u00b3 = 4\u03c0\u00b2/GM, which depends only on the central mass M. This is Kepler's third law. Satellites of a different central body have a different constant, so it is not the same throughout the universe.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0038",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "Jupiter's moon Io orbits at a radius of 4.22 \u00d7 10\u2078 m with a period of 1.77 days. Europa orbits Jupiter at 6.71 \u00d7 10\u2078 m. What is Europa's period?",
+   "imageRef": null,
+   "options": [
+    "3.55 days",
+    "2.81 days",
+    "4.47 days",
+    "1.11 days"
+   ],
+   "correctIndex": 0,
+   "explanation": "By Kepler's third law, T\u00b2 is proportional to r\u00b3 for moons of the same planet, so T = 1.77 \u00d7 (6.71/4.22)^1.5 \u2248 1.77 \u00d7 2.00 \u2248 3.55 days. Scaling the period in direct proportion to the radius gives 2.81 days, and scaling it by the square of the radius ratio gives 4.47 days.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0039",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "What orbital radius, measured from Earth's centre, gives a satellite a period of 24 hours (8.64 \u00d7 10\u2074 s)? Use G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2 and Earth's mass 5.97 \u00d7 10\u00b2\u2074 kg.",
+   "imageRef": null,
+   "options": [
+    "3.6 \u00d7 10\u2077 m",
+    "1.4 \u00d7 10\u2078 m",
+    "1.8 \u00d7 10\u2075 m",
+    "4.2 \u00d7 10\u2077 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "From T\u00b2/r\u00b3 = 4\u03c0\u00b2/GM, r\u00b3 = GMT\u00b2/4\u03c0\u00b2 \u2248 7.5 \u00d7 10\u00b2\u00b2 m\u00b3, so r \u2248 4.2 \u00d7 10\u2077 m. The 3.6 \u00d7 10\u2077 m value is the height above the surface, not the radius from the centre. Leaving out 4\u03c0\u00b2 gives 1.4 \u00d7 10\u2078 m, and entering T in hours gives 1.8 \u00d7 10\u2075 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-qce-gravity-motion-0040",
+   "topicId": "phys-qce-gravity-motion",
+   "stem": "The Moon orbits Earth at a radius of 3.84 \u00d7 10\u2078 m with a period of 27.3 days. Use these data to find Earth's mass. Use G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2.",
+   "imageRef": null,
+   "options": [
+    "6.0 \u00d7 10\u00b2\u2074 kg",
+    "4.5 \u00d7 10\u00b3\u2074 kg",
+    "1.5 \u00d7 10\u00b2\u00b3 kg",
+    "7.3 \u00d7 10\u00b2\u00b2 kg"
+   ],
+   "correctIndex": 0,
+   "explanation": "Convert the period: 27.3 \u00d7 86 400 \u2248 2.36 \u00d7 10\u2076 s. Then M = 4\u03c0\u00b2r\u00b3/GT\u00b2 \u2248 6.0 \u00d7 10\u00b2\u2074 kg. Leaving T in days gives 4.5 \u00d7 10\u00b3\u2074 kg, and omitting 4\u03c0\u00b2 gives 1.5 \u00d7 10\u00b2\u00b3 kg. The Moon's own mass, about 7.3 \u00d7 10\u00b2\u00b2 kg, cannot be found this way because it cancels.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-qce-gravity-motion-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "topicId": "spec-tce-matrices",
+ "questions": [
+  {
+   "id": "spec-tce-matrices-0001",
+   "topicId": "spec-tce-matrices",
+   "stem": "A is a 2 \u00d7 3 matrix and B is a 3 \u00d7 4 matrix. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "AB is 2 \u00d7 4 and BA is 4 \u00d7 2",
+    "neither AB nor BA is defined",
+    "AB is 2 \u00d7 4 and BA is not defined",
+    "AB is 3 \u00d7 3 and BA is 2 \u00d7 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "A product needs the columns of the first to match the rows of the second. A has 3 columns and B has 3 rows, so AB is 2 \u00d7 4. B has 4 columns but A has only 2 rows, so BA is not defined.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0002",
+   "topicId": "spec-tce-matrices",
+   "stem": "Matrix A has rows (2, 1) and (0, 3); matrix B has rows (1, 0) and (2, 1). The product AB has rows:",
+   "imageRef": null,
+   "options": [
+    "(2, 1) and (4, 5)",
+    "(2, 0) and (0, 3)",
+    "(4, 6) and (1, 3)",
+    "(4, 1) and (6, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each entry of AB is a row of A times a column of B: the first row is (2 \u00d7 1 + 1 \u00d7 2, 2 \u00d7 0 + 1 \u00d7 1) = (4, 1), and the second is (0 + 3 \u00d7 2, 0 + 3 \u00d7 1) = (6, 3). Rows (2, 1) and (4, 5) form BA, so AB \u2260 BA here.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0003",
+   "topicId": "spec-tce-matrices",
+   "stem": "For square matrices of the same size, matrix multiplication is:",
+   "imageRef": null,
+   "options": [
+    "neither associative nor commutative",
+    "associative but not in general commutative",
+    "commutative but not in general associative",
+    "both associative and commutative"
+   ],
+   "correctIndex": 1,
+   "explanation": "(AB)C = A(BC) always holds, but AB and BA usually differ. Some pairs, such as a matrix and the identity, do commute, which is why the rule says not in general.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0004",
+   "topicId": "spec-tce-matrices",
+   "stem": "The determinant of the matrix with rows (3, \u22122) and (4, 5) is:",
+   "imageRef": null,
+   "options": [
+    "23",
+    "7",
+    "\u221223",
+    "\u22127"
+   ],
+   "correctIndex": 0,
+   "explanation": "det = ad \u2212 bc = 3 \u00d7 5 \u2212 (\u22122) \u00d7 4 = 15 + 8 = 23. Ignoring the sign of \u22122 gives 15 \u2212 8 = 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0005",
+   "topicId": "spec-tce-matrices",
+   "stem": "The matrix with rows (k, 6) and (2, 3) is singular when:",
+   "imageRef": null,
+   "options": [
+    "k = 4",
+    "k = \u22124",
+    "k = 1",
+    "k = 9"
+   ],
+   "correctIndex": 0,
+   "explanation": "A matrix is singular when its determinant is 0: 3k \u2212 12 = 0, so k = 4. Writing the determinant as 3k + 12 gives the sign error k = \u22124.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0006",
+   "topicId": "spec-tce-matrices",
+   "stem": "The inverse of the matrix with rows (5, 2) and (7, 3) has rows:",
+   "imageRef": null,
+   "options": [
+    "(5, \u22127) and (\u22122, 3)",
+    "(3, \u22122) and (\u22127, 5)",
+    "(3, 2) and (7, 5)",
+    "(\u22123, 2) and (7, \u22125)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The determinant is 15 \u2212 14 = 1. The inverse swaps the leading diagonal entries, negates the others and divides by the determinant, giving rows (3, \u22122) and (\u22127, 5). Negating every entry gives the negative of the inverse.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0007",
+   "topicId": "spec-tce-matrices",
+   "stem": "For invertible matrices A and B of the same size, (AB)\u207b\u00b9 equals:",
+   "imageRef": null,
+   "options": [
+    "A\u207b\u00b9 + B\u207b\u00b9",
+    "B\u207b\u00b9A\u207b\u00b9",
+    "A\u207b\u00b9B\u207b\u00b9",
+    "BA"
+   ],
+   "correctIndex": 1,
+   "explanation": "AB \u00d7 B\u207b\u00b9A\u207b\u00b9 = A(BB\u207b\u00b9)A\u207b\u00b9 = AA\u207b\u00b9 = I, so the inverses come in reverse order. A\u207b\u00b9B\u207b\u00b9 would only work if A and B commute.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0008",
+   "topicId": "spec-tce-matrices",
+   "stem": "Which of these is NOT an elementary row operation in Gauss-Jordan reduction?",
+   "imageRef": null,
+   "options": [
+    "multiplying a row by a non-zero constant",
+    "adding a multiple of one row to another row",
+    "squaring every entry in a row",
+    "swapping two rows"
+   ],
+   "correctIndex": 2,
+   "explanation": "The three row operations each give an equivalent system with the same solutions. Squaring entries changes the equations non-linearly, so the solutions change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0009",
+   "topicId": "spec-tce-matrices",
+   "stem": "An augmented matrix for x and y has been reduced to rows (1, 2 | 5) and (0, 1 | 2). The solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 2, y = 5",
+    "x = 9, y = 2",
+    "x = 1, y = 2",
+    "x = 5, y = 2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The second row says y = 2. The first says x + 2y = 5, so x = 5 \u2212 4 = 1. Reading x = 5 ignores the 2y term, and x = 9 adds it instead of subtracting.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0010",
+   "topicId": "spec-tce-matrices",
+   "stem": "A system of three equations in x, y and z reduces to rows (1, 0, 0 | 2), (0, 1, 0 | \u22121) and (0, 0, 1 | 3). Geometrically, the solution is:",
+   "imageRef": null,
+   "options": [
+    "the single point where the three planes meet",
+    "a line common to all three planes",
+    "a plane common to all three equations",
+    "three parallel planes with no common point"
+   ],
+   "correctIndex": 0,
+   "explanation": "The reduced form gives the unique solution x = 2, y = \u22121, z = 3, the one point (2, \u22121, 3) common to the three planes. A line of solutions would leave one variable free.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0011",
+   "topicId": "spec-tce-matrices",
+   "stem": "A system reduces to rows (1, 0, 2 | 4), (0, 1, \u22121 | 1) and (0, 0, 0 | 0). Letting z = t, the solution is:",
+   "imageRef": null,
+   "options": [
+    "x = 4 \u2212 2t, y = 1 + t, z = t, a line",
+    "x = 4, y = 1, z = 0, a single point",
+    "x = 4 + 2t, y = 1 \u2212 t, z = t, a line",
+    "no solution, since the last row is zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "The zero row leaves z free. From the other rows, x + 2z = 4 and y \u2212 z = 1, so x = 4 \u2212 2t and y = 1 + t: a line in parametric form. A row of zeros including the constant is consistent, so the system has solutions.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0012",
+   "topicId": "spec-tce-matrices",
+   "stem": "Reducing a system of three equations in x, y and z produces the row (0, 0, 0 | 5). The system has:",
+   "imageRef": null,
+   "options": [
+    "no solution",
+    "infinitely many solutions",
+    "a unique solution with z = 5",
+    "a unique solution with z = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "The row says 0x + 0y + 0z = 5, which is impossible, so the system is inconsistent. A zero row with 0 as its constant would instead give infinitely many solutions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0013",
+   "topicId": "spec-tce-matrices",
+   "stem": "The solution of x + y + z = 6, 2x \u2212 y + z = 3 and x + 2y \u2212 z = 2 is:",
+   "imageRef": null,
+   "options": [
+    "x = 1, y = 3, z = 2",
+    "x = 1, y = 2, z = 3",
+    "x = 3, y = 2, z = 1",
+    "x = 2, y = 1, z = 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Check: 1 + 2 + 3 = 6, 2 \u2212 2 + 3 = 3 and 1 + 4 \u2212 3 = 2. Each other option satisfies the first equation but fails at least one of the others.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0014",
+   "topicId": "spec-tce-matrices",
+   "stem": "The system x + 2y = 3 and 2x + ky = 5 has no solution when:",
+   "imageRef": null,
+   "options": [
+    "k = 4",
+    "k = \u22124",
+    "k = 2",
+    "k = 6"
+   ],
+   "correctIndex": 0,
+   "explanation": "With k = 4 the determinant 1 \u00d7 4 \u2212 2 \u00d7 2 is 0, and the second equation, 2x + 4y = 5, contradicts twice the first, 2x + 4y = 6. So the lines are parallel and distinct. For any other k the solution is unique.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0015",
+   "topicId": "spec-tce-matrices",
+   "stem": "For the system x + 2y = 3 and 2x + 4y = c, which statement is true?",
+   "imageRef": null,
+   "options": [
+    "infinitely many solutions if c = 6, none otherwise",
+    "a unique solution for every value of c",
+    "no solution if c = 6, infinitely many otherwise",
+    "infinitely many solutions for every value of c"
+   ],
+   "correctIndex": 0,
+   "explanation": "The coefficient matrix has determinant 0, so there is never a unique solution. If c = 6 the second equation is twice the first, the same line; otherwise the lines are parallel and distinct.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0016",
+   "topicId": "spec-tce-matrices",
+   "stem": "A concert sold 120 tickets: adults at $15 and children at $8, taking $1450. The number of adult tickets sold was:",
+   "imageRef": null,
+   "options": [
+    "60",
+    "80",
+    "70",
+    "50"
+   ],
+   "correctIndex": 2,
+   "explanation": "From a + c = 120 and 15a + 8c = 1450: 15a + 8(120 \u2212 a) = 1450, so 7a = 490 and a = 70. Then c = 50, which is the number of child tickets.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0017",
+   "topicId": "spec-tce-matrices",
+   "stem": "The plane 2x + 3y + 6z = 12 meets the x, y and z axes at:",
+   "imageRef": null,
+   "options": [
+    "x = 1/6, y = 1/4, z = 1/2",
+    "x = 12, y = 12, z = 12",
+    "x = 6, y = 4, z = 2",
+    "x = 2, y = 3, z = 6"
+   ],
+   "correctIndex": 2,
+   "explanation": "On the x-axis y = z = 0, so 2x = 12 and x = 6; similarly y = 4 and z = 2. Reading the coefficients 2, 3 and 6 as the intercepts is the usual slip.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0018",
+   "topicId": "spec-tce-matrices",
+   "stem": "Which point lies in the plane 3x \u2212 y + 2z = \u22121?",
+   "imageRef": null,
+   "options": [
+    "(1, \u22122, \u22121)",
+    "(\u22121, 2, 1)",
+    "(2, 1, \u22121)",
+    "(1, 2, \u22121)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Substituting (1, 2, \u22121): 3 \u2212 2 \u2212 2 = \u22121, which matches. The other points give 3, \u22123 and 3, so they are not in the plane.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0019",
+   "topicId": "spec-tce-matrices",
+   "stem": "The line x = 1 + t, y = 2 \u2212 t, z = 3 + 2t and the plane x + 3y + z = 10:",
+   "imageRef": null,
+   "options": [
+    "the line lies entirely in the plane",
+    "meet at exactly one point",
+    "are parallel, with the line not in the plane",
+    "meet only at the point where t = 0"
+   ],
+   "correctIndex": 0,
+   "explanation": "Substituting gives (1 + t) + 3(2 \u2212 t) + (3 + 2t) = 10 + 0t = 10, true for every t. So every point of the line is in the plane. The point at t = 0 is in the plane, but so are all the others.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0020",
+   "topicId": "spec-tce-matrices",
+   "stem": "Which plane is parallel to the plane 2x \u2212 y + 3z = 5 but different from it?",
+   "imageRef": null,
+   "options": [
+    "4x \u2212 2y + 6z = 1",
+    "2x + y + 3z = 5",
+    "2x \u2212 y \u2212 3z = 5",
+    "x \u2212 2y + 3z = 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "Parallel planes have proportional x, y and z coefficients: (4, \u22122, 6) = 2(2, \u22121, 3), and 1 \u2260 2 \u00d7 5, so the planes are distinct. Changing the sign of one coefficient gives a plane at a different angle.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0021",
+   "topicId": "spec-tce-matrices",
+   "stem": "In symmetric form, the line x = 1 + 2t, y = \u22122 + t, z = 3 \u2212 t is:",
+   "imageRef": null,
+   "options": [
+    "(x \u2212 1)/2 = (y + 2)/1 = (z \u2212 3)/(\u22121)",
+    "(x \u2212 2)/1 = (y \u2212 1)/(\u22122) = (z + 1)/3",
+    "(x + 1)/2 = (y \u2212 2)/1 = (z + 3)/(\u22121)",
+    "(x \u2212 1)/2 = (y + 2)/1 = (z \u2212 3)/1"
+   ],
+   "correctIndex": 0,
+   "explanation": "Solve each equation for t: t = (x \u2212 1)/2 = (y + 2)/1 = (z \u2212 3)/(\u22121). Swapping the point and the direction, or changing the signs of the point, gives a different line.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0022",
+   "topicId": "spec-tce-matrices",
+   "stem": "Which transformation of the plane is NOT a linear transformation?",
+   "imageRef": null,
+   "options": [
+    "a translation 2 units to the right",
+    "a rotation of 90\u00b0 about the origin",
+    "a reflection in the line y = x",
+    "a dilation of factor 3 from the y-axis"
+   ],
+   "correctIndex": 0,
+   "explanation": "A linear transformation maps the origin to itself and can be written as a matrix product. A translation moves the origin, so it is not linear.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0023",
+   "topicId": "spec-tce-matrices",
+   "stem": "A rotation by \u03b8 anticlockwise about the origin maps (1, 0) to (cos \u03b8, sin \u03b8). It maps (0, 1) to:",
+   "imageRef": null,
+   "options": [
+    "(sin \u03b8, cos \u03b8)",
+    "(cos \u03b8, \u2212sin \u03b8)",
+    "(sin \u03b8, \u2212cos \u03b8)",
+    "(\u2212sin \u03b8, cos \u03b8)"
+   ],
+   "correctIndex": 3,
+   "explanation": "(0, 1) is at angle \u03c0/2, so its image is at angle \u03b8 + \u03c0/2: (cos(\u03b8 + \u03c0/2), sin(\u03b8 + \u03c0/2)) = (\u2212sin \u03b8, cos \u03b8). These two images form the columns of the rotation matrix.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0024",
+   "topicId": "spec-tce-matrices",
+   "stem": "The image of the point (3, 2) under a rotation of 90\u00b0 anticlockwise about the origin is:",
+   "imageRef": null,
+   "options": [
+    "(\u22122, 3)",
+    "(2, \u22123)",
+    "(\u22123, \u22122)",
+    "(2, 3)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The matrix with rows (0, \u22121) and (1, 0) maps (x, y) to (\u2212y, x), so (3, 2) goes to (\u22122, 3). The point (2, \u22123) is the clockwise rotation, and (2, 3) is the reflection in y = x.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0025",
+   "topicId": "spec-tce-matrices",
+   "stem": "The matrix of the reflection in the line y = (tan \u03b1)x has rows:",
+   "imageRef": null,
+   "options": [
+    "(cos 2\u03b1, sin 2\u03b1) and (sin 2\u03b1, \u2212cos 2\u03b1)",
+    "(cos 2\u03b1, \u2212sin 2\u03b1) and (sin 2\u03b1, cos 2\u03b1)",
+    "(cos \u03b1, sin \u03b1) and (sin \u03b1, \u2212cos \u03b1)",
+    "(sin 2\u03b1, cos 2\u03b1) and (cos 2\u03b1, \u2212sin 2\u03b1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The reflection uses the double angle 2\u03b1. The matrix with rows (cos 2\u03b1, \u2212sin 2\u03b1) and (sin 2\u03b1, cos 2\u03b1) is a rotation by 2\u03b1, which has determinant 1 rather than \u22121.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0026",
+   "topicId": "spec-tce-matrices",
+   "stem": "Under the reflection in the line y = x/\u221a3, the image of the point (2, 0) is:",
+   "imageRef": null,
+   "options": [
+    "(1, \u2212\u221a3)",
+    "(1, \u221a3)",
+    "(\u221a3, 1)",
+    "(\u22121, \u221a3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "Here tan \u03b1 = 1/\u221a3, so \u03b1 = 30\u00b0 and 2\u03b1 = 60\u00b0. The first column of the matrix is (cos 60\u00b0, sin 60\u00b0), so (2, 0) maps to (1, \u221a3). The point (\u221a3, 1) lies on the mirror line itself.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0027",
+   "topicId": "spec-tce-matrices",
+   "stem": "Under the shear with matrix rows (1, 3) and (0, 1), the image of the point (2, 1) is:",
+   "imageRef": null,
+   "options": [
+    "(5, 1)",
+    "(2, 7)",
+    "(5, 3)",
+    "(6, 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The matrix maps (x, y) to (x + 3y, y), a shear parallel to the x-axis, so (2, 1) goes to (5, 1). The point (2, 7) comes from using the columns as rows.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0028",
+   "topicId": "spec-tce-matrices",
+   "stem": "The matrix of the dilation of factor 3 from the x-axis has rows:",
+   "imageRef": null,
+   "options": [
+    "(3, 0) and (0, 1)",
+    "(1, 3) and (0, 1)",
+    "(3, 0) and (0, 3)",
+    "(1, 0) and (0, 3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "A dilation from the x-axis stretches distances from the x-axis, so y is multiplied by 3 and x is unchanged. Rows (3, 0) and (0, 1) multiply x instead, a dilation from the y-axis.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0029",
+   "topicId": "spec-tce-matrices",
+   "stem": "The unit square is transformed by the matrix with rows (2, 1) and (1, 3). The area of its image is:",
+   "imageRef": null,
+   "options": [
+    "6 square units",
+    "1 square unit",
+    "5 square units",
+    "7 square units"
+   ],
+   "correctIndex": 2,
+   "explanation": "The area of an image is |det| times the original area: det = 2 \u00d7 3 \u2212 1 \u00d7 1 = 5, and the unit square has area 1. Adding the products instead of subtracting gives 7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0030",
+   "topicId": "spec-tce-matrices",
+   "stem": "A transformation has a matrix with determinant \u22123. A triangle of area 4 square units has an image of area:",
+   "imageRef": null,
+   "options": [
+    "4/3 square units",
+    "7 square units",
+    "12 square units",
+    "\u221212 square units"
+   ],
+   "correctIndex": 2,
+   "explanation": "Area is multiplied by |det| = 3, giving 12 square units. The negative sign shows the orientation is reversed; an area itself cannot be negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0031",
+   "topicId": "spec-tce-matrices",
+   "stem": "The line y = 2x + 1 is dilated by factor 2 from the y-axis. The equation of its image is:",
+   "imageRef": null,
+   "options": [
+    "y = 4x + 1",
+    "y = 2x + 2",
+    "y = x + 1/2",
+    "y = x + 1"
+   ],
+   "correctIndex": 3,
+   "explanation": "The image point is (x\u2032, y\u2032) = (2x, y), so x = x\u2032/2 and y = y\u2032. Substituting: y\u2032 = 2(x\u2032/2) + 1 = x\u2032 + 1. Multiplying the gradient by 2 confuses the direction of the dilation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0032",
+   "topicId": "spec-tce-matrices",
+   "stem": "The circle x\u00b2 + y\u00b2 = 1 is transformed by the matrix with rows (3, 0) and (0, 2). The equation of its image is:",
+   "imageRef": null,
+   "options": [
+    "x\u00b2/3 + y\u00b2/2 = 1",
+    "x\u00b2/9 + y\u00b2/4 = 1",
+    "9x\u00b2 + 4y\u00b2 = 1",
+    "x\u00b2 + y\u00b2 = 6"
+   ],
+   "correctIndex": 1,
+   "explanation": "The image point is (3x, 2y), so x = x\u2032/3 and y = y\u2032/2, and x\u2032\u00b2/9 + y\u2032\u00b2/4 = 1, an ellipse. Substituting 3x and 2y directly into the circle gives 9x\u00b2 + 4y\u00b2 = 1, which shrinks it instead.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0033",
+   "topicId": "spec-tce-matrices",
+   "stem": "The curve y = x\u00b2 is rotated 90\u00b0 anticlockwise about the origin. The equation of its image is:",
+   "imageRef": null,
+   "options": [
+    "y = \u2212\u221ax",
+    "x = \u2212y\u00b2",
+    "x = y\u00b2",
+    "y = \u2212x\u00b2"
+   ],
+   "correctIndex": 1,
+   "explanation": "The rotation maps (x, y) to (x\u2032, y\u2032) = (\u2212y, x), so x = y\u2032 and y = \u2212x\u2032. Substituting into y = x\u00b2 gives \u2212x\u2032 = y\u2032\u00b2, that is x = \u2212y\u00b2. A parabola opening upward turns to open to the left.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0034",
+   "topicId": "spec-tce-matrices",
+   "stem": "A rotation of 90\u00b0 anticlockwise about the origin is followed by a reflection in the x-axis. The single equivalent transformation is:",
+   "imageRef": null,
+   "options": [
+    "a reflection in the line y = \u2212x",
+    "a reflection in the line y = x",
+    "a rotation of 90\u00b0 clockwise",
+    "a rotation of 180\u00b0 about the origin"
+   ],
+   "correctIndex": 0,
+   "explanation": "The composite matrix is (reflection) \u00d7 (rotation): rows (1, 0), (0, \u22121) times rows (0, \u22121), (1, 0) gives rows (0, \u22121) and (\u22121, 0), which maps (x, y) to (\u2212y, \u2212x). Its determinant is \u22121, so it must be a reflection, not a rotation.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0035",
+   "topicId": "spec-tce-matrices",
+   "stem": "A rotation by A followed by a rotation by B is a rotation by A + B. Comparing the top-left entries of the matrices gives:",
+   "imageRef": null,
+   "options": [
+    "cos(A + B) = cos A cos B + sin A sin B",
+    "cos(A + B) = sin A cos B + cos A sin B",
+    "cos(A + B) = cos A + cos B",
+    "cos(A + B) = cos A cos B \u2212 sin A sin B"
+   ],
+   "correctIndex": 3,
+   "explanation": "Multiplying the two rotation matrices, the top-left entry is cos B cos A \u2212 sin B sin A, and the rotation by A + B has cos(A + B) there. The plus form is cos(A \u2212 B).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0036",
+   "topicId": "spec-tce-matrices",
+   "stem": "Using sin(A \u2212 B) = sin A cos B \u2212 cos A sin B, the exact value of sin 15\u00b0 is:",
+   "imageRef": null,
+   "options": [
+    "(\u221a3 \u2212 1)/2",
+    "(\u221a2 \u2212 1)/2",
+    "(\u221a6 \u2212 \u221a2)/4",
+    "(\u221a6 + \u221a2)/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "sin(45\u00b0 \u2212 30\u00b0) = (\u221a2/2)(\u221a3/2) \u2212 (\u221a2/2)(1/2) = (\u221a6 \u2212 \u221a2)/4 \u2248 0.259. The value (\u221a6 + \u221a2)/4 is sin 75\u00b0.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0037",
+   "topicId": "spec-tce-matrices",
+   "stem": "If tan A = 2 and tan B = 3, then tan(A + B) equals:",
+   "imageRef": null,
+   "options": [
+    "\u22121",
+    "5/7",
+    "5",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "tan(A + B) = (tan A + tan B)/(1 \u2212 tan A tan B) = 5/(1 \u2212 6) = \u22121. Using a plus sign in the denominator gives 5/7.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0038",
+   "topicId": "spec-tce-matrices",
+   "stem": "Expressed in terms of sin A only, cos 2A equals:",
+   "imageRef": null,
+   "options": [
+    "1 \u2212 sin\u00b2A",
+    "2 sin A cos A",
+    "1 \u2212 2sin\u00b2A",
+    "2sin\u00b2A \u2212 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "cos 2A = cos\u00b2A \u2212 sin\u00b2A, and replacing cos\u00b2A by 1 \u2212 sin\u00b2A gives 1 \u2212 2sin\u00b2A. The expression 2 sin A cos A equals sin 2A instead.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0039",
+   "topicId": "spec-tce-matrices",
+   "stem": "If sin A = 3/5 and A is acute, then sin 2A equals:",
+   "imageRef": null,
+   "options": [
+    "6/5",
+    "12/25",
+    "7/25",
+    "24/25"
+   ],
+   "correctIndex": 3,
+   "explanation": "cos A = 4/5, so sin 2A = 2 sin A cos A = 2 \u00d7 3/5 \u00d7 4/5 = 24/25. Doubling sin A gives 6/5, which is impossible for a sine, and 7/25 is cos 2A.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-tce-matrices-0040",
+   "topicId": "spec-tce-matrices",
+   "stem": "If tan A = 1/2, then tan 2A equals:",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "4/3",
+    "1",
+    "4/5"
+   ],
+   "correctIndex": 1,
+   "explanation": "tan 2A = 2 tan A/(1 \u2212 tan\u00b2A) = 1/(1 \u2212 1/4) = 4/3. Simply doubling tan A gives 1, and a plus sign in the denominator gives 4/5.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-tce-matrices-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

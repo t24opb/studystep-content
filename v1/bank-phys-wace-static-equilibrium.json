@@ -1,0 +1,708 @@
+{
+ "topicId": "phys-wace-static-equilibrium",
+ "questions": [
+  {
+   "id": "phys-wace-static-equilibrium-0001",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "What is the centre of mass of a rigid object?",
+   "imageRef": null,
+   "options": [
+    "The point where all of its weight can be taken to act",
+    "The point where most of its material is concentrated",
+    "The point halfway between its top and its bottom",
+    "The point about which it is hardest to rotate it"
+   ],
+   "correctIndex": 0,
+   "explanation": "The centre of mass is the point where the whole weight of the object can be treated as acting, which is why a single weight arrow is drawn there. It is not necessarily where the material is densest or halfway up, since a non-uniform object has its centre of mass shifted towards its heavier part.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0002",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "An object resting on a flat base is tilted further and further. At what point will it topple over when released?",
+   "imageRef": null,
+   "options": [
+    "When its centre of mass rises higher than its original height",
+    "When the tilt angle passes 45\u00b0 for any shape of object",
+    "When its weight acts through the edge it is pivoting about",
+    "When the vertical line through its centre of mass falls outside its base"
+   ],
+   "correctIndex": 3,
+   "explanation": "While the line of action of the weight passes inside the base, the weight's torque about the pivot edge turns the object back. Once that line passes outside the base, the torque turns it further over and it topples. The centre of mass does rise as it tilts, and weight through the edge is only the balance point, not toppling.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0003",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A truck carries a heavy load strapped to its roof rack instead of on its tray. Why is it now more likely to tip over on a tight corner?",
+   "imageRef": null,
+   "options": [
+    "Its centre of mass is higher, so a smaller tilt moves it outside the base",
+    "Its total mass is larger, so the corner needs a larger friction force",
+    "Its base is narrower, because the load presses the springs together",
+    "Its centre of mass moves forward, so the front wheels lose their grip"
+   ],
+   "correctIndex": 0,
+   "explanation": "Raising the centre of mass means a smaller tilt carries the vertical line through it outside the wheelbase, so the truck topples more easily. The total mass is the same wherever the load sits, so it is the height of the load, not the mass, that reduces stability.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0004",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "Racing cars are built low and wide. How do both features improve stability?",
+   "imageRef": null,
+   "options": [
+    "They lower the car's mass, so less force is needed to turn a corner",
+    "They move the centre of mass outside the car, behind the rear axle",
+    "They let the car tilt further before its weight acts outside its base",
+    "They increase the car's weight, pressing the tyres harder on the road"
+   ],
+   "correctIndex": 2,
+   "explanation": "A low centre of mass and a wide base both increase the angle the car must tilt before the vertical line through its centre of mass passes outside the wheels. Neither feature changes the car's mass or weight, so they work through geometry, not extra grip.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0005",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform rectangular block 0.40 m wide and 1.2 m tall stands upright. It is tilted about one bottom edge. Beyond what tilt angle from the vertical will it topple?",
+   "imageRef": null,
+   "options": [
+    "34\u00b0",
+    "9.5\u00b0",
+    "18\u00b0",
+    "72\u00b0"
+   ],
+   "correctIndex": 2,
+   "explanation": "The block topples once its centre of mass passes over the pivot edge. The centre of mass is 0.20 m in from the edge and 0.60 m up, so tan \u03b8 = 0.20/0.60 = 0.40/1.2, giving \u03b8 \u2248 18\u00b0. The 72\u00b0 answer is the complementary angle, and 9.5\u00b0 comes from using half the width against the full height.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0006",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform plank 2.0 m long with a mass of 4.0 kg has a 2.0 kg mass fixed to end B. How far from end A is the centre of mass of the plank and mass together?",
+   "imageRef": null,
+   "options": [
+    "1.0 m",
+    "1.5 m",
+    "0.67 m",
+    "1.3 m"
+   ],
+   "correctIndex": 3,
+   "explanation": "Take moments of mass about end A: x = (4.0 \u00d7 1.0 + 2.0 \u00d7 2.0)/(4.0 + 2.0) = 8.0/6.0 \u2248 1.3 m. The centre of mass moves from the middle of the plank towards the heavier end, B. The 0.67 m answer is the distance measured from end B instead.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0007",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "Which statement about the centre of mass of an object is correct?",
+   "imageRef": null,
+   "options": [
+    "It must always lie inside the material of the object",
+    "It is always at the geometric centre of the object",
+    "It stays fixed whatever shape a flexible object takes",
+    "It can lie outside the object, as it does for a ring"
+   ],
+   "correctIndex": 3,
+   "explanation": "The centre of mass of a ring or a boomerang is in the empty space at the middle, so it need not lie inside the material. It is at the geometric centre only for a uniform symmetrical object, and a high jumper who bends over the bar moves their centre of mass by changing shape.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0008",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A force acts on a rigid object at some distance from a pivot. What is the SI unit of the torque it produces?",
+   "imageRef": null,
+   "options": [
+    "J s",
+    "kg m s\u207b\u00b9",
+    "N m",
+    "N m\u207b\u00b9"
+   ],
+   "correctIndex": 2,
+   "explanation": "Torque is \u03c4 = rF sin \u03b8, a distance times a force, so its unit is the newton metre (N m). Although work also has units of N m, torque is not energy and is not written in joules. N m\u207b\u00b9 is force per metre, and kg m s\u207b\u00b9 is the unit of momentum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0009",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "Why is a door handle placed on the opposite edge of the door from the hinges?",
+   "imageRef": null,
+   "options": [
+    "Pushing far from the hinges removes the need for a net torque",
+    "A longer lever arm gives a larger torque for the same force",
+    "A longer lever arm reduces the door's weight acting on the hinges",
+    "Pushing far from the hinges reduces the door's centre of mass"
+   ],
+   "correctIndex": 1,
+   "explanation": "Torque is \u03c4 = rF sin \u03b8, so for the same push a larger distance r from the pivot gives a larger turning effect. The door's weight and its centre of mass are unchanged by where you push, and turning the door still needs a net torque.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0010",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A mechanic pushes on the end of a spanner 0.25 m long with a force of 80 N at right angles to the handle. What torque does she apply to the nut?",
+   "imageRef": null,
+   "options": [
+    "20 N m",
+    "320 N m",
+    "0.0031 N m",
+    "40 N m"
+   ],
+   "correctIndex": 0,
+   "explanation": "With the force perpendicular to the lever arm, sin 90\u00b0 = 1, so \u03c4 = rF = 0.25 \u00d7 80 = 20 N m. Dividing 80 by 0.25 gives 320, which has no physical meaning here, and 40 N m would need the force applied at 0.50 m.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0011",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A force of 50 N is applied at the end of a lever 0.30 m long. The force makes an angle of 30\u00b0 with the lever arm. What is the torque about the pivot?",
+   "imageRef": null,
+   "options": [
+    "7.5 N m",
+    "13 N m",
+    "15 N m",
+    "8.7 N m"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03c4 = rF sin \u03b8, where \u03b8 is the angle between the force and the lever arm: 0.30 \u00d7 50 \u00d7 sin 30\u00b0 = 7.5 N m. Using cos 30\u00b0 gives 13 N m, which would be correct only if 30\u00b0 were measured from the perpendicular, and 15 N m ignores the angle completely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0012",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A force is applied to a rigid bar that can rotate about a pivot. Which force produces zero torque about the pivot, however large it is?",
+   "imageRef": null,
+   "options": [
+    "One applied at right angles to the bar at its end",
+    "One applied halfway along the bar at 45\u00b0 to it",
+    "One applied at the end of the bar pointing upward",
+    "One whose line of action passes through the pivot"
+   ],
+   "correctIndex": 3,
+   "explanation": "If the line of action passes through the pivot, the angle between the force and the lever arm is 0\u00b0 or 180\u00b0, so sin \u03b8 = 0 and the torque is zero. A force at right angles at the end gives the largest torque, and a force at 45\u00b0 still has a perpendicular component.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0013",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A student needs a torque of 45 N m to loosen a wheel nut. She can push with at most 150 N, and only at 60\u00b0 to the handle. What is the shortest distance from the nut at which she can push?",
+   "imageRef": null,
+   "options": [
+    "0.35 m",
+    "0.30 m",
+    "0.60 m",
+    "0.26 m"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rearranging \u03c4 = rF sin \u03b8 gives r = \u03c4/(F sin \u03b8) = 45/(150 \u00d7 sin 60\u00b0) \u2248 0.35 m. Ignoring the angle gives 0.30 m, which is too short because only the perpendicular component of her push produces torque. Using cos 60\u00b0 instead gives 0.60 m.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0014",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A metre rule is pivoted at its centre. A downward force of 3.0 N acts 0.40 m to the left of the pivot and a downward force of 2.0 N acts 0.30 m to the right. What is the net torque on the rule?",
+   "imageRef": null,
+   "options": [
+    "1.0 N m anticlockwise",
+    "0.60 N m anticlockwise",
+    "0.60 N m clockwise",
+    "1.8 N m anticlockwise"
+   ],
+   "correctIndex": 1,
+   "explanation": "The left force gives 3.0 \u00d7 0.40 = 1.2 N m anticlockwise and the right force gives 2.0 \u00d7 0.30 = 0.60 N m clockwise, so the net torque is 0.60 N m anticlockwise. Adding the two moments to get 1.8 N m ignores that they turn in opposite directions.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0015",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "Which two conditions must both hold for a rigid body to be in static equilibrium?",
+   "imageRef": null,
+   "options": [
+    "The sum of the forces equals the weight and the moments balance",
+    "The sum of the forces is zero and the sum of the moments is zero",
+    "The sum of the forces is zero and the body has no centre of mass",
+    "The sum of the moments is zero and the weight acts at the pivot"
+   ],
+   "correctIndex": 1,
+   "explanation": "Static equilibrium needs \u03a3F = 0, so the body does not accelerate, and \u03a3\u03c4 = 0, so it does not start to rotate. Balancing forces alone is not enough, because two equal and opposite forces that do not act along the same line still turn the body.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0016",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A driver turns a steering wheel by pushing up on one side and down on the other with equal forces. Which describes the wheel's state at that instant?",
+   "imageRef": null,
+   "options": [
+    "The net force is zero but the net torque is not zero",
+    "The net force is not zero but the net torque is zero",
+    "Both the net force and the net torque are zero",
+    "Both the net force and the net torque are not zero"
+   ],
+   "correctIndex": 0,
+   "explanation": "The two forces are equal and opposite, so they cancel and the wheel's centre does not accelerate. They act on opposite sides of the axle, so their torques add in the same rotational direction and the wheel turns. This is why \u03a3F = 0 alone does not guarantee equilibrium.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0017",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "When solving for the forces on a beam in equilibrium, students are advised to take moments about the point where an unknown force acts. Why does this help?",
+   "imageRef": null,
+   "options": [
+    "That point is always the centre of mass, where the weight acts",
+    "That force has no torque about that point, so it drops out of the equation",
+    "That point is the only one about which the moments add to zero",
+    "That force then has the largest torque, so it dominates the equation"
+   ],
+   "correctIndex": 1,
+   "explanation": "A force acting at the pivot chosen has a lever arm of zero, so it contributes no torque and the moment equation contains one fewer unknown. For a body in equilibrium the moments sum to zero about every point, so the choice of point is free.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0018",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "Two students analyse the same uniform beam in equilibrium. One takes moments about the left support, the other about the centre of the beam. What will they find?",
+   "imageRef": null,
+   "options": [
+    "Different support forces, since moments depend on the point chosen",
+    "The same forces only if the beam's weight acts at the chosen point",
+    "Only the student using the left support will find correct forces",
+    "The same support forces, since the moments sum to zero about any point"
+   ],
+   "correctIndex": 3,
+   "explanation": "For a body in equilibrium, the sum of moments is zero about every point, so any choice of point gives the same forces when done correctly. The individual moments change with the point chosen, but the condition \u03a3\u03c4 = 0 holds about all of them.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0019",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A 30 kg child sits 1.5 m from the pivot of a uniform seesaw pivoted at its centre. How far from the pivot, on the other side, must a 45 kg child sit to balance it?",
+   "imageRef": null,
+   "options": [
+    "1.5 m",
+    "0.67 m",
+    "1.0 m",
+    "2.3 m"
+   ],
+   "correctIndex": 2,
+   "explanation": "The seesaw's own weight acts at the pivot, so balancing the children's moments gives 30g \u00d7 1.5 = 45g \u00d7 d, so d = 1.0 m. The heavier child must sit closer to the pivot, so 2.3 m, from inverting the ratio, would tip the seesaw towards the heavier child.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0020",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform 20 kg seesaw is balanced on a central pivot with a 30 kg child on one side and a 45 kg child on the other. What upward force does the pivot exert on the seesaw?",
+   "imageRef": null,
+   "options": [
+    "2.0 \u00d7 10\u00b2 N",
+    "9.3 \u00d7 10\u00b2 N",
+    "7.4 \u00d7 10\u00b2 N",
+    "1.5 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "For \u03a3F = 0 the pivot must support the total weight: (20 + 30 + 45) \u00d7 9.8 \u2248 9.3 \u00d7 10\u00b2 N. Leaving out the seesaw's own weight gives 7.4 \u00d7 10\u00b2 N. Balanced moments do not reduce the force on the pivot.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0021",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform plank 4.0 m long with a mass of 12 kg rests on a pivot 1.2 m from end A. What mass placed at end A will balance the plank horizontally?",
+   "imageRef": null,
+   "options": [
+    "12 kg",
+    "18 kg",
+    "5.3 kg",
+    "8.0 kg"
+   ],
+   "correctIndex": 3,
+   "explanation": "The plank's weight acts at its centre, 2.0 m from A, which is 0.80 m beyond the pivot. Balancing moments about the pivot: m \u00d7 1.2 = 12 \u00d7 0.80, so m = 8.0 kg. Swapping the two distances gives 18 kg, and 12 kg would balance only if the pivot were 1.0 m from A.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0022",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A metre rule balances at its 50 cm mark. A 0.20 kg mass hangs at the 20 cm mark. Where must a 0.30 kg mass hang to keep the rule balanced?",
+   "imageRef": null,
+   "options": [
+    "At the 70 cm mark",
+    "At the 95 cm mark",
+    "At the 80 cm mark",
+    "At the 30 cm mark"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 0.20 kg mass is 30 cm left of the pivot, giving a moment of 0.20 \u00d7 30. Balancing on the right: 0.30 \u00d7 d = 0.20 \u00d7 30, so d = 20 cm, which is the 70 cm mark. Hanging it at 80 cm, the same 30 cm from the pivot, would ignore the different masses.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0023",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A wheelbarrow carries a 60 kg load whose centre of mass is 0.40 m horizontally from the wheel's axle. The handles are 1.2 m from the axle. Ignoring the wheelbarrow's own mass, what upward force on the handles holds it level?",
+   "imageRef": null,
+   "options": [
+    "5.9 \u00d7 10\u00b2 N",
+    "3.9 \u00d7 10\u00b2 N",
+    "1.8 \u00d7 10\u00b3 N",
+    "2.0 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "Take moments about the axle: F \u00d7 1.2 = 60 \u00d7 9.8 \u00d7 0.40, so F \u2248 2.0 \u00d7 10\u00b2 N. The wheel takes the rest of the load. 5.9 \u00d7 10\u00b2 N is the full weight, and 1.8 \u00d7 10\u00b3 N comes from inverting the ratio of the distances.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0024",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A ladder leans against a smooth (frictionless) vertical wall. In which direction does the wall push on the top of the ladder?",
+   "imageRef": null,
+   "options": [
+    "Vertically upward, along the wall",
+    "Along the ladder, towards its base",
+    "Downward, at right angles to the ladder",
+    "Horizontally, away from the wall"
+   ],
+   "correctIndex": 3,
+   "explanation": "A frictionless surface can only exert a normal force, which is perpendicular to the surface. For a vertical wall that force is horizontal, pushing the ladder away from the wall. An upward force along the wall would need friction, which the smooth wall cannot supply.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0025",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A ladder leans against a frictionless wall with its base on rough ground. Which force stops the base sliding away from the wall?",
+   "imageRef": null,
+   "options": [
+    "Friction from the ground, acting away from the wall",
+    "The normal force from the ground, acting upward",
+    "The normal force from the wall, acting towards the wall",
+    "Friction from the ground, acting towards the wall"
+   ],
+   "correctIndex": 3,
+   "explanation": "The wall pushes the top of the ladder horizontally away from the wall, so for \u03a3F = 0 horizontally the ground must push the base towards the wall, and only friction can do that. The upward normal force from the ground balances the weight but has no horizontal component.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0026",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A painter stands on a ladder that leans against a frictionless wall. How does the vertical force from the ground on the ladder compare with the total weight of the ladder and painter?",
+   "imageRef": null,
+   "options": [
+    "It equals the total weight, wherever the painter stands",
+    "It is less than the total weight, as the wall carries some of it",
+    "It is greater than the total weight when the painter is near the top",
+    "It equals the painter's weight only, as the ladder rests on the wall"
+   ],
+   "correctIndex": 0,
+   "explanation": "The only vertical forces are the two weights and the ground's normal force, because the frictionless wall pushes horizontally. So \u03a3F = 0 vertically means the ground's normal force equals the total weight. The wall carries none of the weight; it only provides a horizontal push.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0027",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform ladder 5.0 m long with a mass of 20 kg leans against a frictionless wall, with its base 3.0 m from the wall and its top 4.0 m up the wall. What friction force must the ground supply?",
+   "imageRef": null,
+   "options": [
+    "2.0 \u00d7 10\u00b2 N",
+    "74 N",
+    "98 N",
+    "1.2 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 1,
+   "explanation": "Take moments about the base. The weight, 196 N, acts at the ladder's midpoint, 1.5 m horizontally from the base, and the wall's horizontal force acts 4.0 m up: F \u00d7 4.0 = 196 \u00d7 1.5, so F \u2248 74 N. Horizontal balance then needs 74 N of friction. Swapping the 4.0 m height for the 3.0 m distance gives 98 N.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0028",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A person climbs steadily up a ladder that leans against a frictionless wall. How does the friction force needed at the base change as they climb?",
+   "imageRef": null,
+   "options": [
+    "It increases, because their weight's moment about the base increases",
+    "It decreases, because more of their weight is carried by the wall",
+    "It stays the same, because the total weight on the ladder is constant",
+    "It increases, because the normal force from the ground decreases"
+   ],
+   "correctIndex": 0,
+   "explanation": "As the person moves up, their weight acts further horizontally from the base, so its moment about the base grows. The wall's horizontal force must grow to balance it, and the friction at the base must equal that wall force. This is why ladders tend to slip when someone is near the top.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0029",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A ladder against a frictionless wall is moved so that it stands more steeply, closer to vertical. How does this affect the friction needed at its base?",
+   "imageRef": null,
+   "options": [
+    "The same friction is needed, as the ladder's weight is unchanged",
+    "No friction is needed at all once the angle passes 45\u00b0 to the ground",
+    "Less friction is needed, as the weight acts closer to the base horizontally",
+    "More friction is needed, as the ladder pushes harder on the wall"
+   ],
+   "correctIndex": 2,
+   "explanation": "A steeper ladder brings its centre of mass closer to the base horizontally and raises the top, so the weight's moment is smaller and acts against a longer vertical lever arm for the wall force. The wall force, and so the friction, both fall, but some friction is needed at any angle short of vertical.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0030",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform bridge span 10 m long with a mass of 2.0 \u00d7 10\u00b3 kg rests on supports at each end. A truck of mass 3.0 \u00d7 10\u00b3 kg stops 2.0 m from the left support. What force does the left support exert?",
+   "imageRef": null,
+   "options": [
+    "3.3 \u00d7 10\u2074 N",
+    "1.6 \u00d7 10\u2074 N",
+    "2.5 \u00d7 10\u2074 N",
+    "4.9 \u00d7 10\u2074 N"
+   ],
+   "correctIndex": 0,
+   "explanation": "Moments about the left support give the right force: (2.0 \u00d7 10\u00b3 \u00d7 9.8 \u00d7 5.0 + 3.0 \u00d7 10\u00b3 \u00d7 9.8 \u00d7 2.0)/10 \u2248 1.6 \u00d7 10\u2074 N. The total weight is 4.9 \u00d7 10\u2074 N, so the left support provides 4.9 \u00d7 10\u2074 \u2212 1.6 \u00d7 10\u2074 \u2248 3.3 \u00d7 10\u2074 N. The left support carries more because the truck is closer to it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0031",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "In the context of static equilibrium, what is a cantilever?",
+   "imageRef": null,
+   "options": [
+    "A beam that hangs from cables attached at its centre",
+    "A beam that rests on a single pivot at its centre",
+    "A beam that is fixed or supported at one end only",
+    "A beam that is supported freely at both of its ends"
+   ],
+   "correctIndex": 2,
+   "explanation": "A cantilever is held at one end only, like a balcony, a diving board or a flagpole bracket, with the other end projecting freely. A beam supported at both ends is a simply supported beam, as in a basic bridge span.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0032",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A horizontal beam is built rigidly into a wall at one end, with its other end free. What must the wall supply to hold the beam in equilibrium?",
+   "imageRef": null,
+   "options": [
+    "An upward force only, equal to the weight of the beam",
+    "A torque only, since the beam's weight acts at its centre",
+    "A horizontal force only, pressing the beam into the wall",
+    "An upward force and a torque opposing the turning effect of the weight"
+   ],
+   "correctIndex": 3,
+   "explanation": "The beam's weight acts at its centre, away from the wall, so the wall must supply an upward force equal to the weight for \u03a3F = 0, and also a torque for \u03a3\u03c4 = 0. It does this by pushing up and down at different points inside the wall. An upward force alone would let the beam rotate downward.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0033",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform diving board 4.0 m long with a mass of 30 kg is held by a bolt at end A and a support 1.0 m from A. A 60 kg diver stands at the free end. What force does the bolt at A exert on the board?",
+   "imageRef": null,
+   "options": [
+    "8.8 \u00d7 10\u00b2 N downward",
+    "2.1 \u00d7 10\u00b3 N downward",
+    "2.1 \u00d7 10\u00b3 N upward",
+    "2.9 \u00d7 10\u00b3 N upward"
+   ],
+   "correctIndex": 1,
+   "explanation": "Moments about A give the support force: F \u00d7 1.0 = 30 \u00d7 9.8 \u00d7 2.0 + 60 \u00d7 9.8 \u00d7 4.0, so F = 2.9 \u00d7 10\u00b3 N upward. The total weight is only 8.8 \u00d7 10\u00b2 N, so the bolt must pull down with 2.9 \u00d7 10\u00b3 \u2212 8.8 \u00d7 10\u00b2 \u2248 2.1 \u00d7 10\u00b3 N. The support acts as a pivot and the bolt stops the board's end lifting.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0034",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A 20 kg sign hangs from two cables, each at 30\u00b0 above the horizontal, attached symmetrically to its top corners. What is the tension in each cable?",
+   "imageRef": null,
+   "options": [
+    "98 N",
+    "1.1 \u00d7 10\u00b2 N",
+    "3.9 \u00d7 10\u00b2 N",
+    "2.0 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vertical components of the two tensions support the weight: 2T sin 30\u00b0 = 20 \u00d7 9.8, so T = 196/(2 \u00d7 0.50) \u2248 2.0 \u00d7 10\u00b2 N. Sharing the weight equally without resolving gives 98 N, and using cos 30\u00b0 gives 1.1 \u00d7 10\u00b2 N.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0035",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A uniform horizontal beam 2.0 m long with a mass of 8.0 kg is hinged to a wall. A cable from its free end makes 40\u00b0 with the beam, and a 15 kg sign hangs 1.5 m from the wall. What is the tension in the cable?",
+   "imageRef": null,
+   "options": [
+    "2.0 \u00d7 10\u00b2 N",
+    "3.0 \u00d7 10\u00b2 N",
+    "2.3 \u00d7 10\u00b2 N",
+    "1.5 \u00d7 10\u00b2 N"
+   ],
+   "correctIndex": 2,
+   "explanation": "Moments about the hinge: T sin 40\u00b0 \u00d7 2.0 = 8.0 \u00d7 9.8 \u00d7 1.0 + 15 \u00d7 9.8 \u00d7 1.5 = 299 N m, so T = 299/(2.0 \u00d7 0.643) \u2248 2.3 \u00d7 10\u00b2 N. Using cos 40\u00b0 gives 2.0 \u00d7 10\u00b2 N, and leaving out the angle gives 1.5 \u00d7 10\u00b2 N. Only the perpendicular component of the tension produces a moment.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0036",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "For the hinged sign beam with a cable tension of 2.3 \u00d7 10\u00b2 N at 40\u00b0 to the beam, what horizontal force does the hinge exert on the beam?",
+   "imageRef": null,
+   "options": [
+    "1.5 \u00d7 10\u00b2 N, towards the wall",
+    "1.8 \u00d7 10\u00b2 N, towards the wall",
+    "2.3 \u00d7 10\u00b2 N, away from the wall",
+    "1.8 \u00d7 10\u00b2 N, away from the wall"
+   ],
+   "correctIndex": 3,
+   "explanation": "The cable pulls the beam towards the wall with a horizontal component T cos 40\u00b0 \u2248 2.3 \u00d7 10\u00b2 \u00d7 0.766 \u2248 1.8 \u00d7 10\u00b2 N. For \u03a3F = 0 horizontally, the hinge must push the beam away from the wall with the same size. Pointing it towards the wall would add to the cable's pull instead of balancing it.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "phys-wace-static-equilibrium-0037",
+   "topicId": "phys-wace-static-equilibrium",
+   "stem": "A sign is hung between two posts by a single cable. The cable is pulled tighter so that it sags less. What happens to the tension in the cable?",
+   "imageRef": null,
+   "options": [
+    "It decreases, as a tighter cable carries the sign's weight more directly",
+    "It stays the same, as the sign's weight has not changed",
+    "It decreases, as the two halves of the cable now pull in the same direction",
+    "It increases, as each half of the cable has a smaller vertical component per newton"
+   ],
+   "correctIndex": 3,
+   "explanation": "The vertical components of the tension must still add to the sign's weight. With less sag each half of the cable is closer to horizontal, so sin \u03b8 is smaller and a larger tension is needed. A cable pulled perfectly straight would need infinite tension, which is why some sag is unavoidable.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-phys-wace-static-equilibrium-20261117",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "topicId": "gm-hsc-probability",
+ "questions": [
+  {
+   "id": "gm-hsc-probability-0001",
+   "topicId": "gm-hsc-probability",
+   "stem": "An event that is certain to happen has a probability of:",
+   "imageRef": null,
+   "options": [
+    "1",
+    "0",
+    "0.5",
+    "100"
+   ],
+   "correctIndex": 0,
+   "explanation": "Probabilities range from 0 (impossible) to 1 (certain). As a percentage, certain is 100%, but as a probability the value is 1, not 100.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0002",
+   "topicId": "gm-hsc-probability",
+   "stem": "The probability of an event is 3/8. What is this as a percentage?",
+   "imageRef": null,
+   "options": [
+    "37.5%",
+    "0.375%",
+    "3.8%",
+    "62.5%"
+   ],
+   "correctIndex": 0,
+   "explanation": "3/8 = 0.375, and 0.375 \u00d7 100% = 37.5%. 0.375% forgets to multiply by 100, and 62.5% is the probability of the complement.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0003",
+   "topicId": "gm-hsc-probability",
+   "stem": "The sample space of a chance experiment is:",
+   "imageRef": null,
+   "options": [
+    "the set of all possible outcomes",
+    "the set of favourable outcomes",
+    "the number of times it is repeated",
+    "the most likely single outcome"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample space lists every possible outcome. The favourable outcomes are only the ones that make up the event of interest.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0004",
+   "topicId": "gm-hsc-probability",
+   "stem": "A die is rolled and a coin is tossed. How many outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "8",
+    "6",
+    "36",
+    "12"
+   ],
+   "correctIndex": 3,
+   "explanation": "Each of the 6 die outcomes can pair with each of the 2 coin outcomes: 6 \u00d7 2 = 12. Adding them gives 8, which undercounts.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0005",
+   "topicId": "gm-hsc-probability",
+   "stem": "Three coins are tossed. How many outcomes are in the sample space?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "8",
+    "6",
+    "3"
+   ],
+   "correctIndex": 1,
+   "explanation": "Each coin has 2 outcomes, so there are 2 \u00d7 2 \u00d7 2 = 8 outcomes, from HHH to TTT. 6 is 2 \u00d7 3, which adds rather than multiplies across the stages.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0006",
+   "topicId": "gm-hsc-probability",
+   "stem": "A four-digit PIN uses the digits 0 to 9, and digits can repeat. What is the probability of guessing the PIN in one try?",
+   "imageRef": null,
+   "options": [
+    "1/40",
+    "1/5040",
+    "4/10",
+    "1/10 000"
+   ],
+   "correctIndex": 3,
+   "explanation": "There are 10 \u00d7 10 \u00d7 10 \u00d7 10 = 10 000 possible PINs, all equally likely, so one guess has probability 1/10 000. 1/5040 assumes digits cannot repeat.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0007",
+   "topicId": "gm-hsc-probability",
+   "stem": "A bag holds 5 red, 3 blue and 2 green marbles. One marble is chosen at random. What is the probability it is blue?",
+   "imageRef": null,
+   "options": [
+    "3/10",
+    "3/7",
+    "1/3",
+    "3/5"
+   ],
+   "correctIndex": 0,
+   "explanation": "There are 10 equally likely marbles and 3 are blue, so P(blue) = 3/10. 3/7 compares blue with the marbles that are not blue, rather than with all 10.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0008",
+   "topicId": "gm-hsc-probability",
+   "stem": "A student says: 'Tomorrow it will either rain or not rain, so the probability of rain is 1/2.' What is wrong with this reasoning?",
+   "imageRef": null,
+   "options": [
+    "There are really three outcomes, so the probability should be 1/3",
+    "The probability of rain can only be found from a weather forecast",
+    "The probability of rain plus no rain must add up to more than 1",
+    "The two outcomes are not equally likely, so the rule does not apply"
+   ],
+   "correctIndex": 3,
+   "explanation": "P(event) = favourable outcomes \u00f7 total outcomes only works when all outcomes are equally likely. Rain and no rain usually are not, so the probability must be estimated another way, such as from past data.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0009",
+   "topicId": "gm-hsc-probability",
+   "stem": "The probability of rain tomorrow is 0.35. What is the probability that it does not rain?",
+   "imageRef": null,
+   "options": [
+    "1.35",
+    "0.65",
+    "0.35",
+    "0.75"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(not rain) = 1 \u2212 P(rain) = 1 \u2212 0.35 = 0.65. The event and its complement cover every possibility, so their probabilities add to 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0010",
+   "topicId": "gm-hsc-probability",
+   "stem": "A fair die is rolled. What is the probability of not rolling a 6?",
+   "imageRef": null,
+   "options": [
+    "1/5",
+    "6/5",
+    "5/6",
+    "1/6"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(6) = 1/6, so P(not 6) = 1 \u2212 1/6 = 5/6. 1/5 compares sixes with non-sixes instead of with all six outcomes.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0011",
+   "topicId": "gm-hsc-probability",
+   "stem": "Two fair dice are rolled and the numbers are added. What is the probability of a total of 7?",
+   "imageRef": null,
+   "options": [
+    "1/12",
+    "7/36",
+    "1/11",
+    "1/6"
+   ],
+   "correctIndex": 3,
+   "explanation": "An array of the 36 outcomes has 6 ways to make 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). So P = 6/36 = 1/6. 1/11 wrongly treats the totals 2 to 12 as equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0012",
+   "topicId": "gm-hsc-probability",
+   "stem": "Two fair dice are rolled and the numbers are added. What is the probability of a total of 10?",
+   "imageRef": null,
+   "options": [
+    "1/18",
+    "1/6",
+    "10/36",
+    "1/12"
+   ],
+   "correctIndex": 3,
+   "explanation": "The outcomes (4,6), (5,5) and (6,4) give 10, so P = 3/36 = 1/12. 1/18 counts only (4,6) and (5,5), forgetting that (6,4) is a different outcome.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0013",
+   "topicId": "gm-hsc-probability",
+   "stem": "Two fair coins are tossed. What is the probability of getting exactly one head?",
+   "imageRef": null,
+   "options": [
+    "3/4",
+    "1/2",
+    "1/3",
+    "1/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "The outcomes are HH, HT, TH and TT. Two of the four have exactly one head, so P = 2/4 = 1/2. 1/3 treats 'two heads, one head, no heads' as equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0014",
+   "topicId": "gm-hsc-probability",
+   "stem": "For two independent events A and B, P(A and B) is found by:",
+   "imageRef": null,
+   "options": [
+    "P(A) \u2212 P(B)",
+    "P(A) \u00f7 P(B)",
+    "P(A) \u00d7 P(B)",
+    "P(A) + P(B)"
+   ],
+   "correctIndex": 2,
+   "explanation": "For independent events, the probability that both happen is the product of their probabilities. Adding gives a larger number, which cannot be right for both events happening.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0015",
+   "topicId": "gm-hsc-probability",
+   "stem": "A spinner lands on red with probability 1/4, and a fair coin is tossed. What is the probability of red and a head?",
+   "imageRef": null,
+   "options": [
+    "1/6",
+    "1/2",
+    "1/8",
+    "3/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The events are independent, so P(red and head) = 1/4 \u00d7 1/2 = 1/8. 3/4 adds the probabilities.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0016",
+   "topicId": "gm-hsc-probability",
+   "stem": "A spinner lands on red with probability 0.4. It is spun twice. What is the probability of red on the first spin and not red on the second?",
+   "imageRef": null,
+   "options": [
+    "0.36",
+    "0.48",
+    "0.24",
+    "0.16"
+   ],
+   "correctIndex": 2,
+   "explanation": "P(red, then not red) = 0.4 \u00d7 0.6 = 0.24. 0.48 counts both orders, which answers a different question: one red in either order.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0017",
+   "topicId": "gm-hsc-probability",
+   "stem": "The probability of rain on Saturday is 0.3 and on Sunday is 0.3, independently. What is the probability that it rains on exactly one of the two days?",
+   "imageRef": null,
+   "options": [
+    "0.42",
+    "0.21",
+    "0.6",
+    "0.09"
+   ],
+   "correctIndex": 0,
+   "explanation": "Exactly one day can happen two ways: rain then dry (0.3 \u00d7 0.7 = 0.21) or dry then rain (0.7 \u00d7 0.3 = 0.21), so P = 0.42. 0.21 counts only one of the two branches.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0018",
+   "topicId": "gm-hsc-probability",
+   "stem": "A fair die is rolled twice. What is the probability of getting at least one 6?",
+   "imageRef": null,
+   "options": [
+    "10/36",
+    "11/36",
+    "1/3",
+    "1/36"
+   ],
+   "correctIndex": 1,
+   "explanation": "P(no 6 on either roll) = 5/6 \u00d7 5/6 = 25/36, so P(at least one 6) = 1 \u2212 25/36 = 11/36. Adding 1/6 + 1/6 = 1/3 counts the outcome (6, 6) twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0019",
+   "topicId": "gm-hsc-probability",
+   "stem": "A bag holds 5 red and 3 blue counters. Two counters are drawn without replacement. What is the probability both are red?",
+   "imageRef": null,
+   "options": [
+    "5/14",
+    "25/64",
+    "5/16",
+    "9/14"
+   ],
+   "correctIndex": 0,
+   "explanation": "P(red then red) = 5/8 \u00d7 4/7 = 20/56 = 5/14. After one red is removed, 4 of the 7 counters left are red. 25/64 uses 5/8 twice, as if the first counter were replaced.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0020",
+   "topicId": "gm-hsc-probability",
+   "stem": "A caf\u00e9 offers 3 types of bread and 4 fillings. A sandwich uses one bread and one filling. How many different sandwiches are possible?",
+   "imageRef": null,
+   "options": [
+    "81",
+    "64",
+    "12",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each of the 3 breads can go with each of the 4 fillings, so there are 3 \u00d7 4 = 12 sandwiches, as an array or tree diagram shows. 7 adds the choices instead of multiplying.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0021",
+   "topicId": "gm-hsc-probability",
+   "stem": "The relative frequency of an event is calculated as:",
+   "imageRef": null,
+   "options": [
+    "the number of times it occurs \u00f7 the number of trials",
+    "the number of trials \u00f7 the number of times it occurs",
+    "the number of times it occurs \u00d7 the number of trials",
+    "the number of times it occurs \u2212 the number of trials"
+   ],
+   "correctIndex": 0,
+   "explanation": "Relative frequency is the fraction of trials in which the event happened. It is used as an estimate of the probability of the event.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0022",
+   "topicId": "gm-hsc-probability",
+   "stem": "A drawing pin is dropped 200 times and lands point up 128 times. What is the relative frequency of landing point up?",
+   "imageRef": null,
+   "options": [
+    "1.56",
+    "0.5",
+    "0.64",
+    "0.36"
+   ],
+   "correctIndex": 2,
+   "explanation": "Relative frequency = 128 \u00f7 200 = 0.64. 0.36 is the relative frequency of landing point down, and 0.5 assumes the two outcomes are equally likely.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0023",
+   "topicId": "gm-hsc-probability",
+   "stem": "As the number of trials of an experiment increases, the relative frequency of an event:",
+   "imageRef": null,
+   "options": [
+    "always increases towards a value of 1",
+    "tends to get closer to the theoretical probability",
+    "tends to move further from the theoretical probability",
+    "becomes exactly equal to the theoretical probability"
+   ],
+   "correctIndex": 1,
+   "explanation": "With more trials, chance variation evens out and the relative frequency settles near the theoretical probability. It need not ever equal it exactly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0024",
+   "topicId": "gm-hsc-probability",
+   "stem": "A fair coin is tossed 10 times and lands heads 7 times. What is the best conclusion?",
+   "imageRef": null,
+   "options": [
+    "The coin must be biased, because 7 heads is not half of 10 tosses",
+    "The next three tosses are more likely to be tails to even things out",
+    "The probability of a head for this coin is exactly 0.7 from now on",
+    "A small number of trials can give a relative frequency far from 0.5"
+   ],
+   "correctIndex": 3,
+   "explanation": "In only 10 tosses, 7 heads happens fairly often by chance. Coins have no memory, so tails is not due, and many more trials would be needed to judge whether the coin is biased.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0025",
+   "topicId": "gm-hsc-probability",
+   "stem": "A fair die is rolled 300 times. What is the expected number of 5s?",
+   "imageRef": null,
+   "options": [
+    "1500",
+    "50",
+    "60",
+    "5"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expected frequency = np = 300 \u00d7 1/6 = 50. 60 divides by 5 instead of 6, and 1500 multiplies 300 by the face value.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0026",
+   "topicId": "gm-hsc-probability",
+   "stem": "A drawing pin lands point up with relative frequency 0.64. If it is dropped 50 more times, how many times would it be expected to land point up?",
+   "imageRef": null,
+   "options": [
+    "32",
+    "18",
+    "64",
+    "78"
+   ],
+   "correctIndex": 0,
+   "explanation": "Expected frequency = np = 50 \u00d7 0.64 = 32. 18 is the expected number landing point down, and 64 uses 100 drops.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0027",
+   "topicId": "gm-hsc-probability",
+   "stem": "A factory finds that 2% of its items are faulty. In a batch of 4500 items, how many faulty items would be expected?",
+   "imageRef": null,
+   "options": [
+    "9",
+    "900",
+    "45",
+    "90"
+   ],
+   "correctIndex": 3,
+   "explanation": "Expected number = np = 4500 \u00d7 0.02 = 90. 900 uses 0.2 (20%) instead of 0.02, a decimal slip when converting the percentage.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0028",
+   "topicId": "gm-hsc-probability",
+   "stem": "In a class of 30 students, 18 play a sport, 12 play a musical instrument and 5 do both. How many students do neither?",
+   "imageRef": null,
+   "options": [
+    "10",
+    "25",
+    "5",
+    "0"
+   ],
+   "correctIndex": 2,
+   "explanation": "Students doing at least one: 18 + 12 \u2212 5 = 25, so 30 \u2212 25 = 5 do neither. Adding 18 + 12 = 30 counts the 5 students who do both twice and suggests nobody does neither.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0029",
+   "topicId": "gm-hsc-probability",
+   "stem": "In a class of 30 students, 18 play a sport, 12 play a musical instrument and 5 do both. A student is chosen at random. What is the probability they play a sport but not an instrument?",
+   "imageRef": null,
+   "options": [
+    "5/30",
+    "13/25",
+    "13/30",
+    "18/30"
+   ],
+   "correctIndex": 2,
+   "explanation": "In the Venn diagram, sport only is 18 \u2212 5 = 13, so P = 13/30. 18/30 includes the 5 students who also play an instrument.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0030",
+   "topicId": "gm-hsc-probability",
+   "stem": "A Venn diagram shows A only 10, A and B 4, B only 6 and neither 20. In the matching two-way table, what is the total for 'not A'?",
+   "imageRef": null,
+   "options": [
+    "30",
+    "16",
+    "26",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "Not A includes B only (6) and neither (20), giving 26. The total is 40, and A has 10 + 4 = 14, so not A is 40 \u2212 14 = 26. 20 leaves out the B only region.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0031",
+   "topicId": "gm-hsc-probability",
+   "stem": "In a survey of 120 adults, 12 of the 60 males smoke and 8 of the 60 females smoke. A person is chosen at random. What is the probability they are a female non-smoker?",
+   "imageRef": null,
+   "options": [
+    "13/15",
+    "1/15",
+    "13/30",
+    "1/2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Female non-smokers: 60 \u2212 8 = 52, out of 120 adults, so P = 52/120 = 13/30. 13/15 is 52/60, the proportion of females who don't smoke, not of all adults.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0032",
+   "topicId": "gm-hsc-probability",
+   "stem": "In a survey of 120 adults, 12 of the 60 males smoke and 8 of the 60 females smoke. What percentage of the males smoke?",
+   "imageRef": null,
+   "options": [
+    "20%",
+    "10%",
+    "60%",
+    "12%"
+   ],
+   "correctIndex": 0,
+   "explanation": "12 of the 60 males smoke: 12 \u00f7 60 = 0.2 = 20%. 10% divides by all 120 adults instead of only the males.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0033",
+   "topicId": "gm-hsc-probability",
+   "stem": "In a survey of 120 adults, 12 of the 60 males smoke and 8 of the 60 females smoke. A person is chosen at random. What is the probability they are male or a smoker?",
+   "imageRef": null,
+   "options": [
+    "17/30",
+    "1/2",
+    "2/3",
+    "1/10"
+   ],
+   "correctIndex": 0,
+   "explanation": "Male or smoker = 60 males + 8 female smokers = 68, so P = 68/120 = 17/30. Adding 60 + 20 = 80 (2/3) counts the 12 male smokers twice.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0034",
+   "topicId": "gm-hsc-probability",
+   "stem": "Car insurance premiums are often higher for young drivers. Insurers base this mainly on:",
+   "imageRef": null,
+   "options": [
+    "the fact that young drivers usually own the most expensive cars",
+    "data showing young drivers have a higher relative frequency of claims",
+    "the theoretical probability that any driver will have an accident",
+    "the expected number of cars that each young driver will own"
+   ],
+   "correctIndex": 1,
+   "explanation": "Insurers use past claims data: the relative frequency of claims for each age group estimates the probability of a claim, and premiums are set to cover the expected cost.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0035",
+   "topicId": "gm-hsc-probability",
+   "stem": "A headline says a medicine 'halves the risk' of a condition, from 2 in 1000 people to 1 in 1000. Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "Half of all people who take the medicine avoid the condition",
+    "The risk falls by 1 percentage point, from 2% to 1%",
+    "The risk falls by only 0.1 percentage points, from 0.2% to 0.1%",
+    "The risk falls by 50 percentage points, from 100% to 50%"
+   ],
+   "correctIndex": 2,
+   "explanation": "2 in 1000 is 0.2% and 1 in 1000 is 0.1%. The relative risk does halve, but the actual reduction is only 1 person in 1000. Headlines often report the relative change because it sounds larger.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "gm-hsc-probability-0036",
+   "topicId": "gm-hsc-probability",
+   "stem": "A vaccine has a side effect with probability 0.0004 per dose. A government plans 2.5 million doses. How many cases of the side effect should it expect?",
+   "imageRef": null,
+   "options": [
+    "4000",
+    "1000",
+    "100",
+    "10 000"
+   ],
+   "correctIndex": 1,
+   "explanation": "Expected number = np = 2 500 000 \u00d7 0.0004 = 1000. Planning with expected frequencies lets governments prepare for rare events across large populations.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-gm-hsc-probability-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

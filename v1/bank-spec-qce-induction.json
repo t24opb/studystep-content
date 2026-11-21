@@ -1,0 +1,727 @@
+{
+ "topicId": "spec-qce-induction",
+ "questions": [
+  {
+   "id": "spec-qce-induction-0001",
+   "topicId": "spec-qce-induction",
+   "stem": "A proof by mathematical induction that a statement holds for every positive integer n begins with the initial statement. This step:",
+   "imageRef": null,
+   "options": [
+    "shows the statement is true for n = k + 1",
+    "assumes the statement is true for every n",
+    "shows the statement is true for n = 1",
+    "assumes the statement is true for n = 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "The initial statement checks the first case directly, usually n = 1, by evaluating both sides. Nothing is assumed in this step; the assumption comes next, and only for a single value n = k.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0002",
+   "topicId": "spec-qce-induction",
+   "stem": "In a proof by induction, the assumption statement is:",
+   "imageRef": null,
+   "options": [
+    "assume the statement is true for all positive integers n",
+    "assume the statement is true for n = k + 1, for some integer k",
+    "assume the statement is false for n = k, for some integer k",
+    "assume the statement is true for n = k, for some positive integer k"
+   ],
+   "correctIndex": 3,
+   "explanation": "The assumption is made for one value, n = k. Assuming it for all n assumes what is to be proved, which makes the argument circular.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0003",
+   "topicId": "spec-qce-induction",
+   "stem": "In a proof by induction, the inductive step shows that:",
+   "imageRef": null,
+   "options": [
+    "if the statement is true for n = k, then it is true for n = k + 1",
+    "if the statement is true for n = k + 1, then it is true for n = k",
+    "the statement is true for n = 1, n = 2 and n = 3",
+    "the statement is true for n = k and for n = k \u2212 1"
+   ],
+   "correctIndex": 0,
+   "explanation": "The inductive step proves the implication from case k to case k + 1. With the initial statement, this gives every case in turn: 1, then 2, then 3, and so on. Checking a few cases is not a proof.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0004",
+   "topicId": "spec-qce-induction",
+   "stem": "Which conclusion correctly completes a proof by induction?",
+   "imageRef": null,
+   "options": [
+    "The statement is true for n = 1, and true for n = k + 1 whenever it is true for n = k, so it is true for all positive integers n",
+    "The statement is true for n = 1, n = 2 and n = 3, so by the pattern it is true for all positive integers n",
+    "The statement is true for n = k + 1 whenever it is true for n = k, so it is true for all positive integers n",
+    "The statement is true for n = k for some k, so it is true for all positive integers n greater than k"
+   ],
+   "correctIndex": 0,
+   "explanation": "The conclusion must rest on both parts: the initial statement and the inductive step. Without the initial statement the chain of implications never starts, and a pattern in a few cases proves nothing.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0005",
+   "topicId": "spec-qce-induction",
+   "stem": "A student proves that \u03a3 (r = 1 to n) r = (n\u00b2 + n + 2)/2. Their inductive step is algebraically correct. Which statement is true?",
+   "imageRef": null,
+   "options": [
+    "The result is true for n \u2265 2, because the inductive step starts the chain at n = 2",
+    "The result is false, because the initial statement fails: at n = 1 the right side is 2",
+    "The result is true, because a correct inductive step is enough to prove it",
+    "The result is false, because the inductive step can never be correct for a false result"
+   ],
+   "correctIndex": 1,
+   "explanation": "If S(k) = (k\u00b2 + k + 2)/2, then S(k) + (k + 1) = (k\u00b2 + 3k + 4)/2 = ((k + 1)\u00b2 + (k + 1) + 2)/2, so the inductive step works. But at n = 1 the left side is 1 and the right side is 2, so the chain never starts and the result is false for every n.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0006",
+   "topicId": "spec-qce-induction",
+   "stem": "A student's proof that 5\u207f + 3 is divisible by 4 begins: 'Assume 5\u207f + 3 = 4m, where m is an integer, for all positive integers n.' What is wrong with this?",
+   "imageRef": null,
+   "options": [
+    "It should assume the result for n = k + 1 and deduce it for n = k",
+    "It assumes the result for all n instead of for n = k, which is circular",
+    "It should assume 5\u207f + 3 = 4m + 1, because the remainder must be shown",
+    "It should begin by assuming the statement is false and finding a contradiction"
+   ],
+   "correctIndex": 1,
+   "explanation": "The assumption must be for a single value: assume 5\u1d4f + 3 = 4m for some positive integer k. Assuming the result for all n assumes what is to be proved. The inductive step then shows that 5\u1d4f\u207a\u00b9 + 3 is also a multiple of 4.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0007",
+   "topicId": "spec-qce-induction",
+   "stem": "Which of these statements is false for some positive integer n, and so cannot be proved by induction?",
+   "imageRef": null,
+   "options": [
+    "n\u00b2 \u2212 n + 41 is prime for every positive integer n",
+    "n\u00b3 \u2212 n is divisible by 6 for every positive integer n",
+    "4\u207f \u2212 1 is divisible by 3 for every positive integer n",
+    "n\u00b2 + n is even for every positive integer n"
+   ],
+   "correctIndex": 0,
+   "explanation": "n\u00b2 \u2212 n + 41 is prime for n = 1 to 40, but at n = 41 it equals 41\u00b2, which is not prime. Checking many cases is never a proof. The other three statements are true and can each be proved by induction.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0008",
+   "topicId": "spec-qce-induction",
+   "stem": "The value of \u03a3 (r = 1 to 4) r\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "30",
+    "16",
+    "100"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03a3 (r = 1 to 4) r\u00b2 = 1 + 4 + 9 + 16 = 30. The value 100 is (1 + 2 + 3 + 4)\u00b2, which squares the sum instead of summing the squares.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0009",
+   "topicId": "spec-qce-induction",
+   "stem": "In sigma notation, 2 + 4 + 6 + ... + 2n is:",
+   "imageRef": null,
+   "options": [
+    "\u03a3 (r = 1 to 2n) r",
+    "\u03a3 (r = 2 to n) 2r",
+    "\u03a3 (r = 1 to n) (r + 2)",
+    "\u03a3 (r = 1 to n) 2r"
+   ],
+   "correctIndex": 3,
+   "explanation": "The rth term is 2r, and r runs from 1 (giving 2) to n (giving 2n). \u03a3 (r = 1 to 2n) r adds every integer from 1 to 2n, including the odd ones.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0010",
+   "topicId": "spec-qce-induction",
+   "stem": "The number of terms in \u03a3 (r = 3 to 10) (2r \u2212 1) is:",
+   "imageRef": null,
+   "options": [
+    "10",
+    "13",
+    "8",
+    "7"
+   ],
+   "correctIndex": 2,
+   "explanation": "r takes the values 3, 4, 5, ..., 10, which is 10 \u2212 3 + 1 = 8 values. Subtracting the limits without adding 1 gives 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0011",
+   "topicId": "spec-qce-induction",
+   "stem": "Using \u03a3 (r = 1 to n) r = n(n + 1)/2, the value of \u03a3 (r = 1 to 20) (2r + 1) is:",
+   "imageRef": null,
+   "options": [
+    "420",
+    "230",
+    "462",
+    "440"
+   ],
+   "correctIndex": 3,
+   "explanation": "\u03a3 (2r + 1) = 2 \u03a3 r + \u03a3 1 = 2 \u00d7 (20 \u00d7 21/2) + 20 = 420 + 20 = 440. Leaving out the sum of the constant 1, which is 20 rather than 1, gives 420.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0012",
+   "topicId": "spec-qce-induction",
+   "stem": "Given \u03a3 (r = 1 to n) r\u00b2 = n(n + 1)(2n + 1)/6, the value of \u03a3 (r = 11 to 20) r\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "2464",
+    "2485",
+    "2870",
+    "2100"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03a3 (r = 11 to 20) r\u00b2 = \u03a3 (r = 1 to 20) r\u00b2 \u2212 \u03a3 (r = 1 to 10) r\u00b2 = 2870 \u2212 385 = 2485. The value 2870 includes the squares from 1 to 10 as well.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0013",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving \u03a3 (r = 1 to n) r(r + 1) = n(n + 1)(n + 2)/3 by induction, the right side for n = k + 1 is:",
+   "imageRef": null,
+   "options": [
+    "(k + 1)(k + 2)/3",
+    "k(k + 1)(k + 2)(k + 3)/3",
+    "(k + 1)(k + 2)(k + 3)/3",
+    "k(k + 1)(k + 2)/3 + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "Replace every n by k + 1: (k + 1)((k + 1) + 1)((k + 1) + 2)/3 = (k + 1)(k + 2)(k + 3)/3. Adding 1 to the case n = k does not give the case n = k + 1.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0014",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove \u03a3 (r = 1 to n) r = n(n + 1)/2 by induction, the inductive step must show that:",
+   "imageRef": null,
+   "options": [
+    "k(k + 1)/2 + k = (k + 1)(k + 2)/2",
+    "k(k + 1)/2 + (k + 1) = k(k + 1)(k + 2)/2",
+    "(k + 1)(k + 2)/2 + (k + 1) = (k + 2)(k + 3)/2",
+    "k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2"
+   ],
+   "correctIndex": 3,
+   "explanation": "The sum to k + 1 terms is the sum to k terms, k(k + 1)/2 by the assumption, plus the next term k + 1. This must equal the formula with n = k + 1, which is (k + 1)(k + 2)/2. Adding k instead re-adds the last term already included.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0015",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving 1 + 3 + 5 + ... + (2n \u2212 1) = n\u00b2 by induction, which term is added to k\u00b2 in the inductive step?",
+   "imageRef": null,
+   "options": [
+    "k + 1",
+    "2k + 1",
+    "2k \u2212 1",
+    "2k + 3"
+   ],
+   "correctIndex": 1,
+   "explanation": "The next term is the general term 2r \u2212 1 with r = k + 1, which is 2(k + 1) \u2212 1 = 2k + 1. Then k\u00b2 + 2k + 1 = (k + 1)\u00b2, completing the step. The term 2k \u2212 1 is the kth term, already in the sum.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0016",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove \u03a3 (r = 1 to n) 2^(r \u2212 1) = 2\u207f \u2212 1, the assumption is used to write the sum to k + 1 terms as:",
+   "imageRef": null,
+   "options": [
+    "2\u1d4f \u2212 1 + 2\u1d4f\u207b\u00b9",
+    "2\u1d4f \u2212 1 + 2\u1d4f",
+    "2\u1d4f \u2212 1 + 2\u1d4f\u207a\u00b9",
+    "2\u1d4f\u207a\u00b9 \u2212 1 + 2\u1d4f"
+   ],
+   "correctIndex": 1,
+   "explanation": "The (k + 1)th term is 2^((k + 1) \u2212 1) = 2\u1d4f, so the sum is (2\u1d4f \u2212 1) + 2\u1d4f = 2 \u00d7 2\u1d4f \u2212 1 = 2\u1d4f\u207a\u00b9 \u2212 1. Adding 2\u1d4f\u207a\u00b9 uses the exponent of the next term incorrectly.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0017",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving 1 + 3 + 9 + ... + 3^(n \u2212 1) = (3\u207f \u2212 1)/2 by induction, the expression (3\u1d4f \u2212 1)/2 + 3\u1d4f simplifies to:",
+   "imageRef": null,
+   "options": [
+    "(3\u1d4f\u207a\u00b9 \u2212 1)/2",
+    "(3\u1d4f\u207a\u00b9 + 1)/2",
+    "(4 \u00d7 3\u1d4f \u2212 1)/2",
+    "(2 \u00d7 3\u1d4f \u2212 1)/2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Over a common denominator, (3\u1d4f \u2212 1 + 2 \u00d7 3\u1d4f)/2 = (3 \u00d7 3\u1d4f \u2212 1)/2 = (3\u1d4f\u207a\u00b9 \u2212 1)/2, which is the formula with n = k + 1. Writing 4 \u00d7 3\u1d4f adds 3\u1d4f without doubling it first.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0018",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving \u03a3 (r = 1 to n) 1/(r(r + 1)) = n/(n + 1), the expression k/(k + 1) + 1/((k + 1)(k + 2)) is written over the denominator (k + 1)(k + 2). The numerator is:",
+   "imageRef": null,
+   "options": [
+    "2k + 1",
+    "k\u00b2 + 2k + 1",
+    "k\u00b2 + 2k",
+    "k\u00b2 + k + 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "The numerator is k(k + 2) + 1 = k\u00b2 + 2k + 1 = (k + 1)\u00b2, so the fraction simplifies to (k + 1)/(k + 2), the formula with n = k + 1. Forgetting to add the 1 from the second fraction gives k\u00b2 + 2k.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0019",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving \u03a3 (r = 1 to n) r\u00b3 = n\u00b2(n + 1)\u00b2/4, the expression k\u00b2(k + 1)\u00b2/4 + (k + 1)\u00b3 is factorised. Which form shows the step is complete?",
+   "imageRef": null,
+   "options": [
+    "(k + 1)\u00b3(k\u00b2 + 4)/4",
+    "(k + 1)\u00b2(k\u00b2 + 2k + 4)/4",
+    "(k + 1)\u00b2(k\u00b2 + 4k + 4)/4",
+    "(k + 1)\u00b2(k\u00b2 + 4k + 1)/4"
+   ],
+   "correctIndex": 2,
+   "explanation": "Taking out (k + 1)\u00b2/4 leaves k\u00b2 + 4(k + 1) = k\u00b2 + 4k + 4 = (k + 2)\u00b2, so the sum is (k + 1)\u00b2(k + 2)\u00b2/4, the formula with n = k + 1. Dropping the 4 from 4(k + 1) gives k\u00b2 + 4k + 1 incorrectly.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0020",
+   "topicId": "spec-qce-induction",
+   "stem": "For every positive integer n, 7\u207f \u2212 1 is divisible by:",
+   "imageRef": null,
+   "options": [
+    "7",
+    "6",
+    "4",
+    "12"
+   ],
+   "correctIndex": 1,
+   "explanation": "7\u207f \u2212 1 = (7 \u2212 1)(7^(n \u2212 1) + ... + 1), so it is always a multiple of 6, which can be proved by induction. At n = 1 it equals 6, which is not divisible by 4 or 12, so those fail; 7\u207f \u2212 1 always leaves remainder 6 on division by 7.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0021",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove 5\u207f \u2212 1 is divisible by 4, assume 5\u1d4f \u2212 1 = 4m for an integer m. Then 5\u1d4f\u207a\u00b9 \u2212 1 equals:",
+   "imageRef": null,
+   "options": [
+    "4(5m + 1)",
+    "4(5m \u2212 1)",
+    "4(m + 1)",
+    "5(4m + 1)"
+   ],
+   "correctIndex": 0,
+   "explanation": "From the assumption, 5\u1d4f = 4m + 1, so 5\u1d4f\u207a\u00b9 \u2212 1 = 5(4m + 1) \u2212 1 = 20m + 4 = 4(5m + 1), a multiple of 4. Forgetting to subtract the final 1 gives 5(4m + 1), which is 5\u1d4f\u207a\u00b9, not 5\u1d4f\u207a\u00b9 \u2212 1.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0022",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove n\u00b3 + 2n is divisible by 3, the expression (k + 1)\u00b3 + 2(k + 1) is rearranged as:",
+   "imageRef": null,
+   "options": [
+    "(k\u00b3 + 2k) + 3k\u00b2 + 3k + 2",
+    "(k\u00b3 + 2k) + 3(k\u00b2 + 2k + 1)",
+    "(k\u00b3 + 2k) + 3(k\u00b2 + k + 1)",
+    "(k\u00b3 + 2k) + 3(k\u00b2 + k)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Expanding gives k\u00b3 + 3k\u00b2 + 3k + 1 + 2k + 2 = (k\u00b3 + 2k) + 3k\u00b2 + 3k + 3 = (k\u00b3 + 2k) + 3(k\u00b2 + k + 1). The bracket k\u00b3 + 2k is a multiple of 3 by the assumption, so the whole expression is. Leaving out the constant 3 gives 3(k\u00b2 + k).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0023",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove 3^(2n) \u2212 1 is divisible by 8, which rearrangement of 3^(2k + 2) \u2212 1 completes the inductive step?",
+   "imageRef": null,
+   "options": [
+    "3(3^(2k) \u2212 1) + 2",
+    "9(3^(2k) \u2212 1) \u2212 8",
+    "9(3^(2k) \u2212 1) + 8",
+    "9(3^(2k) \u2212 1) + 1"
+   ],
+   "correctIndex": 2,
+   "explanation": "3^(2k + 2) = 9 \u00d7 3^(2k), so 3^(2k + 2) \u2212 1 = 9 \u00d7 3^(2k) \u2212 9 + 8 = 9(3^(2k) \u2212 1) + 8. Both terms are multiples of 8, using the assumption for the bracket. Expanding 9(3^(2k) \u2212 1) \u2212 8 gives 9 \u00d7 3^(2k) \u2212 17, which is not equal.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0024",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove 11\u207f \u2212 6\u207f is divisible by 5, the expression 11\u1d4f\u207a\u00b9 \u2212 6\u1d4f\u207a\u00b9 is rewritten as:",
+   "imageRef": null,
+   "options": [
+    "11(11\u1d4f \u2212 6\u1d4f) \u2212 5 \u00d7 6\u1d4f",
+    "6(11\u1d4f \u2212 6\u1d4f) + 6 \u00d7 11\u1d4f",
+    "11(11\u1d4f \u2212 6\u1d4f) + 5 \u00d7 11\u1d4f",
+    "11(11\u1d4f \u2212 6\u1d4f) + 5 \u00d7 6\u1d4f"
+   ],
+   "correctIndex": 3,
+   "explanation": "11\u1d4f\u207a\u00b9 \u2212 6\u1d4f\u207a\u00b9 = 11 \u00d7 11\u1d4f \u2212 11 \u00d7 6\u1d4f + 11 \u00d7 6\u1d4f \u2212 6 \u00d7 6\u1d4f = 11(11\u1d4f \u2212 6\u1d4f) + 5 \u00d7 6\u1d4f. The first term is a multiple of 5 by the assumption and the second is 5 times an integer. Subtracting 5 \u00d7 6\u1d4f instead gets the sign of the adjustment wrong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0025",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving 6\u207f + 4 is divisible by 10, the assumption is 6\u1d4f + 4 = 10m. Which expression for 6\u1d4f\u207a\u00b9 + 4 follows?",
+   "imageRef": null,
+   "options": [
+    "6(10m + 4) + 4 = 10(6m + 2)",
+    "6(10m \u2212 4) + 4 = 10(6m \u2212 4)",
+    "6 \u00d7 10m + 4 = 10(6m) + 4",
+    "6(10m \u2212 4) + 4 = 10(6m \u2212 2)"
+   ],
+   "correctIndex": 3,
+   "explanation": "From the assumption, 6\u1d4f = 10m \u2212 4, so 6\u1d4f\u207a\u00b9 + 4 = 6(10m \u2212 4) + 4 = 60m \u2212 20 = 10(6m \u2212 2), a multiple of 10. Using 6\u1d4f = 10m + 4 gets the sign of the 4 wrong when rearranging the assumption.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0026",
+   "topicId": "spec-qce-induction",
+   "stem": "To prove De Moivre's theorem (cis \u03b8)\u207f = cis(n\u03b8) by induction, the inductive step writes (cis \u03b8)\u1d4f\u207a\u00b9 as:",
+   "imageRef": null,
+   "options": [
+    "cis(k\u03b8) \u00d7 cis(k\u03b8)",
+    "(k + 1) cis(\u03b8)",
+    "cis(k\u03b8) \u00d7 cis(\u03b8)",
+    "cis(k\u03b8) + cis(\u03b8)"
+   ],
+   "correctIndex": 2,
+   "explanation": "(cis \u03b8)\u1d4f\u207a\u00b9 = (cis \u03b8)\u1d4f \u00d7 cis \u03b8, and the assumption replaces (cis \u03b8)\u1d4f by cis(k\u03b8). The product cis(k\u03b8) cis \u03b8 is then simplified to cis((k + 1)\u03b8). Powers multiply, so the step uses a product, not a sum.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0027",
+   "topicId": "spec-qce-induction",
+   "stem": "In proving De Moivre's theorem by induction, (cos k\u03b8 + i sin k\u03b8)(cos \u03b8 + i sin \u03b8) is expanded. Its real part is:",
+   "imageRef": null,
+   "options": [
+    "sin k\u03b8 cos \u03b8 + cos k\u03b8 sin \u03b8",
+    "cos k\u03b8 cos \u03b8 \u2212 sin k\u03b8 cos \u03b8",
+    "cos k\u03b8 cos \u03b8 \u2212 sin k\u03b8 sin \u03b8",
+    "cos k\u03b8 cos \u03b8 + sin k\u03b8 sin \u03b8"
+   ],
+   "correctIndex": 2,
+   "explanation": "The real terms are cos k\u03b8 cos \u03b8 and i\u00b2 sin k\u03b8 sin \u03b8 = \u2212sin k\u03b8 sin \u03b8. By the compound angle formula this is cos((k + 1)\u03b8). The sum sin k\u03b8 cos \u03b8 + cos k\u03b8 sin \u03b8 is the imaginary part, which equals sin((k + 1)\u03b8).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0028",
+   "topicId": "spec-qce-induction",
+   "stem": "In the proof of De Moivre's theorem by induction, the initial statement is shown for n = 1 by noting that:",
+   "imageRef": null,
+   "options": [
+    "(cis \u03b8)\u00b9 = cis \u03b8 = cis(1 \u00d7 \u03b8)",
+    "(cis \u03b8)\u2070 = 1 = cis 0",
+    "(cis \u03b8)\u00b2 = cis(2\u03b8) by the double angle formulas",
+    "cis \u03b8 = cos \u03b8 + sin \u03b8 for every \u03b8"
+   ],
+   "correctIndex": 0,
+   "explanation": "For n = 1 both sides are cis \u03b8, so the statement is true. The theorem in this proof is for positive integers, so the induction starts at n = 1, not n = 0.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0029",
+   "topicId": "spec-qce-induction",
+   "stem": "Equating imaginary parts of (cos \u03b8 + i sin \u03b8)\u00b2 = cos 2\u03b8 + i sin 2\u03b8 gives:",
+   "imageRef": null,
+   "options": [
+    "sin 2\u03b8 = cos\u00b2\u03b8 \u2212 sin\u00b2\u03b8",
+    "sin 2\u03b8 = 2 sin \u03b8 cos \u03b8",
+    "sin 2\u03b8 = sin\u00b2\u03b8 \u2212 cos\u00b2\u03b8",
+    "sin 2\u03b8 = 2 sin \u03b8"
+   ],
+   "correctIndex": 1,
+   "explanation": "(cos \u03b8 + i sin \u03b8)\u00b2 = cos\u00b2\u03b8 \u2212 sin\u00b2\u03b8 + 2i sin \u03b8 cos \u03b8. The imaginary part is 2 sin \u03b8 cos \u03b8, which equals sin 2\u03b8. The real part, cos\u00b2\u03b8 \u2212 sin\u00b2\u03b8, gives cos 2\u03b8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0030",
+   "topicId": "spec-qce-induction",
+   "stem": "With c = cos \u03b8 and s = sin \u03b8, the term in the binomial expansion of (c + is)\u00b3 that contains s\u00b2 is:",
+   "imageRef": null,
+   "options": [
+    "\u22123c\u00b2s",
+    "3ics\u00b2",
+    "\u22123cs\u00b2",
+    "3cs\u00b2"
+   ],
+   "correctIndex": 2,
+   "explanation": "The term is C(3, 2) c (is)\u00b2 = 3c \u00d7 i\u00b2s\u00b2 = \u22123cs\u00b2. Forgetting that i\u00b2 = \u22121 gives 3cs\u00b2, and \u22123c\u00b2s confuses it with the s term.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0031",
+   "topicId": "spec-qce-induction",
+   "stem": "Equating real parts of (cos \u03b8 + i sin \u03b8)\u00b3 = cos 3\u03b8 + i sin 3\u03b8 gives cos 3\u03b8 as:",
+   "imageRef": null,
+   "options": [
+    "cos\u00b3\u03b8 + 3 cos \u03b8 sin\u00b2\u03b8",
+    "cos\u00b3\u03b8 \u2212 sin\u00b3\u03b8",
+    "3 cos\u00b2\u03b8 sin \u03b8 \u2212 sin\u00b3\u03b8",
+    "cos\u00b3\u03b8 \u2212 3 cos \u03b8 sin\u00b2\u03b8"
+   ],
+   "correctIndex": 3,
+   "explanation": "(c + is)\u00b3 = c\u00b3 + 3ic\u00b2s \u2212 3cs\u00b2 \u2212 is\u00b3, so the real part is c\u00b3 \u2212 3cs\u00b2. The terms 3c\u00b2s \u2212 s\u00b3 form the imaginary part, which gives sin 3\u03b8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0032",
+   "topicId": "spec-qce-induction",
+   "stem": "Using cos 3\u03b8 = cos\u00b3\u03b8 \u2212 3 cos \u03b8 sin\u00b2\u03b8 and sin\u00b2\u03b8 = 1 \u2212 cos\u00b2\u03b8, cos 3\u03b8 in terms of cos \u03b8 is:",
+   "imageRef": null,
+   "options": [
+    "4 cos\u00b3\u03b8 \u2212 3 cos\u00b2\u03b8",
+    "4 cos\u00b3\u03b8 \u2212 3 cos \u03b8",
+    "3 cos \u03b8 \u2212 4 cos\u00b3\u03b8",
+    "\u22122 cos\u00b3\u03b8 \u2212 3 cos \u03b8"
+   ],
+   "correctIndex": 1,
+   "explanation": "cos\u00b3\u03b8 \u2212 3 cos \u03b8(1 \u2212 cos\u00b2\u03b8) = cos\u00b3\u03b8 \u2212 3 cos \u03b8 + 3 cos\u00b3\u03b8 = 4 cos\u00b3\u03b8 \u2212 3 cos \u03b8. Using sin\u00b2\u03b8 = 1 + cos\u00b2\u03b8 gives \u22122 cos\u00b3\u03b8 \u2212 3 cos \u03b8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0033",
+   "topicId": "spec-qce-induction",
+   "stem": "Equating imaginary parts of (cos \u03b8 + i sin \u03b8)\u00b3 and using cos\u00b2\u03b8 = 1 \u2212 sin\u00b2\u03b8 gives sin 3\u03b8 as:",
+   "imageRef": null,
+   "options": [
+    "3 sin \u03b8 \u2212 4 sin\u00b3\u03b8",
+    "4 sin\u00b3\u03b8 \u2212 3 sin \u03b8",
+    "3 sin \u03b8 \u2212 2 sin\u00b3\u03b8",
+    "3 sin \u03b8 + 4 sin\u00b3\u03b8"
+   ],
+   "correctIndex": 0,
+   "explanation": "The imaginary part is 3 cos\u00b2\u03b8 sin \u03b8 \u2212 sin\u00b3\u03b8 = 3(1 \u2212 sin\u00b2\u03b8) sin \u03b8 \u2212 sin\u00b3\u03b8 = 3 sin \u03b8 \u2212 4 sin\u00b3\u03b8. The signs are reversed in 4 sin\u00b3\u03b8 \u2212 3 sin \u03b8, which is \u2212sin 3\u03b8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0034",
+   "topicId": "spec-qce-induction",
+   "stem": "Equating real parts of (cos \u03b8 + i sin \u03b8)\u2074 = cos 4\u03b8 + i sin 4\u03b8 gives cos 4\u03b8 as:",
+   "imageRef": null,
+   "options": [
+    "cos\u2074\u03b8 \u2212 6 cos\u00b2\u03b8 sin\u00b2\u03b8 \u2212 sin\u2074\u03b8",
+    "cos\u2074\u03b8 \u2212 6 cos\u00b2\u03b8 sin\u00b2\u03b8 + sin\u2074\u03b8",
+    "cos\u2074\u03b8 + 6 cos\u00b2\u03b8 sin\u00b2\u03b8 + sin\u2074\u03b8",
+    "cos\u2074\u03b8 \u2212 4 cos\u00b3\u03b8 sin \u03b8 + sin\u2074\u03b8"
+   ],
+   "correctIndex": 1,
+   "explanation": "The binomial coefficients are 1, 4, 6, 4, 1, and the powers of i are 1, i, \u22121, \u2212i, 1. The real terms are c\u2074, 6c\u00b2(is)\u00b2 = \u22126c\u00b2s\u00b2 and (is)\u2074 = s\u2074, so cos 4\u03b8 = c\u2074 \u2212 6c\u00b2s\u00b2 + s\u2074. Since i\u2074 = 1, the s\u2074 term is positive.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0035",
+   "topicId": "spec-qce-induction",
+   "stem": "Equating imaginary parts of (cos \u03b8 + i sin \u03b8)\u2074 gives sin 4\u03b8 as:",
+   "imageRef": null,
+   "options": [
+    "4 cos\u00b3\u03b8 sin \u03b8 + 4 cos \u03b8 sin\u00b3\u03b8",
+    "6 cos\u00b2\u03b8 sin\u00b2\u03b8 \u2212 4 cos \u03b8 sin\u00b3\u03b8",
+    "4 cos\u00b3\u03b8 sin \u03b8 \u2212 sin\u2074\u03b8",
+    "4 cos\u00b3\u03b8 sin \u03b8 \u2212 4 cos \u03b8 sin\u00b3\u03b8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The imaginary terms are 4c\u00b3(is) = 4ic\u00b3s and 4c(is)\u00b3 = 4c \u00d7 i\u00b3s\u00b3 = \u22124ics\u00b3. So sin 4\u03b8 = 4 cos\u00b3\u03b8 sin \u03b8 \u2212 4 cos \u03b8 sin\u00b3\u03b8. Since i\u00b3 = \u2212i, the second term is negative.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0036",
+   "topicId": "spec-qce-induction",
+   "stem": "Using cos 4\u03b8 = cos\u2074\u03b8 \u2212 6 cos\u00b2\u03b8 sin\u00b2\u03b8 + sin\u2074\u03b8, cos 4\u03b8 in terms of cos \u03b8 only is:",
+   "imageRef": null,
+   "options": [
+    "4 cos\u2074\u03b8 \u2212 3 cos\u00b2\u03b8",
+    "8 cos\u2074\u03b8 \u2212 8 cos\u00b2\u03b8 + 1",
+    "8 cos\u2074\u03b8 \u2212 4 cos\u00b2\u03b8 + 1",
+    "8 cos\u2074\u03b8 + 8 cos\u00b2\u03b8 \u2212 1"
+   ],
+   "correctIndex": 1,
+   "explanation": "With s\u00b2 = 1 \u2212 c\u00b2: c\u2074 \u2212 6c\u00b2(1 \u2212 c\u00b2) + (1 \u2212 c\u00b2)\u00b2 = c\u2074 \u2212 6c\u00b2 + 6c\u2074 + 1 \u2212 2c\u00b2 + c\u2074 = 8c\u2074 \u2212 8c\u00b2 + 1. Check at \u03b8 = 0: 8 \u2212 8 + 1 = 1 = cos 0.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0037",
+   "topicId": "spec-qce-induction",
+   "stem": "Using cos 3\u03b8 = 4 cos\u00b3\u03b8 \u2212 3 cos \u03b8, the exact value of 4 cos\u00b3(\u03c0/9) \u2212 3 cos(\u03c0/9) is:",
+   "imageRef": null,
+   "options": [
+    "1/2",
+    "\u221a3/2",
+    "\u22121/2",
+    "1"
+   ],
+   "correctIndex": 0,
+   "explanation": "With \u03b8 = \u03c0/9, the expression equals cos(3 \u00d7 \u03c0/9) = cos(\u03c0/3) = 1/2. The value \u221a3/2 is cos(\u03c0/6), which comes from using the wrong multiple of the angle.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-induction-0038",
+   "topicId": "spec-qce-induction",
+   "stem": "Rearranging cos 3\u03b8 = 4 cos\u00b3\u03b8 \u2212 3 cos \u03b8 gives cos\u00b3\u03b8 as:",
+   "imageRef": null,
+   "options": [
+    "(cos 3\u03b8 + 3 cos \u03b8)/3",
+    "(cos 3\u03b8 + 3 cos \u03b8)/4",
+    "(cos 3\u03b8 \u2212 3 cos \u03b8)/4",
+    "(3 cos \u03b8 \u2212 cos 3\u03b8)/4"
+   ],
+   "correctIndex": 1,
+   "explanation": "4 cos\u00b3\u03b8 = cos 3\u03b8 + 3 cos \u03b8, so cos\u00b3\u03b8 = (cos 3\u03b8 + 3 cos \u03b8)/4. This form lets cos\u00b3\u03b8 be integrated. Check at \u03b8 = 0: (1 + 3)/4 = 1 = cos\u00b30.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-induction-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}

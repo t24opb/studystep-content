@@ -1,0 +1,708 @@
+{
+ "topicId": "spec-qce-sample-means",
+ "questions": [
+  {
+   "id": "spec-qce-sample-means-0001",
+   "topicId": "spec-qce-sample-means",
+   "stem": "The sample mean X\u0304 is a random variable because:",
+   "imageRef": null,
+   "options": [
+    "its value varies from one random sample to another",
+    "the population mean \u03bc changes from sample to sample",
+    "every sample of the same size gives the same value",
+    "it can only take whole-number values"
+   ],
+   "correctIndex": 0,
+   "explanation": "Different random samples contain different individuals, so they give different values of x\u0304. The population mean \u03bc is a fixed parameter; it is the sample mean that varies.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0002",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Random samples of size n are taken from a population with mean \u03bc. The mean of the distribution of X\u0304 is:",
+   "imageRef": null,
+   "options": [
+    "\u03bc",
+    "\u03bc/n",
+    "\u03bc/\u221an",
+    "n\u03bc"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample means are centred on the population mean: E(X\u0304) = \u03bc. It is the standard deviation, not the mean, that is divided by \u221an.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0003",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A population has standard deviation \u03c3 = 20. For random samples of size 25, the standard deviation of X\u0304 is:",
+   "imageRef": null,
+   "options": [
+    "4",
+    "0.8",
+    "20",
+    "16"
+   ],
+   "correctIndex": 0,
+   "explanation": "The standard deviation of X\u0304 is \u03c3/\u221an = 20/\u221a25 = 20/5 = 4. Dividing by n = 25 instead of \u221an gives 0.8.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0004",
+   "topicId": "spec-qce-sample-means",
+   "stem": "The central limit theorem says that, for a large sample size n, the distribution of X\u0304 is:",
+   "imageRef": null,
+   "options": [
+    "exactly normal, but only when the population itself is normal",
+    "the same shape as the population distribution, but narrower",
+    "approximately uniform between the smallest and largest values",
+    "approximately normal, whatever the shape of the population distribution"
+   ],
+   "correctIndex": 3,
+   "explanation": "For large n (a guide is n \u2265 30), sample means are approximately normally distributed even if the population is skewed. The population's own shape matters only for small samples.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0005",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A population has \u03bc = 50 and \u03c3 = 12. For random samples of size 36, the distribution of X\u0304 is approximately (written as N(mean, variance)):",
+   "imageRef": null,
+   "options": [
+    "N(50, 144)",
+    "N(50, 1/3)",
+    "N(50, 4)",
+    "N(50, 2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "X\u0304 ~ N(\u03bc, \u03c3\u00b2/n) = N(50, 144/36) = N(50, 4). The second number is the variance; the standard deviation is 2. Writing N(50, 2) puts the standard deviation where the variance belongs.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0006",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Many random samples of size n are taken from a population with \u03c3 = 12. The standard deviation of the sample means is 3. The sample size n is:",
+   "imageRef": null,
+   "options": [
+    "144",
+    "16",
+    "4",
+    "36"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u03c3/\u221an = 3 gives \u221an = 12/3 = 4, so n = 16. Stopping at \u221an = 4 gives 4, which is the square root of the sample size.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0007",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Samples of size 2 are taken from a strongly right-skewed population. The distribution of the sample means is:",
+   "imageRef": null,
+   "options": [
+    "still right-skewed, though less so than the population",
+    "exactly normal, by the central limit theorem",
+    "left-skewed, the reverse of the population",
+    "uniform, because each sample has two values"
+   ],
+   "correctIndex": 0,
+   "explanation": "The central limit theorem applies as n becomes large. With n = 2 the sample means still show the population's skew, though averaging reduces it. Approximate normality needs a larger sample, such as n \u2265 30.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0008",
+   "topicId": "spec-qce-sample-means",
+   "stem": "How does multiplying the sample size by 4 change the standard deviation of X\u0304?",
+   "imageRef": null,
+   "options": [
+    "It doubles it",
+    "It divides it by 16",
+    "It halves it",
+    "It divides it by 4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation of X\u0304 is \u03c3/\u221an, and \u221a(4n) = 2\u221an, so the standard deviation is halved. Dividing by 4 would need the sample size multiplied by 16.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0009",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A population has \u03bc = 80 and \u03c3 = 12. For a random sample of size 36, Pr(X\u0304 > 83) is about:",
+   "imageRef": null,
+   "options": [
+    "0.933",
+    "0.134",
+    "0.067",
+    "0.401"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation of X\u0304 is 12/\u221a36 = 2, so z = (83 \u2212 80)/2 = 1.5 and Pr(Z > 1.5) \u2248 0.067. The value 0.401 is Pr(X > 83) for a single value, using \u03c3 = 12 instead of 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0010",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Bags of rice have masses with mean 50 kg and standard deviation 5 kg. For a random sample of 100 bags, Pr(X\u0304 < 49) is about:",
+   "imageRef": null,
+   "options": [
+    "0.159",
+    "0.977",
+    "0.023",
+    "0.421"
+   ],
+   "correctIndex": 2,
+   "explanation": "The standard deviation of X\u0304 is 5/\u221a100 = 0.5, so z = (49 \u2212 50)/0.5 = \u22122 and Pr(Z < \u22122) \u2248 0.023. Using \u03c3 = 5 gives z = \u22120.2 and about 0.421.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0011",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A population has standard deviation 6. For a random sample of size 36, the probability that X\u0304 is within 1 of \u03bc is about:",
+   "imageRef": null,
+   "options": [
+    "0.954",
+    "0.341",
+    "0.132",
+    "0.683"
+   ],
+   "correctIndex": 3,
+   "explanation": "The standard deviation of X\u0304 is 6/6 = 1, so Pr(|X\u0304 \u2212 \u03bc| < 1) = Pr(\u22121 < Z < 1) \u2248 0.683. The value 0.341 covers only one side of \u03bc.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0012",
+   "topicId": "spec-qce-sample-means",
+   "stem": "For a population with \u03bc = 80 and \u03c3 = 12, Pr(X > 83) \u2248 0.40 for one value, but Pr(X\u0304 > 83) \u2248 0.07 for the mean of 36 values. Why is the second much smaller?",
+   "imageRef": null,
+   "options": [
+    "The probability for a sample mean is divided by the sample size 36",
+    "Sample means vary less than single values, with standard deviation \u03c3/\u221an",
+    "Sample means have a smaller mean than single values, equal to \u03bc/\u221an",
+    "Single values are normally distributed but sample means are not"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both X and X\u0304 have mean 80, but X\u0304 has standard deviation 12/\u221a36 = 2, much less than 12. A mean of 36 values is rarely far from \u03bc, so 83 is 1.5 standard deviations above for X\u0304 but only 0.25 for X.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0013",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Packets have masses with mean 500 g and standard deviation 10 g. What is the smallest sample size n for which Pr(X\u0304 < 498) \u2264 0.05?",
+   "imageRef": null,
+   "options": [
+    "25",
+    "68",
+    "67",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pr(X\u0304 < 498) \u2264 0.05 needs (498 \u2212 500)/(10/\u221an) \u2264 \u22121.645, so \u221an \u2265 8.225 and n \u2265 67.65. The smallest whole number is 68. Rounding down to 67 gives a probability slightly above 0.05.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0014",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A sample of 49 values has x\u0304 = 53 and s = 21. Using s in place of \u03c3, the standardised value of x\u0304 if \u03bc = 50 is:",
+   "imageRef": null,
+   "options": [
+    "1/7",
+    "7",
+    "3",
+    "1"
+   ],
+   "correctIndex": 3,
+   "explanation": "(x\u0304 \u2212 \u03bc)/(s/\u221an) = (53 \u2212 50)/(21/7) = 3/3 = 1. For large samples this statistic is approximately standard normal, by the central limit theorem. Dividing by s = 21 without the \u221an gives 1/7.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0015",
+   "topicId": "spec-qce-sample-means",
+   "stem": "The point estimate of a population mean \u03bc from a random sample is:",
+   "imageRef": null,
+   "options": [
+    "the sample mean x\u0304",
+    "the sample standard deviation s",
+    "the margin of error E",
+    "the sample size n"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sample mean x\u0304 estimates \u03bc, and s estimates \u03c3. A confidence interval then adds and subtracts a margin of error E around x\u0304.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0016",
+   "topicId": "spec-qce-sample-means",
+   "stem": "For an approximate 95% confidence interval for \u03bc, the standard normal quantile z used is about:",
+   "imageRef": null,
+   "options": [
+    "1.96",
+    "1.645",
+    "2.576",
+    "0.95"
+   ],
+   "correctIndex": 0,
+   "explanation": "95% of the standard normal distribution lies between \u22121.96 and 1.96. The value 1.645 is for 90% and 2.576 is for 99%. The confidence level 0.95 is a probability, not a z value.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0017",
+   "topicId": "spec-qce-sample-means",
+   "stem": "The approximate margin of error for a confidence interval for \u03bc is:",
+   "imageRef": null,
+   "options": [
+    "E = s/z",
+    "E = z s/\u221an",
+    "E = z s/n",
+    "E = z \u221an/s"
+   ],
+   "correctIndex": 1,
+   "explanation": "The interval is x\u0304 \u00b1 z s/\u221an, so the margin of error is z times the standard deviation of the sample mean, s/\u221an. Dividing by n instead of \u221an makes the interval far too narrow.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0018",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A random sample of 100 has x\u0304 = 72 and s = 15. An approximate 95% confidence interval for \u03bc is:",
+   "imageRef": null,
+   "options": [
+    "(42.60, 101.40)",
+    "(70.50, 73.50)",
+    "(69.53, 74.47)",
+    "(69.06, 74.94)"
+   ],
+   "correctIndex": 3,
+   "explanation": "E = 1.96 \u00d7 15/\u221a100 = 1.96 \u00d7 1.5 = 2.94, so the interval is 72 \u00b1 2.94 = (69.06, 74.94). Leaving out \u221an gives 72 \u00b1 29.4, which describes individual values, not the mean.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0019",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A random sample of 64 has x\u0304 = 120 and s = 16. An approximate 90% confidence interval for \u03bc is:",
+   "imageRef": null,
+   "options": [
+    "(114.85, 125.15)",
+    "(118.00, 122.00)",
+    "(116.71, 123.29)",
+    "(116.08, 123.92)"
+   ],
+   "correctIndex": 2,
+   "explanation": "For 90%, z \u2248 1.645, and s/\u221an = 16/8 = 2, so E = 3.29 and the interval is (116.71, 123.29). Using 1.96 gives the 95% interval (116.08, 123.92).",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0020",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A random sample of 49 has s = 14. The approximate margin of error for a 99% confidence interval for \u03bc is about:",
+   "imageRef": null,
+   "options": [
+    "5.15",
+    "3.92",
+    "36.06",
+    "0.74"
+   ],
+   "correctIndex": 0,
+   "explanation": "E = z s/\u221an = 2.576 \u00d7 14/7 = 2.576 \u00d7 2 \u2248 5.15. Using z = 1.96 gives 3.92, which is the 95% margin of error.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0021",
+   "topicId": "spec-qce-sample-means",
+   "stem": "An approximate confidence interval for \u03bc is (48.2, 53.8). The sample mean and margin of error are:",
+   "imageRef": null,
+   "options": [
+    "x\u0304 = 51 and E = 5.6",
+    "x\u0304 = 48.2 and E = 5.6",
+    "x\u0304 = 53.8 and E = 2.8",
+    "x\u0304 = 51 and E = 2.8"
+   ],
+   "correctIndex": 3,
+   "explanation": "The interval is x\u0304 \u00b1 E, so x\u0304 is the midpoint, (48.2 + 53.8)/2 = 51, and E is half the width, 5.6/2 = 2.8. The full width 5.6 is 2E.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0022",
+   "topicId": "spec-qce-sample-means",
+   "stem": "An approximate 95% confidence interval for \u03bc, from a sample of 100, is (48.2, 53.8). The sample standard deviation s is about:",
+   "imageRef": null,
+   "options": [
+    "14.3",
+    "1.43",
+    "28.6",
+    "2.86"
+   ],
+   "correctIndex": 0,
+   "explanation": "E = 2.8 = 1.96 \u00d7 s/\u221a100 = 0.196s, so s = 2.8/0.196 \u2248 14.3. Using the full width 5.6 as E gives 28.6.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0023",
+   "topicId": "spec-qce-sample-means",
+   "stem": "From a sample of 100 with x\u0304 = 40 and s = 5, an approximate confidence interval for \u03bc is (39.18, 40.82). The confidence level is about:",
+   "imageRef": null,
+   "options": [
+    "90%",
+    "95%",
+    "99%",
+    "82%"
+   ],
+   "correctIndex": 0,
+   "explanation": "E = 0.82 and s/\u221an = 0.5, so z = 0.82/0.5 = 1.64, the quantile for about 90%. The 95% interval would use 1.96, giving 40 \u00b1 0.98.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0024",
+   "topicId": "spec-qce-sample-means",
+   "stem": "With the same sample, the confidence level is increased from 95% to 99%. The confidence interval for \u03bc becomes:",
+   "imageRef": null,
+   "options": [
+    "wider, because s increases with the confidence level",
+    "the same width, because the sample is unchanged",
+    "wider, because z increases from 1.96 to 2.576",
+    "narrower, because a higher level is more precise"
+   ],
+   "correctIndex": 2,
+   "explanation": "A higher confidence level needs a larger quantile z, so E = z s/\u221an increases and the interval widens. More confidence costs precision. The sample standard deviation s does not change.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0025",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A survey wants a margin of error of at most 2 for a 95% confidence interval for \u03bc, and s is estimated as 10. The smallest sample size needed is:",
+   "imageRef": null,
+   "options": [
+    "20",
+    "97",
+    "96",
+    "10"
+   ],
+   "correctIndex": 1,
+   "explanation": "Solve 1.96 \u00d7 10/\u221an \u2264 2: \u221an \u2265 9.8, so n \u2265 96.04. The sample size must be a whole number at least this big, so n = 97. Rounding to 96 gives a margin of error slightly above 2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0026",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A study with 50 participants gives a margin of error E. With the same s and confidence level, what sample size gives a margin of error of E/2?",
+   "imageRef": null,
+   "options": [
+    "2500",
+    "200",
+    "100",
+    "25"
+   ],
+   "correctIndex": 1,
+   "explanation": "E is proportional to 1/\u221an, so halving E needs \u221an to double and n to be multiplied by 4: 4 \u00d7 50 = 200. Doubling n to 100 only divides E by \u221a2.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0027",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Which statement about approximate 95% confidence intervals for \u03bc is correct?",
+   "imageRef": null,
+   "options": [
+    "About 95% of intervals from repeated random samples would contain \u03bc",
+    "Each interval contains 95% of the values in the population",
+    "There is a 95% chance that \u03bc changes to lie in the interval",
+    "Every interval from a random sample of size 30 or more contains \u03bc"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 95% describes the method: over many random samples, about 95% of the intervals constructed would capture the fixed value \u03bc. Most, but not all, intervals contain \u03bc. An interval for \u03bc is much narrower than the spread of individual values.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0028",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Each of 500 researchers takes a random sample and calculates an approximate 99% confidence interval for the same \u03bc. About how many of the intervals would not contain \u03bc?",
+   "imageRef": null,
+   "options": [
+    "1",
+    "50",
+    "495",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "About 1% of 99% intervals miss \u03bc, and 1% of 500 is 5. The value 495 is the number expected to contain \u03bc. Intervals vary between samples, so a few always miss.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0029",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A researcher calculates one approximate 95% confidence interval for \u03bc, (12.4, 15.6). Which statement is correct?",
+   "imageRef": null,
+   "options": [
+    "This interval either contains \u03bc or it does not; 95% describes how often the method succeeds",
+    "There is a 95% probability that \u03bc lies between 12.4 and 15.6 for this particular interval",
+    "95% of all sample means from this population lie between 12.4 and 15.6",
+    "If the study were repeated, 95% of new sample means would fall between 12.4 and 15.6"
+   ],
+   "correctIndex": 0,
+   "explanation": "\u03bc is fixed, so a particular interval either captures it or not. The 95% confidence refers to the long-run proportion of intervals, from repeated sampling, that contain \u03bc. New sample means are centred on \u03bc, not on this x\u0304, so statements about them using this interval are wrong.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0030",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A 95% confidence interval for the mean life of a battery is (9.6, 10.4) hours. The manufacturer claims the mean life is 11 hours. Which conclusion is reasonable?",
+   "imageRef": null,
+   "options": [
+    "The interval proves that no battery ever lasts 11 hours",
+    "The interval supports the claim, since 95% of batteries last at least 10.4 hours",
+    "The interval does not support the claim, since 11 lies above every plausible value",
+    "The interval supports the claim, since 11 is close to the upper limit of 10.4"
+   ],
+   "correctIndex": 2,
+   "explanation": "The interval gives plausible values for the mean life, and 11 hours is outside it, so the data do not support the claim. The interval is about the mean, not individual batteries, some of which may well last longer than 11 hours.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0031",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A sample of 64 adults has x\u0304 = 170 cm and s = 8 cm, and heights are approximately normal. Which interval would contain about 95% of individual adults' heights?",
+   "imageRef": null,
+   "options": [
+    "(154.3, 185.7)",
+    "(168.0, 172.0)",
+    "(162.0, 178.0)",
+    "(169.0, 171.0)"
+   ],
+   "correctIndex": 0,
+   "explanation": "About 95% of values of a normal variable lie within 1.96 standard deviations of the mean: 170 \u00b1 1.96 \u00d7 8 = (154.3, 185.7). The interval (168.0, 172.0) uses s/\u221an = 1 and is the 95% confidence interval for \u03bc.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0032",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A sample of 64 adults has x\u0304 = 170 cm and s = 8 cm. Why is the 95% confidence interval for \u03bc much narrower than an interval containing 95% of individual heights?",
+   "imageRef": null,
+   "options": [
+    "It is centred on a different value from the interval for individuals",
+    "It uses s/\u221an = 1 for the variation of the mean, not s = 8 for individuals",
+    "It uses a smaller z value than the interval for individual heights",
+    "It contains only the heights of the 64 adults in the sample"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both intervals are centred on 170 and use z = 1.96. The confidence interval describes the uncertainty in estimating \u03bc, which depends on s/\u221an = 8/8 = 1, while individual heights vary with standard deviation about 8.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0033",
+   "topicId": "spec-qce-sample-means",
+   "stem": "In the approximate confidence interval x\u0304 \u00b1 z s/\u221an, the sample standard deviation s is used because:",
+   "imageRef": null,
+   "options": [
+    "s does not depend on the sample that is taken",
+    "\u03c3 applies only to small samples, below 30",
+    "the population standard deviation \u03c3 is usually unknown",
+    "s is always larger than \u03c3, which makes the interval safe"
+   ],
+   "correctIndex": 2,
+   "explanation": "In practice \u03c3 is rarely known, so it is estimated by s from the same sample. For large samples, s is a good estimate of \u03c3. Like x\u0304, s varies from sample to sample.",
+   "difficulty": 1,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0034",
+   "topicId": "spec-qce-sample-means",
+   "stem": "Three researchers each take a random sample of 50 from the same population and calculate a 95% confidence interval for \u03bc. Their intervals differ. This is because:",
+   "imageRef": null,
+   "options": [
+    "x\u0304 and s vary between random samples",
+    "\u03bc varies between random samples",
+    "at least two of the researchers made an error",
+    "the confidence level varies between samples"
+   ],
+   "correctIndex": 0,
+   "explanation": "Each sample gives its own x\u0304 and s, so each interval has a different centre and width. The parameter \u03bc is fixed. Variation between intervals is expected, which is why most but not all contain \u03bc.",
+   "difficulty": 2,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0035",
+   "topicId": "spec-qce-sample-means",
+   "stem": "A population has \u03bc = 50 and \u03c3 = 10. For a random sample of size 25, Pr(48 < X\u0304 < 53) is about:",
+   "imageRef": null,
+   "options": [
+    "0.910",
+    "0.775",
+    "0.197",
+    "0.533"
+   ],
+   "correctIndex": 1,
+   "explanation": "The standard deviation of X\u0304 is 10/\u221a25 = 2, so the z values are (48 \u2212 50)/2 = \u22121 and (53 \u2212 50)/2 = 1.5. Pr(\u22121 < Z < 1.5) \u2248 0.933 \u2212 0.159 = 0.775. Using \u03c3 = 10 gives z values \u22120.2 and 0.3 and about 0.197.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0036",
+   "topicId": "spec-qce-sample-means",
+   "stem": "An approximate 95% confidence interval for \u03bc is (20.1, 23.9). Using the same sample, the approximate 99% confidence interval is about:",
+   "imageRef": null,
+   "options": [
+    "(19.10, 24.90)",
+    "(21.03, 22.97)",
+    "(19.50, 24.50)",
+    "(20.41, 23.59)"
+   ],
+   "correctIndex": 2,
+   "explanation": "x\u0304 = 22 and E = 1.9 = 1.96 \u00d7 s/\u221an, so s/\u221an \u2248 0.969. For 99%, E \u2248 2.576 \u00d7 0.969 \u2248 2.50, giving (19.50, 24.50). The interval (20.41, 23.59) uses 1.645, which gives a 90% interval.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  },
+  {
+   "id": "spec-qce-sample-means-0037",
+   "topicId": "spec-qce-sample-means",
+   "stem": "With n = 64, an approximate 95% confidence interval for \u03bc has margin of error 3. With the same s and confidence level, the margin of error for n = 144 is:",
+   "imageRef": null,
+   "options": [
+    "1.33",
+    "4.5",
+    "2.5",
+    "2"
+   ],
+   "correctIndex": 3,
+   "explanation": "E is proportional to 1/\u221an, so the new margin is 3 \u00d7 \u221a64/\u221a144 = 3 \u00d7 8/12 = 2. Scaling by 64/144 instead of the square roots gives 1.33.",
+   "difficulty": 3,
+   "tier": "core",
+   "generationBatch": "sen-spec-qce-sample-means-20261116",
+   "reviewStatus": "doubleChecked",
+   "scope": "curriculum"
+  }
+ ]
+}
